@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "yarn build && git add out/ && git commit -m \"deploy: gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "googleapis": "^97.0.0",
