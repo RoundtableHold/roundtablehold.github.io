@@ -10,13 +10,49 @@ const api = google.sheets({ auth, version: "v4" });
 export interface SheetSchema {
   title: string;
   startsAt: number;
-  data?: Record<string, string>[];
-  schema: { name: string; inherits?: boolean }[];
+  groupBy?: ColumnKey;
+  schema: { name: ColumnKey; inherits?: boolean }[];
 }
+
+type ColumnKey = keyof AbovegroundBoss;
+
+export interface DataSource {
+  aboveground_bosses: {
+    _meta: SheetSchema;
+    data: { [area: string]: AbovegroundBoss[] };
+  };
+}
+
+interface AbovegroundBoss {
+  area: string;
+  name: string;
+  location: string;
+  notes?: string;
+}
+
+const Categories = ["aboveground_bosses"] as const;
+
+type Category = typeof Categories[number];
+
+const MasterList: Record<Category, SheetSchema> = {
+  aboveground_bosses: {
+    title: "ABOVEGROUND BOSSES",
+    startsAt: 3,
+    groupBy: "area",
+    schema: [
+      { name: "area", inherits: true },
+      { name: "name" },
+      { name: "location" },
+      { name: "notes" },
+    ],
+  },
+};
 
 export class Sheet {
   id: string;
-  spreadsheet: sheets_v4.Schema$Spreadsheet;
+  private spreadsheet: sheets_v4.Schema$Spreadsheet;
+
+  data: Record<Category, DataSource[Category]>;
 
   constructor(id: string) {
     this.id = id;
@@ -29,52 +65,47 @@ export class Sheet {
         includeGridData: true,
       })
     ).data;
-  }
 
-  public async getFormattedData() {
-    const sheets: SheetSchema[] = [
-      {
-        title: "ABOVEGROUND BOSSES",
-        startsAt: 3,
-        schema: [
-          { name: "area", inherits: true },
-          { name: "name" },
-          { name: "location" },
-          { name: "notes" },
-        ],
-      },
-    ];
+    // @ts-ignore
+    this.data = {};
 
-    for (let i = 0; i < sheets.length; i++) {
-      sheets[i].data = await this.get(sheets[i]);
+    for (const category of Categories) {
+      const schema = MasterList[category];
+      this.data[category] = {
+        _meta: schema,
+        data: await this.get(schema),
+      };
     }
-
-    return sheets;
   }
 
-  async get(schema: SheetSchema) {
+  async get(schema: SheetSchema): Promise<DataSource[Category]["data"]> {
     const sheet = this.spreadsheet.sheets.find(
       (sheet) => sheet.properties.title === schema.title
     );
 
-    const response = [];
+    const response: Record<string, DataSource[Category]["data"][string]> = {};
 
     if (sheet) {
       const data = sheet.data[0].rowData;
       const inherits: Record<string, any> = {};
       for (let i = schema.startsAt; i < data.length; i++) {
-        const entry: any = {};
+        const entry: Map<ColumnKey, string | null> = new Map();
         const row = data[i].values;
+
         schema.schema.forEach((shape, index) => {
           let value = row[index].effectiveValue;
+
           if (shape.inherits) {
             if (!value) value = inherits[shape.name];
             else inherits[shape.name] = value;
           }
 
-          entry[shape.name] = value?.stringValue ?? null;
+          entry.set(shape.name, value?.stringValue ?? null);
         });
-        response.push(entry);
+        const group = entry.get(schema.groupBy);
+        if (schema.groupBy && !response[group]) response[group] = [];
+
+        response[group].push(Object.fromEntries(entry) as any);
       }
     }
     return response;
