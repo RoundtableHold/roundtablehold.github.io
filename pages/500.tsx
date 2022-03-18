@@ -2,13 +2,15 @@ import type { GetStaticProps, NextPage } from "next";
 import { defaultGetStaticProps } from "src/util/gapi";
 import { LayoutProps } from "./_app";
 
-interface Props extends LayoutProps {}
+interface Props extends LayoutProps {
+  statusCode?: number;
+}
 
-const Home: NextPage<Props> = ({ children }) => {
-  return <div>{children}</div>;
+const ServerError: NextPage<Props> = ({ children }) => {
+  return <div>Something went wrong...</div>;
 };
 
-export default Home;
+export default ServerError;
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   return defaultGetStaticProps();

@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body,
+#__next {
+  @apply bg-stone-900 text-stone-50 h-full w-full;
+}
+
+#__next {
+  @apply flex flex-col p-4;
 }
 
 a {

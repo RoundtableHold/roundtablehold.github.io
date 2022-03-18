@@ -8,35 +8,51 @@ const auth = new google.auth.GoogleAuth({
 const api = google.sheets({ auth, version: "v4" });
 
 export interface SheetSchema {
+  id: Category;
   title: string;
   startsAt: number;
   groupBy?: ColumnKey;
   schema: { name: ColumnKey; inherits?: boolean }[];
 }
 
-type ColumnKey = keyof AbovegroundBoss;
+type ColumnKey = keyof Boss;
 
 export interface DataSource {
-  aboveground_bosses: {
+  "aboveground-bosses": {
     _meta: SheetSchema;
-    data: { [area: string]: AbovegroundBoss[] };
+    data: { [area: string]: Boss[] };
+  };
+  "underground-bosses": {
+    _meta: SheetSchema;
+    data: { [area: string]: Boss[] };
   };
 }
 
-interface AbovegroundBoss {
+interface Boss {
   area: string;
   name: string;
   location: string;
   notes?: string;
 }
 
-const Categories = ["aboveground_bosses"] as const;
+export const Categories = ["aboveground-bosses", "underground-bosses"] as const;
 
-type Category = typeof Categories[number];
+export type Category = typeof Categories[number];
 
-const MasterList: Record<Category, SheetSchema> = {
-  aboveground_bosses: {
+export const MasterList: Record<Category, Omit<SheetSchema, "id">> = {
+  "aboveground-bosses": {
     title: "ABOVEGROUND BOSSES",
+    startsAt: 3,
+    groupBy: "area",
+    schema: [
+      { name: "area", inherits: true },
+      { name: "name" },
+      { name: "location" },
+      { name: "notes" },
+    ],
+  },
+  "underground-bosses": {
+    title: "UNDERGROUND BOSSES",
     startsAt: 3,
     groupBy: "area",
     schema: [
@@ -48,11 +64,15 @@ const MasterList: Record<Category, SheetSchema> = {
   },
 };
 
-export class Sheet {
+class Sheet {
   id: string;
   private spreadsheet: sheets_v4.Schema$Spreadsheet;
 
-  data: Record<Category, DataSource[Category]>;
+  data: Partial<DataSource> = {};
+
+  working?: boolean = false;
+
+  done: Promise<void>;
 
   constructor(id: string) {
     this.id = id;
@@ -66,19 +86,16 @@ export class Sheet {
       })
     ).data;
 
-    // @ts-ignore
-    this.data = {};
-
     for (const category of Categories) {
       const schema = MasterList[category];
       this.data[category] = {
-        _meta: schema,
-        data: await this.get(schema),
+        _meta: { ...schema, id: category },
+        data: this.get(schema),
       };
     }
   }
 
-  async get(schema: SheetSchema): Promise<DataSource[Category]["data"]> {
+  get(schema: Omit<SheetSchema, "id">): DataSource[Category]["data"] {
     const sheet = this.spreadsheet.sheets.find(
       (sheet) => sheet.properties.title === schema.title
     );
@@ -113,3 +130,14 @@ export class Sheet {
 }
 
 export const sheet = new Sheet(process.env.SHEET_ID);
+
+export const defaultGetStaticProps = () => {
+  return {
+    props: {
+      sections: Categories.map((category) => ({
+        ...MasterList[category],
+        id: category,
+      })),
+    },
+  };
+};
