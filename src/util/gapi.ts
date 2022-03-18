@@ -1,4 +1,11 @@
 import { google, sheets_v4 } from "googleapis";
+import {
+  Categories,
+  Category,
+  ColumnKey,
+  DataSource,
+  SheetSchema,
+} from "./types";
 
 const auth = new google.auth.GoogleAuth({
   keyFile: process.env.CREDENTIAL_FILE,
@@ -6,38 +13,6 @@ const auth = new google.auth.GoogleAuth({
 });
 
 const api = google.sheets({ auth, version: "v4" });
-
-export interface SheetSchema {
-  id: Category;
-  title: string;
-  startsAt: number;
-  groupBy?: ColumnKey;
-  schema: { name: ColumnKey; inherits?: boolean }[];
-}
-
-type ColumnKey = keyof Boss;
-
-export interface DataSource {
-  "aboveground-bosses": {
-    _meta: SheetSchema;
-    data: { [area: string]: Boss[] };
-  };
-  "underground-bosses": {
-    _meta: SheetSchema;
-    data: { [area: string]: Boss[] };
-  };
-}
-
-interface Boss {
-  area: string;
-  name: string;
-  location: string;
-  notes?: string;
-}
-
-export const Categories = ["aboveground-bosses", "underground-bosses"] as const;
-
-export type Category = typeof Categories[number];
 
 export const MasterList: Record<Category, Omit<SheetSchema, "id">> = {
   "aboveground-bosses": {
