@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { SheetSchema } from "src/util/gapi";
+import { SheetSchema } from "src/util/types";
 import Link from "next/link";
 
 export interface LayoutProps {
