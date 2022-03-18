@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/Roundtable-Hold/tracker/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/Roundtable-Hold/tracker/actions/workflows/pages/pages-build-deployment)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
