@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: Props) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex gap-8 mb-4">
+      <header className="flex gap-8 mb-8 border-b border-stone-500 pb-4 text-stone-100 tracking-wide underline">
         {pageProps.sections.map((section) => (
           <Link key={section.id} href={`/${section.id}`}>
             {section.title}
