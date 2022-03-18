@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: Props) {
         <title>Roundtable Tracker</title>
         <meta
           name="description"
-          content="The ultimate tool for Elden Ring completionists"
+          content="The comprehensive Elden Ring checklist, made for completionists, by completionists."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
