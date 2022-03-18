@@ -78,13 +78,29 @@ class Sheet {
     this.id = id;
   }
 
-  async init() {
+  async init(category?: Category) {
+    let ranges: string[] = [];
+    let schema: Omit<SheetSchema, "id">;
+    if (category) {
+      schema = MasterList[category];
+      ranges.push(schema.title);
+    }
+
     this.spreadsheet = (
       await api.spreadsheets.get({
         spreadsheetId: this.id,
         includeGridData: true,
+        ranges: ranges,
       })
     ).data;
+
+    if (category) {
+      this.data[category] = {
+        _meta: { ...schema, id: category },
+        data: this.get(schema),
+      };
+      return;
+    }
 
     for (const category of Categories) {
       const schema = MasterList[category];

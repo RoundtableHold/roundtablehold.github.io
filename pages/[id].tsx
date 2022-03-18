@@ -73,7 +73,7 @@ export const getStaticProps: GetStaticProps<Props, { id: Category }> = async (
   context
 ) => {
   const id = context.params.id;
-  await sheet.init();
+  await sheet.init(id);
 
   return {
     props: {
