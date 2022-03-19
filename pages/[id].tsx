@@ -45,12 +45,12 @@ const Section: NextPage<Props> = ({ sheet: { _meta, data } }) => {
         </thead>
         {Object.keys(data).map((area) => (
           <tbody key={area} className="border-b border-stone-300 relative">
-            {data[area].map((boss, i) => (
+            {data[area].map(({ id, ...boss }, i) => (
               <Row
                 i={i}
-                key={`${area}_${boss.name}`}
-                id={`${area}_${boss.name}`}
-                checked={state[`${area}_${boss.name}`] ?? false}
+                key={id}
+                id={id}
+                checked={state[id] ?? false}
                 groupedColumn={_meta.groupBy}
                 groupedRowSpan={data[area].length}
                 data={boss}

@@ -3,7 +3,7 @@ export interface SheetSchema {
   title: string;
   startsAt: number;
   groupBy?: ColumnKey;
-  schema: { name: ColumnKey; inherits?: boolean }[];
+  schema: { name: ColumnKey; inherits?: boolean; appendId?: boolean }[];
 }
 
 export type ColumnKey = keyof Boss;
@@ -20,6 +20,7 @@ export interface DataSource {
 }
 
 interface Boss {
+  id: string; // area_name(_i)?
   area: string;
   name: string;
   location: string;

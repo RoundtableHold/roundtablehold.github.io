@@ -20,8 +20,8 @@ export const MasterList: Record<Category, Omit<SheetSchema, "id">> = {
     startsAt: 3,
     groupBy: "area",
     schema: [
-      { name: "area", inherits: true },
-      { name: "name" },
+      { name: "area", inherits: true, appendId: true },
+      { name: "name", appendId: true },
       { name: "location" },
       { name: "notes" },
     ],
@@ -31,8 +31,8 @@ export const MasterList: Record<Category, Omit<SheetSchema, "id">> = {
     startsAt: 3,
     groupBy: "area",
     schema: [
-      { name: "area", inherits: true },
-      { name: "name" },
+      { name: "area", inherits: true, appendId: true },
+      { name: "name", appendId: true },
       { name: "location" },
       { name: "notes" },
     ],
@@ -96,6 +96,10 @@ class Sheet {
     if (sheet) {
       const data = sheet.data[0].rowData;
       const inherits: Record<string, any> = {};
+
+      // Ensure that each ID is unique (id is used to track checkbox state)
+      const generatedIds: Record<string, number> = {};
+
       for (let i = schema.startsAt; i < data.length; i++) {
         const entry: Map<ColumnKey, string | null> = new Map();
         const row = data[i].values;
@@ -110,6 +114,17 @@ class Sheet {
 
           entry.set(shape.name, value?.stringValue ?? null);
         });
+
+        // Generate the id
+        let id = schema.schema
+          .filter((s) => s.appendId)
+          .map((s) => entry.get(s.name))
+          .join("_");
+        if (generatedIds[id]) id += `_${generatedIds[id]++}`;
+        else generatedIds[id] = 1;
+
+        entry.set("id", id);
+
         const group = entry.get(schema.groupBy);
         if (schema.groupBy && !response[group]) response[group] = [];
 
