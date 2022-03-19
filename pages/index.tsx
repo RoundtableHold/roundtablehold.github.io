@@ -49,6 +49,12 @@ const Home: NextPage<Props> = ({ children }) => {
         <strong className="text-red-500">@Redmega</strong> from the Roundtable
         Hold Discord. Thanks for all of your hard work!
       </p>
+      <p className="mb-4 leading-relaxed bg-stone-800 px-4 py-2 shadow text-center">
+        We apologize for any issues that might come about as we update the
+        checklist and iron out bugs and other issues. We will do our best to
+        ensure that such issues remain few and far between and that your
+        experience remains as smooth as possible.
+      </p>
     </div>
   );
 };
