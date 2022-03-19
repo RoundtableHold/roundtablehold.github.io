@@ -48,9 +48,9 @@ const Section: NextPage<Props> = ({ sheet: { _meta, data } }) => {
             {data[area].map((boss, i) => (
               <Row
                 i={i}
-                key={`${i}_${boss.name}`}
-                id={`${i}_${boss.name}`}
-                checked={state[`${i}_${boss.name}`] ?? false}
+                key={`${area}_${boss.name}`}
+                id={`${area}_${boss.name}`}
+                checked={state[`${area}_${boss.name}`] ?? false}
                 groupedColumn={_meta.groupBy}
                 groupedRowSpan={data[area].length}
                 data={boss}
