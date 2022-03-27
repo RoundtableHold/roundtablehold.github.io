@@ -31,9 +31,16 @@ Eeach section on a page starts like this:
     num: 1
     items:
       - [1, "f_weap", "Dagger"]
-      - [2, "f_weap", "You can make tables", "By having multiple entries", "Like this"]
       - [3, "f_weap", "You can embed links like this: <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\"Black Knife</a>"]
+      - "You can put arbitrary text inbetween the checklists like this"
       - [4, "f_weap", "You can put any html in here, <b>Bold!</b>, <i>Italic</i>, etc."]
+  -
+    title: "Table example"
+    id: table_example
+    num: 2
+    table: ["Column 1", "Column 2", "Column 3"] # If you don't want the table to have headers put "table: 3" instead where 3 is the number of columns
+    items:
+      - [1, "", "Include a string for each column", "This is going in the second column", "And this the third"]
 ```
 
 All ids have to be unique and the `num:` field also has to be unique. Within an item the first number has to be uinque as well. If you are adding a new line find the biggest number in that section and increase it by 1. The numbers do not have to be in order and you should not ever change an existing number because it will break everyones saved progress.
