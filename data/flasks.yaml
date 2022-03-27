@@ -1,0 +1,87 @@
+title: Flasks
+id: flasks
+sections:
+  -
+    title: "Golden Seeds"
+    id: golden_seeds_flasks
+    num: 1
+    items:
+      - "Weeping Peninsula"
+      - [1, "f_seed", "Under a Golden Tree south of Castle Morne Rampart Grace"]
+      - "Limgrave"
+      - [2, "f_seed", "Can choose one as a Keepsake"]
+      - [3, "f_seed", "Under a Golden Tree on the path to Stormveil Castle"]
+      - [4, "f_seed", "Reward for finishing Roderika's quest, can otherwise be found at her shack"]
+      - [5, "f_seed", "Under Golden Tree in front of Fort Haight"]
+      - [6, "f_seed", "Drops from Kenneth Haight if killed"]
+      - [7, "f_seed", "Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
+      - [8, "f_seed", "Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
+      - "Liurnia of the Lakes"
+      - [9, "f_seed", "Under a Golden Tree in Academy Gate Town"]
+      - [10, "f_seed", "Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
+      - [11, "f_seed", "Under a Golden Tree west side of Raya Lucaria Academy courtyard"]
+      - [12, "f_seed", "Under a Golden Tree in Caria Manor's upper level."]
+      - [13, "f_seed", "Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice"]
+      - "Caelid"
+      - [14, "f_seed", "under a Golden Tree near the three way crossroad leading to Castle Redmane"]
+      - [15, "f_seed", "under a Golden Tree in the upper area of Sellia, Town of Sorcery"]
+      - [16, "f_seed", "under a Golden Tree, south of Bestial Sanctum"]
+      - [17, "f_seed", "reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)"]
+      - "Altus Plateau"
+      - [18, "f_seed", "under a Golden Tree near Erdtree-Grazing Hill Grace"]
+      - [19, "f_seed", "under a Golden Tree north of Altus Highway Junction"]
+      - [20, "f_seed", "under a Golden Tree near the Minor Erdtree"]
+      - [21, "f_seed", "under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"]
+      - "Leyndell, Royal Capital"
+      - [22, "f_seed", "under a large Golden Tree near the Outer Wall Phantom Tree Grace"]
+      - [23, "f_seed", "under the same Golden Tree mentioned above"]
+      - [24, "f_seed", "under a large Golden Tree north of the Outer Wall Phantom Tree Grace"]
+      - [25, "f_seed", "under the same Golden Tree mentioned above"]
+      - [26, "f_seed", "reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace"]
+      - [27, "f_seed", "under a Golden Tree south of the West Capital Rampart Grace"]
+      - [28, "f_seed", "reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"]
+      - "Mt. Gelmir"
+      - [29, "f_seed", "under a Golden Tree in the ravine, near Gelmir Hero's Grave"]
+      - [30, "f_seed", "under a Golden Tree, northwest of Road of Iniquity"]
+      - "Mountaintops of the Giants"
+      - [31, "f_seed", "under a Golden Tree, on the way to the Grand Lift of Rold"]
+      - [32, "f_seed", "reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs"]
+      - [33, "f_seed", "under a Golden Tree, northwest of the Foot of the Forge Grace"]
+      - [34, "f_seed", "under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem"]
+      - "Consecrated Snowfield"
+      - [35, "f_seed", "under a Golden Tree, south of Inner Consecrated Snowfield Grace"]
+      - [36, "f_seed", "under a Golden Tree, west of Ordina, Liturgical Town"]
+      - "Crumbling Farum Azula"
+      - [37, "f_seed", "under a Golden Tree in the middle of the Dragon Temple"]
+      - [38, "f_seed", "under a Golden Tree, southeast of Dragon Temple Rooftop Grace"]
+      - "Siofra River"
+      - [39, "f_seed", "under a Golden Tree in the upper area of Siofra River, accessible via waygate"]
+      - "Mohgwyn Palace"
+      - [40, "f_seed", "under a Golden Tree in the middle of the lake, surrounded by giant birds"]
+      - "Ainsel River"
+      - [41, "f_seed", "under a Golden Tree in the northwest of Ainsel River, accessible via elevator"]
+      - "Lake of Rot"
+      - [42, "f_seed", "reward for defeating Putrid Tree Spirit in Lake of Rot"]
+  -
+    title: "Sacred Tears"
+    id: sacred_tears_flasks
+    num: 2
+    items:
+      - "Weeping Peninsula"
+      - [1, "f_tear", "Callu Baptismal Church, in the middle of the Weeping Peninsula"]
+      - [2, "f_tear", "Church of Pilgrimage, north of Weeping Peninsula"]
+      - [3, "f_tear", "Fourth Church of Marika, west of Weeping Peninsula"]
+      - "Limgrave"
+      - [4, "f_tear", "Third Church of Marika, in East Limgrave"]
+      - "Liurnia of the Lakes"
+      - [5, "f_tear", "Church of Irith, southern part of Liurnia of the Lakes"]
+      - [6, "f_tear", "Bellum Church, on the way to the Grand Lift of Dectus"]
+      - [7, "f_tear", "Church of Inhibition, northeast of Bellum Highway Forest"]
+      - "Caelid"
+      - [8, "f_tear", "Church of Plague, accessible through Sellia, Town of Sorcery"]
+      - "Altus Plateau"
+      - [9, "f_tear", "Second Church of Marika, north of Altus Highway Junction Grace"]
+      - [10, "f_tear", "Stormcaller Church, west of Rampartside Path Gace"]
+      - "Mountaintops of the Giants"
+      - [11, "f_tear", "Church of Repose, east of Grand Lift of Rold"]
+      - [12, "f_tear", "First Church of Marika, southeastern most part of Mountaintops of the Giants"]

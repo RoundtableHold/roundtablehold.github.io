@@ -1,36 +1,79 @@
-[![pages-build-deployment](https://github.com/Roundtable-Hold/tracker/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/Roundtable-Hold/tracker/actions/workflows/pages/pages-build-deployment)
+# Elden Ring Cheat Sheet
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+To view the cheat sheet [click here](https://roundtable-hold.github.io/tracker/).
 
-## Getting Started
+This checklist was created by adopting the source code from the [Dark Souls 3 Cheat Sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) created by [ZKjellberg](https://github.com/zkjellberg).
 
-First, run the development server:
+The walkthrough is thanks to [Athrek](https://www.reddit.com/r/Roundtable_Guides/comments/tiouti/guide_to_the_intended_route_through_the_game/).
 
-```bash
-npm run dev
-# or
-yarn dev
+## Contribution Guide
+
+If you are interested in contributing to this guide, please do so. Follow this step by step guide and reach out to me on discord if you have any questions Azy#9592
+
+1. Make a github account.
+2. Download and install [Github Desktop](https://desktop.github.com/) and then sign in with your github account.
+3. Then you will need to fork this project. That will create your own project that you download and make changes to. Later you'll submit a request to bring those changes back here and onto the website. To fork this project click the fork button on the top right of the page.
+4. All information for the website is stored in `data`. Each `.yaml` file is a different page. You can either add to existing files are create a new one. Don't edit `index.html` as that is automatically generated based off of the stuff in `data`. The data has to be in a specific format:
+
+Each page of the site starts like this:
+```yaml
+title: "Weapons"
+id: weapons
+sections:
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Eeach section on a page starts like this:
+```yaml
+  -
+    title: "Daggers"
+    id: daggers
+    link: "https://eldenring.wiki.fextralife.com/Daggers"
+    num: 1
+    items:
+      - [1, "f_weap", "Dagger"]
+      - [2, "f_weap", "You can make tables", "By having multiple entries", "Like this"]
+      - [3, "f_weap", "You can embed links like this: <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\"Black Knife</a>"]
+      - [4, "f_weap", "You can put any html in here, <b>Bold!</b>, <i>Italic</i>, etc."]
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+All ids have to be unique and the `num:` field also has to be unique. Within an item the first number has to be uinque as well. If you are adding a new line find the biggest number in that section and increase it by 1. The numbers do not have to be in order and you should not ever change an existing number because it will break everyones saved progress.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The second field in an item (e.g. `"f_weap"`) is used for the filtering system. The full list of filter classes is:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+| Class   | Description |
+|---      |--- |
+| f_boss  | Boss fights |
+| f_miss  | Content that can be permanently missed |
+| f_npc   | NPC side quests |
+| f_seed | Golden Seeds |
+| f_tear  | Sacred Tears |
+| f_tome  | Sorcery Scrolls, Pyromancy Tomes, and Divine Tomes |
+| f_gest  | Gestures |
+| f_sorc  | Sorceries |
+| f_mirac | Miracles |
+| f_talisman  | Talismans |
+| f_weap  | Weapons, Spell Tools, and Shields |
+| f_arm   | Armor Sets or individual pieces |
+| f_stone   | Weapon Upgrade Stones |
+| f_ash   | Ashes of War |
+| f_spirit   | Spirit Ashes |
+| f_misc  | *any other items* |
 
-## Learn More
+If none of these filter classes match, use `""`, or consider adding a new one.
 
-To learn more about Next.js, take a look at the following resources:
+In addition to the filter classes, there is a second type of classes used to control the visibility of entries based on which playthrough the user is on:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Class  | Description |
+|---     |--- |
+| h_ng+  | items hidden on NG+ and beyond, e.g., Ashen Estus Flask |
+| s_ng+  | items shown on NG+ and beyond, e.g., +1 rings |
+| s_ng++ | items shown on NG++ and beyond, e.g., +2 rings |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Once you are done with your changes open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
+6. Push the button in the bottom left that says "Commit to gh-pages"
+7. Push the button in the top right that says "Push origin"
+8. Go to Branch -> Create Pull Request
+9. In the webpage that opens describe your changes and why you want them published to the website
+10. Hit create pull request
+11. I will look them over and add them to the website if they are good.
+12. Thanks for contributing!
