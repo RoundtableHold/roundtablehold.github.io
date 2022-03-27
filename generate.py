@@ -17,35 +17,25 @@ def to_snake_case(name):
     name = re.sub('([a-z0-9])([A-Z])', r'\1_\2', name)
     return name.lower()
 
-yaml_files_guides = ['walkthrough.yaml', 'quests.yaml']
-yaml_files_locations = ['bosses.yaml', 'legacy_dungeons.yaml', 'caves.yaml', 'evergaols.yaml']
-yaml_files_checklists = ['flasks.yaml', 'legendaries.yaml', 'weapons.yaml', 'sorceries.yaml', 'bell_bearings.yaml', 'cookbooks.yaml']
-guides = []
-locations = []
-checklists = []
+dropdowns = []
 pages = []
-for yaml_file in yaml_files_guides:
-    with open(os.path.join('data', yaml_file), 'r') as data:
-        yml = yaml.safe_load(data)
-        pages.append(yml)
-        guides.append((yml['title'], yml['id']))
-for yaml_file in yaml_files_locations:
-    with open(os.path.join('data', yaml_file), 'r') as data:
-        yml = yaml.safe_load(data)
-        pages.append(yml)
-        locations.append((yml['title'], yml['id']))
-for yaml_file in yaml_files_checklists:
-    with open(os.path.join('data', yaml_file), 'r') as data:
-        yml = yaml.safe_load(data)
-        pages.append(yml)
-        checklists.append((yml['title'], yml['id']))
+with open('pages.yaml', 'r') as pages_yaml:
+    yml = yaml.safe_load(pages_yaml)
+    for dropdown in yml['dropdowns']:
+        dropdown_ids = []
+        for page in dropdown['pages']:
+            with open(os.path.join('data', page), 'r') as data:
+                yml = yaml.safe_load(data)
+                pages.append(yml)
+                dropdown_ids.append((yml['title'], yml['id']))
+        dropdowns.append((dropdown['name'], dropdown_ids))
 
 page_ids = set()
 section_ids = set()
 for page in pages:
     if page['id'] in page_ids:
         print("Duplicate page id '" + page['id'] + "' found. All page ids must be unique.")
-        quit()
+        quit(1)
     else:
         page_ids.add(page['id'])
 
@@ -53,12 +43,12 @@ for page in pages:
     for section in page['sections']:
         if section['id'] in section_ids:
             print("Duplicate section id '" + section['id'] + "' found in page '" + page['id'] + "'. All section ids must be unique.")
-            quit()
+            quit(1)
         else:
             section_ids.add(section['id'])
         if section['num'] in section_nums:
             print("Duplicate section num '" + str(section['num']) + "' found in page '" + page['id'] + "'. All section nums must be unique.")
-            quit()
+            quit(1)
         else:
             section_nums.add(section['num'])
         item_nums = set()
@@ -68,7 +58,7 @@ for page in pages:
                 continue
             if item[0] in item_nums:
                 print("Duplicate item num '" + str(item[0]) + "' in section '" + section['id'] + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
-                quit()
+                quit(1)
             else:
                 item_nums.add(item[0])
             if isinstance(items.peek([0])[0], list):
@@ -77,7 +67,7 @@ for page in pages:
                 for subitem in item:
                     if subitem[0] in sub_item_nums:
                         print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + section['id'] + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
-                        quit()
+                        quit(1)
                     else:
                         sub_item_nums.add(subitem[0])
 
@@ -108,7 +98,7 @@ with doc:
                 with ul(cls="nav navbar-nav"):
                     with li(cls="active"):
                         a(href="#tabMain", data_toggle="tab").add(span(cls="glyphicon glyphicon-home"))
-                    for name, l in [('Guides', guides), ('Locations', locations), ('Items', checklists)]:
+                    for name, l in dropdowns:
                         with li(cls="dropdown"):
                             a(name, cls="dropdown-toggle", href="#", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
