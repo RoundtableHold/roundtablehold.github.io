@@ -78,7 +78,7 @@ In addition to the filter classes, there is a second type of classes used to con
 
 If you added a new page you need to put your page in `pages.yaml` for it to show up.
 
-5. Once you are done with your changes double click `generate.bat` to see what it will look like. This requires you to have (python3)[https://www.python.org/downloads/] installed.
+5. Once you are done with your changes double click `generate.bat` to see what it will look like. This requires you to have [python3](https://www.python.org/downloads/) installed.
 6. If you are happy with it open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
 7. Push the button in the bottom left that says "Commit to gh-pages"
 8. Push the button in the top right that says "Push origin"
