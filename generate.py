@@ -1,3 +1,4 @@
+from math import ceil
 import os
 import yaml
 import re
@@ -17,8 +18,10 @@ def to_snake_case(name):
     return name.lower()
 
 yaml_files_guides = ['walkthrough.yaml', 'quests.yaml']
-yaml_files_checklists = ['bosses.yaml', 'flasks.yaml', 'legendaries.yaml', 'weapons.yaml', 'sorceries.yaml', 'bell_bearings.yaml', 'cookbooks.yaml']
+yaml_files_locations = ['bosses.yaml', 'legacy_dungeons.yaml', 'caves.yaml', 'evergaols.yaml']
+yaml_files_checklists = ['flasks.yaml', 'legendaries.yaml', 'weapons.yaml', 'sorceries.yaml', 'bell_bearings.yaml', 'cookbooks.yaml']
 guides = []
+locations = []
 checklists = []
 pages = []
 for yaml_file in yaml_files_guides:
@@ -26,6 +29,11 @@ for yaml_file in yaml_files_guides:
         yml = yaml.safe_load(data)
         pages.append(yml)
         guides.append((yml['title'], yml['id']))
+for yaml_file in yaml_files_locations:
+    with open(os.path.join('data', yaml_file), 'r') as data:
+        yml = yaml.safe_load(data)
+        pages.append(yml)
+        locations.append((yml['title'], yml['id']))
 for yaml_file in yaml_files_checklists:
     with open(os.path.join('data', yaml_file), 'r') as data:
         yml = yaml.safe_load(data)
@@ -100,16 +108,12 @@ with doc:
                 with ul(cls="nav navbar-nav"):
                     with li(cls="active"):
                         a(href="#tabMain", data_toggle="tab").add(span(cls="glyphicon glyphicon-home"))
-                    with li(cls="dropdown"):
-                        a("Guides", cls="dropdown-toggle", href="#", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
-                        with ul(cls="dropdown-menu"):
-                            for guide in guides:
-                                li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_toggle="tab", data_target="#tab" + guide[1] + ",#btnHideCompleted"))
-                    with li(cls="dropdown"):
-                        a("Checklists", cls="dropdown-toggle", href="#", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
-                        with ul(cls="dropdown-menu"):
-                            for guide in checklists:
-                                li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_toggle="tab", data_target="#tab" + guide[1] + ",#btnHideCompleted"))
+                    for name, l in [('Guides', guides), ('Locations', locations), ('Items', checklists)]:
+                        with li(cls="dropdown"):
+                            a(name, cls="dropdown-toggle", href="#", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
+                            with ul(cls="dropdown-menu"):
+                                for guide in l:
+                                    li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_toggle="tab", data_target="#tab" + guide[1] + ",#btnHideCompleted"))
                     with li():
                         a(href="#tabOptions", data_toggle="tab").add(span(cls="glyphicon glyphicon-cog"), " Options")
     with div(cls="container"):
@@ -159,14 +163,29 @@ with doc:
                                 br()
                                 with div(id=section['id'] + "_col", cls="collapse in", aria_expanded="true"):
                                     with table(cls="table table-striped table-sm").add(tbody()):
-                                        size = 12 // section['table']
+                                        if isinstance(section['table'], list):
+                                            table_cols = len(section['table'])
+                                            size = ceil(12 / table_cols)
+                                            with thead():
+                                                th(cls="w-auto")
+                                                for header in section['table']:
+                                                    th(header)
+                                        else:
+                                            table_cols = section['table']
+                                            size = ceil(12 / table_cols)
                                         items = peekable(section['items'])
                                         for item in items:
                                             id = str(item[0])
                                             with tr(cls="item_content form-check-label " + item[1], data_id=page['id'] + "_" + str(section['num']) + "_" + id):
-                                                th(cls="row table-checkbox").add(input_(id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
-                                                for pos in range(2, 2+section['table']):
-                                                    td(cls="col-xs-" + str(size)).add(label(raw(item[pos]), _for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label"))
+                                                th(cls="row table-checkbox w-auto").add(input_(id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
+                                                for pos in range(2, 2+table_cols):
+                                                    with td().add(label(_for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label")):
+                                                        if isinstance(item[pos], list):
+                                                            for subitem in item[pos]:
+                                                                raw(subitem)
+                                                                br()
+                                                        else:
+                                                            raw(item[pos])
                             else:
                                 with div(id=section['id'] + "_col", cls="collapse in", aria_expanded="true"):
                                     items = peekable(section['items'])
