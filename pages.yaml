@@ -1,0 +1,10 @@
+dropdowns:
+  - 
+    name: "Guides"
+    pages: ["walkthrough.yaml", "quests.yaml"]
+  -
+    name: "Locations"
+    pages: ["bosses.yaml", "legacy_dungeons.yaml", "caves.yaml", "evergaols.yaml"]
+  -
+    name: "Items"
+    pages: ["flasks.yaml", "legendaries.yaml", "weapons.yaml", "sorceries.yaml", "bell_bearings.yaml", "cookbooks.yaml"]

@@ -5,7 +5,7 @@ sections:
     title: "Weeping Peninsula"
     id: weeping_peninsula_bosses
     num: 1
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Burial Tree Watchdog", "Impaler's Catacomb", "Has imps (x4) with it.", ]
       - [2, "", "Runebear", "Earthbore Cave", "", ]
@@ -22,7 +22,7 @@ sections:
     title: "Limgrave"
     id: limgrave_bosses
     num: 2
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Soldier of Godrick", "Stranded Graveyard", "Tutorial boss.", ]
       - [2, "", "Demi-Human Chief (x2)", "Coastal Cave", "Required for Boc the Seamster's quest. Arena also has a bunch of demi-humans.", ]
@@ -57,7 +57,7 @@ sections:
     title: "Roundtable Hold"
     id: roundtable_hold_bosses
     num: 3
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Mad Tongue Alberich", "Roundtable Hold", "NPC invader. Jump off the balcony to area below and go near the large set of doors to trigger.", ]
       - [2, "", "Ensha of the Royal Remains", "Roundtable Hold", "Edgelord. Attacks you as an NPC invader after you get one half of the Haligree Secret Medallion.", ]
@@ -65,7 +65,7 @@ sections:
     title: "Liurnia of the Lakes"
     id: liurniaofthe_lakes_bosses
     num: 4
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Cleanrot Knight", "Stillwater Cave", "", ]
       - [2, "", "Bloodhound Knight", "Lakeside Crystal Cave", "", ]
@@ -109,7 +109,7 @@ sections:
     title: "Caelid"
     id: caelid_bosses
     num: 5
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Magma Wyrm", "Gael Tunnel", "", ]
       - [2, "", "Erdtree Avatar", "Minor Erdtree (West)", "", ]
@@ -143,7 +143,7 @@ sections:
     title: "Altus Plataeu"
     id: altus_plataeu_bosses
     num: 6
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Godeferoy the Grafted", "Golden Lineage Evergaol", "", ]
       - [2, "", "Night's Cavalry", "Altus Highway", "Field boss. Nighttime only.", ]
@@ -164,7 +164,7 @@ sections:
     title: "Mt. Gelmir"
     id: mt_gelmir_bosses
     num: 7
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Ancient Dragon Lansseax (Part 1)", "Abandoned Coffin (Northwest)", "Part 2 of this encounter takes place in Altus Plateau. Technically not in Mt. Gelmir, but part of Mt. Gelmir map.", ]
       - [2, "", "Misbegotten Warrior & Perfumer Tricia", "Unsightly Catacombs", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map.", ]
@@ -196,7 +196,7 @@ sections:
     title: "Leyndell, Royal Capital"
     id: leyndell_royal_capital_bosses
     num: 8
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Ulcerated Tree Spirit", "Capital Outskirts (Southwest)", "Field boss.", ]
       - [2, "", "Valiant Gargoyle", "Leyndell Entrance", "", ]
@@ -220,7 +220,7 @@ sections:
     title: "Mountaintops of the Giants"
     id: mountaintopsofthe_giants_bosses
     num: 9
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Night's Cavalry", "Forbidden Lands", "Field boss. Nighttime only.", ]
       - [2, "", "Black Blade Kindred", "Grand Lift of Rold", "", ]
@@ -239,7 +239,7 @@ sections:
     title: "Consecrated Snowfield"
     id: consecrated_snowfield_bosses
     num: 10
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "", ]
       - [2, "", "Night's Cavalry (x2)", "Snowfields Wagon", "Field boss. Nighttime only.", ]
@@ -256,7 +256,7 @@ sections:
     title: "Crumbling Farum Azula"
     id: crumbling_farum_azula_bosses
     num: 11
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Wormface", "Crumbling Farum Azula (Southwest)", "Field boss.", ]
       - [2, "", "Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "", ]
@@ -268,7 +268,7 @@ sections:
     title: "Leyndell, Ashen Capital"
     id: leyndell_ashen_capital_bosses
     num: 12
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Sir Gideon Ofnir", "Erdtree Sanctuary", "Required.", ]
       - [2, "", "Godfrey, First Elden Lord", "Elden Throne", "Required.", ]
@@ -278,7 +278,7 @@ sections:
     title: "Siofra River"
     id: siofra_river_bosses
     num: 13
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Dragonkin Soldier", "Siofra River (Cliffs)", "Field boss. Is accessible by taking a waygate in the eastern part of Siofra River.", ]
       - [2, "", "Ancestor Spirit", "Hallowhorn Grounds", "You need to light eight braziers around Siofra River to activate him.", ]
@@ -286,7 +286,7 @@ sections:
     title: "Nokron, Eternal City"
     id: nokron_eternal_city_bosses
     num: 14
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Mimic Tear", "Nokron, Eternal City", "", ]
       - [2, "", "Regal Ancestor Spirit", "Hallowhorn Grounds", "You need to light six braziers around Nokron, Eternal City to activate him.", ]
@@ -295,7 +295,7 @@ sections:
     title: "Mohgwyn Palace"
     id: mohgwyn_palace_bosses
     num: 15
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "One of the three Nameless White Masks drops the full War Surgeon set", ]
       - [2, "", "White-Faced Varré", "Mohgwyn Dynasty Mausoleum", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world", ]
@@ -304,7 +304,7 @@ sections:
     title: "Ainsel River"
     id: ainsel_river_bosses
     num: 16
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Dragonkin Soldier of Nokstella", "Ainsel River (West)", "", ]
       - [2, "", "Baleful Shadow", "Ainsel River", "NPC invader. Part of Ranni's questline.", ]
@@ -312,7 +312,7 @@ sections:
     title: "Lake of Rot"
     id: lakeof_rot_bosses
     num: 17
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Dragonkin Soldier", "Lake of Rot (South East)", "Field boss. Raise four platforms around him (use pressure plate east of him) to avoid Scarlet Rot.", ]
       - [2, "", "Astel, Naturalborn of the Void", "Grand Cloister", "Accessible via a coffin in Grand Cloister. Required for Ranni's questline.", ]
@@ -320,7 +320,7 @@ sections:
     title: "Deeproot Depths"
     id: deeproot_depths_bosses
     num: 18
-    table: 3
+    table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Minor Erdtree", "Deeproot Depths", "Field boss.", ]
       - [2, "", "Crucible Knight Siluria", "Great Erdtree", "Field boss.", ]

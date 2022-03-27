@@ -31,9 +31,16 @@ Eeach section on a page starts like this:
     num: 1
     items:
       - [1, "f_weap", "Dagger"]
-      - [2, "f_weap", "You can make tables", "By having multiple entries", "Like this"]
       - [3, "f_weap", "You can embed links like this: <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\"Black Knife</a>"]
+      - "You can put arbitrary text inbetween the checklists like this"
       - [4, "f_weap", "You can put any html in here, <b>Bold!</b>, <i>Italic</i>, etc."]
+  -
+    title: "Table example"
+    id: table_example
+    num: 2
+    table: ["Column 1", "Column 2", "Column 3"] # If you don't want the table to have headers put "table: 3" instead where 3 is the number of columns
+    items:
+      - [1, "", "Include a string for each column", "This is going in the second column", "And this the third"]
 ```
 
 All ids have to be unique and the `num:` field also has to be unique. Within an item the first number has to be uinque as well. If you are adding a new line find the biggest number in that section and increase it by 1. The numbers do not have to be in order and you should not ever change an existing number because it will break everyones saved progress.
@@ -69,11 +76,14 @@ In addition to the filter classes, there is a second type of classes used to con
 | s_ng+  | items shown on NG+ and beyond, e.g., +1 rings |
 | s_ng++ | items shown on NG++ and beyond, e.g., +2 rings |
 
-5. Once you are done with your changes open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
-6. Push the button in the bottom left that says "Commit to gh-pages"
-7. Push the button in the top right that says "Push origin"
-8. Go to Branch -> Create Pull Request
-9. In the webpage that opens describe your changes and why you want them published to the website
-10. Hit create pull request
-11. I will look them over and add them to the website if they are good.
-12. Thanks for contributing!
+If you added a new page you need to put your page in `pages.yaml` for it to show up.
+
+5. Once you are done with your changes double click `generate.bat` to see what it will look like. This requires you to have [python3](https://www.python.org/downloads/) installed.
+6. If you are happy with it open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
+7. Push the button in the bottom left that says "Commit to gh-pages"
+8. Push the button in the top right that says "Push origin"
+9. Go to Branch -> Create Pull Request
+10. In the webpage that opens describe your changes and why you want them published to the website
+11. Hit create pull request
+12. I will look them over and add them to the website if they are good.
+13. Thanks for contributing!
