@@ -206,7 +206,7 @@ with doc:
 
 <h3>I have feedback, how can I contribute?</h3>
 <p>You can visit the <a href="https://github.com/Roundtable-Hold/tracker">GitHub repository</a> and <a href="https://github.com/Roundtable-Hold/tracker/issues">report Issues</a> or create a fork and submit a Pull Request.</p>
-<p>You can also reach out to Azy on reddit <a href="https://www.reddit.com/user/azy2/">/u/azy2</a> or Discord Azy#9592 or reach out to Quivorian on reddit <a href="https://www.reddit.com/user/quivorian">/u/quivorian</a> or Discord: Quivorian#6564)</p>
+<p>You can also reach out to Azy on reddit <a href="https://www.reddit.com/user/azy2/">/u/azy2</a> or Discord Azy#9592 or reach out to Quivorian on reddit <a href="https://www.reddit.com/user/quivorian">/u/quivorian</a> or Discord: Quivorian#6564</p>
 
 <h3>Can I use this for multiple characters?</h3>
 <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
