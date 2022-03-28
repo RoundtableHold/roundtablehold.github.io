@@ -68,7 +68,7 @@ sections:
     table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Cleanrot Knight", "Stillwater Cave", "", ]
-      - [37, "", "Bloodhound Knight", "Lakeside Crystal Cave", "", ]
+      - [37, "", "Bloodhound Knight", "Lakeside Crystal Cave", "Required to meet Latenna.", ]
       - [2, "", "Adan, Thief of Fire", "Malefactor's Evergaol", "", ]
       - [3, "", "Erdtree Burial Watchdog", "Cliffbottom Catacombs", "", ]
       - [4, "", "Tibia Mariner", "East Liurnia", "Field boss.", ]
@@ -94,7 +94,6 @@ sections:
       - [24, "", "Erdtree Avatar", "Minor Erdtree (West)", "Field boss.", ]
       - [25, "", "Spirit-Caller Snail", "Road's End Catacombs", "", ]
       - [26, "", "Omenkiller", "Village of the Albinaurics", "Watch out for dogs.", ]
-      - [37, "", "Bloodhound Knight", "Lakeside Crystal Cave", "Required to meet Latenna.", ]
       - [27, "", "Royal Knight Loretta", "Caria Manor", "", ]
       - [28, "", "Red Wolf", "Behind Caria Manor", "Field boss. Boss enemy, but not \"real boss\".", ]
       - [29, "", "Alabaster Lord", "Royal Grave Evergaol", "", ]
@@ -140,7 +139,7 @@ sections:
       - [25, "", "Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "Only triggers after you give him 4 Deathroots.", ]
       - [26, "", "Misbegotten Warrior & Crucible Knight", "Redmane Castle", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point.", ]
       - [27, "", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "Main boss. Semi-required for story progression.", ]
-      - [28, "", "Putrid Tree Spirit", "War-Dead Catacombs", "Accessible after defeating Radahn, in his arena", ]
+      - [29, "", "Putrid Tree Spirit", "War-Dead Catacombs", "Accessible after defeating Radahn, in his arena", ]
   -
     title: "Altus Plataeu"
     id: altus_plataeu_bosses
