@@ -86,6 +86,9 @@
                 <li>
                   <a class="dropdown-item" data-target="#tabcookbooks,#btnHideCompleted" data-toggle="tab" href="#tabcookbooks">Cookbooks</a>
                 </li>
+                <li>
+                  <a class="dropdown-item" data-target="#tabgestures,#btnHideCompleted" data-toggle="tab" href="#tabgestures">Gestures</a>
+                </li>
               </ul>
             </li>
             <li>
@@ -1053,11 +1056,14 @@
             <div aria-expanded="true" class="collapse in" id="patches_col">
               <ul class="collapse in" id="patches_col">
                 <li class="" data-id="npc_quests_29_1">You'll first encounter this iconic FromSoft NPC in Murkwater Cave. As you step into what looks like it should be a boss arena, but instead has an ominously unguarded chest in the middle of it, you'd be right to be wary. Open that chest and get ambushed by Patches, boss bar and all, as he attacks you for stealing from him. Get his health down to about half, and he'll immediately drop to his knees and surrender, which you can 'accept' by not attacking for a few seconds. This gives you a few Rune items and the gesture he's doing. Exhaust his dialogue.</li>
-                <li class="" data-id="npc_quests_29_2">Rest and make your way back to his room to find his shop up and running, where he sells some good stuff, including a valuable cookbook. There's also a new chest in the room you can ask him about. He'll warn you not to steal. Optionally open it anyway for a laugh; you'll get caught in a teleporter trap that uniquely you can't roll away from, and he'll laugh at you as you get taken deep into Mistwood Ruins surrounded by a bunch of huge bears. Have fun. (This doesn't close his shop or make him hostile in any way.)</li>
+                <li class="" data-id="npc_quests_29_2">Rest and make your way back to his room to find his shop up and running, where he sells some good stuff, including a valuable cookbook. There's also a new chest in the room you can ask him about. He'll warn you not to steal. Open it anyway for a laugh; you'll get caught in a teleporter trap that uniquely you can't roll away from, and he'll laugh at you as you get taken deep into Mistwood Ruins surrounded by a bunch of huge bears. Have fun.</li>
+                <li class="" data-id="npc_quests_29_8">Head back to his location again and he'll belittle your harrowing experience, giving you another gesture as well.</li>
+                <li class="" data-id="npc_quests_29_9">Still in Murkwater Cave, while he's sitting there in front of you, a humble merchant, give in to your desires and start wailing on him again. Aggro him, but this time, let him whittle down your health rather than the other way around. He'll recognize the parallel and give you yet another gesture, one of Extreme Repentance, and tell you to use it; if you do, the fight will again end and all will be well.</li>
                 <li class="" data-id="npc_quests_29_3">Once in Liurnia, he'll set up at the Scenic Isle Site of Grace. He'll give you a piece of advice if you ask - he'll inform you about an Iron Virgin deep at the bottom of the water wheel in Raya Lucaria, and he claims that if you let it kill you by trapping you in its chest, it'll transport you right to the base of the Erdtree.</li>
                 <ul>
                   <li data-id="npc_quests_29_3_1">Feel free to give it a shot while you're in Raya Lucaria. There is indeed a lone Iron Virgin where he says it'll be, and it will indeed transport you if you die to its grab attack, though you may end up somewhere a bit less idyllic than he claims.</li>
                 </ul>
+                <li class="" data-id="npc_quests_29_10">Whenever you fight Scarscourge Radahn, feel free to summon Patches to help out. He'll spawn in and then immediately dip out.</li>
                 <li class="" data-id="npc_quests_29_4">Missable: His next new location is near the First Mt. Gelmir Campfire Site of Grace. Follow the cliff edge westward until you reach the corner, and you may find a message he's left for unsuspecting wanderers, as well as a trail of Rainbow Stones. You can find him nearby, squatting in a bush. He'll tell you he's not doing anything suspicious (clearly), but that even so, you should totally check out what those Rainbow Stones are leading to. In true Patches fashion, it's time to wander to a tall ledge and let the cutscene play out. Note how he proclaims you'll never join Volcano Manor - if you join Volcano Manor before this interaction, you'll miss it entirely, and it'd be such a shame to miss Patches doing what he does best.</li>
                 <li class="" data-id="npc_quests_29_5">Once you do join Volcano Manor, you'll find him inside. He's surprised to see you, but he reopens his shop to you.</li>
                 <li class="" data-id="npc_quests_29_6">After you do any assassination request for Volcano Manor, he'll give you one himself with the Letter to Patches. Kill the target and return to him, and he'll tell you he needs to report back to Tanith. Rest and talk to him again, and he'll bitterly reward you with the Magma Whip Candlestick. He'll stay there until you beat the boss.</li>
@@ -7321,6 +7327,789 @@
                 <li class="" data-id="cookbooks_8_3">3. Cathedral of Dragon Communion in South Caelid, West of Castle Redmane. </li>
                 <li class="" data-id="cookbooks_8_4">4. Crumbling Farum Azula on a roof in the South-West section past a dragon.</li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="tabgestures">
+          <h2>Gestures
+            <span id="gestures_overall_total"></span>
+          </h2>
+          <ul class="table_of_contents">
+            <li>
+              <a href="#gestures_automatic">Starting Gestures</a>
+              <span id="gestures_nav_totals_0"></span>
+            </li>
+            <li>
+              <a href="#gestures_limgrave">Limgrave</a>
+              <span id="gestures_nav_totals_1"></span>
+            </li>
+            <li>
+              <a href="#gestures_roundtable">Roundtable Hold</a>
+              <span id="gestures_nav_totals_2"></span>
+            </li>
+            <li>
+              <a href="#gestures_liurnia">Liurnia of the Lakes</a>
+              <span id="gestures_nav_totals_3"></span>
+            </li>
+            <li>
+              <a href="#gestures_caelid">Caelid</a>
+              <span id="gestures_nav_totals_4"></span>
+            </li>
+            <li>
+              <a href="#gestures_gelmir">Mt. Gelmir</a>
+              <span id="gestures_nav_totals_5"></span>
+            </li>
+            <li>
+              <a href="#gestures_leyndell">Leyndell, Royal Capital</a>
+              <span id="gestures_nav_totals_6"></span>
+            </li>
+            <li>
+              <a href="#gestures_mountaintops">Mountaintops of the Giants</a>
+              <span id="gestures_nav_totals_7"></span>
+            </li>
+            <li>
+              <a href="#gestures_nokron">Nokron, Eternal City</a>
+              <span id="gestures_nav_totals_8"></span>
+            </li>
+          </ul>
+          <div class="form-group">
+            <input class="form-control" id="gestures_search" placeholder="Start typing to filter results..." type="search">
+          </div>
+          <div id="gestures_list">
+            <h3 id="gestures_automatic">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_automatic_col"></a>Starting Gestures
+              <span id="gestures_totals_0"></span>
+            </h3>
+            <div aria-expanded="true" class="collapse in" id="gestures_automatic_col">
+              <ul class="collapse in" id="gestures_automatic_col">
+                <li class="" data-id="gestures_0_1">Warm Welcome</li>
+                <li class="" data-id="gestures_0_2">Dejection</li>
+                <li class="" data-id="gestures_0_3">Wave</li>
+                <li class="" data-id="gestures_0_4">Rallying Cry</li>
+                <li class="" data-id="gestures_0_5">Rest</li>
+                <li class="" data-id="gestures_0_6">Point Forwards</li>
+                <li class="" data-id="gestures_0_7">Bow</li>
+                <li class="" data-id="gestures_0_8">Point Upwards</li>
+                <li class="" data-id="gestures_0_9">Point Downwards</li>
+                <li class="" data-id="gestures_0_10">Beckon</li>
+                <li class="" data-id="gestures_0_11">Jump for Joy</li>
+                <li class="" data-id="gestures_0_12">Wait!</li>
+              </ul>
+            </div>
+            <h3 id="gestures_limgrave">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_limgrave_col"></a>Limgrave
+              <span id="gestures_totals_1"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_limgrave_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_1_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_1">Strength!</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_1">Cave of Knowledge</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_1"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_1">Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_2">The Ring</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_2">anywhere</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_2"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_2">Help anyone beat a boss as a yellow phantom. Requires online access. (It was also a digital pre-order bonus.)</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_3">Nod in Thought</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_3">Waypoint Ruins Cellar</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_3">Sellen</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_3">Meet Sellen and become her student.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_4">Grovel for Mercy</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_4">Murkwater Cave</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_4">Patches</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_4">When you first encounter Patches, after lowering his health enough, he'll perform this gesture as his surrender. If you stop attacking, the fight will end, and you'll get the gesture unlock.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_5">Extreme Repentance</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_5">Murkwater Cave</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_5">Patches</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_5">After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_6">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_6" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_6">Calm Down!</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_6">Murkwater Cave</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_6">Patches</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_6">Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_7">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_7" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_7">Finger Snap</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_7">Church of Elleh</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_7">Blaidd</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_7">Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_8">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_8" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_8">Triumphant Delight</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_8">Stormhill</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_8">Alexander</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_8">Help Iron Fist Alexander out of his hole.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_9">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_9" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_9">Crossed Legs</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_9">Stormhill</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_9"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_9">South of Stormhill Shack is a large piece of debris with a corpse sitting on top in this pose. Interact with it to unlock the gesture.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_10">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_10" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_10">Sitting Sideways</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_10">Stormhill Shack</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_10">Roderika</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_10">Talk to Roderika in her shack until this unlocks.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_11">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_11" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_11">Dozing Cross-Legged</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_11">Stormveil Castle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_11"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_11">Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_1_12">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_1_12" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_1_12">Bravo!</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_12"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_12">Varre</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_1_12">After you've beaten your first demigod (traditionally Godrick), but before finding Varre at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place in a glowing message he's left you to come find him, which unlocks this gesture.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_roundtable">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_roundtable_col"></a>Roundtable Hold
+              <span id="gestures_totals_2"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_roundtable_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_2_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_2_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_2_1">Prayer</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_1">Corhyn</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_1">Talk to Brother Corhyn.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_2_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_2_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_2_2">What Do You Want?</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_2">Ensha</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_2">Try to talk to Ensha.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_2_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_2_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_2_3">Reverential Bow</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_3"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_3">Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_2_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_2_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_2_4">Curtsy</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_4">Roderika</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_4">Level up one of your spirits to at least +4, then talk to her.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_2_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_2_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_2_5">Rapture</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_5"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_2_5">Once you have your first Great Rune and the door to the Two Fingers is open, interact with them.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_liurnia">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_liurnia_col"></a>Liurnia of the Lakes
+              <span id="gestures_totals_3"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_liurnia_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_3_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_1">As You Wish</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_1"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_1">Hyetta</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_1">Give Hyetta a Shabriri Grape.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_3_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_2">Fire Spur Me</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_2"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_2"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_2">On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_3_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_3">Spread Out</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_3">Boilprawn Shack</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_3">Blackguard Big Boggart</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_3">Buy some boiled prawns and talk to him.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_3_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_4">Erudition</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_4">Church of Irith</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_4">puzzle towers</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_4">Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_3_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_5">Balled Up</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_5">Academy of Raya Lucaria</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_5"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_5">Use a Larval Tear to rebirth yourself with Rennala.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_3_6">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_3_6" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_3_6">Casual Greeting (option 1)</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_6">Ruin-Strewn Precipice</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_6"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_3_6">Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_caelid">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_caelid_col"></a>Caelid
+              <span id="gestures_totals_4"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_caelid_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_4_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_4_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_4_1">Desperate Prayer</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_1">Gowry's Shack</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_1">Gowry</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_1">Buy some Pest Threads, then exhaust his dialogue.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_4_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_4_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_4_2">Heartening Cry</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_2">Redmane Castle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_2">Witch-Hunter Jerren</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_2">Talk to Jerren at Redmane Castle.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_4_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_4_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_4_3">Polite Bow</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_3">Redmane Castle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_3"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_3">Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_4_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_4_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_4_4">Casual Greeting (option 2)</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_4">Redmane Castle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_4"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_4_4">Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_gelmir">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_gelmir_col"></a>Mt. Gelmir
+              <span id="gestures_totals_5"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_gelmir_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_5_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_5_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_5_1">My Thanks</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_5_1">Volcano Manor</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_5_1">Volcano Manor</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_5_1">At the end of the hallway after beating Rykard.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_leyndell">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_leyndell_col"></a>Leyndell, Royal Capital
+              <span id="gestures_totals_6"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_leyndell_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_6_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_6_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_6_1">Outer Order</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_1">Minor Erdtree Church, Capital Outskirts</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_1">Melina</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_1">Talk to Melina at the grace in the church.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_6_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_6_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_6_2">By My Sword</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_2">Fortified Manor, First Floor</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_2"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_2">In a small room in the south wing.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_6_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_6_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_6_3">My Lord</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_3">East Capital Rampart</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_3">Boc</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_3">Give Boc the Gold Sewing Needle.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_6_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_6_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_6_4">Golden Order Totality</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_4"></label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_4">Goldmask</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_6_4">Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_mountaintops">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_mountaintops_col"></a>Mountaintops of the Giants
+              <span id="gestures_totals_7"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_mountaintops_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_7_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_7_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_7_1">Fancy Spin</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_1">Stargazer's Ruins</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_1">jellyfish</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_1">Reunite the jellyfish by summoning the Spirit Ash Roderika gave you.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="gestures_7_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_7_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_7_2">Hoslow's Oath</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_2">just east of Shack of the Lofty</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_2">Volcano Manor</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_7_2">Invade Juno Hoslow.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="gestures_nokron">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#gestures_nokron_col"></a>Nokron, Eternal City
+              <span id="gestures_totals_8"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="gestures_nokron_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Questline</th>
+                    <th>Description</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="gestures_8_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="gestures_8_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="gestures_8_1">Inner Order</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_8_1">Siofra Aqueduct</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_8_1">D's twin</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="gestures_8_1">Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
