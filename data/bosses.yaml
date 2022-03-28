@@ -68,6 +68,7 @@ sections:
     table: ["Name", "Location", "Notes"]
     items:
       - [1, "", "Cleanrot Knight", "Stillwater Cave", "", ]
+      - [37, "", "Bloodhound Knight", "Lakeside Crystal Cave", "", ]
       - [2, "", "Adan, Thief of Fire", "Malefactor's Evergaol", "", ]
       - [3, "", "Erdtree Burial Watchdog", "Cliffbottom Catacombs", "", ]
       - [4, "", "Tibia Mariner", "East Liurnia", "Field boss.", ]
@@ -102,6 +103,7 @@ sections:
       - [32, "", "Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "", ]
       - [33, "", "Magma Wyrm Makar", "Ruin-Strewn Precipice", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu.", ]
       - [34, "", "Ravenmount Assassin", "Raya Lucaria Academy", "Go north from Main Academy Gate Site of Grace.", ]
+      - [38, "", "Moongrum, Carian Knight", "Raya Lucaria Academy", "", ]
       - [35, "", "Red Wolf of Radagon", "Raya Lucaria Academy", "Main boss. Required to get to Rennala, Queen of the Full Moon.", ]
       - [36, "", "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "Main boss. Semi-required for story progression.", ]
   -
@@ -119,6 +121,7 @@ sections:
       - [7, "", "Decaying Ekzykes", "Caelid Highway South", "", ]
       - [8, "", "Night's Cavalry", "Caelid Highway South", "Field boss. Nighttime only.", ]
       - [9, "", "Death Rite Bird", "Southern Aeonia Swamp Bank", "Field boss. Nighttime only.", ]
+      - [28, "", "Cemetary Shade", "Caelid Catacombs", "", ]
       - [10, "", "Commander O'Neil", "Aeonia Swamp", "", ]
       - [11, "", "Milicent", "Aeonia Swamp", "NPC invader.", ]
       - [12, "", "Nox Priest & Nox Swordstress", "Chair-Crypt of Sellia", "", ]
@@ -233,8 +236,6 @@ sections:
       - [10, "", "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "", ]
       - [11, "", "Borealis, the Freezing Fog", "Frozen Lake", "", ]
       - [12, "", "Bloody Finger Okina", "Church of Repose", "NPC invader.", ]
-      - [13, "", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "", ]
-      - [14, "", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "Bullshit.", ]
       - [15, "", "Fire Giant", "Flame Peak", "Main boss. Required to proceed to Forge of the Giants.", ]
   -
     title: "Consecrated Snowfield"
@@ -251,6 +252,8 @@ sections:
       - [7, "", "Putrid Avatar", "Minor Erdtree", "Field boss.", ]
       - [8, "", "Death Rite Bird", "Consecrated Snowfield (North)", "Field boss. Nighttime only.", ]
       - [9, "", "Black Knife Assassin", "Ordina, Liturgical Town", "", ]
+      - [10, "", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "", ]
+      - [11, "", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "Bullshit.", ]
   -
     title: "Crumbling Farum Azula"
     id: crumbling_farum_azula_bosses
