@@ -6,7 +6,7 @@
   padding: .1em 0.4em;
   font-weight: normal;
   margin-left: .2em;
-  vertical-align: middle;
+  vertical-align: center;
   font-size: 0.9em;
 }
 .done { color: #009933; }
@@ -116,7 +116,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-body.hide_completed .completed {
+div.hide_completed .completed {
   display: none !important;
 }
 
@@ -128,19 +128,6 @@ tr.completed td label {
 input[type="checkbox"]:checked + .item_content {
   text-decoration: line-through;
   -webkit-text-decoration: line-through !important;
-}
-
-input[type="checkbox"] ~ .glyphicon-eye-close,
-input[type="checkbox"] ~ * > .glyphicon-eye-close,
-input[type="checkbox"]:checked ~ .glyphicon-eye-open,
-input[type="checkbox"]:checked ~ * > .glyphicon-eye-open {
-  display: none;
-}
-input[type="checkbox"] ~ .glyphicon-eye-open,
-input[type="checkbox"] ~ * > .glyphicon-eye-open,
-input[type="checkbox"]:checked ~ .glyphicon-eye-close,
-input[type="checkbox"]:checked ~ * > .glyphicon-eye-close {
-  display: inline-block;
 }
 
 textarea#profileText {

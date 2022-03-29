@@ -4,22 +4,33 @@ var profilesKey = 'darksouls3_profiles';
     'use strict';
 
     var themes = {
-        "Standard" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
-        "Cosmo" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css",
-        "Cyborg" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css",
-        "Darkly" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css",
-        "Flatly" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css",
-        "Journal" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/journal/bootstrap.min.css",
-        "Lumen" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/lumen/bootstrap.min.css",
-        "Paper" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css",
-        "Readable" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/readable/bootstrap.min.css",
-        "Sandstone" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css",
-        "Simplex" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/simplex/bootstrap.min.css",
-        "Slate" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/slate/bootstrap.min.css",
-        "Spacelab" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/spacelab/bootstrap.min.css",
-        "Superhero" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css",
-        "United" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css",
-        "Yeti" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css"
+        "Standard" : "css/bootstrap.min.css",
+        "Ceruleon" : "css/themes/cerulean/bootstrap.min.css",
+        "Cosmo" : "css/themes/cosmo/bootstrap.min.css",
+        "Cyborg" : "css/themes/cyborg/bootstrap.min.css",
+        "Darkly" : "css/themes/darkly/bootstrap.min.css",
+        "Flatly" : "css/themes/flatly/bootstrap.min.css",
+        "Journal" : "css/themes/journal/bootstrap.min.css",
+        "Litera" : "css/themes/litera/bootstrap.min.css",
+        "Lumen" : "css/themes/lumen/bootstrap.min.css",
+        "Lux" : "css/themes/lux/bootstrap.min.css",
+        "Materia" : "css/themes/materia/bootstrap.min.css",
+        "Minty" : "css/themes/minty/bootstrap.min.css",
+        "Morph" : "css/themes/Morph/bootstrap.min.css",
+        "Pulse" : "css/themes/pulse/bootstrap.min.css",
+        "Quartz" : "css/themes/quartz/bootstrap.min.css",
+        "Regent" : "css/themes/regent/bootstrap.min.css",
+        "Sandstone" : "css/themes/sandstone/bootstrap.min.css",
+        "Simplex" : "css/themes/simplex/bootstrap.min.css",
+        "Sketchy" : "css/themes/sketchy/bootstrap.min.css",
+        "Slate" : "css/themes/slate/bootstrap.min.css",
+        "Solar" : "css/themes/solar/bootstrap.min.css",
+        "Spacelab" : "css/themes/spacelab/bootstrap.min.css",
+        "Superhero" : "css/themes/superhero/bootstrap.min.css",
+        "United" : "css/themes/united/bootstrap.min.css",
+        "Vapor" : "css/themes/vapor/bootstrap.min.css",
+        "Yeti" : "css/themes/yeti/bootstrap.min.css",
+        "Zephyr" : "css/themes/zephyr/bootstrap.min.css",
     };
 
     var profiles = $.jStorage.get(profilesKey, {});
@@ -36,7 +47,10 @@ var profilesKey = 'darksouls3_profiles';
         themeSetup(buildThemeSelection());
 
         $('ul li[data-id]').each(function() {
-            addCheckbox(this);
+            if (profiles[profilesKey][profiles.current].checklistData[$(this).attr('data-id')] === true) {
+                $('#' + $(this).attr('data-id')).prop('checked', true);
+                $(this).addClass('completed');
+            }
         });
 
         // Open external links in new tab
@@ -48,9 +62,9 @@ var profilesKey = 'darksouls3_profiles';
             var id = $(this).attr('id');
             var isChecked = profiles[profilesKey][profiles.current].checklistData[id] = $(this).prop('checked');
             if (isChecked === true) {
-              $('[data-id="'+id+'"] label').addClass('completed');
+              $('[data-id="'+id+'"]').addClass('completed');
             } else {
-              $('[data-id="'+id+'"] label').removeClass('completed');
+              $('[data-id="'+id+'"]').removeClass('completed');
             }
             $.jStorage.set(profilesKey, profiles);
             calculateTotals();
@@ -62,7 +76,7 @@ var profilesKey = 'darksouls3_profiles';
                 $('#' + $el.attr('data-id')).prop('checked', true);
                 $('tr[data-id="' + $el.attr('data-id')+'"]').addClass('completed');
             }
-        })
+        });
 
         $('.table-checkbox input[type="checkbox"]').click(function() {
             var id = $(this).attr('id');
@@ -74,6 +88,19 @@ var profilesKey = 'darksouls3_profiles';
             }
             $.jStorage.set(profilesKey, profiles);
             calculateTotals();
+        });
+
+        $('.collapse-button').click(function(event) {
+            var btn = $(event.currentTarget)
+            var i = btn.children('i')
+            if (btn.hasClass('collapsed')) {
+                i.removeClass('bi-chevron-up');
+                i.addClass('bi-chevron-down');
+            } else {
+                i.removeClass('bi-chevron-down');
+                i.addClass('bi-chevron-up');
+            }
+            
         })
 
         // Theme callback
@@ -247,25 +274,20 @@ var profilesKey = 'darksouls3_profiles';
             }
         });
 
-        $("#toggleHideCompleted").change(function() {
-            // Store information about the old scroll position
-            var oldPos = $(window).scrollTop();
-            var labels = $('ul>li>div>label:visible:not(.completed)');
-            var oldOff = labels.map(function(){return $(this).offset().top});
-
+        $('input[id="toggleHideCompleted"]').change(function() {
             var hidden = !$(this).is(':checked');
 
-            $('body').toggleClass('hide_completed', !hidden);
+            $(this).parent('div').parent('div').parent('.tab-content').toggleClass('hide_completed', !hidden);
 
             profiles[profilesKey][profiles.current].hide_completed = !hidden;
             $.jStorage.set(profilesKey, profiles);
-            
-            // Try to find a reasonable new scroll position
-            for (var a=0; a<oldOff.length-1; a++) if (oldOff[a]>oldPos) break;
-            for (var b=0; b<oldOff.length-1; b++) if (oldOff[b]>oldPos+$(window).height()) break;
-            if (!oldOff.length || $('h2:visible').last().offset().top>oldPos) $('html, body').scrollTop(oldPos);
-            else if (a==b) $('html, body').scrollTop(Math.round(labels.eq(b).offset().top)-Math.round($(window).height()/2));
-            else {var c = Math.round((a+b)/2); $('html, body').scrollTop(oldPos+Math.round(labels.eq(c).offset().top)-Math.round(oldOff[c]));}
+        });
+
+        $('.hide-buttons').click(function(event) {
+            $('#btnHideCompleted').removeClass('show');
+        });
+        $('.show-buttons').click(function(event) {
+            $('#btnHideCompleted').addClass('show');
         });
 
         $('[data-ng-toggle]').change(function() {
@@ -323,7 +345,7 @@ var profilesKey = 'darksouls3_profiles';
         if (!('collapsed' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].collapsed = {};
         if (!('current_tab' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].current_tab = '#tabPlaythrough';
+            profiles[profilesKey][profile_name].current_tab = '#tabMain';
         if (!('hide_completed' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].hide_completed = false;
         if (!('journey' in profiles[profilesKey][profile_name]))
@@ -428,14 +450,16 @@ var profilesKey = 'darksouls3_profiles';
     function populateChecklists() {
         $('.checkbox input[type="checkbox"]')
             .prop('checked', false)
-            .closest('label')
+            .parent('div')
+            .parent('li')
             .removeClass('completed')
-            .closest('li').show();
+            .show();
 
         $.each(profiles[profilesKey][profiles.current].checklistData, function(index, value) {
             $('#' + index)
                 .prop('checked', value)
-                .closest('label')
+                .parent('div')
+                .parent('li')
                 .toggleClass('completed', value);
         });
 
@@ -484,28 +508,6 @@ var profilesKey = 'darksouls3_profiles';
         // Update textarea for profile export
         document.getElementById("profileText").value = JSON.stringify(profiles);
         });
-    }
-
-    function addCheckbox(el) {
-        var $el = $(el);
-        // assuming all content lies on the first line
-        var content = $el.html();
-        // var sublists = $el.children('ul');
-
-        content =
-            '<div class="checkbox">' +
-                '<label>' +
-                    '<input type="checkbox" id="' + $el.attr('data-id') + '">' +
-                    '<span class="item_content">' + content + '</span>' +
-                '</label>' +
-            '</div>';
-
-        $el.html(content);
-
-        if (profiles[profilesKey][profiles.current].checklistData[$el.attr('data-id')] === true) {
-            $('#' + $el.attr('data-id')).prop('checked', true);
-            $('label', $el).addClass('completed');
-        }
     }
 
     function canDelete() {
@@ -663,13 +665,26 @@ var profilesKey = 'darksouls3_profiles';
      */
      $(function() {
         // reset `Hide completed` button state (otherwise Chrome bugs out)
-        $('#toggleHideCompleted').attr('checked', false);
+        $('#toggleHideCompleted').prop('checked', false);
 
         // restore collapsed state on page load
         restoreState(profiles.current);
 
         if (profiles[profilesKey][profiles.current].current_tab) {
-            $('.nav.navbar-nav li a[href="' + profiles[profilesKey][profiles.current].current_tab + '"]').click();
+            var tabId = profiles[profilesKey][profiles.current].current_tab; 
+            var tab = $(tabId)
+            tab.addClass('show')
+            tab.addClass('active')
+            var tabbtn = $('a[href^="' + profiles[profilesKey][profiles.current].current_tab + '"]')
+            tabbtn.addClass('active')
+            if (tabbtn.hasClass('dropdown-item')) {
+                tabbtn.parent('li').parent('ul').prev('a').addClass('active')
+            }
+            if (tabId === "#tabMain" || tabId === "#tabOptions") {
+                $('#btnHideCompleted').removeClass('show');
+            } else {
+                $('#btnHideCompleted').addClass('show');
+            }
         }
 
         // register on click handlers to store state
@@ -682,7 +697,10 @@ var profilesKey = 'darksouls3_profiles';
             $.jStorage.set(profilesKey, profiles);
         });
 
-        $('.nav.navbar-nav li a').on('click', function(el) {
+        $('.nav.navbar-nav li a').on('click', function(event) {
+            if ($(event.currentTarget).hasClass('dropdown-toggle')) {
+                return;
+            }
             profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
 
             $.jStorage.set(profilesKey, profiles);
