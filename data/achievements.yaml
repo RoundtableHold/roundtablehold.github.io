@@ -3,9 +3,9 @@ id: achievements
 sections:
   -
     title: "Shardbearers"
-    id: "achievements_Bosses"
+    id: "achievements_bosses"
     num: 1
-    table: ["Name", "Condition", "Notes",]
+    table: ["Name", "Condition", "Notes"]
     items:
       - [1, "", "Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
       - [2, "", "Shardbearer Radahn",  "Defeat Shardbearer Radahn", "Semi-optional, only two Shardbearers need to be defeated."]
@@ -17,7 +17,7 @@ sections:
     title: "Other Bosses"
     id: "achievements_other_bosses"
     num: 2
-    table: ["Name", "Condition", "Notes",]
+    table: ["Name", "Condition", "Notes"]
     items:
       - [1, "", "Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
       - [2, "", "Leonine Misbegotten", "Defeat the Leonine Misbegotten", ""]

@@ -1,0 +1,46 @@
+title: Paintings
+id: paintings
+sections:
+  -
+    title: "Limgrave"
+    id: "paintings_limgrave"
+    num: 1
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Prophecy Painting", "Stormveil Castle. Found inside a study room located at the heavily guarded courtyard where the Omen ogre is", "Warhawk Ashes."]
+      - [2, "", "Homecoming Painting", "Artists Shack", "Gives Incantation Scarab Armour."]
+  -
+    title: "Liurnia of the Lakes"
+    id: "paintings_liurnia"
+    num: 2
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Resurrection Painting", "Found at Artist's Shack.", "Juvenile Scholar robe and cap, Larval Tear."]
+  -
+    title: "Caelid"
+    id: "paintings_caelid"
+    num: 3
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Redmane Painting", "Found in Sellia, Town of Sorcery", "Ashes of war: Rain of Arrows"]
+  -
+    title: "Altus Plateau"
+    id: "paintings_altus"
+    num: 4
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Champion's Song Painting", "Found in The Shaded Castle", "Harp Bow"]
+  -
+    title: "Leyndall, Royal Capital"
+    id: "paintings_capital"
+    num: 5
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Flightless Bird Painting", "Found the Fortified manor in Leyndell, Royal Capital", "Fire's deadly sin Incantation"]
+  -
+    title: "Mountaintop of the Giants"
+    id: "paintings_motg"
+    num: 6
+    table: ["Name", "Acquisition", "Items Given"]
+    items:
+      - [1, "", "Sorcerer Painting", "Found in Castle Sol.", "Greathood Helm"]
