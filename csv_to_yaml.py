@@ -8,11 +8,14 @@
 import csv
 import os
 import re
+import yaml
+from yaml_format import Page, Section
 
-csv_files = ['evergaols.csv']
-yaml_file = 'evergaols.yaml'
-title = 'Evergaols'
-id = 'evergaols'
+csv_file = 'crystal_tears.csv'
+yaml_file = 'crystal_tears.yaml'
+title = 'Crystal Tears'
+id = 'crystal_tears'
+
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -34,39 +37,37 @@ def make_table():
     sub_item_num = 0
     location = ""
     with open(os.path.join('data', yaml_file), 'w') as bosses:
-        bosses.write('title: ' + title + '\nid: ' + id + '\nsections:\n')
-        for filename in csv_files:
-            with open(filename, newline='') as csvfile:
-                spamreader = csv.reader(csvfile)
-                next(spamreader)
-                next(spamreader)
-                row = next(spamreader)
+        bosses.write('title: "' + escape_quotes(title) + '"\nid: ' + id + '\nsections:\n')
+        with open(csv_file, newline='') as csvfile:
+            spamreader = csv.reader(csvfile)
+            next(spamreader)
+            next(spamreader)
+            row = next(spamreader)
 
-                table_headers = []
-                for header in row:
-                    header = header.lower()
-                    header = '"' + header[0].upper() + header[1:] + '"'
-                    table_headers.append(header)
-                table_headers = table_headers[1:-1]
-                m_name = ""
-                m_type = ""
-                m_location = ""
-                m_bosses = ""
-                m_notes = ""
-                for row in spamreader:
-                    if row[0]:
-                        bosses.write('  -\n')
-                        bosses.write('    title: "' + escape_quotes(row[0]) + '"\n')
-                        bosses.write('    id: "' + id + '_' + to_snake_case(row[0]) + '"\n')
-                        bosses.write('    num: ' + str(section_num) + '\n')
-                        bosses.write('    table: [' + ', '.join(table_headers) + ']\n')
-                        bosses.write('    items:\n')
-                        section_num += 1
-                        item_num = 1
-                    bosses.write('      - [' + str(item_num) + ', "", ')
-                    bosses.write(', '.join(['"' + escape_quotes(item) + '"' for item in row[1:-1]]))
-                    bosses.write(']\n')
-                    item_num += 1
+            table_headers = []
+            for header in row[2:-1]:
+                header = header.lower()
+                header = '"' + header[0].upper() + header[1:] + '"'
+                table_headers.append(header)
+
+            last_section = ""
+            section_num = 0
+            item_num = 0
+            for row in spamreader:
+                if row[0] != last_section:
+                    last_section = row[0]
+                    bosses.write('  -\n')
+                    bosses.write('    title: "' + escape_quotes(row[0]) + '"\n')
+                    bosses.write('    id: "' + id + '_' + to_snake_case(row[0]) + '"\n')
+                    bosses.write('    num: ' + str(section_num) + '\n')
+                    bosses.write('    table: [' + ', '.join(table_headers) + ']\n')
+                    bosses.write('    items:\n')
+                    section_num += 1
+                    item_num = 1
+                bosses.write('      - [' + str(item_num) + ', "", ')
+                bosses.write(', '.join(['"' + escape_quotes(item) + '"' for item in row[2:-1]]))
+                bosses.write(']\n')
+                item_num += 1
 
 def make_list():
     section_num = 0
@@ -96,4 +97,4 @@ def make_list():
                     bosses.write(']\n')
                     item_num += 1
 
-table()
+make_table()
