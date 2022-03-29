@@ -1,10 +1,10 @@
 dropdowns:
   -
     name: "Guides"
-    pages: ["walkthrough.yaml", "quests.yaml", "achievements.yaml"]
+    pages: [ "achievements.yaml","quests.yaml", "walkthrough.yaml", ]
   -
     name: "Locations"
-    pages: ["bosses.yaml", "legacy_dungeons.yaml", "caves.yaml", "evergaols.yaml"]
+    pages: ["bosses.yaml", "caves.yaml", "evergaols.yaml", "legacy_dungeons.yaml" ]
   -
     name: "Items"
-    pages: ["flasks.yaml", "crystal_tears.yaml", "legendaries.yaml", "weapons.yaml", "sorceries.yaml", "bell_bearings.yaml", "cookbooks.yaml", "gestures.yaml", "paintings.yaml"]
+    pages: ["ashesofwar.yaml", "bell_bearings.yaml", "cookbooks.yaml", "crystal_tears.yaml", "flasks.yaml", "gestures.yaml", "legendaries.yaml", "sorceries.yaml", "paintings.yaml", "weapons.yaml"]
