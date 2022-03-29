@@ -1,10 +1,29 @@
+# Every file here will be added to the website.
+# The order of entries in pages determines the order they appear in the dropdown
 dropdowns:
-  - 
+  -
     name: "Guides"
-    pages: ["walkthrough.yaml", "quests.yaml"]
+    pages: 
+      - "walkthrough.yaml"
+      - "quests.yaml"
+      - "achievements.yaml"
   -
     name: "Locations"
-    pages: ["bosses.yaml", "legacy_dungeons.yaml", "caves.yaml", "evergaols.yaml"]
+    pages: 
+      - "bosses.yaml"
+      - "legacy_dungeons.yaml"
+      - "caves.yaml"
+      - "evergaols.yaml"
   -
     name: "Items"
-    pages: ["flasks.yaml", "crystal_tears.yaml", "legendaries.yaml", "weapons.yaml", "sorceries.yaml", "bell_bearings.yaml", "cookbooks.yaml", "gestures.yaml"]
+    pages: 
+      - "flasks.yaml"
+      - "crystal_tears.yaml"
+      - "legendaries.yaml"
+      - "weapons.yaml"
+      - "sorceries.yaml"
+      - "bell_bearings.yaml"
+      - "cookbooks.yaml"
+      - "ashesofwar.yaml"
+      - "gestures.yaml"
+      - "paintings.yaml"
