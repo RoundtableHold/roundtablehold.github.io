@@ -80,7 +80,8 @@ var profilesKey = 'darksouls3_profiles';
         $('#themes').change(function(event) {
             var stylesheet = $('#themes').val();
             themeSetup(stylesheet);
-            $.jStorage.set("style", stylesheet);
+            profiles[profilesKey][profiles.current].style = stylesheet;
+            $.jStorage.set(profilesKey, profiles);
         });
 
         $('#profiles').change(function(event) {
@@ -327,6 +328,8 @@ var profilesKey = 'darksouls3_profiles';
             profiles[profilesKey][profile_name].hide_completed = false;
         if (!('journey' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].journey = 1;
+        if (!('style' in profiles[profilesKey][profile_name]))
+            profiles[profilesKey][profile_name].style = 'Standard';
         if (!('hidden_categories' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].hidden_categories = {
                 f_boss: false,
@@ -381,18 +384,19 @@ var profilesKey = 'darksouls3_profiles';
                 $el.click();
             }
         });
+        themeSetup(profiles[profilesKey][profiles.current].style);
     }
 
     // Setup ("bootstrap", haha) styling
     function themeSetup(stylesheet) {
         if(stylesheet === null || stylesheet === undefined) { // if we didn't get a param, then
-            stylesheet = $.jStorage.get("style") || "Standard"; // fall back on "light" if cookie not set
+            stylesheet = profiles[profilesKey][profiles.current].style; // fall back on "light" if cookie not set
         }
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
 
     function buildThemeSelection() {
-        var style = $.jStorage.get("style") || "Standard";
+        var style = profiles[profilesKey][profiles.current].style;
         var themeSelect = $("#themes");
         $.each(themes, function(key, value){
             themeSelect.append(
