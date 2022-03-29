@@ -96,16 +96,16 @@ with doc:
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
                     with li(cls="nav-item"):
-                        a(href="#tabMain", data_bs_toggle="tab", cls="nav-link").add(i(cls="bi bi-house-fill"))
+                        a(href="#tabMain", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
                         with li(cls="dropdown nav-item"):
                             a(name, cls="nav-link dropdown-toggle", href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
+                                    li().add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
                                     # li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
                     with li(cls="nav-item"):
-                        a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link").add(i(cls="bi bi-gear-fill"), " Options")
+                        a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
@@ -115,6 +115,10 @@ with doc:
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
         with div(cls="tab-content gab-2"):
             # Hide completed toggle
+            with div(id="btnHideCompleted", cls="fade mb-3"):
+                with div(cls="form-check form-switch"):
+                    input_(cls="form-check-input", type="checkbox", id='toggleHideCompleted')
+                    label("Hide Completed", cls="form-check-label", _for='toggleHideCompleted')
             for page in pages:
                 with div(cls="tab-pane fade", id="tab" + page['id'], role="tabpanel"):
                     # Filter buttons
@@ -126,9 +130,6 @@ with doc:
                             with li():
                                 a(section['title'], href="#" + section['id'])
                                 span(id=page['id']  + "_nav_totals_" + str(section['num']))
-                    with div(cls="form-check form-switch"):
-                        input_(cls="form-check-input", type="checkbox", id=page['id'] + '_toggleHideCompleted')
-                        label("Hide Completed", cls="form-check-label", _for=page['id'] + '_toggleHideCompleted')
                     with div(cls="input-group"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
                     

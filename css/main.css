@@ -116,7 +116,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-body.hide_completed .completed {
+div.hide_completed .completed {
   display: none !important;
 }
 

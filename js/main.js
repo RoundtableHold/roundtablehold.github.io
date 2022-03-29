@@ -47,7 +47,10 @@ var profilesKey = 'darksouls3_profiles';
         themeSetup(buildThemeSelection());
 
         $('ul li[data-id]').each(function() {
-            addCheckbox(this);
+            if (profiles[profilesKey][profiles.current].checklistData[$(this).attr('data-id')] === true) {
+                $('#' + $(this).attr('data-id')).prop('checked', true);
+                $(this).addClass('completed');
+            }
         });
 
         // Open external links in new tab
@@ -271,25 +274,20 @@ var profilesKey = 'darksouls3_profiles';
             }
         });
 
-        $('input[id$="_toggleHideCompleted"]').change(function() {
-            // Store information about the old scroll position
-            var oldPos = $(window).scrollTop();
-            var labels = $('ul>li>div>label:visible:not(.completed)');
-            var oldOff = labels.map(function(){return $(this).offset().top});
-
+        $('input[id="toggleHideCompleted"]').change(function() {
             var hidden = !$(this).is(':checked');
 
-            $('body').toggleClass('hide_completed', !hidden);
+            $(this).parent('div').parent('div').parent('.tab-content').toggleClass('hide_completed', !hidden);
 
             profiles[profilesKey][profiles.current].hide_completed = !hidden;
             $.jStorage.set(profilesKey, profiles);
-            
-            // Try to find a reasonable new scroll position
-            for (var a=0; a<oldOff.length-1; a++) if (oldOff[a]>oldPos) break;
-            for (var b=0; b<oldOff.length-1; b++) if (oldOff[b]>oldPos+$(window).height()) break;
-            if (!oldOff.length || $('h2:visible').last().offset().top>oldPos) $('html, body').scrollTop(oldPos);
-            else if (a==b) $('html, body').scrollTop(Math.round(labels.eq(b).offset().top)-Math.round($(window).height()/2));
-            else {var c = Math.round((a+b)/2); $('html, body').scrollTop(oldPos+Math.round(labels.eq(c).offset().top)-Math.round(oldOff[c]));}
+        });
+
+        $('.hide-buttons').click(function(event) {
+            $('#btnHideCompleted').removeClass('show');
+        });
+        $('.show-buttons').click(function(event) {
+            $('#btnHideCompleted').addClass('show');
         });
 
         $('[data-ng-toggle]').change(function() {
@@ -512,28 +510,6 @@ var profilesKey = 'darksouls3_profiles';
         });
     }
 
-    function addCheckbox(el) {
-        var $el = $(el);
-        // assuming all content lies on the first line
-        // var content = $el.html();
-        // var sublists = $el.children('ul');
-
-        // content =
-        //     '<div class="checkbox">' +
-        //         '<label>' +
-        //             '<input type="checkbox" id="' + $el.attr('data-id') + '">' +
-        //             '<span class="item_content">' + content + '</span>' +
-        //         '</label>' +
-        //     '</div>';
-
-        // $el.html(content);
-
-        if (profiles[profilesKey][profiles.current].checklistData[$el.attr('data-id')] === true) {
-            $('#' + $el.attr('data-id')).prop('checked', true);
-            $('div', $el).addClass('completed');
-        }
-    }
-
     function canDelete() {
         var count = 0;
         $.each(profiles[profilesKey], function(index, value) {
@@ -689,19 +665,25 @@ var profilesKey = 'darksouls3_profiles';
      */
      $(function() {
         // reset `Hide completed` button state (otherwise Chrome bugs out)
-        $('#toggleHideCompleted').attr('checked', false);
+        $('#toggleHideCompleted').prop('checked', false);
 
         // restore collapsed state on page load
         restoreState(profiles.current);
 
         if (profiles[profilesKey][profiles.current].current_tab) {
-            var tab = $(profiles[profilesKey][profiles.current].current_tab)
+            var tabId = profiles[profilesKey][profiles.current].current_tab; 
+            var tab = $(tabId)
             tab.addClass('show')
             tab.addClass('active')
             var tabbtn = $('a[href^="' + profiles[profilesKey][profiles.current].current_tab + '"]')
             tabbtn.addClass('active')
             if (tabbtn.hasClass('dropdown-item')) {
                 tabbtn.parent('li').parent('ul').prev('a').addClass('active')
+            }
+            if (tabId === "#tabMain" || tabId === "#tabOptions") {
+                $('#btnHideCompleted').removeClass('show');
+            } else {
+                $('#btnHideCompleted').addClass('show');
             }
         }
 
