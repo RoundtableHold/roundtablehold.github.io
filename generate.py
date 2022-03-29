@@ -20,12 +20,12 @@ def to_snake_case(name):
 
 dropdowns = []
 pages = []
-with open('pages.yaml', 'r') as pages_yaml:
+with open('pages.yaml', 'r', encoding='utf-8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
     for dropdown in yml['dropdowns']:
         dropdown_ids = []
         for page in dropdown['pages']:
-            with open(os.path.join('data', page), 'r') as data:
+            with open(os.path.join('data', page), 'r', encoding='utf-8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
                 dropdown_ids.append((yml['title'], yml['id']))
@@ -300,5 +300,5 @@ gtag('config', 'G-B7FMWDCTF5');
 
 
 
-with open('index.html', 'w') as index:
+with open('index.html', 'w', encoding='utf-8') as index:
     index.write(doc.render())
