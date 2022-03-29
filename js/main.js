@@ -442,26 +442,20 @@ var profilesKey = 'darksouls3_profiles';
         $('[id$="_overall_total"]').each(function(index) {
             var type = this.id.match(/(.*)_overall_total/)[1];
             var overallCount = 0, overallChecked = 0;
-            $('[id^="' + type + '_totals_"]').each(function(index) {
+            $('[id^="' + type + '_totals_"]').each(function(index, el) {
                 var regex = new RegExp(type + '_totals_(.*)');
                 var regexFilter = new RegExp('^playthrough_(.*)');
                 var i = parseInt(this.id.match(regex)[1]);
                 var count = 0, checked = 0;
-                for (var j = 1; ; j++) {
-                    var checkbox = $('#' + type + '_' + i + '_' + j);
-                    if (checkbox.length === 0) {
-                        break;
-                    }
-                    if (checkbox.is(':hidden') && checkbox.prop('id').match(regexFilter) && canFilter(checkbox.closest('li'))) {
-                        continue;
-                    }
+                $('[id^="' + type + '_' + i +  '_').each(function(index, el) {
+                    var checkbox = $(el);
                     count++;
                     overallCount++;
                     if (checkbox.prop('checked')) {
                         checked++;
                         overallChecked++;
                     }
-                }
+                });
                 if (checked === count) {
                     this.innerHTML = $('#' + type + '_nav_totals_' + i)[0].innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
