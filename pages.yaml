@@ -1,7 +1,7 @@
 dropdowns:
-  - 
+  -
     name: "Guides"
-    pages: ["walkthrough.yaml", "quests.yaml"]
+    pages: ["walkthrough.yaml", "quests.yaml", "achievements.yaml"]
   -
     name: "Locations"
     pages: ["bosses.yaml", "legacy_dungeons.yaml", "caves.yaml", "evergaols.yaml"]

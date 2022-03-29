@@ -42,6 +42,9 @@
                 <li>
                   <a class="dropdown-item" data-target="#tabnpc_quests,#btnHideCompleted" data-toggle="tab" href="#tabnpc_quests">NPC Questlines</a>
                 </li>
+                <li>
+                  <a class="dropdown-item" data-target="#tabachievements,#btnHideCompleted" data-toggle="tab" href="#tabachievements">Achievements</a>
+                </li>
               </ul>
             </li>
             <li class="dropdown">
@@ -1072,6 +1075,658 @@
                 <li class="" data-id="npc_quests_29_6">After you do any assassination request for Volcano Manor, he'll give you one himself with the Letter to Patches. Kill the target and return to him, and he'll tell you he needs to report back to Tanith. Rest and talk to him again, and he'll bitterly reward you with the Magma Whip Candlestick. He'll stay there until you beat the boss.</li>
                 <li class="" data-id="npc_quests_29_7">You'll last find him before the boss of the Shaded Castle. He'll give you the Dancer's Castanets. Weirdly, if you do even a single point of damage to him here, he'll simply die. If you don't and you reload the area, he'll be gone, possibly dead anyway.</li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="tabachievements">
+          <h2>Achievements
+            <span id="achievements_overall_total"></span>
+          </h2>
+          <ul class="table_of_contents">
+            <li>
+              <a href="#achievements_Bosses">Shardbearers</a>
+              <span id="achievements_nav_totals_1"></span>
+            </li>
+            <li>
+              <a href="#achievements_other_bosses">Other Bosses</a>
+              <span id="achievements_nav_totals_2"></span>
+            </li>
+            <li>
+              <a href="#achievements_misc_and_legendaries">Misc.</a>
+              <span id="achievements_nav_totals_3"></span>
+            </li>
+            <li>
+              <a href="#achievements_game_endings">Endings</a>
+              <span id="achievements_nav_totals_4"></span>
+            </li>
+          </ul>
+          <div class="form-group">
+            <input class="form-control" id="achievements_search" placeholder="Start typing to filter results..." type="search">
+          </div>
+          <div id="achievements_list">
+            <h3 id="achievements_Bosses">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#achievements_Bosses_col"></a>Shardbearers
+              <span id="achievements_totals_1"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="achievements_Bosses_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Condition</th>
+                    <th>Notes</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="achievements_1_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_1">Shardbearer Godrick</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_1">Defeat Shardbearer Godrick</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_1">Semi-optional, only two Shardbearers need to be defeated.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_1_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_2">Shardbearer Radahn</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_2">Defeat Shardbearer Radahn</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_2">Semi-optional, only two Shardbearers need to be defeated.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_1_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_3">Shardbearer Morgott</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_3">Defeat Shardbearer Morgott</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_3">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_1_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_4">Shardbearer Rykard    </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_4">Defeat Shardbearer Rykard</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_4">Semi-optional, only two Shardbearers need to be defeated.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_1_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_5">Shardbearer Mohg</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_5">Defeat Shardbearer Mohg</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_5">Semi-optional, only two Shardbearers need to be defeated.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_1_6">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_1_6" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_1_6">Shardbearer Malenia</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_6">Defeat Shardbearer Malenia</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_1_6">Semi-optional, only two Shardbearers need to be defeated.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="achievements_other_bosses">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#achievements_other_bosses_col"></a>Other Bosses
+              <span id="achievements_totals_2"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="achievements_other_bosses_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Condition</th>
+                    <th>Notes</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="achievements_2_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_1">Margit, the Fell Omen</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_1">Defeat Margit, the Fell Omen</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_1">Will unlock as you progress through Stormveil Castle.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_2">Leonine Misbegotten</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_2">Defeat the Leonine Misbegotten</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_2"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_3">Red Wolf of Radagon</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_3">Defeat the Red Wolf of Radagon</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_3">Will unlock as you progress through Raya Lucaria Academy.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_4">Rennala, Queen of the Full Moon</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_4">Defeat Rennala, Queen of the Full Moon</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_4"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_5">Royal Knight Loretta</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_5">Defeat Royal Knight Loretta</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_5">Will unlock through story progression, but unlockable earlier at Caria Manor.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_6">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_6" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_6">Magma Wyrm Makar</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_6">Defeat Magma Wyrm Makar</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_6"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_7">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_7" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_7">Ancestor Spirit </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_7">Defeat the Ancestor Spirit</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_7"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_8">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_8" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_8">Mimic Tear</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_8">Defeat the Mimic Tear</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_8"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_9">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_9" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_9">Godfrey, the First Lord</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_9">Defeat Godfrey, the First Lord</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_9">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_10">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_10" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_10">Dragonkin Soldier of Nokstella</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_10">Defeat Dragonkin Soldier of Nokstella</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_10"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_11">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_11" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_11">Astel, Naturalborn of the Void</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_11">Defeat Astel, Naturalborn of the Void    </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_11">Required for Ranni's questline, and 'Age of the Stars' ending.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_12">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_12" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_12">Regal Ancestor Spirit</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_12">Defeat the Regal Ancestor Spirit</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_12"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_13">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_13" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_13">Valiant Gargoyle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_13">Defeat the Valiant Gargoyle</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_13"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_14">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_14" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_14">Elemer of the Briar</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_14">Defeat Elemer of the Briar</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_14"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_15">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_15" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_15">Godskin Noble</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_15">Defeat Godskin Noble</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_15"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_16">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_16" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_16">Commander Niall</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_16">Defeat Commander Niall</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_16"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_17">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_17" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_17">Fire Giant</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_17">Defeat the Fire Giant</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_17">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_18">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_18" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_18">Godskin Duo</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_18">Defeat Godskin Duo</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_18">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_19">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_19" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_19">Loretta, Knight of the Haligtree</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_19">Defeat Loretta, Knight of the Haligtree</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_19"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_20">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_20" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_20">Malekith, the Black Blade    </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_20">Defeat Malekith, the Black Blade</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_20">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_21">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_21" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_21">Hoarah Loux, the Warrior</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_21">Defeat Hoarah Loux, the Warrior    </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_21">Will unlock through story progression.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_22">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_22" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_22">Mohg, the Omen</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_22">Defeat Mohg, the Omen</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_22"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_23">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_23" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_23">Dragonlord Placidusax</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_23">Defeat Dragonlord Placidusax</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_23"></label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_2_24">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_2_24" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_2_24">Lichdragon Fortissax</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_24">Defeat Lichdragon Fortissax</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_2_24">Follow Fia's questline to unlock, part of 'Age of Duskborn' ending.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="achievements_misc_and_legendaries">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#achievements_misc_and_legendaries_col"></a>Misc.
+              <span id="achievements_totals_3"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="achievements_misc_and_legendaries_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Condition</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="achievements_3_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_1">Roundtable Hold</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_1">Arrive at Roundtable Hold</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_2">God-Slaying Armament</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_2">Upgrade any armament to its highest stage.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_3">Legendary Armaments</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_3">Acquire all nine legendary weapons.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_4">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_4" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_4">Legendary Ashen Remains</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_4">Acquire all six legendary ashen remains.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_5">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_5" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_5">Legendary Sorceries and Incantations</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_5">Acquire all seven legendary sorceries and incantations.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_6">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_6" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_6">Legendary Talismans</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_6">Acquire all eight legendary talismans.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_7">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_7" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_7">Great Rune</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_7">Restore the power of a Great Rune. Easy to unlock at Stormveil, after defeating Godrick.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_8">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_8" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_8">Erdtree Aflame</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_8"> Use kindling to set the Erdtree Aflame. Will unlock as part of story progression, but I think it's achievable in two ways.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_3_9">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_3_9" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_3_9">All Achievements</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_3_9">Aquire all other achievements for Elden Ring</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 id="achievements_game_endings">
+              <a class="btn btn-primary btn-collapse btn-sm" data-toggle="collapse" href="#achievements_game_endings_col"></a>Endings
+              <span id="achievements_totals_4"></span>
+            </h3><br>
+            <div aria-expanded="true" class="collapse in" id="achievements_game_endings_col">
+              <table class="table table-striped table-sm">
+                <tbody>
+                  <thead>
+                    <th class="w-auto"></th>
+                    <th>Name</th>
+                    <th>Desc.</th>
+                    <th>Notes</th>
+                  </thead>
+                  <tr class="item_content form-check-label " data-id="achievements_4_1">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_4_1" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_4_1">Elden Lord</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_1">Achieve the 'Elden Lord' ending </label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_1">Default ending. There are 4 confirmed variations based on quests you can do.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_4_2">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_4_2" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_4_2">Age of the Stars</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_2">Achieve the 'Age of the Stars' ending</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_2">Alternate ending. Finish Ranni's questline to unlock.</label>
+                    </td>
+                  </tr>
+                  <tr class="item_content form-check-label " data-id="achievements_4_3">
+                    <th class="row table-checkbox w-auto">
+                      <input id="achievements_4_3" type="checkbox">
+                    </th>
+                    <td>
+                      <label class="table-label" for="achievements_4_3">Lord of Frenzied Flame</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_3">Achieve the 'Lord of Frenzied Flame' ending</label>
+                    </td>
+                    <td>
+                      <label class="table-label" for="achievements_4_3">Alternate ending. Search for the Three Fingers and follow through to unlock.</label>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
