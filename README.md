@@ -11,9 +11,11 @@ The walkthrough is thanks to [Athrek](https://www.reddit.com/r/Roundtable_Guides
 If you are interested in contributing to this guide, please do so. Follow this step by step guide and reach out to me on discord if you have any questions Azy#9592
 
 1. Make a github account.
-2. Download and install [Github Desktop](https://desktop.github.com/) and then sign in with your github account.
-3. Then you will need to fork this project. That will create your own project that you download and make changes to. Later you'll submit a request to bring those changes back here and onto the website. To fork this project click the fork button on the top right of the page.
-4. All information for the website is stored in `data`. Each `.yaml` file is a different page. You can either add to existing files are create a new one. Don't edit `index.html` as that is automatically generated based off of the stuff in `data`. The data has to be in a specific format:
+2. Click "Issues" and check if an issue describing what you want is already open.
+3. If there isn't one. Create a new issue and click "Assign to self" so other people know what you are working on.
+4. Download and install [Github Desktop](https://desktop.github.com/) and then sign in with your github account.
+5. Then you will need to fork this project. That will create your own project that you download and make changes to. Later you'll submit a request to bring those changes back here and onto the website. To fork this project click the fork button on the top right of the page.
+6. All information for the website is stored in `data`. Each `.yaml` file is a different page. You can either add to existing files are create a new one. Don't edit `index.html` as that is automatically generated based off of the stuff in `data`. The data has to be in a specific format:
 
 Each page of the site starts like this:
 ```yaml
@@ -78,12 +80,12 @@ In addition to the filter classes, there is a second type of classes used to con
 
 If you added a new page you need to put your page in `pages.yaml` for it to show up.
 
-5. Once you are done with your changes double click `generate.bat` to see what it will look like. This requires you to have [python3](https://www.python.org/downloads/) installed.
-6. If you are happy with it open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
-7. Push the button in the bottom left that says "Commit to gh-pages"
-8. Push the button in the top right that says "Push origin"
-9. Go to Branch -> Create Pull Request
-10. In the webpage that opens describe your changes and why you want them published to the website
-11. Hit create pull request
-12. I will look them over and add them to the website if they are good.
-13. Thanks for contributing!
+7. Once you are done with your changes double click `generate.bat` to see what it will look like. This requires you to have [python3](https://www.python.org/downloads/) installed.
+8. If you are happy with it open github desktop and describe what you added in the bottom left where there is a text box labeled "Description".
+9. Push the button in the bottom left that says "Commit to gh-pages"
+10. Push the button in the top right that says "Push origin"
+11. Go to Branch -> Create Pull Request
+12. In the webpage that opens describe your changes and why you want them published to the website
+13. Hit create pull request
+14. I will look them over and add them to the website if they are good.
+15. Thanks for contributing!
