@@ -120,7 +120,7 @@ sections:
       - [7, "", "Decaying Ekzykes", "Caelid Highway South", "", ]
       - [8, "", "Night's Cavalry", "Caelid Highway South", "Field boss. Nighttime only.", ]
       - [9, "", "Death Rite Bird", "Southern Aeonia Swamp Bank", "Field boss. Nighttime only.", ]
-      - [28, "", "Cemetery Shade", "Caelid Catacombs", "", ]
+      - [28, "", "Cemetary Shade", "Caelid Catacombs", "", ]
       - [10, "", "Commander O'Neil", "Aeonia Swamp", "", ]
       - [11, "", "Milicent", "Aeonia Swamp", "NPC invader.", ]
       - [12, "", "Nox Priest & Nox Swordstress", "Chair-Crypt of Sellia", "", ]
@@ -141,7 +141,7 @@ sections:
       - [27, "", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "Main boss. Semi-required for story progression.", ]
       - [29, "", "Putrid Tree Spirit", "War-Dead Catacombs", "Accessible after defeating Radahn, in his arena", ]
   -
-    title: "Altus Plateau"
+    title: "Altus Plataeu"
     id: altus_plataeu_bosses
     num: 6
     table: ["Name", "Location", "Notes"]
