@@ -3,20 +3,20 @@
 dropdowns:
   -
     name: "Guides"
-    pages: 
+    pages:
       - "walkthrough.yaml"
       - "quests.yaml"
       - "achievements.yaml"
   -
     name: "Locations"
-    pages: 
+    pages:
       - "bosses.yaml"
       - "legacy_dungeons.yaml"
       - "caves.yaml"
       - "evergaols.yaml"
   -
     name: "Items"
-    pages: 
+    pages:
       - "flasks.yaml"
       - "crystal_tears.yaml"
       - "legendaries.yaml"
@@ -27,3 +27,4 @@ dropdowns:
       - "ashesofwar.yaml"
       - "gestures.yaml"
       - "paintings.yaml"
+      - "talismans.yaml"
