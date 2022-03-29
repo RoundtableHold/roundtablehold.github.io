@@ -1,0 +1,69 @@
+title: Achievements
+id: achievements
+sections:
+  -
+    title: "Shardbearers"
+    id: "achievements_bosses"
+    num: 1
+    table: ["Name", "Condition", "Notes"]
+    items:
+      - [1, "", "Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
+      - [2, "", "Shardbearer Radahn",  "Defeat Shardbearer Radahn", "Semi-optional, only two Shardbearers need to be defeated."]
+      - [3, "", "Shardbearer Morgott", "Defeat Shardbearer Morgott", "Will unlock through story progression."]
+      - [4, "", "Shardbearer Rykard    ", "Defeat Shardbearer Rykard", "Semi-optional, only two Shardbearers need to be defeated."]
+      - [5, "", "Shardbearer Mohg", "Defeat Shardbearer Mohg", "Semi-optional, only two Shardbearers need to be defeated."]
+      - [6, "", "Shardbearer Malenia", "Defeat Shardbearer Malenia", "Semi-optional, only two Shardbearers need to be defeated."]
+  -
+    title: "Other Bosses"
+    id: "achievements_other_bosses"
+    num: 2
+    table: ["Name", "Condition", "Notes"]
+    items:
+      - [1, "", "Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
+      - [2, "", "Leonine Misbegotten", "Defeat the Leonine Misbegotten", ""]
+      - [3, "", "Red Wolf of Radagon", "Defeat the Red Wolf of Radagon", "Will unlock as you progress through Raya Lucaria Academy."]
+      - [4, "", "Rennala, Queen of the Full Moon", "Defeat Rennala, Queen of the Full Moon", ""]
+      - [5, "", "Royal Knight Loretta", "Defeat Royal Knight Loretta", "Will unlock through story progression, but unlockable earlier at Caria Manor."]
+      - [6, "", "Magma Wyrm Makar", "Defeat Magma Wyrm Makar", ""]
+      - [7, "", "Ancestor Spirit ", "Defeat the Ancestor Spirit", ""]
+      - [8, "", "Mimic Tear", "Defeat the Mimic Tear", ""]
+      - [9, "", "Godfrey, the First Lord", "Defeat Godfrey, the First Lord", "Will unlock through story progression."]
+      - [10, "", "Dragonkin Soldier of Nokstella","Defeat Dragonkin Soldier of Nokstella", ""]
+      - [11, "", "Astel, Naturalborn of the Void", "Defeat Astel, Naturalborn of the Void    ","Required for Ranni's questline, and 'Age of the Stars' ending."]
+      - [12, "", "Regal Ancestor Spirit", "Defeat the Regal Ancestor Spirit", ""]
+      - [13, "", "Valiant Gargoyle", "Defeat the Valiant Gargoyle", ""]
+      - [14, "", "Elemer of the Briar", "Defeat Elemer of the Briar", ""]
+      - [15, "", "Godskin Noble", "Defeat Godskin Noble", ""]
+      - [16, "", "Commander Niall", "Defeat Commander Niall", ""]
+      - [17, "", "Fire Giant", "Defeat the Fire Giant", "Will unlock through story progression."]
+      - [18, "", "Godskin Duo", "Defeat Godskin Duo", "Will unlock through story progression."]
+      - [19, "", "Loretta, Knight of the Haligtree", "Defeat Loretta, Knight of the Haligtree", ""]
+      - [20, "", "Malekith, the Black Blade    ", "Defeat Malekith, the Black Blade", "Will unlock through story progression."]
+      - [21, "", "Hoarah Loux, the Warrior", "Defeat Hoarah Loux, the Warrior    ", "Will unlock through story progression."]
+      - [22, "", "Mohg, the Omen", "Defeat Mohg, the Omen", ""]
+      - [23, "", "Dragonlord Placidusax", "Defeat Dragonlord Placidusax", ""]
+      - [24, "", "Lichdragon Fortissax", "Defeat Lichdragon Fortissax", "Follow Fia's questline to unlock, part of 'Age of Duskborn' ending."]
+  -
+    title: "Misc."
+    id: "achievements_misc_and_legendaries"
+    num: 3
+    table: ["Name", "Condition"]
+    items:
+      - [1, "", "Roundtable Hold", "Arrive at Roundtable Hold"]
+      - [2, "", "God-Slaying Armament", "Upgrade any armament to its highest stage."]
+      - [3, "", "Legendary Armaments", "Acquire all nine legendary weapons."]
+      - [4, "", "Legendary Ashen Remains", "Acquire all six legendary ashen remains."]
+      - [5, "", "Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations."]
+      - [6, "", "Legendary Talismans", "Acquire all eight legendary talismans."]
+      - [7, "", "Great Rune", "Restore the power of a Great Rune. Easy to unlock at Stormveil, after defeating Godrick."]
+      - [8, "", "Erdtree Aflame"," Use kindling to set the Erdtree Aflame. Will unlock as part of story progression, but I think it's achievable in two ways."]
+      - [9, "", "All Achievements","Aquire all other achievements for Elden Ring"]
+  -
+    title: "Endings"
+    id: "achievements_game_endings"
+    num: 4
+    table: ["Name", "Desc.", "Notes"]
+    items:
+      - [1, "", "Elden Lord", "Achieve the 'Elden Lord' ending ", "Default ending. There are 4 confirmed variations based on quests you can do."]
+      - [2, "", "Age of the Stars", "Achieve the 'Age of the Stars' ending", "Alternate ending. Finish Ranni's questline to unlock."]
+      - [3, "", "Lord of Frenzied Flame", "Achieve the 'Lord of Frenzied Flame' ending", "Alternate ending. Search for the Three Fingers and follow through to unlock."]
