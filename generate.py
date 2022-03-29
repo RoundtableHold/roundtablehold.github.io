@@ -1,5 +1,6 @@
 from math import ceil
 import os
+from turtle import onclick
 import yaml
 import re
 import dominate
@@ -82,52 +83,40 @@ with doc.head:
     meta(name="description", content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc.")
     meta(name="author", content="Ben Lambeth")
     meta(name="mobile-web-app-capable", content="yes")
-    link(id="bootstrap", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", rel="stylesheet", crossorigin="anonymous")
+    link(href="css/bootstrap.min.css", rel="stylesheet", id="bootstrap")
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-default"):
+    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
-                with button(type="button", cls="navbar-toggle collapsed", data_toggle="collapse", data_target="#nav-collapse", aria_expanded="false"):
-                    span("Toggle navigation", cls="sr-only")
-                    span(cls="icon-bar")
-                    span(cls="icon-bar")
-                    span(cls="icon-bar")
+                with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
+                    span(cls="navbar-toggler-icon")
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
-                with ul(cls="nav navbar-nav"):
-                    with li(cls="active"):
-                        a(href="#tabMain", data_toggle="tab").add(span(cls="glyphicon glyphicon-home"))
+                with ul(cls="nav navbar-nav mr-auto"):
+                    with li(cls="nav-item"):
+                        a(href="#tabMain", data_bs_toggle="tab", cls="nav-link").add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
-                        with li(cls="dropdown"):
-                            a(name, cls="dropdown-toggle", href="#", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
+                        with li(cls="dropdown nav-item"):
+                            a(name, cls="nav-link dropdown-toggle", href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_toggle="tab", data_target="#tab" + guide[1] + ",#btnHideCompleted"))
-                    with li():
-                        a(href="#tabOptions", data_toggle="tab").add(span(cls="glyphicon glyphicon-cog"), " Options")
+                                    li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
+                                    # li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
+                    with li(cls="nav-item"):
+                        a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link").add(i(cls="bi bi-gear-fill"), " Options")
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
-                h1("Roundtable Tracker")
+                h1("Roundtable Tracker", cls="mt-3")
                 text = p(cls="lead")
                 text += "Contribute to the guide at the "
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
-        with div(cls="tab-content"):
+        with div(cls="tab-content gab-2"):
             # Hide completed toggle
-            with div(cls="tab-pane in", id="btnHideCompleted"):
-                with div(cls="btn-group", role="group", data_toggle="buttons"):
-                    with label(cls="btn btn-default") as l:
-                        input_(type="checkbox", id="toggleHideCompleted")
-                        span(cls="glyphicon glyphicon-eye-close")
-                        span(cls="glyphicon glyphicon-eye-open")
-                        l  += "Hide Completed"
-                        with a(cls="btn btn-default btn-sm fadingbutton togglehide", onclick="$('#toggleHideCompleted').click();") as link:
-                            span(cls="glyphicon glyphicon-eye-close")
-                            span(cls="glyphicon glyphicon-eye-open")
-                            link += "Hide Completed"
             for page in pages:
-                with div(cls="tab-pane", id="tab" + page['id']):
+                with div(cls="tab-pane fade", id="tab" + page['id'], role="tabpanel"):
                     # Filter buttons
                     h = h2()
                     h += page['title']
@@ -137,67 +126,75 @@ with doc:
                             with li():
                                 a(section['title'], href="#" + section['id'])
                                 span(id=page['id']  + "_nav_totals_" + str(section['num']))
-                    with div(cls="form-group"):
-                        input_(type="search", id=page['id'] + "_search", cls="form-control", placeholder="Start typing to filter results...")
+                    with div(cls="form-check form-switch"):
+                        input_(cls="form-check-input", type="checkbox", id=page['id'] + '_toggleHideCompleted')
+                        label("Hide Completed", cls="form-check-label", _for=page['id'] + '_toggleHideCompleted')
+                    with div(cls="input-group"):
+                        input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
                     
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
-                            section_title = h3(id=section['id'])
-                            section_title += a(href="#" + section['id'] + "_col", data_toggle="collapse", cls="btn btn-primary btn-collapse btn-sm")
-                            if 'link' in section:
-                                section_title += a(section['title'], href=section['link'])
-                            else:
-                                section_title += section['title']
-                            section_title += span(id=page['id'] + "_totals_" + str(section['num']))
+                            with h4(id=section['id']):
+                                with a(href="#" + section['id'] + "_col", data_bs_toggle="collapse", data_bs_target="#" + section['id'] + "_col", cls="btn btn-primary btn-sm me-2 collapse-button", type="button"):
+                                    i(cls='bi bi-chevron-up')
+                                if 'link' in section:
+                                    a(section['title'], href=section['link'])
+                                else:
+                                    span(section['title'])
+                                span(id=page['id'] + "_totals_" + str(section['num']), cls="ms-2 mt-0")
                             if 'table' in section:
-                                br()
-                                with div(id=section['id'] + "_col", cls="collapse in", aria_expanded="true"):
-                                    with table(cls="table table-striped table-sm").add(tbody()):
+                                with div(id=section['id'] + "_col", cls="collapse show", aria_expanded="true"):
+                                    with table(cls="table"):
                                         if isinstance(section['table'], list):
                                             table_cols = len(section['table'])
                                             size = ceil(12 / table_cols)
                                             with thead():
-                                                th(cls="w-auto")
+                                                th(cls="w-auto", scope="col")
                                                 for header in section['table']:
-                                                    th(header)
+                                                    th(header, scope="col")
                                         else:
                                             table_cols = section['table']
                                             size = ceil(12 / table_cols)
                                         items = peekable(section['items'])
-                                        for item in items:
-                                            id = str(item[0])
-                                            with tr(cls="item_content form-check-label " + item[1], data_id=page['id'] + "_" + str(section['num']) + "_" + id):
-                                                th(cls="row table-checkbox w-auto").add(input_(id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
-                                                for pos in range(2, 2+table_cols):
-                                                    with td().add(label(_for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label")):
-                                                        if isinstance(item[pos], list):
-                                                            for subitem in item[pos]:
-                                                                raw(subitem)
-                                                                br()
-                                                        else:
-                                                            raw(item[pos])
+                                        with tbody():
+                                            for item in items:
+                                                id = str(item[0])
+                                                with tr(cls="item_content " + item[1], data_id=page['id'] + "_" + str(section['num']) + "_" + id):
+                                                    th(cls="table-checkbox", scope="row").add(input_(cls="form-check-input", id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
+                                                    for pos in range(2, 2+table_cols):
+                                                        with td().add(label(_for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label")):
+                                                            if isinstance(item[pos], list):
+                                                                for subitem in item[pos]:
+                                                                    raw(subitem)
+                                                                    br()
+                                                            else:
+                                                                raw(item[pos])
                             else:
-                                with div(id=section['id'] + "_col", cls="collapse in", aria_expanded="true"):
+                                with div(id=section['id'] + "_col", cls="collapse show", aria_expanded="true"):
                                     items = peekable(section['items'])
                                     if not isinstance(items.peek(), list):
                                         item = next(items)
                                         h4(item)
-                                    u = ul(id=section['id'] + "_col", cls="collapse in")
+                                    u = ul(cls="list-group-flush")
                                     for item in items:
                                         if not isinstance(item, list):
                                             h4(item)
-                                            u = ul(id=section['id'] + "_col", cls="collapse in")
+                                            u = ul(cls="list-group-flush")
                                             continue
                                         id = str(item[0])
-                                        with u.add(li(data_id=page['id'] + "_" + str(section['num']) + "_" + id, cls=item[1])):
-                                            raw(item[2])
+                                        with u.add(li(data_id=page['id'] + "_" + str(section['num']) + "_" + id, cls="list-group-item " + item[1])):
+                                            with div(cls="form-check checkbox"):
+                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id)
+                                                label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id).add(raw(item[2]))
                                         if isinstance(items.peek([0])[0], list):
                                             item = next(items)
-                                            with u.add(ul()):
+                                            with u.add(ul(cls="list-group-flush")):
                                                 for subitem in item:
-                                                    with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0])):
-                                                        raw(subitem[2])
-            with div(cls="tab-pane active", id="tabMain"):
+                                                    with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item " + subitem[1]):
+                                                        with div(cls="form-check checkbox"):
+                                                            input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0]))
+                                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[2]))
+            with div(cls="tab-pane fade", id="tabMain"):
                 raw(
 """
 <h3>Welcome to the Roundtable Tracker</h3>
@@ -222,66 +219,70 @@ with doc:
 <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
 <p>We will do our best to ensure that such issues remain few and far between.</p>
 """)
-            with div(cls="tab-pane", id="tabOptions"):
+            with div(cls="tab-pane fade", id="tabOptions").add(form()):
                 h2("Options")
                 with div(cls="row"):
                     div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Theme selection:"))
-                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(select(cls="form-control", id="themes"))
+                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(select(cls="form-select", id="themes"))
                 with div(cls="row"):
                     div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Profile management:"))
                     with div(cls="col col-xs-12 col-sm-4 col-md-6"):
                         with form(cls="form-inline input-group pull-right"):
-                            select(cls="form-control", id="profiles")
-                            with span(cls="input-group-btn"):
-                                button("Add", cls="btn btn-default", type="button", id="profileAdd")
-                                button("Edit", cls="btn btn-default", type="button", id="profileEdit")
-                                button("NG+", cls="btn btn-default", type="button", id="profileNG+")
+                            select(cls="form-select", id="profiles")
+                            with div(cls="btn-group"):
+                                button("Add", cls="btn btn-primary", type="button", id="profileAdd")
+                            with div(cls="btn-group"):
+                                button("Edit", cls="btn btn-primary", type="button", id="profileEdit")
+                            with div(cls="btn-group"):
+                                button("NG+", cls="btn btn-primary", type="button", id="profileNG+")
                 with div(cls="row"):
                     div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Data import/export:"))
                     with div(cls="col col-xs-12 col-sm-4 col-md-6"):
                         with form(cls="form-inline"):
-                            with span(cls="btn-group pull-left"):
-                                button("Import file", cls="btn btn-default", type="button", id="profileImport")
-                                button("Export file", cls="btn btn-default", type="button", id="profileExport")
-                            with span(cls="btn-group pull-right"):
-                                button("Import textbox", cls="btn btn-default", type="button", id="profileImportText")
-                                button("Export clipboard", cls="btn btn-default", type="button", id="profileExportText")
+                            with div(cls="btn-group pull-left"):
+                                button("Import file", cls="btn btn-primary", type="button", id="profileImport")
+                            with div(cls="btn-group pull-left"):
+                                button("Export file", cls="btn btn-primary", type="button", id="profileExport")
+                            with div(cls="btn-group pull-right"):
+                                button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
+                            with div(cls="btn-group pull-right"):
+                                button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
                     with div(cls="col col-xs-12"):
                         textarea(id="profileText", cls="form-control")
             with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
                     with div(cls="modal-content"):
                         with div(cls="modal-header"):
-                            button(type="button", cls="close", data_dismiss="modal", aria_label="Close").add(span("×", aria_hidden="true"))
                             h3("Profile", id="profileModalTitle", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
                         with div(cls="modal-body"):
                             with form(cls="form-horizontal"):
                                 with div(cls="control-group"):
                                     label("Name", cls="control-label", for_="profileModalName")
                                     div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
                         with div(cls="modal-footer"):
-                            a("Close", href="#", id="profileModalClose", cls="btn btn-default", data_dismiss="modal")
-                            a("Add", href="#", id="profileModalAdd", cls="btn btn-default", data_dismiss="modal")
-                            a("Update", href="#", id="profileModalUpdate", cls="btn btn-default")
-                            a("Delete", href="#", id="profileModalDelete", cls="btn btn-default")
+                            button("Close", href="#", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            a("Add", href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
+                            a("Update", href="#", id="profileModalUpdate", cls="btn btn-primary")
+                            a("Delete", href="#", id="profileModalDelete", cls="btn btn-primary")
             with div(id="NG+Modal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
-                    with div(cls="modal-conttent"):
+                    with div(cls="modal-content"):
                         with div(cls="modal-header"):
-                            button(type="button", cls="close", data_dismiss="modal", aria_label="Close").add(span("×", aria_hidden="true"))
                             h3("Begin next journey?", id="profileModalTitle", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
                         div('If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', cls="modal-body")
                         with div(cls="modal-footer"):
-                            a("No", href="#", cls="btn btn-default", data_dismiss="modal")
+                            a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
                             a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
                         
     div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
 
-    a(cls="btn btn-default btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="glyphicon glyphicon-arrow-up"))
+    a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
             
-    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
     script(src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js")
-    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
+    script(src="js/bootstrap.bundle.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js")
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
