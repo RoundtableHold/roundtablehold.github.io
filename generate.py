@@ -175,11 +175,11 @@ with doc:
                                     items = peekable(section['items'])
                                     if not isinstance(items.peek(), list):
                                         item = next(items)
-                                        h4(item)
+                                        h5(item)
                                     u = ul(cls="list-group-flush")
                                     for item in items:
                                         if not isinstance(item, list):
-                                            h4(item)
+                                            h5(item)
                                             u = ul(cls="list-group-flush")
                                             continue
                                         id = str(item[0])
