@@ -18,6 +18,7 @@ If you are interested in contributing to this guide, please do so. Follow this s
 6. All information for the website is stored in `data`. Each `.yaml` file is a different page. You can either add to existing files are create a new one. Don't edit `index.html` as that is automatically generated based off of the stuff in `data`. The data has to be in a specific format:
 
 Each page of the site starts like this:
+
 ```yaml
 title: "Weapons"
 id: weapons
@@ -25,6 +26,7 @@ sections:
 ```
 
 Eeach section on a page starts like this:
+
 ```yaml
   -
     title: "Daggers"
