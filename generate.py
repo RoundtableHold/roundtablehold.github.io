@@ -136,7 +136,7 @@ with doc:
                     
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
-                            with h4(id=section['id']):
+                            with h4(id=section['id'], cls="mt-1"):
                                 with a(href="#" + section['id'] + "_col", data_bs_toggle="collapse", data_bs_target="#" + section['id'] + "_col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
                                     i(cls='bi bi-chevron-up')
                                 if 'link' in section:
