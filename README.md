@@ -10,6 +10,8 @@ The walkthrough is thanks to [Athrek](https://www.reddit.com/r/Roundtable_Guides
 
 If you are interested in contributing to this guide, please do so. Follow this step by step guide and reach out to me on discord if you have any questions Azy#9592
 
+Please join the development discord and ask if someone is already working on your project https://discord.gg/pkg6ZTXR
+
 1. Make a github account.
 2. Click "Issues" and check if an issue describing what you want is already open.
 3. If there isn't one. Create a new issue and click "Assign to self" so other people know what you are working on.
