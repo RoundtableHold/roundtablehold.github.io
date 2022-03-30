@@ -10,6 +10,7 @@ from more_itertools import peekable
 
 
 doc = dominate.document(title="Roundtable Tracker")
+doc.set_attribute('lang', 'en')
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -278,7 +279,7 @@ with doc:
                         with div(cls="modal-body"):
                             with form(cls="form-horizontal"):
                                 with div(cls="control-group"):
-                                    label("Name", cls="control-label", for_="profileModalName")
+                                    label("Name", cls="control-label", _for="profileModalName")
                                     div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
                         with div(cls="modal-footer"):
                             button("Close", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")

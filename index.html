@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Roundtable Tracker</title>
     <meta charset="utf-8">
@@ -110,6 +110,9 @@
                 </li>
                 <li>
                   <a class="dropdown-item show-buttons" data-bs-target="#tabpaintings" data-bs-toggle="tab" href="#tabpaintings">Paintings</a>
+                </li>
+                <li>
+                  <a class="dropdown-item show-buttons" data-bs-target="#tabgreat_runes" data-bs-toggle="tab" href="#tabgreat_runes">Great Runes</a>
                 </li>
               </ul>
             </li>
@@ -25968,6 +25971,336 @@
             </div>
           </div>
         </div>
+        <div class="tab-pane fade" id="tabgreat_runes" role="tabpanel">
+          <h2>Great Runes
+            <span id="great_runes_overall_total"></span>
+          </h2>
+          <ul class="table_of_contents">
+            <li>
+              <a href="#great_runes">Great Runes</a>
+              <span id="great_runes_nav_totals_1"></span>
+            </li>
+            <li>
+              <a href="#misc_runes">Other Important Runes</a>
+              <span id="great_runes_nav_totals_2"></span>
+            </li>
+          </ul>
+          <div class="input-group">
+            <input class="form-control my-3" id="great_runes_search" placeholder="Start typing to filter results..." type="search">
+          </div>
+          <div id="great_runes_list">
+            <h4 id="great_runes">
+              <a class="btn btn-primary btn-sm me-2 collapse-button" data-bs-target="#great_runes_col" data-bs-toggle="collapse" href="#great_runes_col" role="button">
+                <i class="bi bi-chevron-up"></i>
+              </a>
+              <span>Great Runes</span>
+              <span class="ms-2 mt-0" id="great_runes_totals_1"></span>
+            </h4>
+            <div aria-expanded="true" class="collapse show row" id="great_runes_col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-md-block d-none">
+                  <div class="row form-check">
+                    <div class="col-auto">
+                      <input class="form-check-input invisible" type="checkbox">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <strong>Boss</strong>
+                        </div>
+                        <div class="col-md-6">
+                          <strong>Location</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_1">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_1" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_1">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune">Godrick the Grafted</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_1">
+                            <strong class="d-md-none d-block">Location: </strong>Limgrave - Stormveil Castle
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_2">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_2" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_2">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn">Rennala Queen of the Full Moon</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_2">
+                            <strong class="d-md-none d-block">Location: </strong>Liurnia of the Lakes - Raya Lucaria Academy
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_3">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_3" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_3">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune">Starscourge Radahn</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_3">
+                            <strong class="d-md-none d-block">Location: </strong>Caelid - Redmane Castle
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_4">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_4" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_4">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune">Morgott, the Omen Knight</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_4">
+                            <strong class="d-md-none d-block">Location: </strong>Altus Plateau - Leyndell, the Royal Capital
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_5">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_5" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_5">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune">Rykard, Lord of Blasphemy</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_5">
+                            <strong class="d-md-none d-block">Location: </strong>Mt. Gelmir - Valcano Manor
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_6">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_6" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_6">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune">Malenia, Blade of Miquella</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_6">
+                            <strong class="d-md-none d-block">Location: </strong>Miquella's Haligtree - Elphael, Brace of the Haligtree
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_1_7">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_1_7" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_7">
+                            <strong class="d-md-none d-block">Boss: </strong><a href="https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune">Mohg, Lord of Blood</a>
+                          </label>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_1_7">
+                            <strong class="d-md-none d-block">Location: </strong>Mohgwyn Palace - Mohgwyn Dynasty Mausoleum
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <h4 id="misc_runes">
+              <a class="btn btn-primary btn-sm me-2 collapse-button" data-bs-target="#misc_runes_col" data-bs-toggle="collapse" href="#misc_runes_col" role="button">
+                <i class="bi bi-chevron-up"></i>
+              </a>
+              <span>Other Important Runes</span>
+              <span class="ms-2 mt-0" id="great_runes_totals_2"></span>
+            </h4>
+            <div aria-expanded="true" class="collapse show row" id="misc_runes_col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-md-block d-none">
+                  <div class="row form-check">
+                    <div class="col-auto">
+                      <input class="form-check-input invisible" type="checkbox">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <strong>Name</strong>
+                        </div>
+                        <div class="col-md-4">
+                          <strong>Location</strong>
+                        </div>
+                        <div class="col-md-4">
+                          <strong>Description</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_2_1">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_2_1" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_1">
+                            <strong class="d-md-none d-block">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Phantom+Great+Rune">Phantom Great Rune</a>
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_1">
+                            <strong class="d-md-none d-block">Location: </strong>Mohgwyn Palace - Mohgwyn Dynasty Mausoleum
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_1">
+                            <strong class="d-md-none d-block">Description: </strong>Item for online play. Obtained after using the Mohg's Great Rune and invading another world.
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_2_2">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_2_2" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_2">
+                            <strong class="d-md-none d-block">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Death-Prince">Mending Rune of the Death Prince</a>
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_2">
+                            <strong class="d-md-none d-block">Location: </strong>Awarded to the player by Fia after completing her questline
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_2">
+                            <strong class="d-md-none d-block">Description: </strong>Rune gestated by Fia, the Deathbed Companion.  Formed of the two hallowbrand half-wheels combined, it will embed the principle of life within Death into Order.
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_2_3">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_2_3" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_3">
+                            <strong class="d-md-none d-block">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Fell+Curse">Mending Rune of the Fell Curse</a>
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_3">
+                            <strong class="d-md-none d-block">Location: </strong>Awarded to the player by Dung Eater after following his questline and giving him 5 Seedbed Curse
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_3">
+                            <strong class="d-md-none d-block">Description: </strong>Loathsome rune gestated by the Dung Eater. The reviled curse will last eternally, and the world's children, grandchildren, and every generation hence, will be its pustules.
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="great_runes_2_4">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="great_runes_2_4" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_4">
+                            <strong class="d-md-none d-block">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order">Mending Rune of Perfect Order</a>
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_4">
+                            <strong class="d-md-none d-block">Location: </strong>Dropped by Goldmask after following his and Brother Corhyn's questline.
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="great_runes_2_4">
+                            <strong class="d-md-none d-block">Description: </strong>Rune discovered by the noble Goldmask. A rune of transcendental ideology which will attempt to perfect the Golden Order.
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="tab-pane fade" id="tabMain">
 <h3>Welcome to the Roundtable Tracker</h3>
 <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
@@ -26055,7 +26388,7 @@
               <div class="modal-body">
                 <form class="form-horizontal">
                   <div class="control-group">
-                    <label class="control-label" for_="profileModalName">Name</label>
+                    <label class="control-label" for="profileModalName">Name</label>
                     <div class="controls">
                       <input class="form-control" id="profileModalName" placeholder="Enter Profile name" type="text">
                     </div>
