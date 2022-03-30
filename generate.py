@@ -1,4 +1,4 @@
-from math import ceil
+from math import ceil, floor
 import os
 from turtle import onclick
 import yaml
@@ -144,32 +144,51 @@ with doc:
                                     span(section['title'])
                                 span(id=page['id'] + "_totals_" + str(section['num']), cls="ms-2 mt-0")
                             if 'table' in section:
-                                with div(id=section['id'] + "_col", cls="collapse show", aria_expanded="true"):
-                                    with table(cls="table"):
+                                with div(id=section['id'] + "_col", cls="collapse show row", aria_expanded="true"):
+                                    if isinstance(section['table'], list):
+                                        table_cols = len(section['table'])
+                                        size = floor(12 / table_cols)
+                                    else:
+                                        table_cols = section['table']
+                                        size = floor(12 / table_cols)
+                                    items = peekable(section['items'])
+                                    if not isinstance(items.peek(), list):
+                                        item = next(items)
+                                        h5(item)
+                                    with ul(cls='list-group list-group-flush'):
                                         if isinstance(section['table'], list):
-                                            table_cols = len(section['table'])
-                                            size = ceil(12 / table_cols)
-                                            with thead():
-                                                th(cls="w-auto", scope="col")
-                                                for header in section['table']:
-                                                    th(header, scope="col")
-                                        else:
-                                            table_cols = section['table']
-                                            size = ceil(12 / table_cols)
-                                        items = peekable(section['items'])
-                                        with tbody():
-                                            for item in items:
-                                                id = str(item[0])
-                                                with tr(cls="item_content", data_id=page['id'] + "_" + str(section['num']) + "_" + id):
-                                                    th(cls="table-checkbox", scope="row").add(input_(cls="form-check-input", id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
-                                                    for pos in range(1, 1+table_cols):
-                                                        with td().add(label(_for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label")):
-                                                            if isinstance(item[pos], list):
-                                                                for subitem in item[pos]:
-                                                                    raw(subitem)
-                                                                    br()
+                                            with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
+                                                with div(cls="col-auto"):
+                                                    input_(cls="form-check-input invisible", type='checkbox')
+                                                with div(cls="col").add(div(cls="row")):
+                                                    for idx, header in enumerate(section['table']):
+                                                        if 'table_widths' in section:
+                                                            col_size = str(section['table_widths'][idx])
+                                                        else:
+                                                            col_size = str(size)
+                                                        div(cls="col-md-" + col_size).add(strong(header))
+                                        for item in items:
+                                            id = str(item[0])
+                                            with li(cls="list-group-item", data_id=page['id'] + '_' + str(section['num']) + '_' + id):
+                                                if not isinstance(item, list):
+                                                    h5(item)
+                                                    continue
+                                                with div(cls="row form-check checkbox"):
+                                                    with div(cls="col-auto"):
+                                                        input_(cls="form-check-input", type="checkbox", value="",
+                                                                id=page['id'] + '_' + str(section['num']) + '_' + id)
+                                                    with div(cls="col").add(div(cls="row")):
+                                                        for pos in range(1, 1+table_cols):
+                                                            if 'table_widths' in section:
+                                                                col_size = str(section['table_widths'][pos-1])
                                                             else:
-                                                                raw(item[pos])
+                                                                col_size = str(size)
+                                                            with div(cls="col-md-" + col_size + ' col-xs-12'):
+                                                                with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + str(section['num']) + '_' + id):
+                                                                    if isinstance(section['table'], list) and item[pos]:
+                                                                        strong(section['table'][pos-1] + ': ', cls="d-md-none d-block")
+                                                                    if item[pos]:
+                                                                        raw(item[pos])
                             else:
                                 with div(id=section['id'] + "_col", cls="collapse show", aria_expanded="true"):
                                     items = peekable(section['items'])
