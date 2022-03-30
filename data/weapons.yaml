@@ -2,55 +2,33 @@ title: Weapons
 id: weapons
 sections:
   -
-    title: Axes
-    link: "https://eldenring.wiki.fextralife.com/Axes"
-    id: axes
-    num: 1
+    title: Daggers
+    link: "https://eldenring.wiki.fextralife.com/Daggers"
+    id: daggers
+    num: 3
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Battle+Axe\">Battle Axe</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Forked+Hatchet\">Forked Hatchet</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Axe\">Hand Axe</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Jawbone+Axe\">Jawbone Axe</a>"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Iron+Cleaver\">Iron Cleaver</a>"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ripple+Blade\">Ripple Blade</a>"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Cleaver\">Celebrant's Cleaver</a>"]
-      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Icerind+Hatchet\">Icerind Hatchet</a>"]
-      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Highland+Axe\">Highland Axe</a>"]
-      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Sacrificial+Axe\">Sacrificial Axe</a>"]
-      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Rosus'+Axe\">Rosus' Axe</a>"]
-      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Axe\">Stormhawk Axe</a>"]
-      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Warped+Axe\">Warped Axe</a>"]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Dagger\">Dagger</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\">Black Knife</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Parrying+Dagger\">Parrying Dagger</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Misericorde\">Misericorde</a>"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Reduvia\">Reduvia</a>"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Knife\">Crystal Knife</a>"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Sickle\">Celebrant's Sickle</a>"]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Kris\">Glintstone Kris</a>"]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Scorpion's+Stinger\">Scorpion's Stinger</a>"]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Knife\">Great Knife</a>"]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Wakizashi\">Wakizashi</a>"]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Cinquedea\">Cinquedea</a>"]
+      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Ivory+Sickle\">Ivory Sickle</a>"]
+      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodstained+Dagger\">Bloodstained Dagger</a>"]
+      - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Erdsteel+Dagger\">Erdsteel Dagger</a>"]
+      - [16, "<a href=\"https://eldenring.wiki.fextralife.com/Blade+of+Calling\">Blade of Calling</a>"]
   -
-    title: Ballistas
-    link: "https://eldenring.wiki.fextralife.com/Ballistas"
-    id: ballistas
-    num: 2
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>"]
+    title: Straight Swords
+    link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
   -
-    title: Bows
-    link: "https://eldenring.wiki.fextralife.com/Bows"
-    id: bows
-    num: 10
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Bow\">Albinauric Bow</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Horn+Bow\">Horn Bow</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Bow\">Erdtree Bow</a>"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Bow\">Serpent Bow</a>"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Bow\">Pulley Bow</a>"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Bow\">Black Bow</a>"]
-  -
-    title: Claws
-    link: "https://eldenring.wiki.fextralife.com/Claws"
-    id: claws
-    num: 4
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hookclaws\">Hookclaws</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Venomous+Fang\">Venomous Fang</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Claws\">Bloodhound Claws</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Raptor+Talons\">Raptor Talons</a>"]
+    title: Greatswords
+    link: "https://eldenring.wiki.fextralife.com/Greatswords"
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
@@ -90,33 +68,11 @@ sections:
       - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Staff\">Rotten Staff</a>"]
       - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Greataxe\">Rotten Greataxe</a>"]
   -
-    title: Crossbows
-    link: "https://eldenring.wiki.fextralife.com/Crossbows"
-    id: crossbows
-    num: 7
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Light+Crossbow\">Light Crossbow</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Heavy+Crossbow\">Heavy Crossbow</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Crossbow\">Pulley Crossbow</a>"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow\">Full Moon Crossbow</a>"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Arbalest\">Arbalest</a>"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Crepus's+Black-Key+Crossbow\">Crepus's Black-Key Crossbow</a>"]
+    title: Thursting Swords
+    link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
   -
-    title: Curved Greatswords
-    link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
-    id: curved_greatswords
-    num: 8
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Onyx+Lord's+Greatsword\">Onyx Lord's Greatsword</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Dismounter\">Dismounter</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound's+Fang\">Bloodhound's Fang</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Magma+Wyrm's+Scalesword\">Magma Wyrm's Scalesword</a>"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Curved+Sword\">Zamor Curved Sword</a>"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Cleaver\">Omen Cleaver</a>"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Monk's+Flameblade\">Monk's Flameblade</a>"]
-      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Beastman's+Cleaver\">Beastman's Cleaver</a>"]
-      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Cursed+Sword\">Morgott's Cursed Sword</a>"]
+    title: Heavy Thursting Swords
+    link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
@@ -139,70 +95,85 @@ sections:
       - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Grossmesser\">Grossmesser</a>"]
       - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Flowing+Sword\">Nox Flowing Sword</a>"]
   -
-    title: Daggers
-    link: "https://eldenring.wiki.fextralife.com/Daggers"
-    id: daggers
-    num: 3
+    title: Curved Greatswords
+    link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
+    id: curved_greatswords
+    num: 8
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Dagger\">Dagger</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\">Black Knife</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Parrying+Dagger\">Parrying Dagger</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Misericorde\">Misericorde</a>"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Reduvia\">Reduvia</a>"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Knife\">Crystal Knife</a>"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Sickle\">Celebrant's Sickle</a>"]
-      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Kris\">Glintstone Kris</a>"]
-      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Scorpion's+Stinger\">Scorpion's Stinger</a>"]
-      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Knife\">Great Knife</a>"]
-      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Wakizashi\">Wakizashi</a>"]
-      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Cinquedea\">Cinquedea</a>"]
-      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Ivory+Sickle\">Ivory Sickle</a>"]
-      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodstained+Dagger\">Bloodstained Dagger</a>"]
-      - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Erdsteel+Dagger\">Erdsteel Dagger</a>"]
-      - [16, "<a href=\"https://eldenring.wiki.fextralife.com/Blade+of+Calling\">Blade of Calling</a>"]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Onyx+Lord's+Greatsword\">Onyx Lord's Greatsword</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Dismounter\">Dismounter</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound's+Fang\">Bloodhound's Fang</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Magma+Wyrm's+Scalesword\">Magma Wyrm's Scalesword</a>"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Curved+Sword\">Zamor Curved Sword</a>"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Cleaver\">Omen Cleaver</a>"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Monk's+Flameblade\">Monk's Flameblade</a>"]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Beastman's+Cleaver\">Beastman's Cleaver</a>"]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Cursed+Sword\">Morgott's Cursed Sword</a>"]
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Fists"
+    title: Katanas
+    link: "https://eldenring.wiki.fextralife.com/Katanas"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Flails"
+    title: Twinblades
+    link: "https://eldenring.wiki.fextralife.com/Twinblades"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
+    title: Axes
+    link: "https://eldenring.wiki.fextralife.com/Axes"
+    id: axes
+    num: 1
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Battle+Axe\">Battle Axe</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Forked+Hatchet\">Forked Hatchet</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Axe\">Hand Axe</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Jawbone+Axe\">Jawbone Axe</a>"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Iron+Cleaver\">Iron Cleaver</a>"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ripple+Blade\">Ripple Blade</a>"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Cleaver\">Celebrant's Cleaver</a>"]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Icerind+Hatchet\">Icerind Hatchet</a>"]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Highland+Axe\">Highland Axe</a>"]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Sacrificial+Axe\">Sacrificial Axe</a>"]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Rosus'+Axe\">Rosus' Axe</a>"]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Axe\">Stormhawk Axe</a>"]
+      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Warped+Axe\">Warped Axe</a>"]
   -
-    title: 
+    title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
   -
-    title: Greatbows
-    link: "https://eldenring.wiki.fextralife.com/Greatbows"
-    id: great_bows
-    num: 12
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Greatbow\">Erdtree Greatbow</a>"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Lion+Greatbow\">Lion Greatbow</a>"]
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Great+Spears"
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Greatswords"
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Halberds"
-  -
-    title: 
+    title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
+    title: Flails
+    link: "https://eldenring.wiki.fextralife.com/Flails"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Katanas"
+    title: Great Hammers
+    link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
+  -
+    title: Spears
+    link: "https://eldenring.wiki.fextralife.com/Spears"
+  -
+    title: Great Spears
+    link: "https://eldenring.wiki.fextralife.com/Great+Spears"
+  -
+    title: Halberds
+    link: "https://eldenring.wiki.fextralife.com/Halberds"
+  -
+    title: Repears
+    link: "https://eldenring.wiki.fextralife.com/Reapers"
+  -
+    title: Whips
+    link: "https://eldenring.wiki.fextralife.com/Whips"
+  -
+    title: Fists
+    link: "https://eldenring.wiki.fextralife.com/Fists"
+  -
+    title: Claws
+    link: "https://eldenring.wiki.fextralife.com/Claws"
+    id: claws
+    num: 4
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hookclaws\">Hookclaws</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Venomous+Fang\">Venomous Fang</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Claws\">Bloodhound Claws</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Raptor+Talons\">Raptor Talons</a>"]
   -
     title: Light Bows
     link: "https://eldenring.wiki.fextralife.com/Light+Bows"
@@ -215,26 +186,64 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Misbegotten+Shortbow\">Misbegotten Shortbow</a>"]
       - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>"]
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Reapers"
+    title: Bows
+    link: "https://eldenring.wiki.fextralife.com/Bows"
+    id: bows
+    num: 10
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Bow\">Albinauric Bow</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Horn+Bow\">Horn Bow</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Bow\">Erdtree Bow</a>"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Bow\">Serpent Bow</a>"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Bow\">Pulley Bow</a>"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Bow\">Black Bow</a>"]
   -
-    title: 
+    title: Greatbows
+    link: "https://eldenring.wiki.fextralife.com/Greatbows"
+    id: great_bows
+    num: 12
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Greatbow\">Erdtree Greatbow</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Lion+Greatbow\">Lion Greatbow</a>"]
+  -
+    title: Crossbows
+    link: "https://eldenring.wiki.fextralife.com/Crossbows"
+    id: crossbows
+    num: 7
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Light+Crossbow\">Light Crossbow</a>"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Heavy+Crossbow\">Heavy Crossbow</a>"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Crossbow\">Pulley Crossbow</a>"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow\">Full Moon Crossbow</a>"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Arbalest\">Arbalest</a>"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Crepus's+Black-Key+Crossbow\">Crepus's Black-Key Crossbow</a>"]
+  -
+    title: Ballistas
+    link: "https://eldenring.wiki.fextralife.com/Ballistas"
+    id: ballistas
+    num: 2
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>"]
+  -
+    title: Glintstone Staffs
+    link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
+  -
+    title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Spears"
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
-  -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
-  -
-    title: 
+    title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Twinblades"
+    title: Small Shields
+    link: "https://eldenring.wiki.fextralife.com/Small+Shields"
   -
-    title: 
-    link: "https://eldenring.wiki.fextralife.com/Whips"
+    title: Medium Shieds
+    link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
+  -
+    title: Greatshields
+    link: "https://eldenring.wiki.fextralife.com/Greatshields"
