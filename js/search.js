@@ -64,6 +64,9 @@
   }), new Jets({
     searchTag: "#paintings_search",
     contentTag: "#paintings_list tbody"
+  }), new Jets({
+    searchTag: "#great_runes_search",
+    contentTag: "#great_runes_list tbody"
 })];
   $("#playthrough_search").keyup(function() {
     $("#playthrough_list").unhighlight();
@@ -148,6 +151,10 @@
   $("#paintings_search").keyup(function() {
     $("#paintings_list").unhighlight();
     $("#paintings_list").highlight($(this).val());
+  });
+  $("#great_runes_search").keyup(function() {
+    $("#great_runes_list").unhighlight();
+    $("#great_runes_list").highlight($(this).val());
   });
 });
 })( jQuery );
