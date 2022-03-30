@@ -199,11 +199,8 @@ var profilesKey = 'darksouls3_profiles';
             if (!confirm('Are you sure you wish to begin the next journey?')) {
                 return;
             }
-            $('[id^="playthrough_"], [id^="crow_"]').filter(':checked').each(function(){
+            $('[id^="playthrough_"], [id^="npc_quests_"], [id^="bosses_"], [id^="legacy_"], [id^="caves_"], [id^="evergaols_"], [id^="paintings"]').filter(':checked').each(function(){
                 profiles[profilesKey][profiles.current].checklistData[this.id] = false;
-            });
-            $.each(profiles[profilesKey][profiles.current].hidden_categories, function(f){
-                profiles[profilesKey][profiles.current].hidden_categories[f] = false;
             });
             if (profiles[profilesKey][profiles.current].journey < 3) {
                 profiles[profilesKey][profiles.current].journey++;
@@ -303,26 +300,6 @@ var profilesKey = 'darksouls3_profiles';
             calculateTotals();
         });
 
-        $('[data-item-toggle]').change(function() {
-            var type = $(this).data('item-toggle');
-            var to_hide = $(this).is(':checked');
-            var item_toggles = $(this).closest('.btn-group.btn-group-vertical').find('[data-item-toggle]');
-
-            profiles[profilesKey][profiles.current].hidden_categories[type] = to_hide;
-            $.jStorage.set(profilesKey, profiles);
-
-            toggleFilteredClasses(type);
-            toggleFilteredClasses('f_none');
-
-            // Mark parent category as hidden if and only if all items in it are hidden
-            if (to_hide === (item_toggles.length === item_toggles.filter(':checked').length)) {
-                $(this).closest('.btn-group.btn-group-vertical').find('[data-category-toggle]').not(function(){return this.checked === to_hide}).click();
-            }
-            // Apply partial highlight to the parent category if at least one item in it is hidden
-            $(this).closest('.btn-group.btn-group-vertical').find('.btn-group-vertical').toggleClass('open', item_toggles.filter(':checked').length > 0);
-
-            calculateTotals();
-        });
 
         $('[data-category-toggle]').change(function() {
             var to_hide = $(this).is(':checked');
@@ -352,28 +329,6 @@ var profilesKey = 'darksouls3_profiles';
             profiles[profilesKey][profile_name].journey = 1;
         if (!('style' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].style = 'Standard';
-        if (!('hidden_categories' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].hidden_categories = {
-                f_boss: false,
-                f_miss: false,
-                f_npc: false,
-                f_estus: false,
-                f_bone: false,
-                f_tome: false,
-                f_coal: false,
-                f_ash: false,
-                f_gest: false,
-                f_sorc: false,
-                f_pyro: false,
-                f_mirac: false,
-                f_ring: false,
-                f_weap: false,
-                f_arm: false,
-                f_tit: false,
-                f_gem: false,
-                f_cov: false,
-                f_misc: false
-            };
     }
 
     /// restore all saved state, except for the current tab
@@ -398,14 +353,6 @@ var profilesKey = 'darksouls3_profiles';
         }
 
         $('[data-ng-toggle="' + profiles[profilesKey][profile_name].journey + '"]').click().change();
-        $.each(profiles[profilesKey][profile_name].hidden_categories, function(key, value) {
-            var $el = $('[data-item-toggle="' + key + '"]');
-            var active = $el.is(':checked');
-
-            if ((value && !active) || (!value && active)) {
-                $el.click();
-            }
-        });
         themeSetup(profiles[profilesKey][profiles.current].style);
     }
 
@@ -522,51 +469,6 @@ var profilesKey = 'darksouls3_profiles';
         for (var profile in profiles[profilesKey]) {
             return profile;
         }
-    }
-
-    function canFilter(entry) {
-        var classAttr = entry.attr('class');
-        if (!classAttr) {
-            return false;
-        }
-        if (classAttr === 'f_none') {
-            // If some filters are enabled, all entries marked f_none are automatically filtered as well 
-            return Object.values(profiles[profilesKey][profiles.current].hidden_categories).some(function(f){return f});
-        }
-        var classList = classAttr.split(/\s+/);
-        for (var i = 0; i < classList.length; i++) {
-            // Hide(h) or show(s) entries based on journey number
-            if ((classList[i].match(/^h_ng\+*$/) && classList[i].match(/^h_ng(\+*)$/)[1].length < profiles[profilesKey][profiles.current].journey) ||
-               (classList[i].match(/^s_ng\+*$/) && classList[i].match(/^s_ng(\+*)$/)[1].length >= profiles[profilesKey][profiles.current].journey)) {
-                return true;
-            }
-        }
-        var foundMatch = 0;
-        for (var i = 0; i < classList.length; i++) {
-            if (!classList[i].match(/^f_.*/)) {
-                continue;
-            }
-            if(classList[i] in profiles[profilesKey][profiles.current].hidden_categories) {
-                if(!profiles[profilesKey][profiles.current].hidden_categories[classList[i]]) {
-                    return false;
-                }
-                foundMatch = 1;
-            }
-        }
-        if (foundMatch === 0) {
-            return false;
-        }
-        return true;
-    }
-
-    function toggleFilteredClasses(str) {
-        $("li." + str).each(function() {
-            if(canFilter($(this))) {
-                $(this).css('display', 'none');
-            } else {
-                $(this).css('display', '');
-            }
-        });
     }
 
     /*

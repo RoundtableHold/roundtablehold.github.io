@@ -160,9 +160,9 @@ with doc:
                                         with tbody():
                                             for item in items:
                                                 id = str(item[0])
-                                                with tr(cls="item_content " + item[1], data_id=page['id'] + "_" + str(section['num']) + "_" + id):
+                                                with tr(cls="item_content", data_id=page['id'] + "_" + str(section['num']) + "_" + id):
                                                     th(cls="table-checkbox", scope="row").add(input_(cls="form-check-input", id=page['id'] + "_" + str(section['num']) + "_" + id, type="checkbox"))
-                                                    for pos in range(2, 2+table_cols):
+                                                    for pos in range(1, 1+table_cols):
                                                         with td().add(label(_for=page['id'] + "_" + str(section['num']) + "_" + id, cls="table-label")):
                                                             if isinstance(item[pos], list):
                                                                 for subitem in item[pos]:
@@ -183,10 +183,10 @@ with doc:
                                             u = ul(cls="list-group-flush")
                                             continue
                                         id = str(item[0])
-                                        with u.add(li(data_id=page['id'] + "_" + str(section['num']) + "_" + id, cls="list-group-item " + item[1])):
+                                        with u.add(li(data_id=page['id'] + "_" + str(section['num']) + "_" + id, cls="list-group-item")):
                                             with div(cls="form-check checkbox"):
                                                 input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id)
-                                                label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id).add(raw(item[2]))
+                                                label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id).add(raw(item[1]))
                                         if isinstance(items.peek([0])[0], list):
                                             item = next(items)
                                             with u.add(ul(cls="list-group-flush")):
@@ -194,7 +194,7 @@ with doc:
                                                     with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item " + subitem[1]):
                                                         with div(cls="form-check checkbox"):
                                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0]))
-                                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[2]))
+                                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
             with div(cls="tab-pane fade", id="tabMain"):
                 raw(
 """
