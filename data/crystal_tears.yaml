@@ -1,4 +1,4 @@
-title: "Crystal Tears"
+title: "Flask of Wondrous Physick"
 id: crystal_tears
 sections:
   -
@@ -7,83 +7,83 @@ sections:
     num: 0
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers", "+10 Faith, lasts 180 seconds"]
-      - [2, "", "Crimsonburst Crystal Tear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "+7 HP/sec, lasts 180 seconds"]
-      - [3, "", "Opaline Bubbletear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "Almost entirely negates the next single hit you take, lasts up to 180 seconds"]
+      - [1, "Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers", "+10 Faith, lasts 180 seconds"]
+      - [2, "Crimsonburst Crystal Tear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "+7 HP/sec, lasts 180 seconds"]
+      - [3, "Opaline Bubbletear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "Almost entirely negates the next single hit you take, lasts up to 180 seconds"]
   -
     title: "Limgrave"
     id: "crystal_tears_limgrave"
     num: 1
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Strength-Knot Crystal Tear", "Northwest of the Warmaster’s Shack, guarded by a troll", "+10 Strength, lasts 180 seconds"]
-      - [2, "", "Spiked Cracked Tear", "Under the Minor Erdtree in Mistwood", "+15% to damage done by charged attacks, lasts 180 seconds"]
-      - [3, "", "Greenspill Crystal Tear", "Under the Minor Erdtree in Mistwood", "+15% stamina, lasts 180 seconds"]
-      - [4, "", "Crimson Crystal Tear (1)", "At the Third Church of Marika", "Restores half of total HP"]
+      - [1, "Strength-Knot Crystal Tear", "Northwest of the Warmaster’s Shack, guarded by a troll", "+10 Strength, lasts 180 seconds"]
+      - [2, "Spiked Cracked Tear", "Under the Minor Erdtree in Mistwood", "+15% to damage done by charged attacks, lasts 180 seconds"]
+      - [3, "Greenspill Crystal Tear", "Under the Minor Erdtree in Mistwood", "+15% stamina, lasts 180 seconds"]
+      - [4, "Crimson Crystal Tear (1)", "At the Third Church of Marika", "Restores half of total HP"]
   -
     title: "Liurnia of the Lakes"
     id: "crystal_tears_liurniaofthe_lakes"
     num: 2
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Dexterity-Knot Crystal Tear", "On top of a small island southwest of the Boilprawn Shack Grace", "+10 Dexterity, lasts 180 seconds"]
-      - [2, "", "Ruptured Crystal Tear (1)", "Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace", "Deal 800 damage in a 2-meter radius, but take 300 yourself"]
-      - [3, "", "Cerulean Crystal Tear (1)", "Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace", "Restores half of total FP"]
-      - [4, "", "Lightning-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% lightning damage, lasts 180 seconds"]
-      - [5, "", "Holy-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% magic damage, lasts 180 seconds"]
-      - [6, "", "Magic-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% holy damage, lasts 180 seconds"]
-      - [7, "", "Intelligence-Knot Crystal Tear", "Southwest of the Main Caria Manor Gate Grace", "+10 Intelligence, lasts 180 seconds"]
+      - [1, "Dexterity-Knot Crystal Tear", "On top of a small island southwest of the Boilprawn Shack Grace", "+10 Dexterity, lasts 180 seconds"]
+      - [2, "Ruptured Crystal Tear (1)", "Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace", "Deal 800 damage in a 2-meter radius, but take 300 yourself"]
+      - [3, "Cerulean Crystal Tear (1)", "Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace", "Restores half of total FP"]
+      - [4, "Lightning-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% lightning damage, lasts 180 seconds"]
+      - [5, "Holy-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% magic damage, lasts 180 seconds"]
+      - [6, "Magic-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace", "+20% holy damage, lasts 180 seconds"]
+      - [7, "Intelligence-Knot Crystal Tear", "Southwest of the Main Caria Manor Gate Grace", "+10 Intelligence, lasts 180 seconds"]
   -
     title: "Caelid"
     id: "crystal_tears_caelid"
     num: 3
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Flame-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "+20% fire damage, lasts 180 seconds"]
-      - [2, "", "Greenburst Crystal Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "~30% stamina regen boost, lasts 180 seconds"]
-      - [3, "", "Opaline Hardtear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds"]
-      - [4, "", "Stonebarb Cracked Tear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+30% to posture and stamina damage, lasts 30 seconds"]
-      - [5, "", "Windy Crystal Tears", "South of Southern Aeonia Grace, guarded by birds", "Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds"]
+      - [1, "Flame-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "+20% fire damage, lasts 180 seconds"]
+      - [2, "Greenburst Crystal Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "~30% stamina regen boost, lasts 180 seconds"]
+      - [3, "Opaline Hardtear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds"]
+      - [4, "Stonebarb Cracked Tear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+30% to posture and stamina damage, lasts 30 seconds"]
+      - [5, "Windy Crystal Tears", "South of Southern Aeonia Grace, guarded by birds", "Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds"]
   -
     title: "Altus Plateau"
     id: "crystal_tears_altus_plateau"
     num: 4
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Purifying Crystal Tear", "Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika", "Negates curse effect in phase one of Mohg's boss fight"]
-      - [2, "", "Speckled Hardtear", "Reward for defeating the Wormface northeast of the Bower of Bounty Grace", "Heals all status effects, boosts all resistances by 90 for 180 seconds"]
-      - [3, "", "Crimsonspill Crystal Tear", "Reward for defeating the Wormface northeast of the Bower of Bounty Grace", "+10% max HP, lasts 180 seconds"]
+      - [1, "Purifying Crystal Tear", "Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika", "Negates curse effect in phase one of Mohg's boss fight"]
+      - [2, "Speckled Hardtear", "Reward for defeating the Wormface northeast of the Bower of Bounty Grace", "Heals all status effects, boosts all resistances by 90 for 180 seconds"]
+      - [3, "Crimsonspill Crystal Tear", "Reward for defeating the Wormface northeast of the Bower of Bounty Grace", "+10% max HP, lasts 180 seconds"]
   -
     title: "Mt. Gelmir"
     id: "crystal_tears_mt_gelmir"
     num: 5
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Leaden Hardtear", "Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree", "Infinite poise, lasts 10 seconds"]
-      - [2, "", "Cerulean Hidden Tear", "Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree", "Eliminates FP consumption, lasts 15 seconds"]
+      - [1, "Leaden Hardtear", "Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree", "Infinite poise, lasts 10 seconds"]
+      - [2, "Cerulean Hidden Tear", "Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree", "Eliminates FP consumption, lasts 15 seconds"]
   -
     title: "Leyndell, Royal Capital"
     id: "crystal_tears_leyndell_royal_capital"
     num: 6
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Winged Crystal Tear", "On an altar northwest of the Erdtree, surrounded by skull enemies", "Maximum equip load multiplied by 4.5, lasts 180 seconds"]
-      - [2, "", "Twiggy Cracked Tear", "Found in an altar at the base of a Minor Erdtree in the Capital Outskirts", "Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds"]
-      - [3, "", "Crimson Crystal Tear (2)", "Found in an altar at the base of a Minor Erdtree in the Capital Outskirts", "Restores half of total HP"]
+      - [1, "Winged Crystal Tear", "On an altar northwest of the Erdtree, surrounded by skull enemies", "Maximum equip load multiplied by 4.5, lasts 180 seconds"]
+      - [2, "Twiggy Cracked Tear", "Found in an altar at the base of a Minor Erdtree in the Capital Outskirts", "Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds"]
+      - [3, "Crimson Crystal Tear (2)", "Found in an altar at the base of a Minor Erdtree in the Capital Outskirts", "Restores half of total HP"]
   -
     title: "Mountaintops of the Giants"
     id: "crystal_tears_mountaintopsofthe_giants"
     num: 7
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Crimsonwhorl Bubbletear", "On a cliff ledge south of Giants' Gravepost Grace", "Converts elemental damage to HP, lasts 15 seconds"]
+      - [1, "Crimsonwhorl Bubbletear", "On a cliff ledge south of Giants' Gravepost Grace", "Converts elemental damage to HP, lasts 15 seconds"]
   -
     title: "Consecrated Snowfield"
     id: "crystal_tears_consecrated_snowfield"
     num: 8
     table: ["Name", "Location", "Effect"]
     items:
-      - [1, "", "Cerulean Crystal Tear (2)", "Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree", "Restores half of total FP"]
-      - [2, "", "Crimson Bubbletear", "Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree", "Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds"]
-      - [3, "", "Thorny Crystal Tear", "Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace", "35% damage increase to consecutive attacks, lasts 180 seconds"]
-      - [4, "", "Ruptured Crystal Tear (2)", "Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace", "Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1750 damage in a 4-meter radius, but take 700 yourself"]
+      - [1, "Cerulean Crystal Tear (2)", "Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree", "Restores half of total FP"]
+      - [2, "Crimson Bubbletear", "Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree", "Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds"]
+      - [3, "Thorny Crystal Tear", "Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace", "35% damage increase to consecutive attacks, lasts 180 seconds"]
+      - [4, "Ruptured Crystal Tear (2)", "Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace", "Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1750 damage in a 4-meter radius, but take 700 yourself"]

@@ -6,98 +6,98 @@ sections:
     id: gestures_automatic
     num: 0
     items:
-      - [1, "", "Warm Welcome"]
-      - [2, "", "Dejection"]
-      - [3, "", "Wave"]
-      - [4, "", "Rallying Cry"]
-      - [5, "", "Rest"]
-      - [6, "", "Point Forwards"]
-      - [7, "", "Bow"]
-      - [8, "", "Point Upwards"]
-      - [9, "", "Point Downwards"]
-      - [10, "", "Beckon"]
-      - [11, "", "Jump for Joy"]
-      - [12, "", "Wait!"]
+      - [1, "Warm Welcome"]
+      - [2, "Dejection"]
+      - [3, "Wave"]
+      - [4, "Rallying Cry"]
+      - [5, "Rest"]
+      - [6, "Point Forwards"]
+      - [7, "Bow"]
+      - [8, "Point Upwards"]
+      - [9, "Point Downwards"]
+      - [10, "Beckon"]
+      - [11, "Jump for Joy"]
+      - [12, "Wait!"]
   -
     title: "Limgrave"
     id: gestures_limgrave
     num: 1
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "Strength!", "Cave of Knowledge", "", "Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick."]
-      - [2, "", "The Ring", "anywhere", "", "Help anyone beat a boss as a yellow phantom. Requires online access. (It was also a digital pre-order bonus.)"]
-      - [3, "", "Nod in Thought", "Waypoint Ruins Cellar", "Sellen", "Meet Sellen and become her student."]
-      - [4, "", "Grovel for Mercy", "Murkwater Cave", "Patches", "When you first encounter Patches, after lowering his health enough, he'll perform this gesture as his surrender. If you stop attacking, the fight will end, and you'll get the gesture unlock."]
-      - [5, "", "Extreme Repentance", "Murkwater Cave", "Patches", "After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)"]
-      - [6, "", "Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you."]
-      - [7, "", "Finger Snap", "Church of Elleh", "Blaidd", "Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it."]
-      - [8, "", "Triumphant Delight", "Stormhill", "Alexander", "Help Iron Fist Alexander out of his hole."]
-      - [9, "", "Crossed Legs", "Stormhill", "", "South of Stormhill Shack is a large piece of debris with a corpse sitting on top in this pose. Interact with it to unlock the gesture."]
-      - [10, "", "Sitting Sideways", "Stormhill Shack", "Roderika", "Talk to Roderika in her shack until this unlocks."]
-      - [11, "", "Dozing Cross-Legged", "Stormveil Castle", "", "Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask."]
-      - [12, "", "Bravo!", "", "Varre", "After you've beaten your first demigod (traditionally Godrick), but before finding Varre at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture."]
+      - [1, "Strength!", "Cave of Knowledge", "", "Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick."]
+      - [2, "The Ring", "anywhere", "", "Help anyone beat a boss as a yellow phantom. Requires online access. (It was also a digital pre-order bonus.)"]
+      - [3, "Nod in Thought", "Waypoint Ruins Cellar", "Sellen", "Meet Sellen and become her student."]
+      - [4, "Grovel for Mercy", "Murkwater Cave", "Patches", "When you first encounter Patches, after lowering his health enough, he'll perform this gesture as his surrender. If you stop attacking, the fight will end, and you'll get the gesture unlock."]
+      - [5, "Extreme Repentance", "Murkwater Cave", "Patches", "After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)"]
+      - [6, "Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you."]
+      - [7, "Finger Snap", "Church of Elleh", "Blaidd", "Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it."]
+      - [8, "Triumphant Delight", "Stormhill", "Alexander", "Help Iron Fist Alexander out of his hole."]
+      - [9, "Crossed Legs", "Stormhill", "", "South of Stormhill Shack is a large piece of debris with a corpse sitting on top in this pose. Interact with it to unlock the gesture."]
+      - [10, "Sitting Sideways", "Stormhill Shack", "Roderika", "Talk to Roderika in her shack until this unlocks."]
+      - [11, "Dozing Cross-Legged", "Stormveil Castle", "", "Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask."]
+      - [12, "Bravo!", "", "Varre", "After you've beaten your first demigod (traditionally Godrick), but before finding Varre at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture."]
   -
     title: "Roundtable Hold"
     id: gestures_roundtable
     num: 2
     table: ["Name", "Questline", "Description"]
     items:
-      - [1, "", "Prayer", "Corhyn", "Talk to Brother Corhyn."]
-      - [2, "", "What Do You Want?", "Ensha", "Try to talk to Ensha."]
-      - [3, "", "Reverential Bow", "", "Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish."]
-      - [4, "", "Curtsy", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
-      - [5, "", "Rapture", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
+      - [1, "Prayer", "Corhyn", "Talk to Brother Corhyn."]
+      - [2, "What Do You Want?", "Ensha", "Try to talk to Ensha."]
+      - [3, "Reverential Bow", "", "Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish."]
+      - [4, "Curtsy", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
+      - [5, "Rapture", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
   -
     title: "Liurnia of the Lakes"
     id: gestures_liurnia
     num: 3
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "As You Wish", "", "Hyetta", "Give Hyetta a Shabriri Grape."]
-      - [2, "", "Fire Spur Me", "", "", "On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia."]
-      - [3, "", "Spread Out", "Boilprawn Shack", "Blackguard Big Boggart", "Buy some boiled prawns and talk to him."]
-      - [4, "", "Erudition", "Church of Irith", "puzzle towers", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
-      - [5, "", "Balled Up", "Academy of Raya Lucaria", "", "Use a Larval Tear to rebirth yourself with Rennala."]
-      - [6, "", "Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
+      - [1, "As You Wish", "", "Hyetta", "Give Hyetta a Shabriri Grape."]
+      - [2, "Fire Spur Me", "", "", "On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia."]
+      - [3, "Spread Out", "Boilprawn Shack", "Blackguard Big Boggart", "Buy some boiled prawns and talk to him."]
+      - [4, "Erudition", "Church of Irith", "puzzle towers", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
+      - [5, "Balled Up", "Academy of Raya Lucaria", "", "Use a Larval Tear to rebirth yourself with Rennala."]
+      - [6, "Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
   -
     title: "Caelid"
     id: gestures_caelid
     num: 4
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "Desperate Prayer", "Gowry's Shack", "Gowry", "Buy the incantation Pest Threads, which becomes available at a certain point in his questline, then exhaust his dialogue."]
-      - [2, "", "Heartening Cry", "Redmane Castle", "", "Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
-      - [3, "", "Polite Bow", "Redmane Castle", "", "Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
-      - [4, "", "Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
+      - [1, "Desperate Prayer", "Gowry's Shack", "Gowry", "Buy some Pest Threads, then exhaust his dialogue."]
+      - [2, "Heartening Cry", "Redmane Castle", "Witch-Hunter Jerren", "Talk to Jerren at Redmane Castle."]
+      - [3, "Polite Bow", "Redmane Castle", "", "Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
+      - [4, "Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
   -
     title: "Mt. Gelmir"
     id: gestures_gelmir
     num: 5
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "My Thanks", "Volcano Manor", "Volcano Manor", "At the end of the hallway after beating Rykard."]
+      - [1, "My Thanks", "Volcano Manor", "Volcano Manor", "At the end of the hallway after beating Rykard."]
   -
     title: "Leyndell, Royal Capital"
     id: gestures_leyndell
     num: 6
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
-      - [2, "", "By My Sword", "Fortified Manor, First Floor", "", "In a small room in the south wing."]
-      - [3, "", "My Lord", "East Capital Rampart", "Boc", "Give Boc the Gold Sewing Needle."]
-      - [4, "", "Golden Order Totality", "", "Goldmask", "Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum."]
+      - [1, "Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
+      - [2, "By My Sword", "Fortified Manor, First Floor", "", "In a small room in the south wing."]
+      - [3, "My Lord", "East Capital Rampart", "Boc", "Give Boc the Gold Sewing Needle."]
+      - [4, "Golden Order Totality", "", "Goldmask", "Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum."]
   -
     title: "Mountaintops of the Giants"
     id: gestures_mountaintops
     num: 7
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
-      - [2, "", "Hoslow's Oath", "just east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
+      - [1, "Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
+      - [2, "Hoslow's Oath", "just east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
   -
     title: "Nokron, Eternal City"
     id: gestures_nokron
     num: 8
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "", "Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]
+      - [1, "Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]

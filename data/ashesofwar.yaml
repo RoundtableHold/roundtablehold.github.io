@@ -7,98 +7,98 @@ sections:
     num: 1
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade\">Blood Blade</a>", "Wound self to coat the armament with blood, then unleash an airborne blood blade that causes hemorrhaging. Can be fired in rapid succession."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Tax\">Blood Tax</a>", "Blood Oath skill granted by Lord of Blood. Twist to build power, then unleash a flurry of thrusts that rob the target of both their blood and their HP."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloody+Slash\">Bloody Slash</a>", "Blood Oath skill granted by the Lord of Blood. From a low stance, coat the blade in your own blood to unleash a rending blood slash in a wide arc."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku\">Seppuku</a>", "Plunge the blade into your stomach to stain it with blood. Increases attack power and improves ability to inflict blood loss."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade\">Blood Blade</a>", "Wound self to coat the armament with blood, then unleash an airborne blood blade that causes hemorrhaging. Can be fired in rapid succession."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Tax\">Blood Tax</a>", "Blood Oath skill granted by Lord of Blood. Twist to build power, then unleash a flurry of thrusts that rob the target of both their blood and their HP."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloody+Slash\">Bloody Slash</a>", "Blood Oath skill granted by the Lord of Blood. From a low stance, coat the blade in your own blood to unleash a rending blood slash in a wide arc."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku\">Seppuku</a>", "Plunge the blade into your stomach to stain it with blood. Increases attack power and improves ability to inflict blood loss."]
   -
     title: "Cold"
     id: "ashesofwar_cold"
     num: 2
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist\">Chilling Mist</a>", "Coat armament in frost, and then slash, spreading frigid mist forwards. The armament retains its frost for a while."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarfrost+Stomp\">Hoarfrost Stomp</a>", "Stomp hard to spread a trail of freezing mist on the ground. The mist applies the frost status effect."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear\">Ice Spear</a>", "Skill of the warriors who served Lunar Princess Ranni. Spin armament to release cold magic, then channel it into a piercing spear of ice."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist\">Chilling Mist</a>", "Coat armament in frost, and then slash, spreading frigid mist forwards. The armament retains its frost for a while."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarfrost+Stomp\">Hoarfrost Stomp</a>", "Stomp hard to spread a trail of freezing mist on the ground. The mist applies the frost status effect."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear\">Ice Spear</a>", "Skill of the warriors who served Lunar Princess Ranni. Spin armament to release cold magic, then channel it into a piercing spear of ice."]
   -
     title: "Fire"
     id: "ashesofwar_fire"
     num: 3
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption\">Eruption</a>", "Slamming the armament into the ground will spawn roiling lava which also spouts up upon release."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes\">Flame of the Redmanes</a>", "Skill of the Redmanes, who fought alongside General Radahn. Produce a powerful burst of flames in a wide frontward arc."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike\">Flaming Strike</a>", "Skill that emits flame in a wide frontward arc. Follow up with a strong attack to perform a lunging, sweeping strike. This will also coat the armament in fire."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption\">Eruption</a>", "Slamming the armament into the ground will spawn roiling lava which also spouts up upon release."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes\">Flame of the Redmanes</a>", "Skill of the Redmanes, who fought alongside General Radahn. Produce a powerful burst of flames in a wide frontward arc."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike\">Flaming Strike</a>", "Skill that emits flame in a wide frontward arc. Follow up with a strong attack to perform a lunging, sweeping strike. This will also coat the armament in fire."]
   -
     title: "Flame"
     id: "ashesofwar_flame"
     num: 4
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado\">Black Flame Tornado</a>", "Spin armament overhead and then plunge it into the ground to summon a raging vortex of black flames. Hold to create an initial flame tornado while spinning the armament."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge\">Prelate's Charge</a>", "Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado\">Black Flame Tornado</a>", "Spin armament overhead and then plunge it into the ground to summon a raging vortex of black flames. Hold to create an initial flame tornado while spinning the armament."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge\">Prelate's Charge</a>", "Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge."]
   -
     title: "Heavy"
     id: "ashesofwar_heavy"
     num: 5
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar\">Barbaric Roar</a>", "Increase attack power. Strong attacks turn into savage combo attacks."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Braggart's+Roar\">Braggart's Roar</a>", "Declare your presence with a boastful roar. Raises attack power, defense, and stamina recovery speed."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Cragblade\">Cragblade</a>", "Reinforce weapon with earth."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Earthshaker\">Earthshaker</a>", "Thrust armament into the ground, then gather strength to unleash an earth-shaking shockwave. Follow up with a strong attack to swing the armament in a sweeping strike."]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Endure\">Endure</a>", "Assume an anchored stance to brace for incoming attacks, briefly boosting poise. Damage taken while using this skill is reduced."]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ground+Slam\">Ground Slam</a>", "Jump up high into the air and crash down on the ground ahead. The resulting pratfall sends a powerful shockwave in all directions."]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarah+Loux's+Earthshaker\">Hoarah Loux's Earthshaker</a>", "Slam both hands onto the ground to violently shake the earth and unleash a shockwave. Follow up with an additional input to slam the ground again."]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Kick\">Kick</a>", "Push an enemy back with a high kick. Effective against enemies who are guarding, and can break a foe's stance. Sometimes a simple tool is the most effective."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lion's+Claw\">Lion's Claw</a>", "Skill of the Redmanes, who fought alongside General Radahn. Somersault forwards, striking foes with armament."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Sweep)\">Stamp (Sweep)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for a sweeping strike."]
-      - [11, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Upward+Cut)\">Stamp (Upward Cut)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for an upward strike."]
-      - [12, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Troll's+Roar\">Troll's Roar</a>", "Generate powerful shock wave then slam weapon down"]
-      - [13, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+War+Cry\">War Cry</a>", "Give a war cry to rally the spirit and increase attack power. While active, strong attacks change to charging attacks."]
-      - [14, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes\">Wild Strikes</a>", "Swing armaments with wild abandon. Hold to continue swinging. Can be followed up with a normal or strong attack."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar\">Barbaric Roar</a>", "Increase attack power. Strong attacks turn into savage combo attacks."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Braggart's+Roar\">Braggart's Roar</a>", "Declare your presence with a boastful roar. Raises attack power, defense, and stamina recovery speed."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Cragblade\">Cragblade</a>", "Reinforce weapon with earth."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Earthshaker\">Earthshaker</a>", "Thrust armament into the ground, then gather strength to unleash an earth-shaking shockwave. Follow up with a strong attack to swing the armament in a sweeping strike."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Endure\">Endure</a>", "Assume an anchored stance to brace for incoming attacks, briefly boosting poise. Damage taken while using this skill is reduced."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ground+Slam\">Ground Slam</a>", "Jump up high into the air and crash down on the ground ahead. The resulting pratfall sends a powerful shockwave in all directions."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarah+Loux's+Earthshaker\">Hoarah Loux's Earthshaker</a>", "Slam both hands onto the ground to violently shake the earth and unleash a shockwave. Follow up with an additional input to slam the ground again."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Kick\">Kick</a>", "Push an enemy back with a high kick. Effective against enemies who are guarding, and can break a foe's stance. Sometimes a simple tool is the most effective."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lion's+Claw\">Lion's Claw</a>", "Skill of the Redmanes, who fought alongside General Radahn. Somersault forwards, striking foes with armament."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Sweep)\">Stamp (Sweep)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for a sweeping strike."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Upward+Cut)\">Stamp (Upward Cut)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for an upward strike."]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Troll's+Roar\">Troll's Roar</a>", "Generate powerful shock wave then slam weapon down"]
+      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+War+Cry\">War Cry</a>", "Give a war cry to rally the spirit and increase attack power. While active, strong attacks change to charging attacks."]
+      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes\">Wild Strikes</a>", "Swing armaments with wild abandon. Hold to continue swinging. Can be followed up with a normal or strong attack."]
   -
     title: "Keen"
     id: "ashesofwar_keen"
     num: 6
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar\">Beast's Roar</a>", "Unleash a beastly roar, rending the air as a forward-travelling projectile."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step\">Bloodhound's Ste</a>", "Skill that allows the user to become temporarily invisible while dodging at high speed. Moves faster and travels farther than a regular quickstep. This skill can be used to circle around lock-on targets."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash\">Double Slash</a>", "Skill of superior swordsmen. Perform a crossing slash attack from a low stance. Repeated inputs allow for up to two follow-up attacks."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust\">Impaling Thrust</a>", "Skill that lets piercing armaments overcome enemy shields. Build power, then lunge forward for a strong thrust that pierces an enemy's guard."]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang\">Piercing Fang</a>", "Skill used by Yura, the Bloody Finger Hunter. Starting with the blade held horizontally, make a powerful thrust that cannot be blocked"]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Quickstep\">Quickstep</a>", "Skill prized by the crafty and fleet of foot. Perform a quickstep maneuver that allows for circling around lock-on targets."]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Raptor+of+the+Mists\">Raptor of the Mist</a>", "Duck into a low stance, momentarily vanishing. If an enemy attack connects, avian wings will allow for a quick escape into the air."]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust\">Repeating Thrust</a>", "Twist to build power, then unleash a flurry of thrusts. This Skill takes some time to build up, but it is very powerful."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Spinning Slash</a>", "Skill favored by dexterous warriors. Slash foes as your body spins. Additional input allows for a follow-up attack."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Sword Dance</a>", "Quickly close in to perform a series of spinning upward slashes. Follow up with an additional input to finish with a downward slash."]
-      - [11, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe\">Unsheathe</a>", "Skill of swordsmen from the Land of Reeds. Sheathe blade, holding it at the hip in a composed stance. Follow up with a normal or strong attack to perform a swift slash attack."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar\">Beast's Roar</a>", "Unleash a beastly roar, rending the air as a forward-travelling projectile."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step\">Bloodhound's Ste</a>", "Skill that allows the user to become temporarily invisible while dodging at high speed. Moves faster and travels farther than a regular quickstep. This skill can be used to circle around lock-on targets."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash\">Double Slash</a>", "Skill of superior swordsmen. Perform a crossing slash attack from a low stance. Repeated inputs allow for up to two follow-up attacks."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust\">Impaling Thrust</a>", "Skill that lets piercing armaments overcome enemy shields. Build power, then lunge forward for a strong thrust that pierces an enemy's guard."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang\">Piercing Fang</a>", "Skill used by Yura, the Bloody Finger Hunter. Starting with the blade held horizontally, make a powerful thrust that cannot be blocked"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Quickstep\">Quickstep</a>", "Skill prized by the crafty and fleet of foot. Perform a quickstep maneuver that allows for circling around lock-on targets."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Raptor+of+the+Mists\">Raptor of the Mist</a>", "Duck into a low stance, momentarily vanishing. If an enemy attack connects, avian wings will allow for a quick escape into the air."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust\">Repeating Thrust</a>", "Twist to build power, then unleash a flurry of thrusts. This Skill takes some time to build up, but it is very powerful."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Spinning Slash</a>", "Skill favored by dexterous warriors. Slash foes as your body spins. Additional input allows for a follow-up attack."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Sword Dance</a>", "Quickly close in to perform a series of spinning upward slashes. Follow up with an additional input to finish with a downward slash."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe\">Unsheathe</a>", "Skill of swordsmen from the Land of Reeds. Sheathe blade, holding it at the hip in a composed stance. Follow up with a normal or strong attack to perform a swift slash attack."]
   -
     title: "Lightning"
     id: "ashesofwar_lightning"
     num: 7
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Ram</a>", "Skill inspired by tumbling rams. Let out a bleat, then tumble forwards, clad in lightning. Tumbles can be repeated in rapid succession."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Slash</a>", "Call down a bolt of lightning into armament, then swing it down to create an explosive shock. The armament retains the lightning enchantment for a while."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt\">Thunderbolt</a>", "Raise armament aloft to call down a bolt of lightning. Can be fired in rapid succession."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Ram</a>", "Skill inspired by tumbling rams. Let out a bleat, then tumble forwards, clad in lightning. Tumbles can be repeated in rapid succession."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Slash</a>", "Call down a bolt of lightning into armament, then swing it down to create an explosive shock. The armament retains the lightning enchantment for a while."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt\">Thunderbolt</a>", "Raise armament aloft to call down a bolt of lightning. Can be fired in rapid succession."]
   -
     title: "Magic"
     id: "ashesofwar_magic"
     num: 8
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur\">Carian Grandeur</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power by up to two levels."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Greatsword\">Carian Greatsword</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Retaliation\">Carian Retaliation</a>", "Swing the shield to dispel incoming sorceries and incantations, transforming the magic into retaliatory glintblades. Can also be used in the same way as a regular parry."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintblade+Phalanx\">Glintblade Phalanx</a>", "Skill that creats glitnstone blades over your head and attack enemies automatically when they get close enough"]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintstone+Pebble\">Glintstone Pebble</a>", "Skill that employs the glintstone sorcery of the same name. Follow up with a strong attack to chain this skill into a lunging thrust, performed while the armament is still imbued with glintstone."]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Gravitas\">Gravitas</a>", "Pierce the ground with your armament to damage foes as a surge of gravity draws them in"]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Loretta's+Slash\">Loretta's Slash</a>", "Skill of Loretta the Royal Knight. Leap forward, imbuing the blade with glintstone, then descend, accelerating into a sweeping slash."]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Weapon\">Spinning Weapon</a>", "Defensive skill employed by Carian princesses. Lifts armament into mid-air, then makes it spin violently. Those it touches will suffer successive attacks."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thops's+Barrier\">Thops's Barrier</a>", "Erect a magical forcefield while swinging the shield to deflect sorceries and incantations. Can also be used in the same way as a regular parry."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Waves+of+Darkness\">Waves of Darkness</a>", "Plunge armament into the ground to release three waves of darkness."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur\">Carian Grandeur</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power by up to two levels."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Greatsword\">Carian Greatsword</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Retaliation\">Carian Retaliation</a>", "Swing the shield to dispel incoming sorceries and incantations, transforming the magic into retaliatory glintblades. Can also be used in the same way as a regular parry."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintblade+Phalanx\">Glintblade Phalanx</a>", "Skill that creats glitnstone blades over your head and attack enemies automatically when they get close enough"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintstone+Pebble\">Glintstone Pebble</a>", "Skill that employs the glintstone sorcery of the same name. Follow up with a strong attack to chain this skill into a lunging thrust, performed while the armament is still imbued with glintstone."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Gravitas\">Gravitas</a>", "Pierce the ground with your armament to damage foes as a surge of gravity draws them in"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Loretta's+Slash\">Loretta's Slash</a>", "Skill of Loretta the Royal Knight. Leap forward, imbuing the blade with glintstone, then descend, accelerating into a sweeping slash."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Weapon\">Spinning Weapon</a>", "Defensive skill employed by Carian princesses. Lifts armament into mid-air, then makes it spin violently. Those it touches will suffer successive attacks."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thops's+Barrier\">Thops's Barrier</a>", "Erect a magical forcefield while swinging the shield to deflect sorceries and incantations. Can also be used in the same way as a regular parry."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Waves+of+Darkness\">Waves of Darkness</a>", "Plunge armament into the ground to release three waves of darkness."]
 
   -
     title: "Occult"
@@ -106,75 +106,75 @@ sections:
     num: 9
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit\">Assassin's Gambit</a>", "A skill where it masks the player's presence at the cost of a self-inflicted wound. The ablilty grants near-invisibility and silenced footsteps."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Lifesteal Fist</a>", "Skill that demonstrates mastery of the art of controlling vital energies."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Spectral Lance</a>", "Skill of the headless Mausoleum Knights. Hurl a phantasmic spear at foes."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure\">White Shadow's Lure</a>", "Hold armament in a brief, silent prayer to create a white shadow. The apparition lures in foes of human build who are not in combat, drawing their aggression."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit\">Assassin's Gambit</a>", "A skill where it masks the player's presence at the cost of a self-inflicted wound. The ablilty grants near-invisibility and silenced footsteps."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Lifesteal Fist</a>", "Skill that demonstrates mastery of the art of controlling vital energies."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Spectral Lance</a>", "Skill of the headless Mausoleum Knights. Hurl a phantasmic spear at foes."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure\">White Shadow's Lure</a>", "Hold armament in a brief, silent prayer to create a white shadow. The apparition lures in foes of human build who are not in combat, drawing their aggression."]
   -
     title: "Poison"
     id: "ashesofwar_poison"
     num: 10
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight\">Poison Moth Flight</a>", "Slash with a poison-infused blade. If the follow-up strike lands on a poisoned foe, it will deal significant damage."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist\">Poisonous Mist</a>", "Coats the selected armament in poison, slashing spreads the toxic mist forward. The armament retain its poison for a while."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight\">Poison Moth Flight</a>", "Slash with a poison-infused blade. If the follow-up strike lands on a poisoned foe, it will deal significant damage."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist\">Poisonous Mist</a>", "Coats the selected armament in poison, slashing spreads the toxic mist forward. The armament retain its poison for a while."]
   -
     title: "Quality"
     id: "ashesofwar_quality"
     num: 11
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth\">Charge Forth</a>", "Quickly charge forward with the armament at the hip, carrying the momentum into a thrust. Hold to cover a greater distance."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Determination\">Determination</a>", "Hold the flat of the armament to your face and pledge your resolve, powering up your next attack."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt\">Giant Hunt</a>", "Skill developed for confronting gigantic foes. Step forward from a low stance, carrying the momentum into a sudden upward thrust."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Phantom+Slash\">Phantom Slash</a>", "Skill inspired by the fond remembrances of the Night's Cavalry. Creates an apparition of the knights' former instructor who guides a joint lunging upward swing. Additional input allows for a follow-up attack."]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Royal+Knight's+Resolve\">Royal Knight's Resolve</a>", "Skill of the knights who once served the Elden Lord. Hold the flat of the armament to your face and pledge your resolve, greatly powering up your next attack."]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Strikes\">Spinning Strikes</a>", "Polearm skill that performs continuous spinning attacks. Hold to continue the attack. Can be followed up with a normal or strong attack. Nullifies projectiles such as arrows while spinning."]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Square+Off\">Square Off</a>", "This skill starts with the sword held level. Follow up with a normal attack to slash upwards through enemy's guard, or a strong attack to perform a running thrust."]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Assault\">Storm Assault</a>", "One of the skills that channel the tempests of Stormveil. Leap forward through surrounding storm winds and thrust armament downward. The attack will produce more storm winds at the point of impact."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Blade\">Storm Blade</a>", "Your armament is wrapped in a stormy blade that can be fired in rapid succession."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Stomp\">Storm Stomp</a>", "One of the skills that channel the tempests of Stormveil. Stomp hard on the ground to kick up a momentary storm."]
-      - [11, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stormcaller\">Stormcaller</a>", "One of the skills that channel the tempests of Stormveil. Spin armament to create surrounding storm winds. Repeated inputs allow for up to two follow-up attacks."]
-      - [12, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice\">Vacuum Slice</a>", "Lost skill of ancient heroes. Hold the armament aloft to surround it with a shearing vacuum, then launch it forwards as a blade-like projectile."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth\">Charge Forth</a>", "Quickly charge forward with the armament at the hip, carrying the momentum into a thrust. Hold to cover a greater distance."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Determination\">Determination</a>", "Hold the flat of the armament to your face and pledge your resolve, powering up your next attack."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt\">Giant Hunt</a>", "Skill developed for confronting gigantic foes. Step forward from a low stance, carrying the momentum into a sudden upward thrust."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Phantom+Slash\">Phantom Slash</a>", "Skill inspired by the fond remembrances of the Night's Cavalry. Creates an apparition of the knights' former instructor who guides a joint lunging upward swing. Additional input allows for a follow-up attack."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Royal+Knight's+Resolve\">Royal Knight's Resolve</a>", "Skill of the knights who once served the Elden Lord. Hold the flat of the armament to your face and pledge your resolve, greatly powering up your next attack."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Strikes\">Spinning Strikes</a>", "Polearm skill that performs continuous spinning attacks. Hold to continue the attack. Can be followed up with a normal or strong attack. Nullifies projectiles such as arrows while spinning."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Square+Off\">Square Off</a>", "This skill starts with the sword held level. Follow up with a normal attack to slash upwards through enemy's guard, or a strong attack to perform a running thrust."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Assault\">Storm Assault</a>", "One of the skills that channel the tempests of Stormveil. Leap forward through surrounding storm winds and thrust armament downward. The attack will produce more storm winds at the point of impact."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Blade\">Storm Blade</a>", "Your armament is wrapped in a stormy blade that can be fired in rapid succession."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Stomp\">Storm Stomp</a>", "One of the skills that channel the tempests of Stormveil. Stomp hard on the ground to kick up a momentary storm."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stormcaller\">Stormcaller</a>", "One of the skills that channel the tempests of Stormveil. Spin armament to create surrounding storm winds. Repeated inputs allow for up to two follow-up attacks."]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice\">Vacuum Slice</a>", "Lost skill of ancient heroes. Hold the armament aloft to surround it with a shearing vacuum, then launch it forwards as a blade-like projectile."]
   -
     title: "Sacred"
     id: "ashesofwar_sacred"
     num: 12
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land\">Golden Land</a>", "Thrust armament into the ground, then gather strength to unleash a blast of sacred energy that coalesces into golden darts. Follow up with a strong attack to swing the armament in a sweeping strike"]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Parry\">Golden Parry</a>", "Perform an Erdtree incantation and swing the shield to deflect enemy attacks and break their stance. Effective even at a slight distance."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Slam\">Golden Slam</a>", "Jump and slam on ground"]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Vow\">Golden Vow</a>", "Skill passed down from antiquity among the knights of the capital. Raise armament aloft and pledge to honor the Erdtree in battle, granting self and nearby allies increased attack power and defense."]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Holy+Ground\">Holy Ground</a>", "Raise shield to create an Erdtree-consecrated area that continuously restores HP and boosts defense for self and allies inside it"]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prayerful+Strike\">Prayerful Strike</a>", "Raise armament aloft in prayer, then slam it into the ground. This inspired blow restores HP to the self and nearby allies if it successfully hits."]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Blade\">Sacred Blade</a>", "Grants armament's attacks holy essence and fires off a golden blade projectile. The armament retains its holy essence for awhile."]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Order\">Sacred Order</a>", "Skill of the Golden Order fundamentalist knights. Perform a salute and grant the armament holy essence."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Ring+of+Light\">Sacred Ring of Light</a>", "The armament gathers a sacred ring of light and then fires it forward, the skill can be fired in rapid succession."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shared+Order\">Shared Order</a>", "Skill of the Golden Order fundamentalist knights. Grant the armament and those of nearby allies holy essence."]
-      - [11, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable\">Vow of the Indomitable</a>", "Skill of the ancient warriors of the Erdtree. Hold shield aloft to imbue yourself with golden power, granting momentary invincibility."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land\">Golden Land</a>", "Thrust armament into the ground, then gather strength to unleash a blast of sacred energy that coalesces into golden darts. Follow up with a strong attack to swing the armament in a sweeping strike"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Parry\">Golden Parry</a>", "Perform an Erdtree incantation and swing the shield to deflect enemy attacks and break their stance. Effective even at a slight distance."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Slam\">Golden Slam</a>", "Jump and slam on ground"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Vow\">Golden Vow</a>", "Skill passed down from antiquity among the knights of the capital. Raise armament aloft and pledge to honor the Erdtree in battle, granting self and nearby allies increased attack power and defense."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Holy+Ground\">Holy Ground</a>", "Raise shield to create an Erdtree-consecrated area that continuously restores HP and boosts defense for self and allies inside it"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prayerful+Strike\">Prayerful Strike</a>", "Raise armament aloft in prayer, then slam it into the ground. This inspired blow restores HP to the self and nearby allies if it successfully hits."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Blade\">Sacred Blade</a>", "Grants armament's attacks holy essence and fires off a golden blade projectile. The armament retains its holy essence for awhile."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Order\">Sacred Order</a>", "Skill of the Golden Order fundamentalist knights. Perform a salute and grant the armament holy essence."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Ring+of+Light\">Sacred Ring of Light</a>", "The armament gathers a sacred ring of light and then fires it forward, the skill can be fired in rapid succession."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shared+Order\">Shared Order</a>", "Skill of the Golden Order fundamentalist knights. Grant the armament and those of nearby allies holy essence."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable\">Vow of the Indomitable</a>", "Skill of the ancient warriors of the Erdtree. Hold shield aloft to imbue yourself with golden power, granting momentary invincibility."]
   -
     title: "Standard"
     id: "ashesofwar_standard"
     num: 13
     table: ["Name", "Description"]
     items:
-      - [1, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage\">Barrage</a>", "Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see."]
-      - [2, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barricade+Shield\">Barricade Shield</a>", "Focus your energy into the shield, temporarily hardening it to deflect greater blows."]
-      - [3, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Enchanted+Shot\">Enchanted Shot</a>", "A skill where a spiritual essence is gathered within the arrow, allowing it to fly faster than a regular shot arrow. It also changes its trajectory to follow the target."]
-      - [4, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Mighty+Shot\">Mighty Shot</a>", "Archery skill performed from an oblique stance. Ready the bow, then pull the bowstring to its limit to enhance the power of the shot, penetrating the enemy's guard."]
-      - [5, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+No+Skill\">No Skill</a>", "This armament has no skill. If the armament in the other hand has a skill, that skill will be used instead."]
-      - [6, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry\">Parry</a>", "Use this skill in time with a foe's melee attack to deflect it and break that foe's stance. This provides an opening to perform a critical hit."]
-      - [7, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Rain of Arrows</a>", "Archery skill performed from a low stance. Ready the bow, then fire a burst of arrows into the sky to shower the enemy with projectiles"]
-      - [8, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Bash\">Shield Bash</a>", "Brace behind shield before using bodyweight to ram foes while maintaining guarding stance. Weaker enemies will be shoved backwards, and can even be staggered."]
-      - [9, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Crash\">Shield Crash</a>", "Two-hand the shield and charge forwards while maintaining guard. Weaker enemies will be shoved backwards and can even be staggered. Hold to extend the duration of the charge forwards."]
-      - [10, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot\">Sky Shot</a>", "Archery skill performed from a low stance. Ready the bow, then fire an arrow high up into the air, arcing so as to strike the enemy from abose when it comes down."]
-      - [11, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Wall\">Storm Wall</a>", "Swing the shield to create a wall of storm winds in front of you, deflecting arrows and other such physical projectiles. Can also be used in the same way as a regular parry."]
-      - [12, "f_ash", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through\">Through and Through</a>", "Powerful archery skill using a greatbow held in an oblique stance. Ready the greatbow, then twist the bowstring to fire a mighty greatarrow that can penetrate through enemies."]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage\">Barrage</a>", "Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barricade+Shield\">Barricade Shield</a>", "Focus your energy into the shield, temporarily hardening it to deflect greater blows."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Enchanted+Shot\">Enchanted Shot</a>", "A skill where a spiritual essence is gathered within the arrow, allowing it to fly faster than a regular shot arrow. It also changes its trajectory to follow the target."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Mighty+Shot\">Mighty Shot</a>", "Archery skill performed from an oblique stance. Ready the bow, then pull the bowstring to its limit to enhance the power of the shot, penetrating the enemy's guard."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+No+Skill\">No Skill</a>", "This armament has no skill. If the armament in the other hand has a skill, that skill will be used instead."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry\">Parry</a>", "Use this skill in time with a foe's melee attack to deflect it and break that foe's stance. This provides an opening to perform a critical hit."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Rain of Arrows</a>", "Archery skill performed from a low stance. Ready the bow, then fire a burst of arrows into the sky to shower the enemy with projectiles"]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Bash\">Shield Bash</a>", "Brace behind shield before using bodyweight to ram foes while maintaining guarding stance. Weaker enemies will be shoved backwards, and can even be staggered."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Crash\">Shield Crash</a>", "Two-hand the shield and charge forwards while maintaining guard. Weaker enemies will be shoved backwards and can even be staggered. Hold to extend the duration of the charge forwards."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot\">Sky Shot</a>", "Archery skill performed from a low stance. Ready the bow, then fire an arrow high up into the air, arcing so as to strike the enemy from abose when it comes down."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Wall\">Storm Wall</a>", "Swing the shield to create a wall of storm winds in front of you, deflecting arrows and other such physical projectiles. Can also be used in the same way as a regular parry."]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through\">Through and Through</a>", "Powerful archery skill using a greatbow held in an oblique stance. Ready the greatbow, then twist the bowstring to fire a mighty greatarrow that can penetrate through enemies."]
   -
     title: "Misc."
     id: "ashesofwar_misc"
     num: 14
     table: ["Name", "Description"]
     items:
-    - [1, "f_ash", "Lost Ashes of War", "Ashes of war, devoid of any memories of battle. Unable to apply any kind of affinity in their current state, but can be used by Smithing Master Hewg of the Roundtable Hold to recreate other ashes."]
+    - [1, "Lost Ashes of War", "Ashes of war, devoid of any memories of battle. Unable to apply any kind of affinity in their current state, but can be used by Smithing Master Hewg of the Roundtable Hold to recreate other ashes."]
