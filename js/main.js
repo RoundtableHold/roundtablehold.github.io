@@ -70,24 +70,12 @@ var profilesKey = 'darksouls3_profiles';
             calculateTotals();
         });
 
-        $('tr[data-id]').each(function() {
+        $('div[data-id]').each(function() {
             var $el = $(this);
             if (profiles[profilesKey][profiles.current].checklistData[$el.attr('data-id')] === true) {
                 $('#' + $el.attr('data-id')).prop('checked', true);
-                $('tr[data-id="' + $el.attr('data-id')+'"]').addClass('completed');
+                $('div[data-id="' + $el.attr('data-id')+'"]').addClass('completed');
             }
-        });
-
-        $('.table-checkbox input[type="checkbox"]').click(function() {
-            var id = $(this).attr('id');
-            var isChecked = profiles[profilesKey][profiles.current].checklistData[id] = $(this).prop('checked');
-            if (isChecked === true) {
-              $('tr[data-id="'+id+'"]').addClass('completed');
-            } else {
-              $('tr[data-id="'+id+'"]').removeClass('completed');
-            }
-            $.jStorage.set(profilesKey, profiles);
-            calculateTotals();
         });
 
         $('.collapse-button').click(function(event) {

@@ -120,7 +120,7 @@ div.hide_completed .completed {
   display: none !important;
 }
 
-tr.completed td label {
+li.completed label {
   text-decoration: line-through;
   -webkit-text-decoration: line-through !important;
 }
@@ -185,3 +185,11 @@ textarea#profileText {
 .btn-group.btn-group-vertical:first-child:hover > .btn-group:first-child > .btn-group-vertical > .btn {
   border-bottom-left-radius: 0;
 }
+
+/* @media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+} */
