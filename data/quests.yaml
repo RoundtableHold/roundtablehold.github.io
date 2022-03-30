@@ -273,8 +273,8 @@ sections:
     id: miriel
     num: 5
     items:
-      - [1, "", "Located at the Church of Vows on the East Side of Liurnia Lake. Takes Scrolls and Prayer Books and teaches their contents."]
-      - [2, "", "Notes: Could there be more?"]
+      - [1, "", "Located at the Church of Vows on the east side of Liurnia Lake. Teaches sorceries and incantations, and accepts scrolls and prayerbooks. Never moves or dies, so is a good candidate to give them all to."]
+      - [3, "", "Can tell you lore regarding Radagon and Rennala. Once you find your first Celestial Dew, he'll explain to you how absolution works. No proper developments to his questline have been confirmed."]
   -
     title: Nepheli Loux
     link: "https://eldenring.wiki.fextralife.com/Nepheli+Loux"
@@ -340,16 +340,18 @@ sections:
     id: seluvis
     num: 19
     items:
-      - [1, "", "First encountered during Ranni's questline as a spirit. To do this, go through Caria Manor in North-West Liurnia Lake and go North-West of that to get to Ranni's Rise. Talk to Ranni and join her (if you already are helping Rogier, you'll have to go back to him then come back to join her)"]
-      - [2, "", "After joining her go downstairs and talk to the spirits then back upstairs to Ranni. DO NOT give the Fingerslayer Blade to Ranni. Once you do, Seluvis dies."]
-      - [3, "", "Seluvis can now be found in his tower South-East of Ranni's Rise. He will give you a potion to turn someone into a puppet, and he'll ask you to give it to Nepheli, but there are other options for it as well. You can also now buy Sorceries from him. The choice is here."]
+      - [1, "", "First encountered during Ranni's questline as a spirit. To do this, go through Caria Manor in northwest Liurnia and go northwest of that to get to Ranni's Rise. Talk to Ranni and join her (if you already are helping Rogier, you'll have to go back to him then come back to join her)"]
+      - [2, "", "After joining her go downstairs and talk to the spirits, one of whom is Seluvis, then back upstairs to Ranni. DO NOT give the Fingerslayer Blade to Ranni. Once you do, Seluvis dies."]
+      - [3, "", "Seluvis can now be found in his tower southeast of Ranni's Rise. He will give you a potion to turn someone into a puppet, and he'll ask you to give it to Nepheli, but there are other options for it as well. You can't buy anything from him until you use it. The choice is here."]
       -
         - [1, "", "If you give it to Nepheli, you will make Seluvis happy and get the Nepheli Loux Puppet later from his dead body."]
         - [3, "", "If you give it to Dung Eater at the end of his questline instead of the Seedbed Curse, then you can buy a Dung Eater Puppet from Seluvis."]
         - [2, "", "If you give it to Gideon, he'll dispose of it. Seluvis doesn't find out, no one is killed by it, and the questline still advances, though you won't get a fancy puppet of one of your friends."]
-      - [4, "", "Go North of his tower, into the ruins and find an Illusory Floor in one that leads down to a room full of Seluvis' Puppets. Roll into the door in the back to reveal an Illusory Wall. Go back to Seluvis and bring up the room, and he will give you a free puppet."]
-      - [5, "", "After you buy all Sorceries and get your first puppet, he will let you in on his scheme. He wants you to find the Amber Starlight Shard located North-East of the Atlus Highway Junction Grace, North-East of the Grand Lift of Dectus, in a canyon filled with Krakens."]
-      - [6, "", "Bring the Amber Starlight Shard and give it to him to receive the Magic Scorpion Charm. He will then give you a potion to give to Ranni. If you do it, then she will wake up angry at you, then kill you and Seluvis. Seluvis also dies after giving the Fingerslayer Blade to Ranni and continuing her quest."]
+      - [9, "", "After you've made your choice, return to Seluvis. No matter what you did with it, he'll think you gave it to Nepheli and be pleased. He now sells Sorceries. You can ask him questions as well. If you didn't give the potion to Nepheli, he'll have a dialogue where he's confused that Nepheli is still alive, but blames it on his potion rather than doubt your actions."]
+      - [4, "", "Go North of his tower, into the ruins, and find an Illusory Floor in one that leads down to a room full of Seluvis' Puppets. Roll into the door in the back to reveal an Illusory Wall. Go back to Seluvis and bring up the room, and he will give you a free puppet. Rest and return, and he'll let you buy the other one with Starlight Shards."]
+      - [5, "", "After you buy all Sorceries and puppets, he will let you in on his scheme. He wants you to find the Amber Starlight Shard located North-East of the Atlus Highway Junction Grace, North-East of the Grand Lift of Dectus, in a canyon filled with Krakens."]
+      - [6, "", "Bring the Amber Starlight Shard and give it to him. Exhaust his dialogue to receive the Magic Scorpion Charm and a promise that he'll reveal his scheme imminently."]
+      - [10, "", "Rest and return. He will give you a potion to give to Ranni. If you do it, then she will wake up angry at you, then kill you and Seluvis. Seluvis also dies after giving the Fingerslayer Blade to Ranni and continuing her quest."]
       - [7, "", "If you give the potion to Ranni and make her mad, you can absolve yourself at the Church of Vows to fix her questline, but I recommend just not giving her the potion. After his death his corpse will sell you puppets for Starlight Shards."]
       - [8, "", "Notes: Other uses for the potions he gives you?"]
   -
