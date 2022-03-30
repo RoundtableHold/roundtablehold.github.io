@@ -287,6 +287,7 @@ with doc:
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js")
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
+    script(src="js/search.js")
     raw("""
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -299,7 +300,29 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-
-
 with open('index.html', 'w', encoding='utf-8') as index:
     index.write(doc.render())
+
+with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+    jsfile.writelines([
+        '(function($) {\n',
+        "  'use strict';\n",
+        '  $(function() {\n',
+        '  var jets = [new Jets({\n'
+        ])
+    for i, page in enumerate(pages):
+        jsfile.writelines([
+            '    searchTag: "#' + page['id'] + '_search",\n',
+            '    contentTag: "#' + page['id'] + '_list ' + ('tbody"\n' if 'table' in page['sections'][0] else 'ul"\n'),
+            '  }), new Jets({\n' if i < len(pages) - 1 else '})];\n'
+        ])
+    for i, page in enumerate(pages):
+        jsfile.writelines([
+            '  $("#' + page['id'] + '_search").keyup(function() {\n',
+            '    $("#' + page['id'] + '_list").unhighlight();\n',
+            '    $("#' + page['id'] + '_list").highlight($(this).val());\n',
+            '  });\n'
+        ])
+    jsfile.write('});\n')
+    jsfile.write('})( jQuery );\n')
+
