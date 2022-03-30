@@ -136,7 +136,7 @@ with doc:
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
                             with h4(id=section['id']):
-                                with a(href="#" + section['id'] + "_col", data_bs_toggle="collapse", data_bs_target="#" + section['id'] + "_col", cls="btn btn-primary btn-sm me-2 collapse-button", type="button"):
+                                with a(href="#" + section['id'] + "_col", data_bs_toggle="collapse", data_bs_target="#" + section['id'] + "_col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
                                     i(cls='bi bi-chevron-up')
                                 if 'link' in section:
                                     a(section['title'], href=section['link'])
@@ -220,7 +220,7 @@ with doc:
 <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
 <p>We will do our best to ensure that such issues remain few and far between.</p>
 """)
-            with div(cls="tab-pane fade", id="tabOptions").add(form()):
+            with div(cls="tab-pane fade", id="tabOptions"):
                 h2("Options")
                 with div(cls="row"):
                     div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Theme selection:"))
@@ -262,7 +262,7 @@ with doc:
                                     label("Name", cls="control-label", for_="profileModalName")
                                     div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
                         with div(cls="modal-footer"):
-                            button("Close", href="#", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            button("Close", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
                             a("Add", href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
                             a("Update", href="#", id="profileModalUpdate", cls="btn btn-primary")
                             a("Delete", href="#", id="profileModalDelete", cls="btn btn-primary")
