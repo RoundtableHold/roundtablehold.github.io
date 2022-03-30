@@ -247,7 +247,7 @@ with doc:
                 with div(cls="row"):
                     div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Profile management:"))
                     with div(cls="col col-xs-12 col-sm-4 col-md-6"):
-                        with form(cls="form-inline input-group pull-right"):
+                        with form(cls="form-inline input-group pull-right gap-1"):
                             select(cls="form-select", id="profiles")
                             with div(cls="btn-group"):
                                 button("Add", cls="btn btn-primary", type="button", id="profileAdd")
