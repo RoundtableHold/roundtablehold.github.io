@@ -4,31 +4,32 @@ dropdowns:
   -
     name: "Guides"
     pages:
-      - "walkthrough.yaml"
-      - "quests.yaml"
-      - "achievements.yaml"
+      - "walkthrough.yaml" #Walkthrough
+      - "quests.yaml" #NPC Questlines
+      - "achievements.yaml" #Achievements
   -
     name: "Locations"
     pages:
-      - "bosses.yaml"
-      - "legacy_dungeons.yaml"
-      - "caves.yaml"
-      - "evergaols.yaml"
+      - "bosses.yaml" #Bosses
+      - "legacy_dungeons.yaml" #Legacy Dungeons
+      - "caves.yaml" #Caves, Catacombs, and Tunnels
+      - "evergaols.yaml" #Evergaols
   -
     name: "Items"
     pages:
-      - "flasks.yaml"
-      - "crystal_tears.yaml"
-      - "legendaries.yaml"
-      - "weapons.yaml"
-      - "talismans.yaml"
-      - "sorceries.yaml"
-      - "dragon_hearts_death_roots.yaml"
-      - "memory_stones_talisman_pouches.yaml"
-      - "whetstones.yaml"
-      - "bell_bearings.yaml"
-      - "cookbooks.yaml"
-      - "ashesofwar.yaml"
-      - "gestures.yaml"
-      - "paintings.yaml"
-      - "greatrunes.yaml"
+      - "ashesofwar.yaml" #Ashes of War
+      - "bell_bearings.yaml" #Bell Bearings
+      - "cookbooks.yaml" #Cookbooks
+      - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
+      - "crystal_tears.yaml" #Flask of Wondrous Physick
+      - "gestures.yaml" #Gestures
+      - "flasks.yaml" #Golden Seeds & Sacred Tears
+      - "greatrunes.yaml" #Great Runes
+      - "legendaries.yaml" #Legendaries
+      - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
+      - "paintings.yaml" #Paintings
+#      - "scrolls_prayerbooks.yaml" Scrolls and Prayerbooks
+      - "sorceries.yaml" #Sorceries
+      - "talismans.yaml" #Talismans
+      - "weapons.yaml" #Weapons
+      - "whetstones.yaml" #Whetstones

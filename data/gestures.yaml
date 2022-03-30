@@ -65,8 +65,8 @@ sections:
     num: 4
     table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "Desperate Prayer", "Gowry's Shack", "Gowry", "Buy some Pest Threads, then exhaust his dialogue."]
-      - [2, "Heartening Cry", "Redmane Castle", "Witch-Hunter Jerren", "Talk to Jerren at Redmane Castle."]
+      - [1, "Desperate Prayer", "Gowry's Shack", "Gowry", "Buy the incantation Pest Threads, which becomes available at a certain point in his questline, then exhaust his dialogue."]
+      - [2, "Heartening Cry", "Redmane Castle", "", "Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
       - [3, "Polite Bow", "Redmane Castle", "", "Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
       - [4, "Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
   -
