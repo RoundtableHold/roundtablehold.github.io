@@ -543,6 +543,8 @@ var profilesKey = 'darksouls3_profiles';
             profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
 
             $.jStorage.set(profilesKey, profiles);
+        
+            $('.navbar-collapse').collapse('hide')
         });
      });
 
