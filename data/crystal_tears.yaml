@@ -3,15 +3,6 @@ id: crystal_tears
 table_widths: [3, 5, 4]
 sections:
   -
-    title: "Weeping Peninsula"
-    id: "crystal_tears_weeping_peninsula"
-    num: 0
-    table: ["Name", "Location", "Effect"]
-    items:
-      - [1, "Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers", "+10 Faith, lasts 180 seconds"]
-      - [2, "Crimsonburst Crystal Tear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "+7 HP/sec, lasts 180 seconds"]
-      - [3, "Opaline Bubbletear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "Almost entirely negates the next single hit you take, lasts up to 180 seconds"]
-  -
     title: "Limgrave"
     id: "crystal_tears_limgrave"
     num: 1
@@ -21,6 +12,15 @@ sections:
       - [2, "Spiked Cracked Tear", "Under the Minor Erdtree in Mistwood", "+15% to damage done by charged attacks, lasts 180 seconds"]
       - [3, "Greenspill Crystal Tear", "Under the Minor Erdtree in Mistwood", "+15% stamina, lasts 180 seconds"]
       - [4, "Crimson Crystal Tear (1)", "At the Third Church of Marika", "Restores half of total HP"]
+  -
+    title: "Weeping Peninsula"
+    id: "crystal_tears_weeping_peninsula"
+    num: 0
+    table: ["Name", "Location", "Effect"]
+    items:
+      - [1, "Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers", "+10 Faith, lasts 180 seconds"]
+      - [2, "Crimsonburst Crystal Tear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "+7 HP/sec, lasts 180 seconds"]
+      - [3, "Opaline Bubbletear", "Reward for defeating the Erdtree Avatar in the Weeping Peninsula", "Almost entirely negates the next single hit you take, lasts up to 180 seconds"]
   -
     title: "Liurnia of the Lakes"
     id: "crystal_tears_liurniaofthe_lakes"

@@ -3,13 +3,6 @@ id: evergaols
 table_widths: [2, 3, 3, 4]
 sections:
   -
-    title: "Weeping Peninsula"
-    id: "evergaols_weeping_peninsula"
-    num: 0
-    table: ["Name", "Location", "Bosses", "Rewards"]
-    items:
-      - [1, "Weeping Evergaol", "East of the Fourth Church of Marika", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
-  -
     title: "Limgrave"
     id: "evergaols_limgrave"
     num: 1
@@ -17,6 +10,13 @@ sections:
     items:
       - [1, "Forlorn Hound Evergaol", "South of Agheel Lake", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
       - [2, "Stormhill Evergaol", "Southwest of Stormgate", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
+  -
+    title: "Weeping Peninsula"
+    id: "evergaols_weeping_peninsula"
+    num: 0
+    table: ["Name", "Location", "Bosses", "Rewards"]
+    items:
+      - [1, "Weeping Evergaol", "East of the Fourth Church of Marika", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
   -
     title: "Liurnia of the Lakes"
     id: "evergaols_liurniaofthe_lakes"

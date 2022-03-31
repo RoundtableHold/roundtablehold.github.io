@@ -3,16 +3,7 @@ id: spirit_ashes
 table_widths: [3, 9]
 sections:
   -
-    title: Weeping Penninsula
-    id: weeping_spirit_ashes
-    num: 1
-    table: ["Name", "Location"]
-    items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Demi-Human Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Lhutel+the+Headless\">Lhutel the Headless</a>", "Dropped by the Cemetery Shade boss in the Tombsward Catacombs."]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Dropped by the spirit artist at the northern tip of Weeping Peninsula, north of the Church of Pilgrimage. Requires the Prophecy Painting found in Stormveil Castle."]
-  -
-    title: Limgrave
+    title: "Limgrave"
     id: limgrave_spirit_ashes
     num: 2
     table: ["Name", "Location"]
@@ -26,6 +17,15 @@ sections:
       - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Jellyfish+Ashes\">Spirit Jellyfish Ashes</a>", "Given by Roderika in Stormhill Shack after talking to her several times."]
       - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Deenh\">Stormhawk Deenh</a>", "Found in a chest above the main hall of the Chapel of Anticipation, after returning there via The Four Belfries."]
       - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Wandering+Noble+Ashes\">Wandering Noble Ashes</a>", "Found on a corpse resting against a coffin, up a ladder and guarded by some Jade Goblins in the Stormfoot Catacombs."]
+  -
+    title: "Weeping Peninsula"
+    id: weeping_spirit_ashes
+    num: 1
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Demi-Human Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Lhutel+the+Headless\">Lhutel the Headless</a>", "Dropped by the Cemetery Shade boss in the Tombsward Catacombs."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Dropped by the spirit artist at the northern tip of Weeping Peninsula, north of the Church of Pilgrimage. Requires the Prophecy Painting found in Stormveil Castle."]
   -
     title: Liurnia of the Lakes
     id: liurnia_spirit_ashes

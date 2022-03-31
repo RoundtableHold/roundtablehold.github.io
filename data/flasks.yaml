@@ -6,8 +6,6 @@ sections:
     id: golden_seeds_flasks
     num: 1
     items:
-      - "Weeping Peninsula"
-      - [1, "Under a Golden Tree south of Castle Morne Rampart Grace"]
       - "Limgrave"
       - [2, "Can choose one as a Keepsake"]
       - [3, "Under a Golden Tree on the path to Stormveil Castle"]
@@ -17,6 +15,8 @@ sections:
       - [6, "Drops from Kenneth Haight if killed"]
       - [7, "Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
       - [8, "Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
+      - "Weeping Peninsula"
+      - [1, "Under a Golden Tree south of Castle Morne Rampart Grace"]
       - "Liurnia of the Lakes"
       - [9, "Under a Golden Tree in Academy Gate Town"]
       - [10, "Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
@@ -68,12 +68,12 @@ sections:
     id: sacred_tears_flasks
     num: 2
     items:
+      - "Limgrave"
+      - [4, "Third Church of Marika, in East Limgrave"]
       - "Weeping Peninsula"
       - [1, "Callu Baptismal Church, in the middle of the Weeping Peninsula"]
       - [2, "Church of Pilgrimage, north of Weeping Peninsula"]
       - [3, "Fourth Church of Marika, west of Weeping Peninsula"]
-      - "Limgrave"
-      - [4, "Third Church of Marika, in East Limgrave"]
       - "Liurnia of the Lakes"
       - [5, "Church of Irith, southern part of Liurnia of the Lakes"]
       - [6, "Bellum Church, on the way to the Grand Lift of Dectus"]

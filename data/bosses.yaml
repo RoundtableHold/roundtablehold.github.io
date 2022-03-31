@@ -3,23 +3,6 @@ id: bosses
 table_widths: [3, 3, 6]
 sections:
   -
-    title: "Weeping Peninsula"
-    id: weeping_peninsula_bosses
-    num: 1
-    table: ["Name", "Location", "Notes"]
-    items:
-      - [1, "Erdtree Burial Watchdog", "Impaler's Catacomb", "Has imps (x4) with it.", ]
-      - [2, "Runebear", "Earthbore Cave", "", ]
-      - [3, "Demi-Human Queen", "Demi-Human Forest Ruins", "Field boss. Surrounded by Demi-Humans.", ]
-      - [4, "Night's Cavalry", "Castle Morne Rampart", "Field boss. Nighttime only.", ]
-      - [5, "Deathbird", "Castle Morne Outskirts", "Field boss. Nighttime only.", ]
-      - [6, "Cemetery Shade", "Tombsward Catacombs", "", ]
-      - [7, "Erdtree Avatar", "Minor Erdtree", "Field boss.", ]
-      - [8, "Scaly Misbegotten", "Morne Tunnel", "", ]
-      - [9, "Miranda, the Blighted Bloom", "Tombsward Cave", "", ]
-      - [10, "Ancient Hero of Zamor", "Weeping Evergaol", "", ]
-      - [11, "Leonine Misbegotten", "Castle Morne (South)", "", ]
-  -
     title: "Limgrave"
     id: limgrave_bosses
     num: 2
@@ -54,6 +37,23 @@ sections:
       - [27, "Lion Guardian", "Stormveil Castle", "Sort of a field boss. Near Divine Tower of Limgrave entrance.", ]
       - [28, "Margit, the Fell Omen", "Stormveil Castle", "Main boss. Required to get to Godrick the Grafted.", ]
       - [29, "Godrick the Grafted", "Stormveil Castle", "Main boss. Semi-required for story progression.", ]
+  -
+    title: "Weeping Peninsula"
+    id: weeping_peninsula_bosses
+    num: 1
+    table: ["Name", "Location", "Notes"]
+    items:
+      - [1, "Erdtree Burial Watchdog", "Impaler's Catacomb", "Has imps (x4) with it.", ]
+      - [2, "Runebear", "Earthbore Cave", "", ]
+      - [3, "Demi-Human Queen", "Demi-Human Forest Ruins", "Field boss. Surrounded by Demi-Humans.", ]
+      - [4, "Night's Cavalry", "Castle Morne Rampart", "Field boss. Nighttime only.", ]
+      - [5, "Deathbird", "Castle Morne Outskirts", "Field boss. Nighttime only.", ]
+      - [6, "Cemetery Shade", "Tombsward Catacombs", "", ]
+      - [7, "Erdtree Avatar", "Minor Erdtree", "Field boss.", ]
+      - [8, "Scaly Misbegotten", "Morne Tunnel", "", ]
+      - [9, "Miranda, the Blighted Bloom", "Tombsward Cave", "", ]
+      - [10, "Ancient Hero of Zamor", "Weeping Evergaol", "", ]
+      - [11, "Leonine Misbegotten", "Castle Morne (South)", "", ]
   -
     title: "Roundtable Hold"
     id: roundtable_hold_bosses
