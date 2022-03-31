@@ -1,0 +1,52 @@
+title: Spirit Ashes
+id: spirit_ashes
+sections:
+  -
+    title: "Limgrave"
+    id: limgrave_spirit_ashes
+    num: 1
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes\">Banished Knight Engvall Ashes</a>", "Dropped by the Grave Warden Duelist boss in Murkwater Catacombs."]
+  -
+    title: "Liurnia of the Lakes"
+    id: liurnia_spirit_ashes
+    num: 2
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Ashes\">Albinauric Ashes</a>", "Found on a corpse in the graveyard area east of Caria Manor."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Avionette+Soldier+Ashes\">Avionette Soldier Ashes</a>", "Found on a corpse after taking the rotating lift down and disembarking at the ledge before the bottom."]
+  -
+    title: "Leyndell, Royal City"
+    id: leyndell_spirit_ashes
+    num: 3
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes\">Ancient Dragon Knight Kristoff Ashes</a>", "Dropped by the Ancient Hero of Zamor boss in the Sainted Hero's Grave."]
+  -
+    title: "Crumbling Farum Azula"
+    id: azula_spirit_ashes
+    num: 4
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes\">Azula Beastman Ashes</a>", "Found on a corpse laying on top of a stone coffin below the Dragon Temple site of grace."]
+  -
+    title: "Siofra River"
+    id: siofra_spirit_ashes
+    num: 5
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancestral+Follower+Ashes\">Ancestral Follower Ashes</a>", "Dropped by the Ancestor Spirit boss in Hallowhorn Grounds."]
+  -
+    title: "Nokstella, Eternal City"
+    id: nokstella_spirit_ashes
+    num: 6
+    table: ["Name", "Location"]
+    table_widths: [4, 8]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Archer+Ashes\">Archer Ashes</a>", "Found on a corpse tucked behind a building, to the left after going up the stairs with the exploding Silver Tears."]
