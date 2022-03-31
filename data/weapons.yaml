@@ -26,9 +26,17 @@ sections:
   -
     title: Straight Swords
     link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
+    id: straight_swords
+    num: 13
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Greatswords
     link: "https://eldenring.wiki.fextralife.com/Greatswords"
+    id: greatswords
+    num: 14
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
@@ -70,9 +78,17 @@ sections:
   -
     title: Thursting Swords
     link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
+    id: thursting_swords
+    num: 15
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Heavy Thursting Swords
     link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
+    id: heavy_thursting_swords
+    num: 16
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
@@ -112,9 +128,17 @@ sections:
   -
     title: Katanas
     link: "https://eldenring.wiki.fextralife.com/Katanas"
+    id: katanas
+    num: 17
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Twinblades
     link: "https://eldenring.wiki.fextralife.com/Twinblades"
+    id: twinblades
+    num: 18
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Axes
     link: "https://eldenring.wiki.fextralife.com/Axes"
@@ -137,33 +161,73 @@ sections:
   -
     title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
+    id: greataxes
+    num: 19
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
+    id: hammers
+    num: 20
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
+    id: flails
+    num: 21
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
+    id: great_hammers
+    num: 22
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
+    id: spears
+    num: 23
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
+    id: great_spears
+    num: 24
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
+    id: halberds
+    num: 25
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Repears
     link: "https://eldenring.wiki.fextralife.com/Reapers"
+    id: repears
+    num: 26
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Whips
     link: "https://eldenring.wiki.fextralife.com/Whips"
+    id: whips
+    num: 27
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Fists
     link: "https://eldenring.wiki.fextralife.com/Fists"
+    id: fists
+    num: 28
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Claws
     link: "https://eldenring.wiki.fextralife.com/Claws"
@@ -232,18 +296,42 @@ sections:
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
+    id: glintstone_staffs
+    num: 29
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
+    id: sacred_seals
+    num: 30
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
+    id: torches
+    num: 31
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
+    id: small_shields
+    num: 32
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Medium Shieds
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
+    id: medium_shields
+    num: 33
+    items:
+      - [1, "<a href=\"\"></a>"]
   -
     title: Greatshields
     link: "https://eldenring.wiki.fextralife.com/Greatshields"
+    id: greatshields
+    num: 34
+    items:
+      - [1, "<a href=\"\"></a>"]
