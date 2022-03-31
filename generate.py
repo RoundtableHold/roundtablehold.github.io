@@ -333,7 +333,7 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8', newline='\n') 
     for i, page in enumerate(pages):
         jsfile.writelines([
             '    searchTag: "#' + page['id'] + '_search",\n',
-            '    contentTag: "#' + page['id'] + '_list ' + ('tbody"\n' if 'table' in page['sections'][0] else 'ul"\n'),
+            '    contentTag: "#' + page['id'] + '_list ul"\n',
             '  }), new Jets({\n' if i < len(pages) - 1 else '})];\n'
         ])
     for i, page in enumerate(pages):

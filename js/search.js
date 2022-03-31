@@ -9,22 +9,22 @@
     contentTag: "#npc_quests_list ul"
   }), new Jets({
     searchTag: "#achievements_search",
-    contentTag: "#achievements_list tbody"
+    contentTag: "#achievements_list ul"
   }), new Jets({
     searchTag: "#bosses_search",
-    contentTag: "#bosses_list tbody"
+    contentTag: "#bosses_list ul"
   }), new Jets({
     searchTag: "#legacy_search",
-    contentTag: "#legacy_list tbody"
+    contentTag: "#legacy_list ul"
   }), new Jets({
     searchTag: "#caves_search",
-    contentTag: "#caves_list tbody"
+    contentTag: "#caves_list ul"
   }), new Jets({
     searchTag: "#evergaols_search",
-    contentTag: "#evergaols_list tbody"
+    contentTag: "#evergaols_list ul"
   }), new Jets({
     searchTag: "#ashesofwar_search",
-    contentTag: "#ashesofwar_list tbody"
+    contentTag: "#ashesofwar_list ul"
   }), new Jets({
     searchTag: "#bell_bearings_search",
     contentTag: "#bell_bearings_list ul"
@@ -36,7 +36,7 @@
     contentTag: "#dragon_hearts_death_roots_list ul"
   }), new Jets({
     searchTag: "#crystal_tears_search",
-    contentTag: "#crystal_tears_list tbody"
+    contentTag: "#crystal_tears_list ul"
   }), new Jets({
     searchTag: "#gestures_search",
     contentTag: "#gestures_list ul"
@@ -45,7 +45,7 @@
     contentTag: "#flasks_list ul"
   }), new Jets({
     searchTag: "#great_runes_search",
-    contentTag: "#great_runes_list tbody"
+    contentTag: "#great_runes_list ul"
   }), new Jets({
     searchTag: "#legendaries_search",
     contentTag: "#legendaries_list ul"
@@ -54,7 +54,7 @@
     contentTag: "#memory_stones_talisman_pouches_list ul"
   }), new Jets({
     searchTag: "#paintings_search",
-    contentTag: "#paintings_list tbody"
+    contentTag: "#paintings_list ul"
   }), new Jets({
     searchTag: "#scrolls_prayerbooks_search",
     contentTag: "#scrolls_prayerbooks_list ul"
@@ -63,16 +63,16 @@
     contentTag: "#sorceries_list ul"
   }), new Jets({
     searchTag: "#spirit_ashes_search",
-    contentTag: "#spirit_ashes_list tbody"
+    contentTag: "#spirit_ashes_list ul"
   }), new Jets({
     searchTag: "#talismans_search",
-    contentTag: "#talismans_list tbody"
+    contentTag: "#talismans_list ul"
   }), new Jets({
     searchTag: "#weapons_search",
     contentTag: "#weapons_list ul"
   }), new Jets({
     searchTag: "#whetstones_search",
-    contentTag: "#whetstones_list tbody"
+    contentTag: "#whetstones_list ul"
 })];
   $("#playthrough_search").keyup(function() {
     $("#playthrough_list").unhighlight();
