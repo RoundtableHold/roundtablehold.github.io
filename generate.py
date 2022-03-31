@@ -326,10 +326,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8', newline='\n') as index:
+with open('index.html', 'w', encoding='utf-8') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8', newline='\n') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
