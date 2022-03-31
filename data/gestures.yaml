@@ -1,5 +1,6 @@
 title: Gestures
 id: gestures
+table_widths: [2, 2, 2, 6]
 sections:
   -
     title: "Starting Gestures"
@@ -40,13 +41,13 @@ sections:
     title: "Roundtable Hold"
     id: gestures_roundtable
     num: 2
-    table: ["Name", "Questline", "Description"]
+    table: ["Name", "Location", "Questline", "Description"]
     items:
-      - [1, "Prayer", "Corhyn", "Talk to Brother Corhyn."]
-      - [2, "What Do You Want?", "Ensha", "Try to talk to Ensha."]
-      - [3, "Reverential Bow", "", "Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish."]
-      - [4, "Curtsy", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
-      - [5, "Rapture", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
+      - [1, "Prayer", "", "Corhyn", "Talk to Brother Corhyn."]
+      - [2, "What Do You Want?", "", "Ensha", "Try to talk to Ensha."]
+      - [3, "Reverential Bow", "", "", "Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish."]
+      - [4, "Curtsy", "", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
+      - [5, "Rapture", "", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
   -
     title: "Liurnia of the Lakes"
     id: gestures_liurnia
@@ -93,7 +94,7 @@ sections:
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
-      - [2, "Hoslow's Oath", "just east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
+      - [2, "Hoslow's Oath", "east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
   -
     title: "Nokron, Eternal City"
     id: gestures_nokron
