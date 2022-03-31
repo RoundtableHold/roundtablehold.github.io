@@ -32,17 +32,17 @@
     searchTag: "#cookbooks_search",
     contentTag: "#cookbooks_list ul"
   }), new Jets({
-    searchTag: "#dragon_hearts_death_roots_search",
-    contentTag: "#dragon_hearts_death_roots_list ul"
-  }), new Jets({
     searchTag: "#crystal_tears_search",
     contentTag: "#crystal_tears_list ul"
   }), new Jets({
-    searchTag: "#gestures_search",
-    contentTag: "#gestures_list ul"
+    searchTag: "#dragon_hearts_death_roots_search",
+    contentTag: "#dragon_hearts_death_roots_list ul"
   }), new Jets({
     searchTag: "#flasks_search",
     contentTag: "#flasks_list ul"
+  }), new Jets({
+    searchTag: "#gestures_search",
+    contentTag: "#gestures_list ul"
   }), new Jets({
     searchTag: "#great_runes_search",
     contentTag: "#great_runes_list ul"
@@ -117,21 +117,21 @@
     $("#cookbooks_list").unhighlight();
     $("#cookbooks_list").highlight($(this).val());
   });
-  $("#dragon_hearts_death_roots_search").keyup(function() {
-    $("#dragon_hearts_death_roots_list").unhighlight();
-    $("#dragon_hearts_death_roots_list").highlight($(this).val());
-  });
   $("#crystal_tears_search").keyup(function() {
     $("#crystal_tears_list").unhighlight();
     $("#crystal_tears_list").highlight($(this).val());
   });
-  $("#gestures_search").keyup(function() {
-    $("#gestures_list").unhighlight();
-    $("#gestures_list").highlight($(this).val());
+  $("#dragon_hearts_death_roots_search").keyup(function() {
+    $("#dragon_hearts_death_roots_list").unhighlight();
+    $("#dragon_hearts_death_roots_list").highlight($(this).val());
   });
   $("#flasks_search").keyup(function() {
     $("#flasks_list").unhighlight();
     $("#flasks_list").highlight($(this).val());
+  });
+  $("#gestures_search").keyup(function() {
+    $("#gestures_list").unhighlight();
+    $("#gestures_list").highlight($(this).val());
   });
   $("#great_runes_search").keyup(function() {
     $("#great_runes_list").unhighlight();
