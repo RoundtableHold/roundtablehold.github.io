@@ -1,16 +1,3 @@
-.in_progress,
-.done {
-  color: #C60;
-  border: 1px solid;
-  border-radius: 3px;
-  padding: .1em 0.4em;
-  font-weight: normal;
-  margin-left: .2em;
-  vertical-align: center;
-  font-size: 0.9em;
-}
-.done { color: #009933; }
-
 @media print {
     body { color: #000; }
     .navbar, #intro, input[type="checkbox"], .done, .in_progress { display: none; }
@@ -18,6 +5,12 @@
     a[href]:after { content: none !important; }
     .tab-content > .tab-pane, .pill-content > .pill-pane { display: block; }
     .tab-pane { page-break-after: always; }
+}
+
+.table_of_contents
+
+body {
+  position: relative;
 }
 
 .table-label {
@@ -49,10 +42,16 @@ h3 {
   margin-left: -24px;
 }
 
-.table_of_contents {
-  margin-left: 0;
-  padding: 0;
-  line-height: 1.8;
+.toc a:not(:hover) {
+  text-decoration: none;
+}
+
+.toc a {
+  color: inherit;
+}
+
+.toc-button {
+  text-decoration: none;
 }
 
 .highlight {

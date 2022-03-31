@@ -114,7 +114,7 @@ with doc:
                 text = p(cls="lead")
                 text += "Contribute to the guide at the "
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
-        with div(cls="tab-content gab-2"):
+        with div(cls="tab-content gap-2"):
             # Hide completed toggle
             with div(id="btnHideCompleted", cls="fade mb-3"):
                 with div(cls="form-check form-switch"):
@@ -126,11 +126,17 @@ with doc:
                     h = h2()
                     h += page['title']
                     h += span(id=page['id'] + "_overall_total")
-                    with ul(cls="table_of_contents"):
-                        for section in page['sections']:
-                            with li():
-                                a(section['title'], href="#" + section['id'])
-                                span(id=page['id']  + "_nav_totals_" + str(section['num']))
+
+                    with nav(cls="text-muted toc"):
+                        with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
+                            i(cls='bi bi-plus-lg')
+                            raw('Table Of Contents')
+                        with ul(id="toc_" + page['id'], cls="toc_page collapse"):
+                            for section in page['sections']:
+                                with li():
+                                    a(section['title'], href="#" + section['id'])
+                                    span(id=page['id']  + "_nav_totals_" + str(section['num']))
+
                     with div(cls="input-group"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
@@ -143,7 +149,7 @@ with doc:
                                     a(section['title'], href=section['link'])
                                 else:
                                     span(section['title'])
-                                span(id=page['id'] + "_totals_" + str(section['num']), cls="ms-2 mt-0")
+                                span(id=page['id'] + "_totals_" + str(section['num']), cls="mt-0 badge rounded-pill")
                             if 'table' in section:
                                 with div(id=section['id'] + "_col", cls="collapse show row", aria_expanded="true"):
                                     if isinstance(section['table'], list):
@@ -301,10 +307,10 @@ with doc:
 
     a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
-    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
-    script(src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js")
+    script(src="js/jquery.min.js")
+    script(src="js/jstorage.min.js")
     script(src="js/bootstrap.bundle.min.js")
-    script(src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js")
+    script(src="js/jets.min.js")
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
     script(src="js/search.js")
