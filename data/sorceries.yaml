@@ -6,8 +6,14 @@ sections:
     id: limgrave_sorceries
     num: 1
     items:
-      - [1, "Crystal Barrage/Glintstone Arc/Glintstone Pebble/Glintstone Stars/Scholar's Armament/Scholar's Shield - Sold by Sorceress Sellen under the Waypoint Ruins, East of the lake."]
-      - [2, "Carian Slicer/Glintblade Phalanx - Royal House Scroll located on the ruin next to a mage, East of the Agheel Lake South Grace in South-East Limgrave"]
+      - [3, "Crystal Barrage - Sold by Sorceress Sellen (under the Waypoint Ruins, East of the lake)."]
+      - [4, "Glintstone Arc - Sold by Sorceress Sellen"]
+      - [5, "Glintstone Pebble - Sold by Sorceress Sellen"]
+      - [6, "Glintstone Stars - Sold by Sorceress Sellen"]
+      - [7, "Scholar's Armament - Sold by Sorceress Sellen"]
+      - [8, "Scholar's Shield - Sold by Sorceress Sellen"]
+      - [9, "Carian Slicer - Unlocked by Royal House Scroll (located on the ruin next to a mage, East of the Agheel Lake South Grace in South-East Limgrave)"]
+      - [10, "Glintblade Phalanx - Unlocked by Royal House Scroll"]
   -
     title: "Weeping Peninsula"
     id: weeping_peninsula_sorceries
@@ -20,31 +26,38 @@ sections:
     id: stormveil_sorceries
     num: 3
     items:
-      - [1, "Rancorcall - From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a dung beetle with the spell."]
+      - [1, "Rancorcall - From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a scarab with the spell."]
   -
     title: "Liurnia Lake Part 1"
     id: liurnia_lake_part1_sorceries
     num: 4
     items:
-      - [1, "Starlight - Purchased from Thops near the Lake-Facing Cliffs Grace"]
-      - [2, "Great Glintstone Shard/Swift Glintstone Shard - Academy Scroll found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake."]
-      - [3, "Carian Greatsword/Magic Glintblade - Bought from Miriel, Pastor of Vows at the Church of Vows in East Liurnia Lake."]
+      - [1, "Starlight - Sold by Thops in the Church of Irith near the Lake-Facing Cliffs Grace"]
+      - [18, "Great Glintstone Shard - Unlocked by Academy Scroll (found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake)."]
+      - [19, "Swift Glintstone Shard - Unlocked by Academy Scroll"]
+      - [20, "Carian Greatsword - Sold by Miriel, Pastor of Vows at the Church of Vows in East Liurnia Lake."]
+      - [21, "Magic Glintblade - Sold by Miriel, Pastor of Vows"]
       - [4, "Ancient Death Rancor - Kill the Death Rite Bird next to the Gate Town North Grace, East of Raya Lucaria Academy, at Night."]
       - [5, "Briars of Sin - North-West of the Artist's Shack, East of Academy Gate Town, there is a camp of fire guys. Outside the camp is lone enemy surrounded by fire slugs. Kill the lone enemy for the spell."]
       - [6, "Greatblade Phalanx - Kill the boss of Cuckoo's Evergaol in West Liurnia Lake."]
       - [7, "Magic Downpour - Kill Preceptor Miriam in Carian Study Hall without using the Carian Inverted Statue on the altar."]
       - [8, "Meteorite - Kill Boss of the Royal Grave Evergaol in North Liurnia Lake"]
       - [9, "Shatter Earth - In Raya Lucaria Crystal Tunnel near the end."]
-      - [10, "Crystal Release/Terra Magica - Kill the boss of Academy Crystal Cave. The cave is in the cliff under the West side of Raya Lucaria. Requires opening the Imp Statue door. After killing the boss, take the lift behind the boss room for a chest containing the other spell."]
-      - [11, "Carian Piercer - Dropped by dung beetle in Caria Manor. The beetle is found near the entrance to the manor on the East side."]
+      - [22, "Crystal Release - Kill the boss of Academy Crystal Cave"]
+      - [23, "Terra Magica - Take the lift behind the boss room of Academy Crystal Cave and open the chest"]
+      - [11, "Carian Piercer - Dropped by a scarab in Caria Manor. The beetle is found near the entrance to the manor on the East side."]
       - [12, "Loretta's Greatbow - Kill the boss of Caria Manor"]
-      - [13, "Frozen Armament - Dropped by the dung beetle north of Caria Manor. Can only be accessed after finished Caria Manor."]
-      - [14, "Carian Phalanx/Carian Retaliation/Freezing Mist/Glintstone Icecrag - Bought from Seluvis after giving his first potion to Gideon, Nepheli, or Dung-Eater."]
-      - [15, "Cannon of Haima/Gavel of Haima - Chest at the top of the Converted Fringe Tower in North-East Liurnia Lake. To get to the tower, you have to go past the Frenzied Flame Village North-East of the Bellum Church, North of the East Raya Lucaria Gate. Once at the Tower, you have to solve a puzzle. For this you must get any Glintstone Crown and use the Erudition emote. Once you have both items, wear the crown and use the emote while standing on the message in the Converted Fringe Tower."]
+      - [13, "Frozen Armament - Dropped by the scarab north of Caria Manor. Can only be accessed after finished Caria Manor."]
+      - [24, "Carian Phalanx - Sold by Seluvis (you must give someone the potion or dispose of it with Gideon before he opens his shop"]
+      - [25, "Carian Retaliation - Sold by Seluvis"]
+      - [26, "Freezing Mist - Sold by Seluvis"]
+      - [27, "Glintstone Icecrag - Sold by Seluvis"]
+      - [28, "Cannon of Haima - Chest at the top of the Converted Fringe Tower in North-East Liurnia Lake. To get to the tower, you have to go past the Frenzied Flame Village North-East of the Bellum Church, North of the East Raya Lucaria Gate. Once at the Tower, you have to solve a puzzle. For this you must get any Glintstone Crown and use the Erudition emote. Once you have both items, wear the crown and use the emote while standing on the message in the Converted Fringe Tower."]
       -
         - [0, "The emote is gotten from Thops by giving him the secondary Glintstone Key found in on the chandelier at the top of the Church of Cuckoo in Raya Lucaria. Requires taking the rooftops outside the Debate Parlor and to the right."]
         - [1, "A Glintstone Crown can be found near the key. While on balcony just before the key, find the crab and kill it."]
-      - [16, "Thops Barrier - After giving Thops the second Glintstone Key, you can find it on his body outside the room of the Schoolhouse Classroom Grace in Raya Lucaria."]
+      - [29, "Gavel of Haima - In the same chest as Cannon of Haima"]
+      - [16, "Thops's Barrier - After giving Thops the second Glintstone Key, you can find it on his body outside the room of the Schoolhouse Classroom Grace in Raya Lucaria."]
       - [17, "Shard Spiral - Purchased from Sellen after her quest if you sided with her."]
   -
     title: "Liurnia Lake Part 2: After Ranni's Questline"
@@ -60,7 +73,8 @@ sections:
     num: 6
     items:
       - [1, "Gravity Well - Just past the rotating elevator in Raya Lucaria, next to the Schoolhouse Grace. So the quick/tricky method is from the Grace, time jumping down to the rising elevator then hop down to the path below. If you can't do this, then come from the Church of the Cuckoo Grace and run past all the enemies. Past the elevator is a bunch of graves where an enemy will spawn. Kill it for the spell."]
-      - [2, "Glintstone Cometshart/Star Shower - Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside."]
+      - [6, "Glintstone Cometshard - Unlocked by Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside."]
+      - [7, "Star Shower - Unlocked by Conspectus Scroll"]
       - [3, "Comet - In Raya Lucaria. From the Debate Parlor Grace, go back to the area before the boss room. Roll into the bookshelf with no books to find an Illusory Wall where the spell can be found."]
       - [4, "Shattering Crystal - From the Debate Parlor Grace in Raya Lucaria, go outside and turn right. Hop down then climb the ladder to get to the roof. Make your way to the Church of the Cuckoo on the North-West side and it will there."]
       - [5, "Rennala's Full Moon - Gotten from Rennala's Remembrance which is obtained by killing the boss of Raya Lucaria."]
@@ -69,8 +83,8 @@ sections:
     id: siofra_river_well_underground_sorceries
     num: 7
     items:
-      - [1, "Oracle Bubbles - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the dung beetle is. Kill the beetle for the spell"]
-      - [2, "Great Oracular Bubble - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a dung beetle. Beat it to death for putting you through all that for the spell."]
+      - [1, "Oracle Bubbles - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the scarab is. Kill the beetle for the spell"]
+      - [2, "Great Oracular Bubble - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a scarab. Beat it to death for putting you through all that for the spell."]
   -
     title: "Caelid"
     id: caelid_sorceries
@@ -81,7 +95,8 @@ sections:
       - [3, "Night Comet - One of the chests in Sellia that are available after unlocking the seals by lighting the towers."]
       - [4, "Crystal Torrent - Kill the Boss of Sellia Hideaway. To find the hideaway, go to Sellia in the North-East part of the swamp. Go past the seals by lighting the fires at the tops of the towers. Go up the path to the Church of Plague. Go North of the Church to find the mage enemy and a giant gravestone. Roll into the cliff behind the Grave to break the Illusion and find the Hideaway."]
       - [5, "Eternal Darkness - Go South from the Church of the Plague(explained just above) and cross the top of the gate nearby then go into the Swamp Lookout Tower to find the spell."]
-      - [6, "Night Maiden's Mist/Night Shard - Bought from Gowry South of Sellia after finishing his request."]
+      - [9, "Night Maiden's Mist - Sold by Gowry in Gowry's Shack south of Sellia after finishing his request."]
+      - [10, "Night Shard - Sold by Gowry"]
       - [7, "Collapsing Stars - In a chest in the War-Dead Catacombs. The catacombs can be accessed after killing Radahn and are located in the North-East corner of his boss arena. The chest is on the lower levels, below all the fighting enemies."]
       - [8, "Stars of Ruins - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery."]
   -
@@ -100,7 +115,8 @@ sections:
     id: altus_plateau_sorceries
     num: 10
     items:
-      - [1, "Unseen Blade/Unseen Form - At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock."]
+      - [2, "Unseen Blade - At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock. The chest is at the top of the tower that appears."]
+      - [3, "Unseen Form - In the same chest as Unseen Blade"]
   -
     title: "Deeproot Depths"
     id: deeproot_depths_sorceries
