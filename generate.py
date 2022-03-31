@@ -211,7 +211,7 @@ with doc:
                                             item = next(items)
                                             with u.add(ul(cls="list-group-flush")):
                                                 for subitem in item:
-                                                    with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item " + subitem[1]):
+                                                    with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
                                                         with div(cls="form-check checkbox"):
                                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0]))
                                                             label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
