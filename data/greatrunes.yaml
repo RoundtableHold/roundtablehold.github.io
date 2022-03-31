@@ -1,19 +1,20 @@
 title: Great Runes
 id: great_runes
+table_widths: [3, 4, 5]
 sections:
   -
     title: "Great Runes"
     id: "great_runes"
     num: 1
-    table: ["Boss", "Location"]
+    table: ["Boss", "Location", "Effect"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune\">Godrick the Grafted</a>", "Limgrave - Stormveil Castle"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn\">Rennala Queen of the Full Moon</a>", "Liurnia of the Lakes - Raya Lucaria Academy"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune\">Starscourge Radahn</a>", "Caelid - Redmane Castle"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune\">Morgott, the Omen Knight</a>", "Altus Plateau - Leyndell, the Royal Capital"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune\">Rykard, Lord of Blasphemy</a>", "Mt. Gelmir - Valcano Manor"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune\">Malenia, Blade of Miquella</a>", "Miquella's Haligtree - Elphael, Brace of the Haligtree"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Mohg, Lord of Blood</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum"]
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune\">Godrick the Grafted</a>", "Limgrave - Stormveil Castle", "Raises all attributes by +5"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn\">Rennala Queen of the Full Moon</a>", "Liurnia of the Lakes - Raya Lucaria Academy", "Used to respec"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune\">Starscourge Radahn</a>", "Caelid - Redmane Castle", "Raises maximum HP, FP, and Stamina"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune\">Morgott, the Omen Knight</a>", "Altus Plateau - Leyndell, the Royal Capital", "Greatly raises maximum HP"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune\">Rykard, Lord of Blasphemy</a>", "Mt. Gelmir - Valcano Manor", "Restores 185 HP upon defeating enemies"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune\">Malenia, Blade of Miquella</a>", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Attacks dealt after taking damage recover HP"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Mohg, Lord of Blood</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Grants a blessing of blood to phantoms"]
   -
     title: "Other Important Runes"
     id: "misc_runes"
