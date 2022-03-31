@@ -89,7 +89,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark"):
+    with nav(cls="navbar navbar-expand-sm bg-dark navbar-dark"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
                 with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -229,8 +229,8 @@ with doc:
 <p>This site is still a work in-progress. We are working on it every day.</p>
 
 <h3>I have feedback, how can I contribute?</h3>
-<p>You can visit the <a href="https://github.com/Roundtable-Hold/tracker">GitHub repository</a> and <a href="https://github.com/Roundtable-Hold/tracker/issues">report Issues</a> or create a fork and submit a Pull Request.</p>
-<p>You can also reach out to Azy on reddit <a href="https://www.reddit.com/user/azy2/">/u/azy2</a> or Discord Azy#9592 or reach out to Quivorian on reddit <a href="https://www.reddit.com/user/quivorian">/u/quivorian</a> or Discord: Quivorian#6564</p>
+<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/Roundtable-Hold/tracker">GitHub repository</a>. You can also simply <a href="https://github.com/Roundtable-Hold/tracker/issues">report issues</a> and we'll fix them.</p>
+<p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
 
 <h3>Can I use this for multiple characters?</h3>
 <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
@@ -246,16 +246,17 @@ with doc:
 <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
 <p>We will do our best to ensure that such issues remain few and far between.</p>
 """)
-            with div(cls="tab-pane fade", id="tabOptions"):
+            with div(cls="tab-pane fade gap-3", id="tabOptions"):
                 h2("Options")
                 with div(cls="row"):
-                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Theme selection:"))
-                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(select(cls="form-select", id="themes"))
+                    div(cls="col col-12 col-md-6").add(h4("Theme selection:"))
+                    div(cls="col col-12 col-md-6").add(select(cls="form-select", id="themes"))
                 with div(cls="row"):
-                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Profile management:"))
-                    with div(cls="col col-xs-12 col-sm-4 col-md-6"):
-                        with form(cls="form-inline input-group pull-right gap-1"):
+                    div(cls="col col-12 col-md-4").add(h4("Profile management:"))
+                    with form(cls="form-inline input-group pull-right gap-1"):
+                        with div(cls="col col-12 col-md-4"):
                             select(cls="form-select", id="profiles")
+                        with div(cls="col col-12 col-md-4"):
                             with div(cls="btn-group"):
                                 button("Add", cls="btn btn-primary", type="button", id="profileAdd")
                             with div(cls="btn-group"):
@@ -263,18 +264,18 @@ with doc:
                             with div(cls="btn-group"):
                                 button("NG+", cls="btn btn-primary", type="button", id="profileNG+")
                 with div(cls="row"):
-                    div(cls="col col-xs-12 col-sm-4 col-md-6").add(h4("Data import/export:"))
-                    with div(cls="col col-xs-12 col-sm-4 col-md-6"):
-                        with form(cls="form-inline"):
+                    div(cls="col col-12 col-md-4").add(h4("Data import/export:"))
+                    with div(cls="col col-12 col-md-8"):
+                        with form(cls="form-inline gap-1 m-1"):
                             with div(cls="btn-group pull-left"):
                                 button("Import file", cls="btn btn-primary", type="button", id="profileImport")
                             with div(cls="btn-group pull-left"):
                                 button("Export file", cls="btn btn-primary", type="button", id="profileExport")
                             with div(cls="btn-group pull-right"):
                                 button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
-                            with div(cls="btn-group pull-right"):
+                            with div(cls="btn-group pull-right mt-1 mt-md-0"):
                                 button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
-                    with div(cls="col col-xs-12"):
+                    with div(cls="col col-12"):
                         textarea(id="profileText", cls="form-control")
             with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
