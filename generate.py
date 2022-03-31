@@ -163,8 +163,8 @@ with doc:
                                                     input_(cls="form-check-input invisible", type='checkbox')
                                                 with div(cls="col").add(div(cls="row")):
                                                     for idx, header in enumerate(section['table']):
-                                                        if 'table_widths' in section:
-                                                            col_size = str(section['table_widths'][idx])
+                                                        if 'table_widths' in page:
+                                                            col_size = str(page['table_widths'][idx])
                                                         else:
                                                             col_size = str(size)
                                                         div(cls="col-md-" + col_size).add(strong(header))
@@ -180,8 +180,8 @@ with doc:
                                                                 id=page['id'] + '_' + str(section['num']) + '_' + id)
                                                     with div(cls="col").add(div(cls="row")):
                                                         for pos in range(1, 1+table_cols):
-                                                            if 'table_widths' in section:
-                                                                col_size = str(section['table_widths'][pos-1])
+                                                            if 'table_widths' in page:
+                                                                col_size = str(page['table_widths'][pos-1])
                                                             else:
                                                                 col_size = str(size)
                                                             with div(cls="col-md-" + col_size + ' col-xs-12'):

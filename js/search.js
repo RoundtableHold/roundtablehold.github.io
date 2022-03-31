@@ -56,6 +56,9 @@
     searchTag: "#paintings_search",
     contentTag: "#paintings_list tbody"
   }), new Jets({
+    searchTag: "#scrolls_prayerbooks_search",
+    contentTag: "#scrolls_prayerbooks_list ul"
+  }), new Jets({
     searchTag: "#sorceries_search",
     contentTag: "#sorceries_list ul"
   }), new Jets({
@@ -142,6 +145,10 @@
   $("#paintings_search").keyup(function() {
     $("#paintings_list").unhighlight();
     $("#paintings_list").highlight($(this).val());
+  });
+  $("#scrolls_prayerbooks_search").keyup(function() {
+    $("#scrolls_prayerbooks_list").unhighlight();
+    $("#scrolls_prayerbooks_list").highlight($(this).val());
   });
   $("#sorceries_search").keyup(function() {
     $("#sorceries_list").unhighlight();
