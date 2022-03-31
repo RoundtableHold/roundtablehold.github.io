@@ -184,10 +184,10 @@ with doc:
                                                                 col_size = str(page['table_widths'][pos-1])
                                                             else:
                                                                 col_size = str(size)
-                                                            with div(cls="col-md-" + col_size + ' col-xs-12'):
+                                                            with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
                                                                 with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + str(section['num']) + '_' + id):
                                                                     if isinstance(section['table'], list) and item[pos]:
-                                                                        strong(section['table'][pos-1] + ': ', cls="d-md-none d-block")
+                                                                        strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
                                                                     if item[pos]:
                                                                         raw(item[pos])
                             else:
