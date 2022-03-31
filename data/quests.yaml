@@ -87,6 +87,19 @@ sections:
           - [1, "If you killed D yourself before he ever went to Roundtable Hold, you can just reload the area. D's brother will then immediately try to kill you. Defeating him grants you back the Twinned armor set, as well as a new Inseparable Sword."]
           - [2, "If Fia killed D in Roundtable Hold, progress won't come until after you've defeated Lichdragon Fortissax in Fia's questline. Afterwards, travel back to Fia's location in Deeproot Depths to find that D's brother has gotten his revenge. Exhaust his dialogue and reload the area to find him gone, having left the armor and sword behind; alternatively, you can initiate a fight for your own revenge for Fia, and get the loot by killing him."]
   -
+    title: Diallos
+    link: "https://eldenring.wiki.fextralife.com/Diallos"
+    id: diallos
+    num: 34
+    items:
+      - [1, "Diallos's is a rather unpredictable questline that begins as soon as you get to Roundtable Hold. He'll be standing there, so exhaust his dialogue to learn he's looking for his servant, silly tomboy Lanya."]
+      - [2, "He'll vanish from the Hold when you reach Liurnia, so find him in a rather hard to spot location in Academy Gate Town, north and slightly west of the Site of Grace. Unfortunately it seems everyone's favorite tomboy isn't getting her own questline - she's already dead, and Diallos wants vengeance."]
+      - [3, "Pop right back to Roundtable Hold to talk to him again. Exhaust his dialogue to find out where he's going next."]
+      - [4, "You won't see him again until you've joined Volcano Manor yourself. Exhaust his dialogue, and continue to do so each time you make progress in the Manor. Once you've completed the second contract, or simply killed Rykard to end the Manor quest altogether, Diallos will leave."]
+      - [5, "If you've done the first few steps of Jar-Bairn's questline, he'll make his way to Jarburg now. Exhaust his dialogue - it seems he's found a new purpose."]
+      - [6, "Start reloading the area and exhausting his dialogue each time. If he's repeating himself, rest at the grace and pass some time, or warp away and back, until suddenly he's mortally wounded in a gravely transformed Jarburg. He'll ask you a question; answer as you wish."]
+      - [7, "Rest and pass some time, multiple times if necessary, until Diallos is gone. Loot Diallos's Mask, Hoslow's Petal Whip, and a Numen's Rune where you last spoke to him."]
+  -
     title: "Dung-Eater - Multiple Choices:"
     link: "https://eldenring.wiki.fextralife.com/Dung+Eater"
     id: dung_eater
@@ -213,8 +226,33 @@ sections:
       - [2, "Regardless of your actions, you can't reunite her with her father. As soon as you kill the Leonine Misbegotten and get the Grafted Blade Greatsword, the same prerequisite to convince her father to leave Castle Morne, she'll have randomly been murdered the next time you check on her, whether you got her father or not."]
       - [3, "Notes: Bummer."]
   -
+    title: Iron Fist Alexander
+    link: "https://eldenring.wiki.fextralife.com/Iron+Fist+Alexander"
+    id: alexander
+    num: 32
+    items:
+      - [1, "In northern Stormhill, just west of Saintsbridge, find Alexander in a bit of a predicament. Exhaust his dialogue, then hit him a few times until he pops out of the ground. You'll get a gesture unlock. Exhaust his dialogue again for some Exalted Flesh."]
+      - [2, "From the small pond just north of the Third Church of Marika, continue directly north up one Spiritsong, then another. Northwest, you'll find the Rear Gael Tunnel Entrance, with a Site of Grace, and a befuddled Alexander. Chat with him for an idea of where his questline will lead."]
+      - [3, "Do the Gael Tunnel dungeon, and just before the boss, unlock the one-way door back to Alexander. He hadn't even noticed the door was there, but he's grateful to you for opening up that dead end. How he'll fit through that very rectangular door is not an issue, apparently."]
+      - [4, "Trigger the Radahn Festival. There are multiple ways to do this, including progressing Ranni's questline and taking the Grand Lift of Dectus, but you'll know it's started when you enter Redmane Castle and it's a ghost town."]
+      - [5, "Perform the festival and defeat Scarscourge Radahn. You can talk to Alexander beforehand, and you should certainly exhaust his dialogue afterwards in the boss arena."]
+      - [6, "Just south of Carian Study Hall in Liurnia, you'll hear him calling out to you again as he's once again gotten stuck. He needs to be slippery this time. Craft an Oil Pot and chuck it at him, or a Roped Oil Pot to drop on him. Exhaust his dialogue."]
+      - [7, "At the Seethewater Terminus Site of Grace, he'll next be found in a lake of lava. Exhaust his dialogue from a safe position. He'll give you the Jar, a helmet that buffs your crafted throwing pots."]
+      - [8, "Finally, in Crumbling Farum Azula, an imp statue needing two Stonesword Keys gates the way to the Dragon Temple Lift Site of Grace. Follow the path beyond until you find him. Grant him his warrior's death. You'll get two quite morbid items: Shard of Alexander, a talisman, and Alexander's Innards, a key item for Jar-Bairn."]
+  -
+    title: Jar-Bairn
+    link: "https://eldenring.wiki.fextralife.com/Jar+Bairn"
+    id: jar_bairn
+    num: 33
+    items:
+      - [1, "The first part of this questline is the hardest: finding Jarburg at all. Head to the Artist's Shack in Liurnia. Wander south, just past the Carian Study Hall, to the cliffside on your east side. Find the spot with a whole bunch of stone platforms sticking out below you. Yup, you're really doing this. (Tip: you have more precise movement off horseback.)"]
+      - [2, "Make it down the bottom to Jarburg. It's a haven of cute friendly pots, cracked pots, and valuable crafting materials, but you're looking for Jar-Bairn, a small pot fellow sitting on a stoop by the Site of Grace. Run back and forth between him and the Site of Grace a few times, exhausting his dialogue each time, until he finally doesn't have anything new to say after a rest."]
+      - [3, "Once Diallos leaves Volcano Manor in his own questline, he'll come to Jarburg. Do the same loop as before: Exhaust their dialogue, reload the area, repeat. Each reload should progress things farther, and they may move around a bit. If it stalls, try passing time at the grace or warping away and back."]
+      - [4, "After enough of that, Diallos will be dead. Consult Jar-Bairn."]
+      - [5, "To finish this questline, you must have finished Alexander's. Give Alexander's Innards to Jar-Bairn. He'll see his destiny and set out to become just like his uncle. Reload one last time, and find the Companion Jar talisman he's left you."]
+  -
     title: Kenneth Haight
-    link: https://eldenring.wiki.fextralife.com/Kenneth+Haight
+    link: "https://eldenring.wiki.fextralife.com/Kenneth+Haight"
     id: kenneth
     num: 30
     items:
@@ -238,7 +276,7 @@ sections:
       - [6, "Notes: Asks you to bury her beside Lobo when everything is done. Can this be done after killing final boss?"]
   -
     title: Millicent and Gowry
-    link: https://eldenring.wiki.fextralife.com/Millicent
+    link: "https://eldenring.wiki.fextralife.com/Millicent"
     id: millicent
     num: 31
     items:
@@ -418,5 +456,5 @@ sections:
       - [4, "Can be fought as an invader in Mohgwyn's Palace."]
       - [6, "Notes: There are multiple alternatives to the Church of Inhibition, it's just the easiest. There is no \"right time\" to use the medal; you can use it instantly and it will warp you to the steps of Mohgwyn Palace. Varre says to wait because he hopes for \"Luminary\" Mohg to become king and for you to meet him as such. On a metatextual level, the devs had him say that because Mohgwyn Palace is a VERY hard area that dumps you right in front of the Mohg boss fight, all best left for much later than Liurnia. Use the medal when you're ready, or if you just want to grab the nearby Dynasty Mausoleum Entrance Site of Grace and dip out."]
 
-#TODO: Diallos, Blaidd, Alexander, Jar-Bairn, Bernahl, Ranni, Rya, Shabriri, Tanith, Three Fingers?
-#There are 31 characters currently documented. Next "num" value is 32.
+#TODO: Blaidd, Bernahl, Ranni, Rya, Shabriri, Tanith, Three Fingers?
+#There are 34 characters currently documented. Next "num" value is 35.
