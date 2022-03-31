@@ -133,7 +133,7 @@ with doc:
                                 span(id=page['id']  + "_nav_totals_" + str(section['num']))
                     with div(cls="input-group"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
-                    
+
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
                             with h4(id=section['id'], cls="mt-1"):
@@ -184,10 +184,10 @@ with doc:
                                                                 col_size = str(page['table_widths'][pos-1])
                                                             else:
                                                                 col_size = str(size)
-                                                            with div(cls="col-md-" + col_size + ' col-xs-12'):
+                                                            with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
                                                                 with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + str(section['num']) + '_' + id):
                                                                     if isinstance(section['table'], list) and item[pos]:
-                                                                        strong(section['table'][pos-1] + ': ', cls="d-md-none d-block")
+                                                                        strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
                                                                     if item[pos]:
                                                                         raw(item[pos])
                             else:
@@ -296,11 +296,11 @@ with doc:
                         with div(cls="modal-footer"):
                             a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
                             a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
-                        
+
     div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
 
     a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
-            
+
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
     script(src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js")
     script(src="js/bootstrap.bundle.min.js")
@@ -320,10 +320,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8') as index:
+with open('index.html', 'w', encoding='utf-8', newline='\n') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8', newline='\n') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -333,7 +333,7 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
     for i, page in enumerate(pages):
         jsfile.writelines([
             '    searchTag: "#' + page['id'] + '_search",\n',
-            '    contentTag: "#' + page['id'] + '_list ' + ('tbody"\n' if 'table' in page['sections'][0] else 'ul"\n'),
+            '    contentTag: "#' + page['id'] + '_list ul"\n',
             '  }), new Jets({\n' if i < len(pages) - 1 else '})];\n'
         ])
     for i, page in enumerate(pages):
@@ -345,4 +345,3 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
         ])
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
-

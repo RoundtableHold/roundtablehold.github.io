@@ -1,0 +1,158 @@
+title: Spirit Ashes
+id: spirit_ashes
+table_widths: [3, 9]
+sections:
+  -
+    title: Weeping Penninsula
+    id: weeping_spirit_ashes
+    num: 1
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Demi-Human Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Lhutel+the+Headless\">Lhutel the Headless</a>", "Dropped by the Cemetery Shade boss in the Tombsward Catacombs."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Dropped by the spirit artist at the northern tip of Weeping Peninsula, north of the Church of Pilgrimage. Requires the Prophecy Painting found in Stormveil Castle."]
+  -
+    title: Limgrave
+    id: limgrave_spirit_ashes
+    num: 2
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes\">Banished Knight Engvall Ashes</a>", "Dropped by the Grave Warden Duelist boss in Murkwater Catacombs."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Oleg+Ashes\">Banished Knight Oleg Ashes</a>", "Dropped by the Ulcerated Tree Spirit boss in Fringefolk Hero's Grave."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Ashes\">Godrick Soldier Ashes</a>", "Found in a cemetery filled with Spirit Jellyfish at the west end of Stormhill."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Lone+Wolf+Ashes\">Lone Wolf Ashes</a>", "Given by Renna at the Church of Elleh after aquiring Torrent from Melina."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Noble+Sorcerer+Ashes\">Noble Sorcerer Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Stormfoot Catacombs."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Militiaman+Ashes\">Skeletal Militiaman Ashes</a>", "Dropped by the Tibia Mariner field boss at Summonwater Village."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Jellyfish+Ashes\">Spirit Jellyfish Ashes</a>", "Given by Roderika in Stormhill Shack after talking to her several times."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Deenh\">Stormhawk Deenh</a>", "Found in a chest above the main hall of the Chapel of Anticipation, after returning there via The Four Belfries."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Wandering+Noble+Ashes\">Wandering Noble Ashes</a>", "Found on a corpse resting against a coffin, up a ladder and guarded by some Jade Goblins in the Stormfoot Catacombs."]
+  -
+    title: Liurnia of the Lakes
+    id: liurnia_spirit_ashes
+    num: 3
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Ashes\">Albinauric Ashes</a>", "Found on a corpse in the graveyard area east of Caria Manor."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Avionette+Soldier+Ashes\">Avionette Soldier Ashes</a>", "Found on a corpse in Raya Lucaria Academy, down the rotating lift on the ledge before reaching the bottom."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Tiche+Ashes\">Black Knife Tiche Ashes</a>", "Dropped by Alecto, Black Knife Ringleader in the Ringleader's Evergaol."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Dolores+the+Sleeping+Arrow+Puppet\">Dolores the Sleeping Arrow Puppet</a>", "First sold by Preceptor Seluvis in Seluvis's Rise, then later can be found on the body of Pidia in Caria Manor."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Dung+Eater+Puppet\">Dung Eater Puppet</a>", "Sold by Preceptor Seluvis in Seluvis's Rise after using Seluvis's Potion on the Dung Eater."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Fanged+Imp+Ashes\">Fanged Imp Ashes</a>", "Can be selected as a Keepsake; otherwise, sold by the Isolated Merchant east of the Main Academy Gate site of grace."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Therolina+Puppet\">Finger Maiden Therolina Puppet</a>", "Sold by Preceptor Seluvis's body in Seluvis's Rise after completing Ranni's questline."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Sorcerer+Ashes\">Glintstone Sorcerer Ashes</a>", "Dropped by the Spirit-Caller Snail boss in the Road's End Catacombs."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Jarwight+Puppet\">Jarwight Puppet</a>", "Sold by Preceptor Seluvis's body in Seluvis's Rise after completing Ranni's questline."]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Sellsword+Ashes\">Kaiden Sellsword Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Land+Squirt+Ashes\">Land Squirt Ashes</a>", "Found at a grave surrounded by land squirts on the east shore of the lake, north of the Gate Town Bridge site of grace."]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Latenna+the+Albinauric\">Latenna the Albinauric</a>", "Found at the Slumbering Wolf's Shack, out the end of Lakeside Crystal Cave. You must possess the Haligtree Secret Medallion (Right) for her to join you."]
+      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Ashes\">Marionette Soldier Ashes</a>", "Found on a corpse hanging off the edge of the lower path past the bridge in the graveyard in Raya Lucaria Academy."]
+      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux+Puppet\">Nepheli Loux Puppet</a>", "First sold by Preceptor Seluvis in Seluvis's Rise after using Seluvis's Potion on Nepheli Loux, then later can be found on the body of Pidia in Caria Manor."]
+      - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Page+Ashes\">Page Ashes</a>", "Found on a tomb being watched over by an Ogre in the final room of the Cliffbottom Catacombs."]
+      - [16, "<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucaria+Soldier+Ashes\">Raya Lucaria Soldier Ashes</a>", "Found behind an illusory wall at the end of the Road's End Catacombs."]
+      - [17, "<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Bandit+Ashes\">Skeletal Bandit Ashes</a>", "Dropped by the Tibia Mariner field boss, south of the Carian Study Hall."]
+      - [18, "<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Sorcerer+Ashes\">Twinsage Sorcerer Ashes</a>", "Dropped by the Cemetery Shade boss in the Black Knife Catacombs."]
+  -
+    title: Caelid
+    id: caelid_spirit_ashes
+    num: 4
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Hugues+Ashes\">Battlemage Hugues Ashes</a>", "Dropped by Battlemage Hugues in the Sellia Evergaol."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Crystalian+Ashes\">Crystalian Ashes</a>", "Found in a chest found by climbing the purple crystals in the Sellia Hideaway, guarded by Glintstone Sorcerers."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Kindred+of+Rot+Ashes\">Kindred of Rot Ashes</a>", "Dropped by the Cemetery Shade boss in the Caelid Catacombs."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head+Ashes\">Mad Pumpkin Head Ashes</a>", "Dropped by the Erdtree Burial Watchdog (Duo) bosses in the Minor Erdtree Catacombs."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Miranda+Sprout+Ashes\">Miranda Sprout Ashes</a>", "Found behind an illusory wall beneath the stairs in the first open room of the Caelid Catacombs."]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Putrid+Corpse+Ashes\">Putrid Corpse Ashes</a>", "Dropped by the Frenzied Dualist boss in Gaol Cave."]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Ashes\">Radahn Soldier Ashes</a>", "Found at the end of the halls through the upper right of the first room and out a window of the War-Dead Catacombs."]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha+Ashes\">Redmane Knight Ogha Ashes</a>", "Dropped by the Putrid Tree Spirit boss in the War-Dead Catacombs."]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Stray+Ashes\">Rotten Stray Ashes</a>", "Found inside the broken ruins of a building near the swamp's edge, west of the town of Sellia and north of the Sellia Under-Stair site of grace."]
+  -
+    title: Altus Plateau
+    id: altus_spirit_ashes
+    num: 5
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Giant+Rat+Ashes\">Giant Rat Ashes</a>", "Found in the middle of a stable filled with rats in West Windmill Pasture."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Ashes\">Leyndell Soldier Ashes</a>", "Found on a corpse by making your way back up after the floor collapses in Sainted Hero's Grave."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Winged+Misbegotten+Ashes\">Winged Misbegotten Ashes</a>", "Found on a corpse in a pit surrounded by Misbegotten, near the end of the Unsightly Catacombs."]
+  -
+    title: Mt. Gelmir
+    id: gelmir_spirit_ashes
+    num: 6
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Floh\">Bloodhound Knight Floh</a>", "Found in the chest after the boss in Gelmir Hero's Grave."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Carmaan+Ashes\">Depraved Perfumer Carmaan Ashes</a>", "Found on a corpse through the halls behind the illusory wall in Volcano Manor."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Man-Serpent+Ashes\">Man-Serpent Ashes</a>", "Found on an altar surrounded by enemies in a multi-level room toward the end of Volcano Manor."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Tricia+Ashes\">Perfumer Tricia Ashes</a>", "Dropped by the Perfumer Tricia and Misbegotten Warrior bosses in the Unsightly Catacombs."]
+  -
+    title: Leyndell, Eternal City
+    id: leyndell_spirit_ashes
+    num: 7
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes\">Ancient Dragon Knight Kristoff Ashes</a>", "Dropped by the Ancient Hero of Zamor boss in Sainted Hero’s Grave."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Nomad+Ashes\">Nomad Ashes</a>", "Found on a corpse hanging off a ledge deep in the Subterranean Shunning-Grounds."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Rollo\">Omenkiller Rollo</a>", "Dropped by the Fell Twins bosses on the bridge to the Divine Tower of Altus, east of the city."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Soldjars+of+Fortune+Ashes\">Soldjars of Fortune Ashes</a>", "Dropped by the Grave Warden Duelist boss in Auriza Side Tomb."]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Ashes\">Vulgar Militia Ashes</a>", "Found on a corpse at the bottom of the section with the wooden beams, guarded by a group of basilisks in Auriza Hero's Grave."]
+  -
+    title: Mountaintops of the Giants
+    id: mountaintops_spirit_ashes
+    num: 8
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Ashes\">Fire Monk Ashes</a>", "Found in a chest below the first lift and past the second frost trap in the Giants' Mountaintop Catacombs."]
+  -
+    title: Consecrated Snowfield
+    id: snowfield_spirit_ashes
+    num: 9
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Amon+Ashes\">Blackflame Monk Amon Ashes</a>", "Dropped by the Stray Mimic Tear boss in the Hidden Path to the Haligtree."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes\">Cleanrot Knight Finlay Ashes</a>", "Found down the stairs and across a buttress in a room next a gazebo in Elphael, Brace of the Haligtree."]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Ashes\">Haligtree Soldier Ashes</a>", "Found under a large, decorative chalice at the northern edge of Elphael, Brace of the Haligtree."]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Oracle+Envoy+Ashes\">Oracle Envoy Ashes</a>", "Found on a branch out to the right, past a big Oracle Envoy that shoots down at you, near the start of Miquella's Haligtree."]
+  -
+    title: Crumbling Farum Azula
+    id: azula_spirit_ashes
+    num: 10
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes\">Azula Beastman Ashes</a>", "Found on a corpse laying on top of a stone coffin below the Dragon Temple site of grace."]
+  -
+    title: Siofra River
+    id: siofra_spirit_ashes
+    num: 11
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancestral+Follower+Ashes\">Ancestral Follower Ashes</a>", "Dropped by the Ancestor Spirit boss in Hallowhorn Grounds."]
+  -
+    title: Nokron, Eternal City
+    id: nokron_spirit_ashes
+    num: 12
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatshield+Soldier+Ashes\">Greatshield Soldier Ashes</a>", "Found on a corpse in a graveyard guarded by a Fallen Hawks Soldier."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes\">Mimic Tear Ashes</a>", "Found in a chest locked behind an imp statue door in Night's Sacred Ground."]
+  -
+    title: Ainsel River
+    id: ainsel_spirit_ashes
+    num: 13
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Clayman+Ashes\">Clayman Ashes</a>", "Found on a corpse south of the Uhl Palace Ruins, somewhat near where the sending gate in Renna's Rise puts you."]
+  -
+    title: Nokstella, Eternal City
+    id: nokstella_spirit_ashes
+    num: 14
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Archer+Ashes\">Archer Ashes</a>", "Found on a corpse tucked behind a building, to the left after going up the stairs with the exploding Silver Tears."]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets\">Nightmaiden & Swordstress Puppets</a>", "Found in a chest locked behind an imp statue door, protected by two Swordstresses."]
+  -
+    title: Deeproot Depths
+    id: deeproot_spirit_ashes
+    num: 15
+    table: ["Name", "Location"]
+    items:
+      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Ashes\">Mausoleum Soldier Ashes</a>", "Found at the base of a small dead tree at the very edge of the cliff to the north of the Walking Mausoleum."]
