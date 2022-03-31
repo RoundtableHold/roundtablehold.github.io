@@ -62,6 +62,9 @@
     searchTag: "#sorceries_search",
     contentTag: "#sorceries_list ul"
   }), new Jets({
+    searchTag: "#spirit_ashes_search",
+    contentTag: "#spirit_ashes_list tbody"
+  }), new Jets({
     searchTag: "#talismans_search",
     contentTag: "#talismans_list tbody"
   }), new Jets({
@@ -150,6 +153,10 @@
   $("#sorceries_search").keyup(function() {
     $("#sorceries_list").unhighlight();
     $("#sorceries_list").highlight($(this).val());
+  });
+  $("#spirit_ashes_search").keyup(function() {
+    $("#spirit_ashes_list").unhighlight();
+    $("#spirit_ashes_list").highlight($(this).val());
   });
   $("#talismans_search").keyup(function() {
     $("#talismans_list").unhighlight();
