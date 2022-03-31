@@ -47,6 +47,9 @@
     searchTag: "#great_runes_search",
     contentTag: "#great_runes_list ul"
   }), new Jets({
+    searchTag: "#incantations_search",
+    contentTag: "#incantations_list ul"
+  }), new Jets({
     searchTag: "#legendaries_search",
     contentTag: "#legendaries_list ul"
   }), new Jets({
@@ -133,6 +136,10 @@
   $("#great_runes_search").keyup(function() {
     $("#great_runes_list").unhighlight();
     $("#great_runes_list").highlight($(this).val());
+  });
+  $("#incantations_search").keyup(function() {
+    $("#incantations_list").unhighlight();
+    $("#incantations_list").highlight($(this).val());
   });
   $("#legendaries_search").keyup(function() {
     $("#legendaries_list").unhighlight();
