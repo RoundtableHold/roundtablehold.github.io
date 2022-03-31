@@ -133,7 +133,7 @@ with doc:
                                 span(id=page['id']  + "_nav_totals_" + str(section['num']))
                     with div(cls="input-group"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
-                    
+
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
                             with h4(id=section['id'], cls="mt-1"):
@@ -296,11 +296,11 @@ with doc:
                         with div(cls="modal-footer"):
                             a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
                             a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
-                        
+
     div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
 
     a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
-            
+
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
     script(src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js")
     script(src="js/bootstrap.bundle.min.js")
@@ -320,10 +320,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8') as index:
+with open('index.html', 'w', encoding='utf-8', newline='\n') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8', newline='\n') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -345,4 +345,3 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
         ])
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
-
