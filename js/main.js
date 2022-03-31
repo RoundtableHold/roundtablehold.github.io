@@ -1,5 +1,6 @@
 var profilesKey = 'darksouls3_profiles';
 
+
 (function($) {
     'use strict';
 
@@ -79,8 +80,8 @@ var profilesKey = 'darksouls3_profiles';
         });
 
         $('.collapse-button').click(function(event) {
-            var btn = $(event.currentTarget)
-            var i = btn.children('i')
+            var btn = $(event.currentTarget);
+            var i = btn.children('i');
             if (btn.hasClass('collapsed')) {
                 i.removeClass('bi-chevron-up');
                 i.addClass('bi-chevron-down');
@@ -89,7 +90,19 @@ var profilesKey = 'darksouls3_profiles';
                 i.addClass('bi-chevron-up');
             }
             
-        })
+        });
+
+        $('.toc-button').click(function(event) {
+            var btn = $(event.currentTarget);
+            var i = btn.children(i);
+            if (btn.hasClass('collapsed')) {
+                i.removeClass('bi-dash');
+                i.addClass('bi-plus-lg');
+            } else {
+                i.removeClass('bi-plus-lg');
+                i.addClass('bi-dash');
+            }
+        });
 
         // Theme callback
         $('#themes').change(function(event) {
@@ -422,11 +435,13 @@ var profilesKey = 'darksouls3_profiles';
                 if (checked === count) {
                     this.innerHTML = $('#' + type + '_nav_totals_' + i)[0].innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
+                    $(this).removeClass('bg-info').addClass('bg-success');
                     $(this).parent('h3').addClass('completed');// Hide heading for completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
                     this.innerHTML = $('#' + type + '_nav_totals_' + i)[0].innerHTML =  checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
+                    $(this).removeClass('bg-success').addClass('bg-info');
                     $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
@@ -530,6 +545,7 @@ var profilesKey = 'darksouls3_profiles';
             $.jStorage.set(profilesKey, profiles);
         });
      });
+
 })( jQuery );
 
 // to color the plus symbol in combined item pickups
