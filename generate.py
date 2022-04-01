@@ -1,4 +1,5 @@
 from math import ceil, floor
+from itertools import permutations
 import os
 from turtle import onclick
 import yaml
@@ -21,8 +22,10 @@ def to_snake_case(name):
 
 dropdowns = []
 pages = []
+item_links = []
 with open('pages.yaml', 'r', encoding='utf-8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
+    item_links = yml['item_links']
     for dropdown in yml['dropdowns']:
         dropdown_ids = []
         for page in dropdown['pages']:
@@ -76,7 +79,7 @@ for page in pages:
 
 
 with doc.head:
-    meta(charset="utf-8")
+    meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="shortcut icon", type="image/x-icon", href="img/favicon.ico?")
     link(rel="apple-touch-icon-precomposed", href="img/favicon-152.png")
@@ -315,6 +318,7 @@ with doc:
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
     script(src="js/search.js")
+    script(src="js/item_links.js")
     raw("""
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -327,10 +331,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8') as index:
+with open('index.html', 'w', encoding='UTF-8') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='UTF-8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -352,3 +356,19 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
         ])
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
+
+with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+    links_f.writelines([
+        '(function($) {\n',
+        "  'use strict';\n",
+        '  $(function() {\n',
+    ])
+    for link in item_links:
+        links_f.write('    $("#' + link[0] + '").click(function () {\n')
+        links_f.write('      var checked = $(this).prop("checked");\n')
+        for target in link[1:]:
+            links_f.write('      $("#' + target + '").prop("checked", checked);\n')
+            links_f.write('      window.onCheckbox("#' + target + '");\n')
+        links_f.write('    });\n')
+    links_f.write('  });\n')
+    links_f.write('})( jQuery );\n')

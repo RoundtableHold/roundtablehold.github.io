@@ -35,3 +35,16 @@ dropdowns:
       - "talismans.yaml" #Talismans
       - "weapons.yaml" #Weapons
       - "whetstones.yaml" #Whetstones
+
+# item_links allow 1 checkbox to also check other checkboxes on the site.
+# The way this works is the first id in each list affects every id listed after it.
+# For example
+#  - [id1, id2, id3, id4]
+# Whenever id1 is checked all of id2, id3, and id4 will be checked as well.
+# But when id2, id3, and id4 are checked nothing else happens.
+# The id is constructed like this:
+# page[id]_section[num]_item[0]
+# So for instance, The Soldier of Godrick is bosses_2_1
+item_links: 
+  - [bosses_2_1, caves_1_1]
+  - [caves_1_1, bosses_2_1]
