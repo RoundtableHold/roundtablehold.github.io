@@ -107,7 +107,7 @@ with doc:
             with div(cls="col-md-12 text-center"):
                 h1("Roundtable Tracker", cls="mt-3")
                 text = p(cls="lead")
-                text += "Contribute to the guide at the "
+                text += "Contribute at the "
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
