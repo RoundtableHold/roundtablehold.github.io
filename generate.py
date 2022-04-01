@@ -349,18 +349,56 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf_8') as jsfile:
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
 
-with open(os.path.join('js', 'item_links.js'), 'w', encoding='utf_8') as links_f:
+def to_list(x):
+    if isinstance(x, list):
+        return x
+    return [x]
+
+def make_jquery_selector(x):
+    l  = to_list(x)
+    s = '$("'
+    for e in l[:-1]:
+        s += '#' + str(e) + ','
+    s += '#' + str(l[-1]) + '")'
+    return s
+
+with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
         '  $(function() {\n',
     ])
     for link in item_links:
-        links_f.write('    $("#' + link[0] + '").click(function () {\n')
-        links_f.write('      var checked = $(this).prop("checked");\n')
-        for target in link[1:]:
-            links_f.write('      $("#' + target + '").prop("checked", checked);\n')
-            links_f.write('      window.onCheckbox("#' + target + '");\n')
-        links_f.write('    });\n')
+        if 'source' in link:
+            links_f.write('    $("#' + link['source'] + '").click(function () {\n')
+            links_f.write('      var checked = $(this).prop("checked");\n')
+            t_sel = make_jquery_selector(link['target'])
+            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
+            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            links_f.write('    });\n')
+        elif 'source_or' in link:
+            sel = make_jquery_selector(link['source_or'])
+            links_f.write('    ' + sel + '.click(function () {\n')
+            links_f.write('      var checked = (' + sel + '.filter(":checked").length !== 0);\n')
+            t_sel = make_jquery_selector(link['target'])
+            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
+            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            links_f.write('    });\n')
+        elif 'source_and' in link:
+            sel = make_jquery_selector(link['source_and'])
+            links_f.write('    ' + sel + '.click(function () {\n')
+            links_f.write('      var checked = (' + sel + '.not(":checked").length === 0);\n')
+            t_sel = make_jquery_selector(link['target'])
+            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
+            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            links_f.write('    });\n')
+        elif 'link_all' in link:
+            sel = make_jquery_selector(link['link_all'])
+            links_f.write('    ' + sel + '.click(function () {\n')
+            links_f.write('      var checked = $(this).prop("checked");\n')
+            t_sel = make_jquery_selector(link['link_all'])
+            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
+            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')

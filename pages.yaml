@@ -39,12 +39,24 @@ dropdowns:
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
 # For example
-#  - [id1, id2, id3, id4]
-# Whenever id1 is checked all of id2, id3, and id4 will be checked as well.
-# But when id2, id3, and id4 are checked nothing else happens.
-# The id is constructed like this:
+# item_links: 
+#   # If id1 is checked then id2 will be checked. If id1 is unchecked then id2 will be unchecked
+#   - source: id1
+#     target: id2
+#   # If id1 is checked then both id2 and id3 will be checked. If id1 is unchecked then both id2 and id3 will be unchecked
+#   - source: id1
+#     target: [id2, id3]
+#   # If either id1 or id2 or both are checked then both id3 and id4 will be checked. If neither id1 nor id2 are checked then both id3 and id4 will be unchecked
+#   - source_or: [id1, id2]
+#     target: [id3, id4]
+#   # If both id1 and id2 are checked then id3 will be checked. If neither are checked or if only 1 is checked then id3 will be unchecked.
+#   - source_and: [id1, id2]
+#     target: id3
+#   # If any of id1, id2, id3 are checked than all of the will be. If any are unchecked then all of them will be.
+#   - link_all: [id1, id2, id3]
+# The ids are constructed like this:
 # page[id]_section[num]_item[0]
 # So for instance, The Soldier of Godrick is bosses_2_1
 item_links: 
-  - [bosses_2_1, caves_1_1]
-  - [caves_1_1, bosses_2_1]
+  - source: bosses_2_1
+    target: caves_1_1
