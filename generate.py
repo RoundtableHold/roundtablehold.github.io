@@ -76,7 +76,7 @@ for page in pages:
 
 
 with doc.head:
-    meta(charset="utf-8")
+    meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="shortcut icon", type="image/x-icon", href="img/favicon.ico?")
     link(rel="apple-touch-icon-precomposed", href="img/favicon-152.png")
@@ -327,10 +327,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8') as index:
+with open('index.html', 'w', encoding='UTF-8') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='UTF-8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",

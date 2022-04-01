@@ -62,3 +62,14 @@ If you added a new page you need to put your page in `pages.yaml` for it to show
 13. Hit create pull request
 14. I will look them over and add them to the website if they are good.
 15. Thanks for contributing!
+
+## Recommended Working Environment
+
+You are welcome to use whatever software you want to edit the site. But if you are unsure or want a seemless editing environment this is what I recommend.
+
+Get [VSCode](https://code.visualstudio.com/). Then click File -> Open Folder and navigate to `tracker`.
+Press `ctrl+P` and type or paste in `ext install ritwickdey.liveserver`.
+Press `ctrl+P` again and type or paste in `ext install emeraldwalk.RunOnSave`.
+Click `Go Live` in the bottom right corner on the blue bar.
+Click `View -> Output` then in the dropdown on the right select `Run On Save`.
+Whenever you save a `.yaml` file the webpage should automatically refresh. If there is an error it will appear at the bottom describing what you did wrong. You may need to run `generate.bat` once to get the correct dependencies installed.
