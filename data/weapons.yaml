@@ -4,8 +4,7 @@ sections:
   -
     title: Daggers
     link: "https://eldenring.wiki.fextralife.com/Daggers"
-    id: daggers
-    num: 3
+    id: 3
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Dagger\">Dagger</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\">Black Knife</a>"]
@@ -26,22 +25,19 @@ sections:
   -
     title: Straight Swords
     link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
-    id: straight_swords
-    num: 13
+    id: 13
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Greatswords
     link: "https://eldenring.wiki.fextralife.com/Greatswords"
-    id: greatswords
-    num: 14
+    id: 14
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
-    id: colossal_swords
-    num: 5
+    id: 5
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatsword\">Greatsword</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Watchdog's+Greatsword\">Watchdog's Greatsword</a>"]
@@ -57,8 +53,7 @@ sections:
   -
     title: Colossal Weapons
     link: "https://eldenring.wiki.fextralife.com/Colossal+Weapons"
-    id: colossal_weapons
-    num: 6
+    id: 6
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Prelate's+Inferno+Crozier\">Prelate's Inferno Crozier</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Watchdog's+Staff\">Watchdog's Staff</a>"]
@@ -78,8 +73,7 @@ sections:
   -
     title: Thursting Swords
     link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
-    id: thursting_swords
-    num: 15
+    id: 15
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Rapier\">Raiper</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Estoc\">Estoc</a>"]
@@ -91,8 +85,7 @@ sections:
   -
     title: Heavy Thursting Swords
     link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
-    id: heavy_thursting_swords
-    num: 16
+    id: 16
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Epee\">Great Epee</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Stitcher\">Godskin Stitcher</a>"]
@@ -101,8 +94,7 @@ sections:
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
-    id: curved_swords
-    num: 9
+    id: 9
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Falchion\">Falchion</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Beastman's+Curved+Sword\">Beastman's Curved Sword</a>"]
@@ -122,8 +114,7 @@ sections:
   -
     title: Curved Greatswords
     link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
-    id: curved_greatswords
-    num: 8
+    id: 8
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Onyx+Lord's+Greatsword\">Onyx Lord's Greatsword</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Dismounter\">Dismounter</a>"]
@@ -137,8 +128,7 @@ sections:
   -
     title: Katanas
     link: "https://eldenring.wiki.fextralife.com/Katanas"
-    id: katanas
-    num: 17
+    id: 17
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Uchigatana\">Uchigatana</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Nagakiba\">Nagakiba</a>"]
@@ -151,8 +141,7 @@ sections:
   -
     title: Twinblades
     link: "https://eldenring.wiki.fextralife.com/Twinblades"
-    id: twinblades
-    num: 18
+    id: 18
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Twinblade\">Twinblade</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Knight+Swords\">Twinned Knight Swords</a>"]
@@ -163,8 +152,7 @@ sections:
   -
     title: Axes
     link: "https://eldenring.wiki.fextralife.com/Axes"
-    id: axes
-    num: 1
+    id: 1
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Battle+Axe\">Battle Axe</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Forked+Hatchet\">Forked Hatchet</a>"]
@@ -182,22 +170,19 @@ sections:
   -
     title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
-    id: greataxes
-    num: 19
+    id: 19
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
-    id: hammers
-    num: 20
+    id: 20
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
-    id: flails
-    num: 21
+    id: 21
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Flail\">Nightrider Flail</a>"]
@@ -207,36 +192,31 @@ sections:
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
-    id: great_hammers
-    num: 22
+    id: 22
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
-    id: spears
-    num: 23
+    id: 23
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
-    id: great_spears
-    num: 24
+    id: 24
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
-    id: halberds
-    num: 25
+    id: 25
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Repears
     link: "https://eldenring.wiki.fextralife.com/Reapers"
-    id: repears
-    num: 26
+    id: 26
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Scythe\">Scythe</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Grave+Scythe\">Grave Scythe</a>"]
@@ -245,8 +225,7 @@ sections:
   -
     title: Whips
     link: "https://eldenring.wiki.fextralife.com/Whips"
-    id: whips
-    num: 27
+    id: 27
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Whip\">Whip</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Thorned+Whip\">Thorned Whip</a>"]
@@ -257,15 +236,13 @@ sections:
   -
     title: Fists
     link: "https://eldenring.wiki.fextralife.com/Fists"
-    id: fists
-    num: 28
+    id: 28
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Claws
     link: "https://eldenring.wiki.fextralife.com/Claws"
-    id: claws
-    num: 4
+    id: 4
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hookclaws\">Hookclaws</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Venomous+Fang\">Venomous Fang</a>"]
@@ -274,8 +251,7 @@ sections:
   -
     title: Light Bows
     link: "https://eldenring.wiki.fextralife.com/Light+Bows"
-    id: light_bows
-    num: 11
+    id: 11
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Shortbow\">Short Bow</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Composite+Bow\">Composite Bow</a>"]
@@ -285,8 +261,7 @@ sections:
   -
     title: Bows
     link: "https://eldenring.wiki.fextralife.com/Bows"
-    id: bows
-    num: 10
+    id: 10
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Bow\">Albinauric Bow</a>"]
@@ -298,8 +273,7 @@ sections:
   -
     title: Greatbows
     link: "https://eldenring.wiki.fextralife.com/Greatbows"
-    id: great_bows
-    num: 12
+    id: 12
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>"]
@@ -308,8 +282,7 @@ sections:
   -
     title: Crossbows
     link: "https://eldenring.wiki.fextralife.com/Crossbows"
-    id: crossbows
-    num: 7
+    id: 7
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Light+Crossbow\">Light Crossbow</a>"]
@@ -321,30 +294,26 @@ sections:
   -
     title: Ballistas
     link: "https://eldenring.wiki.fextralife.com/Ballistas"
-    id: ballistas
-    num: 2
+    id: 2
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>"]
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
-    id: glintstone_staffs
-    num: 29
+    id: 29
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
-    id: sacred_seals
-    num: 30
+    id: 30
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
-    id: torches
-    num: 31
+    id: 31
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Torch\">Torch</a>"]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Beast-Repellent+Torch\">Beast-Repllent Torch</a>"]
@@ -355,21 +324,18 @@ sections:
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
-    id: small_shields
-    num: 32
+    id: 32
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Medium Shieds
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
-    id: medium_shields
-    num: 33
+    id: 33
     items:
       - [1, "<a href=\"\"></a>"]
   -
     title: Greatshields
     link: "https://eldenring.wiki.fextralife.com/Greatshields"
-    id: greatshields
-    num: 34
+    id: 34
     items:
       - [1, "<a href=\"\"></a>"]
