@@ -48,3 +48,16 @@ dropdowns:
 item_links: 
   - [bosses_2_1, caves_1_1]
   - [caves_1_1, bosses_2_1]
+  - [npc_quests_15_2, npc_quests_14_1, npc_quests_14_2, npc_quests_14_3] #Step 2 of Latenna's questline requires completing Albus's.
+  - [npc_quests_31_14, npc_quests_15_1, npc_quests_15_2, npc_quests_15_3, npc_quests_15_4] #Step 14 of Millicent's questline requires advancing Latenna's.
+  - [npc_quests_22_3, npc_quests_23_4] #Taking the Weathered Dagger from Fia and giving it to D.
+  - [npc_quests_23_4, npc_quests_22_3] # ^ reversible
+  - [npc_quests_22_4, npc_quests_23_5] #D's murder by Fia.
+  - [npc_quests_23_5, npc_quests_22_4] # ^ reversible
+  - [npc_quests_24_2_2, npc_quests_22_8] #Fia's murder by D's twin.
+  - [npc_quests_33_3, npc_quests_34_5] #Diallos arriving in Jarburg
+  - [npc_quests_33_4, npc_quests_34_6] #Diallos dying in Jarburg
+  - [npc_quests_33_5, npc_quests_32_8] #The last step of Jar-Bairn's questline requires the last step of Alexander's.
+  - [npc_quests_17_7, npc_quests_1_3] #Nepheli's questline includes a step by which Roderika must be a Spirit Tuner.
+  - [npc_quests_17_9, npc_quests_30_1, npc_quests_30_2, npc_quests_30_3, npc_quests_30_4] #Nepheli's questline eventually requires progress in Kenneth's.
+  - [npc_quests_22_2, npc_quests_21_4, npc_quests_21_5] #Fia and Rogier's intersection
