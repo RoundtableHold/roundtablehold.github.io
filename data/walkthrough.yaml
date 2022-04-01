@@ -3,8 +3,7 @@ id: playthrough
 sections: 
   -
     title: Starting Out
-    id: starting_out
-    num: 1
+    id: 1
     items:
       - [1, "Once you have left the tutorial area, talk to White-Faced Varre nearby then head North-West to the Church of Elleh and talk to Kale. Continue North to the fork in the road and grab the Grace to your West and the Grace to your East. Rest at the Grace to your East. From now on, rest often and look for the \"Talk to\" option in the Grace menu when resing"]
       - [2, "Head East and find a talking tree. Hit or roll into the tree to break the illusion and find Boc. Head North from there, through a small camp of enemies and go North, up through the hills to find Alexander then make your way down to grab the Grace."]
@@ -22,8 +21,7 @@ sections:
       - [14, "East of the lake in Limgrave is the Waypoint Ruins. Under them is Sorceress Sellen"]
   -
     title: Going South
-    id: going_south
-    num: 2
+    id: 2
     items:
       - [1, "Go back to the starting Grace and head South-East. In the South-East corner, before you go down the slope, you will see a bunch of glowing rocks facing a circle. Go over to the circle and enter it. Blaidd will be available for you to summon if you wish. Defeat the enemy and talk to Blaidd then go down the slope."]
       - [2, "Cross the bridge and talk to Irina on the roadside then keep heading South."]
@@ -32,8 +30,7 @@ sections:
       - [5, "With the boss dead, talk to Edgar again then go back to Irina. After that, we are done with this zone entirely and shall never return."]
   -
     title: Storming the Veiled Castle
-    id: veiled_castle
-    num: 3
+    id: 3
     items:
       - [1, "^ Do this. If you should come across Chrysalid's Memento while exploring Stormveil Castle, give it to Roderika before you kill the boss."]
       - [2, "After the first boss, rest to discover Roundtable Hold. Talk to everyone, meet and greet, beware of hugs, and then go back."]
@@ -43,8 +40,7 @@ sections:
       - [6, "Rogier is in the Chapel requires you to kill the monster under Stormveil to continue his quest."]
   -
     title: Swimming in the Lake
-    id: swimming_in_the_lake
-    num: 4
+    id: 4
     items:
       - [1, "So nearby should be a few NPCs depending on your choices, interact with them if you wish then head North-West down the slope to the Lake. Go North-West from here to find an island with an old friend on it, follow his instructions to go East to find a girl named Rya if you wish and if you choose to help her, go North-West to find the man she seeks."]
       - [2, "Whatever your choice, head North to the Academy Gate Town and explore the area to find Diallos with his friend."]
@@ -63,8 +59,7 @@ sections:
       - [15, "At the East section of Lake Liurnia is Jarburg, remember this area for Diallos and Alexander's Quests. In it is Jar-bairn quest."]
   -
     title: Arriving in Caelid
-    id: arriving_in_caelid
-    num: 5
+    id: 5
     items:
       - [1, "Go back to that Grace where you met Alexander in Limgrave then head along the road East. continue East to and past the Smoldering Church to the Shack of the Rotting."]
       - [2, "Feel free to explore. Caelid has a lot to do! You've got friendly locals, bird-watching, historical areas and plenty of dogs to pet. Just remember, please don't feed the animals."]
@@ -78,15 +73,13 @@ sections:
       - [10, "At this point, all Waygates/Trapped Chests in Weeping Peninsula, Limgrave, and Liurnia Lake are safe. The Iron Virgin is still not."]
   -
     title: "Going Underground Part 1: Exploring the River Wells"
-    id: siofra
-    num: 6
+    id: 6
     items:
       - [1, "Go to Liurnia Lake and to the Ainsel River Well in the North-East, North of Carian Study Hall. Go down the lift and explore the area. Nothing notable really but this is the time to go."]
       - [2, "Now go to the Siofra River Well in East Limgrave in the forest. Go down the lift and explore the area. In part 1 of the area, there isn't much. In part 2 of the area you can find Blaidd in the East section along the cliffs if you have continued Ranni's Questline. There is also a couple secrets in the area but I won't spoil it. When you're done with the area go ahead and leave. With this done, we are done with Limgrave with the exception of one optional quest step later."]
   -
     title: Castle Redmane
-    id: castle_redmane
-    num: 7
+    id: 7
     items:
       - [1, "If you've been following Ranni's Questline, now is the time to go to Castle Redmane in the South-East section of Caelid. If you haven't then you may have to wait until you've taken the lift up to Altus Plateau if the area isn't ready yet."]
       - [2, "The way you'll know if the area is ready is that at the bridge near the castle you will find 2 Waygates, one on either side of the bridge. If you can use them, you can do the fight. Otherwise go to the next section and come back after."]
@@ -96,8 +89,7 @@ sections:
       - [6, "As usual, Roundtable Hold for dialogue and quests."]
   -
     title: "Underground Part 2: Into the Crater"
-    id: nokron
-    num: 8
+    id: 8
     items:
       - [1, "This section mostly applies to if you're doing Ranni's Questline. You can do the area anyway but you won't be able to open the chest at the end of the area."]
       - [2, "Go to the ruins where you first met Blaidd to find a note saying to enter the crater alone."]
@@ -111,8 +103,7 @@ sections:
       - [10, "Here you have a choice and I recommend eventually doing all of them."]
   -
     title: "Choice 1: The Grand Lift of Dectus"
-    id: dectus
-    num: 9
+    id: 9
     items:
       - [1, "Go to the Grand Lift of Dectus in the far North of Liurnia Lake. When you get to the big circle in front of the 2 statues, you will have a prompt to use the medallion and the lift will activate."]
       - [2, "At the top of the lift is Altus Plateau. Explore this area to your hearts content but don't enter Leyndell just yet. Everywhere else and everything else should be fine."]
@@ -124,8 +115,7 @@ sections:
       - [8, "Once you've explored the area completely, you can technically continue to Leyndell but I think the game intends you to do the other choices/go into the crater first."]
   -
     title: "Choice 2: Taking the Coward's Path"
-    id: volcano_manor
-    num: 10
+    id: 10
     items:
       - [1, "In North section of Liurnia Lake is a river in a ravine. Go up the river to the end to find a ladder going up to Ruin-Strewn Precipice. Continue the path up to make it through the Coward's Path and get to Mt. Gelmir."]
       - [2, "Explore the area to your heart's content"]
@@ -137,16 +127,14 @@ sections:
       - [8, "After this, you can enter Altus Plateau from this area if you didn't already. You also have one more option."]
   -
     title: "Choice 3: The Iron Virgin"
-    id: manor_shortcut
-    num: 11
+    id: 11
     items:
       - [1, "Below Raya Lucaria, taking the rotating elevator outside the Student Classroom and heading down, you can find an Iron Virgin. Let it eat you and you need to die while being eaten by it to be teleported by it."]
       - [2, "This will take you to Mt. Gelmir to a path you can't easily reach any other way. Continue through this path to the end to reach Mt. Gelmir."]
       - [3, "For more information on this area, see Choice 2"]
   -
     title: "Underground Part 3: Into the Coffin and Following Ranni"
-    id: ranni
-    num: 12
+    id: 12
     items:
       - [1, "Roundtable Hold for quests and such again."]
       - [2, "Part of section doesn't require anything but the other part requires Ranni's Questline. If you haven't done it, then it's fine, it's not necessary but as far as I know you can't get past the seal to the area."]
@@ -160,8 +148,7 @@ sections:
       - [10, "After you're done, head back to Ranni's Rise to finish Blaidd's quest if you like. With that you're ready to go to Leyndell."]
   -
     title: Onwards to Leyndell
-    id: leyndell
-    num: 13
+    id: 13
     items:
       - [1, "Go to Leyndell after going back to Roundtable Hold to get dialogue and questlines. You can explore this whole area safely and after defeating the boss you can be ready to leave."]
       - [2, "At this point in time. You are now 100% safe to explore this and all previously explored areas without breaking anything you haven't already broken with the exception of 1 place. DO NOT go down the hidden path deep within the sewers. The hidden path in Mohg, The Omen's boss room If you do then you will break a little bit of dialogue and possibly lock yourself into an ending."]
@@ -173,8 +160,7 @@ sections:
       - [8, "Now you will leave the city through the East, using the Grand Lift of Rold and onwards to the Mountaintops of the Giants."]
   -
     title: Climbing Mt. Giants
-    id: mt_giants
-    num: 14
+    id: 14
     items:
       - [1, "Right away you will find a man named Shabriri. You can now safely go to the hidden path deep in the Sewers of Leyndell without missing any dialogue. Be warned that continuing the quest here will lock you out of all other endings unless you're doing Millicent's Questline and you successfully complete it."]
       - [2, "You may now explore the area entirely. When you've finished exploring, head to Castle Sol in the North and complete it for the other half of the Haligtree Medallion."]
@@ -188,15 +174,13 @@ sections:
       - [10, "Back to Roundtable Hold real quick and then it's time for your options. You should do both of them."]
   -
     title: "Choice 1: Mohgwyn's Palace"
-    id: mohgwyns_palace
-    num: 15
+    id: 15
     items:
       - [1, "In the West section of Consecrated Snowfield is a Waygate covered in blood. Enter it to enter Mohgwyn's Palace. Explore the area and at the end is a boss."]
       - [2, "White-Faced Varre can be invaded and killed here for his stuff. He appears at the end of the cave just before the last Grace before the boss."]
   -
     title: "Choice 2: Miquella's Haligtree"
-    id: haligtree
-    num: 16
+    id: 16
     items:
       - [1, "In the North Section of the Consecrated Snowfield is Ordina, Liturgical Town. Interract with the Imp Statues there to enter the Evergaol and light the fires to open the Waygate in town. Take the Waygate to enter the Haligtree."]
       - [2, "Explore the area entirely and kill the boss at the end."]
@@ -204,8 +188,7 @@ sections:
       - [4, "Roundtable once more then onwards to the Giant's Forge"]
   -
     title: This Tree is on FIIIIREEEE!!!!!
-    id: burning_erdtree
-    num: 17
+    id: 17
     items:
       - [1, "Go past the Fire Giant's boss area and rest at the Giant's Forge Grace to light the fire. This decision can't be reversed. You will then enter Crumbling Farum Azula."]
       - [2, "Go back to Roundtable Hold for dialogue and such after reaching Crumbling Farum Azula."]
@@ -217,8 +200,7 @@ sections:
       - [8, "After you've grabbed this area's Grace, go back to Roundtable Hold for more dialogue."]
   -
     title: Ending the Game
-    id: the_end
-    num: 18
+    id: 18
     items:
       - [1, "Here you can finish the game. Just proceed through the area and defeat the bosses on the way."]
       - [2, "If you finished Goldmasks Questline, his body can be found in a corner to the South past a bridge and some Giant Plants."]

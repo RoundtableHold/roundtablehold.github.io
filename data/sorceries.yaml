@@ -3,8 +3,7 @@ id: sorceries
 sections:
   -
     title: "Limgrave"
-    id: limgrave_sorceries
-    num: 1
+    id: 1
     items:
       - [3, "Crystal Barrage - Sold by Sorceress Sellen (under the Waypoint Ruins, East of the lake)."]
       - [4, "Glintstone Arc - Sold by Sorceress Sellen"]
@@ -16,21 +15,18 @@ sections:
       - [10, "Glintblade Phalanx - Unlocked by Royal House Scroll"]
   -
     title: "Weeping Peninsula"
-    id: weeping_peninsula_sorceries
-    num: 2
+    id: 2
     items:
       - [1, "Ambush Shard - Found under the Witchbane Ruins in North-West Weeping Peninsula"]
       - [2, "Crystal Burst - Kill the Demi-Human Queen in the Demi-Human Forest Ruins in the forest in the Center of Weeping Peninsula."]
   -
     title: "Stormveil"
-    id: stormveil_sorceries
-    num: 3
+    id: 3
     items:
       - [1, "Rancorcall - From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a scarab with the spell."]
   -
     title: "Liurnia Lake Part 1"
-    id: liurnia_lake_part1_sorceries
-    num: 4
+    id: 4
     items:
       - [1, "Starlight - Sold by Thops in the Church of Irith near the Lake-Facing Cliffs Grace"]
       - [18, "Great Glintstone Shard - Unlocked by Academy Scroll (found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake)."]
@@ -61,16 +57,14 @@ sections:
       - [17, "Shard Spiral - Purchased from Sellen after her quest if you sided with her."]
   -
     title: "Liurnia Lake Part 2: After Ranni's Questline"
-    id: liurnia_lake_part2_after_rannis_questline_sorceries
-    num: 5
+    id: 5
     items:
       - [1, "Adula's Moonblade - Kill Glintstone Dragon Adula in the area accessed after Ranni's Questline."]
       - [2, "Lucidity - Kill Preceptor Miriam in Carian Study Hall after using the Carian Inverted Statue gotten from Ranni's Questline on the altar."]
       - [3, "Ranni's Dark Moon - After finishing Ranni's Questline, go to the area where the questline ends at South Liurnia Lake. In the South-West corner of this area is Chelona's Rise. Solve the puzzle by killing the 3 giant turtles found on the side of the cliff nearby, below the cliffs in the East, and in the air above the Spiritjump to the North. At the top of the tower is the spell."]
   -
     title: "Raya Lucaria"
-    id: raya_lucaria_sorceries
-    num: 6
+    id: 6
     items:
       - [1, "Gravity Well - Just past the rotating elevator in Raya Lucaria, next to the Schoolhouse Grace. So the quick/tricky method is from the Grace, time jumping down to the rising elevator then hop down to the path below. If you can't do this, then come from the Church of the Cuckoo Grace and run past all the enemies. Past the elevator is a bunch of graves where an enemy will spawn. Kill it for the spell."]
       - [6, "Glintstone Cometshard - Unlocked by Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside."]
@@ -80,15 +74,13 @@ sections:
       - [5, "Rennala's Full Moon - Gotten from Rennala's Remembrance which is obtained by killing the boss of Raya Lucaria."]
   -
     title: "Siofra River Well Underground"
-    id: siofra_river_well_underground_sorceries
-    num: 7
+    id: 7
     items:
       - [1, "Oracle Bubbles - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the scarab is. Kill the beetle for the spell"]
       - [2, "Great Oracular Bubble - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a scarab. Beat it to death for putting you through all that for the spell."]
   -
     title: "Caelid"
-    id: caelid_sorceries
-    num: 8
+    id: 8
     items:
       - [1, "Rock Sling - Under the North section of Street of Sages Ruins in the West part of the swamp."]
       - [2, "Rock Blaster - In a chest in the upper level of Sellia Crystal Tunnel located North of the swamp. Easily gotten to from the teleport chest under the ruins in the South part of the lake in Limgrave."]
@@ -101,8 +93,7 @@ sections:
       - [8, "Stars of Ruins - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery."]
   -
     title: "Mt. Gelmir"
-    id: mt_gelmir_sorceries
-    num: 9
+    id: 9
     items:
       - [1, "Magma Shot - Reward from Volcano Manor's first request."]
       - [2, "Tibia's Summons - After killing the boss of the \"Coward's Path\" aka Ruin-Strewn Precipice, take the path going North and get to the Wyndham Ruins. Kill the Tibia Mariner for the spell."]
@@ -112,21 +103,18 @@ sections:
       - [6, "Rykard's Rancor - Gotten from Rykard's Remembrance obtained after killing the Boss of Volcano Manor."]
   -
     title: "Altus Plateau"
-    id: altus_plateau_sorceries
-    num: 10
+    id: 10
     items:
       - [2, "Unseen Blade - At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock. The chest is at the top of the tower that appears."]
       - [3, "Unseen Form - In the same chest as Unseen Blade"]
   -
     title: "Deeproot Depths"
-    id: deeproot_depths_sorceries
-    num: 11
+    id: 11
     items:
       - [1, "Fia's Mist - Defeat the Boss located past the Across the Roots Grace. You can reach the Grace by going up the roots leading over the buildings."]
   -
     title: "Mountaintops of the Giants"
-    id: mountaintopsofthe_giants_sorceries
-    num: 12
+    id: 12
     items:
       - [1, "Zamor Ice Storms - South part of Zamor Ruins."]
       - [2, "Briars of Punishment - On the path North from the Zamor Ruins. Next to the fire guys."]
@@ -135,7 +123,6 @@ sections:
       - [5, "Meteorite of Astel - Kill the Boss of Yelough Anix Tunnel in West Consecrated Snowfield. Requires Haligtree Medallion."]
   -
     title: "Miquella's Haligtree"
-    id: miquellas_haligtree_sorceries
-    num: 13
+    id: 13
     items:
       - [1, "Loretta's Mastery - Kill the first Boss of the Haligtree. Requires Haligtree Medallion."]

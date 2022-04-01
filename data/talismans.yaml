@@ -4,8 +4,7 @@ table_widths: [2, 5, 5]
 sections:
   -
     title: "Limgrave"
-    id: "talismans_limgrave"
-    num: 2
+    id: 2
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Crimson Amber Medallion", "Can choose one as a Keepsake", "Raises maximum HP by ~6%"]
@@ -29,8 +28,7 @@ sections:
       - [19, "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation. (Holy damage is increased by 12% in PvE and 8% in PvP. Increases physical damage taken by 10% in PvE and 15% in PvP.)"]
   -
     title: "Weeping Peninsula"
-    id: "talismans_wp"
-    num: 1
+    id: 1
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
@@ -42,8 +40,7 @@ sections:
       - [7, "Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks by 20%"]
   -
     title: "Roundtable Hold"
-    id: "talismans_rh"
-    num: 3
+    id: 3
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Arsenal Charm", "Obtained by talking to Nepheli Loux after beating Godrick the Grafted in Stormveil Castle", "Raises maximum equipment weight by 15%"]
@@ -52,8 +49,7 @@ sections:
       - [4, "Ancestral Spirit's Horn", "Unlocked via the Remembrance of the Regal Ancestor", "Restores FP upon defeating enemies (3 FP per kill)"]
   -
     title: "Liurnia of the Lakes"
-    id: "talismans_ll"
-    num: 4
+    id: 4
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Assassin's Cerulean Dagger", "Dropped by the Black Knife Assassin in Black Knife Catacombs", "Critical hits restores 15 FP"]
@@ -77,8 +73,7 @@ sections:
       - [19, "Shabriri's Woe", "Found on a corpse at the edge of the Frenzied Flame Village", "Constantly attracts enemies' aggression."]
   -
     title: "Caelid"
-    id: "talismans_cd"
-    num: 5
+    id: 5
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Arrow's Sting Talisman", "Found in a treasure chest on the top of the tower directly above Impassable Greatbridge Grace", "Raises attack power of arrows and bolts (10%)."]
@@ -96,8 +91,7 @@ sections:
       - [13, "Dragoncrest Shield Talisman", "Found on one of the edges of Bestial Sanctum", "Massively boosts physical damage negation by 10%."]
   -
     title: "Altus Plateau"
-    id: "talismans_altus"
-    num: 6
+    id: 6
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Arsenal Charm +1", "Found on a corpse in the Altus Tunnel", "Raises maximum equipment load by 17%."]
@@ -113,8 +107,7 @@ sections:
       - [11, "Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Frace", "Will be lost on death in place of runes"]
   -
     title: "Mt. Gelmir"
-    id: "talismans_gelmir"
-    num: 7
+    id: 7
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Crimson Amber Medallion +1", "Found on a corpse in Volcano Manor, behind a Imp Statue, accessible from the Prison Church Grace", "Raises maximum HP by 7%."]
@@ -127,8 +120,7 @@ sections:
       - [9, "Daedicar's Woe", "Obtained at the end of Rya's questline after the Volcano Manor questline", "Increases damage taken by 100%."]
   -
     title: "Leyndell, Royal City"
-    id: "talismans_rc"
-    num: 8
+    id: 8
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Viridian Amber Medallion +1", "Dropped by Margit, the Fell Omen in Capital Outskirts", "Raises maximum stamina by 13%."]
@@ -141,8 +133,7 @@ sections:
       - [8, "Blessed Dew Talisman", "Found in a treasure chest on the Divine Bridge, guarded by a Golem", "Slowly restores HP (2 HP/sec)."]
   -
     title: "Mountaintops of the Giants"
-    id: "talismans_motg"
-    num: 9
+    id: 9
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Cerulean Amber Medallion +1", "Found on a corpse hanging by a wooden ledge above the southern walls of Castle Sol", "Raises maximum FP by 9%."]
@@ -152,8 +143,7 @@ sections:
       - [5, "Godskin Swaddling Cloth", "Dropped by Godskin Apostle & Godskin Noble in the Spiritcaller's Cave", "Successive attacks restore HP (3% of max HP + 30 HP, timer resets at ~10 seconds)"]
   -
     title: "Consecrated Snowfields"
-    id: "talismans_cs"
-    num: 10
+    id: 10
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Viridian Amber Medallion +2", "Found in a treasure chest accessible from the roof with the Summoning Snail near the Haligtree Town Plaza Grace", "Raises maximum stamina by 15%."]
@@ -167,8 +157,7 @@ sections:
       - [9, "Spelldrake Talisman +2", "Found on a corpse in the secret catacombs underneath the Hidden Path to the Haligtree, to the right before the Stray Mimic Tear", "Boosts magical damage negation. (PvE: 20%; PVP: 6%)"]
   -
     title: "Crumbling Farum Azula"
-    id: "talismans_cfa"
-    num: 11
+    id: 11
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Warrior Jar Shard", "Obtained by completing Iron Fist Alexander's questline", "Boosts the attack power of skills by 10%."]
@@ -178,24 +167,21 @@ sections:
       - [5, "Boltdrake Talisman +2", "Found on a corpse accessible by dropping off a cliff to the east of where there is/was an Ancient Dragon", "Boosts lightning damage negation by 20%."]
   -
     title: "Leyndell, Capital of Ash"
-    id: "talismans_ca"
-    num: 12
+    id: 12
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Crimson Amber Medallion +2", "Found in Leyndell, Capital of Ash, just before entering the Subterranean Shunning-Grounds", "Raises max HP by 7.5%."]
       - [2, "Erdtree's Favor +2", "Found on top of a branch jutting out of the ground in a large courtyard in the endgame", "Raises maximum HP (4%), stamina (9.6%) and equip load (8%)."]
   -
     title: "Siofra River"
-    id: "talismans_sr"
-    num: 13
+    id: 13
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Clarifying Horn Charm", "Found on a corpse lying on the stairs leading to the lift going up to the Deep Siofra Well.", "Raises Focus by 90."]
       - [2, "Marika's Scarseal", "Found on a corpse at the base of the waterfall Found at the highest level of Siofra River", "Raises magical attributes by 3, but also increases damage taken by 10%."]
   -
     title: "Nokron, Eternal City"
-    id: "talismans_nokron"
-    num: 14
+    id: 14
     table: ["Name", "Location", "Effect(s)"]
     items:
     - [1, "Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
@@ -203,36 +189,31 @@ sections:
     - [3, "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
   -
     title: "Mohgwyn Palace"
-    id: "talismans_mp"
-    num: 15
+    id: 15
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Haligdrake Talisman +2", "Found on a corpse in Mohgwyn Palace, in a small cluster of graves near a watchful Giant Crow perched up high", "Boosts holy damage negation by 20%."]
   -
     title: "Ainsel River"
-    id: "talismans_ar"
-    num: 16
+    id: 16
     table: ["Name", "Location", "Effect(s)"]
     items:
     - [1, "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
   -
     title: "Nokstella, Eternal City"
-    id: "talismans_nokstella"
-    num: 17
+    id: 17
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Moon of Nokstella", "Found in a chest underneath a massive throne in Nokstella, Eternal City", "Increases memory slots by 2."]
   -
     title: "Lake of Rot"
-    id: "talismans_lr"
-    num: 18
+    id: 18
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity by 140."]
   -  
     title: "Deeproot Depths"
-    id: "talismans_deeproot"
-    num: 19
+    id: 19
     table: ["Name", "Location", "Effect(s)"]
     items:
     - [1, "Prince of Death's Cyst", "Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]

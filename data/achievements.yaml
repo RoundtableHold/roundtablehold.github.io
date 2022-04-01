@@ -4,8 +4,7 @@ table_widths: [3, 4, 5]
 sections:
   -
     title: "Shardbearers"
-    id: "achievements_bosses"
-    num: 1
+    id: 1
     table: ["Name", "Condition", "Notes"]
     items:
       - [1, "Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
@@ -16,8 +15,7 @@ sections:
       - [6, "Shardbearer Malenia", "Defeat Shardbearer Malenia", "Semi-optional, only two Shardbearers need to be defeated."]
   -
     title: "Other Bosses"
-    id: "achievements_other_bosses"
-    num: 2
+    id: 2
     table: ["Name", "Condition", "Notes"]
     items:
       - [1, "Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
@@ -46,8 +44,7 @@ sections:
       - [24, "Lichdragon Fortissax", "Defeat Lichdragon Fortissax", "Follow Fia's questline to unlock, part of 'Age of Duskborn' ending."]
   -
     title: "Misc."
-    id: "achievements_misc_and_legendaries"
-    num: 3
+    id: 3
     table: ["Name", "Condition", "Notes"]
     items:
       - [1, "Roundtable Hold", "Arrive at Roundtable Hold", "Will unlock as part of story progression."]
@@ -61,8 +58,7 @@ sections:
       - [9, "Elden Ring", "Obtained all achievements", "Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms."]
   -
     title: "Endings"
-    id: "achievements_game_endings"
-    num: 4
+    id: 4
     table: ["Name", "Desc.", "Notes"]
     items:
       - [1, "Elden Lord", "Achieve the 'Elden Lord' ending ", "Default ending. There are 4 confirmed variations based on quests you can do."]

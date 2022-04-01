@@ -4,8 +4,7 @@ table_widths: [2, 1, 4, 2, 3]
 sections:
   -
     title: "Limgrave"
-    id: "caves_limgrave"
-    num: 1
+    id: 1
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Stranded Graveyard", "Cave", "Beginning of the game", "Soldier of Godrick", ""]
@@ -20,8 +19,7 @@ sections:
       - [10, "Stormfoot Catacombs", "Catacombs", "Northwest of Church of Elleh", "Erdtree Burial Watchdog", ""]
   -
     title: "Weeping Peninsula"
-    id: "caves_weeping_peninsula"
-    num: 0
+    id: 0
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Earthbore Cave", "Cave", "West of the Forest Lookout Tower", "Runebear", ""]
@@ -31,8 +29,7 @@ sections:
       - [5, "Tombsward Cave", "Cave", "South of the Weeping Evergaol", "Miranda, the Blighted Bloom", ""]
   -
     title: "Liurnia of the Lake"
-    id: "caves_liurniaofthe_lake"
-    num: 2
+    id: 2
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Academy Crystal Cave", "Cave", "West of Raya Lucaria Academy", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
@@ -45,8 +42,7 @@ sections:
       - [8, "Stillwater Cave", "Cave", "Southeast edge of the lake", "Cleanrot Knight", ""]
   -
     title: "Caelid"
-    id: "caves_caelid"
-    num: 3
+    id: 3
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Abandoned Cave", "Cave", "East of Smoldering Wall Grace on canyon wall", "Cleanrot Knight (x2)", ""]
@@ -59,8 +55,7 @@ sections:
       - [8, "War-Dead Catacombs", "Catacombs", "Northern edge of the Wailing Dunes", "Putrid Tree Spirit", ""]
   -
     title: "Altus Plateau"
-    id: "caves_altus_plateau"
-    num: 4
+    id: 4
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Old Altus Tunnel", "Tunnel", "West Altus Plateau, in the ravine", "Stonedigger Troll", ""]
@@ -69,8 +64,7 @@ sections:
       - [4, "Sainted Hero's Grave", "Catacombs", "West of Rampartside Path", "Ancient Hero of Zamor", "Requires 2 Stonesword Keys."]
   -
     title: "Mt. Gelmir"
-    id: "caves_mt_gelmir"
-    num: 5
+    id: 5
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Gelmir Hero's Grave", "Catacombs", "North of Hermit Village, over the chasm", "Red Wolf of the Champion", ""]
@@ -81,8 +75,7 @@ sections:
       - [6, "Wyndham Catacombs", "Catacombs", "Northwest of Wyndham Ruins", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
   -
     title: "Leyndell, Royal Capital"
-    id: "caves_leyndell_royal_capital"
-    num: 6
+    id: 6
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Sealed Tunnel", "Tunnel", "Southern edge of Capital Outskirts", "Onyx Lord", ""]
@@ -90,8 +83,7 @@ sections:
       - [3, "Leyndell Catacombs", "Catacombs", "Inside the Subterranean Shunning-Grounds", "Esgar, Priest of Blood", ""]
   -
     title: "Mountaintops of the Giants"
-    id: "caves_mountaintopsofthe_giants"
-    num: 7
+    id: 7
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Giant-Conquering Hero's Grave", "Catacombs", "Northeast of Zamor Ruins", "Ancient Hero of Zamor", ""]
@@ -99,8 +91,7 @@ sections:
       - [3, "Spiritcaller's Cave", "Cave", "Western bank of the Freezing Lake", "Godskin Apostle & Godskin Noble", "Requires 2 Stonesword Keys."]
   -
     title: "Consecrated Snowfields"
-    id: "caves_consecrated_snowfields"
-    num: 8
+    id: 8
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
       - [1, "Consecrated Snowfield Catacombs", "Catacombs", "Eastern cliffs of the Consecrated Snowfields", "Putrid Grave Warden Duelist", ""]

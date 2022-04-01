@@ -3,8 +3,7 @@ id: memory_stones_talisman_pouches
 sections:
   -
     title: "Memory Stones"
-    id: "memory_stones"
-    num: 0
+    id: 0
     items:
       - [1, "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
       - [2, "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
@@ -16,8 +15,7 @@ sections:
       - [8, "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
   -
     title: "Talisman Pouches"
-    id: "talisman_pouches"
-    num: 1
+    id: 1
     items:
       - [1, "Game starts with a Talisman Pouch"]
       - [2, "Reward for defeating Margit, the Fell Omen in Stormveil Castle."]

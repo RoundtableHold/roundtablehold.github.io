@@ -3,8 +3,7 @@ id: flasks
 sections:
   -
     title: "Golden Seeds"
-    id: golden_seeds_flasks
-    num: 1
+    id: 1
     items:
       - "Limgrave"
       - [2, "Can choose one as a Keepsake"]
@@ -65,8 +64,7 @@ sections:
       - [42, "reward for defeating Putrid Tree Spirit in Lake of Rot"]
   -
     title: "Sacred Tears"
-    id: sacred_tears_flasks
-    num: 2
+    id: 2
     items:
       - "Limgrave"
       - [4, "Third Church of Marika, in East Limgrave"]

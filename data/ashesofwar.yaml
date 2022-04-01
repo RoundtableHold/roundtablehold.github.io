@@ -4,8 +4,7 @@ table_widths: [2, 10]
 sections:
   -
     title: "Blood"
-    id: "ashesofwar_blood"
-    num: 1
+    id: 1
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade\">Blood Blade</a>", "Wound self to coat the armament with blood, then unleash an airborne blood blade that causes hemorrhaging. Can be fired in rapid succession."]
@@ -14,8 +13,7 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku\">Seppuku</a>", "Plunge the blade into your stomach to stain it with blood. Increases attack power and improves ability to inflict blood loss."]
   -
     title: "Cold"
-    id: "ashesofwar_cold"
-    num: 2
+    id: 2
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist\">Chilling Mist</a>", "Coat armament in frost, and then slash, spreading frigid mist forwards. The armament retains its frost for a while."]
@@ -23,8 +21,7 @@ sections:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear\">Ice Spear</a>", "Skill of the warriors who served Lunar Princess Ranni. Spin armament to release cold magic, then channel it into a piercing spear of ice."]
   -
     title: "Fire"
-    id: "ashesofwar_fire"
-    num: 3
+    id: 3
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption\">Eruption</a>", "Slamming the armament into the ground will spawn roiling lava which also spouts up upon release."]
@@ -32,16 +29,14 @@ sections:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike\">Flaming Strike</a>", "Skill that emits flame in a wide frontward arc. Follow up with a strong attack to perform a lunging, sweeping strike. This will also coat the armament in fire."]
   -
     title: "Flame"
-    id: "ashesofwar_flame"
-    num: 4
+    id: 4
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado\">Black Flame Tornado</a>", "Spin armament overhead and then plunge it into the ground to summon a raging vortex of black flames. Hold to create an initial flame tornado while spinning the armament."]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge\">Prelate's Charge</a>", "Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge."]
   -
     title: "Heavy"
-    id: "ashesofwar_heavy"
-    num: 5
+    id: 5
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar\">Barbaric Roar</a>", "Increase attack power. Strong attacks turn into savage combo attacks."]
@@ -60,8 +55,7 @@ sections:
       - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes\">Wild Strikes</a>", "Swing armaments with wild abandon. Hold to continue swinging. Can be followed up with a normal or strong attack."]
   -
     title: "Keen"
-    id: "ashesofwar_keen"
-    num: 6
+    id: 6
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar\">Beast's Roar</a>", "Unleash a beastly roar, rending the air as a forward-travelling projectile."]
@@ -77,8 +71,7 @@ sections:
       - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe\">Unsheathe</a>", "Skill of swordsmen from the Land of Reeds. Sheathe blade, holding it at the hip in a composed stance. Follow up with a normal or strong attack to perform a swift slash attack."]
   -
     title: "Lightning"
-    id: "ashesofwar_lightning"
-    num: 7
+    id: 7
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Ram</a>", "Skill inspired by tumbling rams. Let out a bleat, then tumble forwards, clad in lightning. Tumbles can be repeated in rapid succession."]
@@ -86,8 +79,7 @@ sections:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt\">Thunderbolt</a>", "Raise armament aloft to call down a bolt of lightning. Can be fired in rapid succession."]
   -
     title: "Magic"
-    id: "ashesofwar_magic"
-    num: 8
+    id: 8
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur\">Carian Grandeur</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power by up to two levels."]
@@ -103,8 +95,7 @@ sections:
 
   -
     title: "Occult"
-    id: "ashesofwar_occult"
-    num: 9
+    id: 9
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit\">Assassin's Gambit</a>", "A skill where it masks the player's presence at the cost of a self-inflicted wound. The ablilty grants near-invisibility and silenced footsteps."]
@@ -113,16 +104,14 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure\">White Shadow's Lure</a>", "Hold armament in a brief, silent prayer to create a white shadow. The apparition lures in foes of human build who are not in combat, drawing their aggression."]
   -
     title: "Poison"
-    id: "ashesofwar_poison"
-    num: 10
+    id: 10
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight\">Poison Moth Flight</a>", "Slash with a poison-infused blade. If the follow-up strike lands on a poisoned foe, it will deal significant damage."]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist\">Poisonous Mist</a>", "Coats the selected armament in poison, slashing spreads the toxic mist forward. The armament retain its poison for a while."]
   -
     title: "Quality"
-    id: "ashesofwar_quality"
-    num: 11
+    id: 11
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth\">Charge Forth</a>", "Quickly charge forward with the armament at the hip, carrying the momentum into a thrust. Hold to cover a greater distance."]
@@ -139,8 +128,7 @@ sections:
       - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice\">Vacuum Slice</a>", "Lost skill of ancient heroes. Hold the armament aloft to surround it with a shearing vacuum, then launch it forwards as a blade-like projectile."]
   -
     title: "Sacred"
-    id: "ashesofwar_sacred"
-    num: 12
+    id: 12
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land\">Golden Land</a>", "Thrust armament into the ground, then gather strength to unleash a blast of sacred energy that coalesces into golden darts. Follow up with a strong attack to swing the armament in a sweeping strike"]
@@ -156,8 +144,7 @@ sections:
       - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable\">Vow of the Indomitable</a>", "Skill of the ancient warriors of the Erdtree. Hold shield aloft to imbue yourself with golden power, granting momentary invincibility."]
   -
     title: "Standard"
-    id: "ashesofwar_standard"
-    num: 13
+    id: 13
     table: ["Name", "Description"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage\">Barrage</a>", "Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see."]
@@ -174,8 +161,7 @@ sections:
       - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through\">Through and Through</a>", "Powerful archery skill using a greatbow held in an oblique stance. Ready the greatbow, then twist the bowstring to fire a mighty greatarrow that can penetrate through enemies."]
   -
     title: "Misc."
-    id: "ashesofwar_misc"
-    num: 14
+    id: 14
     table: ["Name", "Description"]
     items:
     - [1, "Lost Ashes of War", "Ashes of war, devoid of any memories of battle. Unable to apply any kind of affinity in their current state, but can be used by Smithing Master Hewg of the Roundtable Hold to recreate other ashes."]
