@@ -10,23 +10,23 @@ sections:
     items:
       - [1, "Crimson Amber Medallion", "Can choose one as a Keepsake", "aises maximum HP by ~6%"]
       - [2, "Roar Medallion", "Dropped by the Stonedigger Troll, located in the Limgrave Tunnels", "Enhances roars and breath attacks"]
-      - [3, "Flamedrake Talisman", "Dropped by the Beastman of Farum Azula in Groveside Cave in Limgrave", "Boosts fire damage negation"]
-      - [4, "Haligdrake Talisman", "Found on a corpse in the Stranded Graveyard, but only accessible via the beach below the Seaside Ruins Grace", "Boosts holy damage negation"]
-      - [5, "Axe Talisman", "Found in a cellar underneath the Mistwood Ruins", "Enhances charge attacks"]
-      - [6, "Prince of Death's Favor", "Found in the Stormveil Castle Crypts, most easily accessible via the Rampart Tower Grace", "Raises Vitality"]
-      - [7, "Claw Talisman", "Found on a corpse situated in a watchtower accessible from the Rampart Tower Grace", "Enhances jump attacks"]
-      - [8, "Curved Sword Talisman", "Found in a treasure chest inside the room where you fight the Banished Knight in Stormveil Castle", "Enhances guard counters"]
-      - [9, "Boltdrake Talisman", "Found on a corpse on the way to the Divine Tower of Limgrave", "Boosts lightning damage negation"]
-      - [10, "Green Turtle Talisman", "Found in the underground area on the outskirts of Summonwater Village", "Raises stamina recovery speed"]
-      - [11, "Hammer Talisman", "Dropped by Recusant Henricus northeast of Stormhill Shack", "Enhances stamina-reducing attacks against blockers"]
+      - [3, "Flamedrake Talisman", "Dropped by the Beastman of Farum Azula in Groveside Cave in Limgrave", "Boosts fire damage negation by 13%"]
+      - [4, "Haligdrake Talisman", "Found on a corpse in the Stranded Graveyard, but only accessible via the beach below the Seaside Ruins Grace by 13%", "Boosts holy damage negation"]
+      - [5, "Axe Talisman", "Found in a cellar underneath the Mistwood Ruins", "Enhances charge attacks by 10%"]
+      - [6, "Prince of Death's Pustule", "Found in the Stormveil Castle Crypts, most easily accessible via the Rampart Tower Grace", "Raises Vitality"]
+      - [7, "Claw Talisman", "Found on a corpse situated in a watchtower accessible from the Rampart Tower Grace", "Enhances jump attacks by 15%"]
+      - [8, "Curved Sword Talisman", "Found in a treasure chest inside the room where you fight the Banished Knight in Stormveil Castle", "Enhances guard counters by 20%"]
+      - [9, "Boltdrake Talisman", "Found on a corpse on the way to the Divine Tower of Limgrave", "Boosts lightning damage negation by 13%"]
+      - [10, "Green Turtle Talisman", "Found in the underground area on the outskirts of Summonwater Village", "Raises stamina recovery speed by 8 points per second (+17.7%)"]
+      - [11, "Hammer Talisman", "Dropped by Recusant Henricus northeast of Stormhill Shack", "Enhances stamina-reducing attacks against blockers by 20%"]
       - [12, "Arrow's Reach Talisman", "Found in a treasure chest inside the Stormgate Towers", "Increases bow effective range"]
       - [13, "Blue Dancer Charm", "Dropped by the Guardian Golem in Highroad Cave", "Raises attack power with lower equipment load"]
-      - [14, "Lance Talisman", "Found in the Northeast Stormhill", "Enhances attacks on horseback"]
+      - [14, "Lance Talisman", "Found in the Northeast Stormhill", "Enhances attacks on horseback by 15%"]
       - [15, "Sacrificial Twig", "Can be purchased from Patches at Murkwater Cave after he sets up shop for 5,000 runes", "Will be lost on death in place of runes"]
-      - [16, "Erdtree's Favor", "Found in the Fringefolk Hero's Grave, guarded by two Grafted Scions in a secret area", "Raises maximum HP, stamina and equip load"]
-      - [17, "Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low"]
-      - [18, "Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP"]
-      - [19, "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation."]
+      - [16, "Erdtree's Favor", "Found in the Fringefolk Hero's Grave, guarded by two Grafted Scions in a secret area", "Raises maximum HP (3%), Stamina (6.75%) and Equip Load (5%)"]
+      - [17, "Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low (Activates under 20% health.)"]
+      - [18, "Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP (Heals 10% of max HP + 85 HP)"]
+      - [19, "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation. (Holy damage is increased by 12% in PvE and 8% in PvP. Increases physical damage taken by 10% in PvE and 15% in PvP."]
   -
     title: "Weeping Peninsula"
     id: "talismans_wp"
@@ -35,7 +35,7 @@ sections:
     items:
       - [1, "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
       - [2, "Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
-      - [3, "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina"]
+      - [3, "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina by 11%"]
       - [4, "Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
       - [5, "Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation"]
       - [6, "Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
@@ -228,7 +228,7 @@ sections:
     num: 18
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Immunizing Horn Charm +1", "Reward for defeating a wandering shaman in the Lake of Rot", "Raises Immunity."]
+      - [1, "Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity."]
 
 
 
