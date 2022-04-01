@@ -364,11 +364,11 @@ with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f
         '  $(function() {\n',
     ])
     for link in item_links:
-        for pair in permutations(link, 2):
-            links_f.write('    $("#' + pair[0] + '").click(function () {\n')
-            links_f.write('      var checked = $(this).prop("checked");\n')
-            links_f.write('      $("#' + pair[1] + '").prop("checked", checked);\n')
-            links_f.write('      window.onCheckbox("#' + pair[1] + '");\n')
-            links_f.write('    });\n')
+        links_f.write('    $("#' + link[0] + '").click(function () {\n')
+        links_f.write('      var checked = $(this).prop("checked");\n')
+        for target in link[1:]:
+            links_f.write('      $("#' + target + '").prop("checked", checked);\n')
+            links_f.write('      window.onCheckbox("#' + target + '");\n')
+        links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')
