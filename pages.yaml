@@ -61,6 +61,7 @@ item_links:
   - [npc_quests_17_7, npc_quests_1_3] #Nepheli's questline includes a step by which Roderika must be a Spirit Tuner.
   - [npc_quests_17_9, npc_quests_30_1, npc_quests_30_2, npc_quests_30_3, npc_quests_30_4] #Nepheli's questline eventually requires progress in Kenneth's.
   - [npc_quests_22_2, npc_quests_21_4, npc_quests_21_5] #Fia and Rogier's intersection
+  #Bosses and talismans linking
   - [bosses_2_5, talismans_2_2] #stonedigger troll drops roar medallion
   - [talismans_2_2, bosses_2_5] # ^ reversible 
   - [bosses_2_4, talismans_2_3] #beastman of farum azula drops Flamedrake talisman
@@ -95,3 +96,64 @@ item_links:
   - [talismans_6_10, bosses_7_4] # reversible
   - [talismans_7_5, bosses_7_13] # reversible
   - [talismans_8_1, bosses_8_3] # reversible
+#Bosses and Achievements linking
+  - [achievements_2_1, bosses_2_28] #margit
+  - [achievements_2_2, bosses_1_11] #leonine
+  - [achievements_2_3, bosses_4_35] #red wolf of radagon
+  - [achievements_2_4, bosses_4_36] #rennala
+  - [achievements_2_5, bosses_4_27] #royal knight loretta
+  - [achievements_2_6, bosses_4_33] #magma wyrm makar
+  - [achievements_2_7, bosses_13_2] #ancestor spirit
+  - [achievements_2_8, bosses_14_1] #mimic tear
+  - [achievements_2_9, bosses_8_17] #godfrey
+  - [achievements_2_10, bosses_16_1] #dragonkin soldier of nokstella
+  - [achievements_2_11, bosses_17_2] #astel 
+  - [achievements_2_12, bosses_14_2] #regal ancestor spirit
+  - [achievements_2_13, bosses_14_3] #valiant gargoyle
+  - [achievements_2_14, bosses_7_8] #elemer
+  - [achievements_2_15, bosses_7_23] #godskin noble
+  - [achievements_2_16, bosses_9_9] #commander niall
+  - [achievements_2_17, bosses_9_15] #fire giant
+  - [achievements_2_18, bosses_11_2] #godskin duo
+  - [achievements_2_19, bosses_10_10] #loretta knight of the haligtree
+  - [achievements_2_20, bosses_11_6] #maliketh
+  - [achievements_2_21, bosses_12_2] #Hoarah loux
+  - [achievements_2_22, bosses_8_16] #mohg the omen
+  - [achievements_2_23, bosses_11_5] #dragonlord placidusax
+  - [achievements_2_24, bosses_18_4] #lichdragon fortissax
+  - [achievements_1_1, bosses_2_29] #godrick
+  - [achievements_1_2, bosses_5_27] #radahn
+  - [achievements_1_3, bosses_8_18] #morgott
+  - [achievements_1_4, bosses_7_26] #rykard
+  - [achievements_1_5, bosses_15_3] #mohg lord of blood
+  - [achievements_1_6, bosses_10_11] #malenia
+  - [bosses_2_28, achievements_2_1] # reversible
+  - [bosses_1_11, achievements_2_2] # reversible
+  - [bosses_4_35, achievements_2_3] # reversible
+  - [bosses_4_36, achievements_2_4] # reversible
+  - [bosses_4_27, achievements_2_5] # reversible
+  - [bosses_4_33, achievements_2_6] # reversible
+  - [bosses_13_2, achievements_2_7] # reversible
+  - [bosses_14_1, achievements_2_8] # reversible
+  - [bosses_8_17, achievements_2_9] # reversible
+  - [bosses_16_1, achievements_2_10] # reversible
+  - [bosses_17_2, achievements_2_11] # reversible
+  - [bosses_14_2, achievements_2_12] # reversible
+  - [bosses_14_3, achievements_2_13] # reversible
+  - [bosses_7_8, achievements_2_14] # reversible
+  - [bosses_7_23, achievements_2_15] # reversible
+  - [bosses_9_9, achievements_2_16] # reversible
+  - [bosses_9_15, achievements_2_17] # reversible
+  - [bosses_11_2, achievements_2_18] # reversible
+  - [bosses_10_10, achievements_2_19] # reversible
+  - [bosses_11_6, achievements_2_20] # reversible
+  - [bosses_12_2, achievements_2_21] # reversible
+  - [bosses_8_16, achievements_2_22] # reversible
+  - [bosses_11_5, achievements_2_23] # reversible
+  - [bosses_18_4, achievements_2_24] # reversible
+  - [bosses_2_29, achievements_1_1] # reversible
+  - [bosses_5_27, achievements_1_2] # reversible
+  - [bosses_8_18, achievements_1_3] # reversible
+  - [bosses_7_26, achievements_1_4] # reversible
+  - [bosses_15_3, achievements_1_5] # reversible
+  - [bosses_10_11, achievements_1_6] # reversible
