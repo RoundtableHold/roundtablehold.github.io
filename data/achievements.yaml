@@ -1,5 +1,6 @@
 title: Achievements
 id: achievements
+table_widths: [3, 4, 5]
 sections:
   -
     title: "Shardbearers"
@@ -47,17 +48,17 @@ sections:
     title: "Misc."
     id: "achievements_misc_and_legendaries"
     num: 3
-    table: ["Name", "Condition"]
+    table: ["Name", "Condition", "Notes"]
     items:
-      - [1, "Roundtable Hold", "Arrive at Roundtable Hold"]
-      - [2, "God-Slaying Armament", "Upgrade any armament to its highest stage."]
-      - [3, "Legendary Armaments", "Acquire all nine legendary weapons."]
-      - [4, "Legendary Ashen Remains", "Acquire all six legendary ashen remains."]
-      - [5, "Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations."]
-      - [6, "Legendary Talismans", "Acquire all eight legendary talismans."]
-      - [7, "Great Rune", "Restore the power of a Great Rune. Easy to unlock at Stormveil, after defeating Godrick."]
-      - [8, "Erdtree Aflame"," Use kindling to set the Erdtree Aflame. Will unlock as part of story progression, but I think it's achievable in two ways."]
-      - [9, "All Achievements","Aquire all other achievements for Elden Ring"]
+      - [1, "Roundtable Hold", "Arrive at Roundtable Hold", "Will unlock as part of story progression."]
+      - [2, "God-Slaying Armament", "Upgrade any armament to its highest stage.", ""]
+      - [3, "Legendary Armaments", "Acquire all nine legendary weapons.", ""]
+      - [4, "Legendary Ashen Remains", "Acquire all six legendary ashen remains.", ""]
+      - [5, "Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations.", ""]
+      - [6, "Legendary Talismans", "Acquire all eight legendary talismans.", ""]
+      - [7, "Great Rune", "Restore the power of a Great Rune.", "Easy to unlock at Stormveil, after defeating Godrick."]
+      - [8, "Erdtree Aflame"," Use kindling to set the Erdtree Aflame.",  "Will unlock as part of story progression, but I think it's achievable in two ways."]
+      - [9, "Elden Ring", "Obtained all achievements", "Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms."]
   -
     title: "Endings"
     id: "achievements_game_endings"

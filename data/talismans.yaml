@@ -1,19 +1,7 @@
 title: Talismans
 id: talismans
+table_widths: [3, 5, 4]
 sections:
-  -
-    title: "Weeping Peninsula"
-    id: "talismans_wp"
-    num: 1
-    table: ["Name", "Location", "Effect(s)"]
-    items:
-      - [1, "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
-      - [2, "Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
-      - [3, "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina"]
-      - [4, "Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
-      - [5, "Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation"]
-      - [6, "Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
-      - [7, "Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks"]
   -
     title: "Limgrave"
     id: "talismans_limgrave"
@@ -39,6 +27,19 @@ sections:
       - [17, "Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low"]
       - [18, "Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP"]
       - [19, "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation."]
+  -
+    title: "Weeping Peninsula"
+    id: "talismans_wp"
+    num: 1
+    table: ["Name", "Location", "Effect(s)"]
+    items:
+      - [1, "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
+      - [2, "Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
+      - [3, "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina"]
+      - [4, "Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
+      - [5, "Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation"]
+      - [6, "Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
+      - [7, "Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks"]
   -
     title: "Roundtable Hold"
     id: "talismans_rh"

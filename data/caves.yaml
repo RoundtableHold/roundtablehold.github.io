@@ -1,17 +1,7 @@
 title: Caves, Catacombs, and Tunnels
 id: caves
+table_widths: [2, 1, 4, 2, 3]
 sections:
-  -
-    title: "Weeping Peninsula"
-    id: "caves_weeping_peninsula"
-    num: 0
-    table: ["Name", "Type", "Location", "Bosses", "Notes"]
-    items:
-      - [1, "Earthbore Cave", "Cave", "West of the Forest Lookout Tower", "Runebear", ""]
-      - [2, "Impaler's Catacombs", "Catacombs", "Northeast of Weeping Peninsula", "Erdtree Burial Watchdog", ""]
-      - [3, "Morne Tunnel", "Tunnel", "Southern tip of canyon west of Ailing Village", "Scaly Misbegotten", ""]
-      - [4, "Tombsward Catacombs", "Catacombs", "North of Minor Erdtree", "Cemetary Shade", ""]
-      - [5, "Tombsward Cave", "Cave", "South of the Weeping Evergaol", "Miranda, the Blighted Bloom", ""]
   -
     title: "Limgrave"
     id: "caves_limgrave"
@@ -28,6 +18,17 @@ sections:
       - [8, "Murkwater Catacombs", "Catacombs", "At the end of the river north of Agheel Lake", "Grave Warden Duelist", ""]
       - [9, "Murkwater Cave", "Cave", "Middle of ravine in south of Agheel Lake", "Patches", ""]
       - [10, "Stormfoot Catacombs", "Catacombs", "Northwest of Church of Elleh", "Erdtree Burial Watchdog", ""]
+  -
+    title: "Weeping Peninsula"
+    id: "caves_weeping_peninsula"
+    num: 0
+    table: ["Name", "Type", "Location", "Bosses", "Notes"]
+    items:
+      - [1, "Earthbore Cave", "Cave", "West of the Forest Lookout Tower", "Runebear", ""]
+      - [2, "Impaler's Catacombs", "Catacombs", "Northeast of Weeping Peninsula", "Erdtree Burial Watchdog", ""]
+      - [3, "Morne Tunnel", "Tunnel", "Southern tip of canyon west of Ailing Village", "Scaly Misbegotten", ""]
+      - [4, "Tombsward Catacombs", "Catacombs", "North of Minor Erdtree", "Cemetary Shade", ""]
+      - [5, "Tombsward Cave", "Cave", "South of the Weeping Evergaol", "Miranda, the Blighted Bloom", ""]
   -
     title: "Liurnia of the Lake"
     id: "caves_liurniaofthe_lake"
