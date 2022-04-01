@@ -4,8 +4,7 @@ table_widths: [2, 5, 5]
 sections:
   -
     title: "Bestial Incantations"
-    id: "incant_bestial"
-    num: 1
+    id: 1
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Claw\">Beast Claw</a>", "Creates claws that tear through the land.", "Bestial Sanctum: Reward from Gurranq, Beast Clergyman after giving him the fifth  Deathroot. Seeit on Elden Ring Interactive Map Link."]
@@ -16,8 +15,7 @@ sections:
       - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Stone+of+Gurranq\">Stone of Gurranq</a>", "Hurls a boulder before the caster. This incantation can be cast repeatedly.", "Bestial Sanctum: Reward from Gurranq, Beast Clergyman after giving him the 6th Deathroot"]
   -
     title: "Blood Incantations"
-    id: "incant_blood"
-    num: 2
+    id: 2
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodboon\">Bloodboon</a>", "Scatters bloodflame before caster to set area aflame.", "Trade Remembrance of the Blood Lord with Enia at Roundtable Hold."]
@@ -26,8 +24,7 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Swarm+of+Flies\">Swarm Of Flies</a>", "Releases a swarm of bloodflies before the caster", "Found on a corpse along the east wall (in a shallow cave) of the Mohgwyn Palace blood marsh, directly north from the Palace Approach Ledge-Road Site of Grace. "]
   -
     title: "Dragon Communion Incantations"
-    id: "incant_dragoncom"
-    num: 3
+    id: 3
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Agheel's+Flame\">Agheel's Flame</a>", "Spews flame breath of Agheel from above", "Can be purchased at the Dragon Communion Altar at the Cathedral of Dragon Communion in Caelid for 2 Dragon Hearts. Players need to defeat Flying Dragon Agheel in order to unlock this Incantation."]
@@ -46,8 +43,7 @@ sections:
       - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Theodorix's+Magma\">Theodorix's Magma</a>", "Spews magma breath of Theodorix from above", "Purchase from Cathedral of Dragon Communion for 2x Dragon Heart, after defeating Great Wyrm Theodorix."]
   -
     title: "Dragon Cult Incantations"
-    id: "incant_dragoncult"
-    num: 4
+    id: 4
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragons'+Lightning+Spear\">Ancient Dragons' Lightning Spear</a>", "Stabs with red lightning spear from above", "Purchase from Brother Corhyn or Miriel, Pastor of Vows after giving either the Ancient Dragon Prayerbook"]
@@ -64,8 +60,7 @@ sections:
       - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Frozen+Lightning+Spear\">Frozen Lightning Spear</a>", "Stabs with ice lightning spear from above", "Dropped by Dragonkin Soldier of Nokstella"]
   -
     title: "Erdtree Incantations"
-    id: "incant_erdtree"
-    num: 5
+    id: 5
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Breath\">Aspect Of The Crucible: Breath</a>", "Creates throat pouch to spew fire while walking", "Rykard, Lord of Blasphemy boss arena. Kill Tanith as she sits eating Rykards Corpse, and her Knight will invade you. Defeat him, and he will drop the Aspect."]
@@ -83,8 +78,7 @@ sections:
       - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Wrath+of+Gold\">Wrath Of Gold</a>", "Produces golden shockwave that knocks back foes", "Found at Woodfolk Ruins. Among the enemies, there is a staircase that goes down and leads to a chest that contains this Incantation."]
   -
     title: "Fire Giant Incantations"
-    id: "incant_firegiant"
-    num: 6
+    id: 6
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Burn+O+Flame!\">Burn, O Flame</a>!", "Raises a series of flame pillars around caster", "Trade Remembrance of the Fire Giant with Enia at Roundtable Hold."]
@@ -93,8 +87,7 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Giantsflame+Take+Thee\">Giantsflame Take Thee</a>", "Hurls massive ball of raging fire", "Purchase from Brother Corhyn or Miriel, Pastor of Vows after giving them the Giant's Prayerbook for 13k runes"]
   -
     title: "Fire Monk Incantations"
-    id: "incant_firemonk"
-    num: 7
+    id: 7
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Flame+Sling\">Flame Sling</a>", "Throws balls of raging fire.", "Sold by Brother Corhyn at the Roundtable Hold for 800 runes"]
@@ -108,8 +101,7 @@ sections:
       - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Catch+Flame\">Catch Flame</a>", "Momentarily sparks flame from hand", "Starting equipment for the Prophet Class. Sold by Brother Corhyn at the Roundtable Hold for 600 runes"]
   -
     title: "Frenzied Flame Incantations"
-    id: "incant_frenziedflame"
-    num: 8
+    id: 8
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Frenzied+Burst\">Frenzied Burst</a>", "Emits concentrated blast of yellow flame of frenzy from eyes", "Dropped by a Teardrop Scarab in the Liurnia of the Lakes region, south of the Church of Inhibition near some frenzied rats"]
@@ -119,8 +111,7 @@ sections:
       - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Unendurable+Frenzy\">Unendurable Frenzy</a>", "Emits violent burst of yellow flame of frenzy from eyes.", "Yelough Anix Ruins: Found in a chest inside an underground treasure room in the central section of the ruins"]
   -
     title: "Godskin Apostle Incantations"
-    id: "incant_godskin"
-    num: 9
+    id: 9
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Black+Flame\">Black Flame</a>", "Throws a ball of raging black fire", "This incantation is unlocked for purchase after giving a Godskin Prayerbook to Brother Corhyn."]
@@ -131,8 +122,7 @@ sections:
       - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Scouring+Black+Flame\">Scouring Black Flame</a>", "Sweeps area before caster with black flame", "Dropped by Godskin Apostle."]
   -
     title: "Golden Order Incantations"
-    id: "incant_goldenorder"
-    num: 10
+    id: 10
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Discus+of+Light\">Discus Of Light</a>", "Fires ring of light before the caster", "Purchase from Brother Corhyn for 11,000 runes after he moves to Goldmask's location at Altus Plateau."]
@@ -146,8 +136,7 @@ sections:
       - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Triple+Rings+of+Light\">Triple Rings Of Light</a>", "Fire three rings of light before the caster", "Elphael, Brace of The Haligtree: From the Prayer Room grace, head out onto the eastern walkway and drop down one level by using the roofs on the right. There is a sealed treasure room just under the Prayer Room that requires 2 Stonesword Keys to unlock. The chest containing the spell is inside."]
   -
     title: "Servants Of Rot Incantations"
-    id: "incant_rot"
-    num: 11
+    id: 11
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Pest+Threads\">Pest Threads</a>", "Launches countless sticky threads before caster", "Sold by Gowry for 7500 Runes after progressing Millicent's questline and giving her the Valkyrie prosthesis."]
@@ -156,8 +145,7 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Scarlet+Aeonia\">Scarlet Aeonia</a>", "Creates a giant flower that explodes with scarlet rot.", "Trade Remembrance of the Rot Goddess with Enia at Roundtable Hold."]
   -
     title: "Two Fingers Incantations"
-    id: "incant_twofingers"
-    num: 12
+    id: 12
     table: ["Name", "Effect", "How to get"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Assassin's+Approach\">Assassin's Approach</a>", "Silences footsteps, reduces fall damage / sound", "Starting Incantation for the Confessor Class OR Purchase from  Brother Corhyn or Miriel, Pastor of Vows after giving either the Assassin's Prayerbook."]

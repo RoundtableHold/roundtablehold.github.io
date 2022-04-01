@@ -4,8 +4,7 @@ table_widths: [2, 2, 2, 6]
 sections:
   -
     title: "Starting Gestures"
-    id: gestures_automatic
-    num: 0
+    id: 0
     items:
       - [1, "Warm Welcome"]
       - [2, "Dejection"]
@@ -21,8 +20,7 @@ sections:
       - [12, "Wait!"]
   -
     title: "Limgrave"
-    id: gestures_limgrave
-    num: 1
+    id: 1
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Strength!", "Cave of Knowledge", "", "Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick."]
@@ -39,8 +37,7 @@ sections:
       - [12, "Bravo!", "", "Varre", "After you've beaten your first demigod (traditionally Godrick), but before finding Varre at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture."]
   -
     title: "Roundtable Hold"
-    id: gestures_roundtable
-    num: 2
+    id: 2
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Prayer", "", "Corhyn", "Talk to Brother Corhyn."]
@@ -50,8 +47,7 @@ sections:
       - [5, "Rapture", "", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
   -
     title: "Liurnia of the Lakes"
-    id: gestures_liurnia
-    num: 3
+    id: 3
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "As You Wish", "", "Hyetta", "Give Hyetta a Shabriri Grape."]
@@ -62,8 +58,7 @@ sections:
       - [6, "Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
   -
     title: "Caelid"
-    id: gestures_caelid
-    num: 4
+    id: 4
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Desperate Prayer", "Gowry's Shack", "Gowry", "Buy the incantation Pest Threads, which becomes available at a certain point in his questline, then exhaust his dialogue."]
@@ -72,15 +67,13 @@ sections:
       - [4, "Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
   -
     title: "Mt. Gelmir"
-    id: gestures_gelmir
-    num: 5
+    id: 5
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "My Thanks", "Volcano Manor", "Volcano Manor", "At the end of the hallway after beating Rykard."]
   -
     title: "Leyndell, Royal Capital"
-    id: gestures_leyndell
-    num: 6
+    id: 6
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
@@ -89,16 +82,14 @@ sections:
       - [4, "Golden Order Totality", "", "Goldmask", "Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum."]
   -
     title: "Mountaintops of the Giants"
-    id: gestures_mountaintops
-    num: 7
+    id: 7
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
       - [2, "Hoslow's Oath", "east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
   -
     title: "Nokron, Eternal City"
-    id: gestures_nokron
-    num: 8
+    id: 8
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - [1, "Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]

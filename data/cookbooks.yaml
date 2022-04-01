@@ -3,8 +3,7 @@ id: cookbooks
 sections:
   -
     title: Nomadic Cookbook
-    id: nomadic_cookbooks
-    num: 1
+    id: 1
     items:
       - [1, "1. Kale in Church of Elleh"]
       - [2, "2. Kale in Church of Elleh"]
@@ -32,8 +31,7 @@ sections:
       - [24, "24. Mohgwyn Palace on the edge of the cliffs past the swamp. Requires Haligtree Medallion or completion of White-Faced Varre's Questline. "]
   -
     title: Missionary Cookbook
-    id: missionary_cookbooks
-    num: 2
+    id: 2
     items:
       - [1, "1. Kale in Church of Elleh"]
       - [2, "2. Patches in Murkwater Cave located in the river going North from the lake in Limgrave."]
@@ -44,8 +42,7 @@ sections:
       - [7, "7. Nomad in Mountaintops of the Giants, near the Ancient Snow Valley Ruins Grace. "]
   -
     title: Armorer Cookbook
-    id: armorer_cookbooks
-    num: 3
+    id: 3
     items:
       - [1, "1. In camp north-east of North Agheel Lake Grace"]
       - [2, "2. Nomad by Coastal Cave in South-West Limgrave"]
@@ -56,16 +53,14 @@ sections:
       - [7, "7. Fort Laiedd in West Mt. Gelmir. West of Volcano Manor. "]
   -
     title: Fevor's Cookbook
-    id: fevors_cookbook
-    num: 4
+    id: 4
     items:
       - [1, "1. On a stone tomb south of Summonwater Village in North-East Limgrave"]
       - [2, "2. Nomad East of Raya Lucaria Main Gate Grace. Requires Glintstone Key gotten next to the Dragon West of Raya Lucaria."]
       - [3, "3. Reward from Gideon Ofnir for information on Mohgwyn Dynasty Medallion. Requires either Haligtree Medallion or finishing White-Faced Varre's Questline. "]
   -
     title: Glintstone Craftsman's Cookbook
-    id: glintstone_crafttsmans_cookbook
-    num: 5
+    id: 5
     items:
       - [1, "1. In outpost North-West of Church of Irith next to Lake-Facing Cliffs Grace"]
       - [2, "2. Lanskyar Ruins in South East Liurnia Lake"]
@@ -77,15 +72,13 @@ sections:
       - [8, "8. South-West of Albinaurics Rise in East Consecrated Snowfield. Requires Haligtree Medallion. "]
   -
     title: Frenzied Cookbook
-    id: frenzied_cookbook
-    num: 6
+    id: 6
     items:
       - [1, "1. Frenzied Flame Village in North-East Liurnia Lake"]
       - [2, "2. On the Path Down to the Frenzied Flame."]
   -
     title: Perfumer's Cookbook
-    id: perfumers_cookbook
-    num: 7
+    id: 7
     items:
       - [1, "1. Perfumer's Ruins, North-West of Abandoned Coffin Grace in Altus Plateau, found by going through the \"Cowards\" path past the Magma Wyrm. "]
       - [2, "2. Rooftops of Shaded Castle in North Altus Plateau"]
@@ -93,8 +86,7 @@ sections:
       - [4, "4. Nomad in South/Center Ainsel River"]
   -
     title: Ancient Dragon Apostle's Cookbook
-    id: ancient_dragon_cookbooks
-    num: 8
+    id: 8
     items:
       - [1, "1. Wyndham Catacombs in West Altus Plateau. South-East of Volcano Manor"]
       - [2, "2. Nomad just North of the Forest-Spanning Greatbridge Grace on the South side of the broken bridge in North/Central Altus Plateau. "]

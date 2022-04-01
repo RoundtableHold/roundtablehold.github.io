@@ -4,8 +4,7 @@ table_widths: [3, 9]
 sections:
   -
     title: "Limgrave"
-    id: limgrave_spirit_ashes
-    num: 2
+    id: 2
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes\">Banished Knight Engvall Ashes</a>", "Dropped by the Grave Warden Duelist boss in Murkwater Catacombs."]
@@ -19,8 +18,7 @@ sections:
       - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Wandering+Noble+Ashes\">Wandering Noble Ashes</a>", "Found on a corpse resting against a coffin, up a ladder and guarded by some Jade Goblins in the Stormfoot Catacombs."]
   -
     title: "Weeping Peninsula"
-    id: weeping_spirit_ashes
-    num: 1
+    id: 1
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Demi-Human Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
@@ -28,8 +26,7 @@ sections:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Dropped by the spirit artist at the northern tip of Weeping Peninsula, north of the Church of Pilgrimage. Requires the Prophecy Painting found in Stormveil Castle."]
   -
     title: Liurnia of the Lakes
-    id: liurnia_spirit_ashes
-    num: 3
+    id: 3
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Ashes\">Albinauric Ashes</a>", "Found on a corpse in the graveyard area east of Caria Manor."]
@@ -52,8 +49,7 @@ sections:
       - [18, "<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Sorcerer+Ashes\">Twinsage Sorcerer Ashes</a>", "Dropped by the Cemetery Shade boss in the Black Knife Catacombs."]
   -
     title: Caelid
-    id: caelid_spirit_ashes
-    num: 4
+    id: 4
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Hugues+Ashes\">Battlemage Hugues Ashes</a>", "Dropped by Battlemage Hugues in the Sellia Evergaol."]
@@ -67,8 +63,7 @@ sections:
       - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Stray+Ashes\">Rotten Stray Ashes</a>", "Found inside the broken ruins of a building near the swamp's edge, west of the town of Sellia and north of the Sellia Under-Stair site of grace."]
   -
     title: Altus Plateau
-    id: altus_spirit_ashes
-    num: 5
+    id: 5
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Giant+Rat+Ashes\">Giant Rat Ashes</a>", "Found in the middle of a stable filled with rats in West Windmill Pasture."]
@@ -76,8 +71,7 @@ sections:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Winged+Misbegotten+Ashes\">Winged Misbegotten Ashes</a>", "Found on a corpse in a pit surrounded by Misbegotten, near the end of the Unsightly Catacombs."]
   -
     title: Mt. Gelmir
-    id: gelmir_spirit_ashes
-    num: 6
+    id: 6
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Floh\">Bloodhound Knight Floh</a>", "Found in the chest after the boss in Gelmir Hero's Grave."]
@@ -86,8 +80,7 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Tricia+Ashes\">Perfumer Tricia Ashes</a>", "Dropped by the Perfumer Tricia and Misbegotten Warrior bosses in the Unsightly Catacombs."]
   -
     title: Leyndell, Eternal City
-    id: leyndell_spirit_ashes
-    num: 7
+    id: 7
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes\">Ancient Dragon Knight Kristoff Ashes</a>", "Dropped by the Ancient Hero of Zamor boss in Sainted Hero’s Grave."]
@@ -97,15 +90,13 @@ sections:
       - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Ashes\">Vulgar Militia Ashes</a>", "Found on a corpse at the bottom of the section with the wooden beams, guarded by a group of basilisks in Auriza Hero's Grave."]
   -
     title: Mountaintops of the Giants
-    id: mountaintops_spirit_ashes
-    num: 8
+    id: 8
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Ashes\">Fire Monk Ashes</a>", "Found in a chest below the first lift and past the second frost trap in the Giants' Mountaintop Catacombs."]
   -
     title: Consecrated Snowfield
-    id: snowfield_spirit_ashes
-    num: 9
+    id: 9
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Amon+Ashes\">Blackflame Monk Amon Ashes</a>", "Dropped by the Stray Mimic Tear boss in the Hidden Path to the Haligtree."]
@@ -114,45 +105,39 @@ sections:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Oracle+Envoy+Ashes\">Oracle Envoy Ashes</a>", "Found on a branch out to the right, past a big Oracle Envoy that shoots down at you, near the start of Miquella's Haligtree."]
   -
     title: Crumbling Farum Azula
-    id: azula_spirit_ashes
-    num: 10
+    id: 10
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes\">Azula Beastman Ashes</a>", "Found on a corpse laying on top of a stone coffin below the Dragon Temple site of grace."]
   -
     title: Siofra River
-    id: siofra_spirit_ashes
-    num: 11
+    id: 11
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Ancestral+Follower+Ashes\">Ancestral Follower Ashes</a>", "Dropped by the Ancestor Spirit boss in Hallowhorn Grounds."]
   -
     title: Nokron, Eternal City
-    id: nokron_spirit_ashes
-    num: 12
+    id: 12
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatshield+Soldier+Ashes\">Greatshield Soldier Ashes</a>", "Found on a corpse in a graveyard guarded by a Fallen Hawks Soldier."]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes\">Mimic Tear Ashes</a>", "Found in a chest locked behind an imp statue door in Night's Sacred Ground."]
   -
     title: Ainsel River
-    id: ainsel_spirit_ashes
-    num: 13
+    id: 13
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Clayman+Ashes\">Clayman Ashes</a>", "Found on a corpse south of the Uhl Palace Ruins, somewhat near where the sending gate in Renna's Rise puts you."]
   -
     title: Nokstella, Eternal City
-    id: nokstella_spirit_ashes
-    num: 14
+    id: 14
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Archer+Ashes\">Archer Ashes</a>", "Found on a corpse tucked behind a building, to the left after going up the stairs with the exploding Silver Tears."]
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets\">Nightmaiden & Swordstress Puppets</a>", "Found in a chest locked behind an imp statue door, protected by two Swordstresses."]
   -
     title: Deeproot Depths
-    id: deeproot_spirit_ashes
-    num: 15
+    id: 15
     table: ["Name", "Location"]
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Ashes\">Mausoleum Soldier Ashes</a>", "Found at the base of a small dead tree at the very edge of the cliff to the north of the Walking Mausoleum."]

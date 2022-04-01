@@ -4,8 +4,7 @@ table_widths: [2, 2, 8]
 sections:
   -
     title: "Whetstones"
-    id: "whetstones_section"
-    num: 0
+    id: 0
     table: ["Effect", "Location", "Notes"]
     items:
       - [1, "Whetstone Knife", "Limgrave", "Found in a treasure chest underground in the Gatefront Ruins", "Can add new battle arts and affinities to weapons"]

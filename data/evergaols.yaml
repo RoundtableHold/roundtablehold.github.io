@@ -4,23 +4,20 @@ table_widths: [2, 3, 3, 4]
 sections:
   -
     title: "Limgrave"
-    id: "evergaols_limgrave"
-    num: 1
+    id: 1
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Forlorn Hound Evergaol", "South of Agheel Lake", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
       - [2, "Stormhill Evergaol", "Southwest of Stormgate", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
   -
     title: "Weeping Peninsula"
-    id: "evergaols_weeping_peninsula"
-    num: 0
+    id: 0
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Weeping Evergaol", "East of the Fourth Church of Marika", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
   -
     title: "Liurnia of the Lakes"
-    id: "evergaols_liurniaofthe_lakes"
-    num: 2
+    id: 2
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Cuckoo's Evergaol", "North of the minor erdtree in west liurnia", "Bols, Carian Knight", "Greatblade Phalanx (Sorcery)"]
@@ -29,22 +26,19 @@ sections:
       - [4, "Ringleader's Evergaol", "West of the Moonfolk Ruins", "Alecto, Black Knife Ringleader", "Black Knife Tiche (Ashen Remains)"]
   -
     title: "Caelid"
-    id: "evergaols_caelid"
-    num: 3
+    id: 3
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Sellia Evergaol", "Southwest of the Sellia Crystal Tunnels", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
   -
     title: "Atlus Plateau"
-    id: "evergaols_atlus_plateau"
-    num: 4
+    id: 4
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Golden Lineage Evergaol", "East of the Grand Lift of Dectus", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
   -
     title: "Mountaintop of Giants"
-    id: "evergaols_mountaintopof_giants"
-    num: 5
+    id: 5
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
       - [1, "Lord Contender's Evergaol", "West of the First Church of Marika ", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]

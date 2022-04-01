@@ -4,8 +4,7 @@ table_widths: [2, 1, 3, 4, 2]
 sections:
   -
     title: "Legacy Dungeons"
-    id: legacy_dungeons_legacy
-    num: 1
+    id: 1
     table: [Name, Type, Location, Bosses, Notes]
     items:
       - [1, "Castle Morne", "Minor", "Weeping Peninsula (South)", "Leonine Misbegotten", "Related to Irina's questline."]

@@ -1,4 +1,5 @@
 from math import ceil, floor
+from itertools import permutations
 import os
 from turtle import onclick
 import yaml
@@ -21,8 +22,10 @@ def to_snake_case(name):
 
 dropdowns = []
 pages = []
+item_links = []
 with open('pages.yaml', 'r', encoding='utf-8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
+    item_links = yml['item_links']
     for dropdown in yml['dropdowns']:
         dropdown_ids = []
         for page in dropdown['pages']:
@@ -33,7 +36,6 @@ with open('pages.yaml', 'r', encoding='utf-8') as pages_yaml:
         dropdowns.append((dropdown['name'], dropdown_ids))
 
 page_ids = set()
-section_ids = set()
 for page in pages:
     if page['id'] in page_ids:
         print("Duplicate page id '" + page['id'] + "' found. All page ids must be unique.")
@@ -41,25 +43,20 @@ for page in pages:
     else:
         page_ids.add(page['id'])
 
-    section_nums = set()
+    section_ids = set()
     for section in page['sections']:
         if section['id'] in section_ids:
-            print("Duplicate section id '" + section['id'] + "' found in page '" + page['id'] + "'. All section ids must be unique.")
+            print("Duplicate section id '" + str(section['id']) + "' found in page '" + page['id'] + "'. All section nums must be unique.")
             quit(1)
         else:
             section_ids.add(section['id'])
-        if section['num'] in section_nums:
-            print("Duplicate section num '" + str(section['num']) + "' found in page '" + page['id'] + "'. All section nums must be unique.")
-            quit(1)
-        else:
-            section_nums.add(section['num'])
         item_nums = set()
         items = peekable(section['items'])
         for item in items:
             if not isinstance(item, list):
                 continue
             if item[0] in item_nums:
-                print("Duplicate item num '" + str(item[0]) + "' in section '" + section['id'] + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
+                print("Duplicate item num '" + str(item[0]) + "' in section '" + page['id'] + '_' + str(section['id']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                 quit(1)
             else:
                 item_nums.add(item[0])
@@ -68,15 +65,13 @@ for page in pages:
                 item = next(items)
                 for subitem in item:
                     if subitem[0] in sub_item_nums:
-                        print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + section['id'] + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
+                        print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + page['id'] + '_' + str(section['id']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                         quit(1)
                     else:
                         sub_item_nums.add(subitem[0])
 
-
-
 with doc.head:
-    meta(charset="utf-8")
+    meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="shortcut icon", type="image/x-icon", href="img/favicon.ico?")
     link(rel="apple-touch-icon-precomposed", href="img/favicon-152.png")
@@ -134,24 +129,24 @@ with doc:
                         with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                             for section in page['sections']:
                                 with li():
-                                    a(section['title'], href="#" + section['id'])
-                                    span(id=page['id']  + "_nav_totals_" + str(section['num']))
+                                    a(section['title'], href="#" + page['id'] + '_'  + str(section['id']))
+                                    span(id=page['id']  + "_nav_totals_" + str(section['id']))
 
                     with div(cls="input-group"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
                     with div(id=page['id']+"_list"):
                         for section in page['sections']:
-                            with h4(id=section['id'], cls="mt-1"):
-                                with a(href="#" + section['id'] + "_col", data_bs_toggle="collapse", data_bs_target="#" + section['id'] + "_col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
+                            with h4(id=page['id'] + '_' + str(section['id']), cls="mt-1"):
+                                with a(href="#" + page['id'] + '_' + str(section['id']) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(section['id']) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
                                     i(cls='bi bi-chevron-up')
                                 if 'link' in section:
                                     a(section['title'], href=section['link'])
                                 else:
                                     span(section['title'])
-                                span(id=page['id'] + "_totals_" + str(section['num']), cls="mt-0 badge rounded-pill")
+                                span(id=page['id'] + "_totals_" + str(section['id']), cls="mt-0 badge rounded-pill")
                             if 'table' in section:
-                                with div(id=section['id'] + "_col", cls="collapse show row", aria_expanded="true"):
+                                with div(id=page['id'] + '_' + str(section['id']) + "Col", cls="collapse show row", aria_expanded="true"):
                                     if isinstance(section['table'], list):
                                         table_cols = len(section['table'])
                                         size = floor(12 / table_cols)
@@ -176,14 +171,14 @@ with doc:
                                                         div(cls="col-md-" + col_size).add(strong(header))
                                         for item in items:
                                             id = str(item[0])
-                                            with li(cls="list-group-item", data_id=page['id'] + '_' + str(section['num']) + '_' + id):
+                                            with li(cls="list-group-item", data_id=page['id'] + '_' + str(section['id']) + '_' + id):
                                                 if not isinstance(item, list):
                                                     h5(item)
                                                     continue
                                                 with div(cls="row form-check checkbox"):
                                                     with div(cls="col-auto"):
                                                         input_(cls="form-check-input", type="checkbox", value="",
-                                                                id=page['id'] + '_' + str(section['num']) + '_' + id)
+                                                                id=page['id'] + '_' + str(section['id']) + '_' + id)
                                                     with div(cls="col").add(div(cls="row")):
                                                         for pos in range(1, 1+table_cols):
                                                             if 'table_widths' in page:
@@ -191,13 +186,13 @@ with doc:
                                                             else:
                                                                 col_size = str(size)
                                                             with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
-                                                                with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + str(section['num']) + '_' + id):
+                                                                with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + str(section['id']) + '_' + id):
                                                                     if isinstance(section['table'], list) and item[pos]:
                                                                         strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
                                                                     if item[pos]:
                                                                         raw(item[pos])
                             else:
-                                with div(id=section['id'] + "_col", cls="collapse show", aria_expanded="true"):
+                                with div(id=page['id'] + '_' + str(section['id']) + "Col", cls="collapse show", aria_expanded="true"):
                                     items = peekable(section['items'])
                                     if not isinstance(items.peek(), list):
                                         item = next(items)
@@ -209,18 +204,18 @@ with doc:
                                             u = ul(cls="list-group-flush")
                                             continue
                                         id = str(item[0])
-                                        with u.add(li(data_id=page['id'] + "_" + str(section['num']) + "_" + id, cls="list-group-item")):
+                                        with u.add(li(data_id=page['id'] + "_" + str(section['id']) + "_" + id, cls="list-group-item")):
                                             with div(cls="form-check checkbox"):
-                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id)
-                                                label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id).add(raw(item[1]))
+                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['id']) + '_' + id)
+                                                label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['id']) + '_' + id).add(raw(item[1]))
                                         if isinstance(items.peek([0])[0], list):
                                             item = next(items)
                                             with u.add(ul(cls="list-group-flush")):
                                                 for subitem in item:
-                                                    with li(data_id=page['id'] + "_" + str(section['num']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
+                                                    with li(data_id=page['id'] + "_" + str(section['id']) + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
                                                         with div(cls="form-check checkbox"):
-                                                            input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0]))
-                                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['num']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
+                                                            input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + str(section['id']) + '_' + id + '_' + str(subitem[0]))
+                                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + str(section['id']) + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
             with div(cls="tab-pane fade", id="tabMain"):
                 raw(
 """
@@ -315,6 +310,7 @@ with doc:
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
     script(src="js/search.js")
+    script(src="js/item_links.js")
     raw("""
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -327,10 +323,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf-8') as index:
+with open('index.html', 'w', encoding='UTF-8') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='UTF-8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -352,3 +348,19 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='utf-8') as jsfile:
         ])
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
+
+with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+    links_f.writelines([
+        '(function($) {\n',
+        "  'use strict';\n",
+        '  $(function() {\n',
+    ])
+    for link in item_links:
+        links_f.write('    $("#' + link[0] + '").click(function () {\n')
+        links_f.write('      var checked = $(this).prop("checked");\n')
+        for target in link[1:]:
+            links_f.write('      $("#' + target + '").prop("checked", checked);\n')
+            links_f.write('      window.onCheckbox("#' + target + '");\n')
+        links_f.write('    });\n')
+    links_f.write('  });\n')
+    links_f.write('})( jQuery );\n')
