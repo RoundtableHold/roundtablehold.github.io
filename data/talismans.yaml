@@ -202,37 +202,37 @@ sections:
     - [2, "Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
     - [3, "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
   -
-    title: "Deeproot Depths"
-    id: "talismans_deeproot"
-    num: 15
-    table: ["Name", "Location", "Effect(s)"]
-    items:
-    - [1, "Prince of Death's Cyst", " Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]
-  -
     title: "Mohgwyn Palace"
     id: "talismans_mp"
-    num: 16
+    num: 15
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Haligdrake Talisman +2", "Found on a corpse in Mohgwyn Palace, in a small cluster of graves near a watchful Giant Crow perched up high", "Boosts holy damage negation by 20%."]
   -
     title: "Ainsel River"
     id: "talismans_ar"
-    num: 17
+    num: 16
     table: ["Name", "Location", "Effect(s)"]
     items:
     - [1, "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
   -
     title: "Nokstella, Eternal City"
     id: "talismans_nokstella"
-    num: 18
+    num: 17
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Moon of Nokstella", "Found in a chest underneath a massive throne in Nokstella, Eternal City", "Increases memory slots by 2."]
   -
     title: "Lake of Rot"
     id: "talismans_lr"
-    num: 19
+    num: 18
     table: ["Name", "Location", "Effect(s)"]
     items:
       - [1, "Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity by 140."]
+  -  
+    title: "Deeproot Depths"
+    id: "talismans_deeproot"
+    num: 19
+    table: ["Name", "Location", "Effect(s)"]
+    items:
+    - [1, "Prince of Death's Cyst", " Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]
