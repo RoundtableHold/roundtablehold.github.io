@@ -58,125 +58,247 @@ dropdowns:
 # page[id]_section[num]_item[0]
 # So for instance, The Soldier of Godrick is bosses_2_1
 item_links: 
-  - [bosses_2_1, caves_1_1]
-  - [caves_1_1, bosses_2_1]
-  - [npc_quests_15_2, npc_quests_14_1, npc_quests_14_2, npc_quests_14_3] #Step 2 of Latenna's questline requires completing Albus's.
-  - [npc_quests_31_14, npc_quests_15_1, npc_quests_15_2, npc_quests_15_3, npc_quests_15_4] #Step 14 of Millicent's questline requires advancing Latenna's.
-  - [npc_quests_22_3, npc_quests_23_4] #Taking the Weathered Dagger from Fia and giving it to D.
-  - [npc_quests_23_4, npc_quests_22_3] # ^ reversible
-  - [npc_quests_22_4, npc_quests_23_5] #D's murder by Fia.
-  - [npc_quests_23_5, npc_quests_22_4] # ^ reversible
-  - [npc_quests_24_2_2, npc_quests_22_8] #Fia's murder by D's twin.
-  - [npc_quests_33_3, npc_quests_34_5] #Diallos arriving in Jarburg
-  - [npc_quests_33_4, npc_quests_34_6] #Diallos dying in Jarburg
-  - [npc_quests_33_5, npc_quests_32_8] #The last step of Jar-Bairn's questline requires the last step of Alexander's.
-  - [npc_quests_17_7, npc_quests_1_3] #Nepheli's questline includes a step by which Roderika must be a Spirit Tuner.
-  - [npc_quests_17_9, npc_quests_30_1, npc_quests_30_2, npc_quests_30_3, npc_quests_30_4] #Nepheli's questline eventually requires progress in Kenneth's.
-  - [npc_quests_22_2, npc_quests_21_4, npc_quests_21_5] #Fia and Rogier's intersection
+  - source: bosses_2_1
+    target: caves_1_1
+  - source: caves_1_1
+    target: bosses_2_1
+  - source: playthrough_1_2
+    target: [npc_quests_3_1, npc_quests_32_1]
+  - source: playthrough_1_3
+    target: npc_quests_3_2
+  - source: npc_quests_15_2
+    target: [npc_quests_14_1, npc_quests_14_2, npc_quests_14_3] #Step 2 of Latenna's questline requires completing Albus's.
+  - source: npc_quests_31_14
+    target: [npc_quests_15_1, npc_quests_15_2, npc_quests_15_3, npc_quests_15_4] #Step 14 of Millicent's questline requires advancing Latenna's.
+  - source: npc_quests_22_3
+    target: npc_quests_23_4 #Taking the Weathered Dagger from Fia and giving it to D.
+  - source: npc_quests_23_4
+    target: npc_quests_22_3 # ^ reversible
+  - source: npc_quests_22_4
+    target: npc_quests_23_5 #D's murder by Fia.
+  - source: npc_quests_23_5
+    target: npc_quests_22_4 # ^ reversible
+  - source: npc_quests_24_2_2
+    target: npc_quests_22_8 #Fia's murder by D's twin.
+  - source: npc_quests_33_3
+    target: npc_quests_34_5 #Diallos arriving in Jarburg
+  - source: npc_quests_33_4
+    target: npc_quests_34_6 #Diallos dying in Jarburg
+  - source: npc_quests_33_5
+    target: npc_quests_32_8 #The last step of Jar-Bairn's questline requires the last step of Alexander's.
+  - source: npc_quests_17_7
+    target: npc_quests_1_3 #Nepheli's questline includes a step by which Roderika must be a Spirit Tuner.
+  - source: npc_quests_17_9
+    target: [npc_quests_30_1, npc_quests_30_2, npc_quests_30_3, npc_quests_30_4] #Nepheli's questline eventually requires progress in Kenneth's.
+  - source: npc_quests_22_2
+    target: [npc_quests_21_4, npc_quests_21_5] #Fia and Rogier's intersection
   #Bosses and talismans linking
-  - [bosses_2_5, talismans_2_2] #stonedigger troll drops roar medallion
-  - [talismans_2_2, bosses_2_5] # ^ reversible 
-  - [bosses_2_4, talismans_2_3] #beastman of farum azula drops Flamedrake talisman
-  - [talismans_2_3, bosses_2_4] # ^ reversible
-  - [bosses_2_9, talismans_2_13] #guardian golem drops blue dancer charm
-  - [talismans_2_13, bosses_2_9] # ^ reversible
-  - [bosses_2_21, talismans_2_17] #deathbird near warmaster's shack drops blue-feathered branchsword
-  - [talismans_2_17, bosses_2_21] # ^ reversible
-  - [bosses_2_10, talismans_2_18] # black knife assassin in deathtouched catacombs drops assassin's crimson dagger
-  - [talismans_2_18, bosses_2_10] # ^ reversible
-  - [bosses_1_10, talismans_1_6] #ancient hero of zamor in weeping evergaol drops radagon's scarseal
-  - [talismans_1_6, bosses_1_10] # ^ reversible
-  - [bosses_4_17, talismans_4_1] #black knife assassin in black knife catacombs drops assassin's cerulean dagger
-  - [talismans_4_1, bosses_4_17] # ^ reversible
-  - [bosses_4_37, talismans_4_6] #bloodhound knife in lakeside crystal cave drops cerulean amber medallion
-  - [bosses_4_1, talismans_4_10] #cleanrot knight in stillwater cave drops winged sword talisman
-  - [bosses_4_8, talismans_4_13] #deathbird at scenic isle drops red-feathered branchsword
-  - [bosses_4_26, talismans_4_17] #omenkiller in village of albinaurics drops crucible knot talisman
-  - [talismans_4_6, bosses_4_37] # reversible
-  - [talismans_4_10, bosses_4_1] # reversible
-  - [talismans_4_13, bosses_4_8] # reversible
-  - [talismans_4_17, bosses_4_26] # reversible
-  - [bosses_5_14, talismans_5_2] #cleanrot knight sickle and spear drops gold scarab
-  - [bosses_5_21, talismans_5_7] #beastman of farum azula greatsword and throwing knife drops flamedrake talisman +2
-  - [bosses_6_1, talismans_6_5] #godefroy the grafted drops godgrey icon
-  - [bosses_7_4, talismans_6_10] #black knife assassin in sage's cave drops concealing veil
-  - [bosses_7_13, talismans_7_5] #kindred of rot in seethewater cave drops kindred of rot's exultation
-  - [bosses_8_3, talismans_8_1] #margit the fell omen outside of leyndell drops viridian amber medallion +1    
-  - [talismans_5_2, bosses_5_14] # reversible
-  - [talismans_5_7, bosses_5_21] # reversible
-  - [talismans_6_5, bosses_6_1] # reversible
-  - [talismans_6_10, bosses_7_4] # reversible
-  - [talismans_7_5, bosses_7_13] # reversible
-  - [talismans_8_1, bosses_8_3] # reversible
+  - source: bosses_2_5
+    target: talismans_2_2 #stonedigger troll drops roar medallion
+  - source: talismans_2_2
+    target: bosses_2_5 # ^ reversible 
+  - source: bosses_2_4
+    target: talismans_2_3 #beastman of farum azula drops Flamedrake talisman
+  - source: talismans_2_3
+    target: bosses_2_4 # ^ reversible
+  - source: bosses_2_9
+    target: talismans_2_13 #guardian golem drops blue dancer charm
+  - source: talismans_2_13
+    target: bosses_2_9 # ^ reversible
+  - source: bosses_2_21
+    target: talismans_2_17 #deathbird near warmaster's shack drops blue-feathered branchsword
+  - source: talismans_2_17
+    target: bosses_2_21 # ^ reversible
+  - source: bosses_2_10
+    target: talismans_2_18 # black knife assassin in deathtouched catacombs drops assassin's crimson dagger
+  - source: talismans_2_18
+    target: bosses_2_10 # ^ reversible
+  - source: bosses_1_10
+    target: talismans_1_6 #ancient hero of zamor in weeping evergaol drops radagon's scarseal
+  - source: talismans_1_6
+    target: bosses_1_10 # ^ reversible
+  - source: bosses_4_17
+    target: talismans_4_1 #black knife assassin in black knife catacombs drops assassin's cerulean dagger
+  - source: talismans_4_1
+    target: bosses_4_17 # ^ reversible
+  - source: bosses_4_37
+    target: talismans_4_6 #bloodhound knife in lakeside crystal cave drops cerulean amber medallion
+  - source: bosses_4_1
+    target: talismans_4_10 #cleanrot knight in stillwater cave drops winged sword talisman
+  - source: bosses_4_8
+    target: talismans_4_13 #deathbird at scenic isle drops red-feathered branchsword
+  - source: bosses_4_26
+    target: talismans_4_17 #omenkiller in village of albinaurics drops crucible knot talisman
+  - source: talismans_4_6
+    target: bosses_4_37 # reversible
+  - source: talismans_4_10
+    target: bosses_4_1 # reversible
+  - source: talismans_4_13
+    target: bosses_4_8 # reversible
+  - source: talismans_4_17
+    target: bosses_4_26 # reversible
+  - source: bosses_5_14
+    target: talismans_5_2 #cleanrot knight sickle and spear drops gold scarab
+  - source: bosses_5_21
+    target: talismans_5_7 #beastman of farum azula greatsword and throwing knife drops flamedrake talisman +2
+  - source: bosses_6_1
+    target: talismans_6_5 #godefroy the grafted drops godgrey icon
+  - source: bosses_7_4
+    target: talismans_6_10 #black knife assassin in sage's cave drops concealing veil
+  - source: bosses_7_13
+    target: talismans_7_5 #kindred of rot in seethewater cave drops kindred of rot's exultation
+  - source: bosses_8_3
+    target: talismans_8_1 #margit the fell omen outside of leyndell drops viridian amber medallion +1    
+  - source: talismans_5_2
+    target: bosses_5_14 # reversible
+  - source: talismans_5_7
+    target: bosses_5_21 # reversible
+  - source: talismans_6_5
+    target: bosses_6_1 # reversible
+  - source: talismans_6_10
+    target: bosses_7_4 # reversible
+  - source: talismans_7_5
+    target: bosses_7_13 # reversible
+  - source: talismans_8_1
+    target: bosses_8_3 # reversible
 #Bosses and Achievements linking
-  - [achievements_2_1, bosses_2_28] #margit
-  - [achievements_2_2, bosses_1_11] #leonine
-  - [achievements_2_3, bosses_4_35] #red wolf of radagon
-  - [achievements_2_4, bosses_4_36, great_runes_1_2] #rennala
-  - [achievements_2_5, bosses_4_27] #royal knight loretta
-  - [achievements_2_6, bosses_4_33] #magma wyrm makar
-  - [achievements_2_7, bosses_13_2] #ancestor spirit
-  - [achievements_2_8, bosses_14_1] #mimic tear
-  - [achievements_2_9, bosses_8_17] #godfrey
-  - [achievements_2_10, bosses_16_1] #dragonkin soldier of nokstella
-  - [achievements_2_11, bosses_17_2] #astel 
-  - [achievements_2_12, bosses_14_2] #regal ancestor spirit
-  - [achievements_2_13, bosses_14_3] #valiant gargoyle
-  - [achievements_2_14, bosses_7_8] #elemer
-  - [achievements_2_15, bosses_7_23] #godskin noble
-  - [achievements_2_16, bosses_9_9] #commander niall
-  - [achievements_2_17, bosses_9_15] #fire giant
-  - [achievements_2_18, bosses_11_2] #godskin duo
-  - [achievements_2_19, bosses_10_10] #loretta knight of the haligtree
-  - [achievements_2_20, bosses_11_6] #maliketh
-  - [achievements_2_21, bosses_12_2] #Hoarah loux
-  - [achievements_2_22, bosses_8_16] #mohg the omen
-  - [achievements_2_23, bosses_11_5] #dragonlord placidusax
-  - [achievements_2_24, bosses_18_4] #lichdragon fortissax
-  - [achievements_1_1, bosses_2_29, great_runes_1_1] #godrick
-  - [achievements_1_2, bosses_5_27, great_runes_1_3] #radahn
-  - [achievements_1_3, bosses_8_18, great_runes_1_4] #morgott
-  - [achievements_1_4, bosses_7_26, great_runes_1_5] #rykard
-  - [achievements_1_5, bosses_15_3, great_runes_1_7] #mohg lord of blood
-  - [achievements_1_6, bosses_10_11, great_runes_1_6] #malenia
-  - [bosses_2_28, achievements_2_1] # reversible
-  - [bosses_1_11, achievements_2_2] # reversible
-  - [bosses_4_35, achievements_2_3] # reversible
-  - [bosses_4_36, achievements_2_4, great_runes_1_2] # renalla reversible
-  - [bosses_4_27, achievements_2_5] # reversible
-  - [bosses_4_33, achievements_2_6] # reversible
-  - [bosses_13_2, achievements_2_7] # reversible
-  - [bosses_14_1, achievements_2_8] # reversible
-  - [bosses_8_17, achievements_2_9] # reversible
-  - [bosses_16_1, achievements_2_10] # reversible
-  - [bosses_17_2, achievements_2_11] # reversible
-  - [bosses_14_2, achievements_2_12] # reversible
-  - [bosses_14_3, achievements_2_13] # reversible
-  - [bosses_7_8, achievements_2_14] # reversible
-  - [bosses_7_23, achievements_2_15] # reversible
-  - [bosses_9_9, achievements_2_16] # reversible
-  - [bosses_9_15, achievements_2_17] # reversible
-  - [bosses_11_2, achievements_2_18] # reversible
-  - [bosses_10_10, achievements_2_19] # reversible
-  - [bosses_11_6, achievements_2_20] # reversible
-  - [bosses_12_2, achievements_2_21] # reversible
-  - [bosses_8_16, achievements_2_22] # reversible
-  - [bosses_11_5, achievements_2_23] # reversible
-  - [bosses_18_4, achievements_2_24] # reversible
-  - [bosses_2_29, achievements_1_1, great_runes_1_1] # godrick reversible
-  - [bosses_5_27, achievements_1_2, great_runes_1_3] # radahn reversible
-  - [bosses_8_18, achievements_1_3, great_runes_1_4] # morgott reversible
-  - [bosses_7_26, achievements_1_4, great_runes_1_5] # rykard reversible
-  - [bosses_15_3, achievements_1_5, great_runes_1_7] # mohg lord of blood reversible
-  - [bosses_10_11, achievements_1_6, great_runes_1_6] # malenia reversible
-  - [great_runes_1_1, bosses_2_29, achievements_1_1] # godrick reversible
-  - [great_runes_1_2, bosses_4_36, achievements_2_4] # renalla reversible
-  - [great_runes_1_3, bosses_5_27, achievements_1_2] # radahn reversible
-  - [great_runes_1_4, bosses_8_18, achievements_1_3] # morgott reversible
-  - [great_runes_1_5, bosses_7_26, achievements_1_4] # rykard reversible
-  - [great_runes_1_6, bosses_10_11, achievements_1_6] # malenia reversible
-  - [great_runes_1_7, bosses_15_3, achievements_1_5] # mohg lord of blood reversible
+  - source: achievements_2_1
+    target: bosses_2_28 #margit
+  - source: achievements_2_2
+    target: bosses_1_11 #leonine
+  - source: achievements_2_3
+    target: bosses_4_35 #red wolf of radagon
+  - source: achievements_2_4
+    target: [bosses_4_36, great_runes_1_2] #rennala
+  - source: achievements_2_5
+    target: bosses_4_27 #royal knight loretta
+  - source: achievements_2_6
+    target: bosses_4_33 #magma wyrm makar
+  - source: achievements_2_7
+    target: bosses_13_2 #ancestor spirit
+  - source: achievements_2_8
+    target: bosses_14_1 #mimic tear
+  - source: achievements_2_9
+    target: bosses_8_17 #godfrey
+  - source: achievements_2_10
+    target: bosses_16_1 #dragonkin soldier of nokstella
+  - source: achievements_2_11
+    target: bosses_17_2 #astel 
+  - source: achievements_2_12
+    target: bosses_14_2 #regal ancestor spirit
+  - source: achievements_2_13
+    target: bosses_14_3 #valiant gargoyle
+  - source: achievements_2_14
+    target: bosses_7_8 #elemer
+  - source: achievements_2_15
+    target: bosses_7_23 #godskin noble
+  - source: achievements_2_16
+    target: bosses_9_9 #commander niall
+  - source: achievements_2_17
+    target: bosses_9_15 #fire giant
+  - source: achievements_2_18
+    target: bosses_11_2 #godskin duo
+  - source: achievements_2_19
+    target: bosses_10_10 #loretta knight of the haligtree
+  - source: achievements_2_20
+    target: bosses_11_6 #maliketh
+  - source: achievements_2_21
+    target: bosses_12_2 #Hoarah loux
+  - source: achievements_2_22
+    target: bosses_8_16 #mohg the omen
+  - source: achievements_2_23
+    target: bosses_11_5 #dragonlord placidusax
+  - source: achievements_2_24
+    target: bosses_18_4 #lichdragon fortissax
+  - source: achievements_1_1
+    target: [bosses_2_29, great_runes_1_1] #godrick
+  - source: achievements_1_2
+    target: [bosses_5_27, great_runes_1_3] #radahn
+  - source: achievements_1_3
+    target: [bosses_8_18, great_runes_1_4] #morgott
+  - source: achievements_1_4
+    target: [bosses_7_26, great_runes_1_5] #rykard
+  - source: achievements_1_5
+    target: [bosses_15_3, great_runes_1_7] #mohg lord of blood
+  - source: achievements_1_6
+    target: [bosses_10_11, great_runes_1_6] #malenia
+  - source: bosses_2_28
+    target: achievements_2_1 # reversible
+  - source: bosses_1_11
+    target: achievements_2_2 # reversible
+  - source: bosses_4_35
+    target: achievements_2_3 # reversible
+  - source: bosses_4_36
+    target: [achievements_2_4, great_runes_1_2] # renalla reversible
+  - source: bosses_4_27
+    target: achievements_2_5 # reversible
+  - source: bosses_4_33
+    target: achievements_2_6 # reversible
+  - source: bosses_13_2
+    target: achievements_2_7 # reversible
+  - source: bosses_14_1
+    target: achievements_2_8 # reversible
+  - source: bosses_8_17
+    target: achievements_2_9 # reversible
+  - source: bosses_16_1
+    target: achievements_2_10 # reversible
+  - source: bosses_17_2
+    target: achievements_2_11 # reversible
+  - source: bosses_14_2
+    target: achievements_2_12 # reversible
+  - source: bosses_14_3
+    target: achievements_2_13 # reversible
+  - source: bosses_7_8
+    target: achievements_2_14 # reversible
+  - source: bosses_7_23
+    target: achievements_2_15 # reversible
+  - source: bosses_9_9
+    target: achievements_2_16 # reversible
+  - source: bosses_9_15
+    target: achievements_2_17 # reversible
+  - source: bosses_11_2
+    target: achievements_2_18 # reversible
+  - source: bosses_10_10
+    target: achievements_2_19 # reversible
+  - source: bosses_11_6
+    target: achievements_2_20 # reversible
+  - source: bosses_12_2
+    target: achievements_2_21 # reversible
+  - source: bosses_8_16
+    target: achievements_2_22 # reversible
+  - source: bosses_11_5
+    target: achievements_2_23 # reversible
+  - source: bosses_18_4
+    target: achievements_2_24 # reversible
+  - source: bosses_2_29
+    target: [achievements_1_1, great_runes_1_1] # godrick reversible
+  - source: bosses_5_27
+    target: [achievements_1_2, great_runes_1_3] # radahn reversible
+  - source: bosses_8_18
+    target: [achievements_1_3, great_runes_1_4] # morgott reversible
+  - source: bosses_7_26
+    target: [achievements_1_4, great_runes_1_5] # rykard reversible
+  - source: bosses_15_3
+    target: [achievements_1_5, great_runes_1_7] # mohg lord of blood reversible
+  - source: bosses_10_11
+    target: [achievements_1_6, great_runes_1_6] # malenia reversible
+  - source: great_runes_1_1
+    target: [bosses_2_29, achievements_1_1] # godrick reversible
+  - source: great_runes_1_2
+    target: [bosses_4_36, achievements_2_4] # renalla reversible
+  - source: great_runes_1_3
+    target: [bosses_5_27, achievements_1_2] # radahn reversible
+  - source: great_runes_1_4
+    target: [bosses_8_18, achievements_1_3] # morgott reversible
+  - source: great_runes_1_5
+    target: [bosses_7_26, achievements_1_4] # rykard reversible
+  - source: great_runes_1_6
+    target: [bosses_10_11, achievements_1_6] # malenia reversible
+  - source: great_runes_1_7
+    target: [bosses_15_3, achievements_1_5] # mohg lord of blood reversible
 
   # Misc Achievements
-  - [achievements_3_5, incantations_6_2, incantations_3_9, incantations_5_8, sorceries_12_3, sorceries_5_3, sorceries_9_4, sorceries_8_8, legendaries_4_1, legendaries_4_2, legendaries_4_3, legendaries_4_4, legendaries_5_1, legendaries_5_2, legendaries_5_3] #legendary sorceries and incantations
-  - [achievements_3_6, talismans_4_4, talismans_5_5, talismans_6_5, talismans_17_1, talismans_10_8, talismans_10_4, talismans_11_3, talismans_12_2, legendaries_2_1, legendaries_2_2, legendaries_2_3, legendaries_2_4, legendaries_2_5, legendaries_2_6, legendaries_2_7, legendaries_2_8] #legendary talismans
+  - source: achievements_3_5
+    target: [incantations_6_2, incantations_3_9, incantations_5_8, sorceries_12_3, sorceries_5_3, sorceries_9_4, sorceries_8_8, legendaries_4_1, legendaries_4_2, legendaries_4_3, legendaries_4_4, legendaries_5_1, legendaries_5_2, legendaries_5_3] #legendary sorceries and incantations
+  - source: achievements_3_6
+    target: [talismans_4_4, talismans_5_5, talismans_6_5, talismans_17_1, talismans_10_8, talismans_10_4, talismans_11_3, talismans_12_2, legendaries_2_1, legendaries_2_2, legendaries_2_3, legendaries_2_4, legendaries_2_5, legendaries_2_6, legendaries_2_7, legendaries_2_8] #legendary talismans
