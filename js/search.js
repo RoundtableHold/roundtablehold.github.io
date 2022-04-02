@@ -59,6 +59,9 @@
     searchTag: "#paintings_search",
     contentTag: "#paintings_list ul"
   }), new Jets({
+    searchTag: "#remembrances_mausoleums_search",
+    contentTag: "#remembrances_mausoleums_list ul"
+  }), new Jets({
     searchTag: "#scrolls_prayerbooks_search",
     contentTag: "#scrolls_prayerbooks_list ul"
   }), new Jets({
@@ -152,6 +155,10 @@
   $("#paintings_search").keyup(function() {
     $("#paintings_list").unhighlight();
     $("#paintings_list").highlight($(this).val());
+  });
+  $("#remembrances_mausoleums_search").keyup(function() {
+    $("#remembrances_mausoleums_list").unhighlight();
+    $("#remembrances_mausoleums_list").highlight($(this).val());
   });
   $("#scrolls_prayerbooks_search").keyup(function() {
     $("#scrolls_prayerbooks_list").unhighlight();

@@ -29,6 +29,7 @@ dropdowns:
       - "legendaries.yaml" #Legendaries
       - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
       - "paintings.yaml" #Paintings
+      - "rememberances.yaml" #Rememberances
       - "scrolls_prayerbooks.yaml" #Scrolls and Prayerbooks
       - "sorceries.yaml" #Sorceries
       - "spirit_ashes.yaml" #Spirit Ashes
@@ -39,7 +40,7 @@ dropdowns:
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
 # For example
-# item_links: 
+# item_links:
 #   # If id1 is checked then id2 will be checked. If id1 is unchecked then id2 will be unchecked
 #   - source: id1
 #     target: id2
@@ -57,6 +58,36 @@ dropdowns:
 # The ids are constructed like this:
 # page[id]_section[num]_item[0]
 # So for instance, The Soldier of Godrick is bosses_2_1
-item_links: 
+item_links:
   - source: bosses_2_1
     target: caves_1_1
+  - source: remembrances_mausoleums_1_1
+    target: [weapons_19_11, weapons_28_9]
+  - source: remembrances_mausoleums_1_2
+    target: [sorceries_6_5, weapons_29_10]
+  - source: remembrances_mausoleums_1_3
+    target: [weapons_5_6, weapons_12_4]
+  - source: remembrances_mausoleums_1_4
+    target: [weapons_19_10, talismans_3_4]
+  - source: remembrances_mausoleums_1_5
+    target: [ashesofwar_8_10, weapons_21_5]
+  - source: remembrances_mausoleums_1_6
+    target: [weapons_6_6, ashesofwar_5_7]
+  - source: remembrances_mausoleums_1_7
+    target: [weapons_5_3, incantations_5_5]
+  - source: remembrances_mausoleums_1_8
+    target: [sorceries_9_6, weapons_14_18]
+  - source: remembrances_mausoleums_1_9
+    target: [weapons_27_6, incantations_6_1]
+  - source: remembrances_mausoleums_1_10
+    target: [weapons_8_9]
+  - source: remembrances_mausoleums_1_11
+    target: [weapons_16_4, incantations_3_11]
+  - source: remembrances_mausoleums_1_12
+    target: [incantations_4_6, incantations_4_3]
+  - source: remembrances_mausoleums_1_13
+    target: [weapons_20_15, weapons_14_21]
+  - source: remembrances_mausoleums_1_14
+    target: [weapons_17_8, incantations_11_4]
+  - source: remembrances_mausoleums_1_15
+    target: [weapons_24_6, incantations_2_1]
