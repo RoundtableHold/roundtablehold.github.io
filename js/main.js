@@ -423,7 +423,6 @@ var profilesKey = 'darksouls3_profiles';
             var overallCount = 0, overallChecked = 0;
             $('[id^="' + type + '_totals_"]').each(function(index, el) {
                 var regex = new RegExp(type + '_totals_(.*)');
-                var regexFilter = new RegExp('^playthrough_(.*)');
                 var i = parseInt(this.id.match(regex)[1]);
                 var count = 0, checked = 0;
                 $('[id^="' + type + '_' + i +  '_').each(function(index, el) {
