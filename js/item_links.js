@@ -283,6 +283,8 @@
       var checked = $(this).prop("checked");
       $("#bosses_4_36").prop("checked", checked);
       window.onCheckbox("#bosses_4_36");
+      $("#great_runes_1_2").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_2");
     });
     $("#achievements_2_5").click(function () {
       var checked = $(this).prop("checked");
@@ -388,31 +390,43 @@
       var checked = $(this).prop("checked");
       $("#bosses_2_29").prop("checked", checked);
       window.onCheckbox("#bosses_2_29");
+      $("#great_runes_1_1").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_1");
     });
     $("#achievements_1_2").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_5_27").prop("checked", checked);
       window.onCheckbox("#bosses_5_27");
+      $("#great_runes_1_3").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_3");
     });
     $("#achievements_1_3").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_8_18").prop("checked", checked);
       window.onCheckbox("#bosses_8_18");
+      $("#great_runes_1_4").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_4");
     });
     $("#achievements_1_4").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_7_26").prop("checked", checked);
       window.onCheckbox("#bosses_7_26");
+      $("#great_runes_1_5").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_5");
     });
     $("#achievements_1_5").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_15_3").prop("checked", checked);
       window.onCheckbox("#bosses_15_3");
+      $("#great_runes_1_7").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_7");
     });
     $("#achievements_1_6").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_10_11").prop("checked", checked);
       window.onCheckbox("#bosses_10_11");
+      $("#great_runes_1_6").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_6");
     });
     $("#bosses_2_28").click(function () {
       var checked = $(this).prop("checked");
@@ -433,6 +447,8 @@
       var checked = $(this).prop("checked");
       $("#achievements_2_4").prop("checked", checked);
       window.onCheckbox("#achievements_2_4");
+      $("#great_runes_1_2").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_2");
     });
     $("#bosses_4_27").click(function () {
       var checked = $(this).prop("checked");
@@ -538,31 +554,158 @@
       var checked = $(this).prop("checked");
       $("#achievements_1_1").prop("checked", checked);
       window.onCheckbox("#achievements_1_1");
+      $("#great_runes_1_1").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_1");
     });
     $("#bosses_5_27").click(function () {
       var checked = $(this).prop("checked");
       $("#achievements_1_2").prop("checked", checked);
       window.onCheckbox("#achievements_1_2");
+      $("#great_runes_1_3").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_3");
     });
     $("#bosses_8_18").click(function () {
       var checked = $(this).prop("checked");
       $("#achievements_1_3").prop("checked", checked);
       window.onCheckbox("#achievements_1_3");
+      $("#great_runes_1_4").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_4");
     });
     $("#bosses_7_26").click(function () {
       var checked = $(this).prop("checked");
       $("#achievements_1_4").prop("checked", checked);
       window.onCheckbox("#achievements_1_4");
+      $("#great_runes_1_5").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_5");
     });
     $("#bosses_15_3").click(function () {
       var checked = $(this).prop("checked");
       $("#achievements_1_5").prop("checked", checked);
       window.onCheckbox("#achievements_1_5");
+      $("#great_runes_1_7").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_7");
     });
     $("#bosses_10_11").click(function () {
       var checked = $(this).prop("checked");
       $("#achievements_1_6").prop("checked", checked);
       window.onCheckbox("#achievements_1_6");
+      $("#great_runes_1_6").prop("checked", checked);
+      window.onCheckbox("#great_runes_1_6");
+    });
+    $("#great_runes_1_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_2_29").prop("checked", checked);
+      window.onCheckbox("#bosses_2_29");
+      $("#achievements_1_1").prop("checked", checked);
+      window.onCheckbox("#achievements_1_1");
+    });
+    $("#great_runes_1_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_36").prop("checked", checked);
+      window.onCheckbox("#bosses_4_36");
+      $("#achievements_2_4").prop("checked", checked);
+      window.onCheckbox("#achievements_2_4");
+    });
+    $("#great_runes_1_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_5_27").prop("checked", checked);
+      window.onCheckbox("#bosses_5_27");
+      $("#achievements_1_2").prop("checked", checked);
+      window.onCheckbox("#achievements_1_2");
+    });
+    $("#great_runes_1_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_8_18").prop("checked", checked);
+      window.onCheckbox("#bosses_8_18");
+      $("#achievements_1_3").prop("checked", checked);
+      window.onCheckbox("#achievements_1_3");
+    });
+    $("#great_runes_1_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_7_26").prop("checked", checked);
+      window.onCheckbox("#bosses_7_26");
+      $("#achievements_1_4").prop("checked", checked);
+      window.onCheckbox("#achievements_1_4");
+    });
+    $("#great_runes_1_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_10_11").prop("checked", checked);
+      window.onCheckbox("#bosses_10_11");
+      $("#achievements_1_6").prop("checked", checked);
+      window.onCheckbox("#achievements_1_6");
+    });
+    $("#great_runes_1_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_15_3").prop("checked", checked);
+      window.onCheckbox("#bosses_15_3");
+      $("#achievements_1_5").prop("checked", checked);
+      window.onCheckbox("#achievements_1_5");
+    });
+    $("#achievements_3_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#incantations_6_2").prop("checked", checked);
+      window.onCheckbox("#incantations_6_2");
+      $("#incantations_3_9").prop("checked", checked);
+      window.onCheckbox("#incantations_3_9");
+      $("#incantations_5_8").prop("checked", checked);
+      window.onCheckbox("#incantations_5_8");
+      $("#sorceries_12_3").prop("checked", checked);
+      window.onCheckbox("#sorceries_12_3");
+      $("#sorceries_5_3").prop("checked", checked);
+      window.onCheckbox("#sorceries_5_3");
+      $("#sorceries_9_4").prop("checked", checked);
+      window.onCheckbox("#sorceries_9_4");
+      $("#sorceries_8_8").prop("checked", checked);
+      window.onCheckbox("#sorceries_8_8");
+      $("#legendaries_4_1").prop("checked", checked);
+      window.onCheckbox("#legendaries_4_1");
+      $("#legendaries_4_2").prop("checked", checked);
+      window.onCheckbox("#legendaries_4_2");
+      $("#legendaries_4_3").prop("checked", checked);
+      window.onCheckbox("#legendaries_4_3");
+      $("#legendaries_4_4").prop("checked", checked);
+      window.onCheckbox("#legendaries_4_4");
+      $("#legendaries_5_1").prop("checked", checked);
+      window.onCheckbox("#legendaries_5_1");
+      $("#legendaries_5_2").prop("checked", checked);
+      window.onCheckbox("#legendaries_5_2");
+      $("#legendaries_5_3").prop("checked", checked);
+      window.onCheckbox("#legendaries_5_3");
+    });
+    $("#achievements_3_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#talismans_4_4").prop("checked", checked);
+      window.onCheckbox("#talismans_4_4");
+      $("#talismans_5_5").prop("checked", checked);
+      window.onCheckbox("#talismans_5_5");
+      $("#talismans_6_5").prop("checked", checked);
+      window.onCheckbox("#talismans_6_5");
+      $("#talismans_17_1").prop("checked", checked);
+      window.onCheckbox("#talismans_17_1");
+      $("#talismans_10_8").prop("checked", checked);
+      window.onCheckbox("#talismans_10_8");
+      $("#talismans_10_4").prop("checked", checked);
+      window.onCheckbox("#talismans_10_4");
+      $("#talismans_11_3").prop("checked", checked);
+      window.onCheckbox("#talismans_11_3");
+      $("#talismans_12_2").prop("checked", checked);
+      window.onCheckbox("#talismans_12_2");
+      $("#legendaries_2_1").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_1");
+      $("#legendaries_2_2").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_2");
+      $("#legendaries_2_3").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_3");
+      $("#legendaries_2_4").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_4");
+      $("#legendaries_2_5").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_5");
+      $("#legendaries_2_6").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_6");
+      $("#legendaries_2_7").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_7");
+      $("#legendaries_2_8").prop("checked", checked);
+      window.onCheckbox("#legendaries_2_8");
     });
   });
 })( jQuery );

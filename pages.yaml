@@ -100,7 +100,7 @@ item_links:
   - [achievements_2_1, bosses_2_28] #margit
   - [achievements_2_2, bosses_1_11] #leonine
   - [achievements_2_3, bosses_4_35] #red wolf of radagon
-  - [achievements_2_4, bosses_4_36] #rennala
+  - [achievements_2_4, bosses_4_36, great_runes_1_2] #rennala
   - [achievements_2_5, bosses_4_27] #royal knight loretta
   - [achievements_2_6, bosses_4_33] #magma wyrm makar
   - [achievements_2_7, bosses_13_2] #ancestor spirit
@@ -121,16 +121,16 @@ item_links:
   - [achievements_2_22, bosses_8_16] #mohg the omen
   - [achievements_2_23, bosses_11_5] #dragonlord placidusax
   - [achievements_2_24, bosses_18_4] #lichdragon fortissax
-  - [achievements_1_1, bosses_2_29] #godrick
-  - [achievements_1_2, bosses_5_27] #radahn
-  - [achievements_1_3, bosses_8_18] #morgott
-  - [achievements_1_4, bosses_7_26] #rykard
-  - [achievements_1_5, bosses_15_3] #mohg lord of blood
-  - [achievements_1_6, bosses_10_11] #malenia
+  - [achievements_1_1, bosses_2_29, great_runes_1_1] #godrick
+  - [achievements_1_2, bosses_5_27, great_runes_1_3] #radahn
+  - [achievements_1_3, bosses_8_18, great_runes_1_4] #morgott
+  - [achievements_1_4, bosses_7_26, great_runes_1_5] #rykard
+  - [achievements_1_5, bosses_15_3, great_runes_1_7] #mohg lord of blood
+  - [achievements_1_6, bosses_10_11, great_runes_1_6] #malenia
   - [bosses_2_28, achievements_2_1] # reversible
   - [bosses_1_11, achievements_2_2] # reversible
   - [bosses_4_35, achievements_2_3] # reversible
-  - [bosses_4_36, achievements_2_4] # reversible
+  - [bosses_4_36, achievements_2_4, great_runes_1_2] # renalla reversible
   - [bosses_4_27, achievements_2_5] # reversible
   - [bosses_4_33, achievements_2_6] # reversible
   - [bosses_13_2, achievements_2_7] # reversible
@@ -151,9 +151,20 @@ item_links:
   - [bosses_8_16, achievements_2_22] # reversible
   - [bosses_11_5, achievements_2_23] # reversible
   - [bosses_18_4, achievements_2_24] # reversible
-  - [bosses_2_29, achievements_1_1] # reversible
-  - [bosses_5_27, achievements_1_2] # reversible
-  - [bosses_8_18, achievements_1_3] # reversible
-  - [bosses_7_26, achievements_1_4] # reversible
-  - [bosses_15_3, achievements_1_5] # reversible
-  - [bosses_10_11, achievements_1_6] # reversible
+  - [bosses_2_29, achievements_1_1, great_runes_1_1] # godrick reversible
+  - [bosses_5_27, achievements_1_2, great_runes_1_3] # radahn reversible
+  - [bosses_8_18, achievements_1_3, great_runes_1_4] # morgott reversible
+  - [bosses_7_26, achievements_1_4, great_runes_1_5] # rykard reversible
+  - [bosses_15_3, achievements_1_5, great_runes_1_7] # mohg lord of blood reversible
+  - [bosses_10_11, achievements_1_6, great_runes_1_6] # malenia reversible
+  - [great_runes_1_1, bosses_2_29, achievements_1_1] # godrick reversible
+  - [great_runes_1_2, bosses_4_36, achievements_2_4] # renalla reversible
+  - [great_runes_1_3, bosses_5_27, achievements_1_2] # radahn reversible
+  - [great_runes_1_4, bosses_8_18, achievements_1_3] # morgott reversible
+  - [great_runes_1_5, bosses_7_26, achievements_1_4] # rykard reversible
+  - [great_runes_1_6, bosses_10_11, achievements_1_6] # malenia reversible
+  - [great_runes_1_7, bosses_15_3, achievements_1_5] # mohg lord of blood reversible
+
+  # Misc Achievements
+  - [achievements_3_5, incantations_6_2, incantations_3_9, incantations_5_8, sorceries_12_3, sorceries_5_3, sorceries_9_4, sorceries_8_8, legendaries_4_1, legendaries_4_2, legendaries_4_3, legendaries_4_4, legendaries_5_1, legendaries_5_2, legendaries_5_3] #legendary sorceries and incantations
+  - [achievements_3_6, talismans_4_4, talismans_5_5, talismans_6_5, talismans_17_1, talismans_10_8, talismans_10_4, talismans_11_3, talismans_12_2, legendaries_2_1, legendaries_2_2, legendaries_2_3, legendaries_2_4, legendaries_2_5, legendaries_2_6, legendaries_2_7, legendaries_2_8] #legendary talismans
