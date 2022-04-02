@@ -66,8 +66,8 @@ If you added a new page you need to put your page in `pages.yaml` for it to show
 You are welcome to use whatever software you want to edit the site. But if you are unsure or want a seemless editing environment this is what I recommend.
 
 1. Get [VSCode](https://code.visualstudio.com/). Then click File -> Open Folder and navigate to `tracker`.
-2. Press `ctrl+P` and type or paste in `ext install ritwickdey.liveserver`.
+2. Press `ctrl+P` and type or paste in `ext install ms-vscode.live-server`.
 3. Press `ctrl+P` again and type or paste in `ext install emeraldwalk.RunOnSave`.
-4. Click `Go Live` in the bottom right corner on the blue bar.
+4. Open `index.html` and click `Live Preview: Show Preview` at the top right. It looks like a book with a magnifying glass.
 5. Click `View -> Output` then in the dropdown on the right select `Run On Save`.
 6. Whenever you save a `.yaml` file the webpage should automatically refresh. If there is an error it will appear at the bottom describing what you did wrong. You may need to run `generate.bat` once to get the correct dependencies installed.

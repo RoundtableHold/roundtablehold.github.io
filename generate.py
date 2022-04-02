@@ -23,13 +23,13 @@ def to_snake_case(name):
 dropdowns = []
 pages = []
 item_links = []
-with open('pages.yaml', 'r', encoding='utf-8') as pages_yaml:
+with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
     item_links = yml['item_links']
     for dropdown in yml['dropdowns']:
         dropdown_ids = []
         for page in dropdown['pages']:
-            with open(os.path.join('data', page), 'r', encoding='utf-8') as data:
+            with open(os.path.join('data', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
                 dropdown_ids.append((yml['title'], yml['id']))
@@ -292,7 +292,7 @@ with doc:
                 with div(cls="modal-dialog", role="document"):
                     with div(cls="modal-content"):
                         with div(cls="modal-header"):
-                            h3("Begin next journey?", id="profileModalTitle", cls="modal-title")
+                            h3("Begin next journey?", id="profileModalTitleNG", cls="modal-title")
                             button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
                         div('If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', cls="modal-body")
                         with div(cls="modal-footer"):
@@ -323,10 +323,10 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='UTF-8') as index:
+with open('index.html', 'w', encoding='utf_8') as index:
     index.write(doc.render())
 
-with open(os.path.join('js', 'search.js'), 'w', encoding='UTF-8') as jsfile:
+with open(os.path.join('js', 'search.js'), 'w', encoding='utf_8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -349,7 +349,7 @@ with open(os.path.join('js', 'search.js'), 'w', encoding='UTF-8') as jsfile:
     jsfile.write('});\n')
     jsfile.write('})( jQuery );\n')
 
-with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+with open(os.path.join('js', 'item_links.js'), 'w', encoding='utf_8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
