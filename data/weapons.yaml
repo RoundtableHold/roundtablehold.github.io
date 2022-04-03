@@ -5,7 +5,7 @@ sections:
   -
     title: Daggers
     link: "https://eldenring.wiki.fextralife.com/Daggers"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    table: ["Name", "Location"]
     id: 3
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Dagger\">Dagger</a>", "Purchased from <a href=\"https://eldenring.wiki.fextralife.com/Twin+Maiden+Husks\">Twin Maiden Husks</a> at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>."]
@@ -27,7 +27,7 @@ sections:
   -
     title: Straight Swords
     link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 13
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Short+Sword\">Short Sword</a>", ""]
@@ -52,7 +52,7 @@ sections:
   -
     title: Greatswords
     link: "https://eldenring.wiki.fextralife.com/Greatswords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 14
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Bastard+Sword\">Bastard Sword</a>", ""]
@@ -79,7 +79,7 @@ sections:
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 5
     items:
       - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Zweihander\">Zweihander</a>", ""]
@@ -96,7 +96,7 @@ sections:
   -
     title: Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 15
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Rapier\">Raiper</a>", ""]
@@ -109,7 +109,7 @@ sections:
   -
     title: Heavy Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 16
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Epee\">Great Epee</a>", ""]
@@ -119,7 +119,7 @@ sections:
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 9
     items:
       - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Scimitar\">Scimitar</a>", ""]
@@ -140,7 +140,7 @@ sections:
   -
     title: Curved Greatswords
     link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 8
     items:
       - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Dismounter\">Dismounter</a>", ""]
@@ -155,7 +155,7 @@ sections:
   -
     title: Katanas
     link: "https://eldenring.wiki.fextralife.com/Katanas"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 17
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Uchigatana\">Uchigatana</a>", ""]
@@ -169,7 +169,7 @@ sections:
   -
     title: Twinblades
     link: "https://eldenring.wiki.fextralife.com/Twinblades"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 18
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Twinblade\">Twinblade</a>", ""]
@@ -181,7 +181,7 @@ sections:
   -
     title: Axes
     link: "https://eldenring.wiki.fextralife.com/Axes"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 1
     items:
       - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Axe\">Hand Axe</a>", ""]
@@ -200,7 +200,7 @@ sections:
   -
     title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 19
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greataxe\">Greataxe</a>", ""]
@@ -217,7 +217,7 @@ sections:
   -
     title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 20
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Club\">Club</a>", ""]
@@ -238,7 +238,7 @@ sections:
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 21
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", ""]
@@ -249,7 +249,7 @@ sections:
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 22
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Large+Club\">Large Club</a>", ""]
@@ -269,7 +269,7 @@ sections:
   -
     title: Colossal Weapons
     link: "https://eldenring.wiki.fextralife.com/Colossal+Weapons"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 6
     items:
       - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Greataxe\">Duelist Greataxe</a>", ""]
@@ -290,7 +290,7 @@ sections:
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 23
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Short+Spear\">Short Spear</a>", ""]
@@ -312,7 +312,7 @@ sections:
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 24
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Lance\">Lance</a>", ""]
@@ -324,7 +324,7 @@ sections:
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 25
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Halberd\">Halberd</a>", ""]
@@ -346,7 +346,7 @@ sections:
   -
     title: Reapers
     link: "https://eldenring.wiki.fextralife.com/Reapers"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 26
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Scythe\">Scythe</a>", ""]
@@ -356,7 +356,7 @@ sections:
   -
     title: Whips
     link: "https://eldenring.wiki.fextralife.com/Whips"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 27
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Whip\">Whip</a>", ""]
@@ -368,7 +368,7 @@ sections:
   -
     title: Fists
     link: "https://eldenring.wiki.fextralife.com/Fists"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 28
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Caestus\">Caestus</a>", ""]
@@ -383,7 +383,7 @@ sections:
   -
     title: Claws
     link: "https://eldenring.wiki.fextralife.com/Claws"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 4
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hookclaws\">Hookclaws</a>", ""]
@@ -393,7 +393,7 @@ sections:
   -
     title: Light Bows
     link: "https://eldenring.wiki.fextralife.com/Light+Bows"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 11
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Shortbow\">Short Bow</a>", ""]
@@ -404,7 +404,7 @@ sections:
   -
     title: Bows
     link: "https://eldenring.wiki.fextralife.com/Bows"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 10
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>", ""]
@@ -417,7 +417,7 @@ sections:
   -
     title: Greatbows
     link: "https://eldenring.wiki.fextralife.com/Greatbows"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 12
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>", ""]
@@ -427,7 +427,7 @@ sections:
   -
     title: Crossbows
     link: "https://eldenring.wiki.fextralife.com/Crossbows"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 7
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>", ""]
@@ -440,7 +440,7 @@ sections:
   -
     title: Ballistas
     link: "https://eldenring.wiki.fextralife.com/Ballistas"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 2
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>", ""]
@@ -448,7 +448,7 @@ sections:
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 29
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer's+Staff\">Astrologer's Staff</a>", ""]
@@ -472,7 +472,7 @@ sections:
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 30
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Seal\">Finger Seal</a>", ""]
@@ -487,7 +487,7 @@ sections:
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 31
     items:
       - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Torch\">Torch</a>", ""]
@@ -499,7 +499,7 @@ sections:
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 32
     items:
       - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Rickety+Shield\">Rickety Shield</a>", ""]
@@ -522,7 +522,7 @@ sections:
   -
     title: Medium Shields
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 33
     items:
       - [20, "<a href=\"https://eldenring.wiki.fextralife.com/Hawk+Crest+Wooden+Shield\">Hawk Crest Wooden Shield</a>", ""]
@@ -555,7 +555,7 @@ sections:
   -
     title: Greatshields
     link: "https://eldenring.wiki.fextralife.com/Greatshields"
-    table: ["Name", "Location"] # Each section gets table headers here <---------
+    #table: ["Name", "Location"]
     id: 34
     items:
       - [24, "<a href=\"https://eldenring.wiki.fextralife.com/Wooden+Greatshield\">Wooden Greatshield</a>", ""]
