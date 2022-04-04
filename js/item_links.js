@@ -6,10 +6,15 @@
       $("#caves_1_1").prop("checked", checked);
       $("#caves_1_1").each(function(idx, el) {window.onCheckbox(el)});
     });
-    $("#remembrances_mausoleums_1_1").click(function () {
+    $("#remembrances_mausoleums_1_1_1").click(function () {
       var checked = $(this).prop("checked");
-      $("#weapons_19_11,#weapons_28_9").prop("checked", checked);
-      $("#weapons_19_11,#weapons_28_9").each(function(idx, el) {window.onCheckbox(el)});
+      $("#weapons_19_11").prop("checked", checked);
+      $("#weapons_19_11").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#remembrances_mausoleums_1_1_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#weapons_28_9").prop("checked", checked);
+      $("#weapons_28_9").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#remembrances_mausoleums_1_2").click(function () {
       var checked = $(this).prop("checked");

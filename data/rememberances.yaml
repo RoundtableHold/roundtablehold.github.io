@@ -4,23 +4,23 @@ sections:
   -
     title: "Remembrances"
     id: 1
-    table: ["Name", "Reward #1", "Reward #2", "Worth", "Obtained From"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance Of The Grafted</a>", "Weapon - Axe Of Godrick", "Weapon - Grafted Dragon", "20,000 Runes", "Defeat Godrick The Grafted"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen\">Remembrance Of The Full Moon Queen</a>", "Sorcery Spell - Rennala's Full Moon", "Weapon - Carian Regal Scepter", "20,000 Runes", "Defeat Rennala, Queen of the Full Moon"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Starscourge</a>", "Weapon - Starscourge Greatsword", "Weapon - Lion Greatbow", "40,000 Runes", "Defeat tarscourge Radahn"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Regal Ancestor</a>", "Weapon - Winged Greathorn", "Talisman - Ancestral Spirit's Horn", "30,000 Runes", "Defeat Regal Ancestor Spirit"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Naturalborn\">Remembrance Of The Naturalborn</a>", "Ash Of War - Waves Of Darkness", "Weapon - Bastard's Stars", "30,000 Runes", "Defeat Astel, Naturalborn of the Void"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+Hoarah+Loux\">Remembrance Of Hoarah Loux</a>", "Weapon - Axe Of Godfrey", "Ash Of War - Hoarah Loux's Earthshaker", "30,000 Runes", "Defeat Hoarah Loux"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade\">Remembrance Of The Black Blade</a>", "Weapon - Maliketh's Black Blade", "Incantation Spell - Black Blade", "30,000 Runes", "Defeat Maliketh, the Black Blade"]
-      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blasphemous\">Remembrance Of The Blasphemous</a>", "Sorcery Spell - Rykard's Rancor", "Weapon - Blasphemous Blade", "50,000 Runes", "Defeat Rykard, Lord of Blasphemy"]
-      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Fire+Giant\">Remembrance Of The Fire Giant</a>", "Weapon - Giant's Red Braid", "Incantation Spell - Burn, O Flame!", "30,000 Runes", "Defeat the Fire Giant"]
-      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King\">Remembrance Of The Omen King</a>", "Weapon - Morgott's Cursed Sword", "Reusable Item - Regal Omen Bairn", "30,000 Runes", "Defeat Margott, The Omen King"]
-      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance Of The Dragonlord</a>", "Weapon - Dragon King's Cragblade", "Incantation Spell - Placidusax's Ruin", "30,000 Runes", "Defeat Dragonlord Placidusax"]
-      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lichdragon\">Remembrance Of The Lichdragon</a>", "Incantation Spell - Fortissax's Lightning Spear", "Incantation Spell - Death Lightning", "30,000 Runes", "Defeat Lichdragon Fortissax"]
-      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Remembrance\">Elden Remembrance</a>", "Weapon - Marika's Hammer", "Weapon - Sacred Relic Sword", "50,000 Runes", "Defeat Elden Beast"]
-      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess\">Remembrance Of The Rot Goddess</a>", "Weapon - Hand Of Malenia", "Incantation Spell - Scarlet Aeonia", "50,000 Runes", "Defeat Malenia, Blade Of Miquella"]
-      - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blood+Lord\">Remembrance Of The Blood Lord</a>", "Weapon - Mohgwyn's Sacred Spear", "Incantation Spell - Bloodboon", "30,000 Runes", "Defeat Mohgwyn, Lord Of Blood"]
+      - [1,"<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance Of The Grafted</a> (20,000 Runes)"]
+      -
+        - [1, "Weapon - Axe of Godrick"]
+        - [2, "Weapon - Grafted Dragon"]
+      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen\">Remembrance Of The Full Moon Queen</a> (20,000 Runes)"]
+      -
+        - [1, "Sorcery Spell - Rennala's Full Moon"]
+        - [2, "Weapon - Carian Regal Scepter"]
+      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Starscourge</a> (40,000 Runes)"]
+      -
+        - [1, "Weapon - Starscourge Greatsword"]
+        - [2, "Weapon - Lion Greatbow"]
+      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Regal Ancestor</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Winged Greathorn"]
+        - [2, "Talisman - Ancestral Spirit's Horn"]
   -
     title: "Walking Mausoleums"
     id: 2

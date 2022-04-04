@@ -61,8 +61,10 @@ dropdowns:
 item_links:
   - source: bosses_2_1
     target: caves_1_1
-  - source: remembrances_mausoleums_1_1
-    target: [weapons_19_11, weapons_28_9]
+  - source: remembrances_mausoleums_1_1_1
+    target: weapons_19_11
+  - source: remembrances_mausoleums_1_1_2
+    target: weapons_28_9
   - source: remembrances_mausoleums_1_2
     target: [sorceries_6_5, weapons_29_10]
   - source: remembrances_mausoleums_1_3
