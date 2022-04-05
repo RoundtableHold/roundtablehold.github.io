@@ -1,6 +1,6 @@
 title: Bosses
 id: bosses
-table_widths: [3, 2, 3, 4]
+table_widths: [2, 2, 4, 4]
 sections:
   -
     title: "Limgrave"
@@ -12,7 +12,7 @@ sections:
       - [3, "Erdtree Burial Watchdog", "Stormfoot Catacombs", "1300 runes, Noble Sorcerer Ashes", "", ]
       - [4, "Beastman of Farum Azula", "Groveside Cave", "1000 runes, Flamedrake Talisman", "", ]
       - [5, "Stonedigger Troll", "Limgrave Tunnels", "1800 runes, Roar Medallion", "", ]
-      - [6, "Grave Warden Duelist", "Murkwater Catacombs", "1700 runes, Battle Hammer (pre patch 1.03), Banished Knight Engvall Ashes (post patch 1.03)", "", ]
+      - [6, "Grave Warden Duelist", "Murkwater Catacombs", "1700 runes, Banished Knight Engvall Ashes", "", ]
       - [7, "Bloody Finger Nerijus", "Agheel River", "316 runes, Furlcalling Finger Remedy, Reduvia", "NPC invader, not a real \"boss\".", ]
       - [8, "Patches", "Murkwater Cave", "If not killed: x2 Golden Rune [1], Grovel for Mercy gesture. If killed: x2 Golden Rune [1], Spear +7, Leather Armor, Leather Gloves, Leather Boots, Patches' Bell Bearing.", "Only half a boss fight, unless you really wanna kill Patches.", ]
       - [9, "Guardian Golem", "Highroad Cave", "1700 runes, Blue Dancer Charm", "", ]
@@ -30,7 +30,7 @@ sections:
       - [21, "Deathbird", "Warmaster's Shack East", "2,800 runes, Blue-Feathered Branchsword", "Field boss. Nighttime only.", ]
       - [22, "Old Knight Istvan", "Colosseum Road", "1828 Runes, Rune Arc, Furlcalling Finger Remedy, Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves", "NPC. You can invade his world. Related to Volcano Manor quest.", ]
       - [23, "Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", "", ]
-      - [24, "Ulcerated Tree Spirit", "Stormveil Castle", "??? runes, Golden Seed (and it guards the Prince of Death's Pustule talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace.", ]
+      - [24, "Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and it guards the Prince of Death's Pustule talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace.", ]
       - [25, "Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird.", ]
       - [26, "Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not \"real boss\".", ]
       - [27, "Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang x2", "Sort of a field boss. Near Divine Tower of Limgrave entrance.", ]
@@ -72,11 +72,11 @@ sections:
       - [5, "Night's Cavalry", "Gate Town Bridge", "5,600 runes, Runes Ash of War: Ice Spear", "Nighttime only.", ]
       - [6, "Preceptor Miriam", "Carian Study Hall", "", "NPC invader. Pain in the ass.", ]
       - [7, "Godskin Noble", "Divine Tower of Liurnia Bridge", "", "", ]
-      - [8, "Deathbird", "Scenic Isle", "??? Runes, Red-Feathered Branchsword", "Nighttime only.", ]
+      - [8, "Deathbird", "Scenic Isle", "Red-Feathered Branchsword", "Nighttime only.", ]
       - [9, "Grafted Scion", "Fallen Ruins of the Lake", "1283 runes, Larval Tear", "Field boss. Disguised as a lobster. Kill the lobster in the area and it will turn into a Grafted Scion.", ]
       - [10, "Glintstone Dragon Smarag", "Temple Quarter", "", "Field boss.", ]
       - [11, "Crystalian (Spear) & Crystalian (Staff)", "", "Academy Crystal Cave", "", ]
-      - [12, "Death Rite Bird", "Gate Town North", "", "Field boss. Nighttime only.", ]
+      - [12, "Death Rite Bird", "Gate Town North", "7,800 runes, Ancient Death Rancor", "Field boss. Nighttime only.", ]
       - [13, "Crystalian (Ringblade)", "Raya Lucaria Crystal Tunnel", "", "Drops Smithing-Stone Miner's Bell Bearing, unlocks Smithing Stones [1] & [2] for purchase from Twin Maiden Husks.", ]
       - [14, "Bell Bearing Hunter", "Church of Vows", "6,000 runes, Meat Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from Miriel. Pass time, then rest once to summon.", ]
       - [15, "Erdtree Avatar", "Minor Erdtree (East)", "", "Field boss.", ]
@@ -102,7 +102,6 @@ sections:
       - [38, "Moongrum, Carian Knight", "Raya Lucaria Academy", "", "", ]
       - [35, "Red Wolf of Radagon", "Raya Lucaria Academy", "", "Main boss. Required to get to Rennala, Queen of the Full Moon.", ]
       - [36, "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "", "Main boss. Semi-required for story progression.", ]
-      - [37, "Deathbird", "Near Gate Town North Site of Grace", "7,800 runes, Ancient Death Rancor", "Nighttime only.", ]
   -
     title: "Caelid"
     id: 5
@@ -156,7 +155,7 @@ sections:
       - [12, "Omenkiller & Miranda, the Blighted Bloom", "Perfumer's Grotto", "", "", ]
       - [13, "Fallingstar Beast", "South Altus Plateau Crater", "", "", ]
       - [14, "Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "", "Part 1 of this encounter takes place in Mt. Gelmir.", ]
-      - [15, "Tree Sentinel (x2)", "Leyndell Entrance", "???", "Is one annoying bastard (x2).", ]
+      - [15, "Tree Sentinel (x2)", "Leyndell Entrance", "", "Is one annoying bastard (x2).", ]
       - [16, "Bell Bearing Hunter", "Hermit Merchant's Shack", "20,000 runes, Medicine Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from merchant. Pass time, then rest once to summon.", ]
   -
     title: "Mt. Gelmir"
@@ -195,7 +194,7 @@ sections:
     id: 8
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - [1, "Ulcerated Tree Spirit", "Capital Outskirts (Southwest)", "??? runes, Golden Seed", "Field boss.", ]
+      - [1, "Ulcerated Tree Spirit", "Capital Outskirts (Southwest)", "Golden Seed", "Field boss.", ]
       - [2, "Valiant Gargoyle", "Leyndell Entrance", "", "", ]
       - [3, "Margit, the Fell Omen", "Capital Outskirts (Northwest)", "", "Tries to put your foolish ambitions to rest again.", ]
       - [4, "Deathbird", "Capital Outskirts (North)", "29,000 runes, Twinbird Kite Shield", "Field boss. Nighttime only.", ]
@@ -208,7 +207,7 @@ sections:
       - [11, "Ulcerated Tree Spirit", "Lower Capital Church", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2]", "Field boss.", ]
       - [12, "Valiant Gargoyle", "West Capital Rampart", "", "", ]
       - [13, "Vargram & Wilhelm", "Fortified Manor", "", "NPCs. You can invade their world. Related to Volcano Manor quest.", ]
-      - [14, "Black Knife Assassin", "Queen's Bedchamber", "???", "", ]
+      - [14, "Black Knife Assassin", "Queen's Bedchamber", "", "", ]
       - [15, "Fell Twins (x2)", "Divine Tower of East Altus Bridge", "", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight.", ]
       - [16, "Mohg, the Omen", "Cathedral of the Forsaken", "", "", ]
       - [17, "Godfrey, First Elden Lord", "Erdtree Sanctuary", "", "Golden Shade. Required to get to Morgott, the Omen King.", ]
@@ -225,7 +224,7 @@ sections:
       - [5, "Erdtree Avatar", "Minor Erdtree", "", "Field boss.", ]
       - [6, "Juno Hoslow", "Shack of the Lofty", "", "", ]
       - [7, "Death Rite Bird", "North Mountaintops", "", "Field boss. Nighttime only.", ]
-      - [8, "Tibia Mariner", "North Mountaintops", "??? runes, Deathroot, Helphen's Steeple", "Field boss.", ]
+      - [8, "Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple", "Field boss.", ]
       - [9, "Commander Niall", "Castle Sol", "", "", ]
       - [10, "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "", "", ]
       - [11, "Borealis, the Freezing Fog", "Frozen Lake", "", "", ]
@@ -244,7 +243,7 @@ sections:
       - [6, "Misbegotten Crusader", "Cave of the Forlorn", "", "", ]
       - [7, "Putrid Avatar", "Minor Erdtree", "", "Field boss.", ]
       - [8, "Death Rite Bird", "Consecrated Snowfield (North)", "", "Field boss. Nighttime only.", ]
-      - [9, "Black Knife Assassin", "Ordina, Liturgical Town", "???", "", ]
+      - [9, "Black Knife Assassin", "Ordina, Liturgical Town", "", "", ]
       - [10, "Loretta, Knight of the Haligtree", "Miquella's Haligree", "", "", ]
       - [11, "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "", "Bullshit.", ]
       - [12, "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone", "NPC. 3rd invasion.", ]
