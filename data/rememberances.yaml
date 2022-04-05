@@ -21,14 +21,65 @@ sections:
       -
         - [1, "Weapon - Winged Greathorn"]
         - [2, "Talisman - Ancestral Spirit's Horn"]
+      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Naturalborn\">Remembrance Of The Naturalborn</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Bastard's Stars"]
+        - [2, "Ash Of War - Waves Of Darkness"]
+      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+Hoarah+Loux\">Remembrance Of Hoarah Loux</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Axe Of Godfrey"]
+        - [2, "Ash Of War - Hoarah Loux's Earthshaker"]
+      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade\">Remembrance Of The Black Blade</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Maliketh's Black Blade"]
+        - [2, "Incantation Spell - Black Blade"]
+      - [8, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blasphemous\">Remembrance Of The Blasphemous</a> (50,000 Runes)"]
+      -
+        - [1, "Sorcery Spell - Rykard's Rancor"]
+        - [2, "Weapon - Blasphemous Blade"]
+      - [9, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Fire+Giant\">Remembrance Of The Fire Giant</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Giant's Red Braid"]
+        - [2, "Incantation Spell - Burn, O Flame!"]
+      - [10, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King\">Remembrance Of The Omen King</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Morgott's Cursed Sword"]
+        - [2, "Reusable Item - Regal Omen Bairn"]
+      - [11, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance Of The Dragonlord</a> (30,000 Runes)"]
+      -
+        - [1, "Weapon - Dragon King's Cragblade"]
+        - [2, "Incantation Spell - Placidusax's Ruin"]
+      - [12, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lichdragon\">Remembrance Of The Lichdragon</a> (30,000 Runes)"]
+      -
+        - [1, "Incantation Spell - Fortissax's Lightning Spear"]
+        - [2, "Incantation Spell - Death Lightning"]
+      - [13, "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Remembrance\">Elden Remembrance</a> (50,000 Runes)"]
+      -
+        - [1, "Weapon - Marika's Hammer"]
+        - [2, "Weapon - Sacred Relic Sword"]
+      - [14, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess\">Remembrance Of The Rot Goddess</a> (50,000 Runes)"]
+      -
+        - [1, "Weapon - Hand Of Malenia"]
+        - [2, "Incantation Spell - Scarlet Aeonia"]
+      - [15, "<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blood+Lord\">Remembrance Of The Blood Lord</a> (30,000 Runes)"]
+      -
+        - [1, "Incantation Spell - Bloodboon"]
+        - [2, "Weapon - Mohgwyn's Sacred Spear"]
+
+
+
+
+
+
+
   -
     title: "Walking Mausoleums"
+    link: https://eldenring.wiki.fextralife.com/Walking+Mausoleum
     id: 2
-    table: ["Region", "Location"]
     items:
-      - [1, "Weeping Peninsula", "In the western area past the Church of Pilgrimage."]
-      - [2, "Liurnia of the Lakes", "Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace. To access this Walking Mausoleum you must travel directly west of the tunnel entrance. Then you need to use the spirit spring to jump onto the Mausoleum when it walks close enough to the cliff wall. You can experiment with the spirit spring jump and also double jump with Torrent after using the spring and take no fall damage. Once on top of the Mausoleum, knock off enough skull piles to subdue it. The Mausoleum may not move at night time."]
-      - [3, "Liurnia of the Lakes", "Two of them can be found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate Remembrances from Non-Shardbearer bosses.</b>"]
-      - [4, "Mountaintop of the Giants", "Just outside Castle Sol in the northern area."]
-      - [5, "Consecrated Snowfield", "Northwest of Ordina, next to the Apostate Derelict Grace. <b>Warning - This one fires magical artillery into the air, bombarding the surroundings until it is subdued.</b>"]
-      - [6, "Deeproot Depths", "Near the The Nameless Eternal City Grace. Can be jumped upon by climbing on the roots in the area, then you must destroy skulls on the top of the Mausoleum instead of the feet."]
+      - [1, "Weeping Peninsula - In the western area past the Church of Pilgrimage."]
+      - [2, "Liurnia of the Lakes - Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace."]
+      - [3, "Liurnia of the Lakes - Two of them can be found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate Remembrances from Non-Shardbearer bosses.</b>"]
+      - [4, "Mountaintop of the Giants - Just outside Castle Sol in the northern area."]
+      - [5, "Consecrated Snowfield - Northwest of Ordina, next to the Apostate Derelict Grace"]
+      - [6, "Deeproot Depths - Near the The Nameless Eternal City Grace."]

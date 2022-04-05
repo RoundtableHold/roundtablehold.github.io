@@ -65,31 +65,57 @@ item_links:
     target: weapons_19_11
   - source: remembrances_mausoleums_1_1_2
     target: weapons_28_9
-  - source: remembrances_mausoleums_1_2
-    target: [sorceries_6_5, weapons_29_10]
-  - source: remembrances_mausoleums_1_3
-    target: [weapons_5_6, weapons_12_4]
-  - source: remembrances_mausoleums_1_4
-    target: [weapons_19_10, talismans_3_4]
-  - source: remembrances_mausoleums_1_5
-    target: [ashesofwar_8_10, weapons_21_5]
-  - source: remembrances_mausoleums_1_6
-    target: [weapons_6_6, ashesofwar_5_7]
-  - source: remembrances_mausoleums_1_7
-    target: [weapons_5_3, incantations_5_5]
-  - source: remembrances_mausoleums_1_8
-    target: [sorceries_9_6, weapons_14_18]
-  - source: remembrances_mausoleums_1_9
-    target: [weapons_27_6, incantations_6_1]
-  - source: remembrances_mausoleums_1_10
-    target: [weapons_8_9]
-  - source: remembrances_mausoleums_1_11
-    target: [weapons_16_4, incantations_3_11]
-  - source: remembrances_mausoleums_1_12
-    target: [incantations_4_6, incantations_4_3]
-  - source: remembrances_mausoleums_1_13
-    target: [weapons_20_15, weapons_14_21]
-  - source: remembrances_mausoleums_1_14
-    target: [weapons_17_8, incantations_11_4]
-  - source: remembrances_mausoleums_1_15
-    target: [weapons_24_6, incantations_2_1]
+  - source: remembrances_mausoleums_1_2_1
+    target: sorceries_6_5
+  - source: remembrances_mausoleums_1_2_2
+    target: weapons_29_10
+  - source: remembrances_mausoleums_1_3_1
+    target: weapons_5_6
+  - source: remembrances_mausoleums_1_3_2
+    target: weapons_12_4
+  - source: remembrances_mausoleums_1_4_1
+    target: weapons_19_10
+  - source: remembrances_mausoleums_1_4_2
+    target: talismans_3_4
+  - source: remembrances_mausoleums_1_5_1
+    target: ashesofwar_8_10
+  - source: remembrances_mausoleums_1_5_2
+    target: weapons_21_5
+  - source: remembrances_mausoleums_1_6_1
+    target: weapons_6_6
+  - source: remembrances_mausoleums_1_6_2
+    target: ashesofwar_5_7
+  - source: remembrances_mausoleums_1_7_1
+    target: weapons_5_3
+  - source: remembrances_mausoleums_1_7_2
+    target: incantations_5_5
+  - source: remembrances_mausoleums_1_8_1
+    target: sorceries_9_6
+  - source: remembrances_mausoleums_1_8_2
+    target: weapons_14_18
+  - source: remembrances_mausoleums_1_9_1
+    target: weapons_27_6
+  - source: remembrances_mausoleums_1_9_2
+    target: incantations_6_1
+  - source: remembrances_mausoleums_1_10_1
+    target: weapons_8_9
+  - source: remembrances_mausoleums_1_11_1
+    target: weapons_16_4
+  - source: remembrances_mausoleums_1_11_2
+    target: incantations_3_11
+  - source: remembrances_mausoleums_1_12_1
+    target: incantations_4_6
+  - source: remembrances_mausoleums_1_12_2
+    target: incantations_4_3
+  - source: remembrances_mausoleums_1_13_1
+    target: weapons_20_15
+  - source: remembrances_mausoleums_1_13_2
+    target: weapons_14_21]
+  - source: remembrances_mausoleums_1_14_1
+    target: weapons_17_8
+  - source: remembrances_mausoleums_1_14_2
+    target: incantations_11_4
+  - source: remembrances_mausoleums_1_15_1
+    target: weapons_24_6
+  - source: remembrances_mausoleums_1_15_2
+    target: incantations_2_1
