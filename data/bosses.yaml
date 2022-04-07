@@ -29,14 +29,14 @@ sections:
       - [20, "Bell Bearing Hunter", "Warmaster's Shack", "2,700 runes, Bone Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from Bernhal. Pass time, then rest once to summon.", ]
       - [21, "Deathbird", "Warmaster's Shack East", "2,800 runes, Blue-Feathered Branchsword", "Field boss. Nighttime only.", ]
       - [22, "Old Knight Istvan", "Colosseum Road", "1828 Runes, Rune Arc, Furlcalling Finger Remedy, Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves", "NPC. You can invade his world. Related to Volcano Manor quest.", ]
-      - [23, "Grafted Scion (x2)", "Stranded Graveyard/Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman.", ]
-      - [24, "Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", "", ]
-      - [25, "Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and it guards the Prince of Death's Pustule talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace.", ] #TODO: ADD RUNES
-      - [26, "Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird.", ]
-      - [27, "Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not \"real boss\".", ]
-      - [28, "Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang x2", "Sort of a field boss. Near Divine Tower of Limgrave entrance.", ]
-      - [29, "Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted.", ]
-      - [30, "Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression.", ]
+      - [30, "Grafted Scion (x2)", "Stranded Graveyard/Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman.", ]
+      - [23, "Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", "", ]
+      - [24, "Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and it guards the Prince of Death's Pustule talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace.", ] #TODO: ADD RUNES
+      - [25, "Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird.", ]
+      - [26, "Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not \"real boss\".", ]
+      - [27, "Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang x2", "Sort of a field boss. Near Divine Tower of Limgrave entrance.", ]
+      - [28, "Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted.", ]
+      - [29, "Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression.", ]
   -
     title: "Weeping Peninsula"
     id: 1
@@ -72,38 +72,38 @@ sections:
       - [4, "Tibia Mariner", "East Liurnia", "4700 runes, Deathroot Skeletal, Bandit Ashes", "Field boss.", ]
       - [5, "Night's Cavalry", "Gate Town Bridge", "5600 runes, Runes Ash of War: Ice Spear", "Nighttime only.", ]
       - [6, "Preceptor Miriam", "Carian Study Hall", "5000 runes, Magic Downpour", "NPC invader. 1st invasion.", ]
-      - [7, "Preceptor Miriam", "Carian Study Hall (Inverted)", "5000 runes, Lucidity", "NPC invader. 2nd invasion.", ]
+      - [37, "Preceptor Miriam", "Carian Study Hall (Inverted)", "5000 runes, Lucidity", "NPC invader. 2nd invasion.", ]
       - [7, "Godskin Noble", "Carian Study Hall (Inverted)/Divine Tower of Liurnia Bridge", "4810 runes, Godskin Noble Set", "", ]
-      - [9, "Deathbird", "Scenic Isle", "Red-Feathered Branchsword", "Nighttime only.", ] #TODO: ADD RUNES
-      - [10, "Grafted Scion", "Fallen Ruins of the Lake", "1283 runes, Larval Tear", "Field boss. Disguised as a lobster. Kill the lobster in the area and it will turn into a Grafted Scion.", ]
-      - [11, "Glintstone Dragon Smarag", "Temple Quarter", "14,000 runes, Dragon Heart", "Field boss. Usually sleeping and also guardian the Academy Glintstone Key.", ]
-      - [12, "Crystalian (Spear) & Crystalian (Staff)", "Academy Crystal Cave", "3300 runes, Crystal Release", "", ]
-      - [13, "Death Rite Bird", "Gate Town North", "7800 runes, Ancient Death Rancor", "Field boss. Nighttime only.", ]
-      - [14, "Crystalian (Ringblade)", "Raya Lucaria Crystal Tunnel", "3000 runes, Smithing-Stone Miner's Bell Bearing (1)", "Unlocks Smithing Stones [1] & [2] for purchase from Twin Maiden Husks.", ]
-      - [15, "Bell Bearing Hunter", "Church of Vows", "6000 runes, Meat Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from Miriel. Pass time, then rest once to summon.", ]
-      - [16, "Erdtree Avatar", "Minor Erdtree (East)", "5800 runes, Holy-Shrouding Cracked Tear, Lightning-Shrouding Cracked Tear, Magic-Shrouding Cracked Tear", "Field boss.", ]
-      - [17, "Cemetery Shade", "Black Knife Catacombs", "3500 runes, Twinsage Sorcerer Ashes", "Main boss of the dungeon.", ]
-      - [18, "Black Knife Assassin", "Black Knife Catacombs", "1000 runes, Assassin's Cerulean Dagger, Black Knifeprint (Key Item)", "Secret boss, hidden behind illusory wall. Related to Rogier and Fia's questlines.", ]
-      - [19, "Festering Fingerprint Vyke", "Church of Inhibition", "Vyke's War Spear, Fingerprint Grape, Furlcalling Finger Remedy", "NPC invader.", ] #TODO: ADD RUNES
-      - [20, "Night's Cavalry", "Bellum Highway Forest", "5600 runes, Runes Ash of War: Giant Hunt, Nightrider Glaive", "Field boss. Nighttime only.", ]
-      - [21, "Royal Revenant", "Kingsrealm Ruins Underground", "3100 Runes", "Extremely weak to the Heal spell.", ]
-      - [22, "Grafted Scion", "Chapel of Anticipation", "3200 runes, Ornamental Straight Sword, Golden Beast Crest Shield", "Not really in Liurnia, closer to Stormveil. But you can only access via The Four Belfries in Liurnia.", ]
-      - [23, "Bols, Carian Knight", "Cuckoo's Evergaol", "4600 runes, Greatblade Phalanx", "", ]
-      - [24, "Edgar, the Revenger", "Revenger's Shack", "316 runes, Furlcalling Finger Remedy, Shabriri Grape, Banished Knight's Halberd (+8), Raw Meat Dumpling x 5", "NPC invader after interacting with the Revenger's Shack Site of Grace. Note: There's a glitch if you rest at the Grace and leave before he invades, he may never invade when you come back.", ]
-      - [25, "Erdtree Avatar", "Minor Erdtree (West)", "5800 runes, Cerulean Crystal Tear, Ruptured Crystal Tear", "Field boss.", ]
-      - [26, "Spirit-Caller Snail", "Road's End Catacombs", "3000 runes, Glintstone Sorcerer Ashes", "Avoid the spectral summon enemies and kill the invisible Snail.", ]
-      - [27, "Omenkiller", "Village of the Albinaurics", "4900 runes, Crucible Knot Talisman", "Watch out for dogs.", ]
-      - [28, "Royal Knight Loretta", "Caria Manor", "", "", ]
-      - [29, "Red Wolf", "Behind Caria Manor", "", "Field boss. Boss enemy, but not \"real boss\".", ]
-      - [30, "Alabaster Lord", "Royal Grave Evergaol", "", "", ]
-      - [31, "Glintstone Dragon Adula", "Three Sisters & Moonlight Altar", "", "Field boss. Disappears from Three Sisters mid-fight, then reappears at Moonlight Altar.", ]
-      - [32, "Red Wolf", "Moonlight Altar", "", "Field boss.", ]
-      - [33, "Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "", "", ]
-      - [34, "Magma Wyrm Makar", "Ruin-Strewn Precipice", "", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu.", ]
-      - [35, "Ravenmount Assassin", "Raya Lucaria Academy", "", "Go north from Main Academy Gate Site of Grace.", ]
-      - [36, "Red Wolf of Radagon", "Raya Lucaria Academy", "", "Main boss. Required to get to Rennala, Queen of the Full Moon.", ]
-      - [37, "Moongrum, Carian Knight", "Raya Lucaria Academy", "", "", ]
-      - [38, "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "", "Main boss. Semi-required for story progression.", ]
+      - [8, "Deathbird", "Scenic Isle", "Red-Feathered Branchsword", "Nighttime only.", ] #TODO: ADD RUNES
+      - [9, "Grafted Scion", "Fallen Ruins of the Lake", "1283 runes, Larval Tear", "Field boss. Disguised as a lobster. Kill the lobster in the area and it will turn into a Grafted Scion.", ]
+      - [10, "Glintstone Dragon Smarag", "Temple Quarter", "14,000 runes, Dragon Heart", "Field boss. Usually sleeping and also guardian the Academy Glintstone Key.", ]
+      - [11, "Crystalian (Spear) & Crystalian (Staff)", "Academy Crystal Cave", "3300 runes, Crystal Release", "", ]
+      - [12, "Death Rite Bird", "Gate Town North", "7800 runes, Ancient Death Rancor", "Field boss. Nighttime only.", ]
+      - [13, "Crystalian (Ringblade)", "Raya Lucaria Crystal Tunnel", "3000 runes, Smithing-Stone Miner's Bell Bearing (1)", "Unlocks Smithing Stones [1] & [2] for purchase from Twin Maiden Husks.", ]
+      - [14, "Bell Bearing Hunter", "Church of Vows", "6000 runes, Meat Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from Miriel. Pass time, then rest once to summon.", ]
+      - [15, "Erdtree Avatar", "Minor Erdtree (East)", "5800 runes, Holy-Shrouding Cracked Tear, Lightning-Shrouding Cracked Tear, Magic-Shrouding Cracked Tear", "Field boss.", ]
+      - [16, "Cemetery Shade", "Black Knife Catacombs", "3500 runes, Twinsage Sorcerer Ashes", "Main boss of the dungeon.", ]
+      - [17, "Black Knife Assassin", "Black Knife Catacombs", "1000 runes, Assassin's Cerulean Dagger, Black Knifeprint (Key Item)", "Secret boss, hidden behind illusory wall. Related to Rogier and Fia's questlines.", ]
+      - [18, "Festering Fingerprint Vyke", "Church of Inhibition", "Vyke's War Spear, Fingerprint Grape, Furlcalling Finger Remedy", "NPC invader.", ] #TODO: ADD RUNES
+      - [19, "Night's Cavalry", "Bellum Highway Forest", "5600 runes, Runes Ash of War: Giant Hunt, Nightrider Glaive", "Field boss. Nighttime only.", ]
+      - [20, "Royal Revenant", "Kingsrealm Ruins Underground", "3100 Runes", "Extremely weak to the Heal spell.", ]
+      - [21, "Grafted Scion", "Chapel of Anticipation", "3200 runes, Ornamental Straight Sword, Golden Beast Crest Shield", "Not really in Liurnia, closer to Stormveil. But you can only access via The Four Belfries in Liurnia.", ]
+      - [22, "Bols, Carian Knight", "Cuckoo's Evergaol", "4600 runes, Greatblade Phalanx", "", ]
+      - [23, "Edgar, the Revenger", "Revenger's Shack", "316 runes, Furlcalling Finger Remedy, Shabriri Grape, Banished Knight's Halberd (+8), Raw Meat Dumpling x 5", "NPC invader after interacting with the Revenger's Shack Site of Grace. Note: There's a glitch if you rest at the Grace and leave before he invades, he may never invade when you come back.", ]
+      - [24, "Erdtree Avatar", "Minor Erdtree (West)", "5800 runes, Cerulean Crystal Tear, Ruptured Crystal Tear", "Field boss.", ]
+      - [25, "Spirit-Caller Snail", "Road's End Catacombs", "3000 runes, Glintstone Sorcerer Ashes", "Avoid the spectral summon enemies and kill the invisible Snail.", ]
+      - [26, "Omenkiller", "Village of the Albinaurics", "4900 runes, Crucible Knot Talisman", "Watch out for dogs.", ]
+      - [27, "Royal Knight Loretta", "Caria Manor", "", "", ]
+      - [28, "Red Wolf", "Behind Caria Manor", "", "Field boss. Boss enemy, but not \"real boss\".", ]
+      - [29, "Alabaster Lord", "Royal Grave Evergaol", "", "", ]
+      - [30, "Glintstone Dragon Adula", "Three Sisters & Moonlight Altar", "", "Field boss. Disappears from Three Sisters mid-fight, then reappears at Moonlight Altar.", ]
+      - [31, "Red Wolf", "Moonlight Altar", "", "Field boss.", ]
+      - [32, "Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "", "", ]
+      - [33, "Magma Wyrm Makar", "Ruin-Strewn Precipice", "", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu.", ]
+      - [34, "Ravenmount Assassin", "Raya Lucaria Academy", "", "Go north from Main Academy Gate Site of Grace.", ]
+      - [35, "Red Wolf of Radagon", "Raya Lucaria Academy", "", "Main boss. Required to get to Rennala, Queen of the Full Moon.", ]
+      - [38, "Moongrum, Carian Knight", "Raya Lucaria Academy", "", "", ]
+      - [36, "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "", "Main boss. Semi-required for story progression.", ]
   -
     title: "Caelid"
     id: 5
@@ -137,7 +137,7 @@ sections:
       - [25, "Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "", "Only triggers after you give him 4 Deathroots.", ]
       - [26, "Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16000 runes, Ruins Greatsword", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point.", ]
       - [27, "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "", "Main boss. Semi-required for story progression.", ]
-      - [28, "Putrid Tree Spirit", "War-Dead Catacombs", "", "Accessible after defeating Radahn, in his arena", ]
+      - [29, "Putrid Tree Spirit", "War-Dead Catacombs", "", "Accessible after defeating Radahn, in his arena", ]
   -
     title: "Altus Plateau"
     id: 6
@@ -183,15 +183,15 @@ sections:
       - [17, "Fire Prelate", "Fort Laiedd", "", "Field boss.", ]
       - [18, "Magma Wyrm", "Fort Laiedd (South)", "", "", ]
       - [19, "Demi-Human Queen Maggie", "Hermit Village", "", "", ]
-      - [20, "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Furlcalling Finger Remedy, Butchering Knife", "NPC. 2nd invasion.", ] #TODO: ADD RUNES
-      - [21, "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver", "", ] #TODO: ADD RUNES
-      - [21, "Abductor Virgin (x2)", "Volcano Manor", "", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin", ]
-      - [22, "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "", "", ]
-      - [23, "Magma Wyrm", "Volcano Manor", "", "", ]
-      - [24, "Godskin Noble", "Volcano Manor/Temple of Eiglay", "", "", ]
-      - [25, "Tanith's Knigth", "Volcano Manor", "", "", ]
-      - [26, "God-Devouring Serpent", "Volcano Manor", "", "Required to get to Rykard, Lord of Blasphemy.", ]
-      - [27, "Rykard, Lord of Blasphemy", "Volcano Manor", "", "Main boss. Semi-required for story progression.",
+      - [27, "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Furlcalling Finger Remedy, Butchering Knife", "NPC. 2nd invasion.", ] #TODO: ADD RUNES
+      - [28, "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver", "", ] #TODO: ADD RUNES
+      - [20, "Abductor Virgin (x2)", "Volcano Manor", "", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin", ]
+      - [21, "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "", "", ]
+      - [22, "Magma Wyrm", "Volcano Manor", "", "", ]
+      - [23, "Godskin Noble", "Volcano Manor/Temple of Eiglay", "", "", ]
+      - [24, "Tanith's Knigth", "Volcano Manor", "", "", ]
+      - [25, "God-Devouring Serpent", "Volcano Manor", "", "Required to get to Rykard, Lord of Blasphemy.", ]
+      - [26, "Rykard, Lord of Blasphemy", "Volcano Manor", "", "Main boss. Semi-required for story progression.",
   -
     title: "Leyndell, Royal Capital"
     id: 8
@@ -248,9 +248,9 @@ sections:
       - [7, "Putrid Avatar", "Minor Erdtree", "160.000 runes, Ruptured Crystal Tear, Thorny Cracked Tear", "Field boss.", ]
       - [8, "Death Rite Bird", "Consecrated Snowfield (North)", "", "Field boss. Nighttime only.", ]
       - [9, "Black Knife Assassin", "Ordina, Liturgical Town", "", "", ]
-      - [10, "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone", "NPC. 3rd invasion.", ] #TODO: ADD RUNES
-      - [11, "Loretta, Knight of the Haligtree", "Miquella's Haligree", "", "", ]
-      - [12, "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "", "Bullshit.", ]
+      - [12, "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone", "NPC. 3rd invasion.", ] #TODO: ADD RUNES
+      - [10, "Loretta, Knight of the Haligtree", "Miquella's Haligree", "", "", ]
+      - [11, "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "", "Bullshit.", ]
   -
     title: "Crumbling Farum Azula"
     id: 11
