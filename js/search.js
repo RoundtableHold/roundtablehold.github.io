@@ -26,44 +26,11 @@
     searchTag: "#ashesofwar_search",
     contentTag: "#ashesofwar_list ul"
   }), new Jets({
-    searchTag: "#bell_bearings_search",
-    contentTag: "#bell_bearings_list ul"
-  }), new Jets({
-    searchTag: "#cookbooks_search",
-    contentTag: "#cookbooks_list ul"
-  }), new Jets({
-    searchTag: "#crystal_tears_search",
-    contentTag: "#crystal_tears_list ul"
-  }), new Jets({
-    searchTag: "#dragon_hearts_death_roots_search",
-    contentTag: "#dragon_hearts_death_roots_list ul"
-  }), new Jets({
-    searchTag: "#flasks_search",
-    contentTag: "#flasks_list ul"
-  }), new Jets({
-    searchTag: "#gestures_search",
-    contentTag: "#gestures_list ul"
-  }), new Jets({
-    searchTag: "#great_runes_search",
-    contentTag: "#great_runes_list ul"
-  }), new Jets({
     searchTag: "#incantations_search",
     contentTag: "#incantations_list ul"
   }), new Jets({
     searchTag: "#legendaries_search",
     contentTag: "#legendaries_list ul"
-  }), new Jets({
-    searchTag: "#memory_stones_talisman_pouches_search",
-    contentTag: "#memory_stones_talisman_pouches_list ul"
-  }), new Jets({
-    searchTag: "#paintings_search",
-    contentTag: "#paintings_list ul"
-  }), new Jets({
-    searchTag: "#remembrances_mausoleums_search",
-    contentTag: "#remembrances_mausoleums_list ul"
-  }), new Jets({
-    searchTag: "#scrolls_prayerbooks_search",
-    contentTag: "#scrolls_prayerbooks_list ul"
   }), new Jets({
     searchTag: "#sorceries_search",
     contentTag: "#sorceries_list ul"
@@ -77,8 +44,41 @@
     searchTag: "#weapons_search",
     contentTag: "#weapons_list ul"
   }), new Jets({
+    searchTag: "#bell_bearings_search",
+    contentTag: "#bell_bearings_list ul"
+  }), new Jets({
+    searchTag: "#cookbooks_search",
+    contentTag: "#cookbooks_list ul"
+  }), new Jets({
+    searchTag: "#crystal_tears_search",
+    contentTag: "#crystal_tears_list ul"
+  }), new Jets({
+    searchTag: "#flasks_search",
+    contentTag: "#flasks_list ul"
+  }), new Jets({
+    searchTag: "#memory_stones_talisman_pouches_search",
+    contentTag: "#memory_stones_talisman_pouches_list ul"
+  }), new Jets({
+    searchTag: "#scrolls_prayerbooks_search",
+    contentTag: "#scrolls_prayerbooks_list ul"
+  }), new Jets({
     searchTag: "#whetstones_search",
     contentTag: "#whetstones_list ul"
+  }), new Jets({
+    searchTag: "#dragon_hearts_death_roots_search",
+    contentTag: "#dragon_hearts_death_roots_list ul"
+  }), new Jets({
+    searchTag: "#gestures_search",
+    contentTag: "#gestures_list ul"
+  }), new Jets({
+    searchTag: "#great_runes_search",
+    contentTag: "#great_runes_list ul"
+  }), new Jets({
+    searchTag: "#paintings_search",
+    contentTag: "#paintings_list ul"
+  }), new Jets({
+    searchTag: "#remembrances_mausoleums_search",
+    contentTag: "#remembrances_mausoleums_list ul"
 })];
   $("#playthrough_search").keyup(function() {
     $("#playthrough_list").unhighlight();
@@ -112,34 +112,6 @@
     $("#ashesofwar_list").unhighlight();
     $("#ashesofwar_list").highlight($(this).val());
   });
-  $("#bell_bearings_search").keyup(function() {
-    $("#bell_bearings_list").unhighlight();
-    $("#bell_bearings_list").highlight($(this).val());
-  });
-  $("#cookbooks_search").keyup(function() {
-    $("#cookbooks_list").unhighlight();
-    $("#cookbooks_list").highlight($(this).val());
-  });
-  $("#crystal_tears_search").keyup(function() {
-    $("#crystal_tears_list").unhighlight();
-    $("#crystal_tears_list").highlight($(this).val());
-  });
-  $("#dragon_hearts_death_roots_search").keyup(function() {
-    $("#dragon_hearts_death_roots_list").unhighlight();
-    $("#dragon_hearts_death_roots_list").highlight($(this).val());
-  });
-  $("#flasks_search").keyup(function() {
-    $("#flasks_list").unhighlight();
-    $("#flasks_list").highlight($(this).val());
-  });
-  $("#gestures_search").keyup(function() {
-    $("#gestures_list").unhighlight();
-    $("#gestures_list").highlight($(this).val());
-  });
-  $("#great_runes_search").keyup(function() {
-    $("#great_runes_list").unhighlight();
-    $("#great_runes_list").highlight($(this).val());
-  });
   $("#incantations_search").keyup(function() {
     $("#incantations_list").unhighlight();
     $("#incantations_list").highlight($(this).val());
@@ -147,22 +119,6 @@
   $("#legendaries_search").keyup(function() {
     $("#legendaries_list").unhighlight();
     $("#legendaries_list").highlight($(this).val());
-  });
-  $("#memory_stones_talisman_pouches_search").keyup(function() {
-    $("#memory_stones_talisman_pouches_list").unhighlight();
-    $("#memory_stones_talisman_pouches_list").highlight($(this).val());
-  });
-  $("#paintings_search").keyup(function() {
-    $("#paintings_list").unhighlight();
-    $("#paintings_list").highlight($(this).val());
-  });
-  $("#remembrances_mausoleums_search").keyup(function() {
-    $("#remembrances_mausoleums_list").unhighlight();
-    $("#remembrances_mausoleums_list").highlight($(this).val());
-  });
-  $("#scrolls_prayerbooks_search").keyup(function() {
-    $("#scrolls_prayerbooks_list").unhighlight();
-    $("#scrolls_prayerbooks_list").highlight($(this).val());
   });
   $("#sorceries_search").keyup(function() {
     $("#sorceries_list").unhighlight();
@@ -180,9 +136,53 @@
     $("#weapons_list").unhighlight();
     $("#weapons_list").highlight($(this).val());
   });
+  $("#bell_bearings_search").keyup(function() {
+    $("#bell_bearings_list").unhighlight();
+    $("#bell_bearings_list").highlight($(this).val());
+  });
+  $("#cookbooks_search").keyup(function() {
+    $("#cookbooks_list").unhighlight();
+    $("#cookbooks_list").highlight($(this).val());
+  });
+  $("#crystal_tears_search").keyup(function() {
+    $("#crystal_tears_list").unhighlight();
+    $("#crystal_tears_list").highlight($(this).val());
+  });
+  $("#flasks_search").keyup(function() {
+    $("#flasks_list").unhighlight();
+    $("#flasks_list").highlight($(this).val());
+  });
+  $("#memory_stones_talisman_pouches_search").keyup(function() {
+    $("#memory_stones_talisman_pouches_list").unhighlight();
+    $("#memory_stones_talisman_pouches_list").highlight($(this).val());
+  });
+  $("#scrolls_prayerbooks_search").keyup(function() {
+    $("#scrolls_prayerbooks_list").unhighlight();
+    $("#scrolls_prayerbooks_list").highlight($(this).val());
+  });
   $("#whetstones_search").keyup(function() {
     $("#whetstones_list").unhighlight();
     $("#whetstones_list").highlight($(this).val());
+  });
+  $("#dragon_hearts_death_roots_search").keyup(function() {
+    $("#dragon_hearts_death_roots_list").unhighlight();
+    $("#dragon_hearts_death_roots_list").highlight($(this).val());
+  });
+  $("#gestures_search").keyup(function() {
+    $("#gestures_list").unhighlight();
+    $("#gestures_list").highlight($(this).val());
+  });
+  $("#great_runes_search").keyup(function() {
+    $("#great_runes_list").unhighlight();
+    $("#great_runes_list").highlight($(this).val());
+  });
+  $("#paintings_search").keyup(function() {
+    $("#paintings_list").unhighlight();
+    $("#paintings_list").highlight($(this).val());
+  });
+  $("#remembrances_mausoleums_search").keyup(function() {
+    $("#remembrances_mausoleums_list").unhighlight();
+    $("#remembrances_mausoleums_list").highlight($(this).val());
   });
 });
 })( jQuery );

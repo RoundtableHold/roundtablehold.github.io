@@ -15,27 +15,33 @@ dropdowns:
       - "caves.yaml" #Caves, Catacombs, and Tunnels
       - "evergaols.yaml" #Evergaols
   -
-    name: "Items"
+    name: "Equipment"
     pages:
       - "ashesofwar.yaml" #Ashes of War
-      - "bell_bearings.yaml" #Bell Bearings
-      - "cookbooks.yaml" #Cookbooks
-      - "crystal_tears.yaml" #Flask of Wondrous Physick
-      - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
-      - "flasks.yaml" #Golden Seeds & Sacred Tears
-      - "gestures.yaml" #Gestures
-      - "greatrunes.yaml" #Great Runes
       - "incantations.yaml" #Incantations
       - "legendaries.yaml" #Legendaries
-      - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
-      - "paintings.yaml" #Paintings
-      - "rememberances.yaml" #Rememberances
-      - "scrolls_prayerbooks.yaml" #Scrolls and Prayerbooks
       - "sorceries.yaml" #Sorceries
       - "spirit_ashes.yaml" #Spirit Ashes
       - "talismans.yaml" #Talismans
       - "weapons.yaml" #Weapons
+  - 
+    name: "Upgrades & Unlocks"
+    pages:
+      - "bell_bearings.yaml" #Bell Bearings
+      - "cookbooks.yaml" #Cookbooks
+      - "crystal_tears.yaml" #Flask of Wondrous Physick
+      - "flasks.yaml" #Golden Seeds & Sacred Tears
+      - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
+      - "scrolls_prayerbooks.yaml" #Scrolls and Prayerbooks
       - "whetstones.yaml" #Whetstones
+  -
+    name: "Collectables"
+    pages:
+      - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
+      - "gestures.yaml" #Gestures
+      - "greatrunes.yaml" #Great Runes
+      - "paintings.yaml" #Paintings
+      - "rememberances.yaml" #Rememberances
 
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
