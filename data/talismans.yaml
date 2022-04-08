@@ -171,9 +171,9 @@ sections:
     title: "Nokron, Eternal City"
     table: ["Name", "Location", "Effect(s)"]
     items:
-    - [14_1, "Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
-    - [14_2, "Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
-    - [14_3, "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
+      - ["14_1", "Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
+      - ["14_2", "Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
+      - ["14_3", "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
   -
     title: "Mohgwyn Palace"
     table: ["Name", "Location", "Effect(s)"]
@@ -183,7 +183,7 @@ sections:
     title: "Ainsel River"
     table: ["Name", "Location", "Effect(s)"]
     items:
-    - [16_1, "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
+      - ["16_1", "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
   -
     title: "Nokstella, Eternal City"
     table: ["Name", "Location", "Effect(s)"]

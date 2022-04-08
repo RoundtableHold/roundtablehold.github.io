@@ -54,6 +54,9 @@ for page in pages:
         for item in items:
             if not isinstance(item, list):
                 continue
+            if not isinstance(item[0], str):
+                print("Please make item id " + str(item[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                quit(1)
             if item[0] in item_nums:
                 print("Duplicate item num '" + str(item[0]) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
                 quit(1)
