@@ -77,6 +77,9 @@
     searchTag: "#paintings_search",
     contentTag: "#paintings_list ul"
   }), new Jets({
+    searchTag: "#pots_bottles_search",
+    contentTag: "#pots_bottles_list ul"
+  }), new Jets({
     searchTag: "#gestures_search",
     contentTag: "#gestures_list ul"
 })];
@@ -179,6 +182,10 @@
   $("#paintings_search").keyup(function() {
     $("#paintings_list").unhighlight();
     $("#paintings_list").highlight($(this).val());
+  });
+  $("#pots_bottles_search").keyup(function() {
+    $("#pots_bottles_list").unhighlight();
+    $("#pots_bottles_list").highlight($(this).val());
   });
   $("#gestures_search").keyup(function() {
     $("#gestures_list").unhighlight();
