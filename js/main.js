@@ -34,6 +34,8 @@ var profilesKey = 'darksouls3_profiles';
     };
 
     var profiles = $.jStorage.get(profilesKey, {});
+    
+    var checklist_totals = {};
 
     /// assure default values are set
     /// necessary 'cause we're abusing local storage to store JSON data
@@ -41,17 +43,61 @@ var profilesKey = 'darksouls3_profiles';
     if (!('current' in profiles)) profiles.current = 'Default Profile';
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
-        
+
     window.onCheckbox = function(el) {
         var id = $(el).attr('id');
-        var isChecked = profiles[profilesKey][profiles.current].checklistData[id] = $(el).prop('checked');
-        if (isChecked === true) {
-            $('[data-id="' + id + '"]').addClass('completed');
+        var wasChecked = profiles[profilesKey][profiles.current].checklistData[id] === true;
+        var isChecked = $(el).prop('checked');
+        
+        var total_span = $(el).closest('div[id$="Col"]').prev().children().get(2)
+        var match = total_span.id.match(/(.*)_totals_(.*)/);
+        var type = match[1];
+        var i = parseInt(match[2]);
+        var total_nav = $(total_span).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0)
+        var overall_total = $(total_nav).closest('nav').prev().find('span[id$="overall_total"]').get(0)
+
+        if (wasChecked === false && isChecked === true) {
+            profiles[profilesKey][profiles.current].checklistData[id] = true;
+            $(el).closest('li').addClass('completed');
+
+            checklist_totals[total_span.id][0] += 1;
+            checklist_totals[total_nav.id][0] += 1;
+            checklist_totals[overall_total.id][0] += 1;
+        } else if (wasChecked === true && isChecked == false) {
+            delete profiles[profilesKey][profiles.current].checklistData[id];
+            $(el).closest('li').removeClass('completed');
+            
+            checklist_totals[total_span.id][0] -= 1;
+            checklist_totals[total_nav.id][0] -= 1;
+            checklist_totals[overall_total.id][0] -= 1;
+        }
+
+        if (checklist_totals[total_span.id][0] === checklist_totals[total_span.id][1]) {
+            total_span.innerHTML = 'DONE';
+            $(total_span).removeClass('in_progress').addClass('done').removeClass('bg-info').addClass('bg-success');
+            $(total_span).parent('h3').addClass('completed');// Hide heading for completed category
         } else {
-            $('[data-id="' + id + '"]').removeClass('completed');
+            total_span.innerHTML = checklist_totals[total_span.id][0] + '/' + checklist_totals[total_span.id][1];
+            $(total_span).removeClass('done').addClass('in_progress').removeClass('bg-success').addClass('bg-info');
+            $(total_span).parent('h3').removeClass('completed');// Show heading for not yet completed category
+        }
+
+        if (checklist_totals[total_nav.id][0] === checklist_totals[total_nav.id][1]) {
+            total_nav.innerHTML = 'DONE';
+            $(total_nav).removeClass('in_progress').addClass('done');
+        } else {
+            total_nav.innerHTML = checklist_totals[total_nav.id][0] + '/' + checklist_totals[total_nav.id][1];
+            $(total_nav).removeClass('done').addClass('in_progress');
+        }
+
+        if (checklist_totals[overall_total.id][0] === checklist_totals[overall_total.id][1]) {
+            overall_total.innerHTML = 'DONE';
+            $(overall_total).removeClass('in_progress').addClass('done');
+        } else {
+            overall_total.innerHTML = checklist_totals[overall_total.id][0] + '/' + checklist_totals[overall_total.id][1];
+            $(overall_total).removeClass('done').addClass('in_progress');
         }
         $.jStorage.set(profilesKey, profiles);
-        calculateTotals();
     };
 
     jQuery(document).ready(function($) {
@@ -434,22 +480,23 @@ var profilesKey = 'darksouls3_profiles';
                         overallChecked++;
                     }
                 });
+                checklist_totals[this.id] = [checked, count];
+                checklist_totals[$(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).id] = [checked, count];
                 if (checked === count) {
-                    this.innerHTML = $('#' + type + '_nav_totals_' + i)[0].innerHTML = 'DONE';
+                    this.innerHTML = $(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
                     $(this).removeClass('bg-info').addClass('bg-success');
                     $(this).parent('h3').addClass('completed');// Hide heading for completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
-                    this.innerHTML = $('#' + type + '_nav_totals_' + i)[0].innerHTML =  checked + '/' + count;
+                    this.innerHTML = $(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
                     $(this).removeClass('bg-success').addClass('bg-info');
                     $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
-                // $(this).parent('h3').next('div').children('h4').addClass('completed');// Hide all subheadings...
-                // $(this).parent('h3').next('div').children('ul').children('li').children('div').children('label:not(.completed)').parent('div').parent('li').parent('ul').prev('h4').removeClass('completed');// ... except those where not all entries below the subheading are labeled as completed
             });
+            checklist_totals[this.id] = [overallChecked, overallCount];
             if (overallChecked === overallCount) {
                 this.innerHTML = 'DONE';
                 $(this).removeClass('in_progress').addClass('done');
