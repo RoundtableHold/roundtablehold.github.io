@@ -4,12 +4,11 @@ table_widths: [2, 2, 8]
 sections:
   -
     title: "Whetstones"
-    id: 0
     table: ["Effect", "Location", "Notes"]
     items:
-      - [1, "Whetstone Knife", "Limgrave", "Found in a treasure chest underground in the Gatefront Ruins", "Can add new battle arts and affinities to weapons"]
-      - [2, "Iron Whetblade", "Limgrave", "Found on a corpse in a room accessible from the kitchen area. Require's a Stonesword key.", "Grants Quality, Keen, or Heavy affinity upgrade to weapon"]
-      - [3, "Glinstone Whetblade", "Liurnia of the Lakes", "Found on a corpse near the debate hall in Raya Lucaria Academy", "Grants Magic or Cold affinity upgrade to weapon"]
-      - [4, "Red-Hot Whetblade", "Caelid", "Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.", "Grants Fire and Flame Art affinity upgrade to weapon"]
-      - [5, "Black Whetblade", "Nokron", "Found on a corpse slumped in front of an altar in Night's Sacred Ground", "Grants Poison, Blood, or Occult affinity upgrade to weapon"]
-      - [6, "Sanctified Whetblade", "Leyndell, Royal Capital", "Found in the Fortified Manor, accessible from the Avenue Balcony Grace", "Grants Lightning or Sacred affinity upgrade to weapon"]
+      - ["0_1", "Whetstone Knife", "Limgrave", "Found in a treasure chest underground in the Gatefront Ruins", "Can add new battle arts and affinities to weapons"]
+      - ["0_2", "Iron Whetblade", "Limgrave", "Found on a corpse in a room accessible from the kitchen area. Require's a Stonesword key.", "Grants Quality, Keen, or Heavy affinity upgrade to weapon"]
+      - ["0_3", "Glinstone Whetblade", "Liurnia of the Lakes", "Found on a corpse near the debate hall in Raya Lucaria Academy", "Grants Magic or Cold affinity upgrade to weapon"]
+      - ["0_4", "Red-Hot Whetblade", "Caelid", "Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.", "Grants Fire and Flame Art affinity upgrade to weapon"]
+      - ["0_5", "Black Whetblade", "Nokron", "Found on a corpse slumped in front of an altar in Night's Sacred Ground", "Grants Poison, Blood, or Occult affinity upgrade to weapon"]
+      - ["0_6", "Sanctified Whetblade", "Leyndell, Royal Capital", "Found in the Fortified Manor, accessible from the Avenue Balcony Grace", "Grants Lightning or Sacred affinity upgrade to weapon"]

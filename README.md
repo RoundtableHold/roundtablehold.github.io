@@ -24,30 +24,31 @@ Each page of the site starts like this:
 ```yaml
 title: "Weapons"
 id: weapons
+table_widths: [6, 4, 2]
 sections:
 ```
+
+`title` is what appears on the page and the navigation bar. `id` has to be unique across all pages. `table_widths` is the proportional width of each column in the table. The numbers must add up to 12. Here we are saying there will be 3 columns, the first column is 6/12=50%, the 2nd column is 33%, and the 3rd column is 16%.
 
 Eeach section on a page starts like this:
 
 ```yaml
   -
     title: "Daggers"
-    id: 1
     link: "https://eldenring.wiki.fextralife.com/Daggers"
     items:
-      - [1, "Dagger"]
-      - [3, "You can embed links like this: <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\"Black Knife</a>"]
+      - [4, "Dagger"]
+      - [1, "You can embed links like this: <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\"Black Knife</a>"]
       - "You can put arbitrary text inbetween the checklists like this"
-      - [4, "You can put any html in here, <b>Bold!</b>, <i>Italic</i>, etc."]
+      - [3, "You can put any html in here, <b>Bold!</b>, <i>Italic</i>, etc."]
   -
     title: "Table example"
-    id: 2
     table: ["Column 1", "Column 2", "Column 3"] # If you don't want the table to have headers put "table: 3" instead where 3 is the number of columns
     items:
-      - [1, "Include a string for each column", "This is going in the second column", "And this the third"]
+      - [2, "Include a string for each column", "This is going in the second column", "And this the third"]
 ```
 
-All ids have to be unique. Within an item the first number has to be uinque as well. If you are adding a new line find the biggest number in that section and increase it by 1. The numbers do not have to be in order and you should not ever change an existing number because it will break everyones saved progress.
+The first number in each item is the id. All ids have to be unique within a page. ids are used to keep track of users progress and do not effect the order of the elements on the page. If an id is already present you should never change it. You will see ids that look like this: `"1_12"`, this is a hold over from an old way of tracking ids. They look like this so that we wouldn't break user's existitng progress. ids can be anything as long as they are unique, but it's simplest to just count up. If you are adding a new line find the biggest number in that section and increase it by 1.
 
 If you added a new page you need to put your page in `pages.yaml` for it to show up.
 

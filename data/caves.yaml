@@ -4,96 +4,87 @@ table_widths: [2, 1, 4, 2, 3]
 sections:
   -
     title: "Limgrave"
-    id: 1
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Stranded Graveyard", "Cave", "Beginning of the game", "Soldier of Godrick", ""]
-      - [2, "Fringefolk Hero's Grave", "Catacombs", "Behind a fog wall in Stranded Graveyard", "Ulcerated Tree Sprit & Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
-      - [3, "Coastal Cave", "Cave", "Southern portion of the western beach", "Demi-Human Chief (x2)", "Related to Boc's questline."]
-      - [4, "Deathtouched Catacombs", "Catacombs", "West of Saintsbridge", "Black Knife Assassin", ""]
-      - [5, "Groveside Cave", "Cave", "Just north from the Church of Elleh", "Beastman of Farum Azula", ""]
-      - [6, "Highroad Cave", "Cave", "Northern tip of Limgrave", "Guardian Golem", ""]
-      - [7, "Limgrave Tunnels", "Tunnel", "Northern area of the Agheel Lake", "Stonedigger Troll", ""]
-      - [8, "Murkwater Catacombs", "Catacombs", "At the end of the river north of Agheel Lake", "Grave Warden Duelist", ""]
-      - [9, "Murkwater Cave", "Cave", "Middle of ravine in south of Agheel Lake", "Patches", ""]
-      - [10, "Stormfoot Catacombs", "Catacombs", "Northwest of Church of Elleh", "Erdtree Burial Watchdog", ""]
+      - ["1_1", "Stranded Graveyard", "Cave", "Beginning of the game", "Soldier of Godrick", ""]
+      - ["1_2", "Fringefolk Hero's Grave", "Catacombs", "Behind a fog wall in Stranded Graveyard", "Ulcerated Tree Sprit & Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
+      - ["1_3", "Coastal Cave", "Cave", "Southern portion of the western beach", "Demi-Human Chief (x2)", "Related to Boc's questline."]
+      - ["1_4", "Deathtouched Catacombs", "Catacombs", "West of Saintsbridge", "Black Knife Assassin", ""]
+      - ["1_5", "Groveside Cave", "Cave", "Just north from the Church of Elleh", "Beastman of Farum Azula", ""]
+      - ["1_6", "Highroad Cave", "Cave", "Northern tip of Limgrave", "Guardian Golem", ""]
+      - ["1_7", "Limgrave Tunnels", "Tunnel", "Northern area of the Agheel Lake", "Stonedigger Troll", ""]
+      - ["1_8", "Murkwater Catacombs", "Catacombs", "At the end of the river north of Agheel Lake", "Grave Warden Duelist", ""]
+      - ["1_9", "Murkwater Cave", "Cave", "Middle of ravine in south of Agheel Lake", "Patches", ""]
+      - ["1_10", "Stormfoot Catacombs", "Catacombs", "Northwest of Church of Elleh", "Erdtree Burial Watchdog", ""]
   -
     title: "Weeping Peninsula"
-    id: 0
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Earthbore Cave", "Cave", "West of the Forest Lookout Tower", "Runebear", ""]
-      - [2, "Impaler's Catacombs", "Catacombs", "Northeast of Weeping Peninsula", "Erdtree Burial Watchdog", ""]
-      - [3, "Morne Tunnel", "Tunnel", "Southern tip of canyon west of Ailing Village", "Scaly Misbegotten", ""]
-      - [4, "Tombsward Catacombs", "Catacombs", "North of Minor Erdtree", "Cemetary Shade", ""]
-      - [5, "Tombsward Cave", "Cave", "South of the Weeping Evergaol", "Miranda, the Blighted Bloom", ""]
+      - ["0_1", "Earthbore Cave", "Cave", "West of the Forest Lookout Tower", "Runebear", ""]
+      - ["0_2", "Impaler's Catacombs", "Catacombs", "Northeast of Weeping Peninsula", "Erdtree Burial Watchdog", ""]
+      - ["0_3", "Morne Tunnel", "Tunnel", "Southern tip of canyon west of Ailing Village", "Scaly Misbegotten", ""]
+      - ["0_4", "Tombsward Catacombs", "Catacombs", "North of Minor Erdtree", "Cemetary Shade", ""]
+      - ["0_5", "Tombsward Cave", "Cave", "South of the Weeping Evergaol", "Miranda, the Blighted Bloom", ""]
   -
     title: "Liurnia of the Lake"
-    id: 2
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Academy Crystal Cave", "Cave", "West of Raya Lucaria Academy", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
-      - [2, "Black Knife Catacombs", "Catacombs", "Northeast of the Ruined Labyrinth Grace", "Black Knife Assassin & Cemetery Shade", "Has 1 Imp Statue inside."]
-      - [3, "Cliffbottom Catacombs", "Catacombs", "Southeast of Highway Lookout Tower", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
-      - [4, "Lakeside Crystal Cave", "Cave", "South from the Scenic Isle Grace", "Bloodhound Knight", ""]
-      - [5, "Raya Lucaria Crystal Tunnel", "Tunnel", "Near the Mausoleum in the northeast of the lake", "Crystalian (Ringblade)", ""]
-      - [6, "Road's End Catacombs", "Catacombs", "Southwest of Minor Erdtree", "Spirit-Caller Snail", ""]
-      - [7, "Ruin-Strewn Precipice", "Cliffside", "North edge of the lake, at the end of the river", "Magma Wyrm Makar", "Alternate entryway to Altus Plateau."]
-      - [8, "Stillwater Cave", "Cave", "Southeast edge of the lake", "Cleanrot Knight", ""]
+      - ["2_1", "Academy Crystal Cave", "Cave", "West of Raya Lucaria Academy", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
+      - ["2_2", "Black Knife Catacombs", "Catacombs", "Northeast of the Ruined Labyrinth Grace", "Black Knife Assassin & Cemetery Shade", "Has 1 Imp Statue inside."]
+      - ["2_3", "Cliffbottom Catacombs", "Catacombs", "Southeast of Highway Lookout Tower", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
+      - ["2_4", "Lakeside Crystal Cave", "Cave", "South from the Scenic Isle Grace", "Bloodhound Knight", ""]
+      - ["2_5", "Raya Lucaria Crystal Tunnel", "Tunnel", "Near the Mausoleum in the northeast of the lake", "Crystalian (Ringblade)", ""]
+      - ["2_6", "Road's End Catacombs", "Catacombs", "Southwest of Minor Erdtree", "Spirit-Caller Snail", ""]
+      - ["2_7", "Ruin-Strewn Precipice", "Cliffside", "North edge of the lake, at the end of the river", "Magma Wyrm Makar", "Alternate entryway to Altus Plateau."]
+      - ["2_8", "Stillwater Cave", "Cave", "Southeast edge of the lake", "Cleanrot Knight", ""]
   -
     title: "Caelid"
-    id: 3
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Abandoned Cave", "Cave", "East of Smoldering Wall Grace on canyon wall", "Cleanrot Knight (x2)", ""]
-      - [2, "Caelid Catacombs", "Catacombs", "East of the Cathedral of Dragon Communion", "Cemetery Shade", ""]
-      - [3, "Gael Tunnel", "Tunnel", "Near western cliffs of Caelid, bordering Limgrave", "Magma Wyrm", ""]
-      - [4, "Gaol Cave", "Cave", "Southeast of Fort Gael, in a scarlet swamp", "Frenzied Duelist", "Requires 2 Stonesword Keys."]
-      - [5, "Minor Erdtree Catacombs", "Catacombs", "Behind Minor Erdtree", "Erdtree Burial Watchdog (x2)", ""]
-      - [6, "Sellia Crystal Tunnel", "Tunnel", "Northern tip of the Swamp of Aeonia", "Fallingstar Beast", ""]
-      - [7, "Dragonbarrow Cave", "Cave", "North of the Minor Erdtree in Dragonbarrow", "Beastman of Farum Azula (x2)", ""]
-      - [8, "War-Dead Catacombs", "Catacombs", "Northern edge of the Wailing Dunes", "Putrid Tree Spirit", ""]
+      - ["3_1", "Abandoned Cave", "Cave", "East of Smoldering Wall Grace on canyon wall", "Cleanrot Knight (x2)", ""]
+      - ["3_2", "Caelid Catacombs", "Catacombs", "East of the Cathedral of Dragon Communion", "Cemetery Shade", ""]
+      - ["3_3", "Gael Tunnel", "Tunnel", "Near western cliffs of Caelid, bordering Limgrave", "Magma Wyrm", ""]
+      - ["3_4", "Gaol Cave", "Cave", "Southeast of Fort Gael, in a scarlet swamp", "Frenzied Duelist", "Requires 2 Stonesword Keys."]
+      - ["3_5", "Minor Erdtree Catacombs", "Catacombs", "Behind Minor Erdtree", "Erdtree Burial Watchdog (x2)", ""]
+      - ["3_6", "Sellia Crystal Tunnel", "Tunnel", "Northern tip of the Swamp of Aeonia", "Fallingstar Beast", ""]
+      - ["3_7", "Dragonbarrow Cave", "Cave", "North of the Minor Erdtree in Dragonbarrow", "Beastman of Farum Azula (x2)", ""]
+      - ["3_8", "War-Dead Catacombs", "Catacombs", "Northern edge of the Wailing Dunes", "Putrid Tree Spirit", ""]
   -
     title: "Altus Plateau"
-    id: 4
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Old Altus Tunnel", "Tunnel", "West Altus Plateau, in the ravine", "Stonedigger Troll", ""]
-      - [2, "Altus Tunnel", "Tunnel", "South from the Minor Erdtree", "Crystalian (x2)", ""]
-      - [3, "Perfumer's Grotto", "Cave", "Near the bridge leading into Leyndell on the east", "Omenkiller & Miranda, the Blighted Bloom", ""]
-      - [4, "Sainted Hero's Grave", "Catacombs", "West of Rampartside Path", "Ancient Hero of Zamor", "Requires 2 Stonesword Keys."]
+      - ["4_1", "Old Altus Tunnel", "Tunnel", "West Altus Plateau, in the ravine", "Stonedigger Troll", ""]
+      - ["4_2", "Altus Tunnel", "Tunnel", "South from the Minor Erdtree", "Crystalian (x2)", ""]
+      - ["4_3", "Perfumer's Grotto", "Cave", "Near the bridge leading into Leyndell on the east", "Omenkiller & Miranda, the Blighted Bloom", ""]
+      - ["4_4", "Sainted Hero's Grave", "Catacombs", "West of Rampartside Path", "Ancient Hero of Zamor", "Requires 2 Stonesword Keys."]
   -
     title: "Mt. Gelmir"
-    id: 5
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Gelmir Hero's Grave", "Catacombs", "North of Hermit Village, over the chasm", "Red Wolf of the Champion", ""]
-      - [2, "Sage's Cave", "Cave", "South of Seethewater River Grace", "Black Knife Assassin & Necromancer Garris", ""]
-      - [3, "Seethewater Cave", "Cave", "Northern edge of the ravine near Wyndham Ruins", "Kindred of Rot", "Requires 2 Stonesword Keys."]
-      - [4, "Unsightly Catacombs", "Catacombs", "West of Perfumer's Ruins", "Perfumer Tricia & Misbegotten Warrior", "Requires 2 Stonesword Keys."]
-      - [5, "Volcano Cave", "Cave", "Northern tip of Mt. Gelmir", "Demi-Human Queen Margot", ""]
-      - [6, "Wyndham Catacombs", "Catacombs", "Northwest of Wyndham Ruins", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
+      - ["5_1", "Gelmir Hero's Grave", "Catacombs", "North of Hermit Village, over the chasm", "Red Wolf of the Champion", ""]
+      - ["5_2", "Sage's Cave", "Cave", "South of Seethewater River Grace", "Black Knife Assassin & Necromancer Garris", ""]
+      - ["5_3", "Seethewater Cave", "Cave", "Northern edge of the ravine near Wyndham Ruins", "Kindred of Rot", "Requires 2 Stonesword Keys."]
+      - ["5_4", "Unsightly Catacombs", "Catacombs", "West of Perfumer's Ruins", "Perfumer Tricia & Misbegotten Warrior", "Requires 2 Stonesword Keys."]
+      - ["5_5", "Volcano Cave", "Cave", "Northern tip of Mt. Gelmir", "Demi-Human Queen Margot", ""]
+      - ["5_6", "Wyndham Catacombs", "Catacombs", "Northwest of Wyndham Ruins", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
   -
     title: "Leyndell, Royal Capital"
-    id: 6
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Sealed Tunnel", "Tunnel", "Southern edge of Capital Outskirts", "Onyx Lord", ""]
-      - [2, "Auriza's Hero Grave", "Catacombs", "Eastern section of the Capital Outskirts", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
-      - [3, "Leyndell Catacombs", "Catacombs", "Inside the Subterranean Shunning-Grounds", "Esgar, Priest of Blood", ""]
+      - ["6_1", "Sealed Tunnel", "Tunnel", "Southern edge of Capital Outskirts", "Onyx Lord", ""]
+      - ["6_2", "Auriza's Hero Grave", "Catacombs", "Eastern section of the Capital Outskirts", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
+      - ["6_3", "Leyndell Catacombs", "Catacombs", "Inside the Subterranean Shunning-Grounds", "Esgar, Priest of Blood", ""]
   -
     title: "Mountaintops of the Giants"
-    id: 7
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Giant-Conquering Hero's Grave", "Catacombs", "Northeast of Zamor Ruins", "Ancient Hero of Zamor", ""]
-      - [2, "Giants' Mountaintop Catacombs", "Catacombs", "Northeast of Zamor Ruins", "Ulcerated Tree Sprit", ""]
-      - [3, "Spiritcaller's Cave", "Cave", "Western bank of the Freezing Lake", "Godskin Apostle & Godskin Noble", "Requires 2 Stonesword Keys."]
+      - ["7_1", "Giant-Conquering Hero's Grave", "Catacombs", "Northeast of Zamor Ruins", "Ancient Hero of Zamor", ""]
+      - ["7_2", "Giants' Mountaintop Catacombs", "Catacombs", "Northeast of Zamor Ruins", "Ulcerated Tree Sprit", ""]
+      - ["7_3", "Spiritcaller's Cave", "Cave", "Western bank of the Freezing Lake", "Godskin Apostle & Godskin Noble", "Requires 2 Stonesword Keys."]
   -
     title: "Consecrated Snowfields"
-    id: 8
     table: ["Name", "Type", "Location", "Bosses", "Notes"]
     items:
-      - [1, "Consecrated Snowfield Catacombs", "Catacombs", "Eastern cliffs of the Consecrated Snowfields", "Putrid Grave Warden Duelist", ""]
-      - [2, "Hidden Path to the Haligtree", "Tunnel", "Use secret medallion at Grand Lift of Rold", "Stray Mimic Tear", ""]
-      - [3, "Yelough Anix Tunnel", "Tunnel", "South of the Yelough Anix Ruins", "Astel, Stars of Darkness", ""]
+      - ["8_1", "Consecrated Snowfield Catacombs", "Catacombs", "Eastern cliffs of the Consecrated Snowfields", "Putrid Grave Warden Duelist", ""]
+      - ["8_2", "Hidden Path to the Haligtree", "Tunnel", "Use secret medallion at Grand Lift of Rold", "Stray Mimic Tear", ""]
+      - ["8_3", "Yelough Anix Tunnel", "Tunnel", "South of the Yelough Anix Ruins", "Astel, Stars of Darkness", ""]

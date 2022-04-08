@@ -4,38 +4,32 @@ table_widths: [3, 5, 4]
 sections:
   -
     title: "Limgrave"
-    id: 1
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "Stormveil Castle, in a study room in the heavily guarded courtyard", "Warhawk Ashes"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homecoming Painting</a>", "Artist's Shack", "Incantation Scarab Armor"]
+      - ["1_1", "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "Stormveil Castle, in a study room in the heavily guarded courtyard", "Warhawk Ashes"]
+      - ["1_2", "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homecoming Painting</a>", "Artist's Shack", "Incantation Scarab Armor"]
   -
     title: "Liurnia of the Lakes"
-    id: 2
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "Artist's Shack", "Juvenile Scholar Robe and Cap, Larval Tear"]
+      - ["2_1", "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "Artist's Shack", "Juvenile Scholar Robe and Cap, Larval Tear"]
   -
     title: "Caelid"
-    id: 3
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "Sellia, Town of Sorcery", "Ash of War: Rain of Arrows"]
+      - ["3_1", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "Sellia, Town of Sorcery", "Ash of War: Rain of Arrows"]
   -
     title: "Altus Plateau"
-    id: 4
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "Shaded Castle", "Harp Bow"]
+      - ["4_1", "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "Shaded Castle", "Harp Bow"]
   -
     title: "Leyndall, Royal Capital"
-    id: 5
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "Fortified Manor", "Fire's Deadly Sin incantation"]
+      - ["5_1", "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "Fortified Manor", "Fire's Deadly Sin incantation"]
   -
     title: "Mountaintop of the Giants"
-    id: 6
     table: ["Name", "Acquisition", "Items Given"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "Castle Sol", "Greathood Helm"]
+      - ["6_1", "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "Castle Sol", "Greathood Helm"]

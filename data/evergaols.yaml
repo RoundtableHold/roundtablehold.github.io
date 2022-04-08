@@ -4,41 +4,35 @@ table_widths: [2, 3, 3, 4]
 sections:
   -
     title: "Limgrave"
-    id: 1
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Forlorn Hound Evergaol", "South of Agheel Lake", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
-      - [2, "Stormhill Evergaol", "Southwest of Stormgate", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
+      - ["1_1", "Forlorn Hound Evergaol", "South of Agheel Lake", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
+      - ["1_2", "Stormhill Evergaol", "Southwest of Stormgate", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
   -
     title: "Weeping Peninsula"
-    id: 0
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Weeping Evergaol", "East of the Fourth Church of Marika", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
+      - ["0_1", "Weeping Evergaol", "East of the Fourth Church of Marika", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
   -
     title: "Liurnia of the Lakes"
-    id: 2
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Cuckoo's Evergaol", "North of the minor erdtree in west liurnia", "Bols, Carian Knight", "Greatblade Phalanx (Sorcery)"]
-      - [2, "Malefactor's Evergaol", "South of Liurnia of the Lakes (Cliffs)", "Adan, Thief of Fire", "Flame of the Fell God (Incantation)"]
-      - [3, "Royal Grave Evergaol", "Northeast of Caria Manor", "Alabaster Lord", "Meteorite (Sorcery)"]
-      - [4, "Ringleader's Evergaol", "West of the Moonfolk Ruins", "Alecto, Black Knife Ringleader", "Black Knife Tiche (Ashen Remains)"]
+      - ["2_1", "Cuckoo's Evergaol", "North of the minor erdtree in west liurnia", "Bols, Carian Knight", "Greatblade Phalanx (Sorcery)"]
+      - ["2_2", "Malefactor's Evergaol", "South of Liurnia of the Lakes (Cliffs)", "Adan, Thief of Fire", "Flame of the Fell God (Incantation)"]
+      - ["2_3", "Royal Grave Evergaol", "Northeast of Caria Manor", "Alabaster Lord", "Meteorite (Sorcery)"]
+      - ["2_4", "Ringleader's Evergaol", "West of the Moonfolk Ruins", "Alecto, Black Knife Ringleader", "Black Knife Tiche (Ashen Remains)"]
   -
     title: "Caelid"
-    id: 3
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Sellia Evergaol", "Southwest of the Sellia Crystal Tunnels", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
+      - ["3_1", "Sellia Evergaol", "Southwest of the Sellia Crystal Tunnels", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
   -
     title: "Atlus Plateau"
-    id: 4
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Golden Lineage Evergaol", "East of the Grand Lift of Dectus", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
+      - ["4_1", "Golden Lineage Evergaol", "East of the Grand Lift of Dectus", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
   -
     title: "Mountaintop of Giants"
-    id: 5
     table: ["Name", "Location", "Bosses", "Rewards"]
     items:
-      - [1, "Lord Contender's Evergaol", "West of the First Church of Marika ", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
+      - ["5_1", "Lord Contender's Evergaol", "West of the First Church of Marika ", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
