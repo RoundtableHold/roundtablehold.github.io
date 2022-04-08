@@ -4,217 +4,198 @@ table_widths: [2, 5, 5]
 sections:
   -
     title: "Limgrave"
-    id: 2
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Crimson Amber Medallion", "Can choose one as a Keepsake", "Raises maximum HP by ~6%"]
-      - [2, "Roar Medallion", "Dropped by the Stonedigger Troll, located in the Limgrave Tunnels", "Enhances roars and breath attacks"]
-      - [3, "Flamedrake Talisman", "Dropped by the Beastman of Farum Azula in Groveside Cave in Limgrave", "Boosts fire damage negation by 13%"]
-      - [4, "Haligdrake Talisman", "Found on a corpse in the Stranded Graveyard, but only accessible via the beach below the Seaside Ruins Grace by 13%", "Boosts holy damage negation"]
-      - [5, "Axe Talisman", "Found in a cellar underneath the Mistwood Ruins", "Enhances charge attacks by 10%"]
-      - [6, "Prince of Death's Pustule", "Found in the Stormveil Castle Crypts, most easily accessible via the Rampart Tower Grace", "Raises Vitality by 90."]
-      - [7, "Claw Talisman", "Found on a corpse situated in a watchtower accessible from the Rampart Tower Grace", "Enhances jump attacks by 15%"]
-      - [8, "Curved Sword Talisman", "Found in a treasure chest inside the room where you fight the Banished Knight in Stormveil Castle", "Enhances guard counters by 20%"]
-      - [9, "Boltdrake Talisman", "Found on a corpse on the way to the Divine Tower of Limgrave", "Boosts lightning damage negation by 13%"]
-      - [10, "Green Turtle Talisman", "Found in the underground area on the outskirts of Summonwater Village", "Raises stamina recovery speed by 8 points per second (+17.7%)"]
-      - [11, "Hammer Talisman", "Dropped by Recusant Henricus northeast of Stormhill Shack", "Enhances stamina-reducing attacks against blockers by 20%"]
-      - [12, "Arrow's Reach Talisman", "Found in a treasure chest inside the Stormgate Towers", "Increases bow effective range"]
-      - [13, "Blue Dancer Charm", "Dropped by the Guardian Golem in Highroad Cave", "Raises attack power with lower equipment load"]
-      - [14, "Lance Talisman", "Found in the Northeast Stormhill", "Enhances attacks on horseback by 15%"]
-      - [15, "Sacrificial Twig", "Can be purchased from Patches at Murkwater Cave after he sets up shop for 5,000 runes", "Will be lost on death in place of runes"]
-      - [16, "Erdtree's Favor", "Found in the Fringefolk Hero's Grave, guarded by two Grafted Scions in a secret area", "Raises maximum HP (3%), Stamina (6.75%) and Equip Load (5%)"]
-      - [17, "Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low (Activates under 20% health, raises damage negation by: current damage negation / 2 + 50)"]
-      - [18, "Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP (Heals 10% of max HP + 85 HP)"]
-      - [19, "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation. (Holy damage is increased by 12% in PvE and 8% in PvP. Increases physical damage taken by 10% in PvE and 15% in PvP.)"]
+      - ["2_1", "Crimson Amber Medallion", "Can choose one as a Keepsake", "Raises maximum HP by ~6%"]
+      - ["2_2", "Roar Medallion", "Dropped by the Stonedigger Troll, located in the Limgrave Tunnels", "Enhances roars and breath attacks"]
+      - ["2_3", "Flamedrake Talisman", "Dropped by the Beastman of Farum Azula in Groveside Cave in Limgrave", "Boosts fire damage negation by 13%"]
+      - ["2_4", "Haligdrake Talisman", "Found on a corpse in the Stranded Graveyard, but only accessible via the beach below the Seaside Ruins Grace by 13%", "Boosts holy damage negation"]
+      - ["2_5", "Axe Talisman", "Found in a cellar underneath the Mistwood Ruins", "Enhances charge attacks by 10%"]
+      - ["2_6", "Prince of Death's Pustule", "Found in the Stormveil Castle Crypts, most easily accessible via the Rampart Tower Grace", "Raises Vitality by 90."]
+      - ["2_7", "Claw Talisman", "Found on a corpse situated in a watchtower accessible from the Rampart Tower Grace", "Enhances jump attacks by 15%"]
+      - ["2_8", "Curved Sword Talisman", "Found in a treasure chest inside the room where you fight the Banished Knight in Stormveil Castle", "Enhances guard counters by 20%"]
+      - ["2_9", "Boltdrake Talisman", "Found on a corpse on the way to the Divine Tower of Limgrave", "Boosts lightning damage negation by 13%"]
+      - ["2_10", "Green Turtle Talisman", "Found in the underground area on the outskirts of Summonwater Village", "Raises stamina recovery speed by 8 points per second (+17.7%)"]
+      - ["2_11", "Hammer Talisman", "Dropped by Recusant Henricus northeast of Stormhill Shack", "Enhances stamina-reducing attacks against blockers by 20%"]
+      - ["2_12", "Arrow's Reach Talisman", "Found in a treasure chest inside the Stormgate Towers", "Increases bow effective range"]
+      - ["2_13", "Blue Dancer Charm", "Dropped by the Guardian Golem in Highroad Cave", "Raises attack power with lower equipment load"]
+      - ["2_14", "Lance Talisman", "Found in the Northeast Stormhill", "Enhances attacks on horseback by 15%"]
+      - ["2_15", "Sacrificial Twig", "Can be purchased from Patches at Murkwater Cave after he sets up shop for 5,000 runes", "Will be lost on death in place of runes"]
+      - ["2_16", "Erdtree's Favor", "Found in the Fringefolk Hero's Grave, guarded by two Grafted Scions in a secret area", "Raises maximum HP (3%), Stamina (6.75%) and Equip Load (5%)"]
+      - ["2_17", "Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low (Activates under 20% health, raises damage negation by: current damage negation / 2 + 50)"]
+      - ["2_18", "Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP (Heals 10% of max HP + 85 HP)"]
+      - ["2_19", "Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation. (Holy damage is increased by 12% in PvE and 8% in PvP. Increases physical damage taken by 10% in PvE and 15% in PvP.)"]
   -
     title: "Weeping Peninsula"
-    id: 1
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
-      - [2, "Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
-      - [3, "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina by 11%"]
-      - [4, "Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
-      - [5, "Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation (PvE: 13%; PVP: 4%)"]
-      - [6, "Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
-      - [7, "Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks by 20%"]
+      - ["1_1", "Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
+      - ["1_2", "Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
+      - ["1_3", "Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina by 11%"]
+      - ["1_4", "Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
+      - ["1_5", "Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation (PvE: 13%; PVP: 4%)"]
+      - ["1_6", "Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
+      - ["1_7", "Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks by 20%"]
   -
     title: "Roundtable Hold"
-    id: 3
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Arsenal Charm", "Obtained by talking to Nepheli Loux after beating Godrick the Grafted in Stormveil Castle", "Raises maximum equipment weight by 15%"]
-      - [2, "Furled Finger's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a Host of Fingers"]
-      - [3, "Host's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a cooperator"]
-      - [4, "Ancestral Spirit's Horn", "Unlocked via the Remembrance of the Regal Ancestor", "Restores FP upon defeating enemies (3 FP per kill)"]
+      - ["3_1", "Arsenal Charm", "Obtained by talking to Nepheli Loux after beating Godrick the Grafted in Stormveil Castle", "Raises maximum equipment weight by 15%"]
+      - ["3_2", "Furled Finger's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a Host of Fingers"]
+      - ["3_3", "Host's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a cooperator"]
+      - ["3_4", "Ancestral Spirit's Horn", "Unlocked via the Remembrance of the Regal Ancestor", "Restores FP upon defeating enemies (3 FP per kill)"]
   -
     title: "Liurnia of the Lakes"
-    id: 4
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Assassin's Cerulean Dagger", "Dropped by the Black Knife Assassin in Black Knife Catacombs", "Critical hits restores 15 FP"]
-      - [2, "Sacrificial Twig", "Found on a corpse in Southern Liurnia of the Lakes, only accessible from the top, east of Malefactor's Evergaol", "Will be lost on death in place of runes"]
-      - [3, "Graven-School Talisman", "Found in a room filled with Potboys behind a illusory wall and a ladder in Raya Lucaria Academy, near the Debate Parlor Grace", "Raises potency of sorceries by 8%."]
-      - [4, "Radagon Icon", "Found in the second floor of the Debate Parlor, Can be reached by jumping a fence in the courtyard", "Shortens spell casting time. (Gives 30 virtual dexterity towards exclusively spellcasting (both sorceries and incantations). Casting speed is capped at 70 dexterity.)"]
-      - [5, "Longtail Cat Talisman", "Found on a corpse at the bottom of the spinning wheel in Raya Lucaria Academy", "Renders the wearer immune to fall damage(not)"]
-      - [6, "Cerulean Amber Medallion", "Dropped by the Bloodhound Knight in Lakeside Crystal Cave", "Raises maximum FP by 7%."]
-      - [7, "Cerulean Amber Medallion +2", "Found in a treasure chest in an underground room northwest of Lunar Estate ruins", "Raises maximum FP by 11%."]
-      - [8, "Stargazer Heirloom", "Found on a corpse lying at the top of the Divine Tower of Liurnia", "Raises intelligence by 5."]
-      - [9, "Two Fingers Heirloom", "Found on the lower level of the Purified Ruins", "Raises faith by 5."]
-      - [10, "Winged Sword Insignia", "Dropped by the Cleanrot Knight in Stillwater Cave", "Raises attack power with successive attacks"]
-      - [11, "Stalwart Horn Charm", "Found on a corpse in Eastern Liurnia, on the cliffs the west from the Mausoleum Compound Grace", "Greatly raises robustness (+90)"]
-      - [12, "Magic Scorpion Charm", "Obtained by talking Preceptor Seluvis after obtaining the Fingerslayer Blade but before giving it to Ranni the Witch", "Raises magic attack (12%), but lowers damage negation (10%)"]
-      - [13, "Red-Feathered Branchsword", "Dropped by the Deathbird northeast of Scenic Isle Grace", "Raises attack power by 20% when HP is low (below 20%)."]
-      - [14, "Spear Talisman", "Found in a treasure chest inside Lakeside Crystal Cave near a demi-human campfire", "Enhances counterattacks unique to thrusting weapons (13%)"]
-      - [15, "Pearldrake Talisman", "Found behind the first waygate of The Four Belfries", "Boosts non-physical damage negation (5%)"]
-      - [16, "Cerulean Seed Talisman", "Found in the rafters of Carian Study Hall, accessible from the roofs", "Boosts FP restoration from Flask of Cerulean Tears.(20%)"]
-      - [17, "Crucible Knot Talisman", "Dropped by the Omenkiller, located in the Village of the Albinaurics", "Reduces damage and impact of headshots taken."]
-      - [18, "Carian Filigreed Crest", "Can be purchased from War Counselor Iji if you defeat Bloodhound Knight Darriwil without Blaidd's help, for 1,000 runes", "Lowers FP consumed by skills by 25%."]
-      - [19, "Shabriri's Woe", "Found on a corpse at the edge of the Frenzied Flame Village", "Constantly attracts enemies' aggression."]
-      - [20, "Companion Jar", "Received from Jar Bairn after completing his quest", "Raises potency of throwing pots (20% damage up)"]
+      - ["4_1", "Assassin's Cerulean Dagger", "Dropped by the Black Knife Assassin in Black Knife Catacombs", "Critical hits restores 15 FP"]
+      - ["4_2", "Sacrificial Twig", "Found on a corpse in Southern Liurnia of the Lakes, only accessible from the top, east of Malefactor's Evergaol", "Will be lost on death in place of runes"]
+      - ["4_3", "Graven-School Talisman", "Found in a room filled with Potboys behind a illusory wall and a ladder in Raya Lucaria Academy, near the Debate Parlor Grace", "Raises potency of sorceries by 8%."]
+      - ["4_4", "Radagon Icon", "Found in the second floor of the Debate Parlor, Can be reached by jumping a fence in the courtyard", "Shortens spell casting time. (Gives 30 virtual dexterity towards exclusively spellcasting (both sorceries and incantations). Casting speed is capped at 70 dexterity.)"]
+      - ["4_5", "Longtail Cat Talisman", "Found on a corpse at the bottom of the spinning wheel in Raya Lucaria Academy", "Renders the wearer immune to fall damage(not)"]
+      - ["4_6", "Cerulean Amber Medallion", "Dropped by the Bloodhound Knight in Lakeside Crystal Cave", "Raises maximum FP by 7%."]
+      - ["4_7", "Cerulean Amber Medallion +2", "Found in a treasure chest in an underground room northwest of Lunar Estate ruins", "Raises maximum FP by 11%."]
+      - ["4_8", "Stargazer Heirloom", "Found on a corpse lying at the top of the Divine Tower of Liurnia", "Raises intelligence by 5."]
+      - ["4_9", "Two Fingers Heirloom", "Found on the lower level of the Purified Ruins", "Raises faith by 5."]
+      - ["4_10", "Winged Sword Insignia", "Dropped by the Cleanrot Knight in Stillwater Cave", "Raises attack power with successive attacks"]
+      - ["4_11", "Stalwart Horn Charm", "Found on a corpse in Eastern Liurnia, on the cliffs the west from the Mausoleum Compound Grace", "Greatly raises robustness (+90)"]
+      - ["4_12", "Magic Scorpion Charm", "Obtained by talking Preceptor Seluvis after obtaining the Fingerslayer Blade but before giving it to Ranni the Witch", "Raises magic attack (12%), but lowers damage negation (10%)"]
+      - ["4_13", "Red-Feathered Branchsword", "Dropped by the Deathbird northeast of Scenic Isle Grace", "Raises attack power by 20% when HP is low (below 20%)."]
+      - ["4_14", "Spear Talisman", "Found in a treasure chest inside Lakeside Crystal Cave near a demi-human campfire", "Enhances counterattacks unique to thrusting weapons (13%)"]
+      - ["4_15", "Pearldrake Talisman", "Found behind the first waygate of The Four Belfries", "Boosts non-physical damage negation (5%)"]
+      - ["4_16", "Cerulean Seed Talisman", "Found in the rafters of Carian Study Hall, accessible from the roofs", "Boosts FP restoration from Flask of Cerulean Tears.(20%)"]
+      - ["4_17", "Crucible Knot Talisman", "Dropped by the Omenkiller, located in the Village of the Albinaurics", "Reduces damage and impact of headshots taken."]
+      - ["4_18", "Carian Filigreed Crest", "Can be purchased from War Counselor Iji if you defeat Bloodhound Knight Darriwil without Blaidd's help, for 1,000 runes", "Lowers FP consumed by skills by 25%."]
+      - ["4_19", "Shabriri's Woe", "Found on a corpse at the edge of the Frenzied Flame Village", "Constantly attracts enemies' aggression."]
+      - ["4_20", "Companion Jar", "Received from Jar Bairn after completing his quest", "Raises potency of throwing pots (20% damage up)"]
   -
     title: "Caelid"
-    id: 5
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Arrow's Sting Talisman", "Found in a treasure chest on the top of the tower directly above Impassable Greatbridge Grace", "Raises attack power of arrows and bolts (10%)."]
-      - [2, "Gold Scarab", "Dropped by Cleanrot Knight (Sickle) & Cleanrot Knight (Spear) in the Abandoned Cave", "Increases runes Obtained from defeated enemies by ~20%."]
-      - [3, "Great-Jar's Arsenal", "Reward for defeating the Knights of the Great Jar in Caelid, near the colosseum", "Vastly raises maximum equip load. (16-19% based on Endurance)"]
-      - [4, "Prosthesis-Wearer Heirloom", "Obtained by finishing the sidequest given by Gowry in Caelid, then returning to Millicent to receive the Talisman", "Raises Dexterity by 5."]
-      - [5, "Radagon's Soreseal", "Found in a corpse in Fort Faroth", "Raises physical attributes by 5, increases damage taken by ~15%"]
-      - [6, "Sacrificial Twig (x3)", "Can be purchased from the Isolated Merchant in Dragonbarrow for 3,000 runes", "Will be lost on death in place of runes"]
-      - [7, "Flamedrake Talisman +2", "Dropped by the Beastman of Farum Azula (x2) in Dragonbarrow Cave", "Boosts fire damage negation by 20%."]
-      - [8, "Bull-Goat's Talisman", "Found in the back in of Dragonbarrow Cave", "Raises Poise by ~33.3% rounded to the nearest integer."]
-      - [9, "Starscourge Heirloom", "Found in Fort Gael", "Raises Strength by 5"]
-      - [10, "Faithful's Canvas Talisman", "Found on a corpse in Sellia Crystal Tunnel", "Raises potency of Incantations by 4%."]
-      - [11, "Flock's Canvas Talisman", "Dropped by Gowry after completing the Millicent questline if you kill him", "Greatly raises the potency of Incantations by 8%."]
-      - [12, "Spelldrake Talisman +1", "Found in a small room in the northwest section of town, right under the balcony containing the Staff of Loss", "Boosts magical damage negation. (PvE: 17%; PVP: 5%)"]
-      - [13, "Dragoncrest Shield Talisman", "Found on one of the edges of Bestial Sanctum", "Massively boosts physical damage negation by 10%."]
+      - ["5_1", "Arrow's Sting Talisman", "Found in a treasure chest on the top of the tower directly above Impassable Greatbridge Grace", "Raises attack power of arrows and bolts (10%)."]
+      - ["5_2", "Gold Scarab", "Dropped by Cleanrot Knight (Sickle) & Cleanrot Knight (Spear) in the Abandoned Cave", "Increases runes Obtained from defeated enemies by ~20%."]
+      - ["5_3", "Great-Jar's Arsenal", "Reward for defeating the Knights of the Great Jar in Caelid, near the colosseum", "Vastly raises maximum equip load. (16-19% based on Endurance)"]
+      - ["5_4", "Prosthesis-Wearer Heirloom", "Obtained by finishing the sidequest given by Gowry in Caelid, then returning to Millicent to receive the Talisman", "Raises Dexterity by 5."]
+      - ["5_5", "Radagon's Soreseal", "Found in a corpse in Fort Faroth", "Raises physical attributes by 5, increases damage taken by ~15%"]
+      - ["5_6", "Sacrificial Twig (x3)", "Can be purchased from the Isolated Merchant in Dragonbarrow for 3,000 runes", "Will be lost on death in place of runes"]
+      - ["5_7", "Flamedrake Talisman +2", "Dropped by the Beastman of Farum Azula (x2) in Dragonbarrow Cave", "Boosts fire damage negation by 20%."]
+      - ["5_8", "Bull-Goat's Talisman", "Found in the back in of Dragonbarrow Cave", "Raises Poise by ~33.3% rounded to the nearest integer."]
+      - ["5_9", "Starscourge Heirloom", "Found in Fort Gael", "Raises Strength by 5"]
+      - ["5_10", "Faithful's Canvas Talisman", "Found on a corpse in Sellia Crystal Tunnel", "Raises potency of Incantations by 4%."]
+      - ["5_11", "Flock's Canvas Talisman", "Dropped by Gowry after completing the Millicent questline if you kill him", "Greatly raises the potency of Incantations by 8%."]
+      - ["5_12", "Spelldrake Talisman +1", "Found in a small room in the northwest section of town, right under the balcony containing the Staff of Loss", "Boosts magical damage negation. (PvE: 17%; PVP: 5%)"]
+      - ["5_13", "Dragoncrest Shield Talisman", "Found on one of the edges of Bestial Sanctum", "Massively boosts physical damage negation by 10%."]
   -
     title: "Altus Plateau"
-    id: 6
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Arsenal Charm +1", "Found on a corpse in the Altus Tunnel", "Raises maximum equipment load by 17%."]
-      - [2, "Lightning Scorpion Charm", "Found in the Wyndham Catacombs in a room sealed by an Imp Statue", "Raises lightning attack (12%), but lowers damage negation (10%)"]
-      - [3, "Ritual Sword Talisman", "Found in a treasure chest in Lux Ruins", "Raises attack power by 10% when HP is at maximum"]
-      - [4, "Perfumer's Talisman", "Found in a treasure in Perfumer's Ruins", "Raises potency of perfume items"]
-      - [5, "Godfrey Icon", "Dropped by Godefroy the Grafted in the Golden Lineage Evergaol", "Enhances charged spells and skills by 15%."]
-      - [6, "Dragoncrest Shield Talisman +1", "Found in the Sainted Hero's Grave behind an Imp Statue", "Boosts physical damage negation by 13%."]
-      - [7, "Boltdrake Talisman +1", "Found in the Old Altus Tunnel", "Boosts lightning damage negation by 17%."]
-      - [8, "Greatshield Talisman", "Found in a chest on a Wagon East Erdtree-Gazing Hill Grace", "Boosts guarding ability. (Multiplies your Guard Boost rating by 1.1, reducing the amount of stamina that is lost when you block attacks.)"]
-      - [9, "Crimson Seed Talisman", "Found in the Sainted Hero's Grave", "Boosts HP regeneration from Flask of Crimson Tears by 20%"]
-      - [10, "Concealing Veil", "Dropped by the Black Knife Assassin in Sage's Cave", "Conceals wearer while crouching away from foes."]
-      - [11, "Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Frace", "Will be lost on death in place of runes"]
+      - ["6_1", "Arsenal Charm +1", "Found on a corpse in the Altus Tunnel", "Raises maximum equipment load by 17%."]
+      - ["6_2", "Lightning Scorpion Charm", "Found in the Wyndham Catacombs in a room sealed by an Imp Statue", "Raises lightning attack (12%), but lowers damage negation (10%)"]
+      - ["6_3", "Ritual Sword Talisman", "Found in a treasure chest in Lux Ruins", "Raises attack power by 10% when HP is at maximum"]
+      - ["6_4", "Perfumer's Talisman", "Found in a treasure in Perfumer's Ruins", "Raises potency of perfume items"]
+      - ["6_5", "Godfrey Icon", "Dropped by Godefroy the Grafted in the Golden Lineage Evergaol", "Enhances charged spells and skills by 15%."]
+      - ["6_6", "Dragoncrest Shield Talisman +1", "Found in the Sainted Hero's Grave behind an Imp Statue", "Boosts physical damage negation by 13%."]
+      - ["6_7", "Boltdrake Talisman +1", "Found in the Old Altus Tunnel", "Boosts lightning damage negation by 17%."]
+      - ["6_8", "Greatshield Talisman", "Found in a chest on a Wagon East Erdtree-Gazing Hill Grace", "Boosts guarding ability. (Multiplies your Guard Boost rating by 1.1, reducing the amount of stamina that is lost when you block attacks.)"]
+      - ["6_9", "Crimson Seed Talisman", "Found in the Sainted Hero's Grave", "Boosts HP regeneration from Flask of Crimson Tears by 20%"]
+      - ["6_10", "Concealing Veil", "Dropped by the Black Knife Assassin in Sage's Cave", "Conceals wearer while crouching away from foes."]
+      - ["6_11", "Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Frace", "Will be lost on death in place of runes"]
   -
     title: "Mt. Gelmir"
-    id: 7
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Crimson Amber Medallion +1", "Found on a corpse in Volcano Manor, behind a Imp Statue, accessible from the Prison Church Grace", "Raises maximum HP by 7%."]
-      - [2, "Fire Scorpion Charm", "Found up the ramparts on a wooden platform to the west in Fort Laiedd within Mt. Gelmir", "Raises fire attack (12%), but lowers damage negations (10%)."]
-      - [4, "Dagger Talisman", "Found behind an Imp Statue, in Volcano Manor in the room before Rykard's portal", "Enhances critical hits by 17%."]
-      - [5, "Kindred of Rot's Exultation", "Dropped by the Kindred of Rot in Seethewater Cave", "Poisoning or rot in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a player or enemy nearby is inflicted with Poison or Scarlet Rot.)"]
-      - [6, "Pearldrake Talisman +1", "Found in a treasure chest behind an Imp Statue in Wyndham Ruins", "Boosts non-physical damage negation by 7%."]
-      - [7, "Taker's Cameo", "Reward from Tanith at Volcano Manor for doing the third part of the questline", "Restores HP upon defeating enemies. (3% of max HP + 30 HP)"]
-      - [8, "Crepus's Vial", "Reward for defeating Rileigh the Idle as part of the Volcano Manor questline", "Eliminates all sound made by the wearer during movement"]
-      - [9, "Daedicar's Woe", "Obtained at the end of Rya's questline after the Volcano Manor questline", "Increases damage taken by 100%."]
+      - ["7_1", "Crimson Amber Medallion +1", "Found on a corpse in Volcano Manor, behind a Imp Statue, accessible from the Prison Church Grace", "Raises maximum HP by 7%."]
+      - ["7_2", "Fire Scorpion Charm", "Found up the ramparts on a wooden platform to the west in Fort Laiedd within Mt. Gelmir", "Raises fire attack (12%), but lowers damage negations (10%)."]
+      - ["7_4", "Dagger Talisman", "Found behind an Imp Statue, in Volcano Manor in the room before Rykard's portal", "Enhances critical hits by 17%."]
+      - ["7_5", "Kindred of Rot's Exultation", "Dropped by the Kindred of Rot in Seethewater Cave", "Poisoning or rot in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a player or enemy nearby is inflicted with Poison or Scarlet Rot.)"]
+      - ["7_6", "Pearldrake Talisman +1", "Found in a treasure chest behind an Imp Statue in Wyndham Ruins", "Boosts non-physical damage negation by 7%."]
+      - ["7_7", "Taker's Cameo", "Reward from Tanith at Volcano Manor for doing the third part of the questline", "Restores HP upon defeating enemies. (3% of max HP + 30 HP)"]
+      - ["7_8", "Crepus's Vial", "Reward for defeating Rileigh the Idle as part of the Volcano Manor questline", "Eliminates all sound made by the wearer during movement"]
+      - ["7_9", "Daedicar's Woe", "Obtained at the end of Rya's questline after the Volcano Manor questline", "Increases damage taken by 100%."]
   -
     title: "Leyndell, Royal City"
-    id: 8
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Viridian Amber Medallion +1", "Dropped by Margit, the Fell Omen in Capital Outskirts", "Raises maximum stamina by 13%."]
-      - [2, "Erdtree's Favor +1", "Found in the boss room after beating Mohg, the Omen", "Raises maximum HP (3.5%), stamina (8.25%) and equip load (6.5%)"]
-      - [3, "Flamedrake Talisman +1", "Found on the ground against a column on the bridge with the Fell Twins", "Boosts fire damage negation by 17%."]
-      - [4, "Haligdrake Talisman +1", "Found on a corpse near the Leyndell Catacombs Grace behind two illusory walls", "Boosts holy damage negation by 17%."]
-      - [5, "Crucible Scale Talisman", "Found on a corpse in the Leyndell Catacombs, accessible by riding up the trap column", "Reduces damage taken from critical hits"]
-      - [6, "Crucible Feather Talisman", "Found in a secret area within the Auriza Hero's Grave", "Improves dodge rolling but increases damage taken by 30%."]
-      - [7, "Ritual Shield Talisman", "Found in front of the doors of the Leyndell Colosseum", "Raises defense by 30% when HP is at maximum"]
-      - [8, "Blessed Dew Talisman", "Found in a treasure chest on the Divine Bridge, guarded by a Golem", "Slowly restores HP (2 HP/sec)."]
+      - ["8_1", "Viridian Amber Medallion +1", "Dropped by Margit, the Fell Omen in Capital Outskirts", "Raises maximum stamina by 13%."]
+      - ["8_2", "Erdtree's Favor +1", "Found in the boss room after beating Mohg, the Omen", "Raises maximum HP (3.5%), stamina (8.25%) and equip load (6.5%)"]
+      - ["8_3", "Flamedrake Talisman +1", "Found on the ground against a column on the bridge with the Fell Twins", "Boosts fire damage negation by 17%."]
+      - ["8_4", "Haligdrake Talisman +1", "Found on a corpse near the Leyndell Catacombs Grace behind two illusory walls", "Boosts holy damage negation by 17%."]
+      - ["8_5", "Crucible Scale Talisman", "Found on a corpse in the Leyndell Catacombs, accessible by riding up the trap column", "Reduces damage taken from critical hits"]
+      - ["8_6", "Crucible Feather Talisman", "Found in a secret area within the Auriza Hero's Grave", "Improves dodge rolling but increases damage taken by 30%."]
+      - ["8_7", "Ritual Shield Talisman", "Found in front of the doors of the Leyndell Colosseum", "Raises defense by 30% when HP is at maximum"]
+      - ["8_8", "Blessed Dew Talisman", "Found in a treasure chest on the Divine Bridge, guarded by a Golem", "Slowly restores HP (2 HP/sec)."]
   -
     title: "Mountaintops of the Giants"
-    id: 9
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Cerulean Amber Medallion +1", "Found on a corpse hanging by a wooden ledge above the southern walls of Castle Sol", "Raises maximum FP by 9%."]
-      - [2, "Lord of Blood's Exultation", "Dropped by Esgar, Priest of Blood in Leyndell Catacombs", "Blood loss in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a nearby player or enemy is inflicted with blood loss.)"]
-      - [3, "Primal Glintstone Blade", "Found in a treasure chest in the underground area of the Stargazer Ruins", "Spells consume less FP (25%), but maximum HP is reduced (15%)."]
-      - [4, "Pearldrake Talisman +2", "Found on a corpse above the Haligtree Town Grace", "Boosts non-physical damage negation by 9%."]
-      - [5, "Godskin Swaddling Cloth", "Dropped by Godskin Apostle & Godskin Noble in the Spiritcaller's Cave", "Successive attacks restore HP (3% of max HP + 30 HP, timer resets at ~10 seconds)"]
+      - ["9_1", "Cerulean Amber Medallion +1", "Found on a corpse hanging by a wooden ledge above the southern walls of Castle Sol", "Raises maximum FP by 9%."]
+      - ["9_2", "Lord of Blood's Exultation", "Dropped by Esgar, Priest of Blood in Leyndell Catacombs", "Blood loss in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a nearby player or enemy is inflicted with blood loss.)"]
+      - ["9_3", "Primal Glintstone Blade", "Found in a treasure chest in the underground area of the Stargazer Ruins", "Spells consume less FP (25%), but maximum HP is reduced (15%)."]
+      - ["9_4", "Pearldrake Talisman +2", "Found on a corpse above the Haligtree Town Grace", "Boosts non-physical damage negation by 9%."]
+      - ["9_5", "Godskin Swaddling Cloth", "Dropped by Godskin Apostle & Godskin Noble in the Spiritcaller's Cave", "Successive attacks restore HP (3% of max HP + 30 HP, timer resets at ~10 seconds)"]
   -
     title: "Consecrated Snowfields"
-    id: 10
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Viridian Amber Medallion +2", "Found in a treasure chest accessible from the roof with the Summoning Snail near the Haligtree Town Plaza Grace", "Raises maximum stamina by 15%."]
-      - [2, "Silver Scarab", "Found in a treasure chest past an illusory wall in the Hidden Path to the Haligtree", "Raises item discovery by 75."]
-      - [3, "Stalwart Horn Charm +1", "Found on the west of Consecrated Snowfield, on the way to Yelough Anix Tunnel entrance", "Greatly raises robustness by 140."]
-      - [4, "Marika's Soreseal", "Found on an altar in a room requiring a Stonesword Key in Elphael, Brace of the Haligtree", "Greatly raises magical attributes by 5, but also increases damage taken by 15%."]
-      - [5, "Millicent's Prosthesis", "Obtained by killing Millicent at the end of her questline", "Boosts dexterity by 5, raises attack power with successive attacks"]
-      - [6, "Rotten Winged Sword Insignia", "Reward for choosing to assist Millicent and successfully defeating her sisters", "Greatly raises attack power with successive attacks. (Base increase is 6%, increases in increments of 4%)"]
-      - [7, "Graven-Mass Talisman", "Found at the top of Albinauric Rise within the eastern Consecrated Snowfield", "Greatly raises potency of sorceries by 8%."]
-      - [8, "Dragoncrest Greatshield Talisman", "Found in a treasure chest on an elevated platform inside the large building in the northeast of Elphael, Brace of the Haligtree", "Enormously boosts physical damage negation by 20%."]
-      - [9, "Spelldrake Talisman +2", "Found on a corpse in the secret catacombs underneath the Hidden Path to the Haligtree, to the right before the Stray Mimic Tear", "Boosts magical damage negation. (PvE: 20%; PVP: 6%)"]
+      - ["10_1", "Viridian Amber Medallion +2", "Found in a treasure chest accessible from the roof with the Summoning Snail near the Haligtree Town Plaza Grace", "Raises maximum stamina by 15%."]
+      - ["10_2", "Silver Scarab", "Found in a treasure chest past an illusory wall in the Hidden Path to the Haligtree", "Raises item discovery by 75."]
+      - ["10_3", "Stalwart Horn Charm +1", "Found on the west of Consecrated Snowfield, on the way to Yelough Anix Tunnel entrance", "Greatly raises robustness by 140."]
+      - ["10_4", "Marika's Soreseal", "Found on an altar in a room requiring a Stonesword Key in Elphael, Brace of the Haligtree", "Greatly raises magical attributes by 5, but also increases damage taken by 15%."]
+      - ["10_5", "Millicent's Prosthesis", "Obtained by killing Millicent at the end of her questline", "Boosts dexterity by 5, raises attack power with successive attacks"]
+      - ["10_6", "Rotten Winged Sword Insignia", "Reward for choosing to assist Millicent and successfully defeating her sisters", "Greatly raises attack power with successive attacks. (Base increase is 6%, increases in increments of 4%)"]
+      - ["10_7", "Graven-Mass Talisman", "Found at the top of Albinauric Rise within the eastern Consecrated Snowfield", "Greatly raises potency of sorceries by 8%."]
+      - ["10_8", "Dragoncrest Greatshield Talisman", "Found in a treasure chest on an elevated platform inside the large building in the northeast of Elphael, Brace of the Haligtree", "Enormously boosts physical damage negation by 20%."]
+      - ["10_9", "Spelldrake Talisman +2", "Found on a corpse in the secret catacombs underneath the Hidden Path to the Haligtree, to the right before the Stray Mimic Tear", "Boosts magical damage negation. (PvE: 20%; PVP: 6%)"]
   -
     title: "Crumbling Farum Azula"
-    id: 11
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Warrior Jar Shard", "Obtained by completing Iron Fist Alexander's questline", "Boosts the attack power of skills by 10%."]
-      - [2, "Shard of Alexander", "Obtained by completing Iron Fist Alexander's questline", "Greatly boosts the attack power of skills by 15%."]
-      - [3, "Old Lord's Talisman", "Found in a treasure chest to the east of the Dragon Temple Rooftops Grace", "Extends spell (and incantation) effect duration by 30%."]
-      - [4, "Dragoncrest Shield Talisman +2", "Found on a corpse in a floating platform between Dragon Temple Lift and Dragon Temple Rooftop", "Boosts physical damage negation by 17%."]
-      - [5, "Boltdrake Talisman +2", "Found on a corpse accessible by dropping off a cliff to the east of where there is/was an Ancient Dragon", "Boosts lightning damage negation by 20%."]
+      - ["11_1", "Warrior Jar Shard", "Obtained by completing Iron Fist Alexander's questline", "Boosts the attack power of skills by 10%."]
+      - ["11_2", "Shard of Alexander", "Obtained by completing Iron Fist Alexander's questline", "Greatly boosts the attack power of skills by 15%."]
+      - ["11_3", "Old Lord's Talisman", "Found in a treasure chest to the east of the Dragon Temple Rooftops Grace", "Extends spell (and incantation) effect duration by 30%."]
+      - ["11_4", "Dragoncrest Shield Talisman +2", "Found on a corpse in a floating platform between Dragon Temple Lift and Dragon Temple Rooftop", "Boosts physical damage negation by 17%."]
+      - ["11_5", "Boltdrake Talisman +2", "Found on a corpse accessible by dropping off a cliff to the east of where there is/was an Ancient Dragon", "Boosts lightning damage negation by 20%."]
   -
     title: "Leyndell, Capital of Ash"
-    id: 12
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Crimson Amber Medallion +2", "Found in Leyndell, Capital of Ash, just before entering the Subterranean Shunning-Grounds", "Raises max HP by 7.5%."]
-      - [2, "Erdtree's Favor +2", "Found on top of a branch jutting out of the ground in a large courtyard in the endgame", "Raises maximum HP (4%), stamina (9.6%) and equip load (8%)."]
+      - ["12_1", "Crimson Amber Medallion +2", "Found in Leyndell, Capital of Ash, just before entering the Subterranean Shunning-Grounds", "Raises max HP by 7.5%."]
+      - ["12_2", "Erdtree's Favor +2", "Found on top of a branch jutting out of the ground in a large courtyard in the endgame", "Raises maximum HP (4%), stamina (9.6%) and equip load (8%)."]
   -
     title: "Siofra River"
-    id: 13
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Clarifying Horn Charm", "Found on a corpse lying on the stairs leading to the lift going up to the Deep Siofra Well.", "Raises Focus by 90."]
-      - [2, "Marika's Scarseal", "Found on a corpse at the base of the waterfall Found at the highest level of Siofra River", "Raises magical attributes by 3, but also increases damage taken by 10%."]
+      - ["13_1", "Clarifying Horn Charm", "Found on a corpse lying on the stairs leading to the lift going up to the Deep Siofra Well.", "Raises Focus by 90."]
+      - ["13_2", "Marika's Scarseal", "Found on a corpse at the base of the waterfall Found at the highest level of Siofra River", "Raises magical attributes by 3, but also increases damage taken by 10%."]
   -
     title: "Nokron, Eternal City"
-    id: 14
     table: ["Name", "Location", "Effect(s)"]
     items:
-    - [1, "Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
-    - [2, "Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
-    - [3, "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
+      - ["14_1", "Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
+      - ["14_2", "Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
+      - ["14_3", "Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
   -
     title: "Mohgwyn Palace"
-    id: 15
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Haligdrake Talisman +2", "Found on a corpse in Mohgwyn Palace, in a small cluster of graves near a watchful Giant Crow perched up high", "Boosts holy damage negation by 20%."]
+      - ["15_1", "Haligdrake Talisman +2", "Found on a corpse in Mohgwyn Palace, in a small cluster of graves near a watchful Giant Crow perched up high", "Boosts holy damage negation by 20%."]
   -
     title: "Ainsel River"
-    id: 16
     table: ["Name", "Location", "Effect(s)"]
     items:
-    - [1, "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
+      - ["16_1", "Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
   -
     title: "Nokstella, Eternal City"
-    id: 17
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Moon of Nokstella", "Found in a chest underneath a massive throne in Nokstella, Eternal City", "Increases memory slots by 2."]
+      - ["17_1", "Moon of Nokstella", "Found in a chest underneath a massive throne in Nokstella, Eternal City", "Increases memory slots by 2."]
   -
     title: "Lake of Rot"
-    id: 18
     table: ["Name", "Location", "Effect(s)"]
     items:
-      - [1, "Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity by 140."]
+      - ["18_1", "Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity by 140."]
   -  
     title: "Deeproot Depths"
-    id: 19
     table: ["Name", "Location", "Effect(s)"]
     items:
-    - [1, "Prince of Death's Cyst", "Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]
+      - ["19_1", "Prince of Death's Cyst", "Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]

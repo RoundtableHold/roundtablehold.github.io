@@ -425,7 +425,7 @@ var profilesKey = 'darksouls3_profiles';
                 var regex = new RegExp(type + '_totals_(.*)');
                 var i = parseInt(this.id.match(regex)[1]);
                 var count = 0, checked = 0;
-                $('[id^="' + type + '_' + i +  '_').each(function(index, el) {
+                $('div[id="' + type + '_' + i + 'Col"] input[id^="' + type + '"]').each(function(index, el) {
                     var checkbox = $(el);
                     count++;
                     overallCount++;
@@ -447,8 +447,8 @@ var profilesKey = 'darksouls3_profiles';
                     $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
-                $(this).parent('h3').next('div').children('h4').addClass('completed');// Hide all subheadings...
-                $(this).parent('h3').next('div').children('ul').children('li').children('div').children('label:not(.completed)').parent('div').parent('li').parent('ul').prev('h4').removeClass('completed');// ... except those where not all entries below the subheading are labeled as completed
+                // $(this).parent('h3').next('div').children('h4').addClass('completed');// Hide all subheadings...
+                // $(this).parent('h3').next('div').children('ul').children('li').children('div').children('label:not(.completed)').parent('div').parent('li').parent('ul').prev('h4').removeClass('completed');// ... except those where not all entries below the subheading are labeled as completed
             });
             if (overallChecked === overallCount) {
                 this.innerHTML = 'DONE';

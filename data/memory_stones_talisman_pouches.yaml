@@ -3,21 +3,19 @@ id: memory_stones_talisman_pouches
 sections:
   -
     title: "Memory Stones"
-    id: 0
     items:
-      - [1, "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
-      - [2, "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
-      - [3, "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
-      - [4, "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
-      - [5, "Found in Testu's Rise, north of Raya Lucaria Academy."]
-      - [6, "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
-      - [7, "Found in Lenne's Rise in eastern Caelid."]
-      - [8, "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
+      - ["0_1", "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
+      - ["0_2", "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
+      - ["0_3", "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
+      - ["0_4", "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
+      - ["0_5", "Found in Testu's Rise, north of Raya Lucaria Academy."]
+      - ["0_6", "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
+      - ["0_7", "Found in Lenne's Rise in eastern Caelid."]
+      - ["0_8", "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
   -
     title: "Talisman Pouches"
-    id: 1
     items:
-      - [1, "Game starts with a Talisman Pouch"]
-      - [2, "Reward for defeating Margit, the Fell Omen in Stormveil Castle."]
-      - [3, "Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."]
-      - [4, "Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."]
+      - ["1_1", "Game starts with a Talisman Pouch"]
+      - ["1_2", "Reward for defeating Margit, the Fell Omen in Stormveil Castle."]
+      - ["1_3", "Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."]
+      - ["1_4", "Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."]

@@ -4,22 +4,20 @@ table_widths: [3, 4, 5]
 sections:
   -
     title: "Great Runes"
-    id: 1
     table: ["Boss", "Location", "Effect"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune\">Godrick the Grafted</a>", "Limgrave - Stormveil Castle", "Raises all attributes by +5"]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn\">Rennala Queen of the Full Moon</a>", "Liurnia of the Lakes - Raya Lucaria Academy", "Used to respec"]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune\">Starscourge Radahn</a>", "Caelid - Redmane Castle", "Raises maximum HP, FP, and Stamina"]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune\">Morgott, the Omen Knight</a>", "Altus Plateau - Leyndell, the Royal Capital", "Greatly raises maximum HP"]
-      - [5, "<a href=\"https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune\">Rykard, Lord of Blasphemy</a>", "Mt. Gelmir - Valcano Manor", "Restores 185 HP upon defeating enemies"]
-      - [6, "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune\">Malenia, Blade of Miquella</a>", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Attacks dealt after taking damage recover HP"]
-      - [7, "<a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Mohg, Lord of Blood</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Grants a blessing of blood to phantoms"]
+      - ["1_1", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune\">Godrick the Grafted</a>", "Limgrave - Stormveil Castle", "Raises all attributes by +5"]
+      - ["1_2", "<a href=\"https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn\">Rennala Queen of the Full Moon</a>", "Liurnia of the Lakes - Raya Lucaria Academy", "Used to respec"]
+      - ["1_3", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune\">Starscourge Radahn</a>", "Caelid - Redmane Castle", "Raises maximum HP, FP, and Stamina"]
+      - ["1_4", "<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune\">Morgott, the Omen Knight</a>", "Altus Plateau - Leyndell, the Royal Capital", "Greatly raises maximum HP"]
+      - ["1_5", "<a href=\"https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune\">Rykard, Lord of Blasphemy</a>", "Mt. Gelmir - Valcano Manor", "Restores 185 HP upon defeating enemies"]
+      - ["1_6", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune\">Malenia, Blade of Miquella</a>", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Attacks dealt after taking damage recover HP"]
+      - ["1_7", "<a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Mohg, Lord of Blood</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Grants a blessing of blood to phantoms"]
   -
     title: "Other Important Runes"
-    id: 2
     table: ["Name", "Location", "Description"]
     items:
-      - [1, "<a href=\"https://eldenring.wiki.fextralife.com/Phantom+Great+Rune\">Phantom Great Rune</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Item for online play. Obtained after using the Mohg's Great Rune and invading another world."]
-      - [2, "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Death-Prince\">Mending Rune of the Death Prince</a>", "Awarded to the player by Fia after completing her questline", "Rune gestated by Fia, the Deathbed Companion.  Formed of the two hallowbrand half-wheels combined, it will embed the principle of life within Death into Order."]
-      - [3, "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Fell+Curse\">Mending Rune of the Fell Curse</a>", "Awarded to the player by Dung Eater after following his questline and giving him 5 Seedbed Curse", "Loathsome rune gestated by the Dung Eater. The reviled curse will last eternally, and the world's children, grandchildren, and every generation hence, will be its pustules."]
-      - [4, "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order\">Mending Rune of Perfect Order</a>", "Dropped by Goldmask after following his and Brother Corhyn's questline.", "Rune discovered by the noble Goldmask. A rune of transcendental ideology which will attempt to perfect the Golden Order."]
+      - ["2_1", "<a href=\"https://eldenring.wiki.fextralife.com/Phantom+Great+Rune\">Phantom Great Rune</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Item for online play. Obtained after using the Mohg's Great Rune and invading another world."]
+      - ["2_2", "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Death-Prince\">Mending Rune of the Death Prince</a>", "Awarded to the player by Fia after completing her questline", "Rune gestated by Fia, the Deathbed Companion.  Formed of the two hallowbrand half-wheels combined, it will embed the principle of life within Death into Order."]
+      - ["2_3", "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Fell+Curse\">Mending Rune of the Fell Curse</a>", "Awarded to the player by Dung Eater after following his questline and giving him 5 Seedbed Curse", "Loathsome rune gestated by the Dung Eater. The reviled curse will last eternally, and the world's children, grandchildren, and every generation hence, will be its pustules."]
+      - ["2_4", "<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order\">Mending Rune of Perfect Order</a>", "Dropped by Goldmask after following his and Brother Corhyn's questline.", "Rune discovered by the noble Goldmask. A rune of transcendental ideology which will attempt to perfect the Golden Order."]
