@@ -84,7 +84,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-expand-sm bg-dark navbar-dark"):
+    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
                 with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):

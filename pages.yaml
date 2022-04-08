@@ -7,6 +7,7 @@ dropdowns:
       - "walkthrough.yaml" #Walkthrough
       - "quests.yaml" #NPC Questlines
       - "achievements.yaml" #Achievements
+      - "legendaries.yaml" #Legendaries
   -
     name: "Locations"
     pages:
@@ -15,31 +16,37 @@ dropdowns:
       - "caves.yaml" #Caves, Catacombs, and Tunnels
       - "evergaols.yaml" #Evergaols
   -
-    name: "Items"
+    name: "Equipment"
     pages:
+      - "weapons.yaml" #Weapons
+      - "talismans.yaml" #Talismans
+      - "incantations.yaml" #Incantations
+      - "sorceries.yaml" #Sorceries
       - "ashesofwar.yaml" #Ashes of War
+      - "spirit_ashes.yaml" #Spirit Ashes
+  - 
+    name: "Upgrades & Unlocks"
+    pages:
+      - "flasks.yaml" #Golden Seeds & Sacred Tears
+      - "crystal_tears.yaml" #Flask of Wondrous Physick
+      - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
+      - "scrolls_prayerbooks.yaml" #Scrolls and Prayerbooks
+      - "whetstones.yaml" #Whetstones
       - "bell_bearings.yaml" #Bell Bearings
       - "cookbooks.yaml" #Cookbooks
-      - "crystal_tears.yaml" #Flask of Wondrous Physick
-      - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
-      - "flasks.yaml" #Golden Seeds & Sacred Tears
-      - "gestures.yaml" #Gestures
+  -
+    name: "Collectables"
+    pages:
+      - "rememberances.yaml" #Rememberances
       - "greatrunes.yaml" #Great Runes
-      - "incantations.yaml" #Incantations
-      - "legendaries.yaml" #Legendaries
-      - "memory_stones_talisman_pouches.yaml" #Memory Stones & Talisman Pouches
+      - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
       - "paintings.yaml" #Paintings
-      - "scrolls_prayerbooks.yaml" #Scrolls and Prayerbooks
-      - "sorceries.yaml" #Sorceries
-      - "spirit_ashes.yaml" #Spirit Ashes
-      - "talismans.yaml" #Talismans
-      - "weapons.yaml" #Weapons
-      - "whetstones.yaml" #Whetstones
+      - "gestures.yaml" #Gestures
 
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
 # For example
-# item_links: 
+# item_links:
 #   # If id1 is checked then id2 will be checked. If id1 is unchecked then id2 will be unchecked
 #   - source: id1
 #     target: id2
@@ -57,6 +64,34 @@ dropdowns:
 # The ids are constructed like this:
 # page[id]_section[num]_item[0]
 # So for instance, The Soldier of Godrick is bosses_2_1
-item_links: 
-  - source: bosses_2_1
-    target: caves_1_1
+item_links:
+  - link_all: [bosses_2_1, caves_1_1]
+  - link_all: [remembrances_mausoleums_1_1_1, weapons_19_11]
+  - link_all: [remembrances_mausoleums_1_1_2, weapons_28_9]
+  - link_all: [remembrances_mausoleums_1_2_1, sorceries_6_5]
+  - link_all: [remembrances_mausoleums_1_2_2, weapons_29_10]
+  - link_all: [remembrances_mausoleums_1_3_1, weapons_5_6]
+  - link_all: [remembrances_mausoleums_1_3_2, weapons_12_4]
+  - link_all: [remembrances_mausoleums_1_4_1, weapons_19_10]
+  - link_all: [remembrances_mausoleums_1_4_2, talismans_3_4]
+  - link_all: [remembrances_mausoleums_1_5_1, ashesofwar_8_10]
+  - link_all: [remembrances_mausoleums_1_5_2, weapons_21_5]
+  - link_all: [remembrances_mausoleums_1_6_1, weapons_6_6]
+  - link_all: [remembrances_mausoleums_1_6_2, ashesofwar_5_7]
+  - link_all: [remembrances_mausoleums_1_7_1, weapons_5_3]
+  - link_all: [remembrances_mausoleums_1_7_2, incantations_5_5]
+  - link_all: [remembrances_mausoleums_1_8_1, sorceries_9_6]
+  - link_all: [remembrances_mausoleums_1_8_2, weapons_14_18]
+  - link_all: [remembrances_mausoleums_1_9_1, weapons_27_6]
+  - link_all: [remembrances_mausoleums_1_9_2, incantations_6_1]
+  - link_all: [remembrances_mausoleums_1_10_1, weapons_8_9]
+  - link_all: [remembrances_mausoleums_1_11_1, weapons_16_4]
+  - link_all: [remembrances_mausoleums_1_11_2, incantations_3_11]
+  - link_all: [remembrances_mausoleums_1_12_1, incantations_4_6]
+  - link_all: [remembrances_mausoleums_1_12_2, incantations_4_3]
+  - link_all: [remembrances_mausoleums_1_13_1, weapons_20_15]
+  - link_all: [remembrances_mausoleums_1_13_2, weapons_14_21]
+  - link_all: [remembrances_mausoleums_1_14_1, weapons_17_8]
+  - link_all: [remembrances_mausoleums_1_14_2, incantations_11_4]
+  - link_all: [remembrances_mausoleums_1_15_1, weapons_24_6]
+  - link_all: [remembrances_mausoleums_1_15_2, incantations_2_1]
