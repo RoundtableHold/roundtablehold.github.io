@@ -19,6 +19,7 @@ dropdowns:
     name: "Equipment"
     pages:
       - "weapons.yaml" #Weapons
+      - "armor.yaml" #Armor
       - "talismans.yaml" #Talismans
       - "incantations.yaml" #Incantations
       - "sorceries.yaml" #Sorceries
