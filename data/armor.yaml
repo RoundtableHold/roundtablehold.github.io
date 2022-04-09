@@ -79,864 +79,925 @@ sections:
       - ["42", "Prisoner Clothing"]
       - ["43", "Prisoner Trousers"]
   -
+    title: "Blackguard's Iron Mask (Helmet Only)"
+    items:
+      - ["44", "Blackguard's Iron Mask (Helmet Only)"]
+  -
     title: "Bloodsoaked Set"
     items:
-      - ["44", "Bloodsoaked Mask"]
-      - ["45", "Official's Attire (NOTE - appears out of order. Found in the 3rd section of chest armors)"]
-      - ["46", "Bloodsoaked Manchettes"]
+      - ["45", "Bloodsoaked Mask"]
+      - ["46", "Official's Attire (NOTE - appears out of order. Found in the 3rd section of chest armors)"]
+      - ["47", "Bloodsoaked Manchettes"]
+  -
+    title: "Black Dumpling (Helmet Only)"
+    items:
+      - ["48", "Black Dumpling (Helmet Only)"]
   -
     title: "Mushroom Set"
     items:
-      - ["47", "Mushroom Head"]
-      - ["48", "Mushroom Crown"]
-      - ["49", "Mushroom Body"]
-      - ["50", "Mushroom Arms"]
-      - ["51", "Mushroom Legs"]
+      - ["49", "Mushroom Head"]
+      - ["50", "Mushroom Crown"]
+      - ["51", "Mushroom Body"]
+      - ["52", "Mushroom Arms"]
+      - ["53", "Mushroom Legs"]
   -
     title: "Astrologer Set"
     items:
-      - ["52", "Astrologer Hood"]
-      - ["53", "Astrologer Robe"]
-      - ["54", "Astrologer Gloves"]
-      - ["55", "Astrologer Trousers"]
+      - ["54", "Astrologer Hood"]
+      - ["55", "Astrologer Robe"]
+      - ["56", "Astrologer Robe (Altered)"]
+      - ["57", "Astrologer Gloves"]
+      - ["58", "Astrologer Trousers"]
   -
     title: "Juvenile Scholar Set (No Gloves or Legs)"
     items:
-      - ["56", "Juvenile Scholar Cap"]
-      - ["57", "Juvenile Scholar Robe"]
+      - ["59", "Juvenile Scholar Cap"]
+      - ["60", "Juvenile Scholar Robe"]
   -
     title: "Raya Lucarian Sorcerer Set"
     items:
-      - ["58", "Karolos Glintstone Crown"]
-      - ["59", "Olivinus Glintstone Crown"]
-      - ["60", "Twinsage Glintstone Crown"]
-      - ["61", "Witch's Glintstone Crown"]
-      - ["62", "Raya Lucarian Robe"]
-      - ["63", "Sorcerer Manchettes"]
-      - ["64", "Sorcerer Leggings"]
+      - ["61", "Karolos Glintstone Crown"]
+      - ["62", "Olivinus Glintstone Crown"]
+      - ["63", "Twinsage Glintstone Crown"]
+      - ["64", "Witch's Glintstone Crown"]
+      - ["65", "Raya Lucarian Robe"]
+      - ["66", "Sorcerer Manchettes"]
+      - ["67", "Sorcerer Leggings"]
   -
     title: "Lazuli Sorcerer Set"
     items:
-      - ["65", "Lazuli Glintstone Crown"]
-      - ["66", "Lazuli Robe"]
-      - ["67", "Sorcerer Manchettes"]
-      - ["68", "Sorcerer Leggings"]
+      - ["68", "Lazuli Glintstone Crown"]
+      - ["69", "Lazuli Robe"]
+      - ["70", "Sorcerer Manchettes"]
+      - ["71", "Sorcerer Leggings"]
   -
     title: "Battlemage Set"
     items:
-      - ["69", "Haima Glintstone Crown"]
-      - ["70", "Battlemage Robe"]
-      - ["71", "Battlemage Manchettes"]
-      - ["72", "Battlemage Legwraps"]
+      - ["72", "Haima Glintstone Crown"]
+      - ["73", "Battlemage Robe"]
+      - ["74", "Battlemage Manchettes"]
+      - ["75", "Battlemage Legwraps"]
   -
     title: "Errant Sorcerer Set"
     items:
-      - ["73", "Hierodas Glintstone Crown"]
-      - ["74", "Errant Sorcerer Robe"]
-      - ["75", "Errant Sorcerer Robe (Altered)"]
-      - ["76", "Errant Sorcerer Manchettes"]
-      - ["77", "Errant Sorcerer Boots"]
+      - ["76", "Hierodas Glintstone Crown"]
+      - ["77", "Errant Sorcerer Robe"]
+      - ["78", "Errant Sorcerer Robe (Altered)"]
+      - ["79", "Errant Sorcerer Manchettes"]
+      - ["80", "Errant Sorcerer Boots"]
   -
     title: "Spellblade Set"
     items:
-      - ["78", "Spellblade's Pointed Hat"]
-      - ["79", "Spellblade's Traveling Attire"]
-      - ["80", "Spellblade's Traveling Attire (Altered)"]
-      - ["81", "Spellblade's Gloves"]
-      - ["82", "Spellblade's Trousers"]
+      - ["81", "Spellblade's Pointed Hat"]
+      - ["82", "Spellblade's Traveling Attire"]
+      - ["83", "Spellblade's Traveling Attire (Altered)"]
+      - ["84", "Spellblade's Gloves"]
+      - ["85", "Spellblade's Trousers"]
   -
     title: "Alberich's Set"
     items:
-      - ["83", "Alberich's Pointed Hat"]
-      - ["84", "Alberich's Pointed Hat (Altered)"]
-      - ["85", "Alberich's Robe (Altered)"]
-      - ["86", "Alberich's Robe"]
-      - ["87", "Alberich's Bracers"]
-      - ["88", "Alberich's Trousers"]
+      - ["86", "Alberich's Pointed Hat"]
+      - ["87", "Alberich's Pointed Hat (Altered)"]
+      - ["88", "Alberich's Robe (Altered)"]
+      - ["89", "Alberich's Robe"]
+      - ["90", "Alberich's Bracers"]
+      - ["91", "Alberich's Trousers"]
   -
     title: "Preceptor's Set"
     items:
-      - ["89", "Preceptor's Big Hat"]
-      - ["90", "Preceptor's Long Gown"]
-      - ["91", "Preceptor's Long Gown (Altered)"]
-      - ["92", "Preceptor's Gloves"]
-      - ["93", "Preceptor's Trousers"]
+      - ["92", "Preceptor's Big Hat"]
+      - ["93", "Preceptor's Long Gown"]
+      - ["94", "Preceptor's Long Gown (Altered)"]
+      - ["95", "Preceptor's Gloves"]
+      - ["96", "Preceptor's Trousers"]
+  -
+    title: "Mask of Confidence (Helmet Only)"
+    items:
+      - ["97", "Mask of Confidence (Helmet Only)"]
   -
     title: "Azur's Glintstone Set (No Legs)"
     items:
-      - ["94", "Azur's Glintstone Crown"]
-      - ["95", "Azur's Glintstone Robe"]
-      - ["96", "Azur's Manchettes"]
+      - ["98", "Azur's Glintstone Crown"]
+      - ["99", "Azur's Glintstone Robe"]
+      - ["100", "Azur's Manchettes"]
   -
     title: "Lusat's Glintstone Set"
     items:
-      - ["97", "Lusat's Glintstone Crown"]
-      - ["98", "Lusat's Robe"]
-      - ["99", "Lusat's Manchettes"]
-      - ["100", "Old Sorcerer's Legwraps (NOTE - appears out of order. Shows as the 2nd piece of the 2nd sections of leg armors)"]
+      - ["101", "Lusat's Glintstone Crown"]
+      - ["102", "Lusat's Robe"]
+      - ["103", "Lusat's Manchettes"]
+      - ["104", "Old Sorcerer's Legwraps (NOTE - appears out of order. Shows as the 2nd piece of the 2nd sections of leg armors)"]
   -
     title: "Queen of the Full Moon Set"
     items:
-      - ["101", "Queen's Crescent Crown"]
-      - ["102", "Queen's Robe"]
-      - ["103", "Queen's Bracelets"]
-      - ["104", "Queen's Leggings"]
+      - ["105", "Queen's Crescent Crown"]
+      - ["106", "Queen's Robe"]
+      - ["107", "Queen's Bracelets"]
+      - ["108", "Queen's Leggings"]
   -
     title: "Snow Witch Set (No Gloves)"
     items:
-      - ["105", "Snow Witch Hat"]
-      - ["106", "Snow Witch Robe"]
-      - ["107", "Snow Witch Robe (Altered)"]
-      - ["108", "Snow Witch Skirt"]
+      - ["109", "Snow Witch Hat"]
+      - ["110", "Snow Witch Robe"]
+      - ["111", "Snow Witch Robe (Altered)"]
+      - ["112", "Snow Witch Skirt"]
   -
     title: "Fia's Set (No Gloves or Legs)"
     items:
-      - ["109", "Fia's Hood"]
-      - ["110", "Fia's Robe"]
-      - ["111", "Fia's Robe (Altered)"]
+      - ["113", "Fia's Hood"]
+      - ["114", "Fia's Robe"]
+      - ["115", "Fia's Robe (Altered)"]
+  -
+    title: "Deathbed Dress (Chest Only)"
+    items:
+      - ["116", "Deathbed Dress (Chest Only)"]
   -
     title: "Prophet Set (No Gloves)"
     items:
-      - ["112", "Prophet Blindfold"]
-      - ["113", "Prophet Robe"]
-      - ["114", "Prophet Robe (Altered)"]
-      - ["115", "Prophet Trousers"]
+      - ["117", "Prophet Blindfold"]
+      - ["118", "Prophet Robe"]
+      - ["119", "Prophet Robe (Altered)"]
+      - ["120", "Prophet Trousers"]
+  -
+    title: "Corhyn's Robe (Chest Only)"
+    items:
+      - ["121", "Corhyn's Robe (Chest Only)"]
   -
     title: "Traveling Maiden Set"
     items:
-      - ["116", "Traveling Maiden Hood"]
-      - ["117", "Traveling Maiden Robe"]
-      - ["118", "Traveling Maiden Robe (Altered)"]
-      - ["119", "Traveling Maiden Gloves"]
-      - ["120", "Traveling Maiden Boots"]
+      - ["122", "Traveling Maiden Hood"]
+      - ["123", "Traveling Maiden Robe"]
+      - ["124", "Traveling Maiden Robe (Altered)"]
+      - ["125", "Traveling Maiden Gloves"]
+      - ["126", "Traveling Maiden Boots"]
   -
     title: "Finger Maiden Set (No Gloves)"
     items:
-      - ["121", "Finger Maiden Fillet"]
-      - ["122", "Finger Maiden Robe"]
-      - ["123", "Finger Maiden Robe (Altered)"]
-      - ["124", "Finger Maiden Shoes"]
+      - ["127", "Finger Maiden Fillet"]
+      - ["128", "Finger Maiden Robe"]
+      - ["129", "Finger Maiden Robe (Altered)"]
+      - ["130", "Finger Maiden Shoes"]
   -
     title: "Sage Set (No Gloves)"
     items:
-      - ["125", "Sage Hood"]
-      - ["126", "Sage Robe"]
-      - ["127", "Sage Trousers"]
+      - ["131", "Sage Hood"]
+      - ["132", "Sage Robe"]
+      - ["133", "Sage Trousers"]
+  -
+    title: "Greathood (Helmet Only)"
+    items:
+      - ["134", "Greathood (Helmet Only)"]
   -
     title: "Goldmask's Set"
     items:
-      - ["128", "Radiant Gold Mask"]
-      - ["129", "Goldmask's Rags"]
-      - ["130", "Gold Bracelets"]
-      - ["131", "Gold Waistwrap"]
+      - ["135", "Radiant Gold Mask"]
+      - ["136", "Goldmask's Rags"]
+      - ["137", "Gold Bracelets"]
+      - ["138", "Gold Waistwrap"]
   -
     title: "Perfumer Set"
     items:
-      - ["132", "Perfumer Hood"]
-      - ["133", "Perfumer Robe"]
-      - ["134", "Perfumer Robe (Altered)"]
-      - ["135", "Perfumer Gloves"]
-      - ["136", "Perfumer Sarong"]
+      - ["139", "Perfumer Hood"]
+      - ["140", "Perfumer Robe"]
+      - ["141", "Perfumer Robe (Altered)"]
+      - ["142", "Perfumer Gloves"]
+      - ["143", "Perfumer Sarong"]
   -
     title: "Perfumer Traveler's Set"
     items:
-      - ["137", "Traveler's Hat"]
-      - ["138", "Perfumer's Traveling Garb"]
-      - ["139", "Perfumer's Traveling Garb (Altered)"]
-      - ["140", "Traveler's Gloves"]
-      - ["141", "Traveler's Slops"]
+      - ["144", "Traveler's Hat"]
+      - ["145", "Perfumer's Traveling Garb"]
+      - ["146", "Perfumer's Traveling Garb (Altered)"]
+      - ["147", "Traveler's Gloves"]
+      - ["148", "Traveler's Slops"]
   -
     title: "Depraved Perfumer Set"
     items:
-      - ["142", "Depraved Perfumer Headscarf"]
-      - ["143", "Depraved Perfumer Robe"]
-      - ["144", "Depraved Perfumer Robe (Altered)"]
-      - ["145", "Depraved Perfumer Gloves"]
-      - ["146", "Depraved Perfumer Trousers"]
+      - ["149", "Depraved Perfumer Headscarf"]
+      - ["150", "Depraved Perfumer Robe"]
+      - ["151", "Depraved Perfumer Robe (Altered)"]
+      - ["152", "Depraved Perfumer Gloves"]
+      - ["153", "Depraved Perfumer Trousers"]
+  -
+    title: "Upper-Class Robe (Chest Only)"
+    items:
+      - ["154", "Upper-Class Robe (Chest Only)"]
   -
     title: "Ruler's Set (No Gloves or Legs)"
     items:
-      - ["147", "Ruler's Mask"]
-      - ["148", "Ruler's Robe"]
+      - ["155", "Ruler's Mask"]
+      - ["156", "Ruler's Robe"]
   -
     title: "Consort's Set (No Gloves)"
     items:
-      - ["149", "Consort's Mask"]
-      - ["150", "Consort's Robe"]
-      - ["151", "Consort's Trousers"]
+      - ["157", "Consort's Mask"]
+      - ["158", "Consort's Robe"]
+      - ["159", "Consort's Trousers"]
   -
     title: "House Marais Set"
     items:
-      - ["152", "Marais Mask"]
-      - ["153", "Marais Robe"]
+      - ["160", "Marais Mask"]
+      - ["161", "Marais Robe"]
   -
     title: "Fur Set (No Gloves)"
     items:
-      - ["154", "Great Horned Headband"]
-      - ["155", "Fur Raiment"]
-      - ["156", "Fur Leggings"]
+      - ["162", "Great Horned Headband"]
+      - ["163", "Fur Raiment"]
+      - ["164", "Fur Leggings"]
   -
     title: "Shaman Set (No Gloves)"
     items:
-      - ["157", "Shining Horned Headband"]
-      - ["158", "Shaman Furs"]
-      - ["159", "Shaman Leggings"]
+      - ["165", "Shining Horned Headband"]
+      - ["166", "Shaman Furs"]
+      - ["167", "Shaman Leggings"]
   -
     title: "Godskin Apostle Set"
     items:
-      - ["160", "Godskin Apostle Hood"]
-      - ["161", "Godskin Apostle Robe"]
-      - ["162", "Godskin Apostle Bracelets"]
-      - ["163", "Godskin Apostle Trousers"]
+      - ["168", "Godskin Apostle Hood"]
+      - ["169", "Godskin Apostle Robe"]
+      - ["170", "Godskin Apostle Bracelets"]
+      - ["171", "Godskin Apostle Trousers"]
   -
     title: "Godskin Noble Set"
     items:
-      - ["164", "Godskin Noble Hood"]
-      - ["165", "Godskin Noble Robe"]
-      - ["166", "Godskin Noble Bracelets"]
-      - ["167", "Godskin Noble Trousers"]
+      - ["172", "Godskin Noble Hood"]
+      - ["173", "Godskin Noble Robe"]
+      - ["174", "Godskin Noble Bracelets"]
+      - ["175", "Godskin Noble Trousers"]
+  -
+    title: "Fell Omen Cloak (Chest Only)"
+    items:
+      - ["176", "Fell Omen Cloak (Chest Only)"]
   -
     title: "Sanguine Noble Set (No Gloves)"
     items:
-      - ["168", "Sanguine Noble Hood"]
-      - ["169", "Sanguine Noble Robe"]
-      - ["170", "Sanguine Noble Waistcloth"]
+      - ["177", "Sanguine Noble Hood"]
+      - ["178", "Sanguine Noble Robe"]
+      - ["179", "Sanguine Noble Waistcloth"]
+  -
+    title: "Lord of Blood's Robe (Chest Only)"
+    items:
+      - ["180", "Lord of Blood's Robe (Chest Only)"]
+  -
+    title: "Lord of Blood's Robe (Altered) (Chest Only)"
+    items:
+      - ["181", "Lord of Blood's Robe (Altered) (Chest Only)"]
   -
     title: "Scarab Masks"
     items:
-      - ["171", "Crimson Tear Scarab"]
-      - ["172", "Cerulean Tear Scarab"]
-      - ["173", "Ash-of-War Scarab"]
-      - ["174", "Glintstone Scarab"]
-      - ["175", "Incantation Scarab"]
+      - ["182", "Crimson Tear Scarab"]
+      - ["183", "Cerulean Tear Scarab"]
+      - ["184", "Ash-of-War Scarab"]
+      - ["185", "Glintstone Scarab"]
+      - ["186", "Incantation Scarab"]
   -
     title: "Imp Heads"
     items:
-      - ["176", "Imp Head (Cat)"]
-      - ["177", "Imp Head (Wolf)"]
-      - ["178", "Imp Head (Fanged)"]
-      - ["179", "Imp Head (Long-Tongued)"]
-      - ["180", "Imp Head (Corpse)"]
-      - ["181", "Imp Head (Elder)"]
+      - ["187", "Imp Head (Cat)"]
+      - ["188", "Imp Head (Wolf)"]
+      - ["189", "Imp Head (Fanged)"]
+      - ["190", "Imp Head (Long-Tongued)"]
+      - ["191", "Imp Head (Corpse)"]
+      - ["192", "Imp Head (Elder)"]
+  -
+    title: "Nox Mirrorhelm"
+    items:
+      - ["193", "Nox Mirrorhelm"]
+  -
+    title: "Iji's Mirrorhelm"
+    items:
+      - ["194", "Iji's Mirrorhelm"]
+  -
+    title: "Silver Tear Mask"
+    items:
+      - ["195", "Silver Tear Mask"]
+  -
+    title: "Envoy Crown"
+    items:
+      - ["196", "Envoy Crown"]
+  -
+    title: "Octopus Head"
+    items:
+      - ["197", "Octopus Head"]
+  -
+    title: "Jar"
+    items:
+      - ["198", "Jar"]
+  -
+    title: "Albinauric Mask"
+    items:
+      - ["199", "Albinauric Mask"]
+  -
+    title: "Black Wolf Mask"
+    items:
+      - ["200", "Black Wolf Mask"]
   -
     title: "Leather Set"
     items:
-      - ["182", "Black Hood (NOTE - appears out of order in this section. Shows between Bandit Mask and Confessor Hood."]
-      - ["183", "Leather Armor"]
-      - ["184", "Leather Gloves"]
-      - ["185", "Leather Boots"]
+      - ["201", "Black Hood (NOTE - appears out of order in this section. Shows between Bandit Mask and Confessor Hood."]
+      - ["202", "Leather Armor"]
+      - ["203", "Leather Gloves"]
+      - ["204", "Leather Boots"]
   -
     title: "Blue Cloth Set"
     items:
-      - ["186", "Blue Cloth Cowl"]
-      - ["187", "Blue Cloth Vest"]
-      - ["188", "Warrior Gauntlets"]
-      - ["189", "Warrior Greaves"]
+      - ["205", "Blue Cloth Cowl"]
+      - ["206", "Blue Cloth Vest"]
+      - ["207", "Warrior Gauntlets"]
+      - ["208", "Warrior Greaves"]
   -
     title: "Noble's Set"
     items:
-      - ["190", "Crimson Hood"]
-      - ["191", "Navy Hood"]
-      - ["192", "Noble's Traveling Garb"]
-      - ["193", "Noble's Trousers"]
-      - ["194", "Noble's Gloves"]
+      - ["209", "Crimson Hood"]
+      - ["210", "Navy Hood"]
+      - ["211", "Noble's Traveling Garb"]
+      - ["212", "Noble's Trousers"]
+      - ["213", "Noble's Gloves"]
   -
     title: "War Surgeon Set"
     items:
-      - ["195", "White Mask"]
-      - ["196", "War Surgeon Gown"]
-      - ["197", "War Surgeon Gown (Altered)"]
-      - ["198", "War Surgeon Gloves"]
-      - ["199", "War Surgeon Trousers"]
+      - ["214", "White Mask"]
+      - ["215", "War Surgeon Gown"]
+      - ["216", "War Surgeon Gown (Altered)"]
+      - ["217", "War Surgeon Gloves"]
+      - ["218", "War Surgeon Trousers"]
   -
     title: "Nomadic Merchant's Set (No Gloves)"
     items:
-      - ["200", "Nomadic Merchant's Chapeau"]
-      - ["201", "Nomadic Merchant's Finery"]
-      - ["202", "Nomadic Merchant's Finery (Altered)"]
-      - ["203", "Nomadic Merchant's Trousers"]
+      - ["219", "Nomadic Merchant's Chapeau"]
+      - ["220", "Nomadic Merchant's Finery"]
+      - ["221", "Nomadic Merchant's Finery (Altered)"]
+      - ["222", "Nomadic Merchant's Trousers"]
   -
     title: "Bandit Set"
     items:
-      - ["204", "Bandit Mask"]
-      - ["205", "Bandit Garb"]
-      - ["206", "Bandit Manchettes (Link to Raptor's Set)"]
-      - ["207", "Bandit Boots (Link to Raptor's Set)"]
+      - ["223", "Bandit Mask"]
+      - ["224", "Bandit Garb"]
+      - ["225", "Bandit Manchettes (Link to Raptor's Set)"]
+      - ["226", "Bandit Boots (Link to Raptor's Set)"]
   -
     title: "Confessor Set"
     items:
-      - ["208", "Confessor Hood"]
-      - ["209", "Confessor Hood (Altered)"]
-      - ["210", "Confessor Armor"]
-      - ["211", "Confessor Armor (Altered)"]
-      - ["212", "Confessor Gloves"]
-      - ["213", "Confessor Boots"]
+      - ["227", "Confessor Hood"]
+      - ["228", "Confessor Hood (Altered)"]
+      - ["229", "Confessor Armor"]
+      - ["230", "Confessor Armor (Altered)"]
+      - ["231", "Confessor Gloves"]
+      - ["232", "Confessor Boots"]
   -
     title: "Omenkiller Set"
     items:
-      - ["214", "Omensmirk Mask"]
-      - ["215", "Omenkiller Robe"]
-      - ["216", "Omenkiller Long Gloves"]
-      - ["217", "Omenkiller Boots"]
+      - ["233", "Omensmirk Mask"]
+      - ["234", "Omenkiller Robe"]
+      - ["235", "Omenkiller Long Gloves"]
+      - ["236", "Omenkiller Boots"]
   -
     title: "Raptor's Set"
     items:
-      - ["218", "Skeletal Mask"]
-      - ["219", "Raptor's Black Feathers"]
-      - ["220", "Bandit Manchettes (Link to Bandit Set)"]
-      - ["221", "Bandit Boots (Link to Bandit Set)"]
+      - ["237", "Skeletal Mask"]
+      - ["238", "Raptor's Black Feathers"]
+      - ["239", "Bandit Manchettes (Link to Bandit Set)"]
+      - ["240", "Bandit Boots (Link to Bandit Set)"]
   -
     title: "Foot Soldier Set"
     items:
-      - ["222", "Foot Soldier Helm (Caelid)"]
-      - ["223", "Scarlet Tabard (Caelid)"]
-      - ["224", "Foot Soldier Helmet (Liurnia)"]
-      - ["225", "Foot Soldier Tabard (Liurnia)"]
-      - ["226", "Foot Soldier Cap (Limgrave)"]
-      - ["227", "Chain-Draped Tabard (Limgrave)"]
-      - ["228", "Gilded Foot Soldier Cap (Leyndell)"]
-      - ["229", "Leather-Draped Tabard (Leyndell)"]
-      - ["230", "Sacred Crown Helm (Haligtree)"]
-      - ["231", "Ivory-Draped Tabard (Haligtree)"]
-      - ["232", "Bloodsoaked Tabard (Mausoleum)"]
-      - ["233", "Foot Soldier Gauntlets"]
-      - ["234", "Foot Soldier Greaves"]
+      - ["241", "Foot Soldier Helm (Caelid)"]
+      - ["242", "Scarlet Tabard (Caelid)"]
+      - ["243", "Foot Soldier Helmet (Liurnia)"]
+      - ["244", "Foot Soldier Tabard (Liurnia)"]
+      - ["245", "Foot Soldier Cap (Limgrave)"]
+      - ["246", "Chain-Draped Tabard (Limgrave)"]
+      - ["247", "Gilded Foot Soldier Cap (Leyndell)"]
+      - ["248", "Leather-Draped Tabard (Leyndell)"]
+      - ["249", "Sacred Crown Helm (Haligtree)"]
+      - ["250", "Ivory-Draped Tabard (Haligtree)"]
+      - ["251", "Bloodsoaked Tabard (Mausoleum)"]
+      - ["252", "Foot Soldier Gauntlets"]
+      - ["253", "Foot Soldier Greaves"]
   -
     title: "Highwayman Set"
     items:
-      - ["235", "Highwayman Hood"]
-      - ["236", "Highwayman Cloth Armor"]
-      - ["237", "Highwayman Gauntlets"]
-      - ["238", "Foot Soldier Greaves"]
+      - ["254", "Highwayman Hood"]
+      - ["255", "Highwayman Cloth Armor"]
+      - ["256", "Highwayman Gauntlets"]
+      - ["257", "Foot Soldier Greaves"]
   -
     title: "Vulgar Militia Set"
     items:
-      - ["239", "Vulgar Militia Helm"]
-      - ["240", "Vulgar Militia Armor"]
-      - ["241", "Vulgar Militia Gauntlets"]
-      - ["242", "Vulgar Militia Greaves"]
+      - ["258", "Vulgar Militia Helm"]
+      - ["259", "Vulgar Militia Armor"]
+      - ["260", "Vulgar Militia Gauntlets"]
+      - ["261", "Vulgar Militia Greaves"]
   -
     title: "Duelist Set (No Gloves)"
     items:
-      - ["243", "Duelist Helm"]
-      - ["244", "Gravekeeper Cloak"]
-      - ["245", "Gravekeeper Cloak (Altered)"]
-      - ["246", "Duelist Greaves"]
+      - ["262", "Duelist Helm"]
+      - ["263", "Gravekeeper Cloak"]
+      - ["264", "Gravekeeper Cloak (Altered)"]
+      - ["265", "Duelist Greaves"]
   -
     title: "Rotten Duelist Set (No Gloves)"
     items:
-      - ["247", "Rotten Duelist Helm"]
-      - ["248", "Rotten Gravekeeper Cloak"]
-      - ["249", "Rotten Gravekeeper Cloak (Altered)"]
-      - ["250", "Rotten Duelist Greaves"]
+      - ["266", "Rotten Duelist Helm"]
+      - ["267", "Rotten Gravekeeper Cloak"]
+      - ["268", "Rotten Gravekeeper Cloak (Altered)"]
+      - ["269", "Rotten Duelist Greaves"]
   -
     title: "Nox Monk Set"
     items:
-      - ["251", "Nox Monk Hood"]
-      - ["252", "Nox Monk Hood (Altered)"]
-      - ["253", "Nox Monk Armor"]
-      - ["254", "Nox Monk Armor (Altered)"]
-      - ["255", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["256", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["270", "Nox Monk Hood"]
+      - ["271", "Nox Monk Hood (Altered)"]
+      - ["272", "Nox Monk Armor"]
+      - ["273", "Nox Monk Armor (Altered)"]
+      - ["274", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["275", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
   -
     title: "Nox Swordstress Set"
     items:
-      - ["257", "Nox Swordstress Crown"]
-      - ["258", "Nox Swordstress Crown (Altered)"]
-      - ["259", "Nox Swordstress Armor"]
-      - ["260", "Nox Swordstress Armor (Altered)"]
-      - ["261", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["262", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["276", "Nox Swordstress Crown"]
+      - ["277", "Nox Swordstress Crown (Altered)"]
+      - ["278", "Nox Swordstress Armor"]
+      - ["279", "Nox Swordstress Armor (Altered)"]
+      - ["280", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["281", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
   -
     title: "Night Maiden Set"
     items:
-      - ["263", "Night Maiden Twin Crown"]
-      - ["264", "Night Maiden Armor"]
-      - ["265", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["266", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["282", "Night Maiden Twin Crown"]
+      - ["283", "Night Maiden Armor"]
+      - ["284", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["285", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
   -
     title: "Champion Set"
     items:
-      - ["267", "Champion Headband"]
-      - ["268", "Champion Pauldron"]
-      - ["269", "Champion Bracers"]
-      - ["270", "Champion Gaiters"]
+      - ["286", "Champion Headband"]
+      - ["287", "Champion Pauldron"]
+      - ["288", "Champion Bracers"]
+      - ["289", "Champion Gaiters"]
   -
     title: "Chain Set"
     items:
-      - ["271", "Chain Coif"]
-      - ["272", "Chain Armor"]
-      - ["273", "Tree Surcoat"]
-      - ["274", "Eye Surcoat"]
-      - ["275", "Gauntlets"]
-      - ["276", "Chain Leggings"]
+      - ["290", "Chain Coif"]
+      - ["291", "Chain Armor"]
+      - ["292", "Tree Surcoat"]
+      - ["293", "Eye Surcoat"]
+      - ["294", "Gauntlets"]
+      - ["295", "Chain Leggings"]
+  -
+    title: "Dirty Chainmail (apart of the Albinauric Set)"
+    items:
+      - ["296", "Dirty Chainmail (apart of the Albinauric Set)"]
   -
     title: "Iron Set"
     items:
-      - ["277", "Iron Helmet"]
-      - ["278", "Scale Armor (NOTE - appears out of order. Shows as the first chest piece in the 7th section.)"]
-      - ["279", "Iron Gauntlets"]
-      - ["280", "Leather Trousers # Link to Leather set"]
+      - ["297", "Iron Helmet"]
+      - ["298", "Scale Armor (NOTE - appears out of order. Shows as the first chest piece in the 7th section.)"]
+      - ["299", "Iron Gauntlets"]
+      - ["300", "Leather Trousers # Link to Leather set"]
   -
     title: "Godrick Soldier Set"
     items:
-      - ["281", "Godrick Soldier Helm"]
-      - ["282", "Tree-and-Beast Surcoat"]
-      - ["283", "Godrick Soldier Gauntlets"]
-      - ["284", "Godrick Soldier Greaves"]
+      - ["301", "Godrick Soldier Helm"]
+      - ["302", "Tree-and-Beast Surcoat"]
+      - ["303", "Godrick Soldier Gauntlets"]
+      - ["304", "Godrick Soldier Greaves"]
   -
     title: "Raya Lucarian Soldier Set"
     items:
-      - ["285", "Raya Lucarian Helm"]
-      - ["286", "Cuckoo Surcoat"]
-      - ["287", "Raya Lucarian Gauntlets"]
-      - ["288", "Raya Lucarian Greaves"]
+      - ["305", "Raya Lucarian Helm"]
+      - ["306", "Cuckoo Surcoat"]
+      - ["307", "Raya Lucarian Gauntlets"]
+      - ["308", "Raya Lucarian Greaves"]
   -
     title: "Radahn Soldier Set"
     items:
-      - ["289", "Radahn Soldier Helm"]
-      - ["290", "Redmane Surcoat"]
-      - ["291", "Radahn Soldier Gauntlets"]
-      - ["292", "Radahn Soldier Greaves"]
+      - ["309", "Radahn Soldier Helm"]
+      - ["310", "Redmane Surcoat"]
+      - ["311", "Radahn Soldier Gauntlets"]
+      - ["312", "Radahn Soldier Greaves"]
   -
     title: "Leyndell Soldier Set"
     items:
-      - ["293", "Leyndell Soldier Helm"]
-      - ["294", "Erdtree Surcoat"]
-      - ["295", "Leyndell Soldier Gauntlets"]
-      - ["296", "Leyndell Soldier Greaves"]
+      - ["313", "Leyndell Soldier Helm"]
+      - ["314", "Erdtree Surcoat"]
+      - ["315", "Leyndell Soldier Gauntlets"]
+      - ["316", "Leyndell Soldier Greaves"]
   -
     title: "Haligtree Set"
     items:
-      - ["297", "Haligtree Helm"]
-      - ["298", "Haligtree Crest Surcoat"]
-      - ["299", "Haligtree Gauntlets"]
-      - ["300", "Haligtree Greaves"]
+      - ["317", "Haligtree Helm"]
+      - ["318", "Haligtree Crest Surcoat"]
+      - ["319", "Haligtree Gauntlets"]
+      - ["320", "Haligtree Greaves"]
   -
     title: "Mausoleum Soldier Set (No Helmet)"
     items:
-      - ["301", "Mausoleum Surcoat"]
-      - ["302", "Mausoleum Gauntlets"]
-      - ["303", "Mausoleum Greaves"]
+      - ["321", "Mausoleum Surcoat"]
+      - ["322", "Mausoleum Gauntlets"]
+      - ["323", "Mausoleum Greaves"]
   -
     title: "Exile Set"
     items:
-      - ["304", "Exile Hood"]
-      - ["305", "Exile Armor"]
-      - ["306", "Exile Gauntlets"]
-      - ["307", "Exile Greaves"]
+      - ["324", "Exile Hood"]
+      - ["325", "Exile Armor"]
+      - ["326", "Exile Gauntlets"]
+      - ["327", "Exile Greaves"]
   -
     title: "Kaiden Set"
     items:
-      - ["308", "Kaiden Helm"]
-      - ["309", "Kaiden Armor"]
-      - ["310", "Kaiden Gauntlets"]
-      - ["311", "Kaiden Trousers"]
+      - ["328", "Kaiden Helm"]
+      - ["329", "Kaiden Armor"]
+      - ["330", "Kaiden Gauntlets"]
+      - ["331", "Kaiden Trousers"]
   -
     title: "Land of Reeds Set"
     items:
-      - ["312", "Land of Reeds Helm"]
-      - ["313", "Land of Reeds Armor"]
-      - ["314", "Land of Reeds Armor (Altered)"]
-      - ["315", "Land of Reeds Gauntlets"]
-      - ["316", "Land of Reeds Greaves"]
+      - ["332", "Land of Reeds Helm"]
+      - ["333", "Land of Reeds Armor"]
+      - ["334", "Land of Reeds Armor (Altered)"]
+      - ["335", "Land of Reeds Gauntlets"]
+      - ["336", "Land of Reeds Greaves"]
   -
     title: "White Reed Set"
     items:
-      - ["317", "Okina Mask"]
-      - ["318", "White Reed Armor"]
-      - ["319", "White Reed Gauntlets"]
-      - ["320", "White Reed Greaves"]
+      - ["337", "Okina Mask"]
+      - ["338", "White Reed Armor"]
+      - ["339", "White Reed Gauntlets"]
+      - ["340", "White Reed Greaves"]
   -
     title: "Ronin's Set"
     items:
-      - ["321", "Iron Kasa"]
-      - ["322", "Ronin's Armor"]
-      - ["323", "Ronin's Armor (Altered)"]
-      - ["324", "Ronin's Gauntlets"]
-      - ["325", "Ronin's Greaves"]
+      - ["341", "Iron Kasa"]
+      - ["342", "Ronin's Armor"]
+      - ["343", "Ronin's Armor (Altered)"]
+      - ["344", "Ronin's Gauntlets"]
+      - ["345", "Ronin's Greaves"]
   -
     title: "Eccentric Set"
     items:
-      - ["326", "Eccentric's Hood"]
-      - ["327", "Eccentric's Hood (Altered)"]
-      - ["328", "Eccentric's Armor"]
-      - ["329", "Eccentric's Manchettes"]
-      - ["330", "Eccentric's Breeches"]
+      - ["346", "Eccentric's Hood"]
+      - ["347", "Eccentric's Hood (Altered)"]
+      - ["348", "Eccentric's Armor"]
+      - ["349", "Eccentric's Manchettes"]
+      - ["350", "Eccentric's Breeches"]
   -
     title: "Marionette Soldier Set (No Gloves or Legs)"
     items:
-      - ["331", "Marionette Soldier Helm"]
-      - ["332", "Marionette Soldier Birdhelm"]
-      - ["333", "Marionette Soldier Armor"]
+      - ["351", "Marionette Soldier Helm"]
+      - ["352", "Marionette Soldier Birdhelm"]
+      - ["353", "Marionette Soldier Armor"]
   -
     title: "Blue Silver Set"
     items:
-      - ["334", "Blue Silver Mail Hood"]
-      - ["335", "Blue Silver Mail Armor"]
-      - ["336", "Blue Silver Mail Armor (Altered)"]
-      - ["337", "Blue Silver Bracelets"]
-      - ["338", "Blue Silver Mail Skirt"]
+      - ["354", "Blue Silver Mail Hood"]
+      - ["355", "Blue Silver Mail Armor"]
+      - ["356", "Blue Silver Mail Armor (Altered)"]
+      - ["357", "Blue Silver Bracelets"]
+      - ["358", "Blue Silver Mail Skirt"]
   -
     title: "Fire Monk Set"
     items:
-      - ["339", "Fire Monk Hood"]
-      - ["340", "Fire Monk Armor"]
-      - ["341", "Fire Monk Gauntlets"]
-      - ["342", "Fire Monk Greaves"]
+      - ["359", "Fire Monk Hood"]
+      - ["360", "Fire Monk Armor"]
+      - ["361", "Fire Monk Gauntlets"]
+      - ["362", "Fire Monk Greaves"]
   -
     title: "Blackflame Set"
     items:
-      - ["343", "Blackflame Monk Hood"]
-      - ["344", "Blackflame Monk Armor"]
-      - ["345", "Blackflame Monk Gauntlets"]
-      - ["346", "Blackflame Monk Greaves"]
+      - ["363", "Blackflame Monk Hood"]
+      - ["364", "Blackflame Monk Armor"]
+      - ["365", "Blackflame Monk Gauntlets"]
+      - ["366", "Blackflame Monk Greaves"]
   -
     title: "Zamor Set"
     items:
-      - ["347", "Zamor Mask"]
-      - ["348", "Zamor Armor"]
-      - ["349", "Zamor Bracelets"]
-      - ["350", "Zamor Legwraps"]
+      - ["367", "Zamor Mask"]
+      - ["368", "Zamor Armor"]
+      - ["369", "Zamor Bracelets"]
+      - ["370", "Zamor Legwraps"]
   -
     title: "Black Knife Set"
     items:
-      - ["351", "Black Knife Hood"]
-      - ["352", "Black Knife Armor"]
-      - ["353", "Black Knife Armor (Altered)"]
-      - ["354", "Black Knife Gauntlets"]
-      - ["355", "Black Knife Greaves"]
+      - ["371", "Black Knife Hood"]
+      - ["372", "Black Knife Armor"]
+      - ["373", "Black Knife Armor (Altered)"]
+      - ["374", "Black Knife Gauntlets"]
+      - ["375", "Black Knife Greaves"]
   -
     title: "Malenia's Set"
     items:
-      - ["356", "Malenia's Winged Helm"]
-      - ["357", "Malenia's Armor"]
-      - ["358", "Malenia's Armor (Altered)"]
-      - ["359", "Malenia's Gauntlet"]
-      - ["360", "Malenia's Greaves"]
+      - ["376", "Malenia's Winged Helm"]
+      - ["377", "Malenia's Armor"]
+      - ["378", "Malenia's Armor (Altered)"]
+      - ["379", "Malenia's Gauntlet"]
+      - ["380", "Malenia's Greaves"]
   -
     title: "Elden Lord Set"
     items:
-      - ["361", "Elden Lord Crown"]
-      - ["362", "Elden Lord Armor"]
-      - ["363", "Elden Lord Armor (Altered)"]
-      - ["364", "Elden Lord Bracers"]
-      - ["365", "Elden Lord Greaves"]
+      - ["381", "Elden Lord Crown"]
+      - ["382", "Elden Lord Armor"]
+      - ["383", "Elden Lord Armor (Altered)"]
+      - ["384", "Elden Lord Bracers"]
+      - ["385", "Elden Lord Greaves"]
   -
     title: "Knight Set"
     items:
-      - ["366", "Knight Helm"]
-      - ["367", "Knight Armor"]
-      - ["368", "Knight Gauntlets"]
-      - ["369", "Knight Greaves"]
+      - ["386", "Knight Helm"]
+      - ["387", "Knight Armor"]
+      - ["388", "Knight Gauntlets"]
+      - ["389", "Knight Greaves"]
   -
     title: "Vagabond Knight Set"
     items:
-      - ["370", "Vagabond Knight Helm"]
-      - ["371", "Vagabond Knight Armor"]
-      - ["372", "Vagabond Knight Armor (Altered)"]
-      - ["373", "Vagabond Knight Gauntlets"]
-      - ["374", "Vagabond Knight Greaves"]
+      - ["390", "Vagabond Knight Helm"]
+      - ["391", "Vagabond Knight Armor"]
+      - ["392", "Vagabond Knight Armor (Altered)"]
+      - ["393", "Vagabond Knight Gauntlets"]
+      - ["394", "Vagabond Knight Greaves"]
+  -
+    title: "Greathelm (Helmet Only)"
+    items:
+      - ["395", "Greathelm (Helmet Only)"]
   -
     title: "Carian Knight Set"
     items:
-      - ["375", "Carian Knight Helm"]
-      - ["376", "Carian Knight Armor"]
-      - ["377", "Carian Knight Armor (Altered)"]
-      - ["378", "Carian Knight Gauntlets"]
-      - ["379", "Carian Knight Greaves"]
+      - ["396", "Carian Knight Helm"]
+      - ["397", "Carian Knight Armor"]
+      - ["398", "Carian Knight Armor (Altered)"]
+      - ["399", "Carian Knight Gauntlets"]
+      - ["400", "Carian Knight Greaves"]
   -
     title: "Godrick Knight Set"
     items:
-      - ["380", "Godrick Knight Helm"]
-      - ["381", "Godrick Knight Armor"]
-      - ["382", "Godrick Knight Armor (Altered)"]
-      - ["383", "Godrick Knight Gauntlets"]
-      - ["384", "Godrick Knight Greaves"]
+      - ["401", "Godrick Knight Helm"]
+      - ["402", "Godrick Knight Armor"]
+      - ["403", "Godrick Knight Armor (Altered)"]
+      - ["404", "Godrick Knight Gauntlets"]
+      - ["405", "Godrick Knight Greaves"]
   -
     title: "Cuckoo Knight Set"
     items:
-      - ["385", "Cuckoo Knight Helm"]
-      - ["386", "Cuckoo Knight Armor"]
-      - ["387", "Cuckoo Knight Armor (Altered)"]
-      - ["388", "Cuckoo Knight Gauntlets"]
-      - ["389", "Cuckoo Knight Greaves"]
+      - ["406", "Cuckoo Knight Helm"]
+      - ["407", "Cuckoo Knight Armor"]
+      - ["408", "Cuckoo Knight Armor (Altered)"]
+      - ["409", "Cuckoo Knight Gauntlets"]
+      - ["410", "Cuckoo Knight Greaves"]
   -
     title: "Redmane Knight Set"
     items:
-      - ["390", "Redmane Knight Helm"]
-      - ["391", "Redmane Knight Armor"]
-      - ["392", "Redmane Knight Armor (Altered)"]
-      - ["393", "Redmane Knight Gauntlets"]
-      - ["394", "Redmane Knight Greaves"]
+      - ["411", "Redmane Knight Helm"]
+      - ["412", "Redmane Knight Armor"]
+      - ["413", "Redmane Knight Armor (Altered)"]
+      - ["414", "Redmane Knight Gauntlets"]
+      - ["415", "Redmane Knight Greaves"]
   -
     title: "Gelmir Knight Set"
     items:
-      - ["395", "Gelmir Knight Helm"]
-      - ["396", "Gelmir Knight Armor"]
-      - ["397", "Gelmir Knight Armor (Altered)"]
-      - ["398", "Gelmir Knight Gauntlets"]
-      - ["399", "Gelmir Knight Greaves"]
+      - ["416", "Gelmir Knight Helm"]
+      - ["417", "Gelmir Knight Armor"]
+      - ["418", "Gelmir Knight Armor (Altered)"]
+      - ["419", "Gelmir Knight Gauntlets"]
+      - ["420", "Gelmir Knight Greaves"]
   -
     title: "Leyndell Knight Set"
     items:
-      - ["400", "Leyndell Knight Helm"]
-      - ["401", "Leyndell Knight Armor"]
-      - ["402", "Leyndell Knight Armor (Altered)"]
-      - ["403", "Leyndell Knight Gauntlets"]
-      - ["404", "Leyndell Knight Greaves"]
+      - ["421", "Leyndell Knight Helm"]
+      - ["422", "Leyndell Knight Armor"]
+      - ["423", "Leyndell Knight Armor (Altered)"]
+      - ["424", "Leyndell Knight Gauntlets"]
+      - ["425", "Leyndell Knight Greaves"]
   -
     title: "Haligtree Knight Set"
     items:
-      - ["405", "Haligtree Knight Helm"]
-      - ["406", "Haligtree Knight Armor"]
-      - ["407", "Haligtree Knight Armor (Altered)"]
-      - ["408", "Haligtree Knight Gauntlets"]
-      - ["409", "Haligtree Knight Greaves"]
+      - ["426", "Haligtree Knight Helm"]
+      - ["427", "Haligtree Knight Armor"]
+      - ["428", "Haligtree Knight Armor (Altered)"]
+      - ["429", "Haligtree Knight Gauntlets"]
+      - ["430", "Haligtree Knight Greaves"]
   -
     title: "Mausoleum Knight Set (No Helmet)"
     items:
-      - ["410", "Mausoleum Knight Armor"]
-      - ["411", "Mausoleum Knight Armor (Altered)"]
-      - ["412", "Mausoleum Knight Gauntlets"]
-      - ["413", "Mausoleum Knight Greaves"]
+      - ["431", "Mausoleum Knight Armor"]
+      - ["432", "Mausoleum Knight Armor (Altered)"]
+      - ["433", "Mausoleum Knight Gauntlets"]
+      - ["434", "Mausoleum Knight Greaves"]
   -
     title: "Bloodhound Knight Set"
     items:
-      - ["414", "Bloodhound Knight Helm"]
-      - ["415", "Bloodhound Knight Armor"]
-      - ["416", "Bloodhound Knight Armor (Altered)"]
-      - ["417", "Bloodhound Knight Gauntlets"]
-      - ["418", "Bloodhound Knight Greaves"]
+      - ["435", "Bloodhound Knight Helm"]
+      - ["436", "Bloodhound Knight Armor"]
+      - ["437", "Bloodhound Knight Armor (Altered)"]
+      - ["438", "Bloodhound Knight Gauntlets"]
+      - ["439", "Bloodhound Knight Greaves"]
   -
     title: "Cleanrot Set"
     items:
-      - ["419", "Cleanrot Helm"]
-      - ["420", "Cleanrot Armor"]
-      - ["421", "Cleanrot Armor (Altered)"]
-      - ["422", "Cleanrot Gauntlets"]
-      - ["423", "Cleanrot Greaves"]
+      - ["440", "Cleanrot Helm"]
+      - ["441", "Cleanrot Armor"]
+      - ["442", "Cleanrot Armor (Altered)"]
+      - ["443", "Cleanrot Gauntlets"]
+      - ["444", "Cleanrot Greaves"]
   -
     title: "Raging Wolf Set"
     items:
-      - ["424", "Raging Wolf Helm"]
-      - ["425", "Raging Wolf Armor"]
-      - ["426", "Raging Wolf Armor (Altered)"]
-      - ["427", "Raging Wolf Gauntlets"]
-      - ["428", "Raging Wolf Greaves"]
+      - ["445", "Raging Wolf Helm"]
+      - ["446", "Raging Wolf Armor"]
+      - ["447", "Raging Wolf Armor (Altered)"]
+      - ["448", "Raging Wolf Gauntlets"]
+      - ["449", "Raging Wolf Greaves"]
   -
     title: "Hoslow's Set"
     items:
-      - ["429", "Hoslow's Helm"]
-      - ["430", "Diallos's Mask"]
-      - ["431", "Hoslow's Armor"]
-      - ["432", "Hoslow's Armor (Altered)"]
-      - ["433", "Hoslow's Gauntlets"]
-      - ["434", "Hoslow's Greaves"]
+      - ["450", "Hoslow's Helm"]
+      - ["451", "Diallos's Mask"]
+      - ["452", "Hoslow's Armor"]
+      - ["453", "Hoslow's Armor (Altered)"]
+      - ["454", "Hoslow's Gauntlets"]
+      - ["455", "Hoslow's Greaves"]
   -
     title: "Twinned Set"
     items:
-      - ["435", "Twinned Helm"]
-      - ["436", "Twinned Armor"]
-      - ["437", "Twinned Armor (Altered)"]
-      - ["438", "Twinned Gauntlets"]
-      - ["439", "Twinned Greaves"]
+      - ["456", "Twinned Helm"]
+      - ["457", "Twinned Armor"]
+      - ["458", "Twinned Armor (Altered)"]
+      - ["459", "Twinned Gauntlets"]
+      - ["460", "Twinned Greaves"]
   -
     title: "Drake Knight Set"
     items:
-      - ["440", "Drake Knight Helm"]
-      - ["441", "Drake Knight Helm (Altered)"]
-      - ["442", "Drake Knight Armor"]
-      - ["443", "Drake Knight Armor (Altered)"]
-      - ["444", "Drake Knight Gauntlets"]
-      - ["445", "Drake Knight Greaves"]
+      - ["461", "Drake Knight Helm"]
+      - ["462", "Drake Knight Helm (Altered)"]
+      - ["463", "Drake Knight Armor"]
+      - ["464", "Drake Knight Armor (Altered)"]
+      - ["465", "Drake Knight Gauntlets"]
+      - ["466", "Drake Knight Greaves"]
   -
     title: "Blaidd's Set"
     items:
-      - ["446", "Black Wolf Mask # Link to Black Wolf Mask in Section 3.5"]
-      - ["447", "Blaidd's Armor"]
-      - ["448", "Blaidd's Armor (Altered)"]
-      - ["449", "Blaidd's Gauntlets"]
-      - ["450", "Blaidd's Greaves"]
+      - ["467", "Black Wolf Mask # Link to Black Wolf Mask in Section 3.5"]
+      - ["468", "Blaidd's Armor"]
+      - ["469", "Blaidd's Armor (Altered)"]
+      - ["470", "Blaidd's Gauntlets"]
+      - ["471", "Blaidd's Greaves"]
   -
     title: "Briar Set"
     items:
-      - ["451", "Briar Helm"]
-      - ["452", "Briar Armor"]
-      - ["453", "Briar Armor (Altered)"]
-      - ["454", "Briar Gauntlets"]
-      - ["455", "Briar Greaves"]
+      - ["472", "Briar Helm"]
+      - ["473", "Briar Armor"]
+      - ["474", "Briar Armor (Altered)"]
+      - ["475", "Briar Gauntlets"]
+      - ["476", "Briar Greaves"]
   -
     title: "Fingerprint Set"
     items:
-      - ["456", "Fingerprint Helm"]
-      - ["457", "Fingerprint Armor"]
-      - ["458", "Fingerprint Armor (Altered)"]
-      - ["459", "Fingerprint Gauntlets"]
-      - ["460", "Fingerprint Greaves"]
+      - ["477", "Fingerprint Helm"]
+      - ["478", "Fingerprint Armor"]
+      - ["479", "Fingerprint Armor (Altered)"]
+      - ["480", "Fingerprint Gauntlets"]
+      - ["481", "Fingerprint Greaves"]
   -
     title: "Royal Remains Set"
     items:
-      - ["461", "Royal Remains Helm"]
-      - ["462", "Royal Remains Armor"]
-      - ["463", "Royal Remains Gauntlets"]
-      - ["464", "Royal Remains Greaves"]
+      - ["482", "Royal Remains Helm"]
+      - ["483", "Royal Remains Armor"]
+      - ["484", "Royal Remains Gauntlets"]
+      - ["485", "Royal Remains Greaves"]
   -
     title: "All-Knowing Set"
     items:
-      - ["465", "All-Knowing Helm"]
-      - ["466", "All-Knowing Armor"]
-      - ["467", "All-Knowing Armor (Altered)"]
-      - ["468", "All-Knowing Gauntlets"]
-      - ["469", "All-Knowing Greaves"]
+      - ["486", "All-Knowing Helm"]
+      - ["487", "All-Knowing Armor"]
+      - ["488", "All-Knowing Armor (Altered)"]
+      - ["489", "All-Knowing Gauntlets"]
+      - ["490", "All-Knowing Greaves"]
   -
     title: "Royal Knight Set"
     items:
-      - ["470", "Royal Knight Helm"]
-      - ["471", "Royal Knight Armor"]
-      - ["472", "Royal Knight Armor (Altered)"]
-      - ["473", "Royal Knight Gauntlets"]
-      - ["474", "Royal Knight Greaves"]
+      - ["491", "Royal Knight Helm"]
+      - ["492", "Royal Knight Armor"]
+      - ["493", "Royal Knight Armor (Altered)"]
+      - ["494", "Royal Knight Gauntlets"]
+      - ["495", "Royal Knight Greaves"]
   -
     title: "Maliketh's Set"
     items:
-      - ["475", "Maliketh's Helm"]
-      - ["476", "Maliketh's Armor"]
-      - ["477", "Maliketh's Armor (Altered)"]
-      - ["478", "Maliketh's Gauntlets"]
-      - ["479", "Maliketh's Greaves"]
+      - ["496", "Maliketh's Helm"]
+      - ["497", "Maliketh's Armor"]
+      - ["498", "Maliketh's Armor (Altered)"]
+      - ["499", "Maliketh's Gauntlets"]
+      - ["500", "Maliketh's Greaves"]
   -
     title: "Banished Knight Set"
     items:
-      - ["480", "Banished Knight Helm"]
-      - ["481", "Banished Knight Helm (Altered)"]
-      - ["482", "Banished Knight Armor"]
-      - ["483", "Banished Knight Armor (Altered)"]
-      - ["484", "Banished Knight Gauntlets"]
-      - ["485", "Banished Knight Greaves"]
+      - ["501", "Banished Knight Helm"]
+      - ["502", "Banished Knight Helm (Altered)"]
+      - ["503", "Banished Knight Armor"]
+      - ["504", "Banished Knight Armor (Altered)"]
+      - ["505", "Banished Knight Gauntlets"]
+      - ["506", "Banished Knight Greaves"]
   -
     title: "Night's Cavalry Set"
     items:
-      - ["486", "Night's Cavalry Helm"]
-      - ["487", "Night's Cavalry Helm (Altered)"]
-      - ["488", "Night's Cavalry Armor"]
-      - ["489", "Night's Cavalry Armor (Altered)"]
-      - ["490", "Night's Cavalry Gauntlets"]
-      - ["491", "Night's Cavalry Greaves"]
+      - ["507", "Night's Cavalry Helm"]
+      - ["508", "Night's Cavalry Helm (Altered)"]
+      - ["509", "Night's Cavalry Armor"]
+      - ["510", "Night's Cavalry Armor (Altered)"]
+      - ["511", "Night's Cavalry Gauntlets"]
+      - ["512", "Night's Cavalry Greaves"]
   -
     title: "Veteran's Set"
     items:
-      - ["492", "Veteran's Helm"]
-      - ["493", "Veteran's Armor"]
-      - ["494", "Veteran's Armor (Altered)"]
-      - ["495", "Veteran's Gauntlets"]
-      - ["496", "Veteran's Greaves"]
+      - ["513", "Veteran's Helm"]
+      - ["514", "Veteran's Armor"]
+      - ["515", "Veteran's Armor (Altered)"]
+      - ["516", "Veteran's Gauntlets"]
+      - ["517", "Veteran's Greaves"]
   -
     title: "Scaled Set"
     items:
-      - ["497", "Scaled Helm"]
-      - ["498", "Scaled Armor"]
-      - ["499", "Scaled Armor (Altered)"]
-      - ["500", "Scaled Gauntlets"]
-      - ["501", "Scaled Greaves"]
+      - ["518", "Scaled Helm"]
+      - ["519", "Scaled Armor"]
+      - ["520", "Scaled Armor (Altered)"]
+      - ["521", "Scaled Gauntlets"]
+      - ["522", "Scaled Greaves"]
   -
     title: "Beast Champion Set"
     items:
-      - ["502", "Beast Champion Helm"]
-      - ["503", "Beast Champion Armor"]
-      - ["504", "Beast Champion Armor (Altered)"]
-      - ["505", "Beast Champion Gauntlets"]
-      - ["506", "Beast Champion Greaves"]
+      - ["523", "Beast Champion Helm"]
+      - ["524", "Beast Champion Armor"]
+      - ["525", "Beast Champion Armor (Altered)"]
+      - ["526", "Beast Champion Gauntlets"]
+      - ["527", "Beast Champion Greaves"]
   -
     title: "Tree Sentinel Set"
     items:
-      - ["507", "Tree Sentinel Helm"]
-      - ["508", "Tree Sentinel Armor"]
-      - ["509", "Tree Sentinel Armor (Altered)"]
-      - ["510", "Tree Sentinel Gauntlets"]
-      - ["511", "Tree Sentinel Greaves"]
+      - ["528", "Tree Sentinel Helm"]
+      - ["529", "Tree Sentinel Armor"]
+      - ["530", "Tree Sentinel Armor (Altered)"]
+      - ["531", "Tree Sentinel Gauntlets"]
+      - ["532", "Tree Sentinel Greaves"]
   -
     title: "Malformed Dragon Set"
     items:
-      - ["512", "Malformed Dragon Helm"]
-      - ["513", "Malformed Dragon Armor"]
-      - ["514", "Malformed Dragon Gauntlets"]
-      - ["515", "Malformed Dragon Greaves"]
+      - ["533", "Malformed Dragon Helm"]
+      - ["534", "Malformed Dragon Armor"]
+      - ["535", "Malformed Dragon Gauntlets"]
+      - ["536", "Malformed Dragon Greaves"]
   -
     title: "Crucible Axe Set"
     items:
-      - ["516", "Crucible Axe Helm"]
-      - ["517", "Crucible Axe Armor"]
-      - ["518", "Crucible Axe Armor (Altered)"]
-      - ["519", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
-      - ["520", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
+      - ["537", "Crucible Axe Helm"]
+      - ["538", "Crucible Axe Armor"]
+      - ["539", "Crucible Axe Armor (Altered)"]
+      - ["540", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
+      - ["541", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
   -
     title: "Crucible Tree Set"
     items:
-      - ["521", "Crucible Tree Helm"]
-      - ["522", "Crucible Tree Armor"]
-      - ["523", "Crucible Tree Armor (Altered)"]
-      - ["524", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
-      - ["525", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
+      - ["542", "Crucible Tree Helm"]
+      - ["543", "Crucible Tree Armor"]
+      - ["544", "Crucible Tree Armor (Altered)"]
+      - ["545", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
+      - ["546", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
   -
     title: "General Radahn's Set"
     items:
-      - ["526", "Radahn's Redmane Helm"]
-      - ["527", "Radahn's Lion Armor"]
-      - ["528", "Radahn's Lion Armor (Altered)"]
-      - ["529", "Radahn's Gauntlets"]
-      - ["530", "Radahn's Greaves"]
+      - ["547", "Radahn's Redmane Helm"]
+      - ["548", "Radahn's Lion Armor"]
+      - ["549", "Radahn's Lion Armor (Altered)"]
+      - ["550", "Radahn's Gauntlets"]
+      - ["551", "Radahn's Greaves"]
   -
     title: "Lionel's Set"
     items:
-      - ["531", "Lionel's Helm"]
-      - ["532", "Lionel's Armor"]
-      - ["533", "Lionel's Armor (Altered)"]
-      - ["534", "Lionel's Gauntlets"]
-      - ["535", "Lionel's Greaves"]
+      - ["552", "Lionel's Helm"]
+      - ["553", "Lionel's Armor"]
+      - ["554", "Lionel's Armor (Altered)"]
+      - ["555", "Lionel's Gauntlets"]
+      - ["556", "Lionel's Greaves"]
   -
     title: "Bull-Goat Set"
     items:
-      - ["536", "Bull-Goat Helm"]
-      - ["537", "Bull-Goat Armor"]
-      - ["538", "Bull-Goat Gauntlets"]
-      - ["539", "Bull-Goat Greaves"]
+      - ["557", "Bull-Goat Helm"]
+      - ["558", "Bull-Goat Armor"]
+      - ["559", "Bull-Goat Gauntlets"]
+      - ["560", "Bull-Goat Greaves"]
   -
     title: "Omen Set"
     items:
-      - ["540", "Omen Helm"]
-      - ["541", "Omen Armor"]
-      - ["542", "Omen Gauntlets"]
-      - ["543", "Omen Greaves"]
+      - ["561", "Omen Helm"]
+      - ["562", "Omen Armor"]
+      - ["563", "Omen Gauntlets"]
+      - ["564", "Omen Greaves"]
   -
     title: "Fire Prelate's Set"
     items:
-      - ["544", "Fire Prelate Helm"]
-      - ["545", "Fire Prelate Armor"]
-      - ["546", "Fire Prelate Armor (Altered)"]
-      - ["547", "Fire Prelate Gauntlets"]
-      - ["548", "Fire Prelate Greaves"]
+      - ["565", "Fire Prelate Helm"]
+      - ["566", "Fire Prelate Armor"]
+      - ["567", "Fire Prelate Armor (Altered)"]
+      - ["568", "Fire Prelate Gauntlets"]
+      - ["569", "Fire Prelate Greaves"]
   -
-    title: "Unique Pieces"
+    title: "Pumpkin Helm (Helmet Only"
     items:
-      - ["549", "Blackguard's Iron Mask (Helmet Only)"]
-      - ["550", "Black Dumpling (Helmet Only)"]
-      - ["551", "Mask of Confidence (Helmet Only)"]
-      - ["552", "Deathbed Dress (Chest Only)"]
-      - ["553", "Corhyn's Robe (Chest Only)"]
-      - ["554", "Greathood (Helmet Only)"]
-      - ["555", "Upper-Class Robe (Chest Only)"]
-      - ["556", "Fell Omen Cloak (Chest Only)"]
-      - ["557", "Lord of Blood's Robe (Chest Only)"]
-      - ["558", "Lord of Blood's Robe (Altered) (Chest Only)"]
-      - ["559", "Nox Mirrorhelm"]
-      - ["560", "Iji's Mirrorhelm"]
-      - ["561", "Silver Tear Mask"]
-      - ["562", "Envoy Crown"]
-      - ["563", "Octopus Head"]
-      - ["564", "Jar"]
-      - ["565", "Albinauric Mask"]
-      - ["566", "Black Wolf Mask"]
-      - ["567", "Dirty Chainmail (apart of the Albinauric Set)"]
-      - ["568", "Greathelm (Helmet Only)"]
-      - ["569", "Pumpkin Helm (Helmet Only"]
+      - ["570", "Pumpkin Helm (Helmet Only"]
