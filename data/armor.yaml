@@ -3,105 +3,120 @@ id: armor
 sections:
   -
     title: "Traveler's Set (No Helmet)"
+    link: "https://eldenring.wiki.fextralife.com/Traveler's+Set"
     items:
-      - ["0", "Traveler's Clothes"]
-      - ["1", "Traveler's Manchettes"]
-      - ["2", "Traveler's Boots"]
+      - ["0", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>"]
+      - ["1", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>"]
+      - ["2", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>"]
   -
     title: "Commoner's Set"
+    link: "https://eldenring.wiki.fextralife.com/Commoner's+Set"
     items:
-      - ["3", "Commoner's Headband"]
-      - ["4", "Commoner's Headband (Altered)"]
-      - ["5", "Commoner's Garb"]
-      - ["6", "Commoner's Garb (Altered)"]
-      - ["7", "Commoner's Simple Garb"]
-      - ["8", "Commoner's Simple Garb (Altered)"]
-      - ["9", "Commoner's Shoes"]
+      - ["3", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband\">Commoner's Headband</a>"]
+      - ["4", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband+(Altered)\">Commoner's Headband (Altered)</a>"]
+      - ["5", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Garb\">Commoner's Garb</a>"]
+      - ["6", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Garb+(Altered)\">Commoner's Garb (Altered)</a>"]
+      - ["7", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Simple+Garb\">Commoner's Simple Garb</a>"]
+      - ["8", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Simple+Garb+(Altered)\">Commoner's Simple Garb (Altered)</a>"]
+      - ["9", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Shoes\">Commoner's Shoes</a>"]
   -
     title: "Aristocrat Set"
+    link: "https://eldenring.wiki.fextralife.com/Aristocrat+Set"
     items:
-      - ["10", "Aristocrat Headband"]
-      - ["11", "Aristocrat Hat"]
-      - ["12", "Aristocrat Garb"]
-      - ["13", "Aristocrat Garb (Altered)"]
-      - ["14", "Aristocrat Coat"]
-      - ["15", "Aristocrat Boots"]
+      - ["10", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Headband\">Aristocrat Headband</a>"]
+      - ["11", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Hat\">Aristocrat Hat</a>"]
+      - ["12", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb\">Aristocrat Garb</a>"]
+      - ["13", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb+(Altered)\">Aristocrat Garb (Altered)</a>"]
+      - ["14", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Coat\">Aristocrat Coat</a>"]
+      - ["15", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Boots\">Aristocrat Boots</a>"]
   -
     title: "Old Aristocrat Set (No Gloves)"
+    link: "https://eldenring.wiki.fextralife.com/Old+Aristocrat+Set"
     items:
-      - ["16", "Old Aristocrat Cowl"]
-      - ["17", "Old Aristocrat Gown"]
-      - ["18", "Old Aristocrat Shoes"]
+      - ["16", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Cowl\">Old Aristocrat Cowl</a>"]
+      - ["17", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Gown\">Old Aristocrat Gown</a>"]
+      - ["18", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Shoes\">Old Aristocrat Shoes</a>"]
   -
     title: "Page Set (No Gloves)"
+    link: "https://eldenring.wiki.fextralife.com/Page+Set"
     items:
-      - ["19", "Page Hood"]
-      - ["20", "Page Garb"]
-      - ["21", "Page Garb (Altered)"]
-      - ["22", "Page Trousers"]
+      - ["19", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Hood\">Page Hood</a>"]
+      - ["20", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Garb\">Page Garb</a>"]
+      - ["21", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Garb+(Altered)\">Page Garb (Altered)</a>"]
+      - ["22", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"] # IDs 22 and 26 are linked
   -
     title: "High Page Set (No Gloves)"
+    link: "https://eldenring.wiki.fextralife.com/High+Page+Set"
     items:
-      - ["23", "High Page Hood"]
-      - ["24", "High Page Clothes"]
-      - ["25", "High Page Clothes (Altered)"]
-      - ["26", "Page Trousers"]
+      - ["23", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Hood\">High Page Hood</a>"]
+      - ["24", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Clothes\">High Page Clothes</a>"]
+      - ["25", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Clothes+(Altered)\">High Page Clothes (Altered)</a>"]
+      - ["26", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"] # IDs 22 and 26 are linked
   -
     title: "Guardian Set"
+    link: "https://eldenring.wiki.fextralife.com/Guardian+Set"
     items:
-      - ["27", "Guardian Mask"]
-      - ["28", "Guardian Garb"]
-      - ["29", "Guardian Garb (Full Bloom)"]
-      - ["30", "Guardian Bracers"]
-      - ["31", "Guardian Greaves"]
+      - ["27", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Mask\">Guardian Mask</a>"]
+      - ["28", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb\">Guardian Garb</a>"]
+      - ["29", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb+(Full+Bloom)\">Guardian Garb (Full Bloom)</a>"]
+      - ["30", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Bracers\">Guardian Bracers</a>"]
+      - ["31", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Greaves\">Guardian Greaves</a>"]
   -
-    title: "Festive Set"
+    title: "Festive Set (No Gloves or Legs)"
+    link: "https://eldenring.wiki.fextralife.com/Festive+Set"
     items:
-      - ["32", "Festive Hood"]
-      - ["33", "Festive Hood (Altered)"]
-      - ["34", "Festive Garb"]
-      - ["35", "Festive Garb (Altered)"]
+      - ["32", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Hood\">Festive Hood</a>"]
+      - ["33", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Hood+(Altered)\">Festive Hood (Altered)</a>"]
+      - ["34", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb\">Festive Garb</a>"]
+      - ["35", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb+(Altered)\">Festive Garb (Altered)</a>"]
   -
     title: "Blue Festive Set (No Gloves or Legs)"
+    link: "https://eldenring.wiki.fextralife.com/Blue+Festive+Set"
     items:
-      - ["36", "Blue Festive Hood"]
-      - ["37", "Blue Festive Garb"]
+      - ["36", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Hood\">Blue Festive Hood</a>"]
+      - ["37", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Garb\">Blue Festive Garb</a>"]
   -
     title: "Guilty Set (No Gloves)"
+    link: "https://eldenring.wiki.fextralife.com/Guilty+Set"
     items:
-      - ["38", "Guilty Hood"]
-      - ["39", "Cloth Garb (NOTE - appears out of order. Shows as the first piece in chest armors)"]
-      - ["40", "Cloth Trousers (NOTE - appears out of order. Shows as the first piece in leg armors)"]
+      - ["38", "<a href=\"https://eldenring.wiki.fextralife.com/Guilty+Hood\">Guilty Hood</a>"]
+      - ["39", "<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Garb\">Cloth Garb</a> (NOTE - appears out of order with the rest of the set. Shows in-game as the first piece in chest armors.)"]
+      - ["40", "<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Trousers\">Cloth Trousers</a> (NOTE - appears out of order with the rest of the set. Shows in-game as the first piece in leg armors.)"]
   -
     title: "Prisoner Set (No Gloves)"
+    link: "https://eldenring.wiki.fextralife.com/Prisoner+Set"
     items:
-      - ["41", "Prisoner Iron Mask"]
-      - ["42", "Prisoner Clothing"]
-      - ["43", "Prisoner Trousers"]
+      - ["41", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Iron+Mask\">Prisoner Iron Mask</a>"]
+      - ["42", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Clothing\">Prisoner Clothing</a>"]
+      - ["43", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Trousers\">Prisoner Trousers</a>"]
   -
     title: "Blackguard's Iron Mask (Helmet Only)"
+    link: "https://eldenring.wiki.fextralife.com/Blackguard's+Iron+Mask"
     items:
-      - ["44", "Blackguard's Iron Mask (Helmet Only)"]
+      - ["44", "<a href=\"https://eldenring.wiki.fextralife.com/Blackguard's+Iron+Mask\">Blackguard's Iron Mask</a>"]
   -
-    title: "Bloodsoaked Set"
+    title: "Bloodsoaked Set (No Legs)"
+    link: "https://eldenring.wiki.fextralife.com/Bloodsoaked+Set"
     items:
-      - ["45", "Bloodsoaked Mask"]
-      - ["46", "Official's Attire (NOTE - appears out of order. Found in the 3rd section of chest armors)"]
-      - ["47", "Bloodsoaked Manchettes"]
+      - ["45", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Mask\">Bloodsoaked Mask</a>"]
+      - ["46", "<a href=\"https://eldenring.wiki.fextralife.com/Official's+Attire\">Official's Attire</a> (NOTE - appears out of order with the rest of the set. Found in the 3rd section of chest armors in-game.)"]
+      - ["47", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Manchettes\">Bloodsoaked Manchettes</a>"]
   -
     title: "Black Dumpling (Helmet Only)"
+    link: "https://eldenring.wiki.fextralife.com/Black+Dumpling"
     items:
-      - ["48", "Black Dumpling (Helmet Only)"]
+      - ["48", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Dumpling\">Black Dumpling</a>"]
   -
     title: "Mushroom Set"
+    link: "https://eldenring.wiki.fextralife.com/Mushroom+Set"
     items:
-      - ["49", "Mushroom Head"]
-      - ["50", "Mushroom Crown"]
-      - ["51", "Mushroom Body"]
-      - ["52", "Mushroom Arms"]
-      - ["53", "Mushroom Legs"]
+      - ["49", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Head\">Mushroom Head</a>"]
+      - ["50", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Crown\">Mushroom Crown</a>"]
+      - ["51", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Body\">Mushroom Body</a>"]
+      - ["52", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Arms\">Mushroom Arms</a>"]
+      - ["53", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Legs\">Mushroom Legs</a>"]
   -
-    title: "Astrologer Set"
+    title: "Astrologer Set (No Legs)"
     items:
       - ["54", "Astrologer Hood"]
       - ["55", "Astrologer Robe"]
@@ -121,15 +136,15 @@ sections:
       - ["63", "Twinsage Glintstone Crown"]
       - ["64", "Witch's Glintstone Crown"]
       - ["65", "Raya Lucarian Robe"]
-      - ["66", "Sorcerer Manchettes"]
-      - ["67", "Sorcerer Leggings"]
+      - ["66", "Sorcerer Manchettes"] # IDs 66 and 70 are linked
+      - ["67", "Sorcerer Leggings"]  # IDs 67 and 71 are linked
   -
     title: "Lazuli Sorcerer Set"
     items:
       - ["68", "Lazuli Glintstone Crown"]
       - ["69", "Lazuli Robe"]
-      - ["70", "Sorcerer Manchettes"]
-      - ["71", "Sorcerer Leggings"]
+      - ["70", "Sorcerer Manchettes"]  # IDs 66 and 70 are linked
+      - ["71", "Sorcerer Leggings"]  # IDs 67 and 71 are linked
   -
     title: "Battlemage Set"
     items:
@@ -173,7 +188,7 @@ sections:
   -
     title: "Mask of Confidence (Helmet Only)"
     items:
-      - ["97", "Mask of Confidence (Helmet Only)"]
+      - ["97", "Mask of Confidence"]
   -
     title: "Azur's Glintstone Set (No Legs)"
     items:
@@ -186,7 +201,7 @@ sections:
       - ["101", "Lusat's Glintstone Crown"]
       - ["102", "Lusat's Robe"]
       - ["103", "Lusat's Manchettes"]
-      - ["104", "Old Sorcerer's Legwraps (NOTE - appears out of order. Shows as the 2nd piece of the 2nd sections of leg armors)"]
+      - ["104", "Old Sorcerer's Legwraps (NOTE - appears out of order with the rest of the set. Shows as the 2nd piece of the 2nd sections of leg armors in-game.)"]
   -
     title: "Queen of the Full Moon Set"
     items:
@@ -210,7 +225,7 @@ sections:
   -
     title: "Deathbed Dress (Chest Only)"
     items:
-      - ["116", "Deathbed Dress (Chest Only)"]
+      - ["116", "Deathbed Dress"]
   -
     title: "Prophet Set (No Gloves)"
     items:
@@ -221,7 +236,7 @@ sections:
   -
     title: "Corhyn's Robe (Chest Only)"
     items:
-      - ["121", "Corhyn's Robe (Chest Only)"]
+      - ["121", "Corhyn's Robe"]
   -
     title: "Traveling Maiden Set"
     items:
@@ -246,7 +261,7 @@ sections:
   -
     title: "Greathood (Helmet Only)"
     items:
-      - ["134", "Greathood (Helmet Only)"]
+      - ["134", "Greathood"]
   -
     title: "Goldmask's Set"
     items:
@@ -281,7 +296,7 @@ sections:
   -
     title: "Upper-Class Robe (Chest Only)"
     items:
-      - ["154", "Upper-Class Robe (Chest Only)"]
+      - ["154", "Upper-Class Robe"]
   -
     title: "Ruler's Set (No Gloves or Legs)"
     items:
@@ -294,7 +309,7 @@ sections:
       - ["158", "Consort's Robe"]
       - ["159", "Consort's Trousers"]
   -
-    title: "House Marais Set"
+    title: "House Marais Set (No Gloves or Legs)"
     items:
       - ["160", "Marais Mask"]
       - ["161", "Marais Robe"]
@@ -327,7 +342,7 @@ sections:
   -
     title: "Fell Omen Cloak (Chest Only)"
     items:
-      - ["176", "Fell Omen Cloak (Chest Only)"]
+      - ["176", "Fell Omen Cloak"]
   -
     title: "Sanguine Noble Set (No Gloves)"
     items:
@@ -335,13 +350,10 @@ sections:
       - ["178", "Sanguine Noble Robe"]
       - ["179", "Sanguine Noble Waistcloth"]
   -
-    title: "Lord of Blood's Robe (Chest Only)"
+    title: "Lord of Blood's Robes (Chest Only)"
     items:
-      - ["180", "Lord of Blood's Robe (Chest Only)"]
-  -
-    title: "Lord of Blood's Robe (Altered) (Chest Only)"
-    items:
-      - ["181", "Lord of Blood's Robe (Altered) (Chest Only)"]
+      - ["180", "Lord of Blood's Robe"]
+      - ["181", "Lord of Blood's Robe (Altered)"]
   -
     title: "Scarab Masks"
     items:
@@ -360,41 +372,42 @@ sections:
       - ["191", "Imp Head (Corpse)"]
       - ["192", "Imp Head (Elder)"]
   -
-    title: "Nox Mirrorhelm"
+    title: "Nox Mirrorhelm (Helmet Only)"
     items:
       - ["193", "Nox Mirrorhelm"]
   -
-    title: "Iji's Mirrorhelm"
+    title: "Iji's Mirrorhelm (Helmet Only)"
     items:
       - ["194", "Iji's Mirrorhelm"]
   -
-    title: "Silver Tear Mask"
+    title: "Silver Tear Mask (Helmet Only)"
     items:
       - ["195", "Silver Tear Mask"]
   -
-    title: "Envoy Crown"
+    title: "Envoy Crown (Helmet Only)"
     items:
       - ["196", "Envoy Crown"]
   -
-    title: "Octopus Head"
+    title: "Octopus Head (Helmet Only)"
     items:
       - ["197", "Octopus Head"]
   -
-    title: "Jar"
+    title: "Jar (Helmet Only)"
     items:
       - ["198", "Jar"]
   -
-    title: "Albinauric Mask"
+    title: "Albinauric Set (No Gloves or Legs)"
     items:
       - ["199", "Albinauric Mask"]
+      - ["571", "Dirty Chainmail"]
   -
-    title: "Black Wolf Mask"
+    title: "Black Wolf Mask (Helmet Only)"
     items:
-      - ["200", "Black Wolf Mask"]
+      - ["200", "Black Wolf Mask"] # IDs 200 and 467 are linked
   -
     title: "Leather Set"
     items:
-      - ["201", "Black Hood (NOTE - appears out of order in this section. Shows between Bandit Mask and Confessor Hood."]
+      - ["201", "Black Hood (NOTE - appears out of order with the rest of the set. Shows between Bandit Mask and Confessor Hood in-game."]
       - ["202", "Leather Armor"]
       - ["203", "Leather Gloves"]
       - ["204", "Leather Boots"]
@@ -433,8 +446,8 @@ sections:
     items:
       - ["223", "Bandit Mask"]
       - ["224", "Bandit Garb"]
-      - ["225", "Bandit Manchettes (Link to Raptor's Set)"]
-      - ["226", "Bandit Boots (Link to Raptor's Set)"]
+      - ["225", "Bandit Manchettes"] # IDs 225 and 239 are linked
+      - ["226", "Bandit Boots"] # IDs 226 and 240 are linked
   -
     title: "Confessor Set"
     items:
@@ -456,8 +469,8 @@ sections:
     items:
       - ["237", "Skeletal Mask"]
       - ["238", "Raptor's Black Feathers"]
-      - ["239", "Bandit Manchettes (Link to Bandit Set)"]
-      - ["240", "Bandit Boots (Link to Bandit Set)"]
+      - ["239", "Bandit Manchettes"] # IDs 225 and 239 are linked
+      - ["240", "Bandit Boots"] # IDs 226 and 240 are linked
   -
     title: "Foot Soldier Set"
     items:
@@ -473,14 +486,14 @@ sections:
       - ["250", "Ivory-Draped Tabard (Haligtree)"]
       - ["251", "Bloodsoaked Tabard (Mausoleum)"]
       - ["252", "Foot Soldier Gauntlets"]
-      - ["253", "Foot Soldier Greaves"]
+      - ["253", "Foot Soldier Greaves"] # IDs 253 and 257 are linked
   -
     title: "Highwayman Set"
     items:
       - ["254", "Highwayman Hood"]
       - ["255", "Highwayman Cloth Armor"]
       - ["256", "Highwayman Gauntlets"]
-      - ["257", "Foot Soldier Greaves"]
+      - ["257", "Foot Soldier Greaves"] # IDs 253 and 257 are linked
   -
     title: "Vulgar Militia Set"
     items:
@@ -509,8 +522,8 @@ sections:
       - ["271", "Nox Monk Hood (Altered)"]
       - ["272", "Nox Monk Armor"]
       - ["273", "Nox Monk Armor (Altered)"]
-      - ["274", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["275", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["274", "Nox Monk Bracelets"] #IDs 274, 280, and 284 are linked
+      - ["275", "Nox Monk Greaves"] #IDs 275, 281, and 285 are linked
   -
     title: "Nox Swordstress Set"
     items:
@@ -518,15 +531,15 @@ sections:
       - ["277", "Nox Swordstress Crown (Altered)"]
       - ["278", "Nox Swordstress Armor"]
       - ["279", "Nox Swordstress Armor (Altered)"]
-      - ["280", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["281", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["280", "Nox Monk Bracelets"] #IDs 274, 280, and 284 are linked
+      - ["281", "Nox Monk Greaves"] #IDs 275, 281, and 285 are linked
   -
     title: "Night Maiden Set"
     items:
       - ["282", "Night Maiden Twin Crown"]
       - ["283", "Night Maiden Armor"]
-      - ["284", "Nox Monk Bracelets # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
-      - ["285", "Nox Monk Greaves # Link Nox Monk, Nox Swordstree, and Night Maiden together"]
+      - ["284", "Nox Monk Bracelets"] #IDs 274, 280, and 284 are linked
+      - ["285", "Nox Monk Greaves"] #IDs 275, 281, and 285 are linked
   -
     title: "Champion Set"
     items:
@@ -544,16 +557,16 @@ sections:
       - ["294", "Gauntlets"]
       - ["295", "Chain Leggings"]
   -
-    title: "Dirty Chainmail (apart of the Albinauric Set)"
+    title: "Dirty Chainmail (Chest Only - part of the Albinauric Set)"
     items:
-      - ["296", "Dirty Chainmail (apart of the Albinauric Set)"]
+      - ["296", "Dirty Chainmail"]
   -
     title: "Iron Set"
     items:
       - ["297", "Iron Helmet"]
-      - ["298", "Scale Armor (NOTE - appears out of order. Shows as the first chest piece in the 7th section.)"]
+      - ["298", "Scale Armor (NOTE - appears out of order with the rest of the set. Shows as the first chest piece in the 7th section in-game.)"]
       - ["299", "Iron Gauntlets"]
-      - ["300", "Leather Trousers # Link to Leather set"]
+      - ["300", "Leather Trousers"]
   -
     title: "Godrick Soldier Set"
     items:
@@ -717,7 +730,7 @@ sections:
   -
     title: "Greathelm (Helmet Only)"
     items:
-      - ["395", "Greathelm (Helmet Only)"]
+      - ["395", "Greathelm"]
   -
     title: "Carian Knight Set"
     items:
@@ -834,7 +847,7 @@ sections:
   -
     title: "Blaidd's Set"
     items:
-      - ["467", "Black Wolf Mask # Link to Black Wolf Mask in Section 3.5"]
+      - ["467", "Black Wolf Mask"] # IDs 200 and 467 are linked
       - ["468", "Blaidd's Armor"]
       - ["469", "Blaidd's Armor (Altered)"]
       - ["470", "Blaidd's Gauntlets"]
@@ -949,16 +962,16 @@ sections:
       - ["537", "Crucible Axe Helm"]
       - ["538", "Crucible Axe Armor"]
       - ["539", "Crucible Axe Armor (Altered)"]
-      - ["540", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
-      - ["541", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
+      - ["540", "Crucible Gauntlets"] # IDs 540 and 545 are linked
+      - ["541", "Crucible Greaves"] # IDs 541 and 546 are linked
   -
     title: "Crucible Tree Set"
     items:
       - ["542", "Crucible Tree Helm"]
       - ["543", "Crucible Tree Armor"]
       - ["544", "Crucible Tree Armor (Altered)"]
-      - ["545", "Crucible Gauntlets # Link for Crucible Axe & Tree Sets"]
-      - ["546", "Crucible Greaves # Link for Crucible Axe & Tree Sets"]
+      - ["545", "Crucible Gauntlets"] # IDs 540 and 545 are linked
+      - ["546", "Crucible Greaves"] # IDs 541 and 546 are linked
   -
     title: "General Radahn's Set"
     items:
@@ -998,6 +1011,7 @@ sections:
       - ["568", "Fire Prelate Gauntlets"]
       - ["569", "Fire Prelate Greaves"]
   -
-    title: "Pumpkin Helm (Helmet Only"
+    title: "Pumpkin Helm (Helmet Only)"
     items:
-      - ["570", "Pumpkin Helm (Helmet Only"]
+      - ["570", "Pumpkin Helm"]
+# last id in use: 571
