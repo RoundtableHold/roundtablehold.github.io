@@ -86,7 +86,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark"):
+    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark d-print-none"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
                 with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -108,12 +108,12 @@ with doc:
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
                 h1("Roundtable Tracker", cls="mt-3")
-                text = p(cls="lead")
+                text = p(cls="lead d-print-none")
                 text += "Contribute at the "
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
-            with div(id="btnHideCompleted", cls="fade mb-3"):
+            with div(id="btnHideCompleted", cls="fade mb-3 d-print-none"):
                 with div(cls="form-check form-switch"):
                     input_(cls="form-check-input", type="checkbox", id='toggleHideCompleted')
                     label("Hide Completed", cls="form-check-label", _for='toggleHideCompleted')
@@ -122,9 +122,9 @@ with doc:
                     # Filter buttons
                     h = h2()
                     h += page['title']
-                    h += span(id=page['id'] + "_overall_total")
+                    h += span(id=page['id'] + "_overall_total", cls='d-print-none')
 
-                    with nav(cls="text-muted toc"):
+                    with nav(cls="text-muted toc d-print-none"):
                         with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
                             i(cls='bi bi-plus-lg')
                             raw('Table Of Contents')
@@ -134,19 +134,19 @@ with doc:
                                     a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
-                    with div(cls="input-group"):
+                    with div(cls="input-group d-print-none"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
                     with div(id=page['id']+"_list"):
                         for s_idx, section in enumerate(page['sections']):
                             with h4(id=page['id'] + '_' + str(s_idx), cls="mt-1"):
-                                with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
-                                    i(cls='bi bi-chevron-up')
+                                with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
+                                    i(cls='bi bi-chevron-up d-print-none')
                                 if 'link' in section:
-                                    a(section['title'], href=section['link'])
+                                    a(section['title'], href=section['link'], cls='d-print-inline')
                                 else:
-                                    span(section['title'])
-                                span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill")
+                                    span(section['title'], cls='d-print-inline')
+                                span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill d-print-none")
                             if 'table' in section:
                                 with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show row", aria_expanded="true"):
                                     if isinstance(section['table'], list):
@@ -303,7 +303,7 @@ with doc:
 
     div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
 
-    a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
+    a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
     script(src="js/jquery.min.js")
     script(src="js/jstorage.min.js")
