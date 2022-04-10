@@ -1,6 +1,7 @@
 from math import ceil, floor
 from itertools import permutations
 import os
+from time import sleep
 from turtle import onclick
 import yaml
 import re
@@ -8,6 +9,7 @@ import dominate
 from dominate.tags import *
 from dominate.util import raw
 from more_itertools import peekable
+from atomicwrites import atomic_write
 
 
 doc = dominate.document(title="Roundtable Tracker")
@@ -86,7 +88,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark d-print-none"):
+    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
                 with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -101,7 +103,6 @@ with doc:
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
                                     li().add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
-                                    # li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
                     with li(cls="nav-item"):
                         a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
     with div(cls="container"):
@@ -325,10 +326,7 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf_8') as index:
-    index.write(doc.render())
-
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf_8') as jsfile:
+with atomic_write(os.path.join('js', 'search.js'), overwrite=True, encoding='utf_8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -364,7 +362,7 @@ def make_jquery_selector(x):
     s += '#' + str(l[-1]) + '")'
     return s
 
-with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding='UTF-8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -404,3 +402,6 @@ with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f
             links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')
+
+with atomic_write('index.html', overwrite=True, encoding='utf_8') as index:
+    index.write(doc.render())

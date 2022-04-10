@@ -590,10 +590,12 @@ var profilesKey = 'darksouls3_profiles';
                 return;
             }
             profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
+            
+            window.scrollTo(0,0);
 
             $.jStorage.set(profilesKey, profiles);
-        
-            $('.navbar-collapse').collapse('hide')
+
+            $('#nav-collapse').toggle();
         });
      });
 
