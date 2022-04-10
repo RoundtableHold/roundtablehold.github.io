@@ -19,6 +19,7 @@ dropdowns:
     name: "Equipment"
     pages:
       - "weapons.yaml" #Weapons
+      - "armor.yaml" #Armor
       - "talismans.yaml" #Talismans
       - "incantations.yaml" #Incantations
       - "sorceries.yaml" #Sorceries
@@ -96,3 +97,15 @@ item_links:
   - link_all: [remembrances_mausoleums_1_14_2, incantations_11_4]
   - link_all: [remembrances_mausoleums_1_15_1, weapons_24_6]
   - link_all: [remembrances_mausoleums_1_15_2, incantations_2_1]
+  - link_all: [armor_22, armor_26] # Links Page Trousers
+  - link_all: [armor_66, armor_70] # Links Sorcerer Manchettes
+  - link_all: [armor_67, armor_71] # Links Sorcerer Leggings
+  - link_all: [armor_200, armor_467] # Links Black Wolf Mask
+  - link_all: [armor_225, armor_239] # Links Bandit Manchettes
+  - link_all: [armor_226, armor_240] # Links Bandit Boots
+  - link_all: [armor_253, armor_257] # Links Foot Soldier Greaves
+  - link_all: [armor_274, armor_280, armor_284] # Links Nox Monk Bracelets
+  - link_all: [armor_275, armor_281, armor_285] # Links Nox Monk Greaves
+  - link_all: [armor_296, armor_571] # Links Dirty Chainmail
+  - link_all: [armor_540, armor_545] # Crucible Gauntlets
+  - link_all: [armor_541, armor_546] # Crucible Greaves

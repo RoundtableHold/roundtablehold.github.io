@@ -29,6 +29,9 @@
     searchTag: "#weapons_search",
     contentTag: "#weapons_list ul"
   }), new Jets({
+    searchTag: "#armor_search",
+    contentTag: "#armor_list ul"
+  }), new Jets({
     searchTag: "#talismans_search",
     contentTag: "#talismans_list ul"
   }), new Jets({
@@ -118,6 +121,10 @@
   $("#weapons_search").keyup(function() {
     $("#weapons_list").unhighlight();
     $("#weapons_list").highlight($(this).val());
+  });
+  $("#armor_search").keyup(function() {
+    $("#armor_list").unhighlight();
+    $("#armor_list").highlight($(this).val());
   });
   $("#talismans_search").keyup(function() {
     $("#talismans_list").unhighlight();

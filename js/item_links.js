@@ -151,5 +151,65 @@
       $("#remembrances_mausoleums_1_15_2,#incantations_2_1").prop("checked", checked);
       $("#remembrances_mausoleums_1_15_2,#incantations_2_1").each(function(idx, el) {window.onCheckbox(el)});
     });
+    $("#armor_22,#armor_26").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_22,#armor_26").prop("checked", checked);
+      $("#armor_22,#armor_26").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_66,#armor_70").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_66,#armor_70").prop("checked", checked);
+      $("#armor_66,#armor_70").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_67,#armor_71").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_67,#armor_71").prop("checked", checked);
+      $("#armor_67,#armor_71").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_200,#armor_467").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_200,#armor_467").prop("checked", checked);
+      $("#armor_200,#armor_467").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_225,#armor_239").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_225,#armor_239").prop("checked", checked);
+      $("#armor_225,#armor_239").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_226,#armor_240").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_226,#armor_240").prop("checked", checked);
+      $("#armor_226,#armor_240").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_253,#armor_257").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_253,#armor_257").prop("checked", checked);
+      $("#armor_253,#armor_257").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_274,#armor_280,#armor_284").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_274,#armor_280,#armor_284").prop("checked", checked);
+      $("#armor_274,#armor_280,#armor_284").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_275,#armor_281,#armor_285").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_275,#armor_281,#armor_285").prop("checked", checked);
+      $("#armor_275,#armor_281,#armor_285").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_296,#armor_571").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_296,#armor_571").prop("checked", checked);
+      $("#armor_296,#armor_571").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_540,#armor_545").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_540,#armor_545").prop("checked", checked);
+      $("#armor_540,#armor_545").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_541,#armor_546").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_541,#armor_546").prop("checked", checked);
+      $("#armor_541,#armor_546").each(function(idx, el) {window.onCheckbox(el)});
+    });
   });
 })( jQuery );
