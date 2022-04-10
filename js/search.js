@@ -5,6 +5,9 @@
     searchTag: "#playthrough_search",
     contentTag: "#playthrough_list ul"
   }), new Jets({
+    searchTag: "#quest_order_tldr_search",
+    contentTag: "#quest_order_tldr_list ul"
+  }), new Jets({
     searchTag: "#npc_quests_search",
     contentTag: "#npc_quests_list ul"
   }), new Jets({
@@ -89,6 +92,10 @@
   $("#playthrough_search").keyup(function() {
     $("#playthrough_list").unhighlight();
     $("#playthrough_list").highlight($(this).val());
+  });
+  $("#quest_order_tldr_search").keyup(function() {
+    $("#quest_order_tldr_list").unhighlight();
+    $("#quest_order_tldr_list").highlight($(this).val());
   });
   $("#npc_quests_search").keyup(function() {
     $("#npc_quests_list").unhighlight();
