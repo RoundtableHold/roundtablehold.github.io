@@ -125,6 +125,9 @@ with doc:
                     h += page['title']
                     h += span(id=page['id'] + "_overall_total", cls='d-print-none')
 
+                    if 'description' in page:
+                        p(raw(page['description']))
+
                     with nav(cls="text-muted toc d-print-none"):
                         with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
                             i(cls='bi bi-plus-lg')
