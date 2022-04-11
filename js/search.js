@@ -29,6 +29,9 @@
     searchTag: "#evergaols_search",
     contentTag: "#evergaols_list ul"
   }), new Jets({
+    searchTag: "#illusory_walls_search",
+    contentTag: "#illusory_walls_list ul"
+  }), new Jets({
     searchTag: "#weapons_search",
     contentTag: "#weapons_list ul"
   }), new Jets({
@@ -127,6 +130,10 @@
   $("#evergaols_search").keyup(function() {
     $("#evergaols_list").unhighlight();
     $("#evergaols_list").highlight($(this).val());
+  });
+  $("#illusory_walls_search").keyup(function() {
+    $("#illusory_walls_list").unhighlight();
+    $("#illusory_walls_list").highlight($(this).val());
   });
   $("#weapons_search").keyup(function() {
     $("#weapons_list").unhighlight();
