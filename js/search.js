@@ -71,6 +71,9 @@
     searchTag: "#cookbooks_search",
     contentTag: "#cookbooks_list ul"
   }), new Jets({
+    searchTag: "#ancient_dragon_smithing_stones_search",
+    contentTag: "#ancient_dragon_smithing_stones_list ul"
+  }), new Jets({
     searchTag: "#remembrances_mausoleums_search",
     contentTag: "#remembrances_mausoleums_list ul"
   }), new Jets({
@@ -180,6 +183,10 @@
   $("#cookbooks_search").keyup(function() {
     $("#cookbooks_list").unhighlight();
     $("#cookbooks_list").highlight($(this).val());
+  });
+  $("#ancient_dragon_smithing_stones_search").keyup(function() {
+    $("#ancient_dragon_smithing_stones_list").unhighlight();
+    $("#ancient_dragon_smithing_stones_list").highlight($(this).val());
   });
   $("#remembrances_mausoleums_search").keyup(function() {
     $("#remembrances_mausoleums_list").unhighlight();
