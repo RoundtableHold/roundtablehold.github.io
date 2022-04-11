@@ -231,6 +231,11 @@
       $("#bosses_2_10,#talismans_2_18").prop("checked", checked);
       $("#bosses_2_10,#talismans_2_18").each(function(idx, el) {window.onCheckbox(el)});
     });
+    $("#bosses_2_10,#dragon_hearts_death_roots_1_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_2_10,#dragon_hearts_death_roots_1_2").prop("checked", checked);
+      $("#bosses_2_10,#dragon_hearts_death_roots_1_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
     $("#bosses_2_11,#talisman_2_11").click(function () {
       var checked = $(this).prop("checked");
       $("#bosses_2_11,#talisman_2_11").prop("checked", checked);
