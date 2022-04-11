@@ -1,6 +1,7 @@
 from math import ceil, floor
 from itertools import permutations
 import os
+from time import sleep
 from turtle import onclick
 import yaml
 import re
@@ -8,6 +9,7 @@ import dominate
 from dominate.tags import *
 from dominate.util import raw
 from more_itertools import peekable
+from atomicwrites import atomic_write
 
 
 doc = dominate.document(title="Roundtable Tracker")
@@ -86,7 +88,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar navbar-expand-md bg-dark navbar-dark"):
+    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none"):
         with div(cls="container-fluid"):
             with div(cls="navbar-header"):
                 with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -101,19 +103,18 @@ with doc:
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
                                     li().add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
-                                    # li().add(a(guide[0], cls="dropdown-item", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
                     with li(cls="nav-item"):
                         a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
                 h1("Roundtable Tracker", cls="mt-3")
-                text = p(cls="lead")
+                text = p(cls="lead d-print-none")
                 text += "Contribute at the "
                 text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
-            with div(id="btnHideCompleted", cls="fade mb-3"):
+            with div(id="btnHideCompleted", cls="fade mb-3 d-print-none"):
                 with div(cls="form-check form-switch"):
                     input_(cls="form-check-input", type="checkbox", id='toggleHideCompleted')
                     label("Hide Completed", cls="form-check-label", _for='toggleHideCompleted')
@@ -122,9 +123,12 @@ with doc:
                     # Filter buttons
                     h = h2()
                     h += page['title']
-                    h += span(id=page['id'] + "_overall_total")
+                    h += span(id=page['id'] + "_overall_total", cls='d-print-none')
 
-                    with nav(cls="text-muted toc"):
+                    if 'description' in page:
+                        p(raw(page['description']))
+
+                    with nav(cls="text-muted toc d-print-none"):
                         with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
                             i(cls='bi bi-plus-lg')
                             raw('Table Of Contents')
@@ -134,19 +138,19 @@ with doc:
                                     a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
-                    with div(cls="input-group"):
+                    with div(cls="input-group d-print-none"):
                         input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
                     with div(id=page['id']+"_list"):
                         for s_idx, section in enumerate(page['sections']):
                             with h4(id=page['id'] + '_' + str(s_idx), cls="mt-1"):
-                                with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button", role="button"):
-                                    i(cls='bi bi-chevron-up')
+                                with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
+                                    i(cls='bi bi-chevron-up d-print-none')
                                 if 'link' in section:
-                                    a(section['title'], href=section['link'])
+                                    a(section['title'], href=section['link'], cls='d-print-inline')
                                 else:
-                                    span(section['title'])
-                                span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill")
+                                    span(section['title'], cls='d-print-inline')
+                                span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill d-print-none")
                             if 'table' in section:
                                 with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show row", aria_expanded="true"):
                                     if isinstance(section['table'], list):
@@ -198,11 +202,11 @@ with doc:
                                     items = peekable(section['items'])
                                     if not isinstance(items.peek(), list):
                                         item = next(items)
-                                        h5(item)
+                                        h5(raw(item))
                                     u = ul(cls="list-group-flush")
                                     for item in items:
                                         if not isinstance(item, list):
-                                            h5(item)
+                                            h5(raw(item))
                                             u = ul(cls="list-group-flush")
                                             continue
                                         id = str(item[0])
@@ -303,7 +307,7 @@ with doc:
 
     div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
 
-    a(cls="btn btn-primary btn-sm fadingbutton back-to-top").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
+    a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
     script(src="js/jquery.min.js")
     script(src="js/jstorage.min.js")
@@ -325,10 +329,7 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with open('index.html', 'w', encoding='utf_8') as index:
-    index.write(doc.render())
-
-with open(os.path.join('js', 'search.js'), 'w', encoding='utf_8') as jsfile:
+with atomic_write(os.path.join('js', 'search.js'), overwrite=True, encoding='utf_8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -364,7 +365,7 @@ def make_jquery_selector(x):
     s += '#' + str(l[-1]) + '")'
     return s
 
-with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding='UTF-8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -404,3 +405,6 @@ with open(os.path.join('js', 'item_links.js'), 'w', encoding='UTF-8') as links_f
             links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')
+
+with atomic_write('index.html', overwrite=True, encoding='utf_8') as index:
+    index.write(doc.render())

@@ -8,6 +8,15 @@
             }
         ]
     },
-    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
-    "livePreview.openPreviewTarget": "External Browser"
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts",
+        "**/*.py",
+        "**/*.yaml",
+        "**/*.js",
+        "**/*.css"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
 }

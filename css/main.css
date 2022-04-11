@@ -1,13 +1,26 @@
 @media print {
-    body { color: #000; }
-    .navbar, #intro, input[type="checkbox"], .done, .in_progress { display: none; }
-    a { color: #000; text-decoration: underline; }
-    a[href]:after { content: none !important; }
-    .tab-content > .tab-pane, .pill-content > .pill-pane { display: block; }
-    .tab-pane { page-break-after: always; }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h4 div {
+    page-break-before: avoid;
+    page-break-after: avoid;
+    break-after: avoid;
+    break-before: avoid;
+    break-inside: auto;
+  }
+  ul {
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+  li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
-.table_of_contents
 
 body {
   position: relative;
@@ -183,6 +196,11 @@ textarea#profileText {
 .btn-group.btn-group-vertical:not(:first-child) > .btn-group:first-child > .btn-group-vertical > .btn,
 .btn-group.btn-group-vertical:first-child:hover > .btn-group:first-child > .btn-group-vertical > .btn {
   border-bottom-left-radius: 0;
+}
+
+.highlight {
+  background-color: cornflowerblue;
+  color: white;
 }
 
 /* @media
