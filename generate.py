@@ -90,9 +90,8 @@ with doc.head:
 with doc:
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none"):
         with div(cls="container-fluid"):
-            with div(cls="navbar-header"):
-                with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
-                    span(cls="navbar-toggler-icon")
+            with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
+                span(cls="navbar-toggler-icon")
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
                     with li(cls="nav-item"):
