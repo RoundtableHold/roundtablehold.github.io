@@ -134,7 +134,7 @@ with doc:
                         with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                             for s_idx, section in enumerate(page['sections']):
                                 with li():
-                                    a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx))
+                                    a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
                     with div(cls="input-group d-print-none"):
@@ -328,7 +328,7 @@ gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
 
-with atomic_write(os.path.join('public', 'js', 'search.js'), overwrite=True, encoding='utf_8') as jsfile:
+with atomic_write(os.path.join('js', 'search.js'), overwrite=True, encoding='utf_8') as jsfile:
     jsfile.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -364,7 +364,7 @@ def make_jquery_selector(x):
     s += '#' + str(l[-1]) + '")'
     return s
 
-with atomic_write(os.path.join('public', 'js', 'item_links.js'), overwrite=True, encoding='UTF-8') as links_f:
+with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding='UTF-8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
@@ -405,5 +405,5 @@ with atomic_write(os.path.join('public', 'js', 'item_links.js'), overwrite=True,
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')
 
-with atomic_write(os.path.join('public', 'index.html'), overwrite=True, encoding='utf_8') as index:
+with atomic_write('index.html', overwrite=True, encoding='utf_8') as index:
     index.write(doc.render())
