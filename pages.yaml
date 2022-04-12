@@ -133,7 +133,7 @@ item_links:
   - link_all: [bosses_2_7, weapons_3_5] #BLOODY FINGER NERIJUS/REDUVIA
   - link_all: [bosses_2_8, caves_1_9] #PATCHES/MURKWATER CAVE
   - link_all: [bosses_2_9, caves_1_6] #GUARDIAN GOLEM/HIGHROAD CAVE
-  - link_all: [bosses_2_9, talismans_2_13] ##GUARDIAN GOLEM/BLUE DANCER CHARM
+  - link_all: [bosses_2_9, talismans_2_13] #GUARDIAN GOLEM/BLUE DANCER CHARM
   - link_all: [bosses_2_10, caves_1_4] #BLACK KNIFE ASSASSIN/DEATHTOUCHED CATACOMBS
   - link_all: [bosses_2_10, talismans_2_18] #BLACK KNIFE ASSASSIN/ASSASSIN'S CRIMSON DAGGER 
   - link_all: [bosses_2_10, dragon_hearts_death_roots_1_2] #BLACK KNIFE ASSASSIN/DEATHROOT 
@@ -176,3 +176,72 @@ item_links:
   - link_all: [armor_296, armor_571] # Links Dirty Chainmail
   - link_all: [armor_540, armor_545] # Crucible Gauntlets
   - link_all: [armor_541, armor_546] # Crucible Greaves
+  - link_all: [bosses_4_1, caves_2_8] #CLEANROT KNIGHT/STILLWATER CAVE
+  - link_all: [bosses_4_1, talismans_4_10] #CLEANROT KNIGHT/WINGED SWORD INSIGNIA
+  - link_all: [bosses_4_1, weapons_15_4] #CLEANROT KNIGHT/CLEANROT KNIGHT'S SWORD
+  - link_all: [bosses_4_37, caves_2_4] #BLOODHOUND KNIGHT/LAKESIDE CRYSTAL CAVE
+  - link_all: [bosses_4_37, talismans_4_6] #BLOODHOUND KNIGHT/CERULEAN AMBER MEDALLION
+  - link_all: [bosses_4_2, evergaols_2_2] #ADAN/MALEFACTOR'S EVERGAOL
+  - link_all: [bosses_4_3, caves_2_3] #ERDTREE BURIAL WATCHDOG/CLIFFBOTTOM CATACOMBS
+  - link_all: [bosses_4_3, spirit_ashes_3_10] #ERDTREE BURIAL WATCHDOG/KAIDEN SELLSWORD ASHES
+  - link_all: [bosses_4_4, dragon_hearts_death_roots_1_4] #TIBIA MARINER/DEATHROOT
+  - link_all: [bosses_4_4, spirit_ashes_3_17] #TIBIA MARINER/SKELETAL BANDIT ASHES
+  - link_all: [bosses_4_5, ashesofwar_2_3] #NIGHT'S CAVALRY/AOW: ICE SPEAR
+  - link_all: [bosses_4_6, sorceries_4_7] #PRECEPTOR MIRIAM/MAGIC DOWNPOUR SORCERY
+  - link_all: [bosses_4_39, sorceries_5_2] #PRECEPTOR MIRIAM/LUCIDITY SORCERY
+  - link_all: [bosses_4_7, armors_172] #GODSKIN NOBLE/GODSKIN NOBLE SET (HOOD)
+  - link_all: [bosses_4_7, armors_173] #GODSKIN NOBLE/GODSKIN NOBLE SET (ROBE)
+  - link_all: [bosses_4_7, armors_174] #GODSKIN NOBLE/GODSKIN NOBLE SET (BRACELETS)
+  - link_all: [bosses_4_7, armors_175] #GODSKIN NOBLE/GODSKIN NOBLE SET (TROUSERS)
+  - link_all: [bosses_4_8, talismans_4_13] #DEATHBIRD/RED-FEATHERED BRANCHSWORD
+  #- link_all: [bosses_4_9, ?_] #GRAFTED SCION/LARVAL TEAR #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
+  - link_all: [bosses_4_10, dragon_hearts_death_roots_0_3] #GLINTSTONE DRAGON SMARAG/DRAGON HEART
+  - link_all: [bosses_4_11, caves_2_1] #CRYSTALIAN SPEAR & STAFF/ACADEMY CRYSTAL CAVE
+  - link_all: [bosses_4_11, sorceries_4_22] #CRYSTALIAN SPEAR & STAFF/CRYSTAL RELEASE SORCERY
+  - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
+  - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
+  #- link_all: [bosses_4_13, bell_bearings_?] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_4_14, bell_bearings_?] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_4_15, crystal_tears_2_5] #ERDTREE AVATAR (EAST)/HOLY-SHROUDING CRACKED TEAR
+  - link_all: [bosses_4_15, crystal_tears_2_4] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR
+  - link_all: [bosses_4_15, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/MAGIC-SHROUDING CRACKED TEAR
+  - source: caves_2_2
+    target: [bosses_4_16] #BLACK KNIFE CATACOMBS/CEMETERY SHADE
+  - source_and: [bosses_4_16, bosses_4_17]
+    target: caves_2_2 #CEMETERY SHADE & BLACK KNIFE ASSASSIN/BLACK KNIFE CATACOMBS
+  - link_all: [bosses_4_16, spirit_ashes_3_18] #CEMETERY SHADE/TWINSAGE SORCERER ASHES
+  - link_all: [bosses_4_16, dragon_hearts_death_roots_1_3] #CEMETERY SHADE/TWINSAGE SORCERER ASHES
+  - link_all: [bosses_4_17, talismans_4_1] #BLACK KNIFE ASSASSIN/ASSASSIN'S CERULEAN DAGGER TALISMAN
+  - link_all: [bosses_4_18, weapons_24_5] #FESTERING FINGERPRINT VYKE/VYKE'S WAR SPEAR
+  - link_all: [bosses_4_19, ashesofwar_11_3] #NIGHT'S CAVALRY/AOW: GIANT HUNT
+  - link_all: [bosses_4_19, weapons_25_10] #NIGHT'S CAVALRY/NIGHTRIDER GLAIVE
+  #- link_all: [bosses_4_20, caves_?] #ROYAL REVENANT/KINGSREALM RUINS UNDERGROUND #TODO: ASK IF THIS LOCATION SHOULD BE ADDED
+  - link_all: [bosses_4_21, weapons_13_14] #GRAFTED SCION/ORNAMENTAL STRAIGHT SWORD
+  - link_all: [bosses_4_21, weapons_34_7] #GRAFTED SCION/GOLDEN BEAST CREST SHIELD
+  - link_all: [bosses_4_22, evergaols_2_1] #BOLS/CUCKOO'S EVERGAOL
+  - link_all: [bosses_4_22, sorceries_4_6] #BOLS/GREATBLADE PHALANX SORCERY
+  - link_all: [bosses_4_23, weapons_25_2] #EDGAR/BANISHED KNIGHT'S HALBERD (+8)
+  - link_all: [bosses_4_24, crystal_tears_2_3] #ERDTREE AVATAR (WEST)/CERULEAN CRYSTAL TEAR [1]
+  - link_all: [bosses_4_24, crystal_tears_2_2] #ERDTREE AVATAR (WEST)/RUPTURED CRYSTAL TEAR [1]
+  - link_all: [bosses_4_25, caves_2_6] #SPIRIT-CALLER SNAIL/ROAD'S END CATACOMBS
+  - link_all: [bosses_4_25, spirit_ashes_3_8] #SPIRIT-CALLER SNAIL/GLINTSTONE SORCERER ASHES
+  - link_all: [bosses_4_26, talismans_4_17] #OMENKILLER/CRUCIBLE KNOT TALISMAN
+  - link_all: [bosses_4_27, sorceries_4_12] #ROYAL KNIGHT LORETTA/LORETTA'S GREATBOW SORCERY
+  - link_all: [bosses_4_27, ashesofwar_8_7] #ROYAL KNIGHT LORETTA/AOW: LORETTA'S SLASH
+  - link_all: [bosses_4_27, legacy_dungeons_1_5] #ROYAL KNIGHT LORETTA/CARIA MANOR
+  - link_all: [bosses_4_29, evergaols_2_3] #ALABASTER LORD (ONYX)/ROYAL GRAVE EVERGAOL
+  - link_all: [bosses_4_29, sorceries_4_8] #ALABASTER LORD (ONYX)/METEORITE SORCERY
+  - link_all: [bosses_4_40, sorceries_5_1] #GLINTSTONE DRAGON ADULA/ADULA'S MOONBLADE SORCERY
+  - link_all: [bosses_4_40, dragon_hearts_death_roots_0_2] #GLINTSTONE DRAGON ADULA/DRAGON HEART (X3)
+  - link_all: [bosses_4_32, evergaols_2_4] #ALECTO/RINGLEADER'S EVERGAOL
+  - link_all: [bosses_4_32, spirit_ashes_3_3] #ALECTO/BLACK KNIFE TICHE ASHES
+  - link_all: [bosses_4_27, legacy_dungeons_1_6] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE
+  - link_all: [bosses_4_33, caves_2_7] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE
+  - link_all: [bosses_4_33, weapons_8_4] #MAGMA WYRM MAKAR/MAGMA WYRM'S SCALESWORD
+  - link_all: [bosses_4_33, dragon_hearts_death_roots_0_4] #MAGMA WYRM MAKAR/DRAGON HEART
+  - link_all: [bosses_4_34, ashesofwar_6_7] #RAVENMOUNT ASSASSIN/AOW: RAPTOR OF THE MISTS
+  - link_all: [bosses_4_35, memory_stones_talisman_pouches_0_4] #RED WOLF OF RADAGON/MEMORY STONE
+  - link_all: [bosses_4_38, weapons_33_15] #MOONGRUM/CARIAN KNIGHT'S SHIELD
+  - link_all: [bosses_4_36, legacy_dungeons_1_4] #RENNALA/RAYA LUCARIA ACADEMY
+  - link_all: [bosses_4_36, rememberances_1_2] #RENNALA/REMEMBRANCE OF THE FULL MOON QUEEN
+  - link_all: [bosses_4_36, greatrunes_1_2] #RENNALA/GREAT RUNE OF THE UNBORN
