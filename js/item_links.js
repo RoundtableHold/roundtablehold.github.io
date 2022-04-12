@@ -201,15 +201,10 @@
       $("#bosses_1_6,#spirit_ashes_1_2").prop("checked", checked);
       $("#bosses_1_6,#spirit_ashes_1_2").each(function(idx, el) {window.onCheckbox(el)});
     });
-    $("#bosses_1_7,#crystal_tears_0_3").click(function () {
+    $("#bosses_1_7,#crystal_tears_0_3,#crystal_tears_0_2").click(function () {
       var checked = $(this).prop("checked");
-      $("#bosses_1_7,#crystal_tears_0_3").prop("checked", checked);
-      $("#bosses_1_7,#crystal_tears_0_3").each(function(idx, el) {window.onCheckbox(el)});
-    });
-    $("#bosses_1_,#7 crystal_tears_0_2").click(function () {
-      var checked = $(this).prop("checked");
-      $("#bosses_1_,#7 crystal_tears_0_2").prop("checked", checked);
-      $("#bosses_1_,#7 crystal_tears_0_2").each(function(idx, el) {window.onCheckbox(el)});
+      $("#bosses_1_7,#crystal_tears_0_3,#crystal_tears_0_2").prop("checked", checked);
+      $("#bosses_1_7,#crystal_tears_0_3,#crystal_tears_0_2").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#bosses_1_8,#caves_0_3").click(function () {
       var checked = $(this).prop("checked");
