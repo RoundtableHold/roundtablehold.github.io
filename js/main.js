@@ -447,16 +447,14 @@ var profilesKey = 'darksouls3_profiles';
     function populateChecklists() {
         $('.checkbox input[type="checkbox"]')
             .prop('checked', false)
-            .parent('div')
-            .parent('li')
+            .closest('li')
             .removeClass('completed')
             .show();
 
         $.each(profiles[profilesKey][profiles.current].checklistData, function(index, value) {
             $('#' + index)
                 .prop('checked', value)
-                .parent('div')
-                .parent('li')
+                .closest('li')
                 .toggleClass('completed', value);
         });
 
@@ -576,7 +574,7 @@ var profilesKey = 'darksouls3_profiles';
         }
 
         // register on click handlers to store state
-        $('a[href$="_col"]').on('click', function(el) {
+        $('a[href$="Col"]').on('click', function(el) {
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 
@@ -591,7 +589,7 @@ var profilesKey = 'darksouls3_profiles';
             }
             profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
             
-            // window.scrollTo(0,0);
+            window.scrollTo(0,0);
 
             $.jStorage.set(profilesKey, profiles);
 

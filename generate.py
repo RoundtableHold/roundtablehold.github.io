@@ -142,7 +142,7 @@ with doc:
 
                     with div(id=page['id']+"_list"):
                         for s_idx, section in enumerate(page['sections']):
-                            with h4(id=page['id'] + '_' + str(s_idx), cls="mt-1"):
+                            with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
                                 with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                     i(cls='bi bi-chevron-up d-print-none')
                                 if 'link' in section:
