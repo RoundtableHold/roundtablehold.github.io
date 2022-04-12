@@ -461,6 +461,321 @@
       $("#bosses_3_2,#armor_482").prop("checked", checked);
       $("#bosses_3_2,#armor_482").each(function(idx, el) {window.onCheckbox(el)});
     });
+    $("#bosses_4_1,#caves_2_8").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_1,#caves_2_8").prop("checked", checked);
+      $("#bosses_4_1,#caves_2_8").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_1,#talismans_4_10").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_1,#talismans_4_10").prop("checked", checked);
+      $("#bosses_4_1,#talismans_4_10").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_1,#weapons_15_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_1,#weapons_15_4").prop("checked", checked);
+      $("#bosses_4_1,#weapons_15_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_37,#caves_2_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_37,#caves_2_4").prop("checked", checked);
+      $("#bosses_4_37,#caves_2_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_37,#talismans_4_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_37,#talismans_4_6").prop("checked", checked);
+      $("#bosses_4_37,#talismans_4_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_2,#evergaols_2_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_2,#evergaols_2_2").prop("checked", checked);
+      $("#bosses_4_2,#evergaols_2_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_3,#caves_2_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_3,#caves_2_3").prop("checked", checked);
+      $("#bosses_4_3,#caves_2_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_3,#spirit_ashes_3_10").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_3,#spirit_ashes_3_10").prop("checked", checked);
+      $("#bosses_4_3,#spirit_ashes_3_10").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_4,#dragon_hearts_death_roots_1_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_4,#dragon_hearts_death_roots_1_4").prop("checked", checked);
+      $("#bosses_4_4,#dragon_hearts_death_roots_1_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_4,#spirit_ashes_3_17").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_4,#spirit_ashes_3_17").prop("checked", checked);
+      $("#bosses_4_4,#spirit_ashes_3_17").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_5,#ashesofwar_2_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_5,#ashesofwar_2_3").prop("checked", checked);
+      $("#bosses_4_5,#ashesofwar_2_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_6,#sorceries_4_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_6,#sorceries_4_7").prop("checked", checked);
+      $("#bosses_4_6,#sorceries_4_7").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_39,#sorceries_5_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_39,#sorceries_5_2").prop("checked", checked);
+      $("#bosses_4_39,#sorceries_5_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_7,#armors_172").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_7,#armors_172").prop("checked", checked);
+      $("#bosses_4_7,#armors_172").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_7,#armors_173").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_7,#armors_173").prop("checked", checked);
+      $("#bosses_4_7,#armors_173").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_7,#armors_174").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_7,#armors_174").prop("checked", checked);
+      $("#bosses_4_7,#armors_174").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_7,#armors_175").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_7,#armors_175").prop("checked", checked);
+      $("#bosses_4_7,#armors_175").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_8,#talismans_4_13").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_8,#talismans_4_13").prop("checked", checked);
+      $("#bosses_4_8,#talismans_4_13").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_10,#dragon_hearts_death_roots_0_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_10,#dragon_hearts_death_roots_0_3").prop("checked", checked);
+      $("#bosses_4_10,#dragon_hearts_death_roots_0_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_11,#caves_2_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_11,#caves_2_1").prop("checked", checked);
+      $("#bosses_4_11,#caves_2_1").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_11,#sorceries_4_22").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_11,#sorceries_4_22").prop("checked", checked);
+      $("#bosses_4_11,#sorceries_4_22").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_12,#sorceries_4_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_12,#sorceries_4_4").prop("checked", checked);
+      $("#bosses_4_12,#sorceries_4_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_13,#caves_2_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_13,#caves_2_5").prop("checked", checked);
+      $("#bosses_4_13,#caves_2_5").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_15,#crystal_tears_2_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_15,#crystal_tears_2_5").prop("checked", checked);
+      $("#bosses_4_15,#crystal_tears_2_5").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_15,#crystal_tears_2_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_15,#crystal_tears_2_4").prop("checked", checked);
+      $("#bosses_4_15,#crystal_tears_2_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_15,#crystal_tears_2_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_15,#crystal_tears_2_6").prop("checked", checked);
+      $("#bosses_4_15,#crystal_tears_2_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#caves_2_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_16").prop("checked", checked);
+      $("#bosses_4_16").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_16,#bosses_4_17").click(function () {
+      var checked = ($("#bosses_4_16,#bosses_4_17").not(":checked").length === 0);
+      $("#caves_2_2").prop("checked", checked);
+      $("#caves_2_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_16,#spirit_ashes_3_18").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_16,#spirit_ashes_3_18").prop("checked", checked);
+      $("#bosses_4_16,#spirit_ashes_3_18").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_16,#dragon_hearts_death_roots_1_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_16,#dragon_hearts_death_roots_1_3").prop("checked", checked);
+      $("#bosses_4_16,#dragon_hearts_death_roots_1_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_17,#talismans_4_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_17,#talismans_4_1").prop("checked", checked);
+      $("#bosses_4_17,#talismans_4_1").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_18,#weapons_24_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_18,#weapons_24_5").prop("checked", checked);
+      $("#bosses_4_18,#weapons_24_5").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_19,#ashesofwar_11_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_19,#ashesofwar_11_3").prop("checked", checked);
+      $("#bosses_4_19,#ashesofwar_11_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_19,#weapons_25_10").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_19,#weapons_25_10").prop("checked", checked);
+      $("#bosses_4_19,#weapons_25_10").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_21,#weapons_13_14").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_21,#weapons_13_14").prop("checked", checked);
+      $("#bosses_4_21,#weapons_13_14").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_21,#weapons_34_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_21,#weapons_34_7").prop("checked", checked);
+      $("#bosses_4_21,#weapons_34_7").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_22,#evergaols_2_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_22,#evergaols_2_1").prop("checked", checked);
+      $("#bosses_4_22,#evergaols_2_1").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_22,#sorceries_4_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_22,#sorceries_4_6").prop("checked", checked);
+      $("#bosses_4_22,#sorceries_4_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_23,#weapons_25_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_23,#weapons_25_2").prop("checked", checked);
+      $("#bosses_4_23,#weapons_25_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_24,#crystal_tears_2_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_24,#crystal_tears_2_3").prop("checked", checked);
+      $("#bosses_4_24,#crystal_tears_2_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_24,#crystal_tears_2_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_24,#crystal_tears_2_2").prop("checked", checked);
+      $("#bosses_4_24,#crystal_tears_2_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_25,#caves_2_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_25,#caves_2_6").prop("checked", checked);
+      $("#bosses_4_25,#caves_2_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_25,#spirit_ashes_3_8").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_25,#spirit_ashes_3_8").prop("checked", checked);
+      $("#bosses_4_25,#spirit_ashes_3_8").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_26,#talismans_4_17").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_26,#talismans_4_17").prop("checked", checked);
+      $("#bosses_4_26,#talismans_4_17").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_27,#sorceries_4_12").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_27,#sorceries_4_12").prop("checked", checked);
+      $("#bosses_4_27,#sorceries_4_12").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_27,#ashesofwar_8_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_27,#ashesofwar_8_7").prop("checked", checked);
+      $("#bosses_4_27,#ashesofwar_8_7").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_27,#legacy_dungeons_1_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_27,#legacy_dungeons_1_5").prop("checked", checked);
+      $("#bosses_4_27,#legacy_dungeons_1_5").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_29,#evergaols_2_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_29,#evergaols_2_3").prop("checked", checked);
+      $("#bosses_4_29,#evergaols_2_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_29,#sorceries_4_8").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_29,#sorceries_4_8").prop("checked", checked);
+      $("#bosses_4_29,#sorceries_4_8").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_40,#sorceries_5_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_40,#sorceries_5_1").prop("checked", checked);
+      $("#bosses_4_40,#sorceries_5_1").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_40,#dragon_hearts_death_roots_0_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_40,#dragon_hearts_death_roots_0_2").prop("checked", checked);
+      $("#bosses_4_40,#dragon_hearts_death_roots_0_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_32,#evergaols_2_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_32,#evergaols_2_4").prop("checked", checked);
+      $("#bosses_4_32,#evergaols_2_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_32,#spirit_ashes_3_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_32,#spirit_ashes_3_3").prop("checked", checked);
+      $("#bosses_4_32,#spirit_ashes_3_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_27,#legacy_dungeons_1_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_27,#legacy_dungeons_1_6").prop("checked", checked);
+      $("#bosses_4_27,#legacy_dungeons_1_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_33,#caves_2_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_33,#caves_2_7").prop("checked", checked);
+      $("#bosses_4_33,#caves_2_7").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_33,#weapons_8_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_33,#weapons_8_4").prop("checked", checked);
+      $("#bosses_4_33,#weapons_8_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_33,#dragon_hearts_death_roots_0_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_33,#dragon_hearts_death_roots_0_4").prop("checked", checked);
+      $("#bosses_4_33,#dragon_hearts_death_roots_0_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_34,#ashesofwar_6_7").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_34,#ashesofwar_6_7").prop("checked", checked);
+      $("#bosses_4_34,#ashesofwar_6_7").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_35,#memory_stones_talisman_pouches_0_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_35,#memory_stones_talisman_pouches_0_4").prop("checked", checked);
+      $("#bosses_4_35,#memory_stones_talisman_pouches_0_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_38,#weapons_33_15").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_38,#weapons_33_15").prop("checked", checked);
+      $("#bosses_4_38,#weapons_33_15").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_36,#legacy_dungeons_1_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_36,#legacy_dungeons_1_4").prop("checked", checked);
+      $("#bosses_4_36,#legacy_dungeons_1_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_36,#rememberances_1_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_36,#rememberances_1_2").prop("checked", checked);
+      $("#bosses_4_36,#rememberances_1_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_4_36,#greatrunes_1_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_4_36,#greatrunes_1_2").prop("checked", checked);
+      $("#bosses_4_36,#greatrunes_1_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
     $("#armor_22,#armor_26").click(function () {
       var checked = $(this).prop("checked");
       $("#armor_22,#armor_26").prop("checked", checked);
