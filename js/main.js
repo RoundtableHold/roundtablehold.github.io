@@ -361,8 +361,7 @@ var profilesKey = 'darksouls3_profiles';
             }
         });
 
-        calculateTotals();
-
+        populateChecklists();
     });
 
     function initializeProfile(profile_name) {
@@ -384,7 +383,7 @@ var profilesKey = 'darksouls3_profiles';
     /// restore all saved state, except for the current tab
     /// used on page load or when switching profiles
     function restoreState(profile_name) {
-        $('a[href$="_col"]').each(function() {
+        $('a[href$="Col"]').each(function() {
             var value = profiles[profilesKey][profile_name].collapsed[$(this).attr('href')];
             var active = $(this).hasClass('collapsed');
 
