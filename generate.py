@@ -134,7 +134,7 @@ with doc:
                         with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                             for s_idx, section in enumerate(page['sections']):
                                 with li():
-                                    a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
+                                    a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx))
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
                     with div(cls="input-group d-print-none"):
