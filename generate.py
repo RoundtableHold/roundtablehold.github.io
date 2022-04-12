@@ -38,6 +38,7 @@ with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
         dropdowns.append((dropdown['name'], dropdown_ids))
 
 page_ids = set()
+all_ids = set()
 for page in pages:
     if page['id'] in page_ids:
         print("Duplicate page id '" + page['id'] + "' found. All page ids must be unique.")
@@ -59,20 +60,24 @@ for page in pages:
             if not isinstance(item[0], str):
                 print("Please make item id " + str(item[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                 quit(1)
-            if item[0] in item_nums:
+            if (page['id'] + '_' + item[0]) in all_ids:
                 print("Duplicate item num '" + str(item[0]) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
                 quit(1)
             else:
-                item_nums.add(item[0])
+                all_ids.add(page['id'] + '_' + item[0])
             if isinstance(items.peek([0])[0], list):
                 sub_item_nums = set()
+                item_id = item[0]
                 item = next(items)
                 for subitem in item:
-                    if subitem[0] in sub_item_nums:
+                    if not isinstance(subitem[0], str):
+                        print("Please make item id " + str(subitem[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                        quit(1)
+                    if (page['id'] + '_' + item_id + '_' + subitem[0]) in all_ids:
                         print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                         quit(1)
                     else:
-                        sub_item_nums.add(subitem[0])
+                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
 
 with doc.head:
     meta(charset="UTF-8")
@@ -360,7 +365,11 @@ def make_jquery_selector(x):
     l  = to_list(x)
     s = '$("'
     for e in l[:-1]:
+        if str(e) not in all_ids:
+            print('Potential typo in item links. "' + e + '" is not a valid id')
         s += '#' + str(e) + ','
+    if str(l[-1]) not in all_ids:
+        print('Potential typo in item links. "' + str(l[-1]) + '" is not a valid id')
     s += '#' + str(l[-1]) + '")'
     return s
 
@@ -372,7 +381,8 @@ with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding=
     ])
     for link in item_links:
         if 'source' in link:
-            links_f.write('    $("#' + link['source'] + '").click(function () {\n')
+            sel = make_jquery_selector(link['source'])
+            links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = $(this).prop("checked");\n')
             t_sel = make_jquery_selector(link['target'])
             links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
