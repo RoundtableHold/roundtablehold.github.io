@@ -110,7 +110,7 @@ with doc:
                 h1("Roundtable Tracker", cls="mt-3")
                 text = p(cls="lead d-print-none")
                 text += "Contribute at the "
-                text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
+                text += a("Github Page", href="https://github.com/Roundtable-Hold/roundtable-hold.github.io")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
             with div(id="btnHideCompleted", cls="fade mb-3 d-print-none"):
@@ -229,7 +229,7 @@ with doc:
 <p>This site is still a work in-progress. We are working on it every day.</p>
 
 <h3>I have feedback, how can I contribute?</h3>
-<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/Roundtable-Hold/tracker">GitHub repository</a>. You can also simply <a href="https://github.com/Roundtable-Hold/tracker/issues">report issues</a> and we'll fix them.</p>
+<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/Roundtable-Hold/roundtable-hold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/Roundtable-Hold/roundtable-hold.github.io/issues">report issues</a> and we'll fix them.</p>
 <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
 
 <h3>Can I use this for multiple characters?</h3>

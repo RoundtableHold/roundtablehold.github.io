@@ -1,6 +1,6 @@
 # Elden Ring Cheat Sheet
 
-To view the cheat sheet [click here](https://roundtable-hold.github.io/tracker/).
+To view the cheat sheet [click here](https://roundtable-hold.github.io/).
 
 This checklist was created by adopting the source code from the [Dark Souls 3 Cheat Sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) created by [ZKjellberg](https://github.com/zkjellberg).
 
