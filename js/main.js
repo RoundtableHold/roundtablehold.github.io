@@ -54,7 +54,7 @@ var profilesKey = 'darksouls3_profiles';
         var type = match[1];
         var i = parseInt(match[2]);
         var total_nav = $(total_span).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0)
-        var overall_total = $(total_nav).closest('nav').prev().find('span[id$="overall_total"]').get(0)
+        var overall_total = $(total_nav).closest('nav').prevAll('h2').find('span[id$="overall_total"]').get(0)
 
         if (wasChecked === false && isChecked === true) {
             profiles[profilesKey][profiles.current].checklistData[id] = true;
