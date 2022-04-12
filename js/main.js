@@ -63,13 +63,18 @@ var profilesKey = 'darksouls3_profiles';
             checklist_totals[total_span.id][0] += 1;
             checklist_totals[total_nav.id][0] += 1;
             checklist_totals[overall_total.id][0] += 1;
-        } else if (wasChecked === true && isChecked == false) {
+        } else if (wasChecked === true && isChecked === false) {
             delete profiles[profilesKey][profiles.current].checklistData[id];
             $(el).closest('li').removeClass('completed');
             
             checklist_totals[total_span.id][0] -= 1;
             checklist_totals[total_nav.id][0] -= 1;
             checklist_totals[overall_total.id][0] -= 1;
+        } else if (wasChecked === true && isChecked === true) {
+            // We are in setup. We just cleared all checkboxes and are going through 1 by 1 clicking them. That is why both the checkbox was just clicked and the saved data says it's clicked
+            $(el).closest('li').addClass('completed');
+            // No need to update totals it will be done soon.
+            return;
         }
 
         if (checklist_totals[total_span.id][0] === checklist_totals[total_span.id][1]) {
@@ -451,10 +456,10 @@ var profilesKey = 'darksouls3_profiles';
             .show();
 
         $.each(profiles[profilesKey][profiles.current].checklistData, function(index, value) {
-            $('#' + index)
-                .prop('checked', value)
-                .closest('li')
-                .toggleClass('completed', value);
+            var el = $('#' + index);
+            if (!el.prop('checked') && value === true) {
+                el.click();
+            }
         });
 
         calculateTotals();
