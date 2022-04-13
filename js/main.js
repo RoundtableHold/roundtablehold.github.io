@@ -548,6 +548,13 @@ var profilesKey = 'darksouls3_profiles';
         });
     });
 
+    $('.toc_link').click(function() {
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
+        }, 100);
+    });
+
     /*
      * ------------------------------------------
      * Restore tabs/hidden sections functionality
@@ -600,6 +607,7 @@ var profilesKey = 'darksouls3_profiles';
             $('#nav-collapse').collapse('hide');
         });
      });
+
 
 })( jQuery );
 
