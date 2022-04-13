@@ -12,7 +12,7 @@ from more_itertools import peekable
 from atomicwrites import atomic_write
 
 
-doc = dominate.document(title="Roundtable Tracker")
+doc = dominate.document(title="Roundtable Hold")
 doc.set_attribute('lang', 'en')
 
 def to_snake_case(name):
@@ -38,6 +38,7 @@ with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
         dropdowns.append((dropdown['name'], dropdown_ids))
 
 page_ids = set()
+all_ids = set()
 for page in pages:
     if page['id'] in page_ids:
         print("Duplicate page id '" + page['id'] + "' found. All page ids must be unique.")
@@ -59,20 +60,24 @@ for page in pages:
             if not isinstance(item[0], str):
                 print("Please make item id " + str(item[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                 quit(1)
-            if item[0] in item_nums:
+            if (page['id'] + '_' + item[0]) in all_ids:
                 print("Duplicate item num '" + str(item[0]) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
                 quit(1)
             else:
-                item_nums.add(item[0])
+                all_ids.add(page['id'] + '_' + item[0])
             if isinstance(items.peek([0])[0], list):
                 sub_item_nums = set()
+                item_id = item[0]
                 item = next(items)
                 for subitem in item:
-                    if subitem[0] in sub_item_nums:
+                    if not isinstance(subitem[0], str):
+                        print("Please make item id " + str(subitem[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                        quit(1)
+                    if (page['id'] + '_' + item_id + '_' + subitem[0]) in all_ids:
                         print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                         quit(1)
                     else:
-                        sub_item_nums.add(subitem[0])
+                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
 
 with doc.head:
     meta(charset="UTF-8")
@@ -88,7 +93,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none"):
+    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
@@ -107,10 +112,10 @@ with doc:
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
-                h1("Roundtable Tracker", cls="mt-3")
+                h1("Roundtable Hold", cls="mt-3")
                 text = p(cls="lead d-print-none")
                 text += "Contribute at the "
-                text += a("Github Page", href="https://github.com/Roundtable-Hold/tracker")
+                text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
             with div(id="btnHideCompleted", cls="fade mb-3 d-print-none"):
@@ -134,7 +139,7 @@ with doc:
                         with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                             for s_idx, section in enumerate(page['sections']):
                                 with li():
-                                    a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
+                                    a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
                     with div(cls="input-group d-print-none"):
@@ -142,7 +147,7 @@ with doc:
 
                     with div(id=page['id']+"_list"):
                         for s_idx, section in enumerate(page['sections']):
-                            with h4(id=page['id'] + '_' + str(s_idx), cls="mt-1"):
+                            with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
                                 with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                     i(cls='bi bi-chevron-up d-print-none')
                                 if 'link' in section:
@@ -224,12 +229,12 @@ with doc:
             with div(cls="tab-pane fade", id="tabMain"):
                 raw(
 """
-<h3>Welcome to the Roundtable Tracker</h3>
+<h3>Welcome to the Roundtable Hold</h3>
 <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
 <p>This site is still a work in-progress. We are working on it every day.</p>
 
 <h3>I have feedback, how can I contribute?</h3>
-<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/Roundtable-Hold/tracker">GitHub repository</a>. You can also simply <a href="https://github.com/Roundtable-Hold/tracker/issues">report issues</a> and we'll fix them.</p>
+<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/RoundtableHold/roundtablehold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
 <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
 
 <h3>Can I use this for multiple characters?</h3>
@@ -237,10 +242,6 @@ with doc:
 
 <h3>How does the checklist status get saved?</h3>
 <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-
-<h3>Thanks</h3>
-<p>This sheet would not be possible without the incredible work already done by the team at Fextralife, the team behind MapGenie, fellow redditors /u/Athrek and /u/AcceptablePackMule, and the rest of the community.</p>
-<p>The foundation of this website was based on <a href="https://github.com/ZKjellberg">ZKjellberg</a>'s <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet">Dark Soul's 3 Cheat Sheet</a> source code.</p>
 
 <h3>DISCLAIMER</h3>
 <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
@@ -360,7 +361,11 @@ def make_jquery_selector(x):
     l  = to_list(x)
     s = '$("'
     for e in l[:-1]:
+        if str(e) not in all_ids:
+            print('Potential typo in item links. "' + e + '" is not a valid id')
         s += '#' + str(e) + ','
+    if str(l[-1]) not in all_ids:
+        print('Potential typo in item links. "' + str(l[-1]) + '" is not a valid id')
     s += '#' + str(l[-1]) + '")'
     return s
 
@@ -372,7 +377,8 @@ with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding=
     ])
     for link in item_links:
         if 'source' in link:
-            links_f.write('    $("#' + link['source'] + '").click(function () {\n')
+            sel = make_jquery_selector(link['source'])
+            links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = $(this).prop("checked");\n')
             t_sel = make_jquery_selector(link['target'])
             links_f.write('      ' + t_sel + '.prop("checked", checked);\n')

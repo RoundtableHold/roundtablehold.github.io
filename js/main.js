@@ -63,13 +63,18 @@ var profilesKey = 'darksouls3_profiles';
             checklist_totals[total_span.id][0] += 1;
             checklist_totals[total_nav.id][0] += 1;
             checklist_totals[overall_total.id][0] += 1;
-        } else if (wasChecked === true && isChecked == false) {
+        } else if (wasChecked === true && isChecked === false) {
             delete profiles[profilesKey][profiles.current].checklistData[id];
             $(el).closest('li').removeClass('completed');
             
             checklist_totals[total_span.id][0] -= 1;
             checklist_totals[total_nav.id][0] -= 1;
             checklist_totals[overall_total.id][0] -= 1;
+        } else if (wasChecked === true && isChecked === true) {
+            // We are in setup. We just cleared all checkboxes and are going through 1 by 1 clicking them. That is why both the checkbox was just clicked and the saved data says it's clicked
+            $(el).closest('li').addClass('completed');
+            // No need to update totals it will be done soon.
+            return;
         }
 
         if (checklist_totals[total_span.id][0] === checklist_totals[total_span.id][1]) {
@@ -361,8 +366,7 @@ var profilesKey = 'darksouls3_profiles';
             }
         });
 
-        calculateTotals();
-
+        populateChecklists();
     });
 
     function initializeProfile(profile_name) {
@@ -384,7 +388,7 @@ var profilesKey = 'darksouls3_profiles';
     /// restore all saved state, except for the current tab
     /// used on page load or when switching profiles
     function restoreState(profile_name) {
-        $('a[href$="_col"]').each(function() {
+        $('a[href$="Col"]').each(function() {
             var value = profiles[profilesKey][profile_name].collapsed[$(this).attr('href')];
             var active = $(this).hasClass('collapsed');
 
@@ -447,17 +451,15 @@ var profilesKey = 'darksouls3_profiles';
     function populateChecklists() {
         $('.checkbox input[type="checkbox"]')
             .prop('checked', false)
-            .parent('div')
-            .parent('li')
+            .closest('li')
             .removeClass('completed')
             .show();
 
         $.each(profiles[profilesKey][profiles.current].checklistData, function(index, value) {
-            $('#' + index)
-                .prop('checked', value)
-                .parent('div')
-                .parent('li')
-                .toggleClass('completed', value);
+            var el = $('#' + index);
+            if (!el.prop('checked') && value === true) {
+                el.click();
+            }
         });
 
         calculateTotals();
@@ -546,6 +548,13 @@ var profilesKey = 'darksouls3_profiles';
         });
     });
 
+    $('.toc_link').click(function() {
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
+        }, 100);
+    });
+
     /*
      * ------------------------------------------
      * Restore tabs/hidden sections functionality
@@ -576,7 +585,7 @@ var profilesKey = 'darksouls3_profiles';
         }
 
         // register on click handlers to store state
-        $('a[href$="_col"]').on('click', function(el) {
+        $('a[href$="Col"]').on('click', function(el) {
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 
@@ -591,13 +600,14 @@ var profilesKey = 'darksouls3_profiles';
             }
             profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
             
-            // window.scrollTo(0,0);
+            window.scrollTo(0,0);
 
             $.jStorage.set(profilesKey, profiles);
 
             $('#nav-collapse').collapse('hide');
         });
      });
+
 
 })( jQuery );
 
