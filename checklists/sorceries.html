@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Roundtable Hold - Sorceries</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="manifest.webmanifest" rel="manifest">
+    <link href="/img/favicon.ico?" rel="shortcut icon" type="image/x-icon">
+    <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed">
+    <link color="#000000" href="/img/pinned-tab-icon.svg" rel="mask-icon">
+    <meta contents="yes" name="apple-mobile-web-app-capable">
+    <meta contents="yes" name="mobile-web-app-capable">
+    <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
+    <meta content="Ben Lambeth" name="author">
+    <meta content="yes" name="mobile-web-app-capable">
+    <link href="/css/themes/slate/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <div class="row p-0 m-0">
+        <img class="d-block w-100 p-0 m-0" src="/img/banner-thin.jpg">
+        <a data-bs-target="#sidebar" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-list bi-lg"></i>
+        </a>
+      </div>
+      <div class="row flex-nowrap p-0 m-0">
+        <div class="col-auto">
+          <div class="collapse collapse-horizontal show" id="sidebar">
+            <div class="list-group min-vh-100" id="sidebar_nav">
+              <a class="dropdown-item hide-buttons" href="/index.html">
+                <i class="bi bi-house-fill"></i> Home
+              </a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+              <a class="dropdown-item show-buttons" href="/checklists/tl;dr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+              <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+              <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+              <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+              <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+              <a class="dropdown-item show-buttons" href="/checklists/caves,_catacombs,and_tunnels.html">Caves, Catacombs, and Tunnels</a>
+              <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+              <a class="dropdown-item show-buttons" href="/checklists/illusory_walls&amp;_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+              <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+              <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+              <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+              <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+              <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+              <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/golden_seeds&amp;_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+              <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+              <a class="dropdown-item show-buttons" href="/checklists/memory_stones&amp;_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+              <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+              <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+              <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+              <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+              <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/remembrances&amp;_mausoleums.html">Remembrances &amp; Mausoleums</a>
+              <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+              <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts&amp;_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+              <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+              <a class="dropdown-item show-buttons" href="/checklists/pots&amp;_bottles.html">Pots &amp; Bottles</a>
+              <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item hide-buttons" href="/options.html">
+                <i class="bi bi-gear-fill"></i> Options
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="container">
+            <div class="mb-3 d-print-none" id="btnHideCompleted">
+              <div class="form-check form-switch">
+                <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
+                <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+              </div>
+            </div>
+            <h2>Sorceries
+              <span class="d-print-none" id="sorceries_overall_total"></span>
+            </h2>
+            <nav class="text-muted toc d-print-none">
+              <strong class="d-block h5">
+                <a class="toc-button" data-bs-toggle="collapse" href="#toc_sorceries" role="button">
+                  <i class="bi bi-plus-lg"></i>Table Of Contents
+                </a>
+              </strong>
+              <ul class="toc_page collapse" id="toc_sorceries">
+                <li>
+                  <a class="toc_link" href="#sorceries_section_0">Limgrave</a>
+                  <span id="sorceries_nav_totals_0"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_1">Weeping Peninsula</a>
+                  <span id="sorceries_nav_totals_1"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_2">Stormveil</a>
+                  <span id="sorceries_nav_totals_2"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_3">Liurnia Lake Part 1</a>
+                  <span id="sorceries_nav_totals_3"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_4">Liurnia Lake Part 2: After Ranni's Questline</a>
+                  <span id="sorceries_nav_totals_4"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_5">Raya Lucaria</a>
+                  <span id="sorceries_nav_totals_5"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_6">Siofra River Well Underground</a>
+                  <span id="sorceries_nav_totals_6"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_7">Caelid</a>
+                  <span id="sorceries_nav_totals_7"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_8">Mt. Gelmir</a>
+                  <span id="sorceries_nav_totals_8"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_9">Altus Plateau</a>
+                  <span id="sorceries_nav_totals_9"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_10">Deeproot Depths</a>
+                  <span id="sorceries_nav_totals_10"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_11">Mountaintops of the Giants</a>
+                  <span id="sorceries_nav_totals_11"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#sorceries_section_12">Miquella's Haligtree</a>
+                  <span id="sorceries_nav_totals_12"></span>
+                </li>
+              </ul>
+            </nav>
+            <div class="input-group d-print-none">
+              <input class="form-control my-3" id="sorceries_search" placeholder="Start typing to filter results..." type="search">
+            </div>
+            <div id="sorceries_list">
+              <h4 class="mt-1" id="sorceries_section_0">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_0Col" data-bs-toggle="collapse" href="#sorceries_0Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Limgrave</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_0"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_0Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_1_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_3">Crystal Barrage - Sold by Sorceress Sellen (under the Waypoint Ruins, East of the lake).</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_4">Glintstone Arc - Sold by Sorceress Sellen</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_5">Glintstone Pebble - Sold by Sorceress Sellen</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_6">Glintstone Stars - Sold by Sorceress Sellen</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_7">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_7" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_7">Scholar's Armament - Sold by Sorceress Sellen</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_8">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_8" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_8">Scholar's Shield - Sold by Sorceress Sellen</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_9">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_9" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_9">Carian Slicer - Unlocked by Royal House Scroll (located on the ruin next to a mage, East of the Agheel Lake South Grace in South-East Limgrave)</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_1_10">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_1_10" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_1_10">Glintblade Phalanx - Unlocked by Royal House Scroll</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_1">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_1Col" data-bs-toggle="collapse" href="#sorceries_1Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Weeping Peninsula</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_1"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_1Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_2_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_2_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_2_1">Ambush Shard - Found under the Witchbane Ruins in North-West Weeping Peninsula</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_2_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_2_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_2_2">Crystal Burst - Kill the Demi-Human Queen in the Demi-Human Forest Ruins in the forest in the Center of Weeping Peninsula.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_2">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_2Col" data-bs-toggle="collapse" href="#sorceries_2Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Stormveil</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_2"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_2Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_3_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_3_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_3_1">Rancorcall - From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a scarab with the spell.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_3">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_3Col" data-bs-toggle="collapse" href="#sorceries_3Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Liurnia Lake Part 1</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_3"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_3Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_4_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_1">Starlight - Sold by Thops in the Church of Irith near the Lake-Facing Cliffs Grace</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_18">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_18" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_18">Great Glintstone Shard - Unlocked by Academy Scroll (found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake).</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_19">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_19" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_19">Swift Glintstone Shard - Unlocked by Academy Scroll</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_20">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_20" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_20">Carian Greatsword - Sold by Miriel, Pastor of Vows at the Church of Vows in East Liurnia Lake.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_21">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_21" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_21">Magic Glintblade - Sold by Miriel, Pastor of Vows</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_4">Ancient Death Rancor - Kill the Death Rite Bird next to the Gate Town North Grace, East of Raya Lucaria Academy, at Night.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_5">Briars of Sin - North-West of the Artist's Shack, East of Academy Gate Town, there is a camp of fire guys. Outside the camp is lone enemy surrounded by fire slugs. Kill the lone enemy for the spell.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_6">Greatblade Phalanx - Kill the boss of Cuckoo's Evergaol in West Liurnia Lake.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_7">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_7" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_7">Magic Downpour - Kill Preceptor Miriam in Carian Study Hall without using the Carian Inverted Statue on the altar.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_8">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_8" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_8">Meteorite - Kill Boss of the Royal Grave Evergaol in North Liurnia Lake</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_9">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_9" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_9">Shatter Earth - In Raya Lucaria Crystal Tunnel near the end.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_22">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_22" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_22">Crystal Release - Kill the boss of Academy Crystal Cave</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_23">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_23" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_23">Terra Magica - Take the lift behind the boss room of Academy Crystal Cave and open the chest</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_11">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_11" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_11">Carian Piercer - Dropped by a scarab in Caria Manor. The beetle is found near the entrance to the manor on the East side.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_12">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_12" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_12">Loretta's Greatbow - Kill the boss of Caria Manor</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_13">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_13" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_13">Frozen Armament - Dropped by the scarab north of Caria Manor. Can only be accessed after finished Caria Manor.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_24">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_24" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_24">Carian Phalanx - Sold by Seluvis (you must give someone the potion or dispose of it with Gideon before he opens his shop</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_25">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_25" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_25">Carian Retaliation - Sold by Seluvis</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_26">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_26" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_26">Freezing Mist - Sold by Seluvis</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_27">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_27" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_27">Glintstone Icecrag - Sold by Seluvis</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_28">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_28" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_28">Cannon of Haima - Chest at the top of the Converted Fringe Tower in North-East Liurnia Lake. To get to the tower, you have to go past the Frenzied Flame Village North-East of the Bellum Church, North of the East Raya Lucaria Gate. Once at the Tower, you have to solve a puzzle. For this you must get any Glintstone Crown and use the Erudition emote. Once you have both items, wear the crown and use the emote while standing on the message in the Converted Fringe Tower.</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="sorceries_4_28_0">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="sorceries_4_28_0" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="sorceries_4_28_0">The emote is gotten from Thops by giving him the secondary Glintstone Key found in on the chandelier at the top of the Church of Cuckoo in Raya Lucaria. Requires taking the rooftops outside the Debate Parlor and to the right.</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="sorceries_4_28_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="sorceries_4_28_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="sorceries_4_28_1">A Glintstone Crown can be found near the key. While on balcony just before the key, find the crab and kill it.</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="sorceries_4_29">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_29" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_29">Gavel of Haima - In the same chest as Cannon of Haima</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_16">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_16" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_16">Thops's Barrier - After giving Thops the second Glintstone Key, you can find it on his body outside the room of the Schoolhouse Classroom Grace in Raya Lucaria.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_4_17">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_4_17" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_4_17">Shard Spiral - Purchased from Sellen after her quest if you sided with her.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_4">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_4Col" data-bs-toggle="collapse" href="#sorceries_4Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Liurnia Lake Part 2: After Ranni's Questline</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_4"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_4Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_5_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_5_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_5_1">Adula's Moonblade - Kill Glintstone Dragon Adula in the area accessed after Ranni's Questline.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_5_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_5_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_5_2">Lucidity - Kill Preceptor Miriam in Carian Study Hall after using the Carian Inverted Statue gotten from Ranni's Questline on the altar.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_5_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_5_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_5_3">Ranni's Dark Moon - After finishing Ranni's Questline, go to the area where the questline ends at South Liurnia Lake. In the South-West corner of this area is Chelona's Rise. Solve the puzzle by killing the 3 giant turtles found on the side of the cliff nearby, below the cliffs in the East, and in the air above the Spiritjump to the North. At the top of the tower is the spell.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_5">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_5Col" data-bs-toggle="collapse" href="#sorceries_5Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Raya Lucaria</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_5"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_5Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_6_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_1">Gravity Well - Just past the rotating elevator in Raya Lucaria, next to the Schoolhouse Grace. So the quick/tricky method is from the Grace, time jumping down to the rising elevator then hop down to the path below. If you can't do this, then come from the Church of the Cuckoo Grace and run past all the enemies. Past the elevator is a bunch of graves where an enemy will spawn. Kill it for the spell.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_6_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_6">Glintstone Cometshard - Unlocked by Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_6_7">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_7" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_7">Star Shower - Unlocked by Conspectus Scroll</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_6_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_3">Comet - In Raya Lucaria. From the Debate Parlor Grace, go back to the area before the boss room. Roll into the bookshelf with no books to find an Illusory Wall where the spell can be found.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_6_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_4">Shattering Crystal - From the Debate Parlor Grace in Raya Lucaria, go outside and turn right. Hop down then climb the ladder to get to the roof. Make your way to the Church of the Cuckoo on the North-West side and it will there.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_6_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_6_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_6_5">Rennala's Full Moon - Gotten from Rennala's Remembrance which is obtained by killing the boss of Raya Lucaria.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_6">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_6Col" data-bs-toggle="collapse" href="#sorceries_6Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Siofra River Well Underground</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_6"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_6Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_7_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_7_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_7_1">Oracle Bubbles - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the scarab is. Kill the beetle for the spell</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_7_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_7_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_7_2">Great Oracular Bubble - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a scarab. Beat it to death for putting you through all that for the spell.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_7">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_7Col" data-bs-toggle="collapse" href="#sorceries_7Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Caelid</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_7"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_7Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_8_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_1">Rock Sling - Under the North section of Street of Sages Ruins in the West part of the swamp.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_2">Rock Blaster - In a chest in the upper level of Sellia Crystal Tunnel located North of the swamp. Easily gotten to from the teleport chest under the ruins in the South part of the lake in Limgrave.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_3">Night Comet - One of the chests in Sellia that are available after unlocking the seals by lighting the towers.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_4">Crystal Torrent - Kill the Boss of Sellia Hideaway. To find the hideaway, go to Sellia in the North-East part of the swamp. Go past the seals by lighting the fires at the tops of the towers. Go up the path to the Church of Plague. Go North of the Church to find the mage enemy and a giant gravestone. Roll into the cliff behind the Grave to break the Illusion and find the Hideaway.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_5">Eternal Darkness - Go South from the Church of the Plague(explained just above) and cross the top of the gate nearby then go into the Swamp Lookout Tower to find the spell.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_9">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_9" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_9">Night Maiden's Mist - Sold by Gowry in Gowry's Shack south of Sellia after finishing his request.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_10">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_10" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_10">Night Shard - Sold by Gowry</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_7">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_7" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_7">Collapsing Stars - In a chest in the War-Dead Catacombs. The catacombs can be accessed after killing Radahn and are located in the North-East corner of his boss arena. The chest is on the lower levels, below all the fighting enemies.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_8_8">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_8_8" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_8_8">Stars of Ruins - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_8">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_8Col" data-bs-toggle="collapse" href="#sorceries_8Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Mt. Gelmir</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_8"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_8Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_9_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_1">Magma Shot - Reward from Volcano Manor's first request.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_9_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_2">Tibia's Summons - After killing the boss of the "Coward's Path" aka Ruin-Strewn Precipice, take the path going North and get to the Wyndham Ruins. Kill the Tibia Mariner for the spell.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_9_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_3">Roiling Magma - In the Hermit's Shack South of Volcano Manor. Requires going around the North side of the zone to reach South of the Manor.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_9_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_4">Comet Azur - Found on the Primeval Sorcery Azur located just North of Hermit Village, South-East of Volcano Manor. He will be lying on the ground and has a crystal head. Talk to him for the Sorcery. Note: This Sorcery is needed for Sorceress Sellen's Questline.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_9_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_5">Gelmir's Fury - Reward for helping Recusant Bernahl with his task in Volcano Manor. Requires being part of Volcano Manor, finishing at least one Volcano Manor request, and you cannot of killed Rykard or gotten to Crumbling Farum Azula yet.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_9_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_9_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_9_6">Rykard's Rancor - Gotten from Rykard's Remembrance obtained after killing the Boss of Volcano Manor.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_9">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_9Col" data-bs-toggle="collapse" href="#sorceries_9Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Altus Plateau</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_9"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_9Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_10_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_10_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_10_2">Unseen Blade - At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock. The chest is at the top of the tower that appears.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_10_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_10_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_10_3">Unseen Form - In the same chest as Unseen Blade</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_10">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_10Col" data-bs-toggle="collapse" href="#sorceries_10Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Deeproot Depths</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_10"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_10Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_11_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_11_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_11_1">Fia's Mist - Defeat the Boss located past the Across the Roots Grace. You can reach the Grace by going up the roots leading over the buildings.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_11">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_11Col" data-bs-toggle="collapse" href="#sorceries_11Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Mountaintops of the Giants</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_11"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_11Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_12_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_12_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_12_1">Zamor Ice Storms - South part of Zamor Ruins.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_12_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_12_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_12_2">Briars of Punishment - On the path North from the Zamor Ruins. Next to the fire guys.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_12_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_12_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_12_3">Founding Rain of Stars - Freezing Lake Grace in the North-East. Go up the slope to the North and find the broken bridge on the Southern side of the cliff. The bridge is actually just invisible. Cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into Heretical Rise. Inside you will find the spell.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_12_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_12_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_12_4">Explosive Ghostflame - Kill the Death Rite Bird, South-East of the Apostate Derelict in the North-West section of the Consecrated Snowfield, at Night. Requires the Haligtree Medallion.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="sorceries_12_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_12_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_12_5">Meteorite of Astel - Kill the Boss of Yelough Anix Tunnel in West Consecrated Snowfield. Requires Haligtree Medallion.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="sorceries_section_12">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#sorceries_12Col" data-bs-toggle="collapse" href="#sorceries_12Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Miquella's Haligtree</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="sorceries_totals_12"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="sorceries_12Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="sorceries_13_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="sorceries_13_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="sorceries_13_1">Loretta's Mastery - Kill the first Boss of the Haligtree. Requires Haligtree Medallion.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
+      <span class="bi bi-arrow-up"></span>
+    </a>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jstorage.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jets.min.js"></script>
+    <script src="/js/jquery.highlight.js"></script>
+    <script src="/js/jstorage.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/item_links.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B7FMWDCTF5');
+    </script>
+    
+    <script type="text/javascript">
+            (function($) {
+                'use strict';
+                $(function() {
+                    var jet = new Jets({
+                        searchTag: "#sorceries_search",
+                        contentTag: "#sorceries_list ul"
+                    });
+                    $("#sorceries_search").keyup(function() {
+                        $("#sorceries_list").unhighlight();
+                        $("#sorceries_list").highlight($(this).val());
+                    });
+                });
+            })( jQuery );
+            </script>
+  </body>
+</html>

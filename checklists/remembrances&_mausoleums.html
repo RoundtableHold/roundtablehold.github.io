@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Roundtable Hold - Remembrances &amp; Mausoleums</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="manifest.webmanifest" rel="manifest">
+    <link href="/img/favicon.ico?" rel="shortcut icon" type="image/x-icon">
+    <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed">
+    <link color="#000000" href="/img/pinned-tab-icon.svg" rel="mask-icon">
+    <meta contents="yes" name="apple-mobile-web-app-capable">
+    <meta contents="yes" name="mobile-web-app-capable">
+    <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
+    <meta content="Ben Lambeth" name="author">
+    <meta content="yes" name="mobile-web-app-capable">
+    <link href="/css/themes/slate/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <div class="row p-0 m-0">
+        <img class="d-block w-100 p-0 m-0" src="/img/banner-thin.jpg">
+        <a data-bs-target="#sidebar" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-list bi-lg"></i>
+        </a>
+      </div>
+      <div class="row flex-nowrap p-0 m-0">
+        <div class="col-auto">
+          <div class="collapse collapse-horizontal show" id="sidebar">
+            <div class="list-group min-vh-100" id="sidebar_nav">
+              <a class="dropdown-item hide-buttons" href="/index.html">
+                <i class="bi bi-house-fill"></i> Home
+              </a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+              <a class="dropdown-item show-buttons" href="/checklists/tl;dr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+              <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+              <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+              <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+              <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+              <a class="dropdown-item show-buttons" href="/checklists/caves,_catacombs,and_tunnels.html">Caves, Catacombs, and Tunnels</a>
+              <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+              <a class="dropdown-item show-buttons" href="/checklists/illusory_walls&amp;_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+              <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+              <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+              <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+              <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+              <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+              <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/golden_seeds&amp;_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+              <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+              <a class="dropdown-item show-buttons" href="/checklists/memory_stones&amp;_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+              <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+              <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+              <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+              <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+              <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item show-buttons" href="/checklists/remembrances&amp;_mausoleums.html">Remembrances &amp; Mausoleums</a>
+              <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+              <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts&amp;_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+              <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+              <a class="dropdown-item show-buttons" href="/checklists/pots&amp;_bottles.html">Pots &amp; Bottles</a>
+              <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item hide-buttons" href="/options.html">
+                <i class="bi bi-gear-fill"></i> Options
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="container">
+            <div class="mb-3 d-print-none" id="btnHideCompleted">
+              <div class="form-check form-switch">
+                <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
+                <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+              </div>
+            </div>
+            <h2>Remembrances &amp; Mausoleums
+              <span class="d-print-none" id="remembrances_mausoleums_overall_total"></span>
+            </h2>
+            <nav class="text-muted toc d-print-none">
+              <strong class="d-block h5">
+                <a class="toc-button" data-bs-toggle="collapse" href="#toc_remembrances_mausoleums" role="button">
+                  <i class="bi bi-plus-lg"></i>Table Of Contents
+                </a>
+              </strong>
+              <ul class="toc_page collapse" id="toc_remembrances_mausoleums">
+                <li>
+                  <a class="toc_link" href="#remembrances_mausoleums_section_0">Remembrances</a>
+                  <span id="remembrances_mausoleums_nav_totals_0"></span>
+                </li>
+                <li>
+                  <a class="toc_link" href="#remembrances_mausoleums_section_1">Walking Mausoleums</a>
+                  <span id="remembrances_mausoleums_nav_totals_1"></span>
+                </li>
+              </ul>
+            </nav>
+            <div class="input-group d-print-none">
+              <input class="form-control my-3" id="remembrances_mausoleums_search" placeholder="Start typing to filter results..." type="search">
+            </div>
+            <div id="remembrances_mausoleums_list">
+              <h4 class="mt-1" id="remembrances_mausoleums_section_0">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#remembrances_mausoleums_0Col" data-bs-toggle="collapse" href="#remembrances_mausoleums_0Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <span class="d-print-inline">Remembrances</span>
+                <span class="mt-0 badge rounded-pill d-print-none" id="remembrances_mausoleums_totals_0"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="remembrances_mausoleums_0Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_1"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted">Remembrance Of The Grafted</a> (20,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_1_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_1_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_1_1">Weapon - Axe of Godrick</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_1_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_1_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_1_2">Weapon - Grafted Dragon</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_2"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen">Remembrance Of The Full Moon Queen</a> (20,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_2_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_2_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_2_1">Sorcery Spell - Rennala's Full Moon</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_2_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_2_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_2_2">Weapon - Carian Regal Scepter</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_3"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge">Remembrance Of The Starscourge</a> (40,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_3_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_3_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_3_1">Weapon - Starscourge Greatsword</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_3_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_3_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_3_2">Weapon - Lion Greatbow</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_4"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge">Remembrance Of The Regal Ancestor</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_4_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_4_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_4_1">Weapon - Winged Greathorn</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_4_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_4_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_4_2">Talisman - Ancestral Spirit's Horn</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_5"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Naturalborn">Remembrance Of The Naturalborn</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_5_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_5_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_5_1">Weapon - Bastard's Stars</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_5_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_5_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_5_2">Ash Of War - Waves Of Darkness</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_6"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+Hoarah+Loux">Remembrance Of Hoarah Loux</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_6_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_6_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_6_1">Weapon - Axe Of Godfrey</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_6_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_6_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_6_2">Ash Of War - Hoarah Loux's Earthshaker</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_7">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_7" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_7"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade">Remembrance Of The Black Blade</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_7_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_7_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_7_1">Weapon - Maliketh's Black Blade</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_7_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_7_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_7_2">Incantation Spell - Black Blade</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_8">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_8" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_8"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blasphemous">Remembrance Of The Blasphemous</a> (50,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_8_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_8_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_8_1">Sorcery Spell - Rykard's Rancor</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_8_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_8_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_8_2">Weapon - Blasphemous Blade</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_9">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_9" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_9"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Fire+Giant">Remembrance Of The Fire Giant</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_9_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_9_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_9_1">Weapon - Giant's Red Braid</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_9_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_9_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_9_2">Incantation Spell - Burn, O Flame!</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_10">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_10" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_10"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King">Remembrance Of The Omen King</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_10_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_10_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_10_1">Weapon - Morgott's Cursed Sword</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_10_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_10_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_10_2">Reusable Item - Regal Omen Bairn</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_11">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_11" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_11"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord">Remembrance Of The Dragonlord</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_11_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_11_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_11_1">Weapon - Dragon King's Cragblade</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_11_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_11_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_11_2">Incantation Spell - Placidusax's Ruin</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_12">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_12" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_12"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lichdragon">Remembrance Of The Lichdragon</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_12_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_12_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_12_1">Incantation Spell - Fortissax's Lightning Spear</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_12_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_12_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_12_2">Incantation Spell - Death Lightning</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_13">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_13" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_13"><a href="https://eldenring.wiki.fextralife.com/Elden+Remembrance">Elden Remembrance</a> (50,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_13_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_13_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_13_1">Weapon - Marika's Hammer</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_13_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_13_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_13_2">Weapon - Sacred Relic Sword</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_14">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_14" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_14"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess">Remembrance Of The Rot Goddess</a> (50,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_14_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_14_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_14_1">Weapon - Hand Of Malenia</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_14_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_14_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_14_2">Incantation Spell - Scarlet Aeonia</label>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_1_15">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_1_15" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_1_15"><a href="https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blood+Lord">Remembrance Of The Blood Lord</a> (30,000 Runes)</label>
+                    </div>
+                  </li>
+                  <ul class="list-group-flush">
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_15_1">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_15_1" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_15_1">Incantation Spell - Bloodboon</label>
+                      </div>
+                    </li>
+                    <li class="list-group-item" data-id="remembrances_mausoleums_1_15_2">
+                      <div class="form-check checkbox">
+                        <input class="form-check-input" id="remembrances_mausoleums_1_15_2" type="checkbox" value="">
+                        <label class="form-check-label item_content" for="remembrances_mausoleums_1_15_2">Weapon - Mohgwyn's Sacred Spear</label>
+                      </div>
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+              <h4 class="mt-1" id="remembrances_mausoleums_section_1">
+                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#remembrances_mausoleums_1Col" data-bs-toggle="collapse" href="#remembrances_mausoleums_1Col" role="button">
+                  <i class="bi bi-chevron-up d-print-none"></i>
+                </a>
+                <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Walking+Mausoleum">Walking Mausoleums</a>
+                <span class="mt-0 badge rounded-pill d-print-none" id="remembrances_mausoleums_totals_1"></span>
+              </h4>
+              <div aria-expanded="true" class="collapse show" id="remembrances_mausoleums_1Col">
+                <ul class="list-group-flush">
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_1">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_1" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_1">Weeping Peninsula - In the western area past the Church of Pilgrimage.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_2">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_2" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_2">Liurnia of the Lakes - Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_3">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_3" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_3">Liurnia of the Lakes - Two of them can be found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate Remembrances from Non-Shardbearer bosses.</b></label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_4">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_4" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_4">Mountaintop of the Giants - Just outside Castle Sol in the northern area.</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_5">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_5" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_5">Consecrated Snowfield - Northwest of Ordina, next to the Apostate Derelict Grace</label>
+                    </div>
+                  </li>
+                  <li class="list-group-item" data-id="remembrances_mausoleums_2_6">
+                    <div class="form-check checkbox">
+                      <input class="form-check-input" id="remembrances_mausoleums_2_6" type="checkbox" value="">
+                      <label class="form-check-label item_content" for="remembrances_mausoleums_2_6">Deeproot Depths - Near the The Nameless Eternal City Grace.</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
+      <span class="bi bi-arrow-up"></span>
+    </a>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jstorage.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jets.min.js"></script>
+    <script src="/js/jquery.highlight.js"></script>
+    <script src="/js/jstorage.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/item_links.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B7FMWDCTF5');
+    </script>
+    
+    <script type="text/javascript">
+            (function($) {
+                'use strict';
+                $(function() {
+                    var jet = new Jets({
+                        searchTag: "#remembrances_mausoleums_search",
+                        contentTag: "#remembrances_mausoleums_list ul"
+                    });
+                    $("#remembrances_mausoleums_search").keyup(function() {
+                        $("#remembrances_mausoleums_list").unhighlight();
+                        $("#remembrances_mausoleums_list").highlight($(this).val());
+                    });
+                });
+            })( jQuery );
+            </script>
+  </body>
+</html>
