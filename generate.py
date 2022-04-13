@@ -82,8 +82,11 @@ for page in pages:
 with doc.head:
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="manifest", href="manifest.webmanifest")
     link(rel="shortcut icon", type="image/x-icon", href="img/favicon.ico?")
     link(rel="apple-touch-icon-precomposed", href="img/favicon-152.png")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="mobile-web-app-capable", content="yes")
     link(rel="mask-icon", href="img/pinned-tab-icon.svg", color="#000000")
     meta(name="description", content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc.")
     meta(name="author", content="Ben Lambeth")
@@ -92,7 +95,7 @@ with doc.head:
     link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
     link(href="css/main.css", rel="stylesheet")
 
-with doc:
+with doc.add(main()):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
