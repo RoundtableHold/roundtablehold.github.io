@@ -12,7 +12,7 @@ from more_itertools import peekable
 from atomicwrites import atomic_write
 
 
-doc = dominate.document(title="Roundtable Tracker")
+doc = dominate.document(title="Roundtable Hold")
 doc.set_attribute('lang', 'en')
 
 def to_snake_case(name):
@@ -112,10 +112,10 @@ with doc:
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
-                h1("Roundtable Tracker", cls="mt-3")
+                h1("Roundtable Hold", cls="mt-3")
                 text = p(cls="lead d-print-none")
                 text += "Contribute at the "
-                text += a("Github Page", href="https://github.com/Roundtable-Hold/roundtable-hold.github.io")
+                text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
         with div(cls="tab-content gap-2"):
             # Hide completed toggle
             with div(id="btnHideCompleted", cls="fade mb-3 d-print-none"):
@@ -229,12 +229,12 @@ with doc:
             with div(cls="tab-pane fade", id="tabMain"):
                 raw(
 """
-<h3>Welcome to the Roundtable Tracker</h3>
+<h3>Welcome to the Roundtable Hold</h3>
 <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
 <p>This site is still a work in-progress. We are working on it every day.</p>
 
 <h3>I have feedback, how can I contribute?</h3>
-<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/Roundtable-Hold/roundtable-hold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/Roundtable-Hold/roundtable-hold.github.io/issues">report issues</a> and we'll fix them.</p>
+<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/RoundtableHold/roundtablehold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
 <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
 
 <h3>Can I use this for multiple characters?</h3>
@@ -242,10 +242,6 @@ with doc:
 
 <h3>How does the checklist status get saved?</h3>
 <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-
-<h3>Thanks</h3>
-<p>This sheet would not be possible without the incredible work already done by the team at Fextralife, the team behind MapGenie, fellow redditors /u/Athrek and /u/AcceptablePackMule, and the rest of the community.</p>
-<p>The foundation of this website was based on <a href="https://github.com/ZKjellberg">ZKjellberg</a>'s <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet">Dark Soul's 3 Cheat Sheet</a> source code.</p>
 
 <h3>DISCLAIMER</h3>
 <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
