@@ -721,10 +721,10 @@
       $("#bosses_5_10,#weapons_25_16").prop("checked", checked);
       $("#bosses_5_10,#weapons_25_16").each(function(idx, el) {window.onCheckbox(el)});
     });
-    $("#bosses_5_12,#weapons_19_15").click(function () {
+    $("#bosses_5_12,#weapons_9_15").click(function () {
       var checked = $(this).prop("checked");
-      $("#bosses_5_12,#weapons_19_15").prop("checked", checked);
-      $("#bosses_5_12,#weapons_19_15").each(function(idx, el) {window.onCheckbox(el)});
+      $("#bosses_5_12,#weapons_9_15").prop("checked", checked);
+      $("#bosses_5_12,#weapons_9_15").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#bosses_5_13,#caves_3_6").click(function () {
       var checked = $(this).prop("checked");
