@@ -93,7 +93,7 @@ with doc.head:
     link(href="css/main.css", rel="stylesheet")
 
 with doc:
-    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none"):
+    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
@@ -139,7 +139,7 @@ with doc:
                         with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                             for s_idx, section in enumerate(page['sections']):
                                 with li():
-                                    a(section['title'], href="#" + page['id'] + '_'  + str(s_idx))
+                                    a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
                     with div(cls="input-group d-print-none"):
