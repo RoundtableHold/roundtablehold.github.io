@@ -381,10 +381,15 @@
       $("#armor_226,#armor_240").prop("checked", checked);
       $("#armor_226,#armor_240").each(function(idx, el) {window.onCheckbox(el)});
     });
-    $("#armor_253,#armor_257").click(function () {
+    $("#armor_252,#armor_573,#armor_575,#armor_577,#armor_579,#armor_581").click(function () {
       var checked = $(this).prop("checked");
-      $("#armor_253,#armor_257").prop("checked", checked);
-      $("#armor_253,#armor_257").each(function(idx, el) {window.onCheckbox(el)});
+      $("#armor_252,#armor_573,#armor_575,#armor_577,#armor_579,#armor_581").prop("checked", checked);
+      $("#armor_252,#armor_573,#armor_575,#armor_577,#armor_579,#armor_581").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#armor_253,#armor_257,#armor_574,#armor_576,#armor_578,#armor_580,#armor_582").click(function () {
+      var checked = $(this).prop("checked");
+      $("#armor_253,#armor_257,#armor_574,#armor_576,#armor_578,#armor_580,#armor_582").prop("checked", checked);
+      $("#armor_253,#armor_257,#armor_574,#armor_576,#armor_578,#armor_580,#armor_582").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#armor_274,#armor_280,#armor_284").click(function () {
       var checked = $(this).prop("checked");
