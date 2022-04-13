@@ -596,5 +596,10 @@
       $("#bosses_9_2,#weapons_18_5,#weapons_19_9").prop("checked", checked);
       $("#bosses_9_2,#weapons_18_5,#weapons_19_9").each(function(idx, el) {window.onCheckbox(el)});
     });
+    $("#weapons_18_6,#quest_order_tldr_145,#playthrough_9_7,#npc_quests_9_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#weapons_18_6,#quest_order_tldr_145,#playthrough_9_7,#npc_quests_9_4").prop("checked", checked);
+      $("#weapons_18_6,#quest_order_tldr_145,#playthrough_9_7,#npc_quests_9_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
   });
 })( jQuery );
