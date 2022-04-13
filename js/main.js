@@ -1,5 +1,9 @@
 var profilesKey = 'darksouls3_profiles';
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+}
+
 (function($) {
     'use strict';
 
@@ -614,16 +618,17 @@ var profilesKey = 'darksouls3_profiles';
                 $(id).highlight($(this).val());
             });
         }
+     });
 
-        // register on click handlers to store state
-        $('a[href$="Col"]').on('click', function(el) {
-            var collapsed_key = $(this).attr('href');
-            var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
+    // register on click handlers to store state
+    $('a[href$="Col"]').on('click', function(el) {
+        var collapsed_key = $(this).attr('href');
+        var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 
-            profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
+        profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
 
-            $.jStorage.set(profilesKey, profiles);
-        });
+        $.jStorage.set(profilesKey, profiles);
+    });
 
         $('.nav.navbar-nav li a,#progress_list li a').on('click', function(event) {
             if ($(event.currentTarget).hasClass('dropdown-toggle')) {
