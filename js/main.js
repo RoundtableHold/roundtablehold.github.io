@@ -570,6 +570,10 @@ var profilesKey = 'darksouls3_profiles';
             scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
         }, 100);
     });
+         
+    var jets = new Jets({
+        searchTag: '#page_search'
+    });
 
     /*
      * ------------------------------------------
@@ -598,6 +602,17 @@ var profilesKey = 'darksouls3_profiles';
             } else {
                 $('#btnHideCompleted').addClass('show');
             }
+            
+            var id = '#' + tabId.slice(4) + '_list'
+            jets.destroy();
+            jets = new Jets({
+                searchTag: '#page_search',
+                contentTag: id + ' ul',
+            });
+            $('#page_search').keyup(function() {
+                $(id).unhighlight();
+                $(id).highlight($(this).val());
+            });
         }
 
         // register on click handlers to store state
@@ -626,6 +641,17 @@ var profilesKey = 'darksouls3_profiles';
             $('.tab-li a').removeClass('active');
             $('.tab-li a[href="' + href + '"]').addClass('active');
             $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
+
+            var id = '#' + href.slice(4) + '_list'
+            jets.destroy();
+            jets = new Jets({
+                searchTag: '#page_search',
+                contentTag: id + ' ul',
+            });
+            $('#page_search').keyup(function() {
+                $(id).unhighlight();
+                $(id).highlight($(this).val());
+            });
         });
 
      });

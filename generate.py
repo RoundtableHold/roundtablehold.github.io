@@ -1,3 +1,4 @@
+from logging import PlaceHolder
 from math import ceil, floor
 from itertools import permutations
 import os
@@ -97,6 +98,9 @@ with doc:
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
+            with div(cls='order-md-last'):
+                with form(cls="d-flex"):
+                    input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
                     with li(cls="nav-item tab-li"):
@@ -109,6 +113,7 @@ with doc:
                                     li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab"))
                     with li(cls="nav-item tab-li"):
                         a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
+
     with div(cls="container"):
         with div(cls="row"):
             with div(cls="col-md-12 text-center"):
@@ -141,9 +146,6 @@ with doc:
                                 with li():
                                     a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
                                     span(id=page['id']  + "_nav_totals_" + str(s_idx))
-
-                    with div(cls="input-group d-print-none"):
-                        input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
                     with div(id=page['id']+"_list"):
                         for s_idx, section in enumerate(page['sections']):
@@ -272,27 +274,6 @@ with doc:
                                         for guide in l:
                                             li(cls='tab-li').add(a(guide[0], href="#tab" + guide[1], data_bs_toggle="tab", cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
                                         hr()
-
-#                 raw(
-# """
-# <h3>Welcome to the Roundtable Hold</h3>
-# <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
-# <p>This site is still a work in-progress. We are working on it every day.</p>
-
-# <h3>I have feedback, how can I contribute?</h3>
-# <p> <a href="">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
-# <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
-
-# <h3>Can I use this for multiple characters?</h3>
-# <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
-
-# <h3>How does the checklist status get saved?</h3>
-# <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-
-# <h3>DISCLAIMER</h3>
-# <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
-# <p>We will do our best to ensure that such issues remain few and far between.</p>
-# """)
             with div(cls="tab-pane fade gap-3", id="tabOptions"):
                 h2("Options")
                 with div(cls="row"):
@@ -361,7 +342,6 @@ with doc:
     script(src="js/jets.min.js")
     script(src="js/jquery.highlight.js")
     script(src="js/main.js")
-    script(src="js/search.js")
     script(src="js/item_links.js")
     raw("""
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -374,29 +354,6 @@ gtag('js', new Date());
 gtag('config', 'G-B7FMWDCTF5');
 </script>
 """)
-
-with atomic_write(os.path.join('js', 'search.js'), overwrite=True, encoding='utf_8') as jsfile:
-    jsfile.writelines([
-        '(function($) {\n',
-        "  'use strict';\n",
-        '  $(function() {\n',
-        '  var jets = [new Jets({\n'
-        ])
-    for i, page in enumerate(pages):
-        jsfile.writelines([
-            '    searchTag: "#' + page['id'] + '_search",\n',
-            '    contentTag: "#' + page['id'] + '_list ul"\n',
-            '  }), new Jets({\n' if i < len(pages) - 1 else '})];\n'
-        ])
-    for i, page in enumerate(pages):
-        jsfile.writelines([
-            '  $("#' + page['id'] + '_search").keyup(function() {\n',
-            '    $("#' + page['id'] + '_list").unhighlight();\n',
-            '    $("#' + page['id'] + '_list").highlight($(this).val());\n',
-            '  });\n'
-        ])
-    jsfile.write('});\n')
-    jsfile.write('})( jQuery );\n')
 
 def to_list(x):
     if isinstance(x, list):
