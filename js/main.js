@@ -630,37 +630,34 @@ if ('serviceWorker' in navigator) {
         $.jStorage.set(profilesKey, profiles);
     });
 
-        $('.nav.navbar-nav li a,#progress_list li a').on('click', function(event) {
-            if ($(event.currentTarget).hasClass('dropdown-toggle')) {
-                return;
-            }
-            
-            var href = $(this).attr('href');
+    $('.nav.navbar-nav li a,#progress_list li a').on('click', function (event) {
+        if ($(event.currentTarget).hasClass('dropdown-toggle')) {
+            return;
+        }
 
-            profiles[profilesKey][profiles.current].current_tab = href;
-            window.scrollTo(0,0);
-            $.jStorage.set(profilesKey, profiles);
+        var href = $(this).attr('href');
 
-            $('#nav-collapse').collapse('hide');
+        profiles[profilesKey][profiles.current].current_tab = href;
+        window.scrollTo(0, 0);
+        $.jStorage.set(profilesKey, profiles);
 
-            $('.tab-li a').removeClass('active');
-            $('.tab-li a[href="' + href + '"]').addClass('active');
-            $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
+        $('#nav-collapse').collapse('hide');
 
-            var id = '#' + href.slice(4) + '_list'
-            jets.destroy();
-            jets = new Jets({
-                searchTag: '#page_search',
-                contentTag: id + ' ul',
-            });
-            $('#page_search').keyup(function() {
-                $(id).unhighlight();
-                $(id).highlight($(this).val());
-            });
+        $('.tab-li a').removeClass('active');
+        $('.tab-li a[href="' + href + '"]').addClass('active');
+        $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
+
+        var id = '#' + href.slice(4) + '_list'
+        jets.destroy();
+        jets = new Jets({
+            searchTag: '#page_search',
+            contentTag: id + ' ul',
         });
-
-     });
-
+        $('#page_search').keyup(function () {
+            $(id).unhighlight();
+            $(id).highlight($(this).val());
+        });
+    });
 
 })( jQuery );
 
