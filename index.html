@@ -35,26 +35,234 @@
                   <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github Page</a>
                 </p>
               </div>
-            </div>
-            <div class="row">
-                        <h3>Welcome to the Roundtable Hold</h3>
-                        <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
-                        <p>This site is still a work in-progress. We are working on it every day.</p>
-
-                        <h3>I have feedback, how can I contribute?</h3>
-                        <p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/RoundtableHold/roundtablehold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
-                        <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
-
-                        <h3>Can I use this for multiple characters?</h3>
-                        <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
-
-                        <h3>How does the checklist status get saved?</h3>
-                        <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-
-                        <h3>DISCLAIMER</h3>
-                        <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
-                        <p>We will do our best to ensure that such issues remain few and far between.</p>
+              <div class="row gy-3">
+                <div class="col-md-8 col-12">
+                  <div class="row row-cols-1 row-cols-md-2 gy-3">
+                    <div class="col">
+                      <div class="card shadow h-100">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Welcome to the Roundtable Hold</h5>
+                          <p class="card-text">The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.</p>
                         </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow h-100">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">I have feedback, how can I contribute?</h5>
+                          <p class="card-text">Contributing is easy! And does not require you to know how to code. You can find instructions on the
+                            <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github repository</a> You can also simply 
+                            <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow h-100">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Can I use this for multiple characters?</h5>
+                          <p class="card-text">Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow h-100">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">How does the checklist status get saved?</h5>
+                          <p class="card-text">The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow h-100">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Our other resources</h5>
+                          <p class="card-text">Join the Roundtable Hold 
+                            <a href="https://discord.gg/FBBtZnESrb">Discord community</a>
+                          </p>
+                          <p class="card-text">More guides are over on 
+                            <a href="https://www.reddit.com/r/Roundtable_Guides/">/r/Roundtable_Guides</a>
+                          </p>
+                          <p class="card-text">Video guides on the 
+                            <a href="https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA">YouTube channel</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Progress</h5>
+                      <ul class="nav flex-column text-muted toc" id="progress_list">
+                        <hr>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/walkthrough.html">Walkthrough
+                            <span class="d-print-none" id="walkthrough.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/tl;dr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order
+                            <span class="d-print-none" id="tl;dr_all_npc_quest_stepsin_order.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/npc_questlines.html">NPC Questlines
+                            <span class="d-print-none" id="npc_questlines.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/achievements.html">Achievements
+                            <span class="d-print-none" id="achievements.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/legendaries.html">Legendaries
+                            <span class="d-print-none" id="legendaries.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <hr>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/bosses.html">Bosses
+                            <span class="d-print-none" id="bosses.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/legacy_dungeons.html">Legacy Dungeons
+                            <span class="d-print-none" id="legacy_dungeons.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/caves,_catacombs,and_tunnels.html">Caves, Catacombs, and Tunnels
+                            <span class="d-print-none" id="caves,_catacombs,and_tunnels.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/evergaols.html">Evergaols
+                            <span class="d-print-none" id="evergaols.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/illusory_walls&amp;_invisible_paths.html">Illusory Walls &amp; Invisible Paths
+                            <span class="d-print-none" id="illusory_walls&amp;_invisible_paths.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <hr>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/weapons.html">Weapons
+                            <span class="d-print-none" id="weapons.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/armor.html">Armor
+                            <span class="d-print-none" id="armor.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/talismans.html">Talismans
+                            <span class="d-print-none" id="talismans.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/incantations.html">Incantations
+                            <span class="d-print-none" id="incantations.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/sorceries.html">Sorceries
+                            <span class="d-print-none" id="sorceries.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/ashesof_war.html">Ashes of War
+                            <span class="d-print-none" id="ashesof_war.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/spirit_ashes.html">Spirit Ashes
+                            <span class="d-print-none" id="spirit_ashes.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <hr>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/golden_seeds&amp;_sacred_tears.html">Golden Seeds &amp; Sacred Tears
+                            <span class="d-print-none" id="golden_seeds&amp;_sacred_tears.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick
+                            <span class="d-print-none" id="flaskof_wondrous_physick.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/memory_stones&amp;_talisman_pouches.html">Memory Stones &amp; Talisman Pouches
+                            <span class="d-print-none" id="memory_stones&amp;_talisman_pouches.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks
+                            <span class="d-print-none" id="scrollsand_prayerbooks.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/whetstones.html">Whetstones
+                            <span class="d-print-none" id="whetstones.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/bell_bearings.html">Bell Bearings
+                            <span class="d-print-none" id="bell_bearings.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/cookbooks.html">Cookbooks
+                            <span class="d-print-none" id="cookbooks.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones
+                            <span class="d-print-none" id="ancient_dragon_smithing_stones.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <hr>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/remembrances&amp;_mausoleums.html">Remembrances &amp; Mausoleums
+                            <span class="d-print-none" id="remembrances&amp;_mausoleums.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/great_runes.html">Great Runes
+                            <span class="d-print-none" id="great_runes.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/dragon_hearts&amp;_deathroots.html">Dragon Hearts &amp; Deathroots
+                            <span class="d-print-none" id="dragon_hearts&amp;_deathroots.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/paintings.html">Paintings
+                            <span class="d-print-none" id="paintings.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/pots&amp;_bottles.html">Pots &amp; Bottles
+                            <span class="d-print-none" id="pots&amp;_bottles.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <li class="tab-li">
+                          <a class="toc_link" href="/checklists/gestures.html">Gestures
+                            <span class="d-print-none" id="gestures.html_progress_total"></span>
+                          </a>
+                        </li>
+                        <hr>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

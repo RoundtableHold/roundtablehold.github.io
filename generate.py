@@ -198,27 +198,51 @@ def make_index():
                                 text = p(cls="lead d-print-none")
                                 text += "Contribute at the "
                                 text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
-                        with div(cls="row"):
-                            raw(
-                        """
-                        <h3>Welcome to the Roundtable Hold</h3>
-                        <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
-                        <p>This site is still a work in-progress. We are working on it every day.</p>
-
-                        <h3>I have feedback, how can I contribute?</h3>
-                        <p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/RoundtableHold/roundtablehold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
-                        <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
-
-                        <h3>Can I use this for multiple characters?</h3>
-                        <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
-
-                        <h3>How does the checklist status get saved?</h3>
-                        <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-
-                        <h3>DISCLAIMER</h3>
-                        <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
-                        <p>We will do our best to ensure that such issues remain few and far between.</p>
-                        """)
+                            with div(cls="row gy-3"):
+                                with div(cls='col-md-8 col-12'):
+                                    with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
+                                        with div(cls="col"):
+                                            with div(cls="card shadow h-100"):
+                                                with div(cls="card-body"):
+                                                    h5('Welcome to the Roundtable Hold', cls='card-title text-center')
+                                                    p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                                        with div(cls="col"):
+                                            with div(cls='card shadow h-100'):
+                                                with div(cls="card-body"):
+                                                    h5('I have feedback, how can I contribute?', cls='card-title text-center')
+                                                    text = p(cls='card-text')
+                                                    text += 'Contributing is easy! And does not require you to know how to code. You can find instructions on the'
+                                                    text += a('Github repository', href='https://github.com/RoundtableHold/roundtablehold.github.io')
+                                                    text += ' You can also simply '
+                                                    text += a('report issues', href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
+                                                    text += " and we'll fix them."
+                                        with div(cls="col"):
+                                            with div(cls="card shadow h-100"):
+                                                with div(cls="card-body"):
+                                                    h5('Can I use this for multiple characters?', cls='card-title text-center')
+                                                    p('Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', cls='card-text')
+                                        with div(cls="col"):
+                                            with div(cls="card shadow h-100"):
+                                                with div(cls="card-body"):
+                                                    h5('How does the checklist status get saved?', cls='card-title text-center')
+                                                    p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
+                                        with div(cls="col"):
+                                            with div(cls="card shadow h-100"):
+                                                with div(cls="card-body"):
+                                                    h5('Our other resources', cls='card-title text-center')
+                                                    p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
+                                                    p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
+                                                    p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
+                                with div(cls="col-md-4 col-12"):
+                                    with div(cls='card shadow'):
+                                        with div(cls="card-body"):
+                                            h5('Progress', cls='card-title text-center')
+                                            with ul(id='progress_list', cls='nav flex-column text-muted toc'):
+                                                hr()
+                                                for name, l in dropdowns:
+                                                    for guide in l:
+                                                        li(cls='tab-li').add(a(guide[0], href="/checklists/" + guide[1], cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                                    hr()
             make_footer()
     with open('index.html', 'w', encoding='utf_8') as index:
         index.write(doc.render())
