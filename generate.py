@@ -99,15 +99,15 @@ with doc:
                 span(cls="navbar-toggler-icon")
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
-                    with li(cls="nav-item"):
+                    with li(cls="nav-item tab-li"):
                         a(href="#tabMain", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
                         with li(cls="dropdown nav-item"):
                             a(name, cls="nav-link dropdown-toggle", href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li().add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab", data_bs_target="#tab" + guide[1]))
-                    with li(cls="nav-item"):
+                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons", href="#tab" + guide[1], data_bs_toggle="tab"))
+                    with li(cls="nav-item tab-li"):
                         a(href="#tabOptions", data_bs_toggle="tab", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
     with div(cls="container"):
         with div(cls="row"):
@@ -227,26 +227,72 @@ with doc:
                                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
                                                             label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
             with div(cls="tab-pane fade", id="tabMain"):
-                raw(
-"""
-<h3>Welcome to the Roundtable Hold</h3>
-<p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
-<p>This site is still a work in-progress. We are working on it every day.</p>
+                with div(cls="row gy-3"):
+                    with div(cls='col-md-8 col-12'):
+                        with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Welcome to the Roundtable Hold', cls='card-title text-center')
+                                        p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                            with div(cls="col"):
+                                with div(cls='card shadow h-100'):
+                                    with div(cls="card-body"):
+                                        h5('I have feedback, how can I contribute?', cls='card-title text-center')
+                                        text = p(cls='card-text')
+                                        text += 'Contributing is easy! And does not require you to know how to code. You can find instructions on the'
+                                        text += a('Github repository', href='https://github.com/RoundtableHold/roundtablehold.github.io')
+                                        text += ' You can also simply '
+                                        text += a('report issues', href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
+                                        text += " and we'll fix them."
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Can I use this for multiple characters?', cls='card-title text-center')
+                                        p('Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', cls='card-text')
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('How does the checklist status get saved?', cls='card-title text-center')
+                                        p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Our other resources', cls='card-title text-center')
+                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
+                                        p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
+                                        p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
+                    with div(cls="col-md-4 col-12"):
+                        with div(cls='card shadow'):
+                            with div(cls="card-body"):
+                                h5('Progress', cls='card-title text-center')
+                                with ul(id='progress_list', cls='nav flex-column text-muted toc'):
+                                    hr()
+                                    for name, l in dropdowns:
+                                        for guide in l:
+                                            li(cls='tab-li').add(a(guide[0], href="#tab" + guide[1], data_bs_toggle="tab", cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                        hr()
 
-<h3>I have feedback, how can I contribute?</h3>
-<p>Contributing is easy! And does not require you to know how to code. You can find instructions on the <a href="https://github.com/RoundtableHold/roundtablehold.github.io">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
-<p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
+#                 raw(
+# """
+# <h3>Welcome to the Roundtable Hold</h3>
+# <p>The comprehensive tracker for Elden Ring, made by completionists, for completionists.</p>
+# <p>This site is still a work in-progress. We are working on it every day.</p>
 
-<h3>Can I use this for multiple characters?</h3>
-<p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
+# <h3>I have feedback, how can I contribute?</h3>
+# <p> <a href="">GitHub repository</a>. You can also simply <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.</p>
+# <p>Or you can join the <a href="https://discord.gg/pkg6ZTXR">development discord</a>, and ask us there.</p>
 
-<h3>How does the checklist status get saved?</h3>
-<p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
+# <h3>Can I use this for multiple characters?</h3>
+# <p>Yup, use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
 
-<h3>DISCLAIMER</h3>
-<p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
-<p>We will do our best to ensure that such issues remain few and far between.</p>
-""")
+# <h3>How does the checklist status get saved?</h3>
+# <p>The checklist is saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
+
+# <h3>DISCLAIMER</h3>
+# <p>This tracker is still a work in progress, and as such, we apologize for any issues that might come about as we update the checklist and iron out bugs.</p>
+# <p>We will do our best to ensure that such issues remain few and far between.</p>
+# """)
             with div(cls="tab-pane fade gap-3", id="tabOptions"):
                 h2("Options")
                 with div(cls="row"):

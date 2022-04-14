@@ -96,11 +96,19 @@ var profilesKey = 'darksouls3_profiles';
         }
 
         if (checklist_totals[overall_total.id][0] === checklist_totals[overall_total.id][1]) {
-            overall_total.innerHTML = 'DONE';
+            overall_total.html('DONE');
             $(overall_total).removeClass('in_progress').addClass('done');
+
+            var progress_total = $('#' + type + '_progress_total');
+            progress_total.innerHTML = 'DONE';
+            progress_total.removeClass('in_progress').addClass('done')
         } else {
             overall_total.innerHTML = checklist_totals[overall_total.id][0] + '/' + checklist_totals[overall_total.id][1];
             $(overall_total).removeClass('done').addClass('in_progress');
+
+            var progress_total = $('#' + type + '_progress_total');
+            progress_total.html(checklist_totals[overall_total.id][0] + '/' + checklist_totals[overall_total.id][1]);
+            progress_total.removeClass('done').addClass('in_progress')
         }
         $.jStorage.set(profilesKey, profiles);
     };
@@ -502,9 +510,17 @@ var profilesKey = 'darksouls3_profiles';
             if (overallChecked === overallCount) {
                 this.innerHTML = 'DONE';
                 $(this).removeClass('in_progress').addClass('done');
+
+                var progress_total = $('#' + type + '_progress_total');
+                progress_total.innerHTML = 'DONE';
+                progress_total.removeClass('in_progress').addClass('done')
             } else {
                 this.innerHTML = overallChecked + '/' + overallCount;
                 $(this).removeClass('done').addClass('in_progress');
+            
+                var progress_total = $('#' + type + '_progress_total');
+                progress_total.html(overallChecked + '/' + overallCount);
+                progress_total.removeClass('done').addClass('in_progress')
             }
         // Update textarea for profile export
         document.getElementById("profileText").value = JSON.stringify(profiles);
@@ -594,22 +610,28 @@ var profilesKey = 'darksouls3_profiles';
             $.jStorage.set(profilesKey, profiles);
         });
 
-        $('.nav.navbar-nav li a').on('click', function(event) {
+        $('.nav.navbar-nav li a,#progress_list li a').on('click', function(event) {
             if ($(event.currentTarget).hasClass('dropdown-toggle')) {
                 return;
             }
-            profiles[profilesKey][profiles.current].current_tab = $(this).attr('href');
             
-            window.scrollTo(0,0);
+            var href = $(this).attr('href');
 
+            profiles[profilesKey][profiles.current].current_tab = href;
+            window.scrollTo(0,0);
             $.jStorage.set(profilesKey, profiles);
 
             $('#nav-collapse').collapse('hide');
+
+            $('.tab-li a').removeClass('active');
+            $('.tab-li a[href="' + href + '"]').addClass('active');
+            $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
         });
+
      });
 
 
 })( jQuery );
 
 // to color the plus symbol in combined item pickups
-$(".p").html('<a style="pointer-events:none">&nbsp;+ </a>');
+// $(".p").html('<a style="pointer-events:none">&nbsp;+ </a>');
