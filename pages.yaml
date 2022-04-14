@@ -184,8 +184,8 @@ item_links:
   - link_all: [bosses_4_11, caves_2_1, sorceries_4_22, sorceries_4_23] #CRYSTALIAN SPEAR & STAFF/ACADEMY CRYSTAL CAVE/CRYSTAL RELEASE SORCERY/TERRA MAGICA SORCERY (TAKE LIFT FOR CHEST)
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
   - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
-  #- link_all: [bosses_4_13, bell_bearings_?] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
-  #- link_all: [bosses_4_14, bell_bearings_?] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_4_13, bell_bearings_#_#]] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_4_14, bell_bearings_#_#]] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_4_15, crystal_tears_2_4, crystal_tears_2_5, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR/HOLY-SHROUDING CRACKED TEAR/MAGIC-SHROUDING CRACKED TEAR
   - source: caves_2_2
     target: [bosses_4_16] #BLACK KNIFE CATACOMBS/CEMETERY SHADE
@@ -229,7 +229,7 @@ item_links:
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
   - link_all: [bosses_5_17, sorceries_8_4] #PUTRID CRYSTALIAN (SPEAR & RINGBLADE & STAFF)/CRYSTAL TORRENT SORCERY
   - link_all: [bosses_5_18, armor_168, armor_169, armor_170, armor_171] #GODSKIN APOSTLE/GODSKIN APOSTLE SET (HOOD, ROBE, BRACERS, TROUSERS)
-  #- link_all: [bosses_5_19, _] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_5_19, bell_bearings_#_#]] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_5_20, crystal_tears_3_3, crystal_tears_3_4] #PUTRID AVATAR (EAST)/OPALINE HARDTEAR/STONEBARB CRACKED TEAR
   - link_all: [bosses_5_21, caves_3_7, talismans_5_7] #BEASTMAN OF FARUM AZULA (GREATSWORD & THROWING KNIFE)/DRAGONBARROW CAVE/FLAMEDRAKE TALISMAN [+2]
   - link_all: [bosses_5_22, ashesofwar_6_2] #NIGHT'S CAVALRY (LENNE'S RISE BRIDGE)/AOW: BLOODHOUND'S STEP
@@ -238,6 +238,31 @@ item_links:
   - link_all: [bosses_5_26, legacy_1_7, weapons_5_9] #MISBEGOTTEN WARRIOR & CRUCIBLE KNIGHT/REDMAN CASTLE/RUINS GREATSWORD
   - link_all: [bosses_5_27, great_runes_1_3, remembrances_mausoleums_1_3] #RADAHN/RADAHN'S GREAT RUNE/REMEMBRANCE OF THE STARSCOURGE
   - link_all: [bosses_5_29, caves_3_8, flasks_1_17, spirit_ashes_4_8] #PUTRID TREE SPIRIT/WAR-DEAD CATACOMBS/GOLDEN SEED/REDMANE KNIGHT OGHA SPIRIT ASHES
+  - link_all: [bosses_6_1, evergaols_4_1, talismans_6_5] #GODEFEROY/GOLDEN LINEAGE EVERGAOL/GODFREY ICON TALISMAN
+  - source: caves_5_2
+    target: [bosses_7_4] #SAGE'S CAVE/NECROMANCER GARRIS
+  - source_and: [bosses_7_4, bosses_6_17]
+    target: caves_5_2 #NECROMANCER GARRIS & BLACK KNIFE ASSASSIN/SAGE'S CAVE
+  - link_all: [bosses_7_4, weapons_21_4] #NECROMANCER GARRIS/FAMILY HEADS FLAIL
+  - link_all: [bosses_6_17, talismans_6_10] #BLACK KNIFE ASSASSIN (SAGE'S CAVE)/CONCEILING VEIL TALISMAN
+  - link_all: [bosses_7_6, caves_4_1, weapons_22_2] #STONEDIGGER TROLL/OLD ALTUS TUNNEL/GREAT CLUB
+  - link_all: [bosses_6_2, ashesofwar_12_10] #NIGHT'S CAVALRY/AOW: SHARED ORDER
+  - link_all: [bosses_6_3, talismans_6_3] #DEMI-HUMAN QUEEN GILIKA/RITUAL SWORD TALISMAN (CHEST IN NEXT ROOM)
+  - link_all: [bosses_6_4, crystal_tears_4_1, weapons_18_6] #ELEONORA/PURIFYING CRYSTAL TEAR/ELEONORA'S POLEBLADE
+  - link_all: [bosses_6_5, talismans_7_8] #RILEIGH THE IDLE/CREPUS'S VIAL TALISMAN (VOLCANO MANOR QUESTLINE)
+  - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
+  - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
+  - link_all: [bosses_6_9, caves_4_2, bell_bearings_#_#]] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - source: caves_4_4
+    target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
+  - source_and: [bosses_6_10, bosses_6_11]
+    target: caves_4_4 #ANCIENT HERO OF ZAMOR & BLACK KNIFE ASSASSIN/SAINTED HERO'S GRAVE
+  - link_all: [bosses_6_10, weapons_3_2] #BLACK KNIFE ASSASSIN/BLACK KNIFE DAGGER
+  - link_all: [bosses_6_11, spirit_ashes_7_1] #ANCIENT HERO OF ZAMOR/ANCIENT DRAGON KNIGHT KRISTOFF ASHES
+  - link_all: [bosses_6_12, caves_4_3] #OMENKILLER & MIRANDA/PERFUMER'S GROTTO/GREAT OMENKILLER CLEAVER
+  - link_all: [bosses_6_14, incantations_4_8] #ANCIENT DRAGON LANSSEAX/LANSSEAX'S GLAIVE INCANTATION
+  - link_all: [bosses_6_15, weapons_34_6] #TREE SENTINEL (X2)/ERDTREE GREATSHIELD
+  #- link_all: [bosses_6_16, bell_bearings_#_#]] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [armor_22, armor_26] # Links Page Trousers
   - link_all: [armor_66, armor_70] # Links Sorcerer Manchettes
   - link_all: [armor_67, armor_71] # Links Sorcerer Leggings
@@ -253,7 +278,6 @@ item_links:
   - link_all: [armor_541, armor_546] # Crucible Greaves
 
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
-  - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] # Links Godskin Apostle with Godskin Peeler/Scouring Black Flames
   - link_all: [bosses_14_3, weapons_18_4, weapons_14_9] # Links Valiant Gargoyle & Valiant Gargoyle (Twinblades) with Gargoyle's Twinblade and Gargoyle's Greatsword
   - link_all: [bosses_9_2, weapons_18_5, weapons_19_9] # Links Black Blade Kindred with Gargoyle's Black Axe and Gargoyle's Black Blades
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
