@@ -796,6 +796,106 @@
       $("#bosses_5_29,#caves_3_8,#flasks_1_17,#spirit_ashes_4_8").prop("checked", checked);
       $("#bosses_5_29,#caves_3_8,#flasks_1_17,#spirit_ashes_4_8").each(function(idx, el) {window.onCheckbox(el)});
     });
+    $("#bosses_6_1,#evergaols_4_1,#talismans_6_5").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_1,#evergaols_4_1,#talismans_6_5").prop("checked", checked);
+      $("#bosses_6_1,#evergaols_4_1,#talismans_6_5").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#caves_5_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_7_4").prop("checked", checked);
+      $("#bosses_7_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_7_4,#bosses_6_17").click(function () {
+      var checked = ($("#bosses_7_4,#bosses_6_17").not(":checked").length === 0);
+      $("#caves_5_2").prop("checked", checked);
+      $("#caves_5_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_7_4,#weapons_21_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_7_4,#weapons_21_4").prop("checked", checked);
+      $("#bosses_7_4,#weapons_21_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_17,#talismans_6_10").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_17,#talismans_6_10").prop("checked", checked);
+      $("#bosses_6_17,#talismans_6_10").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_7_6,#caves_4_1,#weapons_22_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_7_6,#caves_4_1,#weapons_22_2").prop("checked", checked);
+      $("#bosses_7_6,#caves_4_1,#weapons_22_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_2,#ashesofwar_12_10").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_2,#ashesofwar_12_10").prop("checked", checked);
+      $("#bosses_6_2,#ashesofwar_12_10").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_3,#talismans_6_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_3,#talismans_6_3").prop("checked", checked);
+      $("#bosses_6_3,#talismans_6_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_4,#crystal_tears_4_1,#weapons_18_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_4,#crystal_tears_4_1,#weapons_18_6").prop("checked", checked);
+      $("#bosses_6_4,#crystal_tears_4_1,#weapons_18_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_5,#talismans_7_8").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_5,#talismans_7_8").prop("checked", checked);
+      $("#bosses_6_5,#talismans_7_8").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_7,#crystal_tears_4_2,#crystal_tears_4_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_7,#crystal_tears_4_2,#crystal_tears_4_3").prop("checked", checked);
+      $("#bosses_6_7,#crystal_tears_4_2,#crystal_tears_4_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_8,#weapons_18_3,#incantations_9_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_8,#weapons_18_3,#incantations_9_6").prop("checked", checked);
+      $("#bosses_6_8,#weapons_18_3,#incantations_9_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_9,#caves_4_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_9,#caves_4_2").prop("checked", checked);
+      $("#bosses_6_9,#caves_4_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#caves_4_4").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_11").prop("checked", checked);
+      $("#bosses_6_11").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_10,#bosses_6_11").click(function () {
+      var checked = ($("#bosses_6_10,#bosses_6_11").not(":checked").length === 0);
+      $("#caves_4_4").prop("checked", checked);
+      $("#caves_4_4").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_10,#weapons_3_2").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_10,#weapons_3_2").prop("checked", checked);
+      $("#bosses_6_10,#weapons_3_2").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_11,#spirit_ashes_7_1").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_11,#spirit_ashes_7_1").prop("checked", checked);
+      $("#bosses_6_11,#spirit_ashes_7_1").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_12,#caves_4_3").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_12,#caves_4_3").prop("checked", checked);
+      $("#bosses_6_12,#caves_4_3").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_14,#incantations_4_8").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_14,#incantations_4_8").prop("checked", checked);
+      $("#bosses_6_14,#incantations_4_8").each(function(idx, el) {window.onCheckbox(el)});
+    });
+    $("#bosses_6_15,#weapons_34_6").click(function () {
+      var checked = $(this).prop("checked");
+      $("#bosses_6_15,#weapons_34_6").prop("checked", checked);
+      $("#bosses_6_15,#weapons_34_6").each(function(idx, el) {window.onCheckbox(el)});
+    });
     $("#armor_22,#armor_26").click(function () {
       var checked = $(this).prop("checked");
       $("#armor_22,#armor_26").prop("checked", checked);
@@ -860,11 +960,6 @@
       var checked = $(this).prop("checked");
       $("#armor_541,#armor_546").prop("checked", checked);
       $("#armor_541,#armor_546").each(function(idx, el) {window.onCheckbox(el)});
-    });
-    $("#bosses_6_8,#weapons_18_3,#incantations_9_6").click(function () {
-      var checked = $(this).prop("checked");
-      $("#bosses_6_8,#weapons_18_3,#incantations_9_6").prop("checked", checked);
-      $("#bosses_6_8,#weapons_18_3,#incantations_9_6").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#bosses_14_3,#weapons_18_4,#weapons_14_9").click(function () {
       var checked = $(this).prop("checked");
