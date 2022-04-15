@@ -162,28 +162,26 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["7_1", "Ancient Dragon Lansseax (Part 1)", "Abandoned Coffin (Northwest)", "0 runes", "Part 2 of this encounter takes place in Altus Plateau. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."] #TODO: ADD RUNES, DROPS
-      - ["7_2", "MisbegottenMisbegotten Warrior & Perfumer Tricia", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
-      - ["7_3", "Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_2", "Perfumer Tricia & Misbegotten Warrior", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_3", "Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons Sorcery", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_5", "Erdtree Burial Watchdog", "Wyndham Catacombs", "12,000 runes, Glovewort Picker's Bell Bearing [1]", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_7", "Maleigh Marais, Shaded Castle Castellan", "The Shaded Castle (West)", "4800 runes, Antspur Rapier, Marais Mask, Marais Robe", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_8", "Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword, Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy: Elemer of the Briar."]
-      - ["7_9", "Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Furlcalling Finger Remedy, Crepus's Vial Talisman, Black-Key Bolt x20", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_10", "Grafted Scion", "Mt. Gelmir (North)", "2313 runes", "Field boss."]
-      - ["7_11", "Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon", "Field boss."]
+      - ["7_11", "Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon Balista", "Field boss."]
       - ["7_12", "Ulcerated Tree Spirit", "Minor Erdtree", "18,000 runes, Leaden Hardtear, Cerulean Hidden Tear", "Field boss."]
       - ["7_13", "Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
       - ["7_14", "Red Wolf of the Champion", "Gelmir Hero's Grave", "21,000 runes, Bloodhound Knight Floh Ashes", ""]
-      - ["7_15", "Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Somber Smithing Stone, Smithing Stone [6] (x5), Fallingstar Beast Jaw", "Field boss."]
-      - ["7_16", "Wormface", "Road of Iniquity", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
-      - ["7_17", "Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier, Thorned Whip (Chance to drop Fire Prelate Set)", "Field boss."]
+      - ["7_15", "Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Fallingstar Beast Jaw Colossal Weapon, Somber Smithing Stone, Smithing Stone [6] (x5)", "Field boss."]
+      - ["7_17", "Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier Colossal Weapon, Thorned Whip", "Field boss. Chance to drop Fire Prelate Set."]
       - ["7_18", "Magma Wyrm", "Fort Laiedd (South)", "19,000 runes, Dragon Heart, Unlocks Magma Breath (Dragon Communion Incantation)", ""]
       - ["7_19", "Demi-Human Queen Maggie", "Hermit Village", "13,000 runes, Memory Stone, Golden Rune [1]", ""]
-      - ["7_27", "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Furlcalling Finger Remedy, Butchering Knife", "NPC. 2nd invasion."] #TODO: ADD RUNES
-      - ["7_28", "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver", ""] #TODO: ADD RUNES
-      - ["7_20", "Abductor Virgins (x2)", "Volcano Manor/Subterranean Inquistion Chamber", "10,000 runes, Inquisitor's Girandole", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin's grab attack."]
-      - ["7_21", "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Furlcalling Finger Remedy, Ghiza's Wheel", ""]
+      - ["7_27", "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Butchering Knife Greataxe, Furlcalling Finger Remedy", "NPC. 2nd invasion."] #TODO: ADD RUNES
+      - ["7_28", "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver Greataxe", ""] #TODO: ADD RUNES
+      - ["7_20", "Abductor Virgins (x2)", "Volcano Manor/Subterranean Inquistion Chamber", "10,000 runes, Inquisitor's Girandole Spear", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin's grab attack."]
+      - ["7_21", "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Ghiza's Wheel Colossal Weapon, Furlcalling Finger Remedy, ""]
       - ["7_22", "Magma Wyrm", "Volcano Manor", "Dragon Heart", ""] #TODO: ADD RUNES
-      - ["7_23", "Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher", "Grants Achievement/Trophy: Godskin Noble."]
+      - ["7_23", "Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher Heavy Thrusting Sword", "Grants Achievement/Trophy: Godskin Noble."]
       - ["7_25", "God-Devouring Serpent", "Volcano Manor", "130,000 runes", "Required to get to Rykard, Lord of Blasphemy."]
       - ["7_26", "Rykard, Lord of Blasphemy", "Volcano Manor", "100,000, Rykard's Great Rune, Remembrance of the Blasphemous", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Rykard."]
       - ["7_24", "Tanith's Knight", "Volcano Manor/Rykard's boss area", "Aspect of the Crucible: Breath", "Kill Tanith as she sits eating Rykard's Corpse, and her Knight will invade you."] #TODO: ADD RUNES
