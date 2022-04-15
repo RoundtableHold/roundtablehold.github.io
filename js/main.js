@@ -329,9 +329,9 @@ if ('serviceWorker' in navigator) {
                 var jsonProfileData = JSON.parse(document.getElementById("profileText").value);
                 profiles = jsonProfileData;
                 $.jStorage.set(profilesKey, profiles);
-                populateProfiles();
-                populateChecklists();
-                $('#profiles').trigger("change");
+                // populateProfiles();
+                // populateChecklists();
+                // $('#profiles').trigger("change");
                 location.reload();
             } catch(e) {
                 alert(e); // error in the above string (in this case, yes)!
