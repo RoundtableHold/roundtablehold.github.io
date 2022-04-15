@@ -184,7 +184,7 @@ item_links:
   - link_all: [bosses_4_11, caves_2_1, sorceries_4_22, sorceries_4_23] #CRYSTALIAN SPEAR & STAFF/ACADEMY CRYSTAL CAVE/CRYSTAL RELEASE SORCERY/TERRA MAGICA SORCERY (TAKE LIFT FOR CHEST)
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
   - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
-  #- link_all: [bosses_4_13, bell_bearings_#_#]] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_4_13, bell_bearings_1_1] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1]
   #- link_all: [bosses_4_14, bell_bearings_#_#]] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_4_15, crystal_tears_2_4, crystal_tears_2_5, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR/HOLY-SHROUDING CRACKED TEAR/MAGIC-SHROUDING CRACKED TEAR
   - source: caves_2_2
@@ -223,7 +223,7 @@ item_links:
   - link_all: [bosses_5_28, caves_3_2, spirit_ashes_4_3] #CEMETERY SHADE/CAELID CATACOMBS/KINDRED OF ROT ASHES
   - link_all: [bosses_5_10, weapons_25_16] #COMMANDER O'NEIL/COMMANDER'S STANDARD HALBERD
   - link_all: [bosses_5_12, weapons_9_15] #NOX (PRIEST & SWORDSTRESS)/NOX FLOWING SWORD
-  - link_all: [bosses_5_13, caves_3_6] #FALLINGSTAR BEAST/SELLIA CRYSTAL TUNNEL/SOMBERSTONE MINER'S BELL BEARING [1] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_5_13, caves_3_6, bell_bearings_2_1] #FALLINGSTAR BEAST/SELLIA CRYSTAL TUNNEL/SOMBERSTONE MINER'S BELL BEARING [1]
   - link_all: [bosses_5_14, caves_3_1, talismans_5_2] #CLEANROT KNIGHT (SICKLE & SPEAR)/ABANDONED CAVE/GOLD SCARAB TALISMAN
   - link_all: [bosses_5_15, evergaols_3_1, spirit_ashes_4_1] #BATTLEMAGE HUGUES/SELLIA EVERGAOL/BATTLEMAGE HUGUES ASHES
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
@@ -252,7 +252,7 @@ item_links:
   - link_all: [bosses_6_5, talismans_7_8] #RILEIGH THE IDLE/CREPUS'S VIAL TALISMAN (VOLCANO MANOR QUESTLINE)
   - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
   - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
-  - link_all: [bosses_6_9, caves_4_2] #, bell_bearings_#_#] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_6_9, caves_4_2] #, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - source: caves_4_4
     target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
   - source_and: [bosses_6_10, bosses_6_11]
@@ -262,7 +262,41 @@ item_links:
   - link_all: [bosses_6_12, caves_4_3] #OMENKILLER & MIRANDA/PERFUMER'S GROTTO/GREAT OMENKILLER CLEAVER
   - link_all: [bosses_6_14, incantations_4_8] #ANCIENT DRAGON LANSSEAX/LANSSEAX'S GLAIVE INCANTATION
   - link_all: [bosses_6_15, weapons_34_6] #TREE SENTINEL (X2)/ERDTREE GREATSHIELD
-  #- link_all: [bosses_6_16, bell_bearings_#_#]] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_6_16, bell_bearings_#_#] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_7_2, caves_5_4, spirit_ashes_6_4] #PERFUMER TRICIA & MISBEGOTTEN WARRIOR/UNSIGHTLY CATACOMBS/PERFUMER TRICIA ASHES
+  - link_all: [bosses_7_3, dragon_hearts_death_roots_1_5, sorceries_9_2] #TIBIA MARINER/DEATHROOT/TIBIA'S SUMMONS SORCERY
+  - link_all: [bosses_7_5, caves_5_6, bell_bearings_3_1] #ERDTREE BURIAL WATCHDOG/WYNDHAM CATACOMBS/GLOVEWORT PICKER'S BELL BEARING [1]
+  - link_all: [bosses_7_7, weapons_15_6, armor_160, armor_161] #MALEIGH MARAIS/ANTSPUR RAPIER/MARAIS MASK/MARAIS ROBE
+  - link_all: [bosses_7_8, legacy_1_8, weapons_14_13, weapons_34_5] #ELEMER OF THE BRIAR/THE SHADED CASTLE/MARAIS EXECUTIONER'S SWORD/BRIAR GREATSHIELD
+  - link_all: [bosses_7_11, caves_5_5, weapons_2_2] #DEMI-HUMAN QUEEN MARGOT/VOLCANO CAVE/JAR CANNON BALISTA
+  - link_all: [bosses_7_12, crystal_tears_5_1, crystal_tears_5_2] #ULCERATED TREE SPIRIT/LEADEN HARDTEAR/CERULEAN HIDDEN TEAR
+  - link_all: [bosses_7_13, caves_5_3, talismans_7_5] #KINDRED OF ROT (X2)/SEETHEWATER CAVE/KINDRED OF ROT'S EXULTATION TALISMAN
+  - link_all: [bosses_7_14, caves_5_1, spirit_ashes_6_1] #RED WOLF OF THE CHAMPION/GELMIR HERO'S GRAVE/BLOODHOUND KNIGHT FLOH ASHES
+  - link_all: [bosses_7_15, weapons_6_9] #FULL-GROWN FALLINGSTAR BEAST/FALLINGSTAR BEAST JAW COLOSSAL WEAPON
+  - link_all: [bosses_7_17, weapons_6_1, weapons_27_2] #FIRE PRELATE/PRELATE'S INFERNO CROZIER COLOSSAL WEAPON/THORNED WHIP
+  - link_all: [bosses_7_18, dragon_hearts_death_roots_0_11] #MAGMA WYRM (FORT LAIEDD)/DRAGON HEART
+  - link_all: [bosses_7_19, memory_stones_talisman_pouches_0_8] #DEMI-HUMAN QUEEN MAGGIE/MEMORY STONE
+  - link_all: [bosses_7_27, weapons_19_7] #ANASTASIA/BUTCHERING KNIFE GREATAXE
+  - link_all: [bosses_7_28, weapons_19_5] #OMENKILLER/GREAT OMENKILLER CLEAVER GREATAXE
+  - link_all: [bosses_7_20, weapons_23_11] #ABDUCTOR VIRGINS (X2)/INQUISITOR'S GIRANDOLE SPEAR
+  - link_all: [bosses_7_21, weapons_6_10] #INQUISITOR GHIZA/GHIZA'S WHEEL COLOSSAL WEAPON
+  - link_all: [bosses_7_22, dragon_hearts_death_roots_0_10] #MAGMA WYRM (VOLCANO MANOR)/DRAGON HEART
+  - link_all: [bosses_7_23, weapons_16_2] #GODSKIN NOBLE/GODSKIN STITCHER HEAVY THRUSTING SWORD
+  - link_all: [bosses_7_26, legacy_1_9, great_runes_1_5, remembrances_mausoleums_1_8] #RYKARD/VOLCANO MANOR/RYKARD'S GREAT RUNE/REMEMBRANCE OF THE BLASPHEMOUS
+  - link_all: [bosses_8_1, flasks_1_28] #ULCERATED TREE SPIRIT (CAPITAL OUTSKIRTS)/GOLDEN SEED
+  - link_all: [bosses_8_4, weapons_33_10] #DEATHBIRD/TWINBIRD KITE SHIELD
+  - link_all: [bosses_8_5, caves_6_1, weapons_8_1] #ONYX LORD/SEALED TUNNEL/ONYX LORD'S GREATSWORD
+  - link_all: [bosses_8_6, weapons_14_12] #DUNG EATER/OMEN SET/SWORD OF MILOS
+  - link_all: [bosses_8_7, weapons_6_7, weapons_34_4] #DRACONIC TREE SENTINEL/DRAGON GREATCLAW COLOSSAL WEAPON/DRAGONCLAW SHIELD
+  - link_all: [bosses_8_8, spirit_ashes_7_4] #GRAVE WARDEN DUELIST/AUZIRA SIDE TOMB/SOLDJARS OF FORTUNE ASHES #TODO: CONFIRM IF AUZIRA SIDE TOMB SHOULD BE ADDED TO CAVES/CATACOMBS
+  - link_all: [bosses_8_9, caves_6_2, weapons_14_14, armor_537, armor_538, armor_540, armor_541] #CRUCIBLE KNIGHT ORDOVIS & CRUCIBLE KNIGHT/AURIZA'S HERO GRAVE/ORDOVIS'S GREATSWORD/CRUCIBLE AXE SET (HELM, ARMOR, GAUNTLETS, GREAVES)
+  - link_all: [bosses_8_11, flasks_1_28, bell_bearings_3_2] #ULCERATED TREE SPIRIT (LOWER CAPITAL CHURCH)/GOLDEN SEEN/GLOVEWORT PICKER'S BELL BEARING [2]
+  - link_all: [bosses_8_13, armor_445, armor_446, armor_448, armor_449] #VAGRAM & WILHELM/FORTIFIED MANOR/RAGING WOLF SET (HELM, ARMOR, GAUNTLETS, GREAVES) #TODO: CONFIRM IF FORTIFIED MANOR SHOULD BE ADDED TO CAVES/CATACOMBS
+  #- link_all: [bosses_8_14, _] #BLACK KNIFE ASSASSIN/ #TODO ADD DROPS
+  - link_all: [bosses_8_15, spirit_ashes_7_3] #FELL TWINS (X2)/OMENKILLER ROLLO ASHES
+  - link_all: [bosses_8_16, legacy_1_11, incantations_2_3] #MOHG THE OMEN/SUB SHUNNING GROUNDS/BLOODFLAME TALONS INCANTATION
+  - link_all: [bosses_8_17, memory_stones_talisman_pouches_1_4,] #GODFREY FIRST ELDEN LORD (GOLDEN SHADE)/TALISMAN POUCH
+  - link_all: [bosses_8_18, legacy_1_10, great_runes_1_4, remembrances_mausoleums_1_10] #MORGOTT THE OMEN KING/LEYNDELL ROYAL CAPITAL/MORGOTT'S GREAT RUNE, REMEMBRANCE OF THE OMEN KING
   - link_all: [armor_22, armor_26] # Links Page Trousers
   - link_all: [armor_66, armor_70] # Links Sorcerer Manchettes
   - link_all: [armor_67, armor_71] # Links Sorcerer Leggings
