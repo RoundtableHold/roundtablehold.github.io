@@ -486,10 +486,10 @@
       $("#bosses_3_2,#weapons_28_6,#armor_482").prop("checked", checked);
       $("#bosses_3_2,#weapons_28_6,#armor_482").each(function(idx, el) {window.onCheckbox(el)});
     });
-    $("#bosses_4_1,#caves_2_8,#talismans_4_10,#weapons_15_4").click(function () {
+    $("#bosses_4_1,#caves_2_8,#talismans_4_10").click(function () {
       var checked = $(this).prop("checked");
-      $("#bosses_4_1,#caves_2_8,#talismans_4_10,#weapons_15_4").prop("checked", checked);
-      $("#bosses_4_1,#caves_2_8,#talismans_4_10,#weapons_15_4").each(function(idx, el) {window.onCheckbox(el)});
+      $("#bosses_4_1,#caves_2_8,#talismans_4_10").prop("checked", checked);
+      $("#bosses_4_1,#caves_2_8,#talismans_4_10").each(function(idx, el) {window.onCheckbox(el)});
     });
     $("#bosses_4_37,#caves_2_4,#talismans_4_6").click(function () {
       var checked = $(this).prop("checked");
