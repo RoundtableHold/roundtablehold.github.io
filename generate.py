@@ -83,9 +83,25 @@ for page in pages:
 with doc.head:
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    link(rel="shortcut icon", type="image/x-icon", href="img/favicon.ico?")
-    link(rel="apple-touch-icon-precomposed", href="img/favicon-152.png")
-    link(rel="mask-icon", href="img/pinned-tab-icon.svg", color="#000000")
+    link(rel="apple-touch-icon", sizes="57x57", href="/img/apple-icon-57x57.png")
+    link(rel="apple-touch-icon", sizes="60x60", href="/img/apple-icon-60x60.png")
+    link(rel="apple-touch-icon", sizes="72x72", href="/img/apple-icon-72x72.png")
+    link(rel="apple-touch-icon", sizes="76x76", href="/img/apple-icon-76x76.png")
+    link(rel="apple-touch-icon", sizes="114x114", href="/img/apple-icon-114x114.png")
+    link(rel="apple-touch-icon", sizes="120x120", href="/img/apple-icon-120x120.png")
+    link(rel="apple-touch-icon", sizes="144x144", href="/img/apple-icon-144x144.png")
+    link(rel="apple-touch-icon", sizes="152x152", href="/img/apple-icon-152x152.png")
+    link(rel="apple-touch-icon", sizes="180x180", href="/img/apple-icon-180x180.png")
+    link(rel="icon", type="image/png", sizes="192x192",  href="/img/android-icon-192x192.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="/img/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="96x96", href="/img/favicon-96x96.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="/img/favicon-16x16.png")
+    link(rel="manifest", href="/img/manifest.json")
+    meta(name="msapplication-TileColor", content="#ffffff")
+    meta(name="msapplication-TileImage", content="/img/ms-icon-144x144.png")
+    meta(name="theme-color", content="#ffffff")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="mobile-web-app-capable", content="yes")
     meta(name="description", content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc.")
     meta(name="author", content="Ben Lambeth")
     meta(name="mobile-web-app-capable", content="yes")
@@ -93,7 +109,7 @@ with doc.head:
     link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
     link(href="css/main.css", rel="stylesheet")
 
-with doc:
+with doc.add(main()):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):

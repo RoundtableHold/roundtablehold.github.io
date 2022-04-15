@@ -1,5 +1,9 @@
 var profilesKey = 'darksouls3_profiles';
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+}
+
 (function($) {
     'use strict';
 
@@ -614,48 +618,46 @@ var profilesKey = 'darksouls3_profiles';
                 $(id).highlight($(this).val());
             });
         }
-
-        // register on click handlers to store state
-        $('a[href$="Col"]').on('click', function(el) {
-            var collapsed_key = $(this).attr('href');
-            var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
-
-            profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
-
-            $.jStorage.set(profilesKey, profiles);
-        });
-
-        $('.nav.navbar-nav li a,#progress_list li a').on('click', function(event) {
-            if ($(event.currentTarget).hasClass('dropdown-toggle')) {
-                return;
-            }
-            
-            var href = $(this).attr('href');
-
-            profiles[profilesKey][profiles.current].current_tab = href;
-            window.scrollTo(0,0);
-            $.jStorage.set(profilesKey, profiles);
-
-            $('#nav-collapse').collapse('hide');
-
-            $('.tab-li a').removeClass('active');
-            $('.tab-li a[href="' + href + '"]').addClass('active');
-            $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
-
-            var id = '#' + href.slice(4) + '_list'
-            jets.destroy();
-            jets = new Jets({
-                searchTag: '#page_search',
-                contentTag: id + ' ul',
-            });
-            $('#page_search').keyup(function() {
-                $(id).unhighlight();
-                $(id).highlight($(this).val());
-            });
-        });
-
      });
 
+    // register on click handlers to store state
+    $('a[href$="Col"]').on('click', function(el) {
+        var collapsed_key = $(this).attr('href');
+        var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
+
+        profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
+
+        $.jStorage.set(profilesKey, profiles);
+    });
+
+    $('.nav.navbar-nav li a,#progress_list li a').on('click', function (event) {
+        if ($(event.currentTarget).hasClass('dropdown-toggle')) {
+            return;
+        }
+
+        var href = $(this).attr('href');
+
+        profiles[profilesKey][profiles.current].current_tab = href;
+        window.scrollTo(0, 0);
+        $.jStorage.set(profilesKey, profiles);
+
+        $('#nav-collapse').collapse('hide');
+
+        $('.tab-li a').removeClass('active');
+        $('.tab-li a[href="' + href + '"]').addClass('active');
+        $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
+
+        var id = '#' + href.slice(4) + '_list'
+        jets.destroy();
+        jets = new Jets({
+            searchTag: '#page_search',
+            contentTag: id + ' ul',
+        });
+        $('#page_search').keyup(function () {
+            $(id).unhighlight();
+            $(id).highlight($(this).val());
+        });
+    });
 
 })( jQuery );
 
