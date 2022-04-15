@@ -55,6 +55,10 @@ h3 {
   margin-left: -24px;
 }
 
+.uncolor-links a {
+  color: inherit;
+}
+
 .toc a:not(:hover) {
   text-decoration: none;
 }

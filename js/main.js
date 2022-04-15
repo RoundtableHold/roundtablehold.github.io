@@ -57,7 +57,7 @@ if ('serviceWorker' in navigator) {
         var match = total_span.id.match(/(.*)_totals_(.*)/);
         var type = match[1];
         var i = parseInt(match[2]);
-        var total_nav = $(total_span).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0)
+        var total_nav = $(total_span).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0)
         var overall_total = $(total_nav).closest('nav').prevAll('h2').find('span[id$="overall_total"]').get(0)
 
         if (wasChecked === false && isChecked === true) {
@@ -495,15 +495,15 @@ if ('serviceWorker' in navigator) {
                     }
                 });
                 checklist_totals[this.id] = [checked, count];
-                checklist_totals[$(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).id] = [checked, count];
+                checklist_totals[$(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).id] = [checked, count];
                 if (checked === count) {
-                    this.innerHTML = $(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
+                    this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
                     $(this).removeClass('bg-info').addClass('bg-success');
                     $(this).parent('h3').addClass('completed');// Hide heading for completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
-                    this.innerHTML = $(this).closest('div').prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
+                    this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
                     $(this).removeClass('bg-success').addClass('bg-info');
                     $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
