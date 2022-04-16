@@ -4,18 +4,31 @@
     <title>Roundtable Hold - Whetstones</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="manifest.webmanifest" rel="manifest">
-    <link href="/img/favicon.ico?" rel="shortcut icon" type="image/x-icon">
-    <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed">
-    <link color="#000000" href="/img/pinned-tab-icon.svg" rel="mask-icon">
-    <meta contents="yes" name="apple-mobile-web-app-capable">
-    <meta contents="yes" name="mobile-web-app-capable">
+    <link href="/img/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/img/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/img/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/img/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/img/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/img/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/img/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/img/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/img/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/img/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/img/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/img/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/img/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/themes/slate/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid p-0 m-0">
@@ -103,192 +116,196 @@
               <input class="form-control my-3" id="whetstones_search" placeholder="Start typing to filter results..." type="search">
             </div>
             <div id="whetstones_list">
-              <h4 class="mt-1" id="whetstones_section_0">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#whetstones_0Col" data-bs-toggle="collapse" href="#whetstones_0Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Whetstones</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="whetstones_totals_0"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show row" id="whetstones_0Col">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-md-block d-none">
-                    <div class="row form-check">
-                      <div class="col-auto">
-                        <input class="form-check-input invisible" type="checkbox">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2">
-                            <strong>Effect</strong>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="whetstones_section_0">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#whetstones_0Col" data-bs-toggle="collapse" href="#whetstones_0Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Whetstones</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="whetstones_totals_0"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show row" id="whetstones_0Col">
+                    <ul class="list-group list-group-flush mb-0">
+                      <li class="list-group-item d-md-block d-none">
+                        <div class="row form-check">
+                          <div class="col-auto">
+                            <input class="form-check-input invisible" type="checkbox">
                           </div>
-                          <div class="col-md-2">
-                            <strong>Location</strong>
-                          </div>
-                          <div class="col-md-8">
-                            <strong>Notes</strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_1">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_1" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Whetstone Knife
-                            </label>
-                          </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Limgrave
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found in a treasure chest underground in the Gatefront Ruins
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2">
+                                <strong>Effect</strong>
+                              </div>
+                              <div class="col-md-2">
+                                <strong>Location</strong>
+                              </div>
+                              <div class="col-md-8">
+                                <strong>Notes</strong>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_2">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_2" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Iron Whetblade
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_1">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_1" type="checkbox" value="">
                           </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Limgrave
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse in a room accessible from the kitchen area. Require's a Stonesword key.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_3">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_3" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Glinstone Whetblade
-                            </label>
-                          </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Liurnia of the Lakes
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse near the debate hall in Raya Lucaria Academy
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Whetstone Knife
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Limgrave
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_1">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found in a treasure chest underground in the Gatefront Ruins
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_4">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_4" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Red-Hot Whetblade
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_2">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_2" type="checkbox" value="">
                           </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Caelid
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_5">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_5" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Black Whetblade
-                            </label>
-                          </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Nokron
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse slumped in front of an altar in Night's Sacred Ground
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Iron Whetblade
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Limgrave
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_2">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse in a room accessible from the kitchen area. Require's a Stonesword key.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="whetstones_0_6">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="whetstones_0_6" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
-                              <strong class="d-md-none d-inline-block me-1">Effect: </strong>Sanctified Whetblade
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_3">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_3" type="checkbox" value="">
                           </div>
-                          <div class="col-md-2 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
-                              <strong class="d-md-none d-inline-block me-1">Location: </strong>Leyndell, Royal Capital
-                            </label>
-                          </div>
-                          <div class="col-md-8 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found in the Fortified Manor, accessible from the Avenue Balcony Grace
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Glinstone Whetblade
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Liurnia of the Lakes
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_3">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse near the debate hall in Raya Lucaria Academy
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_4">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_4" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Red-Hot Whetblade
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Caelid
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_4">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_5">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_5" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Black Whetblade
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Nokron
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_5">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found on a corpse slumped in front of an altar in Night's Sacred Ground
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="whetstones_0_6">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="whetstones_0_6" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
+                                  <strong class="d-md-none d-inline-block me-1">Effect: </strong>Sanctified Whetblade
+                                </label>
+                              </div>
+                              <div class="col-md-2 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
+                                  <strong class="d-md-none d-inline-block me-1">Location: </strong>Leyndell, Royal Capital
+                                </label>
+                              </div>
+                              <div class="col-md-8 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="whetstones_0_6">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Found in the Fortified Manor, accessible from the Avenue Balcony Grace
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

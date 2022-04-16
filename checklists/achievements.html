@@ -4,18 +4,31 @@
     <title>Roundtable Hold - Achievements</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="manifest.webmanifest" rel="manifest">
-    <link href="/img/favicon.ico?" rel="shortcut icon" type="image/x-icon">
-    <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed">
-    <link color="#000000" href="/img/pinned-tab-icon.svg" rel="mask-icon">
-    <meta contents="yes" name="apple-mobile-web-app-capable">
-    <meta contents="yes" name="mobile-web-app-capable">
+    <link href="/img/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/img/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/img/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/img/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/img/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/img/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/img/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/img/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/img/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/img/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/img/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/img/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/img/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/themes/slate/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid p-0 m-0">
@@ -115,1183 +128,1199 @@
               <input class="form-control my-3" id="achievements_search" placeholder="Start typing to filter results..." type="search">
             </div>
             <div id="achievements_list">
-              <h4 class="mt-1" id="achievements_section_0">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_0Col" data-bs-toggle="collapse" href="#achievements_0Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Shardbearers</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_0"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show row" id="achievements_0Col">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-md-block d-none">
-                    <div class="row form-check">
-                      <div class="col-auto">
-                        <input class="form-check-input invisible" type="checkbox">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <strong>Name</strong>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="achievements_section_0">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_0Col" data-bs-toggle="collapse" href="#achievements_0Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Shardbearers</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_0"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show row" id="achievements_0Col">
+                    <ul class="list-group list-group-flush mb-0">
+                      <li class="list-group-item d-md-block d-none">
+                        <div class="row form-check">
+                          <div class="col-auto">
+                            <input class="form-check-input invisible" type="checkbox">
                           </div>
-                          <div class="col-md-4">
-                            <strong>Condition</strong>
-                          </div>
-                          <div class="col-md-5">
-                            <strong>Notes</strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_1">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_1" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Godrick
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Godrick
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <strong>Name</strong>
+                              </div>
+                              <div class="col-md-4">
+                                <strong>Condition</strong>
+                              </div>
+                              <div class="col-md-5">
+                                <strong>Notes</strong>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_2">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_2" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Radahn
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_1">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_1" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Radahn
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_3">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_3" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Morgott
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Morgott
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Godrick
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Godrick
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_4">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_4" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Rykard
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_2">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_2" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Rykard
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_5">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_5" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Mohg
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Mohg
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Radahn
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Radahn
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_1_6">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_1_6" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Malenia
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_3">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_3" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Malenia
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Morgott
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Morgott
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_4">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_4" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Rykard
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Rykard
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_5">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_5" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Mohg
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Mohg
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_1_6">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_1_6" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Shardbearer Malenia
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Shardbearer Malenia
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h4 class="mt-1" id="achievements_section_1">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_1Col" data-bs-toggle="collapse" href="#achievements_1Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Other Bosses</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_1"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show row" id="achievements_1Col">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-md-block d-none">
-                    <div class="row form-check">
-                      <div class="col-auto">
-                        <input class="form-check-input invisible" type="checkbox">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <strong>Name</strong>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="achievements_section_1">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_1Col" data-bs-toggle="collapse" href="#achievements_1Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Other Bosses</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_1"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show row" id="achievements_1Col">
+                    <ul class="list-group list-group-flush mb-0">
+                      <li class="list-group-item d-md-block d-none">
+                        <div class="row form-check">
+                          <div class="col-auto">
+                            <input class="form-check-input invisible" type="checkbox">
                           </div>
-                          <div class="col-md-4">
-                            <strong>Condition</strong>
-                          </div>
-                          <div class="col-md-5">
-                            <strong>Notes</strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_1">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_1" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Margit, the Fell Omen
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Margit, the Fell Omen
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as you progress through Stormveil Castle.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <strong>Name</strong>
+                              </div>
+                              <div class="col-md-4">
+                                <strong>Condition</strong>
+                              </div>
+                              <div class="col-md-5">
+                                <strong>Notes</strong>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_2">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_2" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Leonine Misbegotten
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_1">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_1" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Leonine Misbegotten
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_3">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_3" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Red Wolf of Radagon
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Red Wolf of Radagon
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as you progress through Raya Lucaria Academy.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Margit, the Fell Omen
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Margit, the Fell Omen
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as you progress through Stormveil Castle.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_4">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_4" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Rennala, Queen of the Full Moon
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_2">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_2" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Rennala, Queen of the Full Moon
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_5">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_5" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Royal Knight Loretta
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Royal Knight Loretta
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Defeat Royal Knight Loretta at Carian Manor.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Leonine Misbegotten
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Leonine Misbegotten
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_6">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_6" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Magma Wyrm Makar
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_3">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_3" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Magma Wyrm Makar
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_7">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_7" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Ancestor Spirit 
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Ancestor Spirit
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Red Wolf of Radagon
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Red Wolf of Radagon
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as you progress through Raya Lucaria Academy.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_8">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_8" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Mimic Tear
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_4">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_4" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Mimic Tear
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_9">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_9" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Godfrey, the First Lord
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godfrey, the First Lord
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Rennala, Queen of the Full Moon
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Rennala, Queen of the Full Moon
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_10">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_10" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Dragonkin Soldier of Nokstella
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_5">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_5" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Dragonkin Soldier of Nokstella
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_11">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_11" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Astel, Naturalborn of the Void
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Astel, Naturalborn of the Void
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Required for Ranni's questline, and 'Age of the Stars' ending.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Royal Knight Loretta
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Royal Knight Loretta
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Defeat Royal Knight Loretta at Carian Manor.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_12">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_12" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Regal Ancestor Spirit
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_6">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_6" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Regal Ancestor Spirit
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_13">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_13" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Valiant Gargoyle
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Valiant Gargoyle
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Magma Wyrm Makar
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Magma Wyrm Makar
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_14">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_14" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Elemer of the Briar
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_7">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_7" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Elemer of the Briar
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_15">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_15" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Noble
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godskin Noble
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Ancestor Spirit 
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Ancestor Spirit
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_16">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_16" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Commander Niall
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_8">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_8" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Commander Niall
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_17">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_17" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Fire Giant
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Fire Giant
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Mimic Tear
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Mimic Tear
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_18">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_18" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Duo
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_9">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_9" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godskin Duo
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_19">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_19" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Loretta, Knight of the Haligtree
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Loretta, Knight of the Haligtree
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Godfrey, the First Lord
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godfrey, the First Lord
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_20">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_20" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Malekith, the Black Blade
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_10">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_10" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Malekith, the Black Blade
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Dragonkin Soldier of Nokstella
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Dragonkin Soldier of Nokstella
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_21">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_21" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Hoarah Loux, the Warrior
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_11">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_11" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Hoarah Loux, the Warrior
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_22">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_22" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Mohg, the Omen
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Mohg, the Omen
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Astel, Naturalborn of the Void
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Astel, Naturalborn of the Void
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Required for Ranni's questline, and 'Age of the Stars' ending.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_23">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_23" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Dragonlord Placidusax
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_12">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_12" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Dragonlord Placidusax
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_2_24">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_2_24" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Lichdragon Fortissax
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Lichdragon Fortissax
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Follow Fia's questline to unlock, part of 'Age of Duskborn' ending.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Regal Ancestor Spirit
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Regal Ancestor Spirit
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_13">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_13" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Valiant Gargoyle
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Valiant Gargoyle
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_14">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_14" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Elemer of the Briar
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Elemer of the Briar
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_15">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_15" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Noble
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godskin Noble
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_16">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_16" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Commander Niall
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Commander Niall
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_17">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_17" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Fire Giant
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat the Fire Giant
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_18">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_18" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Duo
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Godskin Duo
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_19">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_19" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Loretta, Knight of the Haligtree
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Loretta, Knight of the Haligtree
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_20">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_20" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Malekith, the Black Blade
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Malekith, the Black Blade
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_21">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_21" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Hoarah Loux, the Warrior
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Hoarah Loux, the Warrior
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock through story progression.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_22">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_22" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Mohg, the Omen
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Mohg, the Omen
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_23">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_23" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Dragonlord Placidusax
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Dragonlord Placidusax
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_2_24">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_2_24" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Lichdragon Fortissax
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Defeat Lichdragon Fortissax
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Follow Fia's questline to unlock, part of 'Age of Duskborn' ending.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h4 class="mt-1" id="achievements_section_2">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_2Col" data-bs-toggle="collapse" href="#achievements_2Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Misc.</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_2"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show row" id="achievements_2Col">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-md-block d-none">
-                    <div class="row form-check">
-                      <div class="col-auto">
-                        <input class="form-check-input invisible" type="checkbox">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <strong>Name</strong>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="achievements_section_2">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_2Col" data-bs-toggle="collapse" href="#achievements_2Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Misc.</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_2"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show row" id="achievements_2Col">
+                    <ul class="list-group list-group-flush mb-0">
+                      <li class="list-group-item d-md-block d-none">
+                        <div class="row form-check">
+                          <div class="col-auto">
+                            <input class="form-check-input invisible" type="checkbox">
                           </div>
-                          <div class="col-md-4">
-                            <strong>Condition</strong>
-                          </div>
-                          <div class="col-md-5">
-                            <strong>Notes</strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_1">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_1" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Roundtable Hold
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Arrive at Roundtable Hold
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as part of story progression.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <strong>Name</strong>
+                              </div>
+                              <div class="col-md-4">
+                                <strong>Condition</strong>
+                              </div>
+                              <div class="col-md-5">
+                                <strong>Notes</strong>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_2">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_2" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>God-Slaying Armament
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_1">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_1" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Upgrade any armament to its highest stage.
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_3">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_3" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Armaments
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all nine legendary weapons.
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Roundtable Hold
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Arrive at Roundtable Hold
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as part of story progression.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_4">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_4" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Ashen Remains
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_2">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_2" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all six legendary ashen remains.
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_5">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_5" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Sorceries and Incantations
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all seven legendary sorceries and incantations.
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5"></label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>God-Slaying Armament
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Upgrade any armament to its highest stage.
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_6">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_6" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Talismans
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_3">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_3" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all eight legendary talismans.
-                            </label>
-                          </div>
-                          <div class="col-md-5 d-md-block d-none">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6"></label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_7">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_7" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Great Rune
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Restore the power of a Great Rune.
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Easy to unlock at Stormveil, after defeating Godrick.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Armaments
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all nine legendary weapons.
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_8">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_8" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Erdtree Aflame
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_4">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_4" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong> Use kindling to set the Erdtree Aflame.
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as part of story progression, but I think it's achievable in two ways.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Ashen Remains
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all six legendary ashen remains.
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_3_9">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_3_9" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Elden Ring
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_5">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_5" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
-                              <strong class="d-md-none d-inline-block me-1">Condition: </strong>Obtained all achievements
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Sorceries and Incantations
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all seven legendary sorceries and incantations.
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5"></label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_6">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_6" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Legendary Talismans
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Acquire all eight legendary talismans.
+                                </label>
+                              </div>
+                              <div class="col-md-5 d-md-block d-none">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6"></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_7">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_7" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Great Rune
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Restore the power of a Great Rune.
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Easy to unlock at Stormveil, after defeating Godrick.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_8">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_8" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Erdtree Aflame
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong> Use kindling to set the Erdtree Aflame.
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Will unlock as part of story progression, but I think it's achievable in two ways.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_3_9">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_3_9" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Elden Ring
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
+                                  <strong class="d-md-none d-inline-block me-1">Condition: </strong>Obtained all achievements
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h4 class="mt-1" id="achievements_section_3">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_3Col" data-bs-toggle="collapse" href="#achievements_3Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Endings</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_3"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show row" id="achievements_3Col">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-md-block d-none">
-                    <div class="row form-check">
-                      <div class="col-auto">
-                        <input class="form-check-input invisible" type="checkbox">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <strong>Name</strong>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="achievements_section_3">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#achievements_3Col" data-bs-toggle="collapse" href="#achievements_3Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Endings</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="achievements_totals_3"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show row" id="achievements_3Col">
+                    <ul class="list-group list-group-flush mb-0">
+                      <li class="list-group-item d-md-block d-none">
+                        <div class="row form-check">
+                          <div class="col-auto">
+                            <input class="form-check-input invisible" type="checkbox">
                           </div>
-                          <div class="col-md-4">
-                            <strong>Desc.</strong>
-                          </div>
-                          <div class="col-md-5">
-                            <strong>Notes</strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_4_1">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_4_1" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Elden Lord
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
-                              <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Elden Lord' ending 
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Default ending. There are 4 confirmed variations based on quests you can do.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <strong>Name</strong>
+                              </div>
+                              <div class="col-md-4">
+                                <strong>Desc.</strong>
+                              </div>
+                              <div class="col-md-5">
+                                <strong>Notes</strong>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_4_2">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_4_2" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Age of the Stars
-                            </label>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_4_1">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_4_1" type="checkbox" value="">
                           </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
-                              <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Age of the Stars' ending
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Alternate ending. Finish Ranni's questline to unlock.
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="achievements_4_3">
-                    <div class="row form-check checkbox">
-                      <div class="col-auto">
-                        <input class="form-check-input" id="achievements_4_3" type="checkbox" value="">
-                      </div>
-                      <div class="col">
-                        <div class="row">
-                          <div class="col-md-3 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
-                              <strong class="d-md-none d-inline-block me-1">Name: </strong>Lord of Frenzied Flame
-                            </label>
-                          </div>
-                          <div class="col-md-4 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
-                              <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Lord of Frenzied Flame' ending
-                            </label>
-                          </div>
-                          <div class="col-md-5 col-xs-12">
-                            <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
-                              <strong class="d-md-none d-inline-block me-1">Notes: </strong>Alternate ending. Search for the Three Fingers and follow through to unlock.
-                            </label>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Elden Lord
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
+                                  <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Elden Lord' ending 
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Default ending. There are 4 confirmed variations based on quests you can do.
+                                </label>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_4_2">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_4_2" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Age of the Stars
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
+                                  <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Age of the Stars' ending
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Alternate ending. Finish Ranni's questline to unlock.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item" data-id="achievements_4_3">
+                        <div class="row form-check checkbox">
+                          <div class="col-auto">
+                            <input class="form-check-input" id="achievements_4_3" type="checkbox" value="">
+                          </div>
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-md-3 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
+                                  <strong class="d-md-none d-inline-block me-1">Name: </strong>Lord of Frenzied Flame
+                                </label>
+                              </div>
+                              <div class="col-md-4 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
+                                  <strong class="d-md-none d-inline-block me-1">Desc.: </strong>Achieve the 'Lord of Frenzied Flame' ending
+                                </label>
+                              </div>
+                              <div class="col-md-5 col-xs-12">
+                                <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
+                                  <strong class="d-md-none d-inline-block me-1">Notes: </strong>Alternate ending. Search for the Three Fingers and follow through to unlock.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

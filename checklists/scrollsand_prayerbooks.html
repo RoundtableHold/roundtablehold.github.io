@@ -4,18 +4,31 @@
     <title>Roundtable Hold - Scrolls and Prayerbooks</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="manifest.webmanifest" rel="manifest">
-    <link href="/img/favicon.ico?" rel="shortcut icon" type="image/x-icon">
-    <link href="/img/favicon-152.png" rel="apple-touch-icon-precomposed">
-    <link color="#000000" href="/img/pinned-tab-icon.svg" rel="mask-icon">
-    <meta contents="yes" name="apple-mobile-web-app-capable">
-    <meta contents="yes" name="mobile-web-app-capable">
+    <link href="/img/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/img/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/img/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/img/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/img/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/img/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/img/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/img/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/img/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/img/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/img/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/img/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/img/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/themes/slate/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid p-0 m-0">
@@ -107,93 +120,101 @@
               <input class="form-control my-3" id="scrolls_prayerbooks_search" placeholder="Start typing to filter results..." type="search">
             </div>
             <div id="scrolls_prayerbooks_list">
-              <h4 class="mt-1" id="scrolls_prayerbooks_section_0">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scrolls_prayerbooks_0Col" data-bs-toggle="collapse" href="#scrolls_prayerbooks_0Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Scrolls</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="scrolls_prayerbooks_totals_0"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show" id="scrolls_prayerbooks_0Col">
-                <ul class="list-group-flush">
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_0_1">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_0_1" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_0_1">Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_0_2">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_0_2" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_0_2">Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_0_3">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_0_3" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_0_3">Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building.</label>
-                    </div>
-                  </li>
-                </ul>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="scrolls_prayerbooks_section_0">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scrolls_prayerbooks_0Col" data-bs-toggle="collapse" href="#scrolls_prayerbooks_0Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Scrolls</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="scrolls_prayerbooks_totals_0"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show" id="scrolls_prayerbooks_0Col">
+                    <ul class="list-group-flush mb-0 ps-0 ps-md-4">
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_0_1">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_0_1" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_0_1">Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_0_2">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_0_2" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_0_2">Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_0_3">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_0_3" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_0_3">Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building.</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h4 class="mt-1" id="scrolls_prayerbooks_section_1">
-                <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scrolls_prayerbooks_1Col" data-bs-toggle="collapse" href="#scrolls_prayerbooks_1Col" role="button">
-                  <i class="bi bi-chevron-up d-print-none"></i>
-                </a>
-                <span class="d-print-inline">Prayerbooks</span>
-                <span class="mt-0 badge rounded-pill d-print-none" id="scrolls_prayerbooks_totals_1"></span>
-              </h4>
-              <div aria-expanded="true" class="collapse show" id="scrolls_prayerbooks_1Col">
-                <ul class="list-group-flush">
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_1">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_1" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_1">Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_2">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_2" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_2">Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_3">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_3" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_3">Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_4">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_4" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_4">Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_5">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_5" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_5">Two Fingers' Prayerbook - Near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_8">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_8" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_8">Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_6">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_6" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_6">Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy.</label>
-                    </div>
-                  </li>
-                  <li class="list-group-item" data-id="scrolls_prayerbooks_1_7">
-                    <div class="form-check checkbox">
-                      <input class="form-check-input" id="scrolls_prayerbooks_1_7" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="scrolls_prayerbooks_1_7">Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall.</label>
-                    </div>
-                  </li>
-                </ul>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="mt-1" id="scrolls_prayerbooks_section_1">
+                    <a class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scrolls_prayerbooks_1Col" data-bs-toggle="collapse" href="#scrolls_prayerbooks_1Col" role="button">
+                      <i class="bi bi-chevron-up d-print-none"></i>
+                    </a>
+                    <span class="d-print-inline">Prayerbooks</span>
+                    <span class="mt-0 badge rounded-pill d-print-none" id="scrolls_prayerbooks_totals_1"></span>
+                  </h4>
+                  <div aria-expanded="true" class="collapse show" id="scrolls_prayerbooks_1Col">
+                    <ul class="list-group-flush mb-0 ps-0 ps-md-4">
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_1">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_1" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_1">Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_2">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_2" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_2">Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_3">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_3" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_3">Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_4">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_4" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_4">Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_5">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_5" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_5">Two Fingers' Prayerbook - Near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_8">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_8" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_8">Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_6">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_6" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_6">Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy.</label>
+                        </div>
+                      </li>
+                      <li class="list-group-item ps-0" data-id="scrolls_prayerbooks_1_7">
+                        <div class="form-check checkbox">
+                          <input class="form-check-input" id="scrolls_prayerbooks_1_7" type="checkbox" value="">
+                          <label class="form-check-label item_content" for="scrolls_prayerbooks_1_7">Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall.</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
