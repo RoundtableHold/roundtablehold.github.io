@@ -226,14 +226,14 @@ with doc.add(main()):
                                         if not isinstance(items.peek(), list):
                                             item = next(items)
                                             h5(raw(item))
-                                        u = ul(cls="list-group-flush mb-0")
+                                        u = ul(cls="list-group-flush mb-0 ps-0 ps-md-4")
                                         for item in items:
                                             if not isinstance(item, list):
                                                 h5(raw(item))
                                                 u = ul(cls="list-group-flush mb-0")
                                                 continue
                                             id = str(item[0])
-                                            with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item")):
+                                            with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
                                                 with div(cls="form-check checkbox"):
                                                     input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                                     label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
