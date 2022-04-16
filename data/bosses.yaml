@@ -34,8 +34,8 @@ sections:
       - ["2_25", "Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird."]
       - ["2_26", "Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not \"real boss\"."]
       - ["2_27", "Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang (x2)", "Sort of a field boss. Near Divine Tower of Limgrave entrance."]
-      - ["2_28", "Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted. Grants Achievement/Trophy."]
-      - ["2_29", "Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression. Grants Achievement/Trophy."]
+      - ["2_28", "Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted. Grants Achievement/Trophy: Margit, the Fell Omen."]
+      - ["2_29", "Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Godrick."]
   -
     title: "Weeping Peninsula"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -50,7 +50,7 @@ sections:
       - ["1_8", "Scaly Misbegotten", "Morne Tunnel", "2000 runes, Rusted Anchor Greataxe", ""]
       - ["1_9", "Miranda, the Blighted Bloom", "Tombsward Cave", "2100 runes, Viridian Amber Medallion", ""]
       - ["1_10", "Ancient Hero of Zamor", "Weeping Evergaol", "5400 runes, Radagon's Scarseal", ""]
-      - ["1_11", "Leonine Misbegotten", "Castle Morne (South)", "3800 runes, Grafted Blade Greatsword", "Grants Achievement/Trophy."]
+      - ["1_11", "Leonine Misbegotten", "Castle Morne (South)", "3800 runes, Grafted Blade Greatsword", "Grants Achievement/Trophy: Leonine Misbegotten."]
   -
     title: "Roundtable Hold"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -89,18 +89,18 @@ sections:
       - ["4_24", "Erdtree Avatar", "Minor Erdtree (West)", "5800 runes, Cerulean Crystal Tear, Ruptured Crystal Tear", "Field boss."]
       - ["4_25", "Spirit-Caller Snail", "Road's End Catacombs", "3000 runes, Glintstone Sorcerer Ashes", "Avoid the spectral summon enemies and kill the invisible Snail."]
       - ["4_26", "Omenkiller", "Village of the Albinaurics", "4900 runes, Crucible Knot Talisman", "Watch out for dogs."]
-      - ["4_27", "Royal Knight Loretta", "Caria Manor", "10,000 runes, Loretta's Greatbow, Ash of War: Loretta's Slash", "Grants Achievement/Trophy."]
+      - ["4_27", "Royal Knight Loretta", "Caria Manor", "10,000 runes, Loretta's Greatbow, Ash of War: Loretta's Slash", "Grants Achievement/Trophy: #Royal Knight Loretta."]
       - ["4_28", "Red Wolf", "Behind Caria Manor", "4158 runes", "Field boss. Boss enemy, but not \"real boss\"."]
       - ["4_29", "Alabaster Lord (Onyx Lord)", "Royal Grave Evergaol", "3600 runes, Meteorite Sorcery", ""]
       - ["4_30", "Glintstone Dragon Adula", "Three Sisters", "0 runes", "Field boss. Disappears from Three Sisters mid-fight, then reappears at Moonlight Altar."]
       - ["4_40", "Glintstone Dragon Adula", "Cathedral of Manus Celes (North of Moonlight Altar)", "120,000 runes, Adula's Moonblade Sorcery, Dragon Heart (x3)", "Field boss."]
       - ["4_31", "Red Wolf", "Moonlight Altar (West of Deep Ainsel Well)", "4158 runes", "Field boss."]
       - ["4_32", "Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "80,000 runes, Black Knife Tiche Ashes", ""]
-      - ["4_33", "Magma Wyrm Makar", "Ruin-Strewn Precipice", "24,000 runes, Magma Wyrm's Scalesword, Dragon Heart", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu. Grants Achievement/Trophy."]
+      - ["4_33", "Magma Wyrm Makar", "Ruin-Strewn Precipice", "24,000 runes, Magma Wyrm's Scalesword, Dragon Heart", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu. Grants Achievement/Trophy: Magma Wyrm Makar."]
       - ["4_34", "Ravenmount Assassin", "Raya Lucaria Academy", "Winning the fight: Rune Arc, Furlcalling Finger Remedy. Upon returning to your own world: Ash of War: Raptor of the Mists. Speak to Yura: Smithing Stone [5].", "Invade his world, part of Yura's questline. To find the Red Summon Sign: Go Nrth from Main Academy Gate Site of Grace."] #TODO: ADD RUNES
-      - ["4_35", "Red Wolf of Radagon", "Raya Lucaria Academy", "14,000 runes, Memory Stone", "Main boss. Required to get to Rennala, Queen of the Full Moon. Grants Achievement/Trophy."]
+      - ["4_35", "Red Wolf of Radagon", "Raya Lucaria Academy", "14,000 runes, Memory Stone", "Main boss. Required to get to Rennala, Queen of the Full Moon. Grants Achievement/Trophy: Red Wolf of Radagon."]
       - ["4_38", "Moongrum, Carian Knight", "Raya Lucaria Academy", "3000 runes, Carian Knight's Shield", "Will use 1 healing flask."]
-      - ["4_36", "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "40,000 runes, Remembrance of the Full Moon Queen, Great Rune of the Unborn", "Main boss. Semi-required for story progression. Grants Achievement/Trophy."]
+      - ["4_36", "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "40,000 runes, Remembrance of the Full Moon Queen, Great Rune of the Unborn", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Rennala, Queen of the Full Moon."]
   -
     title: "Caelid"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -132,26 +132,29 @@ sections:
       - ["5_24", "Black Blade Kindred", "Bestial Sanctum (Outside)", "88,000 runes, Gargoyle's Blackblade, Gargoyle's Black Halberd", ""]
       - ["5_25", "Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "Ancient Dragon Smithing Stone", "Only triggers after you give him 4 Deathroots."] #TODO: ADD RUNES
       - ["5_26", "Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16,000 runes, Ruins Greatsword", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point."]
-      - ["5_27", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Remembrance of the Starscourge, Radahn's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy."]
+      - ["5_27", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Remembrance of the Starscourge, Radahn's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Radahn."]
       - ["5_29", "Putrid Tree Spirit", "War-Dead Catacombs", "67,200 runes, Golden Seed, Redmane Knight Ogha Spirit Ashes", "Accessible after defeating Radahn, in his arena."]
   -
     title: "Altus Plateau"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["6_1", "Godeferoy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman", ""]
-      - ["6_2", "Night's Cavalry", "Altus Highway", "10,000 runes, Runes Ash of War: Shared Order", "Field boss. Nighttime only."]
+      - ["7_4", "Necromancer Garris", "Sage's Cave", "0 runes, Family Heads Flail", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["6_17", "Black Knife Assassin", "Sage's Cave", "9000 runes, Concealing Veil Talisman", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_6", "Stonedigger Troll", "Old Altus Tunnel", "9600 runes, Great Club", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["6_2", "Night's Cavalry", "Altus Highway", "10,000 runes, Ash of War: Shared Order", "Field boss. Nighttime only."]
       - ["6_3", "Demi-Human Queen Gilika", "Lux Ruins", "8500 runes, Ritual Sword Talisman (chest in the next room)", "Field boss."]
-      - ["6_4", "Eleonora, Violet Bloody Finger", "Second Church of Marika", "3116 runes, Furlcalling Finger Remedy, Purifying Crystal Tear, Eleonora's Poleblade", "NPC invader. Part of Bloody Finger Hunter Yura's quest."]
-      - ["6_5", "Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Furlcalling Finger Remedy, Crepus's Vial Talisman, Black-Key Bolt (x20)", "NPC. You can invade his world. Related to Volcano Manor quest."]
+      - ["6_4", "Eleonora, Violet Bloody Finger", "Second Church of Marika", "3116 runes, Purifying Crystal Tear, Eleonora's Poleblade, Furlcalling Finger Remedy", "NPC invader. Part of Bloody Finger Hunter Yura's quest."]
+      - ["6_5", "Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Crepus's Vial Talisman, Black-Key Bolt (x20), Furlcalling Finger Remedy", "NPC. You can invade his world. Related to Volcano Manor quest."]
       - ["6_6", "Sanguine Noble", "Writheblood Ruins", "8800 runes, Bloodrose", ""]
-      - ["6_7", "Wormface", "Minor Erdtree", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
-      - ["6_8", "Godskin Apostle", "Dominula Windmill Village", "14,000 runes, Godskin Peeler, Scouring Black Flame", ""]
+      - ["6_7", "Wormface", "Minor Erdtree", "10,000 runes, Speckled Hardtear, Crimsonspill Crystal Tear", "Field boss."]
+      - ["6_8", "Godskin Apostle", "Dominula Windmill Village", "14,000 runes, Godskin Peeler Twinblade, Scouring Black Flame Incantation", ""]
       - ["6_9", "Crystalian (Spear) & Crystalian (Ringblade)", "Altus Tunnel", "1800 runes, Somberstone Miner's Bell Bearing [2]", ""]
-      - ["6_10", "Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "11,339 runes, Black Knife", ""]
+      - ["6_10", "Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "11,339 runes, Black Knife Dagger", ""]
       - ["6_11", "Ancient Hero of Zamor", "Sainted Hero's Grave", "24,000 runes, Ancient Dragon Knight Kristoff Ashes", ""]
       - ["6_12", "Omenkiller & Miranda, the Blighted Bloom", "Perfumer's Grotto", "8500 runes, Great Omenkiller Cleaver", ""]
       - ["6_13", "Fallingstar Beast", "South Altus Plateau Crater", "11,000 runes, Somber Smithing Stone [5], Smithing Stone [6] (x5), Gravity Stone Fan, Gravity Stone Chunk", ""]
-      - ["6_14", "Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "63,000 runes, Lansseax's Glaive", "Part 1 of this encounter takes place in Mt. Gelmir."]
+      - ["6_14", "Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "63,000 runes, Lansseax's Glaive Incantation", "Part 1 of this encounter takes place in Mt. Gelmir."]
       - ["6_15", "Tree Sentinel (x2)", "Leyndell Entrance", "20,000 runes, Erdtree Greatshield, Hero's Rune [1]", "Is one annoying bastard (x2)."]
       - ["6_16", "Bell Bearing Hunter", "Hermit Merchant's Shack", "20,000 runes, Medicine Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from merchant. Pass time, then rest once to summon."]
   -
@@ -159,32 +162,28 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["7_1", "Ancient Dragon Lansseax (Part 1)", "Abandoned Coffin (Northwest)", "0 runes", "Part 2 of this encounter takes place in Altus Plateau. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."] #TODO: ADD RUNES, DROPS
-      - ["7_2", "MisbegottenMisbegotten Warrior & Perfumer Tricia", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
-      - ["7_3", "Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
-      - ["7_4", "Necromancer Garris & Black Knife Assassin", "Sage's Cave", "9000 Runes, Concealing Veil", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_2", "Perfumer Tricia & Misbegotten Warrior", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_3", "Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons Sorcery", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_5", "Erdtree Burial Watchdog", "Wyndham Catacombs", "12,000 runes, Glovewort Picker's Bell Bearing [1]", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
-      - ["7_6", "Stonedigger Troll", "Old Altus Tunnel", "9600 runes, Great Club", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_7", "Maleigh Marais, Shaded Castle Castellan", "The Shaded Castle (West)", "4800 runes, Antspur Rapier, Marais Mask, Marais Robe", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
-      - ["7_8", "Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword, Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy."]
-      - ["7_9", "Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Furlcalling Finger Remedy, Crepus's Vial Talisman, Black-Key Bolt x20", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+      - ["7_8", "Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword, Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy: Elemer of the Briar."]
       - ["7_10", "Grafted Scion", "Mt. Gelmir (North)", "2313 runes", "Field boss."]
-      - ["7_11", "Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon", "Field boss."]
+      - ["7_11", "Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon Balista", "Field boss."]
       - ["7_12", "Ulcerated Tree Spirit", "Minor Erdtree", "18,000 runes, Leaden Hardtear, Cerulean Hidden Tear", "Field boss."]
       - ["7_13", "Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
       - ["7_14", "Red Wolf of the Champion", "Gelmir Hero's Grave", "21,000 runes, Bloodhound Knight Floh Ashes", ""]
-      - ["7_15", "Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Somber Smithing Stone, Smithing Stone [6] (x5), Fallingstar Beast Jaw", "Field boss."]
-      - ["7_16", "Wormface", "Road of Iniquity", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
-      - ["7_17", "Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier, Thorned Whip (Chance to drop Fire Prelate Set)", "Field boss."]
+      - ["7_15", "Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Fallingstar Beast Jaw Colossal Weapon, Somber Smithing Stone, Smithing Stone [6] (x5)", "Field boss."]
+      - ["7_17", "Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier Colossal Weapon, Thorned Whip", "Field boss. Chance to drop Fire Prelate Set."]
       - ["7_18", "Magma Wyrm", "Fort Laiedd (South)", "19,000 runes, Dragon Heart, Unlocks Magma Breath (Dragon Communion Incantation)", ""]
       - ["7_19", "Demi-Human Queen Maggie", "Hermit Village", "13,000 runes, Memory Stone, Golden Rune [1]", ""]
-      - ["7_27", "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Furlcalling Finger Remedy, Butchering Knife", "NPC. 2nd invasion."] #TODO: ADD RUNES
-      - ["7_28", "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver", ""] #TODO: ADD RUNES
-      - ["7_20", "Abductor Virgins (x2)", "Volcano Manor/Subterranean Inquistion Chamber", "10,000 runes, Inquisitor's Girandole", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin's grab attack."]
-      - ["7_21", "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Furlcalling Finger Remedy, Ghiza's Wheel", ""]
+      - ["7_27", "Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Butchering Knife Greataxe, Furlcalling Finger Remedy", "NPC. 2nd invasion."] #TODO: ADD RUNES
+      - ["7_28", "Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver Greataxe", ""] #TODO: ADD RUNES
+      - ["7_20", "Abductor Virgins (x2)", "Volcano Manor/Subterranean Inquistion Chamber", "10,000 runes, Inquisitor's Girandole Spear", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin's grab attack."]
+      - ["7_21", "Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Ghiza's Wheel Colossal Weapon, Furlcalling Finger Remedy", ""]
       - ["7_22", "Magma Wyrm", "Volcano Manor", "Dragon Heart", ""] #TODO: ADD RUNES
-      - ["7_23", "Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher", "Grants Achievement/Trophy."]
+      - ["7_23", "Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher Heavy Thrusting Sword", "Grants Achievement/Trophy: Godskin Noble."]
       - ["7_25", "God-Devouring Serpent", "Volcano Manor", "130,000 runes", "Required to get to Rykard, Lord of Blasphemy."]
-      - ["7_26", "Rykard, Lord of Blasphemy", "Volcano Manor", "100,000, Rykard's Great Rune, Remembrance of the Blasphemous", "Main boss. Semi-required for story progression. Grants Achievement/Trophy."]
+      - ["7_26", "Rykard, Lord of Blasphemy", "Volcano Manor", "100,000, Rykard's Great Rune, Remembrance of the Blasphemous", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Rykard."]
       - ["7_24", "Tanith's Knight", "Volcano Manor/Rykard's boss area", "Aspect of the Crucible: Breath", "Kill Tanith as she sits eating Rykard's Corpse, and her Knight will invade you."] #TODO: ADD RUNES
   -
     title: "Leyndell, Royal Capital"
@@ -205,9 +204,9 @@ sections:
       - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Helm, Raging Wolf Armor, Raging Wolf Gauntlets, Raging Wolf Greaves", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
       - ["8_14", "Black Knife Assassin", "Queen's Bedchamber", "", ""] #TODO: ADD RUNES, DROPS
       - ["8_15", "Fell Twins (x2)", "Divine Tower of East Altus Bridge", "29,000 runes, Omenkiller Rollo Ashes", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight."]
-      - ["8_16", "Mohg, the Omen", "Subterranean Shunning-Grounds/Cathedral of the Forsaken", "75,000 runes, Bloodflame Talons Incantation", "Grants Achievement/Trophy."]
-      - ["8_17", "Godfrey, First Elden Lord (Golden Shade)", "Erdtree Sanctuary", "80,000 runes, Talisman Pouch", "Golden Shade. Required to get to Morgott, the Omen King. Grants Achievement/Trophy."]
-      - ["8_18", "Morgott, the Omen King", "The Elden Throne", "120,000 runes, Remembrance of the Omen King, Morgott's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy."]
+      - ["8_16", "Mohg, the Omen", "Subterranean Shunning-Grounds/Cathedral of the Forsaken", "75,000 runes, Bloodflame Talons Incantation", "Grants Achievement/Trophy: Mohg, the Omen."]
+      - ["8_17", "Godfrey, First Elden Lord (Golden Shade)", "Erdtree Sanctuary", "80,000 runes, Talisman Pouch", "Golden Shade. Required to get to Morgott, the Omen King. Grants Achievement/Trophy: Godfrey, the First Lord."]
+      - ["8_18", "Morgott, the Omen King", "The Elden Throne", "120,000 runes, Remembrance of the Omen King, Morgott's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Morgott."]
   -
     title: "Mountaintops of the Giants"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -220,12 +219,12 @@ sections:
       - ["9_6", "Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Rune Arc, Furlcalling Finger Remedy, Hoslow's Petal Whip, Hoslow's Helm, Hoslow's Armor, Hoslow's Gauntlets, Hoslow's Greaves", ""]
       - ["9_7", "Death Rite Bird", "North Mountaintops", "77,000 runes, Death Ritual Spear", "Field boss. Nighttime only."]
       - ["9_8", "Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple", "Field boss."] #TODO: ADD RUNES
-      - ["9_9", "Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy."]
+      - ["9_9", "Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy: Commander Niall."]
       - ["9_10", "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set (Helm, Armor, Gauntlet, Greaves), Vyke's Dragonbolt Incantation", ""] #TODO: ADD RUNES
       - ["9_11", "Borealis, the Freezing Fog", "Frozen Lake", "100,000 runes, Dragon Heart", ""]
       - ["9_12", "Bloody Finger Okina", "Church of Repose", "734 runes, Furlcalling Finger Remedy, Rivers of Blood, Okina Mask", "NPC invader."]
       - ["9_13", "Godskin Apostle and Godskin Noble (Spectral)", "Spiritcaller's Cave", "70,000 runes, Godskin Swaddling Cloth, Black Flame Ritual", "Avoid the spectral summon enemies and kill the invisible Snail."]
-      - ["9_15", "Fire Giant", "Flame Peak", "180,000 runes, Remembrance of the Fire Giant", "Main boss. Required to proceed to Forge of the Giants. Grants Achievement/Trophy."]
+      - ["9_15", "Fire Giant", "Flame Peak", "180,000 runes, Remembrance of the Fire Giant", "Main boss. Required to proceed to Forge of the Giants. Grants Achievement/Trophy: Fire Giant."]
   -
     title: "Consecrated Snowfield"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -241,24 +240,24 @@ sections:
       - ["10_8", "Death Rite Bird", "Consecrated Snowfield (North)", "220,000 runes, Explosive Ghostflame", "Field boss. Nighttime only."]
       - ["10_9", "Black Knife Assassin", "Ordina, Liturgical Town", "", ""] #TODO: ADD RUNES, DROPS
       - ["10_12", "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone", "NPC. 3rd invasion."] #TODO: ADD RUNES
-      - ["10_10", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "200,000 runes, Loretta's Mastery Sorcery, Loretta's War Sickle", "Grants Achievement/Trophy."]
-      - ["10_11", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "480,000 runes, Malenia's Great Rune, Remembrance of the Rot Goddess", "Optional. Grants Achievement/Trophy."]
+      - ["10_10", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "200,000 runes, Loretta's Mastery Sorcery, Loretta's War Sickle", "Grants Achievement/Trophy: Loretta, Knight of the Haligtree."]
+      - ["10_11", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "480,000 runes, Malenia's Great Rune, Remembrance of the Rot Goddess", "Optional. Grants Achievement/Trophy: Shardbearer Malenia."]
   -
     title: "Crumbling Farum Azula"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["11_1", "Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
-      - ["11_2", "Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Smithing-Stone Miner's Bell Bearing [4], Ash of War: Black Flame Tornado", "Grants Achievement/Trophy."]
+      - ["11_2", "Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Smithing-Stone Miner's Bell Bearing [4], Ash of War: Black Flame Tornado", "Grants Achievement/Trophy: Godskin Duo."]
       - ["11_3", "Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw, Devourer's Scepter, Beast Champion Helm, Beast Champion Armor (Altered), Beast Champion Gauntlets, Beast Champion Greaves, Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."] #TODO: ADD RUNES
       - ["11_4", "Draconic Tree Sentinel", "Dragon Temple", "50,000 runes, Malformed Dragon Set", "One annoying bastard, but more annoying."]
-      - ["11_5", "Dragonlord Placidusax", "Dragon Temple", "280,000 runes, Remembrance of the Dragonlord", "Grants Achievement/Trophy."]
-      - ["11_6", "Maliketh, the Black Blade", "Crumbling Farum Azula", "220,000 runes, Remembrance of the Black Blade", "Required to get to Leyndell, Ashen Capital. Grants Achievement/Trophy."]
+      - ["11_5", "Dragonlord Placidusax", "Dragon Temple", "280,000 runes, Remembrance of the Dragonlord", "Grants Achievement/Trophy: Dragonlord Placidusax."]
+      - ["11_6", "Maliketh, the Black Blade", "Crumbling Farum Azula", "220,000 runes, Remembrance of the Black Blade", "Required to get to Leyndell, Ashen Capital. Grants Achievement/Trophy: Malekith, the Black Blade."]
   -
     title: "Leyndell, Ashen Capital"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["12_1", "Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, All-Knowing Helm, All-Knowing Armor, All-Knowing Gauntlets, All-Knowing Greaves, Scepter of the All-Knowing", "Required."]
-      - ["12_2", "Godfrey, First Elden Lord (Hoarah Loux)", "Elden Throne", "300,000 runes, Remembrance of Hoarah Loux", "Required. Grants Achievement/Trophy."]
+      - ["12_2", "Godfrey, First Elden Lord (Hoarah Loux)", "Elden Throne", "300,000 runes, Remembrance of Hoarah Loux", "Required. Grants Achievement/Trophy: Hoarah Loux, the Warrior."]
       - ["12_3", "Radagon of the Golden Order", "Fractured Marika", "0 runes", "Required."] #TODO: ADD DROPS?
       - ["12_4", "Elden Beast", "Fractured Marika", "500,000 runes, Elden Remembrance", "Required."]
   -
@@ -266,33 +265,33 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["13_1", "Dragonkin Soldier", "Siofra River (Cliffs)", "16,000 runes, Dragon Halberd", "Field boss. Is accessible by taking a waygate in the eastern part of Siofra River."]
-      - ["13_2", "Ancestor Spirit", "Hallowhorn Grounds", "13,000 runes, Ancestral Follower Ashes", "You need to light eight braziers around Siofra River to activate him. Grants Achievement/Trophy."]
+      - ["13_2", "Ancestor Spirit", "Hallowhorn Grounds", "13,000 runes, Ancestral Follower Ashes", "You need to light eight braziers around Siofra River to activate him. Grants Achievement/Trophy: Ancestor Spirit."]
   -
     title: "Nokron, Eternal City"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["14_1", "Mimic Tear", "Nokron, Eternal City", "10,000 runes, Silver Tear Mask, Larval Tear (x2)", "Grants Achievement/Trophy."]
-      - ["14_2", "Regal Ancestor Spirit", "Hallowhorn Grounds", "24,000 runes, Remembrance of the Regal Ancestor", "You need to light six braziers around Nokron, Eternal City to activate him. Grants Achievement/Trophy."]
-      - ["14_3", "Valiant Gargoyle & Valiant Gargoyle (Twinblade)", "Siofra Aqueduct", "32,000 runes, Gargoyle's Greatsword, Gargoyle's Twinblade", "After defeating it, the Great Waterfall Basin Site of Grace is accessible. Grants Achievement/Trophy."]
+      - ["14_1", "Mimic Tear", "Nokron, Eternal City", "10,000 runes, Silver Tear Mask, Larval Tear (x2)", "Grants Achievement/Trophy: Mimic Tear."]
+      - ["14_2", "Regal Ancestor Spirit", "Hallowhorn Grounds", "24,000 runes, Remembrance of the Regal Ancestor", "You need to light six braziers around Nokron, Eternal City to activate him. Grants Achievement/Trophy: Regal Ancestor Spirit."]
+      - ["14_3", "Valiant Gargoyle & Valiant Gargoyle (Twinblade)", "Siofra Aqueduct", "32,000 runes, Gargoyle's Greatsword, Gargoyle's Twinblade", "After defeating it, the Great Waterfall Basin Site of Grace is accessible. Grants Achievement/Trophy: Valiant Gargoyle."]
   -
     title: "Mohgwyn Palace"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["15_1", "Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set (White Mask, War Surgeon Gown, War Surgeon Gloves, War Surgeon Trousers), Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"] #TODO: ADD RUNES
       - ["15_2", "White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Furcalling Finger Remedy, Rune Arc, Festering Bloody Fingers (x6). And Varre's Bouquet (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"] #TODO: ADD RUNES
-      - ["15_3", "Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varre's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy."]
+      - ["15_3", "Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varre's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy: Shardbearer Mohg."]
   -
     title: "Ainsel River"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["16_1", "Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear", "Grants Achievement/Trophy."]
+      - ["16_1", "Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
       - ["16_2", "Baleful Shadow", "Ainsel River", "8561 runes", "NPC invader. Part of Ranni's questline."]
   -
     title: "Lake of Rot"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["17_1", "Dragonkin Soldier", "Lake of Rot (South East)", "58,000 runes, Dragonscale Blade", "Field boss. Raise four platforms around him (use pressure plate east of him) to avoid Scarlet Rot."]
-      - ["17_2", "Astel, Naturalborn of the Void", "Grand Cloister", "80,000 runes, Remembrance of the Naturalborn", "Accessible via a coffin in Grand Cloister. Required for Ranni's questline. Grants Achievement/Trophy."]
+      - ["17_2", "Astel, Naturalborn of the Void", "Grand Cloister", "80,000 runes, Remembrance of the Naturalborn", "Accessible via a coffin in Grand Cloister. Required for Ranni's questline. Grants Achievement/Trophy: Astel, Naturalborn of the Void."]
   -
     title: "Deeproot Depths"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -300,4 +299,4 @@ sections:
       - ["18_1", "Erdtree Avatar", "Deeproot Depths", "10,000 runes, Staff of the Avatar", "Field boss."]
       - ["18_2", "Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree (Great Spear)", "Field boss."]
       - ["18_3", "Fia's Champions", "Deeproot Depths", "40,000 runes, Fia's Mist Sorcery", "NPC invaders. Two solo fights, then a group of three. Part of Fia's questline."]
-      - ["18_4", "Lichdragon Fortissax", "Deeproot Depths", "90,000 runes, Remembrance of the Lichdragon", "Part of Fia's questline. Grants Achievement/Trophy."]
+      - ["18_4", "Lichdragon Fortissax", "Deeproot Depths", "90,000 runes, Remembrance of the Lichdragon", "Part of Fia's questline. Grants Achievement/Trophy: Lichdragon Fortissax."]
