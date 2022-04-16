@@ -15,6 +15,7 @@ from atomicwrites import atomic_write
 
 def to_snake_case(name):
     name = "".join(name.split())
+    name = re.sub(r'\W+', '', name)
     name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
     name = re.sub('__([A-Z])', r'_\1', name)
     name = re.sub('([a-z0-9])([A-Z])', r'\1_\2', name)
@@ -105,19 +106,36 @@ def make_doc(title):
         meta(name="description", content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc.")
         meta(name="author", content="Ben Lambeth")
         meta(name="mobile-web-app-capable", content="yes")
-        link(href="css/bootstrap.min.css", rel="stylesheet", id="bootstrap")
+        link(href="/css/bootstrap.min.css", rel="stylesheet", id="bootstrap")
         link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
-        link(href="css/main.css", rel="stylesheet")
+        link(href="/css/main.css", rel="stylesheet")
     return doc
+
+def title_row():
+    with div(cls="row"):
+        with div(cls="col-md-12 text-center"):
+            h1("Roundtable Hold", cls="mt-3")
+            text = p(cls="lead d-print-none")
+            text += "Contribute at the "
+            text += a("Github Page",
+                      href="https://github.com/RoundtableHold/roundtablehold.github.io")
+
+def hide_completed_button():
+    with div(id="btnHideCompleted", cls="mb-3 d-print-none"):
+        with div(cls="form-check form-switch"):
+            input_(cls="form-check-input", type="checkbox",
+                   id='toggleHideCompleted')
+            label("Hide Completed", cls="form-check-label",
+                  _for='toggleHideCompleted')
 
 def make_nav():
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
-            with div(cls='order-md-last'):
-                with form(cls="d-flex"):
-                    input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
+            # with div(cls='order-md-last'):
+            #     with form(cls="d-flex"):
+            #         input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
                     with li(cls="nav-item"):
@@ -131,34 +149,26 @@ def make_nav():
                     with li(cls="nav-item tabl-li"):
                         a(href="/options.html", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
 
-def make_sidebar_nav():
-        with div(cls="collapse collapse-horizontal show", id="sidebar"):
-            with div(id="sidebar_nav", cls="list-group min-vh-100"):
-                a(href="/index.html", cls="dropdown-item hide-buttons").add(i(cls="bi bi-house-fill"), " Home")
-                hr(cls="dropdown-divider")
+def make_sidebar_nav(page):
+    with aside(cls="bd-sidebar"):
+        with nav(cls='bd-links sidebar-nav collapse collapse-horizontal show', id='sidebar'):
+            with ul(id="sidebar_nav", cls="list-unstyled mb-0 py-3 pt-md-1"):
+                with li(cls="mb-1"):
+                    link = a(href="/index.html", cls="dropdown-item hide-buttons" + (' show' if page == 'index' else ''))
+                    link += i(cls="bi bi-house-fill")
+                    link += " Home"
                 for name, l in dropdowns:
-                    for guide in l:
-                        a(guide[0], cls="dropdown-item show-buttons", href='/checklists/' + guide[1])
-                    hr(cls="dropdown-divider")
-                a(href="/options.html", cls="dropdown-item hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
-                    
-                        
-        # with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
-        #     with div(cls="container-fluid"):
-        #         with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
-        #             span(cls="navbar-toggler-icon")
-        #         with div(cls="collapse navbar-collapse", id="nav-collapse"):
-        #             with ul(cls="nav navbar-nav mr-auto"):
-        #                 with li(cls="nav-item"):
-        #                     a(href="/index.html", cls="nav-link hide-buttons").add(i(cls="bi bi-house-fill"))
-        #                 for name, l in dropdowns:
-        #                     with li(cls="dropdown nav-item"):
-        #                         a(name, cls="nav-link dropdown-toggle", href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
-        #                         with ul(cls="dropdown-menu"):
-        #                             for guide in l:
-        #                                 li().add(a(guide[0], cls="dropdown-item show-buttons", href='/checklists/' + guide[1]))
-        #                 with li(cls="nav-item"):
-        #                     a(href="/options.html", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
+                    with li(cls="mb-1"):
+                        page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
+                        button(name, cls="btn d-inline-flex align-items-center rounded" + (' collapsed' if not page_in_dropdown else ''), data_bs_toggle="collapse", data_bs_target='#' + to_snake_case(name) + '_dropdown', aria_expanded=('true' if page_in_dropdown else 'false'))
+                        with div(id=to_snake_case(name) + '_dropdown', cls='collapse' + (' show' if page_in_dropdown else '')):
+                            with ul(cls='list-unstyled fw-normal pb-1 small'):
+                                for guide in l:
+                                    li().add(a(guide[0], cls="d-inline-flex align-items-center rounded" + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + guide[1]))
+                with li():
+                    link = a(href="/options.html", cls="dropdown-item hide-buttons" + (' active' if page == 'options' else ''))
+                    link += i(cls="bi bi-gear-fill")
+                    link += " Options"
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
@@ -261,7 +271,7 @@ def make_index():
                                                         li(cls='tab-li').add(a(guide[0], href="/checklists/" + guide[1], cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
                                                     hr()
             make_footer()
-    with open('index.html', 'w', encoding='utf_8') as index:
+    with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
 def make_options():
@@ -274,7 +284,7 @@ def make_options():
             with div(cls="row"):
                 with div(cls="col-1 sticky-top", style="background-color: white;"):
                     p("Sidebar")
-                    make_sidebar_nav()
+                    make_sidebar_nav('options')
                 with div(cls="col"):
                     with div(cls="container"):
                         with div(cls="row"):
@@ -343,141 +353,125 @@ def make_options():
 
         div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
         make_footer()
-    with open('options.html', 'w', encoding='utf_8') as index:
+    with open(os.path.join('docs', 'options.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
 def make_checklist(page):
     doc = make_doc("Roundtable Hold - " + page['title'])
     with doc:
-    # make_nav(doc)
-        with div(cls="container-fluid p-0 m-0"):
-            with div(cls="row p-0 m-0"):
-                img(src="/img/banner-thin.jpg", cls="d-block w-100 p-0 m-0")
-                a(href="#", data_bs_target="#sidebar", data_bs_toggle="collapse").add(i(cls="bi bi-list bi-lg"))
-            with div(cls="row flex-nowrap p-0 m-0"):
-                with div(cls="col-auto"):
-                    make_sidebar_nav()
-                with div(cls="col"):
-                    with div(cls="container"):
-                        # with div(cls="row"):
-                            # with div(cls="col-md-12 text-center"):
-                                # h1("Roundtable Hold", cls="mt-3")
-                                # text = p(cls="lead d-print-none")
-                                # text += "Contribute at the "
-                                # text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
-                        # Hide completed toggle
-                        with div(id="btnHideCompleted", cls="mb-3 d-print-none"):
-                            with div(cls="form-check form-switch"):
-                                input_(cls="form-check-input", type="checkbox", id='toggleHideCompleted')
-                                label("Hide Completed", cls="form-check-label", _for='toggleHideCompleted')
-                        # Filter buttons
-                        h = h2()
-                        h += page['title']
-                        h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+        make_nav()
+        # whole page
+        with div(cls="container uncolor-links"):
+            title_row()
+            hide_completed_button()
+            # Filter buttons
+            h = h2()
+            h += page['title']
+            h += span(id=page['id'] + "_overall_total", cls='d-print-none')
 
-                        if 'description' in page:
-                            p(raw(page['description']))
+            if 'description' in page:
+                p(raw(page['description']))
 
-                        with nav(cls="text-muted toc d-print-none"):
-                            with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
-                                i(cls='bi bi-plus-lg')
-                                raw('Table Of Contents')
-                            with ul(id="toc_" + page['id'], cls="toc_page collapse"):
-                                for s_idx, section in enumerate(page['sections']):
-                                    with li():
-                                        a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
-                                        span(id=page['id']  + "_nav_totals_" + str(s_idx))
+            with nav(cls="text-muted toc d-print-none"):
+                with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
+                    i(cls='bi bi-plus-lg')
+                    raw('Table Of Contents')
+                with ul(id="toc_" + page['id'], cls="toc_page collapse"):
+                    for s_idx, section in enumerate(page['sections']):
+                        with li():
+                            a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
+                            span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
-                        with div(cls="input-group d-print-none"):
-                            input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
+            with div(cls="input-group d-print-none"):
+                input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
 
-                        with div(id=page['id']+"_list"):
-                            for s_idx, section in enumerate(page['sections']):
-                                with div(cls='card shadow-sm mb-3').add(div(cls='card-body')):
-                                    with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
-                                        with a(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
-                                            i(cls='bi bi-chevron-up d-print-none')
-                                        if 'link' in section:
-                                            a(section['title'], href=section['link'], cls='d-print-inline')
-                                        else:
-                                            span(section['title'], cls='d-print-inline')
-                                        span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill d-print-none")
-                                    if 'table' in section:
-                                        with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show row", aria_expanded="true"):
-                                            if isinstance(section['table'], list):
-                                                table_cols = len(section['table'])
-                                                size = floor(12 / table_cols)
-                                            else:
-                                                table_cols = section['table']
-                                                size = floor(12 / table_cols)
-                                            items = peekable(section['items'])
-                                            if not isinstance(items.peek(), list):
-                                                item = next(items)
+            with div(id=page['id']+"_list"):
+                for s_idx, section in enumerate(page['sections']):
+                    with div(cls='card shadow-sm mb-3').add(div(cls='card-body')):
+                        with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
+                            with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
+                                i(cls='bi bi-chevron-up d-print-none')
+                            if 'link' in section:
+                                a(section['title'], href=section['link'], cls='d-print-inline')
+                            else:
+                                span(section['title'], cls='d-print-inline')
+                            span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill d-print-none")
+                        if 'table' in section:
+                            with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show row", aria_expanded="true"):
+                                if isinstance(section['table'], list):
+                                    table_cols = len(section['table'])
+                                    size = floor(12 / table_cols)
+                                else:
+                                    table_cols = section['table']
+                                    size = floor(12 / table_cols)
+                                items = peekable(section['items'])
+                                if not isinstance(items.peek(), list):
+                                    item = next(items)
+                                    h5(item)
+                                with ul(cls='list-group list-group-flush mb-0'):
+                                    if isinstance(section['table'], list):
+                                        with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
+                                            with div(cls="col-auto"):
+                                                input_(cls="form-check-input invisible", type='checkbox')
+                                            with div(cls="col").add(div(cls="row")):
+                                                for idx, header in enumerate(section['table']):
+                                                    if 'table_widths' in page:
+                                                        col_size = str(page['table_widths'][idx])
+                                                    else:
+                                                        col_size = str(size)
+                                                    div(cls="col-md-" + col_size).add(strong(header))
+                                    for item in items:
+                                        id = str(item[0])
+                                        with li(cls="list-group-item", data_id=page['id'] + '_' + id):
+                                            if not isinstance(item, list):
                                                 h5(item)
-                                            with ul(cls='list-group list-group-flush mb-0'):
-                                                if isinstance(section['table'], list):
-                                                    with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
-                                                        with div(cls="col-auto"):
-                                                            input_(cls="form-check-input invisible", type='checkbox')
-                                                        with div(cls="col").add(div(cls="row")):
-                                                            for idx, header in enumerate(section['table']):
-                                                                if 'table_widths' in page:
-                                                                    col_size = str(page['table_widths'][idx])
-                                                                else:
-                                                                    col_size = str(size)
-                                                                div(cls="col-md-" + col_size).add(strong(header))
-                                                for item in items:
-                                                    id = str(item[0])
-                                                    with li(cls="list-group-item", data_id=page['id'] + '_' + id):
-                                                        if not isinstance(item, list):
-                                                            h5(item)
-                                                            continue
-                                                        with div(cls="row form-check checkbox"):
-                                                            with div(cls="col-auto"):
-                                                                input_(cls="form-check-input", type="checkbox", value="",
-                                                                        id=page['id'] + '_' + id)
-                                                            with div(cls="col").add(div(cls="row")):
-                                                                for pos in range(1, 1+table_cols):
-                                                                    if 'table_widths' in page:
-                                                                        col_size = str(page['table_widths'][pos-1])
-                                                                    else:
-                                                                        col_size = str(size)
-                                                                    with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
-                                                                        with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
-                                                                            if isinstance(section['table'], list) and item[pos]:
-                                                                                strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
-                                                                            if item[pos]:
-                                                                                raw(item[pos])
-                                    else:
-                                        with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
-                                            items = peekable(section['items'])
-                                            if not isinstance(items.peek(), list):
-                                                item = next(items)
-                                                h5(raw(item))
-                                            u = ul(cls="list-group-flush mb-0 ps-0 ps-md-4")
-                                            for item in items:
-                                                if not isinstance(item, list):
-                                                    h5(raw(item))
-                                                    u = ul(cls="list-group-flush mb-0")
-                                                    continue
-                                                id = str(item[0])
-                                                with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
+                                                continue
+                                            with div(cls="row form-check checkbox"):
+                                                with div(cls="col-auto"):
+                                                    input_(cls="form-check-input", type="checkbox", value="",
+                                                            id=page['id'] + '_' + id)
+                                                with div(cls="col").add(div(cls="row")):
+                                                    for pos in range(1, 1+table_cols):
+                                                        if 'table_widths' in page:
+                                                            col_size = str(page['table_widths'][pos-1])
+                                                        else:
+                                                            col_size = str(size)
+                                                        with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
+                                                            with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
+                                                                if isinstance(section['table'], list) and item[pos]:
+                                                                    strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
+                                                                if item[pos]:
+                                                                    raw(item[pos])
+                        else:
+                            with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
+                                items = peekable(section['items'])
+                                if not isinstance(items.peek(), list):
+                                    item = next(items)
+                                    h5(raw(item))
+                                u = ul(cls="list-group-flush mb-0 ps-0 ps-md-4")
+                                for item in items:
+                                    if not isinstance(item, list):
+                                        h5(raw(item))
+                                        u = ul(cls="list-group-flush mb-0")
+                                        continue
+                                    id = str(item[0])
+                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
+                                        with div(cls="form-check checkbox"):
+                                            input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
+                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
+                                    if isinstance(items.peek([0])[0], list):
+                                        item = next(items)
+                                        with u.add(ul(cls="list-group-flush")):
+                                            for subitem in item:
+                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
                                                     with div(cls="form-check checkbox"):
-                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
-                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
-                                                if isinstance(items.peek([0])[0], list):
-                                                    item = next(items)
-                                                    with u.add(ul(cls="list-group-flush")):
-                                                        for subitem in item:
-                                                            with li(data_id=page['id'] + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
-                                                                with div(cls="form-check checkbox"):
-                                                                    input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
-                                                                    label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
+                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
+                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
         make_footer(page)
-    with open(os.path.join('checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
+    with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
 
@@ -503,7 +497,7 @@ def make_jquery_selector(x):
     s += '#' + str(l[-1]) + '")'
     return s
 
-with atomic_write(os.path.join('js', 'item_links.js'), overwrite=True, encoding='UTF-8') as links_f:
+with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
     links_f.writelines([
         '(function($) {\n',
         "  'use strict';\n",
