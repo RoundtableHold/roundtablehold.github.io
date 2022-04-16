@@ -128,7 +128,7 @@ def hide_completed_button():
             label("Hide Completed", cls="form-check-label",
                   _for='toggleHideCompleted')
 
-def make_nav():
+def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -139,15 +139,16 @@ def make_nav():
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
                     with li(cls="nav-item"):
-                        a(href="/index.html", cls="nav-link hide-buttons").add(i(cls="bi bi-house-fill"))
+                        a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
+                        page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
                         with li(cls="dropdown nav-item"):
-                            a(name, cls="nav-link dropdown-toggle", href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
+                            a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons", href='/checklists/' + guide[1]))
+                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + guide[1]))
                     with li(cls="nav-item tabl-li"):
-                        a(href="/options.html", cls="nav-link hide-buttons").add(i(cls="bi bi-gear-fill"), " Options")
+                        a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
 
 def make_sidebar_nav(page):
     with aside(cls="bd-sidebar"):
@@ -177,8 +178,6 @@ def make_footer(page=None):
     script(src="/js/jets.min.js")
     script(src="/js/jquery.highlight.js")
     script(src="/js/jstorage.min.js")
-    script(src="/js/main.js")
-    script(src="/js/item_links.js")
     raw("""
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -209,157 +208,143 @@ def make_footer(page=None):
 
 def make_index():
     doc = make_doc("Roundtable Hold - Home")
-    # make_nav(doc)
     with doc:
-        with div(cls="container-fluid"):
+        make_nav('index')
+        with div(cls="container"):
             with div(cls="row"):
-                h1("Roundtable Hold", cls="text-center")
-            with div(cls="row"):
-                with div(cls="col-1 sticky-top", style="background-color: white;"):
-                    p("Sidebar")
-                with div(cls="col"):
-                    with div(cls="container"):
-                        with div(cls="row"):
-                            with div(cls="col-md-12 text-center"):
-                                h1("Roundtable Hold", cls="mt-3")
-                                text = p(cls="lead d-print-none")
-                                text += "Contribute at the "
-                                text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
-                            with div(cls="row gy-3"):
-                                with div(cls='col-md-8 col-12'):
-                                    with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
-                                        with div(cls="col"):
-                                            with div(cls="card shadow h-100"):
-                                                with div(cls="card-body"):
-                                                    h5('Welcome to the Roundtable Hold', cls='card-title text-center')
-                                                    p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
-                                        with div(cls="col"):
-                                            with div(cls='card shadow h-100'):
-                                                with div(cls="card-body"):
-                                                    h5('I have feedback, how can I contribute?', cls='card-title text-center')
-                                                    text = p(cls='card-text')
-                                                    text += 'Contributing is easy! And does not require you to know how to code. You can find instructions on the'
-                                                    text += a('Github repository', href='https://github.com/RoundtableHold/roundtablehold.github.io')
-                                                    text += ' You can also simply '
-                                                    text += a('report issues', href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
-                                                    text += " and we'll fix them."
-                                        with div(cls="col"):
-                                            with div(cls="card shadow h-100"):
-                                                with div(cls="card-body"):
-                                                    h5('Can I use this for multiple characters?', cls='card-title text-center')
-                                                    p('Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', cls='card-text')
-                                        with div(cls="col"):
-                                            with div(cls="card shadow h-100"):
-                                                with div(cls="card-body"):
-                                                    h5('How does the checklist status get saved?', cls='card-title text-center')
-                                                    p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
-                                        with div(cls="col"):
-                                            with div(cls="card shadow h-100"):
-                                                with div(cls="card-body"):
-                                                    h5('Our other resources', cls='card-title text-center')
-                                                    p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
-                                                    p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
-                                                    p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
-                                with div(cls="col-md-4 col-12"):
-                                    with div(cls='card shadow'):
-                                        with div(cls="card-body"):
-                                            h5('Progress', cls='card-title text-center')
-                                            with ul(id='progress_list', cls='nav flex-column text-muted toc'):
-                                                hr()
-                                                for name, l in dropdowns:
-                                                    for guide in l:
-                                                        li(cls='tab-li').add(a(guide[0], href="/checklists/" + guide[1], cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
-                                                    hr()
+                with div(cls="col-md-12 text-center"):
+                    h1("Roundtable Hold", cls="mt-3")
+                    text = p(cls="lead d-print-none")
+                    text += "Contribute at the "
+                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                with div(cls="row gy-3"):
+                    with div(cls='col-md-8 col-12'):
+                        with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Welcome to the Roundtable Hold', cls='card-title text-center')
+                                        p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                            with div(cls="col"):
+                                with div(cls='card shadow h-100'):
+                                    with div(cls="card-body"):
+                                        h5('I have feedback, how can I contribute?', cls='card-title text-center')
+                                        text = p(cls='card-text')
+                                        text += 'Contributing is easy! And does not require you to know how to code. You can find instructions on the'
+                                        text += a('Github repository', href='https://github.com/RoundtableHold/roundtablehold.github.io')
+                                        text += ' You can also simply '
+                                        text += a('report issues', href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
+                                        text += " and we'll fix them."
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Can I use this for multiple characters?', cls='card-title text-center')
+                                        p('Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', cls='card-text')
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('How does the checklist status get saved?', cls='card-title text-center')
+                                        p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Our other resources', cls='card-title text-center')
+                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
+                                        p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
+                                        p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
+                    with div(cls="col-md-4 col-12"):
+                        with div(cls='card shadow'):
+                            with div(cls="card-body"):
+                                h5('Progress', cls='card-title text-center')
+                                with ul(id='progress_list', cls='nav flex-column text-muted toc'):
+                                    hr()
+                                    for name, l in dropdowns:
+                                        for guide in l:
+                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + guide[1], cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                        hr()
             make_footer()
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
 def make_options():
     doc = make_doc('Roundtable Hold - Options')
-    # make_nav(doc)
     with doc:
-        with div(cls="container-fluid"):
+        make_nav('options')
+        with div(cls="container"):
             with div(cls="row"):
-                h1('Roundtable Hold', cls='text-center')
+                with div(cls="col-md-12 text-center"):
+                    h1("Roundtable Hold", cls="mt-3")
+                    text = p(cls="lead d-print-none")
+                    text += "Contribute at the "
+                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
             with div(cls="row"):
-                with div(cls="col-1 sticky-top", style="background-color: white;"):
-                    p("Sidebar")
-                    make_sidebar_nav('options')
-                with div(cls="col"):
-                    with div(cls="container"):
-                        with div(cls="row"):
-                            with div(cls="col-md-12 text-center"):
-                                h1("Roundtable Hold", cls="mt-3")
-                                text = p(cls="lead d-print-none")
-                                text += "Contribute at the "
-                                text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
-                        with div(cls="row"):
-                            h2("Options")
-                            with div(cls="row"):
-                                div(cls="col col-12 col-md-6").add(h4("Theme selection:"))
-                                div(cls="col col-12 col-md-6").add(select(cls="form-select", id="themes"))
-                            with div(cls="row"):
-                                div(cls="col col-12 col-md-4").add(h4("Profile management:"))
-                                with form(cls="form-inline input-group pull-right gap-1"):
-                                    with div(cls="col col-12 col-md-4"):
-                                        select(cls="form-select", id="profiles")
-                                    with div(cls="col col-12 col-md-4"):
-                                        with div(cls="btn-group"):
-                                            button("Add", cls="btn btn-primary", type="button", id="profileAdd")
-                                        with div(cls="btn-group"):
-                                            button("Edit", cls="btn btn-primary", type="button", id="profileEdit")
-                                        with div(cls="btn-group"):
-                                            button("NG+", cls="btn btn-primary", type="button", id="profileNG+")
-                            with div(cls="row"):
-                                div(cls="col col-12 col-md-4").add(h4("Data import/export:"))
-                                with div(cls="col col-12 col-md-8"):
-                                    with form(cls="form-inline gap-1 m-1"):
-                                        with div(cls="btn-group pull-left"):
-                                            button("Import file", cls="btn btn-primary", type="button", id="profileImport")
-                                        with div(cls="btn-group pull-left"):
-                                            button("Export file", cls="btn btn-primary", type="button", id="profileExport")
-                                        with div(cls="btn-group pull-right"):
-                                            button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
-                                        with div(cls="btn-group pull-right mt-1 mt-md-0"):
-                                            button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
-                                with div(cls="col col-12"):
-                                    textarea(id="profileText", cls="form-control")
-                        with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
-                            with div(cls="modal-dialog", role="document"):
-                                with div(cls="modal-content"):
-                                    with div(cls="modal-header"):
-                                        h3("Profile", id="profileModalTitle", cls="modal-title")
-                                        button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
-                                    with div(cls="modal-body"):
-                                        with form(cls="form-horizontal"):
-                                            with div(cls="control-group"):
-                                                label("Name", cls="control-label", _for="profileModalName")
-                                                div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
-                                    with div(cls="modal-footer"):
-                                        button("Close", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
-                                        a("Add", href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
-                                        a("Update", href="#", id="profileModalUpdate", cls="btn btn-primary")
-                                        a("Delete", href="#", id="profileModalDelete", cls="btn btn-primary")
-                        with div(id="NG+Modal", cls="modal fade", tabindex="-1", role="dialog"):
-                            with div(cls="modal-dialog", role="document"):
-                                with div(cls="modal-content"):
-                                    with div(cls="modal-header"):
-                                        h3("Begin next journey?", id="profileModalTitleNG", cls="modal-title")
-                                        button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
-                                    div('If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', cls="modal-body")
-                                    with div(cls="modal-footer"):
-                                        a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
-                                        a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
+                h2("Options")
+                with div(cls="row"):
+                    div(cls="col col-12 col-md-6").add(h4("Theme selection:"))
+                    div(cls="col col-12 col-md-6").add(select(cls="form-select", id="themes"))
+                with div(cls="row"):
+                    div(cls="col col-12 col-md-4").add(h4("Profile management:"))
+                    with form(cls="form-inline input-group pull-right gap-1"):
+                        with div(cls="col col-12 col-md-4"):
+                            select(cls="form-select", id="profiles")
+                        with div(cls="col col-12 col-md-4"):
+                            with div(cls="btn-group"):
+                                button("Add", cls="btn btn-primary", type="button", id="profileAdd")
+                            with div(cls="btn-group"):
+                                button("Edit", cls="btn btn-primary", type="button", id="profileEdit")
+                            with div(cls="btn-group"):
+                                button("NG+", cls="btn btn-primary", type="button", id="profileNG+")
+                with div(cls="row"):
+                    div(cls="col col-12 col-md-4").add(h4("Data import/export:"))
+                    with div(cls="col col-12 col-md-8"):
+                        with form(cls="form-inline gap-1 m-1"):
+                            with div(cls="btn-group pull-left"):
+                                button("Import file", cls="btn btn-primary", type="button", id="profileImport")
+                            with div(cls="btn-group pull-left"):
+                                button("Export file", cls="btn btn-primary", type="button", id="profileExport")
+                            with div(cls="btn-group pull-right"):
+                                button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
+                            with div(cls="btn-group pull-right mt-1 mt-md-0"):
+                                button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
+                    with div(cls="col col-12"):
+                        textarea(id="profileText", cls="form-control")
+            with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
+                with div(cls="modal-dialog", role="document"):
+                    with div(cls="modal-content"):
+                        with div(cls="modal-header"):
+                            h3("Profile", id="profileModalTitle", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
+                        with div(cls="modal-body"):
+                            with form(cls="form-horizontal"):
+                                with div(cls="control-group"):
+                                    label("Name", cls="control-label", _for="profileModalName")
+                                    div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
+                        with div(cls="modal-footer"):
+                            button("Close", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            a("Add", href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
+                            a("Update", href="#", id="profileModalUpdate", cls="btn btn-primary")
+                            a("Delete", href="#", id="profileModalDelete", cls="btn btn-primary")
+            with div(id="NG+Modal", cls="modal fade", tabindex="-1", role="dialog"):
+                with div(cls="modal-dialog", role="document"):
+                    with div(cls="modal-content"):
+                        with div(cls="modal-header"):
+                            h3("Begin next journey?", id="profileModalTitleNG", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
+                        div('If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', cls="modal-body")
+                        with div(cls="modal-footer"):
+                            a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
+                            a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
 
         div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
         make_footer()
+        script(src="/js/options.js")
     with open(os.path.join('docs', 'options.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
 def make_checklist(page):
     doc = make_doc("Roundtable Hold - " + page['title'])
     with doc:
-        make_nav()
+        make_nav(to_snake_case(page['title']))
         # whole page
         with div(cls="container uncolor-links"):
             title_row()
@@ -471,6 +456,8 @@ def make_checklist(page):
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
         make_footer(page)
+        script(src="/js/checklists.js")
+        script(src="/js/item_links.js")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
@@ -508,33 +495,33 @@ with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as
             sel = make_jquery_selector(link['source'])
             links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = $(this).prop("checked");\n')
-            t_sel = make_jquery_selector(link['target'])
-            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
-            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            for target in to_list(link['target']):
+                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
             links_f.write('    });\n')
+            # t_sel = make_jquery_selector(link['target'])
+            # links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
+            # links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            # links_f.write('    });\n')
         elif 'source_or' in link:
             sel = make_jquery_selector(link['source_or'])
             links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = (' + sel + '.filter(":checked").length !== 0);\n')
-            t_sel = make_jquery_selector(link['target'])
-            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
-            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            for target in to_list(link['target']):
+                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
             links_f.write('    });\n')
         elif 'source_and' in link:
             sel = make_jquery_selector(link['source_and'])
             links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = (' + sel + '.not(":checked").length === 0);\n')
-            t_sel = make_jquery_selector(link['target'])
-            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
-            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            for target in to_list(link['target']):
+                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
             links_f.write('    });\n')
         elif 'link_all' in link:
             sel = make_jquery_selector(link['link_all'])
             links_f.write('    ' + sel + '.click(function () {\n')
             links_f.write('      var checked = $(this).prop("checked");\n')
-            t_sel = make_jquery_selector(link['link_all'])
-            links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
-            links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
+            for target in to_list(link['link_all']):
+                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
             links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')

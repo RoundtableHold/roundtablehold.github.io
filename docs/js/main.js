@@ -48,6 +48,79 @@ if ('serviceWorker' in navigator) {
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
 
+    window.setCheckbox = function(id, checked) {
+        if ($('#' + id).length === 1) {
+            var el = $('#' + id).get(0);
+            var wasChecked = profiles[profilesKey][profiles.current].checklistData[id] === true;
+            var isChecked = $(el).prop('checked');
+            var total_span = $(el).closest('div[id$="Col"]').prev().children().get(2)
+            var match = total_span.id.match(/(.*)_totals_(.*)/);
+            var type = match[1];
+            var i = parseInt(match[2]);
+            var total_nav = $(total_span).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0)
+            var overall_total = $(total_nav).closest('nav').prevAll('h2').find('span[id$="overall_total"]').get(0)
+
+            if (wasChecked === false && isChecked === true) {
+                profiles[profilesKey][profiles.current].checklistData[id] = true;
+                $(el).closest('li').addClass('completed');
+
+                checklist_totals[total_span.id][0] += 1;
+                checklist_totals[total_nav.id][0] += 1;
+                checklist_totals[overall_total.id][0] += 1;
+            } else if (wasChecked === true && isChecked === false) {
+                delete profiles[profilesKey][profiles.current].checklistData[id];
+                $(el).closest('li').removeClass('completed');
+                
+                checklist_totals[total_span.id][0] -= 1;
+                checklist_totals[total_nav.id][0] -= 1;
+                checklist_totals[overall_total.id][0] -= 1;
+            } else if (wasChecked === true && isChecked === true) {
+                // We are in setup. We just cleared all checkboxes and are going through 1 by 1 clicking them. That is why both the checkbox was just clicked and the saved data says it's clicked
+                $(el).closest('li').addClass('completed');
+                // No need to update totals it will be done soon.
+                return;
+            }
+
+            if (checklist_totals[total_span.id][0] === checklist_totals[total_span.id][1]) {
+                total_span.innerHTML = 'DONE';
+                $(total_span).removeClass('in_progress').addClass('done').removeClass('bg-info').addClass('bg-success');
+                $(total_span).parent('h3').addClass('completed');// Hide heading for completed category
+            } else {
+                total_span.innerHTML = checklist_totals[total_span.id][0] + '/' + checklist_totals[total_span.id][1];
+                $(total_span).removeClass('done').addClass('in_progress').removeClass('bg-success').addClass('bg-info');
+                $(total_span).parent('h3').removeClass('completed');// Show heading for not yet completed category
+            }
+
+            if (checklist_totals[total_nav.id][0] === checklist_totals[total_nav.id][1]) {
+                total_nav.innerHTML = 'DONE';
+                $(total_nav).removeClass('in_progress').addClass('done');
+            } else {
+                total_nav.innerHTML = checklist_totals[total_nav.id][0] + '/' + checklist_totals[total_nav.id][1];
+                $(total_nav).removeClass('done').addClass('in_progress');
+            }
+
+            if (checklist_totals[overall_total.id][0] === checklist_totals[overall_total.id][1]) {
+                overall_total.html('DONE');
+                $(overall_total).removeClass('in_progress').addClass('done');
+
+                var progress_total = $('#' + type + '_progress_total');
+                progress_total.innerHTML = 'DONE';
+                progress_total.removeClass('in_progress').addClass('done')
+            } else {
+                overall_total.innerHTML = checklist_totals[overall_total.id][0] + '/' + checklist_totals[overall_total.id][1];
+                $(overall_total).removeClass('done').addClass('in_progress');
+
+                var progress_total = $('#' + type + '_progress_total');
+                progress_total.html(checklist_totals[overall_total.id][0] + '/' + checklist_totals[overall_total.id][1]);
+                progress_total.removeClass('done').addClass('in_progress')
+            }
+        } else {
+            profiles[profilesKey][profiles.current].checklistData[id] = checked;
+        }
+
+        $.jStorage.set(profilesKey, profiles);
+    }
+
     window.onCheckbox = function(el) {
         var id = $(el).attr('id');
         var wasChecked = profiles[profilesKey][profiles.current].checklistData[id] === true;
@@ -135,7 +208,9 @@ if ('serviceWorker' in navigator) {
         populateProfiles();
 
         $('.checkbox input[type="checkbox"]').click(function() {
-            window.onCheckbox(this)
+            var id = $(this).attr('id');
+            var isChecked = $(this).prop('checked');
+            window.setCheckbox(id, isChecked);
         });
 
         $('div[data-id]').each(function() {
@@ -188,8 +263,6 @@ if ('serviceWorker' in navigator) {
             populateChecklists();
 
             restoreState(profiles.current);
-
-            calculateTotals();
         });
 
         $('#profileAdd').click(function() {
@@ -453,20 +526,13 @@ if ('serviceWorker' in navigator) {
     }
 
     function populateChecklists() {
-        $('.checkbox input[type="checkbox"]')
-            .prop('checked', false)
-            .closest('li')
-            .removeClass('completed')
-            .show();
-
-        $.each(profiles[profilesKey][profiles.current].checklistData, function(index, value) {
-            var el = $('#' + index);
-            if (!el.prop('checked') && value === true) {
-                el.click();
-            }
-        });
-
         calculateTotals();
+        $('.checkbox input[type="checkbox"]')
+            .each(function(index, el) {
+                var id = $(el).attr('id');
+                var checked = profiles[profilesKey][profiles.current].checklistData[id];
+                window.setCheckbox(id, checked);
+            });
     }
 
     function calculateTotals() {
@@ -574,7 +640,7 @@ if ('serviceWorker' in navigator) {
      * Restore tabs/hidden sections functionality
      * ------------------------------------------
      */
-     $(function() {
+    $(function () {
         // reset `Hide completed` button state (otherwise Chrome bugs out)
         $('#toggleHideCompleted').prop('checked', false);
 
@@ -582,14 +648,14 @@ if ('serviceWorker' in navigator) {
         restoreState(profiles.current);
 
         // register on click handlers to store state
-        $('a[href$="Col"]').on('click', function(el) {
+        $('a[href$="Col"]').on('click', function (el) {
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 
-        profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
+            profiles[profilesKey][profiles.current].collapsed[$(this).attr('href')] = !saved_tab_state;
 
-        $.jStorage.set(profilesKey, profiles);
-    });
+            $.jStorage.set(profilesKey, profiles);
+        });
 
         // $('.nav.navbar-nav li a,#progress_list li a').on('click', function(event) {
         //     if ($(event.currentTarget).hasClass('dropdown-toggle')) {
