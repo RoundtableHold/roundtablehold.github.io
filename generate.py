@@ -242,13 +242,13 @@ def make_index():
                                         p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
                     with div(cls="col-md-4 col-12"):
                         with div(cls='card shadow'):
-                            with div(cls="card-body"):
+                            with div(cls="card-body uncolor-links"):
                                 h5('Progress', cls='card-title text-center')
-                                with ul(id='progress_list', cls='nav flex-column text-muted toc'):
+                                with ul(id='progress_list', cls='nav flex-column'):
                                     hr()
                                     for name, l in dropdowns:
                                         for guide in l:
-                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + to_snake_case(guide[0]) + '.html', cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + to_snake_case(guide[0]) + '.html')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
                                         hr()
             make_footer()
             script(src="/js/index.js")
