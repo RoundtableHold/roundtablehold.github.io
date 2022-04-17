@@ -1,13 +1,15 @@
 title: "Armor"
 id: armor
+table_widths: [2, 7, 3]
 sections:
   -
     title: "Traveler's Set (No Helmet)"
     link: "https://eldenring.wiki.fextralife.com/Traveler's+Set"
+    table: ["Name", "Location", "Notes"]
     items:
-      - ["0", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>"]
-      - ["1", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>"]
-      - ["2", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>"]
+      - ["0", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
+      - ["1", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
+      - ["2", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
   -
     title: "Commoner's Set"
     link: "https://eldenring.wiki.fextralife.com/Commoner's+Set"
