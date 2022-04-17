@@ -6,6 +6,6 @@ IF %ERRORLEVEL% NEQ 0 (
     echo Failed to generate index.html
     pause
  ) ELSE (
-    start "" "index.html"
+    start "" "docs\index.html"
  )
  
