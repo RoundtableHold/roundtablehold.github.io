@@ -58,15 +58,15 @@ if ('serviceWorker' in navigator) {
             themeSetup(stylesheet);
             profiles[profilesKey][profiles.current].style = stylesheet;
             $.jStorage.set(profilesKey, profiles);
+            updateTextbox();
         });
 
         $('#profiles').change(function(event) {
             profiles.current = $(this).val();
             $.jStorage.set(profilesKey, profiles);
+            updateTextbox();
 
             $('li .checkbox .completed').show();
-
-            restoreState(profiles.current);
         });
 
         $('#profileAdd').click(function() {
@@ -92,15 +92,14 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profileModalAdd').click(function(event) {
-            event.preventDefault();
             var profile = $.trim($('#profileModalName').val());
             if (profile.length > 0) {
                 initializeProfile(profile);
 
                 profiles.current = profile;
                 $.jStorage.set(profilesKey, profiles);
+                updateTextbox();
                 populateProfiles();
-                restoreState(profiles.current);
             }
         });
 
@@ -113,6 +112,7 @@ if ('serviceWorker' in navigator) {
                 profiles.current = newName;
                 $.jStorage.set(profilesKey, profiles);
                 populateProfiles();
+                updateTextbox();
             }
             $('#profileModal').modal('hide');
         });
@@ -129,8 +129,8 @@ if ('serviceWorker' in navigator) {
             profiles.current = getFirstProfile();
             $.jStorage.set(profilesKey, profiles);
             populateProfiles();
-            restoreState(profiles.current);
             $('#profileModal').modal('hide');
+            updateTextbox();
         });
 
         $('#profileNG\\+').click(function() {
@@ -149,8 +149,8 @@ if ('serviceWorker' in navigator) {
                 profiles[profilesKey][profiles.current].journey++;
             }
             $.jStorage.set(profilesKey, profiles);
-            restoreState(profiles.current);
             $('#NG\\+Modal').modal('hide');
+            updateTextbox();
         });
 
         $('#profileExport').click(function(){
@@ -186,6 +186,10 @@ if ('serviceWorker' in navigator) {
           fr.readAsText(fileInput.files[0]);
           fr.onload = dataLoadCallback;
         });
+        
+        function updateTextbox() {
+            document.getElementById("profileText").value = JSON.stringify(profiles);
+        }
 
         /*
         *  Import & Export using textarea instead of files
@@ -204,12 +208,14 @@ if ('serviceWorker' in navigator) {
                 var jsonProfileData = JSON.parse(document.getElementById("profileText").value);
                 profiles = jsonProfileData;
                 $.jStorage.set(profilesKey, profiles);
+                updateTextbox();
             } catch(e) {
                 alert(e); // error in the above string (in this case, yes)!
             }
         });
 
         populateProfiles();
+        updateTextbox();
     });
     
     function initializeProfile(profile_name) {
@@ -250,9 +256,8 @@ if ('serviceWorker' in navigator) {
       profiles = jsonProfileData;
       $.jStorage.set(profilesKey, profiles);
       populateProfiles();
-      populateChecklists();
       $('#profiles').trigger("change");
-      location.reload();
+        updateTextbox();
     }
 
     function populateProfiles() {

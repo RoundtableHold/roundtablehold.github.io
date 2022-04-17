@@ -33,7 +33,7 @@ with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
             with open(os.path.join('data', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
-                dropdown_urls.append((yml['title'], to_snake_case(yml['title']) + '.html'))
+                dropdown_urls.append((yml['title'], yml['id']))
         dropdowns.append((dropdown['name'], dropdown_urls))
 
 page_ids = set()
@@ -146,30 +146,30 @@ def make_nav(page):
                             a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + guide[1]))
+                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
                     with li(cls="nav-item tabl-li"):
                         a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
 
-def make_sidebar_nav(page):
-    with aside(cls="bd-sidebar"):
-        with nav(cls='bd-links sidebar-nav collapse collapse-horizontal show', id='sidebar'):
-            with ul(id="sidebar_nav", cls="list-unstyled mb-0 py-3 pt-md-1"):
-                with li(cls="mb-1"):
-                    link = a(href="/index.html", cls="dropdown-item hide-buttons" + (' show' if page == 'index' else ''))
-                    link += i(cls="bi bi-house-fill")
-                    link += " Home"
-                for name, l in dropdowns:
-                    with li(cls="mb-1"):
-                        page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
-                        button(name, cls="btn d-inline-flex align-items-center rounded" + (' collapsed' if not page_in_dropdown else ''), data_bs_toggle="collapse", data_bs_target='#' + to_snake_case(name) + '_dropdown', aria_expanded=('true' if page_in_dropdown else 'false'))
-                        with div(id=to_snake_case(name) + '_dropdown', cls='collapse' + (' show' if page_in_dropdown else '')):
-                            with ul(cls='list-unstyled fw-normal pb-1 small'):
-                                for guide in l:
-                                    li().add(a(guide[0], cls="d-inline-flex align-items-center rounded" + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + guide[1]))
-                with li():
-                    link = a(href="/options.html", cls="dropdown-item hide-buttons" + (' active' if page == 'options' else ''))
-                    link += i(cls="bi bi-gear-fill")
-                    link += " Options"
+# def make_sidebar_nav(page):
+#     with aside(cls="bd-sidebar"):
+#         with nav(cls='bd-links sidebar-nav collapse collapse-horizontal show', id='sidebar'):
+#             with ul(id="sidebar_nav", cls="list-unstyled mb-0 py-3 pt-md-1"):
+#                 with li(cls="mb-1"):
+#                     link = a(href="/index.html", cls="dropdown-item hide-buttons" + (' show' if page == 'index' else ''))
+#                     link += i(cls="bi bi-house-fill")
+#                     link += " Home"
+#                 for name, l in dropdowns:
+#                     with li(cls="mb-1"):
+#                         page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
+#                         button(name, cls="btn d-inline-flex align-items-center rounded" + (' collapsed' if not page_in_dropdown else ''), data_bs_toggle="collapse", data_bs_target='#' + to_snake_case(name) + '_dropdown', aria_expanded=('true' if page_in_dropdown else 'false'))
+#                         with div(id=to_snake_case(name) + '_dropdown', cls='collapse' + (' show' if page_in_dropdown else '')):
+#                             with ul(cls='list-unstyled fw-normal pb-1 small'):
+#                                 for guide in l:
+#                                     li().add(a(guide[0], cls="d-inline-flex align-items-center rounded" + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + guide[1]))
+#                 with li():
+#                     link = a(href="/options.html", cls="dropdown-item hide-buttons" + (' active' if page == 'options' else ''))
+#                     link += i(cls="bi bi-gear-fill")
+#                     link += " Options"
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
@@ -260,9 +260,10 @@ def make_index():
                                     hr()
                                     for name, l in dropdowns:
                                         for guide in l:
-                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + guide[1], cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + to_snake_case(guide[0]) + '.html', cls='toc_link')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
                                         hr()
             make_footer()
+            script(src="/js/index.js")
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
@@ -342,6 +343,7 @@ def make_options():
         index.write(doc.render())
 
 def make_checklist(page):
+    page['num_ids'] = 0 
     doc = make_doc("Roundtable Hold - " + page['title'])
     with doc:
         make_nav(to_snake_case(page['title']))
@@ -398,6 +400,7 @@ def make_checklist(page):
                                         with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
                                             with div(cls="col-auto"):
                                                 input_(cls="form-check-input invisible", type='checkbox')
+                                                page['num_ids'] += 1
                                             with div(cls="col").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     if 'table_widths' in page:
@@ -415,6 +418,7 @@ def make_checklist(page):
                                                 with div(cls="col-auto"):
                                                     input_(cls="form-check-input", type="checkbox", value="",
                                                             id=page['id'] + '_' + id)
+                                                    page['num_ids'] += 1
                                                 with div(cls="col").add(div(cls="row")):
                                                     for pos in range(1, 1+table_cols):
                                                         if 'table_widths' in page:
@@ -444,6 +448,7 @@ def make_checklist(page):
                                         with div(cls="form-check checkbox"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                             label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
+                                            page['num_ids'] += 1
                                     if isinstance(items.peek([0])[0], list):
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
@@ -452,6 +457,7 @@ def make_checklist(page):
                                                     with div(cls="form-check checkbox"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
                                                         label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
+                                                        page['num_ids'] += 1
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
@@ -525,3 +531,93 @@ with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as
             links_f.write('    });\n')
     links_f.write('  });\n')
     links_f.write('})( jQuery );\n')
+
+with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
+    f.write(
+        """
+var profilesKey = 'darksouls3_profiles';\n
+(function($) {
+    'use strict';
+    $(function() {
+        var profiles = $.jStorage.get(profilesKey, {});
+    
+    var themes = {
+        "Standard" : "/css/bootstrap.min.css",
+        "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly" : "/css/themes/darkly/bootstrap.min.css",
+        "Flatly" : "/css/themes/flatly/bootstrap.min.css",
+        "Journal" : "/css/themes/journal/bootstrap.min.css",
+        "Litera" : "/css/themes/litera/bootstrap.min.css",
+        "Lumen" : "/css/themes/lumen/bootstrap.min.css",
+        "Lux" : "/css/themes/lux/bootstrap.min.css",
+        "Materia" : "/css/themes/materia/bootstrap.min.css",
+        "Minty" : "/css/themes/minty/bootstrap.min.css",
+        "Morph" : "/css/themes/Morph/bootstrap.min.css",
+        "Pulse" : "/css/themes/pulse/bootstrap.min.css",
+        "Quartz" : "/css/themes/quartz/bootstrap.min.css",
+        "Regent" : "/css/themes/regent/bootstrap.min.css",
+        "Sandstone" : "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex" : "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy" : "/css/themes/sketchy/bootstrap.min.css",
+        "Slate" : "/css/themes/slate/bootstrap.min.css",
+        "Solar" : "/css/themes/solar/bootstrap.min.css",
+        "Spacelab" : "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero" : "/css/themes/superhero/bootstrap.min.css",
+        "United" : "/css/themes/united/bootstrap.min.css",
+        "Vapor" : "/css/themes/vapor/bootstrap.min.css",
+        "Yeti" : "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr" : "/css/themes/zephyr/bootstrap.min.css",
+    };
+
+        /// assure default values are set
+        /// necessary 'cause we're abusing local storage to store JSON data
+        /// done in a more verbose way to be easier to understand
+        if (!('current' in profiles)) profiles.current = 'Default Profile';
+        if (!(profilesKey in profiles)) profiles[profilesKey] = {};
+        initializeProfile(profiles.current);
+        function initializeProfile(profile_name) {
+            if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
+            if (!('checklistData' in profiles[profilesKey][profile_name]))
+                profiles[profilesKey][profile_name].checklistData = {};
+            if (!('collapsed' in profiles[profilesKey][profile_name]))
+                profiles[profilesKey][profile_name].collapsed = {};
+            if (!('hide_completed' in profiles[profilesKey][profile_name]))
+                profiles[profilesKey][profile_name].hide_completed = false;
+            if (!('journey' in profiles[profilesKey][profile_name]))
+                profiles[profilesKey][profile_name].journey = 1;
+            if (!('style' in profiles[profilesKey][profile_name]))
+                profiles[profilesKey][profile_name].style = 'Standard';
+        }
+        
+    function themeSetup(stylesheet) {
+        if(stylesheet === null || stylesheet === undefined) { // if we didn't get a param, then
+            stylesheet = profiles[profilesKey][profiles.current].style; // fall back on "light" if cookie not set
+        }
+        $("#bootstrap").attr("href", themes[stylesheet]);
+    }
+        themeSetup(profiles[profilesKey][profiles.current].style);
+
+        function calculateProgress() {
+        """)
+    for page in pages:
+        f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
+        f.write('var ' + page['id'] + '_checked = 0;\n')
+    f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
+    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true) {\n')
+    for page in pages:
+        f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
+        f.write(page['id'] + '_checked += 1;\n}\n')
+    f.write('}\n')
+    f.write('}\n')
+    for page in pages:
+        f.write('if ({page_id}_checked === {page_id}_total){{\n'.format(page_id=page['id']))
+        f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
+        f.write('} else {\n')
+        f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
+        f.write('}\n')
+    f.write('}\n')
+    f.write('calculateProgress();\n')
+    f.write('  });\n')
+    f.write('})( jQuery );\n')
