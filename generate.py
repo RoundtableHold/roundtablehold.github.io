@@ -12,6 +12,8 @@ from dominate.util import raw
 from more_itertools import peekable
 import urllib.parse
 from atomicwrites import atomic_write
+import markdown
+from markdown.extensions.wikilinks import WikiLinkExtension
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -30,7 +32,7 @@ with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
     for dropdown in yml['dropdowns']:
         dropdown_urls = []
         for page in dropdown['pages']:
-            with open(os.path.join('data', page), 'r', encoding='utf_8') as data:
+            with open(os.path.join('checklists', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
                 dropdown_urls.append((yml['title'], yml['id']))
@@ -455,6 +457,20 @@ def make_checklist(page):
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
+with open(os.path.join('wiki', 'Dagger.md'), 'r', encoding='utf_8') as md:
+    text = md.read()
+    doc = make_doc("Roundtable Hold - " + page['title'])
+    with doc:
+        make_nav(to_snake_case(page['title']))
+        # whole page
+        with div(cls="container uncolor-links markdown"):
+            title_row()
+            raw(markdown.markdown(text, extensions=['tables', 'footnotes', WikiLinkExtension(base_url='/wiki/', end_url='.html'), 'attr_list']))
+        make_footer(page)
+        script(src='/js/wiki.js')
+    with open(os.path.join('docs', 'wiki', 'dagger.html'), 'w', encoding='utf-8') as out:
+        out.write(doc.render())
+            
 
 make_index()
 make_options()
