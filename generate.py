@@ -15,12 +15,14 @@ from atomicwrites import atomic_write
 import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
 
+from TabsExtension import TabsExtension
+
 def to_snake_case(name):
     name = "".join(name.split())
     name = re.sub(r'\W+', '', name)
-    name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
-    name = re.sub('__([A-Z])', r'_\1', name)
-    name = re.sub('([a-z0-9])([A-Z])', r'\1_\2', name)
+    name = re.sub(r'(.)([A-Z][a-z]+)', r'\1_\2', name)
+    name = re.sub(r'__([A-Z])', r'_\1', name)
+    name = re.sub(r'([a-z0-9])([A-Z])', r'\1_\2', name)
     return name.lower()
 
 dropdowns = []
@@ -465,7 +467,7 @@ with open(os.path.join('wiki', 'Dagger.md'), 'r', encoding='utf_8') as md:
         # whole page
         with div(cls="container uncolor-links markdown"):
             title_row()
-            raw(markdown.markdown(text, extensions=['tables', 'footnotes', WikiLinkExtension(base_url='/wiki/', end_url='.html'), 'attr_list']))
+            raw(markdown.markdown(text, extensions=['tables', 'footnotes', 'sane_lists', 'md_in_html', WikiLinkExtension(base_url='/wiki/', end_url='.html'), 'attr_list', TabsExtension()]))
         make_footer(page)
         script(src='/js/wiki.js')
     with open(os.path.join('docs', 'wiki', 'dagger.html'), 'w', encoding='utf-8') as out:

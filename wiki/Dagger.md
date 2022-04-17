@@ -14,10 +14,23 @@ Purchased from Twin Maiden Husks at the Roundtable Hold.
 2. **Dagger** can be upgraded by using [[Smithing Stones]]
 3. Sell Value: 100 runes
 
+[Tabs]
+
+[Tab "+25"]
 | Dagger  | Physical | Magic | Fire | Lightning | Holy | Stamina | Strength | Dex | Int | Fai | Arc | Passive Effects |
 |---------|----------|-------|------|-----------|------|---------|----------|-----|-----|-----|-----|-----------------|
 | Std+25  | 181      |       |      |           |      | 60      | D        | B   |     |     |     |                 |
 | Hvy+25  | 161      |       |      |           |      | 60      | A        |     |     |     |     |                 |
 | Keen+25 | 156      |       |      |           |      | 66      | D        | A   |     |     |     |                 |
+
+[Tab "+0"]
+| Dagger | Physical | Magic | Fire | Lightning | Holy | Stamina | Strength | Dex | Int | Fai | Arc | Passive Effects |
+|--------|----------|-------|------|-----------|------|---------|----------|-----|-----|-----|-----|-----------------|
+| Std+0  | 181      |       |      |           |      | 60      | D        | B   |     |     |     |                 |
+| Hvy+0  | 161      |       |      |           |      | 60      | A        |     |     |     |     |                 |
+| Keen+0 | 156      |       |      |           |      | 66      | D        | A   |     |     |     |                 |
+
+[End Tabs]
+
 
 [^1]: No Dex allowed

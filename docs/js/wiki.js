@@ -9,5 +9,9 @@ if ('serviceWorker' in navigator) {
     $('.markdown th').attr('scope', 'col');
     $('.markdown blockquote').addClass('blockquote');
 
+    var tab_container = $('.markdown .tab-content');
+    tab_container.children().removeClass('active show');
+    tab_container.children().first().addClass('active show');
+
 
 })(jQuery);
