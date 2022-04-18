@@ -586,21 +586,24 @@ var profilesKey = 'darksouls3_profiles';\n
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
         themeSetup(profiles[profilesKey][profiles.current].style);
-
-        function calculateProgress() {
         """)
+    f.write('var all_ids = new Set([')
+    for id in all_ids:
+        f.write('"' + id + '", ')
+    f.write(']);\n')
+    f.write('function calculateProgress() {\n')
     for page in pages:
         f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
         f.write('var ' + page['id'] + '_checked = 0;\n')
     f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
-    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true) {\n')
+    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {\n')
     for page in pages:
         f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
         f.write(page['id'] + '_checked += 1;\n}\n')
     f.write('}\n')
     f.write('}\n')
     for page in pages:
-        f.write('if ({page_id}_checked === {page_id}_total){{\n'.format(page_id=page['id']))
+        f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
         f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
         f.write('} else {\n')
         f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
