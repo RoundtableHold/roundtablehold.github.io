@@ -100,7 +100,7 @@ sections:
       - ["4_34", "Ravenmount Assassin", "Raya Lucaria Academy", "Winning the fight: Rune Arc, Furlcalling Finger Remedy. Upon returning to your own world: Ash of War: Raptor of the Mists. Speak to Yura: Smithing Stone [5].", "Invade his world, part of Yura's questline. To find the Red Summon Sign: Go Nrth from Main Academy Gate Site of Grace."] #TODO: ADD RUNES
       - ["4_35", "Red Wolf of Radagon", "Raya Lucaria Academy", "14,000 runes, Memory Stone", "Main boss. Required to get to Rennala, Queen of the Full Moon. Grants Achievement/Trophy: Red Wolf of Radagon."]
       - ["4_38", "Moongrum, Carian Knight", "Raya Lucaria Academy", "3000 runes, Carian Knight's Shield", "Will use 1 healing flask."]
-      - ["4_36", "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "40,000 runes, Remembrance of the Full Moon Queen, Great Rune of the Unborn", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Rennala, Queen of the Full Moon."]
+      - ["4_36", "Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "40,000 runes, Great Rune of the Unborn, Remembrance of the Full Moon Queen", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Rennala, Queen of the Full Moon."]
   -
     title: "Caelid"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -132,7 +132,7 @@ sections:
       - ["5_24", "Black Blade Kindred", "Bestial Sanctum (Outside)", "88,000 runes, Gargoyle's Blackblade, Gargoyle's Black Halberd", ""]
       - ["5_25", "Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "Ancient Dragon Smithing Stone", "Only triggers after you give him 4 Deathroots."] #TODO: ADD RUNES
       - ["5_26", "Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16,000 runes, Ruins Greatsword", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point."]
-      - ["5_27", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Remembrance of the Starscourge, Radahn's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Radahn."]
+      - ["5_27", "Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Radahn's Great Rune, Remembrance of the Starscourge", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Radahn."]
       - ["5_29", "Putrid Tree Spirit", "War-Dead Catacombs", "67,200 runes, Golden Seed, Redmane Knight Ogha Spirit Ashes", "Accessible after defeating Radahn, in his arena."]
   -
     title: "Altus Plateau"
@@ -194,36 +194,36 @@ sections:
       - ["8_3", "Margit, the Fell Omen", "Capital Outskirts (Northwest)", "", "Tries to put your foolish ambitions to rest again."] #TODO: ADD RUNES, DROPS
       - ["8_4", "Deathbird", "Capital Outskirts (North)", "29,000 runes, Twinbird Kite Shield", "Field boss. Nighttime only."]
       - ["8_5", "Onyx Lord", "Sealed Tunnel", "16,000 runes, Onyx Lord's Greatsword", ""]
-      - ["8_6", "The Loathsome Dung Eater", "Capital Outskirts", "For killing him: Omen Helm, Omen Armor, Omen Gauntlets, Omen Greaves, Sword of Milos", "Can instead gain the full Omen Set and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline."] #TODO: ADD RUNES
-      - ["8_7", "Draconic Tree Sentinel", "Capital Outskirts/Inner Leyndell Entrance", "50,000 runes, Dragon Greatclaw, Dragonclaw Shield", "Required to get inside Leyndell proper."]
+      - ["8_6", "The Loathsome Dung Eater", "Capital Outskirts", "For killing him: Omen Set (Helm, Armor, Gauntlets, Greaves), Sword of Milos", "Can instead gain the full Omen Set, Sword of Milos and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline."] #TODO: ADD RUNES
+      - ["8_7", "Draconic Tree Sentinel", "Capital Outskirts/Inner Leyndell Entrance", "50,000 runes, Dragon Greatclaw Colossal Weapon, Dragonclaw Shield", "Required to get inside Leyndell proper."]
       - ["8_8", "Grave Warden Duelist", "Auriza Side Tomb", "Soldjars of Fortune Ashes", ""] #TODO: ADD RUNES
-      - ["8_9", "Crucible Knight Ordovis & Crucible Knight", "Auriza Hero's Grave", "28,000 runes, Ordovis's Greatsword, Crucible Axe Helm, Crucible Axe Armor, Crucible Gauntlets, Crucible Greaves", ""]
+      - ["8_9", "Crucible Knight Ordovis & Crucible Knight", "Auriza's Hero Grave", "28,000 runes, Ordovis's Greatsword, Crucible Axe Set (Helm, Armor, Gauntlets, Greaves)", ""]
       - ["8_10", "Erdtree Avatar", "Leyndell Main Road", "Lord's Rune", ""] #TODO: ADD RUNES
       - ["8_11", "Ulcerated Tree Spirit", "Lower Capital Church", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2]", "Field boss."]
       - ["8_12", "Valiant Gargoyle", "West Capital Rampart", "30,000 runes", ""]
-      - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Helm, Raging Wolf Armor, Raging Wolf Gauntlets, Raging Wolf Greaves", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
+      - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Set (Helm, Armor, Gauntlets, Greaves)", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
       - ["8_14", "Black Knife Assassin", "Queen's Bedchamber", "", ""] #TODO: ADD RUNES, DROPS
       - ["8_15", "Fell Twins (x2)", "Divine Tower of East Altus Bridge", "29,000 runes, Omenkiller Rollo Ashes", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight."]
       - ["8_16", "Mohg, the Omen", "Subterranean Shunning-Grounds/Cathedral of the Forsaken", "75,000 runes, Bloodflame Talons Incantation", "Grants Achievement/Trophy: Mohg, the Omen."]
       - ["8_17", "Godfrey, First Elden Lord (Golden Shade)", "Erdtree Sanctuary", "80,000 runes, Talisman Pouch", "Golden Shade. Required to get to Morgott, the Omen King. Grants Achievement/Trophy: Godfrey, the First Lord."]
-      - ["8_18", "Morgott, the Omen King", "The Elden Throne", "120,000 runes, Remembrance of the Omen King, Morgott's Great Rune", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Morgott."]
+      - ["8_18", "Morgott, the Omen King", "The Elden Throne", "120,000 runes, Morgott's Great Rune, Remembrance of the Omen King", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Morgott."]
   -
     title: "Mountaintops of the Giants"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["9_1", "Night's Cavalry", "Forbidden Lands", "36,000 runes, Ash of War: Phantom Slash", "Field boss. Nighttime only."]
       - ["9_2", "Black Blade Kindred", "Grand Lift of Rold", "60,000 runes, Gargoyle's Black Axe, Gargoyle's Black Blades", ""]
-      - ["9_3", "Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Mask, Zamor Armor, Zamor Bracelets, Zamor Legwraps", ""]
+      - ["9_3", "Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set (Mask, Armor, Bracelets, Legwraps)", ""]
       - ["9_4", "Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
       - ["9_5", "Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
-      - ["9_6", "Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Rune Arc, Furlcalling Finger Remedy, Hoslow's Petal Whip, Hoslow's Helm, Hoslow's Armor, Hoslow's Gauntlets, Hoslow's Greaves", ""]
+      - ["9_6", "Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Hoslow's Petal Whip, Hoslow's Set (Helm, Armor, Gauntlets, Greaves), Rune Arc, Furlcalling Finger Remedy", ""]
       - ["9_7", "Death Rite Bird", "North Mountaintops", "77,000 runes, Death Ritual Spear", "Field boss. Nighttime only."]
-      - ["9_8", "Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple", "Field boss."] #TODO: ADD RUNES
+      - ["9_8", "Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple Greatsword", "Field boss."] #TODO: ADD RUNES
       - ["9_9", "Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy: Commander Niall."]
       - ["9_10", "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set (Helm, Armor, Gauntlet, Greaves), Vyke's Dragonbolt Incantation", ""] #TODO: ADD RUNES
       - ["9_11", "Borealis, the Freezing Fog", "Frozen Lake", "100,000 runes, Dragon Heart", ""]
-      - ["9_12", "Bloody Finger Okina", "Church of Repose", "734 runes, Furlcalling Finger Remedy, Rivers of Blood, Okina Mask", "NPC invader."]
-      - ["9_13", "Godskin Apostle and Godskin Noble (Spectral)", "Spiritcaller's Cave", "70,000 runes, Godskin Swaddling Cloth, Black Flame Ritual", "Avoid the spectral summon enemies and kill the invisible Snail."]
+      - ["9_12", "Bloody Finger Okina", "Church of Repose", "734 runes, Rivers of Blood Katana, Okina Mask, Furlcalling Finger Remedy", "NPC invader."]
+      - ["9_13", "Godskin Apostle and Godskin Noble (Spectral Duo)", "Spiritcaller's Cave", "70,000 runes, Godskin Swaddling Cloth Talisman, Black Flame Ritual Incantation", "Avoid the spectral summon enemies and kill the invisible Snail."]
       - ["9_15", "Fire Giant", "Flame Peak", "180,000 runes, Remembrance of the Fire Giant", "Main boss. Required to proceed to Forge of the Giants. Grants Achievement/Trophy: Fire Giant."]
   -
     title: "Consecrated Snowfield"
