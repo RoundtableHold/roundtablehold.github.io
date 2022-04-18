@@ -590,9 +590,11 @@ var profilesKey = 'darksouls3_profiles';\n
     }
         themeSetup(profiles[profilesKey][profiles.current].style);
         """)
-    f.write('var all_ids = new Set([')
-    for id in all_ids:
-        f.write('"' + id + '", ')
+    f.write('var all_ids = new Set([\n')
+    all_ids_list = list(all_ids)
+    all_ids_list.sort()
+    for id in all_ids_list:
+        f.write('"' + id + '",\n')
     f.write(']);\n')
     f.write('function calculateProgress() {\n')
     for page in pages:
