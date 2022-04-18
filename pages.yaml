@@ -160,7 +160,7 @@ item_links:
   - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
   #- link_all: [bosses_2_20, bell_bearings_#_#] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_2_21, talismans_2_17] #DEATHBIRD/BLUE-FEATHERED BRANCHSWORD
-  #- link_all: [bosses_2_22, caves_#_#] #OLD KNIGHT ISTVAN/Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves #TODO: LINK AFTER ARMOR PAGE AND "SCALED SET" IS ADDED
+  - link_all: [bosses_2_22, armor_518, armor_519, armor_521, armor_522] #OLD KNIGHT ISTVAN/SCALED SET (HELM, ARMOR, GAUNTLETS, GREAVES)
   - link_all: [bosses_2_30, talismans_2_16] #GRAFTED SCION (X2)/ERDTREE'S FAVOR
   - link_all: [bosses_2_23, caves_1_2, spirit_ashes_2_2] #ULCERATED TREE SPIRIT/FRINGEFOLK HERO'S GRAVE/BANISHED KNIGHT OLEG ASHES
   - link_all: [bosses_2_23, flasks_1_7] #ULCERATED TREE SPIRIT/GOLDEN SEED
@@ -185,7 +185,7 @@ item_links:
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
   - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
   - link_all: [bosses_4_13, bell_bearings_1_1] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1]
-  #- link_all: [bosses_4_14, bell_bearings_#_#]] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_4_14, bell_bearings_#_#] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_4_15, crystal_tears_2_4, crystal_tears_2_5, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR/HOLY-SHROUDING CRACKED TEAR/MAGIC-SHROUDING CRACKED TEAR
   - source: caves_2_2
     target: [bosses_4_16] #BLACK KNIFE CATACOMBS/CEMETERY SHADE
@@ -195,7 +195,7 @@ item_links:
   - link_all: [bosses_4_17, talismans_4_1] #BLACK KNIFE ASSASSIN/ASSASSIN'S CERULEAN DAGGER TALISMAN
   - link_all: [bosses_4_18, weapons_24_5] #FESTERING FINGERPRINT VYKE/VYKE'S WAR SPEAR
   - link_all: [bosses_4_19, ashesofwar_11_3, weapons_25_10] #NIGHT'S CAVALRY/AOW: GIANT HUNT/NIGHTRIDER GLAIVE
-  #- link_all: [bosses_4_20, caves_?] #ROYAL REVENANT/KINGSREALM RUINS UNDERGROUND #TODO: ASK IF THIS LOCATION SHOULD BE ADDED
+  #- link_all: [bosses_4_20, caves_#_#] #ROYAL REVENANT/KINGSREALM RUINS UNDERGROUND #TODO: ASK IF THIS LOCATION SHOULD BE ADDED
   - link_all: [bosses_4_21, weapons_13_14, weapons_34_7] #GRAFTED SCION/ORNAMENTAL STRAIGHT SWORD/GOLDEN BEAST CREST SHIELD
   - link_all: [bosses_4_22, evergaols_2_1, sorceries_4_6] #BOLS/CUCKOO'S EVERGAOL/GREATBLADE PHALANX SORCERY
   - link_all: [bosses_4_23, weapons_25_2] #EDGAR/BANISHED KNIGHT'S HALBERD (+8)
@@ -229,7 +229,7 @@ item_links:
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
   - link_all: [bosses_5_17, sorceries_8_4] #PUTRID CRYSTALIAN (SPEAR & RINGBLADE & STAFF)/CRYSTAL TORRENT SORCERY
   - link_all: [bosses_5_18, armor_168, armor_169, armor_170, armor_171] #GODSKIN APOSTLE/GODSKIN APOSTLE SET (HOOD, ROBE, BRACERS, TROUSERS)
-  #- link_all: [bosses_5_19, bell_bearings_#_#]] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  #- link_all: [bosses_5_19, bell_bearings_#_#] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
   - link_all: [bosses_5_20, crystal_tears_3_3, crystal_tears_3_4] #PUTRID AVATAR (EAST)/OPALINE HARDTEAR/STONEBARB CRACKED TEAR
   - link_all: [bosses_5_21, caves_3_7, talismans_5_7] #BEASTMAN OF FARUM AZULA (GREATSWORD & THROWING KNIFE)/DRAGONBARROW CAVE/FLAMEDRAKE TALISMAN [+2]
   - link_all: [bosses_5_22, ashesofwar_6_2] #NIGHT'S CAVALRY (LENNE'S RISE BRIDGE)/AOW: BLOODHOUND'S STEP
@@ -295,8 +295,23 @@ item_links:
   #- link_all: [bosses_8_14, _] #BLACK KNIFE ASSASSIN/ #TODO ADD DROPS
   - link_all: [bosses_8_15, spirit_ashes_7_3] #FELL TWINS (X2)/OMENKILLER ROLLO ASHES
   - link_all: [bosses_8_16, legacy_1_11, incantations_2_3] #MOHG THE OMEN/SUB SHUNNING GROUNDS/BLOODFLAME TALONS INCANTATION
-  - link_all: [bosses_8_17, memory_stones_talisman_pouches_1_4,] #GODFREY FIRST ELDEN LORD (GOLDEN SHADE)/TALISMAN POUCH
+  - link_all: [bosses_8_17, memory_stones_talisman_pouches_1_4] #GODFREY FIRST ELDEN LORD (GOLDEN SHADE)/TALISMAN POUCH
   - link_all: [bosses_8_18, legacy_1_10, great_runes_1_4, remembrances_mausoleums_1_10] #MORGOTT THE OMEN KING/LEYNDELL ROYAL CAPITAL/MORGOTT'S GREAT RUNE, REMEMBRANCE OF THE OMEN KING
+  - link_all: [bosses_9_1, ashesofwar_11_4] #NIGHT'S CAVLARY/AOW PHANTOM SLASH
+  - link_all: [bosses_9_2, weapons_19_9, weapons_18_5] #BLACK BLADE KINDRED/GARGOYLE'S BLACK AXE/GARGOYLE'S BLACK BLADES
+  - link_all: [bosses_9_3, caves_7_1, weapons_8_5, armor_367, armor_368, armor_369, armor_370] #ANCIENT HERO OF ZAMOR/GIANT-CONQUERING HERO'S GRAVE/ZAMOR CURVED SWORD/ZAMOR SET (MASK, ARMOR, BRACELETS, LEGWRAPS)
+  - link_all: [bosses_9_4, caves_7_2, flasks_1_32, bell_bearings_3_2, dragon_hearts_death_roots_1_7] #ULCERATED TREE SPIRIT/GIANTS' MOUNTAINTOP CATACOMBS/GOLDEN SEED/GLOVEWORT PICKER'S BELL BEARING [2]/DEATHROOT
+  - link_all: [bosses_9_5, crystal_tears_8_1, crystal_tears_8_2] #ERDTREE AVATAR/CERULEAN CRYSTAL TEAR/CRIMSON BUBBLETEAR
+  - link_all: [bosses_9_6, weapons_27_4, armor_450, armor_452, armor_454, armor_455] #JUNO HOSLOW/HOSLOW'S PETAL WHIP, HOSLOW'S SET (HELM, ARMOR, GAUNTLETS, GREAVES)
+  - link_all: [bosses_9_7, weapons_23_15] #DEATH RITE BIRD/DEATH RITUAL SPEAR
+  - link_all: [bosses_9_8, weapons_14_17, dragon_hearts_death_roots_1_8] #TIBIA MARINER/HELPHEN'S STEEPLE GREATSWORD/DEATHROOT
+  - link_all: [bosses_9_9, legacy_1_13, weapons_28_7] #COMMANDER NIALL/CASTLE SOL/VETERAN'S PROSTHESIS FIST
+  - link_all: [bosses_9_10, evergaols_5_1, armor_477, armor_478, armor_480, armor_481, incantations_4_11] #VIKE/LORD CONTENDER'S EVERGAOL/FINGERPRINT SET (HELM, ARMOR, GAUNTLET, GREAVES)/VYKE'S DRAGONBOLT INCANTATION
+  - link_all: [bosses_9_11, dragon_hearts_death_roots_0_12] #BOREALIS/DRAGON HEART
+  - link_all: [bosses_9_12, weapons_17_6, armor_337] #BLOODY FINGER OKINA/RIVERS OF BLOOD KATANA, OKINA MASK
+  - link_all: [bosses_9_13, caves_7_3, talismans_9_5, incantations_9_3] #GODSKIN APOSTLE & NOBLE (SPECTRAL DUO)/SPIRITCALLER'S CAVE/GODSKIN SWADDLING CLOTH TALISMAN/BLACK FLAME RITUAL INCANTATION
+  - link_all: [bosses_9_15, remembrances_mausoleums_1_9] #FIRE GIANT/REMEMBRANCE OF THE FIRE GIANT
+  
   - link_all: [armor_22, armor_26] # Links Page Trousers
   - link_all: [armor_66, armor_70] # Links Sorcerer Manchettes
   - link_all: [armor_67, armor_71] # Links Sorcerer Leggings
