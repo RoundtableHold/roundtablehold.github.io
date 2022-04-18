@@ -46,6 +46,10 @@ if ('serviceWorker' in navigator) {
     if (!('current' in profiles)) profiles.current = 'Default Profile';
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
+        
+    function updateTextbox() {
+        document.getElementById("profileText").value = JSON.stringify(profiles);
+    }
     
     jQuery(document).ready(function($) {
         // Get the right style going...
@@ -187,9 +191,6 @@ if ('serviceWorker' in navigator) {
           fr.onload = dataLoadCallback;
         });
         
-        function updateTextbox() {
-            document.getElementById("profileText").value = JSON.stringify(profiles);
-        }
 
         /*
         *  Import & Export using textarea instead of files

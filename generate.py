@@ -119,6 +119,7 @@ def hide_completed_button():
 def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
+            a('Roundtable Hold', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
             # with div(cls='order-md-last'):
@@ -126,8 +127,8 @@ def make_nav(page):
             #         input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
-                    with li(cls="nav-item"):
-                        a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
+                    # with li(cls="nav-item"):
+                    #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
                         page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
                         with li(cls="dropdown nav-item"):
@@ -338,12 +339,14 @@ def make_checklist(page):
         make_nav(to_snake_case(page['title']))
         # whole page
         with div(cls="container uncolor-links"):
-            title_row()
-            hide_completed_button()
+            # title_row()
             # Filter buttons
-            h = h2()
-            h += page['title']
-            h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            with div(cls="row text-center"):
+                h = h1()
+                h += page['title']
+                h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            
+            hide_completed_button()
 
             if 'description' in page:
                 p(raw(page['description']))
