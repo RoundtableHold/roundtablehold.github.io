@@ -161,6 +161,7 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
+    script(src='/js/scroll.js')
     script(src="/js/jstorage.min.js")
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
@@ -362,8 +363,8 @@ def make_checklist(page):
 
             with div(id=page['id']+"_list"):
                 for s_idx, section in enumerate(page['sections']):
-                    with div(cls='card shadow-sm mb-3').add(div(cls='card-body')):
-                        with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
+                    with div(cls='card shadow-sm mb-3', id=page['id'] + '_section_' + str(s_idx)).add(div(cls='card-body')):
+                        with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
                             if 'link' in section:
@@ -608,3 +609,26 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('calculateProgress();\n')
     f.write('  });\n')
     f.write('})( jQuery );\n')
+
+with open(os.path.join('docs', 'js', 'sw.js'), 'w', encoding='utf_8') as f:
+    f.write(
+"""
+self.addEventListener('install', (e) => {
+    e.waitUntil(
+        caches.open('roundtable-store').then((cache) => cache.addAll([
+""")
+    for root, dirs, files in os.walk("docs"):
+        for name in files:
+            f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
+    f.write(
+"""
+        ])),
+    );
+});
+
+self.addEventListener('fetch', (e) => {
+    e.respondWith(
+        caches.match(e.request).then((response) => response || fetch(e.request)),
+    );
+});
+""")

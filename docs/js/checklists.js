@@ -233,12 +233,12 @@ if ('serviceWorker' in navigator) {
         });
     });
 
-    $('.toc_link').click(function() {
-        var target = $(this).attr('href');
-        $('html, body').animate({
-            scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
-        }, 100);
-    });
+    // $('.toc_link').click(function() {
+    //     var target = $(this).attr('href');
+    //     $('html, body').animate({
+    //         scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
+    //     }, 100);
+    // });
     
     $(function () {
         // reset `Hide completed` button state (otherwise Chrome bugs out)
