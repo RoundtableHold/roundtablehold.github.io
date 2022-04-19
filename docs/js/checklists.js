@@ -102,6 +102,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('input[id="toggleHideCompleted"]').change(function() {
+            var profiles = $.jStorage.get(profilesKey, {});
             var hidden = !$(this).is(':checked');
 
             $(this).parent('div').parent('div').parent('div').toggleClass('hide_completed', !hidden);
@@ -125,6 +126,7 @@ if ('serviceWorker' in navigator) {
             profiles[profilesKey][profile_name].journey = 1;
         if (!('style' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].style = 'Standard';
+        $.jStorage.set(profilesKey, profiles);
     }
 
     /// restore all saved state, except for the current tab
@@ -250,6 +252,7 @@ if ('serviceWorker' in navigator) {
 
         // register on click handlers to store state
         $('a[href$="Col"]').on('click', function (el) {
+            var profiles = $.jStorage.get(profilesKey, {});
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 
