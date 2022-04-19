@@ -47,6 +47,7 @@ if ('serviceWorker' in navigator) {
     initializeProfile(profiles.current);
 
     window.setCheckbox = function(id, checked) {
+        var profiles = $.jStorage.get(profilesKey, {});
         profiles[profilesKey][profiles.current].checklistData[id] = checked;
         if ($('#' + id).length === 1) {
             var el = $('#' + id).get(0);
