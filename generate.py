@@ -78,7 +78,7 @@ for page in pages:
                     else:
                         all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
 
-def make_doc(title):
+def make_doc(title, description):
     doc = dominate.document(title=title)
     doc.set_attribute('lang', 'en')
     with doc.head:
@@ -119,7 +119,7 @@ def hide_completed_button():
 def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
-            a('Roundtable Hold', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
+            a('Roundtable Guides', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
             # with div(cls='order-md-last'):
@@ -197,24 +197,21 @@ def make_footer(page=None):
             """.format(page_id=page['id']))
 
 def make_index():
-    doc = make_doc("Roundtable Hold - Home")
+    doc = make_doc("Roundtable Guides", "Elden Ring Guides and Progress Tracker")
     with doc:
         make_nav('index')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
                 with div(cls="row gy-3"):
                     with div(cls='col-md-8 col-12'):
                         with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Welcome to the Roundtable Hold', cls='card-title text-center')
-                                        p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                                        h5('Welcome to Roundtable Guides', cls='card-title text-center')
+                                        p('Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
                             with div(cls="col"):
                                 with div(cls='card shadow h-100'):
                                     with div(cls="card-body"):
@@ -258,16 +255,13 @@ def make_index():
         index.write(doc.render())
 
 def make_options():
-    doc = make_doc('Roundtable Hold - Options')
+    doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav('options')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
             with div(cls="row"):
                 h2("Options")
                 with div(cls="row"):
@@ -334,7 +328,7 @@ def make_options():
 
 def make_checklist(page):
     page['num_ids'] = 0 
-    doc = make_doc("Roundtable Hold - " + page['title'])
+    doc = make_doc(page['title'] + " | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav(to_snake_case(page['title']))
         # whole page
@@ -342,7 +336,7 @@ def make_checklist(page):
             # title_row()
             # Filter buttons
             with div(cls="row text-center"):
-                h = h1()
+                h = h1(cls='mt-4')
                 h += page['title']
                 h += span(id=page['id'] + "_overall_total", cls='d-print-none')
             

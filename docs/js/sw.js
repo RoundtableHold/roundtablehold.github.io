@@ -3,6 +3,7 @@ self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open('roundtable-store').then((cache) => cache.addAll([
             '/CNAME',
+            '/googleb879f1c6c4b4a844.html',
             '/index.html',
             '/manifest.webmanifest',
             '/options.html',

@@ -58,6 +58,7 @@ if ('serviceWorker' in navigator) {
 
         // Theme callback
         $('#themes').change(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             var stylesheet = $('#themes').val();
             themeSetup(stylesheet);
             profiles[profilesKey][profiles.current].style = stylesheet;
@@ -66,6 +67,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profiles').change(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             profiles.current = $(this).val();
             $.jStorage.set(profilesKey, profiles);
             updateTextbox();
@@ -96,6 +98,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profileModalAdd').click(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             var profile = $.trim($('#profileModalName').val());
             if (profile.length > 0) {
                 initializeProfile(profile);
@@ -108,6 +111,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profileModalUpdate').click(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             var newName = $.trim($('#profileModalName').val());
             if (newName.length > 0 && newName != profiles.current) {
@@ -122,6 +126,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profileModalDelete').click(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!canDelete()) {
                 return;
@@ -142,6 +147,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#NG\\+ModalYes').click(function(event) {
+            var profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!confirm('Are you sure you wish to begin the next journey?')) {
                 return;
@@ -202,6 +208,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('#profileImportText').click(function(){
+            var profiles = $.jStorage.get(profilesKey, {});
             if (!confirm('Are you sure you want to import profile data?')) {
                 return;
             }
@@ -253,11 +260,12 @@ if ('serviceWorker' in navigator) {
     }
 
     function dataLoadCallback(arg){
-      var jsonProfileData = JSON.parse(arg.currentTarget.result);
-      profiles = jsonProfileData;
-      $.jStorage.set(profilesKey, profiles);
-      populateProfiles();
-      $('#profiles').trigger("change");
+        var profiles = $.jStorage.get(profilesKey, {});
+        var jsonProfileData = JSON.parse(arg.currentTarget.result);
+        profiles = jsonProfileData;
+        $.jStorage.set(profilesKey, profiles);
+        populateProfiles();
+        $('#profiles').trigger("change");
         updateTextbox();
     }
 
