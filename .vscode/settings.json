@@ -19,5 +19,7 @@
         "**/*.css"
     ],
     "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.root": "/docs"
+    "liveServer.settings.root": "/docs",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 1.2
 }
