@@ -204,6 +204,7 @@ sections:
       - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Set (Helm, Armor, Gauntlets, Greaves)", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
       - ["8_14", "Black Knife Assassin", "Queen's Bedchamber", "", ""] #TODO: ADD RUNES, DROPS
       - ["8_15", "Fell Twins (x2)", "Divine Tower of East Altus Bridge", "29,000 runes, Omenkiller Rollo Ashes", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight."]
+      - ["8_19", "Esgar, Priest of Blood", "Leyndell Catacombs/Subterranean Shunning-Grounds", "30,000 runes, Lord of Blood's Exultation Talisman", ""]
       - ["8_16", "Mohg, the Omen", "Subterranean Shunning-Grounds/Cathedral of the Forsaken", "75,000 runes, Bloodflame Talons Incantation", "Grants Achievement/Trophy: Mohg, the Omen."]
       - ["8_17", "Godfrey, First Elden Lord (Golden Shade)", "Erdtree Sanctuary", "80,000 runes, Talisman Pouch", "Golden Shade. Required to get to Morgott, the Omen King. Grants Achievement/Trophy: Godfrey, the First Lord."]
       - ["8_18", "Morgott, the Omen King", "The Elden Throne", "120,000 runes, Morgott's Great Rune, Remembrance of the Omen King", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Morgott."]
@@ -230,16 +231,16 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["10_13", "Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
-      - ["10_1", "Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Great Grave Glovewort, Rotten Gravekeeper Cloak", ""]
-      - ["10_2", "Night's Cavalry (x2)", "Snowfields Wagon", "84,000 runes, Night's Cavalry Set, Ancient Dragon Smithing Stone", "Field boss. Nighttime only."]
+      - ["10_1", "Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort", ""]
+      - ["10_2", "Night's Cavalry (x2)", "Snowfields Wagon", "84,000 runes, Night's Cavalry Set (Helm, Armor, Gauntlets, Greaves), Ancient Dragon Smithing Stone", "Field boss. Nighttime only."]
       - ["10_3", "Astel, Stars of Darkness", "Yelough Anix Tunnel", "120,000 runes, Meteorite of Astel Sorcery", ""]
       - ["10_4", "Sanguine Noble", "Consecrated Snowfield (West)", "8800 runes, Bloodrose", ""]
       - ["10_5", "Great Wyrm Theodorix", "Consecrated Snowfield (East)", "180,000 runes, Dragon Heart (x3)", ""]
       - ["10_6", "Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword", ""]
       - ["10_7", "Putrid Avatar", "Minor Erdtree", "160,000 runes, Ruptured Crystal Tear, Thorny Cracked Tear", "Field boss."]
-      - ["10_8", "Death Rite Bird", "Consecrated Snowfield (North)", "220,000 runes, Explosive Ghostflame", "Field boss. Nighttime only."]
+      - ["10_8", "Death Rite Bird", "Consecrated Snowfield (North)", "220,000 runes, Explosive Ghostflame Sorcery", "Field boss. Nighttime only."]
       - ["10_9", "Black Knife Assassin", "Ordina, Liturgical Town", "", ""] #TODO: ADD RUNES, DROPS
-      - ["10_12", "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone", "NPC. 3rd invasion."] #TODO: ADD RUNES
+      - ["10_12", "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Somber Ancient Dragon Smithing Stone, Furlcalling Finger Remedy", "NPC. 3rd invasion."] #TODO: ADD RUNES
       - ["10_10", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "200,000 runes, Loretta's Mastery Sorcery, Loretta's War Sickle", "Grants Achievement/Trophy: Loretta, Knight of the Haligtree."]
       - ["10_11", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "480,000 runes, Malenia's Great Rune, Remembrance of the Rot Goddess", "Optional. Grants Achievement/Trophy: Shardbearer Malenia."]
   -
