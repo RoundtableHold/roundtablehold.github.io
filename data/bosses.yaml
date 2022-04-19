@@ -56,7 +56,7 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["3_1", "Mad Tongue Alberich", "Roundtable Hold", "1562 runes, Taunter's Tongue, Furlcalling Finger Remedy", "NPC invader. Jump off the balcony to area below and go near the large set of doors to trigger."]
-      - ["3_2", "Ensha of the Royal Remains", "Roundtable Hold", "Clinging Bone Fist, Royal Remains Set (Helm, Armor, Gauntlet, Greaves)", "Edgelord. Attacks you as an NPC invader after you get one half of the Haligree Secret Medallion."] #TODO: ADD RUNES
+      - ["3_2", "Ensha of the Royal Remains", "Roundtable Hold", "Clinging Bone Fist, Royal Remains Set", "Edgelord. Attacks you as an NPC invader after you get one half of the Haligree Secret Medallion."] #TODO: ADD RUNES
   -
     title: "Liurnia of the Lakes"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -69,7 +69,7 @@ sections:
       - ["4_5", "Night's Cavalry", "Gate Town Bridge", "5600 runes, Ash of War: Ice Spear", "Nighttime only."]
       - ["4_6", "Preceptor Miriam", "Carian Study Hall", "5000 runes, Magic Downpour Sorcery", "NPC invader. 1st invasion."]
       - ["4_39", "Preceptor Miriam", "Carian Study Hall (Inverted)", "5000 runes, Lucidity Sorcery", "NPC invader. 2nd invasion."]
-      - ["4_7", "Godskin Noble", "Carian Study Hall (Inverted)/Divine Tower of Liurnia Bridge", "4810 runes, Godskin Noble Set (Hood, Robe, Bracelets, Trousers)", ""]
+      - ["4_7", "Godskin Noble", "Carian Study Hall (Inverted)/Divine Tower of Liurnia Bridge", "4810 runes, Godskin Noble Set", ""]
       - ["4_8", "Deathbird", "Scenic Isle", "Red-Feathered Branchsword Talisman", "Nighttime only."] #TODO: ADD RUNES
       - ["4_9", "Grafted Scion", "Fallen Ruins of the Lake", "1283 runes, Larval Tear", "Field boss. Disguised as a lobster. Kill the lobster in the area and it will turn into a Grafted Scion."]
       - ["4_10", "Glintstone Dragon Smarag", "Temple Quarter", "14,000 runes, Dragon Heart", "Field boss. Usually sleeping and also guardian the Academy Glintstone Key."]
@@ -123,7 +123,7 @@ sections:
       - ["5_15", "Battlemage Hugues", "Sellia Evergaol", "7800 runes, Battlemage Hugues Ashes", ""]
       - ["5_16", "Elder Dragon Greyoll", "Fort Faroth (Outside)", "50,000 runes, Dragon Heart, Unlocks Elder Dragon Greyoll's Roar (Dragon Communion Incantation)", "5423 Runes (for each smaller Dragon around it)"]
       - ["5_17", "Putrid Crystalian (Spear), Putrid Crystalian (Ringblade) & Putrid Crystalian (Staff)", "Sellia Hideaway", "7000 runes, Crystal Torrent Sorcery", "Annoying as all hell."]
-      - ["5_18", "Godskin Apostle", "Divine Tower of Caelid (Basement)", "94,000 runes, Godskin Apostle Set (Hood, Robe, Bracers, Trousers)", ""]
+      - ["5_18", "Godskin Apostle", "Divine Tower of Caelid (Basement)", "94,000 runes, Godskin Apostle Set", ""]
       - ["5_19", "Bell Bearing Hunter", "Isolated Merchant's Shack", "50,000 runes, Gravity Stone Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from merchant. Pass time, then rest once to summon."]
       - ["5_20", "Putrid Avatar", "Minor Erdtree (East)", "91,000 runes, Opaline Hardtear, Stonebarb Cracked Tear", "Field boss."]
       - ["5_21", "Beastman of Farum Azula (Greatsword) & Beastman of Farum Azula (Throwing Knife)", "Dragonbarrow Cave", "65,000 runes, Flamedrake Talisman [+2]", ""]
@@ -194,14 +194,14 @@ sections:
       - ["8_3", "Margit, the Fell Omen", "Capital Outskirts (Northwest)", "", "Tries to put your foolish ambitions to rest again."] #TODO: ADD RUNES, DROPS
       - ["8_4", "Deathbird", "Capital Outskirts (North)", "29,000 runes, Twinbird Kite Shield", "Field boss. Nighttime only."]
       - ["8_5", "Onyx Lord", "Sealed Tunnel", "16,000 runes, Onyx Lord's Greatsword", ""]
-      - ["8_6", "The Loathsome Dung Eater", "Capital Outskirts", "For killing him: Omen Set (Helm, Armor, Gauntlets, Greaves), Sword of Milos", "Can instead gain the full Omen Set, Sword of Milos and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline."] #TODO: ADD RUNES
+      - ["8_6", "The Loathsome Dung Eater", "Capital Outskirts", "For killing him: Omen Set, Sword of Milos", "Can instead gain the full Omen Set, Sword of Milos and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline."] #TODO: ADD RUNES
       - ["8_7", "Draconic Tree Sentinel", "Capital Outskirts/Inner Leyndell Entrance", "50,000 runes, Dragon Greatclaw Colossal Weapon, Dragonclaw Shield", "Required to get inside Leyndell proper."]
       - ["8_8", "Grave Warden Duelist", "Auriza Side Tomb", "Soldjars of Fortune Ashes", ""] #TODO: ADD RUNES
-      - ["8_9", "Crucible Knight Ordovis & Crucible Knight", "Auriza's Hero Grave", "28,000 runes, Ordovis's Greatsword, Crucible Axe Set (Helm, Armor, Gauntlets, Greaves)", ""]
+      - ["8_9", "Crucible Knight Ordovis & Crucible Knight", "Auriza's Hero Grave", "28,000 runes, Ordovis's Greatsword, Crucible Axe Set", ""]
       - ["8_10", "Erdtree Avatar", "Leyndell Main Road", "Lord's Rune", ""] #TODO: ADD RUNES
       - ["8_11", "Ulcerated Tree Spirit", "Lower Capital Church", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2]", "Field boss."]
       - ["8_12", "Valiant Gargoyle", "West Capital Rampart", "30,000 runes", ""]
-      - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Set (Helm, Armor, Gauntlets, Greaves)", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
+      - ["8_13", "Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Set", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
       - ["8_14", "Black Knife Assassin", "Queen's Bedchamber", "", ""] #TODO: ADD RUNES, DROPS
       - ["8_15", "Fell Twins (x2)", "Divine Tower of East Altus Bridge", "29,000 runes, Omenkiller Rollo Ashes", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight."]
       - ["8_19", "Esgar, Priest of Blood", "Leyndell Catacombs/Subterranean Shunning-Grounds", "30,000 runes, Lord of Blood's Exultation Talisman", ""]
@@ -214,14 +214,14 @@ sections:
     items:
       - ["9_1", "Night's Cavalry", "Forbidden Lands", "36,000 runes, Ash of War: Phantom Slash", "Field boss. Nighttime only."]
       - ["9_2", "Black Blade Kindred", "Grand Lift of Rold", "60,000 runes, Gargoyle's Black Axe, Gargoyle's Black Blades", ""]
-      - ["9_3", "Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set (Mask, Armor, Bracelets, Legwraps)", ""]
+      - ["9_3", "Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set", ""]
       - ["9_4", "Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
       - ["9_5", "Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
       - ["9_6", "Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Hoslow's Petal Whip, Hoslow's Set (Helm, Armor, Gauntlets, Greaves), Rune Arc, Furlcalling Finger Remedy", ""]
       - ["9_7", "Death Rite Bird", "North Mountaintops", "77,000 runes, Death Ritual Spear", "Field boss. Nighttime only."]
       - ["9_8", "Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple Greatsword", "Field boss."] #TODO: ADD RUNES
       - ["9_9", "Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy: Commander Niall."]
-      - ["9_10", "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set (Helm, Armor, Gauntlet, Greaves), Vyke's Dragonbolt Incantation", ""] #TODO: ADD RUNES
+      - ["9_10", "Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set, Vyke's Dragonbolt Incantation", ""] #TODO: ADD RUNES
       - ["9_11", "Borealis, the Freezing Fog", "Frozen Lake", "100,000 runes, Dragon Heart", ""]
       - ["9_12", "Bloody Finger Okina", "Church of Repose", "734 runes, Rivers of Blood Katana, Okina Mask, Furlcalling Finger Remedy", "NPC invader."]
       - ["9_13", "Godskin Apostle and Godskin Noble (Spectral Duo)", "Spiritcaller's Cave", "70,000 runes, Godskin Swaddling Cloth Talisman, Black Flame Ritual Incantation", "Avoid the spectral summon enemies and kill the invisible Snail."]
@@ -232,7 +232,7 @@ sections:
     items:
       - ["10_13", "Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
       - ["10_1", "Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort", ""]
-      - ["10_2", "Night's Cavalry (x2)", "Snowfields Wagon", "84,000 runes, Night's Cavalry Set (Helm, Armor, Gauntlets, Greaves), Ancient Dragon Smithing Stone", "Field boss. Nighttime only."]
+      - ["10_2", "Night's Cavalry (x2)", "Snowfields Wagon", "84,000 runes, Night's Cavalry Set, Ancient Dragon Smithing Stone", "Field boss. Nighttime only."]
       - ["10_3", "Astel, Stars of Darkness", "Yelough Anix Tunnel", "120,000 runes, Meteorite of Astel Sorcery", ""]
       - ["10_4", "Sanguine Noble", "Consecrated Snowfield (West)", "8800 runes, Bloodrose", ""]
       - ["10_5", "Great Wyrm Theodorix", "Consecrated Snowfield (East)", "180,000 runes, Dragon Heart (x3)", ""]
@@ -278,7 +278,7 @@ sections:
     title: "Mohgwyn Palace"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["15_1", "Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set (White Mask, War Surgeon Gown, War Surgeon Gloves, War Surgeon Trousers), Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"] #TODO: ADD RUNES
+      - ["15_1", "Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set, Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"] #TODO: ADD RUNES
       - ["15_2", "White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Furcalling Finger Remedy, Rune Arc, Festering Bloody Fingers (x6). And Varre's Bouquet (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"] #TODO: ADD RUNES
       - ["15_3", "Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varre's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy: Shardbearer Mohg."]
   -
