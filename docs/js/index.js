@@ -2114,6 +2114,7 @@ var profilesKey = 'darksouls3_profiles';
 "quest_order_tldr_22",
 "quest_order_tldr_220",
 "quest_order_tldr_221",
+"quest_order_tldr_221_2",
 "quest_order_tldr_222",
 "quest_order_tldr_223",
 "quest_order_tldr_224",
@@ -2969,7 +2970,7 @@ var profilesKey = 'darksouls3_profiles';
 function calculateProgress() {
 const playthrough_total = 131;
 var playthrough_checked = 0;
-const quest_order_tldr_total = 265;
+const quest_order_tldr_total = 266;
 var quest_order_tldr_checked = 0;
 const npc_quests_total = 344;
 var npc_quests_checked = 0;
