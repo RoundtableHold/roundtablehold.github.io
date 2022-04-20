@@ -398,25 +398,37 @@ def make_checklist(page):
                                             if isinstance(item, str):
                                                 h5(item)
                                                 continue
-                                            with div(cls="row form-check checkbox"):
-                                                with div(cls="col-auto"):
-                                                    input_(cls="form-check-input", type="checkbox", value="",
+                                            with div(cls="row form-check checkbox d-flex"):
+                                                with div(cls="col-auto d-flex align-items-center"):
+                                                    input_(cls="form-check-input pe-0 me-0", type="checkbox", value="",
                                                             id=page['id'] + '_' + id)
                                                     page['num_ids'] += 1
-                                                with div(cls="col").add(div(cls="row")):
+                                                with div(cls="col d-flex align-items-center d-md-block d-none").add(div(cls="row")):
                                                     for pos in range(table_cols):
                                                         if 'table_widths' in page:
                                                             col_size = str(page['table_widths'][pos])
                                                         else:
                                                             col_size = str(size)
-                                                        with div(cls="col-md-" + col_size + (' col-xs-12' if item['data'][pos] else ' d-md-block d-none')):
+                                                        with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
-                                                                if isinstance(section['table'], list) and item['data'][pos]:
-                                                                    strong(section['table'][pos] + ': ', cls="d-md-none d-inline-block me-1")
+                                                                if pos == 0 and 'icon' in item:
+                                                                    img(src=item['icon'], height='60', width='60')
                                                                 if item['data'][pos]:
                                                                     raw(item['data'][pos])
-                                                                if pos == 0 and 'icon' in item:
-                                                                    img(src=item['icon'])
+                                                with div(cls='col d-md-none'):
+                                                    if 'icon' in item:
+                                                        img(src=item['icon'], width='60', height='60', cls='float-end')
+                                                    for pos in range(table_cols):
+                                                        if 'table_widths' in page:
+                                                            col_size = str(page['table_widths'][pos])
+                                                        else:
+                                                            col_size = str(size)
+                                                        if isinstance(section['table'], list) and item['data'][pos]:
+                                                            strong(section['table'][pos] + ': ', cls="me-1")
+                                                        if item['data'][pos]:
+                                                            raw(item['data'][pos])
+                                                            br()
+                                                        
                         else:
                             with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
                                 items = peekable(section['items'])
@@ -431,11 +443,11 @@ def make_checklist(page):
                                         continue
                                     id = str(item['id'])
                                     with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
-                                        with div(cls="form-check checkbox"):
+                                        with div(cls="form-check checkbox d-flex align-items-center"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                             with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                 if 'icon' in item:
-                                                    img(src=item['icon'])
+                                                    img(src=item['icon'], width='60', height='60', cls='float-md-none float-end')
                                                 raw(item['data'][0])
                                             page['num_ids'] += 1
                                     if isinstance(items.peek(0), list):
@@ -443,9 +455,12 @@ def make_checklist(page):
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
                                                 with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item"):
-                                                    with div(cls="form-check checkbox"):
+                                                    with div(cls="form-check checkbox d-flex align-items-center"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
-                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])).add(raw(subitem['data'][0]))
+                                                        with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
+                                                            if 'icon' in item:
+                                                                img(src=item['icon'], width='60', height='60', cls='float-end')
+                                                            raw(subitem['data'][0])
                                                         page['num_ids'] += 1
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
