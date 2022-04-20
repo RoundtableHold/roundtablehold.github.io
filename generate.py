@@ -388,7 +388,6 @@ def make_checklist(page):
                                         with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
                                             with div(cls="col-auto"):
                                                 input_(cls="form-check-input invisible", type='checkbox')
-                                                page['num_ids'] += 1
                                             with div(cls="col").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     if 'table_widths' in page:
