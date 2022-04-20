@@ -125,7 +125,7 @@ const paintings_total = 16;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
-const gestures_total = 55;
+const gestures_total = 56;
 var gestures_checked = 0;
 for (var id in profiles[profilesKey][profiles.current].checklistData) {
 if (profiles[profilesKey][profiles.current].checklistData[id] === true) {
