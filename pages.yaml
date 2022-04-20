@@ -180,7 +180,7 @@ item_links:
   - link_all: [bosses_4_39, sorceries_5_2] #PRECEPTOR MIRIAM/LUCIDITY SORCERY
   - link_all: [bosses_4_7, armor_172, armor_173, armor_174, armor_175] #GODSKIN NOBLE/GODSKIN NOBLE SET (HOOD, ROBE, BRACELET, TROUSERS)
   - link_all: [bosses_4_8, talismans_4_13] #DEATHBIRD/RED-FEATHERED BRANCHSWORD
-  #- link_all: [bosses_4_9, ?] #GRAFTED SCION/LARVAL TEAR #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
+  #- link_all: [bosses_4_9] #GRAFTED SCION/LARVAL TEAR #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
   - link_all: [bosses_4_10, dragon_hearts_death_roots_0_3] #GLINTSTONE DRAGON SMARAG/DRAGON HEART
   - link_all: [bosses_4_11, caves_2_1, sorceries_4_22, sorceries_4_23] #CRYSTALIAN SPEAR & STAFF/ACADEMY CRYSTAL CAVE/CRYSTAL RELEASE SORCERY/TERRA MAGICA SORCERY (TAKE LIFT FOR CHEST)
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
@@ -326,6 +326,28 @@ item_links:
   - link_all: [bosses_10_12, ancient_dragon_smithing_stones_15] #ANASTASIA/SOMBER ANCIENT DRAGON SMITHING STONE
   - link_all: [bosses_10_10, legacy_1_14, sorceries_13_1, weapons_25_15] #LORETTA/MIQUELLA'S HALIGTREE/LORETTA'S MASTERY SORCERY/LORETTA'S WAR SICKLE
   - link_all: [bosses_10_11, legacy_1_15, great_runes_1_6, remembrances_mausoleums_1_14] #MALENIA/ELPHAEL BRACE OF THE HALIGTREE/MALENIA'S GREAT RUNE/REMEMBRANCE OF THE ROT GODDESS
+  - link_all: [bosses_11_2, ashesofwar_4_1, bell_bearings_1_4] #GODSKIN DUO/AOW BLACK FLAME TORNADO/SMITHING-STONE MINER'S BELL BEARING [4]
+  - link_all: [bosses_11_3, weapons_22_15, armor_523, armor_524, armor_526, armor_527, bell_bearings_#_#] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER/BEAST CHAMPION SET/BERNAHL'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
+  - link_all: [bosses_11_4, armor_533, armor_534, armor_535, armor_536] #DRACONIC TREE SENTINEL/MALFORMED DRAGON SET
+  - link_all: [bosses_11_5, remembrances_mausoleums_1_11] #DRAGONLORD PLACIDUSAX/REMEMBRANCE OF THE DRAGONLORD
+  - link_all: [bosses_11_6, legacy_1_12, remembrances_mausoleums_1_7] #MALIKETH/CRUMBLING FARUM AZULA/REMEMBRANCE OF THE BLACK BLADE
+  - link_all: [bosses_12_1, weapons_20_14, armor_486, armor_487, armor_489, armor_490] #SIR GIDEON OFNIR/SCEPTER OF THE ALL-KNOWING/ALL-KNOWING SET
+  - link_all: [bosses_12_2, remembrances_mausoleums_1_6] #GODFREY (HOARAH LOUX)/REMEMBRANCE OF HOARAH LOUX
+  - link_all: [bosses_12_4, legacy_1_16, remembrances_mausoleums_1_13] #ELDEN BEAST/LEYNDELL ASHEN CAPITAL/ELDEN REMEMBRANCE
+  - link_all: [bosses_13_1, weapons_25_14] #DRAGONKIN SOLDIER/DRAGON HALBERD
+  - link_all: [bosses_13_2, spirit_ashes_11_1] #ANCESTER SPIRIT/ANCESTRAL FOLLOWER ASHES
+  - link_all: [bosses_14_1, armor_195] #MIMIC TEAR/SILVER TEAR MASK/LARVAL TEAR (X2) #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
+  - link_all: [bosses_14_2, remembrances_mausoleums_1_4] #REGAL ANCESTOR SPIRIT/REMEMBRANCE OF THE REGAL ANCESTOR
+  - link_all: [bosses_14_3, weapons_14_9, weapons_18_4] #VALIANT GARGOYLE & VALIANT GARGOYLE (TWINBLADE)/GARGOYLE'S GREATSWORD/GARGOYLE'S TWINBLADE
+  - link_all: [bosses_15_1, armor_214, armor_215, armor_217, armor_218] #NAMELESS WHITE MASK (X3)/WAR SURGEON SET
+  - link_all: [bosses_15_3, great_runes_1_7, remembrances_mausoleums_1_15] #MOHG LORD OF BLOOD/MOHG'S GREAT RUNE/REMEMBRANCE OF THE BLOOD LORD
+  - link_all: [bosses_16_1, incantations_4_12] #DRAGONKIN SOLDIER OF NOKSTELLA/FROZEN LIGHTNING SPEAR INCANTATION
+  - link_all: [bosses_17_1, weapons_17_7] #DRAGONKIN SOLDIER/DRAGONSCALE BLADE
+  - link_all: [bosses_17_2, remembrances_mausoleums_1_5] #ASTEL NATURALBORN OF THE VOID/REMEMBRANCE OF THE NATURALBORN
+  - link_all: [bosses_18_1, weapons_6_8] #ERDTREE AVATAR/STAFF OF THE AVATAR
+  - link_all: [bosses_18_2, weapons_24_4] #CRUCIBLE KNIGHT SILURIA/SILURIA'S TREE GREAT SPEAR
+  - link_all: [bosses_18_3, sorceries_11_1] #FIA'S CHAMPIONS/FIA'S MIST SORCERY
+  - link_all: [bosses_18_4, remembrances_mausoleums_1_12] #LICHDRAGON FORTISSAX/REMEMBRANCE OF THE LICHDRAGON
   
   - link_all: [armor_22, armor_26] # Links Page Trousers
   - link_all: [armor_66, armor_70] # Links Sorcerer Manchettes
@@ -342,6 +364,4 @@ item_links:
   - link_all: [armor_541, armor_546] # Crucible Greaves
 
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
-  - link_all: [bosses_14_3, weapons_18_4, weapons_14_9] # Links Valiant Gargoyle & Valiant Gargoyle (Twinblades) with Gargoyle's Twinblade and Gargoyle's Greatsword
-  - link_all: [bosses_9_2, weapons_18_5, weapons_19_9] # Links Black Blade Kindred with Gargoyle's Black Axe and Gargoyle's Black Blades
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
