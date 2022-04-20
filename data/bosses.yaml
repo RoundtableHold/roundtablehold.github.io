@@ -247,9 +247,9 @@ sections:
     title: "Crumbling Farum Azula"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["11_1", "Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
-      - ["11_2", "Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Smithing-Stone Miner's Bell Bearing [4], Ash of War: Black Flame Tornado", "Grants Achievement/Trophy: Godskin Duo."]
-      - ["11_3", "Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw, Devourer's Scepter, Beast Champion Helm, Beast Champion Armor (Altered), Beast Champion Gauntlets, Beast Champion Greaves, Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."] #TODO: ADD RUNES
+      - ["11_1", "Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Gold-Tinged Excrement", "Field boss."]
+      - ["11_2", "Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Ash of War: Black Flame Tornado, Smithing-Stone Miner's Bell Bearing [4]", "Grants Achievement/Trophy: Godskin Duo."]
+      - ["11_3", "Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw (Tool), Devourer's Scepter Great Hammer, Beast Champion Set with Armor (Altered), Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."] #TODO: ADD RUNES
       - ["11_4", "Draconic Tree Sentinel", "Dragon Temple", "50,000 runes, Malformed Dragon Set", "One annoying bastard, but more annoying."]
       - ["11_5", "Dragonlord Placidusax", "Dragon Temple", "280,000 runes, Remembrance of the Dragonlord", "Grants Achievement/Trophy: Dragonlord Placidusax."]
       - ["11_6", "Maliketh, the Black Blade", "Crumbling Farum Azula", "220,000 runes, Remembrance of the Black Blade", "Required to get to Leyndell, Ashen Capital. Grants Achievement/Trophy: Malekith, the Black Blade."]
@@ -257,7 +257,7 @@ sections:
     title: "Leyndell, Ashen Capital"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["12_1", "Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, All-Knowing Helm, All-Knowing Armor, All-Knowing Gauntlets, All-Knowing Greaves, Scepter of the All-Knowing", "Required."]
+      - ["12_1", "Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, Scepter of the All-Knowing, All-Knowing Set", "Required."]
       - ["12_2", "Godfrey, First Elden Lord (Hoarah Loux)", "Elden Throne", "300,000 runes, Remembrance of Hoarah Loux", "Required. Grants Achievement/Trophy: Hoarah Loux, the Warrior."]
       - ["12_3", "Radagon of the Golden Order", "Fractured Marika", "0 runes", "Required."] #TODO: ADD DROPS?
       - ["12_4", "Elden Beast", "Fractured Marika", "500,000 runes, Elden Remembrance", "Required."]
@@ -279,13 +279,13 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["15_1", "Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set, Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"] #TODO: ADD RUNES
-      - ["15_2", "White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Furcalling Finger Remedy, Rune Arc, Festering Bloody Fingers (x6). And Varre's Bouquet (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"] #TODO: ADD RUNES
+      - ["15_2", "White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Rune Arc, Festering Bloody Fingers (x6), Furcalling Finger Remedy. And Varre's Bouquet Hammer (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"] #TODO: ADD RUNES
       - ["15_3", "Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varre's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy: Shardbearer Mohg."]
   -
     title: "Ainsel River"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["16_1", "Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
+      - ["16_1", "Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear Incantation", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
       - ["16_2", "Baleful Shadow", "Ainsel River", "8561 runes", "NPC invader. Part of Ranni's questline."]
   -
     title: "Lake of Rot"
@@ -298,6 +298,6 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - ["18_1", "Erdtree Avatar", "Deeproot Depths", "10,000 runes, Staff of the Avatar", "Field boss."]
-      - ["18_2", "Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree (Great Spear)", "Field boss."]
+      - ["18_2", "Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree Great Spear", "Field boss."]
       - ["18_3", "Fia's Champions", "Deeproot Depths", "40,000 runes, Fia's Mist Sorcery", "NPC invaders. Two solo fights, then a group of three. Part of Fia's questline."]
       - ["18_4", "Lichdragon Fortissax", "Deeproot Depths", "90,000 runes, Remembrance of the Lichdragon", "Part of Fia's questline. Grants Achievement/Trophy: Lichdragon Fortissax."]
