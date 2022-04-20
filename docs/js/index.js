@@ -1218,6 +1218,7 @@ var profilesKey = 'darksouls3_profiles';
 "gestures_1_10",
 "gestures_1_11",
 "gestures_1_12",
+"gestures_1_13",
 "gestures_1_2",
 "gestures_1_3",
 "gestures_1_4",
@@ -2899,7 +2900,7 @@ const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
-const gestures_total = 47;
+const gestures_total = 48;
 var gestures_checked = 0;
 for (var id in profiles[profilesKey][profiles.current].checklistData) {
 if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {
