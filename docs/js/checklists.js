@@ -132,7 +132,7 @@ if ('serviceWorker' in navigator) {
     /// restore all saved state, except for the current tab
     /// used on page load or when switching profiles
     function restoreState(profile_name) {
-        $('a[href$="Col"]').each(function() {
+        $('button[href$="Col"]').each(function() {
             var value = profiles[profilesKey][profile_name].collapsed[$(this).attr('href')];
             var active = $(this).hasClass('collapsed');
 
@@ -251,7 +251,7 @@ if ('serviceWorker' in navigator) {
         restoreState(profiles.current);
 
         // register on click handlers to store state
-        $('a[href$="Col"]').on('click', function (el) {
+        $('button[href$="Col"]').on('click', function (el) {
             var profiles = $.jStorage.get(profilesKey, {});
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
