@@ -412,7 +412,7 @@ def make_checklist(page):
                                                         with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                                 if pos == 0 and 'icon' in item:
-                                                                    img(src=item['icon'], height='60', width='60')
+                                                                    img(src=item['icon'], height='60', width='60', cls='me-1')
                                                                 if item['data'][pos]:
                                                                     raw(item['data'][pos])
                                                 with div(cls='col d-md-none'):
@@ -447,7 +447,7 @@ def make_checklist(page):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                             with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                 if 'icon' in item:
-                                                    img(src=item['icon'], width='60', height='60', cls='float-md-none float-end')
+                                                    img(src=item['icon'], width='60', height='60', cls='float-md-none float-end me-md-1')
                                                 raw(item['data'][0])
                                             page['num_ids'] += 1
                                     if isinstance(items.peek(0), list):
@@ -459,7 +459,7 @@ def make_checklist(page):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
                                                         with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
                                                             if 'icon' in item:
-                                                                img(src=item['icon'], width='60', height='60', cls='float-end')
+                                                                img(src=item['icon'], width='60', height='60', cls='float-end me-1')
                                                             raw(subitem['data'][0])
                                                         page['num_ids'] += 1
 
