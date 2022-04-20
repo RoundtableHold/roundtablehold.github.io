@@ -546,6 +546,7 @@ var profilesKey = 'darksouls3_profiles';
 "armor_522",
 "armor_523",
 "armor_524",
+"armor_525",
 "armor_526",
 "armor_527",
 "armor_528",
@@ -2990,7 +2991,7 @@ const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
 const weapons_total = 377;
 var weapons_checked = 0;
-const armor_total = 513;
+const armor_total = 514;
 var armor_checked = 0;
 const talismans_total = 121;
 var talismans_checked = 0;
