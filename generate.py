@@ -78,7 +78,7 @@ for page in pages:
                     else:
                         all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
 
-def make_doc(title):
+def make_doc(title, description):
     doc = dominate.document(title=title)
     doc.set_attribute('lang', 'en')
     with doc.head:
@@ -119,6 +119,7 @@ def hide_completed_button():
 def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
+            a('Roundtable Guides', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
             # with div(cls='order-md-last'):
@@ -126,8 +127,8 @@ def make_nav(page):
             #         input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
-                    with li(cls="nav-item"):
-                        a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
+                    # with li(cls="nav-item"):
+                    #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
                         page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
                         with li(cls="dropdown nav-item"):
@@ -161,6 +162,7 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
+    script(src='/js/scroll.js')
     script(src="/js/jstorage.min.js")
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
@@ -195,24 +197,21 @@ def make_footer(page=None):
             """.format(page_id=page['id']))
 
 def make_index():
-    doc = make_doc("Roundtable Hold - Home")
+    doc = make_doc("Roundtable Guides", "Elden Ring Guides and Progress Tracker")
     with doc:
         make_nav('index')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
                 with div(cls="row gy-3"):
                     with div(cls='col-md-8 col-12'):
                         with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Welcome to the Roundtable Hold', cls='card-title text-center')
-                                        p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                                        h5('Welcome to Roundtable Guides', cls='card-title text-center')
+                                        p('Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
                             with div(cls="col"):
                                 with div(cls='card shadow h-100'):
                                     with div(cls="card-body"):
@@ -256,16 +255,13 @@ def make_index():
         index.write(doc.render())
 
 def make_options():
-    doc = make_doc('Roundtable Hold - Options')
+    doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav('options')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
             with div(cls="row"):
                 h2("Options")
                 with div(cls="row"):
@@ -332,17 +328,19 @@ def make_options():
 
 def make_checklist(page):
     page['num_ids'] = 0 
-    doc = make_doc("Roundtable Hold - " + page['title'])
+    doc = make_doc(page['title'] + " | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav(to_snake_case(page['title']))
         # whole page
         with div(cls="container uncolor-links"):
-            title_row()
-            hide_completed_button()
+            # title_row()
             # Filter buttons
-            h = h2()
-            h += page['title']
-            h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            with div(cls="row text-center"):
+                h = h1(cls='mt-4')
+                h += page['title']
+                h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            
+            hide_completed_button()
 
             if 'description' in page:
                 p(raw(page['description']))
@@ -362,8 +360,8 @@ def make_checklist(page):
 
             with div(id=page['id']+"_list"):
                 for s_idx, section in enumerate(page['sections']):
-                    with div(cls='card shadow-sm mb-3').add(div(cls='card-body')):
-                        with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
+                    with div(cls='card shadow-sm mb-3', id=page['id'] + '_section_' + str(s_idx)).add(div(cls='card-body')):
+                        with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
                             if 'link' in section:
@@ -585,21 +583,26 @@ var profilesKey = 'darksouls3_profiles';\n
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
         themeSetup(profiles[profilesKey][profiles.current].style);
-
-        function calculateProgress() {
         """)
+    f.write('var all_ids = new Set([\n')
+    all_ids_list = list(all_ids)
+    all_ids_list.sort()
+    for id in all_ids_list:
+        f.write('"' + id + '",\n')
+    f.write(']);\n')
+    f.write('function calculateProgress() {\n')
     for page in pages:
         f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
         f.write('var ' + page['id'] + '_checked = 0;\n')
     f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
-    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true) {\n')
+    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {\n')
     for page in pages:
         f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
         f.write(page['id'] + '_checked += 1;\n}\n')
     f.write('}\n')
     f.write('}\n')
     for page in pages:
-        f.write('if ({page_id}_checked === {page_id}_total){{\n'.format(page_id=page['id']))
+        f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
         f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
         f.write('} else {\n')
         f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
@@ -608,3 +611,26 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('calculateProgress();\n')
     f.write('  });\n')
     f.write('})( jQuery );\n')
+
+with open(os.path.join('docs', 'js', 'sw.js'), 'w', encoding='utf_8') as f:
+    f.write(
+"""
+self.addEventListener('install', (e) => {
+    e.waitUntil(
+        caches.open('roundtable-store').then((cache) => cache.addAll([
+""")
+    for root, dirs, files in os.walk("docs"):
+        for name in files:
+            f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
+    f.write(
+"""
+        ])),
+    );
+});
+
+self.addEventListener('fetch', (e) => {
+    e.respondWith(
+        caches.match(e.request).then((response) => response || fetch(e.request)),
+    );
+});
+""")

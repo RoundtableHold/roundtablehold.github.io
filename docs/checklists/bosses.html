@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Roundtable Hold - Bosses</title>
+    <title>Bosses | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -21,16 +21,12 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav-collapse">
           <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link hide-buttons" href="/index.html">
-                <i class="bi bi-house-fill"></i>
-              </a>
-            </li>
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -169,13 +165,10 @@
       </div>
     </nav>
     <div class="container uncolor-links">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="mt-3">Roundtable Hold</h1>
-          <p class="lead d-print-none">Contribute at the 
-            <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github Page</a>
-          </p>
-        </div>
+      <div class="row text-center">
+        <h1 class="mt-4">Bosses
+          <span class="d-print-none" id="bosses_overall_total"></span>
+        </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
@@ -183,9 +176,6 @@
           <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
         </div>
       </div>
-      <h2>Bosses
-        <span class="d-print-none" id="bosses_overall_total"></span>
-      </h2>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
           <a class="toc-button" data-bs-toggle="collapse" href="#toc_bosses" role="button">
@@ -271,9 +261,9 @@
         <input class="form-control my-3" id="bosses_search" placeholder="Start typing to filter results..." type="search">
       </div>
       <div id="bosses_list">
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_0">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_0">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_0Col" data-bs-toggle="collapse" href="#bosses_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1219,9 +1209,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_1">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_1">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_1Col" data-bs-toggle="collapse" href="#bosses_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1588,9 +1578,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_2">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_2">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_2Col" data-bs-toggle="collapse" href="#bosses_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1672,7 +1662,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_3_2">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Clinging Bone Fist, Royal Remains Set (Helm, Armor, Gauntlet, Greaves)
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Clinging Bone Fist, Royal Remains Set
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -1688,9 +1678,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_3">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_3">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_3Col" data-bs-toggle="collapse" href="#bosses_3Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1983,7 +1973,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_4_7">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>4810 runes, Godskin Noble Set (Hood, Robe, Bracelets, Trousers)
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>4810 runes, Godskin Noble Set
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -2936,7 +2926,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_4_36">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>40,000 runes, Remembrance of the Full Moon Queen, Great Rune of the Unborn
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>40,000 runes, Great Rune of the Unborn, Remembrance of the Full Moon Queen
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -2952,9 +2942,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_4">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_4">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_4Col" data-bs-toggle="collapse" href="#bosses_4Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -3024,7 +3014,7 @@
                       <div class="row">
                         <div class="col-md-2 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_5_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Erdtree Avatar
+                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Putrid Avatar
                           </label>
                         </div>
                         <div class="col-md-2 col-xs-12">
@@ -3092,7 +3082,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_5_4">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>6300 runes
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>6300 runes, Visage Shield (chest in the next room)
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -3543,7 +3533,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_5_18">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>94,000 runes, Godskin Apostle Set (Hood, Robe, Bracers, Trousers)
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>94,000 runes, Godskin Apostle Set
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -3814,7 +3804,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_5_27">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>70,000 runes, Remembrance of the Starscourge, Radahn's Great Rune
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>70,000 runes, Radahn's Great Rune, Remembrance of the Starscourge
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -3861,9 +3851,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_5">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_5">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_5Col" data-bs-toggle="collapse" href="#bosses_5Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -4472,9 +4462,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_6">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_6">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_6Col" data-bs-toggle="collapse" href="#bosses_6Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -5240,9 +5230,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_7">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_7">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_7Col" data-bs-toggle="collapse" href="#bosses_7Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -5442,12 +5432,12 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_6">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>For killing him: Omen Helm, Omen Armor, Omen Gauntlets, Omen Greaves, Sword of Milos
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>For killing him: Omen Set, Sword of Milos
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_6">
-                            <strong class="d-md-none d-inline-block me-1">Notes: </strong>Can instead gain the full Omen Set and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline.
+                            <strong class="d-md-none d-inline-block me-1">Notes: </strong>Can instead gain the full Omen Set, Sword of Milos and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline.
                           </label>
                         </div>
                       </div>
@@ -5473,7 +5463,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_7">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>50,000 runes, Dragon Greatclaw, Dragonclaw Shield
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>50,000 runes, Dragon Greatclaw Colossal Weapon, Dragonclaw Shield
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -5528,12 +5518,12 @@
                         </div>
                         <div class="col-md-2 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_9">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Auriza Hero's Grave
+                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Auriza's Hero Grave
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_9">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>28,000 runes, Ordovis's Greatsword, Crucible Axe Helm, Crucible Axe Armor, Crucible Gauntlets, Crucible Greaves
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>28,000 runes, Ordovis's Greatsword, Crucible Axe Set
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -5651,7 +5641,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_13">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Raging Wolf Helm, Raging Wolf Armor, Raging Wolf Gauntlets, Raging Wolf Greaves
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Raging Wolf Set
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -5716,6 +5706,35 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_15">
                             <strong class="d-md-none d-inline-block me-1">Notes: </strong>Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight.
                           </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item" data-id="bosses_8_19">
+                  <div class="row form-check checkbox">
+                    <div class="col-auto">
+                      <input class="form-check-input" id="bosses_8_19" type="checkbox" value="">
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-md-2 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_19">
+                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Esgar, Priest of Blood
+                          </label>
+                        </div>
+                        <div class="col-md-2 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_19">
+                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Leyndell Catacombs/Subterranean Shunning-Grounds
+                          </label>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_19">
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>30,000 runes, Lord of Blood's Exultation Talisman
+                          </label>
+                        </div>
+                        <div class="col-md-4 d-md-block d-none">
+                          <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_19"></label>
                         </div>
                       </div>
                     </div>
@@ -5802,7 +5821,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_8_18">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>120,000 runes, Remembrance of the Omen King, Morgott's Great Rune
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>120,000 runes, Morgott's Great Rune, Remembrance of the Omen King
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -5818,9 +5837,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_8">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_8">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_8Col" data-bs-toggle="collapse" href="#bosses_8Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -5931,7 +5950,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_3">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>83,000 runes, Zamor Curved Sword, Zamor Mask, Zamor Armor, Zamor Bracelets, Zamor Legwraps
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>83,000 runes, Zamor Curved Sword, Zamor Set
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -6020,7 +6039,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_6">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>158 runes, Rune Arc, Furlcalling Finger Remedy, Hoslow's Petal Whip, Hoslow's Helm, Hoslow's Armor, Hoslow's Gauntlets, Hoslow's Greaves
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>158 runes, Hoslow's Petal Whip, Hoslow's Set (Helm, Armor, Gauntlets, Greaves), Rune Arc, Furlcalling Finger Remedy
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -6080,7 +6099,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_8">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Deathroot, Helphen's Steeple
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Deathroot, Helphen's Steeple Greatsword
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -6142,7 +6161,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_10">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Fingerprint Set (Helm, Armor, Gauntlet, Greaves), Vyke's Dragonbolt Incantation
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Fingerprint Set, Vyke's Dragonbolt Incantation
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -6200,7 +6219,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_12">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>734 runes, Furlcalling Finger Remedy, Rivers of Blood, Okina Mask
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>734 runes, Rivers of Blood Katana, Okina Mask, Furlcalling Finger Remedy
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -6221,7 +6240,7 @@
                       <div class="row">
                         <div class="col-md-2 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_13">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Apostle and Godskin Noble (Spectral)
+                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Godskin Apostle and Godskin Noble (Spectral Duo)
                           </label>
                         </div>
                         <div class="col-md-2 col-xs-12">
@@ -6231,7 +6250,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_9_13">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>70,000 runes, Godskin Swaddling Cloth, Black Flame Ritual
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>70,000 runes, Godskin Swaddling Cloth Talisman, Black Flame Ritual Incantation
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -6278,9 +6297,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_9">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_9">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_9Col" data-bs-toggle="collapse" href="#bosses_9Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -6362,7 +6381,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_10_1">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>8,000 runes, Great Grave Glovewort, Rotten Gravekeeper Cloak
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort
                           </label>
                         </div>
                         <div class="col-md-4 d-md-block d-none">
@@ -6569,7 +6588,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_10_8">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>220,000 runes, Explosive Ghostflame
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>220,000 runes, Explosive Ghostflame Sorcery
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -6627,7 +6646,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_10_12">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Furlcalling Finger Remedy, Somber Ancient Dragon Smithing Stone
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>Somber Ancient Dragon Smithing Stone, Furlcalling Finger Remedy
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -6705,9 +6724,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_10">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_10">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_10Col" data-bs-toggle="collapse" href="#bosses_10Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -6929,9 +6948,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_11">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_11">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_11Col" data-bs-toggle="collapse" href="#bosses_11Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7091,9 +7110,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_12">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_12">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_12Col" data-bs-toggle="collapse" href="#bosses_12Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7191,9 +7210,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_13">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_13">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_13Col" data-bs-toggle="collapse" href="#bosses_13Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7322,9 +7341,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_14">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_14">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_14Col" data-bs-toggle="collapse" href="#bosses_14Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7375,7 +7394,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                           <label class="form-check-label item_content ms-0 ps-0" for="bosses_15_1">
-                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>War Surgeon Set (White Mask, War Surgeon Gown, War Surgeon Gloves, War Surgeon Trousers), Furlcalling Finger Remedy
+                            <strong class="d-md-none d-inline-block me-1">Drops: </strong>War Surgeon Set, Furlcalling Finger Remedy
                           </label>
                         </div>
                         <div class="col-md-4 col-xs-12">
@@ -7453,9 +7472,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_15">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_15">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_15Col" data-bs-toggle="collapse" href="#bosses_15Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7553,9 +7572,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_16">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_16">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_16Col" data-bs-toggle="collapse" href="#bosses_16Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7653,9 +7672,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="bosses_section_17">
           <div class="card-body">
-            <h4 class="mt-1" id="bosses_section_17">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#bosses_17Col" data-bs-toggle="collapse" href="#bosses_17Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -7821,6 +7840,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
+    <script src="/js/scroll.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>

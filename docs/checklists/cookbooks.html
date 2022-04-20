@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Roundtable Hold - Cookbooks</title>
+    <title>Cookbooks | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -21,16 +21,12 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav-collapse">
           <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link hide-buttons" href="/index.html">
-                <i class="bi bi-house-fill"></i>
-              </a>
-            </li>
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -169,13 +165,10 @@
       </div>
     </nav>
     <div class="container uncolor-links">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="mt-3">Roundtable Hold</h1>
-          <p class="lead d-print-none">Contribute at the 
-            <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github Page</a>
-          </p>
-        </div>
+      <div class="row text-center">
+        <h1 class="mt-4">Cookbooks
+          <span class="d-print-none" id="cookbooks_overall_total"></span>
+        </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
@@ -183,9 +176,6 @@
           <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
         </div>
       </div>
-      <h2>Cookbooks
-        <span class="d-print-none" id="cookbooks_overall_total"></span>
-      </h2>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
           <a class="toc-button" data-bs-toggle="collapse" href="#toc_cookbooks" role="button">
@@ -231,9 +221,9 @@
         <input class="form-control my-3" id="cookbooks_search" placeholder="Start typing to filter results..." type="search">
       </div>
       <div id="cookbooks_list">
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_0">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_0">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_0Col" data-bs-toggle="collapse" href="#cookbooks_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -390,9 +380,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_1">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_1">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_1Col" data-bs-toggle="collapse" href="#cookbooks_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -447,9 +437,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_2">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_2">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_2Col" data-bs-toggle="collapse" href="#cookbooks_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -504,9 +494,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_3">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_3">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_3Col" data-bs-toggle="collapse" href="#cookbooks_3Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -537,9 +527,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_4">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_4">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_4Col" data-bs-toggle="collapse" href="#cookbooks_4Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -600,9 +590,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_5">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_5">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_5Col" data-bs-toggle="collapse" href="#cookbooks_5Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -627,9 +617,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_6">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_6">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_6Col" data-bs-toggle="collapse" href="#cookbooks_6Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -666,9 +656,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="cookbooks_section_7">
           <div class="card-body">
-            <h4 class="mt-1" id="cookbooks_section_7">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_7Col" data-bs-toggle="collapse" href="#cookbooks_7Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -711,6 +701,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
+    <script src="/js/scroll.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
