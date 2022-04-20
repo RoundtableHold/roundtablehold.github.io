@@ -5,80 +5,135 @@ sections:
     title: "Golden Seeds"
     items:
       - "Limgrave"
-      - ["1_2", "Can choose one as a Keepsake"]
-      - ["1_3", "Under a Golden Tree on the path to Stormveil Castle"]
-      - ["1_43", "Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"]
-      - ["1_4", "Reward for finishing Roderika's quest, can otherwise be found at her shack"]
-      - ["1_5", "Under Golden Tree in front of Fort Haight"]
-      - ["1_6", "Drops from Kenneth Haight if killed"]
-      - ["1_7", "Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
-      - ["1_8", "Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
+      - id: "1_2"
+        data: ["Can choose one as a Keepsake"]
+      - id: "1_3"
+        data: ["Under a Golden Tree on the path to Stormveil Castle"]
+      - id: "1_43"
+        data: ["Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"]
+      - id: "1_4"
+        data: ["Reward for finishing Roderika's quest, can otherwise be found at her shack"]
+      - id: "1_5"
+        data: ["Under Golden Tree in front of Fort Haight"]
+      - id: "1_6"
+        data: ["Drops from Kenneth Haight if killed"]
+      - id: "1_7"
+        data: ["Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
+      - id: "1_8"
+        data: ["Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
       - "Weeping Peninsula"
-      - ["1_1", "Under a Golden Tree south of Castle Morne Rampart Grace"]
+      - id: "1_1"
+        data: ["Under a Golden Tree south of Castle Morne Rampart Grace"]
       - "Liurnia of the Lakes"
-      - ["1_9", "Under a Golden Tree in Academy Gate Town"]
-      - ["1_10", "Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
-      - ["1_11", "Under a Golden Tree west side of Raya Lucaria Academy courtyard"]
-      - ["1_12", "Under a Golden Tree in Caria Manor's upper level."]
-      - ["1_13", "Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice"]
+      - id: "1_9"
+        data: ["Under a Golden Tree in Academy Gate Town"]
+      - id: "1_10"
+        data: ["Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
+      - id: "1_11"
+        data: ["Under a Golden Tree west side of Raya Lucaria Academy courtyard"]
+      - id: "1_12"
+        data: ["Under a Golden Tree in Caria Manor's upper level."]
+      - id: "1_13"
+        data: ["Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice"]
       - "Caelid"
-      - ["1_14", "under a Golden Tree near the three way crossroad leading to Castle Redmane"]
-      - ["1_15", "under a Golden Tree in the upper area of Sellia, Town of Sorcery"]
-      - ["1_16", "under a Golden Tree, south of Bestial Sanctum"]
-      - ["1_17", "reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)"]
+      - id: "1_14"
+        data: ["under a Golden Tree near the three way crossroad leading to Castle Redmane"]
+      - id: "1_15"
+        data: ["under a Golden Tree in the upper area of Sellia, Town of Sorcery"]
+      - id: "1_16"
+        data: ["under a Golden Tree, south of Bestial Sanctum"]
+      - id: "1_17"
+        data: ["reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)"]
       - "Altus Plateau"
-      - ["1_18", "under a Golden Tree near Erdtree-Grazing Hill Grace"]
-      - ["1_19", "under a Golden Tree north of Altus Highway Junction"]
-      - ["1_20", "under a Golden Tree near the Minor Erdtree"]
-      - ["1_21", "under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"]
+      - id: "1_18"
+        data: ["under a Golden Tree near Erdtree-Grazing Hill Grace"]
+      - id: "1_19"
+        data: ["under a Golden Tree north of Altus Highway Junction"]
+      - id: "1_20"
+        data: ["under a Golden Tree near the Minor Erdtree"]
+      - id: "1_21"
+        data: ["under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"]
       - "Leyndell, Royal Capital"
-      - ["1_22", "under a large Golden Tree near the Outer Wall Phantom Tree Grace"]
-      - ["1_23", "under the same Golden Tree mentioned above"]
-      - ["1_24", "under a large Golden Tree north of the Outer Wall Phantom Tree Grace"]
-      - ["1_25", "under the same Golden Tree mentioned above"]
-      - ["1_26", "reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace"]
-      - ["1_27", "under a Golden Tree south of the West Capital Rampart Grace"]
-      - ["1_28", "reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"]
+      - id: "1_22"
+        data: ["under a large Golden Tree near the Outer Wall Phantom Tree Grace"]
+      - id: "1_23"
+        data: ["under the same Golden Tree mentioned above"]
+      - id: "1_24"
+        data: ["under a large Golden Tree north of the Outer Wall Phantom Tree Grace"]
+      - id: "1_25"
+        data: ["under the same Golden Tree mentioned above"]
+      - id: "1_26"
+        data: ["reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace"]
+      - id: "1_27"
+        data: ["under a Golden Tree south of the West Capital Rampart Grace"]
+      - id: "1_28"
+        data: ["reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"]
       - "Mt. Gelmir"
-      - ["1_29", "under a Golden Tree in the ravine, near Gelmir Hero's Grave"]
-      - ["1_30", "under a Golden Tree, northwest of Road of Iniquity"]
+      - id: "1_29"
+        data: ["under a Golden Tree in the ravine, near Gelmir Hero's Grave"]
+      - id: "1_30"
+        data: ["under a Golden Tree, northwest of Road of Iniquity"]
       - "Mountaintops of the Giants"
-      - ["1_31", "under a Golden Tree, on the way to the Grand Lift of Rold"]
-      - ["1_32", "reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs"]
-      - ["1_33", "under a Golden Tree, northwest of the Foot of the Forge Grace"]
-      - ["1_34", "under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem"]
+      - id: "1_31"
+        data: ["under a Golden Tree, on the way to the Grand Lift of Rold"]
+      - id: "1_32"
+        data: ["reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs"]
+      - id: "1_33"
+        data: ["under a Golden Tree, northwest of the Foot of the Forge Grace"]
+      - id: "1_34"
+        data: ["under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem"]
       - "Consecrated Snowfield"
-      - ["1_35", "under a Golden Tree, south of Inner Consecrated Snowfield Grace"]
-      - ["1_36", "under a Golden Tree, west of Ordina, Liturgical Town"]
+      - id: "1_35"
+        data: ["under a Golden Tree, south of Inner Consecrated Snowfield Grace"]
+      - id: "1_36"
+        data: ["under a Golden Tree, west of Ordina, Liturgical Town"]
       - "Crumbling Farum Azula"
-      - ["1_37", "under a Golden Tree in the middle of the Dragon Temple"]
-      - ["1_38", "under a Golden Tree, southeast of Dragon Temple Rooftop Grace"]
+      - id: "1_37"
+        data: ["under a Golden Tree in the middle of the Dragon Temple"]
+      - id: "1_38"
+        data: ["under a Golden Tree, southeast of Dragon Temple Rooftop Grace"]
       - "Siofra River"
-      - ["1_39", "under a Golden Tree in the upper area of Siofra River, accessible via waygate"]
+      - id: "1_39"
+        data: ["under a Golden Tree in the upper area of Siofra River, accessible via waygate"]
       - "Mohgwyn Palace"
-      - ["1_40", "under a Golden Tree in the middle of the lake, surrounded by giant birds"]
+      - id: "1_40"
+        data: ["under a Golden Tree in the middle of the lake, surrounded by giant birds"]
       - "Ainsel River"
-      - ["1_41", "under a Golden Tree in the northwest of Ainsel River, accessible via elevator"]
+      - id: "1_41"
+        data: ["under a Golden Tree in the northwest of Ainsel River, accessible via elevator"]
       - "Lake of Rot"
-      - ["1_42", "reward for defeating Putrid Tree Spirit in Lake of Rot"]
+      - id: "1_42"
+        data: ["reward for defeating Putrid Tree Spirit in Lake of Rot"]
   -
     title: "Sacred Tears"
     items:
       - "Limgrave"
-      - ["2_4", "Third Church of Marika, in East Limgrave"]
+      - id: "2_4"
+        data: ["Third Church of Marika, in East Limgrave"]
       - "Weeping Peninsula"
-      - ["2_1", "Callu Baptismal Church, in the middle of the Weeping Peninsula"]
-      - ["2_2", "Church of Pilgrimage, north of Weeping Peninsula"]
-      - ["2_3", "Fourth Church of Marika, west of Weeping Peninsula"]
+      - id: "2_1"
+        data: ["Callu Baptismal Church, in the middle of the Weeping Peninsula"]
+      - id: "2_2"
+        data: ["Church of Pilgrimage, north of Weeping Peninsula"]
+      - id: "2_3"
+        data: ["Fourth Church of Marika, west of Weeping Peninsula"]
       - "Liurnia of the Lakes"
-      - ["2_5", "Church of Irith, southern part of Liurnia of the Lakes"]
-      - ["2_6", "Bellum Church, on the way to the Grand Lift of Dectus"]
-      - ["2_7", "Church of Inhibition, northeast of Bellum Highway Forest"]
+      - id: "2_5"
+        data: ["Church of Irith, southern part of Liurnia of the Lakes"]
+      - id: "2_6"
+        data: ["Bellum Church, on the way to the Grand Lift of Dectus"]
+      - id: "2_7"
+        data: ["Church of Inhibition, northeast of Bellum Highway Forest"]
       - "Caelid"
-      - ["2_8", "Church of Plague, accessible through Sellia, Town of Sorcery"]
+      - id: "2_8"
+        data: ["Church of Plague, accessible through Sellia, Town of Sorcery"]
       - "Altus Plateau"
-      - ["2_9", "Second Church of Marika, north of Altus Highway Junction Grace"]
-      - ["2_10", "Stormcaller Church, west of Rampartside Path Gace"]
+      - id: "2_9"
+        data: ["Second Church of Marika, north of Altus Highway Junction Grace"]
+      - id: "2_10"
+        data: ["Stormcaller Church, west of Rampartside Path Gace"]
       - "Mountaintops of the Giants"
-      - ["2_11", "Church of Repose, east of Grand Lift of Rold"]
-      - ["2_12", "First Church of Marika, southeastern most part of Mountaintops of the Giants"]
+      - id: "2_11"
+        data: ["Church of Repose, east of Grand Lift of Rold"]
+      - id: "2_12"
+        data: ["First Church of Marika, southeastern most part of Mountaintops of the Giants"]

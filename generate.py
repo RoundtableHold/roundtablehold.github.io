@@ -54,29 +54,28 @@ for page in pages:
     for section in page['sections']:
         items = peekable(section['items'])
         for item in items:
-            if not isinstance(item, list):
+            if isinstance(item, str):
                 continue
-            if not isinstance(item[0], str):
-                print("Please make item id " + str(item[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+            if not isinstance(item['id'], str):
+                print("Please make item id " + str(item['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                 quit(1)
-            if (page['id'] + '_' + item[0]) in all_ids:
-                print("Duplicate item num '" + str(item[0]) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
+            if (page['id'] + '_' + item['id']) in all_ids:
+                print("Duplicate item num '" + str(item['id']) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
                 quit(1)
-            else:
-                all_ids.add(page['id'] + '_' + item[0])
-            if isinstance(items.peek([0])[0], list):
+            all_ids.add(page['id'] + '_' + item['id'])
+            if isinstance(items.peek(0), list):
                 sub_item_nums = set()
-                item_id = item[0]
+                item_id = item['id']
                 item = next(items)
                 for subitem in item:
-                    if not isinstance(subitem[0], str):
-                        print("Please make item id " + str(subitem[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                    if not isinstance(subitem['id'], str):
+                        print("Please make item id " + str(subitem['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                         quit(1)
-                    if (page['id'] + '_' + item_id + '_' + subitem[0]) in all_ids:
-                        print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
+                    if (page['id'] + '_' + item_id + '_' + subitem['id']) in all_ids:
+                        print("Duplicate sub-item num '" + str(subitem['id']) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                         quit(1)
                     else:
-                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
+                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem['id'])
 
 def make_doc(title, description):
     doc = dominate.document(title=title)
@@ -378,7 +377,7 @@ def make_checklist(page):
                                     table_cols = section['table']
                                     size = floor(12 / table_cols)
                                 items = peekable(section['items'])
-                                if not isinstance(items.peek(), list):
+                                if isinstance(items.peek(), str):
                                     item = next(items)
                                     h5(item)
                                 with ul(cls='list-group list-group-flush mb-0'):
@@ -394,9 +393,9 @@ def make_checklist(page):
                                                         col_size = str(size)
                                                     div(cls="col-md-" + col_size).add(strong(header))
                                     for item in items:
-                                        id = str(item[0])
+                                        id = str(item['id'])
                                         with li(cls="list-group-item", data_id=page['id'] + '_' + id):
-                                            if not isinstance(item, list):
+                                            if isinstance(item, str):
                                                 h5(item)
                                                 continue
                                             with div(cls="row form-check checkbox"):
@@ -405,43 +404,48 @@ def make_checklist(page):
                                                             id=page['id'] + '_' + id)
                                                     page['num_ids'] += 1
                                                 with div(cls="col").add(div(cls="row")):
-                                                    for pos in range(1, 1+table_cols):
+                                                    for pos in range(table_cols):
                                                         if 'table_widths' in page:
-                                                            col_size = str(page['table_widths'][pos-1])
+                                                            col_size = str(page['table_widths'][pos])
                                                         else:
                                                             col_size = str(size)
-                                                        with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
+                                                        with div(cls="col-md-" + col_size + (' col-xs-12' if item['data'][pos] else ' d-md-block d-none')):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
-                                                                if isinstance(section['table'], list) and item[pos]:
-                                                                    strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
-                                                                if item[pos]:
-                                                                    raw(item[pos])
+                                                                if isinstance(section['table'], list) and item['data'][pos]:
+                                                                    strong(section['table'][pos] + ': ', cls="d-md-none d-inline-block me-1")
+                                                                if item['data'][pos]:
+                                                                    raw(item['data'][pos])
+                                                                if pos == 0 and 'icon' in item:
+                                                                    img(src=item['icon'])
                         else:
                             with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
                                 items = peekable(section['items'])
-                                if not isinstance(items.peek(), list):
+                                if isinstance(items.peek(), str):
                                     item = next(items)
                                     h5(raw(item))
                                 u = ul(cls="list-group-flush mb-0 ps-0 ps-md-4")
                                 for item in items:
-                                    if not isinstance(item, list):
+                                    if isinstance(item, str):
                                         h5(raw(item))
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
-                                    id = str(item[0])
+                                    id = str(item['id'])
                                     with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
                                         with div(cls="form-check checkbox"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
-                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
+                                            with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
+                                                if 'icon' in item:
+                                                    img(src=item['icon'])
+                                                raw(item['data'][0])
                                             page['num_ids'] += 1
-                                    if isinstance(items.peek([0])[0], list):
+                                    if isinstance(items.peek(0), list):
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
-                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
+                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item"):
                                                     with div(cls="form-check checkbox"):
-                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
-                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
+                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
+                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])).add(raw(subitem['data'][0]))
                                                         page['num_ids'] += 1
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))

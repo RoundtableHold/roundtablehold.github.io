@@ -6,57 +6,99 @@ sections:
     title: "Shardbearers"
     table: ["Name", "Condition", "Notes"]
     items:
-      - ["1_1", "Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
-      - ["1_2", "Shardbearer Radahn",  "Defeat Shardbearer Radahn", "Semi-optional, only two Shardbearers need to be defeated."]
-      - ["1_3", "Shardbearer Morgott", "Defeat Shardbearer Morgott", "Will unlock through story progression."]
-      - ["1_4", "Shardbearer Rykard", "Defeat Shardbearer Rykard", "Semi-optional, only two Shardbearers need to be defeated."]
-      - ["1_5", "Shardbearer Mohg", "Defeat Shardbearer Mohg", "Semi-optional, only two Shardbearers need to be defeated."]
-      - ["1_6", "Shardbearer Malenia", "Defeat Shardbearer Malenia", "Semi-optional, only two Shardbearers need to be defeated."]
+      - id: "1_1"
+        data: ["Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
+      - id: "1_2"
+        data: ["Shardbearer Radahn",  "Defeat Shardbearer Radahn", "Semi-optional, only two Shardbearers need to be defeated."]
+      - id: "1_3"
+        data: ["Shardbearer Morgott", "Defeat Shardbearer Morgott", "Will unlock through story progression."]
+      - id: "1_4"
+        data: ["Shardbearer Rykard", "Defeat Shardbearer Rykard", "Semi-optional, only two Shardbearers need to be defeated."]
+      - id: "1_5"
+        data: ["Shardbearer Mohg", "Defeat Shardbearer Mohg", "Semi-optional, only two Shardbearers need to be defeated."]
+      - id: "1_6"
+        data: ["Shardbearer Malenia", "Defeat Shardbearer Malenia", "Semi-optional, only two Shardbearers need to be defeated."]
   -
     title: "Other Bosses"
     table: ["Name", "Condition", "Notes"]
     items:
-      - ["2_1", "Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
-      - ["2_2", "Leonine Misbegotten", "Defeat the Leonine Misbegotten", ""]
-      - ["2_3", "Red Wolf of Radagon", "Defeat the Red Wolf of Radagon", "Will unlock as you progress through Raya Lucaria Academy."]
-      - ["2_4", "Rennala, Queen of the Full Moon", "Defeat Rennala, Queen of the Full Moon", ""]
-      - ["2_5", "Royal Knight Loretta", "Defeat Royal Knight Loretta", "Defeat Royal Knight Loretta at Carian Manor."]
-      - ["2_6", "Magma Wyrm Makar", "Defeat Magma Wyrm Makar", ""]
-      - ["2_7", "Ancestor Spirit ", "Defeat the Ancestor Spirit", ""]
-      - ["2_8", "Mimic Tear", "Defeat the Mimic Tear", ""]
-      - ["2_9", "Godfrey, the First Lord", "Defeat Godfrey, the First Lord", "Will unlock through story progression."]
-      - ["2_10", "Dragonkin Soldier of Nokstella","Defeat Dragonkin Soldier of Nokstella", ""]
-      - ["2_11", "Astel, Naturalborn of the Void", "Defeat Astel, Naturalborn of the Void","Required for Ranni's questline, and 'Age of the Stars' ending."]
-      - ["2_12", "Regal Ancestor Spirit", "Defeat the Regal Ancestor Spirit", ""]
-      - ["2_13", "Valiant Gargoyle", "Defeat the Valiant Gargoyle", ""]
-      - ["2_14", "Elemer of the Briar", "Defeat Elemer of the Briar", ""]
-      - ["2_15", "Godskin Noble", "Defeat Godskin Noble", ""]
-      - ["2_16", "Commander Niall", "Defeat Commander Niall", ""]
-      - ["2_17", "Fire Giant", "Defeat the Fire Giant", "Will unlock through story progression."]
-      - ["2_18", "Godskin Duo", "Defeat Godskin Duo", "Will unlock through story progression."]
-      - ["2_19", "Loretta, Knight of the Haligtree", "Defeat Loretta, Knight of the Haligtree", ""]
-      - ["2_20", "Malekith, the Black Blade", "Defeat Malekith, the Black Blade", "Will unlock through story progression."]
-      - ["2_21", "Hoarah Loux, the Warrior", "Defeat Hoarah Loux, the Warrior", "Will unlock through story progression."]
-      - ["2_22", "Mohg, the Omen", "Defeat Mohg, the Omen", ""]
-      - ["2_23", "Dragonlord Placidusax", "Defeat Dragonlord Placidusax", ""]
-      - ["2_24", "Lichdragon Fortissax", "Defeat Lichdragon Fortissax", "Follow Fia's questline to unlock, part of 'Age of Duskborn' ending."]
+      - id: "2_1"
+        data: ["Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
+      - id: "2_2"
+        data: ["Leonine Misbegotten", "Defeat the Leonine Misbegotten", ""]
+      - id: "2_3"
+        data: ["Red Wolf of Radagon", "Defeat the Red Wolf of Radagon", "Will unlock as you progress through Raya Lucaria Academy."]
+      - id: "2_4"
+        data: ["Rennala, Queen of the Full Moon", "Defeat Rennala, Queen of the Full Moon", ""]
+      - id: "2_5"
+        data: ["Royal Knight Loretta", "Defeat Royal Knight Loretta", "Defeat Royal Knight Loretta at Carian Manor."]
+      - id: "2_6"
+        data: ["Magma Wyrm Makar", "Defeat Magma Wyrm Makar", ""]
+      - id: "2_7"
+        data: ["Ancestor Spirit ", "Defeat the Ancestor Spirit", ""]
+      - id: "2_8"
+        data: ["Mimic Tear", "Defeat the Mimic Tear", ""]
+      - id: "2_9"
+        data: ["Godfrey, the First Lord", "Defeat Godfrey, the First Lord", "Will unlock through story progression."]
+      - id: "2_10"
+        data: ["Dragonkin Soldier of Nokstella","Defeat Dragonkin Soldier of Nokstella", ""]
+      - id: "2_11"
+        data: ["Astel, Naturalborn of the Void", "Defeat Astel, Naturalborn of the Void","Required for Ranni's questline, and 'Age of the Stars' ending."]
+      - id: "2_12"
+        data: ["Regal Ancestor Spirit", "Defeat the Regal Ancestor Spirit", ""]
+      - id: "2_13"
+        data: ["Valiant Gargoyle", "Defeat the Valiant Gargoyle", ""]
+      - id: "2_14"
+        data: ["Elemer of the Briar", "Defeat Elemer of the Briar", ""]
+      - id: "2_15"
+        data: ["Godskin Noble", "Defeat Godskin Noble", ""]
+      - id: "2_16"
+        data: ["Commander Niall", "Defeat Commander Niall", ""]
+      - id: "2_17"
+        data: ["Fire Giant", "Defeat the Fire Giant", "Will unlock through story progression."]
+      - id: "2_18"
+        data: ["Godskin Duo", "Defeat Godskin Duo", "Will unlock through story progression."]
+      - id: "2_19"
+        data: ["Loretta, Knight of the Haligtree", "Defeat Loretta, Knight of the Haligtree", ""]
+      - id: "2_20"
+        data: ["Malekith, the Black Blade", "Defeat Malekith, the Black Blade", "Will unlock through story progression."]
+      - id: "2_21"
+        data: ["Hoarah Loux, the Warrior", "Defeat Hoarah Loux, the Warrior", "Will unlock through story progression."]
+      - id: "2_22"
+        data: ["Mohg, the Omen", "Defeat Mohg, the Omen", ""]
+      - id: "2_23"
+        data: ["Dragonlord Placidusax", "Defeat Dragonlord Placidusax", ""]
+      - id: "2_24"
+        data: ["Lichdragon Fortissax", "Defeat Lichdragon Fortissax", "Follow Fia's questline to unlock, part of 'Age of Duskborn' ending."]
   -
     title: "Misc."
     table: ["Name", "Condition", "Notes"]
     items:
-      - ["3_1", "Roundtable Hold", "Arrive at Roundtable Hold", "Will unlock as part of story progression."]
-      - ["3_2", "God-Slaying Armament", "Upgrade any armament to its highest stage.", ""]
-      - ["3_3", "Legendary Armaments", "Acquire all nine legendary weapons.", ""]
-      - ["3_4", "Legendary Ashen Remains", "Acquire all six legendary ashen remains.", ""]
-      - ["3_5", "Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations.", ""]
-      - ["3_6", "Legendary Talismans", "Acquire all eight legendary talismans.", ""]
-      - ["3_7", "Great Rune", "Restore the power of a Great Rune.", "Easy to unlock at Stormveil, after defeating Godrick."]
-      - ["3_8", "Erdtree Aflame"," Use kindling to set the Erdtree Aflame.",  "Will unlock as part of story progression, but I think it's achievable in two ways."]
-      - ["3_9", "Elden Ring", "Obtained all achievements", "Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms."]
+      - id: "3_1"
+        data: ["Roundtable Hold", "Arrive at Roundtable Hold", "Will unlock as part of story progression."]
+      - id: "3_2"
+        data: ["God-Slaying Armament", "Upgrade any armament to its highest stage.", ""]
+      - id: "3_3"
+        data: ["Legendary Armaments", "Acquire all nine legendary weapons.", ""]
+      - id: "3_4"
+        data: ["Legendary Ashen Remains", "Acquire all six legendary ashen remains.", ""]
+      - id: "3_5"
+        data: ["Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations.", ""]
+      - id: "3_6"
+        data: ["Legendary Talismans", "Acquire all eight legendary talismans.", ""]
+      - id: "3_7"
+        data: ["Great Rune", "Restore the power of a Great Rune.", "Easy to unlock at Stormveil, after defeating Godrick."]
+      - id: "3_8"
+        data: ["Erdtree Aflame"," Use kindling to set the Erdtree Aflame.",  "Will unlock as part of story progression, but I think it's achievable in two ways."]
+      - id: "3_9"
+        data: ["Elden Ring", "Obtained all achievements", "Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms."]
   -
     title: "Endings"
     table: ["Name", "Desc.", "Notes"]
     items:
-      - ["4_1", "Elden Lord", "Achieve the 'Elden Lord' ending ", "Default ending. There are 4 confirmed variations based on quests you can do."]
-      - ["4_2", "Age of the Stars", "Achieve the 'Age of the Stars' ending", "Alternate ending. Finish Ranni's questline to unlock."]
-      - ["4_3", "Lord of Frenzied Flame", "Achieve the 'Lord of Frenzied Flame' ending", "Alternate ending. Search for the Three Fingers and follow through to unlock."]
+      - id: "4_1"
+        data: ["Elden Lord", "Achieve the 'Elden Lord' ending ", "Default ending. There are 4 confirmed variations based on quests you can do."]
+      - id: "4_2"
+        data: ["Age of the Stars", "Achieve the 'Age of the Stars' ending", "Alternate ending. Finish Ranni's questline to unlock."]
+      - id: "4_3"
+        data: ["Lord of Frenzied Flame", "Achieve the 'Lord of Frenzied Flame' ending", "Alternate ending. Search for the Three Fingers and follow through to unlock."]
