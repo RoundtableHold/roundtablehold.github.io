@@ -1218,6 +1218,7 @@ var profilesKey = 'darksouls3_profiles';
 "gestures_1_10",
 "gestures_1_11",
 "gestures_1_12",
+"gestures_1_13",
 "gestures_1_2",
 "gestures_1_3",
 "gestures_1_4",
