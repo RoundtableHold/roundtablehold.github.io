@@ -35,6 +35,7 @@ self.addEventListener('install', (e) => {
             '/checklists/spirit_ashes.html',
             '/checklists/talismans.html',
             '/checklists/tldr_all_npc_quest_stepsin_order.html',
+            '/checklists/tools.html',
             '/checklists/walkthrough.html',
             '/checklists/weapons.html',
             '/checklists/whetstones.html',
