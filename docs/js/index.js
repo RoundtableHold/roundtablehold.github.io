@@ -2455,6 +2455,27 @@ var profilesKey = 'darksouls3_profiles';
 "talismans_9_3",
 "talismans_9_4",
 "talismans_9_5",
+"tools_1_1",
+"tools_1_2",
+"tools_1_3",
+"tools_1_4",
+"tools_1_5",
+"tools_1_6",
+"tools_2_1",
+"tools_2_2",
+"tools_2_3",
+"tools_2_4",
+"tools_2_5",
+"tools_2_6",
+"tools_2_7",
+"tools_3_1",
+"tools_3_2",
+"tools_3_3",
+"tools_3_4",
+"tools_3_5",
+"tools_3_6",
+"tools_3_7",
+"tools_3_8",
 "weapons_10_1",
 "weapons_10_2",
 "weapons_10_3",
@@ -2900,6 +2921,8 @@ const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
+const tools_total = 21;
+var tools_checked = 0;
 const gestures_total = 48;
 var gestures_checked = 0;
 for (var id in profiles[profilesKey][profiles.current].checklistData) {
@@ -2993,6 +3016,9 @@ paintings_checked += 1;
 }
 if (id.startsWith("pots_bottles")) {
 pots_bottles_checked += 1;
+}
+if (id.startsWith("tools")) {
+tools_checked += 1;
 }
 if (id.startsWith("gestures")) {
 gestures_checked += 1;
@@ -3148,6 +3174,11 @@ if (pots_bottles_checked >= pots_bottles_total){
 $("#pots_bottles_progress_total").html("DONE");
 } else {
 $("#pots_bottles_progress_total").html(pots_bottles_checked + "/" + pots_bottles_total);
+}
+if (tools_checked >= tools_total){
+$("#tools_progress_total").html("DONE");
+} else {
+$("#tools_progress_total").html(tools_checked + "/" + tools_total);
 }
 if (gestures_checked >= gestures_total){
 $("#gestures_progress_total").html("DONE");
