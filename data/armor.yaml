@@ -8,10 +8,13 @@ sections:
     table: ["Name", "Location", "Notes"]
     items:
       - id: "0"
+        icon: "/img/icons/armor/done/14761.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
       - id: "1"
+        icon: "/img/icons/armor/done/14762.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
       - id: "2"
+        icon: "/img/icons/armor/done/14763.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
   -
     title: "Commoner's Set"
@@ -155,14 +158,19 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Mushroom+Set"
     items:
       - id: "49"
+        icon: "/img/icons/armor/done/14940.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Head\">Mushroom Head</a>"]
       - id: "50"
+        icon: "/img/icons/armor/done/15430.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Crown\">Mushroom Crown</a>"]
       - id: "51"
+        icon: "/img/icons/armor/done/14941.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Body\">Mushroom Body</a>"]
       - id: "52"
+        icon: "/img/icons/armor/done/14942.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Arms\">Mushroom Arms</a>"]
       - id: "53"
+        icon: "/img/icons/armor/done/14943.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Legs\">Mushroom Legs</a>"]
   -
     title: "Astrologer Set (No Legs)"
@@ -190,30 +198,40 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Sorcerer+Set"
     items:
       - id: "61"
+        icon: "/img/icons/armor/done/14340.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Karolos+Glintstone+Crown\">Karolos Glintstone Crown</a>"]
       - id: "62"
+        icon: "/img/icons/armor/done/14320.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Olivinus+Glintstone+Crown\">Olivinus Glintstone Crown</a>"]
       - id: "63"
+        icon: "/img/icons/armor/done/14310.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Glintstone+Crown\">Twinsage Glintstone Crown</a>"]
-      - id: "64"
+      - id: "64" #TODO: what is 14720??
+        icon: "/img/icons/armor/done/14730.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Witch's+Glintstone+Crown\">Witch's Glintstone Crown</a>"]
       - id: "65"
+        icon: "/img/icons/armor/done/14311.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Robe\">Raya Lucarian Robe</a>"]
       - id: "66"
+        icon: "/img/icons/armor/done/14312.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"]
       - id: "67"
+        icon: "/img/icons/armor/done/14313.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]
   -
     title: "Lazuli Sorcerer Set"
     link: "https://eldenring.wiki.fextralife.com/Lazuli+Sorcerer+Set"
     items:
       - id: "68"
+        icon: "/img/icons/armor/done/14330.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Glintstone+Crown\">Lazuli Glintstone Crown</a>"]
       - id: "69"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Robe\">Lazuli Robe</a>"]
       - id: "70"
+        icon: "/img/icons/armor/done/14312.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"]
       - id: "71"
+        icon: "/img/icons/armor/done/14313.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]
   -
     title: "Battlemage Set"
@@ -245,27 +263,41 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Spellblade+Set"
     items:
       - id: "81"
+        icon: "/img/icons/armor/done/13110.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Pointed+Hat\">Spellblade's Pointed Hat</a>"]
       - id: "82"
+        icon: "/img/icons/armor/done/13111.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire\">Spellblade's Traveling Attire</a>"]
-#      - ["83", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire+(Altered)\">Spellblade's Traveling Attire (Altered)</a>"]
+#     - id: "83"
+#       icon: "/img/icons/armor/done/13121.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire+(Altered)\">Spellblade's Traveling Attire (Altered)</a>"]
       - id: "84"
+        icon: "/img/icons/armor/done/13112.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Gloves\">Spellblade's Gloves</a>"]
       - id: "85"
+        icon: "/img/icons/armor/done/13113.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Trousers\">Spellblade's Trousers</a>"]
   -
     title: "Alberich's Set"
     link: "https://eldenring.wiki.fextralife.com/Alberich's+Set"
     items:
       - id: "86"
+        icon: "/img/icons/armor/done/13090.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat\">Alberich's Pointed Hat</a>"]
-#      - ["87", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat+(Altered)\">Alberich's Pointed Hat (Altered)</a>"]
+#     - id: "87"
+#       icon: "/img/icons/armor/done/13100.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat+(Altered)\">Alberich's Pointed Hat (Altered)</a>"]
       - id: "88"
+        icon: "/img/icons/armor/done/13091.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe\">Alberich's Robe</a>"]
-#      - ["89", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe+(Altered)\">Alberich's Robe (Altered)</a>"]
+#     - id: "89"
+#       icon: "/img/icons/armor/done/13101.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe+(Altered)\">Alberich's Robe (Altered)</a>"]
       - id: "90"
+        icon: "/img/icons/armor/done/13092.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Bracers\">Alberich's Bracers</a>"]
       - id: "91"
+        icon: "/img/icons/armor/done/13093.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Trousers\">Alberich's Trousers</a>"]
   -
     title: "Preceptor's Set"
@@ -290,22 +322,29 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Set"
     items:
       - id: "98"
+        icon: "/img/icons/armor/done/13850.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Crown\">Azur's Glintstone Crown</a>"]
       - id: "99"
+        icon: "/img/icons/armor/done/13851.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Robe\">Azur's Glintstone Robe</a>"]
       - id: "100"
+        icon: "/img/icons/armor/done/13852.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Manchettes\">Azur's Manchettes</a>"]
   -
     title: "Lusat's Glintstone Set"
     link: "https://eldenring.wiki.fextralife.com/Lusat's+Set"
     items:
       - id: "101"
+        icon: "/img/icons/armor/done/13840.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Crown\">Lusat's Glintstone Crown</a>"]
       - id: "102"
+        icon: "/img/icons/armor/done/13841.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Robe\">Lusat's Robe</a>"]
       - id: "103"
+        icon: "/img/icons/armor/done/13842.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Manchettes\">Lusat's Manchettes</a>"]
       - id: "104"
+        icon: "/img/icons/armor/done/13843.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Old+Sorcerer's+Legwraps\">Old Sorcerer's Legwraps</a> (appears out of order with the rest of the set. Shows as the 2nd piece of the 2nd sections of leg armors in-game.)"]
   -
     title: "Queen of the Full Moon Set"
@@ -324,21 +363,29 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Snow+Witch+Set"
     items:
       - id: "109"
+        icon: "/img/icons/armor/done/14740.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Hat\">Snow Witch Hat</a>"]
       - id: "110"
+        icon: "/img/icons/armor/done/14741.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe\">Snow Witch Robe</a>"]
-#      - ["111", "<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe+(Altered)\">Snow Witch Robe (Altered)</a>"]
+#     - id: "111"
+#       icon: "/img/icons/armor/done/14751.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe+(Altered)\">Snow Witch Robe (Altered)</a>"]
       - id: "112"
+        icon: "/img/icons/armor/done/14743.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Skirt\">Snow Witch Skirt</a>"]
   -
     title: "Fia's Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Fia's+Set"
     items:
       - id: "113"
+        icon: "/img/icons/armor/done/15340.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Hood\">Fia's Hood</a>"]
       - id: "114"
+        icon: "/img/icons/armor/done/15341.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Robe\">Fia's Robe</a>"]
 #      - ["115", "<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Robe+(Altered)\">Fia's Robe (Altered)</a>"]
+# panties icon: "/img/icons/armor/done/15333.png"
   -
     title: "Deathbed Dress (Chest Only)"
     items:
@@ -404,12 +451,16 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Goldmask's+Set"
     items:
       - id: "135"
+        icon: "/img/icons/armor/done/14780.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radiant+Gold+Mask\">Radiant Gold Mask</a>"]
       - id: "136"
+        icon: "/img/icons/armor/done/14781.png" 
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Goldmask's+Rags\">Goldmask's Rags</a>"]
       - id: "137"
+        icon: "/img/icons/armor/done/14782.png" 
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gold+Bracelets\">Gold Bracelets</a>"]
       - id: "138"
+        icon: "/img/icons/armor/done/14783.png" 
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gold+Waistwrap\">Gold Waistwrap</a>"]
   -
     title: "Perfumer Set"
@@ -550,29 +601,40 @@ sections:
     title: "Scarab Masks"
     items:
       - id: "182"
+        icon: "/img/icons/armor/done/15310.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Tear+Scarab\">Crimson Tear Scarab</a>"]
       - id: "183"
+        icon: "/img/icons/armor/done/15320.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cerulean+Tear+Scarab\">Cerulean Tear Scarab</a>"]
       - id: "184"
+        icon: "/img/icons/armor/done/15280.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash-of-War+Scarab\">Ash-of-War Scarab</a>"]
       - id: "185"
+        icon: "/img/icons/armor/done/15300.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Scarab\">Glintstone Scarab</a>"]
       - id: "186"
+        icon: "/img/icons/armor/done/15290.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Incantation Scarab</a>"]
   -
     title: "Imp Heads"
     items:
       - id: "187"
+        icon: "/img/icons/armor/done/14820.png" 
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Cat)\">Imp Head (Cat)</a>"]
       - id: "188"
+        icon: "/img/icons/armor/done/14860.png" 
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Wolf)\">Imp Head (Wolf)</a>"]
       - id: "189"
+        icon: "/img/icons/armor/done/14830.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Fanged)\">Imp Head (Fanged)</a>"]
       - id: "190"
+        icon: "/img/icons/armor/done/14840.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Long-Tongued)\">Imp Head (Long-Tongued)</a>"]
       - id: "191"
+        icon: "/img/icons/armor/done/14850.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Corpse)\">Imp Head (Corpse)</a>"]
       - id: "192"
+        icon: "/img/icons/armor/done/14870.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Elder)\">Imp Head (Elder)</a>"]
   -
     title: "Nox Mirrorhelm (Helmet Only)"
@@ -609,8 +671,10 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Albinauric+Set"
     items:
       - id: "199"
+        icon: "/img/icons/armor/done/14800.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Mask\">Albinauric Mask</a>"]
       - id: "571"
+        icon: "/img/icons/armor/done/14801.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dirty+Chainmail\">Dirty Chainmail</a>"]
   -
     title: "Black Wolf Mask (Helmet Only)"
@@ -646,27 +710,38 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Noble's+Set"
     items:
       - id: "209"
+        icon: "/img/icons/armor/done/14130.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Hood\">Crimson Hood</a>"]
       - id: "210"
+        icon: "/img/icons/armor/done/14140.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Navy+Hood\">Navy Hood</a>"]
       - id: "211"
+        icon: "/img/icons/armor/done/14131.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Traveling+Garb\">Noble's Traveling Garb</a>"]
-      - id: "212"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Trousers\">Noble's Trousers</a>"]
       - id: "213"
+        icon: "/img/icons/armor/done/14132.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Gloves\">Noble's Gloves</a>"]
+      - id: "212"
+        icon: "/img/icons/armor/done/14133.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Trousers\">Noble's Trousers</a>"]
   -
     title: "War Surgeon Set"
     link: ""
     items:
       - id: "214"
+        icon: "/img/icons/armor/done/14040.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/White+Mask\">White Mask</a>"]
       - id: "215"
+        icon: "/img/icons/armor/done/14041.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown\">War Surgeon Gown</a>"]
-#      - ["216", "<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown+(Altered)\">War Surgeon Gown (Altered)</a>"]
+#     - id: "216"
+#       icon: "/img/icons/armor/done/14051.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown+(Altered)\">War Surgeon Gown (Altered)</a>"]
       - id: "217"
+        icon: "/img/icons/armor/done/14042.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gloves\">War Surgeon Gloves</a>"]
       - id: "218"
+        icon: "/img/icons/armor/done/14043.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Trousers\">War Surgeon Trousers</a>"]
   -
     title: "Nomadic Merchant's Set (No Gloves)"
@@ -1152,13 +1227,19 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Malenia's+Set"
     items:
       - id: "376"
+        icon: "/img/icons/armor/done/14170.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Winged+Helm\">Malenia's Winged Helm</a>"]
       - id: "377"
+        icon: "/img/icons/armor/done/14171.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor\">Malenia's Armor</a>"]
-#      - ["378", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor+(Altered)\">Malenia's Armor (Altered)</a>"]
+#     - id: "378"
+#       icon: "/img/icons/armor/done/14181.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor+(Altered)\">Malenia's Armor (Altered)</a>"]
       - id: "379"
+        icon: "/img/icons/armor/done/14172.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Gauntlet\">Malenia's Gauntlet</a>"]
       - id: "380"
+        icon: "/img/icons/armor/done/14173.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Greaves\">Malenia's Greaves</a>"]
   -
     title: "Elden Lord Set"
@@ -1234,13 +1315,17 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Set"
     items:
       - id: "406"
+        icon: "/img/icons/armor/done/15110.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Helm\">Cuckoo Knight Helm</a>"]
       - id: "407"
+        icon: "/img/icons/armor/done/15111.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Armor\">Cuckoo Knight Armor</a>"]
 #      - ["408", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Armor+(Altered)\">Cuckoo Knight Armor (Altered)</a>"]
       - id: "409"
+        icon: "/img/icons/armor/done/15112.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Gauntlets\">Cuckoo Knight Gauntlets</a>"]
       - id: "410"
+        icon: "/img/icons/armor/done/15113.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Greaves\">Cuckoo Knight Greaves</a>"]
   -
     title: "Redmane Knight Set"
@@ -1365,13 +1450,19 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Twinned+Set"
     items:
       - id: "456"
+        icon: "/img/icons/armor/done/13880.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Helm\">Twinned Helm</a>"]
       - id: "457"
+        icon: "/img/icons/armor/done/13881.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor\">Twinned Armor</a>"]
-#      - ["458", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor+(Altered)\">Twinned Armor (Altered)</a>"]
+#     - id: "458"
+#       icon: "/img/icons/armor/done/13891.png"
+#       data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor+(Altered)\">Twinned Armor (Altered)</a>"]
       - id: "459"
+        icon: "/img/icons/armor/done/13882.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Gauntlets\">Twinned Gauntlets</a>"]
       - id: "460"
+        icon: "/img/icons/armor/done/13883.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Greaves\">Twinned Greaves</a>"]
   -
     title: "Drake Knight Set"
@@ -1392,13 +1483,17 @@ sections:
     link: ""
     items:
       - id: "467"
+        icon: "/img/icons/armor/done/13170.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Wolf+Mask\">Black Wolf Mask</a>"]
       - id: "468"
+        icon: "/img/icons/armor/done/13171.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Armor\">Blaidd's Armor</a>"]
 #      - ["469", "<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Armor+(Altered)\">Blaidd's Armor (Altered)</a>"]
       - id: "470"
+        icon: "/img/icons/armor/done/13172.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Gauntlets\">Blaidd's Gauntlets</a>"]
       - id: "471"
+        icon: "/img/icons/armor/done/13173.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Greaves\">Blaidd's Greaves</a>"]
   -
     title: "Briar Set"
@@ -1443,13 +1538,17 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/All-Knowing+Set"
     items:
       - id: "486"
+        icon: "/img/icons/armor/done/13860.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Helm\">All-Knowing Helm</a>"]
       - id: "487"
+        icon: "/img/icons/armor/done/13861.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Armor\">All-Knowing Armor</a>"]
 #      - ["488", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Armor+(Altered)\">All-Knowing Armor (Altered)</a>"]
       - id: "489"
+        icon: "/img/icons/armor/done/13862.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Gauntlets\">All-Knowing Gauntlets</a>"]
       - id: "490"
+        icon: "/img/icons/armor/done/13863.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Greaves\">All-Knowing Greaves</a>"]
   -
     title: "Royal Knight Set"
@@ -1616,13 +1715,17 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Lionel's+Set"
     items:
       - id: "552"
+        icon: "/img/icons/armor/done/13970.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Helm\">Lionel's Helm</a>"]
       - id: "553"
+        icon: "/img/icons/armor/done/13971.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Armor\">Lionel's Armor</a>"]
 #      - ["554", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Armor+(Altered)\">Lionel's Armor (Altered)</a>"]
       - id: "555"
+        icon: "/img/icons/armor/done/13972.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Gauntlets\">Lionel's Gauntlets</a>"]
       - id: "556"
+        icon: "/img/icons/armor/done/13973.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Greaves\">Lionel's Greaves</a>"]
   -
     title: "Bull-Goat Set"
@@ -1653,18 +1756,24 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Fire+Prelate+Set"
     items:
       - id: "565"
+        icon: "/img/icons/armor/done/13520.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Helm\">Fire Prelate Helm</a>"]
       - id: "566"
+        icon: "/img/icons/armor/done/13521.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor\">Fire Prelate Armor</a>"]
       - id: "567"
+        icon: "/img/icons/armor/done/13531.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor+(Altered)\">Fire Prelate Armor (Altered)</a>"]
       - id: "568"
+        icon: "/img/icons/armor/done/13522.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Gauntlets\">Fire Prelate Gauntlets</a>"]
       - id: "569"
+        icon: "/img/icons/armor/done/13523.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Greaves\">Fire Prelate Greaves</a>"]
   -
     title: "Pumpkin Helm (Helmet Only)"
     items:
       - id: "570"
+        icon: "/img/icons/armor/done/13620.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pumpkin+Helm\">Pumpkin Helm</a>"]
 # last id in use: 582
