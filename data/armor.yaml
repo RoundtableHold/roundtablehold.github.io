@@ -7,1150 +7,1664 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Traveler's+Set"
     table: ["Name", "Location", "Notes"]
     items:
-      - ["0", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
-      - ["1", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
-      - ["2", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
+      - id: "0"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Clothes\">Traveler's Clothes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
+      - id: "1"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Manchettes\">Traveler's Manchettes</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
+      - id: "2"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Boots\">Traveler's Boots</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: Found along with the rest of the set deep underground in a side room with a giant scarlet flower, adjacent to the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4457&lat=-37.1&lng=149.13&zoom=8&code=mapA\">Haligtree Roots</a> grace site and just before <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia's</a> boss fight.", ""]
   -
     title: "Commoner's Set"
     link: "https://eldenring.wiki.fextralife.com/Commoner's+Set"
     items:
-      - ["3", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband\">Commoner's Headband</a>"]
-      - ["4", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband+(Altered)\">Commoner's Headband (Altered)</a>"]
-      - ["5", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Garb\">Commoner's Garb</a>"]
+      - id: "3"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband\">Commoner's Headband</a>"]
+      - id: "4"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Headband+(Altered)\">Commoner's Headband (Altered)</a>"]
+      - id: "5"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Garb\">Commoner's Garb</a>"]
 #      - ["6", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Garb+(Altered)\">Commoner's Garb (Altered)</a>"]
-      - ["7", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Simple+Garb\">Commoner's Simple Garb</a>"]
+      - id: "7"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Simple+Garb\">Commoner's Simple Garb</a>"]
 #      - ["8", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Simple+Garb+(Altered)\">Commoner's Simple Garb (Altered)</a>"]
-      - ["9", "<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Shoes\">Commoner's Shoes</a>"]
+      - id: "9"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commoner's+Shoes\">Commoner's Shoes</a>"]
   -
     title: "Aristocrat Set"
     link: "https://eldenring.wiki.fextralife.com/Aristocrat+Set"
     items:
-      - ["10", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Headband\">Aristocrat Headband</a>"]
-      - ["11", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Hat\">Aristocrat Hat</a>"]
-      - ["12", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb\">Aristocrat Garb</a>"]
-      - ["13", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb+(Altered)\">Aristocrat Garb (Altered)</a>"]
-      - ["14", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Coat\">Aristocrat Coat</a>"]
-      - ["15", "<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Boots\">Aristocrat Boots</a>"]
+      - id: "10"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Headband\">Aristocrat Headband</a>"]
+      - id: "11"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Hat\">Aristocrat Hat</a>"]
+      - id: "12"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb\">Aristocrat Garb</a>"]
+      - id: "13"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Garb+(Altered)\">Aristocrat Garb (Altered)</a>"]
+      - id: "14"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Coat\">Aristocrat Coat</a>"]
+      - id: "15"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Aristocrat+Boots\">Aristocrat Boots</a>"]
   -
     title: "Old Aristocrat Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Old+Aristocrat+Set"
     items:
-      - ["16", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Cowl\">Old Aristocrat Cowl</a>"]
-      - ["17", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Gown\">Old Aristocrat Gown</a>"]
-      - ["18", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Shoes\">Old Aristocrat Shoes</a>"]
+      - id: "16"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Cowl\">Old Aristocrat Cowl</a>"]
+      - id: "17"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Gown\">Old Aristocrat Gown</a>"]
+      - id: "18"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Old+Aristocrat+Shoes\">Old Aristocrat Shoes</a>"]
   -
     title: "Page Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Page+Set"
     items:
-      - ["19", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Hood\">Page Hood</a>"]
-      - ["20", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Garb\">Page Garb</a>"]
+      - id: "19"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Hood\">Page Hood</a>"]
+      - id: "20"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Garb\">Page Garb</a>"]
 #      - ["21", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Garb+(Altered)\">Page Garb (Altered)</a>"]
-      - ["22", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"] # IDs 22 and 26 are linked
+      - id: "22"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"]
   -
     title: "High Page Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/High+Page+Set"
     items:
-      - ["23", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Hood\">High Page Hood</a>"]
-      - ["24", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Clothes\">High Page Clothes</a>"]
+      - id: "23"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Hood\">High Page Hood</a>"]
+      - id: "24"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Clothes\">High Page Clothes</a>"]
 #      - ["25", "<a href=\"https://eldenring.wiki.fextralife.com/High+Page+Clothes+(Altered)\">High Page Clothes (Altered)</a>"]
-      - ["26", "<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"] # IDs 22 and 26 are linked
+      - id: "26"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Trousers\">Page Trousers</a>"]
   -
     title: "Guardian Set"
     link: "https://eldenring.wiki.fextralife.com/Guardian+Set"
     items:
-      - ["27", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Mask\">Guardian Mask</a>"]
-      - ["28", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb\">Guardian Garb</a>"]
-      - ["29", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb+(Full+Bloom)\">Guardian Garb (Full Bloom)</a>"]
-      - ["30", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Bracers\">Guardian Bracers</a>"]
-      - ["31", "<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Greaves\">Guardian Greaves</a>"]
+      - id: "27"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Mask\">Guardian Mask</a>"]
+      - id: "28"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb\">Guardian Garb</a>"]
+      - id: "29"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Garb+(Full+Bloom)\">Guardian Garb (Full Bloom)</a>"]
+      - id: "30"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Bracers\">Guardian Bracers</a>"]
+      - id: "31"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian+Greaves\">Guardian Greaves</a>"]
   -
     title: "Festive Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Festive+Set"
     items:
-      - ["32", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Hood\">Festive Hood</a>"]
+      - id: "32"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Festive+Hood\">Festive Hood</a>"]
 #      - ["33", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Hood+(Altered)\">Festive Hood (Altered)</a>"]
-      - ["34", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb\">Festive Garb</a>"]
-      - ["35", "<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb+(Altered)\">Festive Garb (Altered)</a>"]
+      - id: "34"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb\">Festive Garb</a>"]
+      - id: "35"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Festive+Garb+(Altered)\">Festive Garb (Altered)</a>"]
   -
     title: "Blue Festive Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Blue+Festive+Set"
     items:
-      - ["36", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Hood\">Blue Festive Hood</a>"]
-      - ["37", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Garb\">Blue Festive Garb</a>"]
+      - id: "36"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Hood\">Blue Festive Hood</a>"]
+      - id: "37"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Festive+Garb\">Blue Festive Garb</a>"]
   -
     title: "Guilty Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Guilty+Set"
     items:
-      - ["38", "<a href=\"https://eldenring.wiki.fextralife.com/Guilty+Hood\">Guilty Hood</a>"]
-      - ["39", "<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Garb\">Cloth Garb</a> (appears out of order with the rest of the set. Shows in-game as the first piece in chest armors.)"]
-      - ["40", "<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Trousers\">Cloth Trousers</a> (appears out of order with the rest of the set. Shows in-game as the first piece in leg armors.)"]
+      - id: "38"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guilty+Hood\">Guilty Hood</a>"]
+      - id: "39"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Garb\">Cloth Garb</a> (appears out of order with the rest of the set. Shows in-game as the first piece in chest armors.)"]
+      - id: "40"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cloth+Trousers\">Cloth Trousers</a> (appears out of order with the rest of the set. Shows in-game as the first piece in leg armors.)"]
   -
     title: "Prisoner Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Prisoner+Set"
     items:
-      - ["41", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Iron+Mask\">Prisoner Iron Mask</a>"]
-      - ["42", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Clothing\">Prisoner Clothing</a>"]
-      - ["43", "<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Trousers\">Prisoner Trousers</a>"]
+      - id: "41"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Iron+Mask\">Prisoner Iron Mask</a>"]
+      - id: "42"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Clothing\">Prisoner Clothing</a>"]
+      - id: "43"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prisoner+Trousers\">Prisoner Trousers</a>"]
   -
     title: "Blackguard's Iron Mask (Helmet Only)"
     items:
-      - ["44", "<a href=\"https://eldenring.wiki.fextralife.com/Blackguard's+Iron+Mask\">Blackguard's Iron Mask</a>"]
+      - id: "44"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackguard's+Iron+Mask\">Blackguard's Iron Mask</a>"]
   -
     title: "Bloodsoaked Set (No Legs)"
     link: "https://eldenring.wiki.fextralife.com/Bloodsoaked+Set"
     items:
-      - ["45", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Mask\">Bloodsoaked Mask</a>"]
-      - ["46", "<a href=\"https://eldenring.wiki.fextralife.com/Official's+Attire\">Official's Attire</a> (appears out of order with the rest of the set. Found in the 3rd section of chest armors in-game.)"]
-      - ["47", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Manchettes\">Bloodsoaked Manchettes</a>"]
+      - id: "45"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Mask\">Bloodsoaked Mask</a>"]
+      - id: "46"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Official's+Attire\">Official's Attire</a> (appears out of order with the rest of the set. Found in the 3rd section of chest armors in-game.)"]
+      - id: "47"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Manchettes\">Bloodsoaked Manchettes</a>"]
   -
     title: "Black Dumpling (Helmet Only)"
     items:
-      - ["48", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Dumpling\">Black Dumpling</a>"]
+      - id: "48"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Dumpling\">Black Dumpling</a>"]
   -
     title: "Mushroom Set"
     link: "https://eldenring.wiki.fextralife.com/Mushroom+Set"
     items:
-      - ["49", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Head\">Mushroom Head</a>"]
-      - ["50", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Crown\">Mushroom Crown</a>"]
-      - ["51", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Body\">Mushroom Body</a>"]
-      - ["52", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Arms\">Mushroom Arms</a>"]
-      - ["53", "<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Legs\">Mushroom Legs</a>"]
+      - id: "49"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Head\">Mushroom Head</a>"]
+      - id: "50"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Crown\">Mushroom Crown</a>"]
+      - id: "51"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Body\">Mushroom Body</a>"]
+      - id: "52"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Arms\">Mushroom Arms</a>"]
+      - id: "53"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mushroom+Legs\">Mushroom Legs</a>"]
   -
     title: "Astrologer Set (No Legs)"
     link: "https://eldenring.wiki.fextralife.com/Astrologer+Set"
     items:
-      - ["54", "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Hood\">Astrologer Hood</a>"]
-      - ["55", "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Robe\">Astrologer Robe</a>"]
+      - id: "54"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Hood\">Astrologer Hood</a>"]
+      - id: "55"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Robe\">Astrologer Robe</a>"]
 #      - ["56", "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Robe+(Altered)\">Astrologer Robe (Altered)</a>"]
-      - ["57", "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Gloves\">Astrologer Gloves</a>"]
-      - ["58", "<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Trousers\">Astrologer Trousers</a>"]
+      - id: "57"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Gloves\">Astrologer Gloves</a>"]
+      - id: "58"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer+Trousers\">Astrologer Trousers</a>"]
   -
     title: "Juvenile Scholar Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Set"
     items:
-      - ["59", "<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Cap\">Juvenile Scholar Cap</a>"]
-      - ["60", "<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Robe\">Juvenile Scholar Robe</a>"]
+      - id: "59"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Cap\">Juvenile Scholar Cap</a>"]
+      - id: "60"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Robe\">Juvenile Scholar Robe</a>"]
   -
     title: "Raya Lucarian Sorcerer Set"
     link: "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Sorcerer+Set"
     items:
-      - ["61", "<a href=\"https://eldenring.wiki.fextralife.com/Karolos+Glintstone+Crown\">Karolos Glintstone Crown</a>"]
-      - ["62", "<a href=\"https://eldenring.wiki.fextralife.com/Olivinus+Glintstone+Crown\">Olivinus Glintstone Crown</a>"]
-      - ["63", "<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Glintstone+Crown\">Twinsage Glintstone Crown</a>"]
-      - ["64", "<a href=\"https://eldenring.wiki.fextralife.com/Witch's+Glintstone+Crown\">Witch's Glintstone Crown</a>"]
-      - ["65", "<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Robe\">Raya Lucarian Robe</a>"]
-      - ["66", "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"] # IDs 66 and 70 are linked
-      - ["67", "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]  # IDs 67 and 71 are linked
+      - id: "61"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Karolos+Glintstone+Crown\">Karolos Glintstone Crown</a>"]
+      - id: "62"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Olivinus+Glintstone+Crown\">Olivinus Glintstone Crown</a>"]
+      - id: "63"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Glintstone+Crown\">Twinsage Glintstone Crown</a>"]
+      - id: "64"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Witch's+Glintstone+Crown\">Witch's Glintstone Crown</a>"]
+      - id: "65"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Robe\">Raya Lucarian Robe</a>"]
+      - id: "66"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"]
+      - id: "67"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]
   -
     title: "Lazuli Sorcerer Set"
     link: "https://eldenring.wiki.fextralife.com/Lazuli+Sorcerer+Set"
     items:
-      - ["68", "<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Glintstone+Crown\">Lazuli Glintstone Crown</a>"]
-      - ["69", "<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Robe\">Lazuli Robe</a>"]
-      - ["70", "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"]  # IDs 66 and 70 are linked
-      - ["71", "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]  # IDs 67 and 71 are linked
+      - id: "68"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Glintstone+Crown\">Lazuli Glintstone Crown</a>"]
+      - id: "69"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lazuli+Robe\">Lazuli Robe</a>"]
+      - id: "70"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Manchettes\">Sorcerer Manchettes</a>"]
+      - id: "71"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Leggings\">Sorcerer Leggings</a>"]
   -
     title: "Battlemage Set"
     link: "https://eldenring.wiki.fextralife.com/Battlemage+Set"
     items:
-      - ["72", "<a href=\"https://eldenring.wiki.fextralife.com/Haima+Glintstone+Crown\">Haima Glintstone Crown</a>"]
-      - ["73", "<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Robe\">Battlemage Robe</a>"]
-      - ["74", "<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Manchettes\">Battlemage Manchettes</a>"]
-      - ["75", "<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Legwraps\">Battlemage Legwraps</a>"]
+      - id: "72"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haima+Glintstone+Crown\">Haima Glintstone Crown</a>"]
+      - id: "73"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Robe\">Battlemage Robe</a>"]
+      - id: "74"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Manchettes\">Battlemage Manchettes</a>"]
+      - id: "75"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Legwraps\">Battlemage Legwraps</a>"]
   -
     title: "Errant Sorcerer Set"
     link: "https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Set"
     items:
-      - ["76", "<a href=\"https://eldenring.wiki.fextralife.com/Hierodas+Glintstone+Crown\">Hierodas Glintstone Crown</a>"]
-      - ["77", "<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Robe\">Errant Sorcerer Robe</a>"]
+      - id: "76"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hierodas+Glintstone+Crown\">Hierodas Glintstone Crown</a>"]
+      - id: "77"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Robe\">Errant Sorcerer Robe</a>"]
 #      - ["78", "<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Robe+(Altered)\">Errant Sorcerer Robe (Altered)</a>"]
-      - ["79", "<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Manchettes\">Errant Sorcerer Manchettes</a>"]
-      - ["80", "<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Boots\">Errant Sorcerer Boots</a>"]
+      - id: "79"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Manchettes\">Errant Sorcerer Manchettes</a>"]
+      - id: "80"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Boots\">Errant Sorcerer Boots</a>"]
   -
     title: "Spellblade Set"
     link: "https://eldenring.wiki.fextralife.com/Spellblade+Set"
     items:
-      - ["81", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Pointed+Hat\">Spellblade's Pointed Hat</a>"]
-      - ["82", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire\">Spellblade's Traveling Attire</a>"]
+      - id: "81"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Pointed+Hat\">Spellblade's Pointed Hat</a>"]
+      - id: "82"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire\">Spellblade's Traveling Attire</a>"]
 #      - ["83", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Traveling+Attire+(Altered)\">Spellblade's Traveling Attire (Altered)</a>"]
-      - ["84", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Gloves\">Spellblade's Gloves</a>"]
-      - ["85", "<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Trousers\">Spellblade's Trousers</a>"]
+      - id: "84"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Gloves\">Spellblade's Gloves</a>"]
+      - id: "85"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spellblade's+Trousers\">Spellblade's Trousers</a>"]
   -
     title: "Alberich's Set"
     link: "https://eldenring.wiki.fextralife.com/Alberich's+Set"
     items:
-      - ["86", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat\">Alberich's Pointed Hat</a>"]
+      - id: "86"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat\">Alberich's Pointed Hat</a>"]
 #      - ["87", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Pointed+Hat+(Altered)\">Alberich's Pointed Hat (Altered)</a>"]
-      - ["88", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe\">Alberich's Robe</a>"]
+      - id: "88"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe\">Alberich's Robe</a>"]
 #      - ["89", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Robe+(Altered)\">Alberich's Robe (Altered)</a>"]
-      - ["90", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Bracers\">Alberich's Bracers</a>"]
-      - ["91", "<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Trousers\">Alberich's Trousers</a>"]
+      - id: "90"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Bracers\">Alberich's Bracers</a>"]
+      - id: "91"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Alberich's+Trousers\">Alberich's Trousers</a>"]
   -
     title: "Preceptor's Set"
     link: "https://eldenring.wiki.fextralife.com/Preceptor's+Set"
     items:
-      - ["92", "<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Big+Hat\">Preceptor's Big Hat</a>"]
-      - ["93", "<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Long+Gown\">Preceptor's Long Gown</a>"]
+      - id: "92"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Big+Hat\">Preceptor's Big Hat</a>"]
+      - id: "93"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Long+Gown\">Preceptor's Long Gown</a>"]
 #      - ["94", "<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Long+Gown+(Altered)\">Preceptor's Long Gown (Altered)</a>"]
-      - ["95", "<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Gloves\">Preceptor's Gloves</a>"]
-      - ["96", "<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Trousers\">Preceptor's Trousers</a>"]
+      - id: "95"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Gloves\">Preceptor's Gloves</a>"]
+      - id: "96"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Preceptor's+Trousers\">Preceptor's Trousers</a>"]
   -
     title: "Mask of Confidence (Helmet Only)"
     items:
-      - ["97", "<a href=\"https://eldenring.wiki.fextralife.com/Mask+of+Confidence\">Mask of Confidence</a>"]
+      - id: "97"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mask+of+Confidence\">Mask of Confidence</a>"]
   -
     title: "Azur's Glintstone Set (No Legs)"
     link: "https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Set"
     items:
-      - ["98", "<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Crown\">Azur's Glintstone Crown</a>"]
-      - ["99", "<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Robe\">Azur's Glintstone Robe</a>"]
-      - ["100", "<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Manchettes\">Azur's Manchettes</a>"]
+      - id: "98"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Crown\">Azur's Glintstone Crown</a>"]
+      - id: "99"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Robe\">Azur's Glintstone Robe</a>"]
+      - id: "100"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Manchettes\">Azur's Manchettes</a>"]
   -
     title: "Lusat's Glintstone Set"
     link: "https://eldenring.wiki.fextralife.com/Lusat's+Set"
     items:
-      - ["101", "<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Crown\">Lusat's Glintstone Crown</a>"]
-      - ["102", "<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Robe\">Lusat's Robe</a>"]
-      - ["103", "<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Manchettes\">Lusat's Manchettes</a>"]
-      - ["104", "<a href=\"https://eldenring.wiki.fextralife.com/Old+Sorcerer's+Legwraps\">Old Sorcerer's Legwraps</a> (appears out of order with the rest of the set. Shows as the 2nd piece of the 2nd sections of leg armors in-game.)"]
+      - id: "101"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Crown\">Lusat's Glintstone Crown</a>"]
+      - id: "102"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Robe\">Lusat's Robe</a>"]
+      - id: "103"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Manchettes\">Lusat's Manchettes</a>"]
+      - id: "104"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Old+Sorcerer's+Legwraps\">Old Sorcerer's Legwraps</a> (appears out of order with the rest of the set. Shows as the 2nd piece of the 2nd sections of leg armors in-game.)"]
   -
     title: "Queen of the Full Moon Set"
     link: "https://eldenring.wiki.fextralife.com/Queen+of+the+Full+Moon+Set"
     items:
-      - ["105", "<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Crescent+Crown\">Queen's Crescent Crown</a>"]
-      - ["106", "<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Robe\">Queen's Robe</a>"]
-      - ["107", "<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Bracelets\">Queen's Bracelets</a>"]
-      - ["108", "<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Leggings\">Queen's Leggings</a>"]
+      - id: "105"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Crescent+Crown\">Queen's Crescent Crown</a>"]
+      - id: "106"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Robe\">Queen's Robe</a>"]
+      - id: "107"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Bracelets\">Queen's Bracelets</a>"]
+      - id: "108"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Queen's+Leggings\">Queen's Leggings</a>"]
   -
     title: "Snow Witch Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Snow+Witch+Set"
     items:
-      - ["109", "<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Hat\">Snow Witch Hat</a>"]
-      - ["110", "<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe\">Snow Witch Robe</a>"]
+      - id: "109"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Hat\">Snow Witch Hat</a>"]
+      - id: "110"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe\">Snow Witch Robe</a>"]
 #      - ["111", "<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Robe+(Altered)\">Snow Witch Robe (Altered)</a>"]
-      - ["112", "<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Skirt\">Snow Witch Skirt</a>"]
+      - id: "112"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Snow+Witch+Skirt\">Snow Witch Skirt</a>"]
   -
     title: "Fia's Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Fia's+Set"
     items:
-      - ["113", "<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Hood\">Fia's Hood</a>"]
-      - ["114", "<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Robe\">Fia's Robe</a>"]
+      - id: "113"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Hood\">Fia's Hood</a>"]
+      - id: "114"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Robe\">Fia's Robe</a>"]
 #      - ["115", "<a href=\"https://eldenring.wiki.fextralife.com/Fia's+Robe+(Altered)\">Fia's Robe (Altered)</a>"]
   -
     title: "Deathbed Dress (Chest Only)"
     items:
-      - ["116", "<a href=\"https://eldenring.wiki.fextralife.com/Deathbed+Dress\">Deathbed Dress</a>"]
+      - id: "116"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Deathbed+Dress\">Deathbed Dress</a>"]
   -
     title: "Prophet Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Prophet+Set"
     items:
-      - ["117", "<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Blindfold\">Prophet Blindfold</a>"]
-      - ["118", "<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Robe\">Prophet Robe</a>"]
+      - id: "117"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Blindfold\">Prophet Blindfold</a>"]
+      - id: "118"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Robe\">Prophet Robe</a>"]
 #      - ["119", "<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Robe+(Altered)\">Prophet Robe (Altered)</a>"]
-      - ["120", "<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Trousers\">Prophet Trousers</a>"]
+      - id: "120"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophet+Trousers\">Prophet Trousers</a>"]
   -
     title: "Corhyn's Robe (Chest Only)"
     items:
-      - ["121", "<a href=\"https://eldenring.wiki.fextralife.com/Corhyn's+Robe\">Corhyn's Robe</a>"]
+      - id: "121"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Corhyn's+Robe\">Corhyn's Robe</a>"]
   -
     title: "Traveling Maiden Set"
     link: "https://eldenring.wiki.fextralife.com/Traveling+Maiden+Set"
     items:
-      - ["122", "<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Hood\">Traveling Maiden Hood</a>"]
-      - ["123", "<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Robe\">Traveling Maiden Robe</a>"]
+      - id: "122"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Hood\">Traveling Maiden Hood</a>"]
+      - id: "123"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Robe\">Traveling Maiden Robe</a>"]
 #      - ["124", "<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Robe+(Altered)\">Traveling Maiden Robe (Altered)</a>"]
-      - ["125", "<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Gloves\">Traveling Maiden Gloves</a>"]
-      - ["126", "<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Boots\">Traveling Maiden Boots</a>"]
+      - id: "125"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Gloves\">Traveling Maiden Gloves</a>"]
+      - id: "126"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveling+Maiden+Boots\">Traveling Maiden Boots</a>"]
   -
     title: "Finger Maiden Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Finger+Maiden+Set"
     items:
-      - ["127", "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Fillet\">Finger Maiden Fillet</a>"]
-      - ["128", "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Robe\">Finger Maiden Robe</a>"]
+      - id: "127"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Fillet\">Finger Maiden Fillet</a>"]
+      - id: "128"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Robe\">Finger Maiden Robe</a>"]
 #      - ["129", "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Robe+(Altered)\">Finger Maiden Robe (Altered)</a>"]
-      - ["130", "<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Shoes\">Finger Maiden Shoes</a>"]
+      - id: "130"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Shoes\">Finger Maiden Shoes</a>"]
   -
     title: "Sage Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Sage+Set"
     items:
-      - ["131", "<a href=\"https://eldenring.wiki.fextralife.com/Sage+Hood\">Sage Hood</a>"]
-      - ["132", "<a href=\"https://eldenring.wiki.fextralife.com/Sage+Robe\">Sage Robe</a>"]
-      - ["133", "<a href=\"https://eldenring.wiki.fextralife.com/Sage+Trousers\">Sage Trousers</a>"]
+      - id: "131"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sage+Hood\">Sage Hood</a>"]
+      - id: "132"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sage+Robe\">Sage Robe</a>"]
+      - id: "133"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sage+Trousers\">Sage Trousers</a>"]
   -
     title: "Greathood (Helmet Only)"
     items:
-      - ["134", "<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Greathood</a>"]
+      - id: "134"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Greathood</a>"]
   -
     title: "Goldmask's Set"
     link: "https://eldenring.wiki.fextralife.com/Goldmask's+Set"
     items:
-      - ["135", "<a href=\"https://eldenring.wiki.fextralife.com/Radiant+Gold+Mask\">Radiant Gold Mask</a>"]
-      - ["136", "<a href=\"https://eldenring.wiki.fextralife.com/Goldmask's+Rags\">Goldmask's Rags</a>"]
-      - ["137", "<a href=\"https://eldenring.wiki.fextralife.com/Gold+Bracelets\">Gold Bracelets</a>"]
-      - ["138", "<a href=\"https://eldenring.wiki.fextralife.com/Gold+Waistwrap\">Gold Waistwrap</a>"]
+      - id: "135"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radiant+Gold+Mask\">Radiant Gold Mask</a>"]
+      - id: "136"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Goldmask's+Rags\">Goldmask's Rags</a>"]
+      - id: "137"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gold+Bracelets\">Gold Bracelets</a>"]
+      - id: "138"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gold+Waistwrap\">Gold Waistwrap</a>"]
   -
     title: "Perfumer Set"
     link: "https://eldenring.wiki.fextralife.com/Perfumer+Set"
     items:
-      - ["139", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Hood\">Perfumer Hood</a>"]
-      - ["140", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Robe\">Perfumer Robe</a>"]
+      - id: "139"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Hood\">Perfumer Hood</a>"]
+      - id: "140"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Robe\">Perfumer Robe</a>"]
 #      - ["141", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Robe+(Altered)\">Perfumer Robe (Altered)</a>"]
-      - ["142", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Gloves\">Perfumer Gloves</a>"]
-      - ["143", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Sarong\">Perfumer Sarong</a>"]
+      - id: "142"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Gloves\">Perfumer Gloves</a>"]
+      - id: "143"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Sarong\">Perfumer Sarong</a>"]
   -
     title: "Perfumer Traveler's Set"
     link: "https://eldenring.wiki.fextralife.com/Perfumer+Traveler%27s+Set"
     items:
-      - ["144", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Hat\">Traveler's Hat</a>"]
-      - ["145", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer's+Traveling+Garb\">Perfumer's Traveling Garb</a>"]
+      - id: "144"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Hat\">Traveler's Hat</a>"]
+      - id: "145"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer's+Traveling+Garb\">Perfumer's Traveling Garb</a>"]
 #      - ["146", "<a href=\"https://eldenring.wiki.fextralife.com/Perfumer's+Traveling+Garb+(Altered)\">Perfumer's Traveling Garb (Altered)</a>"]
-      - ["147", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Gloves\">Traveler's Gloves</a>"]
-      - ["148", "<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Slops\">Traveler's Slops</a>"]
+      - id: "147"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Gloves\">Traveler's Gloves</a>"]
+      - id: "148"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Traveler's+Slops\">Traveler's Slops</a>"]
   -
     title: "Depraved Perfumer Set"
     link: "https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Set"
     items:
-      - ["149", "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Headscarf\">Depraved Perfumer Headscarf</a>"]
-      - ["150", "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Robe\">Depraved Perfumer Robe</a>"]
+      - id: "149"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Headscarf\">Depraved Perfumer Headscarf</a>"]
+      - id: "150"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Robe\">Depraved Perfumer Robe</a>"]
 #      - ["151", "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Robe+(Altered)\">Depraved Perfumer Robe (Altered)</a>"]
-      - ["152", "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Gloves\">Depraved Perfumer Gloves</a>"]
-      - ["153", "<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Trousers\">Depraved Perfumer Trousers</a>"]
+      - id: "152"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Gloves\">Depraved Perfumer Gloves</a>"]
+      - id: "153"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Trousers\">Depraved Perfumer Trousers</a>"]
   -
     title: "Upper-Class Robe (Chest Only)"
     items:
-      - ["154", "<a href=\"https://eldenring.wiki.fextralife.com/Upper-Class+Robe\">Upper-Class Robe</a>"]
+      - id: "154"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Upper-Class+Robe\">Upper-Class Robe</a>"]
   -
     title: "Ruler's Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Ruler's+Set"
     items:
-      - ["155", "<a href=\"https://eldenring.wiki.fextralife.com/Ruler's+Mask\">Ruler's Mask</a>"]
-      - ["156", "<a href=\"https://eldenring.wiki.fextralife.com/Ruler's+Robe\">Ruler's Robe</a>"]
+      - id: "155"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ruler's+Mask\">Ruler's Mask</a>"]
+      - id: "156"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ruler's+Robe\">Ruler's Robe</a>"]
   -
     title: "Consort's Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Consort's+Set"
     items:
-      - ["157", "<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Mask\">Consort's Mask</a>"]
-      - ["158", "<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Robe\">Consort's Robe</a>"]
-      - ["159", "<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Trousers\">Consort's Trousers</a>"]
+      - id: "157"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Mask\">Consort's Mask</a>"]
+      - id: "158"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Robe\">Consort's Robe</a>"]
+      - id: "159"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Consort's+Trousers\">Consort's Trousers</a>"]
   -
     title: "House Marais Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/House+Marais+Set"
     items:
-      - ["160", "<a href=\"https://eldenring.wiki.fextralife.com/Marais+Mask\">Marais Mask</a>"]
-      - ["161", "<a href=\"https://eldenring.wiki.fextralife.com/Marais+Robe\">Marais Robe</a>"]
+      - id: "160"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marais+Mask\">Marais Mask</a>"]
+      - id: "161"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marais+Robe\">Marais Robe</a>"]
   -
     title: "Fur Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Fur+Set"
     items:
-      - ["162", "<a href=\"https://eldenring.wiki.fextralife.com/Great+Horned+Headband\">Great Horned Headband</a>"]
-      - ["163", "<a href=\"https://eldenring.wiki.fextralife.com/Fur+Raiment\">Fur Raiment</a>"]
-      - ["164", "<a href=\"https://eldenring.wiki.fextralife.com/Fur+Leggings\">Fur Leggings</a>"]
+      - id: "162"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Horned+Headband\">Great Horned Headband</a>"]
+      - id: "163"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fur+Raiment\">Fur Raiment</a>"]
+      - id: "164"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fur+Leggings\">Fur Leggings</a>"]
   -
     title: "Shaman Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Shaman+Set"
     items:
-      - ["165", "<a href=\"https://eldenring.wiki.fextralife.com/Shining+Horned+Headband\">Shining Horned Headband</a>"]
-      - ["166", "<a href=\"https://eldenring.wiki.fextralife.com/Shaman+Furs\">Shaman Furs</a>"]
-      - ["167", "<a href=\"https://eldenring.wiki.fextralife.com/Shaman+Leggings\">Shaman Leggings</a>"]
+      - id: "165"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shining+Horned+Headband\">Shining Horned Headband</a>"]
+      - id: "166"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shaman+Furs\">Shaman Furs</a>"]
+      - id: "167"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shaman+Leggings\">Shaman Leggings</a>"]
   -
     title: "Godskin Apostle Set"
     link: "https://eldenring.wiki.fextralife.com/Godskin+Apostle+Set"
     items:
-      - ["168", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Hood\">Godskin Apostle Hood</a>"]
-      - ["169", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Robe\">Godskin Apostle Robe</a>"]
-      - ["170", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Bracelets\">Godskin Apostle Bracelets</a>"]
-      - ["171", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Trousers\">Godskin Apostle Trousers</a>"]
+      - id: "168"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Hood\">Godskin Apostle Hood</a>"]
+      - id: "169"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Robe\">Godskin Apostle Robe</a>"]
+      - id: "170"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Bracelets\">Godskin Apostle Bracelets</a>"]
+      - id: "171"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Apostle+Trousers\">Godskin Apostle Trousers</a>"]
   -
     title: "Godskin Noble Set"
     link: "https://eldenring.wiki.fextralife.com/Godskin+Noble+Set"
     items:
-      - ["172", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Hood\">Godskin Noble Hood</a>"]
-      - ["173", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Robe\">Godskin Noble Robe</a>"]
-      - ["174", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Bracelets\">Godskin Noble Bracelets</a>"]
-      - ["175", "<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Trousers\">Godskin Noble Trousers</a>"]
+      - id: "172"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Hood\">Godskin Noble Hood</a>"]
+      - id: "173"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Robe\">Godskin Noble Robe</a>"]
+      - id: "174"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Bracelets\">Godskin Noble Bracelets</a>"]
+      - id: "175"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godskin+Noble+Trousers\">Godskin Noble Trousers</a>"]
   -
     title: "Fell Omen Cloak (Chest Only)"
     items:
-      - ["176", "<a href=\"https://eldenring.wiki.fextralife.com/Fell+Omen+Cloak\">Fell Omen Cloak</a>"]
+      - id: "176"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fell+Omen+Cloak\">Fell Omen Cloak</a>"]
   -
     title: "Sanguine Noble Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Sanguine+Noble+Set"
     items:
-      - ["177", "<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Hood\">Sanguine Noble Hood</a>"]
-      - ["178", "<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Robe\">Sanguine Noble Robe</a>"]
-      - ["179", "<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Waistcloth\">Sanguine Noble Waistcloth</a>"]
+      - id: "177"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Hood\">Sanguine Noble Hood</a>"]
+      - id: "178"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Robe\">Sanguine Noble Robe</a>"]
+      - id: "179"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble+Waistcloth\">Sanguine Noble Waistcloth</a>"]
   -
     title: "Lord of Blood's Robes (Chest Only)"
     items:
-      - ["180", "<a href=\"https://eldenring.wiki.fextralife.com/Lord+of+Blood's+Robe\">Lord of Blood's Robe</a>"]
+      - id: "180"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lord+of+Blood's+Robe\">Lord of Blood's Robe</a>"]
 #      - ["181", "<a href=\"https://eldenring.wiki.fextralife.com/Lord+of+Blood's+Robe+(Altered)\">Lord of Blood's Robe (Altered)</a>"]
   -
     title: "Scarab Masks"
     items:
-      - ["182", "<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Tear+Scarab\">Crimson Tear Scarab</a>"]
-      - ["183", "<a href=\"https://eldenring.wiki.fextralife.com/Cerulean+Tear+Scarab\">Cerulean Tear Scarab</a>"]
-      - ["184", "<a href=\"https://eldenring.wiki.fextralife.com/Ash-of-War+Scarab\">Ash-of-War Scarab</a>"]
-      - ["185", "<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Scarab\">Glintstone Scarab</a>"]
-      - ["186", "<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Incantation Scarab</a>"]
+      - id: "182"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Tear+Scarab\">Crimson Tear Scarab</a>"]
+      - id: "183"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cerulean+Tear+Scarab\">Cerulean Tear Scarab</a>"]
+      - id: "184"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash-of-War+Scarab\">Ash-of-War Scarab</a>"]
+      - id: "185"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Scarab\">Glintstone Scarab</a>"]
+      - id: "186"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Incantation Scarab</a>"]
   -
     title: "Imp Heads"
     items:
-      - ["187", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Cat)\">Imp Head (Cat)</a>"]
-      - ["188", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Wolf)\">Imp Head (Wolf)</a>"]
-      - ["189", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Fanged)\">Imp Head (Fanged)</a>"]
-      - ["190", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Long-Tongued)\">Imp Head (Long-Tongued)</a>"]
-      - ["191", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Corpse)\">Imp Head (Corpse)</a>"]
-      - ["192", "<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Elder)\">Imp Head (Elder)</a>"]
+      - id: "187"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Cat)\">Imp Head (Cat)</a>"]
+      - id: "188"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Wolf)\">Imp Head (Wolf)</a>"]
+      - id: "189"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Fanged)\">Imp Head (Fanged)</a>"]
+      - id: "190"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Long-Tongued)\">Imp Head (Long-Tongued)</a>"]
+      - id: "191"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Corpse)\">Imp Head (Corpse)</a>"]
+      - id: "192"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Imp+Head+(Elder)\">Imp Head (Elder)</a>"]
   -
     title: "Nox Mirrorhelm (Helmet Only)"
     items:
-      - ["193", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Mirrorhelm\">Nox Mirrorhelm</a>"]
+      - id: "193"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Mirrorhelm\">Nox Mirrorhelm</a>"]
   -
     title: "Iji's Mirrorhelm (Helmet Only)"
     items:
-      - ["194", "<a href=\"https://eldenring.wiki.fextralife.com/Iji's+Mirrorhelm\">Iji's Mirrorhelm</a>"]
+      - id: "194"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iji's+Mirrorhelm\">Iji's Mirrorhelm</a>"]
   -
     title: "Silver Tear Mask (Helmet Only)"
     items:
-      - ["195", "<a href=\"https://eldenring.wiki.fextralife.com/Silver+Tear+Mask\">Silver Tear Mask</a>"]
+      - id: "195"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Silver+Tear+Mask\">Silver Tear Mask</a>"]
   -
     title: "Envoy Crown (Helmet Only)"
     items:
-      - ["196", "<a href=\"https://eldenring.wiki.fextralife.com/Envoy+Crown\">Envoy Crown</a>"]
+      - id: "196"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy+Crown\">Envoy Crown</a>"]
   -
     title: "Octopus Head (Helmet Only)"
     items:
-      - ["197", "<a href=\"https://eldenring.wiki.fextralife.com/Octopus+Head\">Octopus Head</a>"]
+      - id: "197"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Octopus+Head\">Octopus Head</a>"]
   -
     title: "Jar (Helmet Only)"
     items:
-      - ["198", "<a href=\"https://eldenring.wiki.fextralife.com/Jar\">Jar</a>"]
+      - id: "198"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jar\">Jar</a>"]
   -
     title: "Albinauric Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Albinauric+Set"
     items:
-      - ["199", "<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Mask\">Albinauric Mask</a>"]
-      - ["571", "<a href=\"https://eldenring.wiki.fextralife.com/Dirty+Chainmail\">Dirty Chainmail</a>"] # IDs 296 and 571 are linked
+      - id: "199"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Mask\">Albinauric Mask</a>"]
+      - id: "571"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dirty+Chainmail\">Dirty Chainmail</a>"]
   -
     title: "Black Wolf Mask (Helmet Only)"
     items:
-      - ["200", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Wolf+Mask\">Black Wolf Mask</a>"] # IDs 200 and 467 are linked
+      - id: "200"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Wolf+Mask\">Black Wolf Mask</a>"]
   -
     title: "Leather Set"
     link: "https://eldenring.wiki.fextralife.com/Leather+Set"
     items:
-      - ["201", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Hood\">Black Hood</a> (appears out of order with the rest of the set. Shows between Bandit Mask and Confessor Hood in-game.)"]
-      - ["202", "<a href=\"https://eldenring.wiki.fextralife.com/Leather+Armor\">Leather Armor</a>"]
-      - ["203", "<a href=\"https://eldenring.wiki.fextralife.com/Leather+Gloves\">Leather Gloves</a>"]
-      - ["204", "<a href=\"https://eldenring.wiki.fextralife.com/Leather+Boots\">Leather Boots</a>"]
+      - id: "201"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Hood\">Black Hood</a> (appears out of order with the rest of the set. Shows between Bandit Mask and Confessor Hood in-game.)"]
+      - id: "202"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leather+Armor\">Leather Armor</a>"]
+      - id: "203"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leather+Gloves\">Leather Gloves</a>"]
+      - id: "204"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leather+Boots\">Leather Boots</a>"]
   -
     title: "Blue Cloth Set"
     link: "https://eldenring.wiki.fextralife.com/Blue+Cloth+Set"
     items:
-      - ["205", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Cloth+Cowl\">Blue Cloth Cowl</a>"]
-      - ["206", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Cloth+Vest\">Blue Cloth Vest</a>"]
-      - ["207", "<a href=\"https://eldenring.wiki.fextralife.com/Warrior+Gauntlets\">Warrior Gauntlets</a>"]
-      - ["208", "<a href=\"https://eldenring.wiki.fextralife.com/Warrior+Greaves\">Warrior Greaves</a>"]
+      - id: "205"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Cloth+Cowl\">Blue Cloth Cowl</a>"]
+      - id: "206"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Cloth+Vest\">Blue Cloth Vest</a>"]
+      - id: "207"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Warrior+Gauntlets\">Warrior Gauntlets</a>"]
+      - id: "208"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Warrior+Greaves\">Warrior Greaves</a>"]
   -
     title: "Noble's Set"
     link: "https://eldenring.wiki.fextralife.com/Noble's+Set"
     items:
-      - ["209", "<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Hood\">Crimson Hood</a>"]
-      - ["210", "<a href=\"https://eldenring.wiki.fextralife.com/Navy+Hood\">Navy Hood</a>"]
-      - ["211", "<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Traveling+Garb\">Noble's Traveling Garb</a>"]
-      - ["212", "<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Trousers\">Noble's Trousers</a>"]
-      - ["213", "<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Gloves\">Noble's Gloves</a>"]
+      - id: "209"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crimson+Hood\">Crimson Hood</a>"]
+      - id: "210"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Navy+Hood\">Navy Hood</a>"]
+      - id: "211"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Traveling+Garb\">Noble's Traveling Garb</a>"]
+      - id: "212"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Trousers\">Noble's Trousers</a>"]
+      - id: "213"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble's+Gloves\">Noble's Gloves</a>"]
   -
     title: "War Surgeon Set"
     link: ""
     items:
-      - ["214", "<a href=\"https://eldenring.wiki.fextralife.com/White+Mask\">White Mask</a>"]
-      - ["215", "<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown\">War Surgeon Gown</a>"]
+      - id: "214"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/White+Mask\">White Mask</a>"]
+      - id: "215"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown\">War Surgeon Gown</a>"]
 #      - ["216", "<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gown+(Altered)\">War Surgeon Gown (Altered)</a>"]
-      - ["217", "<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gloves\">War Surgeon Gloves</a>"]
-      - ["218", "<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Trousers\">War Surgeon Trousers</a>"]
+      - id: "217"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Gloves\">War Surgeon Gloves</a>"]
+      - id: "218"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/War+Surgeon+Trousers\">War Surgeon Trousers</a>"]
   -
     title: "Nomadic Merchant's Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Set"
     items:
-      - ["219", "<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Chapeau\">Nomadic Merchant's Chapeau</a>"]
-      - ["220", "<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Finery\">Nomadic Merchant's Finery</a>"]
+      - id: "219"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Chapeau\">Nomadic Merchant's Chapeau</a>"]
+      - id: "220"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Finery\">Nomadic Merchant's Finery</a>"]
 #      - ["221", "<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Finery+(Altered)\">Nomadic Merchant's Finery (Altered)</a>"]
-      - ["222", "<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Trousers\">Nomadic Merchant's Trousers</a>"]
+      - id: "222"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Trousers\">Nomadic Merchant's Trousers</a>"]
   -
     title: "Bandit Set"
     link: "https://eldenring.wiki.fextralife.com/Bandit+Set"
     items:
-      - ["223", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Mask\">Bandit Mask</a>"]
-      - ["224", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Garb\">Bandit Garb</a>"]
-      - ["225", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Manchettes\">Bandit Manchettes</a>"] # IDs 225 and 239 are linked
-      - ["226", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Boots\">Bandit Boots</a>"] # IDs 226 and 240 are linked
+      - id: "223"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Mask\">Bandit Mask</a>"]
+      - id: "224"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Garb\">Bandit Garb</a>"]
+      - id: "225"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Manchettes\">Bandit Manchettes</a>"]
+      - id: "226"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Boots\">Bandit Boots</a>"]
   -
     title: "Confessor Set"
     link: "https://eldenring.wiki.fextralife.com/Confessor+Set"
     items:
-      - ["227", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Hood\">Confessor Hood</a>"]
+      - id: "227"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Hood\">Confessor Hood</a>"]
 #      - ["228", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Hood+(Altered)\">Confessor Hood (Altered)</a>"]
-      - ["229", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Armor\">Confessor Armor</a>"]
+      - id: "229"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Armor\">Confessor Armor</a>"]
 #      - ["230", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Armor+(Altered)\">Confessor Armor (Altered)</a>"]
-      - ["231", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Gloves\">Confessor Gloves</a>"]
-      - ["232", "<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Boots\">Confessor Boots</a>"]
+      - id: "231"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Gloves\">Confessor Gloves</a>"]
+      - id: "232"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Confessor+Boots\">Confessor Boots</a>"]
   -
     title: "Omenkiller Set"
     link: "https://eldenring.wiki.fextralife.com/Omenkiller+Set"
     items:
-      - ["233", "<a href=\"https://eldenring.wiki.fextralife.com/Omensmirk+Mask\">Omensmirk Mask</a>"]
-      - ["234", "<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Robe\">Omenkiller Robe</a>"]
-      - ["235", "<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Long+Gloves\">Omenkiller Long Gloves</a>"]
-      - ["236", "<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Boots\">Omenkiller Boots</a>"]
+      - id: "233"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omensmirk+Mask\">Omensmirk Mask</a>"]
+      - id: "234"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Robe\">Omenkiller Robe</a>"]
+      - id: "235"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Long+Gloves\">Omenkiller Long Gloves</a>"]
+      - id: "236"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Boots\">Omenkiller Boots</a>"]
   -
     title: "Raptor's Set"
     link: "https://eldenring.wiki.fextralife.com/Raptor's+Set"
     items:
-      - ["237", "<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Mask\">Skeletal Mask</a>"]
-      - ["238", "<a href=\"https://eldenring.wiki.fextralife.com/Raptor's+Black+Feathers\">Raptor's Black Feathers</a>"]
-      - ["239", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Manchettes\">Bandit Manchettes</a>"] # IDs 225 and 239 are linked
-      - ["240", "<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Boots\">Bandit Boots</a>"] # IDs 226 and 240 are linked
+      - id: "237"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Mask\">Skeletal Mask</a>"]
+      - id: "238"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raptor's+Black+Feathers\">Raptor's Black Feathers</a>"]
+      - id: "239"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Manchettes\">Bandit Manchettes</a>"]
+      - id: "240"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bandit+Boots\">Bandit Boots</a>"]
   -
     title: "Godrick Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Godrick+Foot+Soldier+Set"
     items:
-      - ["245", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Cap\">Foot Soldier Cap</a>"]
-      - ["246", "<a href=\"https://eldenring.wiki.fextralife.com/Chain-Draped+Tabard\">Chain-Draped Tabard</a>"]
-      - ["252", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["253", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "245"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Cap\">Foot Soldier Cap</a>"]
+      - id: "246"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chain-Draped+Tabard\">Chain-Draped Tabard</a>"]
+      - id: "252"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "253"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Raya Lucarian Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Foot+Soldier+Set"
     items:
-      - ["243", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Helmet\">Foot Soldier Helmet</a>"]
-      - ["244", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Tabard\">Foot Soldier Tabard</a>"]
-      - ["573", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["574", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "243"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Helmet\">Foot Soldier Helmet</a>"]
+      - id: "244"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Tabard\">Foot Soldier Tabard</a>"]
+      - id: "573"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "574"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Radahn Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Radahn+Foot+Soldier+Set"
     items:
-      - ["241", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Helm\">Foot Soldier Helm</a>"]
-      - ["242", "<a href=\"https://eldenring.wiki.fextralife.com/Scarlet+Tabard\">Scarlet Tabard</a>"]
-      - ["575", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["576", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "241"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Helm\">Foot Soldier Helm</a>"]
+      - id: "242"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scarlet+Tabard\">Scarlet Tabard</a>"]
+      - id: "575"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "576"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Leyndell Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Leyndell+Foot+Soldier+Set"
     items:
-      - ["247", "<a href=\"https://eldenring.wiki.fextralife.com/Gilded+Foot+Soldier+Cap\">Gilded Foot Soldier Cap</a>"]
-      - ["248", "<a href=\"https://eldenring.wiki.fextralife.com/Leather-Draped+Tabard\">Leather-Draped Tabard</a>"]
-      - ["577", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["578", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "247"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gilded+Foot+Soldier+Cap\">Gilded Foot Soldier Cap</a>"]
+      - id: "248"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leather-Draped+Tabard\">Leather-Draped Tabard</a>"]
+      - id: "577"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "578"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Haligtree Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Haligtree+Foot+Soldier+Set"
     items:
-      - ["249", "<a href=\"https://eldenring.wiki.fextralife.com/Sacred+Crown+Helm\">Sacred Crown Helm</a>"]
-      - ["250", "<a href=\"https://eldenring.wiki.fextralife.com/Ivory-Draped+Tabard\">Ivory-Draped Tabard</a>"]
-      - ["579", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["580", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "249"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sacred+Crown+Helm\">Sacred Crown Helm</a>"]
+      - id: "250"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ivory-Draped+Tabard\">Ivory-Draped Tabard</a>"]
+      - id: "579"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "580"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Mausoleum Foot Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Mausoleum+Foot+Soldier+Set"
     items:
-      - ["251", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Tabard\">Bloodsoaked Tabard</a>"]
-      - ["581", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["582", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "251"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodsoaked+Tabard\">Bloodsoaked Tabard</a>"]
+      - id: "581"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Gauntlets\">Foot Soldier Gauntlets</a>"]
+      - id: "582"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Highwayman Set"
     link: "https://eldenring.wiki.fextralife.com/Highwayman+Set"
     items:
-      - ["254", "<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Hood\">Highwayman Hood</a>"]
-      - ["255", "<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Cloth+Armor\">Highwayman Cloth Armor</a>"]
-      - ["256", "<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Gauntlets\">Highwayman Gauntlets</a>"] # IDs 252, 573, 575, 577, 579, 581 are linked
-      - ["257", "<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"] # IDs 253, 257, 574, 576, 578, 580, 582 are linked
+      - id: "254"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Hood\">Highwayman Hood</a>"]
+      - id: "255"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Cloth+Armor\">Highwayman Cloth Armor</a>"]
+      - id: "256"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Highwayman+Gauntlets\">Highwayman Gauntlets</a>"]
+      - id: "257"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Foot+Soldier+Greaves\">Foot Soldier Greaves</a>"]
   -
     title: "Vulgar Militia Set"
     link: "https://eldenring.wiki.fextralife.com/Vulgar+Militia+Set"
     items:
-      - ["258", "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Helm\">Vulgar Militia Helm</a>"]
-      - ["259", "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Armor\">Vulgar Militia Armor</a>"]
-      - ["260", "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Gauntlets\">Vulgar Militia Gauntlets</a>"]
-      - ["261", "<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Greaves\">Vulgar Militia Greaves</a>"]
+      - id: "258"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Helm\">Vulgar Militia Helm</a>"]
+      - id: "259"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Armor\">Vulgar Militia Armor</a>"]
+      - id: "260"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Gauntlets\">Vulgar Militia Gauntlets</a>"]
+      - id: "261"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Greaves\">Vulgar Militia Greaves</a>"]
   -
     title: "Duelist Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Duelist+Set"
     items:
-      - ["262", "<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Helm\">Duelist Helm</a>"]
-      - ["263", "<a href=\"https://eldenring.wiki.fextralife.com/Gravekeeper+Cloak\">Gravekeeper Cloak</a>"]
+      - id: "262"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Helm\">Duelist Helm</a>"]
+      - id: "263"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gravekeeper+Cloak\">Gravekeeper Cloak</a>"]
 #      - ["264", "<a href=\"https://eldenring.wiki.fextralife.com/Gravekeeper+Cloak+(Altered)\">Gravekeeper Cloak (Altered)</a>"]
-      - ["265", "<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Greaves\">Duelist Greaves</a>"]
+      - id: "265"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Greaves\">Duelist Greaves</a>"]
   -
     title: "Rotten Duelist Set (No Gloves)"
     link: "https://eldenring.wiki.fextralife.com/Rotten+Duelist+Set"
     items:
-      - ["266", "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Duelist+Helm\">Rotten Duelist Helm</a>"]
-      - ["267", "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Gravekeeper+Cloak\">Rotten Gravekeeper Cloak</a>"]
+      - id: "266"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Duelist+Helm\">Rotten Duelist Helm</a>"]
+      - id: "267"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Gravekeeper+Cloak\">Rotten Gravekeeper Cloak</a>"]
 #      - ["268", "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Gravekeeper+Cloak+(Altered)\">Rotten Gravekeeper Cloak (Altered)</a>"]
-      - ["269", "<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Duelist+Greaves\">Rotten Duelist Greaves</a>"]
+      - id: "269"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Duelist+Greaves\">Rotten Duelist Greaves</a>"]
   -
     title: "Nox Monk Set"
     link: "https://eldenring.wiki.fextralife.com/Nox+Monk+Set"
     items:
-      - ["270", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Hood\">Nox Monk Hood</a>"]
+      - id: "270"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Hood\">Nox Monk Hood</a>"]
 #      - ["271", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Hood+(Altered)\">Nox Monk Hood (Altered)</a>"]
-      - ["272", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Armor\">Nox Monk Armor</a>"]
+      - id: "272"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Armor\">Nox Monk Armor</a>"]
 #      - ["273", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Armor+(Altered)\">Nox Monk Armor (Altered)</a>"]
-      - ["274", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"] #IDs 274, 280, and 284 are linked
-      - ["275", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"] #IDs 275, 281, and 285 are linked
+      - id: "274"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"]
+      - id: "275"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"]
   -
     title: "Nox Swordstress Set"
     link: "https://eldenring.wiki.fextralife.com/Nox+Swordstress+Set"
     items:
-      - ["276", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Crown\">Nox Swordstress Crown</a>"]
+      - id: "276"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Crown\">Nox Swordstress Crown</a>"]
 #      - ["277", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Crown+(Altered)\">Nox Swordstress Crown (Altered)</a>"]
-      - ["278", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Armor\">Nox Swordstress Armor</a>"]
+      - id: "278"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Armor\">Nox Swordstress Armor</a>"]
 #      - ["279", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Swordstress+Armor+(Altered)\">Nox Swordstress Armor (Altered)</a>"]
-      - ["280", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"] #IDs 274, 280, and 284 are linked
-      - ["281", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"] #IDs 275, 281, and 285 are linked
+      - id: "280"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"]
+      - id: "281"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"]
   -
     title: "Night Maiden Set"
     link: "https://eldenring.wiki.fextralife.com/Night+Maiden+Set"
     items:
-      - ["282", "<a href=\"https://eldenring.wiki.fextralife.com/Night+Maiden+Twin+Crown\">Night Maiden Twin Crown</a>"]
-      - ["283", "<a href=\"https://eldenring.wiki.fextralife.com/Night+Maiden+Armor\">Night Maiden Armor</a>"]
-      - ["284", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"] #IDs 274, 280, and 284 are linked
-      - ["285", "<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"] #IDs 275, 281, and 285 are linked
+      - id: "282"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night+Maiden+Twin+Crown\">Night Maiden Twin Crown</a>"]
+      - id: "283"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night+Maiden+Armor\">Night Maiden Armor</a>"]
+      - id: "284"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Bracelets\">Nox Monk Bracelets</a>"]
+      - id: "285"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Monk+Greaves\">Nox Monk Greaves</a>"]
   -
     title: "Champion Set"
     link: "https://eldenring.wiki.fextralife.com/Champion+Set"
     items:
-      - ["286", "<a href=\"https://eldenring.wiki.fextralife.com/Champion+Headband\">Champion Headband</a>"]
-      - ["287", "<a href=\"https://eldenring.wiki.fextralife.com/Champion+Pauldron\">Champion Pauldron</a>"]
-      - ["288", "<a href=\"https://eldenring.wiki.fextralife.com/Champion+Bracers\">Champion Bracers</a>"]
-      - ["289", "<a href=\"https://eldenring.wiki.fextralife.com/Champion+Gaiters\">Champion Gaiters</a>"]
+      - id: "286"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion+Headband\">Champion Headband</a>"]
+      - id: "287"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion+Pauldron\">Champion Pauldron</a>"]
+      - id: "288"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion+Bracers\">Champion Bracers</a>"]
+      - id: "289"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion+Gaiters\">Champion Gaiters</a>"]
   -
     title: "Chain Set"
     link: "https://eldenring.wiki.fextralife.com/Chain+Set"
     items:
-      - ["290", "<a href=\"https://eldenring.wiki.fextralife.com/Chain+Coif\">Chain Coif</a>"]
-      - ["291", "<a href=\"https://eldenring.wiki.fextralife.com/Chain+Armor\">Chain Armor</a>"]
-      - ["292", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Surcoat\">Tree Surcoat</a>"]
-      - ["293", "<a href=\"https://eldenring.wiki.fextralife.com/Eye+Surcoat\">Eye Surcoat</a>"]
-      - ["294", "<a href=\"https://eldenring.wiki.fextralife.com/Chain+Gauntlets\">Gauntlets</a>"]
-      - ["295", "<a href=\"https://eldenring.wiki.fextralife.com/Chain+Leggings\">Chain Leggings</a>"]
+      - id: "290"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chain+Coif\">Chain Coif</a>"]
+      - id: "291"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chain+Armor\">Chain Armor</a>"]
+      - id: "292"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree+Surcoat\">Tree Surcoat</a>"]
+      - id: "293"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eye+Surcoat\">Eye Surcoat</a>"]
+      - id: "294"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chain+Gauntlets\">Gauntlets</a>"]
+      - id: "295"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chain+Leggings\">Chain Leggings</a>"]
   -
     title: "Dirty Chainmail (Chest Only - part of the Albinauric Set)"
     items:
-      - ["296", "<a href=\"https://eldenring.wiki.fextralife.com/Dirty+Chainmail\">Dirty Chainmail</a>"] # IDs 296 and 571 are linked
+      - id: "296"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dirty+Chainmail\">Dirty Chainmail</a>"]
   -
     title: "Iron Set"
     link: "https://eldenring.wiki.fextralife.com/Iron+Set"
     items:
-      - ["297", "<a href=\"https://eldenring.wiki.fextralife.com/Iron+Helmet\">Iron Helmet</a>"]
-      - ["298", "<a href=\"https://eldenring.wiki.fextralife.com/Scale+Armor\">Scale Armor</a> (appears out of order with the rest of the set. Shows as the first chest piece in the 7th section in-game.)"]
-      - ["299", "<a href=\"https://eldenring.wiki.fextralife.com/Iron+Gauntlets\">Iron Gauntlets</a>"]
-      - ["300", "<a href=\"https://eldenring.wiki.fextralife.com/Leather+Trousers\">Leather Trousers</a>"]
+      - id: "297"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Helmet\">Iron Helmet</a>"]
+      - id: "298"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scale+Armor\">Scale Armor</a> (appears out of order with the rest of the set. Shows as the first chest piece in the 7th section in-game.)"]
+      - id: "299"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Gauntlets\">Iron Gauntlets</a>"]
+      - id: "300"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leather+Trousers\">Leather Trousers</a>"]
   -
     title: "Godrick Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Godrick+Soldier+Set"
     items:
-      - ["301", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Helm\">Godrick Soldier Helm</a>"]
-      - ["302", "<a href=\"https://eldenring.wiki.fextralife.com/Tree-and-Beast+Surcoat\">Tree-and-Beast Surcoat</a>"]
-      - ["303", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Gauntlets\">Godrick Soldier Gauntlets</a>"]
-      - ["304", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Greaves\">Godrick Soldier Greaves</a>"]
+      - id: "301"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Helm\">Godrick Soldier Helm</a>"]
+      - id: "302"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree-and-Beast+Surcoat\">Tree-and-Beast Surcoat</a>"]
+      - id: "303"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Gauntlets\">Godrick Soldier Gauntlets</a>"]
+      - id: "304"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Greaves\">Godrick Soldier Greaves</a>"]
   -
     title: "Raya Lucarian Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Soldier+Set"
     items:
-      - ["305", "<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Helm\">Raya Lucarian Helm</a>"]
-      - ["306", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Surcoat\">Cuckoo Surcoat</a>"]
-      - ["307", "<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Gauntlets\">Raya Lucarian Gauntlets</a>"]
-      - ["308", "<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Greaves\">Raya Lucarian Greaves</a>"]
+      - id: "305"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Helm\">Raya Lucarian Helm</a>"]
+      - id: "306"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Surcoat\">Cuckoo Surcoat</a>"]
+      - id: "307"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Gauntlets\">Raya Lucarian Gauntlets</a>"]
+      - id: "308"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucarian+Greaves\">Raya Lucarian Greaves</a>"]
   -
     title: "Radahn Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Radahn+Soldier+Set"
     items:
-      - ["309", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Helm\">Radahn Soldier Helm</a>"]
-      - ["310", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Surcoat\">Redmane Surcoat</a>"]
-      - ["311", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Gauntlets\">Radahn Soldier Gauntlets</a>"]
-      - ["312", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Greaves\">Radahn Soldier Greaves</a>"]
+      - id: "309"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Helm\">Radahn Soldier Helm</a>"]
+      - id: "310"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Surcoat\">Redmane Surcoat</a>"]
+      - id: "311"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Gauntlets\">Radahn Soldier Gauntlets</a>"]
+      - id: "312"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Greaves\">Radahn Soldier Greaves</a>"]
   -
     title: "Leyndell Soldier Set"
     link: "https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Set"
     items:
-      - ["313", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Helm\">Leyndell Soldier Helm</a>"]
-      - ["314", "<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Surcoat\">Erdtree Surcoat</a>"]
-      - ["315", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Gauntlets\">Leyndell Soldier Gauntlets</a>"]
-      - ["316", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Greaves\">Leyndell Soldier Greaves</a>"]
+      - id: "313"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Helm\">Leyndell Soldier Helm</a>"]
+      - id: "314"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Surcoat\">Erdtree Surcoat</a>"]
+      - id: "315"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Gauntlets\">Leyndell Soldier Gauntlets</a>"]
+      - id: "316"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Greaves\">Leyndell Soldier Greaves</a>"]
   -
     title: "Haligtree Set"
     link: "https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Set"
     items:
-      - ["317", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Helm\">Haligtree Helm</a>"]
-      - ["318", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Crest+Surcoat\">Haligtree Crest Surcoat</a>"]
-      - ["319", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Gauntlets\">Haligtree Gauntlets</a>"]
-      - ["320", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Greaves\">Haligtree Greaves</a>"]
+      - id: "317"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Helm\">Haligtree Helm</a>"]
+      - id: "318"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Crest+Surcoat\">Haligtree Crest Surcoat</a>"]
+      - id: "319"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Gauntlets\">Haligtree Gauntlets</a>"]
+      - id: "320"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Greaves\">Haligtree Greaves</a>"]
   -
     title: "Mausoleum Soldier Set (No Helmet)"
     link: "https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Set"
     items:
-      - ["321", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Surcoat\">Mausoleum Surcoat</a>"]
-      - ["322", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Gauntlets\">Mausoleum Gauntlets</a>"]
-      - ["323", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Greaves\">Mausoleum Greaves</a>"]
+      - id: "321"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Surcoat\">Mausoleum Surcoat</a>"]
+      - id: "322"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Gauntlets\">Mausoleum Gauntlets</a>"]
+      - id: "323"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Greaves\">Mausoleum Greaves</a>"]
   -
     title: "Exile Set"
     link: "https://eldenring.wiki.fextralife.com/Exile+Set"
     items:
-      - ["324", "<a href=\"https://eldenring.wiki.fextralife.com/Exile+Hood\">Exile Hood</a>"]
-      - ["325", "<a href=\"https://eldenring.wiki.fextralife.com/Exile+Armor\">Exile Armor</a>"]
-      - ["326", "<a href=\"https://eldenring.wiki.fextralife.com/Exile+Gauntlets\">Exile Gauntlets</a>"]
-      - ["327", "<a href=\"https://eldenring.wiki.fextralife.com/Exile+Greaves\">Exile Greaves</a>"]
+      - id: "324"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Exile+Hood\">Exile Hood</a>"]
+      - id: "325"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Exile+Armor\">Exile Armor</a>"]
+      - id: "326"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Exile+Gauntlets\">Exile Gauntlets</a>"]
+      - id: "327"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Exile+Greaves\">Exile Greaves</a>"]
   -
     title: "Kaiden Set"
     link: "https://eldenring.wiki.fextralife.com/Kaiden+Set"
     items:
-      - ["328", "<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Helm\">Kaiden Helm</a>"]
-      - ["329", "<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Armor\">Kaiden Armor</a>"]
-      - ["330", "<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Gauntlets\">Kaiden Gauntlets</a>"]
-      - ["331", "<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Trousers\">Kaiden Trousers</a>"]
+      - id: "328"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Helm\">Kaiden Helm</a>"]
+      - id: "329"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Armor\">Kaiden Armor</a>"]
+      - id: "330"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Gauntlets\">Kaiden Gauntlets</a>"]
+      - id: "331"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Trousers\">Kaiden Trousers</a>"]
   -
     title: "Land of Reeds Set"
     link: "https://eldenring.wiki.fextralife.com/Land+of+Reeds+Set"
     items:
-      - ["332", "<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Helm\">Land of Reeds Helm</a>"]
-      - ["333", "<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Armor\">Land of Reeds Armor</a>"]
+      - id: "332"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Helm\">Land of Reeds Helm</a>"]
+      - id: "333"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Armor\">Land of Reeds Armor</a>"]
 #      - ["334", "<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Armor+(Altered)\">Land of Reeds Armor (Altered)</a>"]
-      - ["335", "<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Gauntlets\">Land of Reeds Gauntlets</a>"]
-      - ["336", "<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Greaves\">Land of Reeds Greaves</a>"]
+      - id: "335"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Gauntlets\">Land of Reeds Gauntlets</a>"]
+      - id: "336"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+of+Reeds+Greaves\">Land of Reeds Greaves</a>"]
   -
     title: "White Reed Set"
     link: "https://eldenring.wiki.fextralife.com/White+Reed+Set"
     items:
-      - ["337", "<a href=\"https://eldenring.wiki.fextralife.com/Okina+Mask\">Okina Mask</a>"]
-      - ["338", "<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Armor\">White Reed Armor</a>"]
-      - ["339", "<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Gauntlets\">White Reed Gauntlets</a>"]
-      - ["340", "<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Greaves\">White Reed Greaves</a>"]
+      - id: "337"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Okina+Mask\">Okina Mask</a>"]
+      - id: "338"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Armor\">White Reed Armor</a>"]
+      - id: "339"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Gauntlets\">White Reed Gauntlets</a>"]
+      - id: "340"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/White+Reed+Greaves\">White Reed Greaves</a>"]
   -
     title: "Ronin's Set"
     link: "https://eldenring.wiki.fextralife.com/Ronin's+Set"
     items:
-      - ["341", "<a href=\"https://eldenring.wiki.fextralife.com/Iron+Kasa\">Iron Kasa</a>"]
-      - ["342", "<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Armor\">Ronin's Armor</a>"]
+      - id: "341"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Kasa\">Iron Kasa</a>"]
+      - id: "342"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Armor\">Ronin's Armor</a>"]
 #      - ["343", "<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Armor+(Altered)\">Ronin's Armor (Altered)</a>"]
-      - ["344", "<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Gauntlets\">Ronin's Gauntlets</a>"]
-      - ["345", "<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Greaves\">Ronin's Greaves</a>"]
+      - id: "344"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Gauntlets\">Ronin's Gauntlets</a>"]
+      - id: "345"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ronin's+Greaves\">Ronin's Greaves</a>"]
   -
     title: "Eccentric Set"
     link: "https://eldenring.wiki.fextralife.com/Eccentric+Set"
     items:
-      - ["346", "<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Hood\">Eccentric's Hood</a>"]
+      - id: "346"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Hood\">Eccentric's Hood</a>"]
 #      - ["347", "<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Hood+(Altered)\">Eccentric's Hood (Altered)</a>"]
-      - ["348", "<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Armor\">Eccentric's Armor</a>"]
-      - ["349", "<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Manchettes\">Eccentric's Manchettes</a>"]
-      - ["350", "<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Breeches\">Eccentric's Breeches</a>"]
+      - id: "348"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Armor\">Eccentric's Armor</a>"]
+      - id: "349"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Manchettes\">Eccentric's Manchettes</a>"]
+      - id: "350"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eccentric's+Breeches\">Eccentric's Breeches</a>"]
   -
     title: "Marionette Soldier Set (No Gloves or Legs)"
     link: "https://eldenring.wiki.fextralife.com/Marionette+Soldier+Set"
     items:
-      - ["351", "<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Helm\">Marionette Soldier Helm</a>"]
-      - ["352", "<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Birdhelm\">Marionette Soldier Birdhelm</a>"]
-      - ["353", "<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Armor\">Marionette Soldier Armor</a>"]
+      - id: "351"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Helm\">Marionette Soldier Helm</a>"]
+      - id: "352"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Birdhelm\">Marionette Soldier Birdhelm</a>"]
+      - id: "353"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Armor\">Marionette Soldier Armor</a>"]
   -
     title: "Blue Silver Set"
     link: "https://eldenring.wiki.fextralife.com/Blue+Silver+Set"
     items:
-      - ["354", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Hood\">Blue Silver Mail Hood</a>"]
-      - ["355", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Armor\">Blue Silver Mail Armor</a>"]
+      - id: "354"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Hood\">Blue Silver Mail Hood</a>"]
+      - id: "355"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Armor\">Blue Silver Mail Armor</a>"]
 #      - ["356", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Armor+(Altered)\">Blue Silver Mail Armor (Altered)</a>"]
-      - ["357", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Bracelets\">Blue Silver Bracelets</a>"]
-      - ["358", "<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Skirt\">Blue Silver Mail Skirt</a>"]
+      - id: "357"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Bracelets\">Blue Silver Bracelets</a>"]
+      - id: "358"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Skirt\">Blue Silver Mail Skirt</a>"]
   -
     title: "Fire Monk Set"
     link: "https://eldenring.wiki.fextralife.com/Fire+Monk+Set"
     items:
-      - ["359", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Hood\">Fire Monk Hood</a>"]
-      - ["360", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Armor\">Fire Monk Armor</a>"]
-      - ["361", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Gauntlets\">Fire Monk Gauntlets</a>"]
-      - ["362", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Greaves\">Fire Monk Greaves</a>"]
+      - id: "359"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Hood\">Fire Monk Hood</a>"]
+      - id: "360"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Armor\">Fire Monk Armor</a>"]
+      - id: "361"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Gauntlets\">Fire Monk Gauntlets</a>"]
+      - id: "362"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Greaves\">Fire Monk Greaves</a>"]
   -
     title: "Blackflame Set"
     link: "https://eldenring.wiki.fextralife.com/Blackflame+Monk+Set"
     items:
-      - ["363", "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Hood\">Blackflame Monk Hood</a>"]
-      - ["364", "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Armor\">Blackflame Monk Armor</a>"]
-      - ["365", "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Gauntlets\">Blackflame Monk Gauntlets</a>"]
-      - ["366", "<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Greaves\">Blackflame Monk Greaves</a>"]
+      - id: "363"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Hood\">Blackflame Monk Hood</a>"]
+      - id: "364"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Armor\">Blackflame Monk Armor</a>"]
+      - id: "365"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Gauntlets\">Blackflame Monk Gauntlets</a>"]
+      - id: "366"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Greaves\">Blackflame Monk Greaves</a>"]
   -
     title: "Zamor Set"
     link: "https://eldenring.wiki.fextralife.com/Zamor+Set"
     items:
-      - ["367", "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Mask\">Zamor Mask</a>"]
-      - ["368", "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Armor\">Zamor Armor</a>"]
-      - ["369", "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Bracelets\">Zamor Bracelets</a>"]
-      - ["370", "<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Legwraps\">Zamor Legwraps</a>"]
+      - id: "367"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Mask\">Zamor Mask</a>"]
+      - id: "368"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Armor\">Zamor Armor</a>"]
+      - id: "369"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Bracelets\">Zamor Bracelets</a>"]
+      - id: "370"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Zamor+Legwraps\">Zamor Legwraps</a>"]
   -
     title: "Black Knife Set"
     link: "https://eldenring.wiki.fextralife.com/Black+Knife+Set"
     items:
-      - ["371", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Hood\">Black Knife Hood</a>"]
-      - ["372", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Armor\">Black Knife Armor</a>"]
+      - id: "371"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Hood\">Black Knife Hood</a>"]
+      - id: "372"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Armor\">Black Knife Armor</a>"]
 #      - ["373", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Armor+(Altered)\">Black Knife Armor (Altered)</a>"]
-      - ["374", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Gauntlets\">Black Knife Gauntlets</a>"]
-      - ["375", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Greaves\">Black Knife Greaves</a>"]
+      - id: "374"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Gauntlets\">Black Knife Gauntlets</a>"]
+      - id: "375"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Greaves\">Black Knife Greaves</a>"]
   -
     title: "Malenia's Set"
     link: "https://eldenring.wiki.fextralife.com/Malenia's+Set"
     items:
-      - ["376", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Winged+Helm\">Malenia's Winged Helm</a>"]
-      - ["377", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor\">Malenia's Armor</a>"]
+      - id: "376"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Winged+Helm\">Malenia's Winged Helm</a>"]
+      - id: "377"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor\">Malenia's Armor</a>"]
 #      - ["378", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Armor+(Altered)\">Malenia's Armor (Altered)</a>"]
-      - ["379", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Gauntlet\">Malenia's Gauntlet</a>"]
-      - ["380", "<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Greaves\">Malenia's Greaves</a>"]
+      - id: "379"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Gauntlet\">Malenia's Gauntlet</a>"]
+      - id: "380"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Greaves\">Malenia's Greaves</a>"]
   -
     title: "Elden Lord Set"
     link: "https://eldenring.wiki.fextralife.com/Elden+Lord+Set"
     items:
-      - ["381", "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Crown\">Elden Lord Crown</a>"]
-      - ["382", "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Armor\">Elden Lord Armor</a>"]
+      - id: "381"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Crown\">Elden Lord Crown</a>"]
+      - id: "382"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Armor\">Elden Lord Armor</a>"]
 #      - ["383", "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Armor+(Altered)\">Elden Lord Armor (Altered)</a>"]
-      - ["384", "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Bracers\">Elden Lord Bracers</a>"]
-      - ["385", "<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Greaves\">Elden Lord Greaves</a>"]
+      - id: "384"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Bracers\">Elden Lord Bracers</a>"]
+      - id: "385"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Lord+Greaves\">Elden Lord Greaves</a>"]
   -
     title: "Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Knight+Set"
     items:
-      - ["386", "<a href=\"https://eldenring.wiki.fextralife.com/Knight+Helm\">Knight Helm</a>"]
-      - ["387", "<a href=\"https://eldenring.wiki.fextralife.com/Knight+Armor\">Knight Armor</a>"]
-      - ["388", "<a href=\"https://eldenring.wiki.fextralife.com/Knight+Gauntlets\">Knight Gauntlets</a>"]
-      - ["389", "<a href=\"https://eldenring.wiki.fextralife.com/Knight+Greaves\">Knight Greaves</a>"]
+      - id: "386"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Knight+Helm\">Knight Helm</a>"]
+      - id: "387"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Knight+Armor\">Knight Armor</a>"]
+      - id: "388"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Knight+Gauntlets\">Knight Gauntlets</a>"]
+      - id: "389"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Knight+Greaves\">Knight Greaves</a>"]
   -
     title: "Vagabond Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Vagabond+Knight+Set"
     items:
-      - ["390", "<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Helm\">Vagabond Knight Helm</a>"]
-      - ["391", "<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Armor\">Vagabond Knight Armor</a>"]
+      - id: "390"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Helm\">Vagabond Knight Helm</a>"]
+      - id: "391"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Armor\">Vagabond Knight Armor</a>"]
 #      - ["392", "<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Armor+(Altered)\">Vagabond Knight Armor (Altered)</a>"]
-      - ["393", "<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Gauntlets\">Vagabond Knight Gauntlets</a>"]
-      - ["394", "<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Greaves\">Vagabond Knight Greaves</a>"]
+      - id: "393"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Gauntlets\">Vagabond Knight Gauntlets</a>"]
+      - id: "394"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vagabond+Knight+Greaves\">Vagabond Knight Greaves</a>"]
   -
     title: "Greathelm (Helmet Only)"
     items:
-      - ["395", "<a href=\"https://eldenring.wiki.fextralife.com/Greathelm\">Greathelm</a>"]
+      - id: "395"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathelm\">Greathelm</a>"]
   -
     title: "Carian Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Carian+Knight+Set"
     items:
-      - ["396", "<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Helm\">Carian Knight Helm</a>"]
-      - ["397", "<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Armor\">Carian Knight Armor</a>"]
+      - id: "396"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Helm\">Carian Knight Helm</a>"]
+      - id: "397"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Armor\">Carian Knight Armor</a>"]
 #      - ["398", "<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Armor+(Altered)\">Carian Knight Armor (Altered)</a>"]
-      - ["399", "<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Gauntlets\">Carian Knight Gauntlets</a>"]
-      - ["400", "<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Greaves\">Carian Knight Greaves</a>"]
+      - id: "399"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Gauntlets\">Carian Knight Gauntlets</a>"]
+      - id: "400"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Knight+Greaves\">Carian Knight Greaves</a>"]
   -
     title: "Godrick Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Godrick+Knight+Set"
     items:
-      - ["401", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Helm\">Godrick Knight Helm</a>"]
-      - ["402", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Armor\">Godrick Knight Armor</a>"]
+      - id: "401"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Helm\">Godrick Knight Helm</a>"]
+      - id: "402"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Armor\">Godrick Knight Armor</a>"]
 #      - ["403", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Armor+(Altered)\">Godrick Knight Armor (Altered)</a>"]
-      - ["404", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Gauntlets\">Godrick Knight Gauntlets</a>"]
-      - ["405", "<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Greaves\">Godrick Knight Greaves</a>"]
+      - id: "404"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Gauntlets\">Godrick Knight Gauntlets</a>"]
+      - id: "405"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Knight+Greaves\">Godrick Knight Greaves</a>"]
   -
     title: "Cuckoo Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Set"
     items:
-      - ["406", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Helm\">Cuckoo Knight Helm</a>"]
-      - ["407", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Armor\">Cuckoo Knight Armor</a>"]
+      - id: "406"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Helm\">Cuckoo Knight Helm</a>"]
+      - id: "407"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Armor\">Cuckoo Knight Armor</a>"]
 #      - ["408", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Armor+(Altered)\">Cuckoo Knight Armor (Altered)</a>"]
-      - ["409", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Gauntlets\">Cuckoo Knight Gauntlets</a>"]
-      - ["410", "<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Greaves\">Cuckoo Knight Greaves</a>"]
+      - id: "409"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Gauntlets\">Cuckoo Knight Gauntlets</a>"]
+      - id: "410"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Greaves\">Cuckoo Knight Greaves</a>"]
   -
     title: "Redmane Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Redmane+Knight+Set"
     items:
-      - ["411", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Helm\">Redmane Knight Helm</a>"]
-      - ["412", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Armor\">Redmane Knight Armor</a>"]
+      - id: "411"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Helm\">Redmane Knight Helm</a>"]
+      - id: "412"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Armor\">Redmane Knight Armor</a>"]
 #      - ["413", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Armor+(Altered)\">Redmane Knight Armor (Altered)</a>"]
-      - ["414", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Gauntlets\">Redmane Knight Gauntlets</a>"]
-      - ["415", "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Greaves\">Redmane Knight Greaves</a>"]
+      - id: "414"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Gauntlets\">Redmane Knight Gauntlets</a>"]
+      - id: "415"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Greaves\">Redmane Knight Greaves</a>"]
   -
     title: "Gelmir Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Gelmir+Knight+Set"
     items:
-      - ["416", "<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Helm\">Gelmir Knight Helm</a>"]
-      - ["417", "<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Armor\">Gelmir Knight Armor</a>"]
+      - id: "416"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Helm\">Gelmir Knight Helm</a>"]
+      - id: "417"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Armor\">Gelmir Knight Armor</a>"]
 #      - ["418", "<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Armor+(Altered)\">Gelmir Knight Armor (Altered)</a>"]
-      - ["419", "<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Gauntlets\">Gelmir Knight Gauntlets</a>"]
-      - ["420", "<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Greaves\">Gelmir Knight Greaves</a>"]
+      - id: "419"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Gauntlets\">Gelmir Knight Gauntlets</a>"]
+      - id: "420"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Knight+Greaves\">Gelmir Knight Greaves</a>"]
   -
     title: "Leyndell Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Leyndell+Knight+Set"
     items:
-      - ["421", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Helm\">Leyndell Knight Helm</a>"]
-      - ["422", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Armor\">Leyndell Knight Armor</a>"]
+      - id: "421"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Helm\">Leyndell Knight Helm</a>"]
+      - id: "422"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Armor\">Leyndell Knight Armor</a>"]
 #      - ["423", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Armor+(Altered)\">Leyndell Knight Armor (Altered)</a>"]
-      - ["424", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Gauntlets\">Leyndell Knight Gauntlets</a>"]
-      - ["425", "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Greaves\">Leyndell Knight Greaves</a>"]
+      - id: "424"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Gauntlets\">Leyndell Knight Gauntlets</a>"]
+      - id: "425"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Knight+Greaves\">Leyndell Knight Greaves</a>"]
   -
     title: "Haligtree Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Haligtree+Knight+Set"
     items:
-      - ["426", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Helm\">Haligtree Knight Helm</a>"]
-      - ["427", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Armor\">Haligtree Knight Armor</a>"]
+      - id: "426"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Helm\">Haligtree Knight Helm</a>"]
+      - id: "427"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Armor\">Haligtree Knight Armor</a>"]
 #      - ["428", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Armor+(Altered)\">Haligtree Knight Armor (Altered)</a>"]
-      - ["429", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Gauntlets\">Haligtree Knight Gauntlets</a>"]
-      - ["430", "<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Greaves\">Haligtree Knight Greaves</a>"]
+      - id: "429"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Gauntlets\">Haligtree Knight Gauntlets</a>"]
+      - id: "430"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Knight+Greaves\">Haligtree Knight Greaves</a>"]
   -
     title: "Mausoleum Knight Set (No Helmet)"
     link: "https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Set"
     items:
-      - ["431", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Armor\">Mausoleum Knight Armor</a>"]
+      - id: "431"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Armor\">Mausoleum Knight Armor</a>"]
 #      - ["432", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Armor+(Altered)\">Mausoleum Knight Armor (Altered)</a>"]
-      - ["433", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Gauntlets\">Mausoleum Knight Gauntlets</a>"]
-      - ["434", "<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Greaves\">Mausoleum Knight Greaves</a>"]
+      - id: "433"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Gauntlets\">Mausoleum Knight Gauntlets</a>"]
+      - id: "434"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Greaves\">Mausoleum Knight Greaves</a>"]
   -
     title: "Bloodhound Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Set"
     items:
-      - ["435", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Helm\">Bloodhound Knight Helm</a>"]
-      - ["436", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Armor\">Bloodhound Knight Armor</a>"]
+      - id: "435"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Helm\">Bloodhound Knight Helm</a>"]
+      - id: "436"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Armor\">Bloodhound Knight Armor</a>"]
 #      - ["437", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Armor+(Altered)\">Bloodhound Knight Armor (Altered)</a>"]
-      - ["438", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Gauntlets\">Bloodhound Knight Gauntlets</a>"]
-      - ["439", "<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Greaves\">Bloodhound Knight Greaves</a>"]
+      - id: "438"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Gauntlets\">Bloodhound Knight Gauntlets</a>"]
+      - id: "439"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Greaves\">Bloodhound Knight Greaves</a>"]
   -
     title: "Cleanrot Set"
     link: "https://eldenring.wiki.fextralife.com/Cleanrot+Set"
     items:
-      - ["440", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Helm\">Cleanrot Helm</a>"]
+      - id: "440"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Helm\">Cleanrot Helm</a>"]
 #      - ["572", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Helm+(Altered)\">Cleanrot Helm (Altered)</a>"]
-      - ["441", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Armor\">Cleanrot Armor</a>"]
+      - id: "441"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Armor\">Cleanrot Armor</a>"]
 #      - ["442", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Armor+(Altered)\">Cleanrot Armor (Altered)</a>"]
-      - ["443", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Gauntlets\">Cleanrot Gauntlets</a>"]
-      - ["444", "<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Greaves\">Cleanrot Greaves</a>"]
+      - id: "443"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Gauntlets\">Cleanrot Gauntlets</a>"]
+      - id: "444"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Greaves\">Cleanrot Greaves</a>"]
   -
     title: "Raging Wolf Set"
     link: "https://eldenring.wiki.fextralife.com/Raging+Wolf+Set"
     items:
-      - ["445", "<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Helm\">Raging Wolf Helm</a>"]
-      - ["446", "<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Armor\">Raging Wolf Armor</a>"]
+      - id: "445"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Helm\">Raging Wolf Helm</a>"]
+      - id: "446"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Armor\">Raging Wolf Armor</a>"]
 #      - ["447", "<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Armor+(Altered)\">Raging Wolf Armor (Altered)</a>"]
-      - ["448", "<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Gauntlets\">Raging Wolf Gauntlets</a>"]
-      - ["449", "<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Greaves\">Raging Wolf Greaves</a>"]
+      - id: "448"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Gauntlets\">Raging Wolf Gauntlets</a>"]
+      - id: "449"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raging+Wolf+Greaves\">Raging Wolf Greaves</a>"]
   -
     title: "Hoslow's Set"
     link: "https://eldenring.wiki.fextralife.com/Hoslow's+Set"
     items:
-      - ["450", "<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Helm\">Hoslow's Helm</a>"]
-      - ["451", "<a href=\"https://eldenring.wiki.fextralife.com/Diallos's+Mask\">Diallos's Mask</a>"]
-      - ["452", "<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Armor\">Hoslow's Armor</a>"]
+      - id: "450"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Helm\">Hoslow's Helm</a>"]
+      - id: "451"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Diallos's+Mask\">Diallos's Mask</a>"]
+      - id: "452"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Armor\">Hoslow's Armor</a>"]
 #      - ["453", "<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Armor+(Altered)\">Hoslow's Armor (Altered)</a>"]
-      - ["454", "<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Gauntlets\">Hoslow's Gauntlets</a>"]
-      - ["455", "<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Greaves\">Hoslow's Greaves</a>"]
+      - id: "454"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Gauntlets\">Hoslow's Gauntlets</a>"]
+      - id: "455"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hoslow's+Greaves\">Hoslow's Greaves</a>"]
   -
     title: "Twinned Set"
     link: "https://eldenring.wiki.fextralife.com/Twinned+Set"
     items:
-      - ["456", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Helm\">Twinned Helm</a>"]
-      - ["457", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor\">Twinned Armor</a>"]
+      - id: "456"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Helm\">Twinned Helm</a>"]
+      - id: "457"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor\">Twinned Armor</a>"]
 #      - ["458", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Armor+(Altered)\">Twinned Armor (Altered)</a>"]
-      - ["459", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Gauntlets\">Twinned Gauntlets</a>"]
-      - ["460", "<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Greaves\">Twinned Greaves</a>"]
+      - id: "459"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Gauntlets\">Twinned Gauntlets</a>"]
+      - id: "460"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinned+Greaves\">Twinned Greaves</a>"]
   -
     title: "Drake Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Drake+Knight+Set"
     items:
-      - ["461", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Helm\">Drake Knight Helm</a>"]
+      - id: "461"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Helm\">Drake Knight Helm</a>"]
 #      - ["462", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Helm+(Altered)\">Drake Knight Helm (Altered)</a>"]
-      - ["463", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Armor\">Drake Knight Armor</a>"]
+      - id: "463"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Armor\">Drake Knight Armor</a>"]
 #      - ["464", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Armor+(Altered)\">Drake Knight Armor (Altered)</a>"]
-      - ["465", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Gauntlets\">Drake Knight Gauntlets</a>"]
-      - ["466", "<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Greaves\">Drake Knight Greaves</a>"]
+      - id: "465"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Gauntlets\">Drake Knight Gauntlets</a>"]
+      - id: "466"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Drake+Knight+Greaves\">Drake Knight Greaves</a>"]
   -
     title: "Blaidd's Set"
     link: ""
     items:
-      - ["467", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Wolf+Mask\">Black Wolf Mask</a>"] # IDs 200 and 467 are linked
-      - ["468", "<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Armor\">Blaidd's Armor</a>"]
+      - id: "467"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Wolf+Mask\">Black Wolf Mask</a>"]
+      - id: "468"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Armor\">Blaidd's Armor</a>"]
 #      - ["469", "<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Armor+(Altered)\">Blaidd's Armor (Altered)</a>"]
-      - ["470", "<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Gauntlets\">Blaidd's Gauntlets</a>"]
-      - ["471", "<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Greaves\">Blaidd's Greaves</a>"]
+      - id: "470"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Gauntlets\">Blaidd's Gauntlets</a>"]
+      - id: "471"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blaidd's+Greaves\">Blaidd's Greaves</a>"]
   -
     title: "Briar Set"
     link: "https://eldenring.wiki.fextralife.com/Briar+Set"
     items:
-      - ["472", "<a href=\"https://eldenring.wiki.fextralife.com/Briar+Helm\">Briar Helm</a>"]
-      - ["473", "<a href=\"https://eldenring.wiki.fextralife.com/Briar+Armor\">Briar Armor</a>"]
+      - id: "472"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Briar+Helm\">Briar Helm</a>"]
+      - id: "473"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Briar+Armor\">Briar Armor</a>"]
 #      - ["474", "<a href=\"https://eldenring.wiki.fextralife.com/Briar+Armor+(Altered)\">Briar Armor (Altered)</a>"]
-      - ["475", "<a href=\"https://eldenring.wiki.fextralife.com/Briar+Gauntlets\">Briar Gauntlets</a>"]
-      - ["476", "<a href=\"https://eldenring.wiki.fextralife.com/Briar+Greaves\">Briar Greaves</a>"]
+      - id: "475"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Briar+Gauntlets\">Briar Gauntlets</a>"]
+      - id: "476"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Briar+Greaves\">Briar Greaves</a>"]
   -
     title: "Fingerprint Set"
     link: "https://eldenring.wiki.fextralife.com/Fingerprint+Set"
     items:
-      - ["477", "<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Helm\">Fingerprint Helm</a>"]
-      - ["478", "<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Armor\">Fingerprint Armor</a>"]
+      - id: "477"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Helm\">Fingerprint Helm</a>"]
+      - id: "478"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Armor\">Fingerprint Armor</a>"]
 #      - ["479", "<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Armor+(Altered)\">Fingerprint Armor (Altered)</a>"]
-      - ["480", "<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Gauntlets\">Fingerprint Gauntlets</a>"]
-      - ["481", "<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Greaves\">Fingerprint Greaves</a>"]
+      - id: "480"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Gauntlets\">Fingerprint Gauntlets</a>"]
+      - id: "481"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingerprint+Greaves\">Fingerprint Greaves</a>"]
   -
     title: "Royal Remains Set"
     link: "https://eldenring.wiki.fextralife.com/Royal+Remains+Set"
     items:
-      - ["482", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Helm\">Royal Remains Helm</a>"]
-      - ["483", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Armor\">Royal Remains Armor</a>"]
-      - ["484", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Gauntlets\">Royal Remains Gauntlets</a>"]
-      - ["485", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Greaves\">Royal Remains Greaves</a>"]
+      - id: "482"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Helm\">Royal Remains Helm</a>"]
+      - id: "483"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Armor\">Royal Remains Armor</a>"]
+      - id: "484"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Gauntlets\">Royal Remains Gauntlets</a>"]
+      - id: "485"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Remains+Greaves\">Royal Remains Greaves</a>"]
   -
     title: "All-Knowing Set"
     link: "https://eldenring.wiki.fextralife.com/All-Knowing+Set"
     items:
-      - ["486", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Helm\">All-Knowing Helm</a>"]
-      - ["487", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Armor\">All-Knowing Armor</a>"]
+      - id: "486"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Helm\">All-Knowing Helm</a>"]
+      - id: "487"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Armor\">All-Knowing Armor</a>"]
 #      - ["488", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Armor+(Altered)\">All-Knowing Armor (Altered)</a>"]
-      - ["489", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Gauntlets\">All-Knowing Gauntlets</a>"]
-      - ["490", "<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Greaves\">All-Knowing Greaves</a>"]
+      - id: "489"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Gauntlets\">All-Knowing Gauntlets</a>"]
+      - id: "490"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/All-Knowing+Greaves\">All-Knowing Greaves</a>"]
   -
     title: "Royal Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Royal+Knight+Set"
     items:
-      - ["491", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Helm\">Royal Knight Helm</a>"]
-      - ["492", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Armor\">Royal Knight Armor</a>"]
+      - id: "491"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Helm\">Royal Knight Helm</a>"]
+      - id: "492"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Armor\">Royal Knight Armor</a>"]
 #      - ["493", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Armor+(Altered)\">Royal Knight Armor (Altered)</a>"]
-      - ["494", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Gauntlets\">Royal Knight Gauntlets</a>"]
-      - ["495", "<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Greaves\">Royal Knight Greaves</a>"]
+      - id: "494"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Gauntlets\">Royal Knight Gauntlets</a>"]
+      - id: "495"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Royal+Knight+Greaves\">Royal Knight Greaves</a>"]
   -
     title: "Maliketh's Set"
     link: "https://eldenring.wiki.fextralife.com/Maliketh's+Set"
     items:
-      - ["496", "<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Helm\">Maliketh's Helm</a>"]
-      - ["497", "<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Armor\">Maliketh's Armor</a>"]
+      - id: "496"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Helm\">Maliketh's Helm</a>"]
+      - id: "497"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Armor\">Maliketh's Armor</a>"]
 #      - ["498", "<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Armor+(Altered)\">Maliketh's Armor (Altered)</a>"]
-      - ["499", "<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Gauntlets\">Maliketh's Gauntlets</a>"]
-      - ["500", "<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Greaves\">Maliketh's Greaves</a>"]
+      - id: "499"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Gauntlets\">Maliketh's Gauntlets</a>"]
+      - id: "500"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Greaves\">Maliketh's Greaves</a>"]
   -
     title: "Banished Knight Set"
     link: "https://eldenring.wiki.fextralife.com/Banished+Knight+Set"
     items:
-      - ["501", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Helm\">Banished Knight Helm</a>"]
-      - ["502", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Helm+(Altered)\">Banished Knight Helm (Altered)</a>"]
-      - ["503", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Armor\">Banished Knight Armor</a>"]
-      - ["504", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Armor+(Altered)\">Banished Knight Armor (Altered)</a>"]
-      - ["505", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Gauntlets\">Banished Knight Gauntlets</a>"]
-      - ["506", "<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Greaves\">Banished Knight Greaves</a>"]
+      - id: "501"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Helm\">Banished Knight Helm</a>"]
+      - id: "502"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Helm+(Altered)\">Banished Knight Helm (Altered)</a>"]
+      - id: "503"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Armor\">Banished Knight Armor</a>"]
+      - id: "504"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Armor+(Altered)\">Banished Knight Armor (Altered)</a>"]
+      - id: "505"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Gauntlets\">Banished Knight Gauntlets</a>"]
+      - id: "506"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Greaves\">Banished Knight Greaves</a>"]
   -
     title: "Night's Cavalry Set"
     link: "https://eldenring.wiki.fextralife.com/Night's+Cavalry+Set"
     items:
-      - ["507", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Helm\">Night's Cavalry Helm</a>"]
+      - id: "507"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Helm\">Night's Cavalry Helm</a>"]
 #      - ["508", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Helm+(Altered)\">Night's Cavalry Helm (Altered)</a>"]
-      - ["509", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Armor\">Night's Cavalry Armor</a>"]
+      - id: "509"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Armor\">Night's Cavalry Armor</a>"]
 #      - ["510", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Armor+(Altered)\">Night's Cavalry Armor (Altered)</a>"]
-      - ["511", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Gauntlets\">Night's Cavalry Gauntlets</a>"]
-      - ["512", "<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Greaves\">Night's Cavalry Greaves</a>"]
+      - id: "511"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Gauntlets\">Night's Cavalry Gauntlets</a>"]
+      - id: "512"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry+Greaves\">Night's Cavalry Greaves</a>"]
   -
     title: "Veteran's Set"
     link: "https://eldenring.wiki.fextralife.com/Veteran's+Set"
     items:
-      - ["513", "<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Helm\">Veteran's Helm</a>"]
-      - ["514", "<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Armor\">Veteran's Armor</a>"]
+      - id: "513"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Helm\">Veteran's Helm</a>"]
+      - id: "514"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Armor\">Veteran's Armor</a>"]
 #      - ["515", "<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Armor+(Altered)\">Veteran's Armor (Altered)</a>"]
-      - ["516", "<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Gauntlets\">Veteran's Gauntlets</a>"]
-      - ["517", "<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Greaves\">Veteran's Greaves</a>"]
+      - id: "516"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Gauntlets\">Veteran's Gauntlets</a>"]
+      - id: "517"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Veteran's+Greaves\">Veteran's Greaves</a>"]
   -
     title: "Scaled Set"
     link: "https://eldenring.wiki.fextralife.com/Scaled+Set"
     items:
-      - ["518", "<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Helm\">Scaled Helm</a>"]
-      - ["519", "<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Armor\">Scaled Armor</a>"]
+      - id: "518"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Helm\">Scaled Helm</a>"]
+      - id: "519"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Armor\">Scaled Armor</a>"]
 #      - ["520", "<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Armor+(Altered)\">Scaled Armor (Altered)</a>"]
-      - ["521", "<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Gauntlets\">Scaled Gauntlets</a>"]
-      - ["522", "<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Greaves\">Scaled Greaves</a>"]
+      - id: "521"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Gauntlets\">Scaled Gauntlets</a>"]
+      - id: "522"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scaled+Greaves\">Scaled Greaves</a>"]
   -
     title: "Beast Champion Set"
     link: "https://eldenring.wiki.fextralife.com/Beast+Champion+Set"
     items:
-      - ["523", "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Helm\">Beast Champion Helm</a>"]
-      - ["524", "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Armor\">Beast Champion Armor</a>"]
-      - ["525", "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Armor+(Altered)\">Beast Champion Armor (Altered)</a>"]
-      - ["526", "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Gauntlets\">Beast Champion Gauntlets</a>"]
-      - ["527", "<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Greaves\">Beast Champion Greaves</a>"]
+      - id: "523"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Helm\">Beast Champion Helm</a>"]
+      - id: "524"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Armor\">Beast Champion Armor</a>"]
+      - id: "525"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Armor+(Altered)\">Beast Champion Armor (Altered)</a>"]
+      - id: "526"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Gauntlets\">Beast Champion Gauntlets</a>"]
+      - id: "527"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Champion+Greaves\">Beast Champion Greaves</a>"]
   -
     title: "Tree Sentinel Set"
     link: "https://eldenring.wiki.fextralife.com/Tree+Sentinel+Set"
     items:
-      - ["528", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Helm\">Tree Sentinel Helm</a>"]
-      - ["529", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Armor\">Tree Sentinel Armor</a>"]
+      - id: "528"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Helm\">Tree Sentinel Helm</a>"]
+      - id: "529"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Armor\">Tree Sentinel Armor</a>"]
 #      - ["530", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Armor+(Altered)\">Tree Sentinel Armor (Altered)</a>"]
-      - ["531", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Gauntlets\">Tree Sentinel Gauntlets</a>"]
-      - ["532", "<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Greaves\">Tree Sentinel Greaves</a>"]
+      - id: "531"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Gauntlets\">Tree Sentinel Gauntlets</a>"]
+      - id: "532"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tree+Sentinel+Greaves\">Tree Sentinel Greaves</a>"]
   -
     title: "Malformed Dragon Set"
     link: "https://eldenring.wiki.fextralife.com/Malformed+Dragon+Set"
     items:
-      - ["533", "<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Helm\">Malformed Dragon Helm</a>"]
-      - ["534", "<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Armor\">Malformed Dragon Armor</a>"]
-      - ["535", "<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Gauntlets\">Malformed Dragon Gauntlets</a>"]
-      - ["536", "<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Greaves\">Malformed Dragon Greaves</a>"]
+      - id: "533"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Helm\">Malformed Dragon Helm</a>"]
+      - id: "534"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Armor\">Malformed Dragon Armor</a>"]
+      - id: "535"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Gauntlets\">Malformed Dragon Gauntlets</a>"]
+      - id: "536"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malformed+Dragon+Greaves\">Malformed Dragon Greaves</a>"]
   -
     title: "Crucible Axe Set"
     link: "https://eldenring.wiki.fextralife.com/Crucible+Axe+Set"
     items:
-      - ["537", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Axe+Helm\">Crucible Axe Helm</a>"]
-      - ["538", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Axe+Armor\">Crucible Axe Armor</a>"]
+      - id: "537"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Axe+Helm\">Crucible Axe Helm</a>"]
+      - id: "538"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Axe+Armor\">Crucible Axe Armor</a>"]
 #      - ["539", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Axe+Armor+(Altered)\">Crucible Axe Armor (Altered)</a>"]
-      - ["540", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Gauntlets\">Crucible Gauntlets</a>"] # IDs 540 and 545 are linked
-      - ["541", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Greaves\">Crucible Greaves</a>"] # IDs 541 and 546 are linked
+      - id: "540"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Gauntlets\">Crucible Gauntlets</a>"]
+      - id: "541"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Greaves\">Crucible Greaves</a>"]
   -
     title: "Crucible Tree Set"
     link: "https://eldenring.wiki.fextralife.com/Crucible+Tree+Set"
     items:
-      - ["542", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Tree+Helm\">Crucible Tree Helm</a>"]
-      - ["543", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Tree+Armor\">Crucible Tree Armor</a>"]
+      - id: "542"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Tree+Helm\">Crucible Tree Helm</a>"]
+      - id: "543"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Tree+Armor\">Crucible Tree Armor</a>"]
 #      - ["544", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Tree+Armor+(Altered)\">Crucible Tree Armor (Altered)</a>"]
-      - ["545", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Gauntlets\">Crucible Gauntlets</a>"] # IDs 540 and 545 are linked
-      - ["546", "<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Greaves\">Crucible Greaves</a>"] # IDs 541 and 546 are linked
+      - id: "545"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Gauntlets\">Crucible Gauntlets</a>"]
+      - id: "546"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crucible+Greaves\">Crucible Greaves</a>"]
   -
     title: "General Radahn's Set"
     link: "https://eldenring.wiki.fextralife.com/General+Radahn+Set"
     items:
-      - ["547", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Redmane+Helm\">Radahn's Redmane Helm</a>"]
-      - ["548", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Lion+Armor\">Radahn's Lion Armor</a>"]
+      - id: "547"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Redmane+Helm\">Radahn's Redmane Helm</a>"]
+      - id: "548"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Lion+Armor\">Radahn's Lion Armor</a>"]
 #      - ["549", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Lion+Armor+(Altered)\">Radahn's Lion Armor (Altered)</a>"]
-      - ["550", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Gauntlets\">Radahn's Gauntlets</a>"]
-      - ["551", "<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Greaves\">Radahn's Greaves</a>"]
+      - id: "550"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Gauntlets\">Radahn's Gauntlets</a>"]
+      - id: "551"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Greaves\">Radahn's Greaves</a>"]
   -
     title: "Lionel's Set"
     link: "https://eldenring.wiki.fextralife.com/Lionel's+Set"
     items:
-      - ["552", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Helm\">Lionel's Helm</a>"]
-      - ["553", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Armor\">Lionel's Armor</a>"]
+      - id: "552"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Helm\">Lionel's Helm</a>"]
+      - id: "553"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Armor\">Lionel's Armor</a>"]
 #      - ["554", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Armor+(Altered)\">Lionel's Armor (Altered)</a>"]
-      - ["555", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Gauntlets\">Lionel's Gauntlets</a>"]
-      - ["556", "<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Greaves\">Lionel's Greaves</a>"]
+      - id: "555"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Gauntlets\">Lionel's Gauntlets</a>"]
+      - id: "556"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lionel's+Greaves\">Lionel's Greaves</a>"]
   -
     title: "Bull-Goat Set"
     link: "https://eldenring.wiki.fextralife.com/Bull-Goat+Set"
     items:
-      - ["557", "<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Helm\">Bull-Goat Helm</a>"]
-      - ["558", "<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Armor\">Bull-Goat Armor</a>"]
-      - ["559", "<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Gauntlets\">Bull-Goat Gauntlets</a>"]
-      - ["560", "<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Greaves\">Bull-Goat Greaves</a>"]
+      - id: "557"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Helm\">Bull-Goat Helm</a>"]
+      - id: "558"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Armor\">Bull-Goat Armor</a>"]
+      - id: "559"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Gauntlets\">Bull-Goat Gauntlets</a>"]
+      - id: "560"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bull-Goat+Greaves\">Bull-Goat Greaves</a>"]
   -
     title: "Omen Set"
     link: "https://eldenring.wiki.fextralife.com/Omen+Set"
     items:
-      - ["561", "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Helm\">Omen Helm</a>"]
-      - ["562", "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Armor\">Omen Armor</a>"]
-      - ["563", "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Gauntlets\">Omen Gauntlets</a>"]
-      - ["564", "<a href=\"https://eldenring.wiki.fextralife.com/Omen+Greaves\">Omen Greaves</a>"]
+      - id: "561"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omen+Helm\">Omen Helm</a>"]
+      - id: "562"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omen+Armor\">Omen Armor</a>"]
+      - id: "563"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omen+Gauntlets\">Omen Gauntlets</a>"]
+      - id: "564"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omen+Greaves\">Omen Greaves</a>"]
   -
     title: "Fire Prelate's Set"
     link: "https://eldenring.wiki.fextralife.com/Fire+Prelate+Set"
     items:
-      - ["565", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Helm\">Fire Prelate Helm</a>"]
-      - ["566", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor\">Fire Prelate Armor</a>"]
-      - ["567", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor+(Altered)\">Fire Prelate Armor (Altered)</a>"]
-      - ["568", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Gauntlets\">Fire Prelate Gauntlets</a>"]
-      - ["569", "<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Greaves\">Fire Prelate Greaves</a>"]
+      - id: "565"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Helm\">Fire Prelate Helm</a>"]
+      - id: "566"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor\">Fire Prelate Armor</a>"]
+      - id: "567"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Armor+(Altered)\">Fire Prelate Armor (Altered)</a>"]
+      - id: "568"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Gauntlets\">Fire Prelate Gauntlets</a>"]
+      - id: "569"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Prelate+Greaves\">Fire Prelate Greaves</a>"]
   -
     title: "Pumpkin Helm (Helmet Only)"
     items:
-      - ["570", "<a href=\"https://eldenring.wiki.fextralife.com/Pumpkin+Helm\">Pumpkin Helm</a>"]
+      - id: "570"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pumpkin+Helm\">Pumpkin Helm</a>"]
 # last id in use: 582

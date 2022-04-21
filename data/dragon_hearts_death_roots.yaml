@@ -3,40 +3,64 @@ id: dragon_hearts_death_roots
 sections:
   -
     title: "Dragon Hearts"
+    link: "/img/icons/03230.png"
     items:
       - "Limgrave"
-      - ["0_1", "Defeat Flying Dragon Agheel in Agheel Lake (x1)"]
+      - id: "0_1"
+        data: ["Defeat Flying Dragon Agheel in Agheel Lake (x1)"]
       - "Liurnia of the Lakes"
-      - ["0_2", "Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)"]
-      - ["0_3", "Defeat Glintstone Dragon Smarag, west of Raya Lucaria Academy (x1)"]
-      - ["0_4", "Defeat Magma Wyrm Makar in Ruin-Strewn Precipice (x1)"]
-      - ["0_5", "Defeat the three dragons in Moonlight Altar (x3)"]
+      - id: "0_2"
+        data: ["Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)"]
+      - id: "0_3"
+        data: ["Defeat Glintstone Dragon Smarag, west of Raya Lucaria Academy (x1)"]
+      - id: "0_4"
+        data: ["Defeat Magma Wyrm Makar in Ruin-Strewn Precipice (x1)"]
+      - id: "0_5"
+        data: ["Defeat the three dragons in Moonlight Altar (x3)"]
       - "Caelid"
-      - ["0_6", "Defeat Decaying Ekzykes, northwest of the Cathedral of Dragon Communion (x1)"]
-      - ["0_7", "Defeat Flying Dragon Greyll in the northeast of Caelid on the Farum Greatbridge (x1)"]
-      - ["0_8", "Defeat Elder Dragon Greyoll in front of Fort Faroth (x5)"]
-      - ["0_9", "Defeat the Magma Wyrm in Gael Tunnel bordering Limgrave (x1)"]
+      - id: "0_6"
+        data: ["Defeat Decaying Ekzykes, northwest of the Cathedral of Dragon Communion (x1)"]
+      - id: "0_7"
+        data: ["Defeat Flying Dragon Greyll in the northeast of Caelid on the Farum Greatbridge (x1)"]
+      - id: "0_8"
+        data: ["Defeat Elder Dragon Greyoll in front of Fort Faroth (x5)"]
+      - id: "0_9"
+        data: ["Defeat the Magma Wyrm in Gael Tunnel bordering Limgrave (x1)"]
       - "Mt. Gelmir"
-      - ["0_10", "Defeat the Magma Wyrm in Volcano Manor (x1)"]
-      - ["0_11", "Defeat the Magma Wyrm near Seethwater Terminus to the west of Mt. Gelmir (x1)"]
+      - id: "0_10"
+        data: ["Defeat the Magma Wyrm in Volcano Manor (x1)"]
+      - id: "0_11"
+        data: ["Defeat the Magma Wyrm near Seethwater Terminus to the west of Mt. Gelmir (x1)"]
       - "Mountaintops of the Giants"
-      - ["0_12", "Defeat Borealis, the Freezing Fog in the frozen lake in the northeast (x1)"]
+      - id: "0_12"
+        data: ["Defeat Borealis, the Freezing Fog in the frozen lake in the northeast (x1)"]
       - "Consecrated Snowfield"
-      - ["0_13", "Defeat Great Wyrm Theodorix, north of Albinauric Rise (x1)"]
+      - id: "0_13"
+        data: ["Defeat Great Wyrm Theodorix, north of Albinauric Rise (x1)"]
   -
     title: "Deathroots"
+    link: "/img/icons/00557.png"
     items:
       - "Limgrave"
-      - ["1_1", "Defeat the Tibia Mariner in northeast Limgrave in Summonwater Village"]
-      - ["1_2", "Defeat the Black Knife Assassin in the Deathtouched Catacombs"]
+      - id: "1_1"
+        data: ["Defeat the Tibia Mariner in northeast Limgrave in Summonwater Village"]
+      - id: "1_2"
+        data: ["Defeat the Black Knife Assassin in the Deathtouched Catacombs"]
       - "Liurnia of the Lakes"
-      - ["1_3", "Defeat the Cemetary Shade in the Black Knife Catacombs"]
-      - ["1_4", "Defeat the Tibia Mariner southwest of Carian Study Hall in east Liurnia of the Lakes"]
+      - id: "1_3"
+        data: ["Defeat the Cemetary Shade in the Black Knife Catacombs"]
+      - id: "1_4"
+        data: ["Defeat the Tibia Mariner southwest of Carian Study Hall in east Liurnia of the Lakes"]
       - "Mt. Gelmir"
-      - ["1_5", "Defeat the Tibia Mariner in the Wyndham Ruins"]
-      - ["1_6", "Inside a chest in Gelmir Hero's Grave"]
+      - id: "1_5"
+        data: ["Defeat the Tibia Mariner in the Wyndham Ruins"]
+      - id: "1_6"
+        data: ["Inside a chest in Gelmir Hero's Grave"]
       - "Mountaintops of the Giants"
-      - ["1_7", "Inside a chest in the Giants' Mountaintop Catacombs"]
-      - ["1_8", "Defeat the Tibia Mariner south of Castle Sol, on a cliff edge"]
+      - id: "1_7"
+        data: ["Inside a chest in the Giants' Mountaintop Catacombs"]
+      - id: "1_8"
+        data: ["Defeat the Tibia Mariner south of Castle Sol, on a cliff edge"]
       - "Consecrated Snowfield"
-      - ["1_9", "Inside a chest in the Catacombs underneath the Hidden Path to the Haligtree"]
+      - id: "1_9"
+        data: ["Inside a chest in the Catacombs underneath the Hidden Path to the Haligtree"]

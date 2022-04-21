@@ -3,19 +3,33 @@ id: memory_stones_talisman_pouches
 sections:
   -
     title: "Memory Stones"
+    link: "/img/icons/00553.png"
     items:
-      - ["0_1", "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
-      - ["0_2", "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
-      - ["0_3", "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
-      - ["0_4", "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
-      - ["0_5", "Found in Testu's Rise, north of Raya Lucaria Academy."]
-      - ["0_6", "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
-      - ["0_7", "Found in Lenne's Rise in eastern Caelid."]
-      - ["0_8", "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
+      - id: "0_1"
+        data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
+      - id: "0_2"
+        data: ["Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
+      - id: "0_3"
+        data: ["Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
+      - id: "0_4"
+        data: ["Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
+      - id: "0_5"
+        data: ["Found in Testu's Rise, north of Raya Lucaria Academy."]
+      - id: "0_6"
+        data: ["Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
+      - id: "0_7"
+        data: ["Found in Lenne's Rise in eastern Caelid."]
+      - id: "0_8"
+        data: ["Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
   -
     title: "Talisman Pouches"
+    link: "/img/icons/00554.png"
     items:
-      - ["1_1", "Game starts with a Talisman Pouch"]
-      - ["1_2", "Reward for defeating Margit, the Fell Omen in Stormveil Castle."]
-      - ["1_3", "Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."]
-      - ["1_4", "Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."]
+      - id: "1_1"
+        data: ["Game starts with a Talisman Pouch"]
+      - id: "1_2"
+        data: ["Reward for defeating Margit, the Fell Omen in Stormveil Castle."]
+      - id: "1_3"
+        data: ["Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."]
+      - id: "1_4"
+        data: ["Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."]

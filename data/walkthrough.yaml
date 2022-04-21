@@ -4,185 +4,316 @@ sections:
   -
     title: Starting Out
     items:
-      - ["1_1", "Once you have left the tutorial area, talk to White-Faced Varre nearby then head North-West to the Church of Elleh and talk to Kale. Continue North to the fork in the road and grab the Grace to your West and the Grace to your East. Rest at the Grace to your East. From now on, rest often and look for the \"Talk to\" option in the Grace menu when resing"]
-      - ["1_2", "Head East and find a talking tree. Hit or roll into the tree to break the illusion and find Boc. Head North from there, through a small camp of enemies and go North, up through the hills to find Alexander then make your way down to grab the Grace."]
-      - ["1_3", "Go back to the starting grace and go West and downhill to the beach. In the side of the cliff North-West on the beach will be a cave where you can find Boc again. Go through or don't then go back to the Grace where you found Alexander."]
-      - ["1_4", "Head East across the bridge to find a man mourning over a dead body beside the road. Head South and West to find a Spiritjump (horse-jump) at the bottom of a ravine containing a stream. Jump down onto that Spiritjump to avoid damage and head South. After the fight, talk to Yura nearby then head into the cave by the campfire."]
-      - ["1_5", "Deep in the cave is a boss. At half-health, he will ask for mercy. If spared, reload and go back to boss room. Reload and go back again, opening the chest this time."]
-      - ["1_6", "Head just South-East until you hear some howling then head North back to the road to find a man named Kenneth on top of some ruins. Head South-East, through the forest to Fort Haight in the South-East Corner. Explore Fort Haight to get one half of the Dectus Medallion."]
-      - ["1_7", "Return to Kenneth then go back to the Church of Elleh where Kale is. Wait until nightfall at the Grace and talk to Renna nearby, then Kale to get the Fingersnap Emote."]
-      - ["1_8", "Return to the forest, where you heard the howling and use Fingersnap nearby to meet Blaidd. After talking to him, go to Fort Haight and talk to Kenneth then go back to the Grace West of that fork in the road, North of the game's start and head West through the gate."]
-      - ["1_9", "Follow the path until you reach Stormhill Shack and talk to Roderika a few times then continue North. Don't follow the path, instead go through the forest to find a broken bridge. There is a path there you can choose to take but know that it will skip parts of some questlines."]
-      - ["1_10", "You may now safely explore all of Limgrave except for Stormveil Castle without breaking anything, provided you don't go down the giant elevator near the Minor Erdtree in the Eastern forest(It's called the Siofra River Well), use any Waygates or allow yourself to get caught in any trapped chests like the one in the cave that you opened earlier. Everything else is safe."]
-      - ["1_11", "Here are some notable people and places."]
-      - ["1_12", "Knight Bernahl can be found in Warmaster's Shack on the road East of Stormhill Shack."]
-      - ["1_13", "North of Warmaster's Shack is a Coliseum with an Invader."]
-      - ["1_14", "East of the lake in Limgrave is the Waypoint Ruins. Under them is Sorceress Sellen"]
+      - id: "1_1"
+        data: ["Once you have left the tutorial area, talk to White-Faced Varre nearby then head North-West to the Church of Elleh and talk to Kale. Continue North to the fork in the road and grab the Grace to your West and the Grace to your East. Rest at the Grace to your East. From now on, rest often and look for the \"Talk to\" option in the Grace menu when resing"]
+      - id: "1_2"
+        data: ["Head East and find a talking tree. Hit or roll into the tree to break the illusion and find Boc. Head North from there, through a small camp of enemies and go North, up through the hills to find Alexander then make your way down to grab the Grace."]
+      - id: "1_3"
+        data: ["Go back to the starting grace and go West and downhill to the beach. In the side of the cliff North-West on the beach will be a cave where you can find Boc again. Go through or don't then go back to the Grace where you found Alexander."]
+      - id: "1_4"
+        data: ["Head East across the bridge to find a man mourning over a dead body beside the road. Head South and West to find a Spiritjump (horse-jump) at the bottom of a ravine containing a stream. Jump down onto that Spiritjump to avoid damage and head South. After the fight, talk to Yura nearby then head into the cave by the campfire."]
+      - id: "1_5"
+        data: ["Deep in the cave is a boss. At half-health, he will ask for mercy. If spared, reload and go back to boss room. Reload and go back again, opening the chest this time."]
+      - id: "1_6"
+        data: ["Head just South-East until you hear some howling then head North back to the road to find a man named Kenneth on top of some ruins. Head South-East, through the forest to Fort Haight in the South-East Corner. Explore Fort Haight to get one half of the Dectus Medallion."]
+      - id: "1_7"
+        data: ["Return to Kenneth then go back to the Church of Elleh where Kale is. Wait until nightfall at the Grace and talk to Renna nearby, then Kale to get the Fingersnap Emote."]
+      - id: "1_8"
+        data: ["Return to the forest, where you heard the howling and use Fingersnap nearby to meet Blaidd. After talking to him, go to Fort Haight and talk to Kenneth then go back to the Grace West of that fork in the road, North of the game's start and head West through the gate."]
+      - id: "1_9"
+        data: ["Follow the path until you reach Stormhill Shack and talk to Roderika a few times then continue North. Don't follow the path, instead go through the forest to find a broken bridge. There is a path there you can choose to take but know that it will skip parts of some questlines."]
+      - id: "1_10"
+        data: ["You may now safely explore all of Limgrave except for Stormveil Castle without breaking anything, provided you don't go down the giant elevator near the Minor Erdtree in the Eastern forest(It's called the Siofra River Well), use any Waygates or allow yourself to get caught in any trapped chests like the one in the cave that you opened earlier. Everything else is safe."]
+      - id: "1_11"
+        data: ["Here are some notable people and places."]
+      - id: "1_12"
+        data: ["Knight Bernahl can be found in Warmaster's Shack on the road East of Stormhill Shack."]
+      - id: "1_13"
+        data: ["North of Warmaster's Shack is a Coliseum with an Invader."]
+      - id: "1_14"
+        data: ["East of the lake in Limgrave is the Waypoint Ruins. Under them is Sorceress Sellen"]
   -
     title: Going South
     items:
-      - ["2_1", "Go back to the starting Grace and head South-East. In the South-East corner, before you go down the slope, you will see a bunch of glowing rocks facing a circle. Go over to the circle and enter it. Blaidd will be available for you to summon if you wish. Defeat the enemy and talk to Blaidd then go down the slope."]
-      - ["2_2", "Cross the bridge and talk to Irina on the roadside then keep heading South."]
-      - ["2_3", "You can safely explore this whole area, minus Waygates and trapped chests that teleport you, without breaking anything."]
-      - ["2_4", "Once you're finished, go to Castle Morne in the deep South and go through the castle to find Edgar on the Ramparts. Talk to him then continue through the castle and fight the boss(Edgar is available to summon)."]
-      - ["2_5", "With the boss dead, talk to Edgar again then go back to Irina. After that, we are done with this zone entirely and shall never return."]
+      - id: "2_1"
+        data: ["Go back to the starting Grace and head South-East. In the South-East corner, before you go down the slope, you will see a bunch of glowing rocks facing a circle. Go over to the circle and enter it. Blaidd will be available for you to summon if you wish. Defeat the enemy and talk to Blaidd then go down the slope."]
+      - id: "2_2"
+        data: ["Cross the bridge and talk to Irina on the roadside then keep heading South."]
+      - id: "2_3"
+        data: ["You can safely explore this whole area, minus Waygates and trapped chests that teleport you, without breaking anything."]
+      - id: "2_4"
+        data: ["Once you're finished, go to Castle Morne in the deep South and go through the castle to find Edgar on the Ramparts. Talk to him then continue through the castle and fight the boss(Edgar is available to summon)."]
+      - id: "2_5"
+        data: ["With the boss dead, talk to Edgar again then go back to Irina. After that, we are done with this zone entirely and shall never return."]
   -
     title: Storming the Veiled Castle
     items:
-      - ["3_1", "^ Do this. If you should come across Chrysalid's Memento while exploring Stormveil Castle, give it to Roderika before you kill the boss."]
-      - ["3_2", "After the first boss, rest to discover Roundtable Hold. Talk to everyone, meet and greet, beware of hugs, and then go back."]
-      - ["3_3", "Once both bosses are dead, go through the door behind the boss room and you will enter Lake Liurnia."]
-      - ["3_4", "Don't kill Gostac, the one who tells you about the side path if you want to do his quest."]
-      - ["3_5", "Nepheli Loux is just South of the 2nd boss and can be summoned for the fight."]
-      - ["3_6", "Rogier is in the Chapel requires you to kill the monster under Stormveil to continue his quest."]
+      - id: "3_1"
+        data: ["^ Do this. If you should come across Chrysalid's Memento while exploring Stormveil Castle, give it to Roderika before you kill the boss."]
+      - id: "3_2"
+        data: ["After the first boss, rest to discover Roundtable Hold. Talk to everyone, meet and greet, beware of hugs, and then go back."]
+      - id: "3_3"
+        data: ["Once both bosses are dead, go through the door behind the boss room and you will enter Lake Liurnia."]
+      - id: "3_4"
+        data: ["Don't kill Gostac, the one who tells you about the side path if you want to do his quest."]
+      - id: "3_5"
+        data: ["Nepheli Loux is just South of the 2nd boss and can be summoned for the fight."]
+      - id: "3_6"
+        data: ["Rogier is in the Chapel requires you to kill the monster under Stormveil to continue his quest."]
   -
     title: Swimming in the Lake
     items:
-      - ["4_1", "So nearby should be a few NPCs depending on your choices, interact with them if you wish then head North-West down the slope to the Lake. Go North-West from here to find an island with an old friend on it, follow his instructions to go East to find a girl named Rya if you wish and if you choose to help her, go North-West to find the man she seeks."]
-      - ["4_2", "Whatever your choice, head North to the Academy Gate Town and explore the area to find Diallos with his friend."]
-      - ["4_3", "From here, explore the whole zone to your hearts content but a few warnings. Don't take the Coward's Path just yet. You'll know it by the name Ruin-Strewn Precipice. And don't go down the Ainsel River Well in the North-East. Waygates and trapped chests SHOULD be fine to take. I can't think of any that aren't."]
-      - ["4_4", "When you are finished exploring, go West of Raya Lucaria if you haven't already and grab the Glintstone Key from nearby the Dragon found there. Take it to one of the seals blocking off the academy, the closest one is North-East of Raya Lucaria on top of a broken bridge. Use the key on the seal and enter the academy."]
-      - ["4_5", "Explore the academy to your hearts content. Remember the information that the old friend gave you about the Iron Virgin below the Academy and try to avoid going down that elevator just yet. To explain, try not to let the Iron Virgin eat you. It won't necessarily break anything but I don't believe it's part of the game's \"intended\" path and you will be in hot lava if you do it."]
-      - ["4_6", "Besides that, explore the academy to your heart's content and eventually kill the boss and go back to Roundtable Hold. You should now have \"permission\" to go up the Grand Lift."]
-      - ["4_7", "Before we leave the lake though, here's a couple of things we need to do to get to other areas later."]
-      - ["4_8", "In the North-West section of the map is Caria Manor and South of it is a Giant named Iji. Go through Caria Manor and then North-West to find Ranni's Rise. This begins Ranni's Questline and leads to one of the big 3 endings. Seluvis is in the tower South of Ranni's Rise and has another questline."]
-      - ["4_9", "Along the cliffs in the South section of the map is the entrance to a town. Nepheli will be on the road here on a bunch of corpses(may require reloading the area/resting at a Grace before she appears) and in the town is a very very large pot. Try rolling into it to meet Albus and acquire the first half of the Haligtree Medallion."]
-      - ["4_10", "East of the town, also along the cliffs, is a cave. Go all the way through it and past the boss room to find Latenna. If you met Albus she will be more talkative."]
-      - ["4_11", "Revenger's Shack in the West section of the zone will have an invasion with an important item for a questline."]
-      - ["4_12", "In some ruins on the shore in the South-East will be an NPC who will appear again on the broken bridge to the East of Raya Lucaria and again in the church past the broke bridge in the North section of the map."]
-      - ["4_13", "At the Main Gate of Raya Lucaria, just to the North will be a summon sign that lets you continue Yura's Questline."]
-      - ["4_14", "In the South-West of Raya Lucaria will be the Rose Church where White-Faced Varre will be with his questline. Note: He thinks fingers are gross."]
-      - ["4_15", "At the East section of Lake Liurnia is Jarburg, remember this area for Diallos and Alexander's Quests. In it is Jar-bairn quest."]
+      - id: "4_1"
+        data: ["So nearby should be a few NPCs depending on your choices, interact with them if you wish then head North-West down the slope to the Lake. Go North-West from here to find an island with an old friend on it, follow his instructions to go East to find a girl named Rya if you wish and if you choose to help her, go North-West to find the man she seeks."]
+      - id: "4_2"
+        data: ["Whatever your choice, head North to the Academy Gate Town and explore the area to find Diallos with his friend."]
+      - id: "4_3"
+        data: ["From here, explore the whole zone to your hearts content but a few warnings. Don't take the Coward's Path just yet. You'll know it by the name Ruin-Strewn Precipice. And don't go down the Ainsel River Well in the North-East. Waygates and trapped chests SHOULD be fine to take. I can't think of any that aren't."]
+      - id: "4_4"
+        data: ["When you are finished exploring, go West of Raya Lucaria if you haven't already and grab the Glintstone Key from nearby the Dragon found there. Take it to one of the seals blocking off the academy, the closest one is North-East of Raya Lucaria on top of a broken bridge. Use the key on the seal and enter the academy."]
+      - id: "4_5"
+        data: ["Explore the academy to your hearts content. Remember the information that the old friend gave you about the Iron Virgin below the Academy and try to avoid going down that elevator just yet. To explain, try not to let the Iron Virgin eat you. It won't necessarily break anything but I don't believe it's part of the game's \"intended\" path and you will be in hot lava if you do it."]
+      - id: "4_6"
+        data: ["Besides that, explore the academy to your heart's content and eventually kill the boss and go back to Roundtable Hold. You should now have \"permission\" to go up the Grand Lift."]
+      - id: "4_7"
+        data: ["Before we leave the lake though, here's a couple of things we need to do to get to other areas later."]
+      - id: "4_8"
+        data: ["In the North-West section of the map is Caria Manor and South of it is a Giant named Iji. Go through Caria Manor and then North-West to find Ranni's Rise. This begins Ranni's Questline and leads to one of the big 3 endings. Seluvis is in the tower South of Ranni's Rise and has another questline."]
+      - id: "4_9"
+        data: ["Along the cliffs in the South section of the map is the entrance to a town. Nepheli will be on the road here on a bunch of corpses(may require reloading the area/resting at a Grace before she appears) and in the town is a very very large pot. Try rolling into it to meet Albus and acquire the first half of the Haligtree Medallion."]
+      - id: "4_10"
+        data: ["East of the town, also along the cliffs, is a cave. Go all the way through it and past the boss room to find Latenna. If you met Albus she will be more talkative."]
+      - id: "4_11"
+        data: ["Revenger's Shack in the West section of the zone will have an invasion with an important item for a questline."]
+      - id: "4_12"
+        data: ["In some ruins on the shore in the South-East will be an NPC who will appear again on the broken bridge to the East of Raya Lucaria and again in the church past the broke bridge in the North section of the map."]
+      - id: "4_13"
+        data: ["At the Main Gate of Raya Lucaria, just to the North will be a summon sign that lets you continue Yura's Questline."]
+      - id: "4_14"
+        data: ["In the South-West of Raya Lucaria will be the Rose Church where White-Faced Varre will be with his questline. Note: He thinks fingers are gross."]
+      - id: "4_15"
+        data: ["At the East section of Lake Liurnia is Jarburg, remember this area for Diallos and Alexander's Quests. In it is Jar-bairn quest."]
   -
     title: Arriving in Caelid
     items:
-      - ["5_1", "Go back to that Grace where you met Alexander in Limgrave then head along the road East. continue East to and past the Smoldering Church to the Shack of the Rotting."]
-      - ["5_2", "Feel free to explore. Caelid has a lot to do! You've got friendly locals, bird-watching, historical areas and plenty of dogs to pet. Just remember, please don't feed the animals."]
-      - ["5_3", "Here are things NOT to do. Don't enter Redmane Castle in the South-East yet(that means no touching the Waygates on the bridge nearby it also be wary of the Waygate in Fort Gaol in the South-West corner. I know it leads around here but don't remember specifically where) and other than that, the zone should be fully explorable, albeit dangerous."]
-      - ["5_4", "Once you've finished you're exploration go to the Shack of the Rotting Grace back in the North-West corner. Go North-East to the cliffs and follow along them to eventually find a path to jump over to the other side. This is a more dangerous area to explore but head East, avoiding the wildlife, and if you follow the road going East you should eventually see a massive Dragon. Run past it to the left and get to the Fort Faroth Grace. Explore Fort Faroth to get the other half of the Dectus Medallion."]
-      - ["5_5", "Alexander is at the end of the Gael Tunnel on the West side of Caelid."]
-      - ["5_6", "<b>! South of Sellia, Town of Sorcery, in East Caelid past the swamp is Gowry's Shack where you can find Gowry and do Millicent's Questline. Millicent is important to undo a specific Ending if you so choose.!</b>"]
-      - ["5_7", "North of Sellia, through the seal is a path. Follow the path to a church. North of the church is a giant tombstone. Past the tombstone is an illusionary wall leading to a cave."]
-      - ["5_8", "In the far North-East will be the Bestial Sanctum, which you may or may not have already been to if you followed D's (nuts) instructions. Inside will be Gurranq, Beast Clergyman."]
-      - ["5_9", "Once you've got the second half of the medallion and done all you wish to do, it's time to leave."]
-      - ["5_10", "At this point, all Waygates/Trapped Chests in Weeping Peninsula, Limgrave, and Liurnia Lake are safe. The Iron Virgin is still not."]
+      - id: "5_1"
+        data: ["Go back to that Grace where you met Alexander in Limgrave then head along the road East. continue East to and past the Smoldering Church to the Shack of the Rotting."]
+      - id: "5_2"
+        data: ["Feel free to explore. Caelid has a lot to do! You've got friendly locals, bird-watching, historical areas and plenty of dogs to pet. Just remember, please don't feed the animals."]
+      - id: "5_3"
+        data: ["Here are things NOT to do. Don't enter Redmane Castle in the South-East yet(that means no touching the Waygates on the bridge nearby it also be wary of the Waygate in Fort Gaol in the South-West corner. I know it leads around here but don't remember specifically where) and other than that, the zone should be fully explorable, albeit dangerous."]
+      - id: "5_4"
+        data: ["Once you've finished you're exploration go to the Shack of the Rotting Grace back in the North-West corner. Go North-East to the cliffs and follow along them to eventually find a path to jump over to the other side. This is a more dangerous area to explore but head East, avoiding the wildlife, and if you follow the road going East you should eventually see a massive Dragon. Run past it to the left and get to the Fort Faroth Grace. Explore Fort Faroth to get the other half of the Dectus Medallion."]
+      - id: "5_5"
+        data: ["Alexander is at the end of the Gael Tunnel on the West side of Caelid."]
+      - id: "5_6"
+        data: ["<b>! South of Sellia, Town of Sorcery, in East Caelid past the swamp is Gowry's Shack where you can find Gowry and do Millicent's Questline. Millicent is important to undo a specific Ending if you so choose.!</b>"]
+      - id: "5_7"
+        data: ["North of Sellia, through the seal is a path. Follow the path to a church. North of the church is a giant tombstone. Past the tombstone is an illusionary wall leading to a cave."]
+      - id: "5_8"
+        data: ["In the far North-East will be the Bestial Sanctum, which you may or may not have already been to if you followed D's (nuts) instructions. Inside will be Gurranq, Beast Clergyman."]
+      - id: "5_9"
+        data: ["Once you've got the second half of the medallion and done all you wish to do, it's time to leave."]
+      - id: "5_10"
+        data: ["At this point, all Waygates/Trapped Chests in Weeping Peninsula, Limgrave, and Liurnia Lake are safe. The Iron Virgin is still not."]
   -
     title: "Going Underground Part 1: Exploring the River Wells"
     items:
-      - ["6_1", "Go to Liurnia Lake and to the Ainsel River Well in the North-East, North of Carian Study Hall. Go down the lift and explore the area. Nothing notable really but this is the time to go."]
-      - ["6_2", "Now go to the Siofra River Well in East Limgrave in the forest. Go down the lift and explore the area. In part 1 of the area, there isn't much. In part 2 of the area you can find Blaidd in the East section along the cliffs if you have continued Ranni's Questline. There is also a couple secrets in the area but I won't spoil it. When you're done with the area go ahead and leave. With this done, we are done with Limgrave with the exception of one optional quest step later."]
+      - id: "6_1"
+        data: ["Go to Liurnia Lake and to the Ainsel River Well in the North-East, North of Carian Study Hall. Go down the lift and explore the area. Nothing notable really but this is the time to go."]
+      - id: "6_2"
+        data: ["Now go to the Siofra River Well in East Limgrave in the forest. Go down the lift and explore the area. In part 1 of the area, there isn't much. In part 2 of the area you can find Blaidd in the East section along the cliffs if you have continued Ranni's Questline. There is also a couple secrets in the area but I won't spoil it. When you're done with the area go ahead and leave. With this done, we are done with Limgrave with the exception of one optional quest step later."]
   -
     title: Castle Redmane
     items:
-      - ["7_1", "If you've been following Ranni's Questline, now is the time to go to Castle Redmane in the South-East section of Caelid. If you haven't then you may have to wait until you've taken the lift up to Altus Plateau if the area isn't ready yet."]
-      - ["7_2", "The way you'll know if the area is ready is that at the bridge near the castle you will find 2 Waygates, one on either side of the bridge. If you can use them, you can do the fight. Otherwise go to the next section and come back after."]
-      - ["7_3", "So use one of the Waygates at the bridge then go up the stairs to the boss fight. After the boss fight, you can now explore the boss area and also the castle without fear of messing anything up."]
-      - ["7_4", "Go back to the church where the announcement was made to talk to Jerren. If you rest at the Grace and come back, there is a boss battle in that area."]
-      - ["7_5", "With the boss fight finished and everything explored, go ahead and leave Caelid, we won't be coming back except for an optional quest involving the seal in the illusory cave past Sellia."]
-      - ["7_6", "As usual, Roundtable Hold for dialogue and quests."]
+      - id: "7_1"
+        data: ["If you've been following Ranni's Questline, now is the time to go to Castle Redmane in the South-East section of Caelid. If you haven't then you may have to wait until you've taken the lift up to Altus Plateau if the area isn't ready yet."]
+      - id: "7_2"
+        data: ["The way you'll know if the area is ready is that at the bridge near the castle you will find 2 Waygates, one on either side of the bridge. If you can use them, you can do the fight. Otherwise go to the next section and come back after."]
+      - id: "7_3"
+        data: ["So use one of the Waygates at the bridge then go up the stairs to the boss fight. After the boss fight, you can now explore the boss area and also the castle without fear of messing anything up."]
+      - id: "7_4"
+        data: ["Go back to the church where the announcement was made to talk to Jerren. If you rest at the Grace and come back, there is a boss battle in that area."]
+      - id: "7_5"
+        data: ["With the boss fight finished and everything explored, go ahead and leave Caelid, we won't be coming back except for an optional quest involving the seal in the illusory cave past Sellia."]
+      - id: "7_6"
+        data: ["As usual, Roundtable Hold for dialogue and quests."]
   -
     title: "Underground Part 2: Into the Crater"
     items:
-      - ["8_1", "This section mostly applies to if you're doing Ranni's Questline. You can do the area anyway but you won't be able to open the chest at the end of the area."]
-      - ["8_2", "Go to the ruins where you first met Blaidd to find a note saying to enter the crater alone."]
-      - ["8_3", "Optional: Go back to the Evergaol where you fought Bloodhound Darriwil in South-East Limgrave. If you interact with it you will find Blaidd. Afterwards, go to Iji and talk to him about it."]
-      - ["8_4", "Go to the South-East section of the forest, near Fort Haight, and you will find a giant crater. Enter it and you will find 2 different paths going North and South."]
-      - ["8_5", "At the end of the one going South is a chest needed for Ranni's Questline."]
-      - ["8_6", "At the end of the North path is a boss fight. After the boss fight, there will be a coffin. If you want, you can go ahead and enter it to get a Grace for easy teleport later but don't explore the area quite yet."]
-      - ["8_7", "Once you have the Fingerslayer Blade, don't give it to Ranni and talk to Seluvis first and do his questline if you want. Giving the Fingerslayer Blade to Ranni will end his questline. Note that if you follow through with his questline when he gives you his second potion, you may lock yourself out of Ranni's questline. Using the Church of Vows may fix this."]
-      - ["8_8", "Give the Fingerslayer Blade to Ranni and you're ready to leave."]
-      - ["8_9", "Go back to Roundtable Hold and talk to everyone if you want dialogue and quest stuff."]
-      - ["8_10", "Here you have a choice and I recommend eventually doing all of them."]
+      - id: "8_1"
+        data: ["This section mostly applies to if you're doing Ranni's Questline. You can do the area anyway but you won't be able to open the chest at the end of the area."]
+      - id: "8_2"
+        data: ["Go to the ruins where you first met Blaidd to find a note saying to enter the crater alone."]
+      - id: "8_3"
+        data: ["Optional: Go back to the Evergaol where you fought Bloodhound Darriwil in South-East Limgrave. If you interact with it you will find Blaidd. Afterwards, go to Iji and talk to him about it."]
+      - id: "8_4"
+        data: ["Go to the South-East section of the forest, near Fort Haight, and you will find a giant crater. Enter it and you will find 2 different paths going North and South."]
+      - id: "8_5"
+        data: ["At the end of the one going South is a chest needed for Ranni's Questline."]
+      - id: "8_6"
+        data: ["At the end of the North path is a boss fight. After the boss fight, there will be a coffin. If you want, you can go ahead and enter it to get a Grace for easy teleport later but don't explore the area quite yet."]
+      - id: "8_7"
+        data: ["Once you have the Fingerslayer Blade, don't give it to Ranni and talk to Seluvis first and do his questline if you want. Giving the Fingerslayer Blade to Ranni will end his questline. Note that if you follow through with his questline when he gives you his second potion, you may lock yourself out of Ranni's questline. Using the Church of Vows may fix this."]
+      - id: "8_8"
+        data: ["Give the Fingerslayer Blade to Ranni and you're ready to leave."]
+      - id: "8_9"
+        data: ["Go back to Roundtable Hold and talk to everyone if you want dialogue and quest stuff."]
+      - id: "8_10"
+        data: ["Here you have a choice and I recommend eventually doing all of them."]
   -
     title: "Choice 1: The Grand Lift of Dectus"
     items:
-      - ["9_1", "Go to the Grand Lift of Dectus in the far North of Liurnia Lake. When you get to the big circle in front of the 2 statues, you will have a prompt to use the medallion and the lift will activate."]
-      - ["9_2", "At the top of the lift is Altus Plateau. Explore this area to your hearts content but don't enter Leyndell just yet. Everywhere else and everything else should be fine."]
-      - ["9_3", "The Shaded Castle in the North where an item needed for Millicent's Questline is found."]
-      - ["9_4", "On the road going North from the crossroads is Brother Corhyn(you may need to go back and talk to him in Roundtable Hold first)."]
-      - ["9_5", "On the North side of the broken bridge in the North is Goldmask."]
-      - ["9_6", "In the West standing next to the Erdtree Gazing Hill Grace is Millicent, she also appears at the Windmill Heights North of the broken bridge."]
-      - ["9_7", "In the Centerish part of the area is the Second Church of Marika where you can finish Yura's Questline."]
-      - ["9_8", "Once you've explored the area completely, you can technically continue to Leyndell but I think the game intends you to do the other choices/go into the crater first."]
+      - id: "9_1"
+        data: ["Go to the Grand Lift of Dectus in the far North of Liurnia Lake. When you get to the big circle in front of the 2 statues, you will have a prompt to use the medallion and the lift will activate."]
+      - id: "9_2"
+        data: ["At the top of the lift is Altus Plateau. Explore this area to your hearts content but don't enter Leyndell just yet. Everywhere else and everything else should be fine."]
+      - id: "9_3"
+        data: ["The Shaded Castle in the North where an item needed for Millicent's Questline is found."]
+      - id: "9_4"
+        data: ["On the road going North from the crossroads is Brother Corhyn(you may need to go back and talk to him in Roundtable Hold first)."]
+      - id: "9_5"
+        data: ["On the North side of the broken bridge in the North is Goldmask."]
+      - id: "9_6"
+        data: ["In the West standing next to the Erdtree Gazing Hill Grace is Millicent, she also appears at the Windmill Heights North of the broken bridge."]
+      - id: "9_7"
+        data: ["In the Centerish part of the area is the Second Church of Marika where you can finish Yura's Questline."]
+      - id: "9_8"
+        data: ["Once you've explored the area completely, you can technically continue to Leyndell but I think the game intends you to do the other choices/go into the crater first."]
   -
     title: "Choice 2: Taking the Coward's Path"
     items:
-      - ["10_1", "In North section of Liurnia Lake is a river in a ravine. Go up the river to the end to find a ladder going up to Ruin-Strewn Precipice. Continue the path up to make it through the Coward's Path and get to Mt. Gelmir."]
-      - ["10_2", "Explore the area to your heart's content"]
-      - ["10_3", "Going around the North-East and going all the way West and just basically around the Mountain you will eventually come to the Craftsman's Shack. Past it is the Hermit's Shack. Past that is the Hermit's Village. Past that is a man with a crystal face that gives you the spell Kamehameha. Remember, it takes 50 years to learn this technique."]
-      - ["10_4", "After talking to this man, you can go to Sorceress Sellen and continue her questline. She will give you the key to the seal in that illusory cave in Caelid."]
-      - ["10_5", "If you helped Rya, she will be around the Lux Ruins to take you to Volcano Manor."]
-      - ["10_6", "You can also find Alexander in this area in the lava just past the Magma Wyrm. However in order to get him to appear you must go back to Liurnia Lake and, just South of it at the top of the cliff, there is Alexander, stuck. Throw an Oil Pot at him to free him and he will appear here."]
-      - ["10_7", "Eventually you will reach the Volcano Manor and can explore it. It's fine to explore this whole area but DO NOT kill the final boss of the area if you want to do the Volcano Manor questline. You can't do this by mistake because the boss has 2 phases. If you beat a boss here and he goes into Phase 2, leave if you plan to do the Volcano Manor Questline."]
-      - ["10_8", "After this, you can enter Altus Plateau from this area if you didn't already. You also have one more option."]
+      - id: "10_1"
+        data: ["In North section of Liurnia Lake is a river in a ravine. Go up the river to the end to find a ladder going up to Ruin-Strewn Precipice. Continue the path up to make it through the Coward's Path and get to Mt. Gelmir."]
+      - id: "10_2"
+        data: ["Explore the area to your heart's content"]
+      - id: "10_3"
+        data: ["Going around the North-East and going all the way West and just basically around the Mountain you will eventually come to the Craftsman's Shack. Past it is the Hermit's Shack. Past that is the Hermit's Village. Past that is a man with a crystal face that gives you the spell Kamehameha. Remember, it takes 50 years to learn this technique."]
+      - id: "10_4"
+        data: ["After talking to this man, you can go to Sorceress Sellen and continue her questline. She will give you the key to the seal in that illusory cave in Caelid."]
+      - id: "10_5"
+        data: ["If you helped Rya, she will be around the Lux Ruins to take you to Volcano Manor."]
+      - id: "10_6"
+        data: ["You can also find Alexander in this area in the lava just past the Magma Wyrm. However in order to get him to appear you must go back to Liurnia Lake and, just South of it at the top of the cliff, there is Alexander, stuck. Throw an Oil Pot at him to free him and he will appear here."]
+      - id: "10_7"
+        data: ["Eventually you will reach the Volcano Manor and can explore it. It's fine to explore this whole area but DO NOT kill the final boss of the area if you want to do the Volcano Manor questline. You can't do this by mistake because the boss has 2 phases. If you beat a boss here and he goes into Phase 2, leave if you plan to do the Volcano Manor Questline."]
+      - id: "10_8"
+        data: ["After this, you can enter Altus Plateau from this area if you didn't already. You also have one more option."]
   -
     title: "Choice 3: The Iron Virgin"
     items:
-      - ["11_1", "Below Raya Lucaria, taking the rotating elevator outside the Student Classroom and heading down, you can find an Iron Virgin. Let it eat you and you need to die while being eaten by it to be teleported by it."]
-      - ["11_2", "This will take you to Mt. Gelmir to a path you can't easily reach any other way. Continue through this path to the end to reach Mt. Gelmir."]
-      - ["11_3", "For more information on this area, see Choice 2"]
+      - id: "11_1"
+        data: ["Below Raya Lucaria, taking the rotating elevator outside the Student Classroom and heading down, you can find an Iron Virgin. Let it eat you and you need to die while being eaten by it to be teleported by it."]
+      - id: "11_2"
+        data: ["This will take you to Mt. Gelmir to a path you can't easily reach any other way. Continue through this path to the end to reach Mt. Gelmir."]
+      - id: "11_3"
+        data: ["For more information on this area, see Choice 2"]
   -
     title: "Underground Part 3: Into the Coffin and Following Ranni"
     items:
-      - ["12_1", "Roundtable Hold for quests and such again."]
-      - ["12_2", "Part of section doesn't require anything but the other part requires Ranni's Questline. If you haven't done it, then it's fine, it's not necessary but as far as I know you can't get past the seal to the area."]
-      - ["12_3", "Go back to the boss room where I mentioned the coffin. If you didn't get in the coffin yet, get in it this time. If you did get in the coffin, teleport to the Grace in Deeproot Depths."]
-      - ["12_4", "Explore Deeproot Depths entirely. If you've been doing Fia's Questline, it will continue here but don't worry if you didn't."]
-      - ["12_5", "Now, if you've done Ranni's Questline, go to Ranni's Rise and go to the tower North of it. Enter the Waygate to get to the next area and you will find a doll in a coffin nearby. Try talking to it at the Grace."]
-      - ["12_6", "If you haven't done Ranni's Questline, go to the West section of Deeproot Depths to find a coffin. It will lead to the same area but there won't be a doll to talk to."]
-      - ["12_7", "Explore this area thoroughly and at the end of part 1 will be a lift going down. At the end of part 2 will be another coffin leading to a boss fight."]
-      - ["12_8", "If you have been doing Ranni's Questline and talked to the doll, you will have gotten a key while exploring. Take the key to the Raya Lucaria boss room and use it to open that locked chest."]
-      - ["12_9", "Head back to the boss fight past the coffin and the seal in the boss room will be open now leading to another area to explore."]
-      - ["12_10", "After you're done, head back to Ranni's Rise to finish Blaidd's quest if you like. With that you're ready to go to Leyndell."]
+      - id: "12_1"
+        data: ["Roundtable Hold for quests and such again."]
+      - id: "12_2"
+        data: ["Part of section doesn't require anything but the other part requires Ranni's Questline. If you haven't done it, then it's fine, it's not necessary but as far as I know you can't get past the seal to the area."]
+      - id: "12_3"
+        data: ["Go back to the boss room where I mentioned the coffin. If you didn't get in the coffin yet, get in it this time. If you did get in the coffin, teleport to the Grace in Deeproot Depths."]
+      - id: "12_4"
+        data: ["Explore Deeproot Depths entirely. If you've been doing Fia's Questline, it will continue here but don't worry if you didn't."]
+      - id: "12_5"
+        data: ["Now, if you've done Ranni's Questline, go to Ranni's Rise and go to the tower North of it. Enter the Waygate to get to the next area and you will find a doll in a coffin nearby. Try talking to it at the Grace."]
+      - id: "12_6"
+        data: ["If you haven't done Ranni's Questline, go to the West section of Deeproot Depths to find a coffin. It will lead to the same area but there won't be a doll to talk to."]
+      - id: "12_7"
+        data: ["Explore this area thoroughly and at the end of part 1 will be a lift going down. At the end of part 2 will be another coffin leading to a boss fight."]
+      - id: "12_8"
+        data: ["If you have been doing Ranni's Questline and talked to the doll, you will have gotten a key while exploring. Take the key to the Raya Lucaria boss room and use it to open that locked chest."]
+      - id: "12_9"
+        data: ["Head back to the boss fight past the coffin and the seal in the boss room will be open now leading to another area to explore."]
+      - id: "12_10"
+        data: ["After you're done, head back to Ranni's Rise to finish Blaidd's quest if you like. With that you're ready to go to Leyndell."]
   -
     title: Onwards to Leyndell
     items:
-      - ["13_1", "Go to Leyndell after going back to Roundtable Hold to get dialogue and questlines. You can explore this whole area safely and after defeating the boss you can be ready to leave."]
-      - ["13_2", "At this point in time. You are now 100% safe to explore this and all previously explored areas without breaking anything you haven't already broken with the exception of 1 place. DO NOT go down the hidden path deep within the sewers. The hidden path in Mohg, The Omen's boss room If you do then you will break a little bit of dialogue and possibly lock yourself into an ending."]
-      - ["13_3", "Boc is back in the East Capital Ramparts Grace if you did his story. Buy some boss gear to continue his questline."]
-      - ["13_4", "If you have Seedbed Curse, bring it to Dung-Eater in the Roundtable to get a key to a door in the Sewers and continue/finish his questline."]
-      - ["13_5", "Corhyn and Goldmask can be found in the South part of the city by the Coliseum to continue their questlines."]
-      - ["13_6", "After beating the boss. Nepheli Loux, Kenneth Haight, and Gostac's questlines can be completed."]
-      - ["13_7", "<b>Warning</b>: Yura's Questline breaks if you proceed to the next area before finishing it."]
-      - ["13_8", "Now you will leave the city through the East, using the Grand Lift of Rold and onwards to the Mountaintops of the Giants."]
+      - id: "13_1"
+        data: ["Go to Leyndell after going back to Roundtable Hold to get dialogue and questlines. You can explore this whole area safely and after defeating the boss you can be ready to leave."]
+      - id: "13_2"
+        data: ["At this point in time. You are now 100% safe to explore this and all previously explored areas without breaking anything you haven't already broken with the exception of 1 place. DO NOT go down the hidden path deep within the sewers. The hidden path in Mohg, The Omen's boss room If you do then you will break a little bit of dialogue and possibly lock yourself into an ending."]
+      - id: "13_3"
+        data: ["Boc is back in the East Capital Ramparts Grace if you did his story. Buy some boss gear to continue his questline."]
+      - id: "13_4"
+        data: ["If you have Seedbed Curse, bring it to Dung-Eater in the Roundtable to get a key to a door in the Sewers and continue/finish his questline."]
+      - id: "13_5"
+        data: ["Corhyn and Goldmask can be found in the South part of the city by the Coliseum to continue their questlines."]
+      - id: "13_6"
+        data: ["After beating the boss. Nepheli Loux, Kenneth Haight, and Gostac's questlines can be completed."]
+      - id: "13_7"
+        data: ["<b>Warning</b>: Yura's Questline breaks if you proceed to the next area before finishing it."]
+      - id: "13_8"
+        data: ["Now you will leave the city through the East, using the Grand Lift of Rold and onwards to the Mountaintops of the Giants."]
   -
     title: Climbing Mt. Giants
     items:
-      - ["14_1", "Right away you will find a man named Shabriri. You can now safely go to the hidden path deep in the Sewers of Leyndell without missing any dialogue. Be warned that continuing the quest here will lock you out of all other endings unless you're doing Millicent's Questline and you successfully complete it."]
-      - ["14_2", "You may now explore the area entirely. When you've finished exploring, head to Castle Sol in the North and complete it for the other half of the Haligtree Medallion."]
-      - ["14_3", "Afterwards, you can go ahead and defeat the Fire Giant in the South-East but don't continue past him just yet. If you do, you will make an irreversible decision."]
-      - ["14_4", "Instead, after defeating the Fire Giant, go back to the Grand Lift of Rold. Go to the spot where you would use the medallion to activate it and press the right or left buttons to go through the options until you get the option that has (Secret) on it. This will use the Haligtree Medallion instead of the Rold Medallion."]
-      - ["14_5", "Go through the area and you will enter the Consecrated Snowfield. Explore the area to your hearts content and when you're done you will have 2 options, but first...."]
-      - ["14_6", "Alexander is available to summon for the Fire Giant if you have been continuing his questline."]
-      - ["14_7", "Millicent appears at the Ancient Snow Valley Ruins and can be summoned in Castle Sol."]
-      - ["14_8", "Corhyn and Goldmask are at the bridge South of the Stargazer Ruins if you've been continuing the quest so far."]
-      - ["14_9", "In the North-West section of the Consecrated Snowfield is the Apostate Derelict where you can finish Latenna's Quest by summoning her."]
-      - ["14_10", "Back to Roundtable Hold real quick and then it's time for your options. You should do both of them."]
+      - id: "14_1"
+        data: ["Right away you will find a man named Shabriri. You can now safely go to the hidden path deep in the Sewers of Leyndell without missing any dialogue. Be warned that continuing the quest here will lock you out of all other endings unless you're doing Millicent's Questline and you successfully complete it."]
+      - id: "14_2"
+        data: ["You may now explore the area entirely. When you've finished exploring, head to Castle Sol in the North and complete it for the other half of the Haligtree Medallion."]
+      - id: "14_3"
+        data: ["Afterwards, you can go ahead and defeat the Fire Giant in the South-East but don't continue past him just yet. If you do, you will make an irreversible decision."]
+      - id: "14_4"
+        data: ["Instead, after defeating the Fire Giant, go back to the Grand Lift of Rold. Go to the spot where you would use the medallion to activate it and press the right or left buttons to go through the options until you get the option that has (Secret) on it. This will use the Haligtree Medallion instead of the Rold Medallion."]
+      - id: "14_5"
+        data: ["Go through the area and you will enter the Consecrated Snowfield. Explore the area to your hearts content and when you're done you will have 2 options, but first...."]
+      - id: "14_6"
+        data: ["Alexander is available to summon for the Fire Giant if you have been continuing his questline."]
+      - id: "14_7"
+        data: ["Millicent appears at the Ancient Snow Valley Ruins and can be summoned in Castle Sol."]
+      - id: "14_8"
+        data: ["Corhyn and Goldmask are at the bridge South of the Stargazer Ruins if you've been continuing the quest so far."]
+      - id: "14_9"
+        data: ["In the North-West section of the Consecrated Snowfield is the Apostate Derelict where you can finish Latenna's Quest by summoning her."]
+      - id: "14_10"
+        data: ["Back to Roundtable Hold real quick and then it's time for your options. You should do both of them."]
   -
     title: "Choice 1: Mohgwyn's Palace"
     items:
-      - ["15_1", "In the West section of Consecrated Snowfield is a Waygate covered in blood. Enter it to enter Mohgwyn's Palace. Explore the area and at the end is a boss."]
-      - ["15_2", "White-Faced Varre can be invaded and killed here for his stuff. He appears at the end of the cave just before the last Grace before the boss."]
+      - id: "15_1"
+        data: ["In the West section of Consecrated Snowfield is a Waygate covered in blood. Enter it to enter Mohgwyn's Palace. Explore the area and at the end is a boss."]
+      - id: "15_2"
+        data: ["White-Faced Varre can be invaded and killed here for his stuff. He appears at the end of the cave just before the last Grace before the boss."]
   -
     title: "Choice 2: Miquella's Haligtree"
     items:
-      - ["16_1", "In the North Section of the Consecrated Snowfield is Ordina, Liturgical Town. Interract with the Imp Statues there to enter the Evergaol and light the fires to open the Waygate in town. Take the Waygate to enter the Haligtree."]
-      - ["16_2", "Explore the area entirely and kill the boss at the end."]
-      - ["16_3", "Millicent's Questline finishes here. Talk to her in the Prayer Room then kill the Defiled Root just before the Drainage Channel Grace. You will have 2 options for her quest on the hill above where you fought the Defiled Root."]
-      - ["16_4", "Roundtable once more then onwards to the Giant's Forge"]
+      - id: "16_1"
+        data: ["In the North Section of the Consecrated Snowfield is Ordina, Liturgical Town. Interract with the Imp Statues there to enter the Evergaol and light the fires to open the Waygate in town. Take the Waygate to enter the Haligtree."]
+      - id: "16_2"
+        data: ["Explore the area entirely and kill the boss at the end."]
+      - id: "16_3"
+        data: ["Millicent's Questline finishes here. Talk to her in the Prayer Room then kill the Defiled Root just before the Drainage Channel Grace. You will have 2 options for her quest on the hill above where you fought the Defiled Root."]
+      - id: "16_4"
+        data: ["Roundtable once more then onwards to the Giant's Forge"]
   -
     title: This Tree is on FIIIIREEEE!!!!!
     items:
-      - ["17_1", "Go past the Fire Giant's boss area and rest at the Giant's Forge Grace to light the fire. This decision can't be reversed. You will then enter Crumbling Farum Azula."]
-      - ["17_2", "Go back to Roundtable Hold for dialogue and such after reaching Crumbling Farum Azula."]
-      - ["17_3", "Note: At this point you can safely complete ALL questlines and 100% explore ALL areas of the game without fear of breaking anything that isn't already broken."]
-      - ["17_4", "<b>WARNING</b>: So many quests break after COMPLETING this area that I'm not listing them. If you beat the final boss of the area, assume that any unfinished quests can no longer be completed. Finish EVERYTHING you want to do before killing the final boss of the area. He has 2 phases so if a boss starts a phase 2, then you'll know you're there. DO NOT COMPLETE this area if you want to do unfinished quests."]
-      - ["17_5", "Go through this area to the end to boss and kill him to be sent to the next area."]
-      - ["17_6", "Alexander will be here behind an Imp Statue door. After finishing with him, go to Jarburg to finish the questline."]
-      - ["17_7", "If you've finished Volcano Manor's Questline, Recusant Bernahl will invade you on the path opposite the final boss."]
-      - ["17_8", "After you've grabbed this area's Grace, go back to Roundtable Hold for more dialogue."]
+      - id: "17_1"
+        data: ["Go past the Fire Giant's boss area and rest at the Giant's Forge Grace to light the fire. This decision can't be reversed. You will then enter Crumbling Farum Azula."]
+      - id: "17_2"
+        data: ["Go back to Roundtable Hold for dialogue and such after reaching Crumbling Farum Azula."]
+      - id: "17_3"
+        data: ["Note: At this point you can safely complete ALL questlines and 100% explore ALL areas of the game without fear of breaking anything that isn't already broken."]
+      - id: "17_4"
+        data: ["<b>WARNING</b>: So many quests break after COMPLETING this area that I'm not listing them. If you beat the final boss of the area, assume that any unfinished quests can no longer be completed. Finish EVERYTHING you want to do before killing the final boss of the area. He has 2 phases so if a boss starts a phase 2, then you'll know you're there. DO NOT COMPLETE this area if you want to do unfinished quests."]
+      - id: "17_5"
+        data: ["Go through this area to the end to boss and kill him to be sent to the next area."]
+      - id: "17_6"
+        data: ["Alexander will be here behind an Imp Statue door. After finishing with him, go to Jarburg to finish the questline."]
+      - id: "17_7"
+        data: ["If you've finished Volcano Manor's Questline, Recusant Bernahl will invade you on the path opposite the final boss."]
+      - id: "17_8"
+        data: ["After you've grabbed this area's Grace, go back to Roundtable Hold for more dialogue."]
   -
     title: Ending the Game
     items:
-      - ["18_1", "Here you can finish the game. Just proceed through the area and defeat the bosses on the way."]
-      - ["18_2", "If you finished Goldmasks Questline, his body can be found in a corner to the South past a bridge and some Giant Plants."]
+      - id: "18_1"
+        data: ["Here you can finish the game. Just proceed through the area and defeat the bosses on the way."]
+      - id: "18_2"
+        data: ["If you finished Goldmasks Questline, his body can be found in a corner to the South past a bridge and some Giant Plants."]
