@@ -462,8 +462,8 @@ def make_checklist(page):
                                                     with div(cls="form-check checkbox d-flex align-items-center"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
                                                         with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
-                                                            if 'icon' in item:
-                                                                img(src=item['icon'], width=img_size, height=img_size, cls='float-end me-1')
+                                                            if 'icon' in subitem:
+                                                                img(src=subitem['icon'], width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
                                                             raw(subitem['data'][0])
                                                         page['num_ids'] += 1
 
