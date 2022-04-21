@@ -2,7 +2,6 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open('roundtable-store').then((cache) => cache.addAll([
-            '/.gitatttributes',
             '/CNAME',
             '/googleb879f1c6c4b4a844.html',
             '/index.html',
@@ -2524,6 +2523,7 @@ self.addEventListener('install', (e) => {
             '/js/jquery.highlight.js',
             '/js/jquery.min.js',
             '/js/jstorage.min.js',
+            '/js/lazysizes.min.js',
             '/js/options.js',
             '/js/scroll.js',
             '/js/sw.js',

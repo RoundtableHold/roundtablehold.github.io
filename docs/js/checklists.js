@@ -282,16 +282,4 @@ if ('serviceWorker' in navigator) {
         // });
     });
 
-    function ReLoadImages() {
-        $('img[data-lazysrc]').each( function() {
-            $(this).attr('src', $(this).attr('data-lazysrc'));
-        });
-    }
-
-    document.addEventListener('readystatechange', event => {
-        if (event.target.readyState === 'interactive') {
-            ReLoadImages();
-        }
-    })
-
 })( jQuery );
