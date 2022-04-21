@@ -365,6 +365,8 @@ def make_checklist(page):
                         with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
+                            if 'icon' in section:
+                                img(src=section['icon'], height=img_size, width=img_size, cls='me-1')
                             if 'link' in section:
                                 a(section['title'], href=section['link'], cls='d-print-inline')
                             else:
@@ -460,8 +462,8 @@ def make_checklist(page):
                                                     with div(cls="form-check checkbox d-flex align-items-center"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
                                                         with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
-                                                            if 'icon' in item:
-                                                                img(src=item['icon'], width=img_size, height=img_size, cls='float-end me-1')
+                                                            if 'icon' in subitem:
+                                                                img(src=subitem['icon'], width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
                                                             raw(subitem['data'][0])
                                                         page['num_ids'] += 1
 

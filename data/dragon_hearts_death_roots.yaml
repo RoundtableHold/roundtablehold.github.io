@@ -3,7 +3,7 @@ id: dragon_hearts_death_roots
 sections:
   -
     title: "Dragon Hearts"
-    link: "/img/icons/03230.png"
+    icon: "/img/icons/03230.png"
     items:
       - "Limgrave"
       - id: "0_1"
@@ -39,7 +39,7 @@ sections:
         data: ["Defeat Great Wyrm Theodorix, north of Albinauric Rise (x1)"]
   -
     title: "Deathroots"
-    link: "/img/icons/00557.png"
+    icon: "/img/icons/00557.png"
     items:
       - "Limgrave"
       - id: "1_1"
