@@ -365,6 +365,8 @@ def make_checklist(page):
                         with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
+                            if 'icon' in section:
+                                img(src=section['icon'], height=img_size, width=img_size, cls='me-1')
                             if 'link' in section:
                                 a(section['title'], href=section['link'], cls='d-print-inline')
                             else:

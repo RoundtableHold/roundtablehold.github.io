@@ -3,7 +3,7 @@ id: flasks
 sections:
   -
     title: "Golden Seeds"
-    link: "/img/icons/00383.png"
+    icon: "/img/icons/00383.png"
     items:
       - "Limgrave"
       - id: "1_2"
@@ -107,7 +107,7 @@ sections:
         data: ["reward for defeating Putrid Tree Spirit in Lake of Rot"]
   -
     title: "Sacred Tears"
-    link: "/img/icons/00384.png"
+    icon: "/img/icons/00384.png"
     items:
       - "Limgrave"
       - id: "2_4"
