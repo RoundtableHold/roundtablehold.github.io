@@ -232,7 +232,6 @@ var profilesKey = 'darksouls3_profiles';
 "armor_199",
 "armor_2",
 "armor_20",
-"armor_200",
 "armor_201",
 "armor_202",
 "armor_203",
@@ -325,7 +324,6 @@ var profilesKey = 'darksouls3_profiles';
 "armor_293",
 "armor_294",
 "armor_295",
-"armor_296",
 "armor_297",
 "armor_298",
 "armor_299",
@@ -2991,7 +2989,7 @@ const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
 const weapons_total = 377;
 var weapons_checked = 0;
-const armor_total = 514;
+const armor_total = 512;
 var armor_checked = 0;
 const talismans_total = 121;
 var talismans_checked = 0;
