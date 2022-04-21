@@ -1,7 +1,9 @@
 var profilesKey = 'darksouls3_profiles';
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+    });
 }
 
 (function($) {
@@ -279,5 +281,17 @@ if ('serviceWorker' in navigator) {
         //     $('a[href="' + href + '"].dropdown-item').closest('.dropdown').children('a').addClass('active');
         // });
     });
+
+    function ReLoadImages() {
+        $('img[data-lazysrc]').each( function() {
+            $(this).attr('src', $(this).attr('data-lazysrc'));
+        });
+    }
+
+    document.addEventListener('readystatechange', event => {
+        if (event.target.readyState === 'interactive') {
+            ReLoadImages();
+        }
+    })
 
 })( jQuery );
