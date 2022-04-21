@@ -2582,6 +2582,21 @@ var profilesKey = 'darksouls3_profiles';
 "tools_3_6",
 "tools_3_7",
 "tools_3_8",
+"tools_4_1",
+"tools_4_10",
+"tools_4_11",
+"tools_4_12",
+"tools_4_13",
+"tools_4_14",
+"tools_4_15",
+"tools_4_2",
+"tools_4_3",
+"tools_4_4",
+"tools_4_5",
+"tools_4_6",
+"tools_4_7",
+"tools_4_8",
+"tools_4_9",
 "weapons_10_1",
 "weapons_10_2",
 "weapons_10_3",
@@ -3027,7 +3042,7 @@ const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
-const tools_total = 21;
+const tools_total = 36;
 var tools_checked = 0;
 const gestures_total = 48;
 var gestures_checked = 0;

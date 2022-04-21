@@ -1,4 +1,4 @@
-title: Tools
+title: Tools & Multiplayer
 id: tools
 table_widths: [3, 3, 6]
 sections:
@@ -77,3 +77,52 @@ sections:
       - id: "3_8"
         icon: "/img/icons/00100.png"
         data: ["\"My Beloved\"", "Whispers, \"My beloved\"", "Miquella's Haligtree: Two branches down from where the teleporter in Ordina, Liturgical Town puts you"]
+  -
+    title: Multiplayer
+    table: [Name, Description, Location]
+    items:
+      - id: "4_1"
+        icon: "/img/icons/online/00005.png"
+        data: ["Tarnished's Wizened Finger", "Write messages in online play", "Found directly in the beginning of the game, on a body in the building you spawn into"]
+      - id: "4_2"
+        icon: "/img/icons/online/00001.png"
+        data: ["Tarnished's Furled Finger", "Place your cooperative summon sign in online play", "In the room with the Stranded Graveyard Site of Grace on a body"]
+      - id: "4_3"
+        icon: "/img/icons/online/00004.png"
+        data: ["Finger Severer", "In online play, return to your world, or send your co-op phantoms home", "On the same body as the previous"]
+      - id: "4_4"
+        icon: "/img/icons/online/00602.png"
+        data: ["Small Golden Effigy", "Send your cooperative summon sign to all nearby activated Martyr Effigies at once in online play", "Found on the first Martyr Effigy, nearby The First Step Site of Grace"]
+      - id: "4_5"
+        icon: "/img/icons/online/00583.png"
+        data: ["Furlcalling Finger Remedy", "In online play, view summon signs placed by other players, whether cooperative or competitive; item is refunded unless you successfully summon someone", "Technically not a tool as it's a consumable, but easily craftable with two Erdleaf Flowers, dropped by invaders including many NPCs, and a frequent loot pickup or shop item."]
+      - id: "4_6"
+        icon: "/img/icons/online/00008.png"
+        data: ["Festering Bloody Finger", "Invade another player as a Bloody Finger in online play", "Technically not a tool as it's a consumable, but can be bought in limited quantities from the Nomadic Merchant of East Limgrave, Patches, and the Imprisoned Merchant, and infinitely from the Hermit Merchant in Leyndell. Varré gives you five during his questline."]
+      - id: "4_7"
+        icon: "/img/icons/online/00634.png"
+        data: ["Phantom Bloody Finger", "As an invader in online play, re-attempt your current invasion; useful if you can't find the host", "You're automatically granted three of these consumables if you invade someone, and you lose them once the invasion has concluded"]
+      - id: "4_8"
+        icon: "/img/icons/online/00002.png"
+        data: ["Duelist's Furled Finger", "Place your competitive summon sign in online play", "At the northern tip of Limgrave at the foot of the ruined round structure, directly next to the ghost, near where Recusant Henricus invades"]
+      - id: "4_9"
+        icon: "/img/icons/online/00603.png"
+        data: ["Small Red Effigy", "Send your competitive summon sign to all nearby activated Martyr Effigies at once in online play", "On the same body as the previous"]
+      - id: "4_10"
+        icon: "/img/icons/online/00007.png"
+        data: ["Taunter's Tongue", "Allow your world to be invaded without cooperators present, and for a second invader to join if you have a cooperator. Requires using a Furlcalling Finger Remedy first.", "Dropped by NPC invader Mad Tongue Alberich in Roundtable Hold, down off the balcony"]
+      - id: "4_11"
+        icon: "/img/icons/online/00579.png"
+        data: ["White Cipher Ring", "When invaded in online play, summon someone using the Blue Cipher Ring to aid you as a hunter; stays active permanently until you turn it off", "Bought from Twin Maiden Husks in Roundtable Hold for 1000 runes"]
+      - id: "4_12"
+        icon: "/img/icons/online/00580.png"
+        data: ["Blue Cipher Ring", "Be summoned as a hunter anytime someone nearby using the White Cipher Ring is invaded; stays active permanently until you turn it off", "Bought from Twin Maiden Husks in Roundtable Hold for 1000 runes"]
+      - id: "4_13"
+        icon: "/img/icons/online/00003.png"
+        data: ["Bloody Finger", "Invade another player as a Bloody Finger in online play; an infinite Festering Bloody Finger that replaces them in the Multiplayer menu", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
+      - id: "4_14"
+        icon: "/img/icons/online/00635.png"
+        data: ["Recusant Finger", "Invade another player as a Recusant Finger in online play; nearly identical to Bloody Finger, though biases players who've used the Taunter's Tongue", "Found on the table with Requests in Volcano Manor"]
+      - id: "4_15"
+        icon: "/img/icons/online/00626.png"
+        data: ["Phantom Great Rune", "When an invader in online play, buffs nearby enemies with the \"Blessing of Blood\"", "You're automatically granted three of these consumables if you invade someone after using a Rune Arc with Mohg's Great Rune equipped, and you lose them once the invasion has concluded"]
