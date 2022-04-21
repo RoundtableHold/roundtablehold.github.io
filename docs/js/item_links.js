@@ -1490,11 +1490,6 @@
       window.setCheckbox("armor_67", checked);
       window.setCheckbox("armor_71", checked);
     });
-    $("#armor_200,#armor_467").click(function () {
-      var checked = $(this).prop("checked");
-      window.setCheckbox("armor_200", checked);
-      window.setCheckbox("armor_467", checked);
-    });
     $("#armor_225,#armor_239").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("armor_225", checked);
@@ -1535,11 +1530,6 @@
       window.setCheckbox("armor_275", checked);
       window.setCheckbox("armor_281", checked);
       window.setCheckbox("armor_285", checked);
-    });
-    $("#armor_296,#armor_571").click(function () {
-      var checked = $(this).prop("checked");
-      window.setCheckbox("armor_296", checked);
-      window.setCheckbox("armor_571", checked);
     });
     $("#armor_540,#armor_545").click(function () {
       var checked = $(this).prop("checked");
