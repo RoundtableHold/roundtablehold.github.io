@@ -1341,6 +1341,140 @@
       window.setCheckbox("great_runes_1_6", checked);
       window.setCheckbox("remembrances_mausoleums_1_14", checked);
     });
+    $("#bosses_11_2,#ashesofwar_4_1,#bell_bearings_1_4").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_11_2", checked);
+      window.setCheckbox("ashesofwar_4_1", checked);
+      window.setCheckbox("bell_bearings_1_4", checked);
+    });
+    $("#bosses_11_3,#weapons_22_15,#armor_523,#armor_525,#armor_526,#armor_527").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_11_3", checked);
+      window.setCheckbox("weapons_22_15", checked);
+      window.setCheckbox("armor_523", checked);
+      window.setCheckbox("armor_525", checked);
+      window.setCheckbox("armor_526", checked);
+      window.setCheckbox("armor_527", checked);
+    });
+    $("#bosses_11_4,#armor_533,#armor_534,#armor_535,#armor_536").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_11_4", checked);
+      window.setCheckbox("armor_533", checked);
+      window.setCheckbox("armor_534", checked);
+      window.setCheckbox("armor_535", checked);
+      window.setCheckbox("armor_536", checked);
+    });
+    $("#bosses_11_5,#remembrances_mausoleums_1_11").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_11_5", checked);
+      window.setCheckbox("remembrances_mausoleums_1_11", checked);
+    });
+    $("#bosses_11_6,#legacy_1_12,#remembrances_mausoleums_1_7").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_11_6", checked);
+      window.setCheckbox("legacy_1_12", checked);
+      window.setCheckbox("remembrances_mausoleums_1_7", checked);
+    });
+    $("#bosses_12_1,#weapons_20_14,#armor_486,#armor_487,#armor_489,#armor_490").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_12_1", checked);
+      window.setCheckbox("weapons_20_14", checked);
+      window.setCheckbox("armor_486", checked);
+      window.setCheckbox("armor_487", checked);
+      window.setCheckbox("armor_489", checked);
+      window.setCheckbox("armor_490", checked);
+    });
+    $("#bosses_12_2,#remembrances_mausoleums_1_6").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_12_2", checked);
+      window.setCheckbox("remembrances_mausoleums_1_6", checked);
+    });
+    $("#bosses_12_4,#legacy_1_16,#remembrances_mausoleums_1_13").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_12_4", checked);
+      window.setCheckbox("legacy_1_16", checked);
+      window.setCheckbox("remembrances_mausoleums_1_13", checked);
+    });
+    $("#bosses_13_1,#weapons_25_14").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_13_1", checked);
+      window.setCheckbox("weapons_25_14", checked);
+    });
+    $("#bosses_13_2,#spirit_ashes_11_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_13_2", checked);
+      window.setCheckbox("spirit_ashes_11_1", checked);
+    });
+    $("#bosses_14_1,#armor_195").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_14_1", checked);
+      window.setCheckbox("armor_195", checked);
+    });
+    $("#bosses_14_2,#remembrances_mausoleums_1_4").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_14_2", checked);
+      window.setCheckbox("remembrances_mausoleums_1_4", checked);
+    });
+    $("#bosses_14_3,#weapons_14_9,#weapons_18_4").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_14_3", checked);
+      window.setCheckbox("weapons_14_9", checked);
+      window.setCheckbox("weapons_18_4", checked);
+    });
+    $("#bosses_15_1,#armor_214,#armor_215,#armor_217,#armor_218").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_15_1", checked);
+      window.setCheckbox("armor_214", checked);
+      window.setCheckbox("armor_215", checked);
+      window.setCheckbox("armor_217", checked);
+      window.setCheckbox("armor_218", checked);
+    });
+    $("#bosses_15_2,#weapons_20_10").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_15_2", checked);
+      window.setCheckbox("weapons_20_10", checked);
+    });
+    $("#bosses_15_3,#great_runes_1_7,#remembrances_mausoleums_1_15").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_15_3", checked);
+      window.setCheckbox("great_runes_1_7", checked);
+      window.setCheckbox("remembrances_mausoleums_1_15", checked);
+    });
+    $("#bosses_16_1,#incantations_4_12").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_16_1", checked);
+      window.setCheckbox("incantations_4_12", checked);
+    });
+    $("#bosses_17_1,#weapons_17_7").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_17_1", checked);
+      window.setCheckbox("weapons_17_7", checked);
+    });
+    $("#bosses_17_2,#remembrances_mausoleums_1_5").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_17_2", checked);
+      window.setCheckbox("remembrances_mausoleums_1_5", checked);
+    });
+    $("#bosses_18_1,#weapons_6_8").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_18_1", checked);
+      window.setCheckbox("weapons_6_8", checked);
+    });
+    $("#bosses_18_2,#weapons_24_4").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_18_2", checked);
+      window.setCheckbox("weapons_24_4", checked);
+    });
+    $("#bosses_18_3,#sorceries_11_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_18_3", checked);
+      window.setCheckbox("sorceries_11_1", checked);
+    });
+    $("#bosses_18_4,#remembrances_mausoleums_1_12").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("bosses_18_4", checked);
+      window.setCheckbox("remembrances_mausoleums_1_12", checked);
+    });
     $("#armor_22,#armor_26").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("armor_22", checked);
@@ -1416,18 +1550,6 @@
       var checked = $(this).prop("checked");
       window.setCheckbox("armor_541", checked);
       window.setCheckbox("armor_546", checked);
-    });
-    $("#bosses_14_3,#weapons_18_4,#weapons_14_9").click(function () {
-      var checked = $(this).prop("checked");
-      window.setCheckbox("bosses_14_3", checked);
-      window.setCheckbox("weapons_18_4", checked);
-      window.setCheckbox("weapons_14_9", checked);
-    });
-    $("#bosses_9_2,#weapons_18_5,#weapons_19_9").click(function () {
-      var checked = $(this).prop("checked");
-      window.setCheckbox("bosses_9_2", checked);
-      window.setCheckbox("weapons_18_5", checked);
-      window.setCheckbox("weapons_19_9", checked);
     });
     $("#weapons_18_6,#quest_order_tldr_145,#playthrough_9_7,#npc_quests_9_4").click(function () {
       var checked = $(this).prop("checked");

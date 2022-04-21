@@ -449,11 +449,11 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - id: "11_1"
-        data: ["Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Crimsonspill Crystal Tear, Speckled Hardtear", "Field boss."]
+        data: ["Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Gold-Tinged Excrement", "Field boss."]
       - id: "11_2"
-        data: ["Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Smithing-Stone Miner's Bell Bearing [4], Ash of War: Black Flame Tornado", "Grants Achievement/Trophy: Godskin Duo."]
+        data: ["Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Ash of War: Black Flame Tornado, Smithing-Stone Miner's Bell Bearing [4]", "Grants Achievement/Trophy: Godskin Duo."]
       - id: "11_3"
-        data: ["Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw, Devourer's Scepter, Beast Champion Helm, Beast Champion Armor (Altered), Beast Champion Gauntlets, Beast Champion Greaves, Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."]
+        data: ["Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw (Tool), Devourer's Scepter Great Hammer, Beast Champion Set with Armor (Altered), Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."]
       - id: "11_4"
         data: ["Draconic Tree Sentinel", "Dragon Temple", "50,000 runes, Malformed Dragon Set", "One annoying bastard, but more annoying."]
       - id: "11_5"
@@ -465,7 +465,7 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - id: "12_1"
-        data: ["Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, All-Knowing Helm, All-Knowing Armor, All-Knowing Gauntlets, All-Knowing Greaves, Scepter of the All-Knowing", "Required."]
+        data: ["Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, Scepter of the All-Knowing, All-Knowing Set", "Required."]
       - id: "12_2"
         data: ["Godfrey, First Elden Lord (Hoarah Loux)", "Elden Throne", "300,000 runes, Remembrance of Hoarah Loux", "Required. Grants Achievement/Trophy: Hoarah Loux, the Warrior."]
       - id: "12_3"
@@ -497,7 +497,7 @@ sections:
       - id: "15_1"
         data: ["Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set, Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"]
       - id: "15_2"
-        data: ["White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Furcalling Finger Remedy, Rune Arc, Festering Bloody Fingers (x6). And Varre's Bouquet (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"]
+        data: ["White-Faced Varre", "Mohgwyn Dynasty Mausoleum", "Rune Arc, Festering Bloody Fingers (x6), Furcalling Finger Remedy. And Varre's Bouquet Hammer (return to invasion sign after returning to your world). If you kill Varre before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"]
       - id: "15_3"
         data: ["Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varre's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy: Shardbearer Mohg."]
   -
@@ -505,7 +505,7 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - id: "16_1"
-        data: ["Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
+        data: ["Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear Incantation", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
       - id: "16_2"
         data: ["Baleful Shadow", "Ainsel River", "8561 runes", "NPC invader. Part of Ranni's questline."]
   -
@@ -523,7 +523,7 @@ sections:
       - id: "18_1"
         data: ["Erdtree Avatar", "Deeproot Depths", "10,000 runes, Staff of the Avatar", "Field boss."]
       - id: "18_2"
-        data: ["Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree (Great Spear)", "Field boss."]
+        data: ["Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree Great Spear", "Field boss."]
       - id: "18_3"
         data: ["Fia's Champions", "Deeproot Depths", "40,000 runes, Fia's Mist Sorcery", "NPC invaders. Two solo fights, then a group of three. Part of Fia's questline."]
       - id: "18_4"
