@@ -413,7 +413,7 @@ def make_checklist(page):
                                                     div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
                                     for item in items:
                                         id = str(item['id'])
-                                        with li(cls="list-group-item searchable", data_id=page['id'] + '_' + id):
+                                        with li(cls="list-group-item searchable", data_id=page['id'] + '_' + id, id='item_' + id):
                                             if isinstance(item, str):
                                                 h5(item)
                                                 continue
@@ -462,7 +462,7 @@ def make_checklist(page):
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
                                     id = str(item['id'])
-                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0")):
+                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0", id='item_' + id)):
                                         with div(cls="form-check checkbox d-flex align-items-center"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                             with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
@@ -474,7 +474,7 @@ def make_checklist(page):
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
-                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable"):
+                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable", id='item_' + id):
                                                     with div(cls="form-check checkbox d-flex align-items-center"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
                                                         with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
