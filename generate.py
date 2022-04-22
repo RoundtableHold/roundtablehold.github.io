@@ -386,16 +386,16 @@ def make_checklist(page):
                                     h5(item)
                                 with ul(cls='list-group list-group-flush mb-0'):
                                     if isinstance(section['table'], list):
-                                        with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
-                                            with div(cls="col-auto"):
-                                                input_(cls="form-check-input invisible", type='checkbox')
-                                            with div(cls="col").add(div(cls="row")):
+                                        with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check checkbox d-flex")):
+                                            with div(cls="col-auto d-flex align-items-center"):
+                                                input_(cls="form-check-input invisible pe-0 me-0", type='checkbox')
+                                            with div(cls="col d-flex align-items-center d-md-block").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     if 'table_widths' in page:
                                                         col_size = str(page['table_widths'][idx])
                                                     else:
                                                         col_size = str(size)
-                                                    div(cls="col-md-" + col_size).add(strong(header))
+                                                    div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
                                     for item in items:
                                         id = str(item['id'])
                                         with li(cls="list-group-item", data_id=page['id'] + '_' + id):

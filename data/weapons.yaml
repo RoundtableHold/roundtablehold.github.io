@@ -5,7 +5,7 @@ sections:
   -
     title: Daggers
     link: "https://eldenring.wiki.fextralife.com/Daggers"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "3_1"
         icon: "/img/icons/weapons/daggers/10000.png"
@@ -58,7 +58,7 @@ sections:
   -
     title: Straight Swords
     link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "13_1"
         icon: "/img/icons/weapons/straightswords/10041.png"
@@ -120,7 +120,7 @@ sections:
   -
     title: Greatswords
     link: "https://eldenring.wiki.fextralife.com/Greatswords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "14_1"
         icon: "/img/icons/weapons/greatswords/10080.png"
@@ -188,7 +188,7 @@ sections:
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "5_5"
         icon: "/img/icons/weapons/colossalswords/10124.png"
@@ -226,7 +226,7 @@ sections:
   -
     title: Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "15_1"
         icon: "/img/icons/weapons/thrustingswords/10162.png"
@@ -252,7 +252,7 @@ sections:
   -
     title: Heavy Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "16_1"
         icon: "/img/icons/weapons/heavythrustingswords/10202.png"
@@ -269,7 +269,7 @@ sections:
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "9_13"
         icon: "/img/icons/weapons/curvedswords/10254.png"
@@ -319,7 +319,7 @@ sections:
   -
     title: Curved Greatswords
     link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "8_2"
         icon: "/img/icons/weapons/curvedgreatswords/10281.png"
@@ -351,7 +351,7 @@ sections:
   -
     title: Katanas
     link: "https://eldenring.wiki.fextralife.com/Katanas"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "17_1"
         icon: "/img/icons/weapons/katanas/10320.png"
@@ -380,7 +380,7 @@ sections:
   -
     title: Twinblades
     link: "https://eldenring.wiki.fextralife.com/Twinblades"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "18_1"
         icon: "/img/icons/weapons/twinblades/10360.png"
@@ -403,7 +403,7 @@ sections:
   -
     title: Axes
     link: "https://eldenring.wiki.fextralife.com/Axes"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "1_3"
         icon: "/img/icons/weapons/axes/10522.png"
@@ -447,7 +447,7 @@ sections:
   -
     title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
-    table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "19_1"
         icon: "/img/icons/weapons/greataxes/10560.png"
@@ -485,7 +485,7 @@ sections:
   -
     title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "20_1"
         icon: "/img/icons/weapons/hammers/10401.png"
@@ -535,7 +535,7 @@ sections:
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "21_1"
         icon: "/img/icons/weapons/flails/10481.png"
@@ -555,7 +555,7 @@ sections:
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "22_1"
         icon: "/img/icons/weapons/greathammers/10440.png"
@@ -602,7 +602,7 @@ sections:
   -
     title: Colossal Weapons
     link: "https://eldenring.wiki.fextralife.com/Colossal+Weapons"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "6_5"
         icon: "/img/icons/weapons/colossalweapons/10884.png"
@@ -652,7 +652,7 @@ sections:
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "23_1"
         icon: "/img/icons/weapons/spears/10600.png"
@@ -705,7 +705,7 @@ sections:
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "24_1"
         icon: "/img/icons/weapons/greatspears/10646.png"
@@ -728,7 +728,7 @@ sections:
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "25_1"
         icon: "/img/icons/weapons/halberds/10680.png"
@@ -781,7 +781,7 @@ sections:
   -
     title: Reapers
     link: "https://eldenring.wiki.fextralife.com/Reapers"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "26_1"
         icon: "/img/icons/weapons/reapers/10720.png"
@@ -798,7 +798,7 @@ sections:
   -
     title: Whips
     link: "https://eldenring.wiki.fextralife.com/Whips"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "27_1"
         icon: "/img/icons/weapons/whips/10760.png"
@@ -821,7 +821,7 @@ sections:
   -
     title: Fists
     link: "https://eldenring.wiki.fextralife.com/Fists"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "28_1"
         icon: "/img/icons/weapons/fists/10800.png"
@@ -853,7 +853,7 @@ sections:
   -
     title: Claws
     link: "https://eldenring.wiki.fextralife.com/Claws"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "4_1"
         icon: "/img/icons/weapons/claws/10840.png"
@@ -870,7 +870,7 @@ sections:
   -
     title: Light Bows
     link: "https://eldenring.wiki.fextralife.com/Light+Bows"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "11_1"
         icon: "/img/icons/weapons/lightbows/11000.png"
@@ -890,7 +890,7 @@ sections:
   -
     title: Bows
     link: "https://eldenring.wiki.fextralife.com/Bows"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "10_1"
         icon: "/img/icons/weapons/bows/11040.png"
@@ -916,7 +916,7 @@ sections:
   -
     title: Greatbows
     link: "https://eldenring.wiki.fextralife.com/Greatbows"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "12_1"
         icon: "/img/icons/weapons/greatbows/11084.png"
@@ -933,7 +933,7 @@ sections:
   -
     title: Crossbows
     link: "https://eldenring.wiki.fextralife.com/Crossbows"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "7_1"
         icon: "/img/icons/weapons/crossbows/11120.png"
@@ -959,7 +959,7 @@ sections:
   -
     title: Ballistas
     link: "https://eldenring.wiki.fextralife.com/Ballistas"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "2_1"
         icon: "/img/icons/weapons/ballistas/11160.png"
@@ -970,7 +970,7 @@ sections:
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "29_1"
         icon: "/img/icons/weapons/glintstonestaffs/11206.png"
@@ -1029,7 +1029,7 @@ sections:
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "30_1"
         icon: "/img/icons/weapons/sacredseals/11240.png"
@@ -1061,7 +1061,7 @@ sections:
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "31_1"
         icon: "/img/icons/weapons/torches/10920.png"
@@ -1084,7 +1084,7 @@ sections:
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "32_4"
         icon: "/img/icons/weapons/smallshields/12003.png"
@@ -1140,7 +1140,7 @@ sections:
   -
     title: Medium Shields
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "33_20"
         icon: "/img/icons/weapons/mediumshields/12063.png"
@@ -1226,7 +1226,7 @@ sections:
   -
     title: Greatshields
     link: "https://eldenring.wiki.fextralife.com/Greatshields"
-    #table: ["Name", "Location", "Upgrade Material" ]
+    table: ["Name", "Location", "Upgrade" ]
     items:
       - id: "34_24"
         icon: "/img/icons/weapons/greatshields/12107.png"
