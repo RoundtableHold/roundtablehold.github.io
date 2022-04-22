@@ -1,7 +1,16 @@
 var profilesKey = 'darksouls3_profiles';
 
+// if ('serviceWorker' in navigator) {
+//     window.addEventListener('load', function() {
+//         navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
+//     });
+// }
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+            registration.unregister();
+        }
+    })
 }
 
 (function($) {
@@ -47,6 +56,7 @@ if ('serviceWorker' in navigator) {
     initializeProfile(profiles.current);
 
     window.setCheckbox = function(id, checked) {
+        var profiles = $.jStorage.get(profilesKey, {});
         profiles[profilesKey][profiles.current].checklistData[id] = checked;
         if ($('#' + id).length === 1) {
             var el = $('#' + id).get(0);
@@ -101,6 +111,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('input[id="toggleHideCompleted"]').change(function() {
+            var profiles = $.jStorage.get(profilesKey, {});
             var hidden = !$(this).is(':checked');
 
             $(this).parent('div').parent('div').parent('div').toggleClass('hide_completed', !hidden);
@@ -124,12 +135,13 @@ if ('serviceWorker' in navigator) {
             profiles[profilesKey][profile_name].journey = 1;
         if (!('style' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].style = 'Standard';
+        $.jStorage.set(profilesKey, profiles);
     }
 
     /// restore all saved state, except for the current tab
     /// used on page load or when switching profiles
     function restoreState(profile_name) {
-        $('a[href$="Col"]').each(function() {
+        $('button[href$="Col"]').each(function() {
             var value = profiles[profilesKey][profile_name].collapsed[$(this).attr('href')];
             var active = $(this).hasClass('collapsed');
 
@@ -195,13 +207,13 @@ if ('serviceWorker' in navigator) {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
                     $(this).removeClass('bg-info').addClass('bg-success');
-                    $(this).parent('h3').addClass('completed');// Hide heading for completed category
+                    $(this).closest('.card').addClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
                     $(this).removeClass('bg-success').addClass('bg-info');
-                    $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
+                    $(this).closest('.card').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
             });
@@ -233,12 +245,12 @@ if ('serviceWorker' in navigator) {
         });
     });
 
-    $('.toc_link').click(function() {
-        var target = $(this).attr('href');
-        $('html, body').animate({
-            scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
-        }, 100);
-    });
+    // $('.toc_link').click(function() {
+    //     var target = $(this).attr('href');
+    //     $('html, body').animate({
+    //         scrollTop: $(target).offset().top - $('#top_nav').outerHeight(true)
+    //     }, 100);
+    // });
     
     $(function () {
         // reset `Hide completed` button state (otherwise Chrome bugs out)
@@ -248,7 +260,8 @@ if ('serviceWorker' in navigator) {
         restoreState(profiles.current);
 
         // register on click handlers to store state
-        $('a[href$="Col"]').on('click', function (el) {
+        $('button[href$="Col"]').on('click', function (el) {
+            var profiles = $.jStorage.get(profilesKey, {});
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 

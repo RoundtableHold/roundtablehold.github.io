@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Roundtable Hold - Flask of Wondrous Physick</title>
+    <title>Flask of Wondrous Physick | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -21,16 +21,12 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav-collapse">
           <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link hide-buttons" href="/index.html">
-                <i class="bi bi-house-fill"></i>
-              </a>
-            </li>
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -155,6 +151,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
@@ -169,13 +168,10 @@
       </div>
     </nav>
     <div class="container uncolor-links">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="mt-3">Roundtable Hold</h1>
-          <p class="lead d-print-none">Contribute at the 
-            <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github Page</a>
-          </p>
-        </div>
+      <div class="row text-center">
+        <h1 class="mt-4">Flask of Wondrous Physick
+          <span class="d-print-none" id="crystal_tears_overall_total"></span>
+        </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
@@ -183,9 +179,6 @@
           <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
         </div>
       </div>
-      <h2>Flask of Wondrous Physick
-        <span class="d-print-none" id="crystal_tears_overall_total"></span>
-      </h2>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
           <a class="toc-button" data-bs-toggle="collapse" href="#toc_crystal_tears" role="button">
@@ -235,9 +228,9 @@
         <input class="form-control my-3" id="crystal_tears_search" placeholder="Start typing to filter results..." type="search">
       </div>
       <div id="crystal_tears_list">
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_0">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_0">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_0Col" data-bs-toggle="collapse" href="#crystal_tears_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -247,126 +240,148 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_0Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_1_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_1_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_1_1" id="item_1_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_1_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Strength-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00421.png" height="70" loading="lazy" width="70">Strength-Knot Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Northwest of the Warmaster's Shack, guarded by a troll
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">Northwest of the Warmaster's Shack, guarded by a troll</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+10 Strength, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">+10 Strength, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00421.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Strength-Knot Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Northwest of the Warmaster's Shack, guarded by a troll<br>
+                        <strong class="me-1">Effect: </strong>+10 Strength, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_1_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_1_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_1_2" id="item_1_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_1_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Spiked Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00414.png" height="70" loading="lazy" width="70">Spiked Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Under the Minor Erdtree in Mistwood
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">Under the Minor Erdtree in Mistwood</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+15% to damage done by charged attacks, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">+15% to damage done by charged attacks, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00414.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Spiked Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Under the Minor Erdtree in Mistwood<br>
+                        <strong class="me-1">Effect: </strong>+15% to damage done by charged attacks, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_1_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_1_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_1_3" id="item_1_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_1_3" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Greenspill Crystal Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00401.png" height="70" loading="lazy" width="70">Greenspill Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Under the Minor Erdtree in Mistwood
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">Under the Minor Erdtree in Mistwood</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+15% stamina, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">+15% stamina, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00401.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Greenspill Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Under the Minor Erdtree in Mistwood<br>
+                        <strong class="me-1">Effect: </strong>+15% stamina, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_1_4">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_1_4" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_1_4" id="item_1_4">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_1_4" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimson Crystal Tear (1)
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00402.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [1]
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>At the Third Church of Marika
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">At the Third Church of Marika</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Restores half of total HP
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">Restores half of total HP</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00402.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimson Crystal Tear [1]<br>
+                        <strong class="me-1">Location: </strong>At the Third Church of Marika<br>
+                        <strong class="me-1">Effect: </strong>Restores half of total HP<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -374,9 +389,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_1">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_1">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_1Col" data-bs-toggle="collapse" href="#crystal_tears_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -386,100 +401,118 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_1Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_0_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_0_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Faith-Knot Crystal Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>North of the Demi-Human Ruins, under a tree surrounded by poison flowers
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+10 Faith, lasts 180 seconds
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_0_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_0_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_0_1" id="item_0_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_0_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimsonburst Crystal Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00424.png" height="70" loading="lazy" width="70">Faith-Knot Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">North of the Demi-Human Ruins, under a tree surrounded by poison flowers</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+7 HP/sec, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">+10 Faith, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00424.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Faith-Knot Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>North of the Demi-Human Ruins, under a tree surrounded by poison flowers<br>
+                        <strong class="me-1">Effect: </strong>+10 Faith, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_0_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_0_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_0_2" id="item_0_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_0_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Opaline Bubbletear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00409.png" height="70" loading="lazy" width="70">Crimsonburst Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">Reward for defeating the Erdtree Avatar in the Weeping Peninsula</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Almost entirely negates the next single hit you take, lasts up to 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">+7 HP/sec, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00409.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimsonburst Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula<br>
+                        <strong class="me-1">Effect: </strong>+7 HP/sec, lasts 180 seconds<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_0_3" id="item_0_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_0_3" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00408.png" height="70" loading="lazy" width="70">Opaline Bubbletear
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">Reward for defeating the Erdtree Avatar in the Weeping Peninsula</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">Almost entirely negates the next single hit you take, lasts up to 180 seconds</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00408.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Opaline Bubbletear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula<br>
+                        <strong class="me-1">Effect: </strong>Almost entirely negates the next single hit you take, lasts up to 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -487,9 +520,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_2">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_2">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_2Col" data-bs-toggle="collapse" href="#crystal_tears_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -499,204 +532,238 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_2Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_1" id="item_2_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Dexterity-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00422.png" height="70" loading="lazy" width="70">Dexterity-Knot Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>On top of a small island southwest of the Boilprawn Shack Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">On top of a small island southwest of the Boilprawn Shack Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+10 Dexterity, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">+10 Dexterity, lasts 180 seconds</label>
                         </div>
                       </div>
                     </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00422.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Dexterity-Knot Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>On top of a small island southwest of the Boilprawn Shack Grace<br>
+                        <strong class="me-1">Effect: </strong>+10 Dexterity, lasts 180 seconds<br>
+                      </label>
+                    </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_2" id="item_2_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Ruptured Crystal Tear (1)
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00416.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [1]
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">Deal 800 damage in a 2-meter radius, but take 300 yourself</label>
                         </div>
                       </div>
                     </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00416.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Ruptured Crystal Tear [1]<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace<br>
+                        <strong class="me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself<br>
+                      </label>
+                    </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_3" id="item_2_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_3" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Cerulean Crystal Tear (1)
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00404.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [1]
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Restores half of total FP
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">Restores half of total FP</label>
                         </div>
                       </div>
                     </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00404.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Cerulean Crystal Tear [1]<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace<br>
+                        <strong class="me-1">Effect: </strong>Restores half of total FP<br>
+                      </label>
+                    </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_4">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_4" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_4" id="item_2_4">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_4" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Lightning-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00430.png" height="70" loading="lazy" width="70">Lightning-Shrouding Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+20% lightning damage, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">+20% lightning damage, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00430.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Lightning-Shrouding Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
+                        <strong class="me-1">Effect: </strong>+20% lightning damage, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_5">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_5" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_5" id="item_2_5">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_5" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Holy-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00431.png" height="70" loading="lazy" width="70">Holy-Shrouding Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+20% magic damage, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">+20% magic damage, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00431.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Holy-Shrouding Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
+                        <strong class="me-1">Effect: </strong>+20% magic damage, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_6">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_6" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_6" id="item_2_6">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_6" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Magic-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00429.png" height="70" loading="lazy" width="70">Magic-Shrouding Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+20% holy damage, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">+20% holy damage, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00429.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Magic-Shrouding Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
+                        <strong class="me-1">Effect: </strong>+20% holy damage, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_2_7">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_2_7" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_2_7" id="item_2_7">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_2_7" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Intelligence-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00423.png" height="70" loading="lazy" width="70">Intelligence-Knot Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Southwest of the Main Caria Manor Gate Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">Southwest of the Main Caria Manor Gate Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+10 Intelligence, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">+10 Intelligence, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00423.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Intelligence-Knot Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Southwest of the Main Caria Manor Gate Grace<br>
+                        <strong class="me-1">Effect: </strong>+10 Intelligence, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -704,9 +771,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_3">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_3">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_3Col" data-bs-toggle="collapse" href="#crystal_tears_3Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -716,152 +783,178 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_3Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_3_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_3_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_3_1" id="item_3_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_3_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Flame-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00428.png" height="70" loading="lazy" width="70">Flame-Shrouding Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+20% fire damage, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">+20% fire damage, lasts 180 seconds</label>
                         </div>
                       </div>
                     </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00428.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Flame-Shrouding Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace<br>
+                        <strong class="me-1">Effect: </strong>+20% fire damage, lasts 180 seconds<br>
+                      </label>
+                    </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_3_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_3_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_3_2" id="item_3_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_3_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Greenburst Crystal Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00410.png" height="70" loading="lazy" width="70">Greenburst Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>~30% stamina regen boost, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">~30% stamina regen boost, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00410.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Greenburst Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace<br>
+                        <strong class="me-1">Effect: </strong>~30% stamina regen boost, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_3_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_3_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_3_3" id="item_3_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_3_3" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Opaline Hardtear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00411.png" height="70" loading="lazy" width="70">Opaline Hardtear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00411.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Opaline Hardtear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace<br>
+                        <strong class="me-1">Effect: </strong>+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_3_4">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_3_4" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_3_4" id="item_3_4">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_3_4" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Stonebarb Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00426.png" height="70" loading="lazy" width="70">Stonebarb Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+30% to posture and stamina damage, lasts 30 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">+30% to posture and stamina damage, lasts 30 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00426.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Stonebarb Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace<br>
+                        <strong class="me-1">Effect: </strong>+30% to posture and stamina damage, lasts 30 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_3_5">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_3_5" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_3_5" id="item_3_5">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_3_5" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Windy Crystal Tears
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00415.png" height="70" loading="lazy" width="70">Windy Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>South of Southern Aeonia Grace, guarded by birds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">South of Southern Aeonia Grace, guarded by birds</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00415.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Windy Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>South of Southern Aeonia Grace, guarded by birds<br>
+                        <strong class="me-1">Effect: </strong>Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -869,9 +962,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_4">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_4">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_4Col" data-bs-toggle="collapse" href="#crystal_tears_4Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -881,100 +974,118 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_4Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_4_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_4_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Purifying Crystal Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Negates curse effect in phase one of Mohg's boss fight
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_4_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_4_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_4_1" id="item_4_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_4_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Speckled Hardtear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00427.png" height="70" loading="lazy" width="70">Purifying Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Heals all status effects, boosts all resistances by 90 for 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">Negates curse effect in phase one of Mohg's boss fight</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00427.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Purifying Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika<br>
+                        <strong class="me-1">Effect: </strong>Negates curse effect in phase one of Mohg's boss fight<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_4_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_4_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_4_2" id="item_4_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_4_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimsonspill Crystal Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00406.png" height="70" loading="lazy" width="70">Speckled Hardtear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">Reward for defeating the Wormface northeast of the Bower of Bounty Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>+10% max HP, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">Heals all status effects, boosts all resistances by 90 for 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00406.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Speckled Hardtear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace<br>
+                        <strong class="me-1">Effect: </strong>Heals all status effects, boosts all resistances by 90 for 180 seconds<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_4_3" id="item_4_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_4_3" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00400.png" height="70" loading="lazy" width="70">Crimsonspill Crystal Tear
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">Reward for defeating the Wormface northeast of the Bower of Bounty Grace</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">+10% max HP, lasts 180 seconds</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00400.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimsonspill Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace<br>
+                        <strong class="me-1">Effect: </strong>+10% max HP, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -982,9 +1093,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_5">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_5">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_5Col" data-bs-toggle="collapse" href="#crystal_tears_5Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -994,74 +1105,88 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_5Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_5_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_5_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Leaden Hardtear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Infinite poise, lasts 10 seconds
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_5_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_5_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_5_1" id="item_5_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_5_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Cerulean Hidden Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00418.png" height="70" loading="lazy" width="70">Leaden Hardtear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Eliminates FP consumption, lasts 15 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">Infinite poise, lasts 10 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00418.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Leaden Hardtear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree<br>
+                        <strong class="me-1">Effect: </strong>Infinite poise, lasts 10 seconds<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_5_2" id="item_5_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_5_2" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00425.png" height="70" loading="lazy" width="70">Cerulean Hidden Tear
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">Eliminates FP consumption, lasts 15 seconds</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00425.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Cerulean Hidden Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree<br>
+                        <strong class="me-1">Effect: </strong>Eliminates FP consumption, lasts 15 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -1069,9 +1194,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_6">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_6">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_6Col" data-bs-toggle="collapse" href="#crystal_tears_6Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1081,100 +1206,118 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_6Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_6_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_6_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Winged Crystal Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>On an altar northwest of the Erdtree, surrounded by skull enemies
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Maximum equip load multiplied by 4.5, lasts 180 seconds
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_6_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_6_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_6_1" id="item_6_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_6_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Twiggy Cracked Tear
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00412.png" height="70" loading="lazy" width="70">Winged Crystal Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">On an altar northwest of the Erdtree, surrounded by skull enemies</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">Maximum equip load multiplied by 4.5, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00412.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Winged Crystal Tear<br>
+                        <strong class="me-1">Location: </strong>On an altar northwest of the Erdtree, surrounded by skull enemies<br>
+                        <strong class="me-1">Effect: </strong>Maximum equip load multiplied by 4.5, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_6_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_6_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_6_2" id="item_6_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_6_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimson Crystal Tear (2)
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00419.png" height="70" loading="lazy" width="70">Twiggy Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">Found in an altar at the base of a Minor Erdtree in the Capital Outskirts</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Restores half of total HP
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00419.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Twiggy Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts<br>
+                        <strong class="me-1">Effect: </strong>Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_6_3" id="item_6_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_6_3" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00403.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [2]
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">Found in an altar at the base of a Minor Erdtree in the Capital Outskirts</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">Restores half of total HP</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00403.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimson Crystal Tear [2]<br>
+                        <strong class="me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts<br>
+                        <strong class="me-1">Effect: </strong>Restores half of total HP<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -1182,9 +1325,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_7">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_7">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_7Col" data-bs-toggle="collapse" href="#crystal_tears_7Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1194,48 +1337,118 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_7Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_7_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_7_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_7_1" id="item_7_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_7_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimsonwhorl Bubbletear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00420.png" height="70" loading="lazy" width="70">Crimsonwhorl Bubbletear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>On a cliff ledge south of Giants' Gravepost Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">On a cliff ledge south of Giants' Gravepost Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Converts elemental damage to HP, lasts 15 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">Converts elemental damage to HP, lasts 15 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00420.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimsonwhorl Bubbletear<br>
+                        <strong class="me-1">Location: </strong>On a cliff ledge south of Giants' Gravepost Grace<br>
+                        <strong class="me-1">Effect: </strong>Converts elemental damage to HP, lasts 15 seconds<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_8_1" id="item_8_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_8_1" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00405.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [2]
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">Restores half of total FP</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00405.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Cerulean Crystal Tear [2]<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree<br>
+                        <strong class="me-1">Effect: </strong>Restores half of total FP<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="crystal_tears_8_2" id="item_8_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_8_2" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00407.png" height="70" loading="lazy" width="70">Crimson Bubbletear
+                          </label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00407.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Crimson Bubbletear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree<br>
+                        <strong class="me-1">Effect: </strong>Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -1243,9 +1456,9 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="crystal_tears_section_8">
           <div class="card-body">
-            <h4 class="mt-1" id="crystal_tears_section_8">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#crystal_tears_8Col" data-bs-toggle="collapse" href="#crystal_tears_8Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
@@ -1255,126 +1468,88 @@
             <div aria-expanded="true" class="collapse show row" id="crystal_tears_8Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-3">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-5">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Effect</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_8_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_8_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Cerulean Crystal Tear (2)
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Restores half of total FP
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Effect</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_8_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_8_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_8_3" id="item_8_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_8_3" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Crimson Bubbletear
-                          </label>
-                        </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree
-                          </label>
-                        </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="crystal_tears_8_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_8_3" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Thorny Cracked Tear
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00413.png" height="70" loading="lazy" width="70">Thorny Cracked Tear
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>35% damage increase to consecutive attacks, lasts 180 seconds
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">35% damage increase to consecutive attacks, lasts 180 seconds</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00413.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Thorny Cracked Tear<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace<br>
+                        <strong class="me-1">Effect: </strong>35% damage increase to consecutive attacks, lasts 180 seconds<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="crystal_tears_8_4">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="crystal_tears_8_4" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="crystal_tears_8_4" id="item_8_4">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="crystal_tears_8_4" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-3 col-xs-12">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Ruptured Crystal Tear (2)
+                            <img class="me-1" data-src="/img/icons/crystal_tears/00417.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [2]
                           </label>
                         </div>
-                        <div class="col-md-5 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
-                            <strong class="d-md-none d-inline-block me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1,750 damage in a 4-meter radius, but take 700 yourself
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1,750 damage in a 4-meter radius, but take 700 yourself</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
+                        <img class="float-end" data-src="/img/icons/crystal_tears/00417.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong>Ruptured Crystal Tear [2]<br>
+                        <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace<br>
+                        <strong class="me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1,750 damage in a 4-meter radius, but take 700 yourself<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -1388,6 +1563,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
+    <script src="/js/scroll.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -1409,7 +1585,22 @@
                 $(function() {
                     var jet = new Jets({
                         searchTag: "#crystal_tears_search",
-                        contentTag: "#crystal_tears_list ul"
+                        contentTag: "#crystal_tears_list ul",
+                        didSearch: function(search_phrase) {
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            $(".card").each(function(index, el) {
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {
+                                    $(el).addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                }
+                            });
+                        }
                     });
                     $("#crystal_tears_search").keyup(function() {
                         $("#crystal_tears_list").unhighlight();

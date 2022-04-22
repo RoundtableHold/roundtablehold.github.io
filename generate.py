@@ -58,31 +58,30 @@ for page in pages:
     for section in page['sections']:
         items = peekable(section['items'])
         for item in items:
-            if not isinstance(item, list):
+            if isinstance(item, str):
                 continue
-            if not isinstance(item[0], str):
-                print("Please make item id " + str(item[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+            if not isinstance(item['id'], str):
+                print("Please make item id " + str(item['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                 quit(1)
-            if (page['id'] + '_' + item[0]) in all_ids:
-                print("Duplicate item num '" + str(item[0]) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
+            if (page['id'] + '_' + item['id']) in all_ids:
+                print("Duplicate item num '" + str(item['id']) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
                 quit(1)
-            else:
-                all_ids.add(page['id'] + '_' + item[0])
-            if isinstance(items.peek([0])[0], list):
+            all_ids.add(page['id'] + '_' + item['id'])
+            if isinstance(items.peek(0), list):
                 sub_item_nums = set()
-                item_id = item[0]
+                item_id = item['id']
                 item = next(items)
                 for subitem in item:
-                    if not isinstance(subitem[0], str):
-                        print("Please make item id " + str(subitem[0]) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                    if not isinstance(subitem['id'], str):
+                        print("Please make item id " + str(subitem['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                         quit(1)
-                    if (page['id'] + '_' + item_id + '_' + subitem[0]) in all_ids:
-                        print("Duplicate sub-item num '" + str(subitem[0]) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
+                    if (page['id'] + '_' + item_id + '_' + subitem['id']) in all_ids:
+                        print("Duplicate sub-item num '" + str(subitem['id']) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
                         quit(1)
                     else:
-                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem[0])
+                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem['id'])
 
-def make_doc(title):
+def make_doc(title, description):
     doc = dominate.document(title=title)
     doc.set_attribute('lang', 'en')
     with doc.head:
@@ -123,6 +122,7 @@ def hide_completed_button():
 def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
+            a('Roundtable Guides', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
             # with div(cls='order-md-last'):
@@ -130,8 +130,8 @@ def make_nav(page):
             #         input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
                 with ul(cls="nav navbar-nav mr-auto"):
-                    with li(cls="nav-item"):
-                        a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
+                    # with li(cls="nav-item"):
+                    #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
                         page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
                         with li(cls="dropdown nav-item"):
@@ -165,6 +165,7 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
+    script(src='/js/scroll.js')
     script(src="/js/jstorage.min.js")
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
@@ -188,7 +189,22 @@ def make_footer(page=None):
                 $(function() {{
                     var jet = new Jets({{
                         searchTag: "#{page_id}_search",
-                        contentTag: "#{page_id}_list ul"
+                        contentTag: "#{page_id}_list ul",
+                        didSearch: function(search_phrase) {{
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
+                            $(".card").each(function(index, el) {{
+                                if (!search_phrase) {{
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }}
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {{
+                                    $(el).addClass('d-none');
+                                }} else {{
+                                    $(el).removeClass('d-none');
+                                }}
+                            }});
+                        }}
                     }});
                     $("#{page_id}_search").keyup(function() {{
                         $("#{page_id}_list").unhighlight();
@@ -199,24 +215,21 @@ def make_footer(page=None):
             """.format(page_id=page['id']))
 
 def make_index():
-    doc = make_doc("Roundtable Hold - Home")
+    doc = make_doc("Roundtable Guides", "Elden Ring Guides and Progress Tracker")
     with doc:
         make_nav('index')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
                 with div(cls="row gy-3"):
                     with div(cls='col-md-8 col-12'):
                         with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Welcome to the Roundtable Hold', cls='card-title text-center')
-                                        p('The go-to destination for all things Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                                        h5('Welcome to Roundtable Guides', cls='card-title text-center')
+                                        p('Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
                             with div(cls="col"):
                                 with div(cls='card shadow h-100'):
                                     with div(cls="card-body"):
@@ -260,16 +273,13 @@ def make_index():
         index.write(doc.render())
 
 def make_options():
-    doc = make_doc('Roundtable Hold - Options')
+    doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav('options')
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Hold", cls="mt-3")
-                    text = p(cls="lead d-print-none")
-                    text += "Contribute at the "
-                    text += a("Github Page", href="https://github.com/RoundtableHold/roundtablehold.github.io")
+                    h1("Roundtable Guides", cls="mt-4")
             with div(cls="row"):
                 h2("Options")
                 with div(cls="row"):
@@ -334,19 +344,23 @@ def make_options():
     with open(os.path.join('docs', 'options.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
+img_size = '70'
+
 def make_checklist(page):
     page['num_ids'] = 0 
-    doc = make_doc("Roundtable Hold - " + page['title'])
+    doc = make_doc(page['title'] + " | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
     with doc:
         make_nav(to_snake_case(page['title']))
         # whole page
         with div(cls="container uncolor-links"):
-            title_row()
-            hide_completed_button()
+            # title_row()
             # Filter buttons
-            h = h2()
-            h += page['title']
-            h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            with div(cls="row text-center"):
+                h = h1(cls='mt-4')
+                h += page['title']
+                h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+            
+            hide_completed_button()
 
             if 'description' in page:
                 p(raw(page['description']))
@@ -366,10 +380,12 @@ def make_checklist(page):
 
             with div(id=page['id']+"_list"):
                 for s_idx, section in enumerate(page['sections']):
-                    with div(cls='card shadow-sm mb-3').add(div(cls='card-body')):
-                        with h4(id=page['id'] + '_section_' + str(s_idx), cls="mt-1"):
+                    with div(cls='card shadow-sm mb-3', id=page['id'] + '_section_' + str(s_idx)).add(div(cls='card-body')):
+                        with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
+                            if 'icon' in section:
+                                img(data_src=section['icon'], loading='lazy', height=img_size, width=img_size, cls='me-1')
                             if 'link' in section:
                                 a(section['title'], href=section['link'], cls='d-print-inline')
                             else:
@@ -384,71 +400,91 @@ def make_checklist(page):
                                     table_cols = section['table']
                                     size = floor(12 / table_cols)
                                 items = peekable(section['items'])
-                                if not isinstance(items.peek(), list):
+                                if isinstance(items.peek(), str):
                                     item = next(items)
                                     h5(item)
                                 with ul(cls='list-group list-group-flush mb-0'):
                                     if isinstance(section['table'], list):
-                                        with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check")):
-                                            with div(cls="col-auto"):
-                                                input_(cls="form-check-input invisible", type='checkbox')
-                                                page['num_ids'] += 1
-                                            with div(cls="col").add(div(cls="row")):
+                                        with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check checkbox d-flex")):
+                                            with div(cls="col-auto d-flex align-items-center"):
+                                                input_(cls="form-check-input invisible pe-0 me-0", type='checkbox')
+                                            with div(cls="col d-flex align-items-center d-md-block").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     if 'table_widths' in page:
                                                         col_size = str(page['table_widths'][idx])
                                                     else:
                                                         col_size = str(size)
-                                                    div(cls="col-md-" + col_size).add(strong(header))
+                                                    div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
                                     for item in items:
-                                        id = str(item[0])
-                                        with li(cls="list-group-item", data_id=page['id'] + '_' + id):
-                                            if not isinstance(item, list):
+                                        id = str(item['id'])
+                                        with li(cls="list-group-item searchable", data_id=page['id'] + '_' + id, id='item_' + id):
+                                            if isinstance(item, str):
                                                 h5(item)
                                                 continue
-                                            with div(cls="row form-check checkbox"):
-                                                with div(cls="col-auto"):
-                                                    input_(cls="form-check-input", type="checkbox", value="",
+                                            with div(cls="row form-check checkbox d-flex"):
+                                                with div(cls="col-auto d-flex align-items-center"):
+                                                    input_(cls="form-check-input pe-0 me-0", type="checkbox", value="",
                                                             id=page['id'] + '_' + id)
                                                     page['num_ids'] += 1
-                                                with div(cls="col").add(div(cls="row")):
-                                                    for pos in range(1, 1+table_cols):
+                                                with div(cls="col d-flex align-items-center d-md-block d-none").add(div(cls="row")):
+                                                    for pos in range(table_cols):
                                                         if 'table_widths' in page:
-                                                            col_size = str(page['table_widths'][pos-1])
+                                                            col_size = str(page['table_widths'][pos])
                                                         else:
                                                             col_size = str(size)
-                                                        with div(cls="col-md-" + col_size + (' col-xs-12' if item[pos] else ' d-md-block d-none')):
+                                                        with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
-                                                                if isinstance(section['table'], list) and item[pos]:
-                                                                    strong(section['table'][pos-1] + ': ', cls="d-md-none d-inline-block me-1")
-                                                                if item[pos]:
-                                                                    raw(item[pos])
+                                                                if pos == 0 and 'icon' in item:
+                                                                    img(data_src=item['icon'], loading='lazy', height=img_size, width=img_size, cls='me-1')
+                                                                if item['data'][pos]:
+                                                                    raw(item['data'][pos])
+                                                with div(cls='col d-md-none'):
+                                                    with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
+                                                        if 'icon' in item:
+                                                            img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-end')
+                                                        for pos in range(table_cols):
+                                                            if 'table_widths' in page:
+                                                                col_size = str(page['table_widths'][pos])
+                                                            else:
+                                                                col_size = str(size)
+                                                            if isinstance(section['table'], list) and item['data'][pos]:
+                                                                strong(section['table'][pos] + ': ', cls="me-1")
+                                                            if item['data'][pos]:
+                                                                raw(item['data'][pos])
+                                                                br()
+                                                        
                         else:
                             with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
                                 items = peekable(section['items'])
-                                if not isinstance(items.peek(), list):
+                                if isinstance(items.peek(), str):
                                     item = next(items)
                                     h5(raw(item))
                                 u = ul(cls="list-group-flush mb-0 ps-0 ps-md-4")
                                 for item in items:
-                                    if not isinstance(item, list):
+                                    if isinstance(item, str):
                                         h5(raw(item))
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
-                                    id = str(item[0])
-                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
-                                        with div(cls="form-check checkbox"):
+                                    id = str(item['id'])
+                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0", id='item_' + id)):
+                                        with div(cls="form-check checkbox d-flex align-items-center"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
-                                            label(cls="form-check-label item_content", _for=page['id'] + '_' + id).add(raw(item[1]))
+                                            with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
+                                                if 'icon' in item:
+                                                    img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                                raw(item['data'][0])
                                             page['num_ids'] += 1
-                                    if isinstance(items.peek([0])[0], list):
+                                    if isinstance(items.peek(0), list):
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
-                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem[0]), cls="list-group-item"):
-                                                    with div(cls="form-check checkbox"):
-                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem[0]))
-                                                        label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem[0])).add(raw(subitem[1]))
+                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable", id='item_' + id):
+                                                    with div(cls="form-check checkbox d-flex align-items-center"):
+                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
+                                                        with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
+                                                            if 'icon' in subitem:
+                                                                img(data_src=subitem['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                                            raw(subitem['data'][0])
                                                         page['num_ids'] += 1
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
@@ -604,21 +640,26 @@ var profilesKey = 'darksouls3_profiles';\n
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
         themeSetup(profiles[profilesKey][profiles.current].style);
-
-        function calculateProgress() {
         """)
+    f.write('var all_ids = new Set([\n')
+    all_ids_list = list(all_ids)
+    all_ids_list.sort()
+    for id in all_ids_list:
+        f.write('"' + id + '",\n')
+    f.write(']);\n')
+    f.write('function calculateProgress() {\n')
     for page in pages:
         f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
         f.write('var ' + page['id'] + '_checked = 0;\n')
     f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
-    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true) {\n')
+    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {\n')
     for page in pages:
         f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
         f.write(page['id'] + '_checked += 1;\n}\n')
     f.write('}\n')
     f.write('}\n')
     for page in pages:
-        f.write('if ({page_id}_checked === {page_id}_total){{\n'.format(page_id=page['id']))
+        f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
         f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
         f.write('} else {\n')
         f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
@@ -627,3 +668,63 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('calculateProgress();\n')
     f.write('  });\n')
     f.write('})( jQuery );\n')
+
+# with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
+#     f.write(
+# """
+# var cache_ver = 'roundtable-store-3';
+
+# self.addEventListener('activate', function(event) {
+#   event.waitUntil(
+#     caches.keys().then(function(cacheNames) {
+#       return Promise.all(
+#         cacheNames.filter(function(cacheName) {
+#             return cacheName !== cache_ver;
+#         }).map(function(cacheName) {
+#           return caches.delete(cacheName);
+#         })
+#       );
+#     })
+#   );
+# });
+
+# self.addEventListener('install', (e) => {
+#     e.waitUntil(
+#         caches.open(cache_ver).then((cache) => cache.addAll([
+#             '/',
+# """)
+#     for root, dirs, files in os.walk("docs"):
+#         for name in files:
+#             f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
+#     f.write(
+# """
+#         ])),
+#     );
+# });
+
+# self.addEventListener('fetch', function (event) {
+#     //console.log('Handling fetch event for', event.request.url);
+
+#     event.respondWith(            
+#         caches.match(event.request).then(function (response) {
+#             if (response) {
+#                 //console.log('Found response in cache:', response);
+
+#                 return response;
+#             }
+
+#             //console.log('No response found in cache. About to fetch from network...');
+
+#             return fetch(event.request).then(function (response) {
+#                 //console.log('Response from network is:', response);
+
+#                 return response;
+#             }).catch(function (error) {                    
+#                 //console.error('Fetching failed:', error);
+
+#                 return caches.match(OFFLINE_URL);
+#             });
+#         })
+#     );
+# });
+# """)

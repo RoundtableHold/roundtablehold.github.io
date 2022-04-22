@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Roundtable Hold - Dragon Hearts &amp; Deathroots</title>
+    <title>Dragon Hearts &amp; Deathroots | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -21,16 +21,12 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav-collapse">
           <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link hide-buttons" href="/index.html">
-                <i class="bi bi-house-fill"></i>
-              </a>
-            </li>
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -155,6 +151,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
@@ -169,13 +168,10 @@
       </div>
     </nav>
     <div class="container uncolor-links">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="mt-3">Roundtable Hold</h1>
-          <p class="lead d-print-none">Contribute at the 
-            <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github Page</a>
-          </p>
-        </div>
+      <div class="row text-center">
+        <h1 class="mt-4">Dragon Hearts &amp; Deathroots
+          <span class="d-print-none" id="dragon_hearts_death_roots_overall_total"></span>
+        </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
@@ -183,9 +179,6 @@
           <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
         </div>
       </div>
-      <h2>Dragon Hearts &amp; Deathroots
-        <span class="d-print-none" id="dragon_hearts_death_roots_overall_total"></span>
-      </h2>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
           <a class="toc-button" data-bs-toggle="collapse" href="#toc_dragon_hearts_death_roots" role="button">
@@ -207,20 +200,21 @@
         <input class="form-control my-3" id="dragon_hearts_death_roots_search" placeholder="Start typing to filter results..." type="search">
       </div>
       <div id="dragon_hearts_death_roots_list">
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="dragon_hearts_death_roots_section_0">
           <div class="card-body">
-            <h4 class="mt-1" id="dragon_hearts_death_roots_section_0">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#dragon_hearts_death_roots_0Col" data-bs-toggle="collapse" href="#dragon_hearts_death_roots_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/03230.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Dragon Hearts</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="dragon_hearts_death_roots_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="dragon_hearts_death_roots_0Col">
               <h5>Limgrave</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_1">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_1" id="item_0_1">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_1">Defeat Flying Dragon Agheel in Agheel Lake (x1)</label>
                   </div>
@@ -228,26 +222,26 @@
               </ul>
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_2">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_2" id="item_0_2">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_2">Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_3">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_3" id="item_0_3">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_3">Defeat Glintstone Dragon Smarag, west of Raya Lucaria Academy (x1)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_4">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_4" id="item_0_4">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_4">Defeat Magma Wyrm Makar in Ruin-Strewn Precipice (x1)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_5">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_5" id="item_0_5">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_5">Defeat the three dragons in Moonlight Altar (x3)</label>
                   </div>
@@ -255,26 +249,26 @@
               </ul>
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_6">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_6" id="item_0_6">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_6">Defeat Decaying Ekzykes, northwest of the Cathedral of Dragon Communion (x1)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_7">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_7" id="item_0_7">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_7">Defeat Flying Dragon Greyll in the northeast of Caelid on the Farum Greatbridge (x1)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_8">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_8" id="item_0_8">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_8">Defeat Elder Dragon Greyoll in front of Fort Faroth (x5)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_9">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_9" id="item_0_9">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_9">Defeat the Magma Wyrm in Gael Tunnel bordering Limgrave (x1)</label>
                   </div>
@@ -282,14 +276,14 @@
               </ul>
               <h5>Mt. Gelmir</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_10">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_10" id="item_0_10">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_10">Defeat the Magma Wyrm in Volcano Manor (x1)</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_11">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_11" id="item_0_11">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_11">Defeat the Magma Wyrm near Seethwater Terminus to the west of Mt. Gelmir (x1)</label>
                   </div>
@@ -297,8 +291,8 @@
               </ul>
               <h5>Mountaintops of the Giants</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_12">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_12" id="item_0_12">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_12">Defeat Borealis, the Freezing Fog in the frozen lake in the northeast (x1)</label>
                   </div>
@@ -306,8 +300,8 @@
               </ul>
               <h5>Consecrated Snowfield</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_0_13">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_0_13" id="item_0_13">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_0_13" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_0_13">Defeat Great Wyrm Theodorix, north of Albinauric Rise (x1)</label>
                   </div>
@@ -316,26 +310,27 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3">
+        <div class="card shadow-sm mb-3" id="dragon_hearts_death_roots_section_1">
           <div class="card-body">
-            <h4 class="mt-1" id="dragon_hearts_death_roots_section_1">
+            <h4 class="mt-1">
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#dragon_hearts_death_roots_1Col" data-bs-toggle="collapse" href="#dragon_hearts_death_roots_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/00557.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Deathroots</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="dragon_hearts_death_roots_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="dragon_hearts_death_roots_1Col">
               <h5>Limgrave</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_1">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_1" id="item_1_1">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_1">Defeat the Tibia Mariner in northeast Limgrave in Summonwater Village</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_2">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_2" id="item_1_2">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_2">Defeat the Black Knife Assassin in the Deathtouched Catacombs</label>
                   </div>
@@ -343,14 +338,14 @@
               </ul>
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_3">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_3" id="item_1_3">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_3">Defeat the Cemetary Shade in the Black Knife Catacombs</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_4">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_4" id="item_1_4">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_4">Defeat the Tibia Mariner southwest of Carian Study Hall in east Liurnia of the Lakes</label>
                   </div>
@@ -358,14 +353,14 @@
               </ul>
               <h5>Mt. Gelmir</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_5">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_5" id="item_1_5">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_5">Defeat the Tibia Mariner in the Wyndham Ruins</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_6">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_6" id="item_1_6">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_6">Inside a chest in Gelmir Hero's Grave</label>
                   </div>
@@ -373,14 +368,14 @@
               </ul>
               <h5>Mountaintops of the Giants</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_7">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_7" id="item_1_7">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_7">Inside a chest in the Giants' Mountaintop Catacombs</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_8">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_8" id="item_1_8">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_8">Defeat the Tibia Mariner south of Castle Sol, on a cliff edge</label>
                   </div>
@@ -388,8 +383,8 @@
               </ul>
               <h5>Consecrated Snowfield</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="dragon_hearts_death_roots_1_9">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="dragon_hearts_death_roots_1_9" id="item_1_9">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="dragon_hearts_death_roots_1_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="dragon_hearts_death_roots_1_9">Inside a chest in the Catacombs underneath the Hidden Path to the Haligtree</label>
                   </div>
@@ -404,6 +399,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
+    <script src="/js/scroll.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -425,7 +421,22 @@
                 $(function() {
                     var jet = new Jets({
                         searchTag: "#dragon_hearts_death_roots_search",
-                        contentTag: "#dragon_hearts_death_roots_list ul"
+                        contentTag: "#dragon_hearts_death_roots_list ul",
+                        didSearch: function(search_phrase) {
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            $(".card").each(function(index, el) {
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {
+                                    $(el).addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                }
+                            });
+                        }
                     });
                     $("#dragon_hearts_death_roots_search").keyup(function() {
                         $("#dragon_hearts_death_roots_list").unhighlight();

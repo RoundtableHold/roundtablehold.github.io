@@ -5,388 +5,874 @@ sections:
     title: Albus
     link: "https://eldenring.wiki.fextralife.com/Albus"
     items:
-      - ["14_1", "Go to the Folly on the Lake Grace in the South section of Liurnia Lake. Go South-West from there and you should find a town hidden beneath the cliffs."]
-      - ["14_2", "Proceed through the town and after getting the Village of Albinaurics Grace, kill the flute-playing enemy and nearby you should see a large Pot, Bush, Tree (it varies). Roll into it or attack and it will turn into Albus."]
-      - ["14_3", "Talk to him to get the Haligtree Secret Medallion (Right). He will mention Latenna and then die."]
+      - id: "14_1"
+        data: ["Go to the Folly on the Lake Grace in the South section of Liurnia Lake. Go South-West from there to find the Village of the Albinaurics"]
+      - id: "14_2"
+        data: ["Proceed through the village (a ghost nearby will hint at Albus' existence) and after getting the Village of Albinaurics Grace, kill the flute-playing enemy and nearby you should see a large Pot, Bush, Tree (it varies). Roll into it or attack and it will turn into Albus."]
+      - id: "14_3"
+        data: ["Talk to Albus to get the Haligtree Secret Medallion (Right). He will mention Latenna and then die."]
+  -
+    title: Bernahl
+    items:
+      - id: "36_1"
+        data: ["First met in Warmaster's Shack in North Limgrave, East of the Stormhill Shack. Will sell you Ashes of War. Note: Can be killed here for the Devourer's Sceptre Legendary Weapon, but you will miss out on other rewards later"]
+      - id: "36_2"
+        data: ["Next appears in Volcano Manor once you've joined. Talk to him for dialogue and when you've finished your first Volcano Manor request, he will sell you Ashes of War again, along with some new ones"]
+      - id: "36_3"
+        data: ["After you've finished two Volcano Manor requests, he will give you a request of his own located in the Fortified Manor in South-West Leyndell. Complete it for a reward"]
+      - id: "36_4"
+        data: ["After killing Rykard in Volcano Manor, he will leave and you will have to buy his Ashes of War from the sword he left behind."]
+      - id: "36_5"
+        data: ["Appears one final time as an Invader in Crumbling Farum Azula. From the Beside the Great Bridge Grace, go the opposite direction from the boss room and head all the way down. Just before you reach the room with the chest, Bernahl will invade. Kill him for several reward and an end to his questline"]
+      - id: "36_6"
+        data: ["Summons: Can be summoned for the Godskin Duo bossfight in Crumbling Farum Azula"]
   -
     title: Blackguard Big Boggart
     link: "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart"
     items:
-      - ["11_1", "Appears at Boilprawn Shack in the South section of Liurnia Lake."]
-      - ["11_2", "During Rya's Quest for her necklace, he is the thief and will let you buy the necklace. Buy the necklace and some Boiled Prawns and he will give you an emote for buying the Boiled Prawns."]
-      - ["11_3", "Later he appear in the North outer moat of Leyndall and will sell Boiled Crabs as well. Buy some."]
-      - ["11_4", "Later during Dung-Eater's questline, Dung-Eater's invasion will happen here. Talk to Boggart and he will warn you about Dung-Eater being in the area and to stay on your guard. If you reload the area you will find him having become a victim of Dung-Eater, tied to a chair. He begs you for death and then dies, leaving a Seedbed Curse on his body."]
-      - ["11_5", "Notes: If you kill Dung-Eater Invader before having bought Boiled Prawns from him then he will still appear in Leyndall but will not become a victim of Dung-Eater. His Seedbed Curse is not necessary to complete Dung-Eaters Questline nor get his Ending."]
+      - id: "11_1"
+        data: ["Appears at Boilprawn Shack in the South section of Liurnia Lake."]
+      - id: "11_2"
+        data: ["During Rya's Quest for her necklace, he is the thief and will let you buy the necklace. Buy the necklace for Rya's Questline. He will give you an emote for buying the Boiled Prawns and this is required to continue his questline."]
+      - id: "11_3"
+        data: ["After reaching Altus Plateau, he will appear in the outer moat North of Leyndell and will have more dialogue and boiled crabs for sale."]
+      - id: "11_4"
+        data: ["During Dung-Eater's questline, Dung-Eater's invasion will happen at Boggart's moat location. Talk to Boggart and he will warn you about Dung-Eater being in the area and to stay on your guard. If you reload the area you will find him having become a victim of Dung-Eater, tied to a chair. He begs you for death and then dies, leaving a Seedbed Curse on his body."]
+      - id: "11_5"
+        data: ["Notes: If you kill Dung-Eater before having bought Boiled Prawns from Boggart, he will still appear in the North moat but will not become a victim of Dung-Eater. His Seedbed Curse is not necessary to complete Dung-Eaters Questline nor get his Ending."]
+      - id: "11_6"
+        data: ["Summons: Can be summoned for the Magma Wyrm Makar boss fight if you have bought boiled prawns from him."]
+  -
+    title: Blacksmith Hewg
+    link: "https://eldenring.wiki.fextralife.com/Smithing+Master+Hewg"
+    items:
+      - id: "2_1"
+        data: ["Follow Roderika's questline; watch as he grows fond of her."]
+      - id: "2_4"
+        data: ["After you find and activate your first Great Rune, the next time you come near him, you'll catch him praying. Don't talk to him or Roderika or it'll be cut off. You can ask him about it; he'll react defensively, but nothing changes to his questline."]
+      - id: "2_5"
+        data: ["As you progress in the story, while Roderika grows more attached to him and hopes he'll find freedom, Hewg begins to fade. His dialogue grows wearier and becomes obsessed with the mission he was given to kill a god. When you upgrade a weapon to max and reach Crumbling Farum Azula, he will call you Lord."]
+  -
+    title: Blaidd
+    items:
+      - id: "35_1"
+        data: ["First found howling at the Mistwood Ruins in the forest in East Limgrave. After hearing the howling, go to Kale in the Church of Elleh to get the Fingersnap emote and use it nearby Blaidd to talk to him."]
+      - id: "35_2"
+        data: ["Head to the Forlorn Hound's Evergaol and kill the Bloodhound Knight Darriwill then talk to Blaidd nearby for a reward"]
+      - id: "35_3"
+        data: ["Later, upon joining Ranni at Ranni's Rise in North-West Liurnia Lake, you will talk to Blaidd in spirit form."]
+      - id: "35_4"
+        data: ["Go to the Siofra River Well and down the lift, then down the next lift at the end of the first area. Find Blaidd next to the cliffs on the East side and talk to him"]
+      - id: "35_5"
+        data: ["Talk to Seluvis in his tower South of Ranni's Rise and he will give you a letter of introduction for Sellen. Take it to Sellen under Waypoint Ruins for the hint and then go back to Blaidd to tell him about it"]
+      - id: "35_6"
+        data: ["Go to Castle Redmane in South-East Caelid and talk to Blaidd before killing Radahn and then again afterwards"]
+      - id: "35_7"
+        data: ["Go back to the Mistwood Ruins where you first met Blaidd for a note"]
+      - id: "35_8"
+        data: ["Go to Forlorn Hound's Evergaol and choose to either free Blaidd or leave him trapped. Go to Iji for dialogue about why Blaidd is in there"]
+      - id: "35_9"
+        data: ["Head into the Crater formed in the South-East section of the forest in Limgrave and once you've travelled to the underground forest, take the path South to get the Fingerslayer Blade"]
+      - id: "35_10"
+        data: ["Take the blade back to Ranni and then reload and go to Renna's Rise, North of Ranni's Rise. Enter the Waygate there to reach Ainsel River Well Main"]
+      - id: "35_11"
+        data: ["Grab the doll from the coffin nearby and talk to it at the nearby Grace 3 times for a quest. Continue through the path to the Rot Lake to fight a Shadowy version of Blaidd. Kill it for the key to the chest in Raya Lucaria's boss room"]
+      - id: "35_12"
+        data: ["Head back to Ranni's Rise to find Blaidd there, now hostile, and kill him to end his quest"]
+      - id: "35_13"
+        data: ["Summons:"]
+      -
+        - id: "1"
+          data: ["Can be summoned in Forlorn Hound's Evergaol to fight Darriwill"]
+        - id: "2"
+          data: ["Can be summoned to fight Radahn"]
   -
     title: Bloody Finger Hunter Yura
     link: "https://eldenring.wiki.fextralife.com/Bloody+Finger+Hunter+Yura"
     items:
-      - ["9_1", "Can be found South-East of the lake in Limgrave under an overpass. Talk to him to learn about the dragon nearby. Kill the Dragon for more dialogue."]
-      - ["9_2", "Go North of the lake, up the stream and be Invaded by Bloody Finger Nerijus and Yura will appear to help. Don't let Yura die. After Nerijus is dead, go a bit further North and talk to him under another overpass."]
-      - ["9_3", "Later, when you get access to Raya Lucaria Academy, go to the Main Academy Gate Grace and on the bridge going North, past the seal (don't interact with it, just walk past) you will see a Red Summon Sign. Interact with it and help Yura kill Bloody Finger Ravenmount Assassin, Yura living or dying doesn't matter here. Talk to him after the fight."]
-      - ["9_4", "Later, after going up the Grand Lift of Dectus, Go North-East of the Grand Lift to the Second Church of Marika. There you will find him on the ground. Talk to him then you will be Invaded by Bloody Finger Eleonora. Kill her for a few rewards."]
-      - ["9_5", "Notes: His body is later taken over by Shabriri, advancing too far causes his death so Shabriri can take over."]
+      - id: "9_1"
+        data: ["Can be found South-East of the lake in Limgrave under an overpass. Talk to him to learn about the dragon nearby. If you fight Flying Dragon Agheel but don't kill it, Yura will have dialogue for you. Kill Flying Dragon Agheel for more dialogue."]
+      - id: "9_2"
+        data: ["Go North of the lake, up the stream outside Murkwater Cave and be invaded by Bloody Finger Nerijus, and after some timeYura will appear to help. After Nerijus is dead, go a bit further North and talk to Yura under another overpass."]
+      - id: "9_3"
+        data: ["When you get access to Raya Lucaria Academy, go to the Main Academy Gate Grace and on the bridge going North, past the seal (don't interact with it, just walk past) you will see a Red Summon Sign. Interact with it and help Yura kill Bloody Finger Ravenmount Assassin. Talk to him after the fight for dialogue."]
+      - id: "9_4"
+        data: ["After reaching Altus Plateau, Go North of the Altus Highway Junction to the Second Church of Marika. There you will find Yura on the ground. Talk to him then you will be Invaded by Bloody Finger Eleonora. Kill her for a few rewards."]
+      - id: "9_5"
+        data: ["Notes: His body is later taken over by Shabriri, advancing too far causes his death so Shabriri can take over. Shabriri gives Yura's armor so you aren't able to miss it"]
+      - id: "9_6"
+        data: ["Summons: Can be summoned to fight Flying Dragon Agheel at the Statue of Marika (summon statue) nearby. Requires talking to him about the Dragon first."]
   -
-    title: "Boc the Seamster - Multiple Choices:"
+    title: "Boc the Seamster"
     link: "https://eldenring.wiki.fextralife.com/Boc+the+Seamster"
     items:
-      - ["3_1", "Is a tree South of the Telescope South of Agheel Lake North Grace, he will talk to you. Hit him to free him and talk to him a couple times."]
-      - ["3_2", "Go to Coastal Cave, on the shore West of the games start and talk to him inside a few times. Kill the boss of Coastal Cave and talk to him again to give him the Sewing Needle."]
-      - ["3_3", "Meet him next to the the Lake-Facing Cliffs Grace, North of Stormveil Castle and talk to him and he will start altering your clothes for you."]
-      - ["3_4", "He will appear again at a few different Sites of Grace but doesn't do anything."]
-      - ["3_5", "Grab the Gold Sewing Needle from the Church of Vows on the East side of Liurnia Lake. Eventually you'll meet Boc at the East Capital Rampart in Leyndell Royal Capital."]
-      - ["3_6", "You have to buy a piece of boss gear from Enia and then you will be given the option to give him the Gold Sewing Needle. Later he will mention his ugly appearance and ask your thoughts on it."]
-      - ["3_7", "Here you have a choice."]
+      - id: "3_1"
+        data: ["Is a tree near the road South-East of the Agheel Lake North Grace, the tree will talk to you. Hit it to free Boc and talk to him a couple times for rewards and info on his next location."]
+      - id: "3_2"
+        data: ["Go to Coastal Cave, on the shore West of the games start and talk to him inside a few times. Kill the boss of Coastal Cave and talk to him again to give him the Sewing Needle."]
+      - id: "3_3"
+        data: ["Meet him next to the the Lake-Facing Cliffs Grace, North of Stormveil Castle and talk to him and he will start altering your clothes for you."]
+      - id: "3_4"
+        data: ["He will appear again at the East Raya Lucaria Gate Grace and Altus Highway Junction Grace (at the Altus Highway Junction, Melina should mention Boc missing his mother)"]
+      - id: "3_5"
+        data: ["Grab the Gold Sewing Needle from the Church of Vows on the East side of Liurnia Lake and give it to him at the East Raya Lucaria Gate Grace, Altus Highway Junction Grace or East Capital Rampart Grace. Requires you to have bought a piece of \"Demigod\" armor from Enia in Roundtable Hold."]
+      - id: "3_5_1"
+        data: ["Make sure you have the item Prattling Pate: You're Beautiful from the Hermit Village in Mt. Gelmir before talking to him at the East Capital Rampart Grace. If you don't, then you may be forced into a bad ending for him"]
+      - id: "3_6"
+        data: ["At the East Capital Rampart Grace, Boc will mention his ugly appearance and ask your thoughts on it."]
+      - id: "3_7"
+        data: ["Here you have a choice."]
       -
-        - ["1", "He will mention Rennala and ask for a Larval Tear to go change himself. If you choose to give it to him, he will show up at Rennala's boss room as a human, then when reloaded he will be dead."]
-        - ["2", "Alternatively, if you go to Hermit Village, located South-East of Volcano Manor and most easily reached by going through the \"Coward's Way\" to reach Mt. Gelmir, you will find Prattling-Pate: You're Beautiful on the South side of the village. Take that and use it next to Boc in East Capital Rampart and then talk to him. He will mention hearing his mother's voice and ask if you feel the same. If you agree then he will be happy with his appearance."]
-      - ["3_8", "Notes: Do not talk to Boc in East Capital Rampart until you have the Prattling-Pate: You're Beautiful. Otherwise, he may disappear forever."]
+        - id: "1"
+          data: ["He will mention Rennala and ask for a Larval Tear to go change himself. If you choose to give it to him, he will show up at Rennala's boss room as a human, then when reloaded he will be dead."]
+        - id: "2"
+          data: ["Alternatively, if you use Prattling-Pate: You're Beautiful while next to Boc after his question and then talk to him. He will mention hearing his mother's voice and ask if you feel the same. If you agree then he will be happy with his appearance."]
+        - id: "3"
+          data: ["Do nothing and he will appear outside Rennala's bossroom in Raya Lucaria"]
+      - id: "3_9"
+        data: [If you chose the You're Beautiful option, then you can talk to Boc again after reaching (but not completing) Crumbling Farum Azula and he will swear his fealty to you (may be able to do this after beating Morgott)"]
+      - id: "3_8"
+        data: ["Notes: Do not talk to Boc in East Capital Rampart until you have the Prattling-Pate: You're Beautiful. Otherwise, you may be forced into a bad ending for him"]
   -
-    title: Brother Corhyn
+    title: Brother Corhyn/Goldmask
     link: "https://eldenring.wiki.fextralife.com/Brother+Corhyn"
     items:
-      - ["7_1", "Found in Roundtable Hold. After you go up the Grand Lift or take the Coward's Path, talk to Brother Corhyn and he will announce he is leaving."]
-      - ["7_2", "After getting up the Grand Lift of Dectus, go North-East of the lift to the Altus Highway Juntion Grace and North of that you can find Corhyn along the road."]
-      - ["7_3", "Talk to him then go to North-East and on the North-End of the bridge you can find Goldmask."]
-      - ["7_4", "Talk to Goldmask then go back to Corhyn and talk to him then back to Goldmask."]
-      - ["7_5", "Corhyn and Goldmask can later be found in Leyndell on a hill near West Capital Rampart. Talk to them and then get the Golden Order Principia near the Erdtree Sanctuary Grace (South-East of West Capital Rampart) by going up a root, through the door, and jumping onto a roof before circling the building and climbing another root."]
-      - ["7_6", "Take this book to Corhyn or Miriel and learn the Law of Regression. After learning, travel West of the Erdtree Sanctuary Grace and down an elevator and stairs to find a message on the ground. Stand on the message and face the statue then cast Law of Regression. Touch the newly formed message then talk to Goldmask and Corhyn."]
-      - ["7_7", "Later, travel to the Stargazer's Ruins in the North section of the Mountaintops of the Giants, located on the North-Eastern corner of the map and talk to them."]
-      - ["7_8", "After beating the Fire Giant and Maliketh, find the corpse of Goldmask on the West side of Erdtree Sanctuary Grace, past a few plants for the Mending Rune of Perfect Order. Reload and check Goldmask again for his armor. Corhyn can be found on the bridge near Stargazer Ruins, kill him for his armor and weapon."]
-      - ["7_9", "Notes: Quest can be completed even with Corhyn dead. You also have the option to give him the Potion of Forgetfulness from Rya's Questline. Makes him stay at Stargazer Ruins and he won't sell you incantations anymore"]
+      - id: "7_1"
+        data: ["Found in Roundtable Hold. "]
+      - id: "7_1_2"
+        data: ["After reaching Altus Plateau, talk to Brother Corhyn and he will announce he is leaving."]
+      - id: "7_2"
+        data: ["Go to the Altus Highway Juntion Grace and North of that you can find Corhyn along the road.Talk to him to learn about Goldmask"]
+      - id: "7_3"
+        data: ["On the North-End of the broken bridge in Altus Plateau, you can find Goldmask. Talk to him"]
+      - id: "7_4"
+        data: ["Go back to Corhyn and talk to him then back to Goldmask and talk to them both."]
+      - id: "7_5"
+        data: ["Corhyn and Goldmask can later be found in Leyndell on a hill near the coliseum. Talk to them to learn of their puzzle (Miriel, Pastor of Vows will give you a hint to the solution)"]
+      - id: "7_5_2"
+        data: ["Get the Golden Order Principia above the Erdtree Sanctuary Grace after killing the boss by going up a root, through the door, and jumping onto a roof before circling the building and climbing another root."]
+      - id: "7_6"
+        data: ["Take this book to Corhyn or Miriel and learn the Law of Regression. After learning, travel West of the Erdtree Sanctuary Grace and down an elevator and stairs to find a message on the ground. Stand on the message and face the statue then cast Law of Regression. Read the newly formed message then talk to Goldmask and Corhyn."]
+      - id: "7_7"
+        data: ["Travel to the Stargazer's Ruins in the North section of the Mountaintops of the Giants, and talk to them on the bridge South of the Stargazer's Ruins. (You can give Corhyn the Potion of Forgetfulness and he will appear here after finishing Crumbling Farum Azula)"]
+      - id: "7_8"
+        data: ["After beating Crumbling Farum Azula, find Brother Corhyn nearby and reload the area or kill him for his stuff. Past Corhyn, you can find the corpse of Goldmask past a few plants for the Mending Rune of Perfect Order. Reload and check Goldmask again for his stuff."]
+      - id: "7_9"
+        data: ["Notes: Goldmask's Quest can be completed even with Corhyn dead."]
   -
-    title: D, Hunter of the Dead
+    title: D, Hunter of the Dead not to be confused with his twin brother D
     link: "https://eldenring.wiki.fextralife.com/D+Hunter+of+the+Dead"
     items:
-      - ["23_1", "Found first east of Stormhill Shack in Limgrave. He'll vaguely warn you about \"those who live in death.\" He's talking about Summonwater Village, so go beat the Tibia Mariner boss there, and get a Deathroot."]
-      - ["23_2", "Find him again, by the southwestern entrance to the Village if you haven't unlocked Roundtable Hold yet, or sitting at the Roundtable itself if you have. He'll tell you where to take that Deathroot, and leave a mark on your map for a portal in Limgrave that will take you there."]
-      - ["23_3", "Get to the Bestial Sanctum and meet Gurranq, most simply by using the portal D marked for you, then return to D. Tell him yes and he'll sell you a few incantations."]
-      - ["23_4", "Once you end up with the Weathered Dagger from Fia, take it to D. He'll be grateful that you found it, and he'll know just who to take it to."]
-      - ["23_5", "Rest at the table and you'll find D has moved. Go check by the blacksmith and you'll spy that the doorway at the end of the hall has opened, and through it is D, murdered, with his armor and bell bearing to loot."]
+      - id: "23_1"
+        data: ["At the graves East of the Saintsbridge Grace, He'll vaguely warn you about \"those who live in death.\""]
+      - id: "23_2"
+        data: ["Go beat the Tibia Mariner boss at Summonwater Village nearby to get a Deathroot. D will then be in the village and can be talked to to learn about the Bestial Sanctums Waygate location"]
+      - id: "23_3"
+        data: ["After you meet Gurranq at Bestial Sanctum, talk to D at Roundtable Hold. Tell him yes and he'll sell you a few incantations."]
+      - id: "23_3_2"
+        data: ["After killing Godrick, Rogier will appear in Roundtable Hold and D will talk about him"]
+      - id: "23_4"
+        data: ["Once you end up with the Weathered Dagger from Fia after reaching Altus Plateau, take it to D."]
+      - id: "23_5"
+        data: ["Reload the area and go check by the blacksmith and you'll find the doorway at the end of the hall has opened, D will be dead so loot him for his armor and bell bearing."]
+      - id: "23_6"
+        data: ["Summons"]
+      -
+        - id: "1"
+          data: ["Can be summoned to help fight the Tibia Mariner on the cliffs above Carian Study Hall"]
+        - id: "2"
+          data: ["Can be summoned to fight the Black Knife Assassin in Black Knife Catacombs."]
   -
-    title: D's Twin Brother
+    title: D, Beholder of the Dead aka D's Twin Brother
     link: "https://eldenring.wiki.fextralife.com/D's+Twin+Brother"
     items:
-      - ["24_1", "You'll find D's twin rather late in the game, in Nokron, right outside the arena for the two Valiant Gargoyles. Interact with him and he'll just make some sounds, unless you bring D's \"Twinned\" armor set, which he'll take in shock, realizing his brother is dead."]
-      - ["24_2", "He then seeks revenge on D's killer, whoever that may be. This brief questline has two endings accordingly, with the same rewards at the end."]
+      - id: "24_1"
+        data: ["Located right outside the bossrom for the two Valiant Gargoyles in Siofra Acqueduct (the underground crater). Interact with him and bring him D's \"Twinned\" armor set"]
+      - id: "24_2"
+        data: ["He then seeks revenge on D's killer, whoever that may be. There are two ways this questline can go but the rewards are the same"]
       - 
-          - ["1", "If you killed D yourself before he ever went to Roundtable Hold, you can just reload the area. D's brother will then immediately try to kill you. Defeating him grants you back the Twinned armor set, as well as a new Inseparable Sword."]
-          - ["2", "If Fia killed D in Roundtable Hold, progress won't come until after you've defeated Lichdragon Fortissax in Fia's questline. Afterwards, travel back to Fia's location in Deeproot Depths to find that D's brother has gotten his revenge. Exhaust his dialogue and reload the area to find him gone, having left the armor and sword behind; alternatively, you can initiate a fight for your own revenge for Fia, and get the loot by killing him."]
+        - id: "1"
+          data: ["If you killed D yourself before he ever went to Roundtable Hold, you can just reload the area. D's brother will then immediately try to kill you. Defeating him grants you back the Twinned armor set, as well as a new Inseparable Sword."]
+        - id: "2"
+          data: ["If D died to the Weathered Dagger in Roundtable Hold, he will appear at the very end of Fia's questline where you can choose to either kill him or reload for the Twinned Armor Set and Inseparable Sword"]
+      - id: "24_3"
+        data: ["Summons: Can be summoned against the Twin Gargoyles in Siofra Aqueduct if you give him the Twinned Armor before fighting"]
   -
     title: Diallos
     link: "https://eldenring.wiki.fextralife.com/Diallos"
     items:
-      - ["34_1", "Diallos's is a rather unpredictable questline that begins as soon as you get to Roundtable Hold. He'll be standing there, so exhaust his dialogue to learn he's looking for his servant, silly tomboy Lanya."]
-      - ["34_2", "He'll vanish from the Hold when you reach Liurnia, so find him in a rather hard to spot location in Academy Gate Town, north and slightly west of the Site of Grace. Unfortunately it seems everyone's favorite tomboy isn't getting her own questline - she's already dead, and Diallos wants vengeance."]
-      - ["34_3", "Pop right back to Roundtable Hold to talk to him again. Exhaust his dialogue to find out where he's going next."]
-      - ["34_4", "You won't see him again until you've joined Volcano Manor yourself. Exhaust his dialogue, and continue to do so each time you make progress in the Manor. Once you've completed the second contract, or simply killed Rykard to end the Manor quest altogether, Diallos will leave."]
-      - ["34_5", "If you've done the first few steps of Jar-Bairn's questline, he'll make his way to Jarburg now. Exhaust his dialogue - it seems he's found a new purpose."]
-      - ["34_6", "Start reloading the area and exhausting his dialogue each time. If he's repeating himself, rest at the grace and pass some time, or warp away and back, until suddenly he's mortally wounded in a gravely transformed Jarburg. He'll ask you a question; answer as you wish."]
-      - ["34_7", "Rest and pass some time, multiple times if necessary, until Diallos is gone. Loot Diallos's Mask, Hoslow's Petal Whip, and a Numen's Rune where you last spoke to him."]
+      - id: "34_1"
+        data: ["Talk to Diallos in Roundtable Hold to learn he is looking for his servant Lanya"]
+      - id: "34_2"
+        data: ["Once you reach Liurnia Lake, talk to Diallos in Academy Gatetown, North of the Academy Gate Town Grace"]
+      - id: "34_3"
+        data: ["He will then appear in Roundtable Hold, where you learn his next destination"]
+      - id: "34_4"
+        data: ["Join Volcano Manor and talk to him. You'll get new dialogue after every request and he'll leave after you talk to him upon completing the second request (or after you kill Rykard)"]
+      - id: "34_5"
+        data: ["After completing the first few steps of Jar Bairn's Questline in Jarburg, Diallos will appear here. Talk to both Diallos and Jar Bairn, reload, talk again and repeat until all dialogue is exhausted."]
+      - id: "34_7"
+        data: ["Pass time until morning and talk to each again until Diallos is dead. Loot Diallos's Mask, Hoslow's Petal Whip, and a Numen's Rune where you last spoke to him."]
   -
-    title: "Dung-Eater - Multiple Choices:"
+    title: "Dung-Eater"
     link: "https://eldenring.wiki.fextralife.com/Dung+Eater"
     items:
-      - ["12_1", "Appears at Roundtable Hold beyond the room with the Twin Maiden Husks. When given a Seedbed Curse (found in several locations, the earliest meaningful one being available in Leyndell Royal Capital) he will give you the Sewer-Gaol Key and tell you to come meet him."]
-      - ["12_2", "Go to the Avenue Balcony Grace in the Center of Leyndell Royal Capital and find a Well to the North-West in a ruined area nearby the Lower Capital Church Grace. Go down the Well to enter the Sewers."]
-      - ["12_3", "Go through until you reach the Underground Roadside Grace. Go out the door, turn left, run past the big guy and go down a large open grate on the left side before reaching the gate. Once you fall in, go down the path, not into the sewer pipe tunnel, and you'll see multiple giant flowers. Run past the flowers and up the ladder to find the room with a bunch of Giant Hands. Kill the hands and then open the nearby door with the Sewer-Gaol Key to find Dung-Eater."]
-      - ["12_4", "Talk to him then go back to where he was in Roundtable Hold to find a message. Go to outer moat on the North side of the Leyndell Royal Capital, outside the city walls, and he will spawn as an Invader. If he doesn't, it means that Blackguard Big Boggart is there and you should talk to him, buy some Boiled Crab, talk some more, reload the area, and talk to him again to collect a Seedbed Curse. When walking away, Dung-Eater should invade."]
-      - ["12_5", "Kill him and go back to the him in Roundtable Hold. Go to his real body and depending on if you've progressed Seluvis' Questline, you get a choice."]
+      - id: "12_1"
+        data: ["Appears at Roundtable Hold beyond the room with the Twin Maiden Husks after reaching Altus Plateau. (Roderika will comment on his existence throughout the questline) When given a Seedbed Curse (found in several locations, the earliest meaningful one being available in Leyndell Royal Capital) he will give you the Sewer-Gaol Key and tell you to come meet him."]
+      - id: "12_2"
+        data: ["Go to the Avenue Balcony Grace in the Center of Leyndell Royal Capital and find a Well to the North-West in a ruined area nearby the Lower Capital Church Grace. Go down the Well to enter the Sewers."]
+      - id: "12_3"
+        data: ["Go through until you reach the Underground Roadside Grace. Go out the door, turn left, run past the big guy and go down a large open grate on the left side before reaching the gate. Once you fall in, go down the path, not into the sewer pipe tunnel, and you'll see multiple giant flowers. Run past the flowers and up the ladder to find the room with a bunch of Giant Hands. Kill the hands and then open the nearby door with the Sewer-Gaol Key to find Dung-Eater."]
+      - id: "12_4"
+        data: ["Talk to him then go back to where he was in Roundtable Hold to find a message."]
+      - id: "12_7"
+        data: ["Go to outer moat on the North side of the Leyndell Royal Capital, outside the city walls, and he will spawn as an Invader. (If he doesn't, it means that Blackguard Big Boggart is there and you should talk to him, buy some Boiled Crab, talk some more, reload the area, and talk to him again to collect a Seedbed Curse. When walking away, Dung-Eater should invade.)"]
+      - id: "12_5"
+        data: ["Kill him and go back to the him in Roundtable Hold. Go to his real body in the Sewers and, if you got the potion from Seluvis AND he is still alive, you get a choice."]
       -
-        - ["1", "The default choice is to give his body Seedbed Curses and once you given him 5, you get the Mending Rune of the Fell Curse for another ending to the game."]
-        - ["2", "If you've gotten the Seluvis's Potion from Seluvis, you can choose to give it to Dung-Eater while he is tied to the chair. Go back to Seluvis and talk to him until he offers to sell you the Dung-Eater Puppet as a Spirit Ash."]
-      - ["12_6", "Notes: Gross....."]
+        - id: "1"
+          data: ["The default choice is to give his body Seedbed Curses and once you given him 5, you get the Mending Rune of the Fell Curse for another ending to the game."]
+        - id: "2"
+          data: ["If you've gotten the Seluvis's Potion from Seluvis AND Seluvis is still alive, you can choose to give it to Dung-Eater while he is tied to the chair. Go back to Seluvis and progress his questline and he'll sell you the Dung-Eater Puppet as a Spirit Ash."]
+      - id: "12_6"
+        data: ["Notes: Gross....."]
   -
     title: Edgar
     link: "https://eldenring.wiki.fextralife.com/Edgar"
     items:
-      - ["26_1", "Irina's father. He's a bit hidden in Castle Morne, but it's semi-important to find him before killing the boss, or else the quest progression can get confused. Go up the lift and past the courtyard with the large mount of bodies and enemies and a sleeping Pumpkin Head. Climb the ladder in the back up to the ramparts. Follow the ramparts across a narrower section and slash at a pile of boxes on the left side, where you'll find a ladder poking up. Descend and go past the fighting enemies and up the spiral stairs beyond them. Finally, you should see Edgar sitting on a bench."]
-      - ["26_2", "Deliver him Irina's Letter, and he'll say that as much as he'd like to leave, he can't yet, and you should go tell Irina that he'll come when he can. Don't bother; you can't actually tell her anything yet. More importantly, he tells you he can't leave because the Castle and its special sword are in peril. That's something you can fix."]
-      - ["26_3", "Go finish Castle Morne. Upon killing the boss, the Leonine Misbegotten, it drops the Grafted Blade Greatsword."]
-      - ["26_4", "Time to run all the way back to Edgar. Show him you saved the sword, and he'll be so relieved he won't even ask for it back. He'll say he's going back to Irina."]
-      - ["26_5", "Now go back to Irina. Edgar should be beside her. He curses his own inaction and vows vengeance against whoever did this."]
-      - ["26_6", "There's no way to know who killed Irina, but apparently, Edgar thinks it was you. A bit later in the game, you'll find a place called the Revenger's Shack in Liurnia. As soon as you light the Site of Grace, he'll invade your world as Edgar the Revenger and try to kill you. Defeat him for his Banished Knight's Halberd +8 and a Shabriri Grape for Hyetta. This invasion happens even if you didn't do the rest of his questline at all, and, even more wildly, even if you killed him at one of his previous locations."]
-      - ["26_7", "Notes: The game wiki reports that this questline is mildly bugged in a few spots."]
-      -
-          - ["1", "If you kill the Leonine Misbegotten before finding Edgar and showing him the letter, even if you've since found Irina's dead body, once you do find Edgar, the interaction still plays out exactly as detailed in the second step above, with no way to show him the sword or tell him about Irina. You'll have to fast travel away and make your way back to Edgar, at least once if not twice, before he'll notice the sword and agree to leave."]
-          - ["2", "When he invades you at the Revenger's Shack, if you leave without successfully killing him and then return later, he may not come back at all. The wiki reports this as a bug with no known workaround yet."]
+      - id: "26_1"
+        data: ["Located in Castle Morne (will give you a sacrificial branch during the first meeting), An easy way to find him is, after going up the elevator, go right around the worshippers, into a room, up a ladder, up another ladder, and then keep taking lefts after running past enemies."]
+      - id: "26_2"
+        data: ["Deliver Irina's Letter to him"]
+      - id: "26_3"
+        data: ["Kill the boss of Castle Morne, Leonine Misbegotten"]
+      - id: "26_4"
+        data: ["Return to Edgar and inform him of the bosses death."]
+      - id: "26_5"
+        data: ["Return to Irina's location. Edgar will be there swearing vengeance against the killers (If you killed Irina, he will attack you here)"]
+      - id: "26_6"
+        data: ["He will next appear as Edgar the Revenger at Revenger's Shack in West Liurnia Lake (there will be a ghost in the water nearby that hints at his location). Defeat him for his Banished Knight's Halberd +8 and a Shabriri Grape for Hyetta"]
+      - id: "26_7"
+        data: ["Notes: The Shabriri Grape MAY be unobtainable if you kill Irina or grab the Revenger's Shack Grace before meeting Edgar at Irina's body."]
+      - id: "26_8"
+        data: ["Summons: Can be summoned to fight Leonine Misbeggoten after your first meeting"]
+      - id: "26.9"
+        data: ["Lore WIP: Edgar is a knight of Castle Morne. After the Demi-Humans destroyed the castle, he chose duty over family and Irina died for it. Filled with regret and rage, the cry of his soul was heard by Shabriri and so the Frenzied Flame made Edgar stronger so he could enact his revenge while slowly turning him mad enough to kill even the innocent."]
   -
     title: Ensha
     link: "https://eldenring.wiki.fextralife.com/Ensha"
     items:
-      - ["16_1", "Found being an Edgelord in Roundtable Hold. You can get a gesture from his edgy pose, but he won't say a word to you. After getting either half of the Haligtree Secret Medallion, he'll scare the hell out of you the next time you go to Roundtable Hold."]
-      - ["16_2", "Dies an edgy death. Go to where he once stood for his armor set. Talk to Gideon to see how sad he is about the death of the Edgelord."]
-      - ["16_3", "Notes: edge-lord!"]
+      - id: "16_1"
+        data: ["Found being an Edgelord in Roundtable Hold. You can get a gesture from his edgy pose, but he won't say a word to you. After getting either half of the Haligtree Secret Medallion, he'll scare the hell out of you the next time you go to Roundtable Hold."]
+      - id: "16_2"
+        data: ["Dies an edgy death. Go to where he once stood for his armor set. Talk to Gideon to see how sad he is about the death of the Edgelord."]
+      - id: "16_3"
+        data: ["Notes: edge-lord!"]
   -
-    title: Fia, Deathbed Companion
+    title: Fia
     link: "https://eldenring.wiki.fextralife.com/Fia"
     items:
-      - ["22_1", "Meet Fia in Roundtable Hold as soon as you unlock it. She'll ask you for permission to hold you in exchange for \"some of your lifely vigour.\" Agree, and you'll literally lose 1 point off your Vigor stat, and the HP that goes with it, in exchange for a consumable called Baldachin's Blessing. Use this consumable at any time to receive a 15 second buff to poise and physical damage negation, after which you also get your point of Vigor back."]
-      - ["22_2", "While cuddling with her, sometimes it ends automatically after a few seconds, but sometimes you stay and get a prompt to talk to her. Use \"Talk in secret\" to learn more about her. If you've gotten far enough in Rogier's questline, there'll be a prompt for her to tell you about the Black Knifeprint and hand you the Knifeprint Clue map. Once you've given the Knifeprint to Rogier, there's a new option for which she'll give you a Sacrificial Twig."]
-      - ["22_3", "After you've reached the Altus Plateau, go get more cuddles and select the new dialogue option \"May I ask a favor?\" She'll give you the Weathered Dagger and ask you to find who it belongs to. The next time you talk to D, he'll take it from you, informing you that he knows who it belongs to. Convenient!"]
-      - ["22_4", "But not for D. Rest and he should be gone. Go check out the blacksmith's hall and you'll find that the door at the end is newly opened. See what Fia has done, and talk to her until she teleports away."]
-      - ["22_5", "Way later, at the height of the Deeproot Depths by the Across the Roots Site of Grace, you'll find Fia's Champions, a boss fight against waves of red phantom NPC fighters randomized in a way similar to the Giant Jar's. Defeat them, and you'll get Fia's Mist."]
-      - ["22_6", "Rest at the new Prince of Death's Throne Site of Grace. Fia should appear in the boss room. Get held, and she'll ask you to find the Cursemark of Death, the same thing Rogier sought before his own death."]
-      - ["22_7", "Bring it to her and she'll give you a Radiant Baldachin's Blessing, similar to the standard variant without the HP penalty. Exhaust her dialogue and rest, and like Rogier, she'll have fallen asleep. This time, though, inspect her slumbering form and you can enter her dreams, where you'll find a hidden boss essential to one of the game's endings. Defeat it for the Mending Rune of the Death-Prince."]
-      - ["22_8", "After this, if you gave D's armor set to his brother and didn't kill D yourself, the next time you return to Fia, you'll find he's donned the armor and killed her, and you can loot her armor set."]
+      - id: "22_1"
+        data: ["Meet Fia in Roundtable Hold as soon as you unlock it. Her hugs are nice but BEWARE as she will give you a Blessing that lowers your max HP until you use it"]
+      - id: "22_2"
+        data: ["While cuddling with her, sometimes it ends automatically after a few seconds, but sometimes you stay and get a prompt to talk to her. Use \"Talk in secret\" to learn more about her. If you've gotten far enough in Rogier's questline, there'll be a prompt for her to tell you about the Black Knifeprint and hand you the Knifeprint Clue map. Once you've given the Knifeprint to Rogier, there's a new option for which she'll give you a Sacrificial Twig."]
+      - id: "22_9"
+        data: ["After talking to Rogier about the god you found underneath Stormveil, you can talk to Fia for the Knifeprint Clue which leads to Black Knife Catacombs"]
+      - id: "22_10"
+        data: [Collect the Black Knifeprint from the boss in Black Knife Catacombs then you can talk to Fia and Rogier about it. (Follow Rogier's/Ranni's Questline from here)]
+      - id: "22_3"
+        data: ["After you've reached the Altus Plateau, you can talk to Fia to get the Weathered Dagger which you should give to D"]
+      - id: "22_4"
+        data: ["Reload and go to the now open room behind the Blacksmith to find D's Corpse and Fia standing over it. Talk to Fia and she'll disappear"]
+      - id: "22_4_2"
+        data: ["In the crater in the forest of Limgrave that appears after killing Radahn, there is a path going North. At the end of the path is a boss room with Two Gargoyles. Kill them and enter the coffin nearby to reach Deeproot Depths"]
+      - id: "22_5"
+        data: ["Up the roots, at the height of the Deeproot Depths past the Across the Roots Grace, you'll find Fia's Champions. Defeat them, and you'll get Fia's Mist."]
+      - id: "22_6"
+        data: ["Reload and Fia should appear by the corpse. Get held, and she'll ask for the Cursemark of Death, which can be found after giving Ranni the Fingerslayer Blade during her questline"]
+      - id: "22_7"
+        data: ["Give it to her and she'll give you a Radiant Baldachin's Blessing, similar to the standard variant without the HP penalty. Exhaust her dialogue, reload and you'll find her sleeping."]
+      - id: "22_8"
+        data: ["Interact with her sleeping body and kill the boss. Upon returning, she will have the Mending Rune of Death on her. (If you gave the armor to D's Brother, he will have killed Fia and you can get his armor and weapon from him) Reload and you can loot her stuff"]
   -
     title: Gatekeeper Gostoc
     link: "https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc"
     items:
-      - ["27_1", "After defeating Margit and resting at the Stormveil Main Gate Site of Grace, head through the hole in the nearby wall and meet Gostoc. He'll advise you on a much safer way into the castle than the bombartment of ballista bolts you'll receive if you go through the gate, but you still get a dialogue choice to agree or disagree. If you ask him to, now or later, he'll open the gate for you, though it's much safer to go the long way around as he advises and open it yourself from inside."]
-      - ["27_2", "As you progress either path, Gostoc will secretly be close behind. You may notice that while in Stormveil Castle, if you die and then retrieve your runes, you don't get them all back - Gostoc steals 30% from every retrieval you drop in the castle. At any time until you kill Godrick, you can kill Gostoc and get those stolen souls back, though of course you end Gostoc's questline early by doing so. Killing Godrick makes them lost forever."]
-      - ["27_3", "At a few different points as you explore Stormveil, you can actually catch him sneaking around behind you. He's hard to spot, but the wiki reports that you can find him \"on a ruined watchtower on the side path, inside the rampart tower, and on the castle chapel roof, above Sorcerer Rogier.\" Optionally find and speak to him at one of these spots, and he'll give you a Grace Mimic for the trouble."]
-      - ["27_4", "In the side path is a door you must find and use the Rusty Key to open. As soon as you do, Gostoc will lock you in there, cackling as he leaves you to deal with your first Banished Knight."]
-      - ["27_5", "Once the gate is open, whether you or he opened it, he'll become a merchant in his normal spot until you beat Godrick."]
-      - ["27_6", "After defeating Godrick, Gostoc will appear in the boss arena to vent his pent-up frustrations. For now, his shop is closed."]
-      - ["27_7", "Later in the game, after defeating Morgott and progressing Nepheli and Kenneth's questlines, both of them plus Gostoc move into Godrick's Throne Room. Gostoc's shop is finally open again, and now he sells a coveted Ancient Dragon Smithing Stone as a reward for your self-restraint in not murdering him."]
+      - id: "27_1"
+        data: ["At the front gate to Stormveil after defeating Margit. Will tell you about the obvious alternate path into Stormveil Castle, but you can ask him to open the gate anyway and he will open his shop (note, this will prevent you from seeing him stalk you"]
+      - id: "27_2"
+        data: ["If you take the alternate path, he will appear in areas behind you, but within view, at specific points. The earliest is when entering the tower at the top of the stairs past the birds, if you turn around he will be just above the Grace by the birds"]
+      - id: "27_3"
+        data: ["Talk to him when you see him stalking and you'll get a Grace Mimic"]
+      - id: "27_4"
+        data: ["After you enter a dark room along this dark path, he will lock you inside and you can hear him laughing"]
+      - id: "27_5"
+        data: ["If you didn't ask him to open the gates, you can open them after running through the whole castle and he will still become a merchant"]
+      - id: "27_6"
+        data: ["After defeating Godrick, he will be in the bossroom and no longer sell things"]
+      - id: "27_7"
+        data: ["After finishing Kenneth Haight's Questline, giving Nepheli the Stormhawk Ashes and killing Morgott, Gostoc, Kenneth and Nepheli will all move to the throne room/bossroom"]
   -
     title: Gideon Ofnir
     link: "https://eldenring.wiki.fextralife.com/Gideon+Ofnir"
     items:
-      - ["20_1", "First found in Roundtable Hold. Talk to him for mean comments."]
-      - ["20_2", "Upon reloading, appears in the room next to Ensha. Talk to him for more mean comments."]
-      - ["20_3", "Collect at least one Great Rune, most will get Godrick's first, then return to him to be neutral and be given information about the Great Rune holders."]
-      - ["20_4", "After killing Morgott at the Erdtree, return to him to be besties and he will offer you information and ask that you share any info you get as well."]
-      - ["20_5", "Return to Gideon periodically after killing Mohg, The Omen, finding the Mohgwyn Dynasty Mausoleum, killing Mohg, Lord of Blood, reaching Miquella's Haligtree, and killing Malenia, Blade of Miquella. He will reward you for the information."]
+      - id: "20_1"
+        data: ["First found in Roundtable Hold. Talk to him for mean comments."]
+      - id: "20_2"
+        data: ["Upon reloading, appears in the room next to Ensha. Talk to him for more mean comments."]
+      - id: "20_3"
+        data: ["Collect at least one Great Rune and try to enter his room for long, sullen silence instead of a mean comment. After meeting with the Two Fingers, you can return to him being neutral and be given information about the Shardbearers."]
+      - id: "20_3_2"
+        data: ["After meeting Nepheli at Village of the Albinaurics, getting the medallion from Albus and killing the Omenkiller, Gideon will first apologize without apologizing for Ensha's behavior, the go back to mean comments, just not about you"]
+      - id: "20_3_3"
+        data: ["After meeting Seluvis and getting the potion from him, you can talk to Gideon about him and the potion. He is mostly indifferent but does offer to take the potion and use it in a sceme against Seluvis"]
+      - id: "20_4"
+        data: ["After killing Morgott at the Erdtree, return to him to suddenly be besties and he will offer you information and ask that you share any info you learn as well."]
+      - id: "20_5"
+        data: ["Return to Gideon periodically after killing Mohg, The Omen, finding the Mohgwyn Dynasty Mausoleum, killing Mohg, Lord of Blood, reaching Miquella's Haligtree, and killing Malenia, Blade of Miquella. He will reward you for the information."]
       -
-          - ["1", "Mohg, The Omen is found in the Sewers beneath Leyndell on the way to complete Hyetta's quest."]
-          - ["2", "Mohgwyn Dynasty Mausoleum can be entered by used the Pureblood Knight's Medal from the White-Faced Varre questline or by finding a blood-covered Waygate in the woods in the West section of the Mountaintops of the Giants, North-West of where you enter after using the Haligtree Secret Medallion. Mohg, Lord of Blood is found as the boss of that area."]
-          - ["3", "Miquella's Haligtree is found through the Waygate in Ordina, Liturgical Town (covered in Millicent's guide) and Malenia, Blade of Miquella is found as the final boss of the area."]
-      - ["20_6", "After giving all the information and receiving all of your rewards, Gideon will say that he has nothing more to teach you."]
-      - ["20_7", "After advancing the game to after the Forge of Giants, he will tell you he is getting everything he can before he leaves. Upon reaching Leyndell again, he will be gone from Roundtable Hold."]
-      - ["20_8", "After going through Leyndell for a second time, he will be found in the boss room where you fought the Golden Shade of Godfrey on the way to the Erdtree. He decided to quit being besties and now has the powers from all that stuff you told him about."]
-      - ["20_9", "Kill him. Hear more mean comments."]
-      - ["20_10", "Notes: All-Knowing but didn't know how bad he'd get beat down."]
+        - id: "1"
+          data: ["Mohg, The Omen is found at the bottom of the Sewers beneath Leyndell on the way to complete Hyetta's quest."]
+        - id: "2"
+          data: ["Mohgwyn Dynasty Mausoleum can be entered by used the Pureblood Knight's Medal from the White-Faced Varre questline or by entering the blood-covered Waygate West section of the Consecrated Snowfield. The area requires using the Haligtree Medallion to reach."]
+        - id: "4"
+          data: ["Mohg, Lord of Blood is found as the boss of Mohgwyn's Dynasty Mausoleum."]
+        - id: "3"
+          data: ["Miquella's Haligtree is found through the Waygate in Ordina, Liturgical Town (covered in Millicent's section) in Consecrated Snowfield and Malenia, Blade of Miquella is found as the final boss of the area."]
+      - id: "20_6"
+        data: ["After giving all the information and receiving all of your rewards, Gideon will say that he has nothing more to teach you."]
+      - id: "20_7"
+        data: ["After advancing the game to Crumbling Farum Azula, he will tell you he is getting everything he can before he leaves. After finished Crumbling Farum Azula, he will be gone from Roundtable Hold."]
+      - id: "20_8"
+        data: ["While going through the Capital of Ash, he will be found in the boss room where you fought the Golden Shade of Godfrey on the way to the Erdtree. He decided to quit being besties and now has the powers from all that stuff you told him about. Betrayal!"]
+      - id: "20_9"
+        data: ["Kill him to hear his final mean comments."]
+      - id: "20_10"
+        data: ["Notes: All-Knowing but didn't know how bad he'd get beat down."]
   -
     title: Great Jar
     link: "https://eldenring.wiki.fextralife.com/The+Great-Jar"
     items:
-      - ["13_1", "Found in North Caelid just outside an arena. Doesn't speak but after talking to him there will be 3 Red Summons just down the hill from him named Knight of the Great Jar. Defeat them and talk to the Great Jar again for a reward."]
+      - id: "13_1"
+        data: ["Found in North Caelid just outside an arena. Doesn't speak but after talking to him there will be 3 Red Summons just down the hill from him named Knight of the Great Jar. Defeat them and talk to the Great Jar again for a reward."]
   -
     title: Gurranq, Beast Clergyman
     link: "https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman"
     items:
-      - ["6_1", "Go to the Third Church of Marika, just North-East of the Minor Erdtree in East Limgrave. Go North of the Church and into the water to find a Sending Gate. Use it to find the Bestial Sanctum where Gurranq is."]
-      - ["6_2", "He wants Deathroot which can be found in quite a few different locations, usually places where there is a lot of death or Undead for a total of 9. Give Deathroot to him and he will give various rewards."]
-      - ["6_3", "After the 4th Deathroot, he will become hostile and must be hurt a little to get him to become friendly again (rot or poison makes this easy, just run outside after applying)."]
-      - ["6_4", "Turn in all 9 Deathroot and he will leave and become Maliketh, the Black Blade which is a boss late in the game."]
-      - ["6_5", "Notes: His location can be told to you by D, Hunter of the Dead."]
+      - id: "6_1"
+        data: ["D will give you a map to the Bestial Sanctum where Gurranq resides. To get there, go to the Third Church of Marika, just North-East of the Minor Erdtree in East Limgrave. Go North of the Church and into the water to find the Waygate."]
+      - id: "6_2"
+        data: ["He wants Deathroot which can be found in 9 different locations. Give Deathroot to him and he will give various rewards."]
+      - id: "6_3"
+        data: ["After the 4th Deathroot, he will become hostile and must be hurt a little to get him to become friendly again (rot or poison makes this easy, just run outside after applying)."]
+      - id: "6_4"
+        data: ["Turn in all 9 Deathroot and he will leave."]
+      - id: "6_5"
+        data: ["Notes: All evidence points to him being Maliketh but even if you kill one, the other will still be alive"]
   -
     title: Hyetta
     link: "https://eldenring.wiki.fextralife.com/Hyetta"
     items:
-      - ["28_1", "Find Hyetta right at the start of Liurnia by the Lake-Facing Cliffs Site of Grace. She'll ask for a Shabriri Grape. If you went through Stormveil Castle rather than around it, you probably just found one - right before emerging into Liurnia, you pass through Godrick's elaborate throne room area, where a Ghost gives you one. (You can even go backwards into this building from the Liurnia side if you skipped Godrick.) Give this to her and she'll give you the As You Wish gesture."]
-      - ["28_2", "She'll next show up directly west of the Purified Ruins a little farther north into Liurnia. She'll ask for another Shabriri Grape. There's again one right nearby, in the Purified Ruins themselves, in a boarded up basement that you need to break into with a roll, an attack, or just by walking over it with Torrent. Give it to her and she'll again be grateful."]
-      - ["28_3", "Her next location is by the Gate Town Bridge Site of Grace. She wants, you guessed it, a Shabriri Grape. There's only one left, and this time, it's nowhere near here - it's all the way on the other side of the lake, roughly in a straight horizontal line from here toward west, at the Revenger's Shack, where you should receive one as a drop from NPC invader Edgar the Revenger. (Check the notes under Edgar's quest above for information about a reported bug that may impact this.)"]
-      - ["28_4", "Give Hyetta this third grape and she'll ask a dangerous question that by now you may have gleaned the answer to. Tell her the truth, and she'll react in horror, and you can listen to her vomit the grape back up as you walk away. Before you leave, rest at the nearby grace and then exhaust her dialogue again. She seems to have figured out something important thanks to you."]
-      - ["28_5", "You'll find her again at Bellum Church, even farther north into Liurnia. Surprisingly, she doesn't want another Shabriri Grape, as they aren't enough for her anymore. Now she wants a Fingerprint Grape. Thankfully this is nearby again, in the Church of Inhibition a bit to the east, where it'll drop from NPC invader Festering Fingerprint Vyke. Hand it over, and she'll devour it right in front of you, excitedly claiming she's sure now she'll fulfill her mission to become a Finger Maiden."]
-      - ["28_6", "Her final location is a very far distance from her tour of Liurnia so far: the Frenzied Flame Proscription Site of Grace. Her questline can only be completed at this stage by locking yourself into the Lord of Frenzied Flame ending of the game, so be forewarned. If you accept the flame from the Three Fingers, go talk to her about it and watch what happens. In the end, she'll give you the Frenzied Flame Seal."]
+      - id: "28_1"
+        data: ["After finishing Irina's questline, Hyetta will appear at the Lake-Facing Cliffs Grace at the start of Liurnia Lake. She'll ask you for a Shabriri Grape and there happens to be one nearby under the throne room of Stormveil Castle"]
+      - id: "28_2"
+        data: ["After giving her the first Shabriri Grape, appears at the shore of the Purified Ruins, just North of the Lake Facing Grace, asking for another grape. There is one in the Purified Ruins, at the bottom of a staircase hidden by wooden boards. Just roll on top of it and it will be revealed"]
+      - id: "28_3"
+        data: ["Next is Gate Town Bridge Grace to the North of Purified Ruins and she wants ANOTHER grape. The only remaining Shabriri Grape will be gotten from killing Edgar the Revenger at the Revenger's Shack on the West side of the lake."]
+      - id: "28_4"
+        data: ["Listen to her enjoy that tasty grape, then ruin her favorite food for her. Reload and she will have extra dialogue for you"]
+      - id: "28_5"
+        data: ["Her next location is at Bellum Church, far North-West of her previous location, North of the East Raya Lucaria Gate Grace. Her addiction has worsened and now she wants her dealer, you, to give her stronger stuff in the form of a Fingerprint Grape. Get her one. The only one in the game is gotten by killing Festering Fingerpring Vyke at the Church of Inhibition, at the top of the cliffs to the East (you'll have to make your way around the Eye of Sauron to get there)"]
+      - id: "28_6"
+        data: ["Her final location is in a hidden area underneath the Sewers of Leyndell. At the bottom of the Sewers is Mohg, The Omen. Hit his altar for a secret path. At the end of the secret path will be Hyetta. She will tell you to get naked, then once you open the doors and get finished with the Fingers, she'll want you to touch her this time and at the end she'll give you the Frenzied Flame Seal."]
+  -
+    title: Iji
+    items:
+      - id: "41_1"
+        data: ["First found next to the Road to the Manor Grace, South of Caria Manor in North-West Liurnia Lake. You can talk to him for dialogue and if you have already met and helped Blaidd kill Darriwill then he will offer the Carian Filigreed Crest talisman in his shop"]
+      - id: "41_2"
+        data: ["When joining Ranni at Ranni's Rise, you can talk to him as a spirit as Ranni's Rise, then talk to him again at his original location after joining for dialogue"]
+      - id: "41_3"
+        data: ["Talk to him after killing Radahn, reading the message at Mistwood Ruins and talking to Blaidd at Forlorn Hound's Evergaol for more dialogue"]
+      - id: "41_4"
+        data: ["Once again can be talked to for dialogue after getting the Fingerslayer Blade as well as after giving it to Ranni"]
+      - id: "41_5"
+        data: ["Can be talked to one more time after finishing Ranni's questline and killing Blaidd at Ranni's Rise. Tell him about Blaidd and reload in order to receive his helmet and bell bearing"]
   -
     title: Irina
     link: "https://eldenring.wiki.fextralife.com/Irina"
     items:
-      - ["25_1", "Irina sits beside the road right after the Bridge of Sacrifice as you enter the Weeping Peninsula. Exhaust her dialogue to learn that her father is in Castle Morne as she hands you Irina's Letter to give to him."]
-      - ["25_2", "Regardless of your actions, you can't reunite her with her father. As soon as you kill the Leonine Misbegotten and get the Grafted Blade Greatsword, the same prerequisite to convince her father to leave Castle Morne, she'll have randomly been murdered the next time you check on her, whether you got her father or not."]
-      - ["25_3", "Notes: Bummer."]
+      - id: "25_1"
+        data: ["Irina sits beside the road right after the Bridge of Sacrifice as you enter the Weeping Peninsula. Exhaust her dialogue to learn that her father, Edgar, is in Castle Morne as she hands you Irina's Letter to give to him."]
+      - id: "25_2"
+        data: ["Do Edgar's questline, or don't, then return to her after you've killed the boss Leonine Misbegotten in Castle Morne"]
+      - id: "25_3"
+        data: ["Notes: She must have some sort of relation to Hyetta given the character models, blindness, questline relation and even the Voice Actress match."]
   -
     title: Iron Fist Alexander
     link: "https://eldenring.wiki.fextralife.com/Iron+Fist+Alexander"
     items:
-      - ["32_1", "In northern Stormhill, just west of Saintsbridge, find Alexander in a bit of a predicament. Exhaust his dialogue, then hit him a few times until he pops out of the ground. You'll get a gesture unlock. Exhaust his dialogue again for some Exalted Flesh."]
-      - ["32_2", "From the small pond just north of the Third Church of Marika, continue directly north up one Spiritsong, then another. Northwest, you'll find the Rear Gael Tunnel Entrance, with a Site of Grace, and a befuddled Alexander. Chat with him for an idea of where his questline will lead."]
-      - ["32_3", "Do the Gael Tunnel dungeon, and just before the boss, unlock the one-way door back to Alexander. He hadn't even noticed the door was there, but he's grateful to you for opening up that dead end. How he'll fit through that very rectangular door is not an issue, apparently."]
-      - ["32_4", "Trigger the Radahn Festival. There are multiple ways to do this, including progressing Ranni's questline and taking the Grand Lift of Dectus, but you'll know it's started when you enter Redmane Castle and it's a ghost town."]
-      - ["32_5", "Perform the festival and defeat Scarscourge Radahn. You can talk to Alexander beforehand, and you should certainly exhaust his dialogue afterwards in the boss arena."]
-      - ["32_6", "Just south of Carian Study Hall in Liurnia, you'll hear him calling out to you again as he's once again gotten stuck. He needs to be slippery this time. Craft an Oil Pot and chuck it at him, or a Roped Oil Pot to drop on him. Exhaust his dialogue."]
-      - ["32_7", "At the Seethewater Terminus Site of Grace, he'll next be found in a lake of lava. Exhaust his dialogue from a safe position. He'll give you the Jar, a helmet that buffs your crafted throwing pots."]
-      - ["32_8", "Finally, in Crumbling Farum Azula, an imp statue needing two Stonesword Keys gates the way to the Dragon Temple Lift Site of Grace. Follow the path beyond until you find him. Grant him his warrior's death. You'll get two quite morbid items: Shard of Alexander, a talisman, and Alexander's Innards, a key item for Jar-Bairn."]
+      - id: "32_1"
+        data: ["In North Limgrave, on the cliffs above the Saintsbridge Grace, find Alexander and help him out and you'll get an emote and some Exalted Flesh"]
+      - id: "32_2"
+        data: ["From the Third Church of Marika, head North and use a couple Spiritjumps to get up the cliffs. Nearby, you'll find the Rear Gael Tunnel Entrance and Alexander. Talk to him for dialogue"]
+      - id: "32_3"
+        data: ["Defeat the Gael Tunnel dungeon starting from the Caelid side and unlock the door to Alexander and talk to him for more dialogue"]
+      - id: "32_4"
+        data: ["After reaching Altus Plateau or progressing Ranni's storyline far enough, the Festival will begin so go to Castle Redmane in South-East Caelid and you can talk to Alexander for some dialogue"]
+      - id: "32_5"
+        data: ["Kill Radahn and Alexander will have more dialogue in the boss arena"]
+      - id: "32_6"
+        data: ["On the cliffs above Carian Study Hall in Liurnia, you'll hear him calling out to you again as he's once again gotten stuck. He needs to be slippery this time. Craft an Oil Pot and chuck it at him, or a Roped Oil Pot to drop on him. Exhaust his dialogue."]
+      - id: "32_7"
+        data: ["At the Seethewater Terminus Site of Grace, he'll next be found in a lake of lava. Exhaust his dialogue from a safe position. He'll give you the Jar helmet, which buffs your crafted throwing pots."]
+      - id: "32_7_2"
+        data: ["WARNING: MAY BE REQUIRED that he be summoned to fight the Fire Giant at this point in order for his questline to continue."]
+      - id: "32_8"
+        data: ["Finally, in Crumbling Farum Azula, use two Stonesword Keys on the Imp Statue in the area past the Godskin Duo Bossfight to get to the Dragon Temple Lift Site of Grace. In the area beyond, Alexander will have dialogue and request a duel. Kill him for the Shard of Alexander talisman, and Alexander's Innards, a quest item for Jar-Bairn."]
+      - id: "32_9"
+        data: ["Summons"]
+      -
+        - id: "1"
+          data: ["Can be summoned to fight Radahn."]
+        - id: "2"
+          data: ["MIGHT be REQUIRED to summon for the Fire Giant to continue his quest."]
   -
     title: Jar-Bairn
     link: "https://eldenring.wiki.fextralife.com/Jar+Bairn"
     items:
-      - ["33_1", "The first part of this questline is the hardest: finding Jarburg at all. Head to the Artist's Shack in Liurnia. Wander south, just past the Carian Study Hall, to the cliffside on your east side. Find the spot with a whole bunch of stone platforms sticking out below you. Yup, you're really doing this. (Tip: you have more precise movement off horseback.)"]
-      - ["33_2", "Make it down the bottom to Jarburg. It's a haven of cute friendly pots, cracked pots, and valuable crafting materials, but you're looking for Jar-Bairn, a small pot fellow sitting on a stoop by the Site of Grace. Run back and forth between him and the Site of Grace a few times, exhausting his dialogue each time, until he finally doesn't have anything new to say after a rest."]
-      - ["33_3", "Once Diallos leaves Volcano Manor in his own questline, he'll come to Jarburg. Do the same loop as before: Exhaust their dialogue, reload the area, repeat. Each reload should progress things farther, and they may move around a bit. If it stalls, try passing time at the grace or warping away and back."]
-      - ["33_4", "After enough of that, Diallos will be dead. Consult Jar-Bairn."]
-      - ["33_5", "To finish this questline, you must have finished Alexander's. Give Alexander's Innards to Jar-Bairn. He'll see his destiny and set out to become just like his uncle. Reload one last time, and find the Companion Jar talisman he's left you."]
+      - id: "33_1"
+        data: ["The first part of this questline is the hardest: finding Jarburg at all. Head to the Artist's Shack in Liurnia. Wander south, just past the Carian Study Hall, to the cliffside on your east side. Find the spot with a whole bunch of stone platforms sticking out of the cliffs below and hop your way down. Remember, no horse for precise jumps and use the horse for far jumps."]
+      - id: "33_2"
+        data: ["Make it down the bottom to Jarburg. It's a haven of cute friendly pots, cracked pots, and valuable crafting materials, but you're looking for Jar-Bairn, a small pot fellow sitting on a stoop by the Site of Grace. Run back and forth between him and the Site of Grace a few times, exhausting his dialogue each time, until he finally doesn't have anything new to say after a rest."]
+      - id: "33_3"
+        data: ["Once Diallos leaves Volcano Manor in his own questline (Kill Rykard or finish the second mission), he'll come to Jarburg. Do the same loop as before: Exhaust their dialogue, reload the area, repeat. Each reload should progress things farther, and they may move around a bit."]
+      - id: "33_4"
+        data: ["After they start repeating, pass time until morning and Diallos will be dead. Talk to Jar-Bairn for dialogue."]
+      - id: "33_5"
+        data: ["To finish this questline, you must have finished Alexander's. Give Alexander's Innards to Jar-Bairn. He'll see his destiny and set out to become just like his uncle. Reload one last time, and find the Companion Jar talisman he's left you."]
+      - id: "33_6"
+        data: ["Jar-Bairn likes soft hands....."]
   -
     title: Kenneth Haight
     link: "https://eldenring.wiki.fextralife.com/Kenneth+Haight"
     items:
-      - ["30_1", "In Limgrave, part of the road between the Mistwood Outskirts and Third Church of Marika Sites of Grace is covered by toppled ruins, creating a sort of tunnel. On top you'll find Kenneth, dramatically staring into the middle distance. Entertain his classism until he asks a favor of you - he has a fort, Fort Haight in fact, in the southeast, and it's been taken over by knights of Stormveil. You see where this is going."]
-      - ["30_2", "Go to Fort Haight and kill the Godrick Knight at the top. There's plenty to find there, but killing the miniboss is all that matters for this questline."]
-      - ["30_3", "Go back to Kenneth. He'll give you the Erdsteel Dagger and ask you to pledge your service. Accept, and he'll plan a ceremony back at his fort."]
-      - ["30_4", "Meet him back at his fort to find the enemies here have changed, but it's still not exactly safe. Kenneth will be where the Godrick Knight was, and he'll tell you forlornly that he can't knight you yet. He needs a new Lord of Limgrave."]
-      - ["30_5", "Way, way, way later in the game, after killing Morgott the Omen King, if you've gotten Nepheli's questline far enough, he'll select her as this Lord. They'll show up in Godrick's Throne Room. Talk to Kenneth to complete the questline, where he'll talk proudly of Nepheli, and assure you that soon enough, he'll go back to his fort and knight you. One of these days."]
-      - ["30_6", "Notes: Unfortunately this Claude Frollo-looking ass is essential to Nepheli's questline's happy ending, but if you decide to kill him early, he'll drop a Golden Seed. The riches of the One Percent."]
+      - id: "30_1"
+        data: ["In Norht-East Limgrave, on top of a ruin just before reaching the Third Church of Marika. You'll hear him crying for help. Asks a favor of you, defeat the Stormveil Knight at the top of Fort Haight in the South-East."]
+      - id: "30_2"
+        data: ["Go to Fort Haight and kill the Knight at the top, he gives you the Ash of War: Bloody Slash"]
+      - id: "30_3"
+        data: ["Go back to Kenneth. He'll give you the Erdsteel Dagger and ask you to pledge your service. Accept, and he'll plan a ceremony back at his fort."]
+      - id: "30_4"
+        data: ["Meet him back at his fort, Kenneth will be where the Knight was, and he'll tell you forlornly that he can't knight you yet. He needs a new Lord of Limgrave."]
+      - id: "30_5"
+        data: ["Way, way, way later in the game, after killing Morgott the Omen King, if you've given Nepheli the Stormhawk King's Ashes, you can find them both in the Stormveil Throne Room."]
+      - id: "30_6"
+        data: ["Notes: Unfortunately this Claude Frollo-looking ass is essential to Nepheli's questline's happy ending, but if you decide to kill him early, he'll drop a Golden Seed. The riches of the One Percent."]
   -
     title: Latenna
     link: "https://eldenring.wiki.fextralife.com/Latenna"
     items:
-      - ["15_1", "South-East of where you found Albus, South of the Scenic Isle Grace you will find the Lakeside Crystal Cave. Go through the cave and you will find the Slumbering Wolf's Shack."]
-      - ["15_2", "Here you will find Latenna and her dead wolf, Lobo. If you haven't done Albus' quest, she will not say anything meaningful. After you've talked to Albus, she will be more friendly and will tell you where to find her half of the medallion as well as join you as Spirit Ashes."]
-      - ["15_3", "Much later you will get to the Mountaintops of the Giants. Go to the North section of this zone to Castle Sol and you will find the Haligtree Secret Medallion (Left) after killing the boss."]
-      - ["15_4", "Go back to the Grand Lift of Rold where you entered the Mountaintop of Giants and go to activate the medallion but don't activate it yet. When you get the option to use the medallion, click left or right until you see the option \"Use Medallion (Secret)\" and choose that one."]
-      - ["15_5", "Go through the Hidden Path to the Haligtree into the Consecrated Snowfield then head to the Northwest to the Apostate Derelict. Near the NPC will be a Summon interaction which will summon Latenna. She will reward you with a Somber Ancient Dragon Smithing Stone."]
-      - ["15_6", "Notes: Asks you to bury her beside Lobo when everything is done. Can this be done after killing final boss?"]
+      - id: "15_1"
+        data: ["South of the Scenic Isle Grace in South-East Liurnia Lake, you will find the Lakeside Crystal Cave. Go through the cave and you will find the Slumbering Wolf's Shack and Latenna."]
+      - id: "15_2"
+        data: ["If you haven't done Albus' quest, she will not say anything meaningful. After you've talked to Albus, she will be more friendly and will tell you where to find her half of the medallion as well as join you as Spirit Ashes."]
+      - id: "15_3"
+        data: ["Go to Castle Sol in North Mountaintops of the Giants and you will find the Haligtree Secret Medallion (Left) after killing the boss."]
+      - id: "15_4"
+        data: ["Go back to the Grand Lift of Rold where you entered the Mountaintop of Giants and go to where you activated the medallion but don't activate it. When you get the option to use the medallion, click left or right until you see the option \"Use Medallion (Secret)\" and choose that one."]
+      - id: "15_5"
+        data: ["Once in the Consecrated Snowfield, head to the Apostate Derelict in the North-West. Near the NPC will be a Summon interaction which will summon Latenna. She will reward you with a Somber Ancient Dragon Smithing Stone."]
+      - id: "15_6"
+        data: ["Notes: Asks you to bury her beside Lobo when everything is done....This can't be done T.T"]
   -
-    title: Millicent and Gowry
+    title: Melina
+    items:
+      - id: "42_1"
+        data: ["First talked to after resting at 3 overworld Graces. If you accept her offer, you will be able to level up and will also receive Tempest. Can be talked to at the Grace afterwards"]
+      - id: "42_2"
+        data: ["After resting at any Grace outside of Limgrave and Weeping Peninsula, she will appear and offer to take you to Roundtable Hold"]
+      - id: "42_3"
+        data: ["Can be talked to at various Graces throughout the game"]
+      -
+        - id: "1"
+          data: ["Talked to Third Church of Marika Grace in North-East Limgrave"]
+        - id: "2"
+          data: ["Talked to at Church of Pilgrimage Grace in North Weeping Peninsula"]
+        - id: "3"
+          data: ["Talked to at Grand Lift of Dectus Grace in North-East Liurnia Lake"]
+        - id: "4"
+          data: ["Talked to at any Altus Plateau Grace"]
+        - id: "5"
+          data: ["If progressed in Boc's questline, can be talked to at Altus Highway Junction Grace, next to Boc for dialogue about him"]
+        - id: "6"
+          data: ["Talked to at any Grace within the outer walls of Leyndell"]
+        - id: "7"
+          data: ["Talked to at the Minor Erdtree Church, within the outer walls South-West of Leyndell"]
+      - id: "42_4"
+        data: ["She will leave when resting at any Grace in Leyndell. Defeat Morgott, The Omen King and she will return"]
+      - id: "42_5"
+        data: ["Can be talked to at various Graces after this point"]
+      -
+        - id: "1"
+          data: ["Talked to at the Queen's Bedchamber Grace in Leyndell before the Morgott bossfight"]
+        - id: "2"
+          data: ["Talked to at any Grace after talking with Enia about burning the Erdtree"]
+        - id: "3"
+          data: ["Talked to at any Grace after meeting Shabriri"]
+        - id: "4"
+          data: ["Talked to at Frenzied Flame Proscription Grace at the very very bottom of Leyndell Sewers"]
+        - id: "5"
+          data: ["WARNING!!! Will leave for good if you get the Frenzied Flame and rest at any Grace"]
+        - id: "6"
+          data: ["Talked to at the First Church of Marika Grace in East Mountaintops of the Giants"]
+        - id: "7"
+          data: ["Talked to at Giant's Gravepost Grace in South-East Mountaintops of the Giants"]
+      - id: "42_6"
+        data: ["When resting at the Forge of the Giants Grace, her questline ends"]
+  -
+    title: Millicent/Gowry
     link: "https://eldenring.wiki.fextralife.com/Millicent"
     items:
-      - ["31_1", "To kick off the questline for these intertwined characters, find Gowry at Gowry's Shack in Caelid just east of the swamp. He's desperate to help a girl named Millicent, and in exchange for helping him, he offers to explain how the puzzle of nearby Sellia works. He tells you to seek an Unalloyed Gold Needle in the heart of the swamp."]
-      - ["31_2", "Unfortunately that needle is carried by a boss. Defeat Commander O'Neil, who drops it upon death. You may notice that it's snapped in two."]
-      - ["31_3", "Return to Gowry and give him the needle, and he'll give you a note called Sellia's Secret. He requests time to fix the needle, so quit out and reload, or rest at a site of grace and come back. He hands it back, repaired, and tells you to go save Millicent. He explains their relation."]
-      - ["31_4", "Head to the Church of the Plague a bit farther east and up a cliff (it may be easier to start from Fort Faroth). Inside, in addition to a Sacred Tear, is a wimpering Millicent, dying of Scarlet Rot. Give her the needle and suffer through a disturbing few moments as she stabs herself with the needle and leaves it inside her, while the screen thankfully cuts to black. Your vision will return just in time to watch her faint, but rest at the Site of Grace and she'll suddenly be standing, feeling much better. Exhaust her dialogue for the Prosthesis-Wearer Heirloom."]
-      - ["31_5", "Head back to Gowry's Shack (it's much easier to get there by warping to the center of the swamp than by trying to scale down the cliff outside the church). Instead of Gowry, you'll find Millicent again, trying to remember why she came here. Exhaust her dialogue."]
-      - ["31_6", "Reload the area yet again, in which time she'll leave and Gowry will come back. Exhaust his dialogue as well. In addition to some more family lore, he's now a vendor for a few Sorceries."]
-      - ["31_7", "The quest continues in the Altus Plateau, just up the hill from the Erdtree-Gazing Hill Site of Grace. (She won't be marked on your map to help you find her, but she will after you talk to her.) Exhaust her dialogue; she's doing well, but she misses being helpful in a fight and is struggling to adapt to life without her sword arm."]
-      - ["31_8", "Head to the northern tip of the Altus Plateau to find a small legacy dungeon, the Shaded Castle. You don't have to beat the dungeon or get anywhere near the boss, but find a chest guarded by a Cleanrot Knight on the northwestern rampart (you have to do some snaking around and platforming to get there) and loot it for the Valkyrie's Prothesis."]
-      - ["31_9", "Bring the prothesis back to Millicent and hand it over. Exhaust her dialogue."]
-      - ["31_10", "A new spell, Pest Threads, is now available from Gowry. Buy it and get a new gesture and some lore about the two of them, plus Malenia, who unsurprisingly is wrapped up in this storyline."]
+      - id: "31_1"
+        data: ["Find Gowry at Gowry's Shack just east of the swamp in Caelid. He tells you to seek an Unalloyed Gold Needle in the heart of the swamp."]
+      - id: "31_2"
+        data: ["Defeat Commander O'Neil, in the South-East section of the swamp for the needle."]
+      - id: "31_3"
+        data: ["Return to Gowry, give him the needle and he'll tell youSellia's Secret. Reload the area and he hands it back and tells you to go save Millicent"]
+      - id: "31_4"
+        data: ["Head to the Church of the Plague, past the sealed doorway in Sellia or South of Fort Faroth (if you start in Dragonsarrow). Inside is Millicent so give her the needle and rest at the Grace and talk to her again for the Prosthesis-Wearer Heirloom."]
+      - id: "31_5"
+        data: ["Head back to Gowry's Shack and talk to Millicent again"]
+      - id: "31_6"
+        data: ["Reload and talk to Gowry and he will thank you by selling you sorceries"]
+      - id: "31_7"
+        data: ["Go to Erdtree-Gazing Hill Grace in South-West Altus Plateau and talk to Millicent for dialogue"]
+      - id: "31_8"
+        data: ["Go to Shaded Castle in North Altus Plateau and get the Valkyrie's Prothesis from the chest guarded by a Cleanrot Knight."]
+      - id: "31_9"
+        data: ["Bring the prothesis back to Millicent and hand it over"]
+      - id: "31_10"
+        data: ["You can now get Pest Threads and dialogue from Gowry as well as a gesture if you buy Pest Threads."]
       -
-          - ["1", "If you'd like an even clearer picture of what's going on with Gowry, hit him. He'll die, and you'll see what he's hiding. Then rest and come back, and he'll have respawned, good as new and not even mad. He may not respawn if you've killed Millicent early - unclear."]
-      - ["31_11", "East of the Shaded Castle, find Windmill Village, and defeat the Godskin Apostle boss. Summon Millicent for the fight if you like."]
-      - ["31_12", "Rest and go a bit down the hill to find Millicent. Exhaust her dialogue. She's very grateful for the new arm."]
-      - ["31_13", "Find her again in Mountaintops of the Giants at the Ancient Snow Valley Ruins Site of Grace. Exhaust her dialogue for a hint about where she'll move next, and what you need to do to get there yourself."]
-      - ["31_14", "Her next location is a secret area within a secret area within a secret area, so buckle up. You'll first need the Haligtree Secret Medallion - refer to Albus and Latenna's questlines for a description of how to get the two medallion halves and reach the Consecrated Snowfield. Make the journey."]
-      - ["31_15", "From there, go far north to Ordina, Liturgical Town, and find the imp pedestal prompting you to light four figures for yet another secret location. Very similarly to the Sellia puzzle that Gowry helped you solve earlier, you must light four statue sconces around Ordina. Once complete, you can enter the evergaol, which takes you to the Haligtree."]
-      - ["31_16", "Progress through the remarkably difficult Haligtree area and beat the boss at the end, Loretta. This opens a fog door to the north, unlocking a path that takes you to a lift to Elphael, Brace of the Haligtree."]
-      - ["31_17", "At the Prayer Room Site of Grace at the beginning of Elphael, you'll finally find Millicent again. Exhaust her dialogue."]
-      - ["31_18", "Later in Elphael, you'll fight an Ulcerated Tree Spirit miniboss and reach the Drainage Channel Site of Grace. Once you do, go back to where you fought that miniboss to find two summon signs on the ground - red and gold. As you may predict, there are two endings to this questline."]
-      - ["31_19", "Before you pick, pop in on Gowry one last time. You'll find him crying, still in his shack. Exhaust his dialogue - he demands that you betray Millicent's trust in you and kill her, as such a severe betrayal would contribute weightily to the blossoming of the Scarlet Rot he worships."]
-      - ["31_20", "Time to choose."]
+        - id: "1"
+          data: ["If you'd like an even clearer picture of what's going on with Gowry, hit him. He'll die, and you'll see what he's hiding. Then rest and come back, and he'll have respawned, good as new and not even mad. He may not respawn if you've killed Millicent early - unclear."]
+      - id: "31_11"
+        data: ["Go to Windmill Village in North-East Altus Plateau and defeat the Godskin Apostle."]
+      - id: "31_12"
+        data: ["Rest at the Grace and you'll find Millicent nearby"]
+      - id: "31_13"
+        data: ["Talk to Millicent again near Ancient Snow Valley Ruins Grace in Mountaintops of the Giants for dialogue"]
+      - id: "31_15"
+        data: ["Get the Haligtree Medallion from Albus and Latenna's questlines and go to Ordina, Liturgical Town, in North Consecrated Snowfield and solve the puzzle of the Imp Statue. Afterwards, go up the stairs near the statue to reach the Haligtree."]
+      - id: "31_17"
+        data: ["Proceed until you reach the Prayer Room Site of Grace and talk to Millicent"]
+      - id: "31_18"
+        data: ["Just before the Drainage Channel Grace is an Ulcerated Tree Spirit, kill it and reload to find two summon signs. The Red Invades Millicent and the Gold helps her."]
+      - id: "31_19"
+        data: ["Before choosing, talk to Gowry for dialogue."]
+      - id: "31_20"
+        data: ["Time to choose."]
       -
-          - ["1", "If you choose the red summon sign, you'll spawn in alongside her combatants and kill Millicent. From her, you'll receive Millicent's Prothesis, a talisman. Go back to Gowry's Shack, and he'll properly be dead as well, giving you the Flock's Canvas Talisman and his bell bearing."]
-          - ["2", "If you use the gold summon sign, you'll spawn in to help her against the four sisters coming for her. Once you win, return to where the summon signs were to find her in person, lying by the pool of rot below. Be very careful dropping down to her - if you land on her, she'll die. Exhaust her dialogue, reload the area and return once more, and you'll get back the Unalloyed Gold Needle, which you can use on a flower in Malenia's boss arena to create a Somber Ancient Dragon Smithing Stone and Miquella's Needle, an item relevant to endings of the game. Gowry will remain alive. Before patch 1.03, a bug caused him to continue respawning infinitely in this ending of the questline, making the Flock's Canvas Talisman unobtainable, but this bug is now reportedly fixed - find out for sure by killing him."]
+        - id: "1"
+          data: ["If you choose the Red summon sign, you'll invade and kill Millicent. From her, you'll receive Millicent's Prothesis. Go back to Gowry's Shack, and he'll be dead as well, giving you the Flock's Canvas Talisman and his bell bearing."]
+        - id: "2"
+          data: ["If you use the Gold summon sign, you'll help her fight her invaders. Once you win, return to where the summon signs were to find her lying by the pool of rot. Be very careful dropping down to her, if you land on her, she'll die. Exhaust her dialogue for the Rotten Winged Sword Insignia then reload the area to get back the Unalloyed Gold Needle, which you can use on a flower in Malenia's boss arena for Somber Ancient Dragon Smithing Stone and Miquella's Needle, which is needed to cure yourself of the Frenzied Flame. Gowry will remain alive, kill him for his stuff"]
+      - id: "31_21"
+        data: ["Summons"]
+      -
+        - id: "1"
+          data: ["Can be summoned to fight the Magma Wyrm Makar"]
+        - id: "2"
+          data: ["Can be summoned to fight the Godskin Apostle in Windmill Village"]
+        - id: "3"
+          data: ["Can be summoned to fight the Dragonic Tree Sentinel guarding Leyndell"]
+        - id: "4"
+          data: ["Can be summoned to fight the Black Blade Kindred just before the Grand Lift of Rold"]
   -
     title: Miriel, Pastor of Vows
     link: "https://eldenring.wiki.fextralife.com/Miriel+Pastor+of+Vows"
     items:
-      - ["5_1", "Located at the Church of Vows on the east side of Liurnia Lake. Teaches sorceries and incantations, and accepts scrolls and prayerbooks. Never moves or dies, so is a good candidate to give them all to."]
-      - ["5_3", "Can tell you lore regarding Radagon and Rennala. Once you find your first Celestial Dew, he'll explain to you how absolution works. No proper developments to his questline have been confirmed."]
+      - id: "5_1"
+        data: ["Located at the Church of Vows in East Liurnia Lake. Teaches sorceries and incantations, and accepts scrolls and prayerbooks. Never moves or dies, unless you're the worst kind of person, so is a good candidate to give them all to."]
+      - id: "5_2"
+        data: ["Gives you the hint needed for Brother Corhyn and Goldmasks questline in Leyndell"]
+      - id: "5_3"
+        data: ["Notes: Can tell you lore regarding Radagon and Rennala. Once you find your first Celestial Dew, he'll explain to you how absolution works. No proper developments to his questline have been confirmed."]
 
   -
     title: Nepheli Loux
     link: "https://eldenring.wiki.fextralife.com/Nepheli+Loux"
     items:
-      - ["17_1", "Found outside and down the path going towards Stormveil's Main Gate from the Secluded Cell Grace outside the boss room. Go from the Grace towards the Main Gate and she will be in a side room on the way. She can then be summoned for Godrick the Grafted boss fight."]
-      - ["17_2", "After killing Godrick, she appears in Roundtable Hold just before the Twin Maiden Husks and gives you the Arsenal Charm."]
-      - ["17_3", "Can then be found just outside the Village of the Albinaurics South-West from Folly on the Lake Grace in the South section of Liurnia Lake. Talk to her then kill the nearby boss Omenkiller."]
-      - ["17_4", "Return to the Roundtable Hold. Talk to her downstairs past Hewg, then talk to Gideon to find out why she's upset. You now have a chance to end her questline early in exchange for the ability to summon her as a Spirit Ash."]
+      - id: "17_1"
+        data: ["Found outside and down the path going towards Stormveil's Main Gate from the Secluded Cell Grace outside the boss room. Go from the Grace towards the Main Gate and she will be in a side room on the way"]
+      - id: "17_2"
+        data: ["After killing Godrick, she appears in Roundtable Hold just before the Twin Maiden Husks and gives you the Arsenal Charm."]
+      - id: "17_3"
+        data: ["Next found just outside the Village of the Albinaurics South-West from Folly on the Lake Grace in the South section of Liurnia Lake. Talk to her then kill the nearby boss Omenkiller."]
+      - id: "17_4"
+        data: ["Return to the Roundtable Hold. Talk to her downstairs past Hewg, then talk to Gideon to find out why she's upset"]
       -
-        - ["1", "If you have been doing Seluvis's questline, you'll have a potion for her, and now would be the time. Return to Nepheli and give her the potion if you want. She'll die and appear in Seluvis's puppet room, and her questline is cut short. After his death, you can get the Nepheli Loux Puppet, a Spirit Ash."]
-        - ["2", "If you don't have a potion from Seluvis, her questline continues. Even if you do, you can mention it to Gideon here, who'll give you a chance to let him dispose of the potion without giving it to anyone. You'll lose the chance to have a summonable Nepheli or Dung Eater, but they get to live."]
-      - ["17_6", "If you let Nepheli live, still go talk to her again - now that you know why she's upset, you can tell her that and she'll open up."]
-      - ["17_7", "To continue to progress, you must have gotten Roderika's questline far enough that she's a Spirit Tuner. You'll also need a Key item called Stormhawk King. Go to the Four-Belfries in western Liurnia. There you will find 3 locked Waygates and a single Imbued Sword Key. Use it on the Gate that mentions Anticipation. (If you've used the key already on a different Gate, there are two more to find for the other Gates, one in Raya Lucaria and one in Sellia, Town of Sorcery.) This will return you to where the game started. Go through the area, get your revenge, and find the Stormhawk King around the chapel where you first spawned. You'll notice it looks like a Spirit Ash, but it \"refuses to answer anyone's summons.\""]
-      - ["17_8", "Give the Stormhawk King to Nepheli. She can't do anything with it, but she'll be reminded of her first hawk and find some hope again."]
-      - ["17_9", "Make sure you've gotten Kenneth's questline far enough that he's standing around in Fort Haight, intending to search for a new Lord of Limgrave. If you have, you're done for now until you beat Morgott, the Omen King."]
-      - ["17_10", "Head back to Godrick's throne room after beating Morgott. It's just past the Site of Grace he left behind back in Stormveil. Getting the next step to trigger can be a bit buggy, and you may need to rest at the grace a couple times while you're here. Eventually, Nepheli, Kenneth, and Gatekeeper Gostoc should all appear in the throne room. Kenneth has evidently found his Lord of Limgrave, and Nepheli will gift you an Ancient Dragon Smithing Stone in thanks for getting her this far."]
+        - id: "1"
+          data: ["If you have been doing Seluvis's questline, you'll have a potion for her, and now would be the time. Return to Nepheli and give her the potion if you want. She'll die and appear in Seluvis's puppet room, and her questline is cut short. After his death, you can get the Nepheli Loux Puppet, a Spirit Ash."]
+        - id: "2"
+          data: ["If you don't have a potion from Seluvis, her questline continues. Even if you do, you can mention it to Gideon here, who'll give you a chance to let him dispose of the potion without giving it to anyone. You'll lose the chance to have a summonable Nepheli or Dung Eater, but Nepheli will get to live."]
+        - id: "3"
+          data: ["You can wait and give potion to Dung Eater to get the Dung Eater Puppet Spirit Ash and then continue Nepheli's Quest afterwards"]
+      - id: "17_6"
+        data: ["If Nepheli still lives, talk to her again for more dialogue."]
+      - id: "17_7"
+        data: ["Go to the Four-Belfries in West Liurnia Lake and go through the Waygate labelled Anticipation. At the end of the zone you're brought to will be the Stormhawk King's Ashes. With them in hand, progress Roderika's questline to where she is a Spirit Tuner and upgrade any Spirit Ash to +4 so you can do the next step."]
+      - id: "17_8"
+        data: ["Give the Stormhawk King to Nepheli for dialogue and start the end of her questline"]
+      - id: "17_9"
+        data: ["Make sure you've finished Kenneth Haight's questline and then kill Morgott, the Omen King in Leyndell"]
+      - id: "17_10"
+        data: ["Head back to Stormveil's Throne Room and Nepheli will gift you an Ancient Dragon Smithing Stone. You can also buy another Ancient Dragon Smithing Stone from Gostoc if he is still alive."]
+      - id: "17_11"
+        data: ["Summons:"]
+      -
+        - id: "1"
+          data: ["Can be summoned to fight against Godrick the Grafted in Stormveil Castle"]
+        - id: "2"
+          data: ["Can be summoned to fight against the Omenkiller in Village of the Albinaurics"]
+        - id: "3"
+          data: ["Can be summoned to fight Godfrey, First Elden Lord in Capital of Ash"]
   -
     title: Patches the Untethered
     link: "https://eldenring.wiki.fextralife.com/Patches"
     items:
-      - ["29_1", "You'll first encounter this iconic FromSoft NPC in Murkwater Cave. As you step into what looks like it should be a boss arena, but instead has an ominously unguarded chest in the middle of it, you'd be right to be wary. Open that chest and get ambushed by Patches, boss bar and all, as he attacks you for stealing from him. Get his health down to about half, and he'll immediately drop to his knees and surrender, which you can \"accept\" by not attacking for a few seconds. This gives you a few Rune items and the gesture he's doing. Exhaust his dialogue."]
-      - ["29_2", "Rest and make your way back to his room to find his shop up and running, where he sells some good stuff, including a valuable cookbook. There's also a new chest in the room you can ask him about. He'll warn you not to steal. Open it anyway for a laugh; you'll get caught in a teleporter trap that uniquely you can't roll away from, and he'll laugh at you as you get taken deep into Mistwood Ruins surrounded by a bunch of huge bears. Have fun."]
-      - ["29_8", "Head back to his location again and he'll belittle your harrowing experience, giving you another gesture as well."]
-      - ["29_9", "Still in Murkwater Cave, while he's sitting there in front of you, a humble merchant, give in to your desires and start wailing on him again. Aggro him, but this time, let him whittle down your health rather than the other way around. He'll recognize the parallel and give you yet another gesture, one of Extreme Repentance, and tell you to use it; if you do, the fight will again end and all will be well."]
-      - ["29_3", "Once in Liurnia, he'll set up at the Scenic Isle Site of Grace. He'll give you a piece of advice if you ask - he'll inform you about an Iron Virgin deep at the bottom of the water wheel in Raya Lucaria, and he claims that if you let it kill you by trapping you in its chest, it'll transport you right to the base of the Erdtree."]
-      -
-          - ["1", "Feel free to give it a shot while you're in Raya Lucaria. There is indeed a lone Iron Virgin where he says it'll be, and it will indeed transport you if you die to its grab attack, though you may end up somewhere a bit less idyllic than he claims."]
-      - ["29_10", "Whenever you fight Scarscourge Radahn, feel free to summon Patches to help out. He'll spawn in and then immediately dip out."]
-      - ["29_4", "Missable: His next new location is near the First Mt. Gelmir Campfire Site of Grace. Follow the cliff edge westward until you reach the corner, and you may find a message he's left for unsuspecting wanderers, as well as a trail of Rainbow Stones. You can find him nearby, squatting in a bush. He'll tell you he's not doing anything suspicious (clearly), but that even so, you should totally check out what those Rainbow Stones are leading to. In true Patches fashion, it's time to wander to a tall ledge and let the cutscene play out. Note how he proclaims you'll never join Volcano Manor - if you join Volcano Manor before this interaction, you'll miss it entirely, and it'd be such a shame to miss Patches doing what he does best."]
-      - ["29_5", "Once you do join Volcano Manor, you'll find him inside. He's surprised to see you, but he reopens his shop to you."]
-      - ["29_6", "After you do any assassination request for Volcano Manor, he'll give you one himself with the Letter to Patches. Kill the target and return to him, and he'll tell you he needs to report back to Tanith. Rest and talk to him again, and he'll bitterly reward you with the Magma Whip Candlestick. He'll stay there until you beat the boss."]
-      - ["29_7", "You'll last find him before the boss of the Shaded Castle. He'll give you the Dancer's Castanets. Weirdly, if you do even a single point of damage to him here, he'll simply die. If you don't and you reload the area, he'll be gone, possibly dead anyway."]
+      - id: "29_9"
+        data: ["First found in Murkwater Cavern as the boss. Knock him down to half health and he will surrender. Stop attacking him for a gesture then, before talking to him, hit him again (don't kill him). Let him knock YOU to half health and then he will give you another gesture. Use it to surrender then talk to him for dialogue."]
+      - id: "29_2"
+        data: ["Reload and talk to him again for some dialogue and buy some stuff from him. Reload and come back and he will offer you his chest, open it for a fun time."]
+      - id: "29_8"
+        data: ["Make your way back to him and he'll give you another gesture (Note: he won't give the gesture if you've been to Liurnia Lake)"]
+      - id: "29_3"
+        data: ["He'll next be found at the Scenic Isle Grace in Liurnia Lake and will inform you about an Iron Virgin deep at the bottom of Raya Lucaria that will teleport you to the Erdtree if you let it eat you"]
+      - id: "29_4"
+        data: ["Missable: His next new location is near the First Mt. Gelmir Campfire Site of Grace. Follow the cliff edge westward until you reach the corner, and read the message he's left. You can find him nearby, squatting in a bush. He'll say you should totally check out what those Rainbow Stones are leading to. Wander over, with your back turned and your defenses lowered, to the tall ledge"]
+      - id: "29_5"
+        data: ["Once you join Volcano Manor, you'll find him inside"]
+      - id: "29_6"
+        data: ["After you do any request for Volcano Manor, he'll have a request for you. Kill Great-Horned Tragoth and return to Patches. Talk to Tanith and return to Patches for the Magma Whip Candlestick"]
+      - id: "29_7"
+        data: ["After killing the boss of Volcano Manor, Patches will leave and will reappear outside of the Shaded Castle Boss fight. Talk to him for Dancer's Castanets and give them to Tanith in Rykard's Bossroom."]
+      - id: "29_10"
+        data: ["His questline ends with him in Murkwater Cave. Rough him up and accept his surrender for Patches Crouch"]
+      - id: "29_11"
+        data: ["Summons: Can be summoned to fight against Radahn"]
   -
     title: Pidia
     link: "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant"
     items:
-      - ["18_1", "East of Ranni's Rise, North-East of Seluvis' Tower, jump off the cliff on to the ramparts of Carian Manor. Make your way through this path and you will find Pidia inside the building where the Manor Lower Level Grace is located, but above it where you couldn't reach before."]
-      - ["18_2", "Becomes a merchant for you. Return after Seluvis' death and you will find him being murdered by his own puppets. By the time you arrive, he is dead. Has Dolores the Sleeping Arrow Puppet to loot."]
-      - ["18_3", "Notes: Pitiful Pidia."]
+      - id: "18_1"
+        data: ["East of Ranni's Rise, North-East of Seluvis' Tower, jump off the cliff on to the ramparts of Carian Manor. Make your way through this path and you will find Pidia inside the building where the Manor Lower Level Grace is located, but above it where you couldn't reach before."]
+      - id: "18_2"
+        data: ["Becomes a merchant for you. Return after Seluvis' death and he will be dead as well with a puppet on his body"]
+      - id: "18_3"
+        data: ["Notes: Pitiful Pidia."]
+  -
+    title: Ranni
+    items:
+      - id: "37_1"
+        data: ["First met as Renna in the Church of Elleh at night after obtaining Tempest. Gives you the Spiritcaller's Bell and the Lone Wolf Ashes"]
+      - id: "37_2"
+        data: ["Next met it Ranni's Rise, past Caria Manor in North-West Liurnia Lake. Talk to her and join her cause (if you're helping Rogier, you will have to talk to him again after getting rejected by her to join her cause)"]
+      - id: "37_3"
+        data: ["Kill Radahn then head into the Crater formed in the South-East section of the forest in Limgrave and once you've travelled to the underground forest, take the path South to get the Fingerslayer Blade"]
+      - id: "37_4"
+        data: ["Take the blade back to Ranni and then reload and go to Renna's Rise, North of Ranni's Rise. Enter the Waygate there to reach Ainsel River Well Main"]
+      - id: "37_5"
+        data: ["Grab the doll from the coffin nearby and talk to it at the nearby Grace 3 times for a quest. Continue through the path to the Rot Lake to fight a Shadowy version of Blaidd. Kill it for the key to the chest in Raya Lucaria's boss room"]
+      - id: "37_6"
+        data: ["Go to the Raya Lucaria bossroom and open the chest for a ring then head back to Ainsel River Main and make your way past the Rot Lake and use the coffin at the cliff's edge after going down"]
+      - id: "37_7"
+        data: ["Kill Astel, Naturalborn of the Void and go past the seal (the ring is what lets you past it) and head up to the Moonlight Altar"]
+      - id: "37_8"
+        data: ["Head North to the Cathedral of Manus Celes and talk to Ranni to receive the Dark Moon Greatsword and finish Ranni's questline"]
   -
     title: Roderika
     link: "https://eldenring.wiki.fextralife.com/Roderika"
     items:
-      - ["1_1", "Meet Roderika at the Stormhill Shack just outside of Stormveil Castle. Talk to her multiple times and go into Stormveil Castle."]
-      - ["1_2", "Find the Chrysalid's Memento deep in the castle on a pile of corpses nearby a Mini-Boss Grafted Scion that looks like the boss in the Tutorial. Return the Memento to Roderika."]
-      - ["1_4", "After unlocking Roundtable Hold, talk to Roderika until she gives you a Golden Seed. (If you killed Godrick before giving her the Chrysalid's Memento, you'll never have another chance to give it to her as she'll never talk about it again, but it doesn't change the functional progression of her questline. Instead of getting the Golden Seed from her, you can find it in Stormhill Shack where she once was.)"]
-      - ["1_3", "Talk to Roderika and Smithing Master Hewg back and forth multiple times, resting at the table when progression stalls, until Hewg takes Roderika as an apprentice. You can find her sitting in the same hall as him as a Spirit Tuner."]
-      - ["1_5", "Go back to where you found the Memento for a Crimson Hood."]
-      - ["1_7", "If you use her Spirit Tuning services, eventually she will gain confidence and give you the Curtsy gesture."]
-      - ["1_8", "After the Erdtree burns, she'll move to the Hold's fireplace and beg you to convince Hewg to leave the Hold with her entirely. You won't be able to, but you can tell that to her for more dialogue."]
-      - ["1_6", "Notes: End?"]
+      - id: "1_1"
+        data: ["Meet Roderika at the Stormhill Shack just outside of Stormveil Castle. Talk to her a few times for the Jellyfish Spirit Ash, an emote, and a quest."]
+      - id: "1_2"
+        data: ["Find the Chrysalid's Memento deep in the castle on a pile of corpses nearby a Grafted Scion that looks like the boss in the Tutorial. Return the Memento to Roderika."]
+      - id: "1_4"
+        data: ["After unlocking Roundtable Hold, talk to Roderika until she gives you a Golden Seed. (If you killed Godrick before giving her the Chrysalid's Memento, the Golden Seed will be at the Stormhill Shack)"]
+      - id: "1_3"
+        data: ["Talk to Roderika and Smithing Master Hewg back and forth multiple times for all dialogue and when you return, Roderika will be a Spirit Tuner"]
+      - id: "1_5"
+        data: ["Go back to where you found the Memento for a Crimson Hood."]
+      - id: "1_7"
+        data: ["If you upgrade a Spirit Ash to +4, reload and talk to her, you will get the Curtsy gesture."]
+      - id: "1_8"
+        data: ["She will have various bits of dialogue for you when Dung Eater appears, disappears, you get to Crumbling Farum Azula, and you get to Capital of Ash."]
+      - id: "1_6"
+        data: ["Notes: End?"]
   -
-    title: "Seluvis - Multiple Choice:"
-    link: "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis"
-    items:
-      - ["19_1", "First encountered during Ranni's questline as a spirit. To do this, go through Caria Manor in northwest Liurnia and go northwest of that to get to Ranni's Rise. Talk to Ranni and join her (if you already are helping Rogier, you'll have to go back to him then come back to join her)"]
-      - ["19_2", "After joining her go downstairs and talk to the spirits, one of whom is Seluvis, then back upstairs to Ranni. DO NOT give the Fingerslayer Blade to Ranni. Once you do, Seluvis dies."]
-      - ["19_3", "Seluvis can now be found in his tower southeast of Ranni's Rise. He will give you a potion to turn someone into a puppet, and he'll ask you to give it to Nepheli, but there are other options for it as well. You can't buy anything from him until you use it. The choice is here."]
-      -
-        - ["1", "If you give it to Nepheli, you will make Seluvis happy and get the Nepheli Loux Puppet later from his dead body."]
-        - ["3", "If you give it to Dung Eater at the end of his questline instead of the Seedbed Curse, then you can buy a Dung Eater Puppet from Seluvis."]
-        - ["2", "If you give it to Gideon, he'll dispose of it. Seluvis doesn't find out, no one is killed by it, and the questline still advances, though you won't get a fancy puppet of one of your friends."]
-      - ["19_9", "After you've made your choice, return to Seluvis. No matter what you did with it, he'll think you gave it to Nepheli and be pleased. He now sells Sorceries. You can ask him questions as well. If you didn't give the potion to Nepheli, he'll have a dialogue where he's confused that Nepheli is still alive, but blames it on his potion rather than doubt your actions."]
-      - ["19_4", "Go North of his tower, into the ruins, and find an Illusory Floor in one that leads down to a room full of Seluvis' Puppets. Roll into the door in the back to reveal an Illusory Wall. Go back to Seluvis and bring up the room, and he will give you a free puppet. Rest and return, and he'll let you buy the other one with Starlight Shards."]
-      - ["19_5", "After you buy all Sorceries and puppets, he will let you in on his scheme. He wants you to find the Amber Starlight Shard located North-East of the Atlus Highway Junction Grace, North-East of the Grand Lift of Dectus, in a canyon filled with Krakens."]
-      - ["19_6", "Bring the Amber Starlight Shard and give it to him. Exhaust his dialogue to receive the Magic Scorpion Charm and a promise that he'll reveal his scheme imminently."]
-      - ["19_10", "Rest and return. He will give you a potion to give to Ranni. If you do it, then she will wake up angry at you, then kill you and Seluvis. Seluvis also dies after giving the Fingerslayer Blade to Ranni and continuing her quest."]
-      - ["19_7", "If you give the potion to Ranni and make her mad, you can absolve yourself at the Church of Vows to fix her questline, but I recommend just not giving her the potion. After his death his corpse will sell you puppets for Starlight Shards."]
-      - ["19_8", "Notes: Other uses for the potions he gives you?"]
-  -
-    title: Smithing Master Hewg
-    link: "https://eldenring.wiki.fextralife.com/Smithing+Master+Hewg"
-    items:
-      - ["2_1", "Follow Roderika's questline; watch as he grows fond of her."]
-      - ["2_4", "After you find and activate your first Great Rune, the next time you come near him, you'll catch him praying. Don't talk to him or Roderika or it'll be cut off. You can ask him about it; he'll react defensively, but nothing changes to his questline."]
-      - ["2_5", "As you progress in the story, while Roderika grows more attached to him and hopes he'll find freedom, Hewg begins to fade. His dialogue grows wearier and becomes obsessed with the mission he was given to kill a god. He'll comment on that when you upgrade a weapon to max, and at other times he may berate himself that his work isn't good enough. By the time the Erdtree burns, he'll forget everything except how to smith, and if you ask him about himself, he'll ask if you know who he is, who you are, and why that girl weeps for him."]
-      - ["2_3", "Notes: End?"]
-  -
-    title: Sorcerer Rogier
+    title: Rogier
     link: "https://eldenring.wiki.fextralife.com/Sorcerer+Rogier"
     items:
-      - ["21_1", "Find Rogier in Stormveil Castle, next to the altar in an unnamed chapel. You can go through the door (a knight patrols the streets), or you can drop in on his room directly through empty window panes. Exhaust his dialogue."]
-      - ["21_2", "Defeat the lesser Ulcerated Tree Spirit in the depths of Stormveil (from the Liftside Chamber grace, without taking the lift, go out the main doorway and drop off the nearby ledge with a dangling corpse for some fall damage, or, if you've unlocked the one-way door in the grace room, drop down the many platforms just beyond it and take no damage if you're careful). Past the monster, opposite a ladder leading back up into Stormveil, is a large decayed face on the ground, and near it, a bloodstain not left by any player. View it to watch what Rogier's been up to - if you've fought any Black Knife Assassins yet, you may recognize this animation."]
-      - ["21_3", "After defeating Godrick, Rogier comes to Roundtable Hold, sitting on the balcony overlooking the entrance hall with NPC invader Mad Tongue Alberich. Chat with him to learn about his new circumstances, tell him you've defeated Godrick for Rogier's Rapier +8, and ask about what you found beneath Stormveil to advance his questline. He'll tell you Godwyn lore and warn you to stay away from any Black Blades."]
+      - id: "21_1"
+        data: ["Find Rogier in Stormveil Castle inside the chapel near the Rampart Tower Grace. He sells magical Ashes of War"]
+      - id: "21_2"
+        data: ["Defeat the Lesser Ulcerated Tree Spirit underneath Stormveil. To get there, start at the Liftside Chamber grace,go out the main doorway and drop off the nearby ledge. After killing the Tree Spirit, view Rogier's bloodstain next to the face."]
+      - id: "21_3"
+        data: ["After defeating Godrick, Rogier comes to Roundtable Hold, talk to him for Rogier's Rapier +8, and ask about what you found beneath Stormveil to advance his questline"]
       -
-          - ["1", "Optional: Speak with D in Roundtable Hold once Rogier arrives. They know each other, and they'll each tell you a bit about the other."]
-      - ["21_4", "Time to ignore his advice and go find a Black Blade. Go to Black Knife Catacombs, either by finding it on your own, or by getting some cuddles with Fia after that conversation with Rogier: you should newly be able to ask her about the Black Knifeprint, and she'll share some knowledge about it and hand you a minimap as a location clue. Either way, fight the dungeon's secret second boss, a Black Knife Assassin. It'll drop the Black Knifeprint."]
-      - ["21_5", "Take it to Rogier and he'll enthusiastically request to study it and not give you a chance to say no. Go rest at the table and immediately talk to him again, and he'll give it back and point you toward Ranni. You can ask him more about this if you like, but he wants the cursemark of death that Ranni bears."]
-      - ["21_6", "Go find Ranni at Ranni's Rise at the northern tip of Liurnia, after Caria Manor. Exhaust her dialogue and you'll learn her current body is a doll, while the cursemark remains on her original flesh body. She'll send you away. Go back to Rogier and he'll tell you to try serving her in order to uncover her body's whereabouts. Go back to Ranni and she'll accept."]
-      - ["21_7", "Unfortunately, while Rogier has managed to set you off on Ranni's questline, wherein you can indeed find the cursemark, there's no way for him to live that long. As soon as you've become one of Ranni's vassals as he advised, returning to him and Talking will reveal he's drifting away. Rest at the table, and he'll already be asleep. Warp to Roundtable Hold again, even from within it, and he'll be dead, leaving behind his Bell Bearing, his entire outfit, and a letter, which goes into the Info tab of your inventory and gives you a hint regarding D's questline. Rest one more time, and he'll be gone entirely."]
+        - id: "1"
+          data: ["Optional: Speak with D in Roundtable Hold once Rogier arrives. They know each other, and they'll each tell you a bit about the other."]
+      - id: "21_4"
+        data: ["Cuddle with Fia for the Knifeprint Clue then head to Black Knife Catacombs. Find the secret boss, by hopping onto the falling blades and up to the platform above. Kill the Black Knife Assassin behind the Illusory Wall for the Black Knifeprint."]
+      - id: "21_5"
+        data: ["Take it to Rogier, reload and talk to him again."]
+      - id: "21_6"
+        data: ["Go find Ranni at Ranni's Rise in North-West Liurnia Lake, past Caria Manor. She'll reject you so talk to Rogier and then come back to her to start her questline."]
+      - id: "21_7"
+        data: ["Talk to Rogier, reload and he will be asleep with a note. After getting the Cursemark of Death from Ranni/Fia's questline, he will be dead"]
   -
-    title: "Sorceress Sellen/Witch Hunter-Jerren - Multiple Choices:"
+    title: Rya
+    items:
+      - id: "38_1"
+        data: ["Meet Rya in the pavillion North-East of the Scenic Isle Grace in South-East Liurnia Lake"]
+      - id: "38_2"
+        data: ["Talk to Blackguard Big Boggart at Boilprawn Shack to the West and buy the necklace from him (or kill him but you'll miss his questline) then return the necklace to Rya"]
+      - id: "38_3"
+        data: ["After going up the Grand Lift of Dectus or going through the Coward's Path, aka the Ruin-Strewn Precipice, talk to Rya who will be nearby in both instances (right next to the lift or in the Lux Ruins) and she will take you to Volcano Manor. If you reach Volcano Manor without this interraction, she will just be there instead"]
+      - id: "38_4"
+        data: ["Can be talked to in Volcano Manor for dialogue and, after completing the first Volcano Manor request, she will be in one of the side rooms in her snake form. Talk to her, reload and talk again."]
+      - id: "38_5"
+        data: ["Find the Illusory Wall in the other room and go through it until reaching the Prison Town Church Grace and opening the nearby doors and then talk to her again. You can talk to Tanith for more dialogue"]
+      - id: "38_6"
+        data: ["Continue through Volcano Manor from the Prison Town Church Grace and kill the Godskin Noble in Temple of Eiglay for the Serpent's Amnion then bring it to Rya"]
+      - id: "38_7"
+        data: ["Reload and talk to Tanith for the Potion of Forgetfulness then head to find Rya. She will be past the Temple of Eiglay Grace, in a room under by the lava where you find the Iron Virgin. Talk to her and be given a choice"]
+      -
+        - id: "1"
+          data: ["Kill her as she asks"]
+        - id: "2"
+          data: ["Give her the Potion of Forgetfulness as Tanith asked, she will reappear back in Volcano Manor"]
+        - id: "3"
+          data: ["Do neither and continue on"]
+      - id: "38_8"
+        data: ["If you did neither, continue with Volcano Manor until you kill Rykard then return to Rya. Talk to her and reload to find her note and the end of her questline"]
+  -
+    title: Sellen/Jerren
     link: "https://eldenring.wiki.fextralife.com/Sorceress+Sellen"
     items:
-      - ["10_1", "Found under the Waypoint Ruins East of the lake in Limgrave after a boss fight. Accept her offer to teach you sorceries."]
-      - ["10_2", "Later go to the Hermit Village in the West part of Mt. Gelmir, North-West of the Grand Lift of Dectus, and find an old man named Primeval Sorceror Azur who has a crystal for a head and gives the spell Comet Azur."]
-      - ["10_3", "Go back to Sellen. Then head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone."]
-      - ["10_4", "Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat and defeat Radahn in Redmane Castle then return to Sellen."]
-      - ["10_5", "Head to Witchbane Ruins, South of the Fourth Church of Marika in West Weeping Peninsula, South of Limgrave, and talk to her."]
-      - ["10_6", "Beat Caria Manor in North Liurnia Lake and go North-West of it to find a Dragon. Beat or ignore it and search the ruins for an Illusory Floor. Enter inside and find the Illusory Wall at the back to find Sellen again."]
-      - ["10_7", "Interact with her and return to Sellen in Witchbane Ruins. Talk to Witch Hunter Jerren a few times. If Jerren is not there, go to Castle Redmane and talk to him in the church on the way to the Radahn Boss Fight and he will leave and appear in the Witchbane Ruines."]
-      - ["10_8", "After getting access to Raya Lucaria, go to the Grand Library Grace and walk out to find 2 Summon Signs. One helps Sellen and one helps Jerren."]
-      - ["10_9", "Sellen gives the Glintstone Kris and makes Shard Spiral available to buy, Jerren gives an Ancient Dragon Smithing Stone and both give Witch's Glintstone Crown. Choose one and kill the other."]
-      - ["10_10", "Notes: Scrolls can be given to her but I'd give them to Miriel. Sellen also features in another questline but isn't completely necessary to complete it."]
+      - id: "10_1"
+        data: ["Found under the Waypoint Ruins East of the lake in Limgrave after a boss fight. Accept her offer to teach you sorceries."]
+      - id: "10_2"
+        data: ["Later go to the Hermit Village in the South-West part of Mt. Gelmir, to get here you will need to go all the way around Mt Gelmir, starting from the North-East. Go past the village and find Primeval Sorceror Azur who has a crystal for a head and gives the spell Comet Azur."]
+      - id: "10_3"
+        data: ["Go back to Sellen. Then head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone."]
+      - id: "10_4"
+        data: ["Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat and return to Sellen."]
+      - id: "10_5"
+        data: ["Head to Witchbane Ruins, South of the Fourth Church of Marika in West Weeping Peninsula and talk to her."]
+      - id: "10_6"
+        data: ["Beat Caria Manor in North-West Liurnia Lake and go North-West of it to find a Dragon. Beat or ignore it and search the ruins for an Illusory Floor. Enter inside and find the Illusory Wall at the back to find Sellen again and interact with her."]
+      - id: "10_11"
+        data: ["Next you need to defeat Radahn in Redmane Castle then talk to Jerren (the announcer) in the church you go through on the way to Radahn. Talk to him until his dialogue is exhausted and he will leave when you do"]
+      - id: "10_7"
+        data: ["Return to Sellen in Witchbane Ruins. Talk to Witch Hunter Jerren a few times."]
+      - id: "10_8"
+        data: ["After getting access to Raya Lucaria in Liurnai Lake, go to the Grand Library Grace (where the final boss is fought) and walk out to find 2 Summon Signs. One helps Sellen and one helps Jerren. Choose one and be rewarded with their individual rewards as well as the Witch's Glintstone Crown."]
+      -
+        - id: "1"
+          data: ["Sellen gives the Glintstone Kris and makes Shard Spiral available to buy"]
+        - id: "2"
+          data: ["Jerren gives an Ancient Dragon Smithing Stone"]
+      - id: "10_10"
+        data: ["Notes: Scrolls can be given to her but I'd give them to Miriel. Sellen also features Blaidd's questline but isn't completely necessary to complete it."]
+      - id: "10_12"
+        data: ["Summons: Can be summoned for Red Wolf of Radagon in Raya Lucaria if you progress her questline far enough first."]
+  -
+    title: Seluvis
+    link: "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis"
+    items:
+      - id: "19_1"
+        data: ["First encountered during Ranni's questline as a spirit. To do this, go through Caria Manor in northwest Liurnia and go northwest of that to get to Ranni's Rise. Talk to Ranni and join her (if you already are helping Rogier, you'll have to go back to him then come back to join her)"]
+      - id: "19_2"
+        data: ["After joining her go downstairs and talk Seluvis. After this point, DO NOT give Ranni the Fingerslayer Blade until you're done with Seluvis. If you do, he will die."]
+      - id: "19_3"
+        data: ["Seluvis can now be found in his tower South of Ranni's Rise. He will give you a potion to turn someone into a puppet, and ask you to give it to Nepheli. You can't buy anything from him until you use it but you have more than one option"]
+      -
+        - id: "1"
+          data: ["If you give it to Nepheli, you will get the Nepheli Loux Puppet later from his dead body."]
+        - id: "3"
+          data: ["If you give it to Dung Eater at the end of his questline instead of the Seedbed Curse, then you can buy a Dung Eater Puppet from Seluvis."]
+        - id: "2"
+          data: ["If you give it to Gideon, you get nothing but can progress both Seluvis' and Nepheli's questlines"]
+      - id: "19_9"
+        data: ["After you've made your choice, return to Seluvis and he will now sell Sorceries"]
+      - id: "19_4"
+        data: ["Go North of his tower, into the ruins, and find an Illusory Floor in one that leads down to a room full of puppets. Roll into the door in the back to reveal an Illusory Wall. Go back to Seluvis and bring up the room, and he will give you a free puppet (You must have at least 1 Starlight Shard for this). Rest and return, and he'll let you buy more with Starlight Shards."]
+      - id: "19_5"
+        data: ["After you buy all Sorceries and at least 1 puppet, he will let you in on his scheme. He wants you to find the Amber Starlight Shard located North-East of the Atlus Highway Junction Grace, North-East of the Grand Lift of Dectus, in a canyon filled with baby krakens."]
+      - id: "19_6"
+        data: ["Bring the Amber Starlight Shard and give it to him. Exhaust his dialogue to receive the Magic Scorpion Charm"]
+      - id: "19_11"
+        data: ["WARNING: Continuing gives you nothing but dialogue and will require you to absolve your sins at the Church of Vows"]
+      - id: "19_10"
+        data: ["Reload and he will give you a potion to give to Ranni. If you do it, then she will wake up angry at you, then kill you and Seluvis"]
+      - id: "19_7"
+        data: ["If you give the potion to Ranni and make her mad, you can absolve yourself at the Church of Vows to fix her questline, but I recommend just not giving her the potion unless you really want the dialogue. After his death his corpse will sell you puppets for Starlight Shards."]
+  -
+    title: Shabriri
+    items:
+      - id: "39_1"
+        data: ["First met in Mountaintops of the Giants, in the Zamor Ruins. If you meet him then Yura will be dead. He will give you a hint about the Frenzied Flame"]
+      - id: "39_2"
+        data: ["If you kill him or return later, he will be gone and Yura's armor will be where stood"]
+      - id: "39_3"
+        data: ["Summons: Can be summoned for the Godfrey, First Elden Lord bossfight if you currently have the Frenzied Flame"]
+  -
+    title: Tanith
+    items:
+      - id: "40_1"
+        data: ["Met in Volcano Manor, where she lets you join. Return to her after every request for reward"]
+      - id: "40_2"
+        data: ["Talk to her at various points during Rya's questline for dialogue and when Rya disappears, talk to her to get the Potion of Forgetfulness"]
+      - id: "40_3"
+        data: ["After finishing the third and final Volcano Manor request, talk to Tanith to be teleported to Rykard's bossroom. Kill him to end Volcano Manor"]
+      - id: "40_4"
+        data: ["After killing Rykard talk to Tanith for dialogue. Go to Rykard's bossroom and she will be there"]
+      - id: "40_5"
+        data: ["Give her Dancer's Castanets in the bossroom during Patches questline and kill her and her Crucible Knight for rewards and an end to her questline"]
   -
     title: Thops
     link: "https://eldenring.wiki.fextralife.com/Thops"
     items:
-      - ["4_1", "Meet at the Church of Irith next to the Lake-Facing Cliffs Grace. Buy all Sorceries."]
-      - ["4_2", "After getting into the Raya Lucaria Academy, find the Glintstone Key on top of a Chandelier in the Church of the Cuckoo's inside of the Academy. This can only be gotten by travelling the rooftops which start near the Debate Hall Grace."]
-      - ["4_3", "Give him the key then travel to Schoolhouse Classroom Grace in the Academy and loot his body just outside and around the corner."]
-      - ["4_4", "Notes: Could he have been saved? Probably not since he is a Bluntstone."]
+      - id: "4_1"
+        data: ["Meet at the Church of Irith next to the Lake-Facing Cliffs Grace. Buy all Sorceries for dialogue."]
+      - id: "4_2"
+        data: ["After getting into the Raya Lucaria Academy, find the Glintstone Key on top of a Chandelier in the Church of the Cuckoo's inside of the Academy. This can only be gotten by travelling the rooftops which start near the Debate Hall Grace."]
+      - id: "4_3"
+        data: ["Give him the key then travel to Schoolhouse Classroom Grace in the Academy and loot his body just outside and around the corner."]
+      - id: "4_4"
+        data: ["Lore: Is a Bluntstone, meaning a magic scholar who can't use magic. However he invented a spell worthy of being an entirely new school of magic."]
   -
     title: White-Faced Varre
     link: "https://eldenring.wiki.fextralife.com/White+Mask+Varre"
     items:
-      - ["8_1", "Found just outside the starting area, talk to him then return to talk after unlocking Roundtable Hold. Return to his location after killing Godrick to find a message."]
-      - ["8_2", "Go to the Rose Church located on an island in the South-West area of Liurnia Lake. Talk to him for Festering Bloody Fingers then perform 3 Invasions, outcome doesn't matter, and talk to him again for a Lord of Blood's Favor."]
-      - ["8_3", "Next go to the Church of Inhibition in the North-East section of Liurnia and interact with the corpse of the maiden in the chair. Return to Varre to get a reusable Blood Finger for Unlimited Invasions and a Pureblood Knight's Medal that he says to use \"when the time is right.\""]
-      - ["8_4", "Can be fought as an invader in Mohgwyn's Palace."]
-      - ["8_6", "Notes: There are multiple alternatives to the Church of Inhibition, it's just the easiest. There is no \"right time\" to use the medal; you can use it instantly and it will warp you to the steps of Mohgwyn Palace. Varre says to wait because he hopes for \"Luminary\" Mohg to become king and for you to meet him as such. On a metatextual level, the devs had him say that because Mohgwyn Palace is a VERY hard area that dumps you right in front of the Mohg boss fight, all best left for much later than Liurnia. Use the medal when you're ready, or if you just want to grab the nearby Dynasty Mausoleum Entrance Site of Grace and dip out."]
+      - id: "8_1"
+        data: ["Found just outside the starting area, talk to him then return to talk after unlocking Roundtable Hold. Return again after killing Godrick and once more after meeting the Fingers for dialogues and an emote."]
+      - id: "8_2"
+        data: ["Go to the Rose Church located on an island in the South-West area of Liurnia Lake. Talk to him for Festering Bloody Fingers then perform 3 Invasions, outcome don't matter and you can even leave immediately after arriving, then talk to him again for a Lord of Blood's Favor."]
+      - id: "8_3"
+        data: ["Next go to the Church of Inhibition in the North-East section of Liurnia, past the Frenzied Flame Village, and interact with the corpse of the maiden in the chair. Return to Varre to get a reusable Blood Finger for Unlimited Invasions and a Pureblood Knight's Medal that he says to use \"when the time is right.\", which there is no right time so use it whenever to teleport to Mohgwyn's Palace"]
+      - id: "8_4"
+        data: ["Can be Invaded in Mohgwyn's Palace and killed for several rewards."]
+      - id: "8_6"
+        data: ["Notes: There are multiple alternatives to the Church of Inhibition, it's just the simplest without breaking questlines."]
+  
+  
+  
 
-#TODO: Blaidd, Bernahl, Ranni, Rya, Shabriri, Tanith, Three Fingers?
-#There are 34 characters currently documented. Next "num" value is 35.
+    
+
+#TODO: Add all rewards, add all lore.
+#There are 42 characters currently documented. Next "num" value is 43.
