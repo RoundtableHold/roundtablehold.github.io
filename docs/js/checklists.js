@@ -1,10 +1,10 @@
 var profilesKey = 'darksouls3_profiles';
 
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
-    });
-}
+// if ('serviceWorker' in navigator) {
+//     window.addEventListener('load', function() {
+//         navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
+//     });
+// }
 
 (function($) {
     'use strict';

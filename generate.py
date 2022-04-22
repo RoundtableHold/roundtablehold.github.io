@@ -560,9 +560,6 @@ with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
 var profilesKey = 'darksouls3_profiles';\n
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
-}
 (function($) {
     'use strict';
     $(function() {
@@ -654,62 +651,62 @@ if ('serviceWorker' in navigator) {
     f.write('  });\n')
     f.write('})( jQuery );\n')
 
-with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
-    f.write(
-"""
-var cache_ver = 'roundtable-store-3';
+# with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
+#     f.write(
+# """
+# var cache_ver = 'roundtable-store-3';
 
-self.addEventListener('activate', function(event) {
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.filter(function(cacheName) {
-            return cacheName !== cache_ver;
-        }).map(function(cacheName) {
-          return caches.delete(cacheName);
-        })
-      );
-    })
-  );
-});
+# self.addEventListener('activate', function(event) {
+#   event.waitUntil(
+#     caches.keys().then(function(cacheNames) {
+#       return Promise.all(
+#         cacheNames.filter(function(cacheName) {
+#             return cacheName !== cache_ver;
+#         }).map(function(cacheName) {
+#           return caches.delete(cacheName);
+#         })
+#       );
+#     })
+#   );
+# });
 
-self.addEventListener('install', (e) => {
-    e.waitUntil(
-        caches.open(cache_ver).then((cache) => cache.addAll([
-            '/',
-""")
-    for root, dirs, files in os.walk("docs"):
-        for name in files:
-            f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
-    f.write(
-"""
-        ])),
-    );
-});
+# self.addEventListener('install', (e) => {
+#     e.waitUntil(
+#         caches.open(cache_ver).then((cache) => cache.addAll([
+#             '/',
+# """)
+#     for root, dirs, files in os.walk("docs"):
+#         for name in files:
+#             f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
+#     f.write(
+# """
+#         ])),
+#     );
+# });
 
-self.addEventListener('fetch', function (event) {
-    //console.log('Handling fetch event for', event.request.url);
+# self.addEventListener('fetch', function (event) {
+#     //console.log('Handling fetch event for', event.request.url);
 
-    event.respondWith(            
-        caches.match(event.request).then(function (response) {
-            if (response) {
-                //console.log('Found response in cache:', response);
+#     event.respondWith(            
+#         caches.match(event.request).then(function (response) {
+#             if (response) {
+#                 //console.log('Found response in cache:', response);
 
-                return response;
-            }
+#                 return response;
+#             }
 
-            //console.log('No response found in cache. About to fetch from network...');
+#             //console.log('No response found in cache. About to fetch from network...');
 
-            return fetch(event.request).then(function (response) {
-                //console.log('Response from network is:', response);
+#             return fetch(event.request).then(function (response) {
+#                 //console.log('Response from network is:', response);
 
-                return response;
-            }).catch(function (error) {                    
-                //console.error('Fetching failed:', error);
+#                 return response;
+#             }).catch(function (error) {                    
+#                 //console.error('Fetching failed:', error);
 
-                return caches.match(OFFLINE_URL);
-            });
-        })
-    );
-});
-""")
+#                 return caches.match(OFFLINE_URL);
+#             });
+#         })
+#     );
+# });
+# """)
