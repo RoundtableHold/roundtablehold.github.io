@@ -657,7 +657,7 @@ if ('serviceWorker' in navigator) {
 with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
     f.write(
 """
-var cache_ver = 'roundtable-store-2';
+var cache_ver = 'roundtable-store-3';
 
 self.addEventListener('activate', function(event) {
   event.waitUntil(
