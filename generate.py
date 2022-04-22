@@ -185,7 +185,22 @@ def make_footer(page=None):
                 $(function() {{
                     var jet = new Jets({{
                         searchTag: "#{page_id}_search",
-                        contentTag: "#{page_id}_list ul"
+                        contentTag: "#{page_id}_list ul",
+                        didSearch: function(search_phrase) {{
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
+                            $(".card").each(function(index, el) {{
+                                if (!search_phrase) {{
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }}
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {{
+                                    $(el).addClass('d-none');
+                                }} else {{
+                                    $(el).removeClass('d-none');
+                                }}
+                            }});
+                        }}
                     }});
                     $("#{page_id}_search").keyup(function() {{
                         $("#{page_id}_list").unhighlight();
@@ -398,7 +413,7 @@ def make_checklist(page):
                                                     div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
                                     for item in items:
                                         id = str(item['id'])
-                                        with li(cls="list-group-item", data_id=page['id'] + '_' + id):
+                                        with li(cls="list-group-item searchable", data_id=page['id'] + '_' + id):
                                             if isinstance(item, str):
                                                 h5(item)
                                                 continue
@@ -420,18 +435,19 @@ def make_checklist(page):
                                                                 if item['data'][pos]:
                                                                     raw(item['data'][pos])
                                                 with div(cls='col d-md-none'):
-                                                    if 'icon' in item:
-                                                        img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-end')
-                                                    for pos in range(table_cols):
-                                                        if 'table_widths' in page:
-                                                            col_size = str(page['table_widths'][pos])
-                                                        else:
-                                                            col_size = str(size)
-                                                        if isinstance(section['table'], list) and item['data'][pos]:
-                                                            strong(section['table'][pos] + ': ', cls="me-1")
-                                                        if item['data'][pos]:
-                                                            raw(item['data'][pos])
-                                                            br()
+                                                    with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
+                                                        if 'icon' in item:
+                                                            img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-end')
+                                                        for pos in range(table_cols):
+                                                            if 'table_widths' in page:
+                                                                col_size = str(page['table_widths'][pos])
+                                                            else:
+                                                                col_size = str(size)
+                                                            if isinstance(section['table'], list) and item['data'][pos]:
+                                                                strong(section['table'][pos] + ': ', cls="me-1")
+                                                            if item['data'][pos]:
+                                                                raw(item['data'][pos])
+                                                                br()
                                                         
                         else:
                             with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show", aria_expanded="true"):
@@ -446,7 +462,7 @@ def make_checklist(page):
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
                                     id = str(item['id'])
-                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item ps-0")):
+                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0")):
                                         with div(cls="form-check checkbox d-flex align-items-center"):
                                             input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
                                             with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
@@ -458,7 +474,7 @@ def make_checklist(page):
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
-                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item"):
+                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable"):
                                                     with div(cls="form-check checkbox d-flex align-items-center"):
                                                         input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
                                                         with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
@@ -544,6 +560,9 @@ with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
 var profilesKey = 'darksouls3_profiles';\n
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
+}
 (function($) {
     'use strict';
     $(function() {
@@ -635,12 +654,29 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('  });\n')
     f.write('})( jQuery );\n')
 
-with open(os.path.join('docs', 'js', 'sw.js'), 'w', encoding='utf_8') as f:
+with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
     f.write(
 """
+var cache_ver = 'roundtable-store-2';
+
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(cacheName) {
+            return cacheName !== cache_ver;
+        }).map(function(cacheName) {
+          return caches.delete(cacheName);
+        })
+      );
+    })
+  );
+});
+
 self.addEventListener('install', (e) => {
     e.waitUntil(
-        caches.open('roundtable-store').then((cache) => cache.addAll([
+        caches.open(cache_ver).then((cache) => cache.addAll([
+            '/',
 """)
     for root, dirs, files in os.walk("docs"):
         for name in files:
@@ -651,9 +687,29 @@ self.addEventListener('install', (e) => {
     );
 });
 
-self.addEventListener('fetch', (e) => {
-    e.respondWith(
-        caches.match(e.request).then((response) => response || fetch(e.request)),
+self.addEventListener('fetch', function (event) {
+    //console.log('Handling fetch event for', event.request.url);
+
+    event.respondWith(            
+        caches.match(event.request).then(function (response) {
+            if (response) {
+                //console.log('Found response in cache:', response);
+
+                return response;
+            }
+
+            //console.log('No response found in cache. About to fetch from network...');
+
+            return fetch(event.request).then(function (response) {
+                //console.log('Response from network is:', response);
+
+                return response;
+            }).catch(function (error) {                    
+                //console.error('Fetching failed:', error);
+
+                return caches.match(OFFLINE_URL);
+            });
+        })
     );
 });
 """)

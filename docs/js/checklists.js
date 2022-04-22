@@ -2,7 +2,7 @@ var profilesKey = 'darksouls3_profiles';
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+        navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
     });
 }
 
@@ -200,13 +200,13 @@ if ('serviceWorker' in navigator) {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
                     $(this).removeClass('bg-info').addClass('bg-success');
-                    $(this).parent('h3').addClass('completed');// Hide heading for completed category
+                    $(this).closest('.card').addClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
                     $(this).removeClass('bg-success').addClass('bg-info');
-                    $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
+                    $(this).closest('.card').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
             });
