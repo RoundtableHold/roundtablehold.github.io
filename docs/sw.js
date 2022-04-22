@@ -2,11 +2,13 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open('roundtable-store').then((cache) => cache.addAll([
+            '/',
             '/CNAME',
             '/googleb879f1c6c4b4a844.html',
             '/index.html',
             '/manifest.webmanifest',
             '/options.html',
+            '/sw.js',
             '/checklists/achievements.html',
             '/checklists/ancient_dragon_smithing_stones.html',
             '/checklists/armor.html',
@@ -2526,14 +2528,33 @@ self.addEventListener('install', (e) => {
             '/js/lazysizes.min.js',
             '/js/options.js',
             '/js/scroll.js',
-            '/js/sw.js',
 
         ])),
     );
 });
 
-self.addEventListener('fetch', (e) => {
-    e.respondWith(
-        caches.match(e.request).then((response) => response || fetch(e.request)),
+self.addEventListener('fetch', function (event) {
+    console.log('Handling fetch event for', event.request.url);
+
+    event.respondWith(            
+        caches.match(event.request).then(function (response) {
+            if (response) {
+                console.log('Found response in cache:', response);
+
+                return response;
+            }
+
+            console.log('No response found in cache. About to fetch from network...');
+
+            return fetch(event.request).then(function (response) {
+                console.log('Response from network is:', response);
+
+                return response;
+            }).catch(function (error) {                    
+                console.error('Fetching failed:', error);
+
+                return caches.match(OFFLINE_URL);
+            });
+        })
     );
 });

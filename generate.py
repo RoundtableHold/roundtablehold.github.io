@@ -544,6 +544,9 @@ with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
 var profilesKey = 'darksouls3_profiles';\n
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
+}
 (function($) {
     'use strict';
     $(function() {
@@ -635,12 +638,13 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('  });\n')
     f.write('})( jQuery );\n')
 
-with open(os.path.join('docs', 'js', 'sw.js'), 'w', encoding='utf_8') as f:
+with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
     f.write(
 """
 self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open('roundtable-store').then((cache) => cache.addAll([
+            '/',
 """)
     for root, dirs, files in os.walk("docs"):
         for name in files:
@@ -651,9 +655,29 @@ self.addEventListener('install', (e) => {
     );
 });
 
-self.addEventListener('fetch', (e) => {
-    e.respondWith(
-        caches.match(e.request).then((response) => response || fetch(e.request)),
+self.addEventListener('fetch', function (event) {
+    console.log('Handling fetch event for', event.request.url);
+
+    event.respondWith(            
+        caches.match(event.request).then(function (response) {
+            if (response) {
+                console.log('Found response in cache:', response);
+
+                return response;
+            }
+
+            console.log('No response found in cache. About to fetch from network...');
+
+            return fetch(event.request).then(function (response) {
+                console.log('Response from network is:', response);
+
+                return response;
+            }).catch(function (error) {                    
+                console.error('Fetching failed:', error);
+
+                return caches.match(OFFLINE_URL);
+            });
+        })
     );
 });
 """)

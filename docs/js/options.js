@@ -2,7 +2,7 @@
 var profilesKey = 'darksouls3_profiles';
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+    navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
 }
 
 (function($) {
