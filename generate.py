@@ -139,7 +139,9 @@ def make_nav(page):
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
                                     li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
-                    with li(cls="nav-item tabl-li"):
+                    with li(cls='nav-item tab-li'):
+                        a('Wiki', href='/wiki.html', cls='nav-link hide-buttons' + (' active' if page == 'wiki' else ''))
+                    with li(cls="nav-item tab-li"):
                         a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
 
 # def make_sidebar_nav(page):
@@ -495,20 +497,44 @@ def make_checklist(page):
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
-with open(os.path.join('wiki', 'Dagger.md'), 'r', encoding='utf_8') as md:
-    text = md.read()
-    doc = make_doc("Roundtable Hold - " + page['title'])
+
+def make_wiki_listing():
+    wiki_files = []
+    for root, dirs, files in os.walk('wiki'):
+        for name in files:
+            wiki_files.append(os.path.join(root, name))
+    wiki_files.sort()
+
+    doc = make_doc("Wiki | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
     with doc:
-        make_nav(to_snake_case(page['title']))
-        # whole page
-        with div(cls="container uncolor-links markdown"):
-            title_row()
-            raw(markdown.markdown(text, extensions=['tables', 'footnotes', 'sane_lists', 'md_in_html', WikiLinkExtension(base_url='/wiki/', end_url='.html'), 'attr_list', TabsExtension()]))
-        make_footer(page)
-        script(src='/js/wiki.js')
-    with open(os.path.join('docs', 'wiki', 'dagger.html'), 'w', encoding='utf-8') as out:
-        out.write(doc.render())
-            
+        make_nav('wiki')
+        with div(cls='container'):
+            with div(cls='nav flex-column'):
+                for file in wiki_files:
+                    html_name = file[:-2] + 'html'
+                    with li(cls='nav-item'):
+                        a(file, href=html_name, cls='nav-link')
+        make_footer()
+    with open(os.path.join('docs', 'wiki.html'), 'w', encoding='utf_8') as wiki:
+        wiki.write(doc.render())
+
+    for file in wiki_files:
+        with open(file, 'r', encoding='utf_8') as md:
+            text = md.read()
+            doc = make_doc(file + " | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
+            with doc:
+                make_nav('wiki')
+                # whole page
+                with div(cls="container uncolor-links markdown"):
+                    title_row()
+                    raw(markdown.markdown(text, extensions=['tables', 'footnotes', 'sane_lists', 'md_in_html', WikiLinkExtension(base_url='/wiki/', end_url='.html'), 'attr_list', TabsExtension()]))
+                make_footer(page)
+                script(src='/js/wiki.js')
+            html_name = file[:-2] + 'html'
+            with open(os.path.join('docs', html_name), 'w', encoding='utf-8') as out:
+                out.write(doc.render())
+
+make_wiki_listing()
 
 make_index()
 make_options()

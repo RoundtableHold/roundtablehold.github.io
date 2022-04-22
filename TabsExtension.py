@@ -31,14 +31,11 @@ class TabsBlockProcessor(BlockProcessor):
         return re.match(self.RE_TABS_START, block)
 
     def run(self, parent, blocks):
-        print('TabsBlock', blocks[0])
         original_block = blocks[0]
         blocks[0] = re.sub(self.RE_TABS_START, '', blocks[0])
 
         ids = []
         for block_num, block in enumerate(blocks):
-            print(block)
-            print('$')
             if re.search(self.RE_TAB_START, block):
                 ids.append(re.match(self.RE_TAB_START, block)[1])
             if re.search(self.RE_TABS_END, block):
@@ -71,7 +68,6 @@ class TabBlockProcessor(BlockProcessor):
         return re.match(self.RE_TAB_START, block)
 
     def run(self, parent, blocks):
-        print('TabBlock', blocks[0])
         original_block = blocks[0]
         match = re.match(self.RE_TAB_START, original_block)
         id = match[1]

@@ -2,7 +2,7 @@
 
 The **Dagger** scales primarily with *Strength* and Dexterity. [^1] and is a good weapon for short ranged melee combat, and for when you need an extra lightweight weapon on hand.
 
-![dagger_img](/wiki/images/dagger.png)
+![dagger_img](/img/icons/weapons/daggers/10000.png)
 
 > A Standard dagger with a straight blade.
 >
@@ -13,6 +13,8 @@ Purchased from Twin Maiden Husks at the Roundtable Hold.
 1. Weapon skill: Quickstep
 2. **Dagger** can be upgraded by using [[Smithing Stones]]
 3. Sell Value: 100 runes
+
+You can link directly between wiki pages like this: [[ShortSword]].
 
 [Tabs]
 
