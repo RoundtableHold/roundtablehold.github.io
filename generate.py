@@ -282,7 +282,8 @@ def make_map():
         make_footer()
         script(src='/js/leaflet.js')
         script(src='/js/rastercoords.js')
-        script(src='/js/map.js')
+        script(src='/js/leaflet-omnivore.min.js')
+        script(src='/map/map.js')
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 
