@@ -585,7 +585,7 @@ if ('serviceWorker' in navigator) {
         }
     })
 }
-var profilesKey = 'eldenring_profiles';\n
+var profilesKey = 'theme_profiles';\n
 (function($) {
     'use strict';
     $(function() {

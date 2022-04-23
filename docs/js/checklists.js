@@ -1,4 +1,4 @@
-var profilesKey = 'eldenring_profiles';
+var profilesKey = 'theme_profiles';
 
 // if ('serviceWorker' in navigator) {
 //     window.addEventListener('load', function() {
