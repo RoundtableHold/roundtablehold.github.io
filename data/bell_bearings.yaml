@@ -1,27 +1,27 @@
 title: Bell Bearings
 id: bell_bearings
-table_widths: [1, 2, 9]
+table_widths: [2, 2, 8]
 sections:
   -
     title: "Smithing-Stone Miner's Bell Bearings"
     table: ["Increment", "Unlocks", "Location"]
     items:
       - id: "1_1"
-        data: ["[1]", "Smithing Stone 1/2", "Dropped by the boss of the Raya Lucaria Crystal Tunnels located North-East of Raya Lucaria, next to the Walking Mausoleum"]
+        data: ["[1]", "Smithing Stone 1/2", "Dropped by the boss of the <a href=\"caves_catacombsand_tunnels.html#item_2_5\">Raya Lucaria Crystal Tunnels</a>."]
       - id: "1_2"
         data: ["[2]", "Smithing Stone 3/4", "In a chest in the Sealed Tunnel, North-East of the Minor Erdtree Church next to the South-West gate of Leyndell. The tunnel is in the river of the outer moat. Inside the Tunnel you will find lots of Illusory Walls. In a chest behind the Illusory Wall just before reaching the elevator is the Bell Bearing."]
       - id: "1_3"
         data: ["[3]", "Smithing Stone 5/6", "Under the Zamor Ruins at the entrance of Mountaintops of the Giants. In the ruins, find a staircase going under the ruins and open the chest for the Bell Bearing."]
       - id: "1_4"
-        data: ["[4]", "Smithing Stone 7/8", "Dropped by the Godskin Duo in Crumbling Farum Azula."]
+        data: ["[4]", "Smithing Stone 7/8", "Dropped by the <a href=\"bosses.html#item_11_2\">Godskin Duo</a> in Crumbling Farum Azula."]
   -
     title: "Somber-Stone Miner's Bell Bearings"
     table: ["Increment", "Unlocks", "Location"]
     items:
       - id: "2_1"
-        data: ["[1]", "Somber Stone 1/2", "Dropped by the boss of Sellia Crystal Tunnel. Fastest way to the tunnel is by taking the teleporter chest located in the ruins at the South end of the lake in Limgrave. Under the ruins and past some rats is a chest that will teleport you to the Tunnel."]
+        data: ["[1]", "Somber Stone 1/2", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_3_6\">Sellia Crystal Tunnel</a>. Fastest way to the tunnel is by taking the teleporter chest located in the ruins at the South end of the lake in Limgrave. Under the ruins and past some rats is a chest that will teleport you to the Tunnel."]
       - id: "2_2"
-        data: ["[2]", "Somber Stone 3/4", "Dropped by the boss of Altus Tunnel. The tunnel is located South of the Minor Erdtree in North-East Altus Plateau."]
+        data: ["[2]", "Somber Stone 3/4", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_4_2\">Altus Tunnel</a>."]
       - id: "2_3"
         data: ["[3]", "Somber Stone 5/6", "Found on a body at the First Church of Marika in East Mountaintops of the Giants."]
       - id: "2_4"
@@ -33,9 +33,9 @@ sections:
     table: ["Increment", "Unlocks", "Location"]
     items:
       - id: "3_1"
-        data: ["[1]", "Grave Glovewort 1/2/3", "Dropped by the boss of Wyndham Catacombs located on North of the Lux Ruins, North of the exit of the \"Cowards\" Path aka Ruins-Strewn Precipice."]
+        data: ["[1]", "Grave Glovewort 1/2/3", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_5_6\">Wyndham Catacombs</a> located on North of the Lux Ruins, North of the exit of the \"Cowards\" Path aka Ruins-Strewn Precipice."]
       - id: "3_2"
-        data: ["[2]", "Grave Glovewort 4/5/6", "Dropped by the boss of Giants' Mountaintop Catacomb located North of the Zamor Ruins. On the path North, when you meet the fire guys, turn to the right and down the stairs to the catacomb."]
+        data: ["[2]", "Grave Glovewort 4/5/6", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_7_2\">Giants' Mountaintop Catacomb</a> located North of the Zamor Ruins. On the path North, when you meet the fire guys, turn to the right and down the stairs to the catacomb."]
       - id: "3_3"
         data: ["[3]", "Grave Glovewort 7/8/9", "In Crumbling Farum Azula in a lake. Go down the elevator South-West of the room that is North-West from the Crumbling Beast Grave Depths Grace. You'll see a lake down the path and the Bell Bearing is there."]
   -
@@ -49,14 +49,88 @@ sections:
       - id: "4_3"
         data: ["[3]", "Ghost Glovewort 7/8/9", "Requires Haligtree Medallion. In Miquella's Haligtree. From the Haligtree Roots Grace, go up the elevator and outside the church. Turn left and go down to all the shrimp men and it will next to a grave."]
   -
-    title: "Peddler Bell Bearings"
+    title: "Peddlers' Bell Bearings"
     table: ["Version", "Unlocks", "Location"]
     items:
       - id: "5_1"
-        data: ["Bone", "<ul><li>Thin Animal Bones</li><li>Hefty Beast Bone</li></ul>", "Dropped by Bell Bearing Hunter in Warmaster's Shack, Limgrave (rest and pass time to night, rest a second time, and go inside)"]
+        data: ["Bone", "Thin Animal Bones<br>Hefty Beast Bone", "Dropped by <a href=\"bosses.html#item_2_20\">Bell Bearing Hunter</a> in Warmaster's Shack, Limgrave."]
       - id: "5_2"
-        data: ["Meat", "<ul><li>Sliver of Meat</li><li>Lump of Flesh</li><li>Turtle Neck Meat</li></ul>", "Dropped by Bell Bearing Hunter in Church of Vows, Liurnia (rest and pass time to night, rest a second time, and go inside)"]
+        data: ["Meat", "Sliver of Meat<br>Lump of Flesh<br>Turtle Neck Meat", "Dropped by <a href=\"bosses.html#item_4_14\">Bell Bearing Hunter</a> in Church of Vows, Liurnia."]
       - id: "5_3"
-        data: ["Medicine", "<ul><li>Neutralizing Boluses</li><li>Stanching Boluses</li><li>Thawfrost Boluses</li><li>Stimulating Boluses</li></ul>", "Dropped by Bell Bearing Hunter in Hermit Merchant's Shack, Capital Outskirts (rest and pass time to night, rest a second time, and go inside)"]
+        data: ["Gravity", "Gravity Stone Fan<br>Gravity Stone Chunk", "Dropped by <a href=\"bosses.html#item_5_19\">Bell Bearing Hunter</a> in Isolated Merchant's Shack, Dragonbarrow, Caelid."]
       - id: "5_4"
-        data: ["Gravity", "<ul><li>Gravity Stone Fan</li><li>Gravity Stone Chunk</li></ul>", "Dropped by Bell Bearing Hunter in Isolated Merchant's Shack, Dragonbarrow, Caelid (rest and pass time to night, rest a second time, and go to where the merchant usually sits)"]
+        data: ["Medicine", "Neutralizing Boluses<br>Stanching Boluses<br>Thawfrost Boluses<br>Stimulating Boluses", "Dropped by <a href=\"bosses.html#item_6_16\">Bell Bearing Hunter</a> in Hermit Merchant's Shack, Capital Outskirts."]
+  -
+    title: "NPCs' Bell Bearings"
+    table: ["NPC", "Obtained naturally?", "Notes"]
+    items:
+      - id: "6_1"
+        data: ["<a href=\"npc_questlines.html#item_36_5\">Bernahl</a>", "Yes", "At the end of his questline in Crumbling Farum Azula, you'll get his bell bearing after defeating him in his invasion."]
+      - id: "6_2"
+        data: ["<a href=\"npc_questlines.html#item_11_4\">Blackguard</a>", "Depends", "If you follow both his and Dung Eater's questlines, you can loot his bell bearing once he dies in Capital Outskirts. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
+      - id: "6_3"
+        data: ["<a href=\"npc_questlines.html#item_7_8\">Corhyn</a>", "Yes", "If you follow his questline, at the end in Leyndell, Capital of Ash or Mountaintops of the Giants, reload after finding him for the final time and you'll find his bell bearing. His shop inventory (and thus his bell bearing) adds items over his questline, in addition to any prayerbooks, so don't kill him early."]
+      - id: "6_4"
+        data: ["<a href=\"npc_questlines.html#item_23_5\">D, Hunter of the Dead</a>", "Yes", "Lootable at the end of his questline in Roundtable Hold."]
+      - id: "6_5"
+        data: ["<a href=\"npc_questlines.html#item_27_1\">Gostoc</a>", "No", "Gostoc never becomes hostile. To obtain his bell bearing, you must murder him at some point. His shop inventory (and thus his bell bearing) adds a very rare item at the end of his questline, so don't kill him early if you want it."]
+      - id: "6_6"
+        data: ["<a href=\"npc_questlines.html#item_31_20\">Gowry</a>", "Depends", "At the end of Gowry and Millicent's intertwined questline, he will die naturally if you side against Millicent. If you side with her, you'll have to kill him yourself, in which case he won't respawn like he usually does and you'll get his loot and bell bearing."]
+      - id: "6_7"
+        data: ["<a href=\"npc_questlines.html#item_41_5\">Iji</a>", "Yes", "Looted off his body at the end of his questline at his usual spot in Liurnia. You cannot kill him early. Following Blaidd's quest adds an extra item to his shop and bell bearing."]
+      - id: "6_8"
+        data: ["<a href=\"npc_questlines.html#item_5_1\">Miriel</a>", "No", "Miriel never becomes hostile. If you murder him, you'll get his bell bearing. You monster."]
+      - id: "6_9"
+        data: ["<a href=\"npc_questlines.html#item_29_9\">Patches</a>", "No", "Patches never becomes hostile (permanently). To obtain his bell bearing, you must murder him at some point."]
+      - id: "6_10"
+        data: ["<a href=\"npc_questlines.html#item_18_2\">Pidia</a>", "Yes", "Looted off his body at the end of his questline in Caria Manor."]
+      - id: "6_11"
+        data: ["<a href=\"npc_questlines.html#item_21_7\">Rogier</a>", "Yes", "Looted off his body at the end of his questline in Roundtable Hold."]
+      - id: "6_12"
+        data: ["<a href=\"npc_questlines.html#item_10_8\">Sellen</a>", "Depends", "At the end of her questline, you choose whether or not to side with her in her duel with Jerren. Killing her grants her bell bearing, while siding with her does not, and you will not be able to obtain it thereafter as she stays in Rennala's combat-free library."]
+      - id: "6_13"
+        data: ["<a href=\"npc_questlines.html#item_19_7\">Seluvis</a>", "Yes", "Looted off his body at Seluvis's Rise at the end of his questline. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
+      - id: "6_14"
+        data: ["<a href=\"npc_questlines.html#item_4_3\">Thops</a>", "Yes", "Looted off his body in Raya Lucaria at the end of his questline."]
+  -
+    title: "Merchants' Bell Bearings"
+    table: ["Merchant", "Notes", "Location"]
+    items:
+      - id: "7_1"
+        data: ["Kalé", "", "Church of Elleh, Limgrave, just north of where you emerge at the beginning. Note that all merchants never become hostile, and if you want their bell bearings to take back to Roundtable Hold, you must murder them."]
+      - id: "7_2"
+        data: ["Nomadic [1]", "", "East of Saintsbridge in northern Limgrave, alongside the road."]
+      - id: "7_3"
+        data: ["Nomadic [2]", "", "At the southern edge of the Mistwood in Limgrave near the road to Fort Haight; a dev message on the ground serves as a shop sign indicating he's nearby."]
+      - id: "7_4"
+        data: ["Nomadic [3]", "", "Southeast of the entrance to Coastal Cave in southwest Limgrave, under a collapsed ruin of stone."]
+      - id: "7_5"
+        data: ["Nomadic [4]", "", "Near the Castle Morne Rampart Site of Grace in Weeping Peninsula."]
+      - id: "7_6"
+        data: ["Nomadic [5]", "", "Near the Liurnia Lake Shore Site of Grace in Liurnia."]
+      - id: "7_7"
+        data: ["Nomadic [6]", "", "Just down the path of the hole in Bellum Church in Liurnia."]
+      - id: "7_8"
+        data: ["Nomadic [7]", "", "Near the Forest-Spanning Greatbridge Site of Grace in Altus Plateau."]
+      - id: "7_9"
+        data: ["Nomadic [8]", "", "On a mountain in Mt. Gelmir only accessible by ladders up and down. From the Ninth Mt. Gelmir Campsite Site of Grace, cross the rope bridge to the east, then continue east up the slopes to find a ladder down to the merchant."]
+      - id: "7_10"
+        data: ["Nomadic [9]", "", "Near the Astray from Caelid Highway North Site of Grace, just to the east."]
+      - id: "7_11"
+        data: ["Nomadic [10]", "", "A bit southwest of the Southern Aeonia Swamp Bank Site of Grace, near the map fragment pillar."]
+      - id: "7_12"
+        data: ["Isolated [1]", "", "At the Isolated Merchant's Shack in southwestern Weeping Peninsula."]
+      - id: "7_13"
+        data: ["Isolated [2]", "", "From the Main Academy Gate Site of Grace in Liurnia, face southeast toward the seal teleporter to the outside side of the South Raya Lucaria Gate. Instead of using the portal, run right through it, and follow the path down to the merchant."]
+      - id: "7_14"
+        data: ["Isolated [3]", "", "At the Isolated Merchant's Shack in Dragonbarrow, Caelid."]
+      - id: "7_15"
+        data: ["Hermit [1]", "", "At the Hermit Merchant's Shack in northern Capital Outskirts."]
+      - id: "7_16"
+        data: ["Hermit [2]", "", "Just up the ravine from the Ancient Snow Valley Ruins Site of Grace. Access by the spiritspring to the west, or the Snow Valley Ruins Overlook Site of Grace to the north."]
+      - id: "7_17"
+        data: ["Hermit [3]", "", "In Ainsel River, from the Ainsel River Downstream Site of Grace, face east and head into the big room, climb the stairs to enter the building with the massive Malformed Star enemy on top, and find the merchant inside."]
+      - id: "7_18"
+        data: ["Abandoned", "", "From the Worshippers' Woods Site of Grace in Siofra River, climb the scaffolding you can see directly west - climb the ladders, drop down around the corner, cross the wooden bridge, and follow the cave-like path until you can drop down into his room."]
+      - id: "7_19"
+        data: ["Imprisoned", "", "West of the Moghwyn Palace, enter the Mohgwyn Dynasty Mausoleum and keep to the left to find the merchant at a dead end."]

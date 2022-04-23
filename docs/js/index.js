@@ -751,6 +751,39 @@ var profilesKey = 'darksouls3_profiles';
 "bell_bearings_5_2",
 "bell_bearings_5_3",
 "bell_bearings_5_4",
+"bell_bearings_6_1",
+"bell_bearings_6_10",
+"bell_bearings_6_11",
+"bell_bearings_6_12",
+"bell_bearings_6_13",
+"bell_bearings_6_14",
+"bell_bearings_6_2",
+"bell_bearings_6_3",
+"bell_bearings_6_4",
+"bell_bearings_6_5",
+"bell_bearings_6_6",
+"bell_bearings_6_7",
+"bell_bearings_6_8",
+"bell_bearings_6_9",
+"bell_bearings_7_1",
+"bell_bearings_7_10",
+"bell_bearings_7_11",
+"bell_bearings_7_12",
+"bell_bearings_7_13",
+"bell_bearings_7_14",
+"bell_bearings_7_15",
+"bell_bearings_7_16",
+"bell_bearings_7_17",
+"bell_bearings_7_18",
+"bell_bearings_7_19",
+"bell_bearings_7_2",
+"bell_bearings_7_3",
+"bell_bearings_7_4",
+"bell_bearings_7_5",
+"bell_bearings_7_6",
+"bell_bearings_7_7",
+"bell_bearings_7_8",
+"bell_bearings_7_9",
 "bosses_10_1",
 "bosses_10_10",
 "bosses_10_11",
@@ -3059,7 +3092,7 @@ const scrolls_prayerbooks_total = 11;
 var scrolls_prayerbooks_checked = 0;
 const whetstones_total = 6;
 var whetstones_checked = 0;
-const bell_bearings_total = 19;
+const bell_bearings_total = 52;
 var bell_bearings_checked = 0;
 const cookbooks_total = 59;
 var cookbooks_checked = 0;
