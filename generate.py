@@ -83,10 +83,10 @@ def make_doc(title, description):
     with doc.head:
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="apple-touch-icon", sizes="180x180", href="/img/apple-touch-icon.png")
-        link(rel="icon", type="image/png", sizes="32x32", href="/img/favicon-32x32.png")
-        link(rel="icon", type="image/png", sizes="16x16", href="/img/favicon-16x16.png")
-        link(rel="manifest", href="/img/site.webmanifest")
+        link(rel="apple-touch-icon", sizes="180x180", href="/Assets/apple-touch-icon.png")
+        link(rel="icon", type="image/png", sizes="32x32", href="/Assets/favicon-32x32.png")
+        link(rel="icon", type="image/png", sizes="16x16", href="/Assets/favicon-16x16.png")
+        link(rel="manifest", href="/Assets/site.webmanifest")
         meta(name="theme-color", content="#ffffff")
         meta(name="apple-mobile-web-app-capable", content="yes")
         meta(name="mobile-web-app-capable", content="yes")
@@ -135,7 +135,9 @@ def make_nav(page):
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
                                     li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
-                    with li(cls="nav-item tabl-li"):
+                    with li(cls='nav-item tab-li'):
+                        a(href="/map.html", cls="nav-link hide-buttons" + (' active' if page == 'map' else '')).add(i(cls="bi bi-map"), " Map")
+                    with li(cls="nav-item tab-li"):
                         a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
 
 # def make_sidebar_nav(page):
@@ -267,6 +269,24 @@ def make_index():
             script(src="/js/index.js")
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
+
+def make_map():
+    doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
+    with doc.head:
+        link(rel='stylesheet', href='/css/leaflet.css')
+    with doc:
+        with div(cls='container-fluid vh-100 d-flex flex-column'):
+            make_nav('options')
+            with div(cls='row flex-grow-1'):
+                div(cls='col flex-grow-1', id='map')
+        make_footer()
+        script(src='/js/leaflet.js')
+        script(src='/js/rastercoords.js')
+        script(src='/js/map.js')
+    with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
+        f.write(doc.render())
+
+make_map()
 
 def make_options():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
@@ -567,6 +587,7 @@ var profilesKey = 'darksouls3_profiles';\n
     
     var themes = {
         "Standard" : "/css/bootstrap.min.css",
+        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
         "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
         "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
         "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",

@@ -6,178 +6,178 @@ sections:
     title: "Starting Gestures"
     items:
       - id: "0_1"
-        icon: "/img/icons/gestures/07006.png"
+        icon: "/Assets/icons/gestures/07006.png"
         data: ["Warm Welcome"]
       - id: "0_2"
-        icon: "/img/icons/gestures/07031.png"
+        icon: "/Assets/icons/gestures/07031.png"
         data: ["Dejection"]
       - id: "0_3"
-        icon: "/img/icons/gestures/07007.png"
+        icon: "/Assets/icons/gestures/07007.png"
         data: ["Wave"]
       - id: "0_4"
-        icon: "/img/icons/gestures/07020.png"
+        icon: "/Assets/icons/gestures/07020.png"
         data: ["Rallying Cry"]
       - id: "0_5"
-        icon: "/img/icons/gestures/07034.png"
+        icon: "/Assets/icons/gestures/07034.png"
         data: ["Rest"]
       - id: "0_6"
-        icon: "/img/icons/gestures/07011.png"
+        icon: "/Assets/icons/gestures/07011.png"
         data: ["Point Forwards"]
       - id: "0_7"
-        icon: "/img/icons/gestures/07000.png"
+        icon: "/Assets/icons/gestures/07000.png"
         data: ["Bow"]
       - id: "0_8"
-        icon: "/img/icons/gestures/07012.png"
+        icon: "/Assets/icons/gestures/07012.png"
         data: ["Point Upwards"]
       - id: "0_9"
-        icon: "/img/icons/gestures/07013.png"
+        icon: "/Assets/icons/gestures/07013.png"
         data: ["Point Downwards"]
       - id: "0_10"
-        icon: "/img/icons/gestures/07014.png"
+        icon: "/Assets/icons/gestures/07014.png"
         data: ["Beckon"]
       - id: "0_11"
-        icon: "/img/icons/gestures/07027.png"
+        icon: "/Assets/icons/gestures/07027.png"
         data: ["Jump for Joy"]
       - id: "0_12"
-        icon: "/img/icons/gestures/07015.png"
+        icon: "/Assets/icons/gestures/07015.png"
         data: ["Wait!"]
   -
     title: "Limgrave"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "1_1"
-        icon: "/img/icons/gestures/07009.png"
+        icon: "/Assets/icons/gestures/07009.png"
         data: ["Strength!", "Cave of Knowledge", "", "Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick."]
       - id: "1_2"
-        icon: "/img/icons/gestures/07050.png"
+        icon: "/Assets/icons/gestures/07050.png"
         data: ["The Ring", "anywhere", "", "Help anyone beat a boss as a yellow phantom. Requires online access. (It was also a digital pre-order bonus.)"]
       - id: "1_3"
-        icon: "/img/icons/gestures/07017.png"
+        icon: "/Assets/icons/gestures/07017.png"
         data: ["Nod in Thought", "Waypoint Ruins Cellar", "Sellen", "Meet Sellen and become her student."]
       - id: "1_4"
-        icon: "/img/icons/gestures/07019.png"
+        icon: "/Assets/icons/gestures/07019.png"
         data: ["Grovel for Mercy", "Murkwater Cave", "Patches", "When you first encounter Patches, after lowering his health enough, he'll perform this gesture as his surrender. If you stop attacking, the fight will end, and you'll get the gesture unlock."]
       - id: "1_5"
-        icon: "/img/icons/gestures/07018.png"
+        icon: "/Assets/icons/gestures/07018.png"
         data: ["Extreme Repentance", "Murkwater Cave", "Patches", "After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)"]
       - id: "1_6"
-        icon: "/img/icons/gestures/07016.png"
+        icon: "/Assets/icons/gestures/07016.png"
         data: ["Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you."]
       - id: "1_7"
-        icon: "/img/icons/gestures/07030.png"
+        icon: "/Assets/icons/gestures/07030.png"
         data: ["Finger Snap", "Church of Elleh", "Blaidd", "Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it."]
       - id: "1_8"
-        icon: "/img/icons/gestures/07028.png"
+        icon: "/Assets/icons/gestures/07028.png"
         data: ["Triumphant Delight", "Stormhill", "Alexander", "Help Iron Fist Alexander out of his hole."]
       - id: "1_9"
-        icon: "/img/icons/gestures/07033.png"
+        icon: "/Assets/icons/gestures/07033.png"
         data: ["Crossed Legs", "Stormhill", "", "South of Stormhill Shack is a large piece of debris with a corpse sitting on top in this pose. Interact with it to unlock the gesture."]
       - id: "1_10"
-        icon: "/img/icons/gestures/07035.png"
+        icon: "/Assets/icons/gestures/07035.png"
         data: ["Sitting Sideways", "Stormhill Shack", "Roderika", "Talk to Roderika in her shack until this unlocks."]
       - id: "1_11"
-        icon: "/img/icons/gestures/07036.png"
+        icon: "/Assets/icons/gestures/07036.png"
         data: ["Dozing Cross-Legged", "Stormveil Castle", "", "Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask."]
       - id: "1_12"
-        icon: "/img/icons/gestures/07026.png"
+        icon: "/Assets/icons/gestures/07026.png"
         data: ["Bravo!", "", "Varré", "After you've beaten your first demigod (traditionally Godrick), but before finding Varré at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture."]
       - id: "1_13"
-        icon: "/img/icons/gestures/07032.png"
+        icon: "/Assets/icons/gestures/07032.png"
         data: ["Patches' Crouch", "Murkwater Cave", "Patches", "At the end of Patches's questline, after he's left Shaded Castle, go back to where you first met him and you should find the boss fog back up. Enter and let the encounter play out."]
   -
     title: "Roundtable Hold"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "2_1"
-        icon: "/img/icons/gestures/07041.png"
+        icon: "/Assets/icons/gestures/07041.png"
         data: ["Prayer", "", "Corhyn", "Talk to Brother Corhyn."]
       - id: "2_2"
-        icon: "/img/icons/gestures/07040.png"
+        icon: "/Assets/icons/gestures/07040.png"
         data: ["What Do You Want?", "", "Ensha", "Try to talk to Ensha."]
       - id: "2_3"
-        icon: "/img/icons/gestures/07004.png"
+        icon: "/Assets/icons/gestures/07004.png"
         data: ["Reverential Bow", "", "", "Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish."]
       - id: "2_4"
-        icon: "/img/icons/gestures/07003.png"
+        icon: "/Assets/icons/gestures/07003.png"
         data: ["Curtsy", "", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
       - id: "2_5"
-        icon: "/img/icons/gestures/07043.png"
+        icon: "/Assets/icons/gestures/07043.png"
         data: ["Rapture", "", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
   -
     title: "Liurnia of the Lakes"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "3_1"
-        icon: "/img/icons/gestures/07010.png"
+        icon: "/Assets/icons/gestures/07010.png"
         data: ["As You Wish", "", "Hyetta", "Give Hyetta a Shabriri Grape."]
       - id: "3_2"
-        icon: "/img/icons/gestures/07024.png"
+        icon: "/Assets/icons/gestures/07024.png"
         data: ["Fire Spur Me", "", "", "On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia."]
       - id: "3_3"
-        icon: "/img/icons/gestures/07037.png"
+        icon: "/Assets/icons/gestures/07037.png"
         data: ["Spread Out", "Boilprawn Shack", "Blackguard Big Boggart", "Buy some boiled prawns and talk to him."]
       - id: "3_4"
-        icon: "/img/icons/gestures/07046.png"
+        icon: "/Assets/icons/gestures/07046.png"
         data: ["Erudition", "Church of Irith", "puzzle towers", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
       - id: "3_5"
-        icon: "/img/icons/gestures/07039.png"
+        icon: "/Assets/icons/gestures/07039.png"
         data: ["Balled Up", "Academy of Raya Lucaria", "", "Use a Larval Tear to rebirth yourself with Rennala."]
       - id: "3_6"
-        icon: "/img/icons/gestures/07008.png"
+        icon: "/Assets/icons/gestures/07008.png"
         data: ["Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
   -
     title: "Caelid"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "4_1"
-        icon: "/img/icons/gestures/07042.png"
+        icon: "/Assets/icons/gestures/07042.png"
         data: ["Desperate Prayer", "Gowry's Shack", "Gowry", "Buy the incantation Pest Threads, which becomes available at a certain point in his questline, then exhaust his dialogue."]
       - id: "4_2"
-        icon: "/img/icons/gestures/07021.png"
+        icon: "/Assets/icons/gestures/07021.png"
         data: ["Heartening Cry", "Redmane Castle", "", "Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
       - id: "4_3"
-        icon: "/img/icons/gestures/07001.png"
+        icon: "/Assets/icons/gestures/07001.png"
         data: ["Polite Bow", "Redmane Castle", "", "Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
       - id: "4_4"
-        icon: "/img/icons/gestures/07008.png"
+        icon: "/Assets/icons/gestures/07008.png"
         data: ["Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
   -
     title: "Mt. Gelmir"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "5_1"
-        icon: "/img/icons/gestures/07002.png"
+        icon: "/Assets/icons/gestures/07002.png"
         data: ["My Thanks", "Volcano Manor", "Volcano Manor", "At the end of the hallway after beating Rykard."]
   -
     title: "Leyndell, Royal Capital"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "6_1"
-        icon: "/img/icons/gestures/07047.png"
+        icon: "/Assets/icons/gestures/07047.png"
         data: ["Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
       - id: "6_2"
-        icon: "/img/icons/gestures/07022.png"
+        icon: "/Assets/icons/gestures/07022.png"
         data: ["By My Sword", "Fortified Manor, First Floor", "", "In a small room in the south wing."]
       - id: "6_3"
-        icon: "/img/icons/gestures/07005.png"
+        icon: "/Assets/icons/gestures/07005.png"
         data: ["My Lord", "East Capital Rampart", "Boc", "Give Boc the Gold Sewing Needle."]
       - id: "6_4"
-        icon: "/img/icons/gestures/07049.png"
+        icon: "/Assets/icons/gestures/07049.png"
         data: ["Golden Order Totality", "", "Goldmask", "Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum."]
   -
     title: "Mountaintops of the Giants"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "7_1"
-        icon: "/img/icons/gestures/07029.png"
+        icon: "/Assets/icons/gestures/07029.png"
         data: ["Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
       - id: "7_2"
-        icon: "/img/icons/gestures/07023.png"
+        icon: "/Assets/icons/gestures/07023.png"
         data: ["Hoslow's Oath", "east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
   -
     title: "Nokron, Eternal City"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "8_1"
-        icon: "/img/icons/gestures/07048.png"
+        icon: "/Assets/icons/gestures/07048.png"
         data: ["Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]

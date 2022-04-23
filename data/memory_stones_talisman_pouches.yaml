@@ -3,7 +3,7 @@ id: memory_stones_talisman_pouches
 sections:
   -
     title: "Memory Stones"
-    icon: "/img/icons/00553.png"
+    icon: "/Assets/icons/00553.png"
     items:
       - id: "0_1"
         data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
@@ -23,7 +23,7 @@ sections:
         data: ["Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
   -
     title: "Talisman Pouches"
-    icon: "/img/icons/00554.png"
+    icon: "/Assets/icons/00554.png"
     items:
       - id: "1_1"
         data: ["Game starts with a Talisman Pouch"]
