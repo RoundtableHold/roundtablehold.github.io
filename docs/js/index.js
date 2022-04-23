@@ -747,6 +747,10 @@ var profilesKey = 'darksouls3_profiles';
 "bell_bearings_4_1",
 "bell_bearings_4_2",
 "bell_bearings_4_3",
+"bell_bearings_5_1",
+"bell_bearings_5_2",
+"bell_bearings_5_3",
+"bell_bearings_5_4",
 "bosses_10_1",
 "bosses_10_10",
 "bosses_10_11",
@@ -3055,7 +3059,7 @@ const scrolls_prayerbooks_total = 11;
 var scrolls_prayerbooks_checked = 0;
 const whetstones_total = 6;
 var whetstones_checked = 0;
-const bell_bearings_total = 15;
+const bell_bearings_total = 19;
 var bell_bearings_checked = 0;
 const cookbooks_total = 59;
 var cookbooks_checked = 0;
