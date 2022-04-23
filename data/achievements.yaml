@@ -7,140 +7,140 @@ sections:
     table: ["Name", "Condition", "Notes"]
     items:
       - id: "1_1"
-        icon: "/Assets/achievements/shardbearer_godrick.png"
+        icon: "/img/achievements/shardbearer_godrick.png"
         data: ["Shardbearer Godrick", "Defeat Shardbearer Godrick", "Semi-optional, only two Shardbearers need to be defeated."]
       - id: "1_2"
-        icon: "/Assets/achievements/shardbearer_radahn.png"
+        icon: "/img/achievements/shardbearer_radahn.png"
         data: ["Shardbearer Radahn",  "Defeat Shardbearer Radahn", "Semi-optional, only two Shardbearers need to be defeated."]
       - id: "1_3"
-        icon: "/Assets/achievements/shardbearer_morgott.png"
+        icon: "/img/achievements/shardbearer_morgott.png"
         data: ["Shardbearer Morgott", "Defeat Shardbearer Morgott", "Will unlock through story progression."]
       - id: "1_4"
-        icon: "/Assets/achievements/shardbearer_rykard.png"
+        icon: "/img/achievements/shardbearer_rykard.png"
         data: ["Shardbearer Rykard", "Defeat Shardbearer Rykard", "Semi-optional, only two Shardbearers need to be defeated."]
       - id: "1_5"
-        icon: "/Assets/achievements/shardbearer_mohg.png"
+        icon: "/img/achievements/shardbearer_mohg.png"
         data: ["Shardbearer Mohg", "Defeat Shardbearer Mohg", "Semi-optional, only two Shardbearers need to be defeated."]
       - id: "1_6"
-        icon: "/Assets/achievements/shardbearer_malenia.png"
+        icon: "/img/achievements/shardbearer_malenia.png"
         data: ["Shardbearer Malenia", "Defeat Shardbearer Malenia", "Semi-optional, only two Shardbearers need to be defeated."]
   -
     title: "Other Bosses"
     table: ["Name", "Condition", "Notes"]
     items:
       - id: "2_1"
-        icon: "/Assets/achievements/margit_the_fell_omen.png"
+        icon: "/img/achievements/margit_the_fell_omen.png"
         data: ["Margit, the Fell Omen","Defeat Margit, the Fell Omen", "Will unlock as you progress through Stormveil Castle."]
       - id: "2_2"
-        icon: "/Assets/achievements/leonine_misbegotten.png"
+        icon: "/img/achievements/leonine_misbegotten.png"
         data: ["Leonine Misbegotten", "Defeat the Leonine Misbegotten", ""]
       - id: "2_3"
-        icon: "/Assets/achievements/red_wolf_of_radagon.png"
+        icon: "/img/achievements/red_wolf_of_radagon.png"
         data: ["Red Wolf of Radagon", "Defeat the Red Wolf of Radagon", "Will unlock as you progress through Raya Lucaria Academy."]
       - id: "2_4"
-        icon: "/Assets/achievements/rennala_queen_of_the_full_moon.png"
+        icon: "/img/achievements/rennala_queen_of_the_full_moon.png"
         data: ["Rennala, Queen of the Full Moon", "Defeat Rennala, Queen of the Full Moon", ""]
       - id: "2_5"
-        icon: "/Assets/achievements/royal_knight_loretta.png"
+        icon: "/img/achievements/royal_knight_loretta.png"
         data: ["Royal Knight Loretta", "Defeat Royal Knight Loretta", "Defeat Royal Knight Loretta at Carian Manor."]
       - id: "2_6"
-        icon: "/Assets/achievements/magma_wyrm_makar.png"
+        icon: "/img/achievements/magma_wyrm_makar.png"
         data: ["Magma Wyrm Makar", "Defeat Magma Wyrm Makar", ""]
       - id: "2_7"
-        icon: "/Assets/achievements/ancestor_spirit.png"
+        icon: "/img/achievements/ancestor_spirit.png"
         data: ["Ancestor Spirit", "Defeat the Ancestor Spirit", ""]
       - id: "2_8"
-        icon: "/Assets/achievements/mimic_tear.png"
+        icon: "/img/achievements/mimic_tear.png"
         data: ["Mimic Tear", "Defeat the Mimic Tear", ""]
       - id: "2_9"
-        icon: "/Assets/achievements/godfrey_the_first_lord.png"
+        icon: "/img/achievements/godfrey_the_first_lord.png"
         data: ["Godfrey, the First Lord", "Defeat Godfrey, the First Lord", "Will unlock through story progression."]
       - id: "2_10"
-        icon: "/Assets/achievements/dragonkin_soldier_of_nokstella.png"
+        icon: "/img/achievements/dragonkin_soldier_of_nokstella.png"
         data: ["Dragonkin Soldier of Nokstella","Defeat Dragonkin Soldier of Nokstella", ""]
       - id: "2_11"
-        icon: "/Assets/achievements/astel_naturalborn_of_the_void.png"
+        icon: "/img/achievements/astel_naturalborn_of_the_void.png"
         data: ["Astel, Naturalborn of the Void", "Defeat Astel, Naturalborn of the Void","Required for Ranni's questline, and 'Age of the Stars' ending."]
       - id: "2_12"
-        icon: "/Assets/achievements/regal_ancestor_spirit.png"
+        icon: "/img/achievements/regal_ancestor_spirit.png"
         data: ["Regal Ancestor Spirit", "Defeat the Regal Ancestor Spirit", ""]
       - id: "2_13"
-        icon: "/Assets/achievements/valiant_gargoyle.png"
+        icon: "/img/achievements/valiant_gargoyle.png"
         data: ["Valiant Gargoyle", "Defeat the Valiant Gargoyle", ""]
       - id: "2_14"
-        icon: "/Assets/achievements/elemer_of_the_briar.png"
+        icon: "/img/achievements/elemer_of_the_briar.png"
         data: ["Elemer of the Briar", "Defeat Elemer of the Briar", ""]
       - id: "2_15"
-        icon: "/Assets/achievements/godskin_noble.png"
+        icon: "/img/achievements/godskin_noble.png"
         data: ["Godskin Noble", "Defeat Godskin Noble", ""]
       - id: "2_16"
-        icon: "/Assets/achievements/commander_niall.png"
+        icon: "/img/achievements/commander_niall.png"
         data: ["Commander Niall", "Defeat Commander Niall", ""]
       - id: "2_17"
-        icon: "/Assets/achievements/fire_giant.png"
+        icon: "/img/achievements/fire_giant.png"
         data: ["Fire Giant", "Defeat the Fire Giant", "Will unlock through story progression."]
       - id: "2_18"
-        icon: "/Assets/achievements/godskin_duo.png"
+        icon: "/img/achievements/godskin_duo.png"
         data: ["Godskin Duo", "Defeat Godskin Duo", "Will unlock through story progression."]
       - id: "2_19"
-        icon: "/Assets/achievements/loretta_knight_of_the_haligtree.png"
+        icon: "/img/achievements/loretta_knight_of_the_haligtree.png"
         data: ["Loretta, Knight of the Haligtree", "Defeat Loretta, Knight of the Haligtree", ""]
       - id: "2_20"
-        icon: "/Assets/achievements/maliketh_the_black_blade.png"
+        icon: "/img/achievements/maliketh_the_black_blade.png"
         data: ["Maliketh, the Black Blade", "Defeat Malekith, the Black Blade", "Will unlock through story progression."]
       - id: "2_21"
-        icon: "/Assets/achievements/hoarah_loux_the_warrior.png"
+        icon: "/img/achievements/hoarah_loux_the_warrior.png"
         data: ["Hoarah Loux, the Warrior", "Defeat Hoarah Loux, the Warrior", "Will unlock through story progression."]
       - id: "2_22"
-        icon: "/Assets/achievements/mohg_the_omen.png"
+        icon: "/img/achievements/mohg_the_omen.png"
         data: ["Mohg, the Omen", "Defeat Mohg, the Omen", ""]
       - id: "2_23"
-        icon: "/Assets/achievements/dragonlord_placidusax.png"
+        icon: "/img/achievements/dragonlord_placidusax.png"
         data: ["Dragonlord Placidusax", "Defeat Dragonlord Placidusax", ""]
       - id: "2_24"
-        icon: "/Assets/achievements/lichdragon_fortissax.png"
+        icon: "/img/achievements/lichdragon_fortissax.png"
         data: ["Lichdragon Fortissax", "Defeat Lichdragon Fortissax", "Follow Fia's questline to unlock, part of 'Age of Duskborn' ending."]
   -
     title: "Misc."
     table: ["Name", "Condition", "Notes"]
     items:
       - id: "3_1"
-        icon: "/Assets/achievements/roundtable_hold.png"
+        icon: "/img/achievements/roundtable_hold.png"
         data: ["Roundtable Hold", "Arrive at Roundtable Hold", "Will unlock as part of story progression."]
       - id: "3_2"
-        icon: "/Assets/achievements/god-slaying_armament.png"
+        icon: "/img/achievements/god-slaying_armament.png"
         data: ["God-Slaying Armament", "Upgrade any armament to its highest stage.", ""]
       - id: "3_3"
-        icon: "/Assets/achievements/legendary_armaments.png"
+        icon: "/img/achievements/legendary_armaments.png"
         data: ["Legendary Armaments", "Acquire all nine legendary weapons.", ""]
       - id: "3_4"
-        icon: "/Assets/achievements/legendary_ashen_remains.png"
+        icon: "/img/achievements/legendary_ashen_remains.png"
         data: ["Legendary Ashen Remains", "Acquire all six legendary ashen remains.", ""]
       - id: "3_5"
-        icon: "/Assets/achievements/legendary_sorceries_and_incantations.png"
+        icon: "/img/achievements/legendary_sorceries_and_incantations.png"
         data: ["Legendary Sorceries and Incantations", "Acquire all seven legendary sorceries and incantations.", ""]
       - id: "3_6"
-        icon: "/Assets/achievements/legendary_talismans.png"
+        icon: "/img/achievements/legendary_talismans.png"
         data: ["Legendary Talismans", "Acquire all eight legendary talismans.", ""]
       - id: "3_7"
-        icon: "/Assets/achievements/great_rune.png"
+        icon: "/img/achievements/great_rune.png"
         data: ["Great Rune", "Restore the power of a Great Rune.", "Easy to unlock at Stormveil, after defeating Godrick."]
       - id: "3_8"
-        icon: "/Assets/achievements/erdtree_aflame.png"
+        icon: "/img/achievements/erdtree_aflame.png"
         data: ["Erdtree Aflame"," Use kindling to set the Erdtree Aflame.",  "Will unlock as part of story progression, but I think it's achievable in two ways."]
       - id: "3_9"
-        icon: "/Assets/achievements/elden_ring.png"
+        icon: "/img/achievements/elden_ring.png"
         data: ["Elden Ring", "Obtained all achievements", "Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms."]
   -
     title: "Endings"
     table: ["Name", "Desc.", "Notes"]
     items:
       - id: "4_1"
-        icon: "/Assets/achievements/elden_lord.png"
+        icon: "/img/achievements/elden_lord.png"
         data: ["Elden Lord", "Achieve the 'Elden Lord' ending ", "Default ending. There are 4 confirmed variations based on quests you can do."]
       - id: "4_2"
-        icon: "/Assets/achievements/age_of_the_stars.png"
+        icon: "/img/achievements/age_of_the_stars.png"
         data: ["Age of the Stars", "Achieve the 'Age of the Stars' ending", "Alternate ending. Finish Ranni's questline to unlock."]
       - id: "4_3"
-        icon: "/Assets/achievements/lord_of_frenzied_flame.png"
+        icon: "/img/achievements/lord_of_frenzied_flame.png"
         data: ["Lord of Frenzied Flame", "Achieve the 'Lord of Frenzied Flame' ending", "Alternate ending. Search for the Three Fingers and follow through to unlock."]
