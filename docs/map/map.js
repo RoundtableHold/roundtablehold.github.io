@@ -21,7 +21,7 @@
     map.on('click', function (event) {
         var coords = rc.project(event.latlng);
         var marker = L.marker(rc.unproject(coords)).addTo(map);
-        marker.bindPopup('[' + Math.floor(coords.x) + ',' + Math.floor(coords.y) + ']').openPopup();
+        marker.bindPopup(Math.floor(coords.x) + ',' + Math.floor(coords.y)).openPopup();
     });
 
     L.tileLayer('/map/tiles/{z}/{x}/{y}.png', {
