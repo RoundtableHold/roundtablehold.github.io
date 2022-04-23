@@ -567,6 +567,7 @@ var profilesKey = 'darksouls3_profiles';\n
     
     var themes = {
         "Standard" : "/css/bootstrap.min.css",
+        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
         "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
         "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
         "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
