@@ -585,7 +585,7 @@ if ('serviceWorker' in navigator) {
         }
     })
 }
-var profilesKey = 'darksouls3_profiles';\n
+var profilesKey = 'eldenring_profiles';\n
 (function($) {
     'use strict';
     $(function() {

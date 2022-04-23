@@ -1,4 +1,4 @@
-var profilesKey = 'darksouls3_profiles';
+var profilesKey = 'eldenring_profiles';
 
 // if ('serviceWorker' in navigator) {
 //     window.addEventListener('load', function() {
