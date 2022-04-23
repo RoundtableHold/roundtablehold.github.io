@@ -25,7 +25,7 @@ map.setView(rc.unproject([4500, 4500]), 4);
 //     marker.bindPopup('[' + Math.floor(coords.x) + ',' + Math.floor(coords.y) + ']').openPopup();
 // });
 
-L.tileLayer('/Assets/map/tiles/{z}/{x}/{y}.png', {
+L.tileLayer('/map/tiles/{z}/{x}/{y}.png', {
     tms: true,
     noWrap: true,
     bounds: rc.getMaxBounds(),
