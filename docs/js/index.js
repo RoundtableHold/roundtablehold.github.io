@@ -2561,6 +2561,34 @@ var profilesKey = 'darksouls3_profiles';
 "talismans_9_3",
 "talismans_9_4",
 "talismans_9_5",
+"tears_dews_1_1",
+"tears_dews_1_10",
+"tears_dews_1_11",
+"tears_dews_1_12",
+"tears_dews_1_13",
+"tears_dews_1_14",
+"tears_dews_1_15",
+"tears_dews_1_16",
+"tears_dews_1_17",
+"tears_dews_1_18",
+"tears_dews_1_2",
+"tears_dews_1_3",
+"tears_dews_1_4",
+"tears_dews_1_5",
+"tears_dews_1_6",
+"tears_dews_1_7",
+"tears_dews_1_8",
+"tears_dews_1_9",
+"tears_dews_2_1",
+"tears_dews_2_10",
+"tears_dews_2_2",
+"tears_dews_2_3",
+"tears_dews_2_4",
+"tears_dews_2_5",
+"tears_dews_2_6",
+"tears_dews_2_7",
+"tears_dews_2_8",
+"tears_dews_2_9",
 "tools_1_1",
 "tools_1_2",
 "tools_1_3",
@@ -3038,6 +3066,8 @@ const great_runes_total = 11;
 var great_runes_checked = 0;
 const dragon_hearts_death_roots_total = 22;
 var dragon_hearts_death_roots_checked = 0;
+const tears_dews_total = 28;
+var tears_dews_checked = 0;
 const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
@@ -3131,6 +3161,9 @@ great_runes_checked += 1;
 }
 if (id.startsWith("dragon_hearts_death_roots")) {
 dragon_hearts_death_roots_checked += 1;
+}
+if (id.startsWith("tears_dews")) {
+tears_dews_checked += 1;
 }
 if (id.startsWith("paintings")) {
 paintings_checked += 1;
@@ -3285,6 +3318,11 @@ if (dragon_hearts_death_roots_checked >= dragon_hearts_death_roots_total){
 $("#dragon_hearts_death_roots_progress_total").html("DONE");
 } else {
 $("#dragon_hearts_death_roots_progress_total").html(dragon_hearts_death_roots_checked + "/" + dragon_hearts_death_roots_total);
+}
+if (tears_dews_checked >= tears_dews_total){
+$("#tears_dews_progress_total").html("DONE");
+} else {
+$("#tears_dews_progress_total").html(tears_dews_checked + "/" + tears_dews_total);
 }
 if (paintings_checked >= paintings_total){
 $("#paintings_progress_total").html("DONE");
