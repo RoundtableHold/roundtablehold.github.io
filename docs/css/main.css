@@ -210,3 +210,7 @@ textarea#profileText {
   background-color: cornflowerblue;
   color: white;
 }
+
+.min-100 {
+  min-height: 100%;
+}

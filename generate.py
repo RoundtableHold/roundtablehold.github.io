@@ -135,7 +135,9 @@ def make_nav(page):
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
                                     li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
-                    with li(cls="nav-item tabl-li"):
+                    with li(cls='nav-item tab-li'):
+                        a(href='/map.html', cls='nav-link hide-buttons' + (' active' if page == 'map' else '')).add(i(cls='bi bi-map'), 'Map')
+                    with li(cls="nav-item tab-li"):
                         a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
 
 # def make_sidebar_nav(page):
@@ -267,6 +269,22 @@ def make_index():
             script(src="/js/index.js")
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
+
+def make_map():
+    doc = make_doc("Roundtable Guides", "Elden Ring Guides and Progress Tracker")
+    with doc.head:
+        link(rel='stylesheet', href='/css/leaflet.css')
+        script(src='/js/leaflet.js')
+        script(src='/js/rastercoords.js')
+    with doc:
+        with div(cls="container-fluid vh-100 d-flex flex-column"):
+            make_nav('map')
+            with div(cls="row flex-grow-1"):
+                div(id='map', cls='col flex-grow-1')
+        make_footer()
+        script(src='/js/map.js')
+    with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as map:
+        map.write(doc.render())
 
 def make_options():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
@@ -494,6 +512,7 @@ def make_checklist(page):
 
 make_index()
 make_options()
+make_map()
 for page in pages:
     make_checklist(page)
 
@@ -559,6 +578,13 @@ with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as
 with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+            registration.unregister();
+        }
+    })
+}
 var profilesKey = 'darksouls3_profiles';\n
 (function($) {
     'use strict';

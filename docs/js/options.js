@@ -4,6 +4,13 @@ var profilesKey = 'darksouls3_profiles';
 // if ('serviceWorker' in navigator) {
 //     navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
 // }
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+            registration.unregister();
+        }
+    })
+}
 
 (function($) {
     'use strict';
