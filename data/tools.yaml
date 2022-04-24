@@ -14,7 +14,7 @@ sections:
         data: ["Telescope", "Shift camera into first person view", "Bought from Kalé in Church of Elleh, Limgrave, for 500 runes"]
       - id: "1_3"
         icon: "/img/icons/00013.png"
-        data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at the Gatefront Ruins Site of Grace in Limgrave"]
+        data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
       - id: "1_4"
         icon: "/img/icons/03068.png"
         data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
@@ -80,6 +80,7 @@ sections:
   -
     title: Multiplayer
     table: [Name, Description, Location]
+    table_widths: [3, 4, 5]
     items:
       - id: "4_1"
         icon: "/img/icons/online/00005.png"

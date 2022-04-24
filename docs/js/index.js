@@ -747,6 +747,43 @@ var profilesKey = 'darksouls3_profiles';
 "bell_bearings_4_1",
 "bell_bearings_4_2",
 "bell_bearings_4_3",
+"bell_bearings_5_1",
+"bell_bearings_5_2",
+"bell_bearings_5_3",
+"bell_bearings_5_4",
+"bell_bearings_6_1",
+"bell_bearings_6_10",
+"bell_bearings_6_11",
+"bell_bearings_6_12",
+"bell_bearings_6_13",
+"bell_bearings_6_14",
+"bell_bearings_6_2",
+"bell_bearings_6_3",
+"bell_bearings_6_4",
+"bell_bearings_6_5",
+"bell_bearings_6_6",
+"bell_bearings_6_7",
+"bell_bearings_6_8",
+"bell_bearings_6_9",
+"bell_bearings_7_1",
+"bell_bearings_7_10",
+"bell_bearings_7_11",
+"bell_bearings_7_12",
+"bell_bearings_7_13",
+"bell_bearings_7_14",
+"bell_bearings_7_15",
+"bell_bearings_7_16",
+"bell_bearings_7_17",
+"bell_bearings_7_18",
+"bell_bearings_7_19",
+"bell_bearings_7_2",
+"bell_bearings_7_3",
+"bell_bearings_7_4",
+"bell_bearings_7_5",
+"bell_bearings_7_6",
+"bell_bearings_7_7",
+"bell_bearings_7_8",
+"bell_bearings_7_9",
 "bosses_10_1",
 "bosses_10_10",
 "bosses_10_11",
@@ -2562,6 +2599,34 @@ var profilesKey = 'darksouls3_profiles';
 "talismans_9_3",
 "talismans_9_4",
 "talismans_9_5",
+"tears_dews_1_1",
+"tears_dews_1_10",
+"tears_dews_1_11",
+"tears_dews_1_12",
+"tears_dews_1_13",
+"tears_dews_1_14",
+"tears_dews_1_15",
+"tears_dews_1_16",
+"tears_dews_1_17",
+"tears_dews_1_18",
+"tears_dews_1_2",
+"tears_dews_1_3",
+"tears_dews_1_4",
+"tears_dews_1_5",
+"tears_dews_1_6",
+"tears_dews_1_7",
+"tears_dews_1_8",
+"tears_dews_1_9",
+"tears_dews_2_1",
+"tears_dews_2_10",
+"tears_dews_2_2",
+"tears_dews_2_3",
+"tears_dews_2_4",
+"tears_dews_2_5",
+"tears_dews_2_6",
+"tears_dews_2_7",
+"tears_dews_2_8",
+"tears_dews_2_9",
 "tools_1_1",
 "tools_1_2",
 "tools_1_3",
@@ -3027,7 +3092,7 @@ const scrolls_prayerbooks_total = 11;
 var scrolls_prayerbooks_checked = 0;
 const whetstones_total = 6;
 var whetstones_checked = 0;
-const bell_bearings_total = 15;
+const bell_bearings_total = 52;
 var bell_bearings_checked = 0;
 const cookbooks_total = 59;
 var cookbooks_checked = 0;
@@ -3039,6 +3104,8 @@ const great_runes_total = 11;
 var great_runes_checked = 0;
 const dragon_hearts_death_roots_total = 22;
 var dragon_hearts_death_roots_checked = 0;
+const tears_dews_total = 28;
+var tears_dews_checked = 0;
 const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
@@ -3132,6 +3199,9 @@ great_runes_checked += 1;
 }
 if (id.startsWith("dragon_hearts_death_roots")) {
 dragon_hearts_death_roots_checked += 1;
+}
+if (id.startsWith("tears_dews")) {
+tears_dews_checked += 1;
 }
 if (id.startsWith("paintings")) {
 paintings_checked += 1;
@@ -3286,6 +3356,11 @@ if (dragon_hearts_death_roots_checked >= dragon_hearts_death_roots_total){
 $("#dragon_hearts_death_roots_progress_total").html("DONE");
 } else {
 $("#dragon_hearts_death_roots_progress_total").html(dragon_hearts_death_roots_checked + "/" + dragon_hearts_death_roots_total);
+}
+if (tears_dews_checked >= tears_dews_total){
+$("#tears_dews_progress_total").html("DONE");
+} else {
+$("#tears_dews_progress_total").html(tears_dews_checked + "/" + tears_dews_total);
 }
 if (paintings_checked >= paintings_total){
 $("#paintings_progress_total").html("DONE");

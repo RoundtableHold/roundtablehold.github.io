@@ -415,6 +415,7 @@ def make_checklist(page):
                                 else:
                                     table_cols = section['table']
                                     size = floor(12 / table_cols)
+                                table_widths = section['table_widths'] if 'table_widths' in section else page['table_widths']
                                 items = peekable(section['items'])
                                 if isinstance(items.peek(), str):
                                     item = next(items)
@@ -426,10 +427,7 @@ def make_checklist(page):
                                                 input_(cls="form-check-input invisible pe-0 me-0", type='checkbox')
                                             with div(cls="col d-flex align-items-center d-md-block").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
-                                                    if 'table_widths' in page:
-                                                        col_size = str(page['table_widths'][idx])
-                                                    else:
-                                                        col_size = str(size)
+                                                    col_size = str(table_widths[idx])
                                                     div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
                                     for item in items:
                                         id = str(item['id'])
@@ -444,10 +442,7 @@ def make_checklist(page):
                                                     page['num_ids'] += 1
                                                 with div(cls="col d-flex align-items-center d-md-block d-none").add(div(cls="row")):
                                                     for pos in range(table_cols):
-                                                        if 'table_widths' in page:
-                                                            col_size = str(page['table_widths'][pos])
-                                                        else:
-                                                            col_size = str(size)
+                                                        col_size = str(table_widths[pos])
                                                         with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                                 if pos == 0 and 'icon' in item:
@@ -459,10 +454,7 @@ def make_checklist(page):
                                                         if 'icon' in item:
                                                             img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-end')
                                                         for pos in range(table_cols):
-                                                            if 'table_widths' in page:
-                                                                col_size = str(page['table_widths'][pos])
-                                                            else:
-                                                                col_size = str(size)
+                                                            col_size = str(table_widths[pos])
                                                             if isinstance(section['table'], list) and item['data'][pos]:
                                                                 strong(section['table'][pos] + ': ', cls="me-1")
                                                             if item['data'][pos]:
