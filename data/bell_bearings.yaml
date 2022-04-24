@@ -1,10 +1,10 @@
 title: Bell Bearings
 id: bell_bearings
-table_widths: [2, 2, 8]
 sections:
   -
     title: "Smithing-Stone Miner's Bell Bearings"
-    table: ["Increment", "Unlocks", "Location"]
+    table: ["", "Unlocks", "Location"]
+    table_widths: [1, 2, 9]
     items:
       - id: "1_1"
         data: ["[1]", "Smithing Stone 1/2", "Dropped by the boss of the <a href=\"caves_catacombsand_tunnels.html#item_2_5\">Raya Lucaria Crystal Tunnels</a>."]
@@ -16,7 +16,8 @@ sections:
         data: ["[4]", "Smithing Stone 7/8", "Dropped by the <a href=\"bosses.html#item_11_2\">Godskin Duo</a> in Crumbling Farum Azula."]
   -
     title: "Somber-Stone Miner's Bell Bearings"
-    table: ["Increment", "Unlocks", "Location"]
+    table: ["", "Unlocks", "Location"]
+    table_widths: [1, 2, 9]
     items:
       - id: "2_1"
         data: ["[1]", "Somber Stone 1/2", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_3_6\">Sellia Crystal Tunnel</a>. Fastest way to the tunnel is by taking the teleporter chest located in the ruins at the South end of the lake in Limgrave. Under the ruins and past some rats is a chest that will teleport you to the Tunnel."]
@@ -30,7 +31,8 @@ sections:
         data: ["[5]", "Somber Stone 9", "In Crumbling Farum Azula. Little hard to explain. From the Dragon Temple Rooftop Grace, hop down to where all the nasty birds are. Past the birds is a dragon. Going past the dragon to the right is a bunch of demi-humans. Past them is a ruin that's fallen over and become a bridge. In the next building on the right is a corpse with the Bell Bearing."]
   -
     title: "Glovewort Picker's Bell Bearings"
-    table: ["Increment", "Unlocks", "Location"]
+    table: ["", "Unlocks", "Location"]
+    table_widths: [1, 2, 9]
     items:
       - id: "3_1"
         data: ["[1]", "Grave Glovewort 1/2/3", "Dropped by the boss of <a href=\"caves_catacombsand_tunnels.html#item_5_6\">Wyndham Catacombs</a> located on North of the Lux Ruins, North of the exit of the \"Cowards\" Path aka Ruins-Strewn Precipice."]
@@ -40,7 +42,8 @@ sections:
         data: ["[3]", "Grave Glovewort 7/8/9", "In Crumbling Farum Azula in a lake. Go down the elevator South-West of the room that is North-West from the Crumbling Beast Grave Depths Grace. You'll see a lake down the path and the Bell Bearing is there."]
   -
     title: "Ghost-Glovewort Picker's Bell Bearings"
-    table: ["Increment", "Unlocks", "Location"]
+    table: ["", "Unlocks", "Location"]
+    table_widths: [1, 2, 9]
     items:
       - id: "4_1"
         data: ["[1]", "Ghost Glovewort 1/2/3", "Just ahead of the Nokron, Eternal City Grace."]
@@ -51,6 +54,7 @@ sections:
   -
     title: "Peddlers' Bell Bearings"
     table: ["Version", "Unlocks", "Location"]
+    table_widths: [2, 2, 8]
     items:
       - id: "5_1"
         data: ["Bone", "Thin Animal Bones<br>Hefty Beast Bone", "Dropped by <a href=\"bosses.html#item_2_20\">Bell Bearing Hunter</a> in Warmaster's Shack, Limgrave."]
@@ -63,6 +67,7 @@ sections:
   -
     title: "NPCs' Bell Bearings"
     table: ["NPC", "Obtained naturally?", "Notes"]
+    table_widths: [2, 2, 8]
     items:
       - id: "6_1"
         data: ["<a href=\"npc_questlines.html#item_36_5\">Bernahl</a>", "Yes", "At the end of his questline in Crumbling Farum Azula, you'll get his bell bearing after defeating him in his invasion."]
