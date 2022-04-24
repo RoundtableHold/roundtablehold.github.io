@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Options | Roundtable Guides</title>
+    <title>Search | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -180,7 +180,7 @@
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons active" href="/options.html">
+              <a class="nav-link hide-buttons" href="/options.html">
                 <i class="bi bi-gear-fill"></i> Options
               </a>
             </li>
@@ -188,162 +188,21 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="mt-4">Roundtable Guides</h1>
-        </div>
+    <div class="container uncolor-links">
+      <div class="row text-center">
+        <h3 class="mt-4">Search</h3>
       </div>
-      <div class="row">
-        <h2>Options</h2>
-        <div class="row">
-          <div class="col col-12 col-md-6">
-            <h4>Theme selection:</h4>
-          </div>
-          <div class="col col-12 col-md-6">
-            <select class="form-select" id="themes"></select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-12 col-md-4">
-            <h4>Profile management:</h4>
-          </div>
-          <form class="form-inline input-group pull-right gap-1">
-            <div class="col col-12 col-md-4">
-              <select class="form-select" id="profiles"></select>
-            </div>
-            <div class="col col-12 col-md-4">
-              <div class="btn-group">
-                <button class="btn btn-primary" id="profileAdd" type="button">Add</button>
-              </div>
-              <div class="btn-group">
-                <button class="btn btn-primary" id="profileEdit" type="button">Edit</button>
-              </div>
-              <div class="btn-group">
-                <button class="btn btn-primary" id="profileNG+" type="button">NG+</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="row">
-          <div class="col col-12 col-md-4">
-            <h4>Data import/export:</h4>
-          </div>
-          <div class="col col-12 col-md-8">
-            <form class="form-inline gap-1 m-1">
-              <div class="btn-group pull-left">
-                <button class="btn btn-primary" id="profileImport" type="button">Import file</button>
-              </div>
-              <div class="btn-group pull-left">
-                <button class="btn btn-primary" id="profileExport" type="button">Export file</button>
-              </div>
-              <div class="btn-group pull-right">
-                <button class="btn btn-primary" id="profileImportText" type="button">Import textbox</button>
-              </div>
-              <div class="btn-group pull-right mt-1 mt-md-0">
-                <button class="btn btn-primary" id="profileExportText" type="button">Export clipboard</button>
-              </div>
-            </form>
-          </div>
-          <div class="row">
-            <div id="alert-div"></div>
-          </div>
-          <div class="row">
-            <div class="col col-12">
-              <textarea class="form-control" id="profileText"></textarea>
-            </div>
-          </div>
-        </div>
+      <div class="row mt-4">
+        <form class="d-flex">
+          <input aria-label="search" class="form-control me-2" id="page_search" name="search" placeholder="Search" type="search">
+          <button class="btn" id="search_submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
       </div>
-      <div class="modal fade" id="profileModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="profileModalTitle">Profile</h3>
-              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div class="modal-body">
-              <form class="form-horizontal">
-                <div class="control-group">
-                  <label class="control-label" for="profileModalName">Name</label>
-                  <div class="controls">
-                    <input class="form-control" id="profileModalName" placeholder="Enter Profile name" type="text">
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary" data-bs-dismiss="modal" id="profileModalClose">Close</button>
-              <a class="btn btn-primary" data-bs-dismiss="modal" href="#" id="profileModalAdd">Add</a>
-              <a class="btn btn-primary" href="#" id="profileModalUpdate">Update</a>
-              <a class="btn btn-primary" href="#" id="profileModalDelete">Delete</a>
-            </div>
-          </div>
-        </div>
+      <div class="row mt-4">
+        <div id="search_results"></div>
       </div>
-      <div class="modal fade" id="NG+Modal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="profileModalTitleNG">Begin next journey?</h3>
-              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div class="modal-body">If you begin the next journey, all progress on the &quot;Playthrough&quot; and &quot;Misc&quot; tabs of this profile will be reset, while achievement and collection checklists will be kept.</div>
-            <div class="modal-footer">
-              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
-              <a class="btn btn-danger" href="#" id="NG+ModalYes">Yes</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="importTextModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Import profile?</h3>
-              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div class="modal-body">If you import this profile all of your current progress will be lost.</div>
-            <div class="modal-footer">
-              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
-              <a class="btn btn-danger" href="#" id="importTextYes">Yes</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="importFileModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Import profile?</h3>
-              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div>If you import this profile all of your current progress will be lost.</div>
-            <div class="modal-footer">
-              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
-              <a class="btn btn-danger" href="#" id="importFileYes">Yes</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="deleteModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Are you sure?</h3>
-              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div>You will lose all progress in this profile. Please back it up first.</div>
-            <div class="modal-footer">
-              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
-              <a class="btn btn-danger" href="#" id="deleteYes">Yes</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hiddenfile">
-      <input id="fileInput" name="upload" type="file">
     </div>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/scroll.js"></script>
@@ -362,6 +221,7 @@
     gtag('config', 'G-B7FMWDCTF5');
     </script>
     
-    <script src="/js/options.js"></script>
+    <script src="/js/lunr.js"></script>
+    <script src="/js/search.js"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@ from dominate.util import raw
 from more_itertools import peekable
 import urllib.parse
 from atomicwrites import atomic_write
+import json
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -118,14 +119,17 @@ def hide_completed_button():
 def make_nav(page):
     with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
-            a('Roundtable Guides', cls="navbar-brand" + (' active' if page == 'index' else ''), href="/index.html")
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
-            # with div(cls='order-md-last'):
-            #     with form(cls="d-flex"):
-            #         input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search')
+            a('Roundtable Guides', cls="navbar-brand me-auto ms-2" + (' active' if page == 'index' else ''), href="/index.html")
+            with div(cls='order-md-last d-none d-md-block'):
+                with form(cls="d-flex"):
+                    input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', name='search')
+                    button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true').add(i(cls='bi bi-search'))
+            with div(cls='d-md-none'):
+                a(href='/search.html', cls='nav-link me-0').add(i(cls='bi bi-search sb-icon-search'))
             with div(cls="collapse navbar-collapse", id="nav-collapse"):
-                with ul(cls="nav navbar-nav mr-auto"):
+                with ul(cls="nav navbar-nav navbar-nav-scroll mr-auto"):
                     # with li(cls="nav-item"):
                     #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
                     for name, l in dropdowns:
@@ -286,7 +290,6 @@ def make_map():
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 
-make_map()
 
 def make_options():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
@@ -516,13 +519,15 @@ def make_checklist(page):
                                                 raw(item['data'][0])
                                             page['num_ids'] += 1
                                     if isinstance(items.peek(0), list):
+                                        item_id = str(item['id'])
                                         item = next(items)
                                         with u.add(ul(cls="list-group-flush")):
                                             for subitem in item:
+                                                id = item_id + '_' + str(subitem['id'])
                                                 with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable", id='item_' + id):
                                                     with div(cls="form-check checkbox d-flex align-items-center"):
-                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id + '_' + str(subitem['id']))
-                                                        with label(cls="form-check-label item_content", _for=page['id'] + '_' + id + '_' + str(subitem['id'])):
+                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
+                                                        with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                             if 'icon' in subitem:
                                                                 img(data_src=subitem['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
                                                             raw(subitem['data'][0])
@@ -536,9 +541,31 @@ def make_checklist(page):
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
+def make_search():
+    doc = make_doc("Search | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
+    with doc:
+        make_nav('search')
+        # whole page
+        with div(cls="container uncolor-links"):
+            with div(cls='row text-center'):
+                h3('Search', cls='mt-4')
+            with div(cls='row mt-4'):
+                with form(cls="d-flex"):
+                    input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search', name='search')
+                    button(id='search_submit', cls='btn').add(i(cls='bi bi-search'))
+            with div(cls='row mt-4'):
+                div(id='search_results')
+        make_footer()
+        script(src='/js/lunr.js')
+        script(src='/js/search.js')
+    with open(os.path.join('docs', 'search.html'), 'w', encoding='utf_8') as out:
+        out.write(doc.render())
+
 
 make_index()
 make_options()
+make_map()
+make_search()
 for page in pages:
     make_checklist(page)
 
@@ -756,3 +783,27 @@ var profilesKey = 'darksouls3_profiles';\n
 #     );
 # });
 # """)
+
+search_idx = []
+for page in pages:
+    for section in page['sections']:
+        items = peekable(section['items'])
+        for item in items:
+            if isinstance(item, str):
+                continue
+            search_idx.append({
+                'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
+                'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
+            })
+            if isinstance(items.peek(0), list):
+                item_id = str(item['id'])
+                item = next(items)
+                for subitem in item:
+                    id = item_id + '_' + str(subitem['id'])
+                    search_idx.append({
+                        'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=id),
+                        'text': re.sub(r'(<([^>]+)>)', '', ' '.join(subitem['data'])),
+                    })
+
+with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
+    json.dump(search_idx, s_idx)
