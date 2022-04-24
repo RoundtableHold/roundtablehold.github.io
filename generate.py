@@ -325,8 +325,11 @@ def make_options():
                                 button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
                             with div(cls="btn-group pull-right mt-1 mt-md-0"):
                                 button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
-                    with div(cls="col col-12"):
-                        textarea(id="profileText", cls="form-control")
+                    with div(cls='row'):
+                        div(id='alert-div')
+                    with div(cls='row'):
+                        with div(cls="col col-12"):
+                            textarea(id="profileText", cls="form-control")
             with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
                     with div(cls="modal-content"):
@@ -353,6 +356,36 @@ def make_options():
                         with div(cls="modal-footer"):
                             a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
                             a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
+            with div(id='importTextModal', cls='modal fade', tabindex='-1', role='dialog'):
+                with div(cls='modal-dialog', role='document'):
+                    with div(cls='modal-content'):
+                        with div(cls='modal-header'):
+                            h3('Import profile?', cls='modal-title')
+                            button(type='button', cls='btn-close', data_bs_dismiss='modal', aria_label='Close')
+                        div('If you import this profile all of your current progress will be lost.', cls='modal-body')
+                        with div(cls='modal-footer'):
+                            a('No', href='#', cls='btn btn-primary', data_bs_dismiss='modal')
+                            a('Yes', href='#', cls='btn btn-danger', id='importTextYes')
+            with div(id='importFileModal', cls='modal fade', tabindex='-1', role='dialog'):
+                with div(cls='modal-dialog', role='document'):
+                    with div(cls='modal-content'):
+                        with div(cls='modal-header'):
+                            h3('Import profile?', cls='modal-title')
+                            button(type='button', cls='btn-close', data_bs_dismiss='modal', aria_label='Close')
+                        div('If you import this profile all of your current progress will be lost.')
+                        with div(cls='modal-footer'):
+                            a('No', href='#', cls='btn btn-primary', data_bs_dismiss='modal')
+                            a('Yes', href='#', cls='btn btn-danger', id='importFileYes')
+            with div(id='deleteModal', cls='modal fade', tabindex='-1', role='dialog'):
+                with div(cls='modal-dialog', role='document'):
+                    with div(cls='modal-content'):
+                        with div(cls='modal-header'):
+                            h3('Are you sure?', cls='modal-title')
+                            button(type='button', cls='btn-close', data_bs_dismiss='modal', aria_label='Close')
+                        div('You will lose all progress in this profile. Please back it up first.')
+                        with div(cls='modal-footer'):
+                            a('No', href='#', cls='btn btn-primary', data_bs_dismiss='modal')
+                            a('Yes', href='#', cls='btn btn-danger', id='deleteYes')
 
         div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
         make_footer()

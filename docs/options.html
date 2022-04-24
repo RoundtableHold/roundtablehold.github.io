@@ -232,8 +232,13 @@
               </div>
             </form>
           </div>
-          <div class="col col-12">
-            <textarea class="form-control" id="profileText"></textarea>
+          <div class="row">
+            <div id="alert-div"></div>
+          </div>
+          <div class="row">
+            <div class="col col-12">
+              <textarea class="form-control" id="profileText"></textarea>
+            </div>
           </div>
         </div>
       </div>
@@ -274,6 +279,51 @@
             <div class="modal-footer">
               <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
               <a class="btn btn-danger" href="#" id="NG+ModalYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="importTextModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Import profile?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">If you import this profile all of your current progress will be lost.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="importTextYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="importFileModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Import profile?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div>If you import this profile all of your current progress will be lost.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="importFileYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="deleteModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Are you sure?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div>You will lose all progress in this profile. Please back it up first.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="deleteYes">Yes</a>
             </div>
           </div>
         </div>
