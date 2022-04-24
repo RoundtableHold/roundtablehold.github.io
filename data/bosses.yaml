@@ -16,7 +16,7 @@ sections:
       - ["2_8", "Patches", "Murkwater Cave", "If not killed: Golden Rune [1] (x2), Grovel for Mercy gesture. If killed: Golden Rune [1] (x2), Spear +7, Leather Armor, Leather Gloves, Leather Boots, Patches' Bell Bearing.", "Only half a boss fight, unless you really wanna kill Patches."] #TODO: ADD RUNES
       - ["2_9", "Guardian Golem", "Highroad Cave", "1700 runes, Blue Dancer Charm", ""]
       - ["2_10", "Black Knife Assassin", "Deathtouched Catacombs", "1600 runes, Assassin's Crimson Dagger, Deathroot", ""] #TODO: CONFIRM IF YOU GET DEATHROOT
-      - ["2_11", "Recuscant Henricus", "Colosseum Road", "Furlcalling Finger Remedy, Hammer Talisman", "Another NPC invader."] #TODO: ADD RUNES
+      - ["2_11", "Recusant Henricus", "Colosseum Road", "Furlcalling Finger Remedy, Hammer Talisman", "Another NPC invader."] #TODO: ADD RUNES
       - ["2_12", "Mad Pumpkin Head", "Waypoint Ruins", "1100 runes", ""]
       - ["2_13", "Night's Cavalry", "Highway Bridge", "2400 runes, Ash of War: Repeating Thrust", "Nighttime only."]
       - ["2_14", "Tree Sentinel", "Church of Elleh Road", "3200 runes, Golden Halberd", "Is one annoying bastard."]
@@ -109,7 +109,7 @@ sections:
       - ["5_2", "Putrid Avatar", "Minor Erdtree (West)", "9600 runes, Greenburst Crystal Tear, Flame-Shrouding Cracked Tear", ""]
       - ["5_3", "Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)", "Minor Erdtree Catacombs", "7400 runes, Mad Pumpkin Head Ashes", ""]
       - ["5_4", "Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)", "Caelem Ruins Underground", "6300 runes, Visage Shield (chest in the next room)", ""]
-      - ["5_5", "Knight of the Great Jar (x3)", "Caelid Colosseum", "Great-Jar's Arsenal Talisman", "NPC invaders. Defeat all 3 in one life to get a reward from the Great Jar."] #TODO: ADD RUNES
+      - ["5_5", "Knight of the Great Jar (x3)", "Caelid Colosseum", "Great-Jar's Arsenal Charm Talisman", "NPC invaders. Defeat all 3 in one life to get a reward from the Great Jar."] #TODO: ADD RUNES
       - ["5_6", "Frenzied Duelist", "Gaol Cave", "6700 runes, Putrid Corpse Ashes", ""]
       - ["5_7", "Decaying Ekzykes", "Caelid Highway South", "38,000 runes, Dragon Heart", "Pale white dragon with patches blighted by scarlet rot."]
       - ["5_8", "Night's Cavalry", "Caelid Highway South", "8500 runes, Ash of War: Poison Moth Flight", "Field boss. Nighttime only."]
@@ -138,7 +138,7 @@ sections:
     title: "Altus Plateau"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
-      - ["6_1", "Godeferoy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman", ""]
+      - ["6_1", "Godefroy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman", ""]
       - ["7_4", "Necromancer Garris", "Sage's Cave", "0 runes, Family Heads Flail", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["6_17", "Black Knife Assassin", "Sage's Cave", "9000 runes, Concealing Veil Talisman", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - ["7_6", "Stonedigger Troll", "Old Altus Tunnel", "9600 runes, Great Club", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
@@ -241,7 +241,7 @@ sections:
       - ["10_8", "Death Rite Bird", "Consecrated Snowfield (North)", "220,000 runes, Explosive Ghostflame Sorcery", "Field boss. Nighttime only."]
       - ["10_9", "Black Knife Assassin", "Ordina, Liturgical Town", "", ""] #TODO: ADD RUNES, DROPS
       - ["10_12", "Anastasia, Tarnished-Eater", "Along the frozen river southwest of Ordina, Liturgical Town", "Somber Ancient Dragon Smithing Stone, Furlcalling Finger Remedy", "NPC. 3rd invasion."] #TODO: ADD RUNES
-      - ["10_10", "Loretta, Knight of the Haligtree", "Miquella's Haligree", "200,000 runes, Loretta's Mastery Sorcery, Loretta's War Sickle", "Grants Achievement/Trophy: Loretta, Knight of the Haligtree."]
+      - ["10_10", "Loretta, Knight of the Haligtree", "Miquella's Haligtree", "200,000 runes, Loretta's Mastery Sorcery, Loretta's War Sickle", "Grants Achievement/Trophy: Loretta, Knight of the Haligtree."]
       - ["10_11", "Malenia, Blade of Miquella", "Elphael, Brace of the Haligtree", "480,000 runes, Malenia's Great Rune, Remembrance of the Rot Goddess", "Optional. Grants Achievement/Trophy: Shardbearer Malenia."]
   -
     title: "Crumbling Farum Azula"
