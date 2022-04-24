@@ -94,43 +94,44 @@ sections:
         data: ["<a href=\"npc_questlines.html#item_4_3\">Thops</a>", "Yes", "Looted off his body in Raya Lucaria at the end of his questline."]
   -
     title: "Merchants' Bell Bearings"
-    table: ["Merchant", "Obtained naturally?", "Location"]
+    table: ["Merchant", "Location"]
+    table_widths: [2, 10]
     items:
       - id: "7_1"
-        data: ["Kalé", "No", "Church of Elleh, Limgrave, just north of where you emerge at the beginning."]
+        data: ["Kalé", "Church of Elleh, Limgrave, just north of where you emerge at the beginning. Note that if you want his or any Merchant's bell bearing to bring back to the Twin Maiden Husks, you must murder them, as they never die or turn hostile otherwise."]
       - id: "7_2"
-        data: ["Nomadic [1]", "No", "East of Saintsbridge in northern Limgrave, alongside the road."]
+        data: ["Nomadic [1]", "East of Saintsbridge in northern Limgrave, alongside the road."]
       - id: "7_3"
-        data: ["Nomadic [2]", "No", "At the southern edge of the Mistwood in Limgrave near the road to Fort Haight; a dev message on the ground serves as a shop sign indicating he's nearby."]
+        data: ["Nomadic [2]", "At the southern edge of the Mistwood in Limgrave near the road to Fort Haight; a dev message on the ground serves as a shop sign indicating he's nearby."]
       - id: "7_4"
-        data: ["Nomadic [3]", "No", "Southeast of the entrance to Coastal Cave in southwest Limgrave, under a collapsed ruin of stone."]
+        data: ["Nomadic [3]", "Southeast of the entrance to Coastal Cave in southwest Limgrave, under a collapsed ruin of stone."]
       - id: "7_5"
-        data: ["Nomadic [4]", "No", "Near the Castle Morne Rampart Site of Grace in Weeping Peninsula."]
+        data: ["Nomadic [4]", "Near the Castle Morne Rampart Site of Grace in Weeping Peninsula."]
       - id: "7_6"
-        data: ["Nomadic [5]", "No", "Near the Liurnia Lake Shore Site of Grace in Liurnia."]
+        data: ["Nomadic [5]", "Near the Liurnia Lake Shore Site of Grace in Liurnia."]
       - id: "7_7"
-        data: ["Nomadic [6]", "No", "Just down the path of the hole in Bellum Church in Liurnia."]
+        data: ["Nomadic [6]", "Just down the path of the hole in Bellum Church in Liurnia."]
       - id: "7_8"
-        data: ["Nomadic [7]", "No", "Near the Forest-Spanning Greatbridge Site of Grace in Altus Plateau."]
+        data: ["Nomadic [7]", "Near the Forest-Spanning Greatbridge Site of Grace in Altus Plateau."]
       - id: "7_9"
-        data: ["Nomadic [8]", "No", "On a mountain in Mt. Gelmir only accessible by ladders up and down. From the Ninth Mt. Gelmir Campsite Site of Grace, cross the rope bridge to the east, then continue east up the slopes to find a ladder down to the merchant."]
+        data: ["Nomadic [8]", "On a mountain in Mt. Gelmir only accessible by ladders up and down. From the Ninth Mt. Gelmir Campsite Site of Grace, cross the rope bridge to the east, then continue east up the slopes to find a ladder down to the merchant."]
       - id: "7_10"
-        data: ["Nomadic [9]", "No", "Near the Astray from Caelid Highway North Site of Grace, just to the east."]
+        data: ["Nomadic [9]", "Near the Astray from Caelid Highway North Site of Grace, just to the east."]
       - id: "7_11"
-        data: ["Nomadic [10]", "No", "A bit southwest of the Southern Aeonia Swamp Bank Site of Grace, near the map fragment pillar."]
+        data: ["Nomadic [10]", "A bit southwest of the Southern Aeonia Swamp Bank Site of Grace, near the map fragment pillar."]
       - id: "7_12"
-        data: ["Isolated [1]", "No", "At the Isolated Merchant's Shack in southwestern Weeping Peninsula."]
+        data: ["Isolated [1]", "At the Isolated Merchant's Shack in southwestern Weeping Peninsula."]
       - id: "7_13"
-        data: ["Isolated [2]", "No", "From the Main Academy Gate Site of Grace in Liurnia, face southeast toward the seal teleporter to the outside side of the South Raya Lucaria Gate. Instead of using the portal, run right through it, and follow the path down to the merchant."]
+        data: ["Isolated [2]", "From the Main Academy Gate Site of Grace in Liurnia, face southeast toward the seal teleporter to the outside side of the South Raya Lucaria Gate. Instead of using the portal, run right through it, and follow the path down to the merchant."]
       - id: "7_14"
-        data: ["Isolated [3]", "No", "At the Isolated Merchant's Shack in Dragonbarrow, Caelid."]
+        data: ["Isolated [3]", "At the Isolated Merchant's Shack in Dragonbarrow, Caelid."]
       - id: "7_15"
-        data: ["Hermit [1]", "No", "At the Hermit Merchant's Shack in northern Capital Outskirts."]
+        data: ["Hermit [1]", "At the Hermit Merchant's Shack in northern Capital Outskirts."]
       - id: "7_16"
-        data: ["Hermit [2]", "No", "Just up the ravine from the Ancient Snow Valley Ruins Site of Grace. Access by the spiritspring to the west, or the Snow Valley Ruins Overlook Site of Grace to the north."]
+        data: ["Hermit [2]", "Just up the ravine from the Ancient Snow Valley Ruins Site of Grace. Access by the spiritspring to the west, or the Snow Valley Ruins Overlook Site of Grace to the north."]
       - id: "7_17"
-        data: ["Hermit [3]", "No", "In Ainsel River, from the Ainsel River Downstream Site of Grace, face east and head into the big room, climb the stairs to enter the building with the massive Malformed Star enemy on top, and find the merchant inside."]
+        data: ["Hermit [3]", "In Ainsel River, from the Ainsel River Downstream Site of Grace, face east and head into the big room, climb the stairs to enter the building with the massive Malformed Star enemy on top, and find the merchant inside."]
       - id: "7_18"
-        data: ["Abandoned", "No", "From the Worshippers' Woods Site of Grace in Siofra River, climb the scaffolding you can see directly west - climb the ladders, drop down around the corner, cross the wooden bridge, and follow the cave-like path until you can drop down into his room."]
+        data: ["Abandoned", "From the Worshippers' Woods Site of Grace in Siofra River, climb the scaffolding you can see directly west - climb the ladders, drop down around the corner, cross the wooden bridge, and follow the cave-like path until you can drop down into his room."]
       - id: "7_19"
-        data: ["Imprisoned", "No", "West of the Moghwyn Palace, enter the Mohgwyn Dynasty Mausoleum and keep to the left to find the merchant at a dead end."]
+        data: ["Imprisoned", "West of the Moghwyn Palace, enter the Mohgwyn Dynasty Mausoleum and keep to the left to find the merchant at a dead end."]
