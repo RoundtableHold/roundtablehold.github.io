@@ -7,75 +7,75 @@ sections:
     table: [Name, Description, Location]
     items:
       - id: "1_1"
-        icon: "/img/icons/00009.png"
+        icon: "/img/icons/tools/00009.png"
         data: ["Memory of Grace", "Return to last Site of Grace; destroys currently held runes, but leaves intact existing rune retrieval", "Granted automatically at start of game"]
       - id: "1_2"
-        icon: "/img/icons/00092.png"
+        icon: "/img/icons/tools/00092.png"
         data: ["Telescope", "Shift camera into first person view", "Bought from Kalé in Church of Elleh, Limgrave, for 500 runes"]
       - id: "1_3"
-        icon: "/img/icons/00013.png"
+        icon: "/img/icons/tools/00013.png"
         data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
       - id: "1_4"
-        icon: "/img/icons/03068.png"
+        icon: "/img/icons/tools/03068.png"
         data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
       - id: "1_5"
-        icon: "/img/icons/00093.png"
+        icon: "/img/icons/tools/00093.png"
         data: ["Lantern", "Dimly illuminate surroundings", "Bought for 1800 runes from either the Isolated Merchant at the Isolated Merchant's Shack Site of Grace in Weeping Peninsula or the Nomadic Merchant by the Liurnia Lake Shore Site of Grace in Liurnia"]
       - id: "1_6"
-        icon: "/img/icons/00625.png"
+        icon: "/img/icons/tools/00625.png"
         data: ["Pureblood Knight's Medal", "Teleport self to Dynasty Mausoleum Entrance Site of Grace; can be used to warp out of any combat safely", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
   -
     title: Combat
     table: [Name, Description, Location]
     items:
       - id: "2_1"
-        icon: "/img/icons/00597.png"
+        icon: "/img/icons/tools/00597.png"
         data: ["Margit's Shackle", "Usable up to twice in each attempt at the first phase of Margit, miniboss Margit, or Morgott: stun them for a few seconds", "Bought from Patches for 5000 runes"]
       - id: "2_2"
-        icon: "/img/icons/00201.png"
+        icon: "/img/icons/tools/00201.png"
         data: ["Wraith Calling Bell", "Spend 7 FP to conjure homing projectiles", "In northwest Laskyar Ruins, Liurnia of the Lakes, in the underground chest"]
       - id: "2_3"
-        icon: "/img/icons/00193.png"
+        icon: "/img/icons/tools/00193.png"
         data: ["Ancestral Infant's Head", "Spend 27 FP to spawn geysers that deal magic damage to enemies", "In the submerged ruin in northwestern Ancestral Woods in Nokron, Eternal City; carefully platform to the far side and defeat the Ancestral Follower guarding a chest with this tool"]
       - id: "2_4"
-        icon: "/img/icons/00598.png"
+        icon: "/img/icons/tools/00598.png"
         data: ["Mohg's Shackle", "Usable up to twice in each attempt at the first phase of Mohg: stun him for a few seconds", "Found in Subterranean Shunning-Grounds guarded by two Giant Crayfish"]
       - id: "2_5"
-        icon: "/img/icons/00593.png"
+        icon: "/img/icons/tools/00593.png"
         data: ["Omen Bairn", "Spend 24 FP to conjure wraiths that chase enemies", "From the Underground Roadside Site of Grace in the Subterranean Shunning-Grounds, with shortcuts unlocked, go through the first two doors then down the ladder, and defeat an Omen enemy who drops it"]
       - id: "2_6"
-        icon: "/img/icons/00677.png"
+        icon: "/img/icons/tools/00677.png"
         data: ["Regal Omen Bairn", "Spend 50 FP to conjure more wraiths that deal more damage", "One of the choices offered when trading in the Remembrance of the Omen King to Finger Reader Enia at the Roundtable Hold"]
       - id: "2_7"
-        icon: "/img/icons/00094.png"
+        icon: "/img/icons/tools/00094.png"
         data: ["Blasphemous Claw", "Parry specific melee attacks by Maliketh, stunning him", "Dropped by Recusant Bernahl in Crumbling Farum Azula"]
   -
     title: Prattling Pates
     table: [Name, Description, Location]
     items:
       - id: "3_1"
-        icon: "/img/icons/00095.png"
+        icon: "/img/icons/tools/00095.png"
         data: ["\"Hello\"", "Whispers, \"Hello\"", "Stormfoot Catacombs, Limgrave: Behind the first flamethrower pillar"]
       - id: "3_2"
-        icon: "/img/icons/00099.png"
+        icon: "/img/icons/tools/00099.png"
         data: ["\"Please Help\"", "Whispers, \"Please help\"", "Impaler's Catacombs, Weeping Peninsula: In the path after dropping under the spike trap"]
       - id: "3_3"
-        icon: "/img/icons/00096.png"
+        icon: "/img/icons/tools/00096.png"
         data: ["\"Thank You\"", "Whispers, \"Thank you\"", "Tombsward Catacombs, Weeping Peninsula: At the end of the main path of the dungeon, just past another flamethrower pillar"]
       - id: "3_4"
-        icon: "/img/icons/00098.png"
+        icon: "/img/icons/tools/00098.png"
         data: ["\"Wonderful\"", "Whispers, \"Wonderful\"", "Cliffbottom Catacombs, Liurnia of the Lakes: In the tunnels after dropping down under the first set of stairs from the locked doors"]
       - id: "3_5"
-        icon: "/img/icons/00097.png"
+        icon: "/img/icons/tools/00097.png"
         data: ["\"Apologies\"", "Whispers, \"Apologies\"", "Unsightly Catacombs, Altus Plateau: Near the lever for the boss door"]
       - id: "3_6"
-        icon: "/img/icons/00631.png"
+        icon: "/img/icons/tools/00631.png"
         data: ["\"You're Beautiful\"", "Whispers, \"You're beautiful\"", "Hermit Village, Mt. Gelmir: On the south side of the village against a house"]
       - id: "3_7"
-        icon: "/img/icons/00101.png"
+        icon: "/img/icons/tools/00101.png"
         data: ["\"Let's Get to It\"", "Whispers, \"Let's get to it\"", "Sainted Hero's Grave, Altus Plateau: By the entrance to the room with the shadow enemy that unlocks the boss door"]
       - id: "3_8"
-        icon: "/img/icons/00100.png"
+        icon: "/img/icons/tools/00100.png"
         data: ["\"My Beloved\"", "Whispers, \"My beloved\"", "Miquella's Haligtree: Two branches down from where the teleporter in Ordina, Liturgical Town puts you"]
   -
     title: Multiplayer
