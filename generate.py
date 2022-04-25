@@ -17,10 +17,13 @@ import json
 def to_snake_case(name):
     name = "".join(name.split())
     name = re.sub(r'\W+', '', name)
-    name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
-    name = re.sub('__([A-Z])', r'_\1', name)
-    name = re.sub('([a-z0-9])([A-Z])', r'\1_\2', name)
+    name = re.sub(r'(.)([A-Z][a-z]+)', r'\1_\2', name)
+    name = re.sub(r'__([A-Z])', r'_\1', name)
+    name = re.sub(r'([a-z0-9])([A-Z])', r'\1_\2', name)
     return name.lower()
+
+def strip_a_tags(s):
+    return re.sub(r'(?i)</?a[^>]*>', '', s)
 
 dropdowns = []
 pages = []
@@ -167,7 +170,7 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
-    script(src='/js/scroll.js')
+    script(src='/js/common.js')
     script(src="/js/jstorage.min.js")
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
@@ -553,8 +556,62 @@ def make_search():
                 with form(cls="d-flex"):
                     input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', id='page_search', name='search')
                     button(id='search_submit', cls='btn').add(i(cls='bi bi-search'))
-            with div(cls='row mt-4'):
-                div(id='search_results')
+            with div(cls='row mt-4 d-flex justify-content-center d-none', id='spinner'):
+                with div(cls='spinner-border text-primary', role='status'):
+                    span('Loading...', cls='visually-hidden')
+            with div(cls='row mt-4').add(div(cls='col')):
+                with div(cls='list-group list-group-flush mb-0'):
+                    for page in pages:
+                        for s_idx, section in enumerate(page['sections']):
+                            items = peekable(section['items'])
+                            if 'table' in section:
+                                if isinstance(section['table'], list):
+                                    table_cols = len(section['table'])
+                                    size = floor(12 / table_cols)
+                                else:
+                                    table_cols = section['table']
+                                    size = floor(12 / table_cols)
+                                table_widths = section['table_widths'] if 'table_widths' in section else page['table_widths']
+                                for item in items:
+                                    with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
+                                        if isinstance(item,str):
+                                            continue
+                                        with div(cls='row d-md-flex d-none'):
+                                            for pos in range(table_cols):
+                                                col_size = str(table_widths[pos])
+                                                with div(cls='d-flex align-items-center col-md-' + col_size):
+                                                    if pos == 0 and 'icon' in item:
+                                                        img(data_src=item['icon'], loading='lazy', height=img_size, width=img_size, cls='me-1')
+                                                    if item['data'][pos]:
+                                                        raw(strip_a_tags(item['data'][pos]))
+                                        with div(cls='row d-md-none').add(div(cls='col')):
+                                            if 'icon' in item:
+                                                img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-end')
+                                            for pos in range(table_cols):
+                                                col_size = str(table_widths[pos])
+                                                if isinstance(section['table'], list) and item['data'][pos]:
+                                                    strong(strip_a_tags(section['table'][pos]) + ': ', cls='me-1')
+                                                if item['data'][pos]:
+                                                    raw(strip_a_tags(item['data'][pos]))
+                                                    br()
+                            else:
+                                for item in items:
+                                    if isinstance(item, str):
+                                        continue
+                                    with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
+                                        with div(cls='d-flex align-items-center'):
+                                            if 'icon' in item:
+                                                img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                            raw(strip_a_tags(item['data'][0]))
+                                    if isinstance(items.peek(0), list):
+                                        item_id = str(item['id'])
+                                        item = next(items)
+                                        for subitem in item:
+                                            id = item_id + '_' + str(subitem['id'])
+                                            with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + id, id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + id):
+                                                if 'icon' in subitem:
+                                                    img(data_src=subitem['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                                raw(strip_a_tags(subitem['data'][0]))
         make_footer()
         script(src='/js/lunr.js')
         script(src='/js/search.js')

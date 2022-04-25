@@ -210,3 +210,7 @@ textarea#profileText {
   background-color: cornflowerblue;
   color: white;
 }
+
+:target {
+  scroll-margin-top: 15vh;
+}
