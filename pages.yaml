@@ -53,24 +53,32 @@ dropdowns:
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
 # For example
+#
 # item_links:
+#
 #   # If id1 is checked then id2 will be checked. If id1 is unchecked then id2 will be unchecked
 #   - source: id1
 #     target: id2
+#
 #   # If id1 is checked then both id2 and id3 will be checked. If id1 is unchecked then both id2 and id3 will be unchecked
 #   - source: id1
 #     target: [id2, id3]
+#
 #   # If either id1 or id2 or both are checked then both id3 and id4 will be checked. If neither id1 nor id2 are checked then both id3 and id4 will be unchecked
 #   - source_or: [id1, id2]
 #     target: [id3, id4]
+#
 #   # If both id1 and id2 are checked then id3 will be checked. If neither are checked or if only 1 is checked then id3 will be unchecked.
 #   - source_and: [id1, id2]
 #     target: id3
-#   # If any of id1, id2, id3 are checked than all of the will be. If any are unchecked then all of them will be.
+#
+#   # If any of id1, id2, id3 are checked than all of them will be. If any are unchecked then all of them will be.
 #   - link_all: [id1, id2, id3]
+#
 # The ids are constructed like this:
-# page[id]_section[num]_item[0]
+# page[id]_item[id]
 # So for instance, The Soldier of Godrick is bosses_2_1
+
 item_links:
   - link_all: [remembrances_mausoleums_1_1_1, weapons_19_11]
   - link_all: [remembrances_mausoleums_1_1_2, weapons_28_9]
@@ -367,3 +375,4 @@ item_links:
 
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
+  - link_all: [gestures_0_1, gestures_0_2, gestures_0_3, gestures_0_4, gestures_0_5, gestures_0_6, gestures_0_7, gestures_0_8, gestures_0_9, gestures_0_10, gestures_0_11, gestures_0_12] #Starting gestures (all obtained at once)

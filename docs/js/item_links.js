@@ -1548,5 +1548,20 @@
       window.setCheckbox("playthrough_9_7", checked);
       window.setCheckbox("npc_quests_9_4", checked);
     });
+    $("#gestures_0_1,#gestures_0_2,#gestures_0_3,#gestures_0_4,#gestures_0_5,#gestures_0_6,#gestures_0_7,#gestures_0_8,#gestures_0_9,#gestures_0_10,#gestures_0_11,#gestures_0_12").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("gestures_0_1", checked);
+      window.setCheckbox("gestures_0_2", checked);
+      window.setCheckbox("gestures_0_3", checked);
+      window.setCheckbox("gestures_0_4", checked);
+      window.setCheckbox("gestures_0_5", checked);
+      window.setCheckbox("gestures_0_6", checked);
+      window.setCheckbox("gestures_0_7", checked);
+      window.setCheckbox("gestures_0_8", checked);
+      window.setCheckbox("gestures_0_9", checked);
+      window.setCheckbox("gestures_0_10", checked);
+      window.setCheckbox("gestures_0_11", checked);
+      window.setCheckbox("gestures_0_12", checked);
+    });
   });
 })( jQuery );
