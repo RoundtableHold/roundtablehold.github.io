@@ -576,46 +576,60 @@ sections:
     items:
       - id: "22_1"
         icon: "/img/icons/weapons/greathammers/10440.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Large+Club\">Large Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Large+Club\">Large Club</a>", "Found south of the Forlorn Hound Evergaol on a cliff.", "Normal"]
+        # TODO: add link to grace and Gaol
       - id: "22_2"
         icon: "/img/icons/weapons/greathammers/10444.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Great+Club\">Curved Great Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Great+Club\">Curved Great Club</a>", "Dropped by Albinaurics wielding this weapon. There are a few in and around Temple Quarter in Liurnia of the Lakes.", "Normal"]
+        # TODO: add map link
       - id: "22_3"
         icon: "/img/icons/weapons/greathammers/10443.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Mace\">Great Mace</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Mace\">Great Mace</a>", "In a chest near the trebuchets south west of the Grand Lift of Dectus Site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "22_4"
         icon: "/img/icons/weapons/greathammers/10446.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pickaxe\">Pickaxe</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pickaxe\">Pickaxe</a>", "Dropped by Miners, Limgrave Tunnels has 3 easy to kill Miners in the first room.", "Normal"] 
+        # TODO: add grace link
       - id: "22_5"
         icon: "/img/icons/weapons/greathammers/10451.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Brick+Hammer\">Brick Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Brick+Hammer\">Brick Hammer</a>", "From the Stormveil Cliffside Site of Grace, traverse the Wine-Cellar Area and climb the Ladder behind the locked door, jump on the wooden platform that leads outside, just around the corner to the left is a small room with the weapon on a corpse.", "Normal"]
+        # TODO: add grace link
       - id: "22_6"
         icon: "/img/icons/weapons/greathammers/10442.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battle+Hammer\">Battle Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battle+Hammer\">Battle Hammer</a>", "Dropped by duelists near the Leyndell, Royal Capital Colosseum or the Grave Warden Duelist in Murkwater Catacombs.", "Normal"]
+        # TODO: add grace links
       - id: "22_7"
         icon: "/img/icons/weapons/greathammers/10453.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer\">Rotten Battle Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer\">Rotten Battle Hammer</a>", "Dropped by Rotten Duelists west of the Consecrated Snowfield Site of Grace in the Mountaintops of the Giants.", "Normal"]
+        # TODO: add grace Link
       - id: "22_8"
         icon: "/img/icons/weapons/greathammers/10445.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Skull\">Celebrant's Skull</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Skull\">Celebrant's Skull</a>", "Found on a Corpse northeast of the Windmill Village Site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "22_10"
         icon: "/img/icons/weapons/greathammers/10450.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Stars\">Great Stars</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Stars\">Great Stars</a>", "Found in hearse southwestof th Road of Iniquity Side Path Site of Grace.", "Normal"]
+        # TODO: add grace link 
       - id: "22_11"
         icon: "/img/icons/weapons/greathammers/10441.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathorn+Hammer\">Greathorn Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathorn+Hammer\">Greathorn Hammer</a>", "Dropped by Ancestral Followers in Siofra River region.", "Normal"]
+        # TODO: add grace Link
       - id: "22_12"
         icon: "/img/icons/weapons/greathammers/10448.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn\">Envoy's Long Horn</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn\">Envoy's Long Horn</a>", "Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.", "Somber"]
+        # TODO: add grace link
       - id: "22_13"
         icon: "/img/icons/weapons/greathammers/10449.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand\">Cranial Vessel Candlestand</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand\">Cranial Vessel Candlestand</a>", "Found in a room locked behind an Imp Statue in Giant-Conquering Hero's Grave.", "Somber"]
+        # TODO: add grace link
       - id: "22_14"
         icon: "/img/icons/weapons/greathammers/10447.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer\">Beastclaw Greathammer</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer\">Beastclaw Greathammer</a>", "Reward from Gurranq, Beast Clergyman on giving him the 7th Deathroot.", "Somber"]
       - id: "22_15"
         icon: "/img/icons/weapons/greathammers/10452.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\">Devourer's Scepter</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\">Devourer's Scepter</a>", "Dropped by Bernahl when killed at the Warmaster's Shack or as part from his Invasion in Crumbling Farrum Azula", "Somber"]
+        # TODO: add grace links
+
   -
     title: Colossal Weapons
     link: "https://eldenring.wiki.fextralife.com/Colossal+Weapons"
