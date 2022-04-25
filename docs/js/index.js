@@ -1481,7 +1481,6 @@ var profilesKey = 'darksouls3_profiles';
 "memory_stones_talisman_pouches_0_6",
 "memory_stones_talisman_pouches_0_7",
 "memory_stones_talisman_pouches_0_8",
-"memory_stones_talisman_pouches_1_1",
 "memory_stones_talisman_pouches_1_2",
 "memory_stones_talisman_pouches_1_3",
 "memory_stones_talisman_pouches_1_4",
@@ -3192,7 +3191,7 @@ const flasks_total = 55;
 var flasks_checked = 0;
 const crystal_tears_total = 32;
 var crystal_tears_checked = 0;
-const memory_stones_talisman_pouches_total = 12;
+const memory_stones_talisman_pouches_total = 11;
 var memory_stones_talisman_pouches_checked = 0;
 const scrolls_prayerbooks_total = 11;
 var scrolls_prayerbooks_checked = 0;
