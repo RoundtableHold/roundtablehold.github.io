@@ -552,19 +552,23 @@ sections:
     items:
       - id: "21_1"
         icon: "/img/icons/weapons/flails/10481.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest onn the eastern hearse at Gatefront Ruins", "Normal"]
+        # TODO: link grace
       - id: "21_2"
         icon: "/img/icons/weapons/flails/10480.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Flail\">Nightrider Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Flail\">Nightrider Flail</a>", "Dropped by Night's Cavalry at Castle Morne Rampart Site of Grace", "Normal"]
+        # TODO: link grace
       - id: "21_3"
         icon: "/img/icons/weapons/flails/10484.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chainlink+Flail\">Chainlink Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chainlink+Flail\">Chainlink Flail</a>", "Dropped by Pumpkin heads wielding this weapon. One is north of the Foot of the Four Bellfries Site of Grace", "Normal"]
+        # TODO: link grace
       - id: "21_4"
         icon: "/img/icons/weapons/flails/10482.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Family+Heads\">Family Heads</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Family+Heads\">Family Heads</a>", "Dropped by Necromancer Garris in the Sage's Cave at Altus Plateau", "Somber"]
+        # TODO: link grace
       - id: "21_5"
         icon: "/img/icons/weapons/flails/10483.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bastard's+Stars\">Bastard's Stars</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bastard's+Stars\">Bastard's Stars</a>", "Can be traded for Rememberance of the Naturalborn with Enia at Roundtable Hold", "Somber"]
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
