@@ -1817,7 +1817,7 @@ var profilesKey = 'darksouls3_profiles';
 "npc_quests_7_7",
 "npc_quests_7_8",
 "npc_quests_7_9",
-"npc_quests_8_1_1",
+"npc_quests_8_1",
 "npc_quests_8_1_2",
 "npc_quests_8_1_3",
 "npc_quests_8_1_4",
