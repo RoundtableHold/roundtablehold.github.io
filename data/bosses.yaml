@@ -52,6 +52,8 @@ sections:
         data: ["Old Knight Istvan", "Colosseum Road", "1828 Runes, Rune Arc, Furlcalling Finger Remedy, Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves", "NPC. You can invade his world. Related to Volcano Manor quest."]
       - id: "2_30"
         data: ["Grafted Scion (x2)", "Stranded Graveyard/Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman."]
+      - id: "2_31"
+        data: ["Elite Phantom", "Stranded Graveyard/Fringefolk Hero's Grave", "Dragon Communion Seal", "Head down the Fringefolk tunnel until the path splits (continue downward or head back upwards). Take the path heading up until you reach the end."]  #TODO: ADD RUNES
       - id: "2_23"
         data: ["Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", ""]
       - id: "2_24"
@@ -198,12 +200,16 @@ sections:
         data: ["Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)", "Caelem Ruins Underground", "6300 runes, Visage Shield (chest in the next room)", ""]
       - id: "5_5"
         data: ["Knight of the Great Jar (x3)", "Caelid Colosseum", "Great-Jar's Arsenal Charm Talisman", "NPC invaders. Defeat all 3 in one life to get a reward from the Great Jar."]
+      - id: "5_30"
+        data: ["Lion Guardian", "Fort Gael", "Ash of War: Lion's Claw", "Go around the side, find the ladder to get inside the Fort."] #TODO: ADD RUNES
       - id: "5_6"
-        data: ["Frenzied Duelist", "Gaol Cave", "6700 runes, Putrid Corpse Ashes", ""]
+        data: ["Frenzied Duelist", "Gaol Cave", "6700 runes, Putrid Corpse Ashes", "After the fight, don't take the warp back to the beginning. Instead go through the cave exit to find a cliffside with Regalia of Eochaid (straight sword) on a corpse."]
       - id: "5_7"
         data: ["Decaying Ekzykes", "Caelid Highway South", "38,000 runes, Dragon Heart", "Pale white dragon with patches blighted by scarlet rot."]
       - id: "5_8"
         data: ["Night's Cavalry", "Caelid Highway South", "8500 runes, Ash of War: Poison Moth Flight", "Field boss. Nighttime only."]
+      - id: "5_31"
+        data: ["Lion Guardian", "Southeast of the Southern Aeonia Swamp Bank", "Somber Smithing Stone [4], Beast Blood, Old Fang (x2)", "Hiding in a small dead end between 2 mounds."] #TODO: ADD RUNES
       - id: "5_9"
         data: ["Death Rite Bird", "Southern Aeonia Swamp Bank", "15,000 runes, Death's Poker Greatsword", "Field boss. Nighttime only."]
       - id: "5_28"
