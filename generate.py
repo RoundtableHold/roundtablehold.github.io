@@ -262,6 +262,10 @@ def make_index():
                                         p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
                                         p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
                                         p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
+                            with div(cls='col'):
+                                with div(cls='card shadow h-100'):
+                                    with div(cls='card-body'):
+                                        raw('<a href="https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 180px; height: 60px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1650585600&h=3eb10370b9c49cf5b5dde5ca0352f23a" alt="Download on the App Store" style="border-radius: 13px; width: 180px; height: 60px;"></a>')
                     with div(cls="col-md-4 col-12"):
                         with div(cls='card shadow'):
                             with div(cls="card-body uncolor-links"):
