@@ -120,18 +120,18 @@ def hide_completed_button():
                   _for='toggleHideCompleted')
 
 def make_nav(page):
-    with nav(cls="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none", id="top_nav"):
+    with nav(cls="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none", id="top_nav"):
         with div(cls="container-fluid"):
+            # with div(cls='order-sm-last d-none d-sm-block ms-auto'):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
             a('Roundtable Guides', cls="navbar-brand me-auto ms-2" + (' active' if page == 'index' else ''), href="/index.html")
-            with div(cls='order-md-last d-none d-md-block'):
-                with form(cls="d-flex"):
-                    input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', name='search')
-                    button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true').add(i(cls='bi bi-search'))
-            with div(cls='d-md-none'):
+            with form(cls="d-none d-sm-flex order-2 order-xl-3"):
+                input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', name='search')
+                button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true').add(i(cls='bi bi-search'))
+            with div(cls='d-sm-none order-2'):
                 a(href='/search.html', cls='nav-link me-0').add(i(cls='bi bi-search sb-icon-search'))
-            with div(cls="collapse navbar-collapse", id="nav-collapse"):
+            with div(cls="collapse navbar-collapse order-3 order-xl-2", id="nav-collapse"):
                 with ul(cls="nav navbar-nav navbar-nav-scroll mr-auto"):
                     # with li(cls="nav-item"):
                     #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
