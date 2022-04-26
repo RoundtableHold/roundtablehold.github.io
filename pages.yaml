@@ -376,3 +376,8 @@ item_links:
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
   - link_all: [gestures_0_1, gestures_0_2, gestures_0_3, gestures_0_4, gestures_0_5, gestures_0_6, gestures_0_7, gestures_0_8, gestures_0_9, gestures_0_10, gestures_0_11, gestures_0_12] #Starting gestures (all obtained at once)
+
+  # Walkthrough linking
+  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1_1] # Links Varré step 1
+  - link_all: [playthrough_2, tools_4_4] # Links Small Golden Effigy
+  - link_all: [playthrough_8, quest_order_tldr_3, npc_quests_42_1] # Links Melina step 1

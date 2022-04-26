@@ -1817,7 +1817,10 @@ var profilesKey = 'darksouls3_profiles';
 "npc_quests_7_7",
 "npc_quests_7_8",
 "npc_quests_7_9",
-"npc_quests_8_1",
+"npc_quests_8_1_1",
+"npc_quests_8_1_2",
+"npc_quests_8_1_3",
+"npc_quests_8_1_4",
 "npc_quests_8_2",
 "npc_quests_8_3",
 "npc_quests_8_4",
@@ -3157,7 +3160,7 @@ const playthrough_total = 237;
 var playthrough_checked = 0;
 const quest_order_tldr_total = 266;
 var quest_order_tldr_checked = 0;
-const npc_quests_total = 344;
+const npc_quests_total = 347;
 var npc_quests_checked = 0;
 const achievements_total = 42;
 var achievements_checked = 0;

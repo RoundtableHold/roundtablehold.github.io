@@ -1563,5 +1563,22 @@
       window.setCheckbox("gestures_0_11", checked);
       window.setCheckbox("gestures_0_12", checked);
     });
+    $("#playthrough_1,#quest_order_tldr_1,#npc_quests_8_1_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_1", checked);
+      window.setCheckbox("quest_order_tldr_1", checked);
+      window.setCheckbox("npc_quests_8_1_1", checked);
+    });
+    $("#playthrough_2,#tools_4_4").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_2", checked);
+      window.setCheckbox("tools_4_4", checked);
+    });
+    $("#playthrough_8,#quest_order_tldr_3,#npc_quests_42_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_8", checked);
+      window.setCheckbox("quest_order_tldr_3", checked);
+      window.setCheckbox("npc_quests_42_1", checked);
+    });
   });
 })( jQuery );

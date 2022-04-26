@@ -858,8 +858,14 @@ sections:
     title: White-Faced Varré
     link: "https://eldenring.wiki.fextralife.com/White+Mask+Varre"
     items:
-      - id: "8_1"
-        data: ["Found just outside the starting area, talk to him then return to talk after unlocking Roundtable Hold. Return again after killing Godrick and once more after meeting the Fingers for dialogues and an emote."]
+      - id: "8_1_1"
+        data: ["Found at the First Step Site of Grace. Exhaust his dialogue."]
+      - id: "8_1_2"
+        data: ["Return to talk after unlocking Roundtable Hold."]
+      - id: "8_1_3"
+        data: ["Return again after killing Godrick."]
+      - id: "8_1_4"
+        data: ["Return once more after meeting the Fingers for dialogues and an emote."]
       - id: "8_2"
         data: ["Go to the Rose Church located on an island in the South-West area of Liurnia Lake. Talk to him for Festering Bloody Fingers then perform 3 Invasions, outcome don't matter and you can even leave immediately after arriving, then talk to him again for a Lord of Blood's Favor."]
       - id: "8_3"
