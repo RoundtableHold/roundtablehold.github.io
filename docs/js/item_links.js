@@ -41,14 +41,14 @@
       window.setCheckbox("remembrances_mausoleums_1_4_2", checked);
       window.setCheckbox("talismans_3_4", checked);
     });
-    $("#remembrances_mausoleums_1_5_1,#ashesofwar_8_10").click(function () {
-      var checked = $(this).prop("checked");
-      window.setCheckbox("remembrances_mausoleums_1_5_1", checked);
-      window.setCheckbox("ashesofwar_8_10", checked);
-    });
-    $("#remembrances_mausoleums_1_5_2,#weapons_21_5").click(function () {
+    $("#remembrances_mausoleums_1_5_2,#ashesofwar_8_10").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("remembrances_mausoleums_1_5_2", checked);
+      window.setCheckbox("ashesofwar_8_10", checked);
+    });
+    $("#remembrances_mausoleums_1_5_1,#weapons_21_5").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("remembrances_mausoleums_1_5_1", checked);
       window.setCheckbox("weapons_21_5", checked);
     });
     $("#remembrances_mausoleums_1_6_1,#weapons_6_6").click(function () {
