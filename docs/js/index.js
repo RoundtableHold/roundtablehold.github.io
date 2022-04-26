@@ -858,6 +858,7 @@ var profilesKey = 'darksouls3_profiles';
 "bosses_2_29",
 "bosses_2_3",
 "bosses_2_30",
+"bosses_2_31",
 "bosses_2_4",
 "bosses_2_5",
 "bosses_2_6",
@@ -929,6 +930,8 @@ var profilesKey = 'darksouls3_profiles';
 "bosses_5_28",
 "bosses_5_29",
 "bosses_5_3",
+"bosses_5_30",
+"bosses_5_31",
 "bosses_5_4",
 "bosses_5_5",
 "bosses_5_6",
@@ -3163,7 +3166,7 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const bosses_total = 227;
+const bosses_total = 230;
 var bosses_checked = 0;
 const legacy_total = 16;
 var legacy_checked = 0;

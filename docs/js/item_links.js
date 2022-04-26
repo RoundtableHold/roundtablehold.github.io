@@ -325,11 +325,12 @@
       window.setCheckbox("bosses_1_5", checked);
       window.setCheckbox("weapons_1_10", checked);
     });
-    $("#bosses_1_6,#caves_0_4,#spirit_ashes_1_2").click(function () {
+    $("#bosses_1_6,#caves_0_4,#spirit_ashes_1_2,#legendaries_3_1").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_1_6", checked);
       window.setCheckbox("caves_0_4", checked);
       window.setCheckbox("spirit_ashes_1_2", checked);
+      window.setCheckbox("legendaries_3_1", checked);
     });
     $("#bosses_1_7,#crystal_tears_0_3,#crystal_tears_0_2").click(function () {
       var checked = $(this).prop("checked");
@@ -355,11 +356,12 @@
       window.setCheckbox("evergaols_0_1", checked);
       window.setCheckbox("talismans_1_6", checked);
     });
-    $("#bosses_1_11,#legacy_1_1,#weapons_5_10").click(function () {
+    $("#bosses_1_11,#legacy_1_1,#weapons_5_10,#legendaries_1_2").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_1_11", checked);
       window.setCheckbox("legacy_1_1", checked);
       window.setCheckbox("weapons_5_10", checked);
+      window.setCheckbox("legendaries_1_2", checked);
     });
     $("#bosses_2_1,#caves_1_1").click(function () {
       var checked = $(this).prop("checked");
@@ -531,11 +533,12 @@
       window.setCheckbox("caves_2_4", checked);
       window.setCheckbox("talismans_4_6", checked);
     });
-    $("#bosses_4_2,#evergaols_2_2,#incantations_6_2").click(function () {
+    $("#bosses_4_2,#evergaols_2_2,#incantations_6_2,#legendaries_5_1").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_4_2", checked);
       window.setCheckbox("evergaols_2_2", checked);
       window.setCheckbox("incantations_6_2", checked);
+      window.setCheckbox("legendaries_5_1", checked);
     });
     $("#bosses_4_3,#caves_2_3,#spirit_ashes_3_1").click(function () {
       var checked = $(this).prop("checked");
@@ -694,11 +697,12 @@
       window.setCheckbox("sorceries_5_1", checked);
       window.setCheckbox("dragon_hearts_death_roots_0_2", checked);
     });
-    $("#bosses_4_32,#evergaols_2_4,#spirit_ashes_3_3").click(function () {
+    $("#bosses_4_32,#evergaols_2_4,#spirit_ashes_3_3,#legendaries_3_4").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_4_32", checked);
       window.setCheckbox("evergaols_2_4", checked);
       window.setCheckbox("spirit_ashes_3_3", checked);
+      window.setCheckbox("legendaries_3_4", checked);
     });
     $("#bosses_4_27,#legacy_1_6").click(function () {
       var checked = $(this).prop("checked");
@@ -862,11 +866,12 @@
       window.setCheckbox("bosses_5_24", checked);
       window.setCheckbox("weapons_25_9", checked);
     });
-    $("#bosses_5_26,#legacy_1_7,#weapons_5_9").click(function () {
+    $("#bosses_5_26,#legacy_1_7,#weapons_5_9,#legendaries_1_4").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_5_26", checked);
       window.setCheckbox("legacy_1_7", checked);
       window.setCheckbox("weapons_5_9", checked);
+      window.setCheckbox("legendaries_1_4", checked);
     });
     $("#bosses_5_27,#great_runes_1_3,#remembrances_mausoleums_1_3").click(function () {
       var checked = $(this).prop("checked");
@@ -874,18 +879,20 @@
       window.setCheckbox("great_runes_1_3", checked);
       window.setCheckbox("remembrances_mausoleums_1_3", checked);
     });
-    $("#bosses_5_29,#caves_3_8,#flasks_1_17,#spirit_ashes_4_8").click(function () {
+    $("#bosses_5_29,#caves_3_8,#flasks_1_17,#spirit_ashes_4_8,#legendaries_3_2").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_5_29", checked);
       window.setCheckbox("caves_3_8", checked);
       window.setCheckbox("flasks_1_17", checked);
       window.setCheckbox("spirit_ashes_4_8", checked);
+      window.setCheckbox("legendaries_3_2", checked);
     });
-    $("#bosses_6_1,#evergaols_4_1,#talismans_6_5").click(function () {
+    $("#bosses_6_1,#evergaols_4_1,#talismans_6_5,#legendaries_2_4").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_6_1", checked);
       window.setCheckbox("evergaols_4_1", checked);
       window.setCheckbox("talismans_6_5", checked);
+      window.setCheckbox("legendaries_2_4", checked);
     });
     $("#caves_5_2").click(function () {
       var checked = $(this).prop("checked");
@@ -962,10 +969,11 @@
       window.setCheckbox("bosses_6_10", checked);
       window.setCheckbox("weapons_3_2", checked);
     });
-    $("#bosses_6_11,#spirit_ashes_7_1").click(function () {
+    $("#bosses_6_11,#spirit_ashes_7_1,#legendaries_3_5").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_6_11", checked);
       window.setCheckbox("spirit_ashes_7_1", checked);
+      window.setCheckbox("legendaries_3_5", checked);
     });
     $("#bosses_6_12,#caves_4_3").click(function () {
       var checked = $(this).prop("checked");
@@ -1007,11 +1015,12 @@
       window.setCheckbox("armor_160", checked);
       window.setCheckbox("armor_161", checked);
     });
-    $("#bosses_7_8,#legacy_1_8,#weapons_14_13,#weapons_34_5").click(function () {
+    $("#bosses_7_8,#legacy_1_8,#weapons_14_13,#legendaries_1_6,#weapons_34_5").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_7_8", checked);
       window.setCheckbox("legacy_1_8", checked);
       window.setCheckbox("weapons_14_13", checked);
+      window.setCheckbox("legendaries_1_6", checked);
       window.setCheckbox("weapons_34_5", checked);
     });
     $("#bosses_7_11,#caves_5_5,#weapons_2_2").click(function () {
@@ -1306,10 +1315,11 @@
       window.setCheckbox("bosses_10_5", checked);
       window.setCheckbox("dragon_hearts_death_roots_0_13", checked);
     });
-    $("#bosses_10_6,#weapons_14_19").click(function () {
+    $("#bosses_10_6,#weapons_14_19,#legendaries_1_8").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_10_6", checked);
       window.setCheckbox("weapons_14_19", checked);
+      window.setCheckbox("legendaries_1_8", checked);
     });
     $("#bosses_10_7,#crystal_tears_8_3,#crystal_tears_8_4").click(function () {
       var checked = $(this).prop("checked");
@@ -1347,10 +1357,11 @@
       window.setCheckbox("ashesofwar_4_1", checked);
       window.setCheckbox("bell_bearings_1_4", checked);
     });
-    $("#bosses_11_3,#weapons_22_15,#armor_523,#armor_525,#armor_526,#armor_527").click(function () {
+    $("#bosses_11_3,#weapons_22_15,#legendaries_1_1,#armor_523,#armor_525,#armor_526,#armor_527").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("bosses_11_3", checked);
       window.setCheckbox("weapons_22_15", checked);
+      window.setCheckbox("legendaries_1_1", checked);
       window.setCheckbox("armor_523", checked);
       window.setCheckbox("armor_525", checked);
       window.setCheckbox("armor_526", checked);
