@@ -235,6 +235,23 @@ def make_index():
                                     with div(cls="card-body"):
                                         h5('Welcome to Roundtable Guides', cls='card-title text-center')
                                         p('Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                            with div(cls='col'):
+                                with div(cls='card shadow h-100'):
+                                    with div(cls='card-body'):
+                                        h5('Get the Apps!', cls='card-title text-center')
+                                        with div(style='width: 180px;', cls='badge'):
+                                            with a(href='https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;itscg=30200'):
+                                                img(src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1650585600&h=3eb10370b9c49cf5b5dde5ca0352f23a", alt="Download on the App Store", style='margin: 6%; width: 88%;')
+                                        with div(style='width: 180px;', cls='badge'):
+                                            with a(href='https://play.google.com/store/apps/details?id=com.roundtablehold.eldenringguides&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1', style='width: 100%;'):
+                                                img(src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png', style='width: 100%;')
+                            with div(cls="col"):
+                                with div(cls="card shadow h-100"):
+                                    with div(cls="card-body"):
+                                        h5('Our other resources', cls='card-title text-center')
+                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
+                                        p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
+                                        p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
                             with div(cls="col"):
                                 with div(cls='card shadow h-100'):
                                     with div(cls="card-body"):
@@ -255,23 +272,6 @@ def make_index():
                                     with div(cls="card-body"):
                                         h5('How does the checklist status get saved?', cls='card-title text-center')
                                         p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
-                            with div(cls="col"):
-                                with div(cls="card shadow h-100"):
-                                    with div(cls="card-body"):
-                                        h5('Our other resources', cls='card-title text-center')
-                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
-                                        p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
-                                        p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
-                            with div(cls='col'):
-                                with div(cls='card shadow h-100'):
-                                    with div(cls='card-body'):
-                                        h5('Get the Apps!', cls='card-title text-center')
-                                        with div(style='width: 180px;', cls='badge'):
-                                            with a(href='https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;itscg=30200'):
-                                                img(src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1650585600&h=3eb10370b9c49cf5b5dde5ca0352f23a", alt="Download on the App Store", style='margin: 6%; width: 88%;')
-                                        with div(style='width: 180px;', cls='badge'):
-                                            with a(href='https://play.google.com/store/apps/details?id=com.roundtablehold.eldenringguides&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1', style='width: 100%;'):
-                                                img(src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png', style='width: 100%;')
                     with div(cls="col-md-4 col-12"):
                         with div(cls='card shadow'):
                             with div(cls="card-body uncolor-links"):
