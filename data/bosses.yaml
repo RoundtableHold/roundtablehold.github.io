@@ -83,7 +83,7 @@ sections:
       - id: "1_5"
         data: ["Deathbird", "Castle Morne Outskirts", "3900 runes, Sacrificial Axe", "Field boss. Nighttime only."]
       - id: "1_6"
-        data: ["Cemetery Shade", "Tombsward Catacombs", "2200 runes, Lhutel the Headless Ashes", ""]
+        data: ["Cemetery Shade", "Tombsward Catacombs", "2200 runes, Lhutel the Headless Ashes (Legendary)", ""]
       - id: "1_7"
         data: ["Erdtree Avatar", "Minor Erdtree", "3600 runes, Opaline Bubbletear, Crimsonburst Crystal Tear", "Field boss."]
       - id: "1_8"
@@ -93,7 +93,7 @@ sections:
       - id: "1_10"
         data: ["Ancient Hero of Zamor", "Weeping Evergaol", "5400 runes, Radagon's Scarseal", ""]
       - id: "1_11"
-        data: ["Leonine Misbegotten", "Castle Morne (South)", "3800 runes, Grafted Blade Greatsword", "Grants Achievement/Trophy: Leonine Misbegotten."]
+        data: ["Leonine Misbegotten", "Castle Morne (South)", "3800 runes, Grafted Blade Greatsword (Legendary)", "Grants Achievement/Trophy: Leonine Misbegotten."]
   -
     title: "Roundtable Hold"
     table: ["Name", "Location", "Drops", "Notes"]
@@ -111,7 +111,7 @@ sections:
       - id: "4_37"
         data: ["Bloodhound Knight", "Lakeside Crystal Cave", "Cerulean Amber Medallion", "Required to meet Latenna."]
       - id: "4_2"
-        data: ["Adan, Thief of Fire", "Malefactor's Evergaol", "3800 runes, Flame of the Fell God Incantation", ""]
+        data: ["Adan, Thief of Fire", "Malefactor's Evergaol", "3800 runes, Flame of the Fell God Incantation (Legendary)", ""]
       - id: "4_3"
         data: ["Erdtree Burial Watchdog", "Cliffbottom Catacombs", "3200 runes, Kaiden Sellsword Ashes", ""]
       - id: "4_4"
@@ -175,7 +175,7 @@ sections:
       - id: "4_31"
         data: ["Red Wolf", "Moonlight Altar (West of Deep Ainsel Well)", "4158 runes", "Field boss."]
       - id: "4_32"
-        data: ["Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "80,000 runes, Black Knife Tiche Ashes", ""]
+        data: ["Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "80,000 runes, Black Knife Tiche Ashes (Legendary)", ""]
       - id: "4_33"
         data: ["Magma Wyrm Makar", "Ruin-Strewn Precipice", "24,000 runes, Magma Wyrm's Scalesword, Dragon Heart", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu. Grants Achievement/Trophy: Magma Wyrm Makar."]
       - id: "4_34"
@@ -247,17 +247,17 @@ sections:
       - id: "5_25"
         data: ["Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "Ancient Dragon Smithing Stone", "Only triggers after you give him 4 Deathroots."]
       - id: "5_26"
-        data: ["Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16,000 runes, Ruins Greatsword", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point."]
+        data: ["Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16,000 runes, Ruins Greatsword (Legendary)", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point."]
       - id: "5_27"
         data: ["Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Radahn's Great Rune, Remembrance of the Starscourge", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Radahn."]
       - id: "5_29"
-        data: ["Putrid Tree Spirit", "War-Dead Catacombs", "67,200 runes, Golden Seed, Redmane Knight Ogha Spirit Ashes", "Accessible after defeating Radahn, in his arena."]
+        data: ["Putrid Tree Spirit", "War-Dead Catacombs", "67,200 runes, Golden Seed, Redmane Knight Ogha Spirit Ashes (Legendary)", "Accessible after defeating Radahn, in his arena."]
   -
     title: "Altus Plateau"
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - id: "6_1"
-        data: ["Godefroy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman", ""]
+        data: ["Godefroy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman (Legendary)", ""]
       - id: "7_4"
         data: ["Necromancer Garris", "Sage's Cave", "0 runes, Family Heads Flail", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - id: "6_17"
@@ -283,7 +283,7 @@ sections:
       - id: "6_10"
         data: ["Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "11,339 runes, Black Knife Dagger", ""]
       - id: "6_11"
-        data: ["Ancient Hero of Zamor", "Sainted Hero's Grave", "24,000 runes, Ancient Dragon Knight Kristoff Ashes", ""]
+        data: ["Ancient Hero of Zamor", "Sainted Hero's Grave", "24,000 runes, Ancient Dragon Knight Kristoff Ashes (Legendary)", ""]
       - id: "6_12"
         data: ["Omenkiller & Miranda, the Blighted Bloom", "Perfumer's Grotto", "8500 runes, Great Omenkiller Cleaver", ""]
       - id: "6_13"
@@ -309,7 +309,7 @@ sections:
       - id: "7_7"
         data: ["Maleigh Marais, Shaded Castle Castellan", "The Shaded Castle (West)", "4800 runes, Antspur Rapier, Marais Mask, Marais Robe", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - id: "7_8"
-        data: ["Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword, Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy: Elemer of the Briar."]
+        data: ["Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword (Legendary), Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy: Elemer of the Briar."]
       - id: "7_10"
         data: ["Grafted Scion", "Mt. Gelmir (North)", "2313 runes", "Field boss."]
       - id: "7_11"
@@ -437,7 +437,7 @@ sections:
       - id: "10_5"
         data: ["Great Wyrm Theodorix", "Consecrated Snowfield (East)", "180,000 runes, Dragon Heart (x3)", ""]
       - id: "10_6"
-        data: ["Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword", ""]
+        data: ["Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword (Legendary)", ""]
       - id: "10_7"
         data: ["Putrid Avatar", "Minor Erdtree", "160,000 runes, Ruptured Crystal Tear, Thorny Cracked Tear", "Field boss."]
       - id: "10_8"
@@ -459,7 +459,7 @@ sections:
       - id: "11_2"
         data: ["Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Ash of War: Black Flame Tornado, Smithing-Stone Miner's Bell Bearing [4]", "Grants Achievement/Trophy: Godskin Duo."]
       - id: "11_3"
-        data: ["Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw (Tool), Devourer's Scepter Great Hammer, Beast Champion Set with Armor (Altered), Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."]
+        data: ["Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw (Tool), Devourer's Scepter Great Hammer (Legendary), Beast Champion Set with Armor (Altered), Bernahl's Bell Bearing", "Location: after passing the Beside the Great Bridge Site of Grace."]
       - id: "11_4"
         data: ["Draconic Tree Sentinel", "Dragon Temple", "50,000 runes, Malformed Dragon Set", "One annoying bastard, but more annoying."]
       - id: "11_5"
