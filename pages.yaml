@@ -168,7 +168,7 @@ item_links:
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
   - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG
   - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
-  #- link_all: [bosses_2_20, bell_bearings_#_#] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_2_20, bell_bearings_2_20] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING
   - link_all: [bosses_2_21, talismans_2_17] #DEATHBIRD/BLUE-FEATHERED BRANCHSWORD
   - link_all: [bosses_2_22, armor_518, armor_519, armor_521, armor_522] #OLD KNIGHT ISTVAN/SCALED SET (HELM, ARMOR, GAUNTLETS, GREAVES)
   - link_all: [bosses_2_30, talismans_2_16] #GRAFTED SCION (X2)/ERDTREE'S FAVOR
@@ -195,7 +195,7 @@ item_links:
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
   - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
   - link_all: [bosses_4_13, bell_bearings_1_1] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1]
-  #- link_all: [bosses_4_14, bell_bearings_#_#] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_4_14, bell_bearings_5_2] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING
   - link_all: [bosses_4_15, crystal_tears_2_4, crystal_tears_2_5, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR/HOLY-SHROUDING CRACKED TEAR/MAGIC-SHROUDING CRACKED TEAR
   - source: caves_2_2
     target: [bosses_4_16] #BLACK KNIFE CATACOMBS/CEMETERY SHADE
@@ -240,7 +240,7 @@ item_links:
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
   - link_all: [bosses_5_17, sorceries_8_4] #PUTRID CRYSTALIAN (SPEAR & RINGBLADE & STAFF)/CRYSTAL TORRENT SORCERY
   - link_all: [bosses_5_18, armor_168, armor_169, armor_170, armor_171] #GODSKIN APOSTLE/GODSKIN APOSTLE SET (HOOD, ROBE, BRACERS, TROUSERS)
-  #- link_all: [bosses_5_19, bell_bearings_#_#] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_5_19, bell_bearings_5_3] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING
   - link_all: [bosses_5_20, crystal_tears_3_3, crystal_tears_3_4] #PUTRID AVATAR (EAST)/OPALINE HARDTEAR/STONEBARB CRACKED TEAR
   - link_all: [bosses_5_21, caves_3_7, talismans_5_7] #BEASTMAN OF FARUM AZULA (GREATSWORD & THROWING KNIFE)/DRAGONBARROW CAVE/FLAMEDRAKE TALISMAN [+2]
   - link_all: [bosses_5_22, ashesofwar_6_2] #NIGHT'S CAVALRY (LENNE'S RISE BRIDGE)/AOW: BLOODHOUND'S STEP
@@ -263,7 +263,7 @@ item_links:
   - link_all: [bosses_6_5, talismans_7_8] #RILEIGH THE IDLE/CREPUS'S VIAL TALISMAN (VOLCANO MANOR QUESTLINE)
   - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
   - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
-  - link_all: [bosses_6_9, caves_4_2] #, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_6_9, caves_4_2, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2]
   - source: caves_4_4
     target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
   - source_and: [bosses_6_10, bosses_6_11]
@@ -273,7 +273,7 @@ item_links:
   - link_all: [bosses_6_12, caves_4_3] #OMENKILLER & MIRANDA/PERFUMER'S GROTTO/GREAT OMENKILLER CLEAVER
   - link_all: [bosses_6_14, incantations_4_8] #ANCIENT DRAGON LANSSEAX/LANSSEAX'S GLAIVE INCANTATION
   - link_all: [bosses_6_15, weapons_34_6] #TREE SENTINEL (X2)/ERDTREE GREATSHIELD
-  #- link_all: [bosses_6_16, bell_bearings_#_#] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_6_16, bell_bearings_5_4] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING
   - link_all: [bosses_7_2, caves_5_4, spirit_ashes_6_4] #PERFUMER TRICIA & MISBEGOTTEN WARRIOR/UNSIGHTLY CATACOMBS/PERFUMER TRICIA ASHES
   - link_all: [bosses_7_3, dragon_hearts_death_roots_1_5, sorceries_9_2] #TIBIA MARINER/DEATHROOT/TIBIA'S SUMMONS SORCERY
   - link_all: [bosses_7_5, caves_5_6, bell_bearings_3_1] #ERDTREE BURIAL WATCHDOG/WYNDHAM CATACOMBS/GLOVEWORT PICKER'S BELL BEARING [1]
@@ -336,7 +336,7 @@ item_links:
   - link_all: [bosses_10_10, legacy_1_14, sorceries_13_1, weapons_25_15] #LORETTA/MIQUELLA'S HALIGTREE/LORETTA'S MASTERY SORCERY/LORETTA'S WAR SICKLE
   - link_all: [bosses_10_11, legacy_1_15, great_runes_1_6, remembrances_mausoleums_1_14] #MALENIA/ELPHAEL BRACE OF THE HALIGTREE/MALENIA'S GREAT RUNE/REMEMBRANCE OF THE ROT GODDESS
   - link_all: [bosses_11_2, ashesofwar_4_1, bell_bearings_1_4] #GODSKIN DUO/AOW BLACK FLAME TORNADO/SMITHING-STONE MINER'S BELL BEARING [4]
-  - link_all: [bosses_11_3, weapons_22_15, legendaries_1_1, armor_523, armor_525, armor_526, armor_527] #bell_bearings_#_#] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER (+LEGENDARY)/BEAST CHAMPION SET/BERNAHL'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
+  - link_all: [- link_all: [bosses_11_3, weapons_22_15, legendaries_1_1, armor_523, armor_525, armor_526, armor_527] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER (+LEGENDARY)/BEAST CHAMPION SET #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
   - link_all: [bosses_11_4, armor_533, armor_534, armor_535, armor_536] #DRACONIC TREE SENTINEL/MALFORMED DRAGON SET
   - link_all: [bosses_11_5, remembrances_mausoleums_1_11] #DRAGONLORD PLACIDUSAX/REMEMBRANCE OF THE DRAGONLORD
   - link_all: [bosses_11_6, legacy_1_12, remembrances_mausoleums_1_7] #MALIKETH/CRUMBLING FARUM AZULA/REMEMBRANCE OF THE BLACK BLADE
