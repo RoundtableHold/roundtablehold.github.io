@@ -1,18 +1,14 @@
-from logging import PlaceHolder
-from math import ceil, floor
-from itertools import permutations
+import json
 import os
-from time import sleep
-from turtle import onclick
-import yaml
 import re
+from math import floor
+
 import dominate
+import yaml
 from dominate.tags import *
 from dominate.util import raw
 from more_itertools import peekable
-import urllib.parse
-from atomicwrites import atomic_write
-import json
+
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -549,8 +545,8 @@ def make_checklist(page):
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
         make_footer(page)
-        script(src="/js/checklists.js")
         script(src="/js/item_links.js")
+        script(src="/js/checklists.js")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
@@ -638,62 +634,63 @@ for page in pages:
 
 def to_list(x):
     if isinstance(x, list):
-        return x
-    return [x]
+        return set(x)
+    return set([x])
 
-def make_jquery_selector(x):
-    l  = to_list(x)
-    s = '$("'
-    for e in l[:-1]:
-        if str(e) not in all_ids:
-            print('Potential typo in item links. "' + e + '" is not a valid id')
-        s += '#' + str(e) + ','
-    if str(l[-1]) not in all_ids:
-        print('Potential typo in item links. "' + str(l[-1]) + '" is not a valid id')
-    s += '#' + str(l[-1]) + '")'
-    return s
-
+links_json = {}
+for link in item_links:
+    if 'source' in link:
+        for t in to_list(link['target']):
+            if (str(t)) not in all_ids:
+                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+        for s in to_list(link['source']):
+            if (str(s)) not in all_ids:
+                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+            t = to_list(link['target'])
+            t.discard(s)
+            links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
+            links_json.setdefault(s, {}).setdefault('targets', []).sort()
+    if 'source_or' in link:
+        for t in to_list(link['target']):
+            if (str(t)) not in all_ids:
+                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+        for s in to_list(link['source_or']):
+            if (str(s)) not in all_ids:
+                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+            ss = to_list(link['source_or'])
+            ss.discard(s)
+            t = to_list(link['target'])
+            t.discard(s)
+            links_json.setdefault(s, {}).setdefault('orsources', []).extend(list(ss))
+            links_json.setdefault(s, {}).setdefault('orsources', []).sort()
+            links_json.setdefault(s, {}).setdefault('ortargets', []).extend(list(t))
+            links_json.setdefault(s, {}).setdefault('ortargets', []).sort()
+    if 'source_and' in link:
+        for t in to_list(link['target']):
+            if (str(t)) not in all_ids:
+                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+        for s in to_list(link['source_and']):
+            if (str(s)) not in all_ids:
+                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+            ss = to_list(link['source_and'])
+            ss.discard(s)
+            t = to_list(link['target'])
+            t.discard(s)
+            links_json.setdefault(s, {}).setdefault('andsources', []).extend(list(ss))
+            links_json.setdefault(s, {}).setdefault('andsources', []).sort()
+            links_json.setdefault(s, {}).setdefault('andtargets', []).extend(list(t))
+            links_json.setdefault(s, {}).setdefault('andtargets', []).sort()
+    if 'link_all' in link:
+        for s in to_list(link['link_all']):
+            if (str(s)) not in all_ids:
+                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+            t = to_list(link['link_all'])
+            t.discard(s)
+            links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
+            links_json.setdefault(s, {}).setdefault('targets', []).sort()
 with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
-    links_f.writelines([
-        '(function($) {\n',
-        "  'use strict';\n",
-        '  $(function() {\n',
-    ])
-    for link in item_links:
-        if 'source' in link:
-            sel = make_jquery_selector(link['source'])
-            links_f.write('    ' + sel + '.click(function () {\n')
-            links_f.write('      var checked = $(this).prop("checked");\n')
-            for target in to_list(link['target']):
-                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
-            links_f.write('    });\n')
-            # t_sel = make_jquery_selector(link['target'])
-            # links_f.write('      ' + t_sel + '.prop("checked", checked);\n')
-            # links_f.write('      ' + t_sel + '.each(function(idx, el) {window.onCheckbox(el)});\n')
-            # links_f.write('    });\n')
-        elif 'source_or' in link:
-            sel = make_jquery_selector(link['source_or'])
-            links_f.write('    ' + sel + '.click(function () {\n')
-            links_f.write('      var checked = (' + sel + '.filter(":checked").length !== 0);\n')
-            for target in to_list(link['target']):
-                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
-            links_f.write('    });\n')
-        elif 'source_and' in link:
-            sel = make_jquery_selector(link['source_and'])
-            links_f.write('    ' + sel + '.click(function () {\n')
-            links_f.write('      var checked = (' + sel + '.not(":checked").length === 0);\n')
-            for target in to_list(link['target']):
-                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
-            links_f.write('    });\n')
-        elif 'link_all' in link:
-            sel = make_jquery_selector(link['link_all'])
-            links_f.write('    ' + sel + '.click(function () {\n')
-            links_f.write('      var checked = $(this).prop("checked");\n')
-            for target in to_list(link['link_all']):
-                links_f.write('      window.setCheckbox("' + target + '", checked);\n')
-            links_f.write('    });\n')
-    links_f.write('  });\n')
-    links_f.write('})( jQuery );\n')
+    links_f.write('const item_links = ')
+    json.dump(links_json, links_f, indent=2, sort_keys=True)
 
 with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
@@ -790,66 +787,6 @@ var profilesKey = 'darksouls3_profiles';\n
     f.write('calculateProgress();\n')
     f.write('  });\n')
     f.write('})( jQuery );\n')
-
-# with open(os.path.join('docs', 'sw.js'), 'w', encoding='utf_8') as f:
-#     f.write(
-# """
-# var cache_ver = 'roundtable-store-3';
-
-# self.addEventListener('activate', function(event) {
-#   event.waitUntil(
-#     caches.keys().then(function(cacheNames) {
-#       return Promise.all(
-#         cacheNames.filter(function(cacheName) {
-#             return cacheName !== cache_ver;
-#         }).map(function(cacheName) {
-#           return caches.delete(cacheName);
-#         })
-#       );
-#     })
-#   );
-# });
-
-# self.addEventListener('install', (e) => {
-#     e.waitUntil(
-#         caches.open(cache_ver).then((cache) => cache.addAll([
-#             '/',
-# """)
-#     for root, dirs, files in os.walk("docs"):
-#         for name in files:
-#             f.write("            '" + root.replace("\\", "/")[4:] + '/' + name + "',\n")
-#     f.write(
-# """
-#         ])),
-#     );
-# });
-
-# self.addEventListener('fetch', function (event) {
-#     //console.log('Handling fetch event for', event.request.url);
-
-#     event.respondWith(            
-#         caches.match(event.request).then(function (response) {
-#             if (response) {
-#                 //console.log('Found response in cache:', response);
-
-#                 return response;
-#             }
-
-#             //console.log('No response found in cache. About to fetch from network...');
-
-#             return fetch(event.request).then(function (response) {
-#                 //console.log('Response from network is:', response);
-
-#                 return response;
-#             }).catch(function (error) {                    
-#                 //console.error('Fetching failed:', error);
-
-#                 return caches.match(OFFLINE_URL);
-#             });
-#         })
-#     );
-# });
-# """)
 
 search_idx = []
 for page in pages:
