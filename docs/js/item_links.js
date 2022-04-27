@@ -1574,11 +1574,39 @@
       window.setCheckbox("playthrough_2", checked);
       window.setCheckbox("tools_4_4", checked);
     });
+    $("#playthrough_6,#whetstones_0_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_6", checked);
+      window.setCheckbox("whetstones_0_1", checked);
+    });
     $("#playthrough_8,#quest_order_tldr_3,#npc_quests_42_1").click(function () {
       var checked = $(this).prop("checked");
       window.setCheckbox("playthrough_8", checked);
       window.setCheckbox("quest_order_tldr_3", checked);
       window.setCheckbox("npc_quests_42_1", checked);
+    });
+    $("#playthrough_9,#quest_order_tldr_4,#npc_quests_3_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_9", checked);
+      window.setCheckbox("quest_order_tldr_4", checked);
+      window.setCheckbox("npc_quests_3_1", checked);
+    });
+    $("#playthrough_10,#quest_order_tldr_5,#npc_quests_32_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_10", checked);
+      window.setCheckbox("quest_order_tldr_5", checked);
+      window.setCheckbox("npc_quests_32_1", checked);
+    });
+    $("#playthrough_12,#quest_order_tldr_6,#npc_quests_23_1").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_12", checked);
+      window.setCheckbox("quest_order_tldr_6", checked);
+      window.setCheckbox("npc_quests_23_1", checked);
+    });
+    $("#playthrough_13,#bosses_2_16").click(function () {
+      var checked = $(this).prop("checked");
+      window.setCheckbox("playthrough_13", checked);
+      window.setCheckbox("bosses_2_16", checked);
     });
   });
 })( jQuery );
