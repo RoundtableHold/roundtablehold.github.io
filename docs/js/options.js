@@ -48,30 +48,29 @@ var profilesKey = 'darksouls3_profiles';
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
         
-    function updateTextbox() {
-        document.getElementById("profileText").value = JSON.stringify(profiles);
-    }
     
     jQuery(document).ready(function($) {
         // Get the right style going...
     
-        themeSetup(buildThemeSelection());
+        function updateTextbox() {
+            document.getElementById("profileText").value = JSON.stringify(profiles);
+        }
 
         // Theme callback
         $('#themes').change(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var stylesheet = $('#themes').val();
             themeSetup(stylesheet);
             profiles[profilesKey][profiles.current].style = stylesheet;
             $.jStorage.set(profilesKey, profiles);
-            updateTextbox();
+            reload();
         });
 
         $('#profiles').change(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             profiles.current = $(this).val();
             $.jStorage.set(profilesKey, profiles);
-            updateTextbox();
+            reload();
 
             $('li .checkbox .completed').show();
         });
@@ -99,20 +98,20 @@ var profilesKey = 'darksouls3_profiles';
         });
 
         $('#profileModalAdd').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var profile = $.trim($('#profileModalName').val());
             if (profile.length > 0) {
                 initializeProfile(profile);
 
                 profiles.current = profile;
                 $.jStorage.set(profilesKey, profiles);
-                updateTextbox();
+                reload();
                 populateProfiles();
             }
         });
 
         $('#profileModalUpdate').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             var newName = $.trim($('#profileModalName').val());
             if (newName.length > 0 && newName != profiles.current) {
@@ -121,7 +120,7 @@ var profilesKey = 'darksouls3_profiles';
                 profiles.current = newName;
                 $.jStorage.set(profilesKey, profiles);
                 populateProfiles();
-                updateTextbox();
+                reload();
             }
             $('#profileModal').modal('hide');
         });
@@ -132,7 +131,7 @@ var profilesKey = 'darksouls3_profiles';
 
         $('#deleteYes').click(function(event) {
             $('#deleteModal').hide();
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!canDelete()) {
                 myalert('Failed to delete', 'danger');
@@ -143,7 +142,7 @@ var profilesKey = 'darksouls3_profiles';
             $.jStorage.set(profilesKey, profiles);
             populateProfiles();
             $('#profileModal').modal('hide');
-            updateTextbox();
+            reload();
             myalert('Successfully deleted profile', 'success');
         })
 
@@ -152,7 +151,7 @@ var profilesKey = 'darksouls3_profiles';
         });
 
         $('#NG\\+ModalYes').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             $('[id^="playthrough_"], [id^="npc_quests_"], [id^="bosses_"], [id^="legacy_"], [id^="caves_"], [id^="evergaols_"], [id^="paintings"]').filter(':checked').each(function(){
                 profiles[profilesKey][profiles.current].checklistData[this.id] = false;
@@ -162,7 +161,7 @@ var profilesKey = 'darksouls3_profiles';
             }
             $.jStorage.set(profilesKey, profiles);
             $('#NG\\+Modal').modal('hide');
-            updateTextbox();
+            reload();
             myalert("NG+ Started", 'success');
         });
 
@@ -222,12 +221,12 @@ var profilesKey = 'darksouls3_profiles';
 
         $('#importTextYes').click(function() {
             $('#importTextModal').modal('hide');
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             try {
                 var jsonProfileData = JSON.parse(document.getElementById("profileText").value);
                 profiles = jsonProfileData;
                 $.jStorage.set(profilesKey, profiles);
-                updateTextbox();
+                reload();
             } catch(e) {
                 myalert(e, 'danger');
                 return;
@@ -238,18 +237,24 @@ var profilesKey = 'darksouls3_profiles';
 
         function dataLoadCallback(arg){
             console.log('dataloadcallback')
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var jsonProfileData = JSON.parse(arg.currentTarget.result);
             profiles = jsonProfileData;
             $.jStorage.set(profilesKey, profiles);
             populateProfiles();
             $('#profiles').trigger("change");
-            updateTextbox();
+            reload();
             myalert('Successfully imported', 'success');
         }
 
-        populateProfiles();
-        updateTextbox();
+        function reload() {
+            themeSetup(buildThemeSelection());
+            populateProfiles();
+            updateTextbox();
+        }
+
+        reload();
+
     });
     
     function initializeProfile(profile_name) {
