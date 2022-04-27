@@ -164,7 +164,7 @@ item_links:
   - link_all: [bosses_2_13, ashesofwar_6_8] #NIGHT'S CAVALRY/AOW REPEATING THRUST
   - link_all: [bosses_2_14, weapons_25_13] #TREE SENTINEL/GOLDEN HALBERD
   - link_all: [bosses_2_15, dragon_hearts_death_roots_0_1] #FLYING DRAGON AGHEEL/DRAGON HEART
-  - link_all: [bosses_2_16, spirit_ashes_2_6, dragon_hearts_death_roots_1_1] #TIBIA MARINER/SKELETAL MILITIAMAN ASHES/DEATHROOT
+  - link_all: [bosses_2_16, spirit_ashes_2_6, dragon_hearts_death_roots_1_1, playthrough_13] #TIBIA MARINER/SKELETAL MILITIAMAN ASHES/DEATHROOT/WALKTHROUGH 13
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
   - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG
   - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
@@ -377,7 +377,15 @@ item_links:
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
   - link_all: [gestures_0_1, gestures_0_2, gestures_0_3, gestures_0_4, gestures_0_5, gestures_0_6, gestures_0_7, gestures_0_8, gestures_0_9, gestures_0_10, gestures_0_11, gestures_0_12] #Starting gestures (all obtained at once)
 
-  # Walkthrough linking
-  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1] # Links Varré step 1
-  - link_all: [playthrough_2, tools_4_4] # Links Small Golden Effigy
-  - link_all: [playthrough_8, quest_order_tldr_3, npc_quests_42_1] # Links Melina step 1
+  # Walkthrough Linking - Limgrave
+  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1] # Links to Varré step 1
+  - link_all: [playthrough_2, tools_4_4] # Links to Small Golden Effigy
+  - link_all: [playthrough_6, whetstones_0_1] # Links to Whetstone
+  - link_all: [playthrough_8, quest_order_tldr_3, npc_quests_42_1] # Links to Melina step 1
+  - link_all: [playthrough_9, quest_order_tldr_4, npc_quests_3_1] # Links to Boc step 1
+  - link_all: [playthrough_10, quest_order_tldr_5, npc_quests_32_1] # Links to Alexander step 1
+  - link_all: [playthrough_12, quest_order_tldr_6, npc_quests_23_1] # Links to D, Hunter step 1
+  - source_and: [playthrough_13, playthrough_14]
+    target: [quest_order_tldr_7, npc_quests_23_2] 
+  - source_or: [quest_order_tldr_7, npc_quests_23_2]
+    target: [playthrough_13, playthrough_14]       # Links to D, Hunter step 2    
