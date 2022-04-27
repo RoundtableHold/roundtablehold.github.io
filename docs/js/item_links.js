@@ -3068,7 +3068,7 @@ const item_links = {
   },
   "incantations_2_1": {
     "targets": [
-      "remembrances_mausoleums_1_15_2"
+      "remembrances_mausoleums_1_15_1"
     ]
   },
   "incantations_2_3": {
@@ -3463,12 +3463,12 @@ const item_links = {
   },
   "remembrances_mausoleums_1_15_1": {
     "targets": [
-      "weapons_24_6"
+      "incantations_2_1"
     ]
   },
   "remembrances_mausoleums_1_15_2": {
     "targets": [
-      "incantations_2_1"
+      "weapons_24_6"
     ]
   },
   "remembrances_mausoleums_1_1_1": {
@@ -4246,7 +4246,7 @@ const item_links = {
   },
   "weapons_24_6": {
     "targets": [
-      "remembrances_mausoleums_1_15_1"
+      "remembrances_mausoleums_1_15_2"
     ]
   },
   "weapons_25_10": {
