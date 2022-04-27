@@ -2514,6 +2514,12 @@ const item_links = {
       "crystal_tears_0_2"
     ]
   },
+  "crystal_tears_1_4": {
+    "targets": [
+      "flasks_2_4",
+      "playthrough_16"
+    ]
+  },
   "crystal_tears_2_2": {
     "targets": [
       "bosses_4_24",
@@ -2835,6 +2841,12 @@ const item_links = {
     "targets": [
       "bosses_2_24",
       "talismans_2_6"
+    ]
+  },
+  "flasks_2_4": {
+    "targets": [
+      "crystal_tears_1_4",
+      "playthrough_16"
     ]
   },
   "gestures_0_1": {
@@ -3369,6 +3381,12 @@ const item_links = {
       "playthrough_14"
     ]
   },
+  "npc_quests_30_1": {
+    "targets": [
+      "playthrough_15",
+      "quest_order_tldr_8"
+    ]
+  },
   "npc_quests_32_1": {
     "targets": [
       "playthrough_10",
@@ -3385,6 +3403,12 @@ const item_links = {
     "targets": [
       "playthrough_8",
       "quest_order_tldr_3"
+    ]
+  },
+  "npc_quests_42_3_1": {
+    "targets": [
+      "playthrough_17",
+      "quest_order_tldr_9"
     ]
   },
   "npc_quests_8_1": {
@@ -3441,9 +3465,32 @@ const item_links = {
       "quest_order_tldr_7"
     ]
   },
+  "playthrough_15": {
+    "targets": [
+      "npc_quests_30_1",
+      "quest_order_tldr_8"
+    ]
+  },
+  "playthrough_16": {
+    "targets": [
+      "crystal_tears_1_4",
+      "flasks_2_4"
+    ]
+  },
+  "playthrough_17": {
+    "targets": [
+      "npc_quests_42_3_1",
+      "quest_order_tldr_9"
+    ]
+  },
   "playthrough_2": {
     "targets": [
       "tools_4_4"
+    ]
+  },
+  "playthrough_4": {
+    "targets": [
+      "quest_order_tldr_2"
     ]
   },
   "playthrough_6": {
@@ -3483,6 +3530,11 @@ const item_links = {
       "weapons_18_6"
     ]
   },
+  "quest_order_tldr_2": {
+    "targets": [
+      "playthrough_4"
+    ]
+  },
   "quest_order_tldr_3": {
     "targets": [
       "npc_quests_42_1",
@@ -3514,6 +3566,18 @@ const item_links = {
     "ortargets": [
       "playthrough_13",
       "playthrough_14"
+    ]
+  },
+  "quest_order_tldr_8": {
+    "targets": [
+      "npc_quests_30_1",
+      "playthrough_15"
+    ]
+  },
+  "quest_order_tldr_9": {
+    "targets": [
+      "npc_quests_42_3_1",
+      "playthrough_17"
     ]
   },
   "remembrances_mausoleums_1_1": {

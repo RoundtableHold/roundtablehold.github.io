@@ -377,15 +377,19 @@ item_links:
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
   - link_all: [gestures_0_1, gestures_0_2, gestures_0_3, gestures_0_4, gestures_0_5, gestures_0_6, gestures_0_7, gestures_0_8, gestures_0_9, gestures_0_10, gestures_0_11, gestures_0_12] #Starting gestures (all obtained at once)
 
-  # Walkthrough Linking - Limgrave
-  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1] # Links to Varré step 1
-  - link_all: [playthrough_2, tools_4_4] # Links to Small Golden Effigy
-  - link_all: [playthrough_6, whetstones_0_1] # Links to Whetstone
-  - link_all: [playthrough_8, quest_order_tldr_3, npc_quests_42_1] # Links to Melina step 1
-  - link_all: [playthrough_9, quest_order_tldr_4, npc_quests_3_1] # Links to Boc step 1
-  - link_all: [playthrough_10, quest_order_tldr_5, npc_quests_32_1] # Links to Alexander step 1
-  - link_all: [playthrough_12, quest_order_tldr_6, npc_quests_23_1] # Links to D, Hunter step 1
+  # WALKTHROUGH LINKING - LIMGRAVE
+  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1] # WALKTHROUGH 1/TLDR 1/VARRE 1
+  - link_all: [playthrough_2, tools_4_4] # WALKTHROUGH 2/SMALL GOLDEN EFFIGY
+  - link_all: [playthrough_4, quest_order_tldr_2] # WALKTHROUGH 4/TLDR 2
+  - link_all: [playthrough_6, whetstones_0_1] # WALKTHROUGH 6/WHETSTONE KNIFE
+  - link_all: [playthrough_8, quest_order_tldr_3, npc_quests_42_1] # WALKTHROUGH 8/TLDR 3/MELINA 1
+  - link_all: [playthrough_9, quest_order_tldr_4, npc_quests_3_1] # WALKTHROUGH 9/TLDR 4/BOC 1
+  - link_all: [playthrough_10, quest_order_tldr_5, npc_quests_32_1] # WALKTHROUGH 10/TLDR 5/ALEXANDER 1
+  - link_all: [playthrough_12, quest_order_tldr_6, npc_quests_23_1] # WALKTHROUGH 12/TLDR 6/D HUNTER 1
   - source_and: [playthrough_13, playthrough_14]
     target: [quest_order_tldr_7, npc_quests_23_2] 
   - source_or: [quest_order_tldr_7, npc_quests_23_2]
-    target: [playthrough_13, playthrough_14]       # Links to D, Hunter step 2    
+    target: [playthrough_13, playthrough_14] # WALKTHROUGH 13-14/TLDR 7/D HUNTER 2
+  - link_all: [playthrough_15, quest_order_tldr_8, npc_quests_30_1] # WALKTHROUGH 15/TLDR 8/KENNETH 1
+  - link_all: [playthrough_16, flasks_2_4, crystal_tears_1_4] # WALKTHROUGH 16/SACRED TEAR/CRIMSTON CRYSTAL TEAR
+  - link_all: [playthrough_17, quest_order_tldr_9, npc_quests_42_3_1] # WALKTHROUGH 17/TLDR 9/MELINA 3_1
