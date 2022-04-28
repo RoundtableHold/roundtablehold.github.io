@@ -3,18 +3,21 @@
 (function($) {
     var img = [
         9645, // Original width of image
-        9119,  // Original height of image
+        15968,  // Original height of image
     ]
 
     var map = L.map('map', {
         crs: L.CRS.Simple,
-        wheelPxPerZoomLevel: 500,
-        preferCanvas: true,
+        minZoom: 0,
+        maxZoom: 6,
+        scrollWheelZoom: false,
+        smoothWheelZoom: true,
+        smoothSensitivity: 1,
     });
 
     var rc = new L.RasterCoords(map, img);
 
-    // map.setMaxZoom(rc.zoomLevel());
+    map.setMaxZoom(8);
 
     map.setView(rc.unproject([4500, 4500]), 4);
 
@@ -28,12 +31,11 @@
         noWrap: true,
         bounds: rc.getMaxBounds(),
         maxNativeZoom: rc.zoomLevel(),
-        maxZoom: 8,
     }).addTo(map);
 
     var grace = L.icon({
         iconUrl: '/map/icons/MENU_MAP_01_Bonfire.png',
-        iconSize: [80,80],
+        iconSize: [60,60],
     });
 
     var customLayer = L.geoJson(null, {
