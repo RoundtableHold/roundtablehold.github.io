@@ -896,6 +896,12 @@ const item_links = {
       "weapons_21_2"
     ]
   },
+  "ashesofwar_1_3": {
+    "targets": [
+      "npc_quests_30_2",
+      "playthrough_22"
+    ]
+  },
   "ashesofwar_2_3": {
     "targets": [
       "bosses_4_5"
@@ -2832,6 +2838,11 @@ const item_links = {
       "dragon_hearts_death_roots_1_7"
     ]
   },
+  "flasks_1_5": {
+    "targets": [
+      "playthrough_21"
+    ]
+  },
   "flasks_1_7": {
     "targets": [
       "bosses_2_23"
@@ -3226,6 +3237,15 @@ const item_links = {
       "remembrances_mausoleums_1_1"
     ]
   },
+  "legacy_1_3": {
+    "orsources": [
+      "quest_order_tldr_12"
+    ],
+    "ortargets": [
+      "playthrough_22",
+      "playthrough_23"
+    ]
+  },
   "legacy_1_4": {
     "targets": [
       "bosses_4_36",
@@ -3387,6 +3407,12 @@ const item_links = {
       "quest_order_tldr_8"
     ]
   },
+  "npc_quests_30_2": {
+    "targets": [
+      "ashesofwar_1_3",
+      "playthrough_22"
+    ]
+  },
   "npc_quests_32_1": {
     "targets": [
       "playthrough_10",
@@ -3483,9 +3509,41 @@ const item_links = {
       "quest_order_tldr_9"
     ]
   },
+  "playthrough_19": {
+    "targets": [
+      "quest_order_tldr_11"
+    ]
+  },
   "playthrough_2": {
     "targets": [
       "tools_4_4"
+    ]
+  },
+  "playthrough_21": {
+    "targets": [
+      "flasks_1_5"
+    ]
+  },
+  "playthrough_22": {
+    "andsources": [
+      "playthrough_23"
+    ],
+    "andtargets": [
+      "legacy_1_3",
+      "quest_order_tldr_12"
+    ],
+    "targets": [
+      "ashesofwar_1_3",
+      "npc_quests_30_2"
+    ]
+  },
+  "playthrough_23": {
+    "andsources": [
+      "playthrough_22"
+    ],
+    "andtargets": [
+      "legacy_1_3",
+      "quest_order_tldr_12"
     ]
   },
   "playthrough_4": {
@@ -3521,6 +3579,20 @@ const item_links = {
     "targets": [
       "npc_quests_8_1",
       "playthrough_1"
+    ]
+  },
+  "quest_order_tldr_11": {
+    "targets": [
+      "playthrough_19"
+    ]
+  },
+  "quest_order_tldr_12": {
+    "orsources": [
+      "legacy_1_3"
+    ],
+    "ortargets": [
+      "playthrough_22",
+      "playthrough_23"
     ]
   },
   "quest_order_tldr_145": {

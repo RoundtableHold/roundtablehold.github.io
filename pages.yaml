@@ -393,3 +393,10 @@ item_links:
   - link_all: [playthrough_15, quest_order_tldr_8, npc_quests_30_1] # WALKTHROUGH 15/TLDR 8/KENNETH 1
   - link_all: [playthrough_16, flasks_2_4, crystal_tears_1_4] # WALKTHROUGH 16/SACRED TEAR/CRIMSTON CRYSTAL TEAR
   - link_all: [playthrough_17, quest_order_tldr_9, npc_quests_42_3_1] # WALKTHROUGH 17/TLDR 9/MELINA 3_1
+  - link_all: [playthrough_19, quest_order_tldr_11] # WALKTHROUGH 19/TLDR 11
+  - link_all: [playthrough_21, flasks_1_5] # WALKTHROUGH 21/GOLDEN SEED 5
+  - link_all: [playthrough_22, npc_quests_30_2, ashesofwar_1_3] # WALKTHROUGH 22/KENNETH 2/BLOODY SLASH
+  - source_and: [playthrough_22, playthrough_23]
+    target: [quest_order_tldr_12, legacy_1_3] 
+  - source_or: [quest_order_tldr_12, legacy_1_3]
+    target: [playthrough_22, playthrough_23] # WALKTHROUGH 22-23/TLDR 12/FORT HAIGHT
