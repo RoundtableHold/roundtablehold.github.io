@@ -489,49 +489,62 @@ sections:
     items:
       - id: "20_1"
         icon: "/img/icons/weapons/hammers/10401.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Club\">Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Club\">Club</a>", "Is the starting Weapon for the Wretch.<br>Can be bought for 600 Runes from the Nomadic Merchant on the shore in Limgrave.<br>Dropped by Demi-humans.", "Normal"]
+        # TODO: add link to Nomadic Merch and Demi-Human spot
       - id: "20_2"
         icon: "/img/icons/weapons/hammers/10402.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Club\">Curved Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Club\">Curved Club</a>", "Dropped by Albinaurics armed with this weapon. A pack of albinaurics is found east of the Academy Gate Town Site of Grace.", "Normal"]
+        # TODO: add link to albinauric spot and site of grace
       - id: "20_3"
         icon: "/img/icons/weapons/hammers/10406.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiked+Club\">Spiked Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiked+Club\">Spiked Club</a>", "Dropped by large Demi-humans, easy to kill Demi-humans found in the Coastal Cave in Limgrave.", "Normal"]
+        # TODO: add link to demi-human spot and coastal cave
       - id: "20_4"
         icon: "/img/icons/weapons/hammers/10413.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Stone+Club\">Stone Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Stone+Club\">Stone Club</a>", "Dropped by Battlemages in front of Sellia Hideaway or before the Fog-wall in the Academy Crystal Cave.", "Normal"]
+        # TODO: add link to Sellia Hideaway and Academy Crystal Cave
       - id: "20_5"
         icon: "/img/icons/weapons/hammers/10400.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mace\">Mace</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mace\">Mace</a>", "Can be bought for 800 Runes from Twin Maiden Husks.", "Normal"]
+        # TODO: add link to Twin Maiden Husks
       - id: "20_6"
         icon: "/img/icons/weapons/hammers/10404.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Morning+Star\">Morning Star</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Morning+Star\">Morning Star</a>", "Can be found in a chest on a big broken hearse down the main Road in Weeping Peninsula south of Bridge of Sacrifice Site of Grace.", "Normal"]
+        # TODO: add location link and site of Grace link
       - id: "20_7"
         icon: "/img/icons/weapons/hammers/10403.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Warpick\">Warpick</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Warpick\">Warpick</a>", "Dropped by Godrick Soldiers wielding this weapoon, there are a few at the Gatefront Ruins Site of Grace and 2 more west from it.", "Normal"]
+        # TODO: add link to Grace and extra map link for 2 soldiers
       - id: "20_8"
         icon: "/img/icons/weapons/hammers/10407.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hammer\">Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hammer\">Hammer</a>", "Found in Leyndell, the Royal Capital close to the Avenue Balcony Site of Grace.", "Normal"]
+        # TODO: add link to Grace and location video
       - id: "20_9"
         icon: "/img/icons/weapons/hammers/10408.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Monk's+Flamemace\">Monk's Flamemace</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Monk's+Flamemace\">Monk's Flamemace</a>", "Dropped by Flame Monks in Liurnia of the Lakes and Mountaintops of the Giants.", "Normal"]
+        # TODO: add map links to farm spots
       - id: "20_10"
         icon: "/img/icons/weapons/hammers/10405.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Varre's+Bouquet\">Varré's Bouquet</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Varre's+Bouquet\">Varré's Bouquet</a>", "Quest reward from White Mask Varré's questline.", "Somber"]
+        # TODO: add link to questline
       - id: "20_11"
         icon: "/img/icons/weapons/hammers/10409.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Horn\">Envoy's Horn</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Horn\">Envoy's Horn</a>", "Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.", "Somber"]
+        # TODO: add link to graces 
       - id: "20_12"
         icon: "/img/icons/weapons/hammers/10411.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Flowing+Hammer\">Nox Flowing Hammer</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nox+Flowing+Hammer\">Nox Flowing Hammer</a>", "Found in Nokron, from the Sacred Ground Site of Grace take the stairs up to your right, cross them room and take the ladder up, leave the upper area to the right of the altar and look for an open window in the hall, follow the roof path to another open window with the item behind.", "Somber"]
+        # TODO: add video and grace link
       - id: "20_13"
         icon: "/img/icons/weapons/hammers/10412.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ringed+Finger\">Ringed Finger</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ringed+Finger\">Ringed Finger</a>", "Found in Gelmir Hero's Grave, at the first chariot all the way down through the lava and to the left.", "Somber"]
+        # TODO: add grace link
       - id: "20_14"
         icon: "/img/icons/weapons/hammers/10410.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scepter+of+the+All-Knowing\">Scepter of the All-Knowing</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scepter+of+the+All-Knowing\">Scepter of the All-Knowing</a>", "Obtained from Sir Gideon Ofnir, the All-Knowing.", "Somber"]
       - id: "20_15"
         icon: "/img/icons/weapons/hammers/10414.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marika's+Hammer\">Marika's Hammer</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marika's+Hammer\">Marika's Hammer</a>", "Can be Traded for Elden Remembrance with Enia at Roundtable Hold.", "Somber"]
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
@@ -539,19 +552,23 @@ sections:
     items:
       - id: "21_1"
         icon: "/img/icons/weapons/flails/10481.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest in the eastern hearse at Gatefront Ruins", "Normal"]
+        # TODO: link grace
       - id: "21_2"
         icon: "/img/icons/weapons/flails/10480.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Flail\">Nightrider Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Flail\">Nightrider Flail</a>", "Dropped by Night's Cavalry at Castle Morne Rampart Site of Grace", "Normal"]
+        # TODO: link grace
       - id: "21_3"
         icon: "/img/icons/weapons/flails/10484.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chainlink+Flail\">Chainlink Flail</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chainlink+Flail\">Chainlink Flail</a>", "Dropped by Pumpkin heads wielding this weapon. One is north of the Foot of the Four Bellfries Site of Grace", "Normal"]
+        # TODO: link grace
       - id: "21_4"
         icon: "/img/icons/weapons/flails/10482.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Family+Heads\">Family Heads</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Family+Heads\">Family Heads</a>", "Dropped by Necromancer Garris in the Sage's Cave at Altus Plateau", "Somber"]
+        # TODO: link grace
       - id: "21_5"
         icon: "/img/icons/weapons/flails/10483.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bastard's+Stars\">Bastard's Stars</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bastard's+Stars\">Bastard's Stars</a>", "Can be traded for Rememberance of the Naturalborn with Enia at Roundtable Hold", "Somber"]
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
@@ -559,46 +576,60 @@ sections:
     items:
       - id: "22_1"
         icon: "/img/icons/weapons/greathammers/10440.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Large+Club\">Large Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Large+Club\">Large Club</a>", "Found south of the Forlorn Hound Evergaol on a cliff.", "Normal"]
+        # TODO: add link to grace and Gaol
       - id: "22_2"
         icon: "/img/icons/weapons/greathammers/10444.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Great+Club\">Curved Great Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curved+Great+Club\">Curved Great Club</a>", "Dropped by Albinaurics wielding this weapon. There are a few in and around Temple Quarter in Liurnia of the Lakes.", "Normal"]
+        # TODO: add map link
       - id: "22_3"
         icon: "/img/icons/weapons/greathammers/10443.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Mace\">Great Mace</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Mace\">Great Mace</a>", "In a chest near the trebuchets south west of the Grand Lift of Dectus Site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "22_4"
         icon: "/img/icons/weapons/greathammers/10446.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pickaxe\">Pickaxe</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pickaxe\">Pickaxe</a>", "Dropped by Miners, Limgrave Tunnels has 3 easy to kill Miners in the first room.", "Normal"] 
+        # TODO: add grace link
       - id: "22_5"
         icon: "/img/icons/weapons/greathammers/10451.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Brick+Hammer\">Brick Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Brick+Hammer\">Brick Hammer</a>", "From the Stormveil Cliffside Site of Grace, traverse the Wine-Cellar Area and climb the Ladder behind the locked door, jump on the wooden platform that leads outside, just around the corner to the left is a small room with the weapon on a corpse.", "Normal"]
+        # TODO: add grace link
       - id: "22_6"
         icon: "/img/icons/weapons/greathammers/10442.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battle+Hammer\">Battle Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battle+Hammer\">Battle Hammer</a>", "Dropped by duelists near the Leyndell, Royal Capital Colosseum or the Grave Warden Duelist in Murkwater Catacombs.", "Normal"]
+        # TODO: add grace links
       - id: "22_7"
         icon: "/img/icons/weapons/greathammers/10453.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer\">Rotten Battle Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer\">Rotten Battle Hammer</a>", "Dropped by Rotten Duelists west of the Consecrated Snowfield Site of Grace in the Mountaintops of the Giants.", "Normal"]
+        # TODO: add grace Link
       - id: "22_8"
         icon: "/img/icons/weapons/greathammers/10445.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Skull\">Celebrant's Skull</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Skull\">Celebrant's Skull</a>", "Found on a Corpse northeast of the Windmill Village Site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "22_10"
         icon: "/img/icons/weapons/greathammers/10450.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Stars\">Great Stars</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Stars\">Great Stars</a>", "Found in hearse southwest of the Road of Iniquity Side Path Site of Grace.", "Normal"]
+        # TODO: add grace link 
       - id: "22_11"
         icon: "/img/icons/weapons/greathammers/10441.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathorn+Hammer\">Greathorn Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greathorn+Hammer\">Greathorn Hammer</a>", "Dropped by Ancestral Followers in Siofra River region.", "Normal"]
+        # TODO: add grace Link
       - id: "22_12"
         icon: "/img/icons/weapons/greathammers/10448.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn\">Envoy's Long Horn</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn\">Envoy's Long Horn</a>", "Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.", "Somber"]
+        # TODO: add grace link
       - id: "22_13"
         icon: "/img/icons/weapons/greathammers/10449.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand\">Cranial Vessel Candlestand</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand\">Cranial Vessel Candlestand</a>", "Found in a room locked behind an Imp Statue in Giant-Conquering Hero's Grave.", "Somber"]
+        # TODO: add grace link
       - id: "22_14"
         icon: "/img/icons/weapons/greathammers/10447.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer\">Beastclaw Greathammer</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer\">Beastclaw Greathammer</a>", "Reward from Gurranq, Beast Clergyman on giving him the 7th Deathroot.", "Somber"]
       - id: "22_15"
         icon: "/img/icons/weapons/greathammers/10452.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\">Devourer's Scepter</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\">Devourer's Scepter</a>", "Dropped by Bernahl when killed at the Warmaster's Shack or as part from his Invasion in Crumbling Farrum Azula", "Somber"]
+        # TODO: add grace links
+
   -
     title: Colossal Weapons
     link: "https://eldenring.wiki.fextralife.com/Colossal+Weapons"
@@ -859,10 +890,10 @@ sections:
         icon: "/img/icons/weapons/claws/10840.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hookclaws\">Hookclaws</a>", "", "Normal"]
       - id: "4_2"
-        icon: "/img/icons/weapons/claws/10842.png"
+        icon: "/img/icons/weapons/claws/10841.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Venomous+Fang\">Venomous Fang</a>", "", "Normal"]
       - id: "4_3"
-        icon: "/img/icons/weapons/claws/10841.png"
+        icon: "/img/icons/weapons/claws/10842.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Claws\">Bloodhound Claws</a>", "", "Normal"]
       - id: "4_4"
         icon: "/img/icons/weapons/claws/10843.png"

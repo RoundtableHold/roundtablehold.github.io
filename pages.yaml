@@ -44,6 +44,7 @@ dropdowns:
       - "rememberances.yaml" #Rememberances
       - "greatrunes.yaml" #Great Runes
       - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
+      - "tears_dews.yaml" #Larval Tears and Celestial Dews
       - "paintings.yaml" #Paintings
       - "pots_bottles.yaml" #Pots & Bottles
       - "tools.yaml" #Tools
@@ -52,24 +53,32 @@ dropdowns:
 # item_links allow 1 checkbox to also check other checkboxes on the site.
 # The way this works is the first id in each list affects every id listed after it.
 # For example
+#
 # item_links:
+#
 #   # If id1 is checked then id2 will be checked. If id1 is unchecked then id2 will be unchecked
 #   - source: id1
 #     target: id2
+#
 #   # If id1 is checked then both id2 and id3 will be checked. If id1 is unchecked then both id2 and id3 will be unchecked
 #   - source: id1
 #     target: [id2, id3]
+#
 #   # If either id1 or id2 or both are checked then both id3 and id4 will be checked. If neither id1 nor id2 are checked then both id3 and id4 will be unchecked
 #   - source_or: [id1, id2]
 #     target: [id3, id4]
+#
 #   # If both id1 and id2 are checked then id3 will be checked. If neither are checked or if only 1 is checked then id3 will be unchecked.
 #   - source_and: [id1, id2]
 #     target: id3
-#   # If any of id1, id2, id3 are checked than all of the will be. If any are unchecked then all of them will be.
+#
+#   # If any of id1, id2, id3 are checked than all of them will be. If any are unchecked then all of them will be.
 #   - link_all: [id1, id2, id3]
+#
 # The ids are constructed like this:
-# page[id]_section[num]_item[0]
+# page[id]_item[id]
 # So for instance, The Soldier of Godrick is bosses_2_1
+
 item_links:
   - link_all: [remembrances_mausoleums_1_1_1, weapons_19_11]
   - link_all: [remembrances_mausoleums_1_1_2, weapons_28_9]
@@ -79,8 +88,8 @@ item_links:
   - link_all: [remembrances_mausoleums_1_3_2, weapons_12_4]
   - link_all: [remembrances_mausoleums_1_4_1, weapons_19_10]
   - link_all: [remembrances_mausoleums_1_4_2, talismans_3_4]
-  - link_all: [remembrances_mausoleums_1_5_1, ashesofwar_8_10]
-  - link_all: [remembrances_mausoleums_1_5_2, weapons_21_5]
+  - link_all: [remembrances_mausoleums_1_5_2, ashesofwar_8_10]
+  - link_all: [remembrances_mausoleums_1_5_1, weapons_21_5]
   - link_all: [remembrances_mausoleums_1_6_1, weapons_6_6]
   - link_all: [remembrances_mausoleums_1_6_2, ashesofwar_5_7]
   - link_all: [remembrances_mausoleums_1_7_1, weapons_5_3]
@@ -98,8 +107,8 @@ item_links:
   - link_all: [remembrances_mausoleums_1_13_2, weapons_14_21]
   - link_all: [remembrances_mausoleums_1_14_1, weapons_17_8]
   - link_all: [remembrances_mausoleums_1_14_2, incantations_11_4]
-  - link_all: [remembrances_mausoleums_1_15_1, weapons_24_6]
-  - link_all: [remembrances_mausoleums_1_15_2, incantations_2_1]
+  - link_all: [remembrances_mausoleums_1_15_2, weapons_24_6]
+  - link_all: [remembrances_mausoleums_1_15_1, incantations_2_1]
   - link_all: [bosses_2_29, achievements_1_1] #Shardbearer Godrick
   - link_all: [bosses_5_27, achievements_1_2] #Shardbearer Radahn
   - link_all: [bosses_8_18, achievements_1_3] #Shardbearer Morgott
@@ -135,12 +144,12 @@ item_links:
   - link_all: [bosses_1_3, weapons_29_5, sorceries_2_2] #DEMI-HUMAN QUEEN/DEMI-HUMAN QUEEN'S STAFF/CRYSTAL BURST SORCERY
   - link_all: [bosses_1_4, ashesofwar_13_2, weapons_21_2] #NIGHT'S CAVALRY/AOW: BARRICADE SHIELD/NIGHTRIDER FLAIL
   - link_all: [bosses_1_5, weapons_1_10] #DEATHBIRD/SACRIFICIAL AXE
-  - link_all: [bosses_1_6, caves_0_4, spirit_ashes_1_2] #CEMETERY SHADE/TOMBSWARD CATACOMBS/LHUTEL THE HEADLESS ASHES
+  - link_all: [bosses_1_6, caves_0_4, spirit_ashes_1_2, legendaries_3_1] #CEMETERY SHADE/TOMBSWARD CATACOMBS/LHUTEL THE HEADLESS ASHES (+LEGENDARY)
   - link_all: [bosses_1_7, crystal_tears_0_3, crystal_tears_0_2] #ERDTREE AVATAR/OPALINE BUBBLETEAR
   - link_all: [bosses_1_8, caves_0_3, weapons_19_6] #SCALY MISBEGOTTEN/MORNE TUNNEL/RUSTED ANCHOR GREATAXE
   - link_all: [bosses_1_9, caves_0_5, talismans_1_3] #MIRANDA/TOMBSWARD CAVE/VIRIDIAN AMBER MEDALLION
   - link_all: [bosses_1_10, evergaols_0_1, talismans_1_6] #ANCIENT HERO ZAMOR/WEEPING EVERGAOL/RADAGON'S SCARSEAL
-  - link_all: [bosses_1_11, legacy_1_1, weapons_5_10] #LEONINE MISBEGOTTEN/CASTLE MORNE/GRAFTED BLADE GREATSWORD
+  - link_all: [bosses_1_11, legacy_1_1, weapons_5_10, legendaries_1_2] #LEONINE MISBEGOTTEN/CASTLE MORNE/GRAFTED BLADE GREATSWORD (+LEGENDARY)
   - link_all: [bosses_2_1, caves_1_1] #TUT GODRICK/STRANDED GRAVEYARD
   - link_all: [bosses_2_2, caves_1_3] #DEMI-HUMAN CHIEF/COASTAL CAVE
   - link_all: [bosses_2_3, caves_1_10, spirit_ashes_2_5] #ERDTREE BURIAL WATCHDOG/STORMFOOT CATACOMBS/NOBLE SORCERER ASHES
@@ -159,7 +168,7 @@ item_links:
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
   - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG
   - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
-  #- link_all: [bosses_2_20, bell_bearings_#_#] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_2_20, bell_bearings_5_1] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING
   - link_all: [bosses_2_21, talismans_2_17] #DEATHBIRD/BLUE-FEATHERED BRANCHSWORD
   - link_all: [bosses_2_22, armor_518, armor_519, armor_521, armor_522] #OLD KNIGHT ISTVAN/SCALED SET (HELM, ARMOR, GAUNTLETS, GREAVES)
   - link_all: [bosses_2_30, talismans_2_16] #GRAFTED SCION (X2)/ERDTREE'S FAVOR
@@ -169,10 +178,11 @@ item_links:
   - link_all: [bosses_2_25, incantations_5_2] #CRUCIBLE KNIGHT/AOTC HORNS
   - link_all: [bosses_2_28, memory_stones_talisman_pouches_1_2] #MARGIT THE FELL OMEN/TALISMAN POUCH
   - link_all: [bosses_2_29, legacy_1_2, great_runes_1_1, remembrances_mausoleums_1_1] #GODRICK THE GRAFTED/STORMVEIL CASTLE/GODRICK'S GREAT RUNE/REMEMBRANCE OF THE GRAFTED
+  - link_all: [bosses_2_31, weapons_30_9] #ELITE PHANTOM/DRAGON COMMUNION SEAL
   - link_all: [bosses_3_2, weapons_28_6, armor_482] #ENSHA/CLINGING BONE FIST/ROYAL REMAINS SET
   - link_all: [bosses_4_1, caves_2_8, talismans_4_10] #CLEANROT KNIGHT/STILLWATER CAVE/WINGED SWORD INSIGNIA TALISMAN
   - link_all: [bosses_4_37, caves_2_4, talismans_4_6] #BLOODHOUND KNIGHT/LAKESIDE CRYSTAL CAVE/CERULEAN AMBER MEDALLION
-  - link_all: [bosses_4_2, evergaols_2_2, incantations_6_2] #ADAN/MALEFACTOR'S EVERGAOL/FLAME OF THE FELL GOD INCANTATION
+  - link_all: [bosses_4_2, evergaols_2_2, incantations_6_2, legendaries_5_1] #ADAN/MALEFACTOR'S EVERGAOL/FLAME OF THE FELL GOD INCANTATION (+LEGENDARY)
   - link_all: [bosses_4_3, caves_2_3, spirit_ashes_3_1] #ERDTREE BURIAL WATCHDOG/CLIFFBOTTOM CATACOMBS/KAIDEN SELLSWORD ASHES
   - link_all: [bosses_4_4, dragon_hearts_death_roots_1_4, spirit_ashes_3_17] #TIBIA MARINER/DEATHROOT/SKELETAL BANDIT ASHES
   - link_all: [bosses_4_5, ashesofwar_2_3] #NIGHT'S CAVALRY/AOW: ICE SPEAR
@@ -186,7 +196,7 @@ item_links:
   - link_all: [bosses_4_12, sorceries_4_4] #DEATH RITE BIRD/ANCIENT DEATH RANCOR SORCERY
   - link_all: [bosses_4_13, caves_2_5] #CRYSTALIAN RINGBLADE/RAYA LUCARIA CRYSTAL TUNNEL
   - link_all: [bosses_4_13, bell_bearings_1_1] #CRYSTALIAN RINGBLADE/SMITHING-STONE MIINER'S BELL BEARING [1]
-  #- link_all: [bosses_4_14, bell_bearings_#_#] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_4_14, bell_bearings_5_2] #BELL BEARING HUNTER/MEAT PEDDLER'S BELL BEARING
   - link_all: [bosses_4_15, crystal_tears_2_4, crystal_tears_2_5, crystal_tears_2_6] #ERDTREE AVATAR (EAST)/LIGHTNING-SHROUDING CRACKED TEAR/HOLY-SHROUDING CRACKED TEAR/MAGIC-SHROUDING CRACKED TEAR
   - source: caves_2_2
     target: [bosses_4_16] #BLACK KNIFE CATACOMBS/CEMETERY SHADE
@@ -206,7 +216,7 @@ item_links:
   - link_all: [bosses_4_27, legacy_1_5, sorceries_4_12, ashesofwar_8_7] #ROYAL KNIGHT LORETTA/CARIA MANOR/LORETTA'S GREATBOW SORCERY/AOW: LORETTA'S SLASH
   - link_all: [bosses_4_29, evergaols_2_3, sorceries_4_8] #ALABASTER LORD (ONYX)/ROYAL GRAVE EVERGAOL/METEORITE SORCERY
   - link_all: [bosses_4_40, sorceries_5_1, dragon_hearts_death_roots_0_2] #GLINTSTONE DRAGON ADULA/ADULA'S MOONBLADE SORCERY/DRAGON HEART (X3)
-  - link_all: [bosses_4_32, evergaols_2_4, spirit_ashes_3_3] #ALECTO/RINGLEADER'S EVERGAOL/BLACK KNIFE TICHE ASHES
+  - link_all: [bosses_4_32, evergaols_2_4, spirit_ashes_3_3, legendaries_3_4] #ALECTO/RINGLEADER'S EVERGAOL/BLACK KNIFE TICHE ASHES (+LEGENDARY)
   - link_all: [bosses_4_27, legacy_1_6] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE
   - link_all: [bosses_4_33, caves_2_7, weapons_8_4, dragon_hearts_death_roots_0_4] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE/MAGMA WYRM'S SCALESWORD/DRAGON HEART
   - link_all: [bosses_4_34, ashesofwar_6_7] #RAVENMOUNT ASSASSIN/AOW: RAPTOR OF THE MISTS
@@ -218,7 +228,8 @@ item_links:
   - link_all: [bosses_5_3, caves_3_5, spirit_ashes_4_4] #ERDTREE BURIAL WATCHDOG (SWORD & STAFF)/MINOR ERDTREE CATACOMBS/MAD PUMPKIN HEAD ASHES
   - link_all: [bosses_5_4, weapons_34_12] #MAD PUMPKIN HEAD (HAMMER & FLAIL DUO)/VISAGE SHIELD  
   - link_all: [bosses_5_5, talismans_5_3] #KNIGHT OF THE GREAT JAR (X3)/GREAT-JAR'S ARSENAL TALISMAN
-  - link_all: [bosses_5_6, caves_3_4, spirit_ashes_4_6] #FRENZIED DUELIST/GAOL CAVE/PUTRID CORPSE ASHES
+  - link_all: [bosses_5_30, ashesofwar_5_9] #LION GUARDIAN (FORT GAEL)/AOW LION'S CLAW
+  - link_all: [bosses_5_6, caves_3_4, spirit_ashes_4_6, weapons_13_17] #FRENZIED DUELIST/GAOL CAVE/PUTRID CORPSE ASHES/REGALIA OF EOCHAID STRAIGHT SWORD
   - link_all: [bosses_5_7, dragon_hearts_death_roots_0_6] #DECAYING EKZYKES/DRAGON HEART
   - link_all: [bosses_5_8, ashesofwar_10_1] #NIGHT'S CAVALRY (CAELID HWY)/AOW: POISON MOTH FLIGHT
   - link_all: [bosses_5_9, weapons_14_16] #DEATH RITE BIRD/DEATH'S POKER GREATSWORD
@@ -231,16 +242,16 @@ item_links:
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
   - link_all: [bosses_5_17, sorceries_8_4] #PUTRID CRYSTALIAN (SPEAR & RINGBLADE & STAFF)/CRYSTAL TORRENT SORCERY
   - link_all: [bosses_5_18, armor_168, armor_169, armor_170, armor_171] #GODSKIN APOSTLE/GODSKIN APOSTLE SET (HOOD, ROBE, BRACERS, TROUSERS)
-  #- link_all: [bosses_5_19, bell_bearings_#_#] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_5_19, bell_bearings_5_3] #BELL BEARING HUNTER/GRAVITY STONE PEDDLER'S BELL BEARING
   - link_all: [bosses_5_20, crystal_tears_3_3, crystal_tears_3_4] #PUTRID AVATAR (EAST)/OPALINE HARDTEAR/STONEBARB CRACKED TEAR
   - link_all: [bosses_5_21, caves_3_7, talismans_5_7] #BEASTMAN OF FARUM AZULA (GREATSWORD & THROWING KNIFE)/DRAGONBARROW CAVE/FLAMEDRAKE TALISMAN [+2]
   - link_all: [bosses_5_22, ashesofwar_6_2] #NIGHT'S CAVALRY (LENNE'S RISE BRIDGE)/AOW: BLOODHOUND'S STEP
   - link_all: [bosses_5_23, dragon_hearts_death_roots_0_7] #FLYING DRAGON GREYLL/DRAGON HEART
   - link_all: [bosses_5_24, weapons_25_9] #BLACK BLADE KINDRED/GARGOYLE'S BLACKBLADE/GARGOYLE'S BLACK HALBERD
-  - link_all: [bosses_5_26, legacy_1_7, weapons_5_9] #MISBEGOTTEN WARRIOR & CRUCIBLE KNIGHT/REDMAN CASTLE/RUINS GREATSWORD
+  - link_all: [bosses_5_26, legacy_1_7, weapons_5_9, legendaries_1_4] #MISBEGOTTEN WARRIOR & CRUCIBLE KNIGHT/REDMAN CASTLE/RUINS GREATSWORD (+LEGENDARY)
   - link_all: [bosses_5_27, great_runes_1_3, remembrances_mausoleums_1_3] #RADAHN/RADAHN'S GREAT RUNE/REMEMBRANCE OF THE STARSCOURGE
-  - link_all: [bosses_5_29, caves_3_8, flasks_1_17, spirit_ashes_4_8] #PUTRID TREE SPIRIT/WAR-DEAD CATACOMBS/GOLDEN SEED/REDMANE KNIGHT OGHA SPIRIT ASHES
-  - link_all: [bosses_6_1, evergaols_4_1, talismans_6_5] #GODEFEROY/GOLDEN LINEAGE EVERGAOL/GODFREY ICON TALISMAN
+  - link_all: [bosses_5_29, caves_3_8, flasks_1_17, spirit_ashes_4_8, legendaries_3_2] #PUTRID TREE SPIRIT/WAR-DEAD CATACOMBS/GOLDEN SEED/REDMANE KNIGHT OGHA SPIRIT ASHES (+LEGENDARY)
+  - link_all: [bosses_6_1, evergaols_4_1, talismans_6_5, legendaries_2_4] #GODEFEROY/GOLDEN LINEAGE EVERGAOL/GODFREY ICON TALISMAN (+LEGENDARY)
   - source: caves_5_2
     target: [bosses_7_4] #SAGE'S CAVE/NECROMANCER GARRIS
   - source_and: [bosses_7_4, bosses_6_17]
@@ -254,22 +265,22 @@ item_links:
   - link_all: [bosses_6_5, talismans_7_8] #RILEIGH THE IDLE/CREPUS'S VIAL TALISMAN (VOLCANO MANOR QUESTLINE)
   - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
   - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
-  - link_all: [bosses_6_9, caves_4_2] #, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2] #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_6_9, caves_4_2, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2]
   - source: caves_4_4
     target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
   - source_and: [bosses_6_10, bosses_6_11]
     target: caves_4_4 #ANCIENT HERO OF ZAMOR & BLACK KNIFE ASSASSIN/SAINTED HERO'S GRAVE
   - link_all: [bosses_6_10, weapons_3_2] #BLACK KNIFE ASSASSIN/BLACK KNIFE DAGGER
-  - link_all: [bosses_6_11, spirit_ashes_7_1] #ANCIENT HERO OF ZAMOR/ANCIENT DRAGON KNIGHT KRISTOFF ASHES
+  - link_all: [bosses_6_11, spirit_ashes_7_1, legendaries_3_5] #ANCIENT HERO OF ZAMOR/ANCIENT DRAGON KNIGHT KRISTOFF ASHES (+LEGENDARY)
   - link_all: [bosses_6_12, caves_4_3] #OMENKILLER & MIRANDA/PERFUMER'S GROTTO/GREAT OMENKILLER CLEAVER
   - link_all: [bosses_6_14, incantations_4_8] #ANCIENT DRAGON LANSSEAX/LANSSEAX'S GLAIVE INCANTATION
   - link_all: [bosses_6_15, weapons_34_6] #TREE SENTINEL (X2)/ERDTREE GREATSHIELD
-  #- link_all: [bosses_6_16, bell_bearings_#_#] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE
+  - link_all: [bosses_6_16, bell_bearings_5_4] #BELL BEARING HUNTER/MEDICINE PEDDLER'S BELL BEARING
   - link_all: [bosses_7_2, caves_5_4, spirit_ashes_6_4] #PERFUMER TRICIA & MISBEGOTTEN WARRIOR/UNSIGHTLY CATACOMBS/PERFUMER TRICIA ASHES
   - link_all: [bosses_7_3, dragon_hearts_death_roots_1_5, sorceries_9_2] #TIBIA MARINER/DEATHROOT/TIBIA'S SUMMONS SORCERY
   - link_all: [bosses_7_5, caves_5_6, bell_bearings_3_1] #ERDTREE BURIAL WATCHDOG/WYNDHAM CATACOMBS/GLOVEWORT PICKER'S BELL BEARING [1]
   - link_all: [bosses_7_7, weapons_15_6, armor_160, armor_161] #MALEIGH MARAIS/ANTSPUR RAPIER/MARAIS MASK/MARAIS ROBE
-  - link_all: [bosses_7_8, legacy_1_8, weapons_14_13, weapons_34_5] #ELEMER OF THE BRIAR/THE SHADED CASTLE/MARAIS EXECUTIONER'S SWORD/BRIAR GREATSHIELD
+  - link_all: [bosses_7_8, legacy_1_8, weapons_14_13, legendaries_1_6, weapons_34_5] #ELEMER OF THE BRIAR/THE SHADED CASTLE/MARAIS EXECUTIONER'S SWORD (+LEGENDARY)/BRIAR GREATSHIELD
   - link_all: [bosses_7_11, caves_5_5, weapons_2_2] #DEMI-HUMAN QUEEN MARGOT/VOLCANO CAVE/JAR CANNON BALISTA
   - link_all: [bosses_7_12, crystal_tears_5_1, crystal_tears_5_2] #ULCERATED TREE SPIRIT/LEADEN HARDTEAR/CERULEAN HIDDEN TEAR
   - link_all: [bosses_7_13, caves_5_3, talismans_7_5] #KINDRED OF ROT (X2)/SEETHEWATER CAVE/KINDRED OF ROT'S EXULTATION TALISMAN
@@ -319,7 +330,7 @@ item_links:
   - link_all: [bosses_10_2, armor_507, armor_509, armor_511, armor_512] #NIGHT'S CAVALRY (X2), NIGHT'S CAVALRY SET (HELM, ARMOR, GAUNTLETS, GREAVES)
   - link_all: [bosses_10_3, caves_8_3, sorceries_12_5] #ASTEL STARS OF DARKNESS/YELOUGH ANIX TUNNEL/METEORITE OF ASTEL SORCERY
   - link_all: [bosses_10_5, dragon_hearts_death_roots_0_13] #GREAT WYRM THEODORIX/DRAGON HEART (X3)
-  - link_all: [bosses_10_6, weapons_14_19] #caves_#_#, #MISBEGOTTEN CRUSADER/CAVE OF THE FORLORN/GOLDEN ORDER GREATSWORD #TODO: CONFIRM IF CAVE SHOULD BE ADDED?
+  - link_all: [bosses_10_6, weapons_14_19, legendaries_1_8] #MISBEGOTTEN CRUSADER/CAVE OF THE FORLORN/GOLDEN ORDER GREATSWORD (+LEGENDARY) #TODO: CONFIRM IF CAVE SHOULD BE ADDED?
   - link_all: [bosses_10_7, crystal_tears_8_3, crystal_tears_8_4] #PUTRID AVATAR/THORNY CRACKED TEAR/RUPTURED CRYSTAL TEAR
   - link_all: [bosses_10_8, sorceries_12_4] #DEATH RITE BIRD/EXPLOSIVE GHOSTFLAME SORCERY
   #- link_all: [bosses_10_9, _] #BLACK KNIFE ASSASSIN/ #TODO: ADD INFO ONCE DROPS ARE LISTED ON 'BOSSES' PAGE
@@ -327,7 +338,7 @@ item_links:
   - link_all: [bosses_10_10, legacy_1_14, sorceries_13_1, weapons_25_15] #LORETTA/MIQUELLA'S HALIGTREE/LORETTA'S MASTERY SORCERY/LORETTA'S WAR SICKLE
   - link_all: [bosses_10_11, legacy_1_15, great_runes_1_6, remembrances_mausoleums_1_14] #MALENIA/ELPHAEL BRACE OF THE HALIGTREE/MALENIA'S GREAT RUNE/REMEMBRANCE OF THE ROT GODDESS
   - link_all: [bosses_11_2, ashesofwar_4_1, bell_bearings_1_4] #GODSKIN DUO/AOW BLACK FLAME TORNADO/SMITHING-STONE MINER'S BELL BEARING [4]
-  - link_all: [bosses_11_3, weapons_22_15, armor_523, armor_525, armor_526, armor_527] #, bell_bearings_#_#] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER/BEAST CHAMPION SET/BERNAHL'S BELL BEARING #TODO: LINK AFTER LINE IS ADDED TO BELL BEARING PAGE #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
+  - link_all: [bosses_11_3, weapons_22_15, legendaries_1_1, armor_523, armor_525, armor_526, armor_527] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER (+LEGENDARY)/BEAST CHAMPION SET #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
   - link_all: [bosses_11_4, armor_533, armor_534, armor_535, armor_536] #DRACONIC TREE SENTINEL/MALFORMED DRAGON SET
   - link_all: [bosses_11_5, remembrances_mausoleums_1_11] #DRAGONLORD PLACIDUSAX/REMEMBRANCE OF THE DRAGONLORD
   - link_all: [bosses_11_6, legacy_1_12, remembrances_mausoleums_1_7] #MALIKETH/CRUMBLING FARUM AZULA/REMEMBRANCE OF THE BLACK BLADE
@@ -366,3 +377,4 @@ item_links:
 
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
   - link_all: [weapons_18_6, quest_order_tldr_145, playthrough_9_7, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps
+  - link_all: [gestures_0_1, gestures_0_2, gestures_0_3, gestures_0_4, gestures_0_5, gestures_0_6, gestures_0_7, gestures_0_8, gestures_0_9, gestures_0_10, gestures_0_11, gestures_0_12] #Starting gestures (all obtained at once)

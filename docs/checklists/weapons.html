@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -143,6 +154,9 @@
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                </li>
+                <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
@@ -5075,7 +5089,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_1"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_1">Is the starting Weapon for the Wretch.<br>Can be bought for 600 Runes from the Nomadic Merchant on the shore in Limgrave.<br>Dropped by Demi-humans.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_1">Normal</label>
@@ -5086,6 +5100,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_1">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10401.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Club">Club</a><br>
+                        <strong class="me-1">Location: </strong>Is the starting Weapon for the Wretch.<br>Can be bought for 600 Runes from the Nomadic Merchant on the shore in Limgrave.<br>Dropped by Demi-humans.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5104,7 +5119,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_2"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_2">Dropped by Albinaurics armed with this weapon. A pack of albinaurics is found east of the Academy Gate Town Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_2">Normal</label>
@@ -5115,6 +5130,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_2">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10402.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Curved+Club">Curved Club</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Albinaurics armed with this weapon. A pack of albinaurics is found east of the Academy Gate Town Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5133,7 +5149,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_3"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_3">Dropped by large Demi-humans, easy to kill Demi-humans found in the Coastal Cave in Limgrave.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_3">Normal</label>
@@ -5144,6 +5160,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_3">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10406.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Spiked+Club">Spiked Club</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by large Demi-humans, easy to kill Demi-humans found in the Coastal Cave in Limgrave.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5162,7 +5179,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_4"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_4">Dropped by Battlemages in front of Sellia Hideaway or before the Fog-wall in the Academy Crystal Cave.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_4">Normal</label>
@@ -5173,6 +5190,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_4">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10413.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Stone+Club">Stone Club</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Battlemages in front of Sellia Hideaway or before the Fog-wall in the Academy Crystal Cave.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5191,7 +5209,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_5"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_5">Can be bought for 800 Runes from Twin Maiden Husks.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_5">Normal</label>
@@ -5202,6 +5220,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_5">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10400.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Mace">Mace</a><br>
+                        <strong class="me-1">Location: </strong>Can be bought for 800 Runes from Twin Maiden Husks.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5220,7 +5239,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_6"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_6">Can be found in a chest on a big broken hearse down the main Road in Weeping Peninsula south of Bridge of Sacrifice Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_6">Normal</label>
@@ -5231,6 +5250,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_6">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10404.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Morning+Star">Morning Star</a><br>
+                        <strong class="me-1">Location: </strong>Can be found in a chest on a big broken hearse down the main Road in Weeping Peninsula south of Bridge of Sacrifice Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5249,7 +5269,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_7"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_7">Dropped by Godrick Soldiers wielding this weapoon, there are a few at the Gatefront Ruins Site of Grace and 2 more west from it.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_7">Normal</label>
@@ -5260,6 +5280,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_7">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10403.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Warpick">Warpick</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Godrick Soldiers wielding this weapoon, there are a few at the Gatefront Ruins Site of Grace and 2 more west from it.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5278,7 +5299,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_8"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_8">Found in Leyndell, the Royal Capital close to the Avenue Balcony Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_8">Normal</label>
@@ -5289,6 +5310,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_8">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10407.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Hammer">Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Found in Leyndell, the Royal Capital close to the Avenue Balcony Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5307,7 +5329,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_9"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_9">Dropped by Flame Monks in Liurnia of the Lakes and Mountaintops of the Giants.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_9">Normal</label>
@@ -5318,6 +5340,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_9">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10408.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Monk's+Flamemace">Monk's Flamemace</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Flame Monks in Liurnia of the Lakes and Mountaintops of the Giants.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5336,7 +5359,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_10"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_10">Quest reward from White Mask Varré's questline.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_10">Somber</label>
@@ -5347,6 +5370,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_10">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10405.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Varre's+Bouquet">Varré's Bouquet</a><br>
+                        <strong class="me-1">Location: </strong>Quest reward from White Mask Varré's questline.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5365,7 +5389,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_11"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_11">Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_11">Somber</label>
@@ -5376,6 +5400,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_11">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10409.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Envoy's+Horn">Envoy's Horn</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5394,7 +5419,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_12"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_12">Found in Nokron, from the Sacred Ground Site of Grace take the stairs up to your right, cross them room and take the ladder up, leave the upper area to the right of the altar and look for an open window in the hall, follow the roof path to another open window with the item behind.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_12">Somber</label>
@@ -5405,6 +5430,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_12">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10411.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Nox+Flowing+Hammer">Nox Flowing Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Found in Nokron, from the Sacred Ground Site of Grace take the stairs up to your right, cross them room and take the ladder up, leave the upper area to the right of the altar and look for an open window in the hall, follow the roof path to another open window with the item behind.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5423,7 +5449,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_13"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_13">Found in Gelmir Hero's Grave, at the first chariot all the way down through the lava and to the left.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_13">Somber</label>
@@ -5434,6 +5460,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_13">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10412.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Ringed+Finger">Ringed Finger</a><br>
+                        <strong class="me-1">Location: </strong>Found in Gelmir Hero's Grave, at the first chariot all the way down through the lava and to the left.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5452,7 +5479,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_14"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_14">Obtained from Sir Gideon Ofnir, the All-Knowing.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_14">Somber</label>
@@ -5463,6 +5490,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_14">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10410.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Scepter+of+the+All-Knowing">Scepter of the All-Knowing</a><br>
+                        <strong class="me-1">Location: </strong>Obtained from Sir Gideon Ofnir, the All-Knowing.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5481,7 +5509,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_15"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_15">Can be Traded for Elden Remembrance with Enia at Roundtable Hold.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_15">Somber</label>
@@ -5492,6 +5520,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_20_15">
                         <img class="float-end" data-src="/img/icons/weapons/hammers/10414.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Marika's+Hammer">Marika's Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Can be Traded for Elden Remembrance with Enia at Roundtable Hold.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5551,7 +5580,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_1"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_1">Found in a chest in the eastern hearse at Gatefront Ruins</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_1">Normal</label>
@@ -5562,6 +5591,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_1">
                         <img class="float-end" data-src="/img/icons/weapons/flails/10481.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Flail">Flail</a><br>
+                        <strong class="me-1">Location: </strong>Found in a chest in the eastern hearse at Gatefront Ruins<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5580,7 +5610,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_2"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_2">Dropped by Night's Cavalry at Castle Morne Rampart Site of Grace</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_2">Normal</label>
@@ -5591,6 +5621,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_2">
                         <img class="float-end" data-src="/img/icons/weapons/flails/10480.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Nightrider+Flail">Nightrider Flail</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Night's Cavalry at Castle Morne Rampart Site of Grace<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5609,7 +5640,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_3"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_3">Dropped by Pumpkin heads wielding this weapon. One is north of the Foot of the Four Bellfries Site of Grace</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_3">Normal</label>
@@ -5620,6 +5651,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_3">
                         <img class="float-end" data-src="/img/icons/weapons/flails/10484.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Chainlink+Flail">Chainlink Flail</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Pumpkin heads wielding this weapon. One is north of the Foot of the Four Bellfries Site of Grace<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5638,7 +5670,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_4"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_4">Dropped by Necromancer Garris in the Sage's Cave at Altus Plateau</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_4">Somber</label>
@@ -5649,6 +5681,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_4">
                         <img class="float-end" data-src="/img/icons/weapons/flails/10482.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Family+Heads">Family Heads</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Necromancer Garris in the Sage's Cave at Altus Plateau<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5667,7 +5700,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_5"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_5">Can be traded for Rememberance of the Naturalborn with Enia at Roundtable Hold</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_5">Somber</label>
@@ -5678,6 +5711,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_21_5">
                         <img class="float-end" data-src="/img/icons/weapons/flails/10483.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Bastard's+Stars">Bastard's Stars</a><br>
+                        <strong class="me-1">Location: </strong>Can be traded for Rememberance of the Naturalborn with Enia at Roundtable Hold<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -5737,7 +5771,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_1"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_1">Found south of the Forlorn Hound Evergaol on a cliff.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_1">Normal</label>
@@ -5748,6 +5782,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_1">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10440.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Large+Club">Large Club</a><br>
+                        <strong class="me-1">Location: </strong>Found south of the Forlorn Hound Evergaol on a cliff.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5766,7 +5801,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_2"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_2">Dropped by Albinaurics wielding this weapon. There are a few in and around Temple Quarter in Liurnia of the Lakes.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_2">Normal</label>
@@ -5777,6 +5812,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_2">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10444.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Curved+Great+Club">Curved Great Club</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Albinaurics wielding this weapon. There are a few in and around Temple Quarter in Liurnia of the Lakes.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5795,7 +5831,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_3"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_3">In a chest near the trebuchets south west of the Grand Lift of Dectus Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_3">Normal</label>
@@ -5806,6 +5842,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_3">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10443.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Great+Mace">Great Mace</a><br>
+                        <strong class="me-1">Location: </strong>In a chest near the trebuchets south west of the Grand Lift of Dectus Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5824,7 +5861,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_4"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_4">Dropped by Miners, Limgrave Tunnels has 3 easy to kill Miners in the first room.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_4">Normal</label>
@@ -5835,6 +5872,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_4">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10446.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Pickaxe">Pickaxe</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Miners, Limgrave Tunnels has 3 easy to kill Miners in the first room.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5853,7 +5891,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_5"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_5">From the Stormveil Cliffside Site of Grace, traverse the Wine-Cellar Area and climb the Ladder behind the locked door, jump on the wooden platform that leads outside, just around the corner to the left is a small room with the weapon on a corpse.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_5">Normal</label>
@@ -5864,6 +5902,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_5">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10451.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Brick+Hammer">Brick Hammer</a><br>
+                        <strong class="me-1">Location: </strong>From the Stormveil Cliffside Site of Grace, traverse the Wine-Cellar Area and climb the Ladder behind the locked door, jump on the wooden platform that leads outside, just around the corner to the left is a small room with the weapon on a corpse.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5882,7 +5921,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_6"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_6">Dropped by duelists near the Leyndell, Royal Capital Colosseum or the Grave Warden Duelist in Murkwater Catacombs.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_6">Normal</label>
@@ -5893,6 +5932,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_6">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10442.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Battle+Hammer">Battle Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by duelists near the Leyndell, Royal Capital Colosseum or the Grave Warden Duelist in Murkwater Catacombs.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5911,7 +5951,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_7"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_7">Dropped by Rotten Duelists west of the Consecrated Snowfield Site of Grace in the Mountaintops of the Giants.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_7">Normal</label>
@@ -5922,6 +5962,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_7">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10453.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer">Rotten Battle Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Rotten Duelists west of the Consecrated Snowfield Site of Grace in the Mountaintops of the Giants.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5940,7 +5981,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_8"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_8">Found on a Corpse northeast of the Windmill Village Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_8">Normal</label>
@@ -5951,6 +5992,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_8">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10445.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Celebrant's+Skull">Celebrant's Skull</a><br>
+                        <strong class="me-1">Location: </strong>Found on a Corpse northeast of the Windmill Village Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5969,7 +6011,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_10"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_10">Found in hearse southwest of the Road of Iniquity Side Path Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_10">Normal</label>
@@ -5980,6 +6022,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_10">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10450.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Great+Stars">Great Stars</a><br>
+                        <strong class="me-1">Location: </strong>Found in hearse southwest of the Road of Iniquity Side Path Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -5998,7 +6041,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_11"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_11">Dropped by Ancestral Followers in Siofra River region.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_11">Normal</label>
@@ -6009,6 +6052,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_11">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10441.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Greathorn+Hammer">Greathorn Hammer</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Ancestral Followers in Siofra River region.<br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
                     </div>
@@ -6027,7 +6071,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_12"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_12">Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_12">Somber</label>
@@ -6038,6 +6082,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_12">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10448.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn">Envoy's Long Horn</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Oracle Envoys in Leyndell, Royal Capital at the East Capital Site of Grace or Haligtree Canopy Site of Grace.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -6056,7 +6101,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_13"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_13">Found in a room locked behind an Imp Statue in Giant-Conquering Hero's Grave.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_13">Somber</label>
@@ -6067,6 +6112,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_13">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10449.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand">Cranial Vessel Candlestand</a><br>
+                        <strong class="me-1">Location: </strong>Found in a room locked behind an Imp Statue in Giant-Conquering Hero's Grave.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -6085,7 +6131,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_14"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_14">Reward from Gurranq, Beast Clergyman on giving him the 7th Deathroot.</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_14">Somber</label>
@@ -6096,6 +6142,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_14">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10447.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer">Beastclaw Greathammer</a><br>
+                        <strong class="me-1">Location: </strong>Reward from Gurranq, Beast Clergyman on giving him the 7th Deathroot.<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -6114,7 +6161,7 @@
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
-                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_15"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_15">Dropped by Bernahl when killed at the Warmaster's Shack or as part from his Invasion in Crumbling Farrum Azula</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-1">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_15">Somber</label>
@@ -6125,6 +6172,7 @@
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_22_15">
                         <img class="float-end" data-src="/img/icons/weapons/greathammers/10452.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Devourer's+Scepter">Devourer's Scepter</a><br>
+                        <strong class="me-1">Location: </strong>Dropped by Bernahl when killed at the Warmaster's Shack or as part from his Invasion in Crumbling Farrum Azula<br>
                         <strong class="me-1">Upgrade: </strong>Somber<br>
                       </label>
                     </div>
@@ -8584,7 +8632,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_4_2">
-                            <img class="me-1" data-src="/img/icons/weapons/claws/10842.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Venomous+Fang">Venomous Fang</a>
+                            <img class="me-1" data-src="/img/icons/weapons/claws/10841.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Venomous+Fang">Venomous Fang</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
@@ -8597,7 +8645,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_4_2">
-                        <img class="float-end" data-src="/img/icons/weapons/claws/10842.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/weapons/claws/10841.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Venomous+Fang">Venomous Fang</a><br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
@@ -8613,7 +8661,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="weapons_4_3">
-                            <img class="me-1" data-src="/img/icons/weapons/claws/10841.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Bloodhound+Claws">Bloodhound Claws</a>
+                            <img class="me-1" data-src="/img/icons/weapons/claws/10842.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Bloodhound+Claws">Bloodhound Claws</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-8">
@@ -8626,7 +8674,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="weapons_4_3">
-                        <img class="float-end" data-src="/img/icons/weapons/claws/10841.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/weapons/claws/10842.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Bloodhound+Claws">Bloodhound Claws</a><br>
                         <strong class="me-1">Upgrade: </strong>Normal<br>
                       </label>
@@ -12806,7 +12854,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -12852,7 +12900,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

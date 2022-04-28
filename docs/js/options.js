@@ -48,30 +48,29 @@ var profilesKey = 'darksouls3_profiles';
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
         
-    function updateTextbox() {
-        document.getElementById("profileText").value = JSON.stringify(profiles);
-    }
     
     jQuery(document).ready(function($) {
         // Get the right style going...
     
-        themeSetup(buildThemeSelection());
+        function updateTextbox() {
+            document.getElementById("profileText").value = JSON.stringify(profiles);
+        }
 
         // Theme callback
         $('#themes').change(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var stylesheet = $('#themes').val();
             themeSetup(stylesheet);
             profiles[profilesKey][profiles.current].style = stylesheet;
             $.jStorage.set(profilesKey, profiles);
-            updateTextbox();
+            reload();
         });
 
         $('#profiles').change(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             profiles.current = $(this).val();
             $.jStorage.set(profilesKey, profiles);
-            updateTextbox();
+            reload();
 
             $('li .checkbox .completed').show();
         });
@@ -99,20 +98,20 @@ var profilesKey = 'darksouls3_profiles';
         });
 
         $('#profileModalAdd').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var profile = $.trim($('#profileModalName').val());
             if (profile.length > 0) {
                 initializeProfile(profile);
 
                 profiles.current = profile;
                 $.jStorage.set(profilesKey, profiles);
-                updateTextbox();
+                reload();
                 populateProfiles();
             }
         });
 
         $('#profileModalUpdate').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             var newName = $.trim($('#profileModalName').val());
             if (newName.length > 0 && newName != profiles.current) {
@@ -121,18 +120,21 @@ var profilesKey = 'darksouls3_profiles';
                 profiles.current = newName;
                 $.jStorage.set(profilesKey, profiles);
                 populateProfiles();
-                updateTextbox();
+                reload();
             }
             $('#profileModal').modal('hide');
         });
 
         $('#profileModalDelete').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            $('#deleteModal').show();
+        });
+
+        $('#deleteYes').click(function(event) {
+            $('#deleteModal').hide();
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!canDelete()) {
-                return;
-            }
-            if (!confirm('Are you sure?')) {
+                myalert('Failed to delete', 'danger');
                 return;
             }
             delete profiles[profilesKey][profiles.current];
@@ -140,19 +142,17 @@ var profilesKey = 'darksouls3_profiles';
             $.jStorage.set(profilesKey, profiles);
             populateProfiles();
             $('#profileModal').modal('hide');
-            updateTextbox();
-        });
+            reload();
+            myalert('Successfully deleted profile', 'success');
+        })
 
         $('#profileNG\\+').click(function() {
             $('#NG\\+Modal').modal('show');
         });
 
         $('#NG\\+ModalYes').click(function(event) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
-            if (!confirm('Are you sure you wish to begin the next journey?')) {
-                return;
-            }
             $('[id^="playthrough_"], [id^="npc_quests_"], [id^="bosses_"], [id^="legacy_"], [id^="caves_"], [id^="evergaols_"], [id^="paintings"]').filter(':checked').each(function(){
                 profiles[profilesKey][profiles.current].checklistData[this.id] = false;
             });
@@ -161,7 +161,8 @@ var profilesKey = 'darksouls3_profiles';
             }
             $.jStorage.set(profilesKey, profiles);
             $('#NG\\+Modal').modal('hide');
-            updateTextbox();
+            reload();
+            myalert("NG+ Started", 'success');
         });
 
         $('#profileExport').click(function(){
@@ -190,14 +191,20 @@ var profilesKey = 'darksouls3_profiles';
         $('input#fileInput').change(function(){
           var fileInput = document.getElementById('fileInput');
           if(!fileInput.files || !fileInput.files[0] || !/\.json$/.test(fileInput.files[0].name)){
-            alert("Bad input file. File should end in .json")
-            return;
+              myalert('Bad input file. File should end in .json', 'danger')
+              return;
           }
           var fr = new FileReader();
           fr.readAsText(fileInput.files[0]);
           fr.onload = dataLoadCallback;
         });
         
+        function myalert(message, type) {
+            var wrapper = document.createElement('div');
+            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert"</button></div>'
+            
+            $('#alert-div').append(wrapper);
+        }
 
         /*
         *  Import & Export using textarea instead of files
@@ -209,22 +216,45 @@ var profilesKey = 'darksouls3_profiles';
         });
 
         $('#profileImportText').click(function(){
-            var profiles = $.jStorage.get(profilesKey, {});
-            if (!confirm('Are you sure you want to import profile data?')) {
-                return;
-            }
+            $('#importTextModal').modal('show');
+        });
+
+        $('#importTextYes').click(function() {
+            $('#importTextModal').modal('hide');
+            profiles = $.jStorage.get(profilesKey, {});
             try {
                 var jsonProfileData = JSON.parse(document.getElementById("profileText").value);
                 profiles = jsonProfileData;
                 $.jStorage.set(profilesKey, profiles);
-                updateTextbox();
+                reload();
             } catch(e) {
-                alert(e); // error in the above string (in this case, yes)!
+                myalert(e, 'danger');
+                return;
             }
+
+            myalert('Successfully imported', 'success');
         });
 
-        populateProfiles();
-        updateTextbox();
+        function dataLoadCallback(arg){
+            console.log('dataloadcallback')
+            profiles = $.jStorage.get(profilesKey, {});
+            var jsonProfileData = JSON.parse(arg.currentTarget.result);
+            profiles = jsonProfileData;
+            $.jStorage.set(profilesKey, profiles);
+            populateProfiles();
+            $('#profiles').trigger("change");
+            reload();
+            myalert('Successfully imported', 'success');
+        }
+
+        function reload() {
+            themeSetup(buildThemeSelection());
+            populateProfiles();
+            updateTextbox();
+        }
+
+        reload();
+
     });
     
     function initializeProfile(profile_name) {
@@ -258,16 +288,6 @@ var profilesKey = 'darksouls3_profiles';
         });
         themeSelect.val(style);
         return style;
-    }
-
-    function dataLoadCallback(arg){
-        var profiles = $.jStorage.get(profilesKey, {});
-        var jsonProfileData = JSON.parse(arg.currentTarget.result);
-        profiles = jsonProfileData;
-        $.jStorage.set(profilesKey, profiles);
-        populateProfiles();
-        $('#profiles').trigger("change");
-        updateTextbox();
     }
 
     function populateProfiles() {

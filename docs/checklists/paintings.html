@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,6 +156,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons active" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
@@ -251,7 +265,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_1_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03210.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Prophecy+Painting">Prophecy Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03210.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Prophecy+Painting">Prophecy Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -264,7 +278,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_1_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03210.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03210.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Prophecy+Painting">Prophecy Painting</a><br>
                         <strong class="me-1">Area: </strong>Limgrave<br>
                         <strong class="me-1">Location: </strong>Stormveil Castle, in a study room in the heavily guarded courtyard.<br>
@@ -281,7 +295,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_1_2">
-                            <img class="me-1" data-src="/img/icons/paintings/03066.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homecoming Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03066.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homing Instinct Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -294,8 +308,8 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_1_2">
-                        <img class="float-end" data-src="/img/icons/paintings/03066.png" height="70" loading="lazy" width="70">
-                        <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homecoming Painting</a><br>
+                        <img class="float-end" data-src="/img/icons/info/paintings/03066.png" height="70" loading="lazy" width="70">
+                        <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homing Instinct Painting</a><br>
                         <strong class="me-1">Area: </strong>Limgrave<br>
                         <strong class="me-1">Location: </strong>Artist's Shack, northwest of the Seaside Ruins Site of Grace, south of the Dragonburnt Ruins.<br>
                       </label>
@@ -311,7 +325,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_2_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03207.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Resurrection+Painting">Resurrection Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03207.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Resurrection+Painting">Resurrection Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -324,7 +338,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_2_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03207.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03207.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Resurrection+Painting">Resurrection Painting</a><br>
                         <strong class="me-1">Area: </strong>Liurnia<br>
                         <strong class="me-1">Location: </strong>Artist's Shack, in the graveyard southeast of the Behind Caria Manor Site of Grace.<br>
@@ -341,7 +355,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_3_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03212.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Redmane+Painting">Redmane Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03212.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Redmane+Painting">Redmane Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -354,7 +368,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_3_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03212.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03212.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Redmane+Painting">Redmane Painting</a><br>
                         <strong class="me-1">Area: </strong>Caelid<br>
                         <strong class="me-1">Location: </strong>Sellia, Town of Sorcery northeast of Fort Faroth, on the lower cliffs southeast of the Minor Erdtree (Dragonbarrow).<br>
@@ -371,7 +385,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_4_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03208.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Champion's+Song+Painting">Champion's Song Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03208.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Champion's+Song+Painting">Champion's Song Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -384,7 +398,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_4_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03208.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03208.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Champion's+Song+Painting">Champion's Song Painting</a><br>
                         <strong class="me-1">Area: </strong>Altus Plateau<br>
                         <strong class="me-1">Location: </strong>Shaded Castle, southwest of the Rampartside Path Site of Grace, up on this cliff you fight Ancient Dragon Lansseax.<br>
@@ -401,7 +415,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_5_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03211.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting">Flightless Bird Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03211.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting">Flightless Bird Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -414,7 +428,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_5_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03211.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03211.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting">Flightless Bird Painting</a><br>
                         <strong class="me-1">Area: </strong>Leyndell, Royal Capital<br>
                         <strong class="me-1">Location: </strong>Fortified Manor, at the edge of the cliff south-southeast of the Windmill Heights Site of Grace.<br>
@@ -431,7 +445,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_6_1">
-                            <img class="me-1" data-src="/img/icons/paintings/03209.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Sorcerer+Painting">Sorcerer Painting</a>
+                            <img class="me-1" data-src="/img/icons/info/paintings/03209.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Sorcerer+Painting">Sorcerer Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -444,7 +458,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_6_1">
-                        <img class="float-end" data-src="/img/icons/paintings/03209.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/info/paintings/03209.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Sorcerer+Painting">Sorcerer Painting</a><br>
                         <strong class="me-1">Area: </strong>Mountaintop of the Giants<br>
                         <strong class="me-1">Location: </strong>Southwest of Castle Sol, on the side of a bridge northwest of the Stargazer's Ruins.<br>
@@ -532,7 +546,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="paintings_2">
-                            <img class="me-1" data-src="/img/icons/armor/15290.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homecoming Painting</a>
+                            <img class="me-1" data-src="/img/icons/armor/15290.png" height="70" loading="lazy" width="70"><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homing Instinct Painting</a>
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -546,7 +560,7 @@
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="paintings_2">
                         <img class="float-end" data-src="/img/icons/armor/15290.png" height="70" loading="lazy" width="70">
-                        <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homecoming Painting</a><br>
+                        <strong class="me-1">Name: </strong><a href="https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting">Homing Instinct Painting</a><br>
                         <strong class="me-1">Rewards: </strong><a href="https://eldenring.wiki.fextralife.com/Incantation+Scarab">Incantation Scarab</a><br>
                         <strong class="me-1">Destination: </strong>A small grave west from Dragon-Burnt Ruins in Limgrave.<br>
                       </label>
@@ -713,7 +727,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -759,7 +773,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

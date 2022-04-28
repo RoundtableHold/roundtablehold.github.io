@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,6 +156,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
@@ -229,8 +243,13 @@
               </div>
             </form>
           </div>
-          <div class="col col-12">
-            <textarea class="form-control" id="profileText"></textarea>
+          <div class="row">
+            <div id="alert-div"></div>
+          </div>
+          <div class="row">
+            <div class="col col-12">
+              <textarea class="form-control" id="profileText"></textarea>
+            </div>
           </div>
         </div>
       </div>
@@ -275,12 +294,57 @@
           </div>
         </div>
       </div>
+      <div class="modal fade" id="importTextModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Import profile?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">If you import this profile all of your current progress will be lost.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="importTextYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="importFileModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Import profile?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div>If you import this profile all of your current progress will be lost.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="importFileYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="deleteModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Are you sure?</h3>
+              <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div>You will lose all progress in this profile. Please back it up first.</div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" data-bs-dismiss="modal" href="#">No</a>
+              <a class="btn btn-danger" href="#" id="deleteYes">Yes</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="hiddenfile">
       <input id="fileInput" name="upload" type="file">
     </div>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>

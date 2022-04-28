@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,6 +156,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
@@ -192,76 +206,80 @@
         </strong>
         <ul class="toc_page collapse" id="toc_playthrough">
           <li>
-            <a class="toc_link" href="#playthrough_section_0">Starting Out</a>
+            <a class="toc_link" href="#playthrough_section_0">Limgrave</a>
             <span id="playthrough_nav_totals_0"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_1">Going South</a>
+            <a class="toc_link" href="#playthrough_section_1">Weeping Peninsula</a>
             <span id="playthrough_nav_totals_1"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_2">Storming the Veiled Castle</a>
+            <a class="toc_link" href="#playthrough_section_2">Stormveil</a>
             <span id="playthrough_nav_totals_2"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_3">Swimming in the Lake</a>
+            <a class="toc_link" href="#playthrough_section_3">Limgrave/Roundtable</a>
             <span id="playthrough_nav_totals_3"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_4">Arriving in Caelid</a>
+            <a class="toc_link" href="#playthrough_section_4">Swimming in the Lake</a>
             <span id="playthrough_nav_totals_4"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_5">Going Underground Part 1: Exploring the River Wells</a>
+            <a class="toc_link" href="#playthrough_section_5">Arriving in Caelid</a>
             <span id="playthrough_nav_totals_5"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_6">Castle Redmane</a>
+            <a class="toc_link" href="#playthrough_section_6">Going Underground Part 1: Exploring the River Wells</a>
             <span id="playthrough_nav_totals_6"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_7">Underground Part 2: Into the Crater</a>
+            <a class="toc_link" href="#playthrough_section_7">Castle Redmane</a>
             <span id="playthrough_nav_totals_7"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_8">Choice 1: The Grand Lift of Dectus</a>
+            <a class="toc_link" href="#playthrough_section_8">Underground Part 2: Into the Crater</a>
             <span id="playthrough_nav_totals_8"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_9">Choice 2: Taking the Coward's Path</a>
+            <a class="toc_link" href="#playthrough_section_9">Choice 1: The Grand Lift of Dectus</a>
             <span id="playthrough_nav_totals_9"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_10">Choice 3: The Iron Virgin</a>
+            <a class="toc_link" href="#playthrough_section_10">Choice 2: Taking the Coward's Path</a>
             <span id="playthrough_nav_totals_10"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_11">Underground Part 3: Into the Coffin and Following Ranni</a>
+            <a class="toc_link" href="#playthrough_section_11">Choice 3: The Iron Virgin</a>
             <span id="playthrough_nav_totals_11"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_12">Onwards to Leyndell</a>
+            <a class="toc_link" href="#playthrough_section_12">Underground Part 3: Into the Coffin and Following Ranni</a>
             <span id="playthrough_nav_totals_12"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_13">Climbing Mt. Giants</a>
+            <a class="toc_link" href="#playthrough_section_13">Onwards to Leyndell</a>
             <span id="playthrough_nav_totals_13"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_14">Choice 1: Mohgwyn's Palace</a>
+            <a class="toc_link" href="#playthrough_section_14">Climbing Mt. Giants</a>
             <span id="playthrough_nav_totals_14"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_15">Choice 2: Miquella's Haligtree</a>
+            <a class="toc_link" href="#playthrough_section_15">Choice 1: Mohgwyn's Palace</a>
             <span id="playthrough_nav_totals_15"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_16">This Tree is on FIIIIREEEE!!!!!</a>
+            <a class="toc_link" href="#playthrough_section_16">Choice 2: Miquella's Haligtree</a>
             <span id="playthrough_nav_totals_16"></span>
           </li>
           <li>
-            <a class="toc_link" href="#playthrough_section_17">Ending the Game</a>
+            <a class="toc_link" href="#playthrough_section_17">This Tree is on FIIIIREEEE!!!!!</a>
             <span id="playthrough_nav_totals_17"></span>
+          </li>
+          <li>
+            <a class="toc_link" href="#playthrough_section_18">Ending the Game</a>
+            <span id="playthrough_nav_totals_18"></span>
           </li>
         </ul>
       </nav>
@@ -275,93 +293,429 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_0Col" data-bs-toggle="collapse" href="#playthrough_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <span class="d-print-inline">Starting Out</span>
+              <span class="d-print-inline">Limgrave</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="playthrough_0Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_1" id="item_1_1">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_0" id="item_0">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_1">Once you have left the tutorial area, talk to White-Faced Varre nearby then head North-West to the Church of Elleh and talk to Kale. Continue North to the fork in the road and grab the Grace to your West and the Grace to your East. Rest at the Grace to your East. From now on, rest often and look for the "Talk to" option in the Grace menu when resing</label>
+                    <input class="form-check-input" id="playthrough_0" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_0">Grab The First Step Grace at the start of the game.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_2" id="item_1_2">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_1" id="item_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_2">Head East and find a talking tree. Hit or roll into the tree to break the illusion and find Boc. Head North from there, through a small camp of enemies and go North, up through the hills to find Alexander then make your way down to grab the Grace.</label>
+                    <input class="form-check-input" id="playthrough_1" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_1">Talk to Varré nearby and exhaust his dialogue.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_3" id="item_1_3">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_2" id="item_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_3">Go back to the starting grace and go West and downhill to the beach. In the side of the cliff North-West on the beach will be a cave where you can find Boc again. Go through or don't then go back to the Grace where you found Alexander.</label>
+                    <input class="form-check-input" id="playthrough_2" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_2">Grab the Small Golden Effigy next to the summon statue.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_4" id="item_1_4">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_3" id="item_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_4">Head East across the bridge to find a man mourning over a dead body beside the road. Head South and West to find a Spiritjump (horse-jump) at the bottom of a ravine containing a stream. Jump down onto that Spiritjump to avoid damage and head South. After the fight, talk to Yura nearby then head into the cave by the campfire.</label>
+                    <input class="form-check-input" id="playthrough_3" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_3">Go North and grab the Church of Elleh Grace.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_5" id="item_1_5">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_4" id="item_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_5">Deep in the cave is a boss. At half-health, he will ask for mercy. If spared, reload and go back to boss room. Reload and go back again, opening the chest this time.</label>
+                    <input class="form-check-input" id="playthrough_4" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_4">Talk to Kalé at the Church of Elleh</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_6" id="item_1_6">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_5" id="item_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_6">Head just South-East until you hear some howling then head North back to the road to find a man named Kenneth on top of some ruins. Head South-East, through the forest to Fort Haight in the South-East Corner. Explore Fort Haight to get one half of the Dectus Medallion.</label>
+                    <input class="form-check-input" id="playthrough_5" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_5">Go North-East to the Gatefront Ruins and grab Map (Limgrave, West) at the pillar.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_7" id="item_1_7">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_6" id="item_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_7">Return to Kenneth then go back to the Church of Elleh where Kale is. Wait until nightfall at the Grace and talk to Renna nearby, then Kale to get the Fingersnap Emote.</label>
+                    <input class="form-check-input" id="playthrough_6" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_6">Go down the stairs in the center of the Gatefront Ruins and grab the Whetstone Knife</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_8" id="item_1_8">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_7" id="item_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_8">Return to the forest, where you heard the howling and use Fingersnap nearby to meet Blaidd. After talking to him, go to Fort Haight and talk to Kenneth then go back to the Grace West of that fork in the road, North of the game's start and head West through the gate.</label>
+                    <input class="form-check-input" id="playthrough_7" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_7">Go East of the Gatefront Ruins and grab the Agheel Lake North Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_9" id="item_1_9">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_8" id="item_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_9">Follow the path until you reach Stormhill Shack and talk to Roderika a few times then continue North. Don't follow the path, instead go through the forest to find a broken bridge. There is a path there you can choose to take but know that it will skip parts of some questlines.</label>
+                    <input class="form-check-input" id="playthrough_8" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_8">Rest at the Agheel Lake North Grace, form accord with Melina and exhaust her dialogue.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_10" id="item_1_10">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_9" id="item_9">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_10">You may now safely explore all of Limgrave except for Stormveil Castle without breaking anything, provided you don't go down the giant elevator near the Minor Erdtree in the Eastern forest(It's called the Siofra River Well), use any Waygates or allow yourself to get caught in any trapped chests like the one in the cave that you opened earlier. Everything else is safe.</label>
+                    <input class="form-check-input" id="playthrough_9" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_9">Go East from the Grace and break the tree illusion and talk to Boc until his dialogue is exhausted.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_11" id="item_1_11">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_10" id="item_10">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_11">Here are some notable people and places.</label>
+                    <input class="form-check-input" id="playthrough_10" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_10">Head North, getting atop the cliffs using one of the Spiritjumps, and free Alexander from his hole on the cliffs above the Saintsbridge Grace. After freeing him, talk to him until his dialogue is exhausted.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_12" id="item_1_12">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_11" id="item_11">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_12">Knight Bernahl can be found in Warmaster's Shack on the road East of Stormhill Shack.</label>
+                    <input class="form-check-input" id="playthrough_11" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_11">Grab the Saintsbridge Grace below the cliffs where you found Alexander.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_13" id="item_1_13">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_12" id="item_12">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_13" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_13">North of Warmaster's Shack is a Coliseum with an Invader.</label>
+                    <input class="form-check-input" id="playthrough_12" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_12">Head East across the bridge and talk to D, Hunter of the Dead near the graveyard until his dialogue is exhausted.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_1_14" id="item_1_14">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_13" id="item_13">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_1_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_1_14">East of the lake in Limgrave is the Waypoint Ruins. Under them is Sorceress Sellen</label>
+                    <input class="form-check-input" id="playthrough_13" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_13">Follow the road East to Summonwater Village and kill the Tibia Mariner there.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_14" id="item_14">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_14" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_14">After killing the Tibia Mariner, talk to D, Hunter of the Dead nearby.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_15" id="item_15">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_15" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_15">Make your way down the cliffs going South and talk to Kenneth Haight on top of the ruin.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_16" id="item_16">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_16" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_16">Head East from Kenneth Haight and grab the Third Church of Marika Grace as well as the Sacred Tear, the Flask of Wondrous Physick and the Crimson Crystal Tear.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_17" id="item_17">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_17" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_17">Rest at the Grace and talk to Melina until her dialogue is exhausted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_18" id="item_18">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_18" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_18">Head South along the road to find Map (Limgrave, East) at the pillar beside the road.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_19" id="item_19">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_19" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_19">Go South-West from the pillar and listen to Blaidd's howling at Mistwood Ruins</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_20" id="item_20">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_20" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_20">Follow the road South-East and grab the Fort Haight West Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_21" id="item_21">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_21" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_21">Grab the Golden Seed from the Erdtree Sapling in front of Fort Haight.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_22" id="item_22">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_22" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_22">Climb to the top of Fort Haight and kill the Knight at the top</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_23" id="item_23">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_23" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_23">Climb the ladder in the nearby tower to collect Dectus Medallion(Left)</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_24" id="item_24">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_24" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_24">Go back to the Church of Elleh, pass time until Night if needed, meet Renna to receive the Spirit Calling Bell and the Lone Wolf Ashes and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_25" id="item_25">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_25" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_25">Talk to Kalé nearby for the Fingersnap emote and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_26" id="item_26">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_26" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_26">Go South-West from the Church of Elleh and make your way down to the shore then enter the Coastal Cave and grab the Coastal Cave Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_27" id="item_27">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_27" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_27">Talk to Boc near the Grace and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_28" id="item_28">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_28" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_28">Go through the Coastal Cave and summon Old Knight Istvan outside the boss room</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_29" id="item_29">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_29" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_29">Kill the Demi-Human Chiefs boss and receive the Sewing Needle and Tailoring Tools.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_30" id="item_30">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_30" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_30">Head out through the other side of the boss room and grab the Church of Dragon Communion Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_31" id="item_31">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_31" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_31">Go back to Boc and give him the Sewing Needle then exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_32" id="item_32">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_32" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_32">Head South-East from the First Step Grace and grab the Seaside Ruins Grace along the edge of the cliffs.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_33" id="item_33">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_33" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_33">Meet Yura at the ruin next to the Seaside Ruins Grace and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_34" id="item_34">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_34" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_34">Head North-West into the lake and fight the Flying Dragon Agheel, hitting it at least once, and run away.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_35" id="item_35">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_35" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_35">Return to Yura after fighting Flying Dragon Agheel without killing it for extra dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_36" id="item_36">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_36" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_36">Go back to Flying Dragon Agheel and kill him. Yura can be summoned near the Stake of Marika for extra dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_37" id="item_37">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_37" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_37">Return to Yura and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_38" id="item_38">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_38" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_38">Head East from Yura and grab the Agheel Lake South Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_39" id="item_39">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_39" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_39">Head North from the Grace to the Waypoint Ruins and kill the boss Mad Pumpkin Head.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_40" id="item_40">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_40" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_40">Grab the Waypoint Ruins Grace and meet Sellen. Accept her offer of training and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_41" id="item_41">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_41" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_41">Go West into the lake and head North, under the bridge. Continue along this path and you will be invaded by Bloody Finger Nerijus. Survive against him for a short while and Yura will appear with dialogue then kill Blood Finger Nerijus.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_42" id="item_42">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_42" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_42">Go North from where you fought Nerijus and talk to Yura under the ruin.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_43" id="item_43">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_43" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_43">Go back to where you fought Nerijus and enter Murkwater Cave to grab the Murkwater Cave Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_44" id="item_44">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_44" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_44">Proceed through the cave and open the obviously unguarded chest in the completely empty room.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_45" id="item_45">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_45" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_45">Fight Patches until he is at 50% health. As soon as he surrenders, stop attacking and the fight will end.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_46" id="item_46">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_46" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_46">Attack Patches(very lightly) and he will become hostile again. Let him knock YOU to 50% health and you will receive and emote. Use it to end the fight.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_47" id="item_47">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_47" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_47">Talk to Patches and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_48" id="item_48">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_48" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_48">Reload the area and return to him for more dialogue and access to his shop. Buy Margit's Shackle, the Missionary's Cookbook(2) and anything else you like.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_49" id="item_49">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_49" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_49">Reload the area again after purchasing stuff and talk to Patches again for more dialogue. He will give you permission to open the chest so open the chest.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_50" id="item_50">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_50" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_50">Head North, back to Kenneth Haight and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_51" id="item_51">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_51" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_51">Go South, back to the Mistwood Ruins, use the Fingersnap emote to call Blaidd down then talk to Blaidd and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_52" id="item_52">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_52" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_52">Head to Fort Haight and talk to Kenneth at the top, where you fought the knight, and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_53" id="item_53">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_53" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_53">Go back to Patches in Murkwater Cave and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_54" id="item_54">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_54" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_54">Go to the Saintsbridge Grace(where you freed Alexander) and head West. You will find the Deathtouched Catacombs in the wall of the cliff on the North side. Go inside and grab the Deathtouched Catacombs Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_55" id="item_55">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_55" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_55">Go through the Deathtouched Catacombs and defeat the boss Black Knife Assassin and collect the Deathroot.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_56" id="item_56">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_56" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_56">Follow the road West from the Deathtouched Catacombs and grab the Warmaster's Shack Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_57" id="item_57">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_57" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_57">Meet Knight Bernahl in the Warmaster's Shack and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_58" id="item_58">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_58" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_58">Follow the road North from the Warmaster's Shack and be invaded by Recusant Henricus. Kill him.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_59" id="item_59">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_59" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_59">Head West from the Warmaster's Shack, following the road to Stormhill Shack and grab the Stormhill Shack Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_60" id="item_60">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_60" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_60">Rest at the Stormhill Shack Grace, talk to Melina and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_61" id="item_61">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_61" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_61">Meet Roderika in the Stormhill Shack and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_62" id="item_62">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_62" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_62">Grab the Golden Seed from the Erdtree Sapling just South of the Stormhill Shack.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_63" id="item_63">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_63" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_63">Head North from the Stormhill Shack, going into the woods and meet the Finger Reader on the broken bridge</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_64" id="item_64">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_64" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_64">Backtrack to the road and head West this time to grab the Castleward Tunnel Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_65" id="item_65">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_65" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_65">Rest at the Castleward Tunnel Grace, talk to Melina and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_66" id="item_66">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_66" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_66">Go back to the Agheel Lake South Grace in South-East Limgrave and head up the slope to the South to find the Forlorn Hound Evergaol.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_67" id="item_67">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_67" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_67">Enter the Evergaol and summon Blaidd for dialogue then defeat the boss Bloodhound Knight Darriwil.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_68" id="item_68">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_68" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_68">After the fight, talk to Blaidd nearby and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_69" id="item_69">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_69" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_69">Limgrave is now 100% safe to explore! But be warned, if you are teleported by a chest, only grab the nearest Grace. If you grab any Grace besides the nearest one, you MAY break something. In addition, for the purposes of this guide, do not use the Bestial Sanctum Waygate yet. It's safe at this point but will change the order of steps.</label>
                   </div>
                 </li>
               </ul>
@@ -374,39 +728,165 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_1Col" data-bs-toggle="collapse" href="#playthrough_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <span class="d-print-inline">Going South</span>
+              <span class="d-print-inline">Weeping Peninsula</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="playthrough_1Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="playthrough_2_1" id="item_2_1">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_70" id="item_70">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_2_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_2_1">Go back to the starting Grace and head South-East. In the South-East corner, before you go down the slope, you will see a bunch of glowing rocks facing a circle. Go over to the circle and enter it. Blaidd will be available for you to summon if you wish. Defeat the enemy and talk to Blaidd then go down the slope.</label>
+                    <input class="form-check-input" id="playthrough_70" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_70">Starting at the Agheel Lake South Grace in South-East Limgrave, follow the road South-East and cross the Bridge of Sacrifice to grab the Bridge of Sacrifice Grace.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_2_2" id="item_2_2">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_71" id="item_71">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_2_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_2_2">Cross the bridge and talk to Irina on the roadside then keep heading South.</label>
+                    <input class="form-check-input" id="playthrough_71" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_71">Meet Irina next to the road nearby and exhaust her dialogue for Irina's Letter.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_2_3" id="item_2_3">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_72" id="item_72">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_2_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_2_3">You can safely explore this whole area, minus Waygates and trapped chests that teleport you, without breaking anything.</label>
+                    <input class="form-check-input" id="playthrough_72" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_72">Follow the road South and grab the Castle Morne Rampart Grace.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_2_4" id="item_2_4">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_73" id="item_73">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_2_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_2_4">Once you're finished, go to Castle Morne in the deep South and go through the castle to find Edgar on the Ramparts. Talk to him then continue through the castle and fight the boss(Edgar is available to summon).</label>
+                    <input class="form-check-input" id="playthrough_73" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_73">Follow the road going North-West to grab the South of the Lookout Tower Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_2_5" id="item_2_5">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_74" id="item_74">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_2_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_2_5">With the boss dead, talk to Edgar again then go back to Irina. After that, we are done with this zone entirely and shall never return.</label>
+                    <input class="form-check-input" id="playthrough_74" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_74">Cross the bridge to the West and follow the road going North to the Church of Pilgrimage and grab the Church of Pilgrimage Grace as well as a Sacred Tear in the church.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_75" id="item_75">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_75" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_75">Rest at the Church of Pilgrimage Grace and talk to Melina until dialogue is exhausted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_76" id="item_76">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_76" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_76">Go back to the Castle Morne Rampart Grace and follow the road South to grab the Map (Weeping Peninsula) at the pillar and a Golden Seed from the Erdtree Sapling near it.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_77" id="item_77">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_77" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_77">Continue on the road South to reach Castle Morne and grab the Castle Morne Lift Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_78" id="item_78">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_78" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_78">Go up the lift and pass the praying enemies by sneaking around on the right side. Go into the room and then out through the other side. Climb the ladder to the top then climb the next ladder in front of you. Run to the other side and hop over the edge on the left to the wall below. Run across the bridge and go over the edge to the left again. Run past the enemies to the tower and at the top of that tower you will find Edgar.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_79" id="item_79">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_79" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_79">Talk to Edgar and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_80" id="item_80">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_80" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_80">Turn back and go past the enemies again. At the end of the path, hop the wall on your left to grab the Behind the Castle Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_81" id="item_81">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_81" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_81">Make your way down to the bottom, summon Edgar outside the boss room and then kill the boss Leonine Misbegotten to obtain the Legendary Weapon, the Grafted Greatsword.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_82" id="item_82">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_82" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_82">Go back to Edgar where he was on the tower and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_83" id="item_83">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_83" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_83">Return to Irina's location near the Bridge of Sacrifice Grace, talk to Edgar and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_84" id="item_84">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_84" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_84">Weeping Peninsula is now 100% safe to explore! There should be no warnings required!</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_85" id="item_85">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_85" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_85">Margit/Roundtable Hold</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_86" id="item_86">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_86" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_86">Go back to the Castleward Tunnel Grace in West Limgrave, summon Rogier outside the boss room and kill Margit, The Fell Omen for a Talisman Pouch.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_87" id="item_87">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_87" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_87">Grab the Margit, The Fell Omen Grace and rest at it to talk to Melina and gain access to Roundtable Hold.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_88" id="item_88">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_88" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_88">Talk to Corhyn and exhaust his dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_89" id="item_89">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_89" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_89">Talk to Gideon and exhaust his dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_90" id="item_90">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_90" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_90">Talk to D, Hunter of the Dead and exhaust his dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_91" id="item_91">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_91" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_91">Talk to Diallos and exhaust his dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_92" id="item_92">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_92" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_92">Talk to Hewg and exhaust his dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_93" id="item_93">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_93" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_93">Cuddle with Fia and exhaust her dialogue</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_94" id="item_94">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_94" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_94">Talk to Ensha and get edgelorded</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_95" id="item_95">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_95" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_95">Hop off the balcony and wait for Mad Tongue Alberich to bow before attacking, then kill him.</label>
                   </div>
                 </li>
               </ul>
@@ -419,45 +899,159 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_2Col" data-bs-toggle="collapse" href="#playthrough_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <span class="d-print-inline">Storming the Veiled Castle</span>
+              <span class="d-print-inline">Stormveil</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_2"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="playthrough_2Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_1" id="item_3_1">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_96" id="item_96">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_1">^ Do this. If you should come across Chrysalid's Memento while exploring Stormveil Castle, give it to Roderika before you kill the boss.</label>
+                    <input class="form-check-input" id="playthrough_96" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_96">Return to the Margit, The Fell Omen Grace and follow the path up to grab the Stormveil Main Gate Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_2" id="item_3_2">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_97" id="item_97">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_2">After the first boss, rest to discover Roundtable Hold. Talk to everyone, meet and greet, beware of hugs, and then go back.</label>
+                    <input class="form-check-input" id="playthrough_97" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_97">Talk to Gostoc in the building nearby and agree first, then talk to him again and reject his advice before walking over to the gate to open it.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_3" id="item_3_3">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_98" id="item_98">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_3">Once both bosses are dead, go through the door behind the boss room and you will enter Lake Liurnia.</label>
+                    <input class="form-check-input" id="playthrough_98" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_98">Follow the path that Gostoc originally recommended and grab the Stormveil Cliffside Grace.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_4" id="item_3_4">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_99" id="item_99">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_4">Don't kill Gostac, the one who tells you about the side path if you want to do his quest.</label>
+                    <input class="form-check-input" id="playthrough_99" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_99">Go up the steps, enter the building at the top of the steps, and go through the second doorway then turn around walk back to the Stormveil Cliffside Grace but don't rest at it. You will find Gostoc on the cliff above the Grace, talk to him and exhaust his dialogue.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_5" id="item_3_5">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_100" id="item_100">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_5">Nepheli Loux is just South of the 2nd boss and can be summoned for the fight.</label>
+                    <input class="form-check-input" id="playthrough_100" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_100">Return to Gostoc next to the castle gate and his shop will now be open.</label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="playthrough_3_6" id="item_3_6">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_101" id="item_101">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="playthrough_3_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_3_6">Rogier is in the Chapel requires you to kill the monster under Stormveil to continue his quest.</label>
+                    <input class="form-check-input" id="playthrough_101" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_101">Proceed up the steps as before and continue on this path to grab the Rampart Tower Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_102" id="item_102">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_102" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_102">Option 1: Go through the door going North-West where all the birds are and go past them and climb down the ladder on the church rooftop.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_103" id="item_103">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_103" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_103">Option 2: Alternatively you can turn to the right before having your first encounter. Jump over the balcony onto the rooftop across the way and hop down onto the path below.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_104" id="item_104">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_104" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_104">Follow the path going North-West to the chapel, talk to Rogier and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_105" id="item_105">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_105" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_105">Follow the path going South-East from Rogier into the building until you hit the the room where you can see the Grafted Scion on the ground floor. Go around to the right and go through the doorway. To your left you will see the corpse of a giant hanging upside down. Hop down to the ground below the giant and grab the Chrysalids' Memento.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_106" id="item_106">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_106" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_106">After grabbing the Chrysalids' Memento, go out the door, turn into the door on the right and go up the lift to unlock the shortcut to Rampart Tower Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_107" id="item_107">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_107" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_107">Return to Roderika at Stormhill Shack, give her the Chrysalids' Memento and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_108" id="item_108">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_108" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_108">Return to the Rampart Tower Grace and go back down the lift. Go out the door and kill or run past the Grafted Scion and through the doorway on the far left side. Go outside and turn left, following the wall going North past the enemies and then go into the doorway on your left to grab the Prophecy Painting.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_109" id="item_109">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_109" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_109">Go back outside, turn left and go up the stairs to grab the Liftside Chamber Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_110" id="item_110">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_110" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_110">Pull the lever and go up the lift. Follow the path and grab x2 Cracked Pots next to the Living Jar enemies.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_111" id="item_111">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_111" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_111">Go to the end of the path to grab the Secluded Cell Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_112" id="item_112">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_112" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_112">Head South-East from the Secluded Cell Grace and grab the Golden Seed by the Erdtree Sapling.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_113" id="item_113">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_113" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_113">Enter the nearby building, talk to Nepheli Loux and exhaust her dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_114" id="item_114">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_114" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_114">Go back to the Secluded Cell Grace, summon Nepheli and then kill the boss Godrick the Grafted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_115" id="item_115">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_115" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_115">Grab the Godrick the Grafted Grace, talk to Gostoc nearby and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_116" id="item_116">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_116" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_116">Return to the Liftside Chamber Grace and go up the lift to the path heading to the Secluded Chamber Grace again. Instead of going down the slope to the Grace, take the high road and cross the wooden bridge. Hop onto the stone ledge from the wooden bridge and hug the wall going right. Finally jump off the ledge onto the nearby balcony to reach the hidden path.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_117" id="item_117">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_117" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_117">Follow this hidden path until you reach a a message from Rogier that you can read. Just beyond that message is a door that unlocks the shortcut to the Liftside Chamber Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_118" id="item_118">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_118" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_118">You can now either follow that path to it's bottom(it will take a bit longer) or you can go out the South door from the Liftside Chamber Grace and turn right. Head to the ledge and drop off of it to the ledge below and make your way to the bottom from there.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_119" id="item_119">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_119" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_119">At the bottom, past all the rats, will be a Lesser Ulcerated Tree Spirit. Kill it(this is required) for a Golden Seed.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_120" id="item_120">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_120" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_120">Past the Lesser Ulcerated Tree Spirit is the Prince of Death's Pustule and beside that is a bloodstain of Rogier. Use it to see what happened.</label>
                   </div>
                 </li>
               </ul>
@@ -470,10 +1064,85 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_3Col" data-bs-toggle="collapse" href="#playthrough_3Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <span class="d-print-inline">Swimming in the Lake</span>
+              <span class="d-print-inline">Limgrave/Roundtable</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_3"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="playthrough_3Col">
+              <ul class="list-group-flush mb-0 ps-0 ps-md-4">
+                <li class="list-group-item searchable ps-0" data-id="playthrough_121" id="item_121">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_121" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_121">Go to the Third Church of Marika and use the Waygate to the North to arrive at the Bestial Sanctum.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_122" id="item_122">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_122" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_122">Head inside the sanctum and grab the Bestial Sanctum Grace.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_123" id="item_123">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_123" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_123">Talk to Gurranq, Beast Clergyman and give him your first two Deathroot to receive the Clawmark Seal, Beast Eye and Bestial Sling.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_124" id="item_124">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_124" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_124">Go back to Varré at the First Step Grace and exhaust his dialogue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_125" id="item_125">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_125" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_125">Return to Roundtable Hold, talk to Enia and Two Fingers until the dialogue of both is exhausted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_126" id="item_126">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_126" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_126">Talk to Nepheli and Gideon until the dialogue of both is exhausted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_127" id="item_127">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_127" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_127">Talk to D, Hunter of the Dead and Rogier until the dialogue of both is exhausted.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_128" id="item_128">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_128" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_128">Talk to Roderika and Hewg until the dialogue of both is exhausted</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_129" id="item_129">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_129" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_129">Cuddle with Fia and exhaust her dialogue for the Knifeprint Clue.</label>
+                  </div>
+                </li>
+                <li class="list-group-item searchable ps-0" data-id="playthrough_130" id="item_130">
+                  <div class="form-check checkbox d-flex align-items-center">
+                    <input class="form-check-input" id="playthrough_130" type="checkbox" value="">
+                    <label class="form-check-label item_content" for="playthrough_130">Return to Varré's Location at the First Step Grace and read his message.</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow-sm mb-3" id="playthrough_section_4">
+          <div class="card-body">
+            <h4 class="mt-1">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_4Col" data-bs-toggle="collapse" href="#playthrough_4Col" role="button">
+                <i class="bi bi-chevron-up d-print-none"></i>
+              </button>
+              <span class="d-print-inline">Swimming in the Lake</span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_4"></span>
+            </h4>
+            <div aria-expanded="true" class="collapse show" id="playthrough_4Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_4_1" id="item_4_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -556,7 +1225,7 @@
                 <li class="list-group-item searchable ps-0" data-id="playthrough_4_14" id="item_4_14">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="playthrough_4_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_4_14">In the South-West of Raya Lucaria will be the Rose Church where White-Faced Varre will be with his questline. Note: He thinks fingers are gross.</label>
+                    <label class="form-check-label item_content" for="playthrough_4_14">In the South-West of Raya Lucaria will be the Rose Church where White-Faced Varré will be with his questline. Note: He thinks fingers are gross.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="playthrough_4_15" id="item_4_15">
@@ -569,16 +1238,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_4">
+        <div class="card shadow-sm mb-3" id="playthrough_section_5">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_4Col" data-bs-toggle="collapse" href="#playthrough_4Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_5Col" data-bs-toggle="collapse" href="#playthrough_5Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Arriving in Caelid</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_4"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_5"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_4Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_5Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_5_1" id="item_5_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -644,16 +1313,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_5">
+        <div class="card shadow-sm mb-3" id="playthrough_section_6">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_5Col" data-bs-toggle="collapse" href="#playthrough_5Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_6Col" data-bs-toggle="collapse" href="#playthrough_6Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Going Underground Part 1: Exploring the River Wells</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_5"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_6"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_5Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_6Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_6_1" id="item_6_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -671,16 +1340,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_6">
+        <div class="card shadow-sm mb-3" id="playthrough_section_7">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_6Col" data-bs-toggle="collapse" href="#playthrough_6Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_7Col" data-bs-toggle="collapse" href="#playthrough_7Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Castle Redmane</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_6"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_7"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_6Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_7Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_7_1" id="item_7_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -722,16 +1391,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_7">
+        <div class="card shadow-sm mb-3" id="playthrough_section_8">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_7Col" data-bs-toggle="collapse" href="#playthrough_7Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_8Col" data-bs-toggle="collapse" href="#playthrough_8Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Underground Part 2: Into the Crater</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_7"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_8"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_7Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_8Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_8_1" id="item_8_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -797,16 +1466,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_8">
+        <div class="card shadow-sm mb-3" id="playthrough_section_9">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_8Col" data-bs-toggle="collapse" href="#playthrough_8Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_9Col" data-bs-toggle="collapse" href="#playthrough_9Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Choice 1: The Grand Lift of Dectus</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_8"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_9"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_8Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_9Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_9_1" id="item_9_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -860,16 +1529,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_9">
+        <div class="card shadow-sm mb-3" id="playthrough_section_10">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_9Col" data-bs-toggle="collapse" href="#playthrough_9Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_10Col" data-bs-toggle="collapse" href="#playthrough_10Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Choice 2: Taking the Coward's Path</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_9"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_10"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_9Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_10Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_10_1" id="item_10_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -923,16 +1592,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_10">
+        <div class="card shadow-sm mb-3" id="playthrough_section_11">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_10Col" data-bs-toggle="collapse" href="#playthrough_10Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_11Col" data-bs-toggle="collapse" href="#playthrough_11Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Choice 3: The Iron Virgin</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_10"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_11"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_10Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_11Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_11_1" id="item_11_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -956,16 +1625,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_11">
+        <div class="card shadow-sm mb-3" id="playthrough_section_12">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_11Col" data-bs-toggle="collapse" href="#playthrough_11Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_12Col" data-bs-toggle="collapse" href="#playthrough_12Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Underground Part 3: Into the Coffin and Following Ranni</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_11"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_12"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_11Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_12Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_12_1" id="item_12_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1031,16 +1700,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_12">
+        <div class="card shadow-sm mb-3" id="playthrough_section_13">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_12Col" data-bs-toggle="collapse" href="#playthrough_12Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_13Col" data-bs-toggle="collapse" href="#playthrough_13Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Onwards to Leyndell</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_12"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_13"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_12Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_13Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_13_1" id="item_13_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1094,16 +1763,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_13">
+        <div class="card shadow-sm mb-3" id="playthrough_section_14">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_13Col" data-bs-toggle="collapse" href="#playthrough_13Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_14Col" data-bs-toggle="collapse" href="#playthrough_14Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Climbing Mt. Giants</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_13"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_14"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_13Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_14Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_14_1" id="item_14_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1169,16 +1838,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_14">
+        <div class="card shadow-sm mb-3" id="playthrough_section_15">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_14Col" data-bs-toggle="collapse" href="#playthrough_14Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_15Col" data-bs-toggle="collapse" href="#playthrough_15Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Choice 1: Mohgwyn's Palace</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_14"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_15"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_14Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_15Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_15_1" id="item_15_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1189,23 +1858,23 @@
                 <li class="list-group-item searchable ps-0" data-id="playthrough_15_2" id="item_15_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="playthrough_15_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="playthrough_15_2">White-Faced Varre can be invaded and killed here for his stuff. He appears at the end of the cave just before the last Grace before the boss.</label>
+                    <label class="form-check-label item_content" for="playthrough_15_2">White-Faced Varré can be invaded and killed here for his stuff. He appears at the end of the cave just before the last Grace before the boss.</label>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_15">
+        <div class="card shadow-sm mb-3" id="playthrough_section_16">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_15Col" data-bs-toggle="collapse" href="#playthrough_15Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_16Col" data-bs-toggle="collapse" href="#playthrough_16Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Choice 2: Miquella's Haligtree</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_15"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_16"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_15Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_16Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_16_1" id="item_16_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1235,16 +1904,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_16">
+        <div class="card shadow-sm mb-3" id="playthrough_section_17">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_16Col" data-bs-toggle="collapse" href="#playthrough_16Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_17Col" data-bs-toggle="collapse" href="#playthrough_17Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">This Tree is on FIIIIREEEE!!!!!</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_16"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_17"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_16Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_17Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_17_1" id="item_17_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1298,16 +1967,16 @@
             </div>
           </div>
         </div>
-        <div class="card shadow-sm mb-3" id="playthrough_section_17">
+        <div class="card shadow-sm mb-3" id="playthrough_section_18">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_17Col" data-bs-toggle="collapse" href="#playthrough_17Col" role="button">
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#playthrough_18Col" data-bs-toggle="collapse" href="#playthrough_18Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
               <span class="d-print-inline">Ending the Game</span>
-              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_17"></span>
+              <span class="mt-0 badge rounded-pill d-print-none" id="playthrough_totals_18"></span>
             </h4>
-            <div aria-expanded="true" class="collapse show" id="playthrough_17Col">
+            <div aria-expanded="true" class="collapse show" id="playthrough_18Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="playthrough_18_1" id="item_18_1">
                   <div class="form-check checkbox d-flex align-items-center">
@@ -1331,7 +2000,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -1377,7 +2046,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

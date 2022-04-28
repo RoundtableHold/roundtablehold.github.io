@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,6 +156,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
@@ -235,7 +249,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_0Col" data-bs-toggle="collapse" href="#cookbooks_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03119.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03119.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Nomadic Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_0"></span>
             </h4>
@@ -262,7 +276,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_4" id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_4">4. Next to giant bear by Patches teleport(open the trapped chest in Murkwater Cave, located in the river going North from the lake in Limgrave)</label>
+                    <label class="form-check-label item_content" for="cookbooks_1_4">4. Next to giant bear by Patches teleport (open the trapped chest in Murkwater Cave, located in the river going North from the lake in Limgrave)</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_5" id="item_1_5">
@@ -292,13 +306,13 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_9" id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_9">9. Tombs ward Catacombs, South of Church of the Pilgrimage in North Weeping Peninsula. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_9">9. Tombs ward Catacombs, South of Church of the Pilgrimage in North Weeping Peninsula.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_10" id="item_1_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_10">10. In Stormveil Castle, from Rampart Tower Grace, go through the North Door and jump to the roof in the East. Keep going this way and you'll find it. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_10">10. In Stormveil Castle, from Rampart Tower Grace, go through the North Door and jump to the roof in the East. Keep going this way and you'll find it.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_11" id="item_1_11">
@@ -328,19 +342,19 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_15" id="item_1_15">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_15" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_15">15. Nomad South of Caelid swamp at fork in the road. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_15">15. Nomad South of Caelid swamp at fork in the road.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_16" id="item_1_16">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_16" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_16">16. Nomad in South/Center of Ainsel River. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_16">16. Nomad in South/Center of Ainsel River.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_17" id="item_1_17">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_17" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_17">17. Nomad in center of Siofra River on top of wooden house. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_17">17. Nomad in center of Siofra River on top of wooden house.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_18" id="item_1_18">
@@ -364,13 +378,13 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_21" id="item_1_21">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_21" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_21">21. Volcano Manor in the area hidden behind the Illusory Wall in one of the hallway rooms. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_21">21. Volcano Manor in the area hidden behind the Illusory Wall in one of the hallway rooms.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_22" id="item_1_22">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_1_22" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_1_22">22. Chest in West Lake of Rot, West of Ainsel River underground. May require Ranni's questline. </label>
+                    <label class="form-check-label item_content" for="cookbooks_1_22">22. Chest in West Lake of Rot, West of Ainsel River underground. May require Ranni's questline.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_1_23" id="item_1_23">
@@ -395,7 +409,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_1Col" data-bs-toggle="collapse" href="#cookbooks_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03122.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03122.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Missionary Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_1"></span>
             </h4>
@@ -422,13 +436,13 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_2_4" id="item_2_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_2_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_2_4">4. Minor Erdtree Church, Southwest Leyndell Capital. </label>
+                    <label class="form-check-label item_content" for="cookbooks_2_4">4. Minor Erdtree Church, Southwest Leyndell Capital.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_2_5" id="item_2_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_2_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_2_5">5. Siofra Aqueduct, in the crater in South-East forest in East Limgrave, made after Radahn fight. Past the Crucible Knight, North-East of Ancestral Woods Grace. </label>
+                    <label class="form-check-label item_content" for="cookbooks_2_5">5. Siofra Aqueduct, in the crater in South-East forest in East Limgrave, made after Radahn fight. Past the Crucible Knight, North-East of Ancestral Woods Grace.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_2_6" id="item_2_6">
@@ -440,7 +454,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_2_7" id="item_2_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_2_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_2_7">7. Nomad in Mountaintops of the Giants, near the Ancient Snow Valley Ruins Grace. </label>
+                    <label class="form-check-label item_content" for="cookbooks_2_7">7. Nomad in Mountaintops of the Giants, near the Ancient Snow Valley Ruins Grace.</label>
                   </div>
                 </li>
               </ul>
@@ -453,7 +467,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_2Col" data-bs-toggle="collapse" href="#cookbooks_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03120.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03120.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Armorer Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_2"></span>
             </h4>
@@ -486,7 +500,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_3_5" id="item_3_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_3_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_3_5">5. Castle Redmane in South-East Caelid. Follow the path going through the door in the South-West. </label>
+                    <label class="form-check-label item_content" for="cookbooks_3_5">5. Castle Redmane in South-East Caelid. Follow the path going through the door in the South-West.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_3_6" id="item_3_6">
@@ -498,7 +512,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_3_7" id="item_3_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_3_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_3_7">7. Fort Laiedd in West Mt. Gelmir. West of Volcano Manor. </label>
+                    <label class="form-check-label item_content" for="cookbooks_3_7">7. Fort Laiedd in West Mt. Gelmir. West of Volcano Manor.</label>
                   </div>
                 </li>
               </ul>
@@ -511,7 +525,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_3Col" data-bs-toggle="collapse" href="#cookbooks_3Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03125.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03125.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Fevor's Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_3"></span>
             </h4>
@@ -532,7 +546,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_4_3" id="item_4_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_4_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_4_3">3. Reward from Gideon Ofnir for information on Mohgwyn Dynasty Medallion. Requires either Haligtree Medallion or finishing White-Faced Varre's Questline. </label>
+                    <label class="form-check-label item_content" for="cookbooks_4_3">3. Reward from Gideon Ofnir for information on Mohgwyn Dynasty Medallion. Requires either Haligtree Medallion or finishing White-Faced Varre's Questline.</label>
                   </div>
                 </li>
               </ul>
@@ -545,7 +559,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_4Col" data-bs-toggle="collapse" href="#cookbooks_4Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03121.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03121.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Glintstone Craftsman's Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_4"></span>
             </h4>
@@ -596,7 +610,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_5_8" id="item_5_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_5_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_5_8">8. South-West of Albinaurics Rise in East Consecrated Snowfield. Requires Haligtree Medallion. </label>
+                    <label class="form-check-label item_content" for="cookbooks_5_8">8. South-West of Albinaurics Rise in East Consecrated Snowfield. Requires Haligtree Medallion.</label>
                   </div>
                 </li>
               </ul>
@@ -609,7 +623,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_5Col" data-bs-toggle="collapse" href="#cookbooks_5Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03126.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03126.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Frenzied Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_5"></span>
             </h4>
@@ -637,7 +651,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_6Col" data-bs-toggle="collapse" href="#cookbooks_6Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03123.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03123.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Perfumer's Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_6"></span>
             </h4>
@@ -658,7 +672,7 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_7_3" id="item_7_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_7_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_7_3">3. Auriza Side Tomb North East of Leyndell. Open the chest in the room with a lot of benches. </label>
+                    <label class="form-check-label item_content" for="cookbooks_7_3">3. Auriza Side Tomb North East of Leyndell. Open the chest in the room with a lot of benches.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_7_4" id="item_7_4">
@@ -677,7 +691,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#cookbooks_7Col" data-bs-toggle="collapse" href="#cookbooks_7Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/cookbooks/03124.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/cookbooks/03124.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Ancient Dragon Apostle's Cookbook</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="cookbooks_totals_7"></span>
             </h4>
@@ -692,13 +706,13 @@
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_8_2" id="item_8_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_8_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_8_2">2. Nomad just North of the Forest-Spanning Greatbridge Grace on the South side of the broken bridge in North/Central Altus Plateau. </label>
+                    <label class="form-check-label item_content" for="cookbooks_8_2">2. Nomad just North of the Forest-Spanning Greatbridge Grace on the South side of the broken bridge in North/Central Altus Plateau.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_8_3" id="item_8_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="cookbooks_8_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="cookbooks_8_3">3. Cathedral of Dragon Communion in South Caelid, West of Castle Redmane. </label>
+                    <label class="form-check-label item_content" for="cookbooks_8_3">3. Cathedral of Dragon Communion in South Caelid, West of Castle Redmane.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="cookbooks_8_4" id="item_8_4">
@@ -717,7 +731,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -763,7 +777,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

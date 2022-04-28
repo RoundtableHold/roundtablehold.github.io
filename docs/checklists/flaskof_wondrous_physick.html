@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -143,6 +154,9 @@
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                </li>
+                <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
@@ -279,7 +293,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00421.png" height="70" loading="lazy" width="70">Strength-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00421.png" height="70" loading="lazy" width="70">Strength-Knot Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -292,7 +306,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00421.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00421.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Strength-Knot Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Northwest of the Warmaster's Shack, guarded by a troll<br>
                         <strong class="me-1">Effect: </strong>+10 Strength, lasts 180 seconds<br>
@@ -309,7 +323,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00414.png" height="70" loading="lazy" width="70">Spiked Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00414.png" height="70" loading="lazy" width="70">Spiked Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -322,7 +336,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00414.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00414.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Spiked Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Under the Minor Erdtree in Mistwood<br>
                         <strong class="me-1">Effect: </strong>+15% to damage done by charged attacks, lasts 180 seconds<br>
@@ -339,7 +353,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00401.png" height="70" loading="lazy" width="70">Greenspill Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00401.png" height="70" loading="lazy" width="70">Greenspill Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -352,7 +366,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00401.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00401.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Greenspill Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Under the Minor Erdtree in Mistwood<br>
                         <strong class="me-1">Effect: </strong>+15% stamina, lasts 180 seconds<br>
@@ -369,7 +383,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00402.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [1]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00402.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [1]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -382,7 +396,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_1_4">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00402.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00402.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimson Crystal Tear [1]<br>
                         <strong class="me-1">Location: </strong>At the Third Church of Marika<br>
                         <strong class="me-1">Effect: </strong>Restores half of total HP<br>
@@ -440,7 +454,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00424.png" height="70" loading="lazy" width="70">Faith-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00424.png" height="70" loading="lazy" width="70">Faith-Knot Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -453,7 +467,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00424.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00424.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Faith-Knot Crystal Tear<br>
                         <strong class="me-1">Location: </strong>North of the Demi-Human Ruins, under a tree surrounded by poison flowers<br>
                         <strong class="me-1">Effect: </strong>+10 Faith, lasts 180 seconds<br>
@@ -470,7 +484,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00409.png" height="70" loading="lazy" width="70">Crimsonburst Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00409.png" height="70" loading="lazy" width="70">Crimsonburst Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -483,7 +497,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00409.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00409.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimsonburst Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula<br>
                         <strong class="me-1">Effect: </strong>+7 HP/sec, lasts 180 seconds<br>
@@ -500,7 +514,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00408.png" height="70" loading="lazy" width="70">Opaline Bubbletear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00408.png" height="70" loading="lazy" width="70">Opaline Bubbletear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -513,7 +527,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_0_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00408.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00408.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Opaline Bubbletear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar in the Weeping Peninsula<br>
                         <strong class="me-1">Effect: </strong>Almost entirely negates the next single hit you take, lasts up to 180 seconds<br>
@@ -571,7 +585,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00422.png" height="70" loading="lazy" width="70">Dexterity-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00422.png" height="70" loading="lazy" width="70">Dexterity-Knot Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -584,7 +598,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00422.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00422.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Dexterity-Knot Crystal Tear<br>
                         <strong class="me-1">Location: </strong>On top of a small island southwest of the Boilprawn Shack Grace<br>
                         <strong class="me-1">Effect: </strong>+10 Dexterity, lasts 180 seconds<br>
@@ -601,7 +615,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00416.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [1]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00416.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [1]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -614,7 +628,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00416.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00416.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Ruptured Crystal Tear [1]<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace<br>
                         <strong class="me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself<br>
@@ -631,7 +645,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00404.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [1]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00404.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [1]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -644,7 +658,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00404.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00404.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Cerulean Crystal Tear [1]<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northwest of the Converted Tower Grace<br>
                         <strong class="me-1">Effect: </strong>Restores half of total FP<br>
@@ -661,7 +675,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00430.png" height="70" loading="lazy" width="70">Lightning-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00430.png" height="70" loading="lazy" width="70">Lightning-Shrouding Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -674,7 +688,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_4">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00430.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00430.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Lightning-Shrouding Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
                         <strong class="me-1">Effect: </strong>+20% lightning damage, lasts 180 seconds<br>
@@ -691,7 +705,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00431.png" height="70" loading="lazy" width="70">Holy-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00431.png" height="70" loading="lazy" width="70">Holy-Shrouding Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -704,7 +718,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_5">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00431.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00431.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Holy-Shrouding Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
                         <strong class="me-1">Effect: </strong>+20% magic damage, lasts 180 seconds<br>
@@ -721,7 +735,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00429.png" height="70" loading="lazy" width="70">Magic-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00429.png" height="70" loading="lazy" width="70">Magic-Shrouding Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -734,7 +748,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_6">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00429.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00429.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Magic-Shrouding Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace<br>
                         <strong class="me-1">Effect: </strong>+20% holy damage, lasts 180 seconds<br>
@@ -751,7 +765,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00423.png" height="70" loading="lazy" width="70">Intelligence-Knot Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00423.png" height="70" loading="lazy" width="70">Intelligence-Knot Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -764,7 +778,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_2_7">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00423.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00423.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Intelligence-Knot Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Southwest of the Main Caria Manor Gate Grace<br>
                         <strong class="me-1">Effect: </strong>+10 Intelligence, lasts 180 seconds<br>
@@ -822,7 +836,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00428.png" height="70" loading="lazy" width="70">Flame-Shrouding Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00428.png" height="70" loading="lazy" width="70">Flame-Shrouding Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -835,7 +849,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00428.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00428.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Flame-Shrouding Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace<br>
                         <strong class="me-1">Effect: </strong>+20% fire damage, lasts 180 seconds<br>
@@ -852,7 +866,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00410.png" height="70" loading="lazy" width="70">Greenburst Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00410.png" height="70" loading="lazy" width="70">Greenburst Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -865,7 +879,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00410.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00410.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Greenburst Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace<br>
                         <strong class="me-1">Effect: </strong>~30% stamina regen boost, lasts 180 seconds<br>
@@ -882,7 +896,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00411.png" height="70" loading="lazy" width="70">Opaline Hardtear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00411.png" height="70" loading="lazy" width="70">Opaline Hardtear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -895,7 +909,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00411.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00411.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Opaline Hardtear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace<br>
                         <strong class="me-1">Effect: </strong>+15% to all Elemental Damage Negation (not physical!), lasts 180 seconds<br>
@@ -912,7 +926,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00426.png" height="70" loading="lazy" width="70">Stonebarb Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00426.png" height="70" loading="lazy" width="70">Stonebarb Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -925,7 +939,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_4">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00426.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00426.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Stonebarb Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace<br>
                         <strong class="me-1">Effect: </strong>+30% to posture and stamina damage, lasts 30 seconds<br>
@@ -942,7 +956,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00415.png" height="70" loading="lazy" width="70">Windy Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00415.png" height="70" loading="lazy" width="70">Windy Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -955,7 +969,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_3_5">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00415.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00415.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Windy Crystal Tear<br>
                         <strong class="me-1">Location: </strong>South of Southern Aeonia Grace, guarded by birds<br>
                         <strong class="me-1">Effect: </strong>Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds<br>
@@ -1013,7 +1027,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00427.png" height="70" loading="lazy" width="70">Purifying Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00427.png" height="70" loading="lazy" width="70">Purifying Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1026,7 +1040,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00427.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00427.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Purifying Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating Eleonora, Violet Bloody Finger at the Second Church of Marika<br>
                         <strong class="me-1">Effect: </strong>Negates curse effect in phase one of Mohg's boss fight<br>
@@ -1043,7 +1057,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00406.png" height="70" loading="lazy" width="70">Speckled Hardtear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00406.png" height="70" loading="lazy" width="70">Speckled Hardtear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1056,7 +1070,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00406.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00406.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Speckled Hardtear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace<br>
                         <strong class="me-1">Effect: </strong>Heals all status effects, boosts all resistances by 90 for 180 seconds<br>
@@ -1073,7 +1087,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00400.png" height="70" loading="lazy" width="70">Crimsonspill Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00400.png" height="70" loading="lazy" width="70">Crimsonspill Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1086,7 +1100,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_4_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00400.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00400.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimsonspill Crystal Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Wormface northeast of the Bower of Bounty Grace<br>
                         <strong class="me-1">Effect: </strong>+10% max HP, lasts 180 seconds<br>
@@ -1144,7 +1158,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00418.png" height="70" loading="lazy" width="70">Leaden Hardtear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00418.png" height="70" loading="lazy" width="70">Leaden Hardtear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1157,7 +1171,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00418.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00418.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Leaden Hardtear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree<br>
                         <strong class="me-1">Effect: </strong>Infinite poise, lasts 10 seconds<br>
@@ -1174,7 +1188,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00425.png" height="70" loading="lazy" width="70">Cerulean Hidden Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00425.png" height="70" loading="lazy" width="70">Cerulean Hidden Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1187,7 +1201,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_5_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00425.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00425.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Cerulean Hidden Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Ulcerated Tree Spirit drop roaming around burned Erdtree<br>
                         <strong class="me-1">Effect: </strong>Eliminates FP consumption, lasts 15 seconds<br>
@@ -1245,7 +1259,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00412.png" height="70" loading="lazy" width="70">Winged Crystal Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00412.png" height="70" loading="lazy" width="70">Winged Crystal Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1258,7 +1272,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00412.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00412.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Winged Crystal Tear<br>
                         <strong class="me-1">Location: </strong>On an altar northwest of the Erdtree, surrounded by skull enemies<br>
                         <strong class="me-1">Effect: </strong>Maximum equip load multiplied by 4.5, lasts 180 seconds<br>
@@ -1275,7 +1289,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00419.png" height="70" loading="lazy" width="70">Twiggy Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00419.png" height="70" loading="lazy" width="70">Twiggy Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1288,7 +1302,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00419.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00419.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Twiggy Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts<br>
                         <strong class="me-1">Effect: </strong>Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds<br>
@@ -1305,7 +1319,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00403.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [2]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00403.png" height="70" loading="lazy" width="70">Crimson Crystal Tear [2]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1318,7 +1332,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_6_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00403.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00403.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimson Crystal Tear [2]<br>
                         <strong class="me-1">Location: </strong>Found in an altar at the base of a Minor Erdtree in the Capital Outskirts<br>
                         <strong class="me-1">Effect: </strong>Restores half of total HP<br>
@@ -1376,7 +1390,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00420.png" height="70" loading="lazy" width="70">Crimsonwhorl Bubbletear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00420.png" height="70" loading="lazy" width="70">Crimsonwhorl Bubbletear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1389,7 +1403,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_7_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00420.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00420.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimsonwhorl Bubbletear<br>
                         <strong class="me-1">Location: </strong>On a cliff ledge south of Giants' Gravepost Grace<br>
                         <strong class="me-1">Effect: </strong>Converts elemental damage to HP, lasts 15 seconds<br>
@@ -1406,7 +1420,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00405.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [2]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00405.png" height="70" loading="lazy" width="70">Cerulean Crystal Tear [2]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1419,7 +1433,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_1">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00405.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00405.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Cerulean Crystal Tear [2]<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree<br>
                         <strong class="me-1">Effect: </strong>Restores half of total FP<br>
@@ -1436,7 +1450,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00407.png" height="70" loading="lazy" width="70">Crimson Bubbletear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00407.png" height="70" loading="lazy" width="70">Crimson Bubbletear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1449,7 +1463,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_2">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00407.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00407.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Crimson Bubbletear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Erdtree Avatar near the eastern Minor Erdtree<br>
                         <strong class="me-1">Effect: </strong>Restores 25% of total HP when you drop below 20% health (but not all the way to 0%), lasts up to 180 seconds<br>
@@ -1507,7 +1521,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00413.png" height="70" loading="lazy" width="70">Thorny Cracked Tear
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00413.png" height="70" loading="lazy" width="70">Thorny Cracked Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1520,7 +1534,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_3">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00413.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00413.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Thorny Cracked Tear<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace<br>
                         <strong class="me-1">Effect: </strong>35% damage increase to consecutive attacks, lasts 180 seconds<br>
@@ -1537,7 +1551,7 @@
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
-                            <img class="me-1" data-src="/img/icons/crystal_tears/00417.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [2]
+                            <img class="me-1" data-src="/img/icons/keys/crystal_tears/00417.png" height="70" loading="lazy" width="70">Ruptured Crystal Tear [2]
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
@@ -1550,7 +1564,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="crystal_tears_8_4">
-                        <img class="float-end" data-src="/img/icons/crystal_tears/00417.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/keys/crystal_tears/00417.png" height="70" loading="lazy" width="70">
                         <strong class="me-1">Name: </strong>Ruptured Crystal Tear [2]<br>
                         <strong class="me-1">Location: </strong>Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace<br>
                         <strong class="me-1">Effect: </strong>Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1,750 damage in a 4-meter radius, but take 700 yourself<br>
@@ -1568,7 +1582,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -1614,7 +1628,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

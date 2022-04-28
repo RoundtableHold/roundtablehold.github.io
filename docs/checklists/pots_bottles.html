@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,6 +156,9 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
@@ -215,7 +229,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_0Col" data-bs-toggle="collapse" href="#pots_bottles_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/00504.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/00504.png" height="70" loading="lazy" width="70">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Cracked+Pot">Cracked Pots</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_0"></span>
             </h4>
@@ -373,7 +387,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_1Col" data-bs-toggle="collapse" href="#pots_bottles_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/03010.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/03010.png" height="70" loading="lazy" width="70">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Ritual+Pot">Ritual Pots</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_1"></span>
             </h4>
@@ -465,7 +479,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_2Col" data-bs-toggle="collapse" href="#pots_bottles_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/00443.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/00443.png" height="70" loading="lazy" width="70">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Perfume+Bottle">Perfume Bottles</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_2"></span>
             </h4>
@@ -551,7 +565,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -597,7 +611,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>
