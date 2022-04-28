@@ -1,0 +1,611 @@
+title: " TL;DR All NPC Quest Steps in Order"
+id: quest_order_tldr
+description: "These Steps are a TL;DR Version and will not explain how to get anywhere, only where to go. They will also follow the order of \"Intended\" Route and as such, will complete every questline in that order. That said, if I were to completely go with what I believed was \"Intended\", several questlines wouldn't be completed at all. Therefore, I will instead complete every questline with the \"best\" ending, that is to say I will try for happy endings whenever possible. If you are looking for specific results to questlines, please try the NPC Questlines section instead."
+sections:
+  -
+    title: "Limgrave"
+    items:
+      - id: "1"
+        data: ["Talk to Varré at the start of the game"]
+      - id: "2"
+        data: ["Talk to Kalé at the Church of Elleh"]
+      - id: "3"
+        data: ["Rest at the Third Grace you grab and form accord with Melina"]
+      - id: "4"
+        data: ["Break the tree illusion and talk to Boc"]
+      - id: "5"
+        data: ["Free Alexander from his hole near Saintsbridge Grace"]
+      - id: "6"
+        data: ["Talk to D near the graveyard East of Saintsbridge Grace"]
+      - id: "7"
+        data: ["Kill Mariner in Summonwater Village then talk to D nearby"]
+      - id: "8"
+        data: ["Talk to Kenneth Haight on top of the ruin to the South"]
+      - id: "9"
+        data: ["Talk to Melina at the Third Church of Marika"]
+      - id: "10"
+        data: ["Use Waygate near the Third Church of Marika and talk to Gurranq"]
+      - id: "11"
+        data: ["Listen to Blaidd's howling at Mistwood Ruins"]
+      - id: "12"
+        data: ["Kill the Knight at the top of Fort Haight and collect Dectus Medallion"]
+      - id: "13"
+        data: ["Go back to Kalé at Church of Elleh for Fingersnap"]
+      - id: "14"
+        data: ["Meet Renna at Church of Elleh at Night"]
+      - id: "15"
+        data: ["Talk to Boc at the entrance of the Coastal Cave"]
+      - id: "16"
+        data: ["Beat Coastal Cave (Summon Old Knight Istvan)"]
+      - id: "17"
+        data: ["Back to Boc"]
+      - id: "18"
+        data: ["Meet Yura South of the Lake"]
+      - id: "19"
+        data: ["Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
+      - id: "20"
+        data: ["Kill the Flying Dragon Agheel then back to Yura"]
+      - id: "21"
+        data: ["Meet Sellen under Waypoint Ruins"]
+      - id: "22"
+        data: ["Go kill Nerijus outside Murkwater Cave"]
+      - id: "23"
+        data: ["Talk to Yura North of Murkwater Cave"]
+      - id: "24"
+        data: ["Beat Patches in Murkwater Cave, but spare him. After sparing attack him then use emote he gives you when knocked to 50% health."]
+      - id: "25"
+        data: ["Talk to him, reload talk again and buy things, reload talk again and open chest when he gives you permission"]
+      - id: "26"
+        data: ["Talk to Kenneth at his previous location and accept his offer"]
+      - id: "27"
+        data: ["Use Fingersnap at Mistwood Ruins and talk to Blaidd"]
+      - id: "28"
+        data: ["Talk to Kenneth at the top of Fort Haight"]
+      - id: "29"
+        data: ["Talk to Patches in Murkwater Cave again"]
+      - id: "30"
+        data: ["Complete Deathtouched Catacombs near Saintsbridge Grace for Deathroot"]
+      - id: "31"
+        data: ["Meet Warmaster Bernahl at Warmaster's Shack"]
+      - id: "32"
+        data: ["Kill Recusant Henricus at the Coliseum"]
+      - id: "33"
+        data: ["Meet Roderika at Stormhill Shack"]
+      - id: "34"
+        data: ["Meet the Finger Reader on the bridge North of Stormhill Shack"]
+      - id: "35"
+        data: ["Defeat Bloodhound Knight Darriwil at Forlorn Hound Evergaol (Summoning Blaidd) then talk to Blaidd"]
+  -
+    title: "Weeping Peninsula"
+    items:
+      - id: "36"
+        data: ["Meet Irina near the Bridge of Sacrifice"]
+      - id: "37"
+        data: ["Talk to Melina at the Church of Pilgrimage"]
+      - id: "38"
+        data: ["Talk to Edgar in Castle Morne"]
+      - id: "39"
+        data: ["Kill Leonine Misbegotten (Summoning Edgar), return to Edgar"]
+      - id: "40"
+        data: ["Return to Irina"]
+  -
+    title: "Roundtable Hold"
+    items:
+      - id: "41"
+        data: ["Kill Margit at the entrance of Stormveil (Summoning Rogier) then talk to Melina at the Grace"]
+      - id: "42"
+        data: ["Talk to Corhyn, Gideon, D, Diallos, Hewg, Fia, and Ensha after entering Roundtable Hold"]
+      - id: "43"
+        data: ["Kill Mad Tongue Alberich in the area below the Balcony (this can be done anytime)"]
+  -
+    title: "Stormveil"
+    items:
+      - id: "44"
+        data: ["Talk to Gostoc near the Main Gate of Stormveil, refuse for dialogue then accept him"]
+      - id: "45"
+        data: ["Talk to Rogier inside the church"]
+      - id: "46"
+        data: ["Grab Chrysalid Memento from the room with the Grafted Scion and return it to Roderika"]
+      - id: "47"
+        data: ["Talk to Nepheli in a room near Secluded Cell Grace"]
+      - id: "48"
+        data: ["Kill Godric (Summoning Nepheli) and talk to Gostoc"]
+      - id: "49"
+        data: ["Go to the bottom of the castle, kill the Lesser Ulcerated Tree Spirit and interract with the bloodstain"]
+  -
+    title: "Limgrave/Roundtable"
+    items:
+      - id: "50"
+        data: ["Go back to Varré at the start of the game"]
+      - id: "51"
+        data: ["Go to Roundtable Hold and talk to Enia, Two Fingers, Nepheli, and Gideon"]
+      - id: "52"
+        data: ["Talk to D and Rogier until Dialogue with both is exhausted"]
+      - id: "53"
+        data: ["Talk to Fia for Knifeprint Clue"]
+      - id: "54"
+        data: ["Talk to Roderika and Hewg until dialogue with both is exhausted"]
+      - id: "55_1"
+        data: ["Go read the message at Varré's location at the start of the game"]
+  -
+    title: "Liurnia Lake"
+    items:
+      - id: "55"
+        data: ["Grab the Shabriri Grape under Stormveil Throne Room and give it to Hyetta at the Lake-Facing Cliffs Grace"]
+      - id: "56"
+        data: ["Talk to Boc"]
+      - id: "57"
+        data: ["Talk to Thops in the Church of Irith (Extra dialogues for giving any magic scroll, Sellen)"]
+      - id: "58"
+        data: ["Grab the Shabriri Grape from Purified Ruins and give to Hyetta near the shore"]
+      - id: "59"
+        data: ["Talk to Patches at Scenic Isle"]
+      - id: "60"
+        data: ["Talk to Rya at the pavilion near the telescope"]
+      - id: "61"
+        data: ["Talk to Blackguard Big Boggart at Boilprawn Shack and buy necklace then buy some Boiled Prawn"]
+      - id: "62"
+        data: ["Give the necklace to Rya"]
+      - id: "63"
+        data: ["Talk to Diallos Academy Gate Town"]
+      - id: "64"
+        data: ["Talk to Finger Reader nearby"]
+      - id: "65"
+        data: ["Talk to Varré at the Rose Church, Invade other players 3 times (may be able to invade NPCs instead), talk to Varré"]
+      - id: "66"
+        data: ["Defeat Edgar the Revenger at Revenger's Shack"]
+      - id: "66_2"
+        data: ["Grab the Glintstone Key from behind the Glintstone Dragon"]
+      - id: "67"
+        data: ["Use the Anticipation Gateway at Belfries and grab the Stormhawk Ashes"]
+      - id: "68"
+        data: ["Talk to Nepheli near Village of the Albinaurics"]
+      - id: "69"
+        data: ["Talk to Albus in Village of the Albinaurics"]
+      - id: "70"
+        data: ["Kill Omenkiller in Village of the Albinaurics (Summoning Nepheli)"]
+      - id: "71"
+        data: ["Defeat Lakeside Crystal Cave and talk to Latenna at Slumbering Wolf Shack"]
+      - id: "72"
+        data: ["Talk to Hyetta at Gate Town Bridge"]
+      - id: "73"
+        data: ["Kill Mariner on cliffs above Carian Study Hall for Deathroot"]
+      - id: "74"
+        data: ["Meet Jar Bairn in Jarburg. Repeatedly rest and talk to them until they are laying down."]
+      - id: "75"
+        data: ["Talk to Miriel, Pastor of Vows in the Church of Vows"]
+      - id: "76"
+        data: ["Defeat Black Knife Catacombs (including the hidden area) where Knifeprint Clue leads"]
+      - id: "77"
+        data: ["Use Laskyar Ruins Waygate and enter Raya Lucaria"]
+      - id: "78"
+        data: ["Invade alongside Yura near Main Academy Gate then talk to Yura"]
+      - id: "79"
+        data: ["Defeat Raya Lucaria Academy, collect Second Glintstone Key above the Church of the Cuckoo and save it for later"]
+  -
+    title: "Roundtable Hold"
+    items:
+      - id: "80"
+        data: ["Go back to Roundtable Hold, kill Ensha then talk to Gideon and Nepheli until dialogue with both is exhausted"]
+      - id: "81"
+        data: ["Talk to Hewg and Roderika"]
+      - id: "82"
+        data: ["Talk to Diallos"]
+      - id: "83"
+        data: ["Talk to Enia and buy some \"Demigod\" armor"]
+      - id: "84"
+        data: ["Exhaust dialogue with Fia and Rogier, reload and talk to Rogier again"]
+  -
+    title: "Liurnia Lake/Roundtable"
+    items:
+      - id: "85"
+        data: ["Talk to Boc, Finger Reader and Hyetta at East Raya Lucaria Gate Grace"]
+      - id: "86"
+        data: ["Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
+      - id: "87"
+        data: ["Talk to Melina at Grand Lift of Dectus Grace"]
+      - id: "88"
+        data: ["Talk to Hyetta at Bellum Church, and reload then talk again"]
+      - id: "89"
+        data: ["Talk to Varré at Rose Church"]
+      - id: "90"
+        data: ["Talk to Iji at the Road to the Manor Grace"]
+      - id: "91"
+        data: ["Defeat Caria Manor and discover the secret room under the ruins near Glintstone Dragon Adula"]
+      - id: "92"
+        data: ["Confess to Ranni in Ranni's Rise, get rejected, go back to Rogier for advice"]
+      - id: "93"
+        data: ["Try again and get accepted then meet her friends Iji, Blaidd, and Seluvis downstairs before talking to her again"]
+      - id: "94"
+        data: ["Talk to Seluvis in Seluvis' Rise then talk to Pidia nearby (Iji too if you want)"]
+      - id: "95"
+        data: ["Return to Rogier, reload and talk again"]
+  -
+    title: "Caelid"
+    items:
+      - id: "96"
+        data: ["Talk to Alexander in cave on Limgrave's side of Gael Tunnel"]
+      - id: "97"
+        data: ["Kill Anastasia at Smoldering Church"]
+      - id: "98"
+        data: ["Complete Gael Tunnel and talk to Alexander at the end"]
+      - id: "99"
+        data: ["Talk to the Finger Reader near the Telescope"]
+      - id: "100"
+        data: ["Talk to Gowry at Gowry's Shack"]
+      - id: "101"
+        data: ["Kill Commander O'Neil in swamp nearby, return to Gowry then reload and talk again"]
+      - id: "102"
+        data: ["Talk to Millicent in Church of Plague, reload then talk to Millicent again"]
+      - id: "103"
+        data: ["Reload and talk to Gowry"]
+  -
+    title: "Underground Siofra/Liurnia Lake/Castle Redmane"
+    items:
+      - id: "104"
+        data: ["Talk to Blaidd under Mistwood in Siofra River Well"]
+      - id: "105"
+        data: ["Go talk to Thops at Church of Irith (extra dialogue for Sellia) and give the Glintstone Key. Find his corpse in Raya Lucaria"]
+      - id: "106"
+        data: ["Talk to Seluvis at his location"]
+      - id: "107"
+        data: ["Talk to Sellen in Waypoint Ruins"]
+      - id: "108"
+        data: ["Talk to Blaidd in Siofra River Well"]
+      - id: "109"
+        data: ["Talk to Therolina, Alexander, Blaidd and Jerren at Castle Redmane"]
+      - id: "110"
+        data: ["Kill Radahn (Summoning as many as possible) then talk to Blaidd and Alexander"]
+      - id: "111"
+        data: ["Talk to Jerren back in Castle Redmane"]
+  -
+    title: "Underground Crater/Liurnia Lake"
+    items:
+      - id: "112"
+        data: ["Find the note at Mistwood Ruins"]
+      - id: "113"
+        data: ["Free Blaidd from Forlorn Hound Evergaol"]
+      - id: "114"
+        data: ["Talk to Iji at his spot"]
+      - id: "115"
+        data: ["Free Alexander at the cliffs above Jarburg"]
+      - id: "116"
+        data: ["Collect the Fingerslayer Blade in the crater at the end of the path South of the forest (For purposes of this guide DO NOT GIVE TO RANNI YET)"]
+      - id: "117"
+        data: ["Talk to D's Brother in the crater at the end of the path North of the forest and kill the Gargoyles for easy Grace teleport for later"]
+  -
+    title: "Mt. Gelmir"
+    items:
+      - id: "118"
+        data: ["Kill Magma Wyrm Makar in Ruin-Strewn Precipice (Summoning Great Horned Tragoth)"]
+      - id: "119"
+        data: ["Talk to Millicent near Lux Ruins"]
+      - id: "120"
+        data: ["Kill Mariner at Wyndham Ruins for Deathroot"]
+      - id: "121"
+        data: ["Talk to Rya near Lux Ruins to enter Volcano Manor (This will skip some dialogue with Patches but you can talk to him at Corpse-Stench Shack first if you want)"]
+      - id: "122"
+        data: ["Talk to Tanith and join the Manor"]
+      - id: "123"
+        data: ["Talk to Diallos, Rya, Bernahl and Patches, grab your first task and kill Invader Ghiza upstairs"]
+      - id: "124"
+        data: ["Kill the Magma Wyrm at Seethewater Terminus (Summoning Alexander) then talk to Alexander in the lava"]
+      - id: "125"
+        data: ["Grab the Prattling Pate You're Beautiful at Hermit Village"]
+      - id: "126"
+        data: ["Talk to Primeval Sorceror Azur near Hermit Village"]
+      - id: "127"
+        data: ["Complete Gelmir Hero's Grave for Deathroot"]
+  -
+    title: "Sellen/Volcano Manor Quests"
+    items:
+      - id: "128"
+        data: ["Kill Old Knight Istvan at Limgrave Coliseum"]
+      - id: "129"
+        data: ["Talk to Sellen in Waypoint Ruins and get the key"]
+      - id: "130"
+        data: ["Talk to Master Lusat in Sellia Hideaway"]
+      - id: "131"
+        data: ["Talk to Sellen at Witchbane Ruins, reload and talk to Jerren (may require doing the next step for him to appear)"]
+      - id: "132"
+        data: ["Talk to Sellen in the hidden room under the ruins of Ranni's Rise"]
+      - id: "133"
+        data: ["Go to Raya Lucaria boss room and choose to Help either Sellen or Jerren (If Sellen then reload and talk again)"]
+      - id: "134"
+        data: ["Talk to Tanith in Volcano Manor and grab second second request"]
+      - id: "135"
+        data: ["Talk to Diallos"]
+      - id: "136"
+        data: ["Talk to Patches for another request"]
+      - id: "137"
+        data: ["Kill Great Horned Tragoth at Magma Wyrm Makar bossroom"]
+      - id: "138"
+        data: ["Talk to Patches, reload and talk to Patches again."]
+  -
+    title: "Altus Plateau/Roundtable Hold"
+    items:
+      - id: "139"
+        data: ["Talk to Boc and Melina at Altus Highway Junction Grace"]
+      - id: "140"
+        data: ["Go to Roundtable Hold and talk to Brother Corhynn"]
+      - id: "141"
+        data: ["Talk to Fia then give the Weathered Dagger to D"]
+      - id: "142"
+        data: ["Reload and talk to Fia and collect D's Armor"]
+      - id: "143"
+        data: ["Talk to Roderika, Hewg and Dung Eater"]
+      - id: "144"
+        data: ["Talk to Brother Corhyn near Altus Highway Junction"]
+      - id: "145"
+        data: ["Talk to Yura and kill Eleonora, Violet Bloody Finger at Second Church of Marika"]
+      - id: "146"
+        data: ["Kill Rileigh the Idle on the way to Shaded Castle"]
+      - id: "147"
+        data: ["Grab Valkyrie's Prosthesis from Shaded Castle and give it to Millicent near Lux Ruins"]
+      - id: "148"
+        data: ["Talk to Finger Reader on South Side of Broken Bridge"]
+      - id: "149"
+        data: ["Talk to Goldmask on North Side of Broken Bridge"]
+      - id: "150"
+        data: ["Return to Brother Corhyn and then return to Goldmask again and talk to both of them"]
+      - id: "151"
+        data: ["Kill Godskin Apostle at Windmill Village (Summoning Millicent) and talk to Millicent"]
+      - id: "152"
+        data: ["Talk to Finger Reader outside of Leyndell's Inner Wall"]
+      - id: "153"
+        data: ["Talk to Melina at Outer Wall Battleground Grace"]
+      - id: "154"
+        data: ["Talk to Melina at Minor Erdtree Church Grace"]
+  -
+    title: "Leyndell Start/Dung Eater/Seluvis"
+    items:
+      - id: "155"
+        data: ["Talk to Boc at East Capital Rampart Grace and when he asks for a larval tear, use Prattling Pate You're Beautiful on him."]
+      - id: "156"
+        data: ["Grab any Seedbed Curse (one is in upstairs of the building at the bottom of the lift leaving East Capital Rampart Grace)talk to Dung Eater in Roundtable Hold"]
+      - id: "157"
+        data: ["Go to Sewers beneath Leyndell and free the Dung Eater"]
+      - id: "158"
+        data: ["Read the note where Dung Eater was in Roundtable Hold"]
+      - id: "159"
+        data: ["Go to Moat North of Leyndell and talk to Blackguard Big Boggart"]
+      - id: "160"
+        data: ["Reload and talk to Blackguard Big Boggart again then get avenge him by killing Dung Eater"]
+      - id: "161"
+        data: ["Return to Dung Eater in Roundtable Hold"]
+      - id: "162"
+        data: ["Return to Dung Eater in the Sewers and use Seluvis' Potion on him"]
+      - id: "163"
+        data: ["Return to Seluvis, buy all his spells and mention the hidden room to him (requires having at least 1 Starlight Shard) then buy 1 or more puppets"]
+      - id: "164"
+        data: ["Talk to him again and he'll ask for an Amber Starlight Shard"]
+      - id: "165"
+        data: ["Grab the Amber Starlight Shard from a statue near Altus Highway Junction and give it to Seluvis for a reward (For purposes of this guide DO NOT TALK TO HIM AFTER RELOADING)"]
+      - id: "166"
+        data: ["You can now give Stormhawk Ashes to Nepheli in Roundtable Hold (might require talking to Roderika after upgrading Spirit Ashes)"]
+  -
+    title: "Liurnia Lake/Deeproot Depths"
+    items:
+      - id: "167"
+        data: ["Give Fingerslayer Blade to Ranni"]
+      - id: "168"
+        data: ["Use Inverted Statue on desk in Carian Study Hall then grab Cursemark of Death from the top of the tower (Rogier's corpse will now be in Roundtable Hold)"]
+      - id: "169"
+        data: ["Give D's Armor to his brother outside the Gargoyle Boss Room and take the coffin inside the boss room"]
+      - id: "170"
+        data: ["Talk to Palm Reader nearby"]
+      - id: "171"
+        data: ["Kill Fia's Champions past Across the Roots Grace and talk to Fia, reload then talk to Fia again"]
+      - id: "172"
+        data: ["Reload, talk to sleeping Fia, kill the Lichdragon, loot Fia for Mending Rune of the Death-Prince and talk to D's Brother (attack him for extra dialogue)"]
+      - id: "173"
+        data: ["Reload for Fia's stuff"]
+  -
+    title: "Liurnia Lake/Ainsel River Main"
+    items:
+      - id: "174"
+        data: ["Talk to Iji at his spot for dialogue"]
+      - id: "175"
+        data: ["Go to Ranni's Rise and find Seluvis corpse, then go to Pidia for his corpse"]
+      - id: "176"
+        data: ["Go through the Waygate in Renna's Rise and grab the doll from the coffin nearby"]
+      - id: "177"
+        data: ["Talk to the doll at the grace 3 times"]
+      - id: "178"
+        data: ["Kill Baleful Shadow just before the Rot Lake and go through to the other side"]
+      - id: "179"
+        data: ["Go to Raya Lucaria bossroom and open the chest"]
+      - id: "180"
+        data: ["Take the coffin on the cliff near the Grand Cloister Grace"]
+      - id: "181"
+        data: ["Kill Astel and go up the lift"]
+      - id: "182"
+        data: ["Talk to Ranni at Moonlight Altar"]
+      - id: "183"
+        data: ["Kill Blaidd at Ranni's Rise"]
+      - id: "184"
+        data: ["Talk to Iji, reload and loot him"]
+  -
+    title: "Leyndell/Roundtable Hold"
+    items:
+      - id: "185"
+        data: ["Talk to Tanith in Volcano Manor for reward and grab Third Request"]
+      - id: "186"
+        data: ["Talk to Bernahl for another request"]
+      - id: "187"
+        data: ["Talk to Diallos if he's still here, if not don't worry about it"]
+      - id: "188"
+        data: ["Kill Errant Sorceror Wilhelm and Vargram the Raging Wolf in Fortified Manor"]
+      - id: "189"
+        data: ["Kill Mohgwyn, The Omen at Forsaken Depths at the bottom of the Sewers"]
+      - id: "190"
+        data: ["Talk to Brother Corhyn and Goldmask at the coliseum"]
+      - id: "191"
+        data: ["Kill Godfrey at the Erdtree Sanctuary and grab the Golden Order Principia from above the boss room"]
+      - id: "192"
+        data: ["Go to Miriel, Pastor of Vows and talk to him, give him the Golden Order Principia and buy the Law of Regression"]
+      - id: "193"
+        data: ["Return to Erdtree Sanctuary Grace, go down the lift nearby and read the message"]
+      - id: "194"
+        data: ["Use Law of Regression at the message and read the new message"]
+      - id: "195"
+        data: ["Return to Goldmask and Brother Corhyn at Coliseum"]
+      - id: "196"
+        data: ["Kill Morgott and talk to Melina"]
+      - id: "197"
+        data: ["Talk to Melina at Queen's Bedchamber Grace"]
+      - id: "198"
+        data: ["Go to the Grand Lift of Rold and talk to the Finger Reader"]
+  -
+    title: "Roundtable Hold/Nepheli/Dragonbarrow/Volcano Manor"
+    items:
+      - id: "199"
+        data: ["Talk to Enia, Gideon and Hewg at the Roundtable"]
+      - id: "200"
+        data: ["Go to Stormveil and talk to Nepheli, Kenneth and Gostoc at the throne room"]
+      - id: "201"
+        data: ["Go to Bestial Sanctum and feed Deathroot to Gurranq"]
+      - id: "202"
+        data: ["Reload, beat up Gurranq but don't kill him and talk to him again"]
+      - id: "203"
+        data: ["Go to the coliseum in Dragonbarrow and talk to the Great Jar"]
+      - id: "204"
+        data: ["Kill the 3 Red Summons from the Summon Signs nearby and talk to the Great Jar again"]
+      - id: "205"
+        data: ["Go to Volcano Manor and get rewarded by Bernahl"]
+      - id: "206"
+        data: ["Talk to Rya in snake form, reload and talk again"]
+      - id: "207"
+        data: ["Talk to Tanith"]
+      - id: "208"
+        data: ["Go through the Illusory Wall in the manor and progress to killing the Godskin Noble in Temple of Eiglay and grab the Serpent's Amnion"]
+      - id: "209"
+        data: ["Talk to Rya, reload and talk to Tanith"]
+      - id: "210"
+        data: ["Go past Temple of Eiglay and find Rya and talk to her (no potion if you have it already) then talk to Tanith"]
+  -
+    title: "Mountaintops of the Giants/Volcano Manor"
+    items:
+      - id: "211"
+        data: ["Talk to Melina at Zamor Ruins Grace"]
+      - id: "212"
+        data: ["Talk to Shabriri at Zamor Ruins then talk to Melina again (may require talking at Ancient Snow Valley Ruins Grace)"]
+      - id: "213"
+        data: ["Defeat Giant's Mountaintop Catacombs for Deathroot"]
+      - id: "214"
+        data: ["Talk to Millicent at Ancient Snow Valley Ruins Grace"]
+      - id: "215"
+        data: ["Kill Juno Hoslow at Shack of the Lofty"]
+      - id: "216"
+        data: ["Talk to Tanith in Volcano Manor"]
+      - id: "217"
+        data: ["Kill Rykard in Volcano Manor"]
+      - id: "218"
+        data: ["Talk to Tanith, Bernahl and Patches"]
+      - id: "219"
+        data: ["Talk to Rya again (no potion), reload and read her note"]
+      - id: "220"
+        data: ["Talk to Patches at Shaded Castle"]
+      - id: "221"
+        data: ["Talk Tanith at Rykard's bossroom then kill her"]
+      - id: "222"
+        data: ["Kill Tibia Mariner in graveyard on the way to Stargazer's Ruins"]
+      - id: "221_2"
+        data: ["Fight, defeat and talk to Patches in Murkwater Cave"]
+      - id: "223"
+        data: ["Summon Jellyfish at Stargazer's Ruins and talk to the spirit"]
+      - id: "224"
+        data: ["Talk to Brother Corhyn and Goldmask near Stargazer's Ruins (If you give him the Potion of Forgetfulness, he will be here after finishing Crumbling Farum Azula)"]
+      - id: "225"
+        data: ["Get the other half of Haligtree Medallion from Castle Sol"]
+      - id: "226"
+        data: ["Talk to Melina at the First Church of Marika"]
+      - id: "227"
+        data: ["Talk to Melina at the Giant's Gravepost Grace"]
+      - id: "228"
+        data: ["Kill the Fire Giant (Summoning Alexander) DO NOT PROCEED TO THE FORGE YET"]
+  -
+    title: "Consecrated Snowfield/Gurranq/Gowry"
+    items:
+      - id: "229"
+        data: ["Use the Haligtree Medallion at the Grand Lift of Rold"]
+      - id: "230"
+        data: ["Kill the Mimic in the Hidden Path to the Haligtree for a Deathroot"]
+      - id: "231"
+        data: ["Summon Latenna at Apostate Derelict"]
+      - id: "232"
+        data: ["Enter the Waygate to Mohgwyn's Palace"]
+      - id: "233"
+        data: ["Give the remaining Deathroot to Gurranq"]
+      - id: "234"
+        data: ["Talk to Gowry and buy all his spells then talk again (may need reload)"]
+  -
+    title: "Mohgwyn's Palace/Miquella's Haligtree"
+    items:
+      - id: "235"
+        data: ["Kill the 3 Invaders, Nameless White Masks spread throughout the Mohgwyn's Palace area"]
+      - id: "236"
+        data: ["Invade and kill Varré near the Dynasty Mausoleum Midpoint Grace then speak to him"]
+      - id: "237"
+        data: ["Kill Mohgwyn, Lord of Blood"]
+      - id: "238"
+        data: ["Light the fires in Ordina, Liturgical Town in Consecrated Snowfield"]
+      - id: "239"
+        data: ["Talk to Millicent in the Prayer Room of the Haligtree"]
+      - id: "240"
+        data: ["Kill the Ulcerated Tree Spirit near Drainage Channel Grace"]
+      - id: "241"
+        data: ["Near where you killed the Ulcerated Tree Spirit, choose to Save or Kill Millicent (for purposes of the guide, we are saving her) and talk to her afterward"]
+      - id: "242"
+        data: ["Kill Malenia"]
+      - id: "243"
+        data: ["Return to Gowry and talk him and reload (if he isn't dead, kill him)"]
+      - id: "244"
+        data: ["Go to Gideon and talk to him about the Medallion, the Tree, the Palace, and the Lord of Blood"]
+      - id: "245"
+        data: ["Talk to Hewg after upgrading any weapon to max"]
+  -
+    title: "WARNING!!! THIS PARTICULAR STEP IS OPTIONAL BUT WILL BE REQUIRED TO FINISH ALL QUESTLINES COMPLETELY"
+    items:
+      - id: "246"
+        data: ["Go to the Cathedral of the Forsaken Grace in the Sewers and talk to Melina"]
+      - id: "247"
+        data: ["Attack the altar then travel down to the bottom and talk to Hyetta before undressing in front of her"]
+      - id: "248"
+        data: ["Talk to Melina at the Frenzied Flame Proscription Grace (THIS IS YOUR FINAL CHANCE TO STOP)"]
+      - id: "249"
+        data: ["Open up the doors and let the Fingers have their way with unclothed body"]
+      - id: "250"
+        data: ["Talk Hyetta"]
+      - id: "251"
+        data: ["Talk to Melina"]
+  -
+    title: "Crumbling Farum Azula/Wrapping Up"
+    items:
+      - id: "252"
+        data: ["Go to the Forge of Giants and rest at the Grace"]
+      - id: "253"
+        data: ["Talk to Alexander, behind the Imp Statue near Dragon Temple Lift Grace, duel him and kill him"]
+      - id: "254"
+        data: ["Kill Recusant Bernahl near Beside the Great Bridge Grace going on the path opposite the bossroom"]
+      - id: "255"
+        data: ["Talk to Boc back at East Capital Rampart Grace"]
+      - id: "256"
+        data: ["Talk to Jar Bairn and Diallos in Jargurg, reloading until all dialog is finished"]
+      - id: "257"
+        data: ["Pass time until morning and talk to each again"]
+      - id: "258"
+        data: ["Reload and talk to Jar Bairn then reload and give him Alexander's Shard then reload again"]
+      - id: "259"
+        data: ["Talk to Hewg, Roderika and Gideon in Roundtable Hold. Enia will be dead"]
+      - id: "260"
+        data: ["Kill Malekith the Black Blade at the end of Crumbling Farrum Azula"]
+  -
+    title: "Capital of Ash"
+    items:
+      - id: "261"
+        data: ["Talk to Brother Corhyn, reload and grab his stuff"]
+      - id: "262"
+        data: ["Find Goldmask's body beyond the giant plants and get the Mending Rune of Perfect Order then reload for his stuff"]
+      - id: "263"
+        data: ["Finish the game"]

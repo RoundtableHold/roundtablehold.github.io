@@ -38,18 +38,32 @@
         iconSize: [60,60],
     });
 
-    var customLayer = L.geoJson(null, {
-        pointToLayer: function(feature, latlng) {
-            return L.marker(rc.unproject([latlng.lat, latlng.lng]), {
-                icon: grace,
-            });
-        }
-    });
-    var layer = omnivore.csv('/map/data/graces.csv', null, customLayer)
-        .on('error', function(e) {
-            console.log(e);
-        });
+    $.getJSON('/map/data/graces.json', function(geojson) {
+        L.geoJSON(geojson, {
+            pointToLayer: function(feature, latlng) {
+                return L.marker(rc.unproject([latlng.lng, latlng.lat]), {
+                    icon: grace,
+                });
+            },
+        }).bindPopup(function(layer) {
+            return layer.feature.properties.title;
+        }).addTo(map);
+    }).done(function() { console.log('done')})
+    .fail(function() { console.log('error')})
 
-    layer.addTo(map);
+
+    // var customLayer = L.geoJson(null, {
+    //     pointToLayer: function(feature, latlng) {
+    //         return L.marker(rc.unproject([latlng.lat, latlng.lng]), {
+    //             icon: grace,
+    //         });
+    //     }
+    // });
+    // var layer = omnivore.csv('/map/data/graces.csv', null, customLayer)
+    //     .on('error', function(e) {
+    //         console.log(e);
+    //     });
+
+    // layer.addTo(map);
 
 }) (jQuery);

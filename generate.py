@@ -24,13 +24,13 @@ def strip_a_tags(s):
 dropdowns = []
 pages = []
 item_links = []
-with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
+with open(os.path.join('data', 'pages.yaml'), 'r', encoding='utf_8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
     item_links = yml['item_links']
     for dropdown in yml['dropdowns']:
         dropdown_urls = []
         for page in dropdown['pages']:
-            with open(os.path.join('data', page), 'r', encoding='utf_8') as data:
+            with open(os.path.join('data', 'checklists', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
                 dropdown_urls.append((yml['title'], yml['id']))
@@ -813,4 +813,26 @@ for page in pages:
                     })
 
 with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
-    json.dump(search_idx, s_idx)
+    json.dump(search_idx, s_idx, indent=2, sort_keys=True)
+
+
+with open(os.path.join('data', 'map', 'graces.yaml'), 'r') as inf:
+    yml = yaml.safe_load(inf)
+    geojson = {}
+    geojson['type'] = 'FeatureCollection'
+    geojson['features'] = []
+    for marker in yml['markers']:
+        geojson['features'].append({
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': marker['cords'],
+            },
+            'properties': {
+                'title': marker['title'],
+                'description': marker['description'],
+                'id': marker['id'],
+            },
+        })
+    with open(os.path.join('docs', 'map', 'data', 'graces.json'), 'w') as outf:
+        json.dump(geojson, outf, indent=2, sort_keys=True)
