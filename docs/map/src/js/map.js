@@ -91,6 +91,7 @@
             extent: erextent,
             resolutions: ertilegrid.getResolutions(),
             showFullExtent: true,
+            enableRotation: false,
         }),
         overlays: [overlay],
     });
@@ -116,11 +117,12 @@
         }
         let feature = map.getFeaturesAtPixel(evt.pixel)[0];
         if (feature) {
+            const p = map.getPixelFromCoordinate(feature.getGeometry().flatCoordinates);
             info.css({
-                left: evt.pixel[0] + 'px',
-                top: evt.pixel[1] - 15 + 'px',
+                left: (p[0] + 10) + 'px',
+                top: (p[1] + 57) + 'px',
             });
-            info.attr('title', feature.get('title'));
+            info.attr('data-bs-original-title', feature.get('title'));
             tooltip.show();
         } else {
             tooltip.hide();
@@ -131,8 +133,8 @@
         const coordinate = evt.coordinate;
         let feature = map.getFeaturesAtPixel(evt.pixel)[0];
         if (feature) {
-            content.innerHTML = `<h4>${feature.get("title")}</h4>`;
-            overlay.setPosition(coordinate);
+            content.innerHTML = `<h4>${feature.get("title")}</h4><p>${feature.get('description')}</p>`;
+            overlay.setPosition(feature.getGeometry().flatCoordinates);
             return;
         }
 
