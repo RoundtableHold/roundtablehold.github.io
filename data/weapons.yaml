@@ -552,7 +552,11 @@ sections:
     items:
       - id: "21_1"
         icon: "/img/icons/weapons/flails/10481.png"
+<<<<<<< HEAD
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest in the eastern hearse at Gatefront Ruins", "Normal"]
+=======
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest on the eastern hearse at Gatefront Ruins", "Normal"]
+>>>>>>> 605a46d (add acquisition method for colossal weapons)
         # TODO: link grace
       - id: "21_2"
         icon: "/img/icons/weapons/flails/10480.png"
@@ -637,49 +641,62 @@ sections:
     items:
       - id: "6_5"
         icon: "/img/icons/weapons/colossalweapons/10884.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Greataxe\">Duelist Greataxe</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Duelist+Greataxe\">Duelist Greataxe</a>", "Dropped by Duelists near the West Capital Rampart Site of Grace.<br> NOTE: can not be farmed after Maliketh has been killed.", "Normal"]
+        # TODO: add grace link and link to Maliketh
       - id: "6_15"
         icon: "/img/icons/weapons/colossalweapons/10895.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Greataxe\">Rotten Greataxe</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Greataxe\">Rotten Greataxe</a>", "Dropped by Rotten Duelist north of Ordina Liturgical Town.", "Normal"]
+        # TODO: add grace link
       - id: "6_12"
         icon: "/img/icons/weapons/colossalweapons/10892.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem's+Halberd\">Golem's Halberd</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem's+Halberd\">Golem's Halberd</a>", "Dropped by Golem's wielding this weapon. Can be farmed ar Limgrave Twower Bridge Site of Grace.", "Normal"]
+        # TODO: add grace link  
       - id: "6_11"
         icon: "/img/icons/weapons/colossalweapons/10891.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant-Crusher\">Giant-Crusher</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant-Crusher\">Giant-Crusher</a>", "Can be found in a chest just south of the Outer Wall Phantom Tree Site of Grac.", "Normal"]
+        # TODO: add grace link
       - id: "6_1"
         icon: "/img/icons/weapons/colossalweapons/10880.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prelate's+Inferno+Crozier\">Prelate's Inferno Crozier</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prelate's+Inferno+Crozier\">Prelate's Inferno Crozier</a>", "Drops from an enemy inside Fort Laiedd near Seethewater Terminus Site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "6_3"
         icon: "/img/icons/weapons/colossalweapons/10882.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Club\">Great Club</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Club\">Great Club</a>", "Dropped by the Stonedigger Troll Boss at the end of Old Altus Tunnel.", "Normal"]
+        # TODO: add old altus tunnel link
       - id: "6_13"
         icon: "/img/icons/weapons/colossalweapons/10893.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Troll's+Hammer\">Troll's Hammer</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Troll's+Hammer\">Troll's Hammer</a>", "Found in a shed in the Old Altus Tunnel", "Normal"]
       - id: "6_7"
         icon: "/img/icons/weapons/colossalweapons/10886.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Greatclaw\">Dragon Greatclaw</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Greatclaw\">Dragon Greatclaw</a>", "Dropped by the Draconic Tree Sentinel at the Capital Outskirts.", "Somber"]
+        # TODO: link boss and grace
       - id: "6_2"
         icon: "/img/icons/weapons/colossalweapons/10881.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Watchdog's+Staff\">Watchdog's Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Watchdog's+Staff\">Watchdog's Staff</a>", "Found in Road's End Catacombs in Liurnia of the Lakes behind a hidden wall all the way down the stairs where the lever is.", "Somber"]
+        # TODO: add grace link
       - id: "6_8"
         icon: "/img/icons/weapons/colossalweapons/10887.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+the+Avatar\">Staff of the Avatar</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+the+Avatar\">Staff of the Avatar</a>", "Dropped by Erdtree Avatar you encounter near the Great Waterfall Crest site of Grace.", "Somber"]
+        # TODO: add grace link maybe a youtube link for navigation as this area is "secret"
       - id: "6_14"
         icon: "/img/icons/weapons/colossalweapons/10894.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Staff\">Rotten Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Staff\">Rotten Staff</a>", "Dropped by Erdtree Avatar on the ring walkway at Elphael, Brace of the Haligtree.", "Somber"]
+        # TODO: add grace link
       - id: "6_4"
         icon: "/img/icons/weapons/colossalweapons/10883.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Greathorn\">Envoy's Greathorn</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Envoy's+Greathorn\">Envoy's Greathorn</a>", "Dropped by Giant Oracle Envoy's at Miquella's Haligtree.", "Somber"]
+        # TODO: add grace link  
       - id: "6_10"
         icon: "/img/icons/weapons/colossalweapons/10890.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ghiza's+Wheel\">Ghiza's Wheel</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ghiza's+Wheel\">Ghiza's Wheel</a>", "Dropped by NPC Invader Inquisitor Ghiza up the Stairs in Volcano Manor.", "Somber"]
+        # TODO: add grace and boss link
       - id: "6_9"
         icon: "/img/icons/weapons/colossalweapons/10888.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fallingstar+Beast+Jaw\">Fallingstar Beast Jaw</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fallingstar+Beast+Jaw\">Fallingstar Beast Jaw</a>", "Dropped by Full-Grown Fallingstar Beast in Mt. Gelmir.", "Somber"]
+        # TODO: add grace link and boss link
       - id: "6_6"
         icon: "/img/icons/weapons/colossalweapons/10885.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Axe+of+Godfrey\">Axe of Godfrey</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Axe+of+Godfrey\">Axe of Godfrey</a>", "Can be traded for Rememberance of Hoarah Loux with Enia at Roundtable Hold.", "Somber"]
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
