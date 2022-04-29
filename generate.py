@@ -166,12 +166,11 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
-    script(src='/js/common.js')
     script(src="/js/jstorage.min.js")
+    script(src='/js/common.js')
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
     script(src="/js/jquery.highlight.js")
-    script(src="/js/jstorage.min.js")
     raw("""
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -286,19 +285,20 @@ def make_index():
 def make_map():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
     with doc.head:
-        link(rel='stylesheet', href='/css/leaflet.css')
+        link(rel='stylesheet', href='/map/src/css/ol.css')
+        link(rel='stylesheet', href='/map/src/css/map.css')
     with doc:
         with div(cls='container-fluid vh-100 d-flex flex-column'):
             make_nav('map')
             with div(cls='row flex-grow-1'):
                 div(cls='col flex-grow-1', id='map')
+            with div(id='popup', cls='ol-popup'):
+                a(href='#', id='popup-closer', cls='ol-popup-closer')
+                div(id='popup-content')
+            div(id='info')
         make_footer()
-        script(src='/js/leaflet.js')
-        script(src='/js/rastercoords.js')
-        script(src='/js/leaflet-omnivore.min.js')
-        script(src='/js/SmoothWheelZoom.js')
-        script(src='/map/map.js')
-        # script(src='/js/map.js')
+        script(src='/map/src/js/ol.js')
+        script(src='/map/src/js/map.js')
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 
@@ -698,70 +698,9 @@ with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as
 with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
-var profilesKey = 'darksouls3_profiles';\n
 (function($) {
     'use strict';
     $(function() {
-        var profiles = $.jStorage.get(profilesKey, {});
-    
-    var themes = {
-        "Standard" : "/css/bootstrap.min.css",
-        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
-        "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
-        "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
-        "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
-        "Darkly" : "/css/themes/darkly/bootstrap.min.css",
-        "Flatly" : "/css/themes/flatly/bootstrap.min.css",
-        "Journal" : "/css/themes/journal/bootstrap.min.css",
-        "Litera" : "/css/themes/litera/bootstrap.min.css",
-        "Lumen" : "/css/themes/lumen/bootstrap.min.css",
-        "Lux" : "/css/themes/lux/bootstrap.min.css",
-        "Materia" : "/css/themes/materia/bootstrap.min.css",
-        "Minty" : "/css/themes/minty/bootstrap.min.css",
-        "Morph" : "/css/themes/Morph/bootstrap.min.css",
-        "Pulse" : "/css/themes/pulse/bootstrap.min.css",
-        "Quartz" : "/css/themes/quartz/bootstrap.min.css",
-        "Regent" : "/css/themes/regent/bootstrap.min.css",
-        "Sandstone" : "/css/themes/sandstone/bootstrap.min.css",
-        "Simplex" : "/css/themes/simplex/bootstrap.min.css",
-        "Sketchy" : "/css/themes/sketchy/bootstrap.min.css",
-        "Slate" : "/css/themes/slate/bootstrap.min.css",
-        "Solar" : "/css/themes/solar/bootstrap.min.css",
-        "Spacelab" : "/css/themes/spacelab/bootstrap.min.css",
-        "Superhero" : "/css/themes/superhero/bootstrap.min.css",
-        "United" : "/css/themes/united/bootstrap.min.css",
-        "Vapor" : "/css/themes/vapor/bootstrap.min.css",
-        "Yeti" : "/css/themes/yeti/bootstrap.min.css",
-        "Zephyr" : "/css/themes/zephyr/bootstrap.min.css",
-    };
-
-        /// assure default values are set
-        /// necessary 'cause we're abusing local storage to store JSON data
-        /// done in a more verbose way to be easier to understand
-        if (!('current' in profiles)) profiles.current = 'Default Profile';
-        if (!(profilesKey in profiles)) profiles[profilesKey] = {};
-        initializeProfile(profiles.current);
-        function initializeProfile(profile_name) {
-            if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
-            if (!('checklistData' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].checklistData = {};
-            if (!('collapsed' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].collapsed = {};
-            if (!('hide_completed' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].hide_completed = false;
-            if (!('journey' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].journey = 1;
-            if (!('style' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].style = 'Standard';
-        }
-        
-    function themeSetup(stylesheet) {
-        if(stylesheet === null || stylesheet === undefined) { // if we didn't get a param, then
-            stylesheet = profiles[profilesKey][profiles.current].style; // fall back on "light" if cookie not set
-        }
-        $("#bootstrap").attr("href", themes[stylesheet]);
-    }
-        themeSetup(profiles[profilesKey][profiles.current].style);
         """)
     f.write('var all_ids = new Set([\n')
     all_ids_list = list(all_ids)
@@ -816,23 +755,25 @@ with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
     json.dump(search_idx, s_idx, indent=2, sort_keys=True)
 
 
-with open(os.path.join('data', 'map', 'graces.yaml'), 'r') as inf:
-    yml = yaml.safe_load(inf)
-    geojson = {}
-    geojson['type'] = 'FeatureCollection'
-    geojson['features'] = []
-    for marker in yml['markers']:
-        geojson['features'].append({
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': marker['cords'],
-            },
-            'properties': {
-                'title': marker['title'],
-                'description': marker['description'],
-                'id': marker['id'],
-            },
-        })
-    with open(os.path.join('docs', 'map', 'data', 'graces.json'), 'w') as outf:
-        json.dump(geojson, outf, indent=2, sort_keys=True)
+for root, dirs, files in os.walk(os.path.join('data', 'map')):
+    for file in files:
+        with open(os.path.join(root, file), 'r') as inf:
+            yml = yaml.safe_load(inf)
+            geojson = {}
+            geojson['type'] = 'FeatureCollection'
+            geojson['features'] = []
+            for marker in yml['markers']:
+                geojson['features'].append({
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'Point',
+                        'coordinates': marker['cords'],
+                    },
+                    'properties': {
+                        'title': marker['title'],
+                        'description': marker['description'],
+                        'id': marker['id'],
+                    },
+                })
+            with open(os.path.join('docs', 'map', 'data', file[:-4] + 'json'), 'w') as outf:
+                json.dump(geojson, outf, indent=2, sort_keys=True)

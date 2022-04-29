@@ -1,61 +1,5 @@
-var profilesKey = 'darksouls3_profiles';
-
-// if ('serviceWorker' in navigator) {
-//     window.addEventListener('load', function() {
-//         navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
-//     });
-// }
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        for (let registration of registrations) {
-            registration.unregister();
-        }
-    })
-}
-
 (function($) {
     'use strict';
-
-    var themes = {
-        "Standard" : "/css/bootstrap.min.css",
-        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
-        "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
-        "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
-        "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
-        "Darkly" : "/css/themes/darkly/bootstrap.min.css",
-        "Flatly" : "/css/themes/flatly/bootstrap.min.css",
-        "Journal" : "/css/themes/journal/bootstrap.min.css",
-        "Litera" : "/css/themes/litera/bootstrap.min.css",
-        "Lumen" : "/css/themes/lumen/bootstrap.min.css",
-        "Lux" : "/css/themes/lux/bootstrap.min.css",
-        "Materia" : "/css/themes/materia/bootstrap.min.css",
-        "Minty" : "/css/themes/minty/bootstrap.min.css",
-        "Morph" : "/css/themes/Morph/bootstrap.min.css",
-        "Pulse" : "/css/themes/pulse/bootstrap.min.css",
-        "Quartz" : "/css/themes/quartz/bootstrap.min.css",
-        "Regent" : "/css/themes/regent/bootstrap.min.css",
-        "Sandstone" : "/css/themes/sandstone/bootstrap.min.css",
-        "Simplex" : "/css/themes/simplex/bootstrap.min.css",
-        "Sketchy" : "/css/themes/sketchy/bootstrap.min.css",
-        "Slate" : "/css/themes/slate/bootstrap.min.css",
-        "Solar" : "/css/themes/solar/bootstrap.min.css",
-        "Spacelab" : "/css/themes/spacelab/bootstrap.min.css",
-        "Superhero" : "/css/themes/superhero/bootstrap.min.css",
-        "United" : "/css/themes/united/bootstrap.min.css",
-        "Vapor" : "/css/themes/vapor/bootstrap.min.css",
-        "Yeti" : "/css/themes/yeti/bootstrap.min.css",
-        "Zephyr" : "/css/themes/zephyr/bootstrap.min.css",
-    };
-
-    var profiles = $.jStorage.get(profilesKey, {});
-    
-    /// assure default values are set
-    /// necessary 'cause we're abusing local storage to store JSON data
-    /// done in a more verbose way to be easier to understand
-    if (!('current' in profiles)) profiles.current = 'Default Profile';
-    if (!(profilesKey in profiles)) profiles[profilesKey] = {};
-    initializeProfile(profiles.current);
-
 
     jQuery(document).ready(function($) {
         // Get the right style going...
@@ -113,8 +57,6 @@ if ('serviceWorker' in navigator) {
             }
         }
     
-        themeSetup(profiles[profilesKey][profiles.current].style);
-        
         $("a[href^='http']").attr('target','_blank');
         
         $('.checkbox input[type="checkbox"]').click(function() {
