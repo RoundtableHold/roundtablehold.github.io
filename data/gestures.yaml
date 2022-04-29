@@ -59,10 +59,10 @@ sections:
         data: ["Grovel for Mercy", "Murkwater Cave", "Patches", "When you first encounter Patches, after lowering his health enough, he'll perform this gesture as his surrender. If you stop attacking, the fight will end, and you'll get the gesture unlock."]
       - id: "1_5"
         icon: "/img/icons/gestures/07018.png"
-        data: ["Extreme Repentance", "Murkwater Cave", "Patches", "After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)"]
+        data: ["Extreme Repentance", "Murkwater Cave", "Patches", "At any time in Murkwater Cave after befriending Patches, even at the end of his questline when he returns, aggro him again and start another fight. This time, let him get YOUR health down below half. He'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro. Be very careful, because he does not stop attacking, so you have to equip and perform the gesture while also running from him. He won't accept your surrender if you've healed, either; you need to still be below half health.)"]
       - id: "1_6"
         icon: "/img/icons/gestures/07016.png"
-        data: ["Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you."]
+        data: ["Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave, then go talk to him about it."]
       - id: "1_7"
         icon: "/img/icons/gestures/07030.png"
         data: ["Finger Snap", "Church of Elleh", "Blaidd", "Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it."]
@@ -118,10 +118,10 @@ sections:
         data: ["Spread Out", "Boilprawn Shack", "Blackguard Big Boggart", "Buy some boiled prawns and talk to him."]
       - id: "3_4"
         icon: "/img/icons/gestures/07046.png"
-        data: ["Erudition", "Church of Irith", "puzzle towers", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
+        data: ["Erudition", "Church of Irith", "Thops", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
       - id: "3_5"
         icon: "/img/icons/gestures/07039.png"
-        data: ["Balled Up", "Academy of Raya Lucaria", "", "Use a Larval Tear to rebirth yourself with Rennala."]
+        data: ["Balled Up", "Academy of Raya Lucaria", "", "Perform rebirth or cosmetics with Rennala."]
       - id: "3_6"
         icon: "/img/icons/gestures/07008.png"
         data: ["Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
@@ -134,10 +134,10 @@ sections:
         data: ["Desperate Prayer", "Gowry's Shack", "Gowry", "Buy the incantation Pest Threads, which becomes available at a certain point in his questline, then exhaust his dialogue."]
       - id: "4_2"
         icon: "/img/icons/gestures/07021.png"
-        data: ["Heartening Cry", "Redmane Castle", "", "Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
+        data: ["Heartening Cry", "Redmane Castle", "Jerren", "Talk to Jerren the festival announcer at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
       - id: "4_3"
         icon: "/img/icons/gestures/07001.png"
-        data: ["Polite Bow", "Redmane Castle", "", "Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
+        data: ["Polite Bow", "Redmane Castle", "", "Try to talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight."]
       - id: "4_4"
         icon: "/img/icons/gestures/07008.png"
         data: ["Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
@@ -147,7 +147,7 @@ sections:
     items:
       - id: "5_1"
         icon: "/img/icons/gestures/07002.png"
-        data: ["My Thanks", "Volcano Manor", "Volcano Manor", "At the end of the hallway after beating Rykard."]
+        data: ["My Thanks", "Volcano Manor", "Volcano Manor", "After beating Rykard, return to where you met the ghost in the primary hall of the Manor to find he's left you this gesture."]
   -
     title: "Leyndell, Royal Capital"
     table: ["Name", "Location", "Questline", "Description"]
@@ -157,23 +157,23 @@ sections:
         data: ["Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
       - id: "6_2"
         icon: "/img/icons/gestures/07022.png"
-        data: ["By My Sword", "Fortified Manor, First Floor", "", "In a small room in the south wing."]
+        data: ["By My Sword", "Fortified Manor, First Floor", "", "In the parallel to Fia's room."]
       - id: "6_3"
         icon: "/img/icons/gestures/07005.png"
         data: ["My Lord", "East Capital Rampart", "Boc", "Give Boc the Gold Sewing Needle."]
       - id: "6_4"
         icon: "/img/icons/gestures/07049.png"
-        data: ["Golden Order Totality", "", "Goldmask", "Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum."]
+        data: ["Golden Order Totality", "", "Goldmask", "After solving the Regression puzzle, tell Goldmask by the colosseum."]
   -
     title: "Mountaintops of the Giants"
     table: ["Name", "Location", "Questline", "Description"]
     items:
       - id: "7_1"
         icon: "/img/icons/gestures/07029.png"
-        data: ["Fancy Spin", "Stargazer's Ruins", "jellyfish", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
+        data: ["Fancy Spin", "Stargazer's Ruins", "Aurelia", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
       - id: "7_2"
         icon: "/img/icons/gestures/07023.png"
-        data: ["Hoslow's Oath", "east of Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow."]
+        data: ["Hoslow's Oath", "Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow as part of Volcano Manor. He'll perform this gesture when you arrive; just let him finish and it'll unlock."]
   -
     title: "Nokron, Eternal City"
     table: ["Name", "Location", "Questline", "Description"]
