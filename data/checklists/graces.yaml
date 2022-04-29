@@ -2,7 +2,11 @@ title: "Sites of Grace"
 id: graces
 sections:
   -
-    title: Main Limgrave
+    title: Roundtable Hold
+    items:
+      - id: "313"
+        data: ["Table of Lost Grace"]
+    title: Limgrave
     items:
       - id: "0"
         data: ["The First Step"]
@@ -129,7 +133,7 @@ sections:
       - id: "55"
         data: ["Godrick the Grafted"]
   -
-    title: Main Liurnia of the Lakes
+    title: Liurnia of the Lakes
     items:
       - id: "56"
         data: ["Lake-Facing Cliffs"]
@@ -256,7 +260,7 @@ sections:
       - id: "114"
         data: ["Ruin-Strewn Precipice Overlook"]
       - id: "115"
-        data: ["Magma Wyrm"]
+        data: ["Magma Wyrm Makar"]
   -
     title: Moonlight Altar
     items:
@@ -278,7 +282,7 @@ sections:
       - id: "122"
         data: ["Raya Lucaria Grand Library"]
   -
-    title: Main Altus Plateau
+    title: Altus Plateau
     items:
       - id: "123"
         data: ["Abandoned Coffin"]
@@ -388,7 +392,7 @@ sections:
       - id: "171"
         data: ["Rykard, Lord of Blasphemy"]
   -
-    title: Main Leyndell, Royal Capital
+    title: Leyndell, Royal Capital
     items:
       - id: "172"
         data: ["Erdtree Sanctuary"]
@@ -442,7 +446,7 @@ sections:
       - id: "192"
         data: ["Fractured Marika"]
   -
-    title: Main Caelid
+    title: Caelid
     items:
       - id: "193"
         data: ["Smoldering Church"]
@@ -546,7 +550,7 @@ sections:
       - id: "238"
         data: ["Divine Tower of East Altus"]
   -
-    title: Main Mountaintops of the Giants
+    title: Mountaintops of the Giants
     items:
       - id: "239"
         data: ["Zamor Ruins"]
@@ -603,7 +607,7 @@ sections:
       - id: "262"
         data: ["Yelough Anix Tunnel"]
   -
-    title: Main Miquella's Haligtree
+    title: Miquella's Haligtree
     items:
       - id: "263"
         data: ["Haligtree Canopy"]
@@ -627,7 +631,7 @@ sections:
       - id: "271"
         data: ["Malenia, Goddess of Rot"]
   -
-    title: Main Ainsel River
+    title: Ainsel River
     items:
       - id: "272"
         data: ["Ainsel River Well Depths"]
@@ -671,7 +675,7 @@ sections:
       - id: "287"
         data: ["Great Waterfall Basin"]
   -
-    title: Main Siofra River
+    title: Siofra River
     items:
       - id: "288"
         data: ["Siofra River Well Depths"]
