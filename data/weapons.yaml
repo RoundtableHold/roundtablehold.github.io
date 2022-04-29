@@ -552,11 +552,7 @@ sections:
     items:
       - id: "21_1"
         icon: "/img/icons/weapons/flails/10481.png"
-<<<<<<< HEAD
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest in the eastern hearse at Gatefront Ruins", "Normal"]
-=======
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flail\">Flail</a>", "Found in a chest on the eastern hearse at Gatefront Ruins", "Normal"]
->>>>>>> 605a46d (add acquisition method for colossal weapons)
         # TODO: link grace
       - id: "21_2"
         icon: "/img/icons/weapons/flails/10480.png"
@@ -704,52 +700,65 @@ sections:
     items:
       - id: "23_1"
         icon: "/img/icons/weapons/spears/10600.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Short+Spear\">Short Spear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Short+Spear\">Short Spear</a>", "Starting Weapon for the Prophet Class.<br>Can be bought from Twin Maiden Husks at Roundtable Hold for 600 runes.", "Normal"]
       - id: "23_2"
         icon: "/img/icons/weapons/spears/10615.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Spear\">Iron Spear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Spear\">Iron Spear</a>", "Dropped by Fallen Hawks Soldier near Nokron, Eternal City site of Grace.", "Normal"]
+        # TODO: add grace link
       - id: "23_3"
         icon: "/img/icons/weapons/spears/10601.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spear\">Spear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spear\">Spear</a>", "Patches drops a +8 spear in Murkwater Caves, when killed.<br>Dropped by Castle Guards wielding this weapon near the Rampart Tower Site of Grace in Stormveil Castle.", "Normal"]
+        # TODO: add grace link
       - id: "23_4"
         icon: "/img/icons/weapons/spears/10605.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Partisan\">Partisan</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Partisan\">Partisan</a>", "Dropped from all Knight enemies wielding this weapon.", "Normal"]
+        # TODO: add farm spot links
       - id: "23_5"
         icon: "/img/icons/weapons/spears/10607.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pike\">Pike</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pike\">Pike</a>", "Can be looted from a corpse in the courtyard filled with enemies near the Liftside Chamber Site of Grace in Stormveil Castle.", "Normal"]
+        # TODO: add grace link 
       - id: "23_6"
         icon: "/img/icons/weapons/spears/10614.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiked+Spear\">Spiked Spear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiked+Spear\">Spiked Spear</a>", "Dropped by Spear wielding Marionette Soldier's. One is just outside Witchbane Ruins in the Weeping Peninsula.", "Normal"]
+        # TODO: add grace link
       - id: "23_7"
         icon: "/img/icons/weapons/spears/10611.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cross-Naginata\">Cross-Naginata</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cross-Naginata\">Cross-Naginata</a>", "Found on a corpse inside Gael Tunnel in the room with the Giant Land Octopus hanging from the ceiling.", "Normal"]
+        # TODO: add grace link
       - id: "23_8"
         icon: "/img/icons/weapons/spears/10603.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Clayman's+Harpoon\">Clayman's Harpoon</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Clayman's+Harpoon\">Clayman's Harpoon</a>", "Dropped by Clayman wielding this weapon at Uhl Palace Ruins, Siofra River, Ainsel River.", "Normal"]
+        # TODO: add grace links.
       - id: "23_9"
         icon: "/img/icons/weapons/spears/10606.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Rib-Rake\">Celebrant's Rib-Rake</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Celebrant's+Rib-Rake\">Celebrant's Rib-Rake</a>", "Dropped by Festive Dancers in the Windmill Village.", "Normal"]
+        # TODO: add grace links.
       - id: "23_10"
         icon: "/img/icons/weapons/spears/10608.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Torchpole\">Torchpole</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Torchpole\">Torchpole</a>", "Dropped by guards wielding this weapon. There are some in the Courtyard at the Liftside Chamber Site of Grace in Stormveil Castle.", "Normal"]
+        # TODO: add grace links.
       - id: "23_11"
         icon: "/img/icons/weapons/spears/10613.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Inquisitor's+Girandole\">Inquisitor's Girandole</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Inquisitor's+Girandole\">Inquisitor's Girandole</a>", "Dropped by Abductor Virgins in Volcano Manor underground", "Normal"]
       - id: "23_12"
         icon: "/img/icons/weapons/spears/10602.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Spear\">Crystal Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Spear\">Crystal Spear</a>", "Can be found in a room hidden by an illusiory wall just where the Preserving Boluses are looted in Sellia Hideaway", "Somber"]
+        # TODO: add grace links.
       - id: "23_13"
         icon: "/img/icons/weapons/spears/10616.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Crystal+Spear\">Rotten Crystal Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Crystal+Spear\">Rotten Crystal Spear</a>", "Can be farmed from non-Boss Crystallians located in Elphael, Brace of the Haligtree.<br>Note: Use weapons with strike damage while farming.", "Somber"]
+        # TODO: add grace links.
       - id: "23_14"
         icon: "/img/icons/weapons/spears/10604.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Spear\">Cleanrot Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Spear\">Cleanrot Spear</a>", "Dropped by Cleanrot Knights just outside of Commander O'Neil's Boss Arena in Caelid.", "Somber"]
+        # TODO: add grace links.
       - id: "23_15"
         icon: "/img/icons/weapons/spears/10612.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Death+Ritual+Spear\">Death Ritual Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Death+Ritual+Spear\">Death Ritual Spear</a>", "Dropped by the Deathrite Bird found west of Castle Sol Main Gate Site of Grace in the Mountaintops of the Giants.", "Somber"]
+        # TODO: add grace links.
       - id: "23_16"
         icon: "/img/icons/weapons/spears/10609.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bolt+of+Gransax\">Bolt of Gransax</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bolt+of+Gransax\">Bolt of Gransax</a>", "Can be found in Leyndell Royal Capital after defeating Godfrey (Golden Shade). Walk up the spear at Erdtree Sanctuary Site of Grace.", "Somber"]
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
