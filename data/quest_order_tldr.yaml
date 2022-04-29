@@ -11,24 +11,23 @@ sections:
       - ["4", "Break the tree illusion and talk to Boc"]
       - ["5", "Free Alexander from his hole near Saintsbridge Grace"]
       - ["6", "Talk to D near the graveyard East of Saintsbridge Grace"]
-      - ["7", "Kill Mariner in Summonwater Village then talk to D nearby"]
+      - ["7", "Kill Mariner in Summonwater Village (Summoning D) then talk to D nearby"]
       - ["8", "Talk to Kenneth Haight on top of the ruin to the South"]
       - ["9", "Talk to Melina at the Third Church of Marika"]
-      - ["10", "Use Waygate near the Third Church of Marika and talk to Gurranq"]
       - ["11", "Listen to Blaidd's howling at Mistwood Ruins"]
       - ["12", "Kill the Knight at the top of Fort Haight and collect Dectus Medallion"]
-      - ["13", "Go back to Kale at Church of Elleh for Fingersnap"]
       - ["14", "Meet Renna at Church of Elleh at Night"]
+      - ["13", "Talk to Kale at Church of Elleh for Fingersnap"]
       - ["15", "Talk to Boc at the entrance of the Coastal Cave"]
       - ["16", "Beat Coastal Cave (Summon Old Knight Istvan)"]
       - ["17", "Back to Boc"]
       - ["18", "Meet Yura South of the Lake"]
       - ["19", "Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
-      - ["20", "Kill the Flying Dragon Agheel then back to Yura"]
+      - ["20", "Kill the Flying Dragon Agheel (Summoning Yura) then back to Yura"]
       - ["21", "Meet Sellen under Waypoint Ruins"]
       - ["22", "Go kill Nerijus outside Murkwater Cave"]
       - ["23", "Talk to Yura North of Murkwater Cave"]
-      - ["24", "Beat Patches in Murkwater Cave, but spare him. After sparing attack him then use emote he gives you when knocked to 50% health."]
+      - ["24", "Beat Patches in Murkwater Cave, but spare him. After sparing attack him lightly 3 times then let him attack you. Use emote he gives you when knocked to about 40% health."]
       - ["25", "Talk to him, reload talk again and buy things, reload talk again and open chest when he gives you permission"]
       - ["26", "Talk to Kenneth at his previous location and accept his offer"]
       - ["27", "Use Fingersnap at Mistwood Ruins and talk to Blaidd"]
@@ -37,8 +36,10 @@ sections:
       - ["30", "Complete Deathtouched Catacombs near Saintsbridge Grace for Deathroot"]
       - ["31", "Meet Warmaster Bernahl at Warmaster's Shack"]
       - ["32", "Kill Recusant Henricus at the Coliseum"]
+      - ["32_1", "Talk to Melina at Stormhill Shack Grace"]
       - ["33", "Meet Roderika at Stormhill Shack"]
       - ["34", "Meet the Finger Reader on the bridge North of Stormhill Shack"]
+      - ["34_1", "Talk to Melina at the Castleward Tunnel Grace"]
       - ["35", "Defeat Bloodhound Knight Darriwil at Forlorn Hound Evergaol (Summoning Blaidd) then talk to Blaidd"]
   -
     title: "Weeping Peninsula"
@@ -58,6 +59,7 @@ sections:
     title: "Stormveil"
     items:
       - ["44", "Talk to Gostoc near the Main Gate of Stormveil, refuse for dialogue then accept him"]
+      - ["44_1", "Catch Gostoc stalking you then talk to him at the gate to open his shop"]
       - ["45", "Talk to Rogier inside the church"]
       - ["46", "Grab Chrysalid Memento from the room with the Grafted Scion and return it to Roderika"]
       - ["47", "Talk to Nepheli in a room near Secluded Cell Grace"]
@@ -66,11 +68,12 @@ sections:
   -
     title: "Limgrave/Roundtable"
     items:
+      - ["10", "Use Waygate near the Third Church of Marika and talk to Gurranq"]
       - ["50", "Go back to Varre at the start of the game"]
       - ["51", "Go to Roundtable Hold and talk to Enia, Two Fingers, Nepheli, and Gideon"]
       - ["52", "Talk to D and Rogier until Dialogue with both is exhausted"]
-      - ["53", "Talk to Fia for Knifeprint Clue"]
       - ["54", "Talk to Roderika and Hewg until dialogue with both is exhausted"]
+      - ["53", "Talk to Fia for Knifeprint Clue"]
       - ["55_1", "Go read the message at Varre's location at the start of the game"]
   -
     title: "Liurnia Lake"
@@ -86,33 +89,35 @@ sections:
       - ["63", "Talk to Diallos Academy Gate Town"]
       - ["64", "Talk to Finger Reader nearby"]
       - ["65", "Talk to Varre at the Rose Church, Invade other players 3 times (may be able to invade NPCs instead), talk to Varre"]
-      - ["66", "Defeat Edgar the Revenger at Revenger's Shack"]
       - ["66_2", "Grab the Glintstone Key from behind the Glintstone Dragon"]
+      - ["66", "Defeat Edgar the Revenger at Revenger's Shack"]
       - ["67", "Use the Anticipation Gateway at Belfries and grab the Stormhawk Ashes"]
       - ["68", "Talk to Nepheli near Village of the Albinaurics"]
       - ["69", "Talk to Albus in Village of the Albinaurics"]
       - ["70", "Kill Omenkiller in Village of the Albinaurics (Summoning Nepheli)"]
       - ["71", "Defeat Lakeside Crystal Cave and talk to Latenna at Slumbering Wolf Shack"]
       - ["72", "Talk to Hyetta at Gate Town Bridge"]
-      - ["73", "Kill Mariner on cliffs above Carian Study Hall for Deathroot"]
+      - ["73", "Kill Mariner on cliffs above Carian Study Hall (Summoning D) for Deathroot"]
       - ["74", "Meet Jar Bairn in Jarburg"]
-      - ["75", "Talk to Miriel, Pastor of Vows in the Church of Vows"]
-      - ["76", "Defeat Black Knife Catacombs (including the hidden area) where Knifeprint Clue leads"]
-      - ["77", "Use Laskyar Ruins Waygate and enter Raya Lucaria"]
+      - ["77", "Use Purified Ruins Waygate and enter Raya Lucaria"]
       - ["78", "Invade alongside Yura near Main Academy Gate then talk to Yura"]
       - ["79", "Defeat Raya Lucaria Academy, collect Second Glintstone Key above the Church of the Cuckoo and save it for later"]
+      - ["75", "Use Waygate down the lift from Raya Lucaria boss room to talk to Miriel, Pastor of Vows in the Church of Vows"]
+      - ["75_1", "Grab Gold Sewing Needle and Gold Tailoring Tools at Church of Vows"]
+      - ["76", "Defeat Black Knife Catacombs (including the hidden area, Summoning D) where Knifeprint Clue leads for Deathroot and Black Knifeprint"]
+
   -
     title: "Roundtable Hold"
     items:
       - ["80", "Go back to Roundtable Hold, kill Ensha then talk to Gideon and Nepheli until dialogue with both is exhausted"]
       - ["81", "Talk to Hewg and Roderika"]
       - ["82", "Talk to Diallos"]
-      - ["83", "Talk to Enia and buy some \"Demigod\" armor"]
+      - ["83", "Talk to Enia"]
       - ["84", "Exhaust dialogue with Fia and Rogier, reload and talk to Rogier again"]
   -
     title: "Liurnia Lake/Roundtable"
     items:
-      - ["85", "Talk to Boc, Finger Reader and Hyetta at East Raya Lucaria Gate Grace"]
+      - ["85", "Talk to Boc, Finger Reader and Melina at East Raya Lucaria Gate Grace"]
       - ["86", "Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
       - ["87", "Talk to Melina at Grand Lift of Dectus Grace"]
       - ["88", "Talk to Hyetta at Bellum Church, and reload then talk again"]
@@ -130,6 +135,7 @@ sections:
       - ["97", "Kill Anastasia at Smoldering Church"]
       - ["98", "Complete Gael Tunnel and talk to Alexander at the end"]
       - ["99", "Talk to the Finger Reader near the Telescope"]
+      - ["99_1", "Kill Millicent in the rot swamp if she invades"]
       - ["100", "Talk to Gowry at Gowry's Shack"]
       - ["101", "Kill Commander O'Neil in swamp nearby, return to Gowry then reload and talk again"]
       - ["102", "Talk to Millicent in Church of Plague, reload then talk to Millicent again"]
@@ -157,13 +163,13 @@ sections:
   -
     title: "Mt. Gelmir"
     items:
-      - ["118", "Kill Magma Wyrm Makar in Ruin-Strewn Precipice (Summoning Great Horned Tragoth)"]
+      - ["118", "Kill Magma Wyrm Makar in Ruin-Strewn Precipice (Summoning Great Horned Tragoth as well as Millicent or Blackguard Big Boggart)"]
       - ["119", "Talk to Millicent near Lux Ruins"]
       - ["120", "Kill Mariner at Wyndham Ruins for Deathroot"]
       - ["121", "Talk to Rya near Lux Ruins to enter Volcano Manor (This will skip some dialogue with Patches but you can talk to him at Corpse-Stench Shack first if you want)"]
       - ["122", "Talk to Tanith and join the Manor"]
       - ["123", "Talk to Diallos, Rya, Bernahl and Patches, grab your first task and kill Invader Ghiza upstairs"]
-      - ["124", "Kill the Magma Wyrm at Seethewater Terminus (Summoning Alexander) then talk to Alexander in the lava"]
+      - ["124", "Kill the Magma Wyrm at Seethewater Terminus then talk to Alexander in the lava"]
       - ["125", "Grab the Prattling Pate You're Beautiful at Hermit Village"]
       - ["126", "Talk to Primeval Sorceror Azur near Hermit Village"]
       - ["127", "Complete Gelmir Hero's Grave for Deathroot"]
