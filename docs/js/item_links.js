@@ -918,6 +918,11 @@ const item_links = {
       "remembrances_mausoleums_1_6_2"
     ]
   },
+  "ashesofwar_5_9": {
+    "targets": [
+      "bosses_5_30"
+    ]
+  },
   "ashesofwar_6_2": {
     "targets": [
       "bosses_5_22"
@@ -962,6 +967,12 @@ const item_links = {
       "caves_3_6"
     ]
   },
+  "bell_bearings_2_2": {
+    "targets": [
+      "bosses_6_9",
+      "caves_4_2"
+    ]
+  },
   "bell_bearings_3_1": {
     "targets": [
       "bosses_7_5",
@@ -976,6 +987,26 @@ const item_links = {
       "dragon_hearts_death_roots_1_7",
       "flasks_1_28",
       "flasks_1_32"
+    ]
+  },
+  "bell_bearings_5_1": {
+    "targets": [
+      "bosses_2_20"
+    ]
+  },
+  "bell_bearings_5_2": {
+    "targets": [
+      "bosses_4_14"
+    ]
+  },
+  "bell_bearings_5_3": {
+    "targets": [
+      "bosses_5_19"
+    ]
+  },
+  "bell_bearings_5_4": {
+    "targets": [
+      "bosses_6_16"
     ]
   },
   "bosses_10_1": {
@@ -1323,6 +1354,11 @@ const item_links = {
       "caves_1_3"
     ]
   },
+  "bosses_2_20": {
+    "targets": [
+      "bell_bearings_5_1"
+    ]
+  },
   "bosses_2_21": {
     "targets": [
       "talismans_2_17"
@@ -1377,6 +1413,11 @@ const item_links = {
   "bosses_2_30": {
     "targets": [
       "talismans_2_16"
+    ]
+  },
+  "bosses_2_31": {
+    "targets": [
+      "weapons_30_9"
     ]
   },
   "bosses_2_4": {
@@ -1446,6 +1487,11 @@ const item_links = {
     "targets": [
       "bell_bearings_1_1",
       "caves_2_5"
+    ]
+  },
+  "bosses_4_14": {
+    "targets": [
+      "bell_bearings_5_2"
     ]
   },
   "bosses_4_15": {
@@ -1688,6 +1734,11 @@ const item_links = {
       "armor_171"
     ]
   },
+  "bosses_5_19": {
+    "targets": [
+      "bell_bearings_5_3"
+    ]
+  },
   "bosses_5_2": {
     "targets": [
       "crystal_tears_3_1",
@@ -1755,6 +1806,11 @@ const item_links = {
       "spirit_ashes_4_4"
     ]
   },
+  "bosses_5_30": {
+    "targets": [
+      "ashesofwar_5_9"
+    ]
+  },
   "bosses_5_4": {
     "targets": [
       "weapons_34_12"
@@ -1768,7 +1824,8 @@ const item_links = {
   "bosses_5_6": {
     "targets": [
       "caves_3_4",
-      "spirit_ashes_4_6"
+      "spirit_ashes_4_6",
+      "weapons_13_17"
     ]
   },
   "bosses_5_7": {
@@ -1831,6 +1888,11 @@ const item_links = {
       "weapons_34_6"
     ]
   },
+  "bosses_6_16": {
+    "targets": [
+      "bell_bearings_5_4"
+    ]
+  },
   "bosses_6_17": {
     "andsources": [
       "bosses_7_4"
@@ -1877,6 +1939,7 @@ const item_links = {
   },
   "bosses_6_9": {
     "targets": [
+      "bell_bearings_2_2",
       "caves_4_2"
     ]
   },
@@ -2358,7 +2421,8 @@ const item_links = {
   "caves_3_4": {
     "targets": [
       "bosses_5_6",
-      "spirit_ashes_4_6"
+      "spirit_ashes_4_6",
+      "weapons_13_17"
     ]
   },
   "caves_3_5": {
@@ -2395,6 +2459,7 @@ const item_links = {
   },
   "caves_4_2": {
     "targets": [
+      "bell_bearings_2_2",
       "bosses_6_9"
     ]
   },
@@ -3099,7 +3164,7 @@ const item_links = {
   },
   "incantations_2_1": {
     "targets": [
-      "remembrances_mausoleums_1_15_2"
+      "remembrances_mausoleums_1_15_1"
     ]
   },
   "incantations_2_3": {
@@ -3781,12 +3846,12 @@ const item_links = {
   },
   "remembrances_mausoleums_1_15_1": {
     "targets": [
-      "weapons_24_6"
+      "incantations_2_1"
     ]
   },
   "remembrances_mausoleums_1_15_2": {
     "targets": [
-      "incantations_2_1"
+      "weapons_24_6"
     ]
   },
   "remembrances_mausoleums_1_1_1": {
@@ -4124,7 +4189,8 @@ const item_links = {
   "spirit_ashes_4_6": {
     "targets": [
       "bosses_5_6",
-      "caves_3_4"
+      "caves_3_4",
+      "weapons_13_17"
     ]
   },
   "spirit_ashes_4_8": {
@@ -4342,6 +4408,13 @@ const item_links = {
     "targets": [
       "bosses_4_21",
       "weapons_34_7"
+    ]
+  },
+  "weapons_13_17": {
+    "targets": [
+      "bosses_5_6",
+      "caves_3_4",
+      "spirit_ashes_4_6"
     ]
   },
   "weapons_14_12": {
@@ -4577,7 +4650,7 @@ const item_links = {
   },
   "weapons_24_6": {
     "targets": [
-      "remembrances_mausoleums_1_15_1"
+      "remembrances_mausoleums_1_15_2"
     ]
   },
   "weapons_25_10": {
@@ -4670,6 +4743,11 @@ const item_links = {
     "targets": [
       "bosses_7_11",
       "caves_5_5"
+    ]
+  },
+  "weapons_30_9": {
+    "targets": [
+      "bosses_2_31"
     ]
   },
   "weapons_33_10": {

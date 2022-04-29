@@ -3,14 +3,16 @@
 
 var img = [
     9645, // Original width of image
-    9645,  // Original height of image
+    15968,  // Original height of image
 ]
 
 var map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: 0,
     maxZoom: 6,
-    wheelPxPerZoomLevel: 500,
+    scrollWheelZoom: false,
+    smoothWheelZoom: true,
+    smoothSensitivity: 1,
 });
 
 var rc = new L.RasterCoords(map, img);
