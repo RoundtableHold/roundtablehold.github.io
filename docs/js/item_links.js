@@ -3419,6 +3419,12 @@ const item_links = {
       "quest_order_tldr_5"
     ]
   },
+  "npc_quests_37_1": {
+    "targets": [
+      "playthrough_24",
+      "spirit_ashes_2_4"
+    ]
+  },
   "npc_quests_3_1": {
     "targets": [
       "playthrough_9",
@@ -3544,6 +3550,12 @@ const item_links = {
     "andtargets": [
       "legacy_1_3",
       "quest_order_tldr_12"
+    ]
+  },
+  "playthrough_24": {
+    "targets": [
+      "npc_quests_37_1",
+      "spirit_ashes_2_4"
     ]
   },
   "playthrough_4": {
@@ -4011,6 +4023,12 @@ const item_links = {
     "targets": [
       "bosses_2_23",
       "caves_1_2"
+    ]
+  },
+  "spirit_ashes_2_4": {
+    "targets": [
+      "npc_quests_37_1",
+      "playthrough_24"
     ]
   },
   "spirit_ashes_2_5": {
