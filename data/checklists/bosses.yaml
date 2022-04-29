@@ -1,6 +1,7 @@
 title: Bosses
 id: bosses
 table_widths: [2, 2, 4, 4]
+map_icon: '/map/icons/MENU_MAP_memo_20.png'
 sections:
   -
     title: "Limgrave"
@@ -36,6 +37,8 @@ sections:
         data: ["Tree Sentinel", "Church of Elleh Road", "3200 runes, Golden Halberd", "Is one annoying bastard."]
       - id: "2_15"
         data: ["Flying Dragon Agheel", "Agheel Lake", "5000 runes, Dragon Heart", "Field boss."]
+        cords: [3880,7216]
+        map_title: 'Flying Dragon Agheel'
       - id: "2_16"
         data: ["Tibia Mariner", "Summonwater Village", "2400 runes, Deathroot Skeletal, Militiaman Ashes", "Field boss."]
       - id: "2_17"

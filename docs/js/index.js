@@ -1467,6 +1467,7 @@
 "graces_310",
 "graces_311",
 "graces_312",
+"graces_313",
 "graces_32",
 "graces_33",
 "graces_34",
@@ -3427,7 +3428,7 @@ const evergaols_total = 10;
 var evergaols_checked = 0;
 const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
-const graces_total = 313;
+const graces_total = 314;
 var graces_checked = 0;
 const weapons_total = 377;
 var weapons_checked = 0;

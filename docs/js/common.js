@@ -83,6 +83,60 @@ var themes = {
         console.log(t)
         t.addClass('border border-primary border-3');
     }
+        
+    function setCheckbox(id, checked) {
+        if ($('#' + id).length === 1) {
+            var el = $('#' + id).get(0);
+            $(el).prop('checked', checked)
+            if (checked) {
+                $(el).closest('li').addClass('completed')
+            } else {
+                $(el).closest('li').removeClass('completed')
+            }
+        }
+    }
+    window.setItem = function (id, checked, startup = false) {
+        if (startup && !checked) {
+            return;
+        }
+        profiles = $.jStorage.get(profilesKey, {});
+        profiles[profilesKey][profiles.current].checklistData[id] = !!checked;
+        setCheckbox(id, checked);
+        $.jStorage.set(profilesKey, profiles);
+
+        if (id in item_links) {
+            var links = item_links[id];
+            if ('targets' in links) {
+                for (const t of links['targets']) {
+                    if (profiles[profilesKey][profiles.current].checklistData[t] != checked) {
+                        setItem(t, checked, startup);
+                    }
+                }
+            }
+            if ('orsources' in links) {
+                var b = checked;
+                for (const s of links['orsources']) {
+                    b |= profiles[profilesKey][profiles.current].checklistData[s];
+                }
+                for (const t of links['ortargets']) {
+                    if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                        setItem(t, b, startup);
+                    }
+                }
+            }
+            if ('andsources' in links) {
+                var b = checked;
+                for (const s of links['andsources']) {
+                    b &= profiles[profilesKey][profiles.current].checklistData[s];
+                }
+                for (const t of links['andtargets']) {
+                    if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                        setItem(t, b, startup);
+                    }
+                }
+            }
+        }
+    }
 
 })( jQuery );
     

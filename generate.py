@@ -167,6 +167,7 @@ def make_nav(page):
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
     script(src="/js/jstorage.min.js")
+    script(src='/js/item_links.js')
     script(src='/js/common.js')
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
@@ -294,8 +295,10 @@ def make_map():
                 div(cls='col flex-grow-1', id='map')
             with div(id='popup', cls='ol-popup'):
                 a(href='#', id='popup-closer', cls='ol-popup-closer')
-                div(id='popup-content')
-            div(id='info')
+                with div(cls="form-check checkbox d-flex align-items-center popup-content"):
+                    input_(cls="form-check-input", type="checkbox", value="", id='popup-checkbox')
+                    label(cls="form-check-label item_content", _for='popup-checkbox', id='popup-title')
+                    a(href="#", id='popup-link', cls='ms-3').add(i(cls='bi bi-link-45deg'))
         make_footer()
         script(src='/map/src/js/ol.js')
         script(src='/map/src/js/map.js')
@@ -548,7 +551,6 @@ def make_checklist(page):
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
         make_footer(page)
-        script(src="/js/item_links.js")
         script(src="/js/checklists.js")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
@@ -754,26 +756,63 @@ for page in pages:
 with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
     json.dump(search_idx, s_idx, indent=2, sort_keys=True)
 
+def make_feature(page, section, item, id):
+    icon = ''
+    if 'map_icon' in item:
+        icon = item['map_icon']
+    elif 'map_icon' in section:
+        icon = section['map_icon']
+    elif 'map_icon' in page:
+        icon = page['map_icon']
+    elif 'icon' in item:
+        icon = item['icon']
+    elif 'icon' in section:
+        icon = section['icon'] 
+    elif 'icon' in page:
+        icon = page['icon']
+    else:
+        print("Missing icon for {}".format(id))
+    return {
+        'type': 'Feature',
+        'geometry': {
+            'type': 'Point',
+            'coordinates': item['cords'],
+        },
+        'properties': {
+            'title': item['map_title'],
+            'id': id,
+            'icon': icon,
+            'link': '/checklists/' + to_snake_case(page['title']) + '.html#item_' + id
+        }
+    }
 
-for root, dirs, files in os.walk(os.path.join('data', 'map')):
-    for file in files:
-        with open(os.path.join(root, file), 'r') as inf:
-            yml = yaml.safe_load(inf)
-            geojson = {}
-            geojson['type'] = 'FeatureCollection'
-            geojson['features'] = []
-            for marker in yml['markers']:
-                geojson['features'].append({
-                    'type': 'Feature',
-                    'geometry': {
-                        'type': 'Point',
-                        'coordinates': marker['cords'],
-                    },
-                    'properties': {
-                        'title': marker['title'],
-                        'description': marker['description'],
-                        'id': marker['id'],
-                    },
-                })
-            with open(os.path.join('docs', 'map', 'data', file[:-4] + 'json'), 'w') as outf:
+def make_geojson():
+    layers = []
+    for page in pages:
+        geojson = {}
+        geojson['type'] = 'FeatureCollection'
+        geojson['features'] = []
+        has_features = False
+        for section in page['sections']:
+            items = peekable(section['items'])
+            for item in items:
+                if isinstance(item, str):
+                    continue
+                if 'cords' in item:
+                    has_features = True
+                    geojson['features'].append(make_feature(page, section, item, page['id'] + '_' + item['id']))
+                if isinstance(items.peek(0), list):
+                    item_id = str(item['id'])
+                    item = next(items)
+                    for subitem in item:
+                        if 'cords' in subitem:
+                            has_features = True
+                            geojson['features'].append(make_feature(page, section, subitem, page['id'] + '_' + item_id + '_' + str(subitem['id'])))
+        if has_features:
+            layers.append('/map/data/' + to_snake_case(page['id']) + '.json')
+            with open(os.path.join('docs', 'map', 'data', to_snake_case(page['id']) + '.json'), 'w') as outf:
                 json.dump(geojson, outf, indent=2, sort_keys=True)
+    with open(os.path.join('docs', 'map', 'layers.json'), 'w') as outf:
+        json.dump(layers, outf, indent=2, sort_keys=True)
+
+make_geojson()

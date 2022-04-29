@@ -1,17 +1,23 @@
 title: "Sites of Grace"
 id: graces
+map_icon: '/map/icons/MENU_MAP_01_Bonfire.png'
 sections:
   -
     title: Roundtable Hold
     items:
       - id: "313"
         data: ["Table of Lost Grace"]
+  -
     title: Limgrave
     items:
       - id: "0"
         data: ["The First Step"]
+        cords: [3701, 7341]
+        map_title: 'The First Step'
       - id: "1"
         data: ["Church of Elleh"]
+        cords: [3673, 7223]
+        map_title: 'Church of Elleh'
       - id: "2"
         data: ["Gatefront"]
       - id: "3"
