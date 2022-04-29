@@ -1351,7 +1351,8 @@ const item_links = {
   },
   "bosses_2_2": {
     "targets": [
-      "caves_1_3"
+      "caves_1_3",
+      "playthrough_29"
     ]
   },
   "bosses_2_20": {
@@ -2312,7 +2313,8 @@ const item_links = {
   },
   "caves_1_3": {
     "targets": [
-      "bosses_2_2"
+      "bosses_2_2",
+      "playthrough_29"
     ]
   },
   "caves_1_4": {
@@ -3503,6 +3505,13 @@ const item_links = {
       "quest_order_tldr_4"
     ]
   },
+  "npc_quests_3_2": {
+    "targets": [
+      "playthrough_27",
+      "playthrough_29",
+      "playthrough_31"
+    ]
+  },
   "npc_quests_42_1": {
     "targets": [
       "playthrough_8",
@@ -3637,6 +3646,53 @@ const item_links = {
       "quest_order_tldr_13"
     ]
   },
+  "playthrough_27": {
+    "andsources": [
+      "playthrough_29",
+      "playthrough_31"
+    ],
+    "andtargets": [
+      "npc_quests_3_2"
+    ],
+    "targets": [
+      "quest_order_tldr_15"
+    ]
+  },
+  "playthrough_28": {
+    "andsources": [
+      "playthrough_29"
+    ],
+    "andtargets": [
+      "quest_order_tldr_16"
+    ]
+  },
+  "playthrough_29": {
+    "andsources": [
+      "playthrough_27",
+      "playthrough_28",
+      "playthrough_31"
+    ],
+    "andtargets": [
+      "npc_quests_3_2",
+      "quest_order_tldr_16"
+    ],
+    "targets": [
+      "bosses_2_2",
+      "caves_1_3"
+    ]
+  },
+  "playthrough_31": {
+    "andsources": [
+      "playthrough_27",
+      "playthrough_29"
+    ],
+    "andtargets": [
+      "npc_quests_3_2"
+    ],
+    "targets": [
+      "quest_order_tldr_17"
+    ]
+  },
   "playthrough_4": {
     "targets": [
       "quest_order_tldr_2"
@@ -3704,6 +3760,22 @@ const item_links = {
       "npc_quests_9_4",
       "playthrough_9_7",
       "weapons_18_6"
+    ]
+  },
+  "quest_order_tldr_15": {
+    "targets": [
+      "playthrough_27"
+    ]
+  },
+  "quest_order_tldr_16": {
+    "targets": [
+      "playthrough_28",
+      "playthrough_29"
+    ]
+  },
+  "quest_order_tldr_17": {
+    "targets": [
+      "playthrough_31"
     ]
   },
   "quest_order_tldr_2": {
