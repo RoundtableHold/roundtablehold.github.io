@@ -1,5 +1,6 @@
 title: Walkthrough
 id: playthrough
+description: "<strong class=\"text-danger\">DISCLAIMER</strong> This guide is going through a massive revision that we will be releasing piece by piece until it is entirely completed. The earliest steps will be in the new format while the later ones will be in the old format. Please use the discord to let us know if you have any suggestions or general feedback on these new steps so that we can improve them as it is much easier to improve them during the process than it is after we've finished."
 sections: 
   -
     title: Limgrave
@@ -21,11 +22,11 @@ sections:
       - id: "7"
         data: ["Go East of the Gatefront Ruins and grab the Agheel Lake North Grace"]
       - id: "8"
-        data: ["Rest at the Agheel Lake North Grace, form accord with Melina and exhaust her dialogue."]
+        data: ["Rest at the Agheel Lake North Grace and form accord with Melina, then talk to her several more times to exhaust all her dialogue."]
       - id: "9"
         data: ["Go East from the Grace and break the tree illusion and talk to Boc until his dialogue is exhausted."]
       - id: "10"
-        data: ["Head North, getting atop the cliffs using one of the Spiritjumps, and free Alexander from his hole on the cliffs above the Saintsbridge Grace. After freeing him, talk to him until his dialogue is exhausted."]
+        data: ["Head North and free Alexander from his hole on the cliffs above the Saintsbridge Grace. After freeing him, talk to him until his dialogue is exhausted"]
       - id: "11"
         data: ["Grab the Saintsbridge Grace below the cliffs where you found Alexander."]
       - id: "12"
@@ -40,8 +41,14 @@ sections:
         data: ["Head East from Kenneth Haight and grab the Third Church of Marika Grace as well as the Sacred Tear, the Flask of Wondrous Physick and the Crimson Crystal Tear."]
       - id: "17"
         data: ["Rest at the Grace and talk to Melina until her dialogue is exhausted."]
+      - id: "17.1"
+        data: ["Use Waygate North of the Third Church of Marika to arrive at the Bestial Sanctum."]
+      - id: "17.2"
+        data: ["Head inside the sanctum and grab the Bestial Sanctum Grace."]
+      - id: "17.3"
+        data: ["Talk to Gurranq, Beast Clergyman and give him your first Deathroot to receive the Clawmark Seal and the Beast Eye."]
       - id: "18"
-        data: ["Head South along the road to find Map (Limgrave, East) at the pillar beside the road."]
+        data: ["Return to the Third Church of Marika and head South along the road to find Map (Limgrave, East) at the pillar beside the road."]
       - id: "19"
         data: ["Go South-West from the pillar and listen to Blaidd's howling at Mistwood Ruins"]
       - id: "20"
@@ -53,7 +60,9 @@ sections:
       - id: "23"
         data: ["Climb the ladder in the nearby tower to collect Dectus Medallion(Left)"]
       - id: "24"
-        data: ["Go back to the Church of Elleh, pass time until Night if needed, meet Renna to receive the Spirit Calling Bell and the Lone Wolf Ashes and exhaust her dialogue."]
+        data: ["Go back to the Church of Elleh and talk to Kale for Fingersnap"]
+      - id: "24.1"
+        data: ["Pass time until Night at the Church of Elleh and meet Renna to receive the Spirit Calling Bell and the Lone Wolf Ashes."]
       - id: "25"
         data: ["Talk to Kalé nearby for the Fingersnap emote and exhaust his dialogue."]
       - id: "26"
@@ -73,11 +82,11 @@ sections:
       - id: "33"
         data: ["Meet Yura at the ruin next to the Seaside Ruins Grace and exhaust his dialogue."]
       - id: "34"
-        data: ["Head North-West into the lake and fight the Flying Dragon Agheel, hitting it at least once, and run away."]
+        data: ["Head North-West into the lake and fight the Flying Dragon Agheel and run away."]
       - id: "35"
         data: ["Return to Yura after fighting Flying Dragon Agheel without killing it for extra dialogue."]
       - id: "36"
-        data: ["Go back to Flying Dragon Agheel and kill him. Yura can be summoned near the Stake of Marika for extra dialogue."]
+        data: ["Go back to Flying Dragon Agheel and kill him. Yura can be summoned near the summoning statue if desired."]
       - id: "37"
         data: ["Return to Yura and exhaust his dialogue."]
       - id: "38"
@@ -107,13 +116,13 @@ sections:
       - id: "50"
         data: ["Head North, back to Kenneth Haight and exhaust his dialogue."]
       - id: "51"
-        data: ["Go South, back to the Mistwood Ruins, use the Fingersnap emote to call Blaidd down then talk to Blaidd and exhaust his dialogue."]
+        data: ["Go South, back to the Mistwood Ruins and use the Fingersnap emote to call Blaidd down then talk to Blaidd and exhaust his dialogue."]
       - id: "52"
         data: ["Head to Fort Haight and talk to Kenneth at the top, where you fought the knight, and exhaust his dialogue."]
       - id: "53"
         data: ["Go back to Patches in Murkwater Cave and exhaust his dialogue."]
       - id: "54"
-        data: ["Go to the Saintsbridge Grace(where you freed Alexander) and head West. You will find the Deathtouched Catacombs in the wall of the cliff on the North side. Go inside and grab the Deathtouched Catacombs Grace."]
+        data: ["Go to the Saintsbridge Grace(where you freed Alexander) and head West. You will find the Deathtouched Catacombs in the cliff on the North side. Go inside and grab the Deathtouched Catacombs Grace."]
       - id: "55"
         data: ["Go through the Deathtouched Catacombs and defeat the boss Black Knife Assassin and collect the Deathroot."]
       - id: "56"
@@ -124,8 +133,6 @@ sections:
         data: ["Follow the road North from the Warmaster's Shack and be invaded by Recusant Henricus. Kill him."]
       - id: "59"
         data: ["Head West from the Warmaster's Shack, following the road to Stormhill Shack and grab the Stormhill Shack Grace."]
-      - id: "60"
-        data: ["Rest at the Stormhill Shack Grace, talk to Melina and exhaust her dialogue."]
       - id: "61"
         data: ["Meet Roderika in the Stormhill Shack and exhaust her dialogue."]
       - id: "62"
@@ -134,8 +141,6 @@ sections:
         data: ["Head North from the Stormhill Shack, going into the woods and meet the Finger Reader on the broken bridge"]
       - id: "64"
         data: ["Backtrack to the road and head West this time to grab the Castleward Tunnel Grace."]
-      - id: "65"
-        data: ["Rest at the Castleward Tunnel Grace, talk to Melina and exhaust her dialogue."]
       - id: "66"
         data: ["Go back to the Agheel Lake South Grace in South-East Limgrave and head up the slope to the South to find the Forlorn Hound Evergaol."]
       - id: "67"
@@ -143,7 +148,7 @@ sections:
       - id: "68"
         data: ["After the fight, talk to Blaidd nearby and exhaust his dialogue."]
       - id: "69"
-        data: ["Limgrave is now 100% safe to explore! But be warned, if you are teleported by a chest, only grab the nearest Grace. If you grab any Grace besides the nearest one, you MAY break something. In addition, for the purposes of this guide, do not use the Bestial Sanctum Waygate yet. It's safe at this point but will change the order of steps."]
+        data: ["Limgrave is now 100% safe to explore! But be warned, if you are teleported by a chest, only grab the nearest Grace. If you grab any Grace besides the nearest one, you MAY break something."]
   -
     title: Weeping Peninsula
     items:
@@ -164,21 +169,20 @@ sections:
       - id: "77"
         data: ["Continue on the road South to reach Castle Morne and grab the Castle Morne Lift Grace."]
       - id: "78"
-        data: ["Go up the lift and pass the praying enemies by sneaking around on the right side. Go into the room and then out through the other side. Climb the ladder to the top then climb the next ladder in front of you. Run to the other side and hop over the edge on the left to the wall below. Run across the bridge and go over the edge to the left again. Run past the enemies to the tower and at the top of that tower you will find Edgar."]
+        data: ["Go up the lift and pass the praying enemies by sneaking around on the right side. Go into the room and then out through the other side. Climb the ladder to the top then climb the next ladder in front of you. Run to the other side and hop over the edge on the left to the wall below. Run past the enemies to the tower and at the top of that tower you will find Edgar."]
       - id: "79"
         data: ["Talk to Edgar and exhaust his dialogue."]
       - id: "80"
-        data: ["Turn back and go past the enemies again. At the end of the path, hop the wall on your left to grab the Behind the Castle Grace."]
-      - id: "81"
-        data: ["Make your way down to the bottom, summon Edgar outside the boss room and then kill the boss Leonine Misbegotten to obtain the Legendary Weapon, the Grafted Greatsword."]
+        data: ["Turn back and proceed through Castle Morne to it's end, summon Edgar outside the boss room and then kill the boss Leonine Misbegotten to obtain the Legendary Weapon, the Grafted Greatsword."]
       - id: "82"
         data: ["Go back to Edgar where he was on the tower and exhaust his dialogue."]
       - id: "83"
         data: ["Return to Irina's location near the Bridge of Sacrifice Grace, talk to Edgar and exhaust his dialogue."]
       - id: "84"
         data: ["Weeping Peninsula is now 100% safe to explore! There should be no warnings required!"]
-      - id: "85"
-        data: ["Margit/Roundtable Hold"]
+  -
+    title: 'Margit/Roundtable Hold'
+    items:
       - id: "86"
         data: ["Go back to the Castleward Tunnel Grace in West Limgrave, summon Rogier outside the boss room and kill Margit, The Fell Omen for a Talisman Pouch."]
       - id: "87"
@@ -205,33 +209,27 @@ sections:
       - id: "96"
         data: ["Return to the Margit, The Fell Omen Grace and follow the path up to grab the Stormveil Main Gate Grace"]
       - id: "97"
-        data: ["Talk to Gostoc in the building nearby and agree first, then talk to him again and reject his advice before walking over to the gate to open it."]
+        data: ["Talk to Gostoc in the building nearby and listen to his advice first, then talk to him again and ignore it for all dialogue and his shop will open."]
       - id: "98"
         data: ["Follow the path that Gostoc originally recommended and grab the Stormveil Cliffside Grace."]
-      - id: "99"
-        data: ["Go up the steps, enter the building at the top of the steps, and go through the second doorway then turn around walk back to the Stormveil Cliffside Grace but don't rest at it. You will find Gostoc on the cliff above the Grace, talk to him and exhaust his dialogue."]
-      - id: "100"
-        data: ["Return to Gostoc next to the castle gate and his shop will now be open."]
       - id: "101"
         data: ["Proceed up the steps as before and continue on this path to grab the Rampart Tower Grace."]
       - id: "102"
-        data: ["Option 1: Go through the door going North-West where all the birds are and go past them and climb down the ladder on the church rooftop."]
-      - id: "103"
-        data: ["Option 2: Alternatively you can turn to the right before having your first encounter. Jump over the balcony onto the rooftop across the way and hop down onto the path below."]
+        data: ["Go through the door going North-West where all the birds are and turn to the right before having your first encounter. Jump over the balcony onto the rooftop across the way and hop down onto the path below."]
       - id: "104"
         data: ["Follow the path going North-West to the chapel, talk to Rogier and exhaust his dialogue."]
       - id: "105"
-        data: ["Follow the path going South-East from Rogier into the building until you hit the the room where you can see the Grafted Scion on the ground floor. Go around to the right and go through the doorway. To your left you will see the corpse of a giant hanging upside down. Hop down to the ground below the giant and grab the Chrysalids' Memento."]
+        data: ["Proceed through the castle until you reach the Liftside Chamber Grace."]
+      - id: "105.1"
+        data: ["Head out the door going South from that Grace, down the stairs and hug the wall on the West side. Enter the first doorway to grab the Prophecy Painting."]
+      - id: "105.2"
+        data: ["Leave the room and keep hugging the wall to the second doorway to find the Grafted Scion."]
       - id: "106"
-        data: ["After grabbing the Chrysalids' Memento, go out the door, turn into the door on the right and go up the lift to unlock the shortcut to Rampart Tower Grace."]
+        data: ["Kill or run past the Grafted Scion to the room with a pile of dead bodies and grab the Chrysalids' Memento and grab the lift back up to the Rampart Tower Grace."]
       - id: "107"
         data: ["Return to Roderika at Stormhill Shack, give her the Chrysalids' Memento and exhaust her dialogue."]
       - id: "108"
-        data: ["Return to the Rampart Tower Grace and go back down the lift. Go out the door and kill or run past the Grafted Scion and through the doorway on the far left side. Go outside and turn left, following the wall going North past the enemies and then go into the doorway on your left to grab the Prophecy Painting."]
-      - id: "109"
-        data: ["Go back outside, turn left and go up the stairs to grab the Liftside Chamber Grace."]
-      - id: "110"
-        data: ["Pull the lever and go up the lift. Follow the path and grab x2 Cracked Pots next to the Living Jar enemies."]
+        data: ["Go back to the Liftside Chamber Grace and head on the path going North-East and grab x2 Cracked Pots next to the Living Jar enemies."]
       - id: "111"
         data: ["Go to the end of the path to grab the Secluded Cell Grace."]
       - id: "112"
@@ -243,24 +241,20 @@ sections:
       - id: "115"
         data: ["Grab the Godrick the Grafted Grace, talk to Gostoc nearby and exhaust his dialogue."]
       - id: "116"
-        data: ["Return to the Liftside Chamber Grace and go up the lift to the path heading to the Secluded Chamber Grace again. Instead of going down the slope to the Grace, take the high road and cross the wooden bridge. Hop onto the stone ledge from the wooden bridge and hug the wall going right. Finally jump off the ledge onto the nearby balcony to reach the hidden path."]
+        data: ["Return to the Liftside Chamber Grace and go on the path heading to the Secluded Chamber Grace again. Instead of going down the slope to the Grace, take the high road and cross the wooden bridge. Hop onto the stone ledge from the wooden bridge and hug the wall going right. Finally jump off the ledge onto the nearby balcony to reach the hidden path."]
       - id: "117"
-        data: ["Follow this hidden path until you reach a a message from Rogier that you can read. Just beyond that message is a door that unlocks the shortcut to the Liftside Chamber Grace."]
+        data: ["Follow this hidden path until you reach a door that unlocks the shortcut to the Liftside Chamber Grace. Outside this door is a message from Rogier that you can read."]
       - id: "118"
         data: ["You can now either follow that path to it's bottom(it will take a bit longer) or you can go out the South door from the Liftside Chamber Grace and turn right. Head to the ledge and drop off of it to the ledge below and make your way to the bottom from there."]
       - id: "119"
         data: ["At the bottom, past all the rats, will be a Lesser Ulcerated Tree Spirit. Kill it(this is required) for a Golden Seed."]
       - id: "120"
         data: ["Past the Lesser Ulcerated Tree Spirit is the Prince of Death's Pustule and beside that is a bloodstain of Rogier. Use it to see what happened."]
+      - id: "120.1"
+        data: ["Climb the ladder to the top to re-enter the Grafted Scions room where you can now find the Crimson Hood where you found the Chrysalids' Memento."]
   -
     title: Limgrave/Roundtable
     items:
-      - id: "121"
-        data: ["Go to the Third Church of Marika and use the Waygate to the North to arrive at the Bestial Sanctum."]
-      - id: "122"
-        data: ["Head inside the sanctum and grab the Bestial Sanctum Grace."]
-      - id: "123"
-        data: ["Talk to Gurranq, Beast Clergyman and give him your first two Deathroot to receive the Clawmark Seal, Beast Eye and Bestial Sling."]
       - id: "124"
         data: ["Go back to Varré at the First Step Grace and exhaust his dialogue."]
       - id: "125"
@@ -276,61 +270,257 @@ sections:
       - id: "130"
         data: ["Return to Varré's Location at the First Step Grace and read his message."]
   -
-    title: Swimming in the Lake
+    title: Liurnia Lake Part One
     items:
-      - id: "4_1"
-        data: ["So nearby should be a few NPCs depending on your choices, interact with them if you wish then head North-West down the slope to the Lake. Go North-West from here to find an island with an old friend on it, follow his instructions to go East to find a girl named Rya if you wish and if you choose to help her, go North-West to find the man she seeks."]
-      - id: "4_2"
-        data: ["Whatever your choice, head North to the Academy Gate Town and explore the area to find Diallos with his friend."]
-      - id: "4_3"
-        data: ["From here, explore the whole zone to your hearts content but a few warnings. Don't take the Coward's Path just yet. You'll know it by the name Ruin-Strewn Precipice. And don't go down the Ainsel River Well in the North-East. Waygates and trapped chests SHOULD be fine to take. I can't think of any that aren't."]
-      - id: "4_4"
-        data: ["When you are finished exploring, go West of Raya Lucaria if you haven't already and grab the Glintstone Key from nearby the Dragon found there. Take it to one of the seals blocking off the academy, the closest one is North-East of Raya Lucaria on top of a broken bridge. Use the key on the seal and enter the academy."]
-      - id: "4_5"
-        data: ["Explore the academy to your hearts content. Remember the information that the old friend gave you about the Iron Virgin below the Academy and try to avoid going down that elevator just yet. To explain, try not to let the Iron Virgin eat you. It won't necessarily break anything but I don't believe it's part of the game's \"intended\" path and you will be in hot lava if you do it."]
-      - id: "4_6"
-        data: ["Besides that, explore the academy to your heart's content and eventually kill the boss and go back to Roundtable Hold. You should now have \"permission\" to go up the Grand Lift."]
-      - id: "4_7"
-        data: ["Before we leave the lake though, here's a couple of things we need to do to get to other areas later."]
-      - id: "4_8"
-        data: ["In the North-West section of the map is Caria Manor and South of it is a Giant named Iji. Go through Caria Manor and then North-West to find Ranni's Rise. This begins Ranni's Questline and leads to one of the big 3 endings. Seluvis is in the tower South of Ranni's Rise and has another questline."]
-      - id: "4_9"
-        data: ["Along the cliffs in the South section of the map is the entrance to a town. Nepheli will be on the road here on a bunch of corpses(may require reloading the area/resting at a Grace before she appears) and in the town is a very very large pot. Try rolling into it to meet Albus and acquire the first half of the Haligtree Medallion."]
-      - id: "4_10"
-        data: ["East of the town, also along the cliffs, is a cave. Go all the way through it and past the boss room to find Latenna. If you met Albus she will be more talkative."]
-      - id: "4_11"
-        data: ["Revenger's Shack in the West section of the zone will have an invasion with an important item for a questline."]
-      - id: "4_12"
-        data: ["In some ruins on the shore in the South-East will be an NPC who will appear again on the broken bridge to the East of Raya Lucaria and again in the church past the broke bridge in the North section of the map."]
-      - id: "4_13"
-        data: ["At the Main Gate of Raya Lucaria, just to the North will be a summon sign that lets you continue Yura's Questline."]
-      - id: "4_14"
-        data: ["In the South-West of Raya Lucaria will be the Rose Church where White-Faced Varré will be with his questline. Note: He thinks fingers are gross."]
-      - id: "4_15"
-        data: ["At the East section of Lake Liurnia is Jarburg, remember this area for Diallos and Alexander's Quests. In it is Jar-bairn quest."]
+      - id: "131"
+        data: ["Go to the Godrick the Grafted Grace, go through the throne room and grab the Shabriri Grape underneath it"]
+      - id: "132"
+        data: ["Grab the Lake-Facing Cliffs Grace nearby"]
+      - id: "133"
+        data: ["Give the Shabriri Grape to Hyetta who is near the Grace(may require resting) and exhaust her dialogue"]
+      - id: "134"
+        data: ["Talk to Boc and exhaust his dialogue"]
+      - id: "135"
+        data: ["Go into the Church of Irith and grab the Sacred Tear"]
+      - id: "136"
+        data: ["Talk to Thops in the Church of Irith and exhaust his dialogue"]
+      - id: "137"
+        data: ["Head North-West, down the slope, to the shore and grab the Liurnia Lake Shore Grace(I recommend purchasing a Lantern from the merchant nearby if you don't already have one)"]
+      - id: "138"
+        data: ["Go North from the shore and grab Map (Liurnia, East)"]
+      - id: "139"
+        data: ["Continue North to the shore, talk to Hyetta at the Purified Ruins and exhaust her dialogue."]
+      - id: "140"
+        data: ["Go East, into the Purified Ruins, and find the hidden stairs underneath some wood boards. Go down the stairs and grab the Shabriri Grape"]
+      - id: "141"
+        data: ["Return to Hyetta, give her the Shabriri Grap and exhaust her dialogue"]
+      - id: "142"
+        data: ["Head up the slope North-East and grab the Liurnia Highway North Grace for later."]
+      - id: "143"
+        data: ["Go back down the slope but enter a nearby ruin and use the Waygate inside to grab the South Raya Lucaria Gate Grace and the Meeting Place Map"]
+      - id: "144"
+        data: ["Go back to the Liurnia Highway North Grace then go back South-West to the shore. Head to the island to the West, just West of the telescope and grab the Scenic Isle Grace."]
+      - id: "145"
+        data: ["Talk to Patches at the Scenic Isle Grace and exhaust his dialogue"]
+      - id: "146"
+        data: ["Go East to the pavillion near the telescope, talk to Rya and exhaust her dialogue"]
+      - id: "147"
+        data: ["Return to Patches and exhaust his dialogue."]
+      - id: "148"
+        data: ["Go North-West to find the Boilprawn Shack and grab the Boilprawn Shack Grace"]
+      - id: "149"
+        data: ["Talk to Blackguard Big Boggart at Boilprawn Shack and buy necklace"]
+      - id: "150"
+        data: ["Talk to Blackguard Big Boggart again, buy some Boiled Prawn and exhaust his dialogue"]
+      - id: "151"
+        data: ["Return to Rya to give her the necklace and exhaust her dialogue"]
+      - id: "152"
+        data: ["Go North to the Academy Gate Town and grab the Academy Gate Town Grace and Map (Liurnia, North)"]
+      - id: "153"
+        data: ["Go North/North-West of the Grace, talk to Diallos and exhaust his dialogue"]
+      - id: "154"
+        data: ["Head West/South-West, talk to the Finger Reader and exhaust her dialogue"]
+      - id: "155"
+        data: ["Go South-West and grab the Fallen Ruins of the Lake Grace"]
+      - id: "156"
+        data: ["Head West to the Rose Church, talk to Varre and exhaust his dialogue"]
+      - id: "157"
+        data: ["Invade other players 3 times(you can invade then leave immediately)"]
+      - id: "158"
+        data: ["Talk to Varre again and exhaust his dialogue"]
+      - id: "159"
+        data: ["Go North-West and grab the Temple Quarter Grace"]
+      - id: "160"
+        data: ["Head North from the Grace, kill or run past the Glintstone Dragon and grab the Glintstone Key"]
+      - id: "161"
+        data: ["Turn around and head South-West to the shore to find a ghost then follow the trail of bodies up to the Revenger's Shack."]
+      - id: "162"
+        data: ["Kill Edgar the Revenger at Revenger's Shack to receive a Shabriri Grape and grab the Revenger's Shack Grace."]
+      - id: "163"
+        data: ["Follow the road East to the top and grab the Imbued Sword Key and The Four Belfries Grace"]
+      - id: "164"
+        data: ["Go East to the nearby Waygate with the message that says Anticipation, use the key to unlock it and enter it"]
+      - id: "165"
+        data: ["Kill the Boss of the Chapel of Anticipation, Grafted Scion"]
+      - id: "166"
+        data: ["Go through the area to the chapel where you started at and go through the nearby opened door to grab The Stormhawk King ashes"]
+      - id: "167"
+        data: ["Go back to the Fallen Ruins of the Lake and head South-West to grab the Folly on the Lake Grace"]
+      - id: "168"
+        data: ["Head South-West, underneath the cliffs and follow the path to grab the Village of the Albinaurics Grace and rest at it"]
+      - id: "169"
+        data: ["Backtrack down the road a little, talk to Nepheli and exhaust her dialogue"]
+      - id: "170"
+        data: ["Proceed through the village to find a giant pot that looks out of place and is making noises, attack or roll into it to reveal Albus."]
+      - id: "171"
+        data: ["Talk to Albus and exhaust his dialogue"]
+      - id: "172"
+        data: ["Summon Nepheli and kill the Boss of Village of the Albinaurics, Omenkiller"]
+      - id: "173"
+        data: ["Starting from the Scenic Isle Grace, head South to grab the Lakeside Crystal Cave Grace."]
+      - id: "174"
+        data: ["Kill the Boss of Lakeside Crystal Cave, Bloodhound Knight"]
+      - id: "175"
+        data: ["Go through the back exit of the cave and grab the Slumbering Wolf's Shack Grace"]
+      - id: "176"
+        data: ["Talk to Latenna and exhaust her dialogue"]
+      - id: "177"
+        data: ["Starting from the Liurnia Highway North Grace, follow the road North to the Gate Town Bridge Grace"]
+      - id: "178"
+        data: ["Talk to Hyetta, give her the Shabriri Grape and exhaust her dialogue"]
+      - id: "179"
+        data: ["Rest at the Grace, talk to Hyetta again and exhaust her dialogue"]
+      - id: "180"
+        data: ["Head East and use the Spiritjump to reach the top of the cliffs then summon D, Hunter of the Dead and head North to kill the Tibia Mariner for your third Deathroot."]
+      - id: "181"
+        data: ["Go back South-East to the cliffs East of where you killed the Tibia Mariner and use ledges poking out of the cliff to make your way down to grab the Jarburg Grace."]
+      - id: "182"
+        data: ["Nearby the Grace, on a porch, is Jar-Bairn. Talk to him and exhaust his dialogue."]
   -
-    title: Arriving in Caelid
+    title: Raya Lucaria
     items:
-      - id: "5_1"
-        data: ["Go back to that Grace where you met Alexander in Limgrave then head along the road East. continue East to and past the Smoldering Church to the Shack of the Rotting."]
-      - id: "5_2"
-        data: ["Feel free to explore. Caelid has a lot to do! You've got friendly locals, bird-watching, historical areas and plenty of dogs to pet. Just remember, please don't feed the animals."]
-      - id: "5_3"
-        data: ["Here are things NOT to do. Don't enter Redmane Castle in the South-East yet(that means no touching the Waygates on the bridge nearby it also be wary of the Waygate in Fort Gaol in the South-West corner. I know it leads around here but don't remember specifically where) and other than that, the zone should be fully explorable, albeit dangerous."]
-      - id: "5_4"
-        data: ["Once you've finished you're exploration go to the Shack of the Rotting Grace back in the North-West corner. Go North-East to the cliffs and follow along them to eventually find a path to jump over to the other side. This is a more dangerous area to explore but head East, avoiding the wildlife, and if you follow the road going East you should eventually see a massive Dragon. Run past it to the left and get to the Fort Faroth Grace. Explore Fort Faroth to get the other half of the Dectus Medallion."]
-      - id: "5_5"
-        data: ["Alexander is at the end of the Gael Tunnel on the West side of Caelid."]
-      - id: "5_6"
-        data: ["<b>! South of Sellia, Town of Sorcery, in East Caelid past the swamp is Gowry's Shack where you can find Gowry and do Millicent's Questline. Millicent is important to undo a specific Ending if you so choose.!</b>"]
-      - id: "5_7"
-        data: ["North of Sellia, through the seal is a path. Follow the path to a church. North of the church is a giant tombstone. Past the tombstone is an illusionary wall leading to a cave."]
-      - id: "5_8"
-        data: ["In the far North-East will be the Bestial Sanctum, which you may or may not have already been to if you followed D's (nuts) instructions. Inside will be Gurranq, Beast Clergyman."]
-      - id: "5_9"
-        data: ["Once you've got the second half of the medallion and done all you wish to do, it's time to leave."]
-      - id: "5_10"
-        data: ["At this point, all Waygates/Trapped Chests in Weeping Peninsula, Limgrave, and Liurnia Lake are safe. The Iron Virgin is still not."]
+      - id: "183"
+        data: ["Go back to the South Raya Lucaria Gate Grace and use the Glintstone Key to pass through the seal and grab the Main Academy Gate Grace"]
+      - id: "184"
+        data: ["Go North, around the seal, and use the Summon Sign on the ground to help Yura invade and kill Bloody Finger Ravenmount Assassin."]
+      - id: "185"
+        data: ["After the Bloody Finger is dead, talk to Yura nearby and exhaust his dialogue."]
+      - id: "186"
+        data: ["From Main Academy Gate, go into Raya Lucaria up the lift."]
+      - id: "187"
+        data: ["Go past the enemies, into the church, to the left and another left to the Church of the Cuckoo Grace"]
+      - id: "188"
+        data: ["From the Grace, go down the hall and out the door to the graveyard. Go past the enemies and jump onto the rotating wheel lift and ride it all the way up. Hop off and grab the Schoolhouse Classroom Grace"]
+      - id: "189"
+        data: ["From the Grace, go into the hallway and go right. Make youre way past the enemies then up the stairs, then up the stairs, then up the stairs, UP ALL THE STAIRS then go down the hall to fight and kill the Boss, Red Wolf of Radagon."]
+      - id: "190"
+        data: ["After it's dead grab the Debate Hall Grace."]
+      - id: "191"
+        data: ["You can now reach the boss but first we are going to collect a couple things so go into the courtyard and to the left to go up the stairs. Head up those stairs and in the room, on the balcony will be the Glintstone Whetblade for you to grab."]
+      - id: "192"
+        data: ["Continue past and you will find a fence you can jump over to get onto some rooftops. Hop the fence and open the door nearby for a shortcut if you like. From here the rooftops are a mini-maze but at the end of this maze you will arrive inside the Church of the Cuckoo where you can hop onto the chandelier to grab a second Academy Glintstone Key for Thops."]
+      - id: "193"
+        data: ["Head back to the Debate Parlor Grace and once you enter the courtyard, go to the right side and hop onto once of the archways leading to the path where the metal ball is rolling down. Hop the fence and make your way past the metal ball to reach Moongrum, Carian Knight and kill him."]
+      - id: "194"
+        data: ["With Moongrum dead, go up the lift to fight and kill the Boss, Rennala, Queen of the Full Moon."]
+      - id: "195"
+        data: ["Grab the Raya Lucaria grand Library Grace."]
+  -
+    title: Liurnia Lake Part Two
+    items:
+      - id: "196"
+        data: ["From the Raya Lucaria Grand Library Grace, go back down the lift and into the building just before reaching the metal ball again. To the North will be Waygate, use it to arrive at the Church of Vows and grab the Church of Vows Grace"]
+      - id: "197"
+        data: ["Talk to Miriel, Pastor of Vows inside the Church of Vows and exhaust his dialogue."]
+      - id: "198"
+        data: ["Grab the Gold Sewing Needle and Gold Tailoring Tools from the chest nearby"]
+      - id: "199"
+        data: ["Go North-East from the Church of Vows and grab the Ruined Labyrinth Grace"]
+      - id: "200"
+        data: ["Follow the road East from the Grace to it's end to find the Black Knife Catacombs Grace"]
+      - id: "201"
+        data: ["Proceed through the catacombs to the room with the falling blades then hop onto one of the blades. Ride the blade up and hop onto the ledge to find the hidden path. Follow this path to the end and roll into the Illusory Wall to make it disappear. Summon D, Hunter of the Dead and kill the Boss, Black Knife Assassin for the Black Knifeprint."]
+      - id: "202"
+        data: ["Proceed to the end of the regular path and kill the Boss, Cemetary Shade for the fourth Deathroot."]
+  -
+    title: Roundtable Hold
+    items:
+      - id: "203"
+        data: ["Go back to Roundtable Hold and kill the Invader, Ensha"]
+      - id: "204"
+        data: ["Talk to Gideon and Nepheli until dialogue with both is exhausted"]
+      - id: "205"
+        data: ["Talk to Hewg until dialogue is exhausted"]
+      - id: "206"
+        data: ["Talk to Roderika until dialogue is exhausted"]
+      - id: "207"
+        data: ["Talk to Diallos until dialogue is exhausted"]
+      - id: "208"
+        data: ["Talk to Enia until dialogue is exhausted"]
+      - id: "209"
+        data: ["Cuddle with Fia and talk to Rogier until dialogue with both is exhausted"]
+      - id: "210"
+        data: ["Reload and talk to Rogier again until dialogue is exhausted."]
+  -
+    title: Liurnia Lake Part Three/Roundtable
+    items:
+      - id: "211"
+        data: ["Start from the Academy Gate Town Grace then head North-East. In a pavillion you will find a Waygate. Use it to appear near and grab the Northern Liurnia Lak Shore Grace."]
+      - id: "212"
+        data: ["Grab the Map (Liurnia, West) just North-East of the Grace"]
+      - id: "213"
+        data: ["Head North-East and break the Illusory Wall to grab the Road to the Manor Grace"]
+      - id: "214"
+        data: ["Talk to Iji and exhaust his dialogue"]
+      - id: "215"
+        data: ["Head North-East and grab the Main Caria Manor Gate Grace"]
+      - id: "216"
+        data: ["Run through the manor to the Manor Lower Level Grace."]
+      - id: "217"
+        data: ["Run across the bridges then up the lift to the Manor Upper Level Grace."]
+      - id: "218"
+        data: ["Run past the enemies and kill the boss, Royal Knight Loretta."]
+      - id: "219"
+        data: ["Grab the Royal Knight Loretta Grace"]
+      - id: "220"
+        data: ["Head outside and go West, fighting or running past the Glintstone Dragon Adula and enter Ranni's Rise and grab the Ranni's Rise Grace."]
+      - id: "221"
+        data: ["Go up the lift and talk to Ranni and get rejected"]
+      - id: "222"
+        data: ["Go back to Rogier get advice"]
+      - id: "223"
+        data: ["Go back to Ranni and get accepted"]
+      - id: "224"
+        data: ["Talk to Iji, Blaidd and Seluvis then back to Ranni."]
+      - id: "225"
+        data: ["Return to Rogier, reload and talk again"]
+  -
+    title: Caelid
+    items:
+      - id: "226"
+        data: ["Starting from the Summonwater Village Outskirts in North-East Limgrave, head East to the cliffs and find your way down to grab the Grace just outside of a cave entrance"]
+      - id: "227"
+        data: ["Go inside and talk to Alexander in the cave on Limgrave's side of Gael Tunnel"]
+      - id: "228"
+        data: ["Go back up the cliffs and follow the road North-East to kill Invader, Anastasia, Tarnished Eater at the Smoldering Church"]
+      - id: "229"
+        data: ["Continue following the road in Caelid and grab the Rotview Balcony Grace"]
+      - id: "230"
+        data: ["Follow the cliffs South of the Grace to reach the Gael Tunnel, enter it and drop down to grab the Gael Tunnel Grace"]
+      - id: "231"
+        data: ["Make your way to the end of Gael Tunnel and grab the Rear Gael Tunnel Entrance Grace."]
+      - id: "232"
+        data: ["Open the door nearby, talk to Alexander and exhaust his dialogue"]
+      - id: "233"
+        data: ["Go back to the Rotview Balcony Grace and follow the road East to grab the Caelem Ruins Grace"]
+      - id: "234"
+        data: ["Follow the road South to grab the Smoldering Wall Grace"]
+      - id: "235"
+        data: ["Talk to the Finger Reader nearby"]
+      - id: "236"
+        data: ["Head into the swamp South-East and kill the Invader, Millicent."]
+      - id: "237"
+        data: ["Head to the North-East side of the swamp and grab the Sellia Under-Stair Grace."]
+      - id: "238"
+        data: ["Go into the town up the stairs and head South to find Gowry's Shack. Kill the dog to make sure it doesn't break the quest then talk to Gowry in his shack and exhaust his dialogue."]
+      - id: "239"
+        data: ["Follow the swamp heading South from the Sellia Under-Stair Grace and kill Commander O'Neil in the South-East section of the swamp."]
+      - id: "240"
+        data: ["Return to Gowry and give him the needle then reload, talk to him again and exhaust his dialogue"]
+      - id: "241"
+        data: ["Light the fires on top of the buildings in Sellia to undo the seal, then go through the seal North of town to grab the Sellia Backstreets Grace"]
+      - id: "242"
+        data: ["Follow the road North-East and then South to grab the Church of the Plague Grace"]
+      - id: "243"
+        data: ["Talk to Millicent and exhaust her dialogue, then reload, talk to her again and exhaust her dialogue"]
+      - id: "244"
+        data: ["Return to Gowry and exhaust his dialogue"]
+      - id: "245"
+        data: ["Head South and grab the Southern Aeonia Swamp Grace"]
+      - id: "246"
+        data: ["Follow the road South-East to the bridge to grab the Impassable Greatbridge Grace for later."]
+      - id: "247"
+        data: ["Caelid/Dragonburrow is now 100% safe to explore! There should be no warnings required!"]
   -
     title: "Going Underground Part 1: Exploring the River Wells"
     items:
