@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,20 +156,28 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools.html">Tools</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item tabl-li">
+            <li class="nav-item tab-li">
+              <a class="nav-link hide-buttons" href="/map.html">
+                <i class="bi bi-map"></i> Map
+              </a>
+            </li>
+            <li class="nav-item tab-li">
               <a class="nav-link hide-buttons" href="/options.html">
                 <i class="bi bi-gear-fill"></i> Options
               </a>
@@ -206,14 +225,15 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#ancient_dragon_smithing_stones_0Col" data-bs-toggle="collapse" href="#ancient_dragon_smithing_stones_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/bolstering/02008.png" height="70" loading="lazy" width="70">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Ancient+Dragon+Smithing+Stone">Ancient Dragon Smithing Stones</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="ancient_dragon_smithing_stones_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="ancient_dragon_smithing_stones_0Col">
               <h5><a href="https://eldenring.wiki.fextralife.com/Caelid">Caelid</a></h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_1">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_1" id="item_1">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_1">Rewarded by <a href="https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman">Gurranq, Beast Clergyman</a>, after feeding him 9 <a href="https://eldenring.wiki.fextralife.com/Deathroot">Deathroot</a>. Alternatively, he will drop this stone when killed.</label>
                   </div>
@@ -221,8 +241,8 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Mountaintops+of+the+Giants">Mountaintops of the Giants</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_2">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_2" id="item_2">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_2">Found on a corpse inside the mouth of a giant skull, just south-east of <a href="https://eldenring.wiki.fextralife.com/Church+of+Repose">Church of Repose</a>.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=6399&lat=-91&lng=157.801089&zoom=8&code=mapA">[Map link]</a></label>
                   </div>
@@ -230,20 +250,20 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_3">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_3" id="item_3">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_3">Dropped from the two <a href="https://eldenring.wiki.fextralife.com/Night's+Cavalry">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA">Inner Consecrated Snowfield</a> grace site.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4411&lat=-76.39&lng=139&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_4">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_4" id="item_4">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_4">Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA">Great Wyrm Theodorix</a>.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=6398&lat=-69.28&lng=151.13&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_5">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_5" id="item_5">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_5"><a href="https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel">Yelough Anix Tunnel</a>: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss <a href="https://eldenring.wiki.fextralife.com/Alabaster+Lord">Alabaster Lord</a>.</label>
                   </div>
@@ -251,14 +271,14 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Miquella's+Haligtree">Miquella's Haligtree</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_6">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_6" id="item_6">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_6">Looted from a corpse just below a hugging statue, north of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA">Haligtree Town Plaza</a> grace site. The stone is guarded by two winged and one red-maned <a href="https://eldenring.wiki.fextralife.com/Misbegotten">Misbegotten</a>.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_7">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_7" id="item_7">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_7">After defeating <a href="https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree">Loretta</a>, make your way down a long ladder and past (not down) the lift to find this stone in a chest.</label>
                   </div>
@@ -266,20 +286,20 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Crumbling Farum Azula</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_8">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_8" id="item_8">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_8">Dropped from the <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Crumbling Beast Grave</a> and <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Crumbling Beast Grave Depths</a> grace sites.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=8612&lat=-129.726562&lng=216.571842&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_9">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_9" id="item_9">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_9">Starting from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA">Dragon Temple Altar</a> grace site, head north through the door way and make your way past the assorted <a href="https://eldenring.wiki.fextralife.com/Azula+Beastman">Azula Beastman</a> and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_10">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_10" id="item_10">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_10">Dropped from the stationary <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href="https://eldenring.wiki.fextralife.com/Warhawk">Warhawks</a>.</label>
                   </div>
@@ -287,20 +307,20 @@
               </ul>
               <h5>Quests</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_11">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_11" id="item_11">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_11">Rewarded by <a href="https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren">Witch-Hunter Jerren</a> for siding with him at the end of <a href="https://eldenring.wiki.fextralife.com/Sorceress+Sellen">Sorceress Sellen's</a> questline just outside the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA">Raya Lucaria Grand Library</a>.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_12">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_12" id="item_12">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_12">Rewarded by <a href="https://eldenring.wiki.fextralife.com/Nepheli+Loux">Nepheli Loux</a> in Godrick's Throneroom (just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA">Godrick the Grafted</a> grace site) after completing <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href="https://eldenring.wiki.fextralife.com/Seluvis's+Potion">Seluvis's Potion</a> was given to Nepheli.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_13">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_13" id="item_13">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_13" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_13">Purchased from <a href="https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc">Gatekeeper Gostoc</a> in Godrick's Throneroom (just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA">Godrick the Grafted</a> grace site) after completing <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href="https://eldenring.wiki.fextralife.com/Seluvis's+Potion">Seluvis's Potion</a> was given to Nepheli.</label>
                   </div>
@@ -315,14 +335,15 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#ancient_dragon_smithing_stones_1Col" data-bs-toggle="collapse" href="#ancient_dragon_smithing_stones_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/bolstering/02018.png" height="70" loading="lazy" width="70">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Somber+Ancient+Dragon+Smithing+Stone">Somber Ancient Dragon Smithing Stones</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="ancient_dragon_smithing_stones_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="ancient_dragon_smithing_stones_1Col">
               <h5><a href="https://eldenring.wiki.fextralife.com/Mohgwyn+Palace">Mohgwyn Palace</a></h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_14">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_14" id="item_14">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_14" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_14">Found in a chest just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB">Dynasty Mausoleum Midpoint</a> grace site. The player should be careful as the chest is surrounded by a <a href="https://eldenring.wiki.fextralife.com/Sanguine+Noble">Sanguine Noble</a> and seven 2nd generation <a href="https://eldenring.wiki.fextralife.com/Albinauric">Albinaurics</a>.</label>
                   </div>
@@ -330,8 +351,8 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_15">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_15" id="item_15">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_15" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_15">Dropped from the invading phantom <a href="https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href="https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town">Ordina, Liturgical Town</a>.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=7919&lat=-69.203125&lng=137.478198&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
@@ -339,14 +360,14 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, Brace of the Haligtree</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_16">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_16" id="item_16">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_16" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_16">Start from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href="https://eldenring.wiki.fextralife.com/Erdtree+Avatar">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_17">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_17" id="item_17">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_17" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_17">Start from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=8299&lat=-36.265625&lng=148.499286&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
@@ -354,8 +375,8 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Crumbling Farum Azula</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_18">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_18" id="item_18">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_18" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_18">Found in a gazebo behind the stationary <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href="https://eldenring.wiki.fextralife.com/Warhawk">Warhawks</a>.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4357&lat=-123.476562&lng=220.336526&zoom=8&code=mapA">[Map Link]</a></label>
                   </div>
@@ -363,8 +384,8 @@
               </ul>
               <h5><a href="https://eldenring.wiki.fextralife.com/Leyndell,+Ashen+Capital">Leyndell, Ashen Capital</a></h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_19">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_19" id="item_19">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_19" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_19">From the main <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building.  <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=7715&lat=-103.914062&lng=114.004391&zoom=8&code=mapC">[Map Link]</a></label>
                   </div>
@@ -372,14 +393,14 @@
               </ul>
               <h5>Quests</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_20">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_20" id="item_20">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_20" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_20">Rewarded by <a href="https://eldenring.wiki.fextralife.com/Latenna">Latenna</a> after completing her questline at the <a href="https://eldenring.wiki.fextralife.com/Apostate+Derelict">Apostate Derelict</a> in the <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a>.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="ancient_dragon_smithing_stones_21">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="ancient_dragon_smithing_stones_21" id="item_21">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="ancient_dragon_smithing_stones_21" type="checkbox" value="">
                     <label class="form-check-label item_content" for="ancient_dragon_smithing_stones_21"><a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, Brace of the Haligtree</a>: After completing <a href="https://eldenring.wiki.fextralife.com/Millicent">Millicent's</a> questline and defeating <a href="https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella">Malenia, Blade of Miquella</a>, insert the gold needle into Malenia's scarlet flower to receive the stone as well as <a href="https://eldenring.wiki.fextralife.com/Miquella's+Needle">Miquella's Needle</a>.</label>
                   </div>
@@ -394,7 +415,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -416,7 +437,22 @@
                 $(function() {
                     var jet = new Jets({
                         searchTag: "#ancient_dragon_smithing_stones_search",
-                        contentTag: "#ancient_dragon_smithing_stones_list ul"
+                        contentTag: "#ancient_dragon_smithing_stones_list ul",
+                        didSearch: function(search_phrase) {
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            $(".card").each(function(index, el) {
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {
+                                    $(el).addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                }
+                            });
+                        }
                     });
                     $("#ancient_dragon_smithing_stones_search").keyup(function() {
                         $("#ancient_dragon_smithing_stones_list").unhighlight();
@@ -425,7 +461,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,20 +156,28 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools.html">Tools</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item tabl-li">
+            <li class="nav-item tab-li">
+              <a class="nav-link hide-buttons" href="/map.html">
+                <i class="bi bi-map"></i> Map
+              </a>
+            </li>
+            <li class="nav-item tab-li">
               <a class="nav-link hide-buttons" href="/options.html">
                 <i class="bi bi-gear-fill"></i> Options
               </a>
@@ -206,56 +225,57 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_0Col" data-bs-toggle="collapse" href="#flasks_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/bolstering/00383.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Golden Seeds</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="flasks_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="flasks_0Col">
               <h5>Limgrave</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="flasks_1_2">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_2" id="item_1_2">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_2">Can choose one as a Keepsake</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_3">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_3" id="item_1_3">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_3">Under a Golden Tree on the path to Stormveil Castle</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_43">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_43" id="item_1_43">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_43" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_43">Under a Golden Tree inside Stormveil, near the Secluded Cell Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_4">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_4" id="item_1_4">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_4">Reward for finishing Roderika's quest, can otherwise be found at her shack</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_5">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_5" id="item_1_5">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_5">Under Golden Tree in front of Fort Haight</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_6">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_6" id="item_1_6">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_6">Drops from Kenneth Haight if killed</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_7">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_7" id="item_1_7">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_7">Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_8">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_8" id="item_1_8">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_8">Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle</label>
                   </div>
@@ -263,8 +283,8 @@
               </ul>
               <h5>Weeping Peninsula</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_1">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_1" id="item_1_1">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_1">Under a Golden Tree south of Castle Morne Rampart Grace</label>
                   </div>
@@ -272,32 +292,32 @@
               </ul>
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_9">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_9" id="item_1_9">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_9">Under a Golden Tree in Academy Gate Town</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_10">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_10" id="item_1_10">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_10">Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_11">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_11" id="item_1_11">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_11">Under a Golden Tree west side of Raya Lucaria Academy courtyard</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_12">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_12" id="item_1_12">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_12">Under a Golden Tree in Caria Manor's upper level.</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_13">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_13" id="item_1_13">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_13" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_13">Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice</label>
                   </div>
@@ -305,26 +325,26 @@
               </ul>
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_14">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_14" id="item_1_14">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_14" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_14">under a Golden Tree near the three way crossroad leading to Castle Redmane</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_15">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_15" id="item_1_15">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_15" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_15">under a Golden Tree in the upper area of Sellia, Town of Sorcery</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_16">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_16" id="item_1_16">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_16" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_16">under a Golden Tree, south of Bestial Sanctum</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_17">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_17" id="item_1_17">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_17" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_17">reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)</label>
                   </div>
@@ -332,26 +352,26 @@
               </ul>
               <h5>Altus Plateau</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_18">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_18" id="item_1_18">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_18" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_18">under a Golden Tree near Erdtree-Grazing Hill Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_19">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_19" id="item_1_19">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_19" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_19">under a Golden Tree north of Altus Highway Junction</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_20">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_20" id="item_1_20">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_20" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_20">under a Golden Tree near the Minor Erdtree</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_21">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_21" id="item_1_21">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_21" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_21">under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower</label>
                   </div>
@@ -359,44 +379,44 @@
               </ul>
               <h5>Leyndell, Royal Capital</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_22">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_22" id="item_1_22">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_22" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_22">under a large Golden Tree near the Outer Wall Phantom Tree Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_23">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_23" id="item_1_23">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_23" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_23">under the same Golden Tree mentioned above</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_24">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_24" id="item_1_24">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_24" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_24">under a large Golden Tree north of the Outer Wall Phantom Tree Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_25">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_25" id="item_1_25">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_25" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_25">under the same Golden Tree mentioned above</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_26">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_26" id="item_1_26">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_26" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_26">reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_27">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_27" id="item_1_27">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_27" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_27">under a Golden Tree south of the West Capital Rampart Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_28">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_28" id="item_1_28">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_28" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_28">reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace</label>
                   </div>
@@ -404,14 +424,14 @@
               </ul>
               <h5>Mt. Gelmir</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_29">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_29" id="item_1_29">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_29" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_29">under a Golden Tree in the ravine, near Gelmir Hero's Grave</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_30">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_30" id="item_1_30">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_30" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_30">under a Golden Tree, northwest of Road of Iniquity</label>
                   </div>
@@ -419,26 +439,26 @@
               </ul>
               <h5>Mountaintops of the Giants</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_31">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_31" id="item_1_31">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_31" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_31">under a Golden Tree, on the way to the Grand Lift of Rold</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_32">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_32" id="item_1_32">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_32" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_32">reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_33">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_33" id="item_1_33">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_33" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_33">under a Golden Tree, northwest of the Foot of the Forge Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_34">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_34" id="item_1_34">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_34" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_34">under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem</label>
                   </div>
@@ -446,14 +466,14 @@
               </ul>
               <h5>Consecrated Snowfield</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_35">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_35" id="item_1_35">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_35" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_35">under a Golden Tree, south of Inner Consecrated Snowfield Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_36">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_36" id="item_1_36">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_36" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_36">under a Golden Tree, west of Ordina, Liturgical Town</label>
                   </div>
@@ -461,14 +481,14 @@
               </ul>
               <h5>Crumbling Farum Azula</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_37">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_37" id="item_1_37">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_37" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_37">under a Golden Tree in the middle of the Dragon Temple</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_1_38">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_38" id="item_1_38">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_38" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_38">under a Golden Tree, southeast of Dragon Temple Rooftop Grace</label>
                   </div>
@@ -476,8 +496,8 @@
               </ul>
               <h5>Siofra River</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_39">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_39" id="item_1_39">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_39" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_39">under a Golden Tree in the upper area of Siofra River, accessible via waygate</label>
                   </div>
@@ -485,8 +505,8 @@
               </ul>
               <h5>Mohgwyn Palace</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_40">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_40" id="item_1_40">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_40" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_40">under a Golden Tree in the middle of the lake, surrounded by giant birds</label>
                   </div>
@@ -494,8 +514,8 @@
               </ul>
               <h5>Ainsel River</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_41">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_41" id="item_1_41">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_41" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_41">under a Golden Tree in the northwest of Ainsel River, accessible via elevator</label>
                   </div>
@@ -503,8 +523,8 @@
               </ul>
               <h5>Lake of Rot</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_1_42">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_42" id="item_1_42">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_1_42" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_1_42">reward for defeating Putrid Tree Spirit in Lake of Rot</label>
                   </div>
@@ -519,14 +539,15 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_1Col" data-bs-toggle="collapse" href="#flasks_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
+              <img class="me-1" data-src="/img/icons/bolstering/00384.png" height="70" loading="lazy" width="70">
               <span class="d-print-inline">Sacred Tears</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="flasks_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="flasks_1Col">
               <h5>Limgrave</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item ps-0" data-id="flasks_2_4">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_4" id="item_2_4">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_4">Third Church of Marika, in East Limgrave</label>
                   </div>
@@ -534,20 +555,20 @@
               </ul>
               <h5>Weeping Peninsula</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_2_1">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_1" id="item_2_1">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_1">Callu Baptismal Church, in the middle of the Weeping Peninsula</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_2">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_2" id="item_2_2">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_2">Church of Pilgrimage, north of Weeping Peninsula</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_3">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_3" id="item_2_3">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_3">Fourth Church of Marika, west of Weeping Peninsula</label>
                   </div>
@@ -555,20 +576,20 @@
               </ul>
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_2_5">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_5" id="item_2_5">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_5">Church of Irith, southern part of Liurnia of the Lakes</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_6">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_6" id="item_2_6">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_6">Bellum Church, on the way to the Grand Lift of Dectus</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_7">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_7" id="item_2_7">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_7">Church of Inhibition, northeast of Bellum Highway Forest</label>
                   </div>
@@ -576,8 +597,8 @@
               </ul>
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_2_8">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_8" id="item_2_8">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_8">Church of Plague, accessible through Sellia, Town of Sorcery</label>
                   </div>
@@ -585,14 +606,14 @@
               </ul>
               <h5>Altus Plateau</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_2_9">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_9" id="item_2_9">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_9">Second Church of Marika, north of Altus Highway Junction Grace</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_10">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_10" id="item_2_10">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_10">Stormcaller Church, west of Rampartside Path Gace</label>
                   </div>
@@ -600,14 +621,14 @@
               </ul>
               <h5>Mountaintops of the Giants</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item ps-0" data-id="flasks_2_11">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_11" id="item_2_11">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_11">Church of Repose, east of Grand Lift of Rold</label>
                   </div>
                 </li>
-                <li class="list-group-item ps-0" data-id="flasks_2_12">
-                  <div class="form-check checkbox">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_12" id="item_2_12">
+                  <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" id="flasks_2_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="flasks_2_12">First Church of Marika, southeastern most part of Mountaintops of the Giants</label>
                   </div>
@@ -622,7 +643,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -644,7 +665,22 @@
                 $(function() {
                     var jet = new Jets({
                         searchTag: "#flasks_search",
-                        contentTag: "#flasks_list ul"
+                        contentTag: "#flasks_list ul",
+                        didSearch: function(search_phrase) {
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            $(".card").each(function(index, el) {
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {
+                                    $(el).addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                }
+                            });
+                        }
                     });
                     $("#flasks_search").keyup(function() {
                         $("#flasks_list").unhighlight();
@@ -653,7 +689,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>

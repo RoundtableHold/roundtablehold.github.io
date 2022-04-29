@@ -145,6 +145,11 @@ input[type="checkbox"]:checked + .item_content {
   -webkit-text-decoration: line-through !important;
 }
 
+li.completed img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
 textarea#profileText {
   height: 15em;
   resize: vertical;
@@ -204,4 +209,8 @@ textarea#profileText {
 .highlight {
   background-color: cornflowerblue;
   color: white;
+}
+
+:target {
+  scroll-margin-top: 15vh;
 }

@@ -1,7 +1,16 @@
 var profilesKey = 'darksouls3_profiles';
 
+// if ('serviceWorker' in navigator) {
+//     window.addEventListener('load', function() {
+//         navigator.serviceWorker.register('/sw.js').then(() => { console.log('Service Worker Registered'); });
+//     });
+// }
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/js/sw.js').then(() => { console.log('Service Worker Registered'); });
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+            registration.unregister();
+        }
+    })
 }
 
 (function($) {
@@ -9,6 +18,7 @@ if ('serviceWorker' in navigator) {
 
     var themes = {
         "Standard" : "/css/bootstrap.min.css",
+        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
         "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
         "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
         "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
@@ -46,25 +56,62 @@ if ('serviceWorker' in navigator) {
     if (!(profilesKey in profiles)) profiles[profilesKey] = {};
     initializeProfile(profiles.current);
 
-    window.setCheckbox = function(id, checked) {
-        var profiles = $.jStorage.get(profilesKey, {});
-        profiles[profilesKey][profiles.current].checklistData[id] = checked;
-        if ($('#' + id).length === 1) {
-            var el = $('#' + id).get(0);
-            $(el).prop('checked', checked)
-            if (checked) {
-                $(el).closest('li').addClass('completed')
-            } else {
-                $(el).closest('li').removeClass('completed')
-            }
-        }
-        $.jStorage.set(profilesKey, profiles);
-
-        calculateTotals();
-    };
 
     jQuery(document).ready(function($) {
         // Get the right style going...
+        function setCheckbox(id, checked) {
+            if ($('#' + id).length === 1) {
+                var el = $('#' + id).get(0);
+                $(el).prop('checked', checked)
+                if (checked) {
+                    $(el).closest('li').addClass('completed')
+                } else {
+                    $(el).closest('li').removeClass('completed')
+                }
+            }
+        }
+        function setItem(id, checked, startup=false) {
+            if (startup && !checked) {
+                return;
+            }
+            profiles = $.jStorage.get(profilesKey, {});
+            profiles[profilesKey][profiles.current].checklistData[id] = !!checked;
+            setCheckbox(id, checked);
+            $.jStorage.set(profilesKey, profiles);
+
+            if (id in item_links) {
+                var links = item_links[id];
+                if ('targets' in links) {
+                    for (const t of links['targets']) {
+                        if (profiles[profilesKey][profiles.current].checklistData[t] != checked) {
+                            setItem(t, checked, startup);
+                        }
+                    }
+                }
+                if ('orsources' in links) {
+                    var b = checked;
+                    for (const s of links['orsources']) {
+                        b |= profiles[profilesKey][profiles.current].checklistData[s];
+                    }
+                    for (const t of links['ortargets']) {
+                        if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                            setItem(t, b, startup);
+                        }
+                    }
+                }
+                if ('andsources' in links) {
+                    var b = checked;
+                    for (const s of links['andsources']) {
+                        b &= profiles[profilesKey][profiles.current].checklistData[s];
+                    }
+                    for (const t of links['andtargets']) {
+                        if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                            setItem(t, b, startup);
+                        }
+                    }
+                }
+            }
+        }
     
         themeSetup(profiles[profilesKey][profiles.current].style);
         
@@ -73,7 +120,8 @@ if ('serviceWorker' in navigator) {
         $('.checkbox input[type="checkbox"]').click(function() {
             var id = $(this).attr('id');
             var isChecked = $(this).prop('checked');
-            window.setCheckbox(id, isChecked);
+            setItem(id, isChecked);
+            calculateTotals();
         });
 
         $('.collapse-button').click(function(event) {
@@ -102,7 +150,7 @@ if ('serviceWorker' in navigator) {
         });
 
         $('input[id="toggleHideCompleted"]').change(function() {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var hidden = !$(this).is(':checked');
 
             $(this).parent('div').parent('div').parent('div').toggleClass('hide_completed', !hidden);
@@ -110,6 +158,27 @@ if ('serviceWorker' in navigator) {
             profiles[profilesKey][profiles.current].hide_completed = !hidden;
             $.jStorage.set(profilesKey, profiles);
         });
+    
+        function populateChecklists() {
+            var checkboxes = $('.checkbox input[type="checkbox"]');
+            checkboxes.each(function (index, el) {
+                var id = $(el).attr('id');
+                var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
+                if (checked) {
+                    setItem(id, checked, true);
+                } else {
+                    $(el).prop('checked', false);
+                    $(el).closest('li').removeClass('completed');
+                }
+                // $(el).prop('checked', checked);
+                // if (checked) {
+                //     $(el).closest('li').addClass('completed')
+                // } else {
+                //     $(el).closest('li').removeClass('completed')
+                // }
+            });
+            calculateTotals();
+        }
 
         populateChecklists();
     });
@@ -162,20 +231,6 @@ if ('serviceWorker' in navigator) {
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
 
-    function populateChecklists() {
-        var checkboxes = $('.checkbox input[type="checkbox"]');
-        checkboxes.each(function (index, el) {
-            var id = $(el).attr('id');
-            var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
-            $(el).prop('checked', checked);
-            if (checked) {
-                $(el).closest('li').addClass('completed')
-            } else {
-                $(el).closest('li').removeClass('completed')
-            }
-        });
-        calculateTotals();
-    }
     
     function calculateTotals() {
         $('[id$="_overall_total"]').each(function(index) {
@@ -198,13 +253,13 @@ if ('serviceWorker' in navigator) {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
                     $(this).removeClass('in_progress').addClass('done');
                     $(this).removeClass('bg-info').addClass('bg-success');
-                    $(this).parent('h3').addClass('completed');// Hide heading for completed category
+                    $(this).closest('.card').addClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
                 } else {
                     this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
                     $(this).removeClass('done').addClass('in_progress');
                     $(this).removeClass('bg-success').addClass('bg-info');
-                    $(this).parent('h3').removeClass('completed');// Show heading for not yet completed category
+                    $(this).closest('.card').removeClass('completed');// Show heading for not yet completed category
                     $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
                 }
             });
@@ -252,7 +307,7 @@ if ('serviceWorker' in navigator) {
 
         // register on click handlers to store state
         $('button[href$="Col"]').on('click', function (el) {
-            var profiles = $.jStorage.get(profilesKey, {});
+            profiles = $.jStorage.get(profilesKey, {});
             var collapsed_key = $(this).attr('href');
             var saved_tab_state = !!profiles[profilesKey][profiles.current].collapsed[collapsed_key];
 

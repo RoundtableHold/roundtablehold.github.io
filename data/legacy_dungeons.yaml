@@ -6,19 +6,35 @@ sections:
     title: "Legacy Dungeons"
     table: [Name, Type, Location, Bosses, Notes]
     items:
-      - ["1_1", "Castle Morne", "Minor", "Weeping Peninsula (South)", "Leonine Misbegotten", "Related to Irina's questline."]
-      - ["1_2", "Stormveil Castle", "Major", "Limgrave (Northwest)", "Margit, the Fell Omen, Godrick the Grafted", "Semi-required for progression."]
-      - ["1_3", "Fort Haight", "Minor", "Limgrave (Southeast)", "N/A", "Related to Kenneth Haight's questline."]
-      - ["1_4", "Raya Lucaria Academy", "Major", "Liurnia of the Lakes (Center)", "Red Wolf of Radagon, Rennala, Queen of the Full Moon", "Semi-required for progression, needs Academy Key to enter."]
-      - ["1_5", "Caria Manor", "Minor", "Liurnia of the Lakes (Northwest)", "Royal Knight Loretta", "Related to Ranni's questline."]
-      - ["1_6", "Ruin-Strewn Precipice", "Minor", "Liurnia of the Lakes (North)", "Magma Wyrm Makar", "Not required, unless you want alternate entry to Altus Plateau."]
-      - ["1_7", "Redmane Castle", "Minor", "Caelid (Southeast)", "Misbegotten Warrior & Crucible Knight, Starscourge Radahn", "Semi-required for progression."]
-      - ["1_8", "The Shaded Castle", "Minor", "Altus Plateau (Northwest)", "Elemer of the Briar", "Related to Millicent's questline."]
-      - ["1_9", "Volcano Manor", "Major", "Mt. Gelmir (Center)", "God-Devouring Serpent, Rykard, Lord of Blasphemy", "Semi-required for progression."]
-      - ["1_10", "Leyndell, Royal Capital", "Major", "Leyndell, Royal Capital (Center)", "Morgott, the Omen King, Godfrey, First Elden Lord (Golden Shade)", "Required."]
-      - ["1_11", "Subterranean Shunning-Grounds", "Minor", "Leyndell, Royal Capital", "Mohg, the Omen", "Related to the Dung Eater's questline."]
-      - ["1_12", "Crumbling Farum Azula", "Major", "Crumbling Farum Azula", "Godskin Duo, Maliketh, the Black Blade", "Required."]
-      - ["1_13", "Castle Sol", "Minor", "Mountaintops of the Giants (North)", "Commander Niall", "Related to Latenna's questline."]
-      - ["1_14", "Miquella's Haligtree", "Minor", "Miquella's Haligtree", "N/A", "Required to get to Elphael, Brace of the Haligtree."]
-      - ["1_15", "Elphael, Brace of the Haligtree", "Major", "Elphael, Brace of the Haligtree", "Malenia, Blade of Miquella", ":')"]
-      - ["1_16", "Leyndell, Capital of Ash", "Major", "Leyndell, Capital of Ash", "Sir Gideon Ofnir", "Godfrey, First Elden Lord", "Radagon of the Golden Order, Elden Beast", "Required."]
+      - id: "1_1"
+        data: ["Castle Morne", "Minor", "Weeping Peninsula (South)", "Leonine Misbegotten", "Related to Irina's questline."]
+      - id: "1_2"
+        data: ["Stormveil Castle", "Major", "Limgrave (Northwest)", "Margit, the Fell Omen, Godrick the Grafted", "Semi-required for progression."]
+      - id: "1_3"
+        data: ["Fort Haight", "Minor", "Limgrave (Southeast)", "N/A", "Related to Kenneth Haight's questline."]
+      - id: "1_4"
+        data: ["Raya Lucaria Academy", "Major", "Liurnia of the Lakes (Center)", "Red Wolf of Radagon, Rennala, Queen of the Full Moon", "Semi-required for progression, needs Academy Key to enter."]
+      - id: "1_5"
+        data: ["Caria Manor", "Minor", "Liurnia of the Lakes (Northwest)", "Royal Knight Loretta", "Related to Ranni's questline."]
+      - id: "1_6"
+        data: ["Ruin-Strewn Precipice", "Minor", "Liurnia of the Lakes (North)", "Magma Wyrm Makar", "Not required, unless you want alternate entry to Altus Plateau."]
+      - id: "1_7"
+        data: ["Redmane Castle", "Minor", "Caelid (Southeast)", "Misbegotten Warrior & Crucible Knight, Starscourge Radahn", "Semi-required for progression."]
+      - id: "1_8"
+        data: ["The Shaded Castle", "Minor", "Altus Plateau (Northwest)", "Elemer of the Briar", "Related to Millicent's questline."]
+      - id: "1_9"
+        data: ["Volcano Manor", "Major", "Mt. Gelmir (Center)", "God-Devouring Serpent, Rykard, Lord of Blasphemy", "Semi-required for progression."]
+      - id: "1_10"
+        data: ["Leyndell, Royal Capital", "Major", "Leyndell, Royal Capital (Center)", "Morgott, the Omen King, Godfrey, First Elden Lord (Golden Shade)", "Required."]
+      - id: "1_11"
+        data: ["Subterranean Shunning-Grounds", "Minor", "Leyndell, Royal Capital", "Mohg, the Omen", "Related to the Dung Eater's questline."]
+      - id: "1_12"
+        data: ["Crumbling Farum Azula", "Major", "Crumbling Farum Azula", "Godskin Duo, Maliketh, the Black Blade", "Required."]
+      - id: "1_13"
+        data: ["Castle Sol", "Minor", "Mountaintops of the Giants (North)", "Commander Niall", "Related to Latenna's questline."]
+      - id: "1_14"
+        data: ["Miquella's Haligtree", "Minor", "Miquella's Haligtree", "N/A", "Required to get to Elphael, Brace of the Haligtree."]
+      - id: "1_15"
+        data: ["Elphael, Brace of the Haligtree", "Major", "Elphael, Brace of the Haligtree", "Malenia, Blade of Miquella", ":')"]
+      - id: "1_16"
+        data: ["Leyndell, Capital of Ash", "Major", "Leyndell, Capital of Ash", "Sir Gideon Ofnir", "Godfrey, First Elden Lord", "Radagon of the Golden Order, Elden Beast", "Required."]

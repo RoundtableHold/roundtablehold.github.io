@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand active" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2 active" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,20 +156,28 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools.html">Tools</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item tabl-li">
+            <li class="nav-item tab-li">
+              <a class="nav-link hide-buttons" href="/map.html">
+                <i class="bi bi-map"></i> Map
+              </a>
+            </li>
+            <li class="nav-item tab-li">
               <a class="nav-link hide-buttons" href="/options.html">
                 <i class="bi bi-gear-fill"></i> Options
               </a>
@@ -186,6 +205,39 @@
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
+                    <h5 class="card-title text-center">Get the Apps!</h5>
+                    <div class="badge" style="width: 180px;">
+                      <a href="https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;amp;itscg=30200">
+                        <img alt="Download on the App Store" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1650585600&amp;h=3eb10370b9c49cf5b5dde5ca0352f23a" style="margin: 6%; width: 88%;">
+                      </a>
+                    </div>
+                    <div class="badge" style="width: 180px;">
+                      <a href="https://play.google.com/store/apps/details?id=com.roundtablehold.eldenringguides&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="width: 100%;">
+                        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width: 100%;">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Our other resources</h5>
+                    <p class="card-text">Join the Roundtable Hold 
+                      <a href="https://discord.gg/FBBtZnESrb">Discord community</a>
+                    </p>
+                    <p class="card-text">More guides are over on 
+                      <a href="https://www.reddit.com/r/Roundtable_Guides/">/r/Roundtable_Guides</a>
+                    </p>
+                    <p class="card-text">Video guides on the 
+                      <a href="https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA">YouTube channel</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow h-100">
+                  <div class="card-body">
                     <h5 class="card-title text-center">I have feedback, how can I contribute?</h5>
                     <p class="card-text">Contributing is easy! And does not require you to know how to code. You can find instructions on the
                       <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github repository</a> You can also simply 
@@ -207,22 +259,6 @@
                   <div class="card-body">
                     <h5 class="card-title text-center">How does the checklist status get saved?</h5>
                     <p class="card-text">The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow h-100">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Our other resources</h5>
-                    <p class="card-text">Join the Roundtable Hold 
-                      <a href="https://discord.gg/FBBtZnESrb">Discord community</a>
-                    </p>
-                    <p class="card-text">More guides are over on 
-                      <a href="https://www.reddit.com/r/Roundtable_Guides/">/r/Roundtable_Guides</a>
-                    </p>
-                    <p class="card-text">Video guides on the 
-                      <a href="https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA">YouTube channel</a>
-                    </p>
                   </div>
                 </div>
               </div>
@@ -379,6 +415,11 @@
                     </a>
                   </li>
                   <li class="tab-li">
+                    <a href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews
+                      <span class="d-print-none" id="tears_dews_progress_total"></span>
+                    </a>
+                  </li>
+                  <li class="tab-li">
                     <a href="/checklists/paintings.html">Paintings
                       <span class="d-print-none" id="paintings_progress_total"></span>
                     </a>
@@ -389,7 +430,7 @@
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/tools.html">Tools
+                    <a href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer
                       <span class="d-print-none" id="tools_progress_total"></span>
                     </a>
                   </li>
@@ -406,7 +447,7 @@
         </div>
       </div>
       <script src="/js/jquery.min.js"></script>
-      <script src="/js/scroll.js"></script>
+      <script src="/js/common.js"></script>
       <script src="/js/jstorage.min.js"></script>
       <script src="/js/bootstrap.bundle.min.js"></script>
       <script src="/js/jets.min.js"></script>

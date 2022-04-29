@@ -19,14 +19,25 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Roundtable Guides</a>
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav navbar-nav mr-auto">
+        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
+          <a class="nav-link me-0" href="/search.html">
+            <i class="bi bi-search sb-icon-search"></i>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
                 <span class="caret"></span>
@@ -145,20 +156,28 @@
                   <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
                 </li>
                 <li class="tab-li">
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                </li>
+                <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools.html">Tools</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item tabl-li">
+            <li class="nav-item tab-li">
+              <a class="nav-link hide-buttons" href="/map.html">
+                <i class="bi bi-map"></i> Map
+              </a>
+            </li>
+            <li class="nav-item tab-li">
               <a class="nav-link hide-buttons" href="/options.html">
                 <i class="bi bi-gear-fill"></i> Options
               </a>
@@ -228,87 +247,95 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_0Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="evergaols_1_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_1_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Forlorn Hound Evergaol
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>South of Agheel Lake
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Bloodhound Knight Darriwil
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Bloodhound's Fang (Armament)
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_1_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_1_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_1_1" id="item_1_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_1_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Stormhill Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">Forlorn Hound Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Southwest of Stormgate
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">South of Agheel Lake</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Crucible Knight
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">Bloodhound Knight Darriwil</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Aspects of the Crucible: Tail (Incantation)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">Bloodhound's Fang (Armament)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_1">
+                        <strong class="me-1">Name: </strong>Forlorn Hound Evergaol<br>
+                        <strong class="me-1">Location: </strong>South of Agheel Lake<br>
+                        <strong class="me-1">Bosses: </strong>Bloodhound Knight Darriwil<br>
+                        <strong class="me-1">Rewards: </strong>Bloodhound's Fang (Armament)<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="evergaols_1_2" id="item_1_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_1_2" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">Stormhill Evergaol</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">Southwest of Stormgate</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">Crucible Knight</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">Aspects of the Crucible: Tail (Incantation)</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_1_2">
+                        <strong class="me-1">Name: </strong>Stormhill Evergaol<br>
+                        <strong class="me-1">Location: </strong>Southwest of Stormgate<br>
+                        <strong class="me-1">Bosses: </strong>Crucible Knight<br>
+                        <strong class="me-1">Rewards: </strong>Aspects of the Crucible: Tail (Incantation)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -328,56 +355,64 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_1Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_0_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_0_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_0_1" id="item_0_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_0_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Weeping Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">Weeping Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>East of the Fourth Church of Marika
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">East of the Fourth Church of Marika</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Ancient Hero of Zamor
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">Ancient Hero of Zamor</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Radgon's Scarseal (Talisman)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">Radgon's Scarseal (Talisman)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_0_1">
+                        <strong class="me-1">Name: </strong>Weeping Evergaol<br>
+                        <strong class="me-1">Location: </strong>East of the Fourth Church of Marika<br>
+                        <strong class="me-1">Bosses: </strong>Ancient Hero of Zamor<br>
+                        <strong class="me-1">Rewards: </strong>Radgon's Scarseal (Talisman)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -397,149 +432,157 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_2Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
-                        </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
-                        </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
-                        </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="list-group-item" data-id="evergaols_2_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_2_1" type="checkbox" value="">
-                    </div>
-                    <div class="col">
-                      <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Cuckoo's Evergaol
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
                           </label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>North of the minor erdtree in west liurnia
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
                           </label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Bols, Carian Knight
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
                           </label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Greatblade Phalanx (Sorcery)
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
                           </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_2_2">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_2_2" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_2_1" id="item_2_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_2_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Malefactor's Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">Cuckoo's Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>South of Liurnia of the Lakes (Cliffs)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">North of the minor erdtree in west liurnia</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Adan, Thief of Fire
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">Bols, Carian Knight</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Flame of the Fell God (Incantation)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">Greatblade Phalanx (Sorcery)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_1">
+                        <strong class="me-1">Name: </strong>Cuckoo's Evergaol<br>
+                        <strong class="me-1">Location: </strong>North of the minor erdtree in west liurnia<br>
+                        <strong class="me-1">Bosses: </strong>Bols, Carian Knight<br>
+                        <strong class="me-1">Rewards: </strong>Greatblade Phalanx (Sorcery)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_2_3">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_2_3" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_2_2" id="item_2_2">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_2_2" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Royal Grave Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">Malefactor's Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Northeast of Caria Manor
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">South of Liurnia of the Lakes (Cliffs)</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Alabaster Lord
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">Adan, Thief of Fire</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Meteorite (Sorcery)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">Flame of the Fell God (Incantation)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_2">
+                        <strong class="me-1">Name: </strong>Malefactor's Evergaol<br>
+                        <strong class="me-1">Location: </strong>South of Liurnia of the Lakes (Cliffs)<br>
+                        <strong class="me-1">Bosses: </strong>Adan, Thief of Fire<br>
+                        <strong class="me-1">Rewards: </strong>Flame of the Fell God (Incantation)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_2_4">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_2_4" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_2_3" id="item_2_3">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_2_3" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Ringleader's Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">Royal Grave Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>West of the Moonfolk Ruins
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">Northeast of Caria Manor</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Alecto, Black Knife Ringleader
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">Alabaster Lord</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Black Knife Tiche (Ashen Remains)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">Meteorite (Sorcery)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_3">
+                        <strong class="me-1">Name: </strong>Royal Grave Evergaol<br>
+                        <strong class="me-1">Location: </strong>Northeast of Caria Manor<br>
+                        <strong class="me-1">Bosses: </strong>Alabaster Lord<br>
+                        <strong class="me-1">Rewards: </strong>Meteorite (Sorcery)<br>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item searchable" data-id="evergaols_2_4" id="item_2_4">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_2_4" type="checkbox" value="">
+                    </div>
+                    <div class="col d-flex align-items-center d-md-block d-none">
+                      <div class="row">
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">Ringleader's Evergaol</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">West of the Moonfolk Ruins</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">Alecto, Black Knife Ringleader</label>
+                        </div>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">Black Knife Tiche (Ashen Remains)</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_2_4">
+                        <strong class="me-1">Name: </strong>Ringleader's Evergaol<br>
+                        <strong class="me-1">Location: </strong>West of the Moonfolk Ruins<br>
+                        <strong class="me-1">Bosses: </strong>Alecto, Black Knife Ringleader<br>
+                        <strong class="me-1">Rewards: </strong>Black Knife Tiche (Ashen Remains)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -559,56 +602,64 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_3Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_3_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_3_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_3_1" id="item_3_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_3_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Sellia Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">Sellia Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>Southwest of the Sellia Crystal Tunnels
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">Southwest of the Sellia Crystal Tunnels</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Battlemage Hugues
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">Battlemage Hugues</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Battlemage Hugues (Ashen Remains)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">Battlemage Hugues (Ashen Remains)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_3_1">
+                        <strong class="me-1">Name: </strong>Sellia Evergaol<br>
+                        <strong class="me-1">Location: </strong>Southwest of the Sellia Crystal Tunnels<br>
+                        <strong class="me-1">Bosses: </strong>Battlemage Hugues<br>
+                        <strong class="me-1">Rewards: </strong>Battlemage Hugues (Ashen Remains)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -628,56 +679,64 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_4Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_4_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_4_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_4_1" id="item_4_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_4_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Golden Lineage Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">Golden Lineage Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>East of the Grand Lift of Dectus
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">East of the Grand Lift of Dectus</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Godefroy the Grafted
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">Godefroy the Grafted</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Godfrey Icon (Talisman)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">Godfrey Icon (Talisman)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_4_1">
+                        <strong class="me-1">Name: </strong>Golden Lineage Evergaol<br>
+                        <strong class="me-1">Location: </strong>East of the Grand Lift of Dectus<br>
+                        <strong class="me-1">Bosses: </strong>Godefroy the Grafted<br>
+                        <strong class="me-1">Rewards: </strong>Godfrey Icon (Talisman)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -697,56 +756,64 @@
             <div aria-expanded="true" class="collapse show row" id="evergaols_5Col">
               <ul class="list-group list-group-flush mb-0">
                 <li class="list-group-item d-md-block d-none">
-                  <div class="row form-check">
-                    <div class="col-auto">
-                      <input class="form-check-input invisible" type="checkbox">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
-                        <div class="col-md-2">
-                          <strong>Name</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="ms-0 ps-0">
+                            <strong>Name</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Location</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Location</strong>
+                          </label>
                         </div>
-                        <div class="col-md-3">
-                          <strong>Bosses</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="ms-0 ps-0">
+                            <strong>Bosses</strong>
+                          </label>
                         </div>
-                        <div class="col-md-4">
-                          <strong>Rewards</strong>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="ms-0 ps-0">
+                            <strong>Rewards</strong>
+                          </label>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item" data-id="evergaols_5_1">
-                  <div class="row form-check checkbox">
-                    <div class="col-auto">
-                      <input class="form-check-input" id="evergaols_5_1" type="checkbox" value="">
+                <li class="list-group-item searchable" data-id="evergaols_5_1" id="item_5_1">
+                  <div class="row form-check checkbox d-flex">
+                    <div class="col-auto d-flex align-items-center">
+                      <input class="form-check-input pe-0 me-0" id="evergaols_5_1" type="checkbox" value="">
                     </div>
-                    <div class="col">
+                    <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Name: </strong>Lord Contender's Evergaol
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">Lord Contender's Evergaol</label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Location: </strong>West of the First Church of Marika 
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">West of the First Church of Marika </label>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Bosses: </strong>Roundtable Knight Vyke
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">Roundtable Knight Vyke</label>
                         </div>
-                        <div class="col-md-4 col-xs-12">
-                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">
-                            <strong class="d-md-none d-inline-block me-1">Rewards: </strong>Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)
-                          </label>
+                        <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
+                          <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)</label>
                         </div>
                       </div>
+                    </div>
+                    <div class="col d-md-none">
+                      <label class="form-check-label item_content ms-0 ps-0" for="evergaols_5_1">
+                        <strong class="me-1">Name: </strong>Lord Contender's Evergaol<br>
+                        <strong class="me-1">Location: </strong>West of the First Church of Marika <br>
+                        <strong class="me-1">Bosses: </strong>Roundtable Knight Vyke<br>
+                        <strong class="me-1">Rewards: </strong>Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)<br>
+                      </label>
                     </div>
                   </div>
                 </li>
@@ -760,7 +827,7 @@
       <span class="bi bi-arrow-up"></span>
     </a>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
@@ -782,7 +849,22 @@
                 $(function() {
                     var jet = new Jets({
                         searchTag: "#evergaols_search",
-                        contentTag: "#evergaols_list ul"
+                        contentTag: "#evergaols_list ul",
+                        didSearch: function(search_phrase) {
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            $(".card").each(function(index, el) {
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
+                                if (! hasResults ) {
+                                    $(el).addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                }
+                            });
+                        }
                     });
                     $("#evergaols_search").keyup(function() {
                         $("#evergaols_list").unhighlight();
@@ -791,7 +873,7 @@
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
     <script src="/js/item_links.js"></script>
+    <script src="/js/checklists.js"></script>
   </body>
 </html>
