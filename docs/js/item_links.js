@@ -3040,6 +3040,12 @@ const item_links = {
       "gestures_0_8"
     ]
   },
+  "gestures_1_7": {
+    "targets": [
+      "playthrough_25",
+      "quest_order_tldr_13"
+    ]
+  },
   "great_runes_1_1": {
     "targets": [
       "bosses_2_29",
@@ -3422,6 +3428,7 @@ const item_links = {
   "npc_quests_37_1": {
     "targets": [
       "playthrough_24",
+      "quest_order_tldr_14",
       "spirit_ashes_2_4"
     ]
   },
@@ -3555,7 +3562,14 @@ const item_links = {
   "playthrough_24": {
     "targets": [
       "npc_quests_37_1",
+      "quest_order_tldr_14",
       "spirit_ashes_2_4"
+    ]
+  },
+  "playthrough_25": {
+    "targets": [
+      "gestures_1_7",
+      "quest_order_tldr_13"
     ]
   },
   "playthrough_4": {
@@ -3605,6 +3619,19 @@ const item_links = {
     "ortargets": [
       "playthrough_22",
       "playthrough_23"
+    ]
+  },
+  "quest_order_tldr_13": {
+    "targets": [
+      "gestures_1_7",
+      "playthrough_25"
+    ]
+  },
+  "quest_order_tldr_14": {
+    "targets": [
+      "npc_quests_37_1",
+      "playthrough_24",
+      "spirit_ashes_2_4"
     ]
   },
   "quest_order_tldr_145": {
@@ -4028,7 +4055,8 @@ const item_links = {
   "spirit_ashes_2_4": {
     "targets": [
       "npc_quests_37_1",
-      "playthrough_24"
+      "playthrough_24",
+      "quest_order_tldr_14"
     ]
   },
   "spirit_ashes_2_5": {
