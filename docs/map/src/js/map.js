@@ -173,16 +173,19 @@
             return;
         }
 
-        var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
+        // var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
         
-        popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
-        overlay.setPosition(coordinate);
-        var selection = window.getSelection();
-        var range = document.createRange();
-        range.selectNodeContents(popup_title);
-        selection.removeAllRanges();
-        selection.addRange(range);
-        document.execCommand('copy');
+        // popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
+        // overlay.setPosition(coordinate);
+        // var selection = window.getSelection();
+        // var range = document.createRange();
+        // range.selectNodeContents(popup_title);
+        // selection.removeAllRanges();
+        // selection.addRange(range);
+        // document.execCommand('copy');
+        overlay.setPosition(undefined);
+        popup_closer.blur();
+        return false;
     });
         
     $('.checkbox input[type="checkbox"]').click(function () {
