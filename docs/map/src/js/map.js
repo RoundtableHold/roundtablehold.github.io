@@ -41,23 +41,10 @@
         },
     });
 
-    const grace = new ol.style.Style({
-        image: new ol.style.Icon({
-            src: '/map/icons/MENU_MAP_01_Bonfire.png',
-            scale: 0.3,
-        })
-    });
-    const boss = new ol.style.Style({
-        image: new ol.style.Icon({
-            src: '/map/icons/MENU_MAP_memo_20.png',
-            scale: 0.4,
-        })
-    });
-
     var styleCache = {};
     const styleSelector = function (feature, resolution) {
         if (!(feature.get('icon') in styleCache)) {
-            var image = new ol.Image()
+            // var image = new ol.Image()
             styleCache[feature.get('icon')] = new ol.style.Style({
                 image: new ol.style.Icon({
                     src: feature.get('icon'),
@@ -70,20 +57,33 @@
         return styleCache[feature.get('icon')];
     }
 
+    var layers = [
+        new ol.layer.Tile({
+            preload: Infinity,
+            source: new ol.source.XYZ({
+                url: '/map/tiles/{z}/{x}/{y}.png',
+                tileGrid: ertilegrid,
+                tileSize: [256, 256],
+                projection: projection,
+            })
+        }),
+    ]
+    
+    const format = new ol.format.GeoJSON();
+    for (let c of feature_data) {
+        layers.push(new ol.layer.Vector({
+            source: new ol.source.Vector({
+                features: format.readFeatures(c, {featureProjection: projection}),
+                overlaps: false,
+            }),
+            style: styleSelector,
+        }));
+    }
+
     
     var map = new ol.Map({
         target: 'map',
-        layers: [
-            new ol.layer.Tile({
-                preload: Infinity,
-                source: new ol.source.XYZ({
-                    url: '/map/tiles/{z}/{x}/{y}.png',
-                    tileGrid: ertilegrid,
-                    tileSize: [256, 256],
-                    projection: projection,
-                })
-            }),
-        ],
+        layers: layers,
         view: new ol.View({
             center: ol.extent.getCenter(erextent),
             zoom: 2,
@@ -96,20 +96,31 @@
         overlays: [overlay],
     });
 
-    $.getJSON('/map/layers.json', function(json) {
-        for (let l of json) {
-            var featureLayer = new ol.layer.Vector({
-                source: new ol.source.Vector({
-                    projection: projection,
-                    url: l,
-                    format: new ol.format.GeoJSON(),
-                }),
-                style: styleSelector,
-            });
+    function gototarget() {
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
 
-            map.addLayer(featureLayer);
+        let id = params.id;
+
+        if (id) {
+            for (var i = 1; i < layers.length; i++) {
+                let feature = layers[i].getSource().getFeatureById(id);
+                if (feature) {
+                    map.getView().animate({
+                        center: feature.getGeometry().flatCoordinates,
+                        zoom: 6,
+                    })
+                    popup_feature(feature);
+                }
+            }
         }
-    });
+    }
+
+    map.once('rendercomplete', gototarget);
+
+
+
 
 
     popup_closer.onclick = function() {
@@ -143,25 +154,22 @@
     //     }
     // })
 
-    function createPopup(feature) {
-        return `<div class="form-check checkbox d-flex align-items-center">
-            <input class="form-check-input" id="${feature.get('id')}" type="checkbox" value>
-            <label class="form-check-label item_content" for="${feature.get('id')}">${feature.get('title')}</label>
-        </div>`;
+    function popup_feature(feature) {
+        profiles = $.jStorage.get(profilesKey, {});
+        var id = feature.get('id');
+        var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
+        $(popup_checkbox).attr('checked', checked);
+        $(popup_checkbox).attr('data-id', id);
+        popup_link.href = feature.get('link')
+        popup_title.innerHTML = feature.get('title');
+        overlay.setPosition(feature.getGeometry().flatCoordinates);
     }
 
     map.on('singleclick', function(evt) {
         const coordinate = evt.coordinate;
         let feature = map.getFeaturesAtPixel(evt.pixel)[0];
         if (feature) {
-            profiles = $.jStorage.get(profilesKey, {});
-            var id = feature.get('id');
-            var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
-            $(popup_checkbox).attr('checked', checked);
-            $(popup_checkbox).attr('data-id', id);
-            popup_link.href = feature.get('link')
-            popup_title.innerHTML = feature.get('title');
-            overlay.setPosition(feature.getGeometry().flatCoordinates);
+            popup_feature(feature);
             return;
         }
 
