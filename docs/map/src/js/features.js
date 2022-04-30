@@ -1153,4 +1153,9 @@ const feature_data = [
     ],
     "type": "FeatureCollection"
   }
+];
+const icon_urls = [
+  "/map/icons/MENU_MAP_01_Bonfire.png",
+  "/map/icons/MENU_MAP_memo_20.png",
+  "/map/icons/MENU_MAP_09.png"
 ]

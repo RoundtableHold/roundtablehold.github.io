@@ -750,7 +750,7 @@ for page in pages:
 with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
     json.dump(search_idx, s_idx, indent=2, sort_keys=True)
 
-def make_feature(page, section, item):
+def get_icon(page, section, item):
     icon = ''
     if 'map_icon' in item:
         icon = item['map_icon']
@@ -766,6 +766,10 @@ def make_feature(page, section, item):
         icon = page['icon']
     else:
         print("Missing icon for {}".format(page['id'] + '_' + item['id']))
+    return icon
+
+def make_feature(page, section, item):
+    icon = get_icon(page, section, item)
     return {
         'type': 'Feature',
         'id': page['id'] + '_' + item['id'],
@@ -783,6 +787,7 @@ def make_feature(page, section, item):
 
 def make_geojson():
     layers = []
+    icons = set()
     for page in pages:
         geojson = {}
         geojson['type'] = 'FeatureCollection'
@@ -796,16 +801,20 @@ def make_geojson():
                 if 'cords' in item:
                     has_features = True
                     geojson['features'].append(make_feature(page, section, item))
+                    icons.add(get_icon(page, section, item))
                 if isinstance(items.peek(0), list):
                     item = next(items)
                     for subitem in item:
                         if 'cords' in subitem:
                             has_features = True
                             geojson['features'].append(make_feature(page, section, subitem))
+                            icons.add(get_icon(page, section, item))
         if has_features:
             layers.append(geojson)
     with open(os.path.join('docs', 'map', 'src', 'js', 'features.js'), 'w') as outf:
         outf.write('const feature_data = ')
         json.dump(layers, outf, indent=2, sort_keys=True)
+        outf.write(';\nconst icon_urls = ')
+        json.dump(list(icons), outf, indent=2, sort_keys=True)
 
 make_geojson()
