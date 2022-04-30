@@ -101,8 +101,8 @@
                     tileGrid: ertilegrid,
                     tileSize: [256, 256],
                     projection: projection,
-                    updateWhileAnimating: true,
-                    updateWhileInteracting: true,
+                    // updateWhileAnimating: true,
+                    // updateWhileInteracting: true,
                 })
             }),
         ]
@@ -113,8 +113,8 @@
                 source: new ol.source.Vector({
                     features: format.readFeatures(c, { featureProjection: projection }),
                     overlaps: false,
-                    updateWhileAnimating: true,
-                    updateWhileInteracting: true,
+                    // updateWhileAnimating: true,
+                    // updateWhileInteracting: true,
                 }),
                 style: styleSelector,
             }));
