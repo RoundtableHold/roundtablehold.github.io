@@ -24,13 +24,13 @@ def strip_a_tags(s):
 dropdowns = []
 pages = []
 item_links = []
-with open('pages.yaml', 'r', encoding='utf_8') as pages_yaml:
+with open(os.path.join('data', 'pages.yaml'), 'r', encoding='utf_8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
     item_links = yml['item_links']
     for dropdown in yml['dropdowns']:
         dropdown_urls = []
         for page in dropdown['pages']:
-            with open(os.path.join('data', page), 'r', encoding='utf_8') as data:
+            with open(os.path.join('data', 'checklists', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
                 dropdown_urls.append((yml['title'], yml['id']))
@@ -56,26 +56,19 @@ for page in pages:
         for item in items:
             if isinstance(item, str):
                 continue
-            if not isinstance(item['id'], str):
-                print("Please make item id " + str(item['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
-                quit(1)
-            if (page['id'] + '_' + item['id']) in all_ids:
-                print("Duplicate item num '" + str(item['id']) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
-                quit(1)
-            all_ids.add(page['id'] + '_' + item['id'])
+            def f(item):
+                if not isinstance(item['id'], str):
+                    print("Please make item id " + str(item['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
+                    quit(1)
+                if (page['id'] + '_' + item['id']) in all_ids:
+                    print("Duplicate item id '" + str(item['id']) + "' in section '" + str(section['title']) + "' found in page '" + page['id'] + "'. All item ids must be unique within each page.")
+                    quit(1)
+                all_ids.add(page['id'] + '_' + item['id'])
+            f(item)
             if isinstance(items.peek(0), list):
-                sub_item_nums = set()
-                item_id = item['id']
                 item = next(items)
                 for subitem in item:
-                    if not isinstance(subitem['id'], str):
-                        print("Please make item id " + str(subitem['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
-                        quit(1)
-                    if (page['id'] + '_' + item_id + '_' + subitem['id']) in all_ids:
-                        print("Duplicate sub-item num '" + str(subitem['id']) + "' in section '" + page['id'] + '_' + str(section['title']) + "' found in page '" + page['id'] + "'. All item nums must be unique within it's section.")
-                        quit(1)
-                    else:
-                        all_ids.add(page['id'] + '_' + item_id + '_' + subitem['id'])
+                    f(subitem)
 
 def make_doc(title, description):
     doc = dominate.document(title=title)
@@ -166,12 +159,12 @@ def make_nav(page):
 
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
-    script(src='/js/common.js')
     script(src="/js/jstorage.min.js")
+    script(src='/js/item_links.js')
+    script(src='/js/common.js')
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
     script(src="/js/jquery.highlight.js")
-    script(src="/js/jstorage.min.js")
     raw("""
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
@@ -286,17 +279,23 @@ def make_index():
 def make_map():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
     with doc.head:
-        link(rel='stylesheet', href='/css/leaflet.css')
+        link(rel='stylesheet', href='/map/src/css/ol.css')
+        link(rel='stylesheet', href='/map/src/css/map.css')
     with doc:
         with div(cls='container-fluid vh-100 d-flex flex-column'):
             make_nav('map')
             with div(cls='row flex-grow-1'):
                 div(cls='col flex-grow-1', id='map')
+            with div(id='popup', cls='ol-popup'):
+                a(href='#', id='popup-closer', cls='ol-popup-closer')
+                with div(cls="form-check checkbox d-flex align-items-center popup-content"):
+                    input_(cls="form-check-input", type="checkbox", value="", id='popup-checkbox')
+                    label(cls="form-check-label item_content", _for='popup-checkbox', id='popup-title')
+                    a(href="#", id='popup-link', cls='ms-3').add(i(cls='bi bi-link-45deg'))
         make_footer()
-        script(src='/js/leaflet.js')
-        script(src='/js/rastercoords.js')
-        script(src='/js/SmoothWheelZoom.js')
-        script(src='/js/map.js')
+        script(src='/map/src/js/ol.js')
+        script(src='/map/src/js/features.js')
+        script(src='/map/src/js/map.js')
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 
@@ -471,6 +470,8 @@ def make_checklist(page):
                                         with li(cls="list-group-item d-md-block d-none").add(div(cls="row form-check checkbox d-flex")):
                                             with div(cls="col-auto d-flex align-items-center"):
                                                 input_(cls="form-check-input invisible pe-0 me-0", type='checkbox')
+                                            with div(cls='col-auto d-flex align-items-center order-last'):
+                                                a(href='#', cls='invisible').add(i(cls='bi bi-geo-alt'))
                                             with div(cls="col d-flex align-items-center d-md-block").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     col_size = str(table_widths[idx])
@@ -486,6 +487,8 @@ def make_checklist(page):
                                                     input_(cls="form-check-input pe-0 me-0", type="checkbox", value="",
                                                             id=page['id'] + '_' + id)
                                                     page['num_ids'] += 1
+                                                with div(cls='col-auto d-flex align-items-center order-last'):
+                                                    a(href='/map.html?id={}'.format(page['id'] + '_' + id), cls=('invisible' if 'cords' not in item else '')).add(i(cls='bi bi-geo-alt'))
                                                 with div(cls="col d-flex align-items-center d-md-block d-none").add(div(cls="row")):
                                                     for pos in range(table_cols):
                                                         col_size = str(table_widths[pos])
@@ -519,34 +522,29 @@ def make_checklist(page):
                                         h5(raw(item))
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
-                                    id = str(item['id'])
-                                    with u.add(li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0", id='item_' + id)):
-                                        with div(cls="form-check checkbox d-flex align-items-center"):
-                                            input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
-                                            with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
-                                                if 'icon' in item:
-                                                    img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
-                                                raw(item['data'][0])
-                                            page['num_ids'] += 1
+                                    def f(item):
+                                        id = str(item['id'])
+                                        with li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0", id='item_' + id):
+                                            with div(cls="form-check checkbox d-flex align-items-center"):
+                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
+                                                with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
+                                                    if 'icon' in item:
+                                                        img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                                    raw(item['data'][0])
+                                                if 'cords' in item:
+                                                    a(href='/map.html?id={}'.format(page['id'] + '_' + id)).add(i(cls='bi bi-geo-alt'))
+                                                page['num_ids'] += 1
+                                    with u:
+                                        f(item)
                                     if isinstance(items.peek(0), list):
-                                        item_id = str(item['id'])
                                         item = next(items)
-                                        with u.add(ul(cls="list-group-flush")):
+                                        with u.add(ul(cls='list-group-flush')):
                                             for subitem in item:
-                                                id = item_id + '_' + str(subitem['id'])
-                                                with li(data_id=page['id'] + "_" + id + "_" + str(subitem['id']), cls="list-group-item searchable", id='item_' + id):
-                                                    with div(cls="form-check checkbox d-flex align-items-center"):
-                                                        input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
-                                                        with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
-                                                            if 'icon' in subitem:
-                                                                img(data_src=subitem['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
-                                                            raw(subitem['data'][0])
-                                                        page['num_ids'] += 1
+                                                f(subitem)
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
 
         make_footer(page)
-        script(src="/js/item_links.js")
         script(src="/js/checklists.js")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
@@ -605,20 +603,18 @@ def make_search():
                                 for item in items:
                                     if isinstance(item, str):
                                         continue
-                                    with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
-                                        with div(cls='d-flex align-items-center'):
-                                            if 'icon' in item:
-                                                img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
-                                            raw(strip_a_tags(item['data'][0]))
+                                    def f(item):
+                                        with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
+                                            with div(cls='d-flex align-items-center'):
+                                                if 'icon' in item:
+                                                    img(data_src=item['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
+                                                raw(strip_a_tags(item['data'][0]))
+                                    f(item)
                                     if isinstance(items.peek(0), list):
                                         item_id = str(item['id'])
                                         item = next(items)
                                         for subitem in item:
-                                            id = item_id + '_' + str(subitem['id'])
-                                            with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + id, id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + id):
-                                                if 'icon' in subitem:
-                                                    img(data_src=subitem['icon'], loading='lazy', width=img_size, height=img_size, cls='float-md-none float-end me-md-1')
-                                                raw(strip_a_tags(subitem['data'][0]))
+                                            f(subitem)
         make_footer()
         script(src='/js/lunr.js')
         script(src='/js/search.js')
@@ -696,70 +692,9 @@ with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as
 with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
         """
-var profilesKey = 'darksouls3_profiles';\n
 (function($) {
     'use strict';
     $(function() {
-        var profiles = $.jStorage.get(profilesKey, {});
-    
-    var themes = {
-        "Standard" : "/css/bootstrap.min.css",
-        "LightMode" : "/css/themes/lightmode/bootstrap.min.css",
-        "Ceruleon" : "/css/themes/cerulean/bootstrap.min.css",
-        "Cosmo" : "/css/themes/cosmo/bootstrap.min.css",
-        "Cyborg" : "/css/themes/cyborg/bootstrap.min.css",
-        "Darkly" : "/css/themes/darkly/bootstrap.min.css",
-        "Flatly" : "/css/themes/flatly/bootstrap.min.css",
-        "Journal" : "/css/themes/journal/bootstrap.min.css",
-        "Litera" : "/css/themes/litera/bootstrap.min.css",
-        "Lumen" : "/css/themes/lumen/bootstrap.min.css",
-        "Lux" : "/css/themes/lux/bootstrap.min.css",
-        "Materia" : "/css/themes/materia/bootstrap.min.css",
-        "Minty" : "/css/themes/minty/bootstrap.min.css",
-        "Morph" : "/css/themes/Morph/bootstrap.min.css",
-        "Pulse" : "/css/themes/pulse/bootstrap.min.css",
-        "Quartz" : "/css/themes/quartz/bootstrap.min.css",
-        "Regent" : "/css/themes/regent/bootstrap.min.css",
-        "Sandstone" : "/css/themes/sandstone/bootstrap.min.css",
-        "Simplex" : "/css/themes/simplex/bootstrap.min.css",
-        "Sketchy" : "/css/themes/sketchy/bootstrap.min.css",
-        "Slate" : "/css/themes/slate/bootstrap.min.css",
-        "Solar" : "/css/themes/solar/bootstrap.min.css",
-        "Spacelab" : "/css/themes/spacelab/bootstrap.min.css",
-        "Superhero" : "/css/themes/superhero/bootstrap.min.css",
-        "United" : "/css/themes/united/bootstrap.min.css",
-        "Vapor" : "/css/themes/vapor/bootstrap.min.css",
-        "Yeti" : "/css/themes/yeti/bootstrap.min.css",
-        "Zephyr" : "/css/themes/zephyr/bootstrap.min.css",
-    };
-
-        /// assure default values are set
-        /// necessary 'cause we're abusing local storage to store JSON data
-        /// done in a more verbose way to be easier to understand
-        if (!('current' in profiles)) profiles.current = 'Default Profile';
-        if (!(profilesKey in profiles)) profiles[profilesKey] = {};
-        initializeProfile(profiles.current);
-        function initializeProfile(profile_name) {
-            if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
-            if (!('checklistData' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].checklistData = {};
-            if (!('collapsed' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].collapsed = {};
-            if (!('hide_completed' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].hide_completed = false;
-            if (!('journey' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].journey = 1;
-            if (!('style' in profiles[profilesKey][profile_name]))
-                profiles[profilesKey][profile_name].style = 'Standard';
-        }
-        
-    function themeSetup(stylesheet) {
-        if(stylesheet === null || stylesheet === undefined) { // if we didn't get a param, then
-            stylesheet = profiles[profilesKey][profiles.current].style; // fall back on "light" if cookie not set
-        }
-        $("#bootstrap").attr("href", themes[stylesheet]);
-    }
-        themeSetup(profiles[profilesKey][profiles.current].style);
         """)
     f.write('var all_ids = new Set([\n')
     all_ids_list = list(all_ids)
@@ -796,19 +731,81 @@ for page in pages:
         for item in items:
             if isinstance(item, str):
                 continue
-            search_idx.append({
-                'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
-                'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
-            })
+            def f(item):
+                search_idx.append({
+                    'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
+                    'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
+                })
+            f(item)
             if isinstance(items.peek(0), list):
-                item_id = str(item['id'])
                 item = next(items)
                 for subitem in item:
-                    id = item_id + '_' + str(subitem['id'])
-                    search_idx.append({
-                        'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=id),
-                        'text': re.sub(r'(<([^>]+)>)', '', ' '.join(subitem['data'])),
-                    })
+                    f(subitem)
+                    # id = item_id + '_' + str(subitem['id'])
+                    # search_idx.append({
+                    #     'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=id),
+                    #     'text': re.sub(r'(<([^>]+)>)', '', ' '.join(subitem['data'])),
+                    # })
 
 with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
-    json.dump(search_idx, s_idx)
+    json.dump(search_idx, s_idx, indent=2, sort_keys=True)
+
+def make_feature(page, section, item):
+    icon = ''
+    if 'map_icon' in item:
+        icon = item['map_icon']
+    elif 'map_icon' in section:
+        icon = section['map_icon']
+    elif 'map_icon' in page:
+        icon = page['map_icon']
+    elif 'icon' in item:
+        icon = item['icon']
+    elif 'icon' in section:
+        icon = section['icon'] 
+    elif 'icon' in page:
+        icon = page['icon']
+    else:
+        print("Missing icon for {}".format(page['id'] + '_' + item['id']))
+    return {
+        'type': 'Feature',
+        'id': page['id'] + '_' + item['id'],
+        'geometry': {
+            'type': 'Point',
+            'coordinates': item['cords'],
+        },
+        'properties': {
+            'title': item['map_title'],
+            'id': page['id'] + '_' + item['id'],
+            'icon': icon,
+            'link': '/checklists/' + to_snake_case(page['title']) + '.html#item_' + item['id']
+        }
+    }
+
+def make_geojson():
+    layers = []
+    for page in pages:
+        geojson = {}
+        geojson['type'] = 'FeatureCollection'
+        geojson['features'] = []
+        has_features = False
+        for section in page['sections']:
+            items = peekable(section['items'])
+            for item in items:
+                if isinstance(item, str):
+                    continue
+                if 'cords' in item:
+                    has_features = True
+                    geojson['features'].append(make_feature(page, section, item))
+                if isinstance(items.peek(0), list):
+                    item = next(items)
+                    for subitem in item:
+                        if 'cords' in subitem:
+                            has_features = True
+                            geojson['features'].append(make_feature(page, section, subitem))
+        if has_features:
+            layers.append(geojson)
+    with open(os.path.join('docs', 'map', 'src', 'js', 'features.js'), 'w') as outf:
+        outf.write('const feature_data = ')
+        json.dump(layers, outf, indent=2, sort_keys=True)
+
+make_geojson()
