@@ -41,20 +41,45 @@
         },
     });
 
+    var images = {};
     var styleCache = {};
     const styleSelector = function (feature, resolution) {
         if (!(feature.get('icon') in styleCache)) {
-            // var image = new ol.Image()
-            styleCache[feature.get('icon')] = new ol.style.Style({
-                image: new ol.style.Icon({
-                    src: feature.get('icon'),
-                    scale: 0.3,
-                    // scale: [60,60],
+            var image = new Image()
+            image.src = feature.get('icon')
+            images[feature.get('icon')] = image;
+            styleCache[feature.get('icon')] = [
+                new ol.style.Style({
+                    image: new ol.style.Icon({
+                        img: image,
+                        imgSize: [image.naturalWidth, image.naturalHeight],
+                        scale: 60/image.naturalHeight,
+                    })
+                }),
+                new ol.style.Style({
+                    image: new ol.style.Icon({
+                        img: image,
+                        imgSize: [image.naturalWidth, image.naturalHeight],
+                        scale: 60/image.naturalHeight,
+                        opacity: 0.5,
+                    })
                 })
-            })
+            ]
         }
 
-        return styleCache[feature.get('icon')];
+        profiles = $.jStorage.get(profilesKey, {});
+        var id = feature.get('id');
+        var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
+        var style;
+        if (checked) {
+            style = styleCache[feature.get('icon')][1];
+        } else {
+            style = styleCache[feature.get('icon')][0];
+        }
+
+        var image = images[feature.get('icon')];
+        style.getImage().setScale((map.getView().getResolutionForZoom(6) / resolution) * (60 / image.naturalHeight));
+        return style;
     }
 
     var layers = [
@@ -75,6 +100,8 @@
             source: new ol.source.Vector({
                 features: format.readFeatures(c, {featureProjection: projection}),
                 overlaps: false,
+                updateWhileAnimating: true,
+                updateWhileInteracting: true,
             }),
             style: styleSelector,
         }));
