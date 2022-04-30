@@ -61,8 +61,12 @@ sections:
     items:
       - id: "21"
         data: ["Cave of Knowledge"]
+        cords: [3744, 7384]
+        map_title: "Cave of Knowledge"
       - id: "22"
         data: ["Stranded Graveyard"]
+        cords: [3771, 7356]
+        map_title: "Stranded Graveyard"
   -
     title: Stormhill
     items:

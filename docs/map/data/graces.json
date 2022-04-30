@@ -35,6 +35,38 @@
     {
       "geometry": {
         "coordinates": [
+          3744,
+          7384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+        "id": "graces_21",
+        "link": "/checklists/sitesof_grace.html#item_graces_21",
+        "title": "Cave of Knowledge"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          3771,
+          7356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+        "id": "graces_22",
+        "link": "/checklists/sitesof_grace.html#item_graces_22",
+        "title": "Stranded Graveyard"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           3858,
           7699
         ],
