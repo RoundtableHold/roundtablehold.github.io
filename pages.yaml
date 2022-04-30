@@ -413,5 +413,18 @@ item_links:
   - source_and: [playthrough_27, playthrough_29, playthrough_31]
     target: [npc_quests_3_2]
   - source: [npc_quests_3_2]
-    target: [playthrough_27, playthrough_29, playthrough_31] # WALKTHROUGH 27, 29-31/BOC 2  
+    target: [playthrough_27, playthrough_29, playthrough_31] # WALKTHROUGH 27, 29-31/BOC 2 
+  - link_all: [playthrough_33, quest_order_tldr_18] # WALKTHROUGH 33/TLDR 18 
+  - source_and: [playthrough_34, playthrough_35]
+    target: [quest_order_tldr_19]
+  - source: [quest_order_tldr_19]
+    target: [playthrough_34, playthrough_35] # WALKTHROUGH 34-35/TLDR 19 
+  - source_and: [playthrough_36, playthrough_37]
+    target: [quest_order_tldr_20]
+  - source: [quest_order_tldr_20]
+    target: [playthrough_36, playthrough_37] # WALKTHROUGH 36-37/TLDR 20
+  - source_and: [quest_order_tldr_18, quest_order_tldr_19, quest_order_tldr_20]
+    target: [npc_quests_9_1]
+  - source: [npc_quests_9_1]
+    target: [quest_order_tldr_18, quest_order_tldr_19, quest_order_tldr_20] # TLDR 18-20/YURA 1 
   

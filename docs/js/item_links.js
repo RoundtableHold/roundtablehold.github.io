@@ -3530,6 +3530,13 @@ const item_links = {
       "quest_order_tldr_1"
     ]
   },
+  "npc_quests_9_1": {
+    "targets": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_19",
+      "quest_order_tldr_20"
+    ]
+  },
   "npc_quests_9_4": {
     "targets": [
       "playthrough_9_7",
@@ -3693,6 +3700,43 @@ const item_links = {
       "quest_order_tldr_17"
     ]
   },
+  "playthrough_33": {
+    "targets": [
+      "quest_order_tldr_18"
+    ]
+  },
+  "playthrough_34": {
+    "andsources": [
+      "playthrough_35"
+    ],
+    "andtargets": [
+      "quest_order_tldr_19"
+    ]
+  },
+  "playthrough_35": {
+    "andsources": [
+      "playthrough_34"
+    ],
+    "andtargets": [
+      "quest_order_tldr_19"
+    ]
+  },
+  "playthrough_36": {
+    "andsources": [
+      "playthrough_37"
+    ],
+    "andtargets": [
+      "quest_order_tldr_20"
+    ]
+  },
+  "playthrough_37": {
+    "andsources": [
+      "playthrough_36"
+    ],
+    "andtargets": [
+      "quest_order_tldr_20"
+    ]
+  },
   "playthrough_4": {
     "targets": [
       "quest_order_tldr_2"
@@ -3778,9 +3822,47 @@ const item_links = {
       "playthrough_31"
     ]
   },
+  "quest_order_tldr_18": {
+    "andsources": [
+      "quest_order_tldr_19",
+      "quest_order_tldr_20"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_33"
+    ]
+  },
+  "quest_order_tldr_19": {
+    "andsources": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_20"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_34",
+      "playthrough_35"
+    ]
+  },
   "quest_order_tldr_2": {
     "targets": [
       "playthrough_4"
+    ]
+  },
+  "quest_order_tldr_20": {
+    "andsources": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_19"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_36",
+      "playthrough_37"
     ]
   },
   "quest_order_tldr_3": {
