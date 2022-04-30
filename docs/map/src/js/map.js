@@ -158,8 +158,13 @@
         profiles = $.jStorage.get(profilesKey, {});
         var id = feature.get('id');
         var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
-        $(popup_checkbox).attr('checked', checked);
+        $(popup_checkbox).prop('checked', checked);
         $(popup_checkbox).attr('data-id', id);
+        if (checked) {
+            $(popup_checkbox).closest('div').addClass('completed')
+        } else {
+            $(popup_checkbox).closest('div').removeClass('completed')
+        }
         popup_link.href = feature.get('link')
         popup_title.innerHTML = feature.get('title');
         overlay.setPosition(feature.getGeometry().flatCoordinates);
@@ -192,5 +197,10 @@
         var id = $(this).attr('data-id');
         var isChecked = $(this).prop('checked');
         setItem(id, isChecked);
+        if (isChecked) {
+            $(popup_checkbox).closest('div').addClass('completed')
+        } else {
+            $(popup_checkbox).closest('div').removeClass('completed')
+        }
     });
 })(jQuery);
