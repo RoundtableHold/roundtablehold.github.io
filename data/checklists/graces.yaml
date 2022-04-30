@@ -20,42 +20,80 @@ sections:
         map_title: "Church of Elleh"
       - id: "2"
         data: ["Gatefront"]
+        cords: [3727, 6933]
+        map_title: "Gatefront"
       - id: "3"
         data: ["Waypoint Ruins Cellar"]
+        cords: [4239, 7258]
+        map_title: "Waypoint Ruins Cellar"
       - id: "4"
         data: ["Artist's Shack"]
+        cords: [4213, 6803]
+        map_title: "Artist's Shack"
       - id: "5"
         data: ["Third Church of Marika"]
+        cords: [4635, 6711]
+        map_title: "Third Church of Marika"
       - id: "6"
         data: ["Fort Haight West"]
+        cords: [4595, 7341]
+        map_title: "Fort Haight West"
       - id: "7"
         data: ["Agheel Lake South"]
+        cords: [4188, 7505]
+        map_title: "Agheel Lake South"
       - id: "8"
         data: ["Agheel Lake North"]
+        cords: [3885, 6983]
+        map_title: "Agheel Lake North"
       - id: "9"
         data: ["Church of Dragon Communion"]
+        cords: [3403, 7573]
+        map_title: "Church of Dragon Communion"
       - id: "10"
         data: ["Seaside Ruins"]
+        cords: [3951, 7503]
+        map_title: "Seaside Ruins"
       - id: "11"
         data: ["Mistwood Outskirts"]
+        cords: [4346, 6933]
+        map_title: "Mistwood Outskirts"
       - id: "12"
         data: ["Murkwater Coast"]
+        cords: [4079, 6822]
+        map_title: "Murkwater Coast"
       - id: "13"
         data: ["Summonwater Village Outskirts"]
+        cords: [4348, 6567]
+        map_title: "Summonwater Village Outskirts"
       - id: "14"
         data: ["Stormfoot Catacombs"]
+        cords: [3498, 7046]
+        map_title: "Stormfoot Catacombs"
       - id: "15"
         data: ["Murkwater Catacombs"]
+        cords: [4054, 6716]
+        map_title: "Murkwater Catacombs"
       - id: "16"
         data: ["Groveside Cave"]
+        cords: [3652, 7053]
+        map_title: "Groveside Cave"
       - id: "17"
         data: ["Coastal Cave"]
+        cords: [3504, 7336]
+        map_title: "Coastal Cave"
       - id: "18"
         data: ["Murkwater Cave"]
+        cords: [4042, 6975]
+        map_title: "Murkwater Cave"
       - id: "19"
         data: ["Highroad Cave"]
+        cords: [4028, 6429]
+        map_title: "Highroad Cave"
       - id: "20"
         data: ["Limgrave Tunnels"]
+        cords: [3846, 7073]
+        map_title: "Limgrave Tunnels"
   -
     title: Stranded Graveyard
     items:
@@ -72,20 +110,36 @@ sections:
     items:
       - id: "23"
         data: ["Stormhill Shack"]
+        cords: [3472, 6764]
+        map_title: "Stormhill Shack"
       - id: "24"
         data: ["Castleward Tunnel"]
+        cords: [3367, 6805]
+        map_title: "Castleward Tunnel"
       - id: "25"
         data: ["Margit, the Fell Omen"]
+        cords: [3302, 6827]
+        map_title: "Margit, the Fell Omen"
       - id: "26"
         data: ["Warmaster's Shack"]
+        cords: [3719, 6684]
+        map_title: "Warmaster's Shack"
       - id: "27"
         data: ["Saintsbridge"]
+        cords: [3989, 6525]
+        map_title: "Saintsbridge"
       - id: "28"
         data: ["Deathtouched Catacombs"]
+        cords: [3883, 6497]
+        map_title: "Deathtouched Catacombs"
       - id: "29"
         data: ["Limgrave Tower Bridge"]
+        cords: [3268, 6678]
+        map_title: "Limgrave Tower Bridge"
       - id: "30"
         data: ["Divine Tower of Limgrave"]
+        cords: [4263, 6205]
+        map_title: "Divine Tower of Limgrave"
   -
     title: Weeping Peninsula
     items:
