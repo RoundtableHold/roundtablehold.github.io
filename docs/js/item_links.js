@@ -1322,7 +1322,8 @@ const item_links = {
   },
   "bosses_2_15": {
     "targets": [
-      "dragon_hearts_death_roots_0_1"
+      "dragon_hearts_death_roots_0_1",
+      "playthrough_36"
     ]
   },
   "bosses_2_16": {
@@ -2706,7 +2707,8 @@ const item_links = {
   },
   "dragon_hearts_death_roots_0_1": {
     "targets": [
-      "bosses_2_15"
+      "bosses_2_15",
+      "playthrough_36"
     ]
   },
   "dragon_hearts_death_roots_0_10": {
@@ -3727,6 +3729,10 @@ const item_links = {
     ],
     "andtargets": [
       "quest_order_tldr_20"
+    ],
+    "targets": [
+      "bosses_2_15",
+      "dragon_hearts_death_roots_0_1"
     ]
   },
   "playthrough_37": {

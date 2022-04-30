@@ -163,7 +163,7 @@ item_links:
   - link_all: [bosses_2_11, talismans_2_11] #RECUSANT HENRICUS/HAMMER TALISMAN
   - link_all: [bosses_2_13, ashesofwar_6_8] #NIGHT'S CAVALRY/AOW REPEATING THRUST
   - link_all: [bosses_2_14, weapons_25_13] #TREE SENTINEL/GOLDEN HALBERD
-  - link_all: [bosses_2_15, dragon_hearts_death_roots_0_1] #FLYING DRAGON AGHEEL/DRAGON HEART
+  - link_all: [bosses_2_15, dragon_hearts_death_roots_0_1, playthrough_36] #FLYING DRAGON AGHEEL/DRAGON HEART/WALKTHROUGH 16
   - link_all: [bosses_2_16, spirit_ashes_2_6, dragon_hearts_death_roots_1_1, playthrough_13] #TIBIA MARINER/SKELETAL MILITIAMAN ASHES/DEATHROOT/WALKTHROUGH 13
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
   - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG
@@ -418,7 +418,7 @@ item_links:
   - source_and: [playthrough_34, playthrough_35]
     target: [quest_order_tldr_19]
   - source: [quest_order_tldr_19]
-    target: [playthrough_34, playthrough_35] # WALKTHROUGH 34-35/TLDR 19 
+    target: [playthrough_34, playthrough_35] # WALKTHROUGH 34-35/TLDR 19
   - source_and: [playthrough_36, playthrough_37]
     target: [quest_order_tldr_20]
   - source: [quest_order_tldr_20]
