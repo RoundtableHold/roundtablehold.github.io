@@ -416,6 +416,18 @@ const item_links = {
       "weapons_8_5"
     ]
   },
+  "armor_39": {
+    "targets": [
+      "armor_40",
+      "playthrough_44"
+    ]
+  },
+  "armor_40": {
+    "targets": [
+      "armor_39",
+      "playthrough_44"
+    ]
+  },
   "armor_445": {
     "targets": [
       "armor_446",
@@ -1310,6 +1322,11 @@ const item_links = {
       "talismans_2_11"
     ]
   },
+  "bosses_2_12": {
+    "targets": [
+      "playthrough_39"
+    ]
+  },
   "bosses_2_13": {
     "targets": [
       "ashesofwar_6_8"
@@ -1442,6 +1459,8 @@ const item_links = {
   },
   "bosses_2_7": {
     "targets": [
+      "playthrough_41",
+      "quest_order_tldr_22",
       "weapons_3_5"
     ]
   },
@@ -3109,6 +3128,16 @@ const item_links = {
       "gestures_0_8"
     ]
   },
+  "gestures_1_4": {
+    "targets": [
+      "playthrough_45"
+    ]
+  },
+  "gestures_1_5": {
+    "targets": [
+      "playthrough_46"
+    ]
+  },
   "gestures_1_7": {
     "targets": [
       "playthrough_25",
@@ -3461,6 +3490,12 @@ const item_links = {
       "bosses_8_17"
     ]
   },
+  "npc_quests_10_1": {
+    "targets": [
+      "playthrough_40",
+      "quest_order_tldr_21"
+    ]
+  },
   "npc_quests_23_1": {
     "targets": [
       "playthrough_12",
@@ -3476,6 +3511,24 @@ const item_links = {
       "playthrough_14"
     ]
   },
+  "npc_quests_29_2": {
+    "andsources": [
+      "playthrough_47"
+    ],
+    "andtargets": [
+      "quest_order_tldr_25"
+    ],
+    "targets": [
+      "playthrough_48",
+      "playthrough_49"
+    ]
+  },
+  "npc_quests_29_9": {
+    "targets": [
+      "playthrough_47",
+      "quest_order_tldr_24"
+    ]
+  },
   "npc_quests_30_1": {
     "targets": [
       "playthrough_15",
@@ -3486,6 +3539,13 @@ const item_links = {
     "targets": [
       "ashesofwar_1_3",
       "playthrough_22"
+    ]
+  },
+  "npc_quests_30_3": {
+    "targets": [
+      "playthrough_50",
+      "quest_order_tldr_26",
+      "weapons_3_15"
     ]
   },
   "npc_quests_32_1": {
@@ -3537,6 +3597,12 @@ const item_links = {
       "quest_order_tldr_18",
       "quest_order_tldr_19",
       "quest_order_tldr_20"
+    ]
+  },
+  "npc_quests_9_2": {
+    "targets": [
+      "playthrough_41",
+      "playthrough_42"
     ]
   },
   "npc_quests_9_4": {
@@ -3743,9 +3809,105 @@ const item_links = {
       "quest_order_tldr_20"
     ]
   },
+  "playthrough_39": {
+    "targets": [
+      "bosses_2_12"
+    ]
+  },
   "playthrough_4": {
     "targets": [
       "quest_order_tldr_2"
+    ]
+  },
+  "playthrough_40": {
+    "targets": [
+      "npc_quests_10_1",
+      "quest_order_tldr_21"
+    ]
+  },
+  "playthrough_41": {
+    "andsources": [
+      "playthrough_42"
+    ],
+    "andtargets": [
+      "npc_quests_9_2"
+    ],
+    "targets": [
+      "bosses_2_7",
+      "quest_order_tldr_22",
+      "weapons_3_5"
+    ]
+  },
+  "playthrough_42": {
+    "andsources": [
+      "playthrough_41"
+    ],
+    "andtargets": [
+      "npc_quests_9_2"
+    ],
+    "targets": [
+      "quest_order_tldr_23"
+    ]
+  },
+  "playthrough_44": {
+    "targets": [
+      "armor_39",
+      "armor_40"
+    ]
+  },
+  "playthrough_45": {
+    "andsources": [
+      "playthrough_46"
+    ],
+    "andtargets": [
+      "quest_order_tldr_24"
+    ],
+    "targets": [
+      "gestures_1_4"
+    ]
+  },
+  "playthrough_46": {
+    "andsources": [
+      "playthrough_45"
+    ],
+    "andtargets": [
+      "quest_order_tldr_24"
+    ],
+    "targets": [
+      "gestures_1_5"
+    ]
+  },
+  "playthrough_47": {
+    "andsources": [
+      "npc_quests_29_2",
+      "quest_order_tldr_24"
+    ],
+    "andtargets": [
+      "npc_quests_29_9",
+      "quest_order_tldr_25"
+    ]
+  },
+  "playthrough_48": {
+    "andsources": [
+      "playthrough_49"
+    ],
+    "andtargets": [
+      "npc_quests_29_2"
+    ]
+  },
+  "playthrough_49": {
+    "andsources": [
+      "playthrough_48"
+    ],
+    "andtargets": [
+      "npc_quests_29_2"
+    ]
+  },
+  "playthrough_50": {
+    "targets": [
+      "npc_quests_30_3",
+      "quest_order_tldr_26",
+      "weapons_3_15"
     ]
   },
   "playthrough_6": {
@@ -3869,6 +4031,49 @@ const item_links = {
     "targets": [
       "playthrough_36",
       "playthrough_37"
+    ]
+  },
+  "quest_order_tldr_21": {
+    "targets": [
+      "npc_quests_10_1",
+      "playthrough_40"
+    ]
+  },
+  "quest_order_tldr_22": {
+    "targets": [
+      "bosses_2_7",
+      "playthrough_41",
+      "weapons_3_5"
+    ]
+  },
+  "quest_order_tldr_23": {
+    "targets": [
+      "playthrough_42"
+    ]
+  },
+  "quest_order_tldr_24": {
+    "andsources": [
+      "playthrough_47"
+    ],
+    "andtargets": [
+      "npc_quests_29_9"
+    ],
+    "targets": [
+      "playthrough_45",
+      "playthrough_46"
+    ]
+  },
+  "quest_order_tldr_25": {
+    "targets": [
+      "npc_quests_29_2",
+      "playthrough_47"
+    ]
+  },
+  "quest_order_tldr_26": {
+    "targets": [
+      "npc_quests_30_3",
+      "playthrough_50",
+      "weapons_3_15"
     ]
   },
   "quest_order_tldr_3": {
@@ -4950,6 +5155,13 @@ const item_links = {
       "weapons_13_14"
     ]
   },
+  "weapons_3_15": {
+    "targets": [
+      "npc_quests_30_3",
+      "playthrough_50",
+      "quest_order_tldr_26"
+    ]
+  },
   "weapons_3_2": {
     "targets": [
       "bosses_6_10"
@@ -4957,7 +5169,9 @@ const item_links = {
   },
   "weapons_3_5": {
     "targets": [
-      "bosses_2_7"
+      "bosses_2_7",
+      "playthrough_41",
+      "quest_order_tldr_22"
     ]
   },
   "weapons_5_10": {

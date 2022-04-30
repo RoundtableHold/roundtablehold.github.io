@@ -156,7 +156,7 @@ item_links:
   - link_all: [bosses_2_4, caves_1_5, talismans_2_3] #BEASTMAN OF FARUM AZULA/GROVESIDE CAVE/FLAMEDRAKE TALISMAN
   - link_all: [bosses_2_5, caves_1_7, talismans_2_2] #STONEDIGGER TROLL/LIMGRAVE TUNNELS/ROAR TALISMAN
   - link_all: [bosses_2_6, caves_1_8, spirit_ashes_2_1] #GRAVE WARDEN DUELIST/MURKWATER CATACOMBS/BANISHED KNIGHT ENGVALL ASHES
-  - link_all: [bosses_2_7, weapons_3_5] #BLOODY FINGER NERIJUS/REDUVIA
+  - link_all: [bosses_2_7, weapons_3_5, playthrough_41, quest_order_tldr_22] #BLOODY FINGER NERIJUS/REDUVIA/WALKTHROUGH 41/TLDR 22
   - link_all: [bosses_2_8, caves_1_9] #PATCHES/MURKWATER CAVE
   - link_all: [bosses_2_9, caves_1_6, talismans_2_13] #GUARDIAN GOLEM/HIGHROAD CAVE/BLUE DANCER CHARM
   - link_all: [bosses_2_10, caves_1_4, talismans_2_18, dragon_hearts_death_roots_1_2] #BLACK KNIFE ASSASSIN/DEATHTOUCHED CATACOMBS/ASSASSIN'S CRIMSON DAGGER/DEATHROOT 
@@ -406,25 +406,52 @@ item_links:
   - link_all: [playthrough_25, quest_order_tldr_13, gestures_1_7] # WALKTHROUGH 25/TLDR 13/FINGER SNAP
   - link_all: [playthrough_27, quest_order_tldr_15] # WALKTHROUGH 27/TLDR 15
   - source_and: [playthrough_28, playthrough_29]
-    target: [quest_order_tldr_16]
-  - source: [quest_order_tldr_16]
+    target: quest_order_tldr_16
+  - source: quest_order_tldr_16
     target: [playthrough_28, playthrough_29] # WALKTHROUGH 28-29/TLDR 16
   - link_all: [playthrough_31, quest_order_tldr_17] # WALKTHROUGH 31/TLDR 17
   - source_and: [playthrough_27, playthrough_29, playthrough_31]
-    target: [npc_quests_3_2]
-  - source: [npc_quests_3_2]
+    target: npc_quests_3_2
+  - source: npc_quests_3_2
     target: [playthrough_27, playthrough_29, playthrough_31] # WALKTHROUGH 27, 29-31/BOC 2 
   - link_all: [playthrough_33, quest_order_tldr_18] # WALKTHROUGH 33/TLDR 18 
   - source_and: [playthrough_34, playthrough_35]
-    target: [quest_order_tldr_19]
-  - source: [quest_order_tldr_19]
+    target: quest_order_tldr_19
+  - source: quest_order_tldr_19
     target: [playthrough_34, playthrough_35] # WALKTHROUGH 34-35/TLDR 19
   - source_and: [playthrough_36, playthrough_37]
-    target: [quest_order_tldr_20]
-  - source: [quest_order_tldr_20]
+    target: quest_order_tldr_20
+  - source: quest_order_tldr_20
     target: [playthrough_36, playthrough_37] # WALKTHROUGH 36-37/TLDR 20
   - source_and: [quest_order_tldr_18, quest_order_tldr_19, quest_order_tldr_20]
-    target: [npc_quests_9_1]
-  - source: [npc_quests_9_1]
+    target: npc_quests_9_1
+  - source: npc_quests_9_1
     target: [quest_order_tldr_18, quest_order_tldr_19, quest_order_tldr_20] # TLDR 18-20/YURA 1 
+  - link_all: [playthrough_39, bosses_2_12] # WALKTHROUGH 39/MAD PUMPKING HEAD
+  - link_all: [playthrough_40, quest_order_tldr_21, npc_quests_10_1] # WALKTHROUGH 40/TLDR 21/SELLEN 1
+  - link_all: [playthrough_42, quest_order_tldr_23] # WALKTHROUGH 42/TLDR 23
+  - source_and: [playthrough_41, playthrough_42]
+    target: npc_quests_9_2
+  - source: npc_quests_9_2
+    target: [playthrough_41, playthrough_42] # WALKTHROUGH 41-42/YURA 2 
+  - link_all: [playthrough_44, armor_39, armor_40] # WALKTHROUGH 44/CLOTH GARB AND TROUSERS
+  - link_all: [playthrough_45, gestures_1_4] # WALKTHROUGH 45/GROVEL FOR MERCY
+  - link_all: [playthrough_46, gestures_1_5] # WALKTHROUGH 46/EXTREME REPENTANCE
+  - source_and: [playthrough_45, playthrough_46]
+    target: quest_order_tldr_24
+  - source: quest_order_tldr_24
+    target: [playthrough_45, playthrough_46] # WALKTHROUGH 45-46/TLDR 24 
+  - source_and: [quest_order_tldr_24, playthrough_47]
+    target: npc_quests_29_9
+  - source: npc_quests_29_9
+    target: [quest_order_tldr_24, playthrough_47] # WALKTHROUGH 45-47/PATCHES 1 
+  - source_and: [playthrough_48, playthrough_49]
+    target: npc_quests_29_2
+  - source: npc_quests_29_2
+    target: [playthrough_48, playthrough_49] # WALKTHROUGH 48-49/PATCHES 2
+  - source_and: [playthrough_47, npc_quests_29_2]
+    target: quest_order_tldr_25
+  - source: quest_order_tldr_25
+    target: [playthrough_47, npc_quests_29_2] # WALKTHROUGH 47-49/TLDR 25
+  - link_all: [playthrough_50, quest_order_tldr_26, npc_quests_30_3, weapons_3_15] # WALKTHROUGH 50/TLDR 26/KENNETH 3/ERDSTEEL DAGGER
   
