@@ -167,7 +167,7 @@
 
         var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
         
-        popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ''</code>`;
+        popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
         overlay.setPosition(coordinate);
         var selection = window.getSelection();
         var range = document.createRange();

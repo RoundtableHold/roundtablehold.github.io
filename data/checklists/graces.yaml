@@ -13,11 +13,11 @@ sections:
       - id: "0"
         data: ["The First Step"]
         cords: [3701, 7341]
-        map_title: 'The First Step'
+        map_title: "The First Step"
       - id: "1"
         data: ["Church of Elleh"]
         cords: [3673, 7223]
-        map_title: 'Church of Elleh'
+        map_title: "Church of Elleh"
       - id: "2"
         data: ["Gatefront"]
       - id: "3"
@@ -87,57 +87,107 @@ sections:
     items:
       - id: "31"
         data: ["Church of Pilgrimage"]
+        cords: [3858, 7699]
+        map_title: "Church of Pilgrimage"
       - id: "32"
         data: ["Castle Morne Rampart"]
+        cords: [4306, 8158]
+        map_title: "Castle Morne Rampart"
       - id: "33"
         data: ["Tombsward"]
+        cords: [3788, 8099]
+        map_title: "Tombsward"
       - id: "34"
         data: ["South of the Lookout Tower"]
+        cords: [4209, 7976]
+        map_title: "South of the Lookout Tower"
       - id: "35"
         data: ["Ailing Village Outskirts"]
+        cords: [4155, 7991]
+        map_title: "Ailing Village Outskirts"
       - id: "36"
         data: ["Beside The Crater-Pocked Glade"]
+        cords: [4412, 8002]
+        map_title: "Beside The Crater-Pocked Glade"
       - id: "37"
         data: ["Isolated Merchant's Shack"]
+        cords: [3459, 8208]
+        map_title: "Isolated Merchant's Shack"
       - id: "38"
         data: ["Fourth Church of Marika"]
+        cords: [3507, 8001]
+        map_title: "Fourth Church of Marika"
       - id: "39"
         data: ["Bridge of Sacrifice"]
+        cords: [4331, 7806]
+        map_title: "Bridge of Sacrifice"
       - id: "40"
         data: ["Castle Morne Lift"]
+        cords: [4071, 8580]
+        map_title: "Castle Morne Lift"
       - id: "41"
         data: ["Behind The Castle"]
+        cords: [4007, 8692]
+        map_title: "Behind The Castle"
       - id: "42"
         data: ["Beside the Rampart Gaol"]
+        cords: [3985, 8720]
+        map_title: "Beside the Rampart Gaol"
       - id: "43"
         data: ["Morne Moangrave"]
+        cords: [3935, 8846]
+        map_title: "Morne Moangrave"
       - id: "44"
         data: ["Impaler's Catacombs"]
+        cords: [4455, 7853]
+        map_title: "Impaler's Catacombs"
       - id: "45"
         data: ["Tombsward Catacombs"]
+        cords: [3871, 7957]
+        map_title: "Tombsward Catacombs"
       - id: "46"
         data: ["Earthbore Cave"]
+        cords: [4122, 7849]
+        map_title: "Earthbore Cave"
       - id: "47"
         data: ["Tombsward Cave"]
+        cords: [3596, 8030]
+        map_title: "Tombsward Cave"
       - id: "48"
         data: ["Morne Tunnel"]
+        cords: [4004, 8133]
+        map_title: "Morne Tunnel"
   -
     title: Stormveil Castle
     items:
       - id: "49"
         data: ["Stormveil Main Gate"]
+        cords: [3235,6791]
+        map_title: "Stormveil Main Gate"
       - id: "50"
         data: ["Gateside Chamber"]
+        cords: [3209,6797]
+        map_title: "Gateside Chamber"
       - id: "51"
         data: ["Stormveil Cliffside"]
+        cords: [3130,6827]
+        map_title: "Stormveil Cliffside"
       - id: "52"
         data: ["Rampart Tower"]
+        cords: [3070,6697]
+        map_title: "Rampart Tower"
       - id: "53"
         data: ["Liftside Chamber"]
+        cords: [3056,6569]
+        map_title: "Liftside Chamber"
       - id: "54"
         data: ["Secluded Cell"]
+        cords: [3141,6496]
+        map_title: "Secluded Cell"
       - id: "55"
         data: ["Godrick the Grafted"]
+        cords: [3099,6464]
+        map_title: "Godrick the Grafted"
   -
     title: Liurnia of the Lakes
     items:
