@@ -64,14 +64,14 @@
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 60 / image.naturalHeight,
+                            scale: 50 / image.naturalHeight,
                         })
                     }),
                     new ol.style.Style({
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 60 / image.naturalHeight,
+                            scale: 50 / image.naturalHeight,
                             opacity: 0.5,
                         })
                     })
@@ -127,10 +127,10 @@
             view: new ol.View({
                 center: ol.extent.getCenter(erextent),
                 zoom: 2,
-                maxZoom: 8,
+                maxZoom: 9,
                 projection: projection,
                 extent: erextent,
-                resolutions: ertilegrid.getResolutions(),
+                // resolutions: ertilegrid.getResolutions(),
                 showFullExtent: true,
                 enableRotation: false,
             }),
