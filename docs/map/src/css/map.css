@@ -74,3 +74,18 @@ code {
 .tooltip-inner {
     border: 2px solid white;
 } */
+
+.offcanvas-btn {
+    right: 400px;
+    top: 120px;
+    visibility: visible;
+}
+
+.offcanvas-btn i:last-child,
+.offcanvas.show .offcanvas-btn i:first-child {
+    display: none;
+}
+
+.offcanvas.show .offcanvas-btn i:last-child {
+    display: inline;
+}

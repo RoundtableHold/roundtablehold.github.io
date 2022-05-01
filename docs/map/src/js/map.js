@@ -55,6 +55,8 @@
             },
         });
 
+        var hideChecked = false;
+
         var styleCache = {};
         const styleSelector = function (feature, resolution) {
             if (!(feature.get('icon') in styleCache)) {
@@ -83,12 +85,13 @@
             var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
             var style;
             if (checked) {
-                style = styleCache[feature.get('icon')][1];
+                if (!hideChecked)
+                    style = styleCache[feature.get('icon')][1];
             } else {
                 style = styleCache[feature.get('icon')][0];
             }
 
-            var image = images[feature.get('icon')];
+            // var image = images[feature.get('icon')];
             // style.getImage().setScale((map.getView().getResolutionForZoom(6) / resolution) * (60 / image.naturalHeight));
             return style;
         }
@@ -135,7 +138,24 @@
                 enableRotation: false,
             }),
             overlays: [overlay],
+            controls: [],
         });
+
+        function initializeSettings() {
+            profiles = $.jStorage.get(profilesKey, {});
+            if ('hideCompleted' in profiles[profilesKey][profiles.current].map_settings && profiles[profilesKey][profiles.current].map_settings['hideCompleted']) {
+                $('#hideCompleted').prop('checked', true);
+                hideChecked = true;
+            } else {
+                $('#hideCompleted').prop('checked', false);
+                hideChecked = false;
+            }
+
+            map.getAllLayers().forEach((l) => l.changed());
+            $.jStorage.set(profilesKey, profiles);
+        }
+
+        initializeSettings();
 
         function gototarget() {
             const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -231,7 +251,7 @@
             document.execCommand('copy');
         });
 
-        $('.checkbox input[type="checkbox"]').click(function () {
+        $('#popup-checkbox').click(function () {
             var id = $(this).attr('data-id');
             var isChecked = $(this).prop('checked');
             setItem(id, isChecked);
@@ -240,6 +260,20 @@
             } else {
                 $(popup_checkbox).closest('div').removeClass('completed')
             }
+            map.getAllLayers().forEach((l) => l.changed())
+        });
+
+        $('#hideCompleted').click(function() {
+            var isChecked = !!$(this).prop('checked');
+            hideChecked = isChecked;
+            map.getAllLayers().forEach((l) => l.changed())
+            profiles[profilesKey][profiles.current].map_settings['hideCompleted'] = isChecked;
+            $.jStorage.set(profilesKey, profiles);
+        });
+
+        $('.category-filter').click(function () {
+            var isChecked = !!$(this).prop('checked');
+            console.log(isChecked);
         });
     })
 })(jQuery);
