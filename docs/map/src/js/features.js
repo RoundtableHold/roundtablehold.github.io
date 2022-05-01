@@ -201,6 +201,23 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            111,
+            9008
+          ],
+          "type": "Point"
+        },
+        "id": "graces_313",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_313",
+          "link": "/checklists/sitesof_grace.html#item_313",
+          "title": "Table of Lost Grace"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3701,
             7341
           ],
@@ -1452,7 +1469,7 @@ const feature_data = [
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_210",
           "link": "/checklists/sitesof_grace.html#item_210",
-          "title": ""
+          "title": "Minor Erdtree Catacombs"
         },
         "type": "Feature"
       },
@@ -1846,13 +1863,1050 @@ const feature_data = [
           "title": "Isolated Divine Tower"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4989,
+            3485
+          ],
+          "type": "Point"
+        },
+        "id": "graces_234",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_234",
+          "link": "/checklists/sitesof_grace.html#item_234",
+          "title": "Forbidden Lands"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5493,
+            3042
+          ],
+          "type": "Point"
+        },
+        "id": "graces_235",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_235",
+          "link": "/checklists/sitesof_grace.html#item_235",
+          "title": "Grand Lift of Rold"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5401,
+            2805
+          ],
+          "type": "Point"
+        },
+        "id": "graces_236",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_236",
+          "link": "/checklists/sitesof_grace.html#item_236",
+          "title": "Hidden Path to the Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5105,
+            3810
+          ],
+          "type": "Point"
+        },
+        "id": "graces_237",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_237",
+          "link": "/checklists/sitesof_grace.html#item_237",
+          "title": "Divine Tower of East Altus: Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5121,
+            3866
+          ],
+          "type": "Point"
+        },
+        "id": "graces_238",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_238",
+          "link": "/checklists/sitesof_grace.html#item_238",
+          "title": "Divine Tower of East Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5583,
+            2844
+          ],
+          "type": "Point"
+        },
+        "id": "graces_239",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_239",
+          "link": "/checklists/sitesof_grace.html#item_239",
+          "title": "Zamor Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6010,
+            2220
+          ],
+          "type": "Point"
+        },
+        "id": "graces_240",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_240",
+          "link": "/checklists/sitesof_grace.html#item_240",
+          "title": "Ancient Snow Valley Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6348,
+            1841
+          ],
+          "type": "Point"
+        },
+        "id": "graces_241",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_241",
+          "link": "/checklists/sitesof_grace.html#item_241",
+          "title": "Freezing Lake"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6754,
+            2370
+          ],
+          "type": "Point"
+        },
+        "id": "graces_242",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_242",
+          "link": "/checklists/sitesof_grace.html#item_242",
+          "title": "First Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6311,
+            2302
+          ],
+          "type": "Point"
+        },
+        "id": "graces_243",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_243",
+          "link": "/checklists/sitesof_grace.html#item_243",
+          "title": "Whiteridge Road"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6136,
+            1961
+          ],
+          "type": "Point"
+        },
+        "id": "graces_244",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_244",
+          "link": "/checklists/sitesof_grace.html#item_244",
+          "title": "Snow Valley Ruins Overlook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6004,
+            1854
+          ],
+          "type": "Point"
+        },
+        "id": "graces_245",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_245",
+          "link": "/checklists/sitesof_grace.html#item_245",
+          "title": "Castle Sol Main Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6087,
+            1806
+          ],
+          "type": "Point"
+        },
+        "id": "graces_246",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_246",
+          "link": "/checklists/sitesof_grace.html#item_246",
+          "title": "Church of the Eclipse"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6100,
+            1725
+          ],
+          "type": "Point"
+        },
+        "id": "graces_247",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_247",
+          "link": "/checklists/sitesof_grace.html#item_247",
+          "title": "Castle Sol Rooftop"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6500,
+            2067
+          ],
+          "type": "Point"
+        },
+        "id": "graces_248",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_248",
+          "link": "/checklists/sitesof_grace.html#item_248",
+          "title": "Spiritcaller Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6215,
+            2620
+          ],
+          "type": "Point"
+        },
+        "id": "graces_249",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_249",
+          "link": "/checklists/sitesof_grace.html#item_249",
+          "title": "Giants' Gravepost"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5955,
+            3013
+          ],
+          "type": "Point"
+        },
+        "id": "graces_250",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_250",
+          "link": "/checklists/sitesof_grace.html#item_250",
+          "title": "Church of Repose"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6189,
+            2994
+          ],
+          "type": "Point"
+        },
+        "id": "graces_251",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_251",
+          "link": "/checklists/sitesof_grace.html#item_251",
+          "title": "Foot of the Forge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6445,
+            3177
+          ],
+          "type": "Point"
+        },
+        "id": "graces_252",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_252",
+          "link": "/checklists/sitesof_grace.html#item_252",
+          "title": "Fire Giant"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6759,
+            2957
+          ],
+          "type": "Point"
+        },
+        "id": "graces_253",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_253",
+          "link": "/checklists/sitesof_grace.html#item_253",
+          "title": "Forge of the Giants"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5787,
+            2830
+          ],
+          "type": "Point"
+        },
+        "id": "graces_254",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_254",
+          "link": "/checklists/sitesof_grace.html#item_254",
+          "title": "Giants' Mountaintop Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5646,
+            2823
+          ],
+          "type": "Point"
+        },
+        "id": "graces_255",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_255",
+          "link": "/checklists/sitesof_grace.html#item_255",
+          "title": "Giant-Conquering Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5610,
+            1330
+          ],
+          "type": "Point"
+        },
+        "id": "graces_263",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_263",
+          "link": "/checklists/sitesof_grace.html#item_263",
+          "title": "Haligtree Canopy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5673,
+            1139
+          ],
+          "type": "Point"
+        },
+        "id": "graces_264",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_264",
+          "link": "/checklists/sitesof_grace.html#item_264",
+          "title": "Haligtree Town"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5615,
+            1075
+          ],
+          "type": "Point"
+        },
+        "id": "graces_265",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_265",
+          "link": "/checklists/sitesof_grace.html#item_265",
+          "title": "Haligtree Town Plaza"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5786,
+            1071
+          ],
+          "type": "Point"
+        },
+        "id": "graces_266",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_266",
+          "link": "/checklists/sitesof_grace.html#item_266",
+          "title": "Haligtree Promenade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5690,
+            936
+          ],
+          "type": "Point"
+        },
+        "id": "graces_267",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_267",
+          "link": "/checklists/sitesof_grace.html#item_267",
+          "title": "Prayer Room"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5584,
+            778
+          ],
+          "type": "Point"
+        },
+        "id": "graces_268",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_268",
+          "link": "/checklists/sitesof_grace.html#item_268",
+          "title": "Elphael Inner Wall"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5735,
+            881
+          ],
+          "type": "Point"
+        },
+        "id": "graces_269",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_269",
+          "link": "/checklists/sitesof_grace.html#item_269",
+          "title": "Drainage Channel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5701,
+            818
+          ],
+          "type": "Point"
+        },
+        "id": "graces_270",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_270",
+          "link": "/checklists/sitesof_grace.html#item_270",
+          "title": "Haligtree Roots"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5590,
+            889
+          ],
+          "type": "Point"
+        },
+        "id": "graces_271",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_271",
+          "link": "/checklists/sitesof_grace.html#item_271",
+          "title": "Malenia, Goddess of Rot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3906,
+            11847
+          ],
+          "type": "Point"
+        },
+        "id": "graces_277",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_277",
+          "link": "/checklists/sitesof_grace.html#item_277",
+          "title": "Ainsel River Main"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3605,
+            12044
+          ],
+          "type": "Point"
+        },
+        "id": "graces_278",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_278",
+          "link": "/checklists/sitesof_grace.html#item_278",
+          "title": "Nokstella, Eternal City"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3335,
+            11970
+          ],
+          "type": "Point"
+        },
+        "id": "graces_279",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_279",
+          "link": "/checklists/sitesof_grace.html#item_279",
+          "title": "Nokstella Waterfall Basin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3267,
+            12188
+          ],
+          "type": "Point"
+        },
+        "id": "graces_280",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_280",
+          "link": "/checklists/sitesof_grace.html#item_280",
+          "title": "Lake of Rot Shoreside"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3160,
+            12643
+          ],
+          "type": "Point"
+        },
+        "id": "graces_281",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_281",
+          "link": "/checklists/sitesof_grace.html#item_281",
+          "title": "Grand Cloister"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5747,
+            14546
+          ],
+          "type": "Point"
+        },
+        "id": "graces_282",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_282",
+          "link": "/checklists/sitesof_grace.html#item_282",
+          "title": "Nokron, Eternal City"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6054,
+            14623
+          ],
+          "type": "Point"
+        },
+        "id": "graces_283",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_283",
+          "link": "/checklists/sitesof_grace.html#item_283",
+          "title": "Mimic Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6059,
+            14320
+          ],
+          "type": "Point"
+        },
+        "id": "graces_284",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_284",
+          "link": "/checklists/sitesof_grace.html#item_284",
+          "title": "Ancestral Woods"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5996,
+            14480
+          ],
+          "type": "Point"
+        },
+        "id": "graces_285",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_285",
+          "link": "/checklists/sitesof_grace.html#item_285",
+          "title": "Night's Sacred Ground"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6219,
+            14020
+          ],
+          "type": "Point"
+        },
+        "id": "graces_286",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_286",
+          "link": "/checklists/sitesof_grace.html#item_286",
+          "title": "Aqueduct-Facing Cliffs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6224,
+            13874
+          ],
+          "type": "Point"
+        },
+        "id": "graces_287",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_287",
+          "link": "/checklists/sitesof_grace.html#item_287",
+          "title": "Great Waterfall Basin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5786,
+            14613
+          ],
+          "type": "Point"
+        },
+        "id": "graces_288",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_288",
+          "link": "/checklists/sitesof_grace.html#item_288",
+          "title": "Siofra River Well Depths"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6131,
+            14519
+          ],
+          "type": "Point"
+        },
+        "id": "graces_289",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_289",
+          "link": "/checklists/sitesof_grace.html#item_289",
+          "title": "Siofra River Bank"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6477,
+            14257
+          ],
+          "type": "Point"
+        },
+        "id": "graces_290",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_290",
+          "link": "/checklists/sitesof_grace.html#item_290",
+          "title": "Worshippers' Woods"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6559,
+            13915
+          ],
+          "type": "Point"
+        },
+        "id": "graces_291",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_291",
+          "link": "/checklists/sitesof_grace.html#item_291",
+          "title": "Below the Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            7120,
+            14498
+          ],
+          "type": "Point"
+        },
+        "id": "graces_292",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_292",
+          "link": "/checklists/sitesof_grace.html#item_292",
+          "title": "Palace Approach Ledge-Road"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6919,
+            14330
+          ],
+          "type": "Point"
+        },
+        "id": "graces_293",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_293",
+          "link": "/checklists/sitesof_grace.html#item_293",
+          "title": "Dynasty Mausoleum Entrance"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6850,
+            14371
+          ],
+          "type": "Point"
+        },
+        "id": "graces_294",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_294",
+          "link": "/checklists/sitesof_grace.html#item_294",
+          "title": "Dynasty Mausoleum Midpoint"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6752,
+            14376
+          ],
+          "type": "Point"
+        },
+        "id": "graces_295",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_295",
+          "link": "/checklists/sitesof_grace.html#item_295",
+          "title": "Cocoon of the Empyrean"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8605,
+            4675
+          ],
+          "type": "Point"
+        },
+        "id": "graces_302",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_302",
+          "link": "/checklists/sitesof_grace.html#item_302",
+          "title": "Crumbling Beast Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8398,
+            4629
+          ],
+          "type": "Point"
+        },
+        "id": "graces_303",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_303",
+          "link": "/checklists/sitesof_grace.html#item_303",
+          "title": "Crumbling Beast Grave Depths"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8399,
+            4553
+          ],
+          "type": "Point"
+        },
+        "id": "graces_304",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_304",
+          "link": "/checklists/sitesof_grace.html#item_304",
+          "title": "Tempest-Facing Balcony"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8411,
+            4429
+          ],
+          "type": "Point"
+        },
+        "id": "graces_305",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_305",
+          "link": "/checklists/sitesof_grace.html#item_305",
+          "title": "Dragon Temple"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8517,
+            4472
+          ],
+          "type": "Point"
+        },
+        "id": "graces_306",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_306",
+          "link": "/checklists/sitesof_grace.html#item_306",
+          "title": "Dragon Temple Transept"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8499,
+            4422
+          ],
+          "type": "Point"
+        },
+        "id": "graces_307",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_307",
+          "link": "/checklists/sitesof_grace.html#item_307",
+          "title": "Dragon Temple Altar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8416,
+            4339
+          ],
+          "type": "Point"
+        },
+        "id": "graces_308",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_308",
+          "link": "/checklists/sitesof_grace.html#item_308",
+          "title": "Dragon Temple Lift"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8572,
+            4227
+          ],
+          "type": "Point"
+        },
+        "id": "graces_309",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_309",
+          "link": "/checklists/sitesof_grace.html#item_309",
+          "title": "Dragon Temple Rooftop"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8553,
+            4336
+          ],
+          "type": "Point"
+        },
+        "id": "graces_310",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_310",
+          "link": "/checklists/sitesof_grace.html#item_310",
+          "title": "Beside the Great Bridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8507,
+            4503
+          ],
+          "type": "Point"
+        },
+        "id": "graces_311",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_311",
+          "link": "/checklists/sitesof_grace.html#item_311",
+          "title": "Dragonlord Placidusax"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8715,
+            4463
+          ],
+          "type": "Point"
+        },
+        "id": "graces_312",
+        "properties": {
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "id": "graces_312",
+          "link": "/checklists/sitesof_grace.html#item_312",
+          "title": "Maliketh, the Black Blade"
+        },
+        "type": "Feature"
       }
     ],
     "type": "FeatureCollection"
   }
 ];
 const icon_urls = [
+  "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_memo_20.png",
-  "/map/icons/MENU_MAP_09.png",
-  "/map/icons/MENU_MAP_01_Bonfire.png"
+  "/map/icons/MENU_MAP_09.png"
 ]
