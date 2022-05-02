@@ -131,7 +131,7 @@ var themes = {
                     b &= profiles[profilesKey][profiles.current].checklistData[s];
                 }
                 for (const t of links['andtargets']) {
-                    if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                    if (!profiles[profilesKey][profiles.current].checklistData[t] && b) {
                         setItem(t, b, startup);
                     }
                 }
