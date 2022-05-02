@@ -91,11 +91,11 @@
         });
 
         $('#profileModalDelete').click(function(event) {
-            $('#deleteModal').show();
+            $('#deleteModal').modal('show');
         });
 
         $('#deleteYes').click(function(event) {
-            $('#deleteModal').hide();
+            $('#deleteModal').modal('hide');
             profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!canDelete()) {
