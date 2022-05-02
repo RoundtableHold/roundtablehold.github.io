@@ -3073,9 +3073,357 @@ const feature_data = [
       }
     ],
     "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3655,
+            7210
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_1",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_1",
+          "link": "/checklists/bell_bearings.html#item_7_1",
+          "title": "Kal\u00e9"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4128,
+            6553
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_2",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_2",
+          "link": "/checklists/bell_bearings.html#item_7_2",
+          "title": "Nomadic Merchant (1)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4557,
+            7182
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_3",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_3",
+          "link": "/checklists/bell_bearings.html#item_7_3",
+          "title": "Nomadic Merchant (2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3565,
+            7394
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_4",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_4",
+          "link": "/checklists/bell_bearings.html#item_7_4",
+          "title": "Nomadic Merchant (3)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4298,
+            8173
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_5",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_5",
+          "link": "/checklists/bell_bearings.html#item_7_5",
+          "title": "Nomadic Merchant (4)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2725,
+            6138
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_6",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_6",
+          "link": "/checklists/bell_bearings.html#item_7_6",
+          "title": "Nomadic Merchant (5)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2192,
+            3974
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_7",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_7",
+          "link": "/checklists/bell_bearings.html#item_7_7",
+          "title": "Nomadic Merchant (6)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3307,
+            3074
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_8",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_8",
+          "link": "/checklists/bell_bearings.html#item_7_8",
+          "title": "Nomadic Merchant (7)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2450,
+            2632
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_9",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_9",
+          "link": "/checklists/bell_bearings.html#item_7_9",
+          "title": "Nomadic Merchant (8)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5216,
+            6762
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_10",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_10",
+          "link": "/checklists/bell_bearings.html#item_7_10",
+          "title": "Nomadic Merchant (9)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5426,
+            7053
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_11",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_11",
+          "link": "/checklists/bell_bearings.html#item_7_11",
+          "title": "Nomadic Merchant (10)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3463,
+            8219
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_12",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_12",
+          "link": "/checklists/bell_bearings.html#item_7_12",
+          "title": "Isolated Merchant (1)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2017,
+            4945
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_13",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_13",
+          "link": "/checklists/bell_bearings.html#item_7_13",
+          "title": "Isolated Merchant (2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5158,
+            6090
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_14",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_14",
+          "link": "/checklists/bell_bearings.html#item_7_14",
+          "title": "Isolated Merchant (3)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3947,
+            2942
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_15",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_15",
+          "link": "/checklists/bell_bearings.html#item_7_15",
+          "title": "Hermit Merchant (1)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5973,
+            2238
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_16",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_16",
+          "link": "/checklists/bell_bearings.html#item_7_16",
+          "title": "Hermit Merchant (2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3558,
+            12158
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_17",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_17",
+          "link": "/checklists/bell_bearings.html#item_7_17",
+          "title": "Hermit Merchant (3)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6304,
+            14256
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_18",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_18",
+          "link": "/checklists/bell_bearings.html#item_7_18",
+          "title": "Abandoned Merchant"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6781,
+            14472
+          ],
+          "type": "Point"
+        },
+        "id": "bell_bearings_7_19",
+        "properties": {
+          "group": "bell_bearings",
+          "icon": "/img/icons/keys/03142.png",
+          "id": "bell_bearings_7_19",
+          "link": "/checklists/bell_bearings.html#item_7_19",
+          "title": "Imprisoned Merchant"
+        },
+        "type": "Feature"
+      }
+    ],
+    "type": "FeatureCollection"
   }
 ];
 const icon_urls = [
+  "/img/icons/keys/03142.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_09.png",
   "/map/icons/MENU_MAP_memo_20.png"
