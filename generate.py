@@ -730,24 +730,37 @@ with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
 
 def get_icon(page, section, item):
     icon = ''
+    icon_size = 40
     if 'map_icon' in item:
         icon = item['map_icon']
+        if 'map_icon_size' in item:
+            icon_size = item['map_icon_size']
     elif 'map_icon' in section:
         icon = section['map_icon']
+        if 'map_icon_size' in section:
+            icon_size = section['map_icon_size']
     elif 'map_icon' in page:
         icon = page['map_icon']
+        if 'map_icon_size' in page:
+            icon_size = page['map_icon_size']
     elif 'icon' in item:
         icon = item['icon']
+        if 'map_icon_size' in item:
+            icon_size = item['map_icon_size']
     elif 'icon' in section:
         icon = section['icon'] 
+        if 'map_icon_size' in section:
+            icon_size = section['map_icon_size']
     elif 'icon' in page:
         icon = page['icon']
+        if 'map_icon_size' in page:
+            icon_size = page['map_icon_size']
     else:
         print("Missing icon for {}".format(page['id'] + '_' + item['id']))
-    return icon
+    return (icon, icon_size)
 
 def make_feature(page, section, item):
-    icon = get_icon(page, section, item)
+    icon, icon_size = get_icon(page, section, item)
     return {
         'type': 'Feature',
         'id': page['id'] + '_' + item['id'],
@@ -760,6 +773,7 @@ def make_feature(page, section, item):
             'id': page['id'] + '_' + item['id'],
             'group': page['id'],
             'icon': icon,
+            'icon_size': icon_size,
             'link': '/checklists/' + to_snake_case(page['title']) + '.html#item_' + item['id']
         }
     }
@@ -781,14 +795,14 @@ def make_geojson():
                 if 'cords' in item:
                     has_features = True
                     geojson['features'].append(make_feature(page, section, item))
-                    icons.add(get_icon(page, section, item))
+                    icons.add(get_icon(page, section, item)[0])
                 if isinstance(items.peek(0), list):
                     item = next(items)
                     for subitem in item:
                         if 'cords' in subitem:
                             has_features = True
                             geojson['features'].append(make_feature(page, section, subitem))
-                            icons.add(get_icon(page, section, item))
+                            icons.add(get_icon(page, section, item)[0])
         if has_features:
             layers.append(geojson)
             pages_in_map.add(page['id'])

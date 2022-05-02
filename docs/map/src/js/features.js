@@ -13,6 +13,7 @@ const feature_data = [
         "properties": {
           "group": "bosses",
           "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
           "id": "bosses_2_15",
           "link": "/checklists/bosses.html#item_2_15",
           "title": "Flying Dragon Agheel"
@@ -36,6 +37,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_1_1",
           "link": "/checklists/evergaols.html#item_1_1",
           "title": "Forlorn Hound Evergaol"
@@ -54,6 +56,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_1_2",
           "link": "/checklists/evergaols.html#item_1_2",
           "title": "Stormhill Evergaol"
@@ -72,6 +75,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_0_1",
           "link": "/checklists/evergaols.html#item_0_1",
           "title": "Weeping Evergaol"
@@ -90,6 +94,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_2_2",
           "link": "/checklists/evergaols.html#item_2_2",
           "title": "Malefactor's Evergaol"
@@ -108,6 +113,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_2_1",
           "link": "/checklists/evergaols.html#item_2_1",
           "title": "Cuckoo's Evergaol"
@@ -126,6 +132,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_2_3",
           "link": "/checklists/evergaols.html#item_2_3",
           "title": "Royal Grave Evergaol"
@@ -144,6 +151,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_2_4",
           "link": "/checklists/evergaols.html#item_2_4",
           "title": "Ringleader's Evergaol"
@@ -162,6 +170,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_3_1",
           "link": "/checklists/evergaols.html#item_3_1",
           "title": "Sellia Evergaol"
@@ -180,6 +189,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_4_1",
           "link": "/checklists/evergaols.html#item_4_1",
           "title": "Golden Lineage Evergaol"
@@ -198,6 +208,7 @@ const feature_data = [
         "properties": {
           "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
           "id": "evergaols_5_1",
           "link": "/checklists/evergaols.html#item_5_1",
           "title": "Lord Contender's Evergaol"
@@ -221,6 +232,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_313",
           "link": "/checklists/sitesof_grace.html#item_313",
           "title": "Table of Lost Grace"
@@ -239,6 +251,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_0",
           "link": "/checklists/sitesof_grace.html#item_0",
           "title": "The First Step"
@@ -257,6 +270,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_1",
           "link": "/checklists/sitesof_grace.html#item_1",
           "title": "Church of Elleh"
@@ -275,6 +289,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_2",
           "link": "/checklists/sitesof_grace.html#item_2",
           "title": "Gatefront"
@@ -293,6 +308,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_3",
           "link": "/checklists/sitesof_grace.html#item_3",
           "title": "Waypoint Ruins Cellar"
@@ -311,6 +327,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_4",
           "link": "/checklists/sitesof_grace.html#item_4",
           "title": "Artist's Shack"
@@ -329,6 +346,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_5",
           "link": "/checklists/sitesof_grace.html#item_5",
           "title": "Third Church of Marika"
@@ -347,6 +365,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_6",
           "link": "/checklists/sitesof_grace.html#item_6",
           "title": "Fort Haight West"
@@ -365,6 +384,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_7",
           "link": "/checklists/sitesof_grace.html#item_7",
           "title": "Agheel Lake South"
@@ -383,6 +403,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_8",
           "link": "/checklists/sitesof_grace.html#item_8",
           "title": "Agheel Lake North"
@@ -401,6 +422,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_9",
           "link": "/checklists/sitesof_grace.html#item_9",
           "title": "Church of Dragon Communion"
@@ -419,6 +441,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_10",
           "link": "/checklists/sitesof_grace.html#item_10",
           "title": "Seaside Ruins"
@@ -437,6 +460,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_11",
           "link": "/checklists/sitesof_grace.html#item_11",
           "title": "Mistwood Outskirts"
@@ -455,6 +479,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_12",
           "link": "/checklists/sitesof_grace.html#item_12",
           "title": "Murkwater Coast"
@@ -473,6 +498,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_13",
           "link": "/checklists/sitesof_grace.html#item_13",
           "title": "Summonwater Village Outskirts"
@@ -491,6 +517,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_14",
           "link": "/checklists/sitesof_grace.html#item_14",
           "title": "Stormfoot Catacombs"
@@ -509,6 +536,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_15",
           "link": "/checklists/sitesof_grace.html#item_15",
           "title": "Murkwater Catacombs"
@@ -527,6 +555,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_16",
           "link": "/checklists/sitesof_grace.html#item_16",
           "title": "Groveside Cave"
@@ -545,6 +574,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_17",
           "link": "/checklists/sitesof_grace.html#item_17",
           "title": "Coastal Cave"
@@ -563,6 +593,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_18",
           "link": "/checklists/sitesof_grace.html#item_18",
           "title": "Murkwater Cave"
@@ -581,6 +612,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_19",
           "link": "/checklists/sitesof_grace.html#item_19",
           "title": "Highroad Cave"
@@ -599,6 +631,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_20",
           "link": "/checklists/sitesof_grace.html#item_20",
           "title": "Limgrave Tunnels"
@@ -617,6 +650,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_21",
           "link": "/checklists/sitesof_grace.html#item_21",
           "title": "Cave of Knowledge"
@@ -635,6 +669,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_22",
           "link": "/checklists/sitesof_grace.html#item_22",
           "title": "Stranded Graveyard"
@@ -653,6 +688,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_23",
           "link": "/checklists/sitesof_grace.html#item_23",
           "title": "Stormhill Shack"
@@ -671,6 +707,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_24",
           "link": "/checklists/sitesof_grace.html#item_24",
           "title": "Castleward Tunnel"
@@ -689,6 +726,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_25",
           "link": "/checklists/sitesof_grace.html#item_25",
           "title": "Margit, the Fell Omen"
@@ -707,6 +745,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_26",
           "link": "/checklists/sitesof_grace.html#item_26",
           "title": "Warmaster's Shack"
@@ -725,6 +764,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_27",
           "link": "/checklists/sitesof_grace.html#item_27",
           "title": "Saintsbridge"
@@ -743,6 +783,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_28",
           "link": "/checklists/sitesof_grace.html#item_28",
           "title": "Deathtouched Catacombs"
@@ -761,6 +802,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_29",
           "link": "/checklists/sitesof_grace.html#item_29",
           "title": "Limgrave Tower Bridge"
@@ -779,6 +821,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_30",
           "link": "/checklists/sitesof_grace.html#item_30",
           "title": "Divine Tower of Limgrave"
@@ -797,6 +840,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_31",
           "link": "/checklists/sitesof_grace.html#item_31",
           "title": "Church of Pilgrimage"
@@ -815,6 +859,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_32",
           "link": "/checklists/sitesof_grace.html#item_32",
           "title": "Castle Morne Rampart"
@@ -833,6 +878,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_33",
           "link": "/checklists/sitesof_grace.html#item_33",
           "title": "Tombsward"
@@ -851,6 +897,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_34",
           "link": "/checklists/sitesof_grace.html#item_34",
           "title": "South of the Lookout Tower"
@@ -869,6 +916,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_35",
           "link": "/checklists/sitesof_grace.html#item_35",
           "title": "Ailing Village Outskirts"
@@ -887,6 +935,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_36",
           "link": "/checklists/sitesof_grace.html#item_36",
           "title": "Beside The Crater-Pocked Glade"
@@ -905,6 +954,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_37",
           "link": "/checklists/sitesof_grace.html#item_37",
           "title": "Isolated Merchant's Shack"
@@ -923,6 +973,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_38",
           "link": "/checklists/sitesof_grace.html#item_38",
           "title": "Fourth Church of Marika"
@@ -941,6 +992,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_39",
           "link": "/checklists/sitesof_grace.html#item_39",
           "title": "Bridge of Sacrifice"
@@ -959,6 +1011,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_40",
           "link": "/checklists/sitesof_grace.html#item_40",
           "title": "Castle Morne Lift"
@@ -977,6 +1030,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_41",
           "link": "/checklists/sitesof_grace.html#item_41",
           "title": "Behind The Castle"
@@ -995,6 +1049,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_42",
           "link": "/checklists/sitesof_grace.html#item_42",
           "title": "Beside the Rampart Gaol"
@@ -1013,6 +1068,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_43",
           "link": "/checklists/sitesof_grace.html#item_43",
           "title": "Morne Moangrave"
@@ -1031,6 +1087,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_44",
           "link": "/checklists/sitesof_grace.html#item_44",
           "title": "Impaler's Catacombs"
@@ -1049,6 +1106,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_45",
           "link": "/checklists/sitesof_grace.html#item_45",
           "title": "Tombsward Catacombs"
@@ -1067,6 +1125,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_46",
           "link": "/checklists/sitesof_grace.html#item_46",
           "title": "Earthbore Cave"
@@ -1085,6 +1144,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_47",
           "link": "/checklists/sitesof_grace.html#item_47",
           "title": "Tombsward Cave"
@@ -1103,6 +1163,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_48",
           "link": "/checklists/sitesof_grace.html#item_48",
           "title": "Morne Tunnel"
@@ -1121,6 +1182,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_49",
           "link": "/checklists/sitesof_grace.html#item_49",
           "title": "Stormveil Main Gate"
@@ -1139,6 +1201,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_50",
           "link": "/checklists/sitesof_grace.html#item_50",
           "title": "Gateside Chamber"
@@ -1157,6 +1220,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_51",
           "link": "/checklists/sitesof_grace.html#item_51",
           "title": "Stormveil Cliffside"
@@ -1175,6 +1239,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_52",
           "link": "/checklists/sitesof_grace.html#item_52",
           "title": "Rampart Tower"
@@ -1193,6 +1258,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_53",
           "link": "/checklists/sitesof_grace.html#item_53",
           "title": "Liftside Chamber"
@@ -1211,6 +1277,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_54",
           "link": "/checklists/sitesof_grace.html#item_54",
           "title": "Secluded Cell"
@@ -1229,6 +1296,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_55",
           "link": "/checklists/sitesof_grace.html#item_55",
           "title": "Godrick the Grafted"
@@ -1247,6 +1315,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_193",
           "link": "/checklists/sitesof_grace.html#item_193",
           "title": "Smoldering Church"
@@ -1265,6 +1334,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_194",
           "link": "/checklists/sitesof_grace.html#item_194",
           "title": "Rotview Balcony"
@@ -1283,6 +1353,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_195",
           "link": "/checklists/sitesof_grace.html#item_195",
           "title": "Caelem Ruins"
@@ -1301,6 +1372,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_196",
           "link": "/checklists/sitesof_grace.html#item_196",
           "title": "Fort Gael North"
@@ -1319,6 +1391,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_197",
           "link": "/checklists/sitesof_grace.html#item_197",
           "title": "Smoldering Wall"
@@ -1337,6 +1410,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_198",
           "link": "/checklists/sitesof_grace.html#item_198",
           "title": "Caelid Highway South"
@@ -1355,6 +1429,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_199",
           "link": "/checklists/sitesof_grace.html#item_199",
           "title": "Cathedral of Dragon Communion"
@@ -1373,6 +1448,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_200",
           "link": "/checklists/sitesof_grace.html#item_200",
           "title": "Southern Aeonia Swamp Bank"
@@ -1391,6 +1467,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_201",
           "link": "/checklists/sitesof_grace.html#item_201",
           "title": "Sellia Backstreets"
@@ -1409,6 +1486,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_202",
           "link": "/checklists/sitesof_grace.html#item_202",
           "title": "Sellia Under-Stair"
@@ -1427,6 +1505,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_203",
           "link": "/checklists/sitesof_grace.html#item_203",
           "title": "Chair-Crypt of Sellia"
@@ -1445,6 +1524,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_204",
           "link": "/checklists/sitesof_grace.html#item_204",
           "title": "Church of the Plague"
@@ -1463,6 +1543,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_205",
           "link": "/checklists/sitesof_grace.html#item_205",
           "title": "Deep Siofra Well"
@@ -1481,6 +1562,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_206",
           "link": "/checklists/sitesof_grace.html#item_206",
           "title": "Impassable Greatbridge"
@@ -1499,6 +1581,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_207",
           "link": "/checklists/sitesof_grace.html#item_207",
           "title": "Chamber Outside the Plaza"
@@ -1517,6 +1600,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_208",
           "link": "/checklists/sitesof_grace.html#item_208",
           "title": "Redmane Castle Plaza"
@@ -1535,6 +1619,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_209",
           "link": "/checklists/sitesof_grace.html#item_209",
           "title": "Starscourge Radahn"
@@ -1553,6 +1638,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_210",
           "link": "/checklists/sitesof_grace.html#item_210",
           "title": "Minor Erdtree Catacombs"
@@ -1571,6 +1657,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_211",
           "link": "/checklists/sitesof_grace.html#item_211",
           "title": "Caelid Catacombs"
@@ -1589,6 +1676,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_212",
           "link": "/checklists/sitesof_grace.html#item_212",
           "title": "War-Dead Catacombs"
@@ -1607,6 +1695,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_213",
           "link": "/checklists/sitesof_grace.html#item_213",
           "title": "Abandoned Cave"
@@ -1625,6 +1714,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_214",
           "link": "/checklists/sitesof_grace.html#item_214",
           "title": "Gaol Cave"
@@ -1643,6 +1733,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_215",
           "link": "/checklists/sitesof_grace.html#item_215",
           "title": "Gael Tunnel"
@@ -1661,6 +1752,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_216",
           "link": "/checklists/sitesof_grace.html#item_216",
           "title": "Rear Gael Tunnel Entrance"
@@ -1679,6 +1771,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_217",
           "link": "/checklists/sitesof_grace.html#item_217",
           "title": "Sellia Crystal Tunnel"
@@ -1697,6 +1790,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_218",
           "link": "/checklists/sitesof_grace.html#item_218",
           "title": "Aeonia Swamp Shore"
@@ -1715,6 +1809,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_219",
           "link": "/checklists/sitesof_grace.html#item_219",
           "title": "Astray from Caelid Highway North"
@@ -1733,6 +1828,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_220",
           "link": "/checklists/sitesof_grace.html#item_220",
           "title": "Heart of Aeonia"
@@ -1751,6 +1847,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_221",
           "link": "/checklists/sitesof_grace.html#item_221",
           "title": "Inner Aeonia"
@@ -1769,6 +1866,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_222",
           "link": "/checklists/sitesof_grace.html#item_222",
           "title": "Dragonbarrow West"
@@ -1787,6 +1885,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_223",
           "link": "/checklists/sitesof_grace.html#item_223",
           "title": "Isolated Merchant's Shack"
@@ -1805,6 +1904,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_224",
           "link": "/checklists/sitesof_grace.html#item_224",
           "title": "Fort Faroth"
@@ -1823,6 +1923,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_225",
           "link": "/checklists/sitesof_grace.html#item_225",
           "title": "Dragonbarrow Fork"
@@ -1841,6 +1942,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_226",
           "link": "/checklists/sitesof_grace.html#item_226",
           "title": "Lenne's Rise"
@@ -1859,6 +1961,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_227",
           "link": "/checklists/sitesof_grace.html#item_227",
           "title": "Farum Greatbridge"
@@ -1877,6 +1980,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_228",
           "link": "/checklists/sitesof_grace.html#item_228",
           "title": "Bestial Sanctum"
@@ -1895,6 +1999,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_229",
           "link": "/checklists/sitesof_grace.html#item_229",
           "title": "Sellia Hideaway"
@@ -1913,6 +2018,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_230",
           "link": "/checklists/sitesof_grace.html#item_230",
           "title": "Dragonbarrow Cave"
@@ -1931,6 +2037,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_231",
           "link": "/checklists/sitesof_grace.html#item_231",
           "title": "Divine Tower of Caelid: Center"
@@ -1949,6 +2056,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_232",
           "link": "/checklists/sitesof_grace.html#item_232",
           "title": "Divine Tower of Caelid: Basement"
@@ -1967,6 +2075,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_233",
           "link": "/checklists/sitesof_grace.html#item_233",
           "title": "Isolated Divine Tower"
@@ -1985,6 +2094,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_234",
           "link": "/checklists/sitesof_grace.html#item_234",
           "title": "Forbidden Lands"
@@ -2003,6 +2113,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_235",
           "link": "/checklists/sitesof_grace.html#item_235",
           "title": "Grand Lift of Rold"
@@ -2021,6 +2132,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_236",
           "link": "/checklists/sitesof_grace.html#item_236",
           "title": "Hidden Path to the Haligtree"
@@ -2039,6 +2151,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_237",
           "link": "/checklists/sitesof_grace.html#item_237",
           "title": "Divine Tower of East Altus: Gate"
@@ -2057,6 +2170,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_238",
           "link": "/checklists/sitesof_grace.html#item_238",
           "title": "Divine Tower of East Altus"
@@ -2075,6 +2189,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_239",
           "link": "/checklists/sitesof_grace.html#item_239",
           "title": "Zamor Ruins"
@@ -2093,6 +2208,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_240",
           "link": "/checklists/sitesof_grace.html#item_240",
           "title": "Ancient Snow Valley Ruins"
@@ -2111,6 +2227,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_241",
           "link": "/checklists/sitesof_grace.html#item_241",
           "title": "Freezing Lake"
@@ -2129,6 +2246,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_242",
           "link": "/checklists/sitesof_grace.html#item_242",
           "title": "First Church of Marika"
@@ -2147,6 +2265,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_243",
           "link": "/checklists/sitesof_grace.html#item_243",
           "title": "Whiteridge Road"
@@ -2165,6 +2284,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_244",
           "link": "/checklists/sitesof_grace.html#item_244",
           "title": "Snow Valley Ruins Overlook"
@@ -2183,6 +2303,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_245",
           "link": "/checklists/sitesof_grace.html#item_245",
           "title": "Castle Sol Main Gate"
@@ -2201,6 +2322,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_246",
           "link": "/checklists/sitesof_grace.html#item_246",
           "title": "Church of the Eclipse"
@@ -2219,6 +2341,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_247",
           "link": "/checklists/sitesof_grace.html#item_247",
           "title": "Castle Sol Rooftop"
@@ -2237,6 +2360,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_248",
           "link": "/checklists/sitesof_grace.html#item_248",
           "title": "Spiritcaller Cave"
@@ -2255,6 +2379,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_249",
           "link": "/checklists/sitesof_grace.html#item_249",
           "title": "Giants' Gravepost"
@@ -2273,6 +2398,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_250",
           "link": "/checklists/sitesof_grace.html#item_250",
           "title": "Church of Repose"
@@ -2291,6 +2417,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_251",
           "link": "/checklists/sitesof_grace.html#item_251",
           "title": "Foot of the Forge"
@@ -2309,6 +2436,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_252",
           "link": "/checklists/sitesof_grace.html#item_252",
           "title": "Fire Giant"
@@ -2327,6 +2455,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_253",
           "link": "/checklists/sitesof_grace.html#item_253",
           "title": "Forge of the Giants"
@@ -2345,6 +2474,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_254",
           "link": "/checklists/sitesof_grace.html#item_254",
           "title": "Giants' Mountaintop Catacombs"
@@ -2363,6 +2493,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_255",
           "link": "/checklists/sitesof_grace.html#item_255",
           "title": "Giant-Conquering Hero's Grave"
@@ -2381,6 +2512,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_263",
           "link": "/checklists/sitesof_grace.html#item_263",
           "title": "Haligtree Canopy"
@@ -2399,6 +2531,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_264",
           "link": "/checklists/sitesof_grace.html#item_264",
           "title": "Haligtree Town"
@@ -2417,6 +2550,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_265",
           "link": "/checklists/sitesof_grace.html#item_265",
           "title": "Haligtree Town Plaza"
@@ -2435,6 +2569,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_266",
           "link": "/checklists/sitesof_grace.html#item_266",
           "title": "Haligtree Promenade"
@@ -2453,6 +2588,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_267",
           "link": "/checklists/sitesof_grace.html#item_267",
           "title": "Prayer Room"
@@ -2471,6 +2607,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_268",
           "link": "/checklists/sitesof_grace.html#item_268",
           "title": "Elphael Inner Wall"
@@ -2489,6 +2626,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_269",
           "link": "/checklists/sitesof_grace.html#item_269",
           "title": "Drainage Channel"
@@ -2507,6 +2645,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_270",
           "link": "/checklists/sitesof_grace.html#item_270",
           "title": "Haligtree Roots"
@@ -2525,6 +2664,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_271",
           "link": "/checklists/sitesof_grace.html#item_271",
           "title": "Malenia, Goddess of Rot"
@@ -2543,6 +2683,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_277",
           "link": "/checklists/sitesof_grace.html#item_277",
           "title": "Ainsel River Main"
@@ -2561,6 +2702,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_278",
           "link": "/checklists/sitesof_grace.html#item_278",
           "title": "Nokstella, Eternal City"
@@ -2579,6 +2721,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_279",
           "link": "/checklists/sitesof_grace.html#item_279",
           "title": "Nokstella Waterfall Basin"
@@ -2597,6 +2740,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_280",
           "link": "/checklists/sitesof_grace.html#item_280",
           "title": "Lake of Rot Shoreside"
@@ -2615,6 +2759,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_281",
           "link": "/checklists/sitesof_grace.html#item_281",
           "title": "Grand Cloister"
@@ -2633,6 +2778,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_282",
           "link": "/checklists/sitesof_grace.html#item_282",
           "title": "Nokron, Eternal City"
@@ -2651,6 +2797,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_283",
           "link": "/checklists/sitesof_grace.html#item_283",
           "title": "Mimic Tear"
@@ -2669,6 +2816,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_284",
           "link": "/checklists/sitesof_grace.html#item_284",
           "title": "Ancestral Woods"
@@ -2687,6 +2835,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_285",
           "link": "/checklists/sitesof_grace.html#item_285",
           "title": "Night's Sacred Ground"
@@ -2705,6 +2854,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_286",
           "link": "/checklists/sitesof_grace.html#item_286",
           "title": "Aqueduct-Facing Cliffs"
@@ -2723,6 +2873,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_287",
           "link": "/checklists/sitesof_grace.html#item_287",
           "title": "Great Waterfall Basin"
@@ -2741,6 +2892,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_288",
           "link": "/checklists/sitesof_grace.html#item_288",
           "title": "Siofra River Well Depths"
@@ -2759,6 +2911,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_289",
           "link": "/checklists/sitesof_grace.html#item_289",
           "title": "Siofra River Bank"
@@ -2777,6 +2930,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_290",
           "link": "/checklists/sitesof_grace.html#item_290",
           "title": "Worshippers' Woods"
@@ -2795,6 +2949,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_291",
           "link": "/checklists/sitesof_grace.html#item_291",
           "title": "Below the Well"
@@ -2813,6 +2968,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_292",
           "link": "/checklists/sitesof_grace.html#item_292",
           "title": "Palace Approach Ledge-Road"
@@ -2831,6 +2987,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_293",
           "link": "/checklists/sitesof_grace.html#item_293",
           "title": "Dynasty Mausoleum Entrance"
@@ -2849,6 +3006,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_294",
           "link": "/checklists/sitesof_grace.html#item_294",
           "title": "Dynasty Mausoleum Midpoint"
@@ -2867,6 +3025,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_295",
           "link": "/checklists/sitesof_grace.html#item_295",
           "title": "Cocoon of the Empyrean"
@@ -2885,6 +3044,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_302",
           "link": "/checklists/sitesof_grace.html#item_302",
           "title": "Crumbling Beast Grave"
@@ -2903,6 +3063,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_303",
           "link": "/checklists/sitesof_grace.html#item_303",
           "title": "Crumbling Beast Grave Depths"
@@ -2921,6 +3082,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_304",
           "link": "/checklists/sitesof_grace.html#item_304",
           "title": "Tempest-Facing Balcony"
@@ -2939,6 +3101,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_305",
           "link": "/checklists/sitesof_grace.html#item_305",
           "title": "Dragon Temple"
@@ -2957,6 +3120,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_306",
           "link": "/checklists/sitesof_grace.html#item_306",
           "title": "Dragon Temple Transept"
@@ -2975,6 +3139,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_307",
           "link": "/checklists/sitesof_grace.html#item_307",
           "title": "Dragon Temple Altar"
@@ -2993,6 +3158,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_308",
           "link": "/checklists/sitesof_grace.html#item_308",
           "title": "Dragon Temple Lift"
@@ -3011,6 +3177,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_309",
           "link": "/checklists/sitesof_grace.html#item_309",
           "title": "Dragon Temple Rooftop"
@@ -3029,6 +3196,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_310",
           "link": "/checklists/sitesof_grace.html#item_310",
           "title": "Beside the Great Bridge"
@@ -3047,6 +3215,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_311",
           "link": "/checklists/sitesof_grace.html#item_311",
           "title": "Dragonlord Placidusax"
@@ -3065,6 +3234,7 @@ const feature_data = [
         "properties": {
           "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
           "id": "graces_312",
           "link": "/checklists/sitesof_grace.html#item_312",
           "title": "Maliketh, the Black Blade"
@@ -3088,6 +3258,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_1",
           "link": "/checklists/bell_bearings.html#item_7_1",
           "title": "Kal\u00e9"
@@ -3106,6 +3277,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_2",
           "link": "/checklists/bell_bearings.html#item_7_2",
           "title": "Nomadic Merchant (1)"
@@ -3124,6 +3296,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_3",
           "link": "/checklists/bell_bearings.html#item_7_3",
           "title": "Nomadic Merchant (2)"
@@ -3142,6 +3315,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_4",
           "link": "/checklists/bell_bearings.html#item_7_4",
           "title": "Nomadic Merchant (3)"
@@ -3160,6 +3334,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_5",
           "link": "/checklists/bell_bearings.html#item_7_5",
           "title": "Nomadic Merchant (4)"
@@ -3178,6 +3353,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_6",
           "link": "/checklists/bell_bearings.html#item_7_6",
           "title": "Nomadic Merchant (5)"
@@ -3196,6 +3372,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_7",
           "link": "/checklists/bell_bearings.html#item_7_7",
           "title": "Nomadic Merchant (6)"
@@ -3214,6 +3391,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_8",
           "link": "/checklists/bell_bearings.html#item_7_8",
           "title": "Nomadic Merchant (7)"
@@ -3232,6 +3410,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_9",
           "link": "/checklists/bell_bearings.html#item_7_9",
           "title": "Nomadic Merchant (8)"
@@ -3250,6 +3429,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_10",
           "link": "/checklists/bell_bearings.html#item_7_10",
           "title": "Nomadic Merchant (9)"
@@ -3268,6 +3448,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_11",
           "link": "/checklists/bell_bearings.html#item_7_11",
           "title": "Nomadic Merchant (10)"
@@ -3286,6 +3467,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_12",
           "link": "/checklists/bell_bearings.html#item_7_12",
           "title": "Isolated Merchant (1)"
@@ -3304,6 +3486,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_13",
           "link": "/checklists/bell_bearings.html#item_7_13",
           "title": "Isolated Merchant (2)"
@@ -3322,6 +3505,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_14",
           "link": "/checklists/bell_bearings.html#item_7_14",
           "title": "Isolated Merchant (3)"
@@ -3340,6 +3524,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_15",
           "link": "/checklists/bell_bearings.html#item_7_15",
           "title": "Hermit Merchant (1)"
@@ -3358,6 +3543,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_16",
           "link": "/checklists/bell_bearings.html#item_7_16",
           "title": "Hermit Merchant (2)"
@@ -3376,6 +3562,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_17",
           "link": "/checklists/bell_bearings.html#item_7_17",
           "title": "Hermit Merchant (3)"
@@ -3394,6 +3581,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_18",
           "link": "/checklists/bell_bearings.html#item_7_18",
           "title": "Abandoned Merchant"
@@ -3412,6 +3600,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
+          "icon_size": 40,
           "id": "bell_bearings_7_19",
           "link": "/checklists/bell_bearings.html#item_7_19",
           "title": "Imprisoned Merchant"

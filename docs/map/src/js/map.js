@@ -67,14 +67,14 @@
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 50 / image.naturalHeight,
+                            scale: feature.get('icon_size') / image.naturalHeight,
                         })
                     }),
                     new ol.style.Style({
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 50 / image.naturalHeight,
+                            scale: feature.get('icon_size') / image.naturalHeight,
                             opacity: 0.5,
                         })
                     })
