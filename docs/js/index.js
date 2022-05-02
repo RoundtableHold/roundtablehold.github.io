@@ -2210,10 +2210,13 @@
 "playthrough_160",
 "playthrough_161",
 "playthrough_162",
+"playthrough_162_1",
 "playthrough_163",
 "playthrough_164",
 "playthrough_165",
 "playthrough_166",
+"playthrough_166_1",
+"playthrough_166_2",
 "playthrough_167",
 "playthrough_168",
 "playthrough_169",
@@ -2273,6 +2276,7 @@
 "playthrough_204",
 "playthrough_205",
 "playthrough_206",
+"playthrough_206_1",
 "playthrough_207",
 "playthrough_208",
 "playthrough_209",
@@ -2306,6 +2310,7 @@
 "playthrough_234",
 "playthrough_235",
 "playthrough_236",
+"playthrough_236_1",
 "playthrough_237",
 "playthrough_238",
 "playthrough_239",
@@ -2717,6 +2722,7 @@
 "quest_order_tldr_8",
 "quest_order_tldr_80",
 "quest_order_tldr_81",
+"quest_order_tldr_81_1",
 "quest_order_tldr_82",
 "quest_order_tldr_83",
 "quest_order_tldr_84",
@@ -3505,9 +3511,9 @@
 "whetstones_0_6",
 ]);
 function calculateProgress() {
-const playthrough_total = 329;
+const playthrough_total = 334;
 var playthrough_checked = 0;
-const quest_order_tldr_total = 271;
+const quest_order_tldr_total = 272;
 var quest_order_tldr_checked = 0;
 const npc_quests_total = 344;
 var npc_quests_checked = 0;
