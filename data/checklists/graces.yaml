@@ -7,6 +7,8 @@ sections:
     items:
       - id: "313"
         data: ["Table of Lost Grace"]
+        cords: [111, 9008]
+        map_title: "Table of Lost Grace"
   -
     title: Limgrave
     items:
@@ -564,145 +566,271 @@ sections:
     items:
       - id: "193"
         data: ["Smoldering Church"]
+        cords: [4658, 6243]
+        map_title: "Smoldering Church"
       - id: "194"
         data: ["Rotview Balcony"]
+        cords: [4842, 6339]
+        map_title: "Rotview Balcony"
       - id: "195"
         data: ["Caelem Ruins"]
+        cords: [5094, 6292]
+        map_title: "Caelem Ruins"
       - id: "196"
         data: ["Fort Gael North"]
+        cords: [4859, 6610]
+        map_title: "Fort Gael North"
       - id: "197"
         data: ["Smoldering Wall"]
+        cords: [5159, 6524]
+        map_title: "Smoldering Wall"
       - id: "198"
         data: ["Caelid Highway South"]
+        cords: [5126, 6997]
+        map_title: "Caelid Highway South"
       - id: "199"
         data: ["Cathedral of Dragon Communion"]
+        cords: [5286, 7194]
+        map_title: "Cathedral of Dragon Communion"
       - id: "200"
         data: ["Southern Aeonia Swamp Bank"]
+        cords: [5507, 6975]
+        map_title: "Southern Aeonia Swamp Bank"
       - id: "201"
         data: ["Sellia Backstreets"]
+        cords: [5631, 6471]
+        map_title: "Sellia Backstreets"
       - id: "202"
         data: ["Sellia Under-Stair"]
+        cords: [5600, 6559]
+        map_title: "Sellia Under-Stair"
       - id: "203"
         data: ["Chair-Crypt of Sellia"]
+        cords: [5601, 6452]
+        map_title: "Chair-Crypt of Sellia"
       - id: "204"
         data: ["Church of the Plague"]
+        cords: [5771, 6646]
+        map_title: "Church of the Plague"
       - id: "205"
         data: ["Deep Siofra Well"]
+        cords: [5356, 6271]
+        map_title: "Deep Siofra Well"
       - id: "206"
         data: ["Impassable Greatbridge"]
+        cords: [5693, 7378]
+        map_title: "Impassable Greatbridge"
       - id: "207"
         data: ["Chamber Outside the Plaza"]
+        cords: [6110, 7341]
+        map_title: "Chamber Outside the Plaza"
       - id: "208"
         data: ["Redmane Castle Plaza"]
+        cords: [6096, 7276]
+        map_title: "Redmane Castle Plaza"
       - id: "209"
         data: ["Starscourge Radahn"]
+        cords: [6226, 6824]
+        map_title: "Starscourge Radahn"
       - id: "210"
         data: ["Minor Erdtree Catacombs"]
+        cords: [4932, 6205]
+        map_title: "Minor Erdtree Catacombs"
       - id: "211"
         data: ["Caelid Catacombs"]
+        cords: [5338, 7225]
+        map_title: "Caelid Catacombs"
       - id: "212"
         data: ["War-Dead Catacombs"]
+        cords: [6310, 6148]
+        map_title: "War-Dead Catacombs"
       - id: "213"
         data: ["Abandoned Cave"]
+        cords: [5388, 6480]
+        map_title: "Abandoned Cave"
       - id: "214"
         data: ["Gaol Cave"]
+        cords: [4926, 6747]
+        map_title: "Gaol Cave"
       - id: "215"
         data: ["Gael Tunnel"]
+        cords: [4794, 6490]
+        map_title: "Gael Tunnel"
       - id: "216"
         data: ["Rear Gael Tunnel Entrance"]
+        cords: [4700, 6415]
+        map_title: "Rear Gael Tunnel Entrance"
       - id: "217"
         data: ["Sellia Crystal Tunnel"]
+        cords: [5520, 6416]
+        map_title: "Sellia Crystal Tunnel"
   -
     title: Swamp of Aeonia
     items:
       - id: "218"
         data: ["Aeonia Swamp Shore"]
+        cords: [5245, 6816]
+        map_title: "Aeonia Swamp Shore"
       - id: "219"
         data: ["Astray from Caelid Highway North"]
+        cords: [5140, 6764]
+        map_title: "Astray from Caelid Highway North"
       - id: "220"
         data: ["Heart of Aeonia"]
+        cords: [5481, 6734]
+        map_title: "Heart of Aeonia"
       - id: "221"
         data: ["Inner Aeonia"]
+        cords: [5443, 6666]
+        map_title: "Inner Aeonia"
   -
     title: Greyoll's Dragonbarrow
     items:
       - id: "222"
         data: ["Dragonbarrow West"]
+        cords: [5356, 6205]
+        map_title: "Dragonbarrow West"
       - id: "223"
         data: ["Isolated Merchant's Shack"]
+        cords: [5159, 6105]
+        map_title: "Isolated Merchant's Shack"
       - id: "224"
         data: ["Fort Faroth"]
+        cords: [5938, 6406]
+        map_title: "Fort Faroth"
       - id: "225"
         data: ["Dragonbarrow Fork"]
+        cords: [5838, 6152]
+        map_title: "Dragonbarrow Fork"
       - id: "226"
         data: ["Lenne's Rise"]
+        cords: [6291, 6006]
+        map_title: "Lenne's Rise"
       - id: "227"
         data: ["Farum Greatbridge"]
+        cords: [6166, 5732]
+        map_title: "Farum Greatbridge"
       - id: "228"
         data: ["Bestial Sanctum"]
+        cords: [5968, 5488]
+        map_title: "Bestial Sanctum"
       - id: "229"
         data: ["Sellia Hideaway"]
+        cords: [5886, 6463]
+        map_title: "Sellia Hideaway"
       - id: "230"
         data: ["Dragonbarrow Cave"]
+        cords: [6017, 6187]
+        map_title: "Dragonbarrow Cave"
       - id: "231"
         data: ["Divine Tower of Caelid: Center"]
+        cords: [5580, 6025]
+        map_title: "Divine Tower of Caelid: Center"
       - id: "232"
         data: ["Divine Tower of Caelid: Basement"]
+        cords: [5592, 6040]
+        map_title: "Divine Tower of Caelid: Basement"
       - id: "233"
         data: ["Isolated Divine Tower"]
+        cords: [5999, 4845]
+        map_title: "Isolated Divine Tower"
   -
     title: Forbidden Lands
     items:
       - id: "234"
-        data: ["Forbidden Lands"]
+        data: ["Forbidden Lands"]       
+        cords: [4989, 3485]
+        map_title: "Forbidden Lands"
       - id: "235"
-        data: ["Grand Lift of Rold"]
+        data: ["Grand Lift of Rold"]       
+        cords: [5493, 3042]
+        map_title: "Grand Lift of Rold"
       - id: "236"
-        data: ["Hidden Path to the Haligtree"]
+        data: ["Hidden Path to the Haligtree"]        
+        cords: [5401, 2805]
+        map_title: "Hidden Path to the Haligtree"
       - id: "237"
-        data: ["Divine Tower of East Altus: Gate"]
+        data: ["Divine Tower of East Altus: Gate"]       
+        cords: [5105, 3810]
+        map_title: "Divine Tower of East Altus: Gate"
       - id: "238"
-        data: ["Divine Tower of East Altus"]
+        data: ["Divine Tower of East Altus"]       
+        cords: [5121, 3866]
+        map_title: "Divine Tower of East Altus"
   -
     title: Mountaintops of the Giants
     items:
       - id: "239"
-        data: ["Zamor Ruins"]
+        data: ["Zamor Ruins"]        
+        cords: [5583, 2844]
+        map_title: "Zamor Ruins"
       - id: "240"
-        data: ["Ancient Snow Valley Ruins"]
+        data: ["Ancient Snow Valley Ruins"]        
+        cords: [6010, 2220]
+        map_title: "Ancient Snow Valley Ruins"
       - id: "241"
-        data: ["Freezing Lake"]
+        data: ["Freezing Lake"]        
+        cords: [6348, 1841]
+        map_title: "Freezing Lake"
       - id: "242"
-        data: ["First Church of Marika"]
+        data: ["First Church of Marika"]       
+        cords: [6754, 2370]
+        map_title: "First Church of Marika"
       - id: "243"
-        data: ["Whiteridge Road"]
+        data: ["Whiteridge Road"]        
+        cords: [6311, 2302]
+        map_title: "Whiteridge Road"
       - id: "244"
-        data: ["Snow Valley Ruins Overlook"]
+        data: ["Snow Valley Ruins Overlook"]       
+        cords: [6136, 1961]
+        map_title: "Snow Valley Ruins Overlook"
       - id: "245"
-        data: ["Castle Sol Main Gate"]
+        data: ["Castle Sol Main Gate"]        
+        cords: [6004, 1854]
+        map_title: "Castle Sol Main Gate"
       - id: "246"
-        data: ["Church of the Eclipse"]
+        data: ["Church of the Eclipse"]       
+        cords: [6087, 1806]
+        map_title: "Church of the Eclipse"
       - id: "247"
-        data: ["Castle Sol Rooftop"]
+        data: ["Castle Sol Rooftop"]        
+        cords: [6100, 1725]
+        map_title: "Castle Sol Rooftop"
       - id: "248"
-        data: ["Spiritcaller Cave"]
+        data: ["Spiritcaller Cave"]        
+        cords: [6500, 2067]
+        map_title: "Spiritcaller Cave"
   -
     title: Flame Peak
     items:
       - id: "249"
-        data: ["Giants' Gravepost"]
+        data: ["Giants' Gravepost"]        
+        cords: [6215, 2620]
+        map_title: "Giants' Gravepost"
       - id: "250"
-        data: ["Church of Repose"]
+        data: ["Church of Repose"]        
+        cords: [5955, 3013]
+        map_title: "Church of Repose"
       - id: "251"
-        data: ["Foot of the Forge"]
+        data: ["Foot of the Forge"]        
+        cords: [6189, 2994]
+        map_title: "Foot of the Forge"
       - id: "252"
-        data: ["Fire Giant"]
+        data: ["Fire Giant"]       
+        cords: [6445, 3177]
+        map_title: "Fire Giant"
       - id: "253"
-        data: ["Forge of the Giants"]
+        data: ["Forge of the Giants"]       
+        cords: [6759, 2957]
+        map_title: "Forge of the Giants"
       - id: "254"
-        data: ["Giants' Mountaintop Catacombs"]
+        data: ["Giants' Mountaintop Catacombs"]       
+        cords: [5787, 2830]
+        map_title: "Giants' Mountaintop Catacombs"
       - id: "255"
-        data: ["Giant-Conquering Hero's Grave"]
+        data: ["Giant-Conquering Hero's Grave"]        
+        cords: [5646, 2823]
+        map_title: "Giant-Conquering Hero's Grave"
   -
     title: Consecrated Snowfield
     items:
@@ -724,26 +852,44 @@ sections:
     title: Miquella's Haligtree
     items:
       - id: "263"
-        data: ["Haligtree Canopy"]
+        data: ["Haligtree Canopy"]        
+        cords: [5610, 1330]
+        map_title: "Haligtree Canopy"
       - id: "264"
-        data: ["Haligtree Town"]
+        data: ["Haligtree Town"]        
+        cords: [5673, 1139]
+        map_title: "Haligtree Town"
       - id: "265"
-        data: ["Haligtree Town Plaza"]
+        data: ["Haligtree Town Plaza"]       
+        cords: [5615, 1075]
+        map_title: "Haligtree Town Plaza"
       - id: "266"
-        data: ["Haligtree Promenade"]
+        data: ["Haligtree Promenade"]        
+        cords: [5786, 1071]
+        map_title: "Haligtree Promenade"
   -
     title: Elphael, Brace of the Haligtree
     items:
       - id: "267"
-        data: ["Prayer Room"]
+        data: ["Prayer Room"]       
+        cords: [5690, 936]
+        map_title: "Prayer Room"
       - id: "268"
-        data: ["Elphael Inner Wall"]
+        data: ["Elphael Inner Wall"]        
+        cords: [5584, 778]
+        map_title: "Elphael Inner Wall"
       - id: "269"
-        data: ["Drainage Channel"]
+        data: ["Drainage Channel"]        
+        cords: [5735, 881]
+        map_title: "Drainage Channel"
       - id: "270"
-        data: ["Haligtree Roots"]
+        data: ["Haligtree Roots"]        
+        cords: [5701, 818]
+        map_title: "Haligtree Roots"
       - id: "271"
-        data: ["Malenia, Goddess of Rot"]
+        data: ["Malenia, Goddess of Rot"]        
+        cords: [5590, 889]
+        map_title: "Malenia, Goddess of Rot"
   -
     title: Ainsel River
     items:
@@ -761,55 +907,93 @@ sections:
     title: Ainsel River Main
     items:
       - id: "277"
-        data: ["Ainsel River Main"]
+        data: ["Ainsel River Main"]        
+        cords: [3906, 11847]
+        map_title: "Ainsel River Main"
       - id: "278"
-        data: ["Nokstella, Eternal City"]
+        data: ["Nokstella, Eternal City"]       
+        cords: [3605, 12044]
+        map_title: "Nokstella, Eternal City"
       - id: "279"
-        data: ["Nokstella Waterfall Basin"]
+        data: ["Nokstella Waterfall Basin"]  
+        cords: [3335, 11970]
+        map_title: "Nokstella Waterfall Basin"
   -
     title: Lake of Rot
     items:
       - id: "280"
-        data: ["Lake of Rot Shoreside"]
+        data: ["Lake of Rot Shoreside"] 
+        cords: [3267, 12188]
+        map_title: "Lake of Rot Shoreside"
       - id: "281"
-        data: ["Grand Cloister"]
+        data: ["Grand Cloister"]       
+        cords: [3160, 12643]
+        map_title: "Grand Cloister"
   -
     title: Nokron, Eternal City
     items:
       - id: "282"
-        data: ["Nokron, Eternal City"]
+        data: ["Nokron, Eternal City"]       
+        cords: [5747, 14546]
+        map_title: "Nokron, Eternal City"
       - id: "283"
-        data: ["Mimic Tear"]
+        data: ["Mimic Tear"]        
+        cords: [6054, 14623]
+        map_title: "Mimic Tear"
       - id: "284"
         data: ["Ancestral Woods"]
+        cords: [6059, 14320]
+        map_title: "Ancestral Woods"
       - id: "285"
-        data: ["Night's Sacred Ground"]
+        data: ["Night's Sacred Ground"]        
+        cords: [5996, 14480]
+        map_title: "Night's Sacred Ground"
       - id: "286"
-        data: ["Aqueduct-Facing Cliffs"]
+        data: ["Aqueduct-Facing Cliffs"] 
+        cords: [6219, 14020]
+        map_title: "Aqueduct-Facing Cliffs"
       - id: "287"
-        data: ["Great Waterfall Basin"]
+        data: ["Great Waterfall Basin"]       
+        cords: [6224, 13874]
+        map_title: "Great Waterfall Basin"
   -
     title: Siofra River
     items:
       - id: "288"
-        data: ["Siofra River Well Depths"]
+        data: ["Siofra River Well Depths"]       
+        cords: [5786, 14613]
+        map_title: "Siofra River Well Depths"
       - id: "289"
-        data: ["Siofra River Bank"]
+        data: ["Siofra River Bank"]        
+        cords: [6131, 14519]
+        map_title: "Siofra River Bank"
       - id: "290"
-        data: ["Worshippers' Woods"]
+        data: ["Worshippers' Woods"]        
+        cords: [6477, 14257]
+        map_title: "Worshippers' Woods"
       - id: "291"
-        data: ["Below the Well"]
+        data: ["Below the Well"]       
+        cords: [6559, 13915]
+        map_title: "Below the Well"
   -
     title: Mohgwyn Palace
     items:
       - id: "292"
-        data: ["Palace Approach Ledge-Road"]
+        data: ["Palace Approach Ledge-Road"]        
+        cords: [7120, 14498]
+        map_title: "Palace Approach Ledge-Road"
       - id: "293"
-        data: ["Dynasty Mausoleum Entrance"]
+        data: ["Dynasty Mausoleum Entrance"]       
+        cords: [6919, 14330]
+        map_title: "Dynasty Mausoleum Entrance"
       - id: "294"
-        data: ["Dynasty Mausoleum Midpoint"]
+        data: ["Dynasty Mausoleum Midpoint"]       
+        cords: [6850, 14371]
+        map_title: "Dynasty Mausoleum Midpoint"
       - id: "295"
-        data: ["Cocoon of the Empyrean"]
+        data: ["Cocoon of the Empyrean"]       
+        cords: [6752, 14376]
+        map_title: "Cocoon of the Empyrean"
   -
     title: Deeproot Depths
     items:
@@ -829,24 +1013,46 @@ sections:
     title: Crumbling Farum Azula
     items:
       - id: "302"
-        data: ["Crumbling Beast Grave"]
+        data: ["Crumbling Beast Grave"]        
+        cords: [8605, 4675]
+        map_title: "Crumbling Beast Grave"        
       - id: "303"
         data: ["Crumbling Beast Grave Depths"]
+        cords: [8398, 4629]
+        map_title: "Crumbling Beast Grave Depths"
       - id: "304"
-        data: ["Tempest-Facing Balcony"]
+        data: ["Tempest-Facing Balcony"]        
+        cords: [8399, 4553]
+        map_title: "Tempest-Facing Balcony"        
       - id: "305"
         data: ["Dragon Temple"]
+        cords: [8411, 4429]
+        map_title: "Dragon Temple"
       - id: "306"
-        data: ["Dragon Temple Transept"]
+        data: ["Dragon Temple Transept"]       
+        cords: [8517, 4472]
+        map_title: "Dragon Temple Transept"
       - id: "307"
-        data: ["Dragon Temple Altar"]
+        data: ["Dragon Temple Altar"]        
+        cords: [8499, 4422]
+        map_title: "Dragon Temple Altar"
       - id: "308"
-        data: ["Dragon Temple Lift"]
+        data: ["Dragon Temple Lift"]       
+        cords: [8416, 4339]
+        map_title: "Dragon Temple Lift"
       - id: "309"
-        data: ["Dragon Temple Rooftop"]
+        data: ["Dragon Temple Rooftop"]       
+        cords: [8572, 4227]
+        map_title: "Dragon Temple Rooftop"
       - id: "310"
-        data: ["Beside the Great Bridge"]
+        data: ["Beside the Great Bridge"]        
+        cords: [8553, 4336]
+        map_title: "Beside the Great Bridge"
       - id: "311"
-        data: ["Dragonlord Placidusax"]
+        data: ["Dragonlord Placidusax"]        
+        cords: [8507, 4503]
+        map_title: "Dragonlord Placidusax"
       - id: "312"
-        data: ["Maliketh, the Black Blade"]
+        data: ["Maliketh, the Black Blade"]       
+        cords: [8715, 4463]
+        map_title: "Maliketh, the Black Blade"

@@ -55,6 +55,9 @@
             },
         });
 
+        var hideChecked = false;
+        var hiddenGroups = new Set();
+
         var styleCache = {};
         const styleSelector = function (feature, resolution) {
             if (!(feature.get('icon') in styleCache)) {
@@ -78,17 +81,24 @@
                 ]
             }
 
+            if (hiddenGroups.has(feature.get('group'))) {
+                return null;
+            }
+
+
             profiles = $.jStorage.get(profilesKey, {});
             var id = feature.get('id');
+
             var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
             var style;
             if (checked) {
-                style = styleCache[feature.get('icon')][1];
+                if (!hideChecked || feature.get('group') === 'graces')
+                    style = styleCache[feature.get('icon')][1];
             } else {
                 style = styleCache[feature.get('icon')][0];
             }
 
-            var image = images[feature.get('icon')];
+            // var image = images[feature.get('icon')];
             // style.getImage().setScale((map.getView().getResolutionForZoom(6) / resolution) * (60 / image.naturalHeight));
             return style;
         }
@@ -101,6 +111,7 @@
                     tileGrid: ertilegrid,
                     tileSize: [256, 256],
                     projection: projection,
+                    interpolate: false,
                     // updateWhileAnimating: true,
                     // updateWhileInteracting: true,
                 })
@@ -113,10 +124,11 @@
                 source: new ol.source.Vector({
                     features: format.readFeatures(c, { featureProjection: projection }),
                     overlaps: false,
-                    // updateWhileAnimating: true,
-                    // updateWhileInteracting: true,
+                    updateWhileAnimating: true,
+                    updateWhileInteracting: true,
                 }),
                 style: styleSelector,
+                renderBuffer: 15968,
             }));
         }
 
@@ -127,7 +139,7 @@
             view: new ol.View({
                 center: ol.extent.getCenter(erextent),
                 zoom: 2,
-                maxZoom: 9,
+                maxZoom: 8,
                 projection: projection,
                 extent: erextent,
                 // resolutions: ertilegrid.getResolutions(),
@@ -135,7 +147,33 @@
                 enableRotation: false,
             }),
             overlays: [overlay],
+            controls: [],
         });
+
+        function initializeSettings() {
+            profiles = $.jStorage.get(profilesKey, {});
+            if ('hideCompleted' in profiles[profilesKey][profiles.current].map_settings && profiles[profilesKey][profiles.current].map_settings['hideCompleted']) {
+                $('#hideCompleted').prop('checked', true);
+                hideChecked = true;
+            } else {
+                $('#hideCompleted').prop('checked', false);
+                hideChecked = false;
+            }
+            if ('hiddenGroups' in profiles[profilesKey][profiles.current].map_settings) {
+                hiddenGroups = new Set(profiles[profilesKey][profiles.current].map_settings['hiddenGroups']);
+                console.log(hiddenGroups)
+                for (let group of hiddenGroups) {
+                    console.log(group)
+                    $('#' + group).prop('checked', true);
+                    $('#' + group).closest('div').addClass('completed text-muted')
+                }
+            }
+
+            map.getAllLayers().forEach((l) => l.changed());
+            $.jStorage.set(profilesKey, profiles);
+        }
+
+        initializeSettings();
 
         function gototarget() {
             const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -233,7 +271,7 @@
             popup_closer.blur();
         });
 
-        $('.checkbox input[type="checkbox"]').click(function () {
+        $('#popup-checkbox').click(function () {
             var id = $(this).attr('data-id');
             var isChecked = $(this).prop('checked');
             setItem(id, isChecked);
@@ -242,6 +280,32 @@
             } else {
                 $(popup_checkbox).closest('div').removeClass('completed')
             }
+            map.getAllLayers().forEach((l) => l.changed())
+        });
+
+        $('#hideCompleted').click(function() {
+            profiles = $.jStorage.get(profilesKey, {});
+            var isChecked = !!$(this).prop('checked');
+            hideChecked = isChecked;
+            map.getAllLayers().forEach((l) => l.changed())
+            profiles[profilesKey][profiles.current].map_settings['hideCompleted'] = isChecked;
+            $.jStorage.set(profilesKey, profiles);
+        });
+
+        $('.category-filter').click(function () {
+            profiles = $.jStorage.get(profilesKey, {});
+            var isChecked = !!$(this).prop('checked');
+            var id = $(this).attr('id');
+            if (isChecked) {
+                hiddenGroups.add(id);
+                $(this).closest('div').addClass('completed text-muted')
+            } else {
+                hiddenGroups.delete(id);
+                $(this).closest('div').removeClass('completed text-muted')
+            }
+            profiles[profilesKey][profiles.current].map_settings['hiddenGroups'] = Array.from(hiddenGroups);
+            $.jStorage.set(profilesKey, profiles);
+            map.getAllLayers().forEach((l) => l.changed())
         });
     })
 })(jQuery);

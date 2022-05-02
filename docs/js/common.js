@@ -49,6 +49,8 @@ var themes = {
             profiles[profilesKey][profile_name].journey = 1;
         if (!('style' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].style = 'Standard';
+        if (!('map_settings' in profiles[profilesKey][profile_name]))
+            profiles[profilesKey][profile_name].map_settings = {};
         $.jStorage.set(profilesKey, profiles);
     }
     

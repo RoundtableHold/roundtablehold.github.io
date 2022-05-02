@@ -33,7 +33,7 @@ with open(os.path.join('data', 'pages.yaml'), 'r', encoding='utf_8') as pages_ya
             with open(os.path.join('data', 'checklists', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
-                dropdown_urls.append((yml['title'], yml['id']))
+                dropdown_urls.append((yml['title'], yml['id'], yml.get('map_icon', None)))
         dropdowns.append((dropdown['name'], dropdown_urls))
 
 page_ids = set()
@@ -108,8 +108,8 @@ def hide_completed_button():
             label("Hide Completed", cls="form-check-label",
                   _for='toggleHideCompleted')
 
-def make_nav(page):
-    with nav(cls="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none", id="top_nav"):
+def make_nav(page, is_map = False):
+    with nav(cls="navbar navbar-expand-xl bg-dark navbar-dark d-print-none" + (' sticky-top' if not is_map else ''), id="top_nav"):
         with div(cls="container-fluid"):
             # with div(cls='order-sm-last d-none d-sm-block ms-auto'):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -275,30 +275,6 @@ def make_index():
             script(src="/js/index.js")
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
-
-def make_map():
-    doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
-    with doc.head:
-        link(rel='stylesheet', href='/map/src/css/ol.css')
-        link(rel='stylesheet', href='/map/src/css/map.css')
-    with doc:
-        with div(cls='container-fluid vh-100 d-flex flex-column'):
-            make_nav('map')
-            with div(cls='row flex-grow-1'):
-                div(cls='col flex-grow-1', id='map')
-            with div(id='popup', cls='ol-popup'):
-                a(href='#', id='popup-closer', cls='ol-popup-closer')
-                with div(cls="form-check checkbox d-flex align-items-center popup-content"):
-                    input_(cls="form-check-input", type="checkbox", value="", id='popup-checkbox')
-                    label(cls="form-check-label item_content", _for='popup-checkbox', id='popup-title')
-                    a(href="#", id='popup-link', cls='ms-3').add(i(cls='bi bi-link-45deg'))
-        make_footer()
-        script(src='/map/src/js/ol.js')
-        script(src='/map/src/js/features.js')
-        script(src='/map/src/js/map.js')
-    with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
-        f.write(doc.render())
-
 
 def make_options():
     doc = make_doc('Options | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
@@ -624,7 +600,6 @@ def make_search():
 
 make_index()
 make_options()
-make_map()
 make_search()
 for page in pages:
     make_checklist(page)
@@ -634,60 +609,63 @@ def to_list(x):
         return set(x)
     return set([x])
 
-links_json = {}
-for link in item_links:
-    if 'source' in link:
-        for t in to_list(link['target']):
-            if (str(t)) not in all_ids:
-                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
-        for s in to_list(link['source']):
-            if (str(s)) not in all_ids:
-                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
-            t = to_list(link['target'])
-            t.discard(s)
-            links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
-            links_json.setdefault(s, {}).setdefault('targets', []).sort()
-    if 'source_or' in link:
-        for t in to_list(link['target']):
-            if (str(t)) not in all_ids:
-                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
-        for s in to_list(link['source_or']):
-            if (str(s)) not in all_ids:
-                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
-            ss = to_list(link['source_or'])
-            ss.discard(s)
-            t = to_list(link['target'])
-            t.discard(s)
-            links_json.setdefault(s, {}).setdefault('orsources', []).extend(list(ss))
-            links_json.setdefault(s, {}).setdefault('orsources', []).sort()
-            links_json.setdefault(s, {}).setdefault('ortargets', []).extend(list(t))
-            links_json.setdefault(s, {}).setdefault('ortargets', []).sort()
-    if 'source_and' in link:
-        for t in to_list(link['target']):
-            if (str(t)) not in all_ids:
-                print('Potential typo in item links. "' + str(t) + '" is not a valid id')
-        for s in to_list(link['source_and']):
-            if (str(s)) not in all_ids:
-                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
-            ss = to_list(link['source_and'])
-            ss.discard(s)
-            t = to_list(link['target'])
-            t.discard(s)
-            links_json.setdefault(s, {}).setdefault('andsources', []).extend(list(ss))
-            links_json.setdefault(s, {}).setdefault('andsources', []).sort()
-            links_json.setdefault(s, {}).setdefault('andtargets', []).extend(list(t))
-            links_json.setdefault(s, {}).setdefault('andtargets', []).sort()
-    if 'link_all' in link:
-        for s in to_list(link['link_all']):
-            if (str(s)) not in all_ids:
-                print('Potential typo in item links. "' + str(s) + '" is not a valid id')
-            t = to_list(link['link_all'])
-            t.discard(s)
-            links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
-            links_json.setdefault(s, {}).setdefault('targets', []).sort()
-with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
-    links_f.write('const item_links = ')
-    json.dump(links_json, links_f, indent=2, sort_keys=True)
+def make_item_links():
+    links_json = {}
+    for l in item_links:
+        if 'source' in l:
+            for t in to_list(l['target']):
+                if (str(t)) not in all_ids:
+                    print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+            for s in to_list(l['source']):
+                if (str(s)) not in all_ids:
+                    print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+                t = to_list(l['target'])
+                t.discard(s)
+                links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
+                links_json.setdefault(s, {}).setdefault('targets', []).sort()
+        if 'source_or' in l:
+            for t in to_list(l['target']):
+                if (str(t)) not in all_ids:
+                    print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+            for s in to_list(l['source_or']):
+                if (str(s)) not in all_ids:
+                    print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+                ss = to_list(l['source_or'])
+                ss.discard(s)
+                t = to_list(l['target'])
+                t.discard(s)
+                links_json.setdefault(s, {}).setdefault('orsources', []).extend(list(ss))
+                links_json.setdefault(s, {}).setdefault('orsources', []).sort()
+                links_json.setdefault(s, {}).setdefault('ortargets', []).extend(list(t))
+                links_json.setdefault(s, {}).setdefault('ortargets', []).sort()
+        if 'source_and' in l:
+            for t in to_list(l['target']):
+                if (str(t)) not in all_ids:
+                    print('Potential typo in item links. "' + str(t) + '" is not a valid id')
+            for s in to_list(l['source_and']):
+                if (str(s)) not in all_ids:
+                    print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+                ss = to_list(l['source_and'])
+                ss.discard(s)
+                t = to_list(l['target'])
+                t.discard(s)
+                links_json.setdefault(s, {}).setdefault('andsources', []).extend(list(ss))
+                links_json.setdefault(s, {}).setdefault('andsources', []).sort()
+                links_json.setdefault(s, {}).setdefault('andtargets', []).extend(list(t))
+                links_json.setdefault(s, {}).setdefault('andtargets', []).sort()
+        if 'link_all' in l:
+            for s in to_list(l['link_all']):
+                if (str(s)) not in all_ids:
+                    print('Potential typo in item links. "' + str(s) + '" is not a valid id')
+                t = to_list(l['link_all'])
+                t.discard(s)
+                links_json.setdefault(s, {}).setdefault('targets', []).extend(list(t))
+                links_json.setdefault(s, {}).setdefault('targets', []).sort()
+    with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
+        links_f.write('const item_links = ')
+        json.dump(links_json, links_f, indent=2, sort_keys=True)
+
+make_item_links()
 
 with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
     f.write(
@@ -780,11 +758,13 @@ def make_feature(page, section, item):
         'properties': {
             'title': item['map_title'],
             'id': page['id'] + '_' + item['id'],
+            'group': page['id'],
             'icon': icon,
             'link': '/checklists/' + to_snake_case(page['title']) + '.html#item_' + item['id']
         }
     }
 
+pages_in_map = set()
 def make_geojson():
     layers = []
     icons = set()
@@ -811,10 +791,74 @@ def make_geojson():
                             icons.add(get_icon(page, section, item))
         if has_features:
             layers.append(geojson)
+            pages_in_map.add(page['id'])
     with open(os.path.join('docs', 'map', 'src', 'js', 'features.js'), 'w') as outf:
         outf.write('const feature_data = ')
         json.dump(layers, outf, indent=2, sort_keys=True)
         outf.write(';\nconst icon_urls = ')
-        json.dump(list(icons), outf, indent=2, sort_keys=True)
+        l = list(icons)
+        l.sort()
+        json.dump(l, outf, indent=2, sort_keys=True)
+
+def make_map():
+    doc = make_doc('Map | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
+    with doc.head:
+        link(rel='stylesheet', href='/map/src/css/ol.css')
+        link(rel='stylesheet', href='/map/src/css/map.css')
+    with doc:
+        with div(cls='container-fluid h-100 d-flex flex-column p-0 m-0 g-0'):
+            with div(cls='row m-0 p-0 g-0'):
+                make_nav('map', True)
+            with div(cls='row h-100 flex-grow-1 p-0 m-0 g-0'):
+                div(id='map', cls='m-0 p-0 g-0')
+            with div(cls='offcanvas offcanvas-end m-0 p-0 g-0', id='layer-menu', data_bs_stroll="true", data_bs_backdrop="false", tabindex="-1"):
+                with button(cls='btn btn-primary btn-sml offcanvas-btn position-absolute p-1', type='button', data_bs_toggle='offcanvas', data_bs_target='#layer-menu', style='height: 50px;'):
+                    i(cls='bi bi-caret-left-fill m-0 p-0')
+                    i(cls='bi bi-caret-right-fill m-0 p-0')
+                    # h3('Map', cls='offcanvas-title')
+                with div(cls='offcanvas-body'):
+                    with div(cls='row'):
+                        with div(cls='col-auto order-last'):
+                            button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
+                        with div(cls='col'):
+                            with div(cls='form-check'):
+                                input_(cls='form-check-input', type='checkbox', value='', id='hideCompleted')
+                                label('Hide Completed', cls='form-check-label', _for='hideCompleted')
+                    for name, l in dropdowns:
+                        should_print_category = False
+                        for guide in l:
+                            if guide[1] in pages_in_map:
+                                should_print_category = True
+                                break
+                        if should_print_category:
+                            h4(name)
+                            hr(cls='m-0')
+                            for guide in l:
+                                if guide[1] in pages_in_map:
+                                    with div(cls='form-check'):
+                                        l = label(cls='form-check-label', _for=guide[1])
+                                        l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
+                                        if guide[2]:
+                                            l += img(data_src=guide[2], loading='lazy', height=20, width=20, cls='me-1')
+                                        l += guide[0]
+                        # with li(cls="dropdown nav-item"):
+                        #     a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
+                        #     with ul(cls="dropdown-menu"):
+                        #         for guide in l:
+                        #             li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
+
+            with div(id='popup', cls='ol-popup'):
+                a(href='#', id='popup-closer', cls='ol-popup-closer')
+                with div(cls="form-check checkbox d-flex align-items-center popup-content"):
+                    input_(cls="form-check-input", type="checkbox", value="", id='popup-checkbox')
+                    label(cls="form-check-label item_content", _for='popup-checkbox', id='popup-title')
+                    a(href="#", id='popup-link', cls='ms-3').add(i(cls='bi bi-link-45deg'))
+        make_footer()
+        script(src='/map/src/js/ol.js')
+        script(src='/map/src/js/features.js')
+        script(src='/map/src/js/map.js')
+    with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
+        f.write(doc.render())
 
 make_geojson()
+make_map()

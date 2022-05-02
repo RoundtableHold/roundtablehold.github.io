@@ -1,3 +1,7 @@
+html,body {
+    height: 100%;
+}
+
 .ol-popup {
     position: absolute;
     background-color: rgb(62, 62, 62);
@@ -74,3 +78,33 @@ code {
 .tooltip-inner {
     border: 2px solid white;
 } */
+
+.offcanvas-btn {
+    right: 400px;
+    top: 120px;
+    visibility: visible;
+}
+
+.offcanvas-btn i:last-child,
+.offcanvas.show .offcanvas-btn i:first-child {
+    display: none;
+}
+
+.offcanvas.show .offcanvas-btn i:last-child {
+    display: inline;
+}
+
+div.completed label {
+  text-decoration: line-through;
+  -webkit-text-decoration: line-through !important;
+}
+
+input[type="checkbox"]:checked + .item_content {
+  text-decoration: line-through;
+  -webkit-text-decoration: line-through !important;
+}
+
+div.completed img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
