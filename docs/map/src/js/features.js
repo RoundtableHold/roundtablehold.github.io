@@ -11,6 +11,7 @@ const feature_data = [
         },
         "id": "bosses_2_15",
         "properties": {
+          "group": "bosses",
           "icon": "/map/icons/MENU_MAP_memo_20.png",
           "id": "bosses_2_15",
           "link": "/checklists/bosses.html#item_2_15",
@@ -33,6 +34,7 @@ const feature_data = [
         },
         "id": "evergaols_1_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_1_1",
           "link": "/checklists/evergaols.html#item_1_1",
@@ -50,6 +52,7 @@ const feature_data = [
         },
         "id": "evergaols_1_2",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_1_2",
           "link": "/checklists/evergaols.html#item_1_2",
@@ -67,6 +70,7 @@ const feature_data = [
         },
         "id": "evergaols_0_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_0_1",
           "link": "/checklists/evergaols.html#item_0_1",
@@ -84,6 +88,7 @@ const feature_data = [
         },
         "id": "evergaols_2_2",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_2_2",
           "link": "/checklists/evergaols.html#item_2_2",
@@ -101,6 +106,7 @@ const feature_data = [
         },
         "id": "evergaols_2_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_2_1",
           "link": "/checklists/evergaols.html#item_2_1",
@@ -118,6 +124,7 @@ const feature_data = [
         },
         "id": "evergaols_2_3",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_2_3",
           "link": "/checklists/evergaols.html#item_2_3",
@@ -135,6 +142,7 @@ const feature_data = [
         },
         "id": "evergaols_2_4",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_2_4",
           "link": "/checklists/evergaols.html#item_2_4",
@@ -152,6 +160,7 @@ const feature_data = [
         },
         "id": "evergaols_3_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_3_1",
           "link": "/checklists/evergaols.html#item_3_1",
@@ -169,6 +178,7 @@ const feature_data = [
         },
         "id": "evergaols_4_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_4_1",
           "link": "/checklists/evergaols.html#item_4_1",
@@ -186,6 +196,7 @@ const feature_data = [
         },
         "id": "evergaols_5_1",
         "properties": {
+          "group": "evergaols",
           "icon": "/map/icons/MENU_MAP_09.png",
           "id": "evergaols_5_1",
           "link": "/checklists/evergaols.html#item_5_1",
@@ -208,6 +219,7 @@ const feature_data = [
         },
         "id": "graces_313",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_313",
           "link": "/checklists/sitesof_grace.html#item_313",
@@ -225,6 +237,7 @@ const feature_data = [
         },
         "id": "graces_0",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_0",
           "link": "/checklists/sitesof_grace.html#item_0",
@@ -242,6 +255,7 @@ const feature_data = [
         },
         "id": "graces_1",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_1",
           "link": "/checklists/sitesof_grace.html#item_1",
@@ -259,6 +273,7 @@ const feature_data = [
         },
         "id": "graces_2",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_2",
           "link": "/checklists/sitesof_grace.html#item_2",
@@ -276,6 +291,7 @@ const feature_data = [
         },
         "id": "graces_3",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_3",
           "link": "/checklists/sitesof_grace.html#item_3",
@@ -293,6 +309,7 @@ const feature_data = [
         },
         "id": "graces_4",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_4",
           "link": "/checklists/sitesof_grace.html#item_4",
@@ -310,6 +327,7 @@ const feature_data = [
         },
         "id": "graces_5",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_5",
           "link": "/checklists/sitesof_grace.html#item_5",
@@ -327,6 +345,7 @@ const feature_data = [
         },
         "id": "graces_6",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_6",
           "link": "/checklists/sitesof_grace.html#item_6",
@@ -344,6 +363,7 @@ const feature_data = [
         },
         "id": "graces_7",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_7",
           "link": "/checklists/sitesof_grace.html#item_7",
@@ -361,6 +381,7 @@ const feature_data = [
         },
         "id": "graces_8",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_8",
           "link": "/checklists/sitesof_grace.html#item_8",
@@ -378,6 +399,7 @@ const feature_data = [
         },
         "id": "graces_9",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_9",
           "link": "/checklists/sitesof_grace.html#item_9",
@@ -395,6 +417,7 @@ const feature_data = [
         },
         "id": "graces_10",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_10",
           "link": "/checklists/sitesof_grace.html#item_10",
@@ -412,6 +435,7 @@ const feature_data = [
         },
         "id": "graces_11",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_11",
           "link": "/checklists/sitesof_grace.html#item_11",
@@ -429,6 +453,7 @@ const feature_data = [
         },
         "id": "graces_12",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_12",
           "link": "/checklists/sitesof_grace.html#item_12",
@@ -446,6 +471,7 @@ const feature_data = [
         },
         "id": "graces_13",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_13",
           "link": "/checklists/sitesof_grace.html#item_13",
@@ -463,6 +489,7 @@ const feature_data = [
         },
         "id": "graces_14",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_14",
           "link": "/checklists/sitesof_grace.html#item_14",
@@ -480,6 +507,7 @@ const feature_data = [
         },
         "id": "graces_15",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_15",
           "link": "/checklists/sitesof_grace.html#item_15",
@@ -497,6 +525,7 @@ const feature_data = [
         },
         "id": "graces_16",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_16",
           "link": "/checklists/sitesof_grace.html#item_16",
@@ -514,6 +543,7 @@ const feature_data = [
         },
         "id": "graces_17",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_17",
           "link": "/checklists/sitesof_grace.html#item_17",
@@ -531,6 +561,7 @@ const feature_data = [
         },
         "id": "graces_18",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_18",
           "link": "/checklists/sitesof_grace.html#item_18",
@@ -548,6 +579,7 @@ const feature_data = [
         },
         "id": "graces_19",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_19",
           "link": "/checklists/sitesof_grace.html#item_19",
@@ -565,6 +597,7 @@ const feature_data = [
         },
         "id": "graces_20",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_20",
           "link": "/checklists/sitesof_grace.html#item_20",
@@ -582,6 +615,7 @@ const feature_data = [
         },
         "id": "graces_21",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_21",
           "link": "/checklists/sitesof_grace.html#item_21",
@@ -599,6 +633,7 @@ const feature_data = [
         },
         "id": "graces_22",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_22",
           "link": "/checklists/sitesof_grace.html#item_22",
@@ -616,6 +651,7 @@ const feature_data = [
         },
         "id": "graces_23",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_23",
           "link": "/checklists/sitesof_grace.html#item_23",
@@ -633,6 +669,7 @@ const feature_data = [
         },
         "id": "graces_24",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_24",
           "link": "/checklists/sitesof_grace.html#item_24",
@@ -650,6 +687,7 @@ const feature_data = [
         },
         "id": "graces_25",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_25",
           "link": "/checklists/sitesof_grace.html#item_25",
@@ -667,6 +705,7 @@ const feature_data = [
         },
         "id": "graces_26",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_26",
           "link": "/checklists/sitesof_grace.html#item_26",
@@ -684,6 +723,7 @@ const feature_data = [
         },
         "id": "graces_27",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_27",
           "link": "/checklists/sitesof_grace.html#item_27",
@@ -701,6 +741,7 @@ const feature_data = [
         },
         "id": "graces_28",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_28",
           "link": "/checklists/sitesof_grace.html#item_28",
@@ -718,6 +759,7 @@ const feature_data = [
         },
         "id": "graces_29",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_29",
           "link": "/checklists/sitesof_grace.html#item_29",
@@ -735,6 +777,7 @@ const feature_data = [
         },
         "id": "graces_30",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_30",
           "link": "/checklists/sitesof_grace.html#item_30",
@@ -752,6 +795,7 @@ const feature_data = [
         },
         "id": "graces_31",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_31",
           "link": "/checklists/sitesof_grace.html#item_31",
@@ -769,6 +813,7 @@ const feature_data = [
         },
         "id": "graces_32",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_32",
           "link": "/checklists/sitesof_grace.html#item_32",
@@ -786,6 +831,7 @@ const feature_data = [
         },
         "id": "graces_33",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_33",
           "link": "/checklists/sitesof_grace.html#item_33",
@@ -803,6 +849,7 @@ const feature_data = [
         },
         "id": "graces_34",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_34",
           "link": "/checklists/sitesof_grace.html#item_34",
@@ -820,6 +867,7 @@ const feature_data = [
         },
         "id": "graces_35",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_35",
           "link": "/checklists/sitesof_grace.html#item_35",
@@ -837,6 +885,7 @@ const feature_data = [
         },
         "id": "graces_36",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_36",
           "link": "/checklists/sitesof_grace.html#item_36",
@@ -854,6 +903,7 @@ const feature_data = [
         },
         "id": "graces_37",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_37",
           "link": "/checklists/sitesof_grace.html#item_37",
@@ -871,6 +921,7 @@ const feature_data = [
         },
         "id": "graces_38",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_38",
           "link": "/checklists/sitesof_grace.html#item_38",
@@ -888,6 +939,7 @@ const feature_data = [
         },
         "id": "graces_39",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_39",
           "link": "/checklists/sitesof_grace.html#item_39",
@@ -905,6 +957,7 @@ const feature_data = [
         },
         "id": "graces_40",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_40",
           "link": "/checklists/sitesof_grace.html#item_40",
@@ -922,6 +975,7 @@ const feature_data = [
         },
         "id": "graces_41",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_41",
           "link": "/checklists/sitesof_grace.html#item_41",
@@ -939,6 +993,7 @@ const feature_data = [
         },
         "id": "graces_42",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_42",
           "link": "/checklists/sitesof_grace.html#item_42",
@@ -956,6 +1011,7 @@ const feature_data = [
         },
         "id": "graces_43",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_43",
           "link": "/checklists/sitesof_grace.html#item_43",
@@ -973,6 +1029,7 @@ const feature_data = [
         },
         "id": "graces_44",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_44",
           "link": "/checklists/sitesof_grace.html#item_44",
@@ -990,6 +1047,7 @@ const feature_data = [
         },
         "id": "graces_45",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_45",
           "link": "/checklists/sitesof_grace.html#item_45",
@@ -1007,6 +1065,7 @@ const feature_data = [
         },
         "id": "graces_46",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_46",
           "link": "/checklists/sitesof_grace.html#item_46",
@@ -1024,6 +1083,7 @@ const feature_data = [
         },
         "id": "graces_47",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_47",
           "link": "/checklists/sitesof_grace.html#item_47",
@@ -1041,6 +1101,7 @@ const feature_data = [
         },
         "id": "graces_48",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_48",
           "link": "/checklists/sitesof_grace.html#item_48",
@@ -1058,6 +1119,7 @@ const feature_data = [
         },
         "id": "graces_49",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_49",
           "link": "/checklists/sitesof_grace.html#item_49",
@@ -1075,6 +1137,7 @@ const feature_data = [
         },
         "id": "graces_50",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_50",
           "link": "/checklists/sitesof_grace.html#item_50",
@@ -1092,6 +1155,7 @@ const feature_data = [
         },
         "id": "graces_51",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_51",
           "link": "/checklists/sitesof_grace.html#item_51",
@@ -1109,6 +1173,7 @@ const feature_data = [
         },
         "id": "graces_52",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_52",
           "link": "/checklists/sitesof_grace.html#item_52",
@@ -1126,6 +1191,7 @@ const feature_data = [
         },
         "id": "graces_53",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_53",
           "link": "/checklists/sitesof_grace.html#item_53",
@@ -1143,6 +1209,7 @@ const feature_data = [
         },
         "id": "graces_54",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_54",
           "link": "/checklists/sitesof_grace.html#item_54",
@@ -1160,6 +1227,7 @@ const feature_data = [
         },
         "id": "graces_55",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_55",
           "link": "/checklists/sitesof_grace.html#item_55",
@@ -1177,6 +1245,7 @@ const feature_data = [
         },
         "id": "graces_193",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_193",
           "link": "/checklists/sitesof_grace.html#item_193",
@@ -1194,6 +1263,7 @@ const feature_data = [
         },
         "id": "graces_194",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_194",
           "link": "/checklists/sitesof_grace.html#item_194",
@@ -1211,6 +1281,7 @@ const feature_data = [
         },
         "id": "graces_195",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_195",
           "link": "/checklists/sitesof_grace.html#item_195",
@@ -1228,6 +1299,7 @@ const feature_data = [
         },
         "id": "graces_196",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_196",
           "link": "/checklists/sitesof_grace.html#item_196",
@@ -1245,6 +1317,7 @@ const feature_data = [
         },
         "id": "graces_197",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_197",
           "link": "/checklists/sitesof_grace.html#item_197",
@@ -1262,6 +1335,7 @@ const feature_data = [
         },
         "id": "graces_198",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_198",
           "link": "/checklists/sitesof_grace.html#item_198",
@@ -1279,6 +1353,7 @@ const feature_data = [
         },
         "id": "graces_199",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_199",
           "link": "/checklists/sitesof_grace.html#item_199",
@@ -1296,6 +1371,7 @@ const feature_data = [
         },
         "id": "graces_200",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_200",
           "link": "/checklists/sitesof_grace.html#item_200",
@@ -1313,6 +1389,7 @@ const feature_data = [
         },
         "id": "graces_201",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_201",
           "link": "/checklists/sitesof_grace.html#item_201",
@@ -1330,6 +1407,7 @@ const feature_data = [
         },
         "id": "graces_202",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_202",
           "link": "/checklists/sitesof_grace.html#item_202",
@@ -1347,6 +1425,7 @@ const feature_data = [
         },
         "id": "graces_203",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_203",
           "link": "/checklists/sitesof_grace.html#item_203",
@@ -1364,6 +1443,7 @@ const feature_data = [
         },
         "id": "graces_204",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_204",
           "link": "/checklists/sitesof_grace.html#item_204",
@@ -1381,6 +1461,7 @@ const feature_data = [
         },
         "id": "graces_205",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_205",
           "link": "/checklists/sitesof_grace.html#item_205",
@@ -1398,6 +1479,7 @@ const feature_data = [
         },
         "id": "graces_206",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_206",
           "link": "/checklists/sitesof_grace.html#item_206",
@@ -1415,6 +1497,7 @@ const feature_data = [
         },
         "id": "graces_207",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_207",
           "link": "/checklists/sitesof_grace.html#item_207",
@@ -1432,6 +1515,7 @@ const feature_data = [
         },
         "id": "graces_208",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_208",
           "link": "/checklists/sitesof_grace.html#item_208",
@@ -1449,6 +1533,7 @@ const feature_data = [
         },
         "id": "graces_209",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_209",
           "link": "/checklists/sitesof_grace.html#item_209",
@@ -1466,6 +1551,7 @@ const feature_data = [
         },
         "id": "graces_210",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_210",
           "link": "/checklists/sitesof_grace.html#item_210",
@@ -1483,6 +1569,7 @@ const feature_data = [
         },
         "id": "graces_211",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_211",
           "link": "/checklists/sitesof_grace.html#item_211",
@@ -1500,6 +1587,7 @@ const feature_data = [
         },
         "id": "graces_212",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_212",
           "link": "/checklists/sitesof_grace.html#item_212",
@@ -1517,6 +1605,7 @@ const feature_data = [
         },
         "id": "graces_213",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_213",
           "link": "/checklists/sitesof_grace.html#item_213",
@@ -1534,6 +1623,7 @@ const feature_data = [
         },
         "id": "graces_214",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_214",
           "link": "/checklists/sitesof_grace.html#item_214",
@@ -1551,6 +1641,7 @@ const feature_data = [
         },
         "id": "graces_215",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_215",
           "link": "/checklists/sitesof_grace.html#item_215",
@@ -1568,6 +1659,7 @@ const feature_data = [
         },
         "id": "graces_216",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_216",
           "link": "/checklists/sitesof_grace.html#item_216",
@@ -1585,6 +1677,7 @@ const feature_data = [
         },
         "id": "graces_217",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_217",
           "link": "/checklists/sitesof_grace.html#item_217",
@@ -1602,6 +1695,7 @@ const feature_data = [
         },
         "id": "graces_218",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_218",
           "link": "/checklists/sitesof_grace.html#item_218",
@@ -1619,6 +1713,7 @@ const feature_data = [
         },
         "id": "graces_219",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_219",
           "link": "/checklists/sitesof_grace.html#item_219",
@@ -1636,6 +1731,7 @@ const feature_data = [
         },
         "id": "graces_220",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_220",
           "link": "/checklists/sitesof_grace.html#item_220",
@@ -1653,6 +1749,7 @@ const feature_data = [
         },
         "id": "graces_221",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_221",
           "link": "/checklists/sitesof_grace.html#item_221",
@@ -1670,6 +1767,7 @@ const feature_data = [
         },
         "id": "graces_222",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_222",
           "link": "/checklists/sitesof_grace.html#item_222",
@@ -1687,6 +1785,7 @@ const feature_data = [
         },
         "id": "graces_223",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_223",
           "link": "/checklists/sitesof_grace.html#item_223",
@@ -1704,6 +1803,7 @@ const feature_data = [
         },
         "id": "graces_224",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_224",
           "link": "/checklists/sitesof_grace.html#item_224",
@@ -1721,6 +1821,7 @@ const feature_data = [
         },
         "id": "graces_225",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_225",
           "link": "/checklists/sitesof_grace.html#item_225",
@@ -1738,6 +1839,7 @@ const feature_data = [
         },
         "id": "graces_226",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_226",
           "link": "/checklists/sitesof_grace.html#item_226",
@@ -1755,6 +1857,7 @@ const feature_data = [
         },
         "id": "graces_227",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_227",
           "link": "/checklists/sitesof_grace.html#item_227",
@@ -1772,6 +1875,7 @@ const feature_data = [
         },
         "id": "graces_228",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_228",
           "link": "/checklists/sitesof_grace.html#item_228",
@@ -1789,6 +1893,7 @@ const feature_data = [
         },
         "id": "graces_229",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_229",
           "link": "/checklists/sitesof_grace.html#item_229",
@@ -1806,6 +1911,7 @@ const feature_data = [
         },
         "id": "graces_230",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_230",
           "link": "/checklists/sitesof_grace.html#item_230",
@@ -1823,6 +1929,7 @@ const feature_data = [
         },
         "id": "graces_231",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_231",
           "link": "/checklists/sitesof_grace.html#item_231",
@@ -1840,6 +1947,7 @@ const feature_data = [
         },
         "id": "graces_232",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_232",
           "link": "/checklists/sitesof_grace.html#item_232",
@@ -1857,6 +1965,7 @@ const feature_data = [
         },
         "id": "graces_233",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_233",
           "link": "/checklists/sitesof_grace.html#item_233",
@@ -1874,6 +1983,7 @@ const feature_data = [
         },
         "id": "graces_234",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_234",
           "link": "/checklists/sitesof_grace.html#item_234",
@@ -1891,6 +2001,7 @@ const feature_data = [
         },
         "id": "graces_235",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_235",
           "link": "/checklists/sitesof_grace.html#item_235",
@@ -1908,6 +2019,7 @@ const feature_data = [
         },
         "id": "graces_236",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_236",
           "link": "/checklists/sitesof_grace.html#item_236",
@@ -1925,6 +2037,7 @@ const feature_data = [
         },
         "id": "graces_237",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_237",
           "link": "/checklists/sitesof_grace.html#item_237",
@@ -1942,6 +2055,7 @@ const feature_data = [
         },
         "id": "graces_238",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_238",
           "link": "/checklists/sitesof_grace.html#item_238",
@@ -1959,6 +2073,7 @@ const feature_data = [
         },
         "id": "graces_239",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_239",
           "link": "/checklists/sitesof_grace.html#item_239",
@@ -1976,6 +2091,7 @@ const feature_data = [
         },
         "id": "graces_240",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_240",
           "link": "/checklists/sitesof_grace.html#item_240",
@@ -1993,6 +2109,7 @@ const feature_data = [
         },
         "id": "graces_241",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_241",
           "link": "/checklists/sitesof_grace.html#item_241",
@@ -2010,6 +2127,7 @@ const feature_data = [
         },
         "id": "graces_242",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_242",
           "link": "/checklists/sitesof_grace.html#item_242",
@@ -2027,6 +2145,7 @@ const feature_data = [
         },
         "id": "graces_243",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_243",
           "link": "/checklists/sitesof_grace.html#item_243",
@@ -2044,6 +2163,7 @@ const feature_data = [
         },
         "id": "graces_244",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_244",
           "link": "/checklists/sitesof_grace.html#item_244",
@@ -2061,6 +2181,7 @@ const feature_data = [
         },
         "id": "graces_245",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_245",
           "link": "/checklists/sitesof_grace.html#item_245",
@@ -2078,6 +2199,7 @@ const feature_data = [
         },
         "id": "graces_246",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_246",
           "link": "/checklists/sitesof_grace.html#item_246",
@@ -2095,6 +2217,7 @@ const feature_data = [
         },
         "id": "graces_247",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_247",
           "link": "/checklists/sitesof_grace.html#item_247",
@@ -2112,6 +2235,7 @@ const feature_data = [
         },
         "id": "graces_248",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_248",
           "link": "/checklists/sitesof_grace.html#item_248",
@@ -2129,6 +2253,7 @@ const feature_data = [
         },
         "id": "graces_249",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_249",
           "link": "/checklists/sitesof_grace.html#item_249",
@@ -2146,6 +2271,7 @@ const feature_data = [
         },
         "id": "graces_250",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_250",
           "link": "/checklists/sitesof_grace.html#item_250",
@@ -2163,6 +2289,7 @@ const feature_data = [
         },
         "id": "graces_251",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_251",
           "link": "/checklists/sitesof_grace.html#item_251",
@@ -2180,6 +2307,7 @@ const feature_data = [
         },
         "id": "graces_252",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_252",
           "link": "/checklists/sitesof_grace.html#item_252",
@@ -2197,6 +2325,7 @@ const feature_data = [
         },
         "id": "graces_253",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_253",
           "link": "/checklists/sitesof_grace.html#item_253",
@@ -2214,6 +2343,7 @@ const feature_data = [
         },
         "id": "graces_254",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_254",
           "link": "/checklists/sitesof_grace.html#item_254",
@@ -2231,6 +2361,7 @@ const feature_data = [
         },
         "id": "graces_255",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_255",
           "link": "/checklists/sitesof_grace.html#item_255",
@@ -2248,6 +2379,7 @@ const feature_data = [
         },
         "id": "graces_263",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_263",
           "link": "/checklists/sitesof_grace.html#item_263",
@@ -2265,6 +2397,7 @@ const feature_data = [
         },
         "id": "graces_264",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_264",
           "link": "/checklists/sitesof_grace.html#item_264",
@@ -2282,6 +2415,7 @@ const feature_data = [
         },
         "id": "graces_265",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_265",
           "link": "/checklists/sitesof_grace.html#item_265",
@@ -2299,6 +2433,7 @@ const feature_data = [
         },
         "id": "graces_266",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_266",
           "link": "/checklists/sitesof_grace.html#item_266",
@@ -2316,6 +2451,7 @@ const feature_data = [
         },
         "id": "graces_267",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_267",
           "link": "/checklists/sitesof_grace.html#item_267",
@@ -2333,6 +2469,7 @@ const feature_data = [
         },
         "id": "graces_268",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_268",
           "link": "/checklists/sitesof_grace.html#item_268",
@@ -2350,6 +2487,7 @@ const feature_data = [
         },
         "id": "graces_269",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_269",
           "link": "/checklists/sitesof_grace.html#item_269",
@@ -2367,6 +2505,7 @@ const feature_data = [
         },
         "id": "graces_270",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_270",
           "link": "/checklists/sitesof_grace.html#item_270",
@@ -2384,6 +2523,7 @@ const feature_data = [
         },
         "id": "graces_271",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_271",
           "link": "/checklists/sitesof_grace.html#item_271",
@@ -2401,6 +2541,7 @@ const feature_data = [
         },
         "id": "graces_277",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_277",
           "link": "/checklists/sitesof_grace.html#item_277",
@@ -2418,6 +2559,7 @@ const feature_data = [
         },
         "id": "graces_278",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_278",
           "link": "/checklists/sitesof_grace.html#item_278",
@@ -2435,6 +2577,7 @@ const feature_data = [
         },
         "id": "graces_279",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_279",
           "link": "/checklists/sitesof_grace.html#item_279",
@@ -2452,6 +2595,7 @@ const feature_data = [
         },
         "id": "graces_280",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_280",
           "link": "/checklists/sitesof_grace.html#item_280",
@@ -2469,6 +2613,7 @@ const feature_data = [
         },
         "id": "graces_281",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_281",
           "link": "/checklists/sitesof_grace.html#item_281",
@@ -2486,6 +2631,7 @@ const feature_data = [
         },
         "id": "graces_282",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_282",
           "link": "/checklists/sitesof_grace.html#item_282",
@@ -2503,6 +2649,7 @@ const feature_data = [
         },
         "id": "graces_283",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_283",
           "link": "/checklists/sitesof_grace.html#item_283",
@@ -2520,6 +2667,7 @@ const feature_data = [
         },
         "id": "graces_284",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_284",
           "link": "/checklists/sitesof_grace.html#item_284",
@@ -2537,6 +2685,7 @@ const feature_data = [
         },
         "id": "graces_285",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_285",
           "link": "/checklists/sitesof_grace.html#item_285",
@@ -2554,6 +2703,7 @@ const feature_data = [
         },
         "id": "graces_286",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_286",
           "link": "/checklists/sitesof_grace.html#item_286",
@@ -2571,6 +2721,7 @@ const feature_data = [
         },
         "id": "graces_287",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_287",
           "link": "/checklists/sitesof_grace.html#item_287",
@@ -2588,6 +2739,7 @@ const feature_data = [
         },
         "id": "graces_288",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_288",
           "link": "/checklists/sitesof_grace.html#item_288",
@@ -2605,6 +2757,7 @@ const feature_data = [
         },
         "id": "graces_289",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_289",
           "link": "/checklists/sitesof_grace.html#item_289",
@@ -2622,6 +2775,7 @@ const feature_data = [
         },
         "id": "graces_290",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_290",
           "link": "/checklists/sitesof_grace.html#item_290",
@@ -2639,6 +2793,7 @@ const feature_data = [
         },
         "id": "graces_291",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_291",
           "link": "/checklists/sitesof_grace.html#item_291",
@@ -2656,6 +2811,7 @@ const feature_data = [
         },
         "id": "graces_292",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_292",
           "link": "/checklists/sitesof_grace.html#item_292",
@@ -2673,6 +2829,7 @@ const feature_data = [
         },
         "id": "graces_293",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_293",
           "link": "/checklists/sitesof_grace.html#item_293",
@@ -2690,6 +2847,7 @@ const feature_data = [
         },
         "id": "graces_294",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_294",
           "link": "/checklists/sitesof_grace.html#item_294",
@@ -2707,6 +2865,7 @@ const feature_data = [
         },
         "id": "graces_295",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_295",
           "link": "/checklists/sitesof_grace.html#item_295",
@@ -2724,6 +2883,7 @@ const feature_data = [
         },
         "id": "graces_302",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_302",
           "link": "/checklists/sitesof_grace.html#item_302",
@@ -2741,6 +2901,7 @@ const feature_data = [
         },
         "id": "graces_303",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_303",
           "link": "/checklists/sitesof_grace.html#item_303",
@@ -2758,6 +2919,7 @@ const feature_data = [
         },
         "id": "graces_304",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_304",
           "link": "/checklists/sitesof_grace.html#item_304",
@@ -2775,6 +2937,7 @@ const feature_data = [
         },
         "id": "graces_305",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_305",
           "link": "/checklists/sitesof_grace.html#item_305",
@@ -2792,6 +2955,7 @@ const feature_data = [
         },
         "id": "graces_306",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_306",
           "link": "/checklists/sitesof_grace.html#item_306",
@@ -2809,6 +2973,7 @@ const feature_data = [
         },
         "id": "graces_307",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_307",
           "link": "/checklists/sitesof_grace.html#item_307",
@@ -2826,6 +2991,7 @@ const feature_data = [
         },
         "id": "graces_308",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_308",
           "link": "/checklists/sitesof_grace.html#item_308",
@@ -2843,6 +3009,7 @@ const feature_data = [
         },
         "id": "graces_309",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_309",
           "link": "/checklists/sitesof_grace.html#item_309",
@@ -2860,6 +3027,7 @@ const feature_data = [
         },
         "id": "graces_310",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_310",
           "link": "/checklists/sitesof_grace.html#item_310",
@@ -2877,6 +3045,7 @@ const feature_data = [
         },
         "id": "graces_311",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_311",
           "link": "/checklists/sitesof_grace.html#item_311",
@@ -2894,6 +3063,7 @@ const feature_data = [
         },
         "id": "graces_312",
         "properties": {
+          "group": "graces",
           "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
           "id": "graces_312",
           "link": "/checklists/sitesof_grace.html#item_312",
@@ -2906,7 +3076,7 @@ const feature_data = [
   }
 ];
 const icon_urls = [
-  "/map/icons/MENU_MAP_memo_20.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
-  "/map/icons/MENU_MAP_09.png"
+  "/map/icons/MENU_MAP_09.png",
+  "/map/icons/MENU_MAP_memo_20.png"
 ]

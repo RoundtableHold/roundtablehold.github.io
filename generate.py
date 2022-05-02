@@ -108,8 +108,8 @@ def hide_completed_button():
             label("Hide Completed", cls="form-check-label",
                   _for='toggleHideCompleted')
 
-def make_nav(page):
-    with nav(cls="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none", id="top_nav"):
+def make_nav(page, is_map = False):
+    with nav(cls="navbar navbar-expand-xl bg-dark navbar-dark d-print-none" + (' sticky-top' if not is_map else ''), id="top_nav"):
         with div(cls="container-fluid"):
             # with div(cls='order-sm-last d-none d-sm-block ms-auto'):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
@@ -758,6 +758,7 @@ def make_feature(page, section, item):
         'properties': {
             'title': item['map_title'],
             'id': page['id'] + '_' + item['id'],
+            'group': page['id'],
             'icon': icon,
             'link': '/checklists/' + to_snake_case(page['title']) + '.html#item_' + item['id']
         }
@@ -795,7 +796,9 @@ def make_geojson():
         outf.write('const feature_data = ')
         json.dump(layers, outf, indent=2, sort_keys=True)
         outf.write(';\nconst icon_urls = ')
-        json.dump(list(icons), outf, indent=2, sort_keys=True)
+        l = list(icons)
+        l.sort()
+        json.dump(l, outf, indent=2, sort_keys=True)
 
 def make_map():
     doc = make_doc('Map | Roundtable Guides', 'Elden Ring Guides and Progress Tracker')
@@ -803,11 +806,12 @@ def make_map():
         link(rel='stylesheet', href='/map/src/css/ol.css')
         link(rel='stylesheet', href='/map/src/css/map.css')
     with doc:
-        with div(cls='container-fluid vh-100 d-flex flex-column p-0 m-0 g-0'):
-            make_nav('map')
-            with div(cls='row flex-grow-1'):
-                div(cls='col flex-grow-1', id='map')
-            with div(cls='offcanvas offcanvas-end', id='layer-menu', data_bs_stroll="true", data_bs_backdrop="false", tabindex="-1"):
+        with div(cls='container-fluid h-100 d-flex flex-column p-0 m-0 g-0'):
+            with div(cls='row m-0 p-0 g-0'):
+                make_nav('map', True)
+            with div(cls='row h-100 flex-grow-1 p-0 m-0 g-0'):
+                div(id='map', cls='m-0 p-0 g-0')
+            with div(cls='offcanvas offcanvas-end m-0 p-0 g-0', id='layer-menu', data_bs_stroll="true", data_bs_backdrop="false", tabindex="-1"):
                 with button(cls='btn btn-primary btn-sml offcanvas-btn position-absolute p-1', type='button', data_bs_toggle='offcanvas', data_bs_target='#layer-menu', style='height: 50px;'):
                     i(cls='bi bi-caret-left-fill m-0 p-0')
                     i(cls='bi bi-caret-right-fill m-0 p-0')
@@ -833,7 +837,7 @@ def make_map():
                                 if guide[1] in pages_in_map:
                                     with div(cls='form-check'):
                                         l = label(cls='form-check-label', _for=guide[1])
-                                        l += input_(cls='form-check-input', type='checkbox', value='', id=guide[1], hidden='')
+                                        l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
                                         if guide[2]:
                                             l += img(data_src=guide[2], loading='lazy', height=20, width=20, cls='me-1')
                                         l += guide[0]
