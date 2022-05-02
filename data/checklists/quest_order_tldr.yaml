@@ -13,7 +13,7 @@ sections:
       - ["4", "Break the tree illusion and talk to Boc"]
       - ["5", "Free Alexander from his hole near Saintsbridge Grace"]
       - ["6", "Talk to D near the graveyard East of Saintsbridge Grace"]
-      - ["7", "Kill Mariner in Summonwater Village (Summoning D) then talk to D nearby"]
+      - ["7", "Kill Mariner in Summonwater Village then talk to D nearby"]
       - ["8", "Talk to Kenneth Haight on top of the ruin to the South"]
       - ["9", "Talk to Melina at the Third Church of Marika"]
       - ["11", "Listen to Blaidd's howling at Mistwood Ruins"]
@@ -21,7 +21,7 @@ sections:
       - ["14", "Meet Renna at Church of Elleh at Night"]
       - ["13", "Talk to Kale at Church of Elleh for Fingersnap"]
       - ["15", "Talk to Boc at the entrance of the Coastal Cave"]
-      - ["16", "Beat Coastal Cave (Summon Old Knight Istvan)"]
+      - ["16", "Beat Coastal Cave (Summoning Old Knight Istvan)"]
       - ["17", "Back to Boc"]
       - ["18", "Meet Yura South of the Lake"]
       - ["19", "Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
@@ -62,20 +62,18 @@ sections:
         data: ["Talk to Kenneth Haight on top of the ruin to the South"]
       - id: "9"
         data: ["Talk to Melina at the Third Church of Marika"]
-      - id: "10"
-        data: ["Use Waygate near the Third Church of Marika and talk to Gurranq"]
       - id: "11"
         data: ["Listen to Blaidd's howling at Mistwood Ruins"]
       - id: "12"
         data: ["Kill the Knight at the top of Fort Haight and collect Dectus Medallion"]
-      - id: "13"
-        data: ["Go back to Kalé at Church of Elleh for Fingersnap"]
       - id: "14"
         data: ["Meet Renna at Church of Elleh at Night"]
+      - id: "13"
+        data: ["Go back to Kalé at Church of Elleh for Fingersnap"]
       - id: "15"
         data: ["Talk to Boc at the entrance of the Coastal Cave"]
       - id: "16"
-        data: ["Beat Coastal Cave (Summon Old Knight Istvan)"]
+        data: ["Beat Coastal Cave (Summoning Old Knight Istvan)"]
       - id: "17"
         data: ["Back to Boc"]
       - id: "18"
@@ -83,7 +81,7 @@ sections:
       - id: "19"
         data: ["Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
       - id: "20"
-        data: ["Kill the Flying Dragon Agheel then back to Yura"]
+        data: ["Kill the Flying Dragon Agheel (Summoning Yura) then back to Yura"]
       - id: "21"
         data: ["Meet Sellen under Waypoint Ruins"]
       - id: "22"
@@ -91,7 +89,7 @@ sections:
       - id: "23"
         data: ["Talk to Yura North of Murkwater Cave"]
       - id: "24"
-        data: ["Beat Patches in Murkwater Cave, but spare him. After sparing attack him then use emote he gives you when knocked to 50% health."]
+        data: ["Beat Patches in Murkwater Cave, but spare him. After sparing attack him lightly 3 times then let him attack you. Use emote he gives you when knocked to about 40% health."]
       - id: "25"
         data: ["Talk to him, reload talk again and buy things, reload talk again and open chest when he gives you permission"]
       - id: "26"
@@ -108,10 +106,14 @@ sections:
         data: ["Meet Warmaster Bernahl at Warmaster's Shack"]
       - id: "32"
         data: ["Kill Recusant Henricus at the Coliseum"]
+      - id: "32_1"
+        data: ["Talk to Melina at Stormhill Shack Grace"]
       - id: "33"
         data: ["Meet Roderika at Stormhill Shack"]
       - id: "34"
         data: ["Meet the Finger Reader on the bridge North of Stormhill Shack"]
+      - id: "34_1"
+        data: ["Talk to Melina at the Castleward Tunnel Grace"]
       - id: "35"
         data: ["Defeat Bloodhound Knight Darriwil at Forlorn Hound Evergaol (Summoning Blaidd) then talk to Blaidd"]
 >>>>>>> main
@@ -174,7 +176,8 @@ sections:
       - ["65", "Talk to Varre at the Rose Church, Invade other players 3 times (may be able to invade NPCs instead), talk to Varre"]
       - ["66_2", "Grab the Glintstone Key from behind the Glintstone Dragon"]
       - ["66", "Defeat Edgar the Revenger at Revenger's Shack"]
-      - ["67", "Use the Anticipation Gateway at Belfries and grab the Stormhawk Ashes"]
+      - ["67", "Use the Anticipation Gateway at Belfries, grab the Stormhawk King Ashes and use the dead maidens blood for Lord of Blood's Favor"]
+      - ["89", "Talk to Varre (you can now enter Mohgwyn's Palace early if you want, just don't kill the boss and nothing should break."]
       - ["68", "Talk to Nepheli near Village of the Albinaurics"]
       - ["69", "Talk to Albus in Village of the Albinaurics"]
       - ["70", "Kill Omenkiller in Village of the Albinaurics (Summoning Nepheli)"]
@@ -194,17 +197,13 @@ sections:
     items:
       - ["80", "Go back to Roundtable Hold, kill Ensha then talk to Gideon and Nepheli until dialogue with both is exhausted"]
       - ["81", "Talk to Hewg and Roderika"]
+      - ["81_1", "Talk to Corhyn"]
       - ["82", "Talk to Diallos"]
       - ["83", "Talk to Enia"]
       - ["84", "Exhaust dialogue with Fia and Rogier, reload and talk to Rogier again"]
   -
     title: "Liurnia Lake/Roundtable"
     items:
-      - ["85", "Talk to Boc, Finger Reader and Melina at East Raya Lucaria Gate Grace"]
-      - ["86", "Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
-      - ["87", "Talk to Melina at Grand Lift of Dectus Grace"]
-      - ["88", "Talk to Hyetta at Bellum Church, and reload then talk again"]
-      - ["89", "Talk to Varre at Rose Church"]
       - ["90", "Talk to Iji at the Road to the Manor Grace"]
       - ["91", "Defeat Caria Manor and discover the secret room under the ruins near Glintstone Dragon Adula"]
       - ["92", "Confess to Ranni in Ranni's Rise, get rejected, go back to Rogier for advice"]
@@ -220,12 +219,21 @@ sections:
       - ["99", "Talk to the Finger Reader near the Telescope"]
       - ["99_1", "Kill Millicent in the rot swamp if she invades"]
       - ["100", "Talk to Gowry at Gowry's Shack"]
-      - ["101", "Kill Commander O'Neil in swamp nearby, return to Gowry then reload and talk again"]
+      - ["101", "Kill Commander O'Neil in swamp nearby (Summoning Polyanna, Adopted Daughter), return to Gowry then reload and talk again"]
       - ["102", "Talk to Millicent in Church of Plague, reload then talk to Millicent again"]
       - ["103", "Reload and talk to Gowry"]
+  -
+    title: "Liurnia Lake"
+    items:
+      - ["85", "Talk to Boc, Finger Reader and Melina at East Raya Lucaria Gate Grace"]
+      - ["86", "Kill Festering Fingerprint Vyke near Church of Inhibition"]
+      - ["87", "Talk to Melina at Grand Lift of Dectus Grace"]
+      - ["88", "Talk to Hyetta at Bellum Church, and reload then talk again"]
 =======
       - id: "44"
         data: ["Talk to Gostoc near the Main Gate of Stormveil, refuse for dialogue then accept him"]
+      - id: "44_1"
+        data: ["Catch Gostoc stalking you then talk to him at the gate to open his shop"]
       - id: "45"
         data: ["Talk to Rogier inside the church"]
       - id: "46"
@@ -239,16 +247,18 @@ sections:
   -
     title: "Limgrave/Roundtable"
     items:
+      - id: "10"
+        data: ["Use Waygate near the Third Church of Marika and talk to Gurranq"]
       - id: "50"
         data: ["Go back to Varré at the start of the game"]
       - id: "51"
         data: ["Go to Roundtable Hold and talk to Enia, Two Fingers, Nepheli, and Gideon"]
       - id: "52"
         data: ["Talk to D and Rogier until Dialogue with both is exhausted"]
-      - id: "53"
-        data: ["Talk to Fia for Knifeprint Clue"]
       - id: "54"
         data: ["Talk to Roderika and Hewg until dialogue with both is exhausted"]
+      - id: "53"
+        data: ["Talk to Fia for Knifeprint Clue"]
       - id: "55_1"
         data: ["Go read the message at Varré's location at the start of the game"]
   -
@@ -276,12 +286,14 @@ sections:
         data: ["Talk to Finger Reader nearby"]
       - id: "65"
         data: ["Talk to Varré at the Rose Church, Invade other players 3 times (may be able to invade NPCs instead), talk to Varré"]
-      - id: "66"
-        data: ["Defeat Edgar the Revenger at Revenger's Shack"]
       - id: "66_2"
         data: ["Grab the Glintstone Key from behind the Glintstone Dragon"]
+      - id: "66"
+        data: ["Defeat Edgar the Revenger at Revenger's Shack"]
       - id: "67"
-        data: ["Use the Anticipation Gateway at Belfries and grab the Stormhawk Ashes"]
+        data: ["Use the Anticipation Gateway at Belfries, grab the Stormhawk King Ashes and use the dead maidens blood for Lord of Blood's Favor"]
+      - id: "89"
+        data: ["Talk to Varre (you can now enter Mohgwyn's Palace early if you want, just don't kill the boss and nothing should break."]
       - id: "68"
         data: ["Talk to Nepheli near Village of the Albinaurics"]
       - id: "69"
@@ -293,19 +305,21 @@ sections:
       - id: "72"
         data: ["Talk to Hyetta at Gate Town Bridge"]
       - id: "73"
-        data: ["Kill Mariner on cliffs above Carian Study Hall for Deathroot"]
+        data: ["Kill Mariner on cliffs above Carian Study Hall (Summoning D) for Deathroot"]
       - id: "74"
         data: ["Meet Jar Bairn in Jarburg. Repeatedly rest and talk to them until they are laying down."]
-      - id: "75"
-        data: ["Talk to Miriel, Pastor of Vows in the Church of Vows"]
-      - id: "76"
-        data: ["Defeat Black Knife Catacombs (including the hidden area) where Knifeprint Clue leads"]
-      - id: "77"
-        data: ["Use Laskyar Ruins Waygate and enter Raya Lucaria"]
-      - id: "78"
+        - id: "77"
+        data: ["Use Purified Ruins Waygate and enter Raya Lucaria"]
+        - id: "78"
         data: ["Invade alongside Yura near Main Academy Gate then talk to Yura"]
-      - id: "79"
+        - id: "79"
         data: ["Defeat Raya Lucaria Academy, collect Second Glintstone Key above the Church of the Cuckoo and save it for later"]
+      - id: "75"
+        data: ["Use Waygate down the lift from Raya Lucaria boss room to talk to Miriel, Pastor of Vows in the Church of Vows"]
+      - id: "75_1"
+        data: ["Grab Gold Sewing Needle and Gold Tailoring Tools at Church of Vows"]
+      - id: "76"
+        data: ["Defeat Black Knife Catacombs (including the hidden area, Summoning D) where Knifeprint Clue leads for Deathroot and Black Knifeprint"]
   -
     title: "Roundtable Hold"
     items:
@@ -313,25 +327,17 @@ sections:
         data: ["Go back to Roundtable Hold, kill Ensha then talk to Gideon and Nepheli until dialogue with both is exhausted"]
       - id: "81"
         data: ["Talk to Hewg and Roderika"]
+      - id: "81_1"
+        data: ["Talk to Corhyn"]
       - id: "82"
         data: ["Talk to Diallos"]
       - id: "83"
-        data: ["Talk to Enia and buy some \"Demigod\" armor"]
+        data: ["Talk to Enia"]
       - id: "84"
         data: ["Exhaust dialogue with Fia and Rogier, reload and talk to Rogier again"]
   -
     title: "Liurnia Lake/Roundtable"
     items:
-      - id: "85"
-        data: ["Talk to Boc, Finger Reader and Hyetta at East Raya Lucaria Gate Grace"]
-      - id: "86"
-        data: ["Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
-      - id: "87"
-        data: ["Talk to Melina at Grand Lift of Dectus Grace"]
-      - id: "88"
-        data: ["Talk to Hyetta at Bellum Church, and reload then talk again"]
-      - id: "89"
-        data: ["Talk to Varré at Rose Church"]
       - id: "90"
         data: ["Talk to Iji at the Road to the Manor Grace"]
       - id: "91"
@@ -355,14 +361,27 @@ sections:
         data: ["Complete Gael Tunnel and talk to Alexander at the end"]
       - id: "99"
         data: ["Talk to the Finger Reader near the Telescope"]
+      - id: "99_1"
+        data: ["Kill Millicent in the rot swamp if she invades"]
       - id: "100"
         data: ["Talk to Gowry at Gowry's Shack"]
       - id: "101"
-        data: ["Kill Commander O'Neil in swamp nearby, return to Gowry then reload and talk again"]
+        data: ["Kill Commander O'Neil in swamp nearby (Summoning Polyanna, Adopted Daughter), return to Gowry then reload and talk again"]
       - id: "102"
         data: ["Talk to Millicent in Church of Plague, reload then talk to Millicent again"]
       - id: "103"
         data: ["Reload and talk to Gowry"]
+  -
+    title: "Liurnia Lake/Roundtable"
+    items:
+      - id: "85"
+        data: ["Talk to Boc, Finger Reader and Melina at East Raya Lucaria Gate Grace"]
+      - id: "86"
+        data: ["Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
+      - id: "87"
+        data: ["Talk to Melina at Grand Lift of Dectus Grace"]
+      - id: "88"
+        data: ["Talk to Hyetta at Bellum Church, and reload then talk again"]
 >>>>>>> main
   -
     title: "Underground Siofra/Liurnia Lake/Castle Redmane"
