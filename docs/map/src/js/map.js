@@ -165,7 +165,7 @@
                 for (let group of hiddenGroups) {
                     console.log(group)
                     $('#' + group).prop('checked', true);
-                    $(this).closest('div').addClass('completed text-muted')
+                    $('#' + group).closest('div').addClass('completed text-muted')
                 }
             }
 
