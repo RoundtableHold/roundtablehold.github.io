@@ -343,6 +343,8 @@ sections:
         data: ["Turn around and head South-West to the shore to find a ghost then follow the trail of bodies up to the Revenger's Shack."]
       - id: "162"
         data: ["Kill Edgar the Revenger at Revenger's Shack to receive a Shabriri Grape and grab the Revenger's Shack Grace."]
+      - id: "162_1"
+        data: ["Follow the road North from the Revenger's Shack and grab the Foot of the Four Belfries Grace"]
       - id: "163"
         data: ["Follow the road East to the top and grab the Imbued Sword Key and The Four Belfries Grace"]
       - id: "164"
@@ -351,12 +353,16 @@ sections:
         data: ["Kill the Boss of the Chapel of Anticipation, Grafted Scion"]
       - id: "166"
         data: ["Go through the area to the chapel where you started at and go through the nearby opened door to grab The Stormhawk King ashes"]
+      - id: "166_1"
+        data: ["Go inside of the church and interract with the dead maiden to dye the cloth Varre gave you to get the Lord of Blood's Favor"]
+      - id: "166_2"
+        data: ["Return to the Fallen Ruins of the Lake Grace and head back to Varre at the Rose Church. Talk with him and exhaust his dialogue to receive the Pureblood Knight's Medal(this can be used to enter Mohgwyn's Palace early for Rune Farming. Just don't kill the boss and nothing should break. This area will be covered later)"]
       - id: "167"
         data: ["Go back to the Fallen Ruins of the Lake and head South-West to grab the Folly on the Lake Grace"]
-      - id: "168"
-        data: ["Head South-West, underneath the cliffs and follow the path to grab the Village of the Albinaurics Grace and rest at it"]
       - id: "169"
-        data: ["Backtrack down the road a little, talk to Nepheli and exhaust her dialogue"]
+        data: ["Head South-West, underneath the cliffs and follow the path to talk to Nepheli and exhaust her dialogue"]
+      - id: "168"
+        data: ["Continue up the path to grab the Village of the Albinaurics Grace and rest at it"]
       - id: "170"
         data: ["Proceed through the village to find a giant pot that looks out of place and is making noises, attack or roll into it to reveal Albus."]
       - id: "171"
@@ -364,7 +370,7 @@ sections:
       - id: "172"
         data: ["Summon Nepheli and kill the Boss of Village of the Albinaurics, Omenkiller"]
       - id: "173"
-        data: ["Starting from the Scenic Isle Grace, head South to grab the Lakeside Crystal Cave Grace."]
+        data: ["Starting from the Scenic Isle Grace, head South to grab the Lakeside Crystal Cave Grace"]
       - id: "174"
         data: ["Kill the Boss of Lakeside Crystal Cave, Bloodhound Knight"]
       - id: "175"
@@ -399,7 +405,7 @@ sections:
       - id: "188"
         data: ["From the Grace, go down the hall and out the door to the graveyard. Go past the enemies and jump onto the rotating wheel lift and ride it all the way up. Hop off and grab the Schoolhouse Classroom Grace"]
       - id: "189"
-        data: ["From the Grace, go into the hallway and go right. Make youre way past the enemies then up the stairs, then up the stairs, then up the stairs, UP ALL THE STAIRS then go down the hall to fight and kill the Boss, Red Wolf of Radagon."]
+        data: ["From the Grace, go into the hallway and go right. Make you're way past the enemies then up the stairs, then up the stairs, then up the stairs, UP ALL THE STAIRS then go down the hall to fight and kill the Boss, Red Wolf of Radagon."]
       - id: "190"
         data: ["After it's dead grab the Debate Hall Grace."]
       - id: "191"
@@ -411,7 +417,7 @@ sections:
       - id: "194"
         data: ["With Moongrum dead, go up the lift to fight and kill the Boss, Rennala, Queen of the Full Moon."]
       - id: "195"
-        data: ["Grab the Raya Lucaria grand Library Grace."]
+        data: ["Grab the Raya Lucaria Grand Library Grace."]
   -
     title: Liurnia Lake Part Two
     items:
@@ -440,6 +446,8 @@ sections:
         data: ["Talk to Hewg until dialogue is exhausted"]
       - id: "206"
         data: ["Talk to Roderika until dialogue is exhausted"]
+      - id: "206_1"
+        data: ["Talk to Corhyn until dialogue is exhausted"]
       - id: "207"
         data: ["Talk to Diallos until dialogue is exhausted"]
       - id: "208"
@@ -452,7 +460,7 @@ sections:
     title: Liurnia Lake Part Three/Roundtable
     items:
       - id: "211"
-        data: ["Start from the Academy Gate Town Grace then head North-East. In a pavillion you will find a Waygate. Use it to appear near and grab the Northern Liurnia Lak Shore Grace."]
+        data: ["Start from the Academy Gate Town Grace then head North-West. In a pavillion you will find a Waygate. Use it to appear near and grab the Northern Liurnia Lak Shore Grace."]
       - id: "212"
         data: ["Grab the Map (Liurnia, West) just North-East of the Grace"]
       - id: "213"
@@ -506,12 +514,14 @@ sections:
         data: ["Talk to the Finger Reader nearby"]
       - id: "236"
         data: ["Head into the swamp South-East and kill the Invader, Millicent."]
+      - id: "236_1"
+        data: ["Head to the North-East side of the swamp and grab the Inner Aeonia Grace"]
       - id: "237"
-        data: ["Head to the North-East side of the swamp and grab the Sellia Under-Stair Grace."]
+        data: ["Continue further North-East to grab the Sellia Under-Stair Grace."]
       - id: "238"
         data: ["Go into the town up the stairs and head South to find Gowry's Shack. Kill the dog to make sure it doesn't break the quest then talk to Gowry in his shack and exhaust his dialogue."]
       - id: "239"
-        data: ["Follow the swamp heading South from the Sellia Under-Stair Grace and kill Commander O'Neil in the South-East section of the swamp."]
+        data: ["Follow the swamp heading South from the Inner Aeonia Grace to summon Polyanna, Adopted Daughter and kill Commander O'Neil in the South-East section of the swamp."]
       - id: "240"
         data: ["Return to Gowry and give him the needle then reload, talk to him again and exhaust his dialogue"]
       - id: "241"
