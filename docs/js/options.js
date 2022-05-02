@@ -60,7 +60,7 @@
                 reload();
                 populateProfiles();
             }
-        });
+        }
         
         $('#profileModalAdd').click(function(event) {
             profileAddSubmit();
