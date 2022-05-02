@@ -82,9 +82,9 @@ sections:
       - id: "35_13"
         data: ["Summons:"]
       -
-        - id: "1"
+        - id: "35_13_1"
           data: ["Can be summoned in Forlorn Hound's Evergaol to fight Darriwill"]
-        - id: "2"
+        - id: "35_13_2"
           data: ["Can be summoned to fight Radahn"]
   -
     title: Bloody Finger Hunter Yura
@@ -123,11 +123,11 @@ sections:
       - id: "3_7"
         data: ["Here you have a choice."]
       -
-        - id: "1"
+        - id: "3_7_1"
           data: ["He will mention Rennala and ask for a Larval Tear to go change himself. If you choose to give it to him, he will show up at Rennala's boss room as a human, then when reloaded he will be dead."]
-        - id: "2"
+        - id: "3_7_2"
           data: ["Alternatively, if you use Prattling-Pate: You're Beautiful while next to Boc after his question and then talk to him. He will mention hearing his mother's voice and ask if you feel the same. If you agree then he will be happy with his appearance."]
-        - id: "3"
+        - id: "3_7_3"
           data: ["Do nothing and he will appear outside Rennala's bossroom in Raya Lucaria"]
       - id: "3_9"
         data: [If you chose the You're Beautiful option, then you can talk to Boc again after reaching (but not completing) Crumbling Farum Azula and he will swear his fealty to you (may be able to do this after beating Morgott)"]
@@ -178,9 +178,9 @@ sections:
       - id: "23_6"
         data: ["Summons"]
       -
-        - id: "1"
+        - id: "23_6_1"
           data: ["Can be summoned to help fight the Tibia Mariner on the cliffs above Carian Study Hall"]
-        - id: "2"
+        - id: "23_6_2"
           data: ["Can be summoned to fight the Black Knife Assassin in Black Knife Catacombs."]
   -
     title: D, Beholder of the Dead aka D's Twin Brother
@@ -191,9 +191,9 @@ sections:
       - id: "24_2"
         data: ["He then seeks revenge on D's killer, whoever that may be. There are two ways this questline can go but the rewards are the same"]
       - 
-        - id: "1"
+        - id: "24_2_1"
           data: ["If you killed D yourself before he ever went to Roundtable Hold, you can just reload the area. D's brother will then immediately try to kill you. Defeating him grants you back the Twinned armor set, as well as a new Inseparable Sword."]
-        - id: "2"
+        - id: "24_2_2"
           data: ["If D died to the Weathered Dagger in Roundtable Hold, he will appear at the very end of Fia's questline where you can choose to either kill him or reload for the Twinned Armor Set and Inseparable Sword"]
       - id: "24_3"
         data: ["Summons: Can be summoned against the Twin Gargoyles in Siofra Aqueduct if you give him the Twinned Armor before fighting"]
@@ -230,9 +230,9 @@ sections:
       - id: "12_5"
         data: ["Kill him and go back to the him in Roundtable Hold. Go to his real body in the Sewers and, if you got the potion from Seluvis AND he is still alive, you get a choice."]
       -
-        - id: "1"
+        - id: "12_5_1"
           data: ["The default choice is to give his body Seedbed Curses and once you given him 5, you get the Mending Rune of the Fell Curse for another ending to the game."]
-        - id: "2"
+        - id: "12_5_2"
           data: ["If you've gotten the Seluvis's Potion from Seluvis AND Seluvis is still alive, you can choose to give it to Dung-Eater while he is tied to the chair. Go back to Seluvis and progress his questline and he'll sell you the Dung-Eater Puppet as a Spirit Ash."]
       - id: "12_6"
         data: ["Notes: Gross....."]
@@ -331,13 +331,13 @@ sections:
       - id: "20_5"
         data: ["Return to Gideon periodically after killing Mohg, The Omen, finding the Mohgwyn Dynasty Mausoleum, killing Mohg, Lord of Blood, reaching Miquella's Haligtree, and killing Malenia, Blade of Miquella. He will reward you for the information."]
       -
-        - id: "1"
+        - id: "20_5_1"
           data: ["Mohg, The Omen is found at the bottom of the Sewers beneath Leyndell on the way to complete Hyetta's quest."]
-        - id: "2"
+        - id: "20_5_2"
           data: ["Mohgwyn Dynasty Mausoleum can be entered by used the Pureblood Knight's Medal from the White-Faced Varré questline or by entering the blood-covered Waygate West section of the Consecrated Snowfield. The area requires using the Haligtree Medallion to reach."]
-        - id: "4"
+        - id: "20_5_4"
           data: ["Mohg, Lord of Blood is found as the boss of Mohgwyn's Dynasty Mausoleum."]
-        - id: "3"
+        - id: "20_5_3"
           data: ["Miquella's Haligtree is found through the Waygate in Ordina, Liturgical Town (covered in Millicent's section) in Consecrated Snowfield and Malenia, Blade of Miquella is found as the final boss of the area."]
       - id: "20_6"
         data: ["After giving all the information and receiving all of your rewards, Gideon will say that he has nothing more to teach you."]
@@ -433,9 +433,9 @@ sections:
       - id: "32_9"
         data: ["Summons"]
       -
-        - id: "1"
+        - id: "32_9_1"
           data: ["Can be summoned to fight Radahn."]
-        - id: "2"
+        - id: "32_9_2"
           data: ["MIGHT be REQUIRED to summon for the Fire Giant to continue his quest."]
   -
     title: Jar-Bairn
@@ -495,38 +495,38 @@ sections:
       - id: "42_3"
         data: ["Can be talked to at various Graces throughout the game"]
       -
-        - id: "1"
+        - id: "42_3_1"
           data: ["Talked to Third Church of Marika Grace in North-East Limgrave"]
-        - id: "2"
+        - id: "42_3_2"
           data: ["Talked to at Church of Pilgrimage Grace in North Weeping Peninsula"]
-        - id: "3"
+        - id: "42_3_3"
           data: ["Talked to at Grand Lift of Dectus Grace in North-East Liurnia Lake"]
-        - id: "4"
+        - id: "42_3_4"
           data: ["Talked to at any Altus Plateau Grace"]
-        - id: "5"
+        - id: "42_3_5"
           data: ["If progressed in Boc's questline, can be talked to at Altus Highway Junction Grace, next to Boc for dialogue about him"]
-        - id: "6"
+        - id: "42_3_6"
           data: ["Talked to at any Grace within the outer walls of Leyndell"]
-        - id: "7"
+        - id: "42_3_7"
           data: ["Talked to at the Minor Erdtree Church, within the outer walls South-West of Leyndell"]
       - id: "42_4"
         data: ["She will leave when resting at any Grace in Leyndell. Defeat Morgott, The Omen King and she will return"]
       - id: "42_5"
         data: ["Can be talked to at various Graces after this point"]
       -
-        - id: "1"
+        - id: "42_5_1"
           data: ["Talked to at the Queen's Bedchamber Grace in Leyndell before the Morgott bossfight"]
-        - id: "2"
+        - id: "42_5_2"
           data: ["Talked to at any Grace after talking with Enia about burning the Erdtree"]
-        - id: "3"
+        - id: "42_5_3"
           data: ["Talked to at any Grace after meeting Shabriri"]
-        - id: "4"
+        - id: "42_5_4"
           data: ["Talked to at Frenzied Flame Proscription Grace at the very very bottom of Leyndell Sewers"]
-        - id: "5"
+        - id: "42_5_5"
           data: ["WARNING!!! Will leave for good if you get the Frenzied Flame and rest at any Grace"]
-        - id: "6"
+        - id: "42_5_6"
           data: ["Talked to at the First Church of Marika Grace in East Mountaintops of the Giants"]
-        - id: "7"
+        - id: "42_5_7"
           data: ["Talked to at Giant's Gravepost Grace in South-East Mountaintops of the Giants"]
       - id: "42_6"
         data: ["When resting at the Forge of the Giants Grace, her questline ends"]
@@ -555,7 +555,7 @@ sections:
       - id: "31_10"
         data: ["You can now get Pest Threads and dialogue from Gowry as well as a gesture if you buy Pest Threads."]
       -
-        - id: "1"
+        - id: "31_10_1"
           data: ["If you'd like an even clearer picture of what's going on with Gowry, hit him. He'll die, and you'll see what he's hiding. Then rest and come back, and he'll have respawned, good as new and not even mad. He may not respawn if you've killed Millicent early - unclear."]
       - id: "31_11"
         data: ["Go to Windmill Village in North-East Altus Plateau and defeat the Godskin Apostle."]
@@ -574,20 +574,20 @@ sections:
       - id: "31_20"
         data: ["Time to choose."]
       -
-        - id: "1"
+        - id: "31_20_1"
           data: ["If you choose the Red summon sign, you'll invade and kill Millicent. From her, you'll receive Millicent's Prothesis. Go back to Gowry's Shack, and he'll be dead as well, giving you the Flock's Canvas Talisman and his bell bearing."]
-        - id: "2"
+        - id: "31_20_2"
           data: ["If you use the Gold summon sign, you'll help her fight her invaders. Once you win, return to where the summon signs were to find her lying by the pool of rot. Be very careful dropping down to her, if you land on her, she'll die. Exhaust her dialogue for the Rotten Winged Sword Insignia then reload the area to get back the Unalloyed Gold Needle, which you can use on a flower in Malenia's boss arena for Somber Ancient Dragon Smithing Stone and Miquella's Needle, which is needed to cure yourself of the Frenzied Flame. Gowry will remain alive, kill him for his stuff"]
       - id: "31_21"
         data: ["Summons"]
       -
-        - id: "1"
+        - id: "31_21_1"
           data: ["Can be summoned to fight the Magma Wyrm Makar"]
-        - id: "2"
+        - id: "31_21_2"
           data: ["Can be summoned to fight the Godskin Apostle in Windmill Village"]
-        - id: "3"
+        - id: "31_21_3"
           data: ["Can be summoned to fight the Dragonic Tree Sentinel guarding Leyndell"]
-        - id: "4"
+        - id: "31_21_4"
           data: ["Can be summoned to fight the Black Blade Kindred just before the Grand Lift of Rold"]
   -
     title: Miriel, Pastor of Vows
@@ -613,11 +613,11 @@ sections:
       - id: "17_4"
         data: ["Return to the Roundtable Hold. Talk to her downstairs past Hewg, then talk to Gideon to find out why she's upset"]
       -
-        - id: "1"
+        - id: "17_4_1"
           data: ["If you have been doing Seluvis's questline, you'll have a potion for her, and now would be the time. Return to Nepheli and give her the potion if you want. She'll die and appear in Seluvis's puppet room, and her questline is cut short. After his death, you can get the Nepheli Loux Puppet, a Spirit Ash."]
-        - id: "2"
+        - id: "17_4_2"
           data: ["If you don't have a potion from Seluvis, her questline continues. Even if you do, you can mention it to Gideon here, who'll give you a chance to let him dispose of the potion without giving it to anyone. You'll lose the chance to have a summonable Nepheli or Dung Eater, but Nepheli will get to live."]
-        - id: "3"
+        - id: "17_4_3"
           data: ["You can wait and give potion to Dung Eater to get the Dung Eater Puppet Spirit Ash and then continue Nepheli's Quest afterwards"]
       - id: "17_6"
         data: ["If Nepheli still lives, talk to her again for more dialogue."]
@@ -632,11 +632,11 @@ sections:
       - id: "17_11"
         data: ["Summons:"]
       -
-        - id: "1"
+        - id: "17_11_1"
           data: ["Can be summoned to fight against Godrick the Grafted in Stormveil Castle"]
-        - id: "2"
+        - id: "17_11_2"
           data: ["Can be summoned to fight against the Omenkiller in Village of the Albinaurics"]
-        - id: "3"
+        - id: "17_11_3"
           data: ["Can be summoned to fight Godfrey, First Elden Lord in Capital of Ash"]
   -
     title: Patches the Untethered
@@ -722,7 +722,7 @@ sections:
       - id: "21_3"
         data: ["After defeating Godrick, Rogier comes to Roundtable Hold, talk to him for Rogier's Rapier +8, and ask about what you found beneath Stormveil to advance his questline"]
       -
-        - id: "1"
+        - id: "21_3_1"
           data: ["Optional: Speak with D in Roundtable Hold once Rogier arrives. They know each other, and they'll each tell you a bit about the other."]
       - id: "21_4"
         data: ["Cuddle with Fia for the Knifeprint Clue then head to Black Knife Catacombs. Find the secret boss, by hopping onto the falling blades and up to the platform above. Kill the Black Knife Assassin behind the Illusory Wall for the Black Knifeprint."]
@@ -750,11 +750,11 @@ sections:
       - id: "38_7"
         data: ["Reload and talk to Tanith for the Potion of Forgetfulness then head to find Rya. She will be past the Temple of Eiglay Grace, in a room under by the lava where you find the Iron Virgin. Talk to her and be given a choice"]
       -
-        - id: "1"
+        - id: "38_7_1"
           data: ["Kill her as she asks"]
-        - id: "2"
+        - id: "38_7_2"
           data: ["Give her the Potion of Forgetfulness as Tanith asked, she will reappear back in Volcano Manor"]
-        - id: "3"
+        - id: "38_7_3"
           data: ["Do neither and continue on"]
       - id: "38_8"
         data: ["If you did neither, continue with Volcano Manor until you kill Rykard then return to Rya. Talk to her and reload to find her note and the end of her questline"]
@@ -781,9 +781,9 @@ sections:
       - id: "10_8"
         data: ["After getting access to Raya Lucaria in Liurnai Lake, go to the Grand Library Grace (where the final boss is fought) and walk out to find 2 Summon Signs. One helps Sellen and one helps Jerren. Choose one and be rewarded with their individual rewards as well as the Witch's Glintstone Crown."]
       -
-        - id: "1"
+        - id: "10_8_1"
           data: ["Sellen gives the Glintstone Kris and makes Shard Spiral available to buy"]
-        - id: "2"
+        - id: "10_8_2"
           data: ["Jerren gives an Ancient Dragon Smithing Stone"]
       - id: "10_10"
         data: ["Notes: Scrolls can be given to her but I'd give them to Miriel. Sellen also features in Blaidd's questline but isn't completely necessary to complete it."]
@@ -800,11 +800,11 @@ sections:
       - id: "19_3"
         data: ["Seluvis can now be found in his tower South of Ranni's Rise. He will give you a potion to turn someone into a puppet, and ask you to give it to Nepheli. You can't buy anything from him until you use it but you have more than one option"]
       -
-        - id: "1"
+        - id: "19_3_1"
           data: ["If you give it to Nepheli, you will get the Nepheli Loux Puppet later from his dead body."]
-        - id: "3"
+        - id: "19_3_3"
           data: ["If you give it to Dung Eater at the end of his questline instead of the Seedbed Curse, then you can buy a Dung Eater Puppet from Seluvis."]
-        - id: "2"
+        - id: "19_3_2"
           data: ["If you give it to Gideon, you get nothing but can progress both Seluvis' and Nepheli's questlines"]
       - id: "19_9"
         data: ["After you've made your choice, return to Seluvis and he will now sell Sorceries"]
