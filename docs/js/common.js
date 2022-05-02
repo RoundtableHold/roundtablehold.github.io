@@ -37,7 +37,7 @@ var themes = {
 
     window.profiles = $.jStorage.get(profilesKey, {});
     
-    window.initializeProfile = function(profile_name) {
+    function initializeProfile(profile_name) {
         if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
         if (!('checklistData' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].checklistData = {};
