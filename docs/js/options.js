@@ -71,8 +71,6 @@
             if (e.which === 13) {
                 $(this).attr('disabled', 'disabled');
                 profileAddSubmit();
-                $(this).removeAttr('disabled');
-                $('#profileModal').modal('hide');
             }
         })
 
