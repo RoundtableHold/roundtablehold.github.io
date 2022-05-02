@@ -121,7 +121,7 @@ sections:
   -
     title: "Merchants' Bell Bearings"
     icon: "/img/icons/keys/03142.png"
-    #map_icon: "/map/icons/MENU_MAP_80.png"
+    map_icon: "/map/icons/MENU_MAP_80.png"
     table: ["Merchant", "Location"]
     table_widths: [2, 10]
     items:

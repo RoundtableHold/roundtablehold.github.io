@@ -132,13 +132,21 @@
             }));
         }
 
+        var zoom = 2;
+        var center = ol.extent.getCenter(erextent);
+        if ('previousPosition' in profiles[profilesKey][profiles.current].map_settings) {
+            const pos = profiles[profilesKey][profiles.current].map_settings['previousPosition'];
+            zoom = parseFloat(pos[0]);
+            center = [parseFloat(pos[1]), parseFloat(pos[2])];
+        }
+
 
         var map = new ol.Map({
             target: 'map',
             layers: layers,
             view: new ol.View({
-                center: ol.extent.getCenter(erextent),
-                zoom: 2,
+                center: center,
+                zoom: zoom,
                 maxZoom: 8,
                 projection: projection,
                 extent: erextent,
@@ -174,6 +182,14 @@
         }
 
         initializeSettings();
+        
+        const updateSavedPosition = function () {
+            profiles = $.jStorage.get(profilesKey, {});
+            const center = map.getView().getCenter();
+            profiles[profilesKey][profiles.current].map_settings['previousPosition'] = [map.getView().getZoom().toFixed(2), center[0].toFixed(2), center[1].toFixed(2)];
+            $.jStorage.set(profilesKey, profiles);
+        }
+
 
         function gototarget() {
             const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -197,6 +213,8 @@
         }
 
         map.once('rendercomplete', gototarget);
+        
+        map.on('moveend', updateSavedPosition);
 
 
 
