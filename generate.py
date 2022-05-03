@@ -120,7 +120,7 @@ def make_nav(page, is_map = False):
                 button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true').add(i(cls='bi bi-search'))
             with div(cls='d-sm-none order-2'):
                 a(href='/search.html', cls='nav-link me-0').add(i(cls='bi bi-search sb-icon-search'))
-            with div(cls="collapse navbar-collapse order-3 order-xl-2", id="nav-collapse"):
+            with div(cls="collapse navbar-collapse order-3 order-xl-2 ms-xl-2", id="nav-collapse"):
                 with ul(cls="nav navbar-nav navbar-nav-scroll mr-auto"):
                     # with li(cls="nav-item"):
                     #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
