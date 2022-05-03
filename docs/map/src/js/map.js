@@ -1,5 +1,10 @@
 (function ($) {
     'use strict';
+        
+    if (window.innerWidth < 768) {
+        $('#layer-menu').removeClass('show');
+        $('#layer-menu').removeClass('d-none');
+    }
 
     const loadImage = src =>
         new Promise((resolve, reject) => {
@@ -67,14 +72,14 @@
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 50 / image.naturalHeight,
+                            scale: feature.get('icon_size') / image.naturalHeight,
                         })
                     }),
                     new ol.style.Style({
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: 50 / image.naturalHeight,
+                            scale: feature.get('icon_size') / image.naturalHeight,
                             opacity: 0.5,
                         })
                     })
@@ -132,13 +137,21 @@
             }));
         }
 
+        var zoom = 5;
+        var center = [4129, -7328];
+        if ('previousPosition' in profiles[profilesKey][profiles.current].map_settings) {
+            const pos = profiles[profilesKey][profiles.current].map_settings['previousPosition'];
+            zoom = parseFloat(pos[0]);
+            center = [parseFloat(pos[1]), parseFloat(pos[2])];
+        }
+
 
         var map = new ol.Map({
             target: 'map',
             layers: layers,
             view: new ol.View({
-                center: ol.extent.getCenter(erextent),
-                zoom: 2,
+                center: center,
+                zoom: zoom,
                 maxZoom: 8,
                 projection: projection,
                 extent: erextent,
@@ -174,6 +187,14 @@
         }
 
         initializeSettings();
+        
+        const updateSavedPosition = function () {
+            profiles = $.jStorage.get(profilesKey, {});
+            const center = map.getView().getCenter();
+            profiles[profilesKey][profiles.current].map_settings['previousPosition'] = [map.getView().getZoom().toFixed(2), center[0].toFixed(2), center[1].toFixed(2)];
+            $.jStorage.set(profilesKey, profiles);
+        }
+
 
         function gototarget() {
             const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -186,17 +207,27 @@
                 for (var i = 1; i < layers.length; i++) {
                     let feature = layers[i].getSource().getFeatureById(id);
                     if (feature) {
+                        const pos = map.getView().getCenter();
+                        const t = feature.getGeometry().flatCoordinates
+                        const dist = (Math.sqrt(((t[0] - pos[0]) * (t[0] - pos[0])) + ((t[1] - pos[1]) * (t[1] - pos[1]))));
+
                         map.getView().animate({
-                            center: feature.getGeometry().flatCoordinates,
+                            center: t,
                             zoom: 6,
+                            duration: Math.max((dist / 18654.8) * 4000, 1000),
+                        }, (b) => {
+                            if (b) {
+                                popup_feature(feature);
+                            }
                         })
-                        popup_feature(feature);
                     }
                 }
             }
         }
 
         map.once('rendercomplete', gototarget);
+        
+        map.on('moveend', updateSavedPosition);
 
 
 
@@ -257,18 +288,18 @@
                 return;
             }
 
-            // var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
+            var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
 
-            // popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
-            // overlay.setPosition(coordinate);
-            // var selection = window.getSelection();
-            // var range = document.createRange();
-            // range.selectNodeContents(popup_title);
-            // selection.removeAllRanges();
-            // selection.addRange(range);
-            // document.execCommand('copy');
-            overlay.setPosition(undefined);
-            popup_closer.blur();
+            popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
+            overlay.setPosition(coordinate);
+            var selection = window.getSelection();
+            var range = document.createRange();
+            range.selectNodeContents(popup_title);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+            // overlay.setPosition(undefined);
+            // popup_closer.blur();
         });
 
         $('#popup-checkbox').click(function () {
@@ -307,5 +338,6 @@
             $.jStorage.set(profilesKey, profiles);
             map.getAllLayers().forEach((l) => l.changed())
         });
+
     })
 })(jQuery);

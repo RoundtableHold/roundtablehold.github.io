@@ -1,13 +1,16 @@
 title: "Sites of Grace"
 id: graces
 map_icon: '/map/icons/MENU_MAP_01_Bonfire.png'
+map_icon_size: 50
 sections:
   -
     title: Roundtable Hold
     items:
       - id: "313"
         data: ["Table of Lost Grace"]
-        cords: [111, 9008]
+        cords: [584, 8454]
+        map_icon: '/map/icons/MENU_MAP_48.png'
+        map_icon_size: 60
         map_title: "Table of Lost Grace"
   -
     title: Limgrave

@@ -197,13 +197,13 @@
       <div class="row h-100 flex-grow-1 p-0 m-0 g-0">
         <div class="m-0 p-0 g-0" id="map"></div>
       </div>
-      <div class="offcanvas offcanvas-end m-0 p-0 g-0" data-bs-backdrop="false" data-bs-stroll="true" id="layer-menu" tabindex="-1">
+      <div class="offcanvas offcanvas-end m-0 p-0 g-0 w-auto show d-none d-lg-block" data-bs-backdrop="false" data-bs-stroll="true" id="layer-menu" tabindex="-1">
         <button class="btn btn-primary btn-sml offcanvas-btn position-absolute p-1" data-bs-target="#layer-menu" data-bs-toggle="offcanvas" style="height: 50px;" type="button">
           <i class="bi bi-caret-left-fill m-0 p-0"></i>
           <i class="bi bi-caret-right-fill m-0 p-0"></i>
         </button>
         <div class="offcanvas-body">
-          <div class="row">
+          <div class="row mb-2">
             <div class="col-auto order-last">
               <button class="btn-close text-reset d-lg-none" data-bs-dismiss="offcanvas" type="button"></button>
             </div>
@@ -232,6 +232,14 @@
             <label class="form-check-label" for="graces">
               <input class="form-check-input category-filter" hidden="" id="graces" type="checkbox" value="">
               <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="20" loading="lazy" width="20">Sites of Grace
+            </label>
+          </div>
+          <h4>Upgrades &amp; Unlocks</h4>
+          <hr class="m-0">
+          <div class="form-check">
+            <label class="form-check-label" for="bell_bearings">
+              <input class="form-check-input category-filter" hidden="" id="bell_bearings" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_80.png" height="20" loading="lazy" width="20">Bell Bearings
             </label>
           </div>
         </div>
