@@ -223,16 +223,16 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            111,
-            9008
+            584,
+            8454
           ],
           "type": "Point"
         },
         "id": "graces_313",
         "properties": {
           "group": "graces",
-          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
-          "icon_size": 50,
+          "icon": "/map/icons/MENU_MAP_48.png",
+          "icon_size": 60,
           "id": "graces_313",
           "link": "/checklists/sitesof_grace.html#item_313",
           "title": "Table of Lost Grace"
@@ -3614,6 +3614,7 @@ const feature_data = [
 const icon_urls = [
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_09.png",
+  "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_80.png",
   "/map/icons/MENU_MAP_memo_20.png"
 ]
