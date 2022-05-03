@@ -161,6 +161,8 @@
             overlays: [overlay],
         });
 
+        var devMode = false;
+
         function initializeSettings() {
             profiles = $.jStorage.get(profilesKey, {});
             if ('hideCompleted' in profiles[profilesKey][profiles.current].map_settings && profiles[profilesKey][profiles.current].map_settings['hideCompleted']) {
@@ -178,6 +180,9 @@
                     $('#' + group).prop('checked', true);
                     $('#' + group).closest('div').addClass('completed text-muted')
                 }
+            }
+            if ('devMode' in profiles[profilesKey][profiles.current].map_settings) {
+                devMode = profiles[profilesKey][profiles.current].map_settings.devMode;
             }
 
             map.getAllLayers().forEach((l) => l.changed());
@@ -286,18 +291,21 @@
                 return;
             }
 
-            var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
+            if (devMode) {
+                var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
 
-            popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
-            overlay.setPosition(coordinate);
-            var selection = window.getSelection();
-            var range = document.createRange();
-            range.selectNodeContents(popup_title);
-            selection.removeAllRanges();
-            selection.addRange(range);
-            document.execCommand('copy');
-            // overlay.setPosition(undefined);
-            // popup_closer.blur();
+                popup_title.innerHTML = `<code>\n        cords: [${c}]\n        map_title: ""</code>`;
+                overlay.setPosition(coordinate);
+                var selection = window.getSelection();
+                var range = document.createRange();
+                range.selectNodeContents(popup_title);
+                selection.removeAllRanges();
+                selection.addRange(range);
+                document.execCommand('copy');
+            } else {
+                overlay.setPosition(undefined);
+                popup_closer.blur();
+            }
         });
 
         $('#popup-checkbox').click(function () {
