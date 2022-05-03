@@ -12,12 +12,12 @@ dropdowns:
   -
     name: "Locations"
     pages:
+      - "graces.yaml" #Sites of Grace
       - "bosses.yaml" #Bosses
       - "legacy_dungeons.yaml" #Legacy Dungeons
       - "caves.yaml" #Caves, Catacombs, and Tunnels
       - "evergaols.yaml" #Evergaols
       - "illusory_walls.yaml" #Illusory Walls
-      - "graces.yaml"
   -
     name: "Equipment"
     pages:

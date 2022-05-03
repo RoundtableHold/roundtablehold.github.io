@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Options | Roundtable Guides</title>
+    <title>Map | Roundtable Guides</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -21,179 +21,228 @@
     <link href="/map/src/css/map.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid vh-100 d-flex flex-column">
-      <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
-        <div class="container-fluid">
-          <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-          <form class="d-none d-sm-flex order-2 order-xl-3">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
+    <div class="container-fluid h-100 d-flex flex-column p-0 m-0 g-0">
+      <div class="row m-0 p-0 g-0">
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none" id="top_nav">
+          <div class="container-fluid">
+            <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
+              <span class="navbar-toggler-icon"></span>
             </button>
-          </form>
-          <div class="d-sm-none order-2">
-            <a class="nav-link me-0" href="/search.html">
-              <i class="bi bi-search sb-icon-search"></i>
-            </a>
+            <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
+            <form class="d-none d-sm-flex order-2 order-xl-3">
+              <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+              <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <div class="d-sm-none order-2">
+              <a class="nav-link me-0" href="/search.html">
+                <i class="bi bi-search sb-icon-search"></i>
+              </a>
+            </div>
+            <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
+              <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
+                <li class="dropdown nav-item">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                    </li>
+                    <li class="tab-li">
+                      <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item tab-li">
+                  <a class="nav-link hide-buttons active" href="/map.html">
+                    <i class="bi bi-map"></i> Map
+                  </a>
+                </li>
+                <li class="nav-item tab-li">
+                  <a class="nav-link hide-buttons" href="/options.html">
+                    <i class="bi bi-gear-fill"></i> Options
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="collapse navbar-collapse order-3 order-xl-2" id="nav-collapse">
-            <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
-              <li class="dropdown nav-item">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
-                  <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
-                  </li>
-                  <li class="tab-li">
-                    <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item tab-li">
-                <a class="nav-link hide-buttons active" href="/map.html">
-                  <i class="bi bi-map"></i> Map
-                </a>
-              </li>
-              <li class="nav-item tab-li">
-                <a class="nav-link hide-buttons" href="/options.html">
-                  <i class="bi bi-gear-fill"></i> Options
-                </a>
-              </li>
-            </ul>
+        </nav>
+      </div>
+      <div class="row h-100 flex-grow-1 p-0 m-0 g-0">
+        <div class="m-0 p-0 g-0" id="map"></div>
+      </div>
+      <div class="offcanvas offcanvas-end m-0 p-0 g-0 w-auto show d-none d-lg-block" data-bs-backdrop="false" data-bs-stroll="true" id="layer-menu" tabindex="-1">
+        <button class="btn btn-primary btn-sml offcanvas-btn position-absolute p-1" data-bs-target="#layer-menu" data-bs-toggle="offcanvas" style="height: 50px;" type="button">
+          <i class="bi bi-caret-left-fill m-0 p-0"></i>
+          <i class="bi bi-caret-right-fill m-0 p-0"></i>
+        </button>
+        <div class="offcanvas-body">
+          <div class="row mb-2">
+            <div class="col-auto order-last">
+              <button class="btn-close text-reset d-lg-none" data-bs-dismiss="offcanvas" type="button"></button>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" id="hideCompleted" type="checkbox" value="">
+                <label class="form-check-label" for="hideCompleted">Hide Completed</label>
+              </div>
+            </div>
+          </div>
+          <h4>Locations</h4>
+          <hr class="m-0">
+          <div class="form-check">
+            <label class="form-check-label" for="graces">
+              <input class="form-check-input category-filter" hidden="" id="graces" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="20" loading="lazy" width="20">Sites of Grace
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="bosses">
+              <input class="form-check-input category-filter" hidden="" id="bosses" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_memo_20.png" height="20" loading="lazy" width="20">Bosses
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="evergaols">
+              <input class="form-check-input category-filter" hidden="" id="evergaols" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/edited/MENU_MAP_09.png" height="20" loading="lazy" width="20">Evergaols
+            </label>
+          </div>
+          <h4>Upgrades &amp; Unlocks</h4>
+          <hr class="m-0">
+          <div class="form-check">
+            <label class="form-check-label" for="bell_bearings">
+              <input class="form-check-input category-filter" hidden="" id="bell_bearings" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_80.png" height="20" loading="lazy" width="20">Bell Bearings
+            </label>
           </div>
         </div>
-      </nav>
-      <div class="row flex-grow-1">
-        <div class="col flex-grow-1" id="map"></div>
       </div>
       <div class="ol-popup" id="popup">
         <a class="ol-popup-closer" href="#" id="popup-closer"></a>

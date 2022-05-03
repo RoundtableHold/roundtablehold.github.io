@@ -49,7 +49,7 @@
             $('#profileModal').modal('show');
         });
 
-        $('#profileModalAdd').click(function(event) {
+        function profileAddSubmit() {
             profiles = $.jStorage.get(profilesKey, {});
             var profile = $.trim($('#profileModalName').val());
             if (profile.length > 0) {
@@ -59,6 +59,19 @@
                 $.jStorage.set(profilesKey, profiles);
                 reload();
                 populateProfiles();
+            }
+        }
+        
+        $('#profileModalAdd').click(function(event) {
+            profileAddSubmit();
+        });
+        
+        $('#profileModalName').on('keypress', function(e) {
+            if (e.which === 13) {
+                $(this).attr('disabled', 'disabled');
+                profileAddSubmit();
+                $(this).removeAttr('disabled');
+                $('#profileModal').modal('hide');
             }
         });
 
@@ -78,11 +91,11 @@
         });
 
         $('#profileModalDelete').click(function(event) {
-            $('#deleteModal').show();
+            $('#deleteModal').modal('show');
         });
 
         $('#deleteYes').click(function(event) {
-            $('#deleteModal').hide();
+            $('#deleteModal').modal('hide');
             profiles = $.jStorage.get(profilesKey, {});
             event.preventDefault();
             if (!canDelete()) {

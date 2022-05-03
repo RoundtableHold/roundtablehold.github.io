@@ -37,7 +37,7 @@ var themes = {
 
     window.profiles = $.jStorage.get(profilesKey, {});
     
-    function initializeProfile(profile_name) {
+    window.initializeProfile = function(profile_name) {
         if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
         if (!('checklistData' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].checklistData = {};
@@ -49,6 +49,9 @@ var themes = {
             profiles[profilesKey][profile_name].journey = 1;
         if (!('style' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].style = 'Standard';
+        if (!('map_settings' in profiles[profilesKey][profile_name]))
+            profiles[profilesKey][profile_name].map_settings = {};
+        $.jStorage.set(profilesKey, profiles);
     }
     
     window.themeSetup = function (stylesheet) {
@@ -130,7 +133,7 @@ var themes = {
                     b &= profiles[profilesKey][profiles.current].checklistData[s];
                 }
                 for (const t of links['andtargets']) {
-                    if (profiles[profilesKey][profiles.current].checklistData[t] != b) {
+                    if (!profiles[profilesKey][profiles.current].checklistData[t] && b) {
                         setItem(t, b, startup);
                     }
                 }
