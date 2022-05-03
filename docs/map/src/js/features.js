@@ -4,225 +4,6 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3880,
-            7216
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_15",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_15",
-          "link": "/checklists/bosses.html#item_2_15",
-          "title": "Flying Dragon Agheel"
-        },
-        "type": "Feature"
-      }
-    ],
-    "type": "FeatureCollection"
-  },
-  {
-    "features": [
-      {
-        "geometry": {
-          "coordinates": [
-            4207,
-            7666
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_1_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_1_1",
-          "link": "/checklists/evergaols.html#item_1_1",
-          "title": "Forlorn Hound Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3646,
-            6998
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_1_2",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_1_2",
-          "link": "/checklists/evergaols.html#item_1_2",
-          "title": "Stormhill Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3599,
-            7957
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_0_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_0_1",
-          "link": "/checklists/evergaols.html#item_0_1",
-          "title": "Weeping Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2684,
-            6120
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_2_2",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_2_2",
-          "link": "/checklists/evergaols.html#item_2_2",
-          "title": "Malefactor's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            1377,
-            5030
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_2_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_2_1",
-          "link": "/checklists/evergaols.html#item_2_1",
-          "title": "Cuckoo's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2276,
-            3697
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_2_3",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_2_3",
-          "link": "/checklists/evergaols.html#item_2_3",
-          "title": "Royal Grave Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            1377,
-            5693
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_2_4",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_2_4",
-          "link": "/checklists/evergaols.html#item_2_4",
-          "title": "Ringleader's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            5413,
-            6515
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_3_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_3_1",
-          "link": "/checklists/evergaols.html#item_3_1",
-          "title": "Sellia Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2880,
-            3791
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_4_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_4_1",
-          "link": "/checklists/evergaols.html#item_4_1",
-          "title": "Golden Lineage Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            6478,
-            2280
-          ],
-          "type": "Point"
-        },
-        "id": "evergaols_5_1",
-        "properties": {
-          "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "evergaols_5_1",
-          "link": "/checklists/evergaols.html#item_5_1",
-          "title": "Lord Contender's Evergaol"
-        },
-        "type": "Feature"
-      }
-    ],
-    "type": "FeatureCollection"
-  },
-  {
-    "features": [
-      {
-        "geometry": {
-          "coordinates": [
             584,
             8454
           ],
@@ -2294,6 +2075,291 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2088,
+            4323
+          ],
+          "type": "Point"
+        },
+        "id": "graces_108",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_108",
+          "link": "/checklists/sitesof_grace.html#item_108",
+          "title": "East Raya Lucaria Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2185,
+            4061
+          ],
+          "type": "Point"
+        },
+        "id": "graces_109",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_109",
+          "link": "/checklists/sitesof_grace.html#item_109",
+          "title": "Bellum Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2671,
+            3774
+          ],
+          "type": "Point"
+        },
+        "id": "graces_110",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_110",
+          "link": "/checklists/sitesof_grace.html#item_110",
+          "title": "Grand Lift of Dectus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2740,
+            4154
+          ],
+          "type": "Point"
+        },
+        "id": "graces_111",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_111",
+          "link": "/checklists/sitesof_grace.html#item_111",
+          "title": "Frenzied Flame Village Outskirts"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2507,
+            3999
+          ],
+          "type": "Point"
+        },
+        "id": "graces_112",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_112",
+          "link": "/checklists/sitesof_grace.html#item_112",
+          "title": "Church of Inhibition"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2571,
+            3606
+          ],
+          "type": "Point"
+        },
+        "id": "graces_113",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_113",
+          "link": "/checklists/sitesof_grace.html#item_113",
+          "title": "Ruin-Strewn Precipice"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2468,
+            3640
+          ],
+          "type": "Point"
+        },
+        "id": "graces_114",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_114",
+          "link": "/checklists/sitesof_grace.html#item_114",
+          "title": "Ruin-Strewn Precipice Overlook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2358,
+            3594
+          ],
+          "type": "Point"
+        },
+        "id": "graces_115",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_115",
+          "link": "/checklists/sitesof_grace.html#item_115",
+          "title": "Magma Wyrm Makar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1673,
+            5933
+          ],
+          "type": "Point"
+        },
+        "id": "graces_116",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_116",
+          "link": "/checklists/sitesof_grace.html#item_116",
+          "title": "Moonlight Altar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1905,
+            5783
+          ],
+          "type": "Point"
+        },
+        "id": "graces_117",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_117",
+          "link": "/checklists/sitesof_grace.html#item_117",
+          "title": "Cathedral of Manus Celes"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1437,
+            6222
+          ],
+          "type": "Point"
+        },
+        "id": "graces_118",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_118",
+          "link": "/checklists/sitesof_grace.html#item_118",
+          "title": "Altar South"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1795,
+            4894
+          ],
+          "type": "Point"
+        },
+        "id": "graces_119",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_119",
+          "link": "/checklists/sitesof_grace.html#item_119",
+          "title": "Church of the Cuckoo"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1943,
+            4983
+          ],
+          "type": "Point"
+        },
+        "id": "graces_120",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_120",
+          "link": "/checklists/sitesof_grace.html#item_120",
+          "title": "Schoolhouse Classroom"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1963,
+            5019
+          ],
+          "type": "Point"
+        },
+        "id": "graces_121",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_121",
+          "link": "/checklists/sitesof_grace.html#item_121",
+          "title": "Debate Parlor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1840,
+            4819
+          ],
+          "type": "Point"
+        },
+        "id": "graces_122",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_122",
+          "link": "/checklists/sitesof_grace.html#item_122",
+          "title": "Raya Lucaria Grand Library"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4658,
             6243
           ],
@@ -4226,6 +4292,225 @@ const feature_data = [
           "id": "graces_312",
           "link": "/checklists/sitesof_grace.html#item_312",
           "title": "Maliketh, the Black Blade"
+        },
+        "type": "Feature"
+      }
+    ],
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3880,
+            7216
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_15",
+          "link": "/checklists/bosses.html#item_2_15",
+          "title": "Flying Dragon Agheel"
+        },
+        "type": "Feature"
+      }
+    ],
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            4207,
+            7666
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_1_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_1_1",
+          "link": "/checklists/evergaols.html#item_1_1",
+          "title": "Forlorn Hound Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3646,
+            6998
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_1_2",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_1_2",
+          "link": "/checklists/evergaols.html#item_1_2",
+          "title": "Stormhill Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3599,
+            7957
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_0_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_0_1",
+          "link": "/checklists/evergaols.html#item_0_1",
+          "title": "Weeping Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2684,
+            6120
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_2_2",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_2_2",
+          "link": "/checklists/evergaols.html#item_2_2",
+          "title": "Malefactor's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1377,
+            5030
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_2_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_2_1",
+          "link": "/checklists/evergaols.html#item_2_1",
+          "title": "Cuckoo's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2276,
+            3697
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_2_3",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_2_3",
+          "link": "/checklists/evergaols.html#item_2_3",
+          "title": "Royal Grave Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1377,
+            5693
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_2_4",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_2_4",
+          "link": "/checklists/evergaols.html#item_2_4",
+          "title": "Ringleader's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5413,
+            6515
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_3_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_3_1",
+          "link": "/checklists/evergaols.html#item_3_1",
+          "title": "Sellia Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2880,
+            3791
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_4_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_4_1",
+          "link": "/checklists/evergaols.html#item_4_1",
+          "title": "Golden Lineage Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6478,
+            2280
+          ],
+          "type": "Point"
+        },
+        "id": "evergaols_5_1",
+        "properties": {
+          "group": "evergaols",
+          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "evergaols_5_1",
+          "link": "/checklists/evergaols.html#item_5_1",
+          "title": "Lord Contender's Evergaol"
         },
         "type": "Feature"
       }

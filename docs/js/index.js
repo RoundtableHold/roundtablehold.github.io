@@ -3521,6 +3521,8 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
+const graces_total = 314;
+var graces_checked = 0;
 const bosses_total = 230;
 var bosses_checked = 0;
 const legacy_total = 16;
@@ -3531,8 +3533,6 @@ const evergaols_total = 10;
 var evergaols_checked = 0;
 const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
-const graces_total = 314;
-var graces_checked = 0;
 const weapons_total = 377;
 var weapons_checked = 0;
 const armor_total = 512;
@@ -3596,6 +3596,9 @@ achievements_checked += 1;
 if (id.startsWith("legendaries")) {
 legendaries_checked += 1;
 }
+if (id.startsWith("graces")) {
+graces_checked += 1;
+}
 if (id.startsWith("bosses")) {
 bosses_checked += 1;
 }
@@ -3610,9 +3613,6 @@ evergaols_checked += 1;
 }
 if (id.startsWith("illusory_walls")) {
 illusory_walls_checked += 1;
-}
-if (id.startsWith("graces")) {
-graces_checked += 1;
 }
 if (id.startsWith("weapons")) {
 weapons_checked += 1;
@@ -3710,6 +3710,11 @@ $("#legendaries_progress_total").html("DONE");
 } else {
 $("#legendaries_progress_total").html(legendaries_checked + "/" + legendaries_total);
 }
+if (graces_checked >= graces_total){
+$("#graces_progress_total").html("DONE");
+} else {
+$("#graces_progress_total").html(graces_checked + "/" + graces_total);
+}
 if (bosses_checked >= bosses_total){
 $("#bosses_progress_total").html("DONE");
 } else {
@@ -3734,11 +3739,6 @@ if (illusory_walls_checked >= illusory_walls_total){
 $("#illusory_walls_progress_total").html("DONE");
 } else {
 $("#illusory_walls_progress_total").html(illusory_walls_checked + "/" + illusory_walls_total);
-}
-if (graces_checked >= graces_total){
-$("#graces_progress_total").html("DONE");
-} else {
-$("#graces_progress_total").html(graces_checked + "/" + graces_total);
 }
 if (weapons_checked >= weapons_total){
 $("#weapons_progress_total").html("DONE");
