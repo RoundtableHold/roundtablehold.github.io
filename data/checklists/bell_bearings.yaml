@@ -6,7 +6,7 @@ description: "Bell bearings should be given to the Twin Maiden Husks at the Roun
 sections:
   -
     title: "Smithing-Stone Miner's Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
     table_widths: [1, 2, 9]
     items:
@@ -20,7 +20,7 @@ sections:
         data: ["[4]", "Smithing Stone 7/8", "Dropped by the <a href=\"bosses.html#item_11_2\">Godskin Duo</a> in Crumbling Farum Azula."]
   -
     title: "Somberstone Miner's Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
     table_widths: [1, 2, 9]
     items:
@@ -36,7 +36,7 @@ sections:
         data: ["[5]", "Somber Stone 9", "In Crumbling Farum Azula. Little hard to explain. From the Dragon Temple Rooftop Grace, hop down to where all the nasty birds are. Past the birds is a dragon. Going past the dragon to the right is a bunch of demi-humans. Past them is a ruin that's fallen over and become a bridge. In the next building on the right is a corpse with the Bell Bearing."]
   -
     title: "Glovewort Picker's Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
     table_widths: [1, 2, 9]
     items:
@@ -48,7 +48,7 @@ sections:
         data: ["[3]", "Grave Glovewort 7/8/9", "In Crumbling Farum Azula in a lake. Go down the elevator South-West of the room that is North-West from the Crumbling Beast Grave Depths Grace. You'll see a lake down the path and the Bell Bearing is there."]
   -
     title: "Ghost-Glovewort Picker's Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
     table_widths: [1, 2, 9]
     items:
@@ -60,7 +60,7 @@ sections:
         data: ["[3]", "Ghost Glovewort 7/8/9", "Requires Haligtree Medallion. In Miquella's Haligtree. From the Haligtree Roots Grace, go up the elevator and outside the church. Turn left and go down to all the shrimp men and it will next to a grave."]
   -
     title: "Peddlers' Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     table: ["Version", "Unlocks", "Location"]
     table_widths: [2, 2, 8]
     items:
@@ -78,50 +78,50 @@ sections:
     table_widths: [3, 2, 7]
     items:
       - id: "6_1"
-        icon: "/img/icons/keys/03145.png"
+        icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_36_5\">Bernahl</a>", "No", "The only chance to get Bernahl's bell bearing is murdering him at his initial location in the Warmaster's Shack in Limgrave. The only other place you see him in person is the combat-free Volcano Manor; when he moves on from there, he leaves his sword behind, which functions as his shop from then on, and at the end of his questline, he doesn't drop it. His shop also adds unique items when you meet him at Volcano Manor, so getting his bell bearing at all locks you out of buying these exclusive Ashes of War."]
       - id: "6_2"
-        icon: "/img/icons/keys/03142.png"
+        icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#item_11_4\">Blackguard</a>", "Depends", "If you follow both his and Dung Eater's questlines, you can loot his bell bearing once he dies in Capital Outskirts. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
       - id: "6_3"
-        icon: "/img/icons/keys/03144.png"
+        icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#item_7_8\">Corhyn</a>", "Yes", "If you follow his questline, at the end in Leyndell, Capital of Ash or Mountaintops of the Giants, reload after finding him for the final time and you'll find his bell bearing. His shop inventory (and thus his bell bearing) adds items over his questline, in addition to any prayerbooks, so don't kill him early."]
       - id: "6_4"
-        icon: "/img/icons/keys/03144.png"
+        icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#item_23_5\">D, Hunter of the Dead</a>", "Yes", "Lootable at the end of his questline in Roundtable Hold."]
       - id: "6_5"
-        icon: "/img/icons/keys/03142.png"
+        icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_15\">Gostoc</a>", "No", "Gostoc never becomes hostile. To obtain his bell bearing, you must murder him at some point. His shop inventory (and thus his bell bearing) adds a very rare item at the end of his questline, so don't kill him early if you want it."]
       - id: "6_6"
-        icon: "/img/icons/keys/03143.png"
+        icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_31_20\">Gowry</a>", "Depends", "At the end of Gowry and Millicent's intertwined questline, he will die naturally if you side against Millicent. If you side with her, you'll have to kill him yourself, in which case he won't respawn like he usually does and you'll get his loot and bell bearing."]
       - id: "6_7"
-        icon: "/img/icons/keys/03145.png"
+        icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_41_5\">Iji</a>", "Yes", "Looted off his body at the end of his questline at his usual spot in Liurnia. You cannot kill him early. Following Blaidd's quest adds an extra item to his shop and bell bearing."]
       - id: "6_8"
-        icon: "/img/icons/keys/03144.png"
+        icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_28\">Miriel</a>", "No", "Miriel never becomes hostile. If you murder him, you'll get his bell bearing. You monster."]
       - id: "6_9"
-        icon: "/img/icons/keys/03142.png"
+        icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_30\">Patches</a>", "No", "Patches never becomes hostile (permanently). To obtain his bell bearing, you must murder him at some point."]
       - id: "6_10"
-        icon: "/img/icons/keys/03142.png"
+        icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#item_18_2\">Pidia</a>", "Yes", "Looted off his body at the end of his questline in Caria Manor."]
       - id: "6_11"
-        icon: "/img/icons/keys/03145.png"
+        icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_21_7\">Rogier</a>", "Yes", "Looted off his body at the end of his questline in Roundtable Hold."]
       - id: "6_12"
-        icon: "/img/icons/keys/03143.png"
+        icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_10_8\">Sellen</a>", "Depends", "At the end of her questline, you choose whether or not to side with her in her duel with Jerren. Killing her grants her bell bearing, while siding with her does not, and you will not be able to obtain it thereafter as she stays in Rennala's combat-free library."]
       - id: "6_13"
-        icon: "/img/icons/keys/03146.png"
+        icon: "/img/icons/keys/edited/03146.png"
         data: ["<a href=\"npc_questlines.html#item_19_7\">Seluvis</a>", "Yes", "Looted off his body at Seluvis's Rise at the end of his questline. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
       - id: "6_14"
-        icon: "/img/icons/keys/03143.png"
+        icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_4_3\">Thops</a>", "Yes", "Looted off his body in Raya Lucaria at the end of his questline."]
   -
     title: "Merchants' Bell Bearings"
-    icon: "/img/icons/keys/03142.png"
+    icon: "/img/icons/keys/edited/03142.png"
     map_icon: "/map/icons/MENU_MAP_80.png"
     map_icon_size: 35
     table: ["Merchant", "Location"]

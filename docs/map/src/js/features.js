@@ -4335,7 +4335,7 @@ const feature_data = [
         "id": "evergaols_1_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_1_1",
           "link": "/checklists/evergaols.html#item_1_1",
@@ -4354,7 +4354,7 @@ const feature_data = [
         "id": "evergaols_1_2",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_1_2",
           "link": "/checklists/evergaols.html#item_1_2",
@@ -4373,7 +4373,7 @@ const feature_data = [
         "id": "evergaols_0_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_0_1",
           "link": "/checklists/evergaols.html#item_0_1",
@@ -4392,7 +4392,7 @@ const feature_data = [
         "id": "evergaols_2_2",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_2_2",
           "link": "/checklists/evergaols.html#item_2_2",
@@ -4411,7 +4411,7 @@ const feature_data = [
         "id": "evergaols_2_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_2_1",
           "link": "/checklists/evergaols.html#item_2_1",
@@ -4430,7 +4430,7 @@ const feature_data = [
         "id": "evergaols_2_3",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_2_3",
           "link": "/checklists/evergaols.html#item_2_3",
@@ -4449,7 +4449,7 @@ const feature_data = [
         "id": "evergaols_2_4",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_2_4",
           "link": "/checklists/evergaols.html#item_2_4",
@@ -4468,7 +4468,7 @@ const feature_data = [
         "id": "evergaols_3_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_3_1",
           "link": "/checklists/evergaols.html#item_3_1",
@@ -4487,7 +4487,7 @@ const feature_data = [
         "id": "evergaols_4_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_4_1",
           "link": "/checklists/evergaols.html#item_4_1",
@@ -4506,7 +4506,7 @@ const feature_data = [
         "id": "evergaols_5_1",
         "properties": {
           "group": "evergaols",
-          "icon": "/map/icons/MENU_MAP_09.png",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
           "id": "evergaols_5_1",
           "link": "/checklists/evergaols.html#item_5_1",
@@ -4886,8 +4886,8 @@ const feature_data = [
 ];
 const icon_urls = [
   "/map/icons/MENU_MAP_01_Bonfire.png",
-  "/map/icons/MENU_MAP_09.png",
   "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_80.png",
-  "/map/icons/MENU_MAP_memo_20.png"
+  "/map/icons/MENU_MAP_memo_20.png",
+  "/map/icons/edited/MENU_MAP_09.png"
 ]

@@ -7,38 +7,38 @@ sections:
     table: [Name, Description, Location]
     items:
       - id: "1_1"
-        icon: "/img/icons/tools/00009.png"
+        icon: "/img/icons/tools/edited/00009.png"
         data: ["Memory of Grace", "Return to last Site of Grace; destroys currently held runes, but leaves intact existing rune retrieval", "Granted automatically at start of game"]
       - id: "1_2"
-        icon: "/img/icons/tools/00092.png"
+        icon: "/img/icons/tools/edited/00092.png"
         data: ["Telescope", "Shift camera into first person view", "Bought from Kalé in Church of Elleh, Limgrave, for 500 runes"]
       - id: "1_3"
-        icon: "/img/icons/tools/00013.png"
+        icon: "/img/icons/tools/edited/00013.png"
         data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
       - id: "1_4"
-        icon: "/img/icons/tools/03068.png"
+        icon: "/img/icons/tools/edited/03068.png"
         data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
       - id: "1_5"
-        icon: "/img/icons/tools/00093.png"
+        icon: "/img/icons/tools/edited/00093.png"
         data: ["Lantern", "Dimly illuminate surroundings", "Bought for 1800 runes from either the Isolated Merchant at the Isolated Merchant's Shack Site of Grace in Weeping Peninsula or the Nomadic Merchant by the Liurnia Lake Shore Site of Grace in Liurnia"]
       - id: "1_6"
-        icon: "/img/icons/tools/00625.png"
+        icon: "/img/icons/tools/edited/00625.png"
         data: ["Pureblood Knight's Medal", "Teleport self to Dynasty Mausoleum Entrance Site of Grace; can be used to warp out of any combat safely", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
   -
     title: Combat
     table: [Name, Description, Location]
     items:
       - id: "2_1"
-        icon: "/img/icons/tools/00597.png"
+        icon: "/img/icons/tools/edited/00597.png"
         data: ["Margit's Shackle", "Usable up to twice in each attempt at the first phase of Margit, miniboss Margit, or Morgott: stun them for a few seconds", "Bought from Patches for 5000 runes"]
       - id: "2_2"
-        icon: "/img/icons/tools/00201.png"
+        icon: "/img/icons/tools/edited/00201.png"
         data: ["Wraith Calling Bell", "Spend 7 FP to conjure homing projectiles", "In northwest Laskyar Ruins, Liurnia of the Lakes, in the underground chest"]
       - id: "2_3"
-        icon: "/img/icons/tools/00193.png"
+        icon: "/img/icons/tools/edited/00193.png"
         data: ["Ancestral Infant's Head", "Spend 27 FP to spawn geysers that deal magic damage to enemies", "In the submerged ruin in northwestern Ancestral Woods in Nokron, Eternal City; carefully platform to the far side and defeat the Ancestral Follower guarding a chest with this tool"]
       - id: "2_4"
-        icon: "/img/icons/tools/00598.png"
+        icon: "/img/icons/tools/edited/00598.png"
         data: ["Mohg's Shackle", "Usable up to twice in each attempt at the first phase of Mohg: stun him for a few seconds", "Found in Subterranean Shunning-Grounds guarded by two Giant Crayfish"]
       - id: "2_5"
         icon: "/img/icons/tools/00593.png"
@@ -47,7 +47,7 @@ sections:
         icon: "/img/icons/tools/00677.png"
         data: ["Regal Omen Bairn", "Spend 50 FP to conjure more wraiths that deal more damage", "One of the choices offered when trading in the Remembrance of the Omen King to Finger Reader Enia at the Roundtable Hold"]
       - id: "2_7"
-        icon: "/img/icons/tools/00094.png"
+        icon: "/img/icons/tools/edited/00094.png"
         data: ["Blasphemous Claw", "Parry specific melee attacks by Maliketh, stunning him", "Dropped by Recusant Bernahl in Crumbling Farum Azula"]
   -
     title: Prattling Pates
