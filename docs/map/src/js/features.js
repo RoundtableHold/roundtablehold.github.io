@@ -4303,6 +4303,272 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3781,
+            7390
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_1",
+          "link": "/checklists/bosses.html#item_2_1",
+          "title": "Soldier of Godrick"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3704,
+            7253
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_14",
+          "link": "/checklists/bosses.html#item_2_14",
+          "title": "Tree Sentinel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3521,
+            7326
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_2",
+          "link": "/checklists/bosses.html#item_2_2",
+          "title": "Demi-Human Chief (x2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3521,
+            7040
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_3",
+          "link": "/checklists/bosses.html#item_2_3",
+          "title": "Erdtree Burial Watchdog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3653,
+            7047
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_4",
+          "link": "/checklists/bosses.html#item_2_4",
+          "title": "Beastman of Farum Azula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3864,
+            7049
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_5",
+          "link": "/checklists/bosses.html#item_2_5",
+          "title": "Stonedigger Troll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4058,
+            7137
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_13",
+          "link": "/checklists/bosses.html#item_2_13",
+          "title": "Night's Cavalry"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4239,
+            7232
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_12",
+          "link": "/checklists/bosses.html#item_2_12",
+          "title": "Mad Pumpkin Head"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4227,
+            7671
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_18",
+          "link": "/checklists/bosses.html#item_2_18",
+          "title": "Bloodhound Knight Darriwil"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4075,
+            6933
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_7",
+          "link": "/checklists/bosses.html#item_2_7",
+          "title": "Bloody Finger Nerijus (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4026,
+            6962
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_8",
+          "link": "/checklists/bosses.html#item_2_8",
+          "title": "Patches"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4057,
+            6735
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_6",
+          "link": "/checklists/bosses.html#item_2_6",
+          "title": "Grave Warden Duelist"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4032,
+            6403
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_9",
+          "link": "/checklists/bosses.html#item_2_9",
+          "title": "Guardian Golem"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3909,
+            6496
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_10",
+          "link": "/checklists/bosses.html#item_2_10",
+          "title": "Black Knife Assassin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3880,
             7216
           ],
@@ -4316,6 +4582,253 @@ const feature_data = [
           "id": "bosses_2_15",
           "link": "/checklists/bosses.html#item_2_15",
           "title": "Flying Dragon Agheel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4452,
+            6518
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_16",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_16",
+          "link": "/checklists/bosses.html#item_2_16",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4669,
+            6279
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_17",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_17",
+          "link": "/checklists/bosses.html#item_2_17",
+          "title": "Anastasia, Tarnished-Eater (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3631,
+            6984
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_19",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_19",
+          "link": "/checklists/bosses.html#item_2_19",
+          "title": "Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3725,
+            6687
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_20",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_20",
+          "link": "/checklists/bosses.html#item_2_20",
+          "title": "Bell Bearing Hunter"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3842,
+            6729
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_21",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_21",
+          "link": "/checklists/bosses.html#item_2_21",
+          "title": "Deathbird"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3625,
+            6473
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_22",
+          "link": "/checklists/bosses.html#item_2_22",
+          "title": "Old Knight Istvan"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3088,
+            6708
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_24",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_24",
+          "link": "/checklists/bosses.html#item_2_24",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3058,
+            6680
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_25",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_25",
+          "link": "/checklists/bosses.html#item_2_25",
+          "title": "Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3118,
+            6698
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_26",
+          "link": "/checklists/bosses.html#item_2_26",
+          "title": "Grafted Scion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3218,
+            6713
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_27",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_27",
+          "link": "/checklists/bosses.html#item_2_27",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3277,
+            6826
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_28",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_28",
+          "link": "/checklists/bosses.html#item_2_28",
+          "title": "Margit, the Fell Omen"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3087,
+            6447
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_29",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_29",
+          "link": "/checklists/bosses.html#item_2_29",
+          "title": "Godrick the Grafted"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3650,
+            6420
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_11",
+          "link": "/checklists/bosses.html#item_2_11",
+          "title": "Recusant Henricus (NPC Invader)"
         },
         "type": "Feature"
       }
