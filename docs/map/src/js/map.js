@@ -1,5 +1,10 @@
 (function ($) {
     'use strict';
+        
+    if (window.innerWidth < 768) {
+        $('#layer-menu').removeClass('show');
+        $('#layer-menu').removeClass('d-none');
+    }
 
     const loadImage = src =>
         new Promise((resolve, reject) => {
@@ -325,5 +330,6 @@
             $.jStorage.set(profilesKey, profiles);
             map.getAllLayers().forEach((l) => l.changed())
         });
+
     })
 })(jQuery);

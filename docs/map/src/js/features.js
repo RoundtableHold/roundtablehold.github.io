@@ -3258,7 +3258,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_1",
           "link": "/checklists/bell_bearings.html#item_7_1",
           "title": "Kal\u00e9"
@@ -3277,7 +3277,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_2",
           "link": "/checklists/bell_bearings.html#item_7_2",
           "title": "Nomadic Merchant (1)"
@@ -3296,7 +3296,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_3",
           "link": "/checklists/bell_bearings.html#item_7_3",
           "title": "Nomadic Merchant (2)"
@@ -3315,7 +3315,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_4",
           "link": "/checklists/bell_bearings.html#item_7_4",
           "title": "Nomadic Merchant (3)"
@@ -3334,7 +3334,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_5",
           "link": "/checklists/bell_bearings.html#item_7_5",
           "title": "Nomadic Merchant (4)"
@@ -3353,7 +3353,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_6",
           "link": "/checklists/bell_bearings.html#item_7_6",
           "title": "Nomadic Merchant (5)"
@@ -3372,7 +3372,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_7",
           "link": "/checklists/bell_bearings.html#item_7_7",
           "title": "Nomadic Merchant (6)"
@@ -3391,7 +3391,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_8",
           "link": "/checklists/bell_bearings.html#item_7_8",
           "title": "Nomadic Merchant (7)"
@@ -3410,7 +3410,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_9",
           "link": "/checklists/bell_bearings.html#item_7_9",
           "title": "Nomadic Merchant (8)"
@@ -3429,7 +3429,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_10",
           "link": "/checklists/bell_bearings.html#item_7_10",
           "title": "Nomadic Merchant (9)"
@@ -3448,7 +3448,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_11",
           "link": "/checklists/bell_bearings.html#item_7_11",
           "title": "Nomadic Merchant (10)"
@@ -3467,7 +3467,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_12",
           "link": "/checklists/bell_bearings.html#item_7_12",
           "title": "Isolated Merchant (1)"
@@ -3486,7 +3486,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_13",
           "link": "/checklists/bell_bearings.html#item_7_13",
           "title": "Isolated Merchant (2)"
@@ -3505,7 +3505,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_14",
           "link": "/checklists/bell_bearings.html#item_7_14",
           "title": "Isolated Merchant (3)"
@@ -3524,7 +3524,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_15",
           "link": "/checklists/bell_bearings.html#item_7_15",
           "title": "Hermit Merchant (1)"
@@ -3543,7 +3543,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_16",
           "link": "/checklists/bell_bearings.html#item_7_16",
           "title": "Hermit Merchant (2)"
@@ -3562,7 +3562,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_17",
           "link": "/checklists/bell_bearings.html#item_7_17",
           "title": "Hermit Merchant (3)"
@@ -3581,7 +3581,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_18",
           "link": "/checklists/bell_bearings.html#item_7_18",
           "title": "Abandoned Merchant"
@@ -3600,7 +3600,7 @@ const feature_data = [
         "properties": {
           "group": "bell_bearings",
           "icon": "/map/icons/MENU_MAP_80.png",
-          "icon_size": 40,
+          "icon_size": 35,
           "id": "bell_bearings_7_19",
           "link": "/checklists/bell_bearings.html#item_7_19",
           "title": "Imprisoned Merchant"

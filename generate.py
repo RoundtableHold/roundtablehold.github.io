@@ -825,13 +825,13 @@ def make_map():
                 make_nav('map', True)
             with div(cls='row h-100 flex-grow-1 p-0 m-0 g-0'):
                 div(id='map', cls='m-0 p-0 g-0')
-            with div(cls='offcanvas offcanvas-end m-0 p-0 g-0', id='layer-menu', data_bs_stroll="true", data_bs_backdrop="false", tabindex="-1"):
+            with div(cls='offcanvas offcanvas-end m-0 p-0 g-0 w-auto show d-none d-lg-block', id='layer-menu', data_bs_stroll="true", data_bs_backdrop="false", tabindex="-1"):
                 with button(cls='btn btn-primary btn-sml offcanvas-btn position-absolute p-1', type='button', data_bs_toggle='offcanvas', data_bs_target='#layer-menu', style='height: 50px;'):
                     i(cls='bi bi-caret-left-fill m-0 p-0')
                     i(cls='bi bi-caret-right-fill m-0 p-0')
                     # h3('Map', cls='offcanvas-title')
                 with div(cls='offcanvas-body'):
-                    with div(cls='row'):
+                    with div(cls='row mb-2'):
                         with div(cls='col-auto order-last'):
                             button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
                         with div(cls='col'):
