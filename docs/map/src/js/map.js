@@ -137,8 +137,8 @@
             }));
         }
 
-        var zoom = 2;
-        var center = ol.extent.getCenter(erextent);
+        var zoom = 5;
+        var center = [4129, -7328];
         if ('previousPosition' in profiles[profilesKey][profiles.current].map_settings) {
             const pos = profiles[profilesKey][profiles.current].map_settings['previousPosition'];
             zoom = parseFloat(pos[0]);
