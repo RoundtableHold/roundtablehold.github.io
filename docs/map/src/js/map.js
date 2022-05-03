@@ -207,11 +207,19 @@
                 for (var i = 1; i < layers.length; i++) {
                     let feature = layers[i].getSource().getFeatureById(id);
                     if (feature) {
+                        const pos = map.getView().getCenter();
+                        const t = feature.getGeometry().flatCoordinates
+                        const dist = (Math.sqrt(((t[0] - pos[0]) * (t[0] - pos[0])) + ((t[1] - pos[1]) * (t[1] - pos[1]))));
+
                         map.getView().animate({
-                            center: feature.getGeometry().flatCoordinates,
+                            center: t,
                             zoom: 6,
+                            duration: Math.max((dist / 18654.8) * 4000, 1000),
+                        }, (b) => {
+                            if (b) {
+                                popup_feature(feature);
+                            }
                         })
-                        popup_feature(feature);
                     }
                 }
             }
