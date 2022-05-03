@@ -1306,6 +1306,994 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2959,
+            6344
+          ],
+          "type": "Point"
+        },
+        "id": "graces_56",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_56",
+          "link": "/checklists/sitesof_grace.html#item_56",
+          "title": "Lake-Facing Cliffs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2730,
+            6158
+          ],
+          "type": "Point"
+        },
+        "id": "graces_57",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_57",
+          "link": "/checklists/sitesof_grace.html#item_57",
+          "title": "Liurnia Lake Shore"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2609,
+            5940
+          ],
+          "type": "Point"
+        },
+        "id": "graces_58",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_58",
+          "link": "/checklists/sitesof_grace.html#item_58",
+          "title": "Laskyar Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2332,
+            5734
+          ],
+          "type": "Point"
+        },
+        "id": "graces_59",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_59",
+          "link": "/checklists/sitesof_grace.html#item_59",
+          "title": "Scenic Isle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2401,
+            5349
+          ],
+          "type": "Point"
+        },
+        "id": "graces_60",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_60",
+          "link": "/checklists/sitesof_grace.html#item_60",
+          "title": "Academy Gate Town"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2025,
+            5056
+          ],
+          "type": "Point"
+        },
+        "id": "graces_61",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_61",
+          "link": "/checklists/sitesof_grace.html#item_61",
+          "title": "South Raya Lucaria Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1826,
+            4767
+          ],
+          "type": "Point"
+        },
+        "id": "graces_62",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_62",
+          "link": "/checklists/sitesof_grace.html#item_62",
+          "title": "Main Academy Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2982,
+            6141
+          ],
+          "type": "Point"
+        },
+        "id": "graces_63",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_63",
+          "link": "/checklists/sitesof_grace.html#item_63",
+          "title": "Liurnia Highway South"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2938,
+            5800
+          ],
+          "type": "Point"
+        },
+        "id": "graces_64",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_64",
+          "link": "/checklists/sitesof_grace.html#item_64",
+          "title": "Liurnia Highway North"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2740,
+            5480
+          ],
+          "type": "Point"
+        },
+        "id": "graces_65",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_65",
+          "link": "/checklists/sitesof_grace.html#item_65",
+          "title": "Gate Town Bridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2784,
+            5106
+          ],
+          "type": "Point"
+        },
+        "id": "graces_66",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_66",
+          "link": "/checklists/sitesof_grace.html#item_66",
+          "title": "Artist's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2655,
+            5013
+          ],
+          "type": "Point"
+        },
+        "id": "graces_67",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_67",
+          "link": "/checklists/sitesof_grace.html#item_67",
+          "title": "Eastern Liurnia Lake Shore"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2992,
+            5306
+          ],
+          "type": "Point"
+        },
+        "id": "graces_68",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_68",
+          "link": "/checklists/sitesof_grace.html#item_68",
+          "title": "Jarburg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1607,
+            3687
+          ],
+          "type": "Point"
+        },
+        "id": "graces_69",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_69",
+          "link": "/checklists/sitesof_grace.html#item_69",
+          "title": "Ranni's Chamber"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2742,
+            4788
+          ],
+          "type": "Point"
+        },
+        "id": "graces_70",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_70",
+          "link": "/checklists/sitesof_grace.html#item_70",
+          "title": "Eastern Tableland"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2422,
+            4709
+          ],
+          "type": "Point"
+        },
+        "id": "graces_71",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_71",
+          "link": "/checklists/sitesof_grace.html#item_71",
+          "title": "Church of Vows"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2586,
+            4487
+          ],
+          "type": "Point"
+        },
+        "id": "graces_72",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_72",
+          "link": "/checklists/sitesof_grace.html#item_72",
+          "title": "Ruined Labyrinth"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2481,
+            4345
+          ],
+          "type": "Point"
+        },
+        "id": "graces_73",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_73",
+          "link": "/checklists/sitesof_grace.html#item_73",
+          "title": "Mausoleum Compound"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2315,
+            6076
+          ],
+          "type": "Point"
+        },
+        "id": "graces_74",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_74",
+          "link": "/checklists/sitesof_grace.html#item_74",
+          "title": "Slumbering Wolf's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2256,
+            5562
+          ],
+          "type": "Point"
+        },
+        "id": "graces_75",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_75",
+          "link": "/checklists/sitesof_grace.html#item_75",
+          "title": "Boilprawn Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2057,
+            5367
+          ],
+          "type": "Point"
+        },
+        "id": "graces_76",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_76",
+          "link": "/checklists/sitesof_grace.html#item_76",
+          "title": "Fallen Ruins of the Lake"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1947,
+            5619
+          ],
+          "type": "Point"
+        },
+        "id": "graces_77",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_77",
+          "link": "/checklists/sitesof_grace.html#item_77",
+          "title": "Folly on the Lake"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1711,
+            5861
+          ],
+          "type": "Point"
+        },
+        "id": "graces_78",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_78",
+          "link": "/checklists/sitesof_grace.html#item_78",
+          "title": "Village of the Albinaurics"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1572,
+            5603
+          ],
+          "type": "Point"
+        },
+        "id": "graces_79",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_79",
+          "link": "/checklists/sitesof_grace.html#item_79",
+          "title": "Converted Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1427,
+            5227
+          ],
+          "type": "Point"
+        },
+        "id": "graces_80",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_80",
+          "link": "/checklists/sitesof_grace.html#item_80",
+          "title": "Revenger's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1620,
+            5124
+          ],
+          "type": "Point"
+        },
+        "id": "graces_81",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_81",
+          "link": "/checklists/sitesof_grace.html#item_81",
+          "title": "Temple Quarter"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1668,
+            4805
+          ],
+          "type": "Point"
+        },
+        "id": "graces_82",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_82",
+          "link": "/checklists/sitesof_grace.html#item_82",
+          "title": "Crystalline Woods"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1347,
+            4800
+          ],
+          "type": "Point"
+        },
+        "id": "graces_83",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_83",
+          "link": "/checklists/sitesof_grace.html#item_83",
+          "title": "Foot of the Four Belfries"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1469,
+            4582
+          ],
+          "type": "Point"
+        },
+        "id": "graces_84",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_84",
+          "link": "/checklists/sitesof_grace.html#item_84",
+          "title": "The Four Belfries"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1743,
+            4434
+          ],
+          "type": "Point"
+        },
+        "id": "graces_85",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_85",
+          "link": "/checklists/sitesof_grace.html#item_85",
+          "title": "Sorcerer's Isle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1952,
+            4578
+          ],
+          "type": "Point"
+        },
+        "id": "graces_86",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_86",
+          "link": "/checklists/sitesof_grace.html#item_86",
+          "title": "East Gate Bridge Trestle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2114,
+            4882
+          ],
+          "type": "Point"
+        },
+        "id": "graces_87",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_87",
+          "link": "/checklists/sitesof_grace.html#item_87",
+          "title": "Gate Town North"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1610,
+            4211
+          ],
+          "type": "Point"
+        },
+        "id": "graces_88",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_88",
+          "link": "/checklists/sitesof_grace.html#item_88",
+          "title": "Northern Liurnia Lake Shore"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1718,
+            4037
+          ],
+          "type": "Point"
+        },
+        "id": "graces_89",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_89",
+          "link": "/checklists/sitesof_grace.html#item_89",
+          "title": "Road to the Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1902,
+            3845
+          ],
+          "type": "Point"
+        },
+        "id": "graces_90",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_90",
+          "link": "/checklists/sitesof_grace.html#item_90",
+          "title": "Main Caria Manor Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2023,
+            3757
+          ],
+          "type": "Point"
+        },
+        "id": "graces_91",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_91",
+          "link": "/checklists/sitesof_grace.html#item_91",
+          "title": "Manor Upper Level"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1843,
+            3749
+          ],
+          "type": "Point"
+        },
+        "id": "graces_92",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_92",
+          "link": "/checklists/sitesof_grace.html#item_92",
+          "title": "Manor Lower Level"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1889,
+            3612
+          ],
+          "type": "Point"
+        },
+        "id": "graces_93",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_93",
+          "link": "/checklists/sitesof_grace.html#item_93",
+          "title": "Royal Moongazing Grounds"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1576,
+            3700
+          ],
+          "type": "Point"
+        },
+        "id": "graces_94",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_94",
+          "link": "/checklists/sitesof_grace.html#item_94",
+          "title": "Ranni's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2090,
+            3636
+          ],
+          "type": "Point"
+        },
+        "id": "graces_95",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_95",
+          "link": "/checklists/sitesof_grace.html#item_95",
+          "title": "Behind Caria Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2114,
+            3979
+          ],
+          "type": "Point"
+        },
+        "id": "graces_96",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_96",
+          "link": "/checklists/sitesof_grace.html#item_96",
+          "title": "The Ravine"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2562,
+            3617
+          ],
+          "type": "Point"
+        },
+        "id": "graces_97",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_97",
+          "link": "/checklists/sitesof_grace.html#item_97",
+          "title": "Ravine-Veiled Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3021,
+            5945
+          ],
+          "type": "Point"
+        },
+        "id": "graces_98",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_98",
+          "link": "/checklists/sitesof_grace.html#item_98",
+          "title": "Cliffbottom Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1397,
+            5526
+          ],
+          "type": "Point"
+        },
+        "id": "graces_99",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_99",
+          "link": "/checklists/sitesof_grace.html#item_99",
+          "title": "Road's End Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2872,
+            4108
+          ],
+          "type": "Point"
+        },
+        "id": "graces_100",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_100",
+          "link": "/checklists/sitesof_grace.html#item_100",
+          "title": "Black Knife Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2955,
+            6310
+          ],
+          "type": "Point"
+        },
+        "id": "graces_101",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_101",
+          "link": "/checklists/sitesof_grace.html#item_101",
+          "title": "Stillwater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2318,
+            6018
+          ],
+          "type": "Point"
+        },
+        "id": "graces_102",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_102",
+          "link": "/checklists/sitesof_grace.html#item_102",
+          "title": "Lakeside Crystal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1738,
+            4870
+          ],
+          "type": "Point"
+        },
+        "id": "graces_103",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_103",
+          "link": "/checklists/sitesof_grace.html#item_103",
+          "title": "Academy Crystal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2319,
+            4464
+          ],
+          "type": "Point"
+        },
+        "id": "graces_104",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_104",
+          "link": "/checklists/sitesof_grace.html#item_104",
+          "title": "Raya Lucaria Crystal Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2904,
+            5140
+          ],
+          "type": "Point"
+        },
+        "id": "graces_105",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_105",
+          "link": "/checklists/sitesof_grace.html#item_105",
+          "title": "Study Hall Entrance"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2973,
+            5195
+          ],
+          "type": "Point"
+        },
+        "id": "graces_106",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_106",
+          "link": "/checklists/sitesof_grace.html#item_106",
+          "title": "Liurnia Tower Bridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3373,
+            5130
+          ],
+          "type": "Point"
+        },
+        "id": "graces_107",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_107",
+          "link": "/checklists/sitesof_grace.html#item_107",
+          "title": "Divine Tower of Liurnia"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4658,
             6243
           ],
