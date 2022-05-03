@@ -145,7 +145,6 @@
             center = [parseFloat(pos[1]), parseFloat(pos[2])];
         }
 
-
         var map = new ol.Map({
             target: 'map',
             layers: layers,
@@ -160,7 +159,6 @@
                 enableRotation: false,
             }),
             overlays: [overlay],
-            controls: [],
         });
 
         function initializeSettings() {

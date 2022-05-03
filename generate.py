@@ -597,13 +597,6 @@ def make_search():
     with open(os.path.join('docs', 'search.html'), 'w', encoding='utf_8') as out:
         out.write(doc.render())
 
-
-make_index()
-make_options()
-make_search()
-for page in pages:
-    make_checklist(page)
-
 def to_list(x):
     if isinstance(x, list):
         return set(x)
@@ -665,68 +658,68 @@ def make_item_links():
         links_f.write('const item_links = ')
         json.dump(links_json, links_f, indent=2, sort_keys=True)
 
-make_item_links()
-
-with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
-    f.write(
-        """
+def make_index_js():
+    with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
+        f.write(
+            """
 (function($) {
     'use strict';
     $(function() {
         """)
-    f.write('var all_ids = new Set([\n')
-    all_ids_list = list(all_ids)
-    all_ids_list.sort()
-    for id in all_ids_list:
-        f.write('"' + id + '",\n')
-    f.write(']);\n')
-    f.write('function calculateProgress() {\n')
-    for page in pages:
-        f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
-        f.write('var ' + page['id'] + '_checked = 0;\n')
-    f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
-    f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {\n')
-    for page in pages:
-        f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
-        f.write(page['id'] + '_checked += 1;\n}\n')
-    f.write('}\n')
-    f.write('}\n')
-    for page in pages:
-        f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
-        f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
-        f.write('} else {\n')
-        f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
+        f.write('var all_ids = new Set([\n')
+        all_ids_list = list(all_ids)
+        all_ids_list.sort()
+        for id in all_ids_list:
+            f.write('"' + id + '",\n')
+        f.write(']);\n')
+        f.write('function calculateProgress() {\n')
+        for page in pages:
+            f.write('const ' + page['id'] + '_total = ' + str(page['num_ids']) + ';\n')
+            f.write('var ' + page['id'] + '_checked = 0;\n')
+        f.write('for (var id in profiles[profilesKey][profiles.current].checklistData) {\n')
+        f.write('if (profiles[profilesKey][profiles.current].checklistData[id] === true && all_ids.has(id)) {\n')
+        for page in pages:
+            f.write('if (id.startsWith("{page_id}")) {{\n'.format(page_id=page['id']))
+            f.write(page['id'] + '_checked += 1;\n}\n')
         f.write('}\n')
-    f.write('}\n')
-    f.write('calculateProgress();\n')
-    f.write('  });\n')
-    f.write('})( jQuery );\n')
+        f.write('}\n')
+        for page in pages:
+            f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
+            f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
+            f.write('} else {\n')
+            f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
+            f.write('}\n')
+        f.write('}\n')
+        f.write('calculateProgress();\n')
+        f.write('  });\n')
+        f.write('})( jQuery );\n')
 
-search_idx = []
-for page in pages:
-    for section in page['sections']:
-        items = peekable(section['items'])
-        for item in items:
-            if isinstance(item, str):
-                continue
-            def f(item):
-                search_idx.append({
-                    'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
-                    'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
-                })
-            f(item)
-            if isinstance(items.peek(0), list):
-                item = next(items)
-                for subitem in item:
-                    f(subitem)
-                    # id = item_id + '_' + str(subitem['id'])
-                    # search_idx.append({
-                    #     'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=id),
-                    #     'text': re.sub(r'(<([^>]+)>)', '', ' '.join(subitem['data'])),
-                    # })
+def make_search_index():
+    search_idx = []
+    for page in pages:
+        for section in page['sections']:
+            items = peekable(section['items'])
+            for item in items:
+                if isinstance(item, str):
+                    continue
+                def f(item):
+                    search_idx.append({
+                        'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
+                        'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
+                    })
+                f(item)
+                if isinstance(items.peek(0), list):
+                    item = next(items)
+                    for subitem in item:
+                        f(subitem)
+                        # id = item_id + '_' + str(subitem['id'])
+                        # search_idx.append({
+                        #     'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=id),
+                        #     'text': re.sub(r'(<([^>]+)>)', '', ' '.join(subitem['data'])),
+                        # })
 
-with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
-    json.dump(search_idx, s_idx, indent=2, sort_keys=True)
+    with open(os.path.join('docs', 'search_index.json'), 'w') as s_idx:
+        json.dump(search_idx, s_idx, indent=2, sort_keys=True)
 
 def get_icon(page, section, item):
     icon = ''
@@ -874,5 +867,13 @@ def make_map():
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 
+make_index()
+make_options()
+for page in pages:
+    make_checklist(page)
+make_search()
+make_search_index()
+make_index_js()
+make_item_links()
 make_geojson()
 make_map()
