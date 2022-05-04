@@ -416,6 +416,18 @@ const item_links = {
       "weapons_8_5"
     ]
   },
+  "armor_39": {
+    "targets": [
+      "armor_40",
+      "playthrough_44"
+    ]
+  },
+  "armor_40": {
+    "targets": [
+      "armor_39",
+      "playthrough_44"
+    ]
+  },
   "armor_445": {
     "targets": [
       "armor_446",
@@ -896,6 +908,12 @@ const item_links = {
       "weapons_21_2"
     ]
   },
+  "ashesofwar_1_3": {
+    "targets": [
+      "npc_quests_30_2",
+      "playthrough_22"
+    ]
+  },
   "ashesofwar_2_3": {
     "targets": [
       "bosses_4_5"
@@ -1296,12 +1314,21 @@ const item_links = {
     "targets": [
       "caves_1_4",
       "dragon_hearts_death_roots_1_2",
+      "playthrough_55",
+      "quest_order_tldr_30",
       "talismans_2_18"
     ]
   },
   "bosses_2_11": {
     "targets": [
+      "playthrough_58",
+      "quest_order_tldr_32",
       "talismans_2_11"
+    ]
+  },
+  "bosses_2_12": {
+    "targets": [
+      "playthrough_39"
     ]
   },
   "bosses_2_13": {
@@ -1316,12 +1343,14 @@ const item_links = {
   },
   "bosses_2_15": {
     "targets": [
-      "dragon_hearts_death_roots_0_1"
+      "dragon_hearts_death_roots_0_1",
+      "playthrough_36"
     ]
   },
   "bosses_2_16": {
     "targets": [
       "dragon_hearts_death_roots_1_1",
+      "playthrough_13",
       "spirit_ashes_2_6"
     ]
   },
@@ -1333,6 +1362,7 @@ const item_links = {
   "bosses_2_18": {
     "targets": [
       "evergaols_1_1",
+      "playthrough_67",
       "weapons_8_3"
     ]
   },
@@ -1344,7 +1374,8 @@ const item_links = {
   },
   "bosses_2_2": {
     "targets": [
-      "caves_1_3"
+      "caves_1_3",
+      "playthrough_29"
     ]
   },
   "bosses_2_20": {
@@ -1433,6 +1464,8 @@ const item_links = {
   },
   "bosses_2_7": {
     "targets": [
+      "playthrough_41",
+      "quest_order_tldr_22",
       "weapons_3_5"
     ]
   },
@@ -2305,13 +2338,16 @@ const item_links = {
   },
   "caves_1_3": {
     "targets": [
-      "bosses_2_2"
+      "bosses_2_2",
+      "playthrough_29"
     ]
   },
   "caves_1_4": {
     "targets": [
       "bosses_2_10",
       "dragon_hearts_death_roots_1_2",
+      "playthrough_55",
+      "quest_order_tldr_30",
       "talismans_2_18"
     ]
   },
@@ -2566,6 +2602,12 @@ const item_links = {
       "sorceries_12_5"
     ]
   },
+  "cookbooks_2_2": {
+    "targets": [
+      "playthrough_48",
+      "tools_2_1"
+    ]
+  },
   "crystal_tears_0_2": {
     "targets": [
       "bosses_1_7",
@@ -2576,6 +2618,13 @@ const item_links = {
     "targets": [
       "bosses_1_7",
       "crystal_tears_0_2"
+    ]
+  },
+  "crystal_tears_1_4": {
+    "targets": [
+      "flasks_2_4",
+      "graces_5",
+      "playthrough_16"
     ]
   },
   "crystal_tears_2_2": {
@@ -2691,7 +2740,8 @@ const item_links = {
   },
   "dragon_hearts_death_roots_0_1": {
     "targets": [
-      "bosses_2_15"
+      "bosses_2_15",
+      "playthrough_36"
     ]
   },
   "dragon_hearts_death_roots_0_10": {
@@ -2757,6 +2807,7 @@ const item_links = {
   "dragon_hearts_death_roots_1_1": {
     "targets": [
       "bosses_2_16",
+      "playthrough_13",
       "spirit_ashes_2_6"
     ]
   },
@@ -2764,6 +2815,8 @@ const item_links = {
     "targets": [
       "bosses_2_10",
       "caves_1_4",
+      "playthrough_55",
+      "quest_order_tldr_30",
       "talismans_2_18"
     ]
   },
@@ -2808,6 +2861,7 @@ const item_links = {
   "evergaols_1_1": {
     "targets": [
       "bosses_2_18",
+      "playthrough_67",
       "weapons_8_3"
     ]
   },
@@ -2881,12 +2935,22 @@ const item_links = {
       "bosses_8_11"
     ]
   },
+  "flasks_1_3": {
+    "targets": [
+      "playthrough_62"
+    ]
+  },
   "flasks_1_32": {
     "targets": [
       "bell_bearings_3_2",
       "bosses_9_4",
       "caves_7_2",
       "dragon_hearts_death_roots_1_7"
+    ]
+  },
+  "flasks_1_5": {
+    "targets": [
+      "playthrough_21"
     ]
   },
   "flasks_1_7": {
@@ -2898,6 +2962,13 @@ const item_links = {
     "targets": [
       "bosses_2_24",
       "talismans_2_6"
+    ]
+  },
+  "flasks_2_4": {
+    "targets": [
+      "crystal_tears_1_4",
+      "graces_5",
+      "playthrough_16"
     ]
   },
   "gestures_0_1": {
@@ -3078,6 +3149,121 @@ const item_links = {
       "gestures_0_6",
       "gestures_0_7",
       "gestures_0_8"
+    ]
+  },
+  "gestures_1_10": {
+    "targets": [
+      "npc_quests_1_1",
+      "playthrough_61",
+      "quest_order_tldr_33",
+      "spirit_ashes_2_7"
+    ]
+  },
+  "gestures_1_4": {
+    "targets": [
+      "playthrough_45"
+    ]
+  },
+  "gestures_1_5": {
+    "targets": [
+      "playthrough_46"
+    ]
+  },
+  "gestures_1_6": {
+    "targets": [
+      "npc_quests_29_8",
+      "playthrough_53",
+      "quest_order_tldr_29"
+    ]
+  },
+  "gestures_1_7": {
+    "targets": [
+      "playthrough_25",
+      "quest_order_tldr_13"
+    ]
+  },
+  "graces_0": {
+    "targets": [
+      "playthrough_0"
+    ]
+  },
+  "graces_1": {
+    "targets": [
+      "playthrough_3"
+    ]
+  },
+  "graces_10": {
+    "targets": [
+      "playthrough_32"
+    ]
+  },
+  "graces_17": {
+    "targets": [
+      "playthrough_26"
+    ]
+  },
+  "graces_18": {
+    "targets": [
+      "playthrough_43"
+    ]
+  },
+  "graces_23": {
+    "targets": [
+      "playthrough_59"
+    ]
+  },
+  "graces_24": {
+    "targets": [
+      "playthrough_64"
+    ]
+  },
+  "graces_26": {
+    "targets": [
+      "playthrough_56"
+    ]
+  },
+  "graces_27": {
+    "targets": [
+      "playthrough_11"
+    ]
+  },
+  "graces_28": {
+    "targets": [
+      "playthrough_54"
+    ]
+  },
+  "graces_3": {
+    "targets": [
+      "npc_quests_10_1",
+      "playthrough_40",
+      "quest_order_tldr_21"
+    ]
+  },
+  "graces_5": {
+    "targets": [
+      "crystal_tears_1_4",
+      "flasks_2_4",
+      "playthrough_16"
+    ]
+  },
+  "graces_6": {
+    "targets": [
+      "playthrough_20"
+    ]
+  },
+  "graces_7": {
+    "targets": [
+      "playthrough_38"
+    ]
+  },
+  "graces_8": {
+    "targets": [
+      "playthrough_7"
+    ]
+  },
+  "graces_9": {
+    "targets": [
+      "playthrough_30"
     ]
   },
   "great_runes_1_1": {
@@ -3277,6 +3463,15 @@ const item_links = {
       "remembrances_mausoleums_1_1"
     ]
   },
+  "legacy_1_3": {
+    "orsources": [
+      "quest_order_tldr_12"
+    ],
+    "ortargets": [
+      "playthrough_22",
+      "playthrough_23"
+    ]
+  },
   "legacy_1_4": {
     "targets": [
       "bosses_4_36",
@@ -3417,11 +3612,663 @@ const item_links = {
       "bosses_8_17"
     ]
   },
+  "npc_quests_10_1": {
+    "targets": [
+      "graces_3",
+      "playthrough_40",
+      "quest_order_tldr_21"
+    ]
+  },
+  "npc_quests_1_1": {
+    "targets": [
+      "gestures_1_10",
+      "playthrough_61",
+      "quest_order_tldr_33",
+      "spirit_ashes_2_7"
+    ]
+  },
+  "npc_quests_23_1": {
+    "targets": [
+      "playthrough_12",
+      "quest_order_tldr_6"
+    ]
+  },
+  "npc_quests_23_2": {
+    "orsources": [
+      "quest_order_tldr_7"
+    ],
+    "ortargets": [
+      "playthrough_13",
+      "playthrough_14"
+    ]
+  },
+  "npc_quests_29_2": {
+    "andsources": [
+      "playthrough_47"
+    ],
+    "andtargets": [
+      "quest_order_tldr_25"
+    ],
+    "targets": [
+      "playthrough_48",
+      "playthrough_49"
+    ]
+  },
+  "npc_quests_29_8": {
+    "targets": [
+      "gestures_1_6",
+      "playthrough_53",
+      "quest_order_tldr_29"
+    ]
+  },
+  "npc_quests_29_9": {
+    "targets": [
+      "playthrough_47",
+      "quest_order_tldr_24"
+    ]
+  },
+  "npc_quests_30_1": {
+    "targets": [
+      "playthrough_15",
+      "quest_order_tldr_8"
+    ]
+  },
+  "npc_quests_30_2": {
+    "targets": [
+      "ashesofwar_1_3",
+      "playthrough_22"
+    ]
+  },
+  "npc_quests_30_3": {
+    "targets": [
+      "playthrough_50",
+      "quest_order_tldr_26",
+      "weapons_3_15"
+    ]
+  },
+  "npc_quests_30_4": {
+    "targets": [
+      "playthrough_52",
+      "quest_order_tldr_28"
+    ]
+  },
+  "npc_quests_32_1": {
+    "targets": [
+      "playthrough_10",
+      "quest_order_tldr_5"
+    ]
+  },
+  "npc_quests_35_1": {
+    "targets": [
+      "playthrough_19",
+      "playthrough_51"
+    ]
+  },
+  "npc_quests_35_2": {
+    "orsources": [
+      "quest_order_tldr_35"
+    ],
+    "ortargets": [
+      "playthrough_67",
+      "playthrough_68"
+    ]
+  },
+  "npc_quests_36_1": {
+    "targets": [
+      "playthrough_57",
+      "quest_order_tldr_31"
+    ]
+  },
+  "npc_quests_37_1": {
+    "targets": [
+      "playthrough_24",
+      "quest_order_tldr_14",
+      "spirit_ashes_2_4"
+    ]
+  },
+  "npc_quests_3_1": {
+    "targets": [
+      "playthrough_9",
+      "quest_order_tldr_4"
+    ]
+  },
+  "npc_quests_3_2": {
+    "targets": [
+      "playthrough_27",
+      "playthrough_29",
+      "playthrough_31"
+    ]
+  },
+  "npc_quests_42_1": {
+    "targets": [
+      "playthrough_8",
+      "quest_order_tldr_3"
+    ]
+  },
+  "npc_quests_42_3_1": {
+    "targets": [
+      "playthrough_17",
+      "quest_order_tldr_9"
+    ]
+  },
+  "npc_quests_8_1": {
+    "targets": [
+      "playthrough_1",
+      "quest_order_tldr_1"
+    ]
+  },
+  "npc_quests_9_1": {
+    "targets": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_19",
+      "quest_order_tldr_20"
+    ]
+  },
+  "npc_quests_9_2": {
+    "targets": [
+      "playthrough_41",
+      "playthrough_42"
+    ]
+  },
   "npc_quests_9_4": {
     "targets": [
       "playthrough_9_7",
       "quest_order_tldr_145",
       "weapons_18_6"
+    ]
+  },
+  "playthrough_0": {
+    "targets": [
+      "graces_0"
+    ]
+  },
+  "playthrough_1": {
+    "targets": [
+      "npc_quests_8_1",
+      "quest_order_tldr_1"
+    ]
+  },
+  "playthrough_10": {
+    "targets": [
+      "npc_quests_32_1",
+      "quest_order_tldr_5"
+    ]
+  },
+  "playthrough_11": {
+    "targets": [
+      "graces_27"
+    ]
+  },
+  "playthrough_12": {
+    "targets": [
+      "npc_quests_23_1",
+      "quest_order_tldr_6"
+    ]
+  },
+  "playthrough_13": {
+    "andsources": [
+      "playthrough_14"
+    ],
+    "andtargets": [
+      "npc_quests_23_2",
+      "quest_order_tldr_7"
+    ],
+    "targets": [
+      "bosses_2_16",
+      "dragon_hearts_death_roots_1_1",
+      "spirit_ashes_2_6"
+    ]
+  },
+  "playthrough_14": {
+    "andsources": [
+      "playthrough_13"
+    ],
+    "andtargets": [
+      "npc_quests_23_2",
+      "quest_order_tldr_7"
+    ]
+  },
+  "playthrough_15": {
+    "targets": [
+      "npc_quests_30_1",
+      "quest_order_tldr_8"
+    ]
+  },
+  "playthrough_16": {
+    "targets": [
+      "crystal_tears_1_4",
+      "flasks_2_4",
+      "graces_5"
+    ]
+  },
+  "playthrough_17": {
+    "targets": [
+      "npc_quests_42_3_1",
+      "quest_order_tldr_9"
+    ]
+  },
+  "playthrough_19": {
+    "andsources": [
+      "playthrough_51"
+    ],
+    "andtargets": [
+      "npc_quests_35_1"
+    ],
+    "targets": [
+      "quest_order_tldr_11"
+    ]
+  },
+  "playthrough_2": {
+    "targets": [
+      "tools_4_4"
+    ]
+  },
+  "playthrough_20": {
+    "targets": [
+      "graces_6"
+    ]
+  },
+  "playthrough_21": {
+    "targets": [
+      "flasks_1_5"
+    ]
+  },
+  "playthrough_22": {
+    "andsources": [
+      "playthrough_23"
+    ],
+    "andtargets": [
+      "legacy_1_3",
+      "quest_order_tldr_12"
+    ],
+    "targets": [
+      "ashesofwar_1_3",
+      "npc_quests_30_2"
+    ]
+  },
+  "playthrough_23": {
+    "andsources": [
+      "playthrough_22"
+    ],
+    "andtargets": [
+      "legacy_1_3",
+      "quest_order_tldr_12"
+    ]
+  },
+  "playthrough_24": {
+    "targets": [
+      "npc_quests_37_1",
+      "quest_order_tldr_14",
+      "spirit_ashes_2_4"
+    ]
+  },
+  "playthrough_25": {
+    "targets": [
+      "gestures_1_7",
+      "quest_order_tldr_13"
+    ]
+  },
+  "playthrough_26": {
+    "targets": [
+      "graces_17"
+    ]
+  },
+  "playthrough_27": {
+    "andsources": [
+      "playthrough_29",
+      "playthrough_31"
+    ],
+    "andtargets": [
+      "npc_quests_3_2"
+    ],
+    "targets": [
+      "quest_order_tldr_15"
+    ]
+  },
+  "playthrough_28": {
+    "andsources": [
+      "playthrough_29"
+    ],
+    "andtargets": [
+      "quest_order_tldr_16"
+    ]
+  },
+  "playthrough_29": {
+    "andsources": [
+      "playthrough_27",
+      "playthrough_28",
+      "playthrough_31"
+    ],
+    "andtargets": [
+      "npc_quests_3_2",
+      "quest_order_tldr_16"
+    ],
+    "targets": [
+      "bosses_2_2",
+      "caves_1_3"
+    ]
+  },
+  "playthrough_3": {
+    "targets": [
+      "graces_1"
+    ]
+  },
+  "playthrough_30": {
+    "targets": [
+      "graces_9"
+    ]
+  },
+  "playthrough_31": {
+    "andsources": [
+      "playthrough_27",
+      "playthrough_29"
+    ],
+    "andtargets": [
+      "npc_quests_3_2"
+    ],
+    "targets": [
+      "quest_order_tldr_17"
+    ]
+  },
+  "playthrough_32": {
+    "targets": [
+      "graces_10"
+    ]
+  },
+  "playthrough_33": {
+    "targets": [
+      "quest_order_tldr_18"
+    ]
+  },
+  "playthrough_34": {
+    "andsources": [
+      "playthrough_35"
+    ],
+    "andtargets": [
+      "quest_order_tldr_19"
+    ]
+  },
+  "playthrough_35": {
+    "andsources": [
+      "playthrough_34"
+    ],
+    "andtargets": [
+      "quest_order_tldr_19"
+    ]
+  },
+  "playthrough_36": {
+    "andsources": [
+      "playthrough_37"
+    ],
+    "andtargets": [
+      "quest_order_tldr_20"
+    ],
+    "targets": [
+      "bosses_2_15",
+      "dragon_hearts_death_roots_0_1"
+    ]
+  },
+  "playthrough_37": {
+    "andsources": [
+      "playthrough_36"
+    ],
+    "andtargets": [
+      "quest_order_tldr_20"
+    ]
+  },
+  "playthrough_38": {
+    "targets": [
+      "graces_7"
+    ]
+  },
+  "playthrough_39": {
+    "targets": [
+      "bosses_2_12"
+    ]
+  },
+  "playthrough_4": {
+    "targets": [
+      "quest_order_tldr_2"
+    ]
+  },
+  "playthrough_40": {
+    "targets": [
+      "graces_3",
+      "npc_quests_10_1",
+      "quest_order_tldr_21"
+    ]
+  },
+  "playthrough_41": {
+    "andsources": [
+      "playthrough_42"
+    ],
+    "andtargets": [
+      "npc_quests_9_2"
+    ],
+    "targets": [
+      "bosses_2_7",
+      "quest_order_tldr_22",
+      "weapons_3_5"
+    ]
+  },
+  "playthrough_42": {
+    "andsources": [
+      "playthrough_41"
+    ],
+    "andtargets": [
+      "npc_quests_9_2"
+    ],
+    "targets": [
+      "quest_order_tldr_23"
+    ]
+  },
+  "playthrough_43": {
+    "targets": [
+      "graces_18"
+    ]
+  },
+  "playthrough_44": {
+    "targets": [
+      "armor_39",
+      "armor_40"
+    ]
+  },
+  "playthrough_45": {
+    "andsources": [
+      "playthrough_46"
+    ],
+    "andtargets": [
+      "quest_order_tldr_24"
+    ],
+    "targets": [
+      "gestures_1_4"
+    ]
+  },
+  "playthrough_46": {
+    "andsources": [
+      "playthrough_45"
+    ],
+    "andtargets": [
+      "quest_order_tldr_24"
+    ],
+    "targets": [
+      "gestures_1_5"
+    ]
+  },
+  "playthrough_47": {
+    "andsources": [
+      "npc_quests_29_2",
+      "quest_order_tldr_24"
+    ],
+    "andtargets": [
+      "npc_quests_29_9",
+      "quest_order_tldr_25"
+    ]
+  },
+  "playthrough_48": {
+    "andsources": [
+      "playthrough_49"
+    ],
+    "andtargets": [
+      "npc_quests_29_2"
+    ],
+    "targets": [
+      "cookbooks_2_2",
+      "tools_2_1"
+    ]
+  },
+  "playthrough_49": {
+    "andsources": [
+      "playthrough_48"
+    ],
+    "andtargets": [
+      "npc_quests_29_2"
+    ]
+  },
+  "playthrough_50": {
+    "targets": [
+      "npc_quests_30_3",
+      "quest_order_tldr_26",
+      "weapons_3_15"
+    ]
+  },
+  "playthrough_51": {
+    "andsources": [
+      "playthrough_19"
+    ],
+    "andtargets": [
+      "npc_quests_35_1"
+    ],
+    "targets": [
+      "quest_order_tldr_27"
+    ]
+  },
+  "playthrough_52": {
+    "targets": [
+      "npc_quests_30_4",
+      "quest_order_tldr_28"
+    ]
+  },
+  "playthrough_53": {
+    "targets": [
+      "gestures_1_6",
+      "npc_quests_29_8",
+      "quest_order_tldr_29"
+    ]
+  },
+  "playthrough_54": {
+    "targets": [
+      "graces_28"
+    ]
+  },
+  "playthrough_55": {
+    "targets": [
+      "bosses_2_10",
+      "caves_1_4",
+      "dragon_hearts_death_roots_1_2",
+      "quest_order_tldr_30",
+      "talismans_2_18"
+    ]
+  },
+  "playthrough_56": {
+    "targets": [
+      "graces_26"
+    ]
+  },
+  "playthrough_57": {
+    "targets": [
+      "npc_quests_36_1",
+      "quest_order_tldr_31"
+    ]
+  },
+  "playthrough_58": {
+    "targets": [
+      "bosses_2_11",
+      "quest_order_tldr_32",
+      "talismans_2_11"
+    ]
+  },
+  "playthrough_59": {
+    "targets": [
+      "graces_23"
+    ]
+  },
+  "playthrough_6": {
+    "targets": [
+      "whetstones_0_1"
+    ]
+  },
+  "playthrough_60": {
+    "targets": [
+      "quest_order_tldr_32_1"
+    ]
+  },
+  "playthrough_61": {
+    "targets": [
+      "gestures_1_10",
+      "npc_quests_1_1",
+      "quest_order_tldr_33",
+      "spirit_ashes_2_7"
+    ]
+  },
+  "playthrough_62": {
+    "targets": [
+      "flasks_1_3"
+    ]
+  },
+  "playthrough_63": {
+    "targets": [
+      "quest_order_tldr_34"
+    ]
+  },
+  "playthrough_64": {
+    "targets": [
+      "graces_24"
+    ]
+  },
+  "playthrough_65": {
+    "targets": [
+      "quest_order_tldr_34_1"
+    ]
+  },
+  "playthrough_67": {
+    "andsources": [
+      "playthrough_68"
+    ],
+    "andtargets": [
+      "npc_quests_35_2",
+      "quest_order_tldr_35"
+    ],
+    "targets": [
+      "bosses_2_18",
+      "evergaols_1_1",
+      "weapons_8_3"
+    ]
+  },
+  "playthrough_68": {
+    "andsources": [
+      "playthrough_67"
+    ],
+    "andtargets": [
+      "npc_quests_35_2",
+      "quest_order_tldr_35"
+    ]
+  },
+  "playthrough_7": {
+    "targets": [
+      "graces_8"
+    ]
+  },
+  "playthrough_8": {
+    "targets": [
+      "npc_quests_42_1",
+      "quest_order_tldr_3"
+    ]
+  },
+  "playthrough_9": {
+    "targets": [
+      "npc_quests_3_1",
+      "quest_order_tldr_4"
     ]
   },
   "playthrough_9_7": {
@@ -3431,11 +4278,264 @@ const item_links = {
       "weapons_18_6"
     ]
   },
+  "quest_order_tldr_1": {
+    "targets": [
+      "npc_quests_8_1",
+      "playthrough_1"
+    ]
+  },
+  "quest_order_tldr_11": {
+    "targets": [
+      "playthrough_19"
+    ]
+  },
+  "quest_order_tldr_12": {
+    "orsources": [
+      "legacy_1_3"
+    ],
+    "ortargets": [
+      "playthrough_22",
+      "playthrough_23"
+    ]
+  },
+  "quest_order_tldr_13": {
+    "targets": [
+      "gestures_1_7",
+      "playthrough_25"
+    ]
+  },
+  "quest_order_tldr_14": {
+    "targets": [
+      "npc_quests_37_1",
+      "playthrough_24",
+      "spirit_ashes_2_4"
+    ]
+  },
   "quest_order_tldr_145": {
     "targets": [
       "npc_quests_9_4",
       "playthrough_9_7",
       "weapons_18_6"
+    ]
+  },
+  "quest_order_tldr_15": {
+    "targets": [
+      "playthrough_27"
+    ]
+  },
+  "quest_order_tldr_16": {
+    "targets": [
+      "playthrough_28",
+      "playthrough_29"
+    ]
+  },
+  "quest_order_tldr_17": {
+    "targets": [
+      "playthrough_31"
+    ]
+  },
+  "quest_order_tldr_18": {
+    "andsources": [
+      "quest_order_tldr_19",
+      "quest_order_tldr_20"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_33"
+    ]
+  },
+  "quest_order_tldr_19": {
+    "andsources": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_20"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_34",
+      "playthrough_35"
+    ]
+  },
+  "quest_order_tldr_2": {
+    "targets": [
+      "playthrough_4"
+    ]
+  },
+  "quest_order_tldr_20": {
+    "andsources": [
+      "quest_order_tldr_18",
+      "quest_order_tldr_19"
+    ],
+    "andtargets": [
+      "npc_quests_9_1"
+    ],
+    "targets": [
+      "playthrough_36",
+      "playthrough_37"
+    ]
+  },
+  "quest_order_tldr_21": {
+    "targets": [
+      "graces_3",
+      "npc_quests_10_1",
+      "playthrough_40"
+    ]
+  },
+  "quest_order_tldr_22": {
+    "targets": [
+      "bosses_2_7",
+      "playthrough_41",
+      "weapons_3_5"
+    ]
+  },
+  "quest_order_tldr_23": {
+    "targets": [
+      "playthrough_42"
+    ]
+  },
+  "quest_order_tldr_24": {
+    "andsources": [
+      "playthrough_47"
+    ],
+    "andtargets": [
+      "npc_quests_29_9"
+    ],
+    "targets": [
+      "playthrough_45",
+      "playthrough_46"
+    ]
+  },
+  "quest_order_tldr_25": {
+    "targets": [
+      "npc_quests_29_2",
+      "playthrough_47"
+    ]
+  },
+  "quest_order_tldr_26": {
+    "targets": [
+      "npc_quests_30_3",
+      "playthrough_50",
+      "weapons_3_15"
+    ]
+  },
+  "quest_order_tldr_27": {
+    "targets": [
+      "playthrough_51"
+    ]
+  },
+  "quest_order_tldr_28": {
+    "targets": [
+      "npc_quests_30_4",
+      "playthrough_52"
+    ]
+  },
+  "quest_order_tldr_29": {
+    "targets": [
+      "gestures_1_6",
+      "npc_quests_29_8",
+      "playthrough_53"
+    ]
+  },
+  "quest_order_tldr_3": {
+    "targets": [
+      "npc_quests_42_1",
+      "playthrough_8"
+    ]
+  },
+  "quest_order_tldr_30": {
+    "targets": [
+      "bosses_2_10",
+      "caves_1_4",
+      "dragon_hearts_death_roots_1_2",
+      "playthrough_55",
+      "talismans_2_18"
+    ]
+  },
+  "quest_order_tldr_31": {
+    "targets": [
+      "npc_quests_36_1",
+      "playthrough_57"
+    ]
+  },
+  "quest_order_tldr_32": {
+    "targets": [
+      "bosses_2_11",
+      "playthrough_58",
+      "talismans_2_11"
+    ]
+  },
+  "quest_order_tldr_32_1": {
+    "targets": [
+      "playthrough_60"
+    ]
+  },
+  "quest_order_tldr_33": {
+    "targets": [
+      "gestures_1_10",
+      "npc_quests_1_1",
+      "playthrough_61",
+      "spirit_ashes_2_7"
+    ]
+  },
+  "quest_order_tldr_34": {
+    "targets": [
+      "playthrough_63"
+    ]
+  },
+  "quest_order_tldr_34_1": {
+    "targets": [
+      "playthrough_65"
+    ]
+  },
+  "quest_order_tldr_35": {
+    "orsources": [
+      "npc_quests_35_2"
+    ],
+    "ortargets": [
+      "playthrough_67",
+      "playthrough_68"
+    ]
+  },
+  "quest_order_tldr_4": {
+    "targets": [
+      "npc_quests_3_1",
+      "playthrough_9"
+    ]
+  },
+  "quest_order_tldr_5": {
+    "targets": [
+      "npc_quests_32_1",
+      "playthrough_10"
+    ]
+  },
+  "quest_order_tldr_6": {
+    "targets": [
+      "npc_quests_23_1",
+      "playthrough_12"
+    ]
+  },
+  "quest_order_tldr_7": {
+    "orsources": [
+      "npc_quests_23_2"
+    ],
+    "ortargets": [
+      "playthrough_13",
+      "playthrough_14"
+    ]
+  },
+  "quest_order_tldr_8": {
+    "targets": [
+      "npc_quests_30_1",
+      "playthrough_15"
+    ]
+  },
+  "quest_order_tldr_9": {
+    "targets": [
+      "npc_quests_42_3_1",
+      "playthrough_17"
     ]
   },
   "remembrances_mausoleums_1_1": {
@@ -3799,6 +4899,13 @@ const item_links = {
       "caves_1_2"
     ]
   },
+  "spirit_ashes_2_4": {
+    "targets": [
+      "npc_quests_37_1",
+      "playthrough_24",
+      "quest_order_tldr_14"
+    ]
+  },
   "spirit_ashes_2_5": {
     "targets": [
       "bosses_2_3",
@@ -3808,7 +4915,16 @@ const item_links = {
   "spirit_ashes_2_6": {
     "targets": [
       "bosses_2_16",
-      "dragon_hearts_death_roots_1_1"
+      "dragon_hearts_death_roots_1_1",
+      "playthrough_13"
+    ]
+  },
+  "spirit_ashes_2_7": {
+    "targets": [
+      "gestures_1_10",
+      "npc_quests_1_1",
+      "playthrough_61",
+      "quest_order_tldr_33"
     ]
   },
   "spirit_ashes_3_1": {
@@ -3929,7 +5045,9 @@ const item_links = {
   },
   "talismans_2_11": {
     "targets": [
-      "bosses_2_11"
+      "bosses_2_11",
+      "playthrough_58",
+      "quest_order_tldr_32"
     ]
   },
   "talismans_2_13": {
@@ -3952,7 +5070,9 @@ const item_links = {
     "targets": [
       "bosses_2_10",
       "caves_1_4",
-      "dragon_hearts_death_roots_1_2"
+      "dragon_hearts_death_roots_1_2",
+      "playthrough_55",
+      "quest_order_tldr_30"
     ]
   },
   "talismans_2_19": {
@@ -4066,6 +5186,17 @@ const item_links = {
       "bosses_9_13",
       "caves_7_3",
       "incantations_9_3"
+    ]
+  },
+  "tools_2_1": {
+    "targets": [
+      "cookbooks_2_2",
+      "playthrough_48"
+    ]
+  },
+  "tools_4_4": {
+    "targets": [
+      "playthrough_2"
     ]
   },
   "weapons_12_4": {
@@ -4459,6 +5590,13 @@ const item_links = {
       "weapons_13_14"
     ]
   },
+  "weapons_3_15": {
+    "targets": [
+      "npc_quests_30_3",
+      "playthrough_50",
+      "quest_order_tldr_26"
+    ]
+  },
   "weapons_3_2": {
     "targets": [
       "bosses_6_10"
@@ -4466,7 +5604,9 @@ const item_links = {
   },
   "weapons_3_5": {
     "targets": [
-      "bosses_2_7"
+      "bosses_2_7",
+      "playthrough_41",
+      "quest_order_tldr_22"
     ]
   },
   "weapons_5_10": {
@@ -4534,7 +5674,8 @@ const item_links = {
   "weapons_8_3": {
     "targets": [
       "bosses_2_18",
-      "evergaols_1_1"
+      "evergaols_1_1",
+      "playthrough_67"
     ]
   },
   "weapons_8_4": {
@@ -4562,6 +5703,11 @@ const item_links = {
   "weapons_9_15": {
     "targets": [
       "bosses_5_12"
+    ]
+  },
+  "whetstones_0_1": {
+    "targets": [
+      "playthrough_6"
     ]
   }
 }

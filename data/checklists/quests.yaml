@@ -93,7 +93,7 @@ sections:
       - id: "9_1"
         data: ["Can be found South-East of the lake in Limgrave under an overpass. Talk to him to learn about the dragon nearby. If you fight Flying Dragon Agheel but don't kill it, Yura will have dialogue for you. Kill Flying Dragon Agheel for more dialogue."]
       - id: "9_2"
-        data: ["Go North of the lake, up the stream outside Murkwater Cave and be invaded by Bloody Finger Nerijus, and after some timeYura will appear to help. After Nerijus is dead, go a bit further North and talk to Yura under another overpass."]
+        data: ["Go North of the lake, up the stream outside Murkwater Cave and be invaded by Bloody Finger Nerijus, and after some time Yura will appear to help. After Nerijus is dead, go a bit further North and talk to Yura under another overpass."]
       - id: "9_3"
         data: ["When you get access to Raya Lucaria Academy, go to the Main Academy Gate Grace and on the bridge going North, past the seal (don't interact with it, just walk past) you will see a Red Summon Sign. Interact with it and help Yura kill Bloody Finger Ravenmount Assassin. Talk to him after the fight for dialogue."]
       - id: "9_4"
@@ -489,7 +489,7 @@ sections:
     title: Melina
     items:
       - id: "42_1"
-        data: ["First talked to after resting at 3 overworld Graces. If you accept her offer, you will be able to level up and will also receive Tempest. Can be talked to at the Grace afterwards"]
+        data: ["First talked to after resting at 3 overworld Graces. If you accept her offer, you will be able to level up and will also receive Torrent. Can be talked to at the Grace afterwards"]
       - id: "42_2"
         data: ["After resting at any Grace outside of Limgrave and Weeping Peninsula, she will appear and offer to take you to Roundtable Hold"]
       - id: "42_3"
@@ -676,7 +676,7 @@ sections:
     title: Ranni
     items:
       - id: "37_1"
-        data: ["First met as Renna in the Church of Elleh at night after obtaining Tempest. Gives you the Spiritcaller's Bell and the Lone Wolf Ashes"]
+        data: ["First met as Renna in the Church of Elleh at night after obtaining Torrentt. Gives you the Spirit Calling Bell and the Lone Wolf Ashes"]
       - id: "37_2"
         data: ["Next met it Ranni's Rise, past Caria Manor in North-West Liurnia Lake. Talk to her and join her cause (if you're helping Rogier, you will have to talk to him again after getting rejected by her to join her cause)"]
       - id: "37_3"
@@ -859,7 +859,13 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/White+Mask+Varre"
     items:
       - id: "8_1"
-        data: ["Found just outside the starting area, talk to him then return to talk after unlocking Roundtable Hold. Return again after killing Godrick and once more after meeting the Fingers for dialogues and an emote."]
+        data: ["Found at the First Step Site of Grace. Exhaust his dialogue."]
+      - id: "8_1_2"
+        data: ["Return to talk after unlocking Roundtable Hold."]
+      - id: "8_1_3"
+        data: ["Return again after killing Godrick."]
+      - id: "8_1_4"
+        data: ["Return once more after meeting the Fingers for dialogues and an emote."]
       - id: "8_2"
         data: ["Go to the Rose Church located on an island in the South-West area of Liurnia Lake. Talk to him for Festering Bloody Fingers then perform 3 Invasions, outcome don't matter and you can even leave immediately after arriving, then talk to him again for a Lord of Blood's Favor."]
       - id: "8_3"
