@@ -9,68 +9,125 @@ sections:
     items:
       - id: "2_1"
         data: ["Soldier of Godrick", "Stranded Graveyard", "400 runes", "Tutorial boss."]
-      - id: "2_2"
-        data: ["Demi-Human Chief (x2)", "Coastal Cave", "900 runes, Tailoring Tools (Key Item), Sewing Needle (Key Item)", "Required for Boc the Seamster's quest. Boss arena also has multiple Demi-Humans."]
-      - id: "2_3"
-        data: ["Erdtree Burial Watchdog", "Stormfoot Catacombs", "1300 runes, Noble Sorcerer Ashes", ""]
-      - id: "2_4"
-        data: ["Beastman of Farum Azula", "Groveside Cave", "1000 runes, Flamedrake Talisman", ""]
-      - id: "2_5"
-        data: ["Stonedigger Troll", "Limgrave Tunnels", "1800 runes, Roar Medallion", ""]
-      - id: "2_6"
-        data: ["Grave Warden Duelist", "Murkwater Catacombs", "1700 runes, Banished Knight Engvall Ashes", ""]
-      - id: "2_7"
-        data: ["Bloody Finger Nerijus", "Agheel River", "316 runes, Furlcalling Finger Remedy, Reduvia", "NPC invader, not a real \"boss\"."]
-      - id: "2_8"
-        data: ["Patches", "Murkwater Cave", "If not killed: Golden Rune [1] (x2), Grovel for Mercy gesture. If killed: Golden Rune [1] (x2), Spear +7, Leather Armor, Leather Gloves, Leather Boots, Patches' Bell Bearing.", "Only half a boss fight, unless you really wanna kill Patches."]
-      - id: "2_9"
-        data: ["Guardian Golem", "Highroad Cave", "1700 runes, Blue Dancer Charm", ""]
-      - id: "2_10"
-        data: ["Black Knife Assassin", "Deathtouched Catacombs", "1600 runes, Assassin's Crimson Dagger, Deathroot", ""]
-      - id: "2_11"
-        data: ["Recusant Henricus", "Colosseum Road", "Furlcalling Finger Remedy, Hammer Talisman", "Another NPC invader."]
-      - id: "2_12"
-        data: ["Mad Pumpkin Head", "Waypoint Ruins", "1100 runes", ""]
-      - id: "2_13"
-        data: ["Night's Cavalry", "Highway Bridge", "2400 runes, Ash of War: Repeating Thrust", "Nighttime only."]
+        cords: [3781, 7390]
+        map_title: "Soldier of Godrick"
       - id: "2_14"
         data: ["Tree Sentinel", "Church of Elleh Road", "3200 runes, Golden Halberd", "Is one annoying bastard."]
+        cords: [3704, 7253]
+        map_title: "Tree Sentinel"
+      - id: "2_2"
+        data: ["Demi-Human Chief (x2)", "Coastal Cave", "900 runes, Tailoring Tools (Key Item), Sewing Needle (Key Item)", "Required for Boc the Seamster's quest. Boss arena also has multiple Demi-Humans."]
+        cords: [3521, 7326]
+        map_title: "Demi-Human Chief (x2)"
+      - id: "2_3"
+        data: ["Erdtree Burial Watchdog", "Stormfoot Catacombs", "1300 runes, Noble Sorcerer Ashes", ""]
+        cords: [3521, 7040]
+        map_title: "Erdtree Burial Watchdog"
+      - id: "2_4"
+        data: ["Beastman of Farum Azula", "Groveside Cave", "1000 runes, Flamedrake Talisman", ""]
+        cords: [3653, 7047]
+        map_title: "Beastman of Farum Azula"
+      - id: "2_5"
+        data: ["Stonedigger Troll", "Limgrave Tunnels", "1800 runes, Roar Medallion", ""]
+        cords: [3864, 7049]
+        map_title: "Stonedigger Troll"
+      - id: "2_13"
+        data: ["Night's Cavalry", "Highway Bridge", "2400 runes, Ash of War: Repeating Thrust", "Nighttime only."]
+        cords: [4058, 7137]
+        map_title: "Night's Cavalry"
+      - id: "2_12"
+        data: ["Mad Pumpkin Head", "Waypoint Ruins", "1100 runes", ""]
+        cords: [4239, 7232]
+        map_title: "Mad Pumpkin Head"
+      - id: "2_18"
+        data: ["Bloodhound Knight Darriwil", "Forlorn Hound Evergaol", "1900 runes, Bloodhound's Fang", "Related to Blaidd's initial quest, can kill him first and still progress quest normally."]
+        cords: [4227, 7671]
+        map_title: "Bloodhound Knight Darriwil"
+      - id: "2_7"
+        data: ["Bloody Finger Nerijus", "Agheel River", "316 runes, Furlcalling Finger Remedy, Reduvia", "NPC invader, not a real \"boss\"."]
+        cords: [4075, 6933]
+        map_title: "Bloody Finger Nerijus (NPC Invader)"
+      - id: "2_8"
+        data: ["Patches", "Murkwater Cave", "If not killed: Golden Rune [1] (x2), Grovel for Mercy gesture. If killed: Golden Rune [1] (x2), Spear +7, Leather Armor, Leather Gloves, Leather Boots, Patches' Bell Bearing.", "Only half a boss fight, unless you really wanna kill Patches."]
+        cords: [4026, 6962]
+        map_title: "Patches"
+      - id: "2_6"
+        data: ["Grave Warden Duelist", "Murkwater Catacombs", "1700 runes, Banished Knight Engvall Ashes", ""]
+        cords: [4057, 6735]
+        map_title: "Grave Warden Duelist"
+      - id: "2_9"
+        data: ["Guardian Golem", "Highroad Cave", "1700 runes, Blue Dancer Charm", ""]
+        cords: [4032, 6403]
+        map_title: "Guardian Golem"
+      - id: "2_10"
+        data: ["Black Knife Assassin", "Deathtouched Catacombs", "1600 runes, Assassin's Crimson Dagger, Deathroot", ""]
+        cords: [3909, 6496]
+        map_title: "Black Knife Assassin"
       - id: "2_15"
         data: ["Flying Dragon Agheel", "Agheel Lake", "5000 runes, Dragon Heart", "Field boss."]
         cords: [3880,7216]
         map_title: 'Flying Dragon Agheel'
       - id: "2_16"
         data: ["Tibia Mariner", "Summonwater Village", "2400 runes, Deathroot Skeletal, Militiaman Ashes", "Field boss."]
+        cords: [4452, 6518]
+        map_title: "Tibia Mariner"
       - id: "2_17"
         data: ["Anastasia, Tarnished-Eater", "Smoldering Village", "Furlcalling Finger Remedy, Sacred Scorpion Charm", ""]
-      - id: "2_18"
-        data: ["Bloodhound Knight Darriwil", "Forlorn Hound Evergaol", "1900 runes, Bloodhound's Fang", "Related to Blaidd's initial quest, can kill him first and still progress quest normally."]
+        cords: [4669, 6279]
+        map_title: "Anastasia, Tarnished-Eater (NPC Invader)"
       - id: "2_19"
         data: ["Crucible Knight", "Stormhill Evergaol", "2100 runes, Aspects of the Crucible: Tail", ""]
+        cords: [3631, 6984]
+        map_title: "Crucible Knight"
       - id: "2_20"
         data: ["Bell Bearing Hunter", "Warmaster's Shack", "2700 runes, Bone Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from Bernhal. Pass time, then rest once to summon."]
+        cords: [3725, 6687]
+        map_title: "Bell Bearing Hunter"        
       - id: "2_21"
         data: ["Deathbird", "Warmaster's Shack East", "2800 runes, Blue-Feathered Branchsword", "Field boss. Nighttime only."]
+        cords: [3842, 6729]
+        map_title: "Deathbird"
       - id: "2_22"
         data: ["Old Knight Istvan", "Colosseum Road", "1828 Runes, Rune Arc, Furlcalling Finger Remedy, Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves", "NPC. You can invade his world. Related to Volcano Manor quest."]
+        cords: [3625, 6473]
+        map_title: "Old Knight Istvan"
       - id: "2_30"
         data: ["Grafted Scion (x2)", "Stranded Graveyard/Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman."]
+        
       - id: "2_31"
         data: ["Elite Phantom", "Stranded Graveyard/Fringefolk Hero's Grave", "Dragon Communion Seal", "Head down the Fringefolk tunnel until the path splits (continue downward or head back upwards). Take the path heading up until you reach the end."]  #TODO: ADD RUNES
+        
       - id: "2_23"
         data: ["Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", ""]
+        
       - id: "2_24"
-        data: ["Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and guards the Prince of Death's Pustule Talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace."]
+        data: ["Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and guards the Prince of Death's Pustule Talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace."] #TODO: ADD RUNES
+        cords: [3088, 6708]
+        map_title: "Ulcerated Tree Spirit"
       - id: "2_25"
         data: ["Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird."]
+        cords: [3058, 6680]
+        map_title: "Crucible Knight"
       - id: "2_26"
         data: ["Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not \"real boss\"."]
+        cords: [3118, 6698]
+        map_title: "Grafted Scion"
       - id: "2_27"
         data: ["Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang (x2)", "Sort of a field boss. Near Divine Tower of Limgrave entrance."]
+        cords: [3218, 6713]
+        map_title: "Lion Guardian"
       - id: "2_28"
         data: ["Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted. Grants Achievement/Trophy: Margit, the Fell Omen."]
+        cords: [3277, 6826]
+        map_title: "Margit, the Fell Omen"
       - id: "2_29"
         data: ["Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Godrick."]
+        cords: [3087, 6447]
+        map_title: "Godrick the Grafted"
+      - id: "2_11"
+        data: ["Recusant Henricus", "Colosseum Road", "Furlcalling Finger Remedy, Hammer Talisman", "Another NPC invader."]
+        cords: [3650, 6420]
+        map_title: "Recusant Henricus (NPC Invader)"
   -
     title: "Weeping Peninsula"
     table: ["Name", "Location", "Drops", "Notes"]

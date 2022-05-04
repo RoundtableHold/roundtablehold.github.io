@@ -2213,10 +2213,13 @@
 "playthrough_160",
 "playthrough_161",
 "playthrough_162",
+"playthrough_162_1",
 "playthrough_163",
 "playthrough_164",
 "playthrough_165",
 "playthrough_166",
+"playthrough_166_1",
+"playthrough_166_2",
 "playthrough_167",
 "playthrough_168",
 "playthrough_169",
@@ -2276,6 +2279,7 @@
 "playthrough_204",
 "playthrough_205",
 "playthrough_206",
+"playthrough_206_1",
 "playthrough_207",
 "playthrough_208",
 "playthrough_209",
@@ -2309,6 +2313,7 @@
 "playthrough_234",
 "playthrough_235",
 "playthrough_236",
+"playthrough_236_1",
 "playthrough_237",
 "playthrough_238",
 "playthrough_239",
@@ -2660,8 +2665,10 @@
 "quest_order_tldr_30",
 "quest_order_tldr_31",
 "quest_order_tldr_32",
+"quest_order_tldr_32_1",
 "quest_order_tldr_33",
 "quest_order_tldr_34",
+"quest_order_tldr_34_1",
 "quest_order_tldr_35",
 "quest_order_tldr_36",
 "quest_order_tldr_37",
@@ -2673,6 +2680,7 @@
 "quest_order_tldr_42",
 "quest_order_tldr_43",
 "quest_order_tldr_44",
+"quest_order_tldr_44_1",
 "quest_order_tldr_45",
 "quest_order_tldr_46",
 "quest_order_tldr_47",
@@ -2709,6 +2717,7 @@
 "quest_order_tldr_73",
 "quest_order_tldr_74",
 "quest_order_tldr_75",
+"quest_order_tldr_75_1",
 "quest_order_tldr_76",
 "quest_order_tldr_77",
 "quest_order_tldr_78",
@@ -2716,6 +2725,7 @@
 "quest_order_tldr_8",
 "quest_order_tldr_80",
 "quest_order_tldr_81",
+"quest_order_tldr_81_1",
 "quest_order_tldr_82",
 "quest_order_tldr_83",
 "quest_order_tldr_84",
@@ -2735,6 +2745,7 @@
 "quest_order_tldr_97",
 "quest_order_tldr_98",
 "quest_order_tldr_99",
+"quest_order_tldr_99_1",
 "remembrances_mausoleums_1_1",
 "remembrances_mausoleums_1_10",
 "remembrances_mausoleums_1_10_1",
@@ -3503,9 +3514,9 @@
 "whetstones_0_6",
 ]);
 function calculateProgress() {
-const playthrough_total = 329;
+const playthrough_total = 334;
 var playthrough_checked = 0;
-const quest_order_tldr_total = 266;
+const quest_order_tldr_total = 272;
 var quest_order_tldr_checked = 0;
 const npc_quests_total = 347;
 var npc_quests_checked = 0;
@@ -3513,6 +3524,8 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
+const graces_total = 314;
+var graces_checked = 0;
 const bosses_total = 230;
 var bosses_checked = 0;
 const legacy_total = 16;
@@ -3523,8 +3536,6 @@ const evergaols_total = 10;
 var evergaols_checked = 0;
 const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
-const graces_total = 314;
-var graces_checked = 0;
 const weapons_total = 377;
 var weapons_checked = 0;
 const armor_total = 512;
@@ -3588,6 +3599,9 @@ achievements_checked += 1;
 if (id.startsWith("legendaries")) {
 legendaries_checked += 1;
 }
+if (id.startsWith("graces")) {
+graces_checked += 1;
+}
 if (id.startsWith("bosses")) {
 bosses_checked += 1;
 }
@@ -3602,9 +3616,6 @@ evergaols_checked += 1;
 }
 if (id.startsWith("illusory_walls")) {
 illusory_walls_checked += 1;
-}
-if (id.startsWith("graces")) {
-graces_checked += 1;
 }
 if (id.startsWith("weapons")) {
 weapons_checked += 1;
@@ -3702,6 +3713,11 @@ $("#legendaries_progress_total").html("DONE");
 } else {
 $("#legendaries_progress_total").html(legendaries_checked + "/" + legendaries_total);
 }
+if (graces_checked >= graces_total){
+$("#graces_progress_total").html("DONE");
+} else {
+$("#graces_progress_total").html(graces_checked + "/" + graces_total);
+}
 if (bosses_checked >= bosses_total){
 $("#bosses_progress_total").html("DONE");
 } else {
@@ -3726,11 +3742,6 @@ if (illusory_walls_checked >= illusory_walls_total){
 $("#illusory_walls_progress_total").html("DONE");
 } else {
 $("#illusory_walls_progress_total").html(illusory_walls_checked + "/" + illusory_walls_total);
-}
-if (graces_checked >= graces_total){
-$("#graces_progress_total").html("DONE");
-} else {
-$("#graces_progress_total").html(graces_checked + "/" + graces_total);
 }
 if (weapons_checked >= weapons_total){
 $("#weapons_progress_total").html("DONE");

@@ -71,21 +71,6 @@
 
         populateChecklists();
     });
-    
-    function initializeProfile(profile_name) {
-        if (!(profile_name in profiles[profilesKey])) profiles[profilesKey][profile_name] = {};
-        if (!('checklistData' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].checklistData = {};
-        if (!('collapsed' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].collapsed = {};
-        if (!('hide_completed' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].hide_completed = false;
-        if (!('journey' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].journey = 1;
-        if (!('style' in profiles[profilesKey][profile_name]))
-            profiles[profilesKey][profile_name].style = 'Standard';
-        $.jStorage.set(profilesKey, profiles);
-    }
 
     /// restore all saved state, except for the current tab
     /// used on page load or when switching profiles
