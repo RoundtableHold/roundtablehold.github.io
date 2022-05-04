@@ -2595,6 +2595,12 @@ const item_links = {
       "sorceries_12_5"
     ]
   },
+  "cookbooks_2_2": {
+    "targets": [
+      "playthrough_48",
+      "tools_2_1"
+    ]
+  },
   "crystal_tears_0_2": {
     "targets": [
       "bosses_1_7",
@@ -2610,6 +2616,7 @@ const item_links = {
   "crystal_tears_1_4": {
     "targets": [
       "flasks_2_4",
+      "graces_5",
       "playthrough_16"
     ]
   },
@@ -2945,6 +2952,7 @@ const item_links = {
   "flasks_2_4": {
     "targets": [
       "crystal_tears_1_4",
+      "graces_5",
       "playthrough_16"
     ]
   },
@@ -3142,6 +3150,70 @@ const item_links = {
     "targets": [
       "playthrough_25",
       "quest_order_tldr_13"
+    ]
+  },
+  "graces_0": {
+    "targets": [
+      "playthrough_0"
+    ]
+  },
+  "graces_1": {
+    "targets": [
+      "playthrough_3"
+    ]
+  },
+  "graces_10": {
+    "targets": [
+      "playthrough_32"
+    ]
+  },
+  "graces_17": {
+    "targets": [
+      "playthrough_26"
+    ]
+  },
+  "graces_18": {
+    "targets": [
+      "playthrough_43"
+    ]
+  },
+  "graces_27": {
+    "targets": [
+      "playthrough_11"
+    ]
+  },
+  "graces_3": {
+    "targets": [
+      "npc_quests_10_1",
+      "playthrough_40",
+      "quest_order_tldr_21"
+    ]
+  },
+  "graces_5": {
+    "targets": [
+      "crystal_tears_1_4",
+      "flasks_2_4",
+      "playthrough_16"
+    ]
+  },
+  "graces_6": {
+    "targets": [
+      "playthrough_20"
+    ]
+  },
+  "graces_7": {
+    "targets": [
+      "playthrough_38"
+    ]
+  },
+  "graces_8": {
+    "targets": [
+      "playthrough_7"
+    ]
+  },
+  "graces_9": {
+    "targets": [
+      "playthrough_30"
     ]
   },
   "great_runes_1_1": {
@@ -3492,6 +3564,7 @@ const item_links = {
   },
   "npc_quests_10_1": {
     "targets": [
+      "graces_3",
       "playthrough_40",
       "quest_order_tldr_21"
     ]
@@ -3612,6 +3685,11 @@ const item_links = {
       "weapons_18_6"
     ]
   },
+  "playthrough_0": {
+    "targets": [
+      "graces_0"
+    ]
+  },
   "playthrough_1": {
     "targets": [
       "npc_quests_8_1",
@@ -3622,6 +3700,11 @@ const item_links = {
     "targets": [
       "npc_quests_32_1",
       "quest_order_tldr_5"
+    ]
+  },
+  "playthrough_11": {
+    "targets": [
+      "graces_27"
     ]
   },
   "playthrough_12": {
@@ -3662,7 +3745,8 @@ const item_links = {
   "playthrough_16": {
     "targets": [
       "crystal_tears_1_4",
-      "flasks_2_4"
+      "flasks_2_4",
+      "graces_5"
     ]
   },
   "playthrough_17": {
@@ -3679,6 +3763,11 @@ const item_links = {
   "playthrough_2": {
     "targets": [
       "tools_4_4"
+    ]
+  },
+  "playthrough_20": {
+    "targets": [
+      "graces_6"
     ]
   },
   "playthrough_21": {
@@ -3721,6 +3810,11 @@ const item_links = {
       "quest_order_tldr_13"
     ]
   },
+  "playthrough_26": {
+    "targets": [
+      "graces_17"
+    ]
+  },
   "playthrough_27": {
     "andsources": [
       "playthrough_29",
@@ -3756,6 +3850,16 @@ const item_links = {
       "caves_1_3"
     ]
   },
+  "playthrough_3": {
+    "targets": [
+      "graces_1"
+    ]
+  },
+  "playthrough_30": {
+    "targets": [
+      "graces_9"
+    ]
+  },
   "playthrough_31": {
     "andsources": [
       "playthrough_27",
@@ -3766,6 +3870,11 @@ const item_links = {
     ],
     "targets": [
       "quest_order_tldr_17"
+    ]
+  },
+  "playthrough_32": {
+    "targets": [
+      "graces_10"
     ]
   },
   "playthrough_33": {
@@ -3809,6 +3918,11 @@ const item_links = {
       "quest_order_tldr_20"
     ]
   },
+  "playthrough_38": {
+    "targets": [
+      "graces_7"
+    ]
+  },
   "playthrough_39": {
     "targets": [
       "bosses_2_12"
@@ -3821,6 +3935,7 @@ const item_links = {
   },
   "playthrough_40": {
     "targets": [
+      "graces_3",
       "npc_quests_10_1",
       "quest_order_tldr_21"
     ]
@@ -3847,6 +3962,11 @@ const item_links = {
     ],
     "targets": [
       "quest_order_tldr_23"
+    ]
+  },
+  "playthrough_43": {
+    "targets": [
+      "graces_18"
     ]
   },
   "playthrough_44": {
@@ -3893,6 +4013,10 @@ const item_links = {
     ],
     "andtargets": [
       "npc_quests_29_2"
+    ],
+    "targets": [
+      "cookbooks_2_2",
+      "tools_2_1"
     ]
   },
   "playthrough_49": {
@@ -3913,6 +4037,11 @@ const item_links = {
   "playthrough_6": {
     "targets": [
       "whetstones_0_1"
+    ]
+  },
+  "playthrough_7": {
+    "targets": [
+      "graces_8"
     ]
   },
   "playthrough_8": {
@@ -4035,6 +4164,7 @@ const item_links = {
   },
   "quest_order_tldr_21": {
     "targets": [
+      "graces_3",
       "npc_quests_10_1",
       "playthrough_40"
     ]
@@ -4757,6 +4887,12 @@ const item_links = {
       "bosses_9_13",
       "caves_7_3",
       "incantations_9_3"
+    ]
+  },
+  "tools_2_1": {
+    "targets": [
+      "cookbooks_2_2",
+      "playthrough_48"
     ]
   },
   "tools_4_4": {
