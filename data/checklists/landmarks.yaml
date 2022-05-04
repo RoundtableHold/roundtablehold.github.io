@@ -7,128 +7,178 @@ sections:
     title: "Limgrave"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "1_1"
         data: ["Stranded Graveyard", "Cave", "Soldier of Godrick", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-      - id: "1_3"
-        data: ["Coastal Cave", "Cave", "Demi-Human Chief (x2)", "Related to Boc's questline."]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [3766, 7373]
+        map_icon_size: 50
       - id: "1_5"
         data: ["Groveside Cave", "Cave", "Beastman of Farum Azula", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-      - id: "1_6"
-        data: ["Highroad Cave", "Cave", "Guardian Golem", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [3664, 7065]
+        map_icon_size: 50
+      - id: "1_3"
+        data: ["Coastal Cave", "Cave", "Demi-Human Chief (x2)", "Related to Boc's questline."]
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [3497, 7347]
+        map_icon_size: 50
       - id: "1_9"
         data: ["Murkwater Cave", "Cave", "Patches", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [4060, 6975]
+        map_icon_size: 50
+      - id: "1_6"
+        data: ["Highroad Cave", "Cave", "Guardian Golem", ""]
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [4048, 6437]
+        map_icon_size: 50
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "1_4"
         data: ["Deathtouched Catacombs", "Catacomb", "Black Knife Assassin", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
-      - id: "1_8"
-        data: ["Murkwater Catacombs", "Catacomb", "Grave Warden Duelist", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [3895, 6497]
+        map_icon_size: 50
       - id: "1_10"
         data: ["Stormfoot Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [3504, 7055]
+        map_icon_size: 50
+      - id: "1_8"
+        data: ["Murkwater Catacombs", "Catacomb", "Grave Warden Duelist", ""]
+        icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [4063, 6708]
+        map_icon_size: 50
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "1_7"
         data: ["Limgrave Tunnels", "Tunnel", "Stonedigger Troll", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [3839, 7051]
+        map_icon_size: 50
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
       - id: "1_2"
         data: ["Fringefolk Hero's Grave", "Hero's grave", "Ulcerated Tree Sprit<br>Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/MENU_MAP_16.png'
+        cords: [3755, 7319]
+        map_icon_size: 70
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e1"
         data: ["Forlorn Hound Evergaol", "Evergaol", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
         cords: [4207, 7666]
-        map_title: "Forlorn Hound Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
       - id: "e2"
         data: ["Stormhill Evergaol", "Evergaol", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
         cords: [3646, 6998]
-        map_title: "Stormhill Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l1"
         data: ["Minor Erdtree", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [4561, 7088]
+        map_icon_size: 60
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l2"
         data: ["Divine Tower of Limgrave", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [4239, 6218]
+        map_icon_size: 70
         #TOWERS '/map/icons/MENU_MAP_08.png'
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l3"
         data: ["Dragon-Burnt Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [3965, 7373]
+        map_icon_size: 50
       - id: "l4"
         data: ["Gatefront Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [3785, 6961]
+        map_icon_size: 50
       - id: "l5"
         data: ["Mistwood Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [4419, 7152]
+        map_icon_size: 50
       - id: "l6"
         data: ["Waypoint Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [4234, 7222]
+        map_icon_size: 50
       - id: "l7"
         data: ["Summonwater Village", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [4462, 6491]
+        map_icon_size: 50
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l8"
         data: ["Stormhill Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [3491, 6775]
+        map_icon_size: 50
       - id: "l9"
         data: ["Warmaster's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [3720, 6694]
+        map_icon_size: 50
       - id: "l10"
         data: ["Artist's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [4214, 6799]
+        map_icon_size: 50
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l11"
         data: ["Church of Elleh", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [3664, 7217]
+        map_icon_size: 60
       - id: "l12"
         data: ["Church of Dragon Communion", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [3382, 7601]
       - id: "l13"
         data: ["Third Church of Marika", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [4624, 6710]
         #UNIQUE
       - id: "l14"
         data: ["Stormgate", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_10.png'
+        cords: [3677, 6915]
+        map_icon_size: 50
       - id: "l15"
         data: ["Siofra River Well", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Ungro.png'
+        cords: [4581, 7032]
+        map_icon_size: 50
       - id: "l16"
         data: ["Fort Haight", "Landmark", "", "Related to Kenneth Haight's questline."]
         icon: '/map/icons/MENU_MAP_18.png'
+        cords: [4707, 7314]
+        map_icon_size: 60
         #LEGACY
       - id: "ld1"
         data: ["Stormveil Castle", "Legacy dungeon (major)", "Margit, the Fell Omen<br>Godrick the Grafted", "Semi-required for progression."]
         icon: '/map/icons/MENU_MAP_50.png'
+        cords: [3216, 6775]
+        map_icon_size: 70
   -
     title: "Weeping Peninsula"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "0_1"
         data: ["Earthbore Cave", "Cave", "Runebear", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "0_5"
         data: ["Tombsward Cave", "Cave", "Miranda, the Blighted Bloom", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "0_2"
         data: ["Impaler's Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "0_4"
         data: ["Tombsward Catacombs", "Catacomb", "Cemetary Shade", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "0_3"
         data: ["Morne Tunnel", "Tunnel", "Scaly Misbegotten", ""]
@@ -138,7 +188,6 @@ sections:
       - id: "e3"
         data: ["Weeping Evergaol", "Evergaol", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
         cords: [3599, 7957]
-        map_title: "Weeping Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l17"
@@ -194,26 +243,28 @@ sections:
     title: "Liurnia of the Lakes"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "2_1"
         data: ["Academy Crystal Cave", "Cave", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "2_4"
         data: ["Lakeside Crystal Cave", "Cave", "Bloodhound Knight", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [2318, 6018]
+        map_icon_size: 90
       - id: "2_8"
         data: ["Stillwater Cave", "Cave", "Cleanrot Knight", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "2_2"
         data: ["Black Knife Catacombs", "Catacomb", "Black Knife Assassin<br>Cemetery Shade", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "2_3"
         data: ["Cliffbottom Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "2_6"
         data: ["Road's End Catacombs", "Catacomb", "Spirit-Caller Snail", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "2_5"
         data: ["Raya Lucaria Crystal Tunnel", "Tunnel", "Crystalian (Ringblade)", ""]
@@ -223,22 +274,18 @@ sections:
       - id: "e4"
         data: ["Malefactor's Evergaol", "Evergaol", "Adan, Thief of Fire", "Flame of the Fell God (Incantation)"]
         cords: [2684, 6120]
-        map_title: "Malefactor's Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
       - id: "e5"
         data: ["Cuckoo's Evergaol", "Evergaol", "Bols, Carian Knight", "Greatblade Phalanx (Sorcery)"]
         cords: [1377, 5030]
-        map_title: "Cuckoo's Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
       - id: "e6"
         data: ["Royal Grave Evergaol", "Evergaol", "Alabaster Lord", "Meteorite (Sorcery)"]
         cords: [2276, 3697]
-        map_title: "Royal Grave Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
       - id: "e7"
         data: ["Ringleader's Evergaol", "Evergaol", "Alecto, Black Knife Ringleader", "Black Knife Tiche (Ashen Remains)"]
         cords: [1377, 5693]
-        map_title: "Ringleader's Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l30"
@@ -372,29 +419,29 @@ sections:
     title: "Caelid"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "3_1"
         data: ["Abandoned Cave", "Cave", "Cleanrot Knight (x2)", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "3_4"
         data: ["Gaol Cave", "Cave", "Frenzied Duelist", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "3_7"
         data: ["Dragonbarrow Cave", "Cave", "Beastman of Farum Azula (x2)", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "3_9"
         data: ["Sellia Hideaway", "Cave", "Crystalian (x3)", "Part of Sellen's questline. Located behind an illusory cliffside."]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "3_2"
         data: ["Caelid Catacombs", "Catacomb", "Cemetery Shade", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "3_5"
         data: ["Minor Erdtree Catacombs", "Catacomb", "Erdtree Burial Watchdog (x2)", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "3_8"
         data: ["War-Dead Catacombs", "Catacomb", "Putrid Tree Spirit", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "3_3"
         data: ["Gael Tunnel", "Tunnel", "Magma Wyrm", ""]
@@ -407,7 +454,6 @@ sections:
       - id: "e8"
         data: ["Sellia Evergaol", "Evergaol", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
         cords: [5413, 6515]
-        map_title: "Sellia Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l67"
@@ -490,17 +536,17 @@ sections:
     title: "Altus Plateau"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "4_3"
         data: ["Perfumer's Grotto", "Cave", "Omenkiller & Miranda, the Blighted Bloom", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "5_2"
         data: ["Sage's Cave", "Cave", "Necromancer Garris<br>Black Knife Assassin", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "5_4"
         data: ["Unsightly Catacombs", "Catacomb", "Perfumer Tricia & Misbegotten Warrior", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "4_1"
         data: ["Old Altus Tunnel", "Tunnel", "Stonedigger Troll", ""]
@@ -516,7 +562,6 @@ sections:
       - id: "e9"
         data: ["Golden Lineage Evergaol", "Evergaol", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
         cords: [2880, 3791]
-        map_title: "Golden Lineage Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l89"
@@ -578,17 +623,17 @@ sections:
     title: "Mt. Gelmir"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "5_3"
         data: ["Seethewater Cave", "Cave", "Kindred of Rot", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_13.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
       - id: "5_5"
         data: ["Volcano Cave", "Cave", "Demi-Human Queen Margot", ""]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "5_6"
         data: ["Wyndham Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
       - id: "5_1"
@@ -628,14 +673,14 @@ sections:
     title: "Leyndell, Royal Capital"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "6_4"
         data: ["Auriza Side Tomb", "Catacomb", "Grave Warden Duelist", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "6_3"
         data: ["Leyndell Catacombs", "Catacomb", "Esgar, Priest of Blood", ""]
-        #icon: '/map/icons/MENU_MAP_04.png'
+        #icon: '/map/icons/edited/MENU_MAP_04.png'
         #TODO: This one doesn't have a map marker - should we put one anyway?
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "6_1"
@@ -676,14 +721,14 @@ sections:
     title: "Mountaintops of the Giants"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
       - id: "7_3"
         data: ["Spiritcaller Cave", "Cave", "Spirit-Caller Snail", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "7_2"
         data: ["Giants' Mountaintop Catacombs", "Catacomb", "Ulcerated Tree Sprit", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
       - id: "7_1"
@@ -693,7 +738,6 @@ sections:
       - id: "e10"
         data: ["Lord Contender's Evergaol", "Evergaol", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
         cords: [6478, 2280]
-        map_title: "Lord Contender's Evergaol"
         icon: '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l114"
@@ -746,14 +790,14 @@ sections:
     title: "Consecrated Snowfield"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-        #CAVES '/map/icons/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/MENU_MAP_04.png'
+        #CAVES '/map/icons/edited/MENU_MAP_13.png'
+        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "8_2"
         data: ["Hidden Path to the Haligtree", "Catacomb", "Stray Mimic Tear", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
       - id: "8_1"
         data: ["Consecrated Snowfield Catacombs", "Catacomb", "Putrid Grave Warden Duelist", ""]
-        icon: '/map/icons/MENU_MAP_04.png'
+        icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "8_3"
         data: ["Yelough Anix Tunnel", "Tunnel", "Astel, Stars of Darkness", ""]

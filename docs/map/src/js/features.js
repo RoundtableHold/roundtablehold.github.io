@@ -4,6 +4,2241 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3781,
+            7390
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_1",
+          "link": "/checklists/bosses.html#item_2_1",
+          "title": "Soldier of Godrick (Tutorial)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3704,
+            7253
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_14",
+          "link": "/checklists/bosses.html#item_2_14",
+          "title": "Tree Sentinel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3521,
+            7326
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_2",
+          "link": "/checklists/bosses.html#item_2_2",
+          "title": "Demi-Human Chief (x2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3521,
+            7040
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_3",
+          "link": "/checklists/bosses.html#item_2_3",
+          "title": "Erdtree Burial Watchdog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3653,
+            7047
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_4",
+          "link": "/checklists/bosses.html#item_2_4",
+          "title": "Beastman of Farum Azula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3864,
+            7049
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_5",
+          "link": "/checklists/bosses.html#item_2_5",
+          "title": "Stonedigger Troll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4058,
+            7137
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_13",
+          "link": "/checklists/bosses.html#item_2_13",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4239,
+            7232
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_12",
+          "link": "/checklists/bosses.html#item_2_12",
+          "title": "Mad Pumpkin Head"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4227,
+            7671
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_18",
+          "link": "/checklists/bosses.html#item_2_18",
+          "title": "Bloodhound Knight Darriwil"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4075,
+            6933
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_7",
+          "link": "/checklists/bosses.html#item_2_7",
+          "title": "Bloody Finger Nerijus (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4026,
+            6962
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_8",
+          "link": "/checklists/bosses.html#item_2_8",
+          "title": "Patches"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4057,
+            6735
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_6",
+          "link": "/checklists/bosses.html#item_2_6",
+          "title": "Grave Warden Duelist"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4032,
+            6403
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_9",
+          "link": "/checklists/bosses.html#item_2_9",
+          "title": "Guardian Golem"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3909,
+            6496
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_10",
+          "link": "/checklists/bosses.html#item_2_10",
+          "title": "Black Knife Assassin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3880,
+            7216
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_15",
+          "link": "/checklists/bosses.html#item_2_15",
+          "title": "Flying Dragon Agheel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4452,
+            6518
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_16",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_16",
+          "link": "/checklists/bosses.html#item_2_16",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4669,
+            6279
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_17",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_17",
+          "link": "/checklists/bosses.html#item_2_17",
+          "title": "Anastasia, Tarnished-Eater (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3631,
+            6984
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_19",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_19",
+          "link": "/checklists/bosses.html#item_2_19",
+          "title": "Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3725,
+            6687
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_20",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_20",
+          "link": "/checklists/bosses.html#item_2_20",
+          "title": "Bell Bearing Hunter (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3842,
+            6729
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_21",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_21",
+          "link": "/checklists/bosses.html#item_2_21",
+          "title": "Deathbird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3650,
+            6420
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_11",
+          "link": "/checklists/bosses.html#item_2_11",
+          "title": "Recusant Henricus (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3088,
+            6708
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_24",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_24",
+          "link": "/checklists/bosses.html#item_2_24",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3058,
+            6680
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_25",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_25",
+          "link": "/checklists/bosses.html#item_2_25",
+          "title": "Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3118,
+            6698
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_26",
+          "link": "/checklists/bosses.html#item_2_26",
+          "title": "Grafted Scion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3218,
+            6713
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_27",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_27",
+          "link": "/checklists/bosses.html#item_2_27",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3277,
+            6826
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_28",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_28",
+          "link": "/checklists/bosses.html#item_2_28",
+          "title": "Margit, the Fell Omen"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3087,
+            6447
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_29",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_29",
+          "link": "/checklists/bosses.html#item_2_29",
+          "title": "Godrick the Grafted"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3625,
+            6473
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_2_22",
+          "link": "/checklists/bosses.html#item_2_22",
+          "title": "Old Knight Istvan (Volcano Manor Questline)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4120,
+            7843
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_2",
+          "link": "/checklists/bosses.html#item_1_2",
+          "title": "Runebear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3995,
+            7830
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_3",
+          "link": "/checklists/bosses.html#item_1_3",
+          "title": "Demi-Human Queen"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4011,
+            8123
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_8",
+          "link": "/checklists/bosses.html#item_1_8",
+          "title": "Scaly Misbegotten"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4257,
+            8152
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_4",
+          "link": "/checklists/bosses.html#item_1_4",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4449,
+            7845
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_1",
+          "link": "/checklists/bosses.html#item_1_1",
+          "title": "Erdtree Burial Watchdog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3909,
+            8082
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_7",
+          "link": "/checklists/bosses.html#item_1_7",
+          "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3862,
+            7951
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_6",
+          "link": "/checklists/bosses.html#item_1_6",
+          "title": "Cemetery Shade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3590,
+            8024
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_9",
+          "link": "/checklists/bosses.html#item_1_9",
+          "title": "Miranda, the Blighted Bloom"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3602,
+            7950
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_10",
+          "link": "/checklists/bosses.html#item_1_10",
+          "title": "Ancient Hero of Zamor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4150,
+            8320
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_5",
+          "link": "/checklists/bosses.html#item_1_5",
+          "title": "Deathbird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3940,
+            8834
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_1_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_1_11",
+          "link": "/checklists/bosses.html#item_1_11",
+          "title": "Leonine Misbegotten"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2960,
+            6299
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_1",
+          "link": "/checklists/bosses.html#item_4_1",
+          "title": "Cleanrot Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2312,
+            6012
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_37",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_37",
+          "link": "/checklists/bosses.html#item_4_37",
+          "title": "Bloodhound Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2681,
+            6113
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_2",
+          "link": "/checklists/bosses.html#item_4_2",
+          "title": "Adan, Thief of Fire"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3014,
+            5936
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_3",
+          "link": "/checklists/bosses.html#item_4_3",
+          "title": "Erdtree Burial Watchdog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2874,
+            5272
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_4",
+          "link": "/checklists/bosses.html#item_4_4",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2925,
+            5204
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_6",
+          "link": "/checklists/bosses.html#item_4_6",
+          "title": "Preceptor Miriam (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2938,
+            5203
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_39",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_39",
+          "link": "/checklists/bosses.html#item_4_39",
+          "title": "Preceptor Miriam (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3120,
+            5172
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_7",
+          "link": "/checklists/bosses.html#item_4_7",
+          "title": "Godskin Noble"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2842,
+            5530
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_5",
+          "link": "/checklists/bosses.html#item_4_5",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2385,
+            5645
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_8",
+          "link": "/checklists/bosses.html#item_4_8",
+          "title": "Deathbird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1992,
+            5432
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_9",
+          "link": "/checklists/bosses.html#item_4_9",
+          "title": "Grafted Scion (Kill the Lobster first)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1620,
+            4953
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_10",
+          "link": "/checklists/bosses.html#item_4_10",
+          "title": "Glintstone Dragon Smarag"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1678,
+            4835
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_11",
+          "link": "/checklists/bosses.html#item_4_11",
+          "title": "Crystalian (Spear) & Crystalian (Staff)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2144,
+            4941
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_12",
+          "link": "/checklists/bosses.html#item_4_12",
+          "title": "Death Rite Bird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2316,
+            4453
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_13",
+          "link": "/checklists/bosses.html#item_4_13",
+          "title": "Crystalian (Ringblade)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2388,
+            4724
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_14",
+          "link": "/checklists/bosses.html#item_4_14",
+          "title": "Bell Bearing Hunter (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2867,
+            4090
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_16",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_16",
+          "link": "/checklists/bosses.html#item_4_16",
+          "title": "Cemetery Shade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2877,
+            4091
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_17",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_17",
+          "link": "/checklists/bosses.html#item_4_17",
+          "title": "Black Knife Assassin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2492,
+            4028
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_18",
+          "link": "/checklists/bosses.html#item_4_18",
+          "title": "Festering Fingerprint Vyke (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2699,
+            4316
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_15",
+          "link": "/checklists/bosses.html#item_4_15",
+          "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2173,
+            4230
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_19",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_19",
+          "link": "/checklists/bosses.html#item_4_19",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1869,
+            5764
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_26",
+          "link": "/checklists/bosses.html#item_4_26",
+          "title": "Omenkiller (Underground, Village of the Albinaurics)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1438,
+            5454
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_24",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_24",
+          "link": "/checklists/bosses.html#item_4_24",
+          "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1402,
+            5518
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_25",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_25",
+          "link": "/checklists/bosses.html#item_4_25",
+          "title": "Spirit-Caller Snail"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1433,
+            5227
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_23",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_23",
+          "link": "/checklists/bosses.html#item_4_23",
+          "title": "Edgar, the Revenger (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1380,
+            5022
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_22",
+          "link": "/checklists/bosses.html#item_4_22",
+          "title": "Bols, Carian Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2776,
+            6652
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_21",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_21",
+          "link": "/checklists/bosses.html#item_4_21",
+          "title": "Grafted Scion (via The Four Belfries in Western Liurnia)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1706,
+            4136
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_20",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_20",
+          "link": "/checklists/bosses.html#item_4_20",
+          "title": "Royal Revenant"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1892,
+            3606
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_27",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_27",
+          "link": "/checklists/bosses.html#item_4_27",
+          "title": "Royal Knight Loretta"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2235,
+            3795
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_28",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_28",
+          "link": "/checklists/bosses.html#item_4_28",
+          "title": "Red Wolf"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2280,
+            3691
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_29",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_29",
+          "link": "/checklists/bosses.html#item_4_29",
+          "title": "Alabaster Lord (Onyx Lord)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1725,
+            3649
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_30",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_30",
+          "link": "/checklists/bosses.html#item_4_30",
+          "title": "Glintstone Dragon Adula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1792,
+            5791
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_40",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_40",
+          "link": "/checklists/bosses.html#item_4_40",
+          "title": "Glintstone Dragon Adula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1439,
+            6006
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_31",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_31",
+          "link": "/checklists/bosses.html#item_4_31",
+          "title": "Red Wolf"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1384,
+            5686
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_32",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_32",
+          "link": "/checklists/bosses.html#item_4_32",
+          "title": "Alecto, Black Knife Ringleader"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1873,
+            4696
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_34",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_34",
+          "link": "/checklists/bosses.html#item_4_34",
+          "title": "Bloody Finger Ravenmount Assassin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1953,
+            5019
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_35",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_35",
+          "link": "/checklists/bosses.html#item_4_35",
+          "title": "Red Wolf of Radagon"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1928,
+            4853
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_38",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_38",
+          "link": "/checklists/bosses.html#item_4_38",
+          "title": "Moongrum, Carian Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1856,
+            4823
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_36",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_36",
+          "link": "/checklists/bosses.html#item_4_36",
+          "title": "Rennala, Queen of the Full Moon"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2448,
+            3607
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_4_33",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 40,
+          "id": "bosses_4_33",
+          "link": "/checklists/bosses.html#item_4_33",
+          "title": "Magma Wyrm Makar"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "bosses",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3766,
+            7373
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_1_1",
+          "link": "/checklists/landmarks_locations.html#item_1_1",
+          "title": "Stranded Graveyard"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3664,
+            7065
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_1_5",
+          "link": "/checklists/landmarks_locations.html#item_1_5",
+          "title": "Groveside Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3497,
+            7347
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_1_3",
+          "link": "/checklists/landmarks_locations.html#item_1_3",
+          "title": "Coastal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4060,
+            6975
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_1_9",
+          "link": "/checklists/landmarks_locations.html#item_1_9",
+          "title": "Murkwater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4048,
+            6437
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_1_6",
+          "link": "/checklists/landmarks_locations.html#item_1_6",
+          "title": "Highroad Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3895,
+            6497
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 50,
+          "id": "caves_1_4",
+          "link": "/checklists/landmarks_locations.html#item_1_4",
+          "title": "Deathtouched Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3504,
+            7055
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_10",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 50,
+          "id": "caves_1_10",
+          "link": "/checklists/landmarks_locations.html#item_1_10",
+          "title": "Stormfoot Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4063,
+            6708
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 50,
+          "id": "caves_1_8",
+          "link": "/checklists/landmarks_locations.html#item_1_8",
+          "title": "Murkwater Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3839,
+            7051
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 50,
+          "id": "caves_1_7",
+          "link": "/checklists/landmarks_locations.html#item_1_7",
+          "title": "Limgrave Tunnels"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3755,
+            7319
+          ],
+          "type": "Point"
+        },
+        "id": "caves_1_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_16.png",
+          "icon_size": 70,
+          "id": "caves_1_2",
+          "link": "/checklists/landmarks_locations.html#item_1_2",
+          "title": "Fringefolk Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4207,
+            7666
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e1",
+          "link": "/checklists/landmarks_locations.html#item_e1",
+          "title": "Forlorn Hound Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3646,
+            6998
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e2",
+          "link": "/checklists/landmarks_locations.html#item_e2",
+          "title": "Stormhill Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4561,
+            7088
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 60,
+          "id": "caves_l1",
+          "link": "/checklists/landmarks_locations.html#item_l1",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4239,
+            6218
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 70,
+          "id": "caves_l2",
+          "link": "/checklists/landmarks_locations.html#item_l2",
+          "title": "Divine Tower of Limgrave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3965,
+            7373
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l3",
+          "link": "/checklists/landmarks_locations.html#item_l3",
+          "title": "Dragon-Burnt Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3785,
+            6961
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l4",
+          "link": "/checklists/landmarks_locations.html#item_l4",
+          "title": "Gatefront Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4419,
+            7152
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l5",
+          "link": "/checklists/landmarks_locations.html#item_l5",
+          "title": "Mistwood Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4234,
+            7222
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l6",
+          "link": "/checklists/landmarks_locations.html#item_l6",
+          "title": "Waypoint Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4462,
+            6491
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l7",
+          "link": "/checklists/landmarks_locations.html#item_l7",
+          "title": "Summonwater Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3491,
+            6775
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 50,
+          "id": "caves_l8",
+          "link": "/checklists/landmarks_locations.html#item_l8",
+          "title": "Stormhill Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3720,
+            6694
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 50,
+          "id": "caves_l9",
+          "link": "/checklists/landmarks_locations.html#item_l9",
+          "title": "Warmaster's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4214,
+            6799
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l10",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 50,
+          "id": "caves_l10",
+          "link": "/checklists/landmarks_locations.html#item_l10",
+          "title": "Artist's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3664,
+            7217
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l11",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 60,
+          "id": "caves_l11",
+          "link": "/checklists/landmarks_locations.html#item_l11",
+          "title": "Church of Elleh"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3382,
+            7601
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l12",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l12",
+          "link": "/checklists/landmarks_locations.html#item_l12",
+          "title": "Church of Dragon Communion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4624,
+            6710
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l13",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l13",
+          "link": "/checklists/landmarks_locations.html#item_l13",
+          "title": "Third Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3677,
+            6915
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l14",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_10.png",
+          "icon_size": 50,
+          "id": "caves_l14",
+          "link": "/checklists/landmarks_locations.html#item_l14",
+          "title": "Stormgate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4581,
+            7032
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l15",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Ungro.png",
+          "icon_size": 50,
+          "id": "caves_l15",
+          "link": "/checklists/landmarks_locations.html#item_l15",
+          "title": "Siofra River Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4707,
+            7314
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l16",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 60,
+          "id": "caves_l16",
+          "link": "/checklists/landmarks_locations.html#item_l16",
+          "title": "Fort Haight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3216,
+            6775
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_50.png",
+          "icon_size": 70,
+          "id": "caves_ld1",
+          "link": "/checklists/landmarks_locations.html#item_ld1",
+          "title": "Stormveil Castle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3599,
+            7957
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e3",
+          "link": "/checklists/landmarks_locations.html#item_e3",
+          "title": "Weeping Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2318,
+            6018
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 90,
+          "id": "caves_2_4",
+          "link": "/checklists/landmarks_locations.html#item_2_4",
+          "title": "Lakeside Crystal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2684,
+            6120
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e4",
+          "link": "/checklists/landmarks_locations.html#item_e4",
+          "title": "Malefactor's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1377,
+            5030
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e5",
+          "link": "/checklists/landmarks_locations.html#item_e5",
+          "title": "Cuckoo's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2276,
+            3697
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e6",
+          "link": "/checklists/landmarks_locations.html#item_e6",
+          "title": "Royal Grave Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1377,
+            5693
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e7",
+          "link": "/checklists/landmarks_locations.html#item_e7",
+          "title": "Ringleader's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5413,
+            6515
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e8",
+          "link": "/checklists/landmarks_locations.html#item_e8",
+          "title": "Sellia Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2880,
+            3791
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e9",
+          "link": "/checklists/landmarks_locations.html#item_e9",
+          "title": "Golden Lineage Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6478,
+            2280
+          ],
+          "type": "Point"
+        },
+        "id": "caves_e10",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_09.png",
+          "icon_size": 40,
+          "id": "caves_e10",
+          "link": "/checklists/landmarks_locations.html#item_e10",
+          "title": "Lord Contender's Evergaol"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "caves",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             584,
             8454
           ],
@@ -5482,740 +7717,6 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3781,
-            7390
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_1",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_1",
-          "link": "/checklists/bosses.html#item_2_1",
-          "title": "Soldier of Godrick"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3704,
-            7253
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_14",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_14",
-          "link": "/checklists/bosses.html#item_2_14",
-          "title": "Tree Sentinel"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3521,
-            7326
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_2",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_2",
-          "link": "/checklists/bosses.html#item_2_2",
-          "title": "Demi-Human Chief (x2)"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3521,
-            7040
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_3",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_3",
-          "link": "/checklists/bosses.html#item_2_3",
-          "title": "Erdtree Burial Watchdog"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3653,
-            7047
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_4",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_4",
-          "link": "/checklists/bosses.html#item_2_4",
-          "title": "Beastman of Farum Azula"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3864,
-            7049
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_5",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_5",
-          "link": "/checklists/bosses.html#item_2_5",
-          "title": "Stonedigger Troll"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4058,
-            7137
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_13",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_13",
-          "link": "/checklists/bosses.html#item_2_13",
-          "title": "Night's Cavalry"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4239,
-            7232
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_12",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_12",
-          "link": "/checklists/bosses.html#item_2_12",
-          "title": "Mad Pumpkin Head"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4227,
-            7671
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_18",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_18",
-          "link": "/checklists/bosses.html#item_2_18",
-          "title": "Bloodhound Knight Darriwil"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4075,
-            6933
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_7",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_7",
-          "link": "/checklists/bosses.html#item_2_7",
-          "title": "Bloody Finger Nerijus (NPC Invader)"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4026,
-            6962
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_8",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_8",
-          "link": "/checklists/bosses.html#item_2_8",
-          "title": "Patches"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4057,
-            6735
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_6",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_6",
-          "link": "/checklists/bosses.html#item_2_6",
-          "title": "Grave Warden Duelist"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4032,
-            6403
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_9",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_9",
-          "link": "/checklists/bosses.html#item_2_9",
-          "title": "Guardian Golem"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3909,
-            6496
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_10",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_10",
-          "link": "/checklists/bosses.html#item_2_10",
-          "title": "Black Knife Assassin"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3880,
-            7216
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_15",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_15",
-          "link": "/checklists/bosses.html#item_2_15",
-          "title": "Flying Dragon Agheel"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4452,
-            6518
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_16",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_16",
-          "link": "/checklists/bosses.html#item_2_16",
-          "title": "Tibia Mariner"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4669,
-            6279
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_17",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_17",
-          "link": "/checklists/bosses.html#item_2_17",
-          "title": "Anastasia, Tarnished-Eater (NPC Invader)"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3631,
-            6984
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_19",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_19",
-          "link": "/checklists/bosses.html#item_2_19",
-          "title": "Crucible Knight"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3725,
-            6687
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_20",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_20",
-          "link": "/checklists/bosses.html#item_2_20",
-          "title": "Bell Bearing Hunter"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3842,
-            6729
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_21",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_21",
-          "link": "/checklists/bosses.html#item_2_21",
-          "title": "Deathbird"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3625,
-            6473
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_22",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_22",
-          "link": "/checklists/bosses.html#item_2_22",
-          "title": "Old Knight Istvan"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3088,
-            6708
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_24",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_24",
-          "link": "/checklists/bosses.html#item_2_24",
-          "title": "Ulcerated Tree Spirit"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3058,
-            6680
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_25",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_25",
-          "link": "/checklists/bosses.html#item_2_25",
-          "title": "Crucible Knight"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3118,
-            6698
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_26",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_26",
-          "link": "/checklists/bosses.html#item_2_26",
-          "title": "Grafted Scion"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3218,
-            6713
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_27",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_27",
-          "link": "/checklists/bosses.html#item_2_27",
-          "title": "Lion Guardian"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3277,
-            6826
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_28",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_28",
-          "link": "/checklists/bosses.html#item_2_28",
-          "title": "Margit, the Fell Omen"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3087,
-            6447
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_29",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_29",
-          "link": "/checklists/bosses.html#item_2_29",
-          "title": "Godrick the Grafted"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3650,
-            6420
-          ],
-          "type": "Point"
-        },
-        "id": "bosses_2_11",
-        "properties": {
-          "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
-          "icon_size": 40,
-          "id": "bosses_2_11",
-          "link": "/checklists/bosses.html#item_2_11",
-          "title": "Recusant Henricus (NPC Invader)"
-        },
-        "type": "Feature"
-      }
-    ],
-    "id": "bosses",
-    "type": "FeatureCollection"
-  },
-  {
-    "features": [
-      {
-        "geometry": {
-          "coordinates": [
-            4207,
-            7666
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e1",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e1",
-          "link": "/checklists/landmarks_locations.html#item_e1",
-          "title": "Forlorn Hound Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3646,
-            6998
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e2",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e2",
-          "link": "/checklists/landmarks_locations.html#item_e2",
-          "title": "Stormhill Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            3599,
-            7957
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e3",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e3",
-          "link": "/checklists/landmarks_locations.html#item_e3",
-          "title": "Weeping Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2684,
-            6120
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e4",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e4",
-          "link": "/checklists/landmarks_locations.html#item_e4",
-          "title": "Malefactor's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            1377,
-            5030
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e5",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e5",
-          "link": "/checklists/landmarks_locations.html#item_e5",
-          "title": "Cuckoo's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2276,
-            3697
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e6",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e6",
-          "link": "/checklists/landmarks_locations.html#item_e6",
-          "title": "Royal Grave Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            1377,
-            5693
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e7",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e7",
-          "link": "/checklists/landmarks_locations.html#item_e7",
-          "title": "Ringleader's Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            5413,
-            6515
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e8",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e8",
-          "link": "/checklists/landmarks_locations.html#item_e8",
-          "title": "Sellia Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            2880,
-            3791
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e9",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e9",
-          "link": "/checklists/landmarks_locations.html#item_e9",
-          "title": "Golden Lineage Evergaol"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            6478,
-            2280
-          ],
-          "type": "Point"
-        },
-        "id": "caves_e10",
-        "properties": {
-          "group": "caves",
-          "icon": "/map/icons/edited/MENU_MAP_09.png",
-          "icon_size": 40,
-          "id": "caves_e10",
-          "link": "/checklists/landmarks_locations.html#item_e10",
-          "title": "Lord Contender's Evergaol"
-        },
-        "type": "Feature"
-      }
-    ],
-    "id": "caves",
-    "type": "FeatureCollection"
-  },
-  {
-    "features": [
-      {
-        "geometry": {
-          "coordinates": [
             3655,
             7210
           ],
@@ -6581,8 +8082,21 @@ const feature_data = [
 ];
 const icon_urls = [
   "/map/icons/MENU_MAP_01_Bonfire.png",
+  "/map/icons/MENU_MAP_05.png",
+  "/map/icons/MENU_MAP_06.png",
+  "/map/icons/MENU_MAP_10.png",
+  "/map/icons/MENU_MAP_14.png",
+  "/map/icons/MENU_MAP_16.png",
+  "/map/icons/MENU_MAP_18.png",
+  "/map/icons/MENU_MAP_23.png",
+  "/map/icons/MENU_MAP_30.png",
   "/map/icons/MENU_MAP_48.png",
+  "/map/icons/MENU_MAP_50.png",
   "/map/icons/MENU_MAP_80.png",
+  "/map/icons/MENU_MAP_Church.png",
+  "/map/icons/MENU_MAP_Ungro.png",
   "/map/icons/MENU_MAP_memo_20.png",
-  "/map/icons/edited/MENU_MAP_09.png"
+  "/map/icons/edited/MENU_MAP_04.png",
+  "/map/icons/edited/MENU_MAP_09.png",
+  "/map/icons/edited/MENU_MAP_13.png"
 ]

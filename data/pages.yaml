@@ -12,9 +12,9 @@ dropdowns:
   -
     name: "Locations"
     pages:
-      - "graces.yaml" #Sites of Grace
       - "bosses.yaml" #Bosses
       - "landmarks.yaml" #Landmarks & Locations
+      - "graces.yaml" #Sites of Grace
       - "illusory_walls.yaml" #Illusory Walls & Invisible Paths
   -
     name: "Equipment"
