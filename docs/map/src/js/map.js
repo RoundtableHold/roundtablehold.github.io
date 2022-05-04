@@ -65,7 +65,8 @@
 
         var styleCache = {};
         const styleSelector = function (feature, resolution) {
-            if (!(feature.get('icon') in styleCache)) {
+            const lookup = feature.get('icon') + String(feature.get('icon_size'));
+            if (!(lookup in styleCache)) {
                 var image = images[feature.get('icon')];
                 var scale;
                 var icon_size = feature.get('icon_size');
@@ -74,7 +75,7 @@
                 } else {
                     scale = [icon_size[0] / image.naturalWidth, icon_size[1] / image.naturalHeight]
                 }
-                styleCache[feature.get('icon')] = [
+                styleCache[lookup] = [
                     new ol.style.Style({
                         image: new ol.style.Icon({
                             img: image,
@@ -105,9 +106,9 @@
             var style;
             if (checked) {
                 if (!hideChecked || feature.get('group') === 'graces')
-                    style = styleCache[feature.get('icon')][1];
+                    style = styleCache[lookup][1];
             } else {
-                style = styleCache[feature.get('icon')][0];
+                style = styleCache[lookup][0];
             }
 
             // var image = images[feature.get('icon')];
