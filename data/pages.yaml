@@ -5,7 +5,7 @@ dropdowns:
     name: "Guides"
     pages:
       - "walkthrough.yaml" #Walkthrough
-      - "quest_order_tldr.yaml"
+      - "quest_order_tldr.yaml" #TL;DR All NPC Quest Steps in Order
       - "quests.yaml" #NPC Questlines
       - "achievements.yaml" #Achievements
       - "legendaries.yaml" #Legendaries
@@ -14,18 +14,16 @@ dropdowns:
     pages:
       - "graces.yaml" #Sites of Grace
       - "bosses.yaml" #Bosses
-      - "legacy_dungeons.yaml" #Legacy Dungeons
-      - "caves.yaml" #Caves, Catacombs, and Tunnels
-      - "evergaols.yaml" #Evergaols
-      - "illusory_walls.yaml" #Illusory Walls
+      - "landmarks.yaml" #Landmarks & Locations
+      - "illusory_walls.yaml" #Illusory Walls & Invisible Paths
   -
     name: "Equipment"
     pages:
       - "weapons.yaml" #Weapons
       - "armor.yaml" #Armor
       - "talismans.yaml" #Talismans
-      - "incantations.yaml" #Incantations
       - "sorceries.yaml" #Sorceries
+      - "incantations.yaml" #Incantations
       - "ashesofwar.yaml" #Ashes of War
       - "spirit_ashes.yaml" #Spirit Ashes
   - 
@@ -42,13 +40,13 @@ dropdowns:
   -
     name: "Collectables"
     pages:
-      - "rememberances.yaml" #Rememberances
+      - "remembrances.yaml" #Remembrances & Mausoleums
       - "greatrunes.yaml" #Great Runes
       - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
-      - "tears_dews.yaml" #Larval Tears and Celestial Dews
+      - "tears_dews.yaml" #Larval Tears & Celestial Dews
       - "paintings.yaml" #Paintings
       - "pots_bottles.yaml" #Pots & Bottles
-      - "tools.yaml" #Tools
+      - "tools.yaml" #Tools & Multiplayer
       - "gestures.yaml" #Gestures
 
 # item_links allow 1 checkbox to also check other checkboxes on the site.

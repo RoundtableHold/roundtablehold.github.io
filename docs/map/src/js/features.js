@@ -6023,13 +6023,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_1_1",
+        "id": "caves_e1",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_1_1",
-          "link": "/checklists/evergaols.html#item_1_1",
+          "id": "caves_e1",
+          "link": "/checklists/landmarks_locations.html#item_e1",
           "title": "Forlorn Hound Evergaol"
         },
         "type": "Feature"
@@ -6042,13 +6042,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_1_2",
+        "id": "caves_e2",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_1_2",
-          "link": "/checklists/evergaols.html#item_1_2",
+          "id": "caves_e2",
+          "link": "/checklists/landmarks_locations.html#item_e2",
           "title": "Stormhill Evergaol"
         },
         "type": "Feature"
@@ -6061,13 +6061,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_0_1",
+        "id": "caves_e3",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_0_1",
-          "link": "/checklists/evergaols.html#item_0_1",
+          "id": "caves_e3",
+          "link": "/checklists/landmarks_locations.html#item_e3",
           "title": "Weeping Evergaol"
         },
         "type": "Feature"
@@ -6080,13 +6080,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_2_2",
+        "id": "caves_e4",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_2_2",
-          "link": "/checklists/evergaols.html#item_2_2",
+          "id": "caves_e4",
+          "link": "/checklists/landmarks_locations.html#item_e4",
           "title": "Malefactor's Evergaol"
         },
         "type": "Feature"
@@ -6099,13 +6099,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_2_1",
+        "id": "caves_e5",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_2_1",
-          "link": "/checklists/evergaols.html#item_2_1",
+          "id": "caves_e5",
+          "link": "/checklists/landmarks_locations.html#item_e5",
           "title": "Cuckoo's Evergaol"
         },
         "type": "Feature"
@@ -6118,13 +6118,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_2_3",
+        "id": "caves_e6",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_2_3",
-          "link": "/checklists/evergaols.html#item_2_3",
+          "id": "caves_e6",
+          "link": "/checklists/landmarks_locations.html#item_e6",
           "title": "Royal Grave Evergaol"
         },
         "type": "Feature"
@@ -6137,13 +6137,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_2_4",
+        "id": "caves_e7",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_2_4",
-          "link": "/checklists/evergaols.html#item_2_4",
+          "id": "caves_e7",
+          "link": "/checklists/landmarks_locations.html#item_e7",
           "title": "Ringleader's Evergaol"
         },
         "type": "Feature"
@@ -6156,13 +6156,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_3_1",
+        "id": "caves_e8",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_3_1",
-          "link": "/checklists/evergaols.html#item_3_1",
+          "id": "caves_e8",
+          "link": "/checklists/landmarks_locations.html#item_e8",
           "title": "Sellia Evergaol"
         },
         "type": "Feature"
@@ -6175,13 +6175,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_4_1",
+        "id": "caves_e9",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_4_1",
-          "link": "/checklists/evergaols.html#item_4_1",
+          "id": "caves_e9",
+          "link": "/checklists/landmarks_locations.html#item_e9",
           "title": "Golden Lineage Evergaol"
         },
         "type": "Feature"
@@ -6194,13 +6194,13 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "evergaols_5_1",
+        "id": "caves_e10",
         "properties": {
-          "group": "evergaols",
+          "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_09.png",
           "icon_size": 40,
-          "id": "evergaols_5_1",
-          "link": "/checklists/evergaols.html#item_5_1",
+          "id": "caves_e10",
+          "link": "/checklists/landmarks_locations.html#item_e10",
           "title": "Lord Contender's Evergaol"
         },
         "type": "Feature"
