@@ -3291,6 +3291,253 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4365,
+            3708
+          ],
+          "type": "Point"
+        },
+        "id": "graces_172",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_172",
+          "link": "/checklists/sitesof_grace.html#item_172",
+          "title": "Erdtree Sanctuary"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4465,
+            3400
+          ],
+          "type": "Point"
+        },
+        "id": "graces_173",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_173",
+          "link": "/checklists/sitesof_grace.html#item_173",
+          "title": "East Capital Rampart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4281,
+            3543
+          ],
+          "type": "Point"
+        },
+        "id": "graces_174",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_174",
+          "link": "/checklists/sitesof_grace.html#item_174",
+          "title": "Lower Capital Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4316,
+            3506
+          ],
+          "type": "Point"
+        },
+        "id": "graces_175",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_175",
+          "link": "/checklists/sitesof_grace.html#item_175",
+          "title": "Avenue Balcony"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4279,
+            3581
+          ],
+          "type": "Point"
+        },
+        "id": "graces_176",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_176",
+          "link": "/checklists/sitesof_grace.html#item_176",
+          "title": "West Capital Rampart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4441,
+            3629
+          ],
+          "type": "Point"
+        },
+        "id": "graces_177",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_177",
+          "link": "/checklists/sitesof_grace.html#item_177",
+          "title": "Queen's Bedchamber"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4178,
+            3591
+          ],
+          "type": "Point"
+        },
+        "id": "graces_178",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_178",
+          "link": "/checklists/sitesof_grace.html#item_178",
+          "title": "Fortified Manor, First Floor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4070,
+            3616
+          ],
+          "type": "Point"
+        },
+        "id": "graces_179",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_179",
+          "link": "/checklists/sitesof_grace.html#item_179",
+          "title": "Divine Bridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4534,
+            3737
+          ],
+          "type": "Point"
+        },
+        "id": "graces_180",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_180",
+          "link": "/checklists/sitesof_grace.html#item_180",
+          "title": "Elden Throne"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4350,
+            3486
+          ],
+          "type": "Point"
+        },
+        "id": "graces_181",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_181",
+          "link": "/checklists/sitesof_grace.html#item_181",
+          "title": "Underground Roadside"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4448,
+            3471
+          ],
+          "type": "Point"
+        },
+        "id": "graces_182",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_182",
+          "link": "/checklists/sitesof_grace.html#item_182",
+          "title": "Forsaken Depths"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4357,
+            3564
+          ],
+          "type": "Point"
+        },
+        "id": "graces_183",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_183",
+          "link": "/checklists/sitesof_grace.html#item_183",
+          "title": "Leyndell Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4570,
+            3402
+          ],
+          "type": "Point"
+        },
+        "id": "graces_185",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_185",
+          "link": "/checklists/sitesof_grace.html#item_185",
+          "title": "Cathedral of the Forsaken"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4658,
             6243
           ],

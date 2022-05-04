@@ -747,35 +747,61 @@ sections:
     items:
       - id: "172"
         data: ["Erdtree Sanctuary"]
+        cords: [4365, 3708]
+        map_title: "Erdtree Sanctuary"
       - id: "173"
         data: ["East Capital Rampart"]
+        cords: [4465, 3400]
+        map_title: "East Capital Rampart"
       - id: "174"
         data: ["Lower Capital Church"]
+        cords: [4281, 3543]
+        map_title: "Lower Capital Church"
       - id: "175"
         data: ["Avenue Balcony"]
+        cords: [4316, 3506]
+        map_title: "Avenue Balcony"
       - id: "176"
         data: ["West Capital Rampart"]
+        cords: [4279, 3581]
+        map_title: "West Capital Rampart"
       - id: "177"
         data: ["Queen's Bedchamber"]
+        cords: [4441, 3629]
+        map_title: "Queen's Bedchamber"
       - id: "178"
         data: ["Fortified Manor, First Floor"]
+        cords: [4178, 3591]
+        map_title: "Fortified Manor, First Floor"
       - id: "179"
         data: ["Divine Bridge"]
+        cords: [4070, 3616]
+        map_title: "Divine Bridge"
       - id: "180"
         data: ["Elden Throne"]
+        cords: [4534, 3737]
+        map_title: "Elden Throne"
   -
     title: Subterranean Shunning-Grounds
     items:
       - id: "181"
         data: ["Underground Roadside"]
+        cords: [4350, 3486]
+        map_title: "Underground Roadside"
       - id: "182"
         data: ["Forsaken Depths"]
+        cords: [4448, 3471]
+        map_title: "Forsaken Depths"
       - id: "183"
         data: ["Leyndell Catacombs"]
-      - id: "184"
+        cords: [4357, 3564]
+        map_title: "Leyndell Catacombs"
+      - id: "184" #TODO
         data: ["Frenzied Flame Proscription"]
       - id: "185"
         data: ["Cathedral of the Forsaken"]
+        cords: [4570, 3402]
+        map_title: "Cathedral of the Forsaken"
   -
     title: Leyndell, Ashen Capital
     items:
