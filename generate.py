@@ -33,7 +33,7 @@ with open(os.path.join('data', 'pages.yaml'), 'r', encoding='utf_8') as pages_ya
             with open(os.path.join('data', 'checklists', page), 'r', encoding='utf_8') as data:
                 yml = yaml.safe_load(data)
                 pages.append(yml)
-                dropdown_urls.append((yml['title'], yml['id'], yml.get('map_icon', None)))
+                dropdown_urls.append((yml['title'], yml['id'], yml.get('map_icon', yml.get('icon', None))))
         dropdowns.append((dropdown['name'], dropdown_urls))
 
 page_ids = set()
@@ -778,6 +778,7 @@ def make_geojson():
     for page in pages:
         geojson = {}
         geojson['type'] = 'FeatureCollection'
+        geojson['id'] = page['id']
         geojson['features'] = []
         has_features = False
         for section in page['sections']:
@@ -842,12 +843,13 @@ def make_map():
                             hr(cls='m-0')
                             for guide in l:
                                 if guide[1] in pages_in_map:
-                                    with div(cls='form-check'):
+                                    with div(cls='form-check ps-0'):
                                         l = label(cls='form-check-label', _for=guide[1])
                                         l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
                                         if guide[2]:
                                             l += img(data_src=guide[2], loading='lazy', height=20, width=20, cls='me-1')
                                         l += guide[0]
+                                        l += span(id=guide[1] + "_progress_total")
                         # with li(cls="dropdown nav-item"):
                         #     a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                         #     with ul(cls="dropdown-menu"):

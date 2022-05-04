@@ -325,6 +325,7 @@
                 $(popup_checkbox).closest('div').removeClass('completed')
             }
             map.getAllLayers().forEach((l) => l.changed())
+            calculateProgress();
         });
 
         $('#hideCompleted').click(function() {
@@ -352,5 +353,30 @@
             map.getAllLayers().forEach((l) => l.changed())
         });
 
+        function calculateProgress() {
+            profiles = $.jStorage.get(profilesKey, {});
+            for (let group of feature_data) {
+                var grp_id = group['id'];
+                var tracker = $('#' + grp_id + '_progress_total');
+                var total = group['features'].length;
+                var num_checked = 0;
+                for (let feature of group['features']) {
+                    if (!!profiles[profilesKey][profiles.current].checklistData[feature['id']]) {
+                        num_checked += 1;
+                    }
+                }
+                if (num_checked === total) {
+                    tracker.html('DONE')
+                } else {
+                    tracker.html(num_checked + '/' + total);
+                }
+            }
+        }
+
+        function displayProgress() {
+            
+        }
+
+        calculateProgress();
     })
 })(jQuery);

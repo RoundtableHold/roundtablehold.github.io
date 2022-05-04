@@ -5474,6 +5474,7 @@ const feature_data = [
         "type": "Feature"
       }
     ],
+    "id": "graces",
     "type": "FeatureCollection"
   },
   {
@@ -6011,6 +6012,7 @@ const feature_data = [
         "type": "Feature"
       }
     ],
+    "id": "bosses",
     "type": "FeatureCollection"
   },
   {
@@ -6206,6 +6208,7 @@ const feature_data = [
         "type": "Feature"
       }
     ],
+    "id": "caves",
     "type": "FeatureCollection"
   },
   {
@@ -6572,6 +6575,7 @@ const feature_data = [
         "type": "Feature"
       }
     ],
+    "id": "bell_bearings",
     "type": "FeatureCollection"
   }
 ];
