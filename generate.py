@@ -762,7 +762,7 @@ def make_feature(page, section, item):
             'coordinates': item['cords'],
         },
         'properties': {
-            'title': item['map_title'],
+            'title': item['map_title'] if 'map_title' in item else item['data'][0],
             'id': page['id'] + '_' + item['id'],
             'group': page['id'],
             'icon': icon,
