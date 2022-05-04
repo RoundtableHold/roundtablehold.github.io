@@ -160,14 +160,14 @@ item_links:
   - link_all: [bosses_2_7, weapons_3_5, playthrough_41, quest_order_tldr_22] #BLOODY FINGER NERIJUS/REDUVIA/Walkthrough 41/TLDR 22
   - link_all: [bosses_2_8, caves_1_9] #PATCHES/MURKWATER CAVE
   - link_all: [bosses_2_9, caves_1_6, talismans_2_13] #GUARDIAN GOLEM/HIGHROAD CAVE/BLUE DANCER CHARM
-  - link_all: [bosses_2_10, caves_1_4, talismans_2_18, dragon_hearts_death_roots_1_2] #BLACK KNIFE ASSASSIN/DEATHTOUCHED CATACOMBS/ASSASSIN'S CRIMSON DAGGER/DEATHROOT 
-  - link_all: [bosses_2_11, talismans_2_11] #RECUSANT HENRICUS/HAMMER TALISMAN
+  - link_all: [bosses_2_10, caves_1_4, talismans_2_18, dragon_hearts_death_roots_1_2, playthrough_55, quest_order_tldr_30] #BLACK KNIFE ASSASSIN/DEATHTOUCHED CATACOMBS/ASSASSIN'S CRIMSON DAGGER/DEATHROOT/WALKTHROUGH 55/TLDR 30 
+  - link_all: [bosses_2_11, talismans_2_11, playthrough_58, quest_order_tldr_32] #RECUSANT HENRICUS/HAMMER TALISMAN/WALKTHROUGH 58/TLDR 32
   - link_all: [bosses_2_13, ashesofwar_6_8] #NIGHT'S CAVALRY/AOW REPEATING THRUST
   - link_all: [bosses_2_14, weapons_25_13] #TREE SENTINEL/GOLDEN HALBERD
   - link_all: [bosses_2_15, dragon_hearts_death_roots_0_1, playthrough_36] #FLYING DRAGON AGHEEL/DRAGON HEART/Walkthrough 16
   - link_all: [bosses_2_16, spirit_ashes_2_6, dragon_hearts_death_roots_1_1, playthrough_13] #TIBIA MARINER/SKELETAL MILITIAMAN ASHES/DEATHROOT/Walkthrough 13
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
-  - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG
+  - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3, playthrough_67] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG/WALKTHROUGH 67
   - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
   - link_all: [bosses_2_20, bell_bearings_5_1] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING
   - link_all: [bosses_2_21, talismans_2_17] #DEATHBIRD/BLUE-FEATHERED BRANCHSWORD
@@ -421,7 +421,7 @@ item_links:
   - source_and: [playthrough_27, playthrough_29, playthrough_31]
     target: npc_quests_3_2
   - source: npc_quests_3_2
-    target: [playthrough_27, playthrough_29, playthrough_31] # Walkthrough 27, 29-31/Boc 2 
+    target: [playthrough_27, playthrough_29, playthrough_31] # Walkthrough 27,29-31/Boc 2 
   - link_all: [playthrough_32, graces_10] # Walkthrough 32/Seaside Ruins
   - link_all: [playthrough_33, quest_order_tldr_18] # Walkthrough 33/TLDR 18 
   - source_and: [playthrough_34, playthrough_35]
@@ -455,7 +455,7 @@ item_links:
   - source_and: [quest_order_tldr_24, playthrough_47]
     target: npc_quests_29_9
   - source: npc_quests_29_9
-    target: [quest_order_tldr_24, playthrough_47] # Walkthrough 45-47/Patches 1 
+    target: [quest_order_tldr_24, playthrough_47] # Walkthrough 45-47/Patches 9 
   - link_all: [playthrough_48, tools_2_1, cookbooks_2_2] # Walkthrough 48/Margit's Shackle/Missionary Cookbook [2]
   - source_and: [playthrough_48, playthrough_49]
     target: npc_quests_29_2
@@ -466,4 +466,25 @@ item_links:
   - source: quest_order_tldr_25
     target: [playthrough_47, npc_quests_29_2] # Walkthrough 47-49/TLDR 25
   - link_all: [playthrough_50, quest_order_tldr_26, npc_quests_30_3, weapons_3_15] # Walkthrough 50/TLDR 26/Kenneth 3/Erdsteel Dagger
+  - link_all: [playthrough_51, quest_order_tldr_27] # Walkthrough 51/TLDR 27
+  - source_and: [playthrough_19, playthrough_51]
+    target: npc_quests_35_1
+  - source: npc_quests_35_1
+    target: [playthrough_19, playthrough_51] # Walkthrough 19,51/Blaidd 1
+  - link_all: [playthrough_52, quest_order_tldr_28, npc_quests_30_4] # Walkthrough 52/TLDR 28/Kenneth 4
+  - link_all: [playthrough_53, quest_order_tldr_29, npc_quests_29_8, gestures_1_6] # Walkthrough 53/TLDR 29/Patches 8/Calm Down!
+  - link_all: [playthrough_54, graces_28] # Walkthrough 54/Deathtouched Catacombs
+  - link_all: [playthrough_56, graces_26] # Walkthrough 56/Warmaster's Shack
+  - link_all: [playthrough_57, quest_order_tldr_31, npc_quests_36_1] # Walkthrough 57/TLDR 31/Bernahl 1
+  - link_all: [playthrough_59, graces_23] # Walkthrough 59/Stormhill Shack
+  - link_all: [playthrough_60, quest_order_tldr_32_1] # Walkthrough 60/TLDR 32_1
+  - link_all: [playthrough_61, quest_order_tldr_33, npc_quests_1_1, spirit_ashes_2_7, gestures_1_10] # Walkthrough 61/TLDR 33/Roderika 1/Spirit Jellyfish Ashes/Sitting Sideways
+  - link_all: [playthrough_62, flasks_1_3] # Walkthrough 62/Golden Seed
+  - link_all: [playthrough_63, quest_order_tldr_34] # Walkthrough 63/TLDR 34
+  - link_all: [playthrough_64, graces_24] # Walkthrough 64/Castleward Tunnel
+  - link_all: [playthrough_65, quest_order_tldr_34_1] # Walkthrough 65/TLDR 34_1
+  - source_and: [playthrough_67, playthrough_68]
+    target: [quest_order_tldr_35, npc_quests_35_2]
+  - source_or: [quest_order_tldr_35, npc_quests_35_2]
+    target: [playthrough_67, playthrough_68] # Walkthrough 67-68/TLDR 35/Blaidd 2 
   
