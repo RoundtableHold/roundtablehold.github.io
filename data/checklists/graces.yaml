@@ -539,111 +539,209 @@ sections:
     items:
       - id: "123"
         data: ["Abandoned Coffin"]
+        cords: [2385, 3516]
+        map_title: "Abandoned Coffin"
       - id: "124"
         data: ["Erdtree-Gazing Hill"]
+        cords: [2666, 3407]
+        map_title: "Erdtree-Gazing Hill"
       - id: "125"
         data: ["Altus Plateau"]
+        cords: [2744, 3631]
+        map_title: "Altus Plateau"
       - id: "126"
         data: ["Altus Highway Junction"]
+        cords: [3037, 3452]
+        map_title: "Altus Highway Junction"
       - id: "127"
         data: ["Forest-Spanning Greatbridge"]
+        cords: [3310, 3063]
+        map_title: "Forest-Spanning Greatbridge"
       - id: "128"
         data: ["Bower of Bounty"]
+        cords: [3211, 3025]
+        map_title: "Bower of Bounty"
       - id: "129"
         data: ["Windmill Village"]
+        cords: [3534, 2631]
+        map_title: "Windmill Village"
       - id: "130"
         data: ["Windmill Heights"]
+        cords: [3673, 2469]
+        map_title: "Windmill Heights"
       - id: "131"
         data: ["Road of Iniquity Side Path"]
+        cords: [3268, 2575]
+        map_title: "Road of Iniquity Side Path"
       - id: "132"
         data: ["Rampartside Path"]
+        cords: [3545, 3180]
+        map_title: "Rampartside Path"
       - id: "133"
         data: ["Shaded Castle Ramparts"]
+        cords: [2966, 2736]
+        map_title: "Shaded Castle Ramparts"
       - id: "134"
         data: ["Shaded Castle Inner Gate"]
+        cords: [2893, 2639]
+        map_title: "Shaded Castle Inner Gate"
       - id: "135"
         data: ["Castellan's Hall"]
+        cords: [2897, 2632]
+        map_title: "Castellan's Hall"
       - id: "136"
         data: ["Unsightly Catacombs"]
+        cords: [2136, 3351]
+        map_title: "Unsightly Catacombs"
       - id: "137"
         data: ["Sainted Hero's Grave"]
+        cords: [3246, 3192]
+        map_title: "Sainted Hero's Grave"
       - id: "138"
         data: ["Sage's Cave"]
+        cords: [2534, 3256]
+        map_title: "Sage's Cave"
       - id: "139"
         data: ["Perfumer's Grotto"]
+        cords: [3506, 3433]
+        map_title: "Perfumer's Grotto"
       - id: "140"
         data: ["Old Altus Tunnel"]
+        cords: [2776, 3060]
+        map_title: "Old Altus Tunnel"
       - id: "141"
         data: ["Altus Tunnel"]
+        cords: [3403, 3156]
+        map_title: "Altus Tunnel"
   -
     title: Mt. Gelmir
     items:
       - id: "142"
         data: ["Bridge of Iniquity"]
+        cords: [2844, 2906]
+        map_title: "Bridge of Iniquity"
       - id: "143"
         data: ["First Mt. Gelmir Campsite"]
+        cords: [2715, 2811]
+        map_title: "First Mt. Gelmir Campsite"
       - id: "144"
         data: ["Ninth Mt. Gelmir Campsite"]
+        cords: [2293, 2664]
+        map_title: "Ninth Mt. Gelmir Campsite"
       - id: "145"
         data: ["Road of Iniquity"]
+        cords: [2157, 2777]
+        map_title: "Road of Iniquity"
       - id: "146"
         data: ["Seethewater River"]
+        cords: [2496, 3147]
+        map_title: "Seethewater River"
       - id: "147"
         data: ["Seethewater Terminus"]
+        cords: [2045, 2864]
+        map_title: "Seethewater Terminus"
       - id: "148"
         data: ["Craftsman's Shack"]
+        cords: [2279, 3226]
+        map_title: "Craftsman's Shack"
       - id: "149"
         data: ["Primeval Sorcerer Azur"]
+        cords: [2437, 2997]
+        map_title: "Primeval Sorcerer Azur"
       - id: "150"
         data: ["Wyndham Catacombs"]
+        cords: [2561, 3077]
+        map_title: "Wyndham Catacombs"
       - id: "151"
         data: ["Gelmir Hero's Grave"]
+        cords: [2537, 2928]
+        map_title: "Gelmir Hero's Grave"
       - id: "152"
         data: ["Seethewater Cave"]
+        cords: [2421, 2803]
+        map_title: "Seethewater Cave"
       - id: "153"
         data: ["Volcano Cave"]
+        cords: [2364, 2492]
+        map_title: "Volcano Cave"
   -
     title: Capital Outskirts
     items:
       - id: "154"
         data: ["Outer Wall Phantom Tree"]
+        cords: [3661, 3502]
+        map_title: "Outer Wall Phantom Tree"
       - id: "155"
         data: ["Minor Erdtree Church"]
+        cords: [3851, 3767]
+        map_title: "Minor Erdtree Church"
       - id: "156"
         data: ["Outer Wall Battleground"]
+        cords: [3914, 3021]
+        map_title: "Outer Wall Battleground"
       - id: "157"
         data: ["Hermit Merchant's Shack"]
+        cords: [3966, 2934]
+        map_title: "Hermit Merchant's Shack"
       - id: "158"
         data: ["Capital Rampart"]
+        cords: [4443, 3255]
+        map_title: "Capital Rampart"
       - id: "159"
         data: ["Auriza Side Tomb"]
+        cords: [4583, 3174]
+        map_title: "Auriza Side Tomb"
       - id: "160"
         data: ["Auriza Hero's Grave"]
+        cords: [4542, 3317]
+        map_title: "Auriza Hero's Grave"
       - id: "161"
         data: ["Sealed Tunnel"]
+        cords: [3901, 3675]
+        map_title: "Sealed Tunnel"
       - id: "162"
         data: ["Divine Tower of West Altus: Gate"]
+        cords: [3925, 3951]
+        map_title: "Divine Tower of West Altus: Gate"
       - id: "163"
         data: ["Divine Tower of West Altus"]
+        cords: [3921, 4062]
+        map_title: "Divine Tower of West Altus"
   -
     title: Volcano Manor
     items:
       - id: "164"
         data: ["Volcano Manor"]
+        cords: [2229, 2895]
+        map_title: "Volcano Manor"
       - id: "165"
         data: ["Prison Town Church"]
+        cords: [2127, 2948]
+        map_title: "Prison Town Church"
       - id: "166"
         data: ["Temple of Eiglay"]
+        cords: [2242, 3043]
+        map_title: "Temple of Eiglay"
       - id: "167"
         data: ["Guest Hall"]
+        cords: [2056, 3046]
+        map_title: "Guest Hall"
       - id: "168"
         data: ["Audience Pathway"]
+        cords: [2285, 2845]
+        map_title: "Audience Pathway"
       - id: "169"
         data: ["Abductor Virgin"]
+        cords: [2461, 3093]
+        map_title: "Abductor Virgin"
       - id: "170"
         data: ["Subterranean Inquisition Chamber"]
+        cords: [2351, 2984]
+        map_title: "Subterranean Inquisition Chamber"
       - id: "171"
         data: ["Rykard, Lord of Blasphemy"]
+        cords: [2282, 2949]
+        map_title: "Rykard, Lord of Blasphemy"
   -
     title: Leyndell, Royal Capital
     items:

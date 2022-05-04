@@ -2360,6 +2360,937 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2385,
+            3516
+          ],
+          "type": "Point"
+        },
+        "id": "graces_123",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_123",
+          "link": "/checklists/sitesof_grace.html#item_123",
+          "title": "Abandoned Coffin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2666,
+            3407
+          ],
+          "type": "Point"
+        },
+        "id": "graces_124",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_124",
+          "link": "/checklists/sitesof_grace.html#item_124",
+          "title": "Erdtree-Gazing Hill"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2744,
+            3631
+          ],
+          "type": "Point"
+        },
+        "id": "graces_125",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_125",
+          "link": "/checklists/sitesof_grace.html#item_125",
+          "title": "Altus Plateau"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3037,
+            3452
+          ],
+          "type": "Point"
+        },
+        "id": "graces_126",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_126",
+          "link": "/checklists/sitesof_grace.html#item_126",
+          "title": "Altus Highway Junction"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3310,
+            3063
+          ],
+          "type": "Point"
+        },
+        "id": "graces_127",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_127",
+          "link": "/checklists/sitesof_grace.html#item_127",
+          "title": "Forest-Spanning Greatbridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3211,
+            3025
+          ],
+          "type": "Point"
+        },
+        "id": "graces_128",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_128",
+          "link": "/checklists/sitesof_grace.html#item_128",
+          "title": "Bower of Bounty"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3534,
+            2631
+          ],
+          "type": "Point"
+        },
+        "id": "graces_129",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_129",
+          "link": "/checklists/sitesof_grace.html#item_129",
+          "title": "Windmill Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3673,
+            2469
+          ],
+          "type": "Point"
+        },
+        "id": "graces_130",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_130",
+          "link": "/checklists/sitesof_grace.html#item_130",
+          "title": "Windmill Heights"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3268,
+            2575
+          ],
+          "type": "Point"
+        },
+        "id": "graces_131",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_131",
+          "link": "/checklists/sitesof_grace.html#item_131",
+          "title": "Road of Iniquity Side Path"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3545,
+            3180
+          ],
+          "type": "Point"
+        },
+        "id": "graces_132",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_132",
+          "link": "/checklists/sitesof_grace.html#item_132",
+          "title": "Rampartside Path"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2966,
+            2736
+          ],
+          "type": "Point"
+        },
+        "id": "graces_133",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_133",
+          "link": "/checklists/sitesof_grace.html#item_133",
+          "title": "Shaded Castle Ramparts"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2893,
+            2639
+          ],
+          "type": "Point"
+        },
+        "id": "graces_134",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_134",
+          "link": "/checklists/sitesof_grace.html#item_134",
+          "title": "Shaded Castle Inner Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2897,
+            2632
+          ],
+          "type": "Point"
+        },
+        "id": "graces_135",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_135",
+          "link": "/checklists/sitesof_grace.html#item_135",
+          "title": "Castellan's Hall"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2136,
+            3351
+          ],
+          "type": "Point"
+        },
+        "id": "graces_136",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_136",
+          "link": "/checklists/sitesof_grace.html#item_136",
+          "title": "Unsightly Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3246,
+            3192
+          ],
+          "type": "Point"
+        },
+        "id": "graces_137",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_137",
+          "link": "/checklists/sitesof_grace.html#item_137",
+          "title": "Sainted Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2534,
+            3256
+          ],
+          "type": "Point"
+        },
+        "id": "graces_138",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_138",
+          "link": "/checklists/sitesof_grace.html#item_138",
+          "title": "Sage's Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3506,
+            3433
+          ],
+          "type": "Point"
+        },
+        "id": "graces_139",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_139",
+          "link": "/checklists/sitesof_grace.html#item_139",
+          "title": "Perfumer's Grotto"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2776,
+            3060
+          ],
+          "type": "Point"
+        },
+        "id": "graces_140",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_140",
+          "link": "/checklists/sitesof_grace.html#item_140",
+          "title": "Old Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3403,
+            3156
+          ],
+          "type": "Point"
+        },
+        "id": "graces_141",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_141",
+          "link": "/checklists/sitesof_grace.html#item_141",
+          "title": "Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2844,
+            2906
+          ],
+          "type": "Point"
+        },
+        "id": "graces_142",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_142",
+          "link": "/checklists/sitesof_grace.html#item_142",
+          "title": "Bridge of Iniquity"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2715,
+            2811
+          ],
+          "type": "Point"
+        },
+        "id": "graces_143",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_143",
+          "link": "/checklists/sitesof_grace.html#item_143",
+          "title": "First Mt. Gelmir Campsite"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2293,
+            2664
+          ],
+          "type": "Point"
+        },
+        "id": "graces_144",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_144",
+          "link": "/checklists/sitesof_grace.html#item_144",
+          "title": "Ninth Mt. Gelmir Campsite"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2157,
+            2777
+          ],
+          "type": "Point"
+        },
+        "id": "graces_145",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_145",
+          "link": "/checklists/sitesof_grace.html#item_145",
+          "title": "Road of Iniquity"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2496,
+            3147
+          ],
+          "type": "Point"
+        },
+        "id": "graces_146",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_146",
+          "link": "/checklists/sitesof_grace.html#item_146",
+          "title": "Seethewater River"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2045,
+            2864
+          ],
+          "type": "Point"
+        },
+        "id": "graces_147",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_147",
+          "link": "/checklists/sitesof_grace.html#item_147",
+          "title": "Seethewater Terminus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2279,
+            3226
+          ],
+          "type": "Point"
+        },
+        "id": "graces_148",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_148",
+          "link": "/checklists/sitesof_grace.html#item_148",
+          "title": "Craftsman's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2437,
+            2997
+          ],
+          "type": "Point"
+        },
+        "id": "graces_149",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_149",
+          "link": "/checklists/sitesof_grace.html#item_149",
+          "title": "Primeval Sorcerer Azur"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2561,
+            3077
+          ],
+          "type": "Point"
+        },
+        "id": "graces_150",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_150",
+          "link": "/checklists/sitesof_grace.html#item_150",
+          "title": "Wyndham Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2537,
+            2928
+          ],
+          "type": "Point"
+        },
+        "id": "graces_151",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_151",
+          "link": "/checklists/sitesof_grace.html#item_151",
+          "title": "Gelmir Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2421,
+            2803
+          ],
+          "type": "Point"
+        },
+        "id": "graces_152",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_152",
+          "link": "/checklists/sitesof_grace.html#item_152",
+          "title": "Seethewater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2364,
+            2492
+          ],
+          "type": "Point"
+        },
+        "id": "graces_153",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_153",
+          "link": "/checklists/sitesof_grace.html#item_153",
+          "title": "Volcano Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3661,
+            3502
+          ],
+          "type": "Point"
+        },
+        "id": "graces_154",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_154",
+          "link": "/checklists/sitesof_grace.html#item_154",
+          "title": "Outer Wall Phantom Tree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3851,
+            3767
+          ],
+          "type": "Point"
+        },
+        "id": "graces_155",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_155",
+          "link": "/checklists/sitesof_grace.html#item_155",
+          "title": "Minor Erdtree Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3914,
+            3021
+          ],
+          "type": "Point"
+        },
+        "id": "graces_156",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_156",
+          "link": "/checklists/sitesof_grace.html#item_156",
+          "title": "Outer Wall Battleground"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3966,
+            2934
+          ],
+          "type": "Point"
+        },
+        "id": "graces_157",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_157",
+          "link": "/checklists/sitesof_grace.html#item_157",
+          "title": "Hermit Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4443,
+            3255
+          ],
+          "type": "Point"
+        },
+        "id": "graces_158",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_158",
+          "link": "/checklists/sitesof_grace.html#item_158",
+          "title": "Capital Rampart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4583,
+            3174
+          ],
+          "type": "Point"
+        },
+        "id": "graces_159",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_159",
+          "link": "/checklists/sitesof_grace.html#item_159",
+          "title": "Auriza Side Tomb"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4542,
+            3317
+          ],
+          "type": "Point"
+        },
+        "id": "graces_160",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_160",
+          "link": "/checklists/sitesof_grace.html#item_160",
+          "title": "Auriza Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3901,
+            3675
+          ],
+          "type": "Point"
+        },
+        "id": "graces_161",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_161",
+          "link": "/checklists/sitesof_grace.html#item_161",
+          "title": "Sealed Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3925,
+            3951
+          ],
+          "type": "Point"
+        },
+        "id": "graces_162",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_162",
+          "link": "/checklists/sitesof_grace.html#item_162",
+          "title": "Divine Tower of West Altus: Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3921,
+            4062
+          ],
+          "type": "Point"
+        },
+        "id": "graces_163",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_163",
+          "link": "/checklists/sitesof_grace.html#item_163",
+          "title": "Divine Tower of West Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2229,
+            2895
+          ],
+          "type": "Point"
+        },
+        "id": "graces_164",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_164",
+          "link": "/checklists/sitesof_grace.html#item_164",
+          "title": "Volcano Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2127,
+            2948
+          ],
+          "type": "Point"
+        },
+        "id": "graces_165",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_165",
+          "link": "/checklists/sitesof_grace.html#item_165",
+          "title": "Prison Town Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2242,
+            3043
+          ],
+          "type": "Point"
+        },
+        "id": "graces_166",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_166",
+          "link": "/checklists/sitesof_grace.html#item_166",
+          "title": "Temple of Eiglay"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2056,
+            3046
+          ],
+          "type": "Point"
+        },
+        "id": "graces_167",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_167",
+          "link": "/checklists/sitesof_grace.html#item_167",
+          "title": "Guest Hall"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2285,
+            2845
+          ],
+          "type": "Point"
+        },
+        "id": "graces_168",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_168",
+          "link": "/checklists/sitesof_grace.html#item_168",
+          "title": "Audience Pathway"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2461,
+            3093
+          ],
+          "type": "Point"
+        },
+        "id": "graces_169",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_169",
+          "link": "/checklists/sitesof_grace.html#item_169",
+          "title": "Abductor Virgin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2351,
+            2984
+          ],
+          "type": "Point"
+        },
+        "id": "graces_170",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_170",
+          "link": "/checklists/sitesof_grace.html#item_170",
+          "title": "Subterranean Inquisition Chamber"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2282,
+            2949
+          ],
+          "type": "Point"
+        },
+        "id": "graces_171",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 50,
+          "id": "graces_171",
+          "link": "/checklists/sitesof_grace.html#item_171",
+          "title": "Rykard, Lord of Blasphemy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4658,
             6243
           ],
