@@ -67,6 +67,13 @@
         const styleSelector = function (feature, resolution) {
             if (!(feature.get('icon') in styleCache)) {
                 var image = images[feature.get('icon')];
+                var scale;
+                var icon_size = feature.get('icon_size');
+                if (typeof icon_size == 'number') {
+                    scale = icon_size / image.naturalHeight;
+                } else {
+                    scale = [icon_size[0] / image.naturalWidth, icon_size[1] / image.naturalHeight]
+                }
                 styleCache[feature.get('icon')] = [
                     new ol.style.Style({
                         image: new ol.style.Icon({
