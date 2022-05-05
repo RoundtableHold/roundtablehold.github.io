@@ -2081,8 +2081,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2318,
-            6018
+            2321,
+            6010
           ],
           "type": "Point"
         },
@@ -2090,7 +2090,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 90,
+          "icon_size": 35,
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
           "title": "Lakeside Crystal Cave"

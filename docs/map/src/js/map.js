@@ -116,6 +116,25 @@
             return style;
         }
 
+        const tempMarkerStyle = new ol.style.Style({
+            image: new ol.style.Icon({
+                src: '/map/icons/edited/MENU_MAP_Marker.png',
+                scale: 0.4,
+                anchor: [0.5, 1],
+            })
+        })
+
+        const tempMarkerSource = new ol.source.Vector({
+            updateWhileAnimating: true,
+            updateWhileInteracting: true,
+        });
+
+        const tempMarkerLayer = new ol.layer.Vector({
+            source: tempMarkerSource,
+            style: tempMarkerStyle,
+            renderBuffer: 15968,
+        })
+
         var layers = [
             new ol.layer.Tile({
                 preload: Infinity,
@@ -136,7 +155,6 @@
             layers.push(new ol.layer.Vector({
                 source: new ol.source.Vector({
                     features: format.readFeatures(c, { featureProjection: projection }),
-                    overlaps: false,
                     updateWhileAnimating: true,
                     updateWhileInteracting: true,
                 }),
@@ -144,6 +162,8 @@
                 renderBuffer: 15968,
             }));
         }
+
+        layers.push(tempMarkerLayer);
 
         var zoom = 5;
         var center = [4129, -7328];
@@ -182,7 +202,6 @@
             }
             if ('hiddenGroups' in profiles[profilesKey][profiles.current].map_settings) {
                 hiddenGroups = new Set(profiles[profilesKey][profiles.current].map_settings['hiddenGroups']);
-                console.log(hiddenGroups)
                 for (let group of hiddenGroups) {
                     console.log(group)
                     $('#' + group).prop('checked', true);
@@ -191,6 +210,10 @@
             }
             if ('devMode' in profiles[profilesKey][profiles.current].map_settings) {
                 devMode = profiles[profilesKey][profiles.current].map_settings.devMode;
+            }
+
+            if (devMode) {
+                $('#dev-mode-copy').removeClass('d-none');
             }
 
             map.getAllLayers().forEach((l) => l.changed());
@@ -212,14 +235,14 @@
                 get: (searchParams, prop) => searchParams.get(prop),
             });
 
-            let id = params.id;
+            let target = params.target;
 
-            if (id) {
+            if (target) {
                 for (var i = 1; i < layers.length; i++) {
-                    let feature = layers[i].getSource().getFeatureById(id);
+                    let feature = layers[i].getSource().getFeatureById(target);
                     if (feature) {
                         const pos = map.getView().getCenter();
-                        const t = feature.getGeometry().flatCoordinates
+                        const t = feature.getGeometry().flatCoordinates;
                         const dist = (Math.sqrt(((t[0] - pos[0]) * (t[0] - pos[0])) + ((t[1] - pos[1]) * (t[1] - pos[1]))));
 
                         map.getView().animate({
@@ -233,6 +256,35 @@
                         })
                     }
                 }
+            } else {
+                let x = params.x;
+                let y = params.y;
+
+                if (x && y) {
+                    const pos = map.getView().getCenter();
+                    const t = ol.proj.fromLonLat([parseInt(x), parseInt(y)], projection);
+                    const dist = (Math.sqrt(((t[0] - pos[0]) * (t[0] - pos[0])) + ((t[1] - pos[1]) * (t[1] - pos[1]))));
+                    map.getView().animate({
+                        center: t,
+                        zoom: 7,
+                        duration: Math.max((dist / 18654.8) * 4000, 1000),
+                    }, (b) => {
+                        if (b) {
+                            console.log('adding feature')
+                            const feature = new ol.Feature(new ol.geom.Point(t));
+                            const link = params.link;
+                            const title = params.title;
+                            feature.setProperties({
+                                link: params.link,
+                                title: params.title,
+                                id: params.id,
+                            });
+                            tempMarkerSource.addFeature(feature);
+                            tempMarkerLayer.changed();
+                            popup_feature(feature, [0, 15]);
+                        }
+                    })
+                }
             }
         }
 
@@ -244,11 +296,11 @@
 
 
 
-        popup_closer.onclick = function () {
-            overlay.setPosition(undefined);
-            popup_closer.blur();
-            return false;
-        }
+        // popup_closer.onclick = function () {
+        //     overlay.setPosition(undefined);
+        //     popup_closer.blur();
+        //     return false;
+        // }
 
         // const info = $('#info');
         // const tooltip = new bootstrap.Tooltip(info.get(0), {
@@ -275,7 +327,7 @@
         //     }
         // })
 
-        function popup_feature(feature) {
+        function popup_feature(feature, offset = [0,0]) {
             profiles = $.jStorage.get(profilesKey, {});
             var id = feature.get('id');
             var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
@@ -288,8 +340,12 @@
             }
             popup_link.href = feature.get('link')
             popup_title.innerHTML = feature.get('title');
-            overlay.setPosition(feature.getGeometry().flatCoordinates);
+            selectedCords = [feature.getGeometry().flatCoordinates[0], -feature.getGeometry().flatCoordinates[1]];
+            const cords = [feature.getGeometry().flatCoordinates[0] + offset[0], feature.getGeometry().flatCoordinates[1] + offset[1]]
+            overlay.setPosition(cords);
         }
+
+        var selectedCords = null;
 
         map.on('singleclick', function (evt) {
             const coordinate = evt.coordinate;
@@ -301,6 +357,7 @@
 
             if (devMode) {
                 var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
+                selectedCords = c;
 
                 popup_title.innerHTML = `<code>\n        cords: [${c}]</code>`;
                 overlay.setPosition(coordinate);
@@ -312,9 +369,21 @@
                 document.execCommand('copy');
             } else {
                 overlay.setPosition(undefined);
-                popup_closer.blur();
             }
         });
+
+        $('#dev-mode-copy-button').click(function () {
+            console.log('copy clicked')
+            if (devMode) {
+                popup_title.innerHTML = `<code>\n        map_link: [${selectedCords}]</code>`
+                var selection = window.getSelection();
+                var range = document.createRange();
+                range.selectNodeContents(popup_title);
+                selection.removeAllRanges();
+                selection.addRange(range);
+                document.execCommand('copy');
+            }
+        })
 
         $('#popup-checkbox').click(function () {
             var id = $(this).attr('data-id');

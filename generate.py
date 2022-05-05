@@ -464,7 +464,13 @@ def make_checklist(page):
                                                             id=page['id'] + '_' + id)
                                                     page['num_ids'] += 1
                                                 with div(cls='col-auto d-flex align-items-center order-last'):
-                                                    a(href='/map.html?id={}'.format(page['id'] + '_' + id), cls=('invisible' if 'cords' not in item else '')).add(i(cls='bi bi-geo-alt'))
+                                                    href = '/map.html?'
+                                                    if 'map_link' in item:
+                                                        href += 'x={}&y={}'.format(item['map_link'][0], item['map_link'][1])
+                                                    else:
+                                                        href += 'target={}_{}'.format(page['id'], item['id'])
+                                                    href += '&id={}&link={}&title={}'.format(page['id'] + '_' + id, '/checklists/' + to_snake_case(page['title']) + '.html%23item_' + id, item['map_title'] if 'map_title' in item else item['data'][0])
+                                                    a(href=href, cls=('invisible' if (('cords' not in item) and ('map_link' not in item)) else '')).add(i(cls='bi bi-geo-alt'))
                                                 with div(cls="col d-flex align-items-center d-md-block d-none").add(div(cls="row")):
                                                     for pos in range(table_cols):
                                                         col_size = str(table_widths[pos])
@@ -507,8 +513,14 @@ def make_checklist(page):
                                                     if 'icon' in item:
                                                         img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-md-none float-end me-md-1')
                                                     raw(item['data'][0])
-                                                if 'cords' in item:
-                                                    a(href='/map.html?id={}'.format(page['id'] + '_' + id)).add(i(cls='bi bi-geo-alt'))
+                                                if 'cords' in item or 'map_link' in item:
+                                                    href = '/map.html?'
+                                                    if 'map_link' in item:
+                                                        href += 'x={}&y={}'.format(item['map_link'][0], item['map_link'][1])
+                                                    else:
+                                                        href += 'target={}_{}'.format(page['id'], id)
+                                                    href += '&id={}&link={}&title={}'.format(page['id'] + '_' + id, '/checklists/' + to_snake_case(page['title']) + '.html%23item_' + id, item['map_title'] if 'map_title' in item else item['data'][0])
+                                                    a(href=href, cls='ms-2').add(i(cls='bi bi-geo-alt'))
                                                 page['num_ids'] += 1
                                     with u:
                                         f(item)
@@ -856,12 +868,14 @@ def make_map():
                         #         for guide in l:
                         #             li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
 
-            with div(id='popup', cls='ol-popup'):
-                a(href='#', id='popup-closer', cls='ol-popup-closer')
-                with div(cls="form-check checkbox d-flex align-items-center popup-content"):
+            with div(id='popup', cls='card shadow'):
+                # a(href='#', id='popup-closer', cls='ol-popup-closer')
+                with div(cls="card-body form-check checkbox d-flex align-items-center popup-content"):
                     input_(cls="form-check-input", type="checkbox", value="", id='popup-checkbox')
-                    label(cls="form-check-label item_content", _for='popup-checkbox', id='popup-title')
+                    label(cls="form-check-label item_content ms-2", _for='popup-checkbox', id='popup-title')
                     a(href="#", id='popup-link', cls='ms-3').add(i(cls='bi bi-link-45deg'))
+                    with div(cls='d-none', id='dev-mode-copy'):
+                        a('map_link', type='button', cls='btn btn-primary btn-sm', id='dev-mode-copy-button')
         make_footer()
         script(src='/map/src/js/ol.js')
         script(src='/map/src/js/features.js')

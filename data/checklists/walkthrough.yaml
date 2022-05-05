@@ -7,40 +7,58 @@ sections:
     items:
       - id: "0"
         data: ["Grab The First Step Grace at the start of the game."]
+        map_link: [3701,7341]
       - id: "1"
         data: ["Talk to Varré nearby and exhaust his dialogue."]
+        map_link: [3694, 7334]
       - id: "2"
         data: ["Grab the Small Golden Effigy next to the summon statue."]
+        map_link: [3711, 7342]
       - id: "3"
         data: ["Go North and grab the Church of Elleh Grace."]
+        map_link: [3679, 7224]
       - id: "4"
         data: ["Talk to Kalé at the Church of Elleh"]
+        map_link: [3655,7210]
       - id: "5"
         data: ["Go North-East to the Gatefront Ruins and grab Map (Limgrave, West) at the pillar."]
+        map_link: [3789, 6956]
       - id: "6"
         data: ["Go down the stairs in the center of the Gatefront Ruins and grab the Whetstone Knife"]
+        map_link: [3808, 6982]
       - id: "7"
         data: ["Go East of the Gatefront Ruins and grab the Agheel Lake North Grace"]
+        map_link: [3885,6983]
       - id: "8"
         data: ["Rest at the Agheel Lake North Grace, form accord with Melina and exhaust her dialogue."]
+        map_link: [3885,6983]
       - id: "9"
         data: ["Go East from the Grace and break the tree illusion and talk to Boc until his dialogue is exhausted."]
+        map_link: [3985, 7039]
       - id: "10"
         data: ["Head North, getting atop the cliffs using one of the Spiritjumps, and free Alexander from his hole on the cliffs above the Saintsbridge Grace. After freeing him, talk to him until his dialogue is exhausted."]
+        map_link: [3954, 6543]
       - id: "11"
         data: ["Grab the Saintsbridge Grace below the cliffs where you found Alexander."]
+        map_link: [3989,6525]
       - id: "12"
         data: ["Head East across the bridge and talk to D, Hunter of the Dead near the graveyard until his dialogue is exhausted."]
+        map_link: [4233, 6507]
       - id: "13"
         data: ["Follow the road East to Summonwater Village and kill the Tibia Mariner there."]
+        map_link: [4452,6518]
       - id: "14"
         data: ["After killing the Tibia Mariner, talk to D, Hunter of the Dead nearby."]
+        map_link: [4379, 6573] # TODO: Double check this location
       - id: "15"
         data: ["Make your way down the cliffs going South and talk to Kenneth Haight on top of the ruin."]
+        map_link: [4399, 6816]
       - id: "16"
         data: ["Head East from Kenneth Haight and grab the Third Church of Marika Grace as well as the Sacred Tear, the Flask of Wondrous Physick and the Crimson Crystal Tear."]
+        map_link: [4635,6711]
       - id: "17"
         data: ["Rest at the Grace and talk to Melina until her dialogue is exhausted."]
+        map_link: [4635,6711]
       - id: "18"
         data: ["Head South along the road to find Map (Limgrave, East) at the pillar beside the road."]
       - id: "19"
