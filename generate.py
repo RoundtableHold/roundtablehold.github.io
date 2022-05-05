@@ -238,7 +238,7 @@ def make_index():
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
                                         h5('Our other resources', cls='card-title text-center')
-                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/FBBtZnESrb'))
+                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/BzJzFeBjHr'))
                                         p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
                                         p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
                             with div(cls="col"):
