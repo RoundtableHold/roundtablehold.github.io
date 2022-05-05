@@ -70,19 +70,13 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
-                    </li>
-                    <li class="tab-li">
                       <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                     </li>
                     <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                      <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                     </li>
                     <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                    </li>
-                    <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                      <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                     </li>
                     <li class="tab-li">
                       <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -104,10 +98,10 @@
                       <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                     </li>
                     <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                      <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                     </li>
                     <li class="tab-li">
-                      <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                      <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                     </li>
                     <li class="tab-li">
                       <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -216,42 +210,48 @@
           </div>
           <h4>Locations</h4>
           <hr class="m-0">
-          <div class="form-check">
-            <label class="form-check-label" for="graces">
-              <input class="form-check-input category-filter" hidden="" id="graces" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="20" loading="lazy" width="20">Sites of Grace
-            </label>
-          </div>
-          <div class="form-check">
+          <div class="form-check ps-0">
             <label class="form-check-label" for="bosses">
               <input class="form-check-input category-filter" hidden="" id="bosses" type="checkbox" value="">
               <img class="me-1" data-src="/map/icons/MENU_MAP_memo_20.png" height="20" loading="lazy" width="20">Bosses
+              <span id="bosses_progress_total"></span>
             </label>
           </div>
-          <div class="form-check">
-            <label class="form-check-label" for="evergaols">
-              <input class="form-check-input category-filter" hidden="" id="evergaols" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/edited/MENU_MAP_09.png" height="20" loading="lazy" width="20">Evergaols
+          <div class="form-check ps-0">
+            <label class="form-check-label" for="caves">
+              <input class="form-check-input category-filter" hidden="" id="caves" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_30.png" height="20" loading="lazy" width="20">Landmarks &amp; Locations
+              <span id="caves_progress_total"></span>
+            </label>
+          </div>
+          <div class="form-check ps-0">
+            <label class="form-check-label" for="graces">
+              <input class="form-check-input category-filter" hidden="" id="graces" type="checkbox" value="">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="20" loading="lazy" width="20">Sites of Grace
+              <span id="graces_progress_total"></span>
             </label>
           </div>
           <h4>Upgrades &amp; Unlocks</h4>
           <hr class="m-0">
-          <div class="form-check">
+          <div class="form-check ps-0">
             <label class="form-check-label" for="bell_bearings">
               <input class="form-check-input category-filter" hidden="" id="bell_bearings" type="checkbox" value="">
               <img class="me-1" data-src="/map/icons/MENU_MAP_80.png" height="20" loading="lazy" width="20">Bell Bearings
+              <span id="bell_bearings_progress_total"></span>
             </label>
           </div>
         </div>
       </div>
-      <div class="ol-popup" id="popup">
-        <a class="ol-popup-closer" href="#" id="popup-closer"></a>
-        <div class="form-check checkbox d-flex align-items-center popup-content">
+      <div class="card shadow" id="popup">
+        <div class="card-body form-check checkbox d-flex align-items-center popup-content">
           <input class="form-check-input" id="popup-checkbox" type="checkbox" value="">
-          <label class="form-check-label item_content" for="popup-checkbox" id="popup-title"></label>
+          <label class="form-check-label item_content ms-2" for="popup-checkbox" id="popup-title"></label>
           <a class="ms-3" href="#" id="popup-link">
             <i class="bi bi-link-45deg"></i>
           </a>
+          <div class="d-none" id="dev-mode-copy">
+            <a class="btn btn-primary btn-sm" id="dev-mode-copy-button" type="button">map_link</a>
+          </div>
         </div>
       </div>
     </div>

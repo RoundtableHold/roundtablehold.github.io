@@ -983,6 +983,7 @@
 "caves_3_6",
 "caves_3_7",
 "caves_3_8",
+"caves_3_9",
 "caves_4_1",
 "caves_4_2",
 "caves_4_3",
@@ -996,12 +997,166 @@
 "caves_6_1",
 "caves_6_2",
 "caves_6_3",
+"caves_6_4",
 "caves_7_1",
 "caves_7_2",
 "caves_7_3",
 "caves_8_1",
 "caves_8_2",
 "caves_8_3",
+"caves_e1",
+"caves_e10",
+"caves_e2",
+"caves_e3",
+"caves_e4",
+"caves_e5",
+"caves_e6",
+"caves_e7",
+"caves_e8",
+"caves_e9",
+"caves_l1",
+"caves_l10",
+"caves_l100",
+"caves_l101",
+"caves_l102",
+"caves_l103",
+"caves_l104",
+"caves_l105",
+"caves_l106",
+"caves_l107",
+"caves_l108",
+"caves_l109",
+"caves_l11",
+"caves_l110",
+"caves_l111",
+"caves_l112",
+"caves_l113",
+"caves_l114",
+"caves_l115",
+"caves_l116",
+"caves_l117",
+"caves_l118",
+"caves_l119",
+"caves_l12",
+"caves_l120",
+"caves_l121",
+"caves_l122",
+"caves_l123",
+"caves_l124",
+"caves_l125",
+"caves_l126",
+"caves_l127",
+"caves_l128",
+"caves_l129",
+"caves_l13",
+"caves_l130",
+"caves_l14",
+"caves_l15",
+"caves_l16",
+"caves_l17",
+"caves_l18",
+"caves_l19",
+"caves_l2",
+"caves_l20",
+"caves_l21",
+"caves_l22",
+"caves_l23",
+"caves_l24",
+"caves_l25",
+"caves_l26",
+"caves_l27",
+"caves_l28",
+"caves_l29",
+"caves_l3",
+"caves_l30",
+"caves_l31",
+"caves_l32",
+"caves_l33",
+"caves_l34",
+"caves_l35",
+"caves_l36",
+"caves_l37",
+"caves_l38",
+"caves_l39",
+"caves_l4",
+"caves_l40",
+"caves_l41",
+"caves_l42",
+"caves_l43",
+"caves_l44",
+"caves_l45",
+"caves_l46",
+"caves_l47",
+"caves_l48",
+"caves_l49",
+"caves_l5",
+"caves_l51",
+"caves_l52",
+"caves_l53",
+"caves_l54",
+"caves_l55",
+"caves_l56",
+"caves_l57",
+"caves_l58",
+"caves_l59",
+"caves_l6",
+"caves_l60",
+"caves_l61",
+"caves_l62",
+"caves_l63",
+"caves_l64",
+"caves_l65",
+"caves_l66",
+"caves_l67",
+"caves_l68",
+"caves_l69",
+"caves_l7",
+"caves_l70",
+"caves_l71",
+"caves_l72",
+"caves_l73",
+"caves_l74",
+"caves_l75",
+"caves_l76",
+"caves_l77",
+"caves_l78",
+"caves_l79",
+"caves_l8",
+"caves_l80",
+"caves_l81",
+"caves_l82",
+"caves_l83",
+"caves_l84",
+"caves_l85",
+"caves_l86",
+"caves_l87",
+"caves_l88",
+"caves_l89",
+"caves_l9",
+"caves_l90",
+"caves_l91",
+"caves_l92",
+"caves_l93",
+"caves_l94",
+"caves_l95",
+"caves_l96",
+"caves_l97",
+"caves_l98",
+"caves_l99",
+"caves_ld1",
+"caves_ld10",
+"caves_ld11",
+"caves_ld12",
+"caves_ld13",
+"caves_ld14",
+"caves_ld2",
+"caves_ld3",
+"caves_ld4",
+"caves_ld5",
+"caves_ld6",
+"caves_ld7",
+"caves_ld8",
+"caves_ld9",
 "cookbooks_1_1",
 "cookbooks_1_10",
 "cookbooks_1_11",
@@ -1115,16 +1270,6 @@
 "dragon_hearts_death_roots_1_7",
 "dragon_hearts_death_roots_1_8",
 "dragon_hearts_death_roots_1_9",
-"evergaols_0_1",
-"evergaols_1_1",
-"evergaols_1_2",
-"evergaols_2_1",
-"evergaols_2_2",
-"evergaols_2_3",
-"evergaols_2_4",
-"evergaols_3_1",
-"evergaols_4_1",
-"evergaols_5_1",
 "flasks_1_1",
 "flasks_1_10",
 "flasks_1_11",
@@ -1680,22 +1825,6 @@
 "incantations_9_4",
 "incantations_9_5",
 "incantations_9_6",
-"legacy_1_1",
-"legacy_1_10",
-"legacy_1_11",
-"legacy_1_12",
-"legacy_1_13",
-"legacy_1_14",
-"legacy_1_15",
-"legacy_1_16",
-"legacy_1_2",
-"legacy_1_3",
-"legacy_1_4",
-"legacy_1_5",
-"legacy_1_6",
-"legacy_1_7",
-"legacy_1_8",
-"legacy_1_9",
 "legendaries_1_1",
 "legendaries_1_1_0",
 "legendaries_1_1_1",
@@ -3524,16 +3653,12 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const graces_total = 314;
-var graces_checked = 0;
 const bosses_total = 230;
 var bosses_checked = 0;
-const legacy_total = 16;
-var legacy_checked = 0;
-const caves_total = 50;
+const caves_total = 205;
 var caves_checked = 0;
-const evergaols_total = 10;
-var evergaols_checked = 0;
+const graces_total = 314;
+var graces_checked = 0;
 const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
 const weapons_total = 377;
@@ -3542,10 +3667,10 @@ const armor_total = 512;
 var armor_checked = 0;
 const talismans_total = 121;
 var talismans_checked = 0;
-const incantations_total = 101;
-var incantations_checked = 0;
 const sorceries_total = 72;
 var sorceries_checked = 0;
+const incantations_total = 101;
+var incantations_checked = 0;
 const ashesofwar_total = 92;
 var ashesofwar_checked = 0;
 const spirit_ashes_total = 64;
@@ -3599,20 +3724,14 @@ achievements_checked += 1;
 if (id.startsWith("legendaries")) {
 legendaries_checked += 1;
 }
-if (id.startsWith("graces")) {
-graces_checked += 1;
-}
 if (id.startsWith("bosses")) {
 bosses_checked += 1;
-}
-if (id.startsWith("legacy")) {
-legacy_checked += 1;
 }
 if (id.startsWith("caves")) {
 caves_checked += 1;
 }
-if (id.startsWith("evergaols")) {
-evergaols_checked += 1;
+if (id.startsWith("graces")) {
+graces_checked += 1;
 }
 if (id.startsWith("illusory_walls")) {
 illusory_walls_checked += 1;
@@ -3626,11 +3745,11 @@ armor_checked += 1;
 if (id.startsWith("talismans")) {
 talismans_checked += 1;
 }
-if (id.startsWith("incantations")) {
-incantations_checked += 1;
-}
 if (id.startsWith("sorceries")) {
 sorceries_checked += 1;
+}
+if (id.startsWith("incantations")) {
+incantations_checked += 1;
 }
 if (id.startsWith("ashesofwar")) {
 ashesofwar_checked += 1;
@@ -3713,30 +3832,20 @@ $("#legendaries_progress_total").html("DONE");
 } else {
 $("#legendaries_progress_total").html(legendaries_checked + "/" + legendaries_total);
 }
-if (graces_checked >= graces_total){
-$("#graces_progress_total").html("DONE");
-} else {
-$("#graces_progress_total").html(graces_checked + "/" + graces_total);
-}
 if (bosses_checked >= bosses_total){
 $("#bosses_progress_total").html("DONE");
 } else {
 $("#bosses_progress_total").html(bosses_checked + "/" + bosses_total);
-}
-if (legacy_checked >= legacy_total){
-$("#legacy_progress_total").html("DONE");
-} else {
-$("#legacy_progress_total").html(legacy_checked + "/" + legacy_total);
 }
 if (caves_checked >= caves_total){
 $("#caves_progress_total").html("DONE");
 } else {
 $("#caves_progress_total").html(caves_checked + "/" + caves_total);
 }
-if (evergaols_checked >= evergaols_total){
-$("#evergaols_progress_total").html("DONE");
+if (graces_checked >= graces_total){
+$("#graces_progress_total").html("DONE");
 } else {
-$("#evergaols_progress_total").html(evergaols_checked + "/" + evergaols_total);
+$("#graces_progress_total").html(graces_checked + "/" + graces_total);
 }
 if (illusory_walls_checked >= illusory_walls_total){
 $("#illusory_walls_progress_total").html("DONE");
@@ -3758,15 +3867,15 @@ $("#talismans_progress_total").html("DONE");
 } else {
 $("#talismans_progress_total").html(talismans_checked + "/" + talismans_total);
 }
-if (incantations_checked >= incantations_total){
-$("#incantations_progress_total").html("DONE");
-} else {
-$("#incantations_progress_total").html(incantations_checked + "/" + incantations_total);
-}
 if (sorceries_checked >= sorceries_total){
 $("#sorceries_progress_total").html("DONE");
 } else {
 $("#sorceries_progress_total").html(sorceries_checked + "/" + sorceries_total);
+}
+if (incantations_checked >= incantations_total){
+$("#incantations_progress_total").html("DONE");
+} else {
+$("#incantations_progress_total").html(incantations_checked + "/" + incantations_total);
 }
 if (ashesofwar_checked >= ashesofwar_total){
 $("#ashesofwar_progress_total").html("DONE");

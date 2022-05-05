@@ -1,7 +1,7 @@
 title: "Sites of Grace"
 id: graces
 map_icon: '/map/icons/MENU_MAP_01_Bonfire.png'
-map_icon_size: 50
+map_icon_size: 45
 sections:
   -
     title: Roundtable Hold
@@ -11,797 +11,611 @@ sections:
         cords: [584, 8454]
         map_icon: '/map/icons/MENU_MAP_48.png'
         map_icon_size: 60
-        map_title: "Table of Lost Grace"
   -
     title: Limgrave
     items:
       - id: "0"
         data: ["The First Step"]
         cords: [3701, 7341]
-        map_title: "The First Step"
       - id: "1"
         data: ["Church of Elleh"]
         cords: [3673, 7223]
-        map_title: "Church of Elleh"
       - id: "2"
         data: ["Gatefront"]
         cords: [3727, 6933]
-        map_title: "Gatefront"
       - id: "3"
         data: ["Waypoint Ruins Cellar"]
         cords: [4239, 7258]
-        map_title: "Waypoint Ruins Cellar"
       - id: "4"
         data: ["Artist's Shack"]
         cords: [4213, 6803]
-        map_title: "Artist's Shack"
       - id: "5"
         data: ["Third Church of Marika"]
         cords: [4635, 6711]
-        map_title: "Third Church of Marika"
       - id: "6"
         data: ["Fort Haight West"]
         cords: [4595, 7341]
-        map_title: "Fort Haight West"
       - id: "7"
         data: ["Agheel Lake South"]
         cords: [4188, 7505]
-        map_title: "Agheel Lake South"
       - id: "8"
         data: ["Agheel Lake North"]
         cords: [3885, 6983]
-        map_title: "Agheel Lake North"
       - id: "9"
         data: ["Church of Dragon Communion"]
         cords: [3403, 7573]
-        map_title: "Church of Dragon Communion"
       - id: "10"
         data: ["Seaside Ruins"]
         cords: [3951, 7503]
-        map_title: "Seaside Ruins"
       - id: "11"
         data: ["Mistwood Outskirts"]
         cords: [4346, 6933]
-        map_title: "Mistwood Outskirts"
       - id: "12"
         data: ["Murkwater Coast"]
         cords: [4079, 6822]
-        map_title: "Murkwater Coast"
       - id: "13"
         data: ["Summonwater Village Outskirts"]
         cords: [4348, 6567]
-        map_title: "Summonwater Village Outskirts"
       - id: "14"
         data: ["Stormfoot Catacombs"]
         cords: [3498, 7046]
-        map_title: "Stormfoot Catacombs"
       - id: "15"
         data: ["Murkwater Catacombs"]
         cords: [4054, 6716]
-        map_title: "Murkwater Catacombs"
       - id: "16"
         data: ["Groveside Cave"]
         cords: [3652, 7053]
-        map_title: "Groveside Cave"
       - id: "17"
         data: ["Coastal Cave"]
         cords: [3504, 7336]
-        map_title: "Coastal Cave"
       - id: "18"
         data: ["Murkwater Cave"]
         cords: [4042, 6975]
-        map_title: "Murkwater Cave"
       - id: "19"
         data: ["Highroad Cave"]
         cords: [4028, 6429]
-        map_title: "Highroad Cave"
       - id: "20"
         data: ["Limgrave Tunnels"]
         cords: [3846, 7073]
-        map_title: "Limgrave Tunnels"
   -
     title: Stranded Graveyard
     items:
       - id: "21"
         data: ["Cave of Knowledge"]
         cords: [3744, 7384]
-        map_title: "Cave of Knowledge"
       - id: "22"
         data: ["Stranded Graveyard"]
         cords: [3771, 7356]
-        map_title: "Stranded Graveyard"
   -
     title: Stormhill
     items:
       - id: "23"
         data: ["Stormhill Shack"]
         cords: [3472, 6764]
-        map_title: "Stormhill Shack"
       - id: "24"
         data: ["Castleward Tunnel"]
         cords: [3367, 6805]
-        map_title: "Castleward Tunnel"
       - id: "25"
         data: ["Margit, the Fell Omen"]
         cords: [3302, 6827]
-        map_title: "Margit, the Fell Omen"
       - id: "26"
         data: ["Warmaster's Shack"]
         cords: [3719, 6684]
-        map_title: "Warmaster's Shack"
       - id: "27"
         data: ["Saintsbridge"]
         cords: [3989, 6525]
-        map_title: "Saintsbridge"
       - id: "28"
         data: ["Deathtouched Catacombs"]
         cords: [3883, 6497]
-        map_title: "Deathtouched Catacombs"
       - id: "29"
         data: ["Limgrave Tower Bridge"]
         cords: [3268, 6678]
-        map_title: "Limgrave Tower Bridge"
       - id: "30"
         data: ["Divine Tower of Limgrave"]
         cords: [4263, 6205]
-        map_title: "Divine Tower of Limgrave"
   -
     title: Weeping Peninsula
     items:
       - id: "31"
         data: ["Church of Pilgrimage"]
         cords: [3858, 7699]
-        map_title: "Church of Pilgrimage"
       - id: "32"
         data: ["Castle Morne Rampart"]
         cords: [4306, 8158]
-        map_title: "Castle Morne Rampart"
       - id: "33"
         data: ["Tombsward"]
         cords: [3788, 8099]
-        map_title: "Tombsward"
       - id: "34"
         data: ["South of the Lookout Tower"]
         cords: [4209, 7976]
-        map_title: "South of the Lookout Tower"
       - id: "35"
         data: ["Ailing Village Outskirts"]
         cords: [4155, 7991]
-        map_title: "Ailing Village Outskirts"
       - id: "36"
         data: ["Beside The Crater-Pocked Glade"]
         cords: [4412, 8002]
-        map_title: "Beside The Crater-Pocked Glade"
       - id: "37"
         data: ["Isolated Merchant's Shack"]
         cords: [3459, 8208]
-        map_title: "Isolated Merchant's Shack"
       - id: "38"
         data: ["Fourth Church of Marika"]
         cords: [3507, 8001]
-        map_title: "Fourth Church of Marika"
       - id: "39"
         data: ["Bridge of Sacrifice"]
         cords: [4331, 7806]
-        map_title: "Bridge of Sacrifice"
       - id: "40"
         data: ["Castle Morne Lift"]
         cords: [4071, 8580]
-        map_title: "Castle Morne Lift"
       - id: "41"
         data: ["Behind The Castle"]
         cords: [4007, 8692]
-        map_title: "Behind The Castle"
       - id: "42"
         data: ["Beside the Rampart Gaol"]
         cords: [3985, 8720]
-        map_title: "Beside the Rampart Gaol"
       - id: "43"
         data: ["Morne Moangrave"]
         cords: [3935, 8846]
-        map_title: "Morne Moangrave"
       - id: "44"
         data: ["Impaler's Catacombs"]
         cords: [4455, 7853]
-        map_title: "Impaler's Catacombs"
       - id: "45"
         data: ["Tombsward Catacombs"]
         cords: [3871, 7957]
-        map_title: "Tombsward Catacombs"
       - id: "46"
         data: ["Earthbore Cave"]
         cords: [4122, 7849]
-        map_title: "Earthbore Cave"
       - id: "47"
         data: ["Tombsward Cave"]
         cords: [3596, 8030]
-        map_title: "Tombsward Cave"
       - id: "48"
         data: ["Morne Tunnel"]
         cords: [4004, 8133]
-        map_title: "Morne Tunnel"
   -
     title: Stormveil Castle
     items:
       - id: "49"
         data: ["Stormveil Main Gate"]
         cords: [3235,6791]
-        map_title: "Stormveil Main Gate"
       - id: "50"
         data: ["Gateside Chamber"]
         cords: [3209,6797]
-        map_title: "Gateside Chamber"
       - id: "51"
         data: ["Stormveil Cliffside"]
         cords: [3130,6827]
-        map_title: "Stormveil Cliffside"
       - id: "52"
         data: ["Rampart Tower"]
         cords: [3070,6697]
-        map_title: "Rampart Tower"
       - id: "53"
         data: ["Liftside Chamber"]
         cords: [3056,6569]
-        map_title: "Liftside Chamber"
       - id: "54"
         data: ["Secluded Cell"]
         cords: [3141,6496]
-        map_title: "Secluded Cell"
       - id: "55"
         data: ["Godrick the Grafted"]
         cords: [3099,6464]
-        map_title: "Godrick the Grafted"
   -
     title: Liurnia of the Lakes
     items:
       - id: "56"
         data: ["Lake-Facing Cliffs"]
         cords: [2959, 6344]
-        map_title: "Lake-Facing Cliffs"
       - id: "57"
         data: ["Liurnia Lake Shore"]
         cords: [2730, 6158]
-        map_title: "Liurnia Lake Shore"
       - id: "58"
         data: ["Laskyar Ruins"]
         cords: [2609, 5940]
-        map_title: "Laskyar Ruins"
       - id: "59"
         data: ["Scenic Isle"]
         cords: [2332, 5734]
-        map_title: "Scenic Isle"
       - id: "60"
         data: ["Academy Gate Town"]
         cords: [2401, 5349]
-        map_title: "Academy Gate Town"
       - id: "61"
         data: ["South Raya Lucaria Gate"]
         cords: [2025, 5056]
-        map_title: "South Raya Lucaria Gate"
       - id: "62"
         data: ["Main Academy Gate"]
         cords: [1826, 4767]
-        map_title: "Main Academy Gate"
       - id: "63"
         data: ["Liurnia Highway South"]
         cords: [2982, 6141]
-        map_title: "Liurnia Highway South"
       - id: "64"
         data: ["Liurnia Highway North"]
         cords: [2938, 5800]
-        map_title: "Liurnia Highway North"
       - id: "65"
         data: ["Gate Town Bridge"]
         cords: [2740, 5480]
-        map_title: "Gate Town Bridge"
       - id: "66"
         data: ["Artist's Shack"]
         cords: [2784, 5106]
-        map_title: "Artist's Shack"
       - id: "67"
         data: ["Eastern Liurnia Lake Shore"]
         cords: [2655, 5013]
-        map_title: "Eastern Liurnia Lake Shore"
       - id: "68"
         data: ["Jarburg"]
         cords: [2992, 5306]
-        map_title: "Jarburg"
       - id: "69"
         data: ["Ranni's Chamber"]
         cords: [1607, 3687]
-        map_title: "Ranni's Chamber"
       - id: "70"
         data: ["Eastern Tableland"]
         cords: [2742, 4788]
-        map_title: "Eastern Tableland"
       - id: "71"
         data: ["Church of Vows"]
         cords: [2422, 4709]
-        map_title: "Church of Vows"
       - id: "72"
         data: ["Ruined Labyrinth"]
         cords: [2586, 4487]
-        map_title: "Ruined Labyrinth"
       - id: "73"
         data: ["Mausoleum Compound"]
         cords: [2481, 4345]
-        map_title: "Mausoleum Compound"
       - id: "74"
         data: ["Slumbering Wolf's Shack"]
         cords: [2315, 6076]
-        map_title: "Slumbering Wolf's Shack"
       - id: "75"
         data: ["Boilprawn Shack"]
         cords: [2256, 5562]
-        map_title: "Boilprawn Shack"
       - id: "76"
         data: ["Fallen Ruins of the Lake"]
         cords: [2057, 5367]
-        map_title: "Fallen Ruins of the Lake"
       - id: "77"
         data: ["Folly on the Lake"]
         cords: [1947, 5619]
-        map_title: "Folly on the Lake"
       - id: "78"
         data: ["Village of the Albinaurics"]
         cords: [1711, 5861]
-        map_title: "Village of the Albinaurics"
       - id: "79"
         data: ["Converted Tower"]
         cords: [1572, 5603]
-        map_title: "Converted Tower"
       - id: "80"
         data: ["Revenger's Shack"]
         cords: [1427, 5227]
-        map_title: "Revenger's Shack"
       - id: "81"
         data: ["Temple Quarter"]
         cords: [1620, 5124]
-        map_title: "Temple Quarter"
       - id: "82"
         data: ["Crystalline Woods"]
         cords: [1668, 4805]
-        map_title: "Crystalline Woods"
       - id: "83"
         data: ["Foot of the Four Belfries"]
         cords: [1347, 4800]
-        map_title: "Foot of the Four Belfries"
       - id: "84"
         data: ["The Four Belfries"]
         cords: [1469, 4582]
-        map_title: "The Four Belfries"
       - id: "85"
         data: ["Sorcerer's Isle"]
         cords: [1743, 4434]
-        map_title: "Sorcerer's Isle"
       - id: "86"
         data: ["East Gate Bridge Trestle"]
         cords: [1952, 4578]
-        map_title: "East Gate Bridge Trestle"
       - id: "87"
         data: ["Gate Town North"]
         cords: [2114, 4882]
-        map_title: "Gate Town North"
       - id: "88"
         data: ["Northern Liurnia Lake Shore"]
         cords: [1610, 4211]
-        map_title: "Northern Liurnia Lake Shore"
       - id: "89"
         data: ["Road to the Manor"]
         cords: [1718, 4037]
-        map_title: "Road to the Manor"
       - id: "90"
         data: ["Main Caria Manor Gate"]
         cords: [1902, 3845]
-        map_title: "Main Caria Manor Gate"
       - id: "91"
         data: ["Manor Upper Level"]
         cords: [2023, 3757]
-        map_title: "Manor Upper Level"
       - id: "92"
         data: ["Manor Lower Level"]
         cords: [1843, 3749]
-        map_title: "Manor Lower Level"
       - id: "93"
         data: ["Royal Moongazing Grounds"]
         cords: [1889, 3612]
-        map_title: "Royal Moongazing Grounds"
       - id: "94"
         data: ["Ranni's Rise"]
         cords: [1576, 3700]
-        map_title: "Ranni's Rise"
       - id: "95"
         data: ["Behind Caria Manor"]
         cords: [2090, 3636]
-        map_title: "Behind Caria Manor"
       - id: "96"
         data: ["The Ravine"]
         cords: [2114, 3979]
-        map_title: "The Ravine"
       - id: "97"
         data: ["Ravine-Veiled Village"]
         cords: [2562, 3617]
-        map_title: "Ravine-Veiled Village"
       - id: "98"
         data: ["Cliffbottom Catacombs"]
         cords: [3021, 5945]
-        map_title: "Cliffbottom Catacombs"
       - id: "99"
         data: ["Road's End Catacombs"]
         cords: [1397, 5526]
-        map_title: "Road's End Catacombs"
       - id: "100"
         data: ["Black Knife Catacombs"]
         cords: [2872, 4108]
-        map_title: "Black Knife Catacombs"
       - id: "101"
         data: ["Stillwater Cave"]
         cords: [2955, 6310]
-        map_title: "Stillwater Cave"
       - id: "102"
         data: ["Lakeside Crystal Cave"]
         cords: [2318, 6018]
-        map_title: "Lakeside Crystal Cave"
       - id: "103"
         data: ["Academy Crystal Cave"]
         cords: [1738, 4870]
-        map_title: "Academy Crystal Cave"
       - id: "104"
         data: ["Raya Lucaria Crystal Tunnel"]
         cords: [2319, 4464]
-        map_title: "Raya Lucaria Crystal Tunnel"
       - id: "105"
         data: ["Study Hall Entrance"]
         cords: [2904, 5140]
-        map_title: "Study Hall Entrance"
       - id: "106"
         data: ["Liurnia Tower Bridge"]
         cords: [2973, 5195]
-        map_title: "Liurnia Tower Bridge"
       - id: "107"
         data: ["Divine Tower of Liurnia"]
         cords: [3373, 5130]
-        map_title: "Divine Tower of Liurnia"
   -
     title: Bellum Highway
     items:
       - id: "108"
         data: ["East Raya Lucaria Gate"]
         cords: [2088, 4323]
-        map_title: "East Raya Lucaria Gate"
       - id: "109"
         data: ["Bellum Church"]
         cords: [2185, 4061]
-        map_title: "Bellum Church"
       - id: "110"
         data: ["Grand Lift of Dectus"]
         cords: [2671, 3774]
-        map_title: "Grand Lift of Dectus"
       - id: "111"
         data: ["Frenzied Flame Village Outskirts"]
         cords: [2740, 4154]
-        map_title: "Frenzied Flame Village Outskirts"
       - id: "112"
         data: ["Church of Inhibition"]
         cords: [2507, 3999]
-        map_title: "Church of Inhibition"
   -
     title: Ruin-Strewn Precipice
     items:
       - id: "113"
         data: ["Ruin-Strewn Precipice"]
         cords: [2571, 3606]
-        map_title: "Ruin-Strewn Precipice"
       - id: "114"
         data: ["Ruin-Strewn Precipice Overlook"]
         cords: [2468, 3640]
-        map_title: "Ruin-Strewn Precipice Overlook"
       - id: "115"
         data: ["Magma Wyrm Makar"]
         cords: [2358, 3594]
-        map_title: "Magma Wyrm Makar"
   -
     title: Moonlight Altar
     items:
       - id: "116"
         data: ["Moonlight Altar"]
         cords: [1673, 5933]
-        map_title: "Moonlight Altar"
       - id: "117"
         data: ["Cathedral of Manus Celes"]
         cords: [1905, 5783]
-        map_title: "Cathedral of Manus Celes"
       - id: "118"
         data: ["Altar South"]
         cords: [1437, 6222]
-        map_title: "Altar South"
   -
     title: Academy of Raya Lucaria
     items:
       - id: "119"
         data: ["Church of the Cuckoo"]
         cords: [1795, 4894]
-        map_title: "Church of the Cuckoo"
       - id: "120"
         data: ["Schoolhouse Classroom"]
         cords: [1943, 4983]
-        map_title: "Schoolhouse Classroom"
       - id: "121"
         data: ["Debate Parlor"]
         cords: [1963, 5019]
-        map_title: "Debate Parlor"
       - id: "122"
         data: ["Raya Lucaria Grand Library"]
         cords: [1840, 4819]
-        map_title: "Raya Lucaria Grand Library"
   -
     title: Altus Plateau
     items:
       - id: "123"
         data: ["Abandoned Coffin"]
         cords: [2385, 3516]
-        map_title: "Abandoned Coffin"
       - id: "124"
         data: ["Erdtree-Gazing Hill"]
         cords: [2666, 3407]
-        map_title: "Erdtree-Gazing Hill"
       - id: "125"
         data: ["Altus Plateau"]
         cords: [2744, 3631]
-        map_title: "Altus Plateau"
       - id: "126"
         data: ["Altus Highway Junction"]
         cords: [3037, 3452]
-        map_title: "Altus Highway Junction"
       - id: "127"
         data: ["Forest-Spanning Greatbridge"]
         cords: [3310, 3063]
-        map_title: "Forest-Spanning Greatbridge"
       - id: "128"
         data: ["Bower of Bounty"]
         cords: [3211, 3025]
-        map_title: "Bower of Bounty"
       - id: "129"
         data: ["Windmill Village"]
         cords: [3534, 2631]
-        map_title: "Windmill Village"
       - id: "130"
         data: ["Windmill Heights"]
         cords: [3673, 2469]
-        map_title: "Windmill Heights"
       - id: "131"
         data: ["Road of Iniquity Side Path"]
         cords: [3268, 2575]
-        map_title: "Road of Iniquity Side Path"
       - id: "132"
         data: ["Rampartside Path"]
         cords: [3545, 3180]
-        map_title: "Rampartside Path"
       - id: "133"
         data: ["Shaded Castle Ramparts"]
         cords: [2966, 2736]
-        map_title: "Shaded Castle Ramparts"
       - id: "134"
         data: ["Shaded Castle Inner Gate"]
         cords: [2893, 2639]
-        map_title: "Shaded Castle Inner Gate"
       - id: "135"
         data: ["Castellan's Hall"]
         cords: [2897, 2632]
-        map_title: "Castellan's Hall"
       - id: "136"
         data: ["Unsightly Catacombs"]
         cords: [2136, 3351]
-        map_title: "Unsightly Catacombs"
       - id: "137"
         data: ["Sainted Hero's Grave"]
         cords: [3246, 3192]
-        map_title: "Sainted Hero's Grave"
       - id: "138"
         data: ["Sage's Cave"]
         cords: [2534, 3256]
-        map_title: "Sage's Cave"
       - id: "139"
         data: ["Perfumer's Grotto"]
         cords: [3506, 3433]
-        map_title: "Perfumer's Grotto"
       - id: "140"
         data: ["Old Altus Tunnel"]
         cords: [2776, 3060]
-        map_title: "Old Altus Tunnel"
       - id: "141"
         data: ["Altus Tunnel"]
         cords: [3403, 3156]
-        map_title: "Altus Tunnel"
   -
     title: Mt. Gelmir
     items:
       - id: "142"
         data: ["Bridge of Iniquity"]
         cords: [2844, 2906]
-        map_title: "Bridge of Iniquity"
       - id: "143"
         data: ["First Mt. Gelmir Campsite"]
         cords: [2715, 2811]
-        map_title: "First Mt. Gelmir Campsite"
       - id: "144"
         data: ["Ninth Mt. Gelmir Campsite"]
         cords: [2293, 2664]
-        map_title: "Ninth Mt. Gelmir Campsite"
       - id: "145"
         data: ["Road of Iniquity"]
         cords: [2157, 2777]
-        map_title: "Road of Iniquity"
       - id: "146"
         data: ["Seethewater River"]
         cords: [2496, 3147]
-        map_title: "Seethewater River"
       - id: "147"
         data: ["Seethewater Terminus"]
         cords: [2045, 2864]
-        map_title: "Seethewater Terminus"
       - id: "148"
         data: ["Craftsman's Shack"]
         cords: [2279, 3226]
-        map_title: "Craftsman's Shack"
       - id: "149"
         data: ["Primeval Sorcerer Azur"]
         cords: [2437, 2997]
-        map_title: "Primeval Sorcerer Azur"
       - id: "150"
         data: ["Wyndham Catacombs"]
         cords: [2561, 3077]
-        map_title: "Wyndham Catacombs"
       - id: "151"
         data: ["Gelmir Hero's Grave"]
         cords: [2537, 2928]
-        map_title: "Gelmir Hero's Grave"
       - id: "152"
         data: ["Seethewater Cave"]
         cords: [2421, 2803]
-        map_title: "Seethewater Cave"
       - id: "153"
         data: ["Volcano Cave"]
         cords: [2364, 2492]
-        map_title: "Volcano Cave"
   -
     title: Capital Outskirts
     items:
       - id: "154"
         data: ["Outer Wall Phantom Tree"]
         cords: [3661, 3502]
-        map_title: "Outer Wall Phantom Tree"
       - id: "155"
         data: ["Minor Erdtree Church"]
         cords: [3851, 3767]
-        map_title: "Minor Erdtree Church"
       - id: "156"
         data: ["Outer Wall Battleground"]
         cords: [3914, 3021]
-        map_title: "Outer Wall Battleground"
       - id: "157"
         data: ["Hermit Merchant's Shack"]
         cords: [3966, 2934]
-        map_title: "Hermit Merchant's Shack"
       - id: "158"
         data: ["Capital Rampart"]
         cords: [4443, 3255]
-        map_title: "Capital Rampart"
       - id: "159"
         data: ["Auriza Side Tomb"]
         cords: [4583, 3174]
-        map_title: "Auriza Side Tomb"
       - id: "160"
         data: ["Auriza Hero's Grave"]
         cords: [4542, 3317]
-        map_title: "Auriza Hero's Grave"
       - id: "161"
         data: ["Sealed Tunnel"]
         cords: [3901, 3675]
-        map_title: "Sealed Tunnel"
       - id: "162"
         data: ["Divine Tower of West Altus: Gate"]
         cords: [3925, 3951]
-        map_title: "Divine Tower of West Altus: Gate"
       - id: "163"
         data: ["Divine Tower of West Altus"]
         cords: [3921, 4062]
-        map_title: "Divine Tower of West Altus"
   -
     title: Volcano Manor
     items:
       - id: "164"
         data: ["Volcano Manor"]
         cords: [2229, 2895]
-        map_title: "Volcano Manor"
       - id: "165"
         data: ["Prison Town Church"]
         cords: [2127, 2948]
-        map_title: "Prison Town Church"
       - id: "166"
         data: ["Temple of Eiglay"]
         cords: [2242, 3043]
-        map_title: "Temple of Eiglay"
       - id: "167"
         data: ["Guest Hall"]
         cords: [2056, 3046]
-        map_title: "Guest Hall"
       - id: "168"
         data: ["Audience Pathway"]
         cords: [2285, 2845]
-        map_title: "Audience Pathway"
       - id: "169"
         data: ["Abductor Virgin"]
         cords: [2461, 3093]
-        map_title: "Abductor Virgin"
       - id: "170"
         data: ["Subterranean Inquisition Chamber"]
         cords: [2351, 2984]
-        map_title: "Subterranean Inquisition Chamber"
       - id: "171"
         data: ["Rykard, Lord of Blasphemy"]
         cords: [2282, 2949]
-        map_title: "Rykard, Lord of Blasphemy"
   -
     title: Leyndell, Royal Capital
     items:
       - id: "172"
         data: ["Erdtree Sanctuary"]
         cords: [4365, 3708]
-        map_title: "Erdtree Sanctuary"
       - id: "173"
         data: ["East Capital Rampart"]
         cords: [4465, 3400]
-        map_title: "East Capital Rampart"
       - id: "174"
         data: ["Lower Capital Church"]
         cords: [4281, 3543]
-        map_title: "Lower Capital Church"
       - id: "175"
         data: ["Avenue Balcony"]
         cords: [4316, 3506]
-        map_title: "Avenue Balcony"
       - id: "176"
         data: ["West Capital Rampart"]
         cords: [4279, 3581]
-        map_title: "West Capital Rampart"
       - id: "177"
         data: ["Queen's Bedchamber"]
         cords: [4441, 3629]
-        map_title: "Queen's Bedchamber"
       - id: "178"
         data: ["Fortified Manor, First Floor"]
         cords: [4178, 3591]
-        map_title: "Fortified Manor, First Floor"
       - id: "179"
         data: ["Divine Bridge"]
         cords: [4070, 3616]
-        map_title: "Divine Bridge"
       - id: "180"
         data: ["Elden Throne"]
         cords: [4534, 3737]
-        map_title: "Elden Throne"
   -
     title: Subterranean Shunning-Grounds
     items:
       - id: "181"
         data: ["Underground Roadside"]
         cords: [4350, 3486]
-        map_title: "Underground Roadside"
       - id: "182"
         data: ["Forsaken Depths"]
         cords: [4448, 3471]
-        map_title: "Forsaken Depths"
       - id: "183"
         data: ["Leyndell Catacombs"]
         cords: [4357, 3564]
-        map_title: "Leyndell Catacombs"
       - id: "184" #TODO
         data: ["Frenzied Flame Proscription"]
       - id: "185"
         data: ["Cathedral of the Forsaken"]
         cords: [4570, 3402]
-        map_title: "Cathedral of the Forsaken"
   -
     title: Leyndell, Ashen Capital
     items:
@@ -828,270 +642,207 @@ sections:
       - id: "193"
         data: ["Smoldering Church"]
         cords: [4658, 6243]
-        map_title: "Smoldering Church"
       - id: "194"
         data: ["Rotview Balcony"]
         cords: [4842, 6339]
-        map_title: "Rotview Balcony"
       - id: "195"
         data: ["Caelem Ruins"]
         cords: [5094, 6292]
-        map_title: "Caelem Ruins"
       - id: "196"
         data: ["Fort Gael North"]
         cords: [4859, 6610]
-        map_title: "Fort Gael North"
       - id: "197"
         data: ["Smoldering Wall"]
         cords: [5159, 6524]
-        map_title: "Smoldering Wall"
       - id: "198"
         data: ["Caelid Highway South"]
         cords: [5126, 6997]
-        map_title: "Caelid Highway South"
       - id: "199"
         data: ["Cathedral of Dragon Communion"]
         cords: [5286, 7194]
-        map_title: "Cathedral of Dragon Communion"
       - id: "200"
         data: ["Southern Aeonia Swamp Bank"]
         cords: [5507, 6975]
-        map_title: "Southern Aeonia Swamp Bank"
       - id: "201"
         data: ["Sellia Backstreets"]
         cords: [5631, 6471]
-        map_title: "Sellia Backstreets"
       - id: "202"
         data: ["Sellia Under-Stair"]
         cords: [5600, 6559]
-        map_title: "Sellia Under-Stair"
       - id: "203"
         data: ["Chair-Crypt of Sellia"]
         cords: [5601, 6452]
-        map_title: "Chair-Crypt of Sellia"
       - id: "204"
         data: ["Church of the Plague"]
         cords: [5771, 6646]
-        map_title: "Church of the Plague"
       - id: "205"
         data: ["Deep Siofra Well"]
         cords: [5356, 6271]
-        map_title: "Deep Siofra Well"
       - id: "206"
         data: ["Impassable Greatbridge"]
         cords: [5693, 7378]
-        map_title: "Impassable Greatbridge"
       - id: "207"
         data: ["Chamber Outside the Plaza"]
         cords: [6110, 7341]
-        map_title: "Chamber Outside the Plaza"
       - id: "208"
         data: ["Redmane Castle Plaza"]
         cords: [6096, 7276]
-        map_title: "Redmane Castle Plaza"
       - id: "209"
         data: ["Starscourge Radahn"]
         cords: [6226, 6824]
-        map_title: "Starscourge Radahn"
       - id: "210"
         data: ["Minor Erdtree Catacombs"]
         cords: [4932, 6205]
-        map_title: "Minor Erdtree Catacombs"
       - id: "211"
         data: ["Caelid Catacombs"]
         cords: [5338, 7225]
-        map_title: "Caelid Catacombs"
       - id: "212"
         data: ["War-Dead Catacombs"]
         cords: [6310, 6148]
-        map_title: "War-Dead Catacombs"
       - id: "213"
         data: ["Abandoned Cave"]
         cords: [5388, 6480]
-        map_title: "Abandoned Cave"
       - id: "214"
         data: ["Gaol Cave"]
         cords: [4926, 6747]
-        map_title: "Gaol Cave"
       - id: "215"
         data: ["Gael Tunnel"]
         cords: [4794, 6490]
-        map_title: "Gael Tunnel"
       - id: "216"
         data: ["Rear Gael Tunnel Entrance"]
         cords: [4700, 6415]
-        map_title: "Rear Gael Tunnel Entrance"
       - id: "217"
         data: ["Sellia Crystal Tunnel"]
         cords: [5520, 6416]
-        map_title: "Sellia Crystal Tunnel"
   -
     title: Swamp of Aeonia
     items:
       - id: "218"
         data: ["Aeonia Swamp Shore"]
         cords: [5245, 6816]
-        map_title: "Aeonia Swamp Shore"
       - id: "219"
         data: ["Astray from Caelid Highway North"]
         cords: [5140, 6764]
-        map_title: "Astray from Caelid Highway North"
       - id: "220"
         data: ["Heart of Aeonia"]
         cords: [5481, 6734]
-        map_title: "Heart of Aeonia"
       - id: "221"
         data: ["Inner Aeonia"]
         cords: [5443, 6666]
-        map_title: "Inner Aeonia"
   -
     title: Greyoll's Dragonbarrow
     items:
       - id: "222"
         data: ["Dragonbarrow West"]
         cords: [5356, 6205]
-        map_title: "Dragonbarrow West"
       - id: "223"
         data: ["Isolated Merchant's Shack"]
         cords: [5159, 6105]
-        map_title: "Isolated Merchant's Shack"
       - id: "224"
         data: ["Fort Faroth"]
         cords: [5938, 6406]
-        map_title: "Fort Faroth"
       - id: "225"
         data: ["Dragonbarrow Fork"]
         cords: [5838, 6152]
-        map_title: "Dragonbarrow Fork"
       - id: "226"
         data: ["Lenne's Rise"]
         cords: [6291, 6006]
-        map_title: "Lenne's Rise"
       - id: "227"
         data: ["Farum Greatbridge"]
         cords: [6166, 5732]
-        map_title: "Farum Greatbridge"
       - id: "228"
         data: ["Bestial Sanctum"]
         cords: [5968, 5488]
-        map_title: "Bestial Sanctum"
       - id: "229"
         data: ["Sellia Hideaway"]
         cords: [5886, 6463]
-        map_title: "Sellia Hideaway"
       - id: "230"
         data: ["Dragonbarrow Cave"]
         cords: [6017, 6187]
-        map_title: "Dragonbarrow Cave"
       - id: "231"
         data: ["Divine Tower of Caelid: Center"]
         cords: [5580, 6025]
-        map_title: "Divine Tower of Caelid: Center"
       - id: "232"
         data: ["Divine Tower of Caelid: Basement"]
         cords: [5592, 6040]
-        map_title: "Divine Tower of Caelid: Basement"
       - id: "233"
         data: ["Isolated Divine Tower"]
         cords: [5999, 4845]
-        map_title: "Isolated Divine Tower"
   -
     title: Forbidden Lands
     items:
       - id: "234"
         data: ["Forbidden Lands"]       
         cords: [4989, 3485]
-        map_title: "Forbidden Lands"
       - id: "235"
         data: ["Grand Lift of Rold"]       
         cords: [5493, 3042]
-        map_title: "Grand Lift of Rold"
       - id: "236"
         data: ["Hidden Path to the Haligtree"]        
         cords: [5401, 2805]
-        map_title: "Hidden Path to the Haligtree"
       - id: "237"
         data: ["Divine Tower of East Altus: Gate"]       
         cords: [5105, 3810]
-        map_title: "Divine Tower of East Altus: Gate"
       - id: "238"
         data: ["Divine Tower of East Altus"]       
         cords: [5121, 3866]
-        map_title: "Divine Tower of East Altus"
   -
     title: Mountaintops of the Giants
     items:
       - id: "239"
         data: ["Zamor Ruins"]        
         cords: [5583, 2844]
-        map_title: "Zamor Ruins"
       - id: "240"
         data: ["Ancient Snow Valley Ruins"]        
         cords: [6010, 2220]
-        map_title: "Ancient Snow Valley Ruins"
       - id: "241"
         data: ["Freezing Lake"]        
         cords: [6348, 1841]
-        map_title: "Freezing Lake"
       - id: "242"
         data: ["First Church of Marika"]       
         cords: [6754, 2370]
-        map_title: "First Church of Marika"
       - id: "243"
         data: ["Whiteridge Road"]        
         cords: [6311, 2302]
-        map_title: "Whiteridge Road"
       - id: "244"
         data: ["Snow Valley Ruins Overlook"]       
         cords: [6136, 1961]
-        map_title: "Snow Valley Ruins Overlook"
       - id: "245"
         data: ["Castle Sol Main Gate"]        
         cords: [6004, 1854]
-        map_title: "Castle Sol Main Gate"
       - id: "246"
         data: ["Church of the Eclipse"]       
         cords: [6087, 1806]
-        map_title: "Church of the Eclipse"
       - id: "247"
         data: ["Castle Sol Rooftop"]        
         cords: [6100, 1725]
-        map_title: "Castle Sol Rooftop"
       - id: "248"
         data: ["Spiritcaller Cave"]        
         cords: [6500, 2067]
-        map_title: "Spiritcaller Cave"
   -
     title: Flame Peak
     items:
       - id: "249"
         data: ["Giants' Gravepost"]        
         cords: [6215, 2620]
-        map_title: "Giants' Gravepost"
       - id: "250"
         data: ["Church of Repose"]        
         cords: [5955, 3013]
-        map_title: "Church of Repose"
       - id: "251"
         data: ["Foot of the Forge"]        
         cords: [6189, 2994]
-        map_title: "Foot of the Forge"
       - id: "252"
         data: ["Fire Giant"]       
         cords: [6445, 3177]
-        map_title: "Fire Giant"
       - id: "253"
         data: ["Forge of the Giants"]       
         cords: [6759, 2957]
-        map_title: "Forge of the Giants"
       - id: "254"
         data: ["Giants' Mountaintop Catacombs"]       
         cords: [5787, 2830]
-        map_title: "Giants' Mountaintop Catacombs"
       - id: "255"
         data: ["Giant-Conquering Hero's Grave"]        
         cords: [5646, 2823]
-        map_title: "Giant-Conquering Hero's Grave"
   -
     title: Consecrated Snowfield
     items:
@@ -1115,42 +866,33 @@ sections:
       - id: "263"
         data: ["Haligtree Canopy"]        
         cords: [5610, 1330]
-        map_title: "Haligtree Canopy"
       - id: "264"
         data: ["Haligtree Town"]        
         cords: [5673, 1139]
-        map_title: "Haligtree Town"
       - id: "265"
         data: ["Haligtree Town Plaza"]       
         cords: [5615, 1075]
-        map_title: "Haligtree Town Plaza"
       - id: "266"
         data: ["Haligtree Promenade"]        
         cords: [5786, 1071]
-        map_title: "Haligtree Promenade"
   -
     title: Elphael, Brace of the Haligtree
     items:
       - id: "267"
         data: ["Prayer Room"]       
         cords: [5690, 936]
-        map_title: "Prayer Room"
       - id: "268"
         data: ["Elphael Inner Wall"]        
         cords: [5584, 778]
-        map_title: "Elphael Inner Wall"
       - id: "269"
         data: ["Drainage Channel"]        
         cords: [5735, 881]
-        map_title: "Drainage Channel"
       - id: "270"
         data: ["Haligtree Roots"]        
         cords: [5701, 818]
-        map_title: "Haligtree Roots"
       - id: "271"
         data: ["Malenia, Goddess of Rot"]        
         cords: [5590, 889]
-        map_title: "Malenia, Goddess of Rot"
   -
     title: Ainsel River
     items:
@@ -1170,91 +912,72 @@ sections:
       - id: "277"
         data: ["Ainsel River Main"]        
         cords: [3906, 11847]
-        map_title: "Ainsel River Main"
       - id: "278"
         data: ["Nokstella, Eternal City"]       
         cords: [3605, 12044]
-        map_title: "Nokstella, Eternal City"
       - id: "279"
         data: ["Nokstella Waterfall Basin"]  
         cords: [3335, 11970]
-        map_title: "Nokstella Waterfall Basin"
   -
     title: Lake of Rot
     items:
       - id: "280"
         data: ["Lake of Rot Shoreside"] 
         cords: [3267, 12188]
-        map_title: "Lake of Rot Shoreside"
       - id: "281"
         data: ["Grand Cloister"]       
         cords: [3160, 12643]
-        map_title: "Grand Cloister"
   -
     title: Nokron, Eternal City
     items:
       - id: "282"
         data: ["Nokron, Eternal City"]       
         cords: [5747, 14546]
-        map_title: "Nokron, Eternal City"
       - id: "283"
         data: ["Mimic Tear"]        
         cords: [6054, 14623]
-        map_title: "Mimic Tear"
       - id: "284"
         data: ["Ancestral Woods"]
         cords: [6059, 14320]
-        map_title: "Ancestral Woods"
       - id: "285"
         data: ["Night's Sacred Ground"]        
         cords: [5996, 14480]
-        map_title: "Night's Sacred Ground"
       - id: "286"
         data: ["Aqueduct-Facing Cliffs"] 
         cords: [6219, 14020]
-        map_title: "Aqueduct-Facing Cliffs"
       - id: "287"
         data: ["Great Waterfall Basin"]       
         cords: [6224, 13874]
-        map_title: "Great Waterfall Basin"
   -
     title: Siofra River
     items:
       - id: "288"
         data: ["Siofra River Well Depths"]       
         cords: [5786, 14613]
-        map_title: "Siofra River Well Depths"
       - id: "289"
         data: ["Siofra River Bank"]        
         cords: [6131, 14519]
-        map_title: "Siofra River Bank"
       - id: "290"
         data: ["Worshippers' Woods"]        
         cords: [6477, 14257]
-        map_title: "Worshippers' Woods"
       - id: "291"
         data: ["Below the Well"]       
         cords: [6559, 13915]
-        map_title: "Below the Well"
   -
     title: Mohgwyn Palace
     items:
       - id: "292"
         data: ["Palace Approach Ledge-Road"]        
         cords: [7120, 14498]
-        map_title: "Palace Approach Ledge-Road"
       - id: "293"
         data: ["Dynasty Mausoleum Entrance"]       
         cords: [6919, 14330]
-        map_title: "Dynasty Mausoleum Entrance"
       - id: "294"
         data: ["Dynasty Mausoleum Midpoint"]       
         cords: [6850, 14371]
-        map_title: "Dynasty Mausoleum Midpoint"
       - id: "295"
         data: ["Cocoon of the Empyrean"]       
         cords: [6752, 14376]
-        map_title: "Cocoon of the Empyrean"
   -
     title: Deeproot Depths
     items:
@@ -1275,45 +998,34 @@ sections:
     items:
       - id: "302"
         data: ["Crumbling Beast Grave"]        
-        cords: [8605, 4675]
-        map_title: "Crumbling Beast Grave"        
+        cords: [8605, 4675]        
       - id: "303"
         data: ["Crumbling Beast Grave Depths"]
         cords: [8398, 4629]
-        map_title: "Crumbling Beast Grave Depths"
       - id: "304"
         data: ["Tempest-Facing Balcony"]        
-        cords: [8399, 4553]
-        map_title: "Tempest-Facing Balcony"        
+        cords: [8399, 4553]        
       - id: "305"
         data: ["Dragon Temple"]
         cords: [8411, 4429]
-        map_title: "Dragon Temple"
       - id: "306"
         data: ["Dragon Temple Transept"]       
         cords: [8517, 4472]
-        map_title: "Dragon Temple Transept"
       - id: "307"
         data: ["Dragon Temple Altar"]        
         cords: [8499, 4422]
-        map_title: "Dragon Temple Altar"
       - id: "308"
         data: ["Dragon Temple Lift"]       
         cords: [8416, 4339]
-        map_title: "Dragon Temple Lift"
       - id: "309"
         data: ["Dragon Temple Rooftop"]       
         cords: [8572, 4227]
-        map_title: "Dragon Temple Rooftop"
       - id: "310"
         data: ["Beside the Great Bridge"]        
         cords: [8553, 4336]
-        map_title: "Beside the Great Bridge"
       - id: "311"
         data: ["Dragonlord Placidusax"]        
         cords: [8507, 4503]
-        map_title: "Dragonlord Placidusax"
       - id: "312"
         data: ["Maliketh, the Black Blade"]       
         cords: [8715, 4463]
-        map_title: "Maliketh, the Black Blade"
