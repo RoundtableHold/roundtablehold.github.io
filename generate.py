@@ -723,7 +723,7 @@ def make_search_index():
 
 def get_icon(page, section, item):
     icon = ''
-    icon_size = 40
+    icon_size = 35
     if 'map_icon' in item:
         icon = item['map_icon']
         if 'map_icon_size' in item:

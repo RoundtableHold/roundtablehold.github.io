@@ -224,7 +224,7 @@
 
                         map.getView().animate({
                             center: t,
-                            zoom: 6,
+                            zoom: 7,
                             duration: Math.max((dist / 18654.8) * 4000, 1000),
                         }, (b) => {
                             if (b) {
