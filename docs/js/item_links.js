@@ -502,7 +502,7 @@ const item_links = {
       "armor_480",
       "armor_481",
       "bosses_9_10",
-      "evergaols_5_1",
+      "caves_e10",
       "incantations_4_11"
     ]
   },
@@ -512,7 +512,7 @@ const item_links = {
       "armor_480",
       "armor_481",
       "bosses_9_10",
-      "evergaols_5_1",
+      "caves_e10",
       "incantations_4_11"
     ]
   },
@@ -522,7 +522,7 @@ const item_links = {
       "armor_478",
       "armor_481",
       "bosses_9_10",
-      "evergaols_5_1",
+      "caves_e10",
       "incantations_4_11"
     ]
   },
@@ -532,7 +532,7 @@ const item_links = {
       "armor_478",
       "armor_480",
       "bosses_9_10",
-      "evergaols_5_1",
+      "caves_e10",
       "incantations_4_11"
     ]
   },
@@ -958,7 +958,7 @@ const item_links = {
   "ashesofwar_8_7": {
     "targets": [
       "bosses_4_27",
-      "legacy_1_5",
+      "caves_ld4",
       "sorceries_4_12"
     ]
   },
@@ -1030,7 +1030,7 @@ const item_links = {
   "bosses_10_10": {
     "targets": [
       "achievements_2_19",
-      "legacy_1_14",
+      "caves_ld11",
       "sorceries_13_1",
       "weapons_25_15"
     ]
@@ -1038,8 +1038,8 @@ const item_links = {
   "bosses_10_11": {
     "targets": [
       "achievements_1_6",
+      "caves_ld12",
       "great_runes_1_6",
-      "legacy_1_15",
       "remembrances_mausoleums_1_14"
     ]
   },
@@ -1124,7 +1124,7 @@ const item_links = {
   "bosses_11_6": {
     "targets": [
       "achievements_2_20",
-      "legacy_1_12",
+      "caves_ld13",
       "remembrances_mausoleums_1_7"
     ]
   },
@@ -1145,7 +1145,7 @@ const item_links = {
   },
   "bosses_12_4": {
     "targets": [
-      "legacy_1_16",
+      "caves_ld14",
       "remembrances_mausoleums_1_13"
     ]
   },
@@ -1245,14 +1245,14 @@ const item_links = {
   },
   "bosses_1_10": {
     "targets": [
-      "evergaols_0_1",
+      "caves_e3",
       "talismans_1_6"
     ]
   },
   "bosses_1_11": {
     "targets": [
       "achievements_2_2",
-      "legacy_1_1",
+      "caves_ld2",
       "legendaries_1_2",
       "weapons_5_10"
     ]
@@ -1361,14 +1361,14 @@ const item_links = {
   },
   "bosses_2_18": {
     "targets": [
-      "evergaols_1_1",
+      "caves_e1",
       "playthrough_67",
       "weapons_8_3"
     ]
   },
   "bosses_2_19": {
     "targets": [
-      "evergaols_1_2",
+      "caves_e2",
       "incantations_5_3"
     ]
   },
@@ -1423,8 +1423,8 @@ const item_links = {
   "bosses_2_29": {
     "targets": [
       "achievements_1_1",
+      "caves_ld1",
       "great_runes_1_1",
-      "legacy_1_2",
       "remembrances_mausoleums_1_1"
     ]
   },
@@ -1563,7 +1563,7 @@ const item_links = {
   },
   "bosses_4_2": {
     "targets": [
-      "evergaols_2_2",
+      "caves_e4",
       "incantations_6_2",
       "legendaries_5_1"
     ]
@@ -1576,7 +1576,7 @@ const item_links = {
   },
   "bosses_4_22": {
     "targets": [
-      "evergaols_2_1",
+      "caves_e5",
       "sorceries_4_6"
     ]
   },
@@ -1606,14 +1606,13 @@ const item_links = {
     "targets": [
       "achievements_2_5",
       "ashesofwar_8_7",
-      "legacy_1_5",
-      "legacy_1_6",
+      "caves_ld4",
       "sorceries_4_12"
     ]
   },
   "bosses_4_29": {
     "targets": [
-      "evergaols_2_3",
+      "caves_e6",
       "sorceries_4_8"
     ]
   },
@@ -1625,7 +1624,7 @@ const item_links = {
   },
   "bosses_4_32": {
     "targets": [
-      "evergaols_2_4",
+      "caves_e7",
       "legendaries_3_4",
       "spirit_ashes_3_3"
     ]
@@ -1652,8 +1651,9 @@ const item_links = {
   "bosses_4_36": {
     "targets": [
       "achievements_2_4",
+      "caves_ld3",
       "great_runes_1_2",
-      "legacy_1_4"
+      "remembrances_mausoleums_1_2"
     ]
   },
   "bosses_4_37": {
@@ -1738,7 +1738,7 @@ const item_links = {
   },
   "bosses_5_15": {
     "targets": [
-      "evergaols_3_1",
+      "caves_e8",
       "spirit_ashes_4_1"
     ]
   },
@@ -1800,7 +1800,7 @@ const item_links = {
   },
   "bosses_5_26": {
     "targets": [
-      "legacy_1_7",
+      "caves_ld5",
       "legendaries_1_4",
       "weapons_5_9"
     ]
@@ -1871,7 +1871,7 @@ const item_links = {
   },
   "bosses_6_1": {
     "targets": [
-      "evergaols_4_1",
+      "caves_e9",
       "legendaries_2_4",
       "talismans_6_5"
     ]
@@ -2044,8 +2044,8 @@ const item_links = {
   "bosses_7_26": {
     "targets": [
       "achievements_1_4",
+      "caves_ld7",
       "great_runes_1_5",
-      "legacy_1_9",
       "remembrances_mausoleums_1_8"
     ]
   },
@@ -2098,7 +2098,7 @@ const item_links = {
   "bosses_7_8": {
     "targets": [
       "achievements_2_14",
-      "legacy_1_8",
+      "caves_ld6",
       "legendaries_1_6",
       "weapons_14_13",
       "weapons_34_5"
@@ -2131,8 +2131,8 @@ const item_links = {
   "bosses_8_16": {
     "targets": [
       "achievements_2_22",
-      "incantations_2_3",
-      "legacy_1_11"
+      "caves_ld9",
+      "incantations_2_3"
     ]
   },
   "bosses_8_17": {
@@ -2144,8 +2144,8 @@ const item_links = {
   "bosses_8_18": {
     "targets": [
       "achievements_1_3",
+      "caves_ld8",
       "great_runes_1_4",
-      "legacy_1_10",
       "remembrances_mausoleums_1_10"
     ]
   },
@@ -2203,7 +2203,7 @@ const item_links = {
       "armor_478",
       "armor_480",
       "armor_481",
-      "evergaols_5_1",
+      "caves_e10",
       "incantations_4_11"
     ]
   },
@@ -2284,7 +2284,7 @@ const item_links = {
   "bosses_9_9": {
     "targets": [
       "achievements_2_16",
-      "legacy_1_13",
+      "caves_ld10",
       "weapons_28_7"
     ]
   },
@@ -2602,6 +2602,178 @@ const item_links = {
       "sorceries_12_5"
     ]
   },
+  "caves_e1": {
+    "targets": [
+      "bosses_2_18",
+      "playthrough_67",
+      "weapons_8_3"
+    ]
+  },
+  "caves_e10": {
+    "targets": [
+      "armor_477",
+      "armor_478",
+      "armor_480",
+      "armor_481",
+      "bosses_9_10",
+      "incantations_4_11"
+    ]
+  },
+  "caves_e2": {
+    "targets": [
+      "bosses_2_19",
+      "incantations_5_3"
+    ]
+  },
+  "caves_e3": {
+    "targets": [
+      "bosses_1_10",
+      "talismans_1_6"
+    ]
+  },
+  "caves_e4": {
+    "targets": [
+      "bosses_4_2",
+      "incantations_6_2",
+      "legendaries_5_1"
+    ]
+  },
+  "caves_e5": {
+    "targets": [
+      "bosses_4_22",
+      "sorceries_4_6"
+    ]
+  },
+  "caves_e6": {
+    "targets": [
+      "bosses_4_29",
+      "sorceries_4_8"
+    ]
+  },
+  "caves_e7": {
+    "targets": [
+      "bosses_4_32",
+      "legendaries_3_4",
+      "spirit_ashes_3_3"
+    ]
+  },
+  "caves_e8": {
+    "targets": [
+      "bosses_5_15",
+      "spirit_ashes_4_1"
+    ]
+  },
+  "caves_e9": {
+    "targets": [
+      "bosses_6_1",
+      "legendaries_2_4",
+      "talismans_6_5"
+    ]
+  },
+  "caves_l16": {
+    "orsources": [
+      "quest_order_tldr_12"
+    ],
+    "ortargets": [
+      "playthrough_22",
+      "playthrough_23"
+    ]
+  },
+  "caves_ld1": {
+    "targets": [
+      "bosses_2_29",
+      "great_runes_1_1",
+      "remembrances_mausoleums_1_1"
+    ]
+  },
+  "caves_ld10": {
+    "targets": [
+      "bosses_9_9",
+      "weapons_28_7"
+    ]
+  },
+  "caves_ld11": {
+    "targets": [
+      "bosses_10_10",
+      "sorceries_13_1",
+      "weapons_25_15"
+    ]
+  },
+  "caves_ld12": {
+    "targets": [
+      "bosses_10_11",
+      "great_runes_1_6",
+      "remembrances_mausoleums_1_14"
+    ]
+  },
+  "caves_ld13": {
+    "targets": [
+      "bosses_11_6",
+      "remembrances_mausoleums_1_7"
+    ]
+  },
+  "caves_ld14": {
+    "targets": [
+      "bosses_12_4",
+      "remembrances_mausoleums_1_13"
+    ]
+  },
+  "caves_ld2": {
+    "targets": [
+      "bosses_1_11",
+      "legendaries_1_2",
+      "weapons_5_10"
+    ]
+  },
+  "caves_ld3": {
+    "targets": [
+      "bosses_4_36",
+      "great_runes_1_2",
+      "remembrances_mausoleums_1_2"
+    ]
+  },
+  "caves_ld4": {
+    "targets": [
+      "ashesofwar_8_7",
+      "bosses_4_27",
+      "sorceries_4_12"
+    ]
+  },
+  "caves_ld5": {
+    "targets": [
+      "bosses_5_26",
+      "legendaries_1_4",
+      "weapons_5_9"
+    ]
+  },
+  "caves_ld6": {
+    "targets": [
+      "bosses_7_8",
+      "legendaries_1_6",
+      "weapons_14_13",
+      "weapons_34_5"
+    ]
+  },
+  "caves_ld7": {
+    "targets": [
+      "bosses_7_26",
+      "great_runes_1_5",
+      "remembrances_mausoleums_1_8"
+    ]
+  },
+  "caves_ld8": {
+    "targets": [
+      "bosses_8_18",
+      "great_runes_1_4",
+      "remembrances_mausoleums_1_10"
+    ]
+  },
+  "caves_ld9": {
+    "targets": [
+      "bosses_8_16",
+      "incantations_2_3"
+    ]
+  },
   "cookbooks_2_2": {
     "targets": [
       "playthrough_48",
@@ -2850,74 +3022,6 @@ const item_links = {
     "targets": [
       "bosses_9_8",
       "weapons_14_17"
-    ]
-  },
-  "evergaols_0_1": {
-    "targets": [
-      "bosses_1_10",
-      "talismans_1_6"
-    ]
-  },
-  "evergaols_1_1": {
-    "targets": [
-      "bosses_2_18",
-      "playthrough_67",
-      "weapons_8_3"
-    ]
-  },
-  "evergaols_1_2": {
-    "targets": [
-      "bosses_2_19",
-      "incantations_5_3"
-    ]
-  },
-  "evergaols_2_1": {
-    "targets": [
-      "bosses_4_22",
-      "sorceries_4_6"
-    ]
-  },
-  "evergaols_2_2": {
-    "targets": [
-      "bosses_4_2",
-      "incantations_6_2",
-      "legendaries_5_1"
-    ]
-  },
-  "evergaols_2_3": {
-    "targets": [
-      "bosses_4_29",
-      "sorceries_4_8"
-    ]
-  },
-  "evergaols_2_4": {
-    "targets": [
-      "bosses_4_32",
-      "legendaries_3_4",
-      "spirit_ashes_3_3"
-    ]
-  },
-  "evergaols_3_1": {
-    "targets": [
-      "bosses_5_15",
-      "spirit_ashes_4_1"
-    ]
-  },
-  "evergaols_4_1": {
-    "targets": [
-      "bosses_6_1",
-      "legendaries_2_4",
-      "talismans_6_5"
-    ]
-  },
-  "evergaols_5_1": {
-    "targets": [
-      "armor_477",
-      "armor_478",
-      "armor_480",
-      "armor_481",
-      "bosses_9_10",
-      "incantations_4_11"
     ]
   },
   "flasks_1_17": {
@@ -3269,14 +3373,15 @@ const item_links = {
   "great_runes_1_1": {
     "targets": [
       "bosses_2_29",
-      "legacy_1_2",
+      "caves_ld1",
       "remembrances_mausoleums_1_1"
     ]
   },
   "great_runes_1_2": {
     "targets": [
       "bosses_4_36",
-      "legacy_1_4"
+      "caves_ld3",
+      "remembrances_mausoleums_1_2"
     ]
   },
   "great_runes_1_3": {
@@ -3288,21 +3393,21 @@ const item_links = {
   "great_runes_1_4": {
     "targets": [
       "bosses_8_18",
-      "legacy_1_10",
+      "caves_ld8",
       "remembrances_mausoleums_1_10"
     ]
   },
   "great_runes_1_5": {
     "targets": [
       "bosses_7_26",
-      "legacy_1_9",
+      "caves_ld7",
       "remembrances_mausoleums_1_8"
     ]
   },
   "great_runes_1_6": {
     "targets": [
       "bosses_10_11",
-      "legacy_1_15",
+      "caves_ld12",
       "remembrances_mausoleums_1_14"
     ]
   },
@@ -3325,7 +3430,7 @@ const item_links = {
   "incantations_2_3": {
     "targets": [
       "bosses_8_16",
-      "legacy_1_11"
+      "caves_ld9"
     ]
   },
   "incantations_3_11": {
@@ -3340,7 +3445,7 @@ const item_links = {
       "armor_480",
       "armor_481",
       "bosses_9_10",
-      "evergaols_5_1"
+      "caves_e10"
     ]
   },
   "incantations_4_12": {
@@ -3371,7 +3476,7 @@ const item_links = {
   "incantations_5_3": {
     "targets": [
       "bosses_2_19",
-      "evergaols_1_2"
+      "caves_e2"
     ]
   },
   "incantations_5_5": {
@@ -3387,7 +3492,7 @@ const item_links = {
   "incantations_6_2": {
     "targets": [
       "bosses_4_2",
-      "evergaols_2_2",
+      "caves_e4",
       "legendaries_5_1"
     ]
   },
@@ -3404,114 +3509,6 @@ const item_links = {
       "weapons_18_3"
     ]
   },
-  "legacy_1_1": {
-    "targets": [
-      "bosses_1_11",
-      "legendaries_1_2",
-      "weapons_5_10"
-    ]
-  },
-  "legacy_1_10": {
-    "targets": [
-      "bosses_8_18",
-      "great_runes_1_4",
-      "remembrances_mausoleums_1_10"
-    ]
-  },
-  "legacy_1_11": {
-    "targets": [
-      "bosses_8_16",
-      "incantations_2_3"
-    ]
-  },
-  "legacy_1_12": {
-    "targets": [
-      "bosses_11_6",
-      "remembrances_mausoleums_1_7"
-    ]
-  },
-  "legacy_1_13": {
-    "targets": [
-      "bosses_9_9",
-      "weapons_28_7"
-    ]
-  },
-  "legacy_1_14": {
-    "targets": [
-      "bosses_10_10",
-      "sorceries_13_1",
-      "weapons_25_15"
-    ]
-  },
-  "legacy_1_15": {
-    "targets": [
-      "bosses_10_11",
-      "great_runes_1_6",
-      "remembrances_mausoleums_1_14"
-    ]
-  },
-  "legacy_1_16": {
-    "targets": [
-      "bosses_12_4",
-      "remembrances_mausoleums_1_13"
-    ]
-  },
-  "legacy_1_2": {
-    "targets": [
-      "bosses_2_29",
-      "great_runes_1_1",
-      "remembrances_mausoleums_1_1"
-    ]
-  },
-  "legacy_1_3": {
-    "orsources": [
-      "quest_order_tldr_12"
-    ],
-    "ortargets": [
-      "playthrough_22",
-      "playthrough_23"
-    ]
-  },
-  "legacy_1_4": {
-    "targets": [
-      "bosses_4_36",
-      "great_runes_1_2"
-    ]
-  },
-  "legacy_1_5": {
-    "targets": [
-      "ashesofwar_8_7",
-      "bosses_4_27",
-      "sorceries_4_12"
-    ]
-  },
-  "legacy_1_6": {
-    "targets": [
-      "bosses_4_27"
-    ]
-  },
-  "legacy_1_7": {
-    "targets": [
-      "bosses_5_26",
-      "legendaries_1_4",
-      "weapons_5_9"
-    ]
-  },
-  "legacy_1_8": {
-    "targets": [
-      "bosses_7_8",
-      "legendaries_1_6",
-      "weapons_14_13",
-      "weapons_34_5"
-    ]
-  },
-  "legacy_1_9": {
-    "targets": [
-      "bosses_7_26",
-      "great_runes_1_5",
-      "remembrances_mausoleums_1_8"
-    ]
-  },
   "legendaries_1_1": {
     "targets": [
       "armor_523",
@@ -3525,21 +3522,21 @@ const item_links = {
   "legendaries_1_2": {
     "targets": [
       "bosses_1_11",
-      "legacy_1_1",
+      "caves_ld2",
       "weapons_5_10"
     ]
   },
   "legendaries_1_4": {
     "targets": [
       "bosses_5_26",
-      "legacy_1_7",
+      "caves_ld5",
       "weapons_5_9"
     ]
   },
   "legendaries_1_6": {
     "targets": [
       "bosses_7_8",
-      "legacy_1_8",
+      "caves_ld6",
       "weapons_14_13",
       "weapons_34_5"
     ]
@@ -3553,7 +3550,7 @@ const item_links = {
   "legendaries_2_4": {
     "targets": [
       "bosses_6_1",
-      "evergaols_4_1",
+      "caves_e9",
       "talismans_6_5"
     ]
   },
@@ -3575,7 +3572,7 @@ const item_links = {
   "legendaries_3_4": {
     "targets": [
       "bosses_4_32",
-      "evergaols_2_4",
+      "caves_e7",
       "spirit_ashes_3_3"
     ]
   },
@@ -3588,7 +3585,7 @@ const item_links = {
   "legendaries_5_1": {
     "targets": [
       "bosses_4_2",
-      "evergaols_2_2",
+      "caves_e4",
       "incantations_6_2"
     ]
   },
@@ -3751,12 +3748,6 @@ const item_links = {
       "quest_order_tldr_9"
     ]
   },
-  "npc_quests_8_1": {
-    "targets": [
-      "playthrough_1",
-      "quest_order_tldr_1"
-    ]
-  },
   "npc_quests_9_1": {
     "targets": [
       "quest_order_tldr_18",
@@ -3784,7 +3775,6 @@ const item_links = {
   },
   "playthrough_1": {
     "targets": [
-      "npc_quests_8_1",
       "quest_order_tldr_1"
     ]
   },
@@ -3878,7 +3868,7 @@ const item_links = {
       "playthrough_23"
     ],
     "andtargets": [
-      "legacy_1_3",
+      "caves_l16",
       "quest_order_tldr_12"
     ],
     "targets": [
@@ -3891,7 +3881,7 @@ const item_links = {
       "playthrough_22"
     ],
     "andtargets": [
-      "legacy_1_3",
+      "caves_l16",
       "quest_order_tldr_12"
     ]
   },
@@ -4241,7 +4231,7 @@ const item_links = {
     ],
     "targets": [
       "bosses_2_18",
-      "evergaols_1_1",
+      "caves_e1",
       "weapons_8_3"
     ]
   },
@@ -4280,7 +4270,6 @@ const item_links = {
   },
   "quest_order_tldr_1": {
     "targets": [
-      "npc_quests_8_1",
       "playthrough_1"
     ]
   },
@@ -4291,7 +4280,7 @@ const item_links = {
   },
   "quest_order_tldr_12": {
     "orsources": [
-      "legacy_1_3"
+      "caves_l16"
     ],
     "ortargets": [
       "playthrough_22",
@@ -4541,15 +4530,15 @@ const item_links = {
   "remembrances_mausoleums_1_1": {
     "targets": [
       "bosses_2_29",
-      "great_runes_1_1",
-      "legacy_1_2"
+      "caves_ld1",
+      "great_runes_1_1"
     ]
   },
   "remembrances_mausoleums_1_10": {
     "targets": [
       "bosses_8_18",
-      "great_runes_1_4",
-      "legacy_1_10"
+      "caves_ld8",
+      "great_runes_1_4"
     ]
   },
   "remembrances_mausoleums_1_10_1": {
@@ -4590,7 +4579,7 @@ const item_links = {
   "remembrances_mausoleums_1_13": {
     "targets": [
       "bosses_12_4",
-      "legacy_1_16"
+      "caves_ld14"
     ]
   },
   "remembrances_mausoleums_1_13_1": {
@@ -4606,8 +4595,8 @@ const item_links = {
   "remembrances_mausoleums_1_14": {
     "targets": [
       "bosses_10_11",
-      "great_runes_1_6",
-      "legacy_1_15"
+      "caves_ld12",
+      "great_runes_1_6"
     ]
   },
   "remembrances_mausoleums_1_14_1": {
@@ -4644,6 +4633,13 @@ const item_links = {
   "remembrances_mausoleums_1_1_2": {
     "targets": [
       "weapons_28_9"
+    ]
+  },
+  "remembrances_mausoleums_1_2": {
+    "targets": [
+      "bosses_4_36",
+      "caves_ld3",
+      "great_runes_1_2"
     ]
   },
   "remembrances_mausoleums_1_2_1": {
@@ -4720,7 +4716,7 @@ const item_links = {
   "remembrances_mausoleums_1_7": {
     "targets": [
       "bosses_11_6",
-      "legacy_1_12"
+      "caves_ld13"
     ]
   },
   "remembrances_mausoleums_1_7_1": {
@@ -4736,8 +4732,8 @@ const item_links = {
   "remembrances_mausoleums_1_8": {
     "targets": [
       "bosses_7_26",
-      "great_runes_1_5",
-      "legacy_1_9"
+      "caves_ld7",
+      "great_runes_1_5"
     ]
   },
   "remembrances_mausoleums_1_8_1": {
@@ -4784,7 +4780,7 @@ const item_links = {
   "sorceries_13_1": {
     "targets": [
       "bosses_10_10",
-      "legacy_1_14",
+      "caves_ld11",
       "weapons_25_15"
     ]
   },
@@ -4798,7 +4794,7 @@ const item_links = {
     "targets": [
       "ashesofwar_8_7",
       "bosses_4_27",
-      "legacy_1_5"
+      "caves_ld4"
     ]
   },
   "sorceries_4_22": {
@@ -4823,7 +4819,7 @@ const item_links = {
   "sorceries_4_6": {
     "targets": [
       "bosses_4_22",
-      "evergaols_2_1"
+      "caves_e5"
     ]
   },
   "sorceries_4_7": {
@@ -4834,7 +4830,7 @@ const item_links = {
   "sorceries_4_8": {
     "targets": [
       "bosses_4_29",
-      "evergaols_2_3"
+      "caves_e6"
     ]
   },
   "sorceries_5_1": {
@@ -4948,7 +4944,7 @@ const item_links = {
   "spirit_ashes_3_3": {
     "targets": [
       "bosses_4_32",
-      "evergaols_2_4",
+      "caves_e7",
       "legendaries_3_4"
     ]
   },
@@ -4961,7 +4957,7 @@ const item_links = {
   "spirit_ashes_4_1": {
     "targets": [
       "bosses_5_15",
-      "evergaols_3_1"
+      "caves_e8"
     ]
   },
   "spirit_ashes_4_3": {
@@ -5040,7 +5036,7 @@ const item_links = {
   "talismans_1_6": {
     "targets": [
       "bosses_1_10",
-      "evergaols_0_1"
+      "caves_e3"
     ]
   },
   "talismans_2_11": {
@@ -5160,7 +5156,7 @@ const item_links = {
   "talismans_6_5": {
     "targets": [
       "bosses_6_1",
-      "evergaols_4_1",
+      "caves_e9",
       "legendaries_2_4"
     ]
   },
@@ -5225,7 +5221,7 @@ const item_links = {
   "weapons_14_13": {
     "targets": [
       "bosses_7_8",
-      "legacy_1_8",
+      "caves_ld6",
       "legendaries_1_6",
       "weapons_34_5"
     ]
@@ -5472,7 +5468,7 @@ const item_links = {
   "weapons_25_15": {
     "targets": [
       "bosses_10_10",
-      "legacy_1_14",
+      "caves_ld11",
       "sorceries_13_1"
     ]
   },
@@ -5520,7 +5516,7 @@ const item_links = {
   "weapons_28_7": {
     "targets": [
       "bosses_9_9",
-      "legacy_1_13"
+      "caves_ld10"
     ]
   },
   "weapons_28_9": {
@@ -5574,7 +5570,7 @@ const item_links = {
   "weapons_34_5": {
     "targets": [
       "bosses_7_8",
-      "legacy_1_8",
+      "caves_ld6",
       "legendaries_1_6",
       "weapons_14_13"
     ]
@@ -5612,7 +5608,7 @@ const item_links = {
   "weapons_5_10": {
     "targets": [
       "bosses_1_11",
-      "legacy_1_1",
+      "caves_ld2",
       "legendaries_1_2"
     ]
   },
@@ -5629,7 +5625,7 @@ const item_links = {
   "weapons_5_9": {
     "targets": [
       "bosses_5_26",
-      "legacy_1_7",
+      "caves_ld5",
       "legendaries_1_4"
     ]
   },
@@ -5674,7 +5670,7 @@ const item_links = {
   "weapons_8_3": {
     "targets": [
       "bosses_2_18",
-      "evergaols_1_1",
+      "caves_e1",
       "playthrough_67"
     ]
   },
