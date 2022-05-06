@@ -618,25 +618,32 @@ sections:
         data: ["Cathedral of the Forsaken"]
         cords: [4570, 3402]
   -
-    title: Leyndell, Ashen Capital #TODO
+    title: Leyndell, Ashen Capital 
     items:
       - id: "186"
         data: ["East Capital Rampart"]
+        cords: [4465, 3400]
       - id: "187"
         data: ["Leyndell, Capital of Ash"]
+        cords: [4365, 3450]
       - id: "188"
         data: ["Erdtree Sanctuary"]
+        cords: [4365, 3708]
       - id: "189"
         data: ["Queen's Bedchamber"]
+        cords: [4441, 3629]
       - id: "190"
         data: ["Divine Bridge"]
+        cords: [4070, 3616]
       - id: "191"
         data: ["Elden Throne"]
+        cords: [4534, 3737]
   -
     title: Stone Platform #TODO
     items:
       - id: "192"
         data: ["Fractured Marika"]
+        cords: [4677, 3928]
   -
     title: Caelid
     items:
@@ -845,22 +852,29 @@ sections:
         data: ["Giant-Conquering Hero's Grave"]        
         cords: [5646, 2823]
   -
-    title: Consecrated Snowfield #TODO
+    title: Consecrated Snowfield 
     items:
       - id: "256"
         data: ["Consecrated Snowfield"]
+        cords: [5405, 2691]
       - id: "257"
         data: ["Inner Consecrated Snowfield"]
+        cords: [5401, 2332]
       - id: "258"
         data: ["Ordina, Liturgical Town"]
+        cords: [5271, 1956]
       - id: "259"
         data: ["Apostate Derelict"]
+        cords: [5044, 1695]
       - id: "260"
         data: ["Consecrated Snowfield Catacombs"]
+        cords: [5684, 2514]
       - id: "261"
         data: ["Cave of the Forlorn"]
+        cords: [5696, 2132]
       - id: "262"
         data: ["Yelough Anix Tunnel"]
+        cords: [5041, 2497]
   -
     title: Miquella's Haligtree
     items:
