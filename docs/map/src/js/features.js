@@ -138,7 +138,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             4239,
-            7232
+            7237
           ],
           "type": "Point"
         },
@@ -251,8 +251,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3909,
-            6496
+            3911,
+            6494
           ],
           "type": "Point"
         },
@@ -1606,8 +1606,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3895,
-            6497
+            3897,
+            6502
           ],
           "type": "Point"
         },
@@ -1625,8 +1625,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3504,
-            7055
+            3509,
+            7060
           ],
           "type": "Point"
         },
@@ -1644,8 +1644,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4063,
-            6708
+            4067,
+            6704
           ],
           "type": "Point"
         },
@@ -1748,7 +1748,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_30.png",
-          "icon_size": 60,
+          "icon_size": 70,
           "id": "caves_l1",
           "link": "/checklists/landmarks_locations.html#item_l1",
           "title": "Minor Erdtree"
@@ -1911,7 +1911,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             4214,
-            6799
+            6794
           ],
           "type": "Point"
         },
@@ -1929,8 +1929,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3664,
-            7217
+            3657,
+            7210
           ],
           "type": "Point"
         },
@@ -1957,7 +1957,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 35,
+          "icon_size": 60,
           "id": "caves_l12",
           "link": "/checklists/landmarks_locations.html#item_l12",
           "title": "Church of Dragon Communion"
@@ -1976,7 +1976,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 35,
+          "icon_size": 60,
           "id": "caves_l13",
           "link": "/checklists/landmarks_locations.html#item_l13",
           "title": "Third Church of Marika"
@@ -2062,8 +2062,103 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4136,
+            7836
+          ],
+          "type": "Point"
+        },
+        "id": "caves_0_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_0_1",
+          "link": "/checklists/landmarks_locations.html#item_0_1",
+          "title": "Earthbore Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3616,
+            8023
+          ],
+          "type": "Point"
+        },
+        "id": "caves_0_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 50,
+          "id": "caves_0_5",
+          "link": "/checklists/landmarks_locations.html#item_0_5",
+          "title": "Tombsward Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4472,
+            7848
+          ],
+          "type": "Point"
+        },
+        "id": "caves_0_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 50,
+          "id": "caves_0_2",
+          "link": "/checklists/landmarks_locations.html#item_0_2",
+          "title": "Impaler's Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3851,
+            7951
+          ],
+          "type": "Point"
+        },
+        "id": "caves_0_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 50,
+          "id": "caves_0_4",
+          "link": "/checklists/landmarks_locations.html#item_0_4",
+          "title": "Tombsward Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4005,
+            8113
+          ],
+          "type": "Point"
+        },
+        "id": "caves_0_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 50,
+          "id": "caves_0_3",
+          "link": "/checklists/landmarks_locations.html#item_0_3",
+          "title": "Morne Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3599,
-            7957
+            7958
           ],
           "type": "Point"
         },
@@ -2075,6 +2170,272 @@ const feature_data = [
           "id": "caves_e3",
           "link": "/checklists/landmarks_locations.html#item_e3",
           "title": "Weeping Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3912,
+            8109
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l17",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 70,
+          "id": "caves_l17",
+          "link": "/checklists/landmarks_locations.html#item_l17",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4415,
+            8121
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l18",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 70,
+          "id": "caves_l18",
+          "link": "/checklists/landmarks_locations.html#item_l18",
+          "title": "Oridys's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3994,
+            7867
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l19",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l19",
+          "link": "/checklists/landmarks_locations.html#item_l19",
+          "title": "Demi-Human Forest Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3704,
+            7918
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l20",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l20",
+          "link": "/checklists/landmarks_locations.html#item_l20",
+          "title": "Tombsward Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3510,
+            8063
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l21",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 50,
+          "id": "caves_l21",
+          "link": "/checklists/landmarks_locations.html#item_l21",
+          "title": "Witchbane Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3468,
+            8225
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l22",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 50,
+          "id": "caves_l22",
+          "link": "/checklists/landmarks_locations.html#item_l22",
+          "title": "Isolated Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3858,
+            7679
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l23",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 60,
+          "id": "caves_l23",
+          "link": "/checklists/landmarks_locations.html#item_l23",
+          "title": "Church of Pilgrimage"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4137,
+            8122
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l24",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 60,
+          "id": "caves_l24",
+          "link": "/checklists/landmarks_locations.html#item_l24",
+          "title": "Callu Baptismal Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3538,
+            7993
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l25",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 60,
+          "id": "caves_l25",
+          "link": "/checklists/landmarks_locations.html#item_l25",
+          "title": "Fourth Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4350,
+            7771
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l26",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_11.png",
+          "icon_size": 50,
+          "id": "caves_l26",
+          "link": "/checklists/landmarks_locations.html#item_l26",
+          "title": "Bridge of Sacrifice"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4119,
+            8090
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l27",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_37.png",
+          "icon_size": 50,
+          "id": "caves_l27",
+          "link": "/checklists/landmarks_locations.html#item_l27",
+          "title": "Ailing Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4227,
+            7868
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l28",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 50,
+          "id": "caves_l28",
+          "link": "/checklists/landmarks_locations.html#item_l28",
+          "title": "Forest Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3659,
+            8364
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l29",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 50,
+          "id": "caves_l29",
+          "link": "/checklists/landmarks_locations.html#item_l29",
+          "title": "Tower of Return"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4097,
+            8554
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_25.png",
+          "icon_size": 70,
+          "id": "caves_ld2",
+          "link": "/checklists/landmarks_locations.html#item_ld2",
+          "title": "Castle Morne"
         },
         "type": "Feature"
       },
@@ -8084,12 +8445,17 @@ const icon_urls = [
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",
+  "/map/icons/MENU_MAP_08.png",
   "/map/icons/MENU_MAP_10.png",
+  "/map/icons/MENU_MAP_11.png",
   "/map/icons/MENU_MAP_14.png",
   "/map/icons/MENU_MAP_16.png",
+  "/map/icons/MENU_MAP_17.png",
   "/map/icons/MENU_MAP_18.png",
   "/map/icons/MENU_MAP_23.png",
+  "/map/icons/MENU_MAP_25.png",
   "/map/icons/MENU_MAP_30.png",
+  "/map/icons/MENU_MAP_37.png",
   "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_50.png",
   "/map/icons/MENU_MAP_80.png",
