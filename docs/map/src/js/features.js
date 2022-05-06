@@ -764,8 +764,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2312,
-            6012
+            2307,
+            6007
           ],
           "type": "Point"
         },
@@ -2442,8 +2442,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2321,
-            6010
+            2327,
+            6002
           ],
           "type": "Point"
         },
@@ -2451,7 +2451,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 35,
+          "icon_size": 50,
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
           "title": "Lakeside Crystal Cave"
@@ -7502,6 +7502,101 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3974,
+            12225
+          ],
+          "type": "Point"
+        },
+        "id": "graces_272",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_272",
+          "link": "/checklists/sitesof_grace.html#item_272",
+          "title": "Ainsel River Well Depths"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3783,
+            12324
+          ],
+          "type": "Point"
+        },
+        "id": "graces_273",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_273",
+          "link": "/checklists/sitesof_grace.html#item_273",
+          "title": "Ainsel River Sluice Gate"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3556,
+            12229
+          ],
+          "type": "Point"
+        },
+        "id": "graces_274",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_274",
+          "link": "/checklists/sitesof_grace.html#item_274",
+          "title": "Ainsel River Downstream"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3461,
+            12002
+          ],
+          "type": "Point"
+        },
+        "id": "graces_275",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_275",
+          "link": "/checklists/sitesof_grace.html#item_275",
+          "title": "Dragonkin Soldier of Nokstella"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2796,
+            13677
+          ],
+          "type": "Point"
+        },
+        "id": "graces_276",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_276",
+          "link": "/checklists/sitesof_grace.html#item_276",
+          "title": "Astel, Naturalborn of the Void"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3906,
             11847
           ],
@@ -7857,6 +7952,101 @@ const feature_data = [
           "id": "graces_295",
           "link": "/checklists/sitesof_grace.html#item_295",
           "title": "Cocoon of the Empyrean"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5902,
+            11129
+          ],
+          "type": "Point"
+        },
+        "id": "graces_297",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_297",
+          "link": "/checklists/sitesof_grace.html#item_297",
+          "title": "Great Waterfall Crest"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5467,
+            11117
+          ],
+          "type": "Point"
+        },
+        "id": "graces_298",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_298",
+          "link": "/checklists/sitesof_grace.html#item_298",
+          "title": "Deeproot Depths"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5376,
+            10914
+          ],
+          "type": "Point"
+        },
+        "id": "graces_299",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_299",
+          "link": "/checklists/sitesof_grace.html#item_299",
+          "title": "The Nameless Eternal City"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5594,
+            10857
+          ],
+          "type": "Point"
+        },
+        "id": "graces_300",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_300",
+          "link": "/checklists/sitesof_grace.html#item_300",
+          "title": "Across the Roots"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5685,
+            10708
+          ],
+          "type": "Point"
+        },
+        "id": "graces_301",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_301",
+          "link": "/checklists/sitesof_grace.html#item_301",
+          "title": "Prince of Death's Throne"
         },
         "type": "Feature"
       },

@@ -617,7 +617,7 @@ sections:
         data: ["Cathedral of the Forsaken"]
         cords: [4570, 3402]
   -
-    title: Leyndell, Ashen Capital
+    title: Leyndell, Ashen Capital #TODO
     items:
       - id: "186"
         data: ["East Capital Rampart"]
@@ -632,7 +632,7 @@ sections:
       - id: "191"
         data: ["Elden Throne"]
   -
-    title: Stone Platform
+    title: Stone Platform #TODO
     items:
       - id: "192"
         data: ["Fractured Marika"]
@@ -844,7 +844,7 @@ sections:
         data: ["Giant-Conquering Hero's Grave"]        
         cords: [5646, 2823]
   -
-    title: Consecrated Snowfield
+    title: Consecrated Snowfield #TODO
     items:
       - id: "256"
         data: ["Consecrated Snowfield"]
@@ -898,14 +898,19 @@ sections:
     items:
       - id: "272"
         data: ["Ainsel River Well Depths"]
+        cords: [3974, 12225]
       - id: "273"
         data: ["Ainsel River Sluice Gate"]
+        cords: [3783, 12324]
       - id: "274"
         data: ["Ainsel River Downstream"]
+        cords: [3556, 12229]
       - id: "275"
         data: ["Dragonkin Soldier of Nokstella"]
+        cords: [3461, 12002]
       - id: "276"
         data: ["Astel, Naturalborn of the Void"]
+        cords: [2796, 13677]
   -
     title: Ainsel River Main
     items:
@@ -981,18 +986,23 @@ sections:
   -
     title: Deeproot Depths
     items:
-      - id: "296"
+      - id: "296" #TODO
         data: ["Root-Facing Cliffs"]
       - id: "297"
         data: ["Great Waterfall Crest"]
+        cords: [5902, 11129]
       - id: "298"
         data: ["Deeproot Depths"]
+        cords: [5467, 11117]
       - id: "299"
         data: ["The Nameless Eternal City"]
+        cords: [5376, 10914]
       - id: "300"
         data: ["Across the Roots"]
+        cords: [5594, 10857]
       - id: "301"
         data: ["Prince of Death's Throne"]
+        cords: [5685, 10708]
   -
     title: Crumbling Farum Azula
     items:

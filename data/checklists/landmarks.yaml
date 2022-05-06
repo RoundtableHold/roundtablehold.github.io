@@ -290,7 +290,8 @@ sections:
       - id: "2_4"
         data: ["Lakeside Crystal Cave", "Cave", "Bloodhound Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2321, 6010]
+        cords: [2327, 6002]
+        map_icon_size: 50
       - id: "2_8"
         data: ["Stillwater Cave", "Cave", "Cleanrot Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
