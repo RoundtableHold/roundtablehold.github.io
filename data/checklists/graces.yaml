@@ -611,8 +611,9 @@ sections:
       - id: "183"
         data: ["Leyndell Catacombs"]
         cords: [4357, 3564]
-      - id: "184" #TODO
+      - id: "184"
         data: ["Frenzied Flame Proscription"]
+        cords: [4622, 3385]
       - id: "185"
         data: ["Cathedral of the Forsaken"]
         cords: [4570, 3402]
@@ -986,8 +987,9 @@ sections:
   -
     title: Deeproot Depths
     items:
-      - id: "296" #TODO
+      - id: "296"
         data: ["Root-Facing Cliffs"]
+        cords: [5880, 11021]
       - id: "297"
         data: ["Great Waterfall Crest"]
         cords: [5902, 11129]

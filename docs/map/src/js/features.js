@@ -6115,6 +6115,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4622,
+            3385
+          ],
+          "type": "Point"
+        },
+        "id": "graces_184",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_184",
+          "link": "/checklists/sitesof_grace.html#item_184",
+          "title": "Frenzied Flame Proscription"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4570,
             3402
           ],
@@ -7952,6 +7971,25 @@ const feature_data = [
           "id": "graces_295",
           "link": "/checklists/sitesof_grace.html#item_295",
           "title": "Cocoon of the Empyrean"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5880,
+            11021
+          ],
+          "type": "Point"
+        },
+        "id": "graces_296",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_296",
+          "link": "/checklists/sitesof_grace.html#item_296",
+          "title": "Root-Facing Cliffs"
         },
         "type": "Feature"
       },
