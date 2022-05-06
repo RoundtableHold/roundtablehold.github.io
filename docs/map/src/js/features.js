@@ -6153,6 +6153,139 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4465,
+            3400
+          ],
+          "type": "Point"
+        },
+        "id": "graces_186",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_186",
+          "link": "/checklists/sitesof_grace.html#item_186",
+          "title": "East Capital Rampart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3450
+          ],
+          "type": "Point"
+        },
+        "id": "graces_187",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_187",
+          "link": "/checklists/sitesof_grace.html#item_187",
+          "title": "Leyndell, Capital of Ash"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3708
+          ],
+          "type": "Point"
+        },
+        "id": "graces_188",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_188",
+          "link": "/checklists/sitesof_grace.html#item_188",
+          "title": "Erdtree Sanctuary"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4441,
+            3629
+          ],
+          "type": "Point"
+        },
+        "id": "graces_189",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_189",
+          "link": "/checklists/sitesof_grace.html#item_189",
+          "title": "Queen's Bedchamber"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4070,
+            3616
+          ],
+          "type": "Point"
+        },
+        "id": "graces_190",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_190",
+          "link": "/checklists/sitesof_grace.html#item_190",
+          "title": "Divine Bridge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4534,
+            3737
+          ],
+          "type": "Point"
+        },
+        "id": "graces_191",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_191",
+          "link": "/checklists/sitesof_grace.html#item_191",
+          "title": "Elden Throne"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4677,
+            3928
+          ],
+          "type": "Point"
+        },
+        "id": "graces_192",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_192",
+          "link": "/checklists/sitesof_grace.html#item_192",
+          "title": "Fractured Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4658,
             6243
           ],
@@ -7344,6 +7477,139 @@ const feature_data = [
           "id": "graces_255",
           "link": "/checklists/sitesof_grace.html#item_255",
           "title": "Giant-Conquering Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5405,
+            2691
+          ],
+          "type": "Point"
+        },
+        "id": "graces_256",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_256",
+          "link": "/checklists/sitesof_grace.html#item_256",
+          "title": "Consecrated Snowfield"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5401,
+            2332
+          ],
+          "type": "Point"
+        },
+        "id": "graces_257",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_257",
+          "link": "/checklists/sitesof_grace.html#item_257",
+          "title": "Inner Consecrated Snowfield"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5271,
+            1956
+          ],
+          "type": "Point"
+        },
+        "id": "graces_258",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_258",
+          "link": "/checklists/sitesof_grace.html#item_258",
+          "title": "Ordina, Liturgical Town"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5044,
+            1695
+          ],
+          "type": "Point"
+        },
+        "id": "graces_259",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_259",
+          "link": "/checklists/sitesof_grace.html#item_259",
+          "title": "Apostate Derelict"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5684,
+            2514
+          ],
+          "type": "Point"
+        },
+        "id": "graces_260",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_260",
+          "link": "/checklists/sitesof_grace.html#item_260",
+          "title": "Consecrated Snowfield Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5696,
+            2132
+          ],
+          "type": "Point"
+        },
+        "id": "graces_261",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_261",
+          "link": "/checklists/sitesof_grace.html#item_261",
+          "title": "Cave of the Forlorn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5041,
+            2497
+          ],
+          "type": "Point"
+        },
+        "id": "graces_262",
+        "properties": {
+          "group": "graces",
+          "icon": "/map/icons/MENU_MAP_01_Bonfire.png",
+          "icon_size": 45,
+          "id": "graces_262",
+          "link": "/checklists/sitesof_grace.html#item_262",
+          "title": "Yelough Anix Tunnel"
         },
         "type": "Feature"
       },
@@ -8667,9 +8933,295 @@ const feature_data = [
     ],
     "id": "bell_bearings",
     "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3060,
+            6606
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_1_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03210.png",
+          "icon_size": 35,
+          "id": "paintings_1_1",
+          "link": "/checklists/paintings.html#item_1_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4218,
+            6800
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_1_2",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03066.png",
+          "icon_size": 35,
+          "id": "paintings_1_2",
+          "link": "/checklists/paintings.html#item_1_2",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2775,
+            5100
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_2_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03207.png",
+          "icon_size": 35,
+          "id": "paintings_2_1",
+          "link": "/checklists/paintings.html#item_2_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5642,
+            6603
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_3_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03212.png",
+          "icon_size": 35,
+          "id": "paintings_3_1",
+          "link": "/checklists/paintings.html#item_3_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2980,
+            2668
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_4_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03208.png",
+          "icon_size": 35,
+          "id": "paintings_4_1",
+          "link": "/checklists/paintings.html#item_4_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4184,
+            3587
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_5_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03211.png",
+          "icon_size": 35,
+          "id": "paintings_5_1",
+          "link": "/checklists/paintings.html#item_5_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6039,
+            1806
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_6_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/info/paintings/edited/03209.png",
+          "icon_size": 35,
+          "id": "paintings_6_1",
+          "link": "/checklists/paintings.html#item_6_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3845,
+            7638
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_1",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/spirit_ashes/00456.png",
+          "icon_size": 35,
+          "id": "paintings_1",
+          "link": "/checklists/paintings.html#item_1",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3870,
+            7397
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_2",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/armor/15290.png",
+          "icon_size": 35,
+          "id": "paintings_2",
+          "link": "/checklists/paintings.html#item_2",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2135,
+            3783
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_3",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/armor/14770.png",
+          "icon_size": 35,
+          "id": "paintings_3",
+          "link": "/checklists/paintings.html#item_3",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6063,
+            6323
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_4",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/ashes_of_war/08385.png",
+          "icon_size": 35,
+          "id": "paintings_4",
+          "link": "/checklists/paintings.html#item_4",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3493,
+            3203
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_5",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/weapons/lightbows/11003.png",
+          "icon_size": 35,
+          "id": "paintings_5",
+          "link": "/checklists/paintings.html#item_5",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3727,
+            2615
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_6",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/incantations/06060.png",
+          "icon_size": 35,
+          "id": "paintings_6",
+          "link": "/checklists/paintings.html#item_6",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5875,
+            2080
+          ],
+          "type": "Point"
+        },
+        "id": "paintings_7",
+        "properties": {
+          "group": "paintings",
+          "icon": "/img/icons/armor/15000.png",
+          "icon_size": 35,
+          "id": "paintings_7",
+          "link": "/checklists/paintings.html#item_7",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "paintings",
+    "type": "FeatureCollection"
   }
 ];
 const icon_urls = [
+  "/img/icons/armor/14770.png",
+  "/img/icons/armor/15000.png",
+  "/img/icons/armor/15290.png",
+  "/img/icons/ashes_of_war/08385.png",
+  "/img/icons/incantations/06060.png",
+  "/img/icons/info/paintings/edited/03066.png",
+  "/img/icons/info/paintings/edited/03207.png",
+  "/img/icons/info/paintings/edited/03208.png",
+  "/img/icons/info/paintings/edited/03209.png",
+  "/img/icons/info/paintings/edited/03210.png",
+  "/img/icons/info/paintings/edited/03211.png",
+  "/img/icons/info/paintings/edited/03212.png",
+  "/img/icons/spirit_ashes/00456.png",
+  "/img/icons/weapons/lightbows/11003.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",
