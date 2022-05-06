@@ -80,14 +80,14 @@
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: feature.get('icon_size') / image.naturalHeight,
+                            scale: scale,
                         })
                     }),
                     new ol.style.Style({
                         image: new ol.style.Icon({
                             img: image,
                             imgSize: [image.naturalWidth, image.naturalHeight],
-                            scale: feature.get('icon_size') / image.naturalHeight,
+                            scale: scale,
                             opacity: 0.5,
                         })
                     })
@@ -441,10 +441,6 @@
                     tracker.html(num_checked + '/' + total);
                 }
             }
-        }
-
-        function displayProgress() {
-            
         }
 
         calculateProgress();
