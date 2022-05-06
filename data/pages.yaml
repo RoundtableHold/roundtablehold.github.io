@@ -147,8 +147,8 @@ item_links:
   - link_all: [bosses_1_7, crystal_tears_0_3, crystal_tears_0_2] #ERDTREE AVATAR/OPALINE BUBBLETEAR
   - link_all: [bosses_1_8, caves_0_3, weapons_19_6] #SCALY MISBEGOTTEN/MORNE TUNNEL/RUSTED ANCHOR GREATAXE
   - link_all: [bosses_1_9, caves_0_5, talismans_1_3] #MIRANDA/TOMBSWARD CAVE/VIRIDIAN AMBER MEDALLION
-  - link_all: [bosses_1_10, evergaols_0_1, talismans_1_6] #ANCIENT HERO ZAMOR/WEEPING EVERGAOL/RADAGON'S SCARSEAL
-  - link_all: [bosses_1_11, legacy_1_1, weapons_5_10, legendaries_1_2] #LEONINE MISBEGOTTEN/CASTLE MORNE/GRAFTED BLADE GREATSWORD (+LEGENDARY)
+  - link_all: [bosses_1_10, caves_e3, talismans_1_6] #ANCIENT HERO ZAMOR/WEEPING EVERGAOL/RADAGON'S SCARSEAL
+  - link_all: [bosses_1_11, caves_ld2, weapons_5_10, legendaries_1_2] #LEONINE MISBEGOTTEN/CASTLE MORNE/GRAFTED BLADE GREATSWORD (+LEGENDARY)
   - link_all: [bosses_2_1, caves_1_1] #TUT GODRICK/STRANDED GRAVEYARD
   - link_all: [bosses_2_2, caves_1_3,playthrough_29] #DEMI-HUMAN CHIEF/COASTAL CAVE/Walkthrough 29
   - link_all: [bosses_2_3, caves_1_10, spirit_ashes_2_5] #ERDTREE BURIAL WATCHDOG/STORMFOOT CATACOMBS/NOBLE SORCERER ASHES
@@ -165,8 +165,8 @@ item_links:
   - link_all: [bosses_2_15, dragon_hearts_death_roots_0_1, playthrough_36] #FLYING DRAGON AGHEEL/DRAGON HEART/Walkthrough 16
   - link_all: [bosses_2_16, spirit_ashes_2_6, dragon_hearts_death_roots_1_1, playthrough_13] #TIBIA MARINER/SKELETAL MILITIAMAN ASHES/DEATHROOT/Walkthrough 13
   - link_all: [bosses_2_17, talismans_2_19] #ANASTASIA/SACRED SCORPION CHARM
-  - link_all: [bosses_2_18, evergaols_1_1, weapons_8_3, playthrough_67] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG/WALKTHROUGH 67
-  - link_all: [bosses_2_19, evergaols_1_2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
+  - link_all: [bosses_2_18, caves_e1, weapons_8_3, playthrough_67] #BLOODHOUND KNIGHT DARRIWILL/FORLORN HOUND EVERGAOL/BLOODHOUND'S FANG/WALKTHROUGH 67
+  - link_all: [bosses_2_19, caves_e2, incantations_5_3] #CRUCIBLE KNIGHT/STORMHILL EVERGAOL/AOTC TAIL
   - link_all: [bosses_2_20, bell_bearings_5_1] #BELL BEARING HUNTER/BONE PEDDLER'S BELL BEARING
   - link_all: [bosses_2_21, talismans_2_17] #DEATHBIRD/BLUE-FEATHERED BRANCHSWORD
   - link_all: [bosses_2_22, armor_518, armor_519, armor_521, armor_522] #OLD KNIGHT ISTVAN/SCALED SET (HELM, ARMOR, GAUNTLETS, GREAVES)
@@ -176,12 +176,12 @@ item_links:
   - link_all: [bosses_2_24, flasks_1_8, talismans_2_6] #ULCERATED TREE SPIRIT/GOLDEN SEED/PRINCE OF DEATH'S PUSTULE TALISMAN
   - link_all: [bosses_2_25, incantations_5_2] #CRUCIBLE KNIGHT/AOTC HORNS
   - link_all: [bosses_2_28, memory_stones_talisman_pouches_1_2] #MARGIT THE FELL OMEN/TALISMAN POUCH
-  - link_all: [bosses_2_29, legacy_1_2, great_runes_1_1, remembrances_mausoleums_1_1] #GODRICK THE GRAFTED/STORMVEIL CASTLE/GODRICK'S GREAT RUNE/REMEMBRANCE OF THE GRAFTED
+  - link_all: [bosses_2_29, caves_ld1, great_runes_1_1, remembrances_mausoleums_1_1] #GODRICK THE GRAFTED/STORMVEIL CASTLE/GODRICK'S GREAT RUNE/REMEMBRANCE OF THE GRAFTED
   - link_all: [bosses_2_31, weapons_30_9] #ELITE PHANTOM/DRAGON COMMUNION SEAL
   - link_all: [bosses_3_2, weapons_28_6, armor_482] #ENSHA/CLINGING BONE FIST/ROYAL REMAINS SET
   - link_all: [bosses_4_1, caves_2_8, talismans_4_10] #CLEANROT KNIGHT/STILLWATER CAVE/WINGED SWORD INSIGNIA TALISMAN
   - link_all: [bosses_4_37, caves_2_4, talismans_4_6] #BLOODHOUND KNIGHT/LAKESIDE CRYSTAL CAVE/CERULEAN AMBER MEDALLION
-  - link_all: [bosses_4_2, evergaols_2_2, incantations_6_2, legendaries_5_1] #ADAN/MALEFACTOR'S EVERGAOL/FLAME OF THE FELL GOD INCANTATION (+LEGENDARY)
+  - link_all: [bosses_4_2, caves_e4, incantations_6_2, legendaries_5_1] #ADAN/MALEFACTOR'S EVERGAOL/FLAME OF THE FELL GOD INCANTATION (+LEGENDARY)
   - link_all: [bosses_4_3, caves_2_3, spirit_ashes_3_1] #ERDTREE BURIAL WATCHDOG/CLIFFBOTTOM CATACOMBS/KAIDEN SELLSWORD ASHES
   - link_all: [bosses_4_4, dragon_hearts_death_roots_1_4, spirit_ashes_3_17] #TIBIA MARINER/DEATHROOT/SKELETAL BANDIT ASHES
   - link_all: [bosses_4_5, ashesofwar_2_3] #NIGHT'S CAVALRY/AOW: ICE SPEAR
@@ -207,21 +207,20 @@ item_links:
   - link_all: [bosses_4_19, ashesofwar_11_3, weapons_25_10] #NIGHT'S CAVALRY/AOW: GIANT HUNT/NIGHTRIDER GLAIVE
   #- link_all: [bosses_4_20, caves_#_#] #ROYAL REVENANT/KINGSREALM RUINS UNDERGROUND #TODO: ASK IF THIS LOCATION SHOULD BE ADDED
   - link_all: [bosses_4_21, weapons_13_14, weapons_34_7] #GRAFTED SCION/ORNAMENTAL STRAIGHT SWORD/GOLDEN BEAST CREST SHIELD
-  - link_all: [bosses_4_22, evergaols_2_1, sorceries_4_6] #BOLS/CUCKOO'S EVERGAOL/GREATBLADE PHALANX SORCERY
+  - link_all: [bosses_4_22, caves_e5, sorceries_4_6] #BOLS/CUCKOO'S EVERGAOL/GREATBLADE PHALANX SORCERY
   - link_all: [bosses_4_23, weapons_25_2] #EDGAR/BANISHED KNIGHT'S HALBERD (+8)
   - link_all: [bosses_4_24, crystal_tears_2_2, crystal_tears_2_3] #ERDTREE AVATAR (WEST)/RUPTURED CRYSTAL TEAR [1]/CERULEAN CRYSTAL TEAR [1]
   - link_all: [bosses_4_25, caves_2_6, spirit_ashes_3_8] #SPIRIT-CALLER SNAIL/ROAD'S END CATACOMBS/GLINTSTONE SORCERER ASHES
   - link_all: [bosses_4_26, talismans_4_17] #OMENKILLER/CRUCIBLE KNOT TALISMAN
-  - link_all: [bosses_4_27, legacy_1_5, sorceries_4_12, ashesofwar_8_7] #ROYAL KNIGHT LORETTA/CARIA MANOR/LORETTA'S GREATBOW SORCERY/AOW: LORETTA'S SLASH
-  - link_all: [bosses_4_29, evergaols_2_3, sorceries_4_8] #ALABASTER LORD (ONYX)/ROYAL GRAVE EVERGAOL/METEORITE SORCERY
+  - link_all: [bosses_4_27, caves_ld4, sorceries_4_12, ashesofwar_8_7] #ROYAL KNIGHT LORETTA/CARIA MANOR/LORETTA'S GREATBOW SORCERY/AOW: LORETTA'S SLASH
+  - link_all: [bosses_4_29, caves_e6, sorceries_4_8] #ALABASTER LORD (ONYX)/ROYAL GRAVE EVERGAOL/METEORITE SORCERY
   - link_all: [bosses_4_40, sorceries_5_1, dragon_hearts_death_roots_0_2] #GLINTSTONE DRAGON ADULA/ADULA'S MOONBLADE SORCERY/DRAGON HEART (X3)
-  - link_all: [bosses_4_32, evergaols_2_4, spirit_ashes_3_3, legendaries_3_4] #ALECTO/RINGLEADER'S EVERGAOL/BLACK KNIFE TICHE ASHES (+LEGENDARY)
-  - link_all: [bosses_4_27, legacy_1_6] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE
+  - link_all: [bosses_4_32, caves_e7, spirit_ashes_3_3, legendaries_3_4] #ALECTO/RINGLEADER'S EVERGAOL/BLACK KNIFE TICHE ASHES (+LEGENDARY)
   - link_all: [bosses_4_33, caves_2_7, weapons_8_4, dragon_hearts_death_roots_0_4] #MAGMA WYRM MAKAR/RUIN-STREWN PRECIPICE/MAGMA WYRM'S SCALESWORD/DRAGON HEART
   - link_all: [bosses_4_34, ashesofwar_6_7] #RAVENMOUNT ASSASSIN/AOW: RAPTOR OF THE MISTS
   - link_all: [bosses_4_35, memory_stones_talisman_pouches_0_4] #RED WOLF OF RADAGON/MEMORY STONE
   - link_all: [bosses_4_38, weapons_33_15] #MOONGRUM/CARIAN KNIGHT'S SHIELD
-  - link_all: [bosses_4_36, legacy_1_4, great_runes_1_2] #RENNALA/RAYA LUCARIA ACADEMY/GREAT RUNE OF THE UNBORN, remembrances_mausoleums_1_2/REMEMBRANCE OF THE FULL MOON QUEEN
+  - link_all: [bosses_4_36, caves_ld3, great_runes_1_2, remembrances_mausoleums_1_2] #RENNALA/RAYA LUCARIA ACADEMY/GREAT RUNE OF THE UNBORN/REMEMBRANCE OF THE FULL MOON QUEEN
   - link_all: [bosses_5_1, caves_3_3, weapons_17_5, dragon_hearts_death_roots_0_9] #MAGMA WYRM/GAEL TUNNEL/MOONVEIL/DRAGON HEART
   - link_all: [bosses_5_2, crystal_tears_3_1, crystal_tears_3_2] #ERDTREE AVATAR (WEST)FLAME-SHROUDING CRACKED TEAR/GREENBURST CRYSTAL TEAR/
   - link_all: [bosses_5_3, caves_3_5, spirit_ashes_4_4] #ERDTREE BURIAL WATCHDOG (SWORD & STAFF)/MINOR ERDTREE CATACOMBS/MAD PUMPKIN HEAD ASHES
@@ -237,7 +236,7 @@ item_links:
   - link_all: [bosses_5_12, weapons_9_15] #NOX (PRIEST & SWORDSTRESS)/NOX FLOWING SWORD
   - link_all: [bosses_5_13, caves_3_6, bell_bearings_2_1] #FALLINGSTAR BEAST/SELLIA CRYSTAL TUNNEL/SOMBERSTONE MINER'S BELL BEARING [1]
   - link_all: [bosses_5_14, caves_3_1, talismans_5_2] #CLEANROT KNIGHT (SICKLE & SPEAR)/ABANDONED CAVE/GOLD SCARAB TALISMAN
-  - link_all: [bosses_5_15, evergaols_3_1, spirit_ashes_4_1] #BATTLEMAGE HUGUES/SELLIA EVERGAOL/BATTLEMAGE HUGUES ASHES
+  - link_all: [bosses_5_15, caves_e8, spirit_ashes_4_1] #BATTLEMAGE HUGUES/SELLIA EVERGAOL/BATTLEMAGE HUGUES ASHES
   - link_all: [bosses_5_16, dragon_hearts_death_roots_0_8] #ELDER DRAGON GREYOLL/DRAGON HEART
   - link_all: [bosses_5_17, sorceries_8_4] #PUTRID CRYSTALIAN (SPEAR & RINGBLADE & STAFF)/CRYSTAL TORRENT SORCERY
   - link_all: [bosses_5_18, armor_168, armor_169, armor_170, armor_171] #GODSKIN APOSTLE/GODSKIN APOSTLE SET (HOOD, ROBE, BRACERS, TROUSERS)
@@ -247,10 +246,10 @@ item_links:
   - link_all: [bosses_5_22, ashesofwar_6_2] #NIGHT'S CAVALRY (LENNE'S RISE BRIDGE)/AOW: BLOODHOUND'S STEP
   - link_all: [bosses_5_23, dragon_hearts_death_roots_0_7] #FLYING DRAGON GREYLL/DRAGON HEART
   - link_all: [bosses_5_24, weapons_25_9] #BLACK BLADE KINDRED/GARGOYLE'S BLACKBLADE/GARGOYLE'S BLACK HALBERD
-  - link_all: [bosses_5_26, legacy_1_7, weapons_5_9, legendaries_1_4] #MISBEGOTTEN WARRIOR & CRUCIBLE KNIGHT/REDMAN CASTLE/RUINS GREATSWORD (+LEGENDARY)
+  - link_all: [bosses_5_26, caves_ld5, weapons_5_9, legendaries_1_4] #MISBEGOTTEN WARRIOR & CRUCIBLE KNIGHT/REDMANE CASTLE/RUINS GREATSWORD (+LEGENDARY)
   - link_all: [bosses_5_27, great_runes_1_3, remembrances_mausoleums_1_3] #RADAHN/RADAHN'S GREAT RUNE/REMEMBRANCE OF THE STARSCOURGE
   - link_all: [bosses_5_29, caves_3_8, flasks_1_17, spirit_ashes_4_8, legendaries_3_2] #PUTRID TREE SPIRIT/WAR-DEAD CATACOMBS/GOLDEN SEED/REDMANE KNIGHT OGHA SPIRIT ASHES (+LEGENDARY)
-  - link_all: [bosses_6_1, evergaols_4_1, talismans_6_5, legendaries_2_4] #GODEFEROY/GOLDEN LINEAGE EVERGAOL/GODFREY ICON TALISMAN (+LEGENDARY)
+  - link_all: [bosses_6_1, caves_e9, talismans_6_5, legendaries_2_4] #GODEFEROY/GOLDEN LINEAGE EVERGAOL/GODFREY ICON TALISMAN (+LEGENDARY)
   - source: caves_5_2
     target: [bosses_7_4] #SAGE'S CAVE/NECROMANCER GARRIS
   - source_and: [bosses_7_4, bosses_6_17]
@@ -279,7 +278,7 @@ item_links:
   - link_all: [bosses_7_3, dragon_hearts_death_roots_1_5, sorceries_9_2] #TIBIA MARINER/DEATHROOT/TIBIA'S SUMMONS SORCERY
   - link_all: [bosses_7_5, caves_5_6, bell_bearings_3_1] #ERDTREE BURIAL WATCHDOG/WYNDHAM CATACOMBS/GLOVEWORT PICKER'S BELL BEARING [1]
   - link_all: [bosses_7_7, weapons_15_6, armor_160, armor_161] #MALEIGH MARAIS/ANTSPUR RAPIER/MARAIS MASK/MARAIS ROBE
-  - link_all: [bosses_7_8, legacy_1_8, weapons_14_13, legendaries_1_6, weapons_34_5] #ELEMER OF THE BRIAR/THE SHADED CASTLE/MARAIS EXECUTIONER'S SWORD (+LEGENDARY)/BRIAR GREATSHIELD
+  - link_all: [bosses_7_8, caves_ld6, weapons_14_13, legendaries_1_6, weapons_34_5] #ELEMER OF THE BRIAR/THE SHADED CASTLE/MARAIS EXECUTIONER'S SWORD (+LEGENDARY)/BRIAR GREATSHIELD
   - link_all: [bosses_7_11, caves_5_5, weapons_2_2] #DEMI-HUMAN QUEEN MARGOT/VOLCANO CAVE/JAR CANNON BALISTA
   - link_all: [bosses_7_12, crystal_tears_5_1, crystal_tears_5_2] #ULCERATED TREE SPIRIT/LEADEN HARDTEAR/CERULEAN HIDDEN TEAR
   - link_all: [bosses_7_13, caves_5_3, talismans_7_5] #KINDRED OF ROT (X2)/SEETHEWATER CAVE/KINDRED OF ROT'S EXULTATION TALISMAN
@@ -294,7 +293,7 @@ item_links:
   - link_all: [bosses_7_21, weapons_6_10] #INQUISITOR GHIZA/GHIZA'S WHEEL COLOSSAL WEAPON
   - link_all: [bosses_7_22, dragon_hearts_death_roots_0_10] #MAGMA WYRM (VOLCANO MANOR)/DRAGON HEART
   - link_all: [bosses_7_23, weapons_16_2] #GODSKIN NOBLE/GODSKIN STITCHER HEAVY THRUSTING SWORD
-  - link_all: [bosses_7_26, legacy_1_9, great_runes_1_5, remembrances_mausoleums_1_8] #RYKARD/VOLCANO MANOR/RYKARD'S GREAT RUNE/REMEMBRANCE OF THE BLASPHEMOUS
+  - link_all: [bosses_7_26, caves_ld7, great_runes_1_5, remembrances_mausoleums_1_8] #RYKARD/VOLCANO MANOR/RYKARD'S GREAT RUNE/REMEMBRANCE OF THE BLASPHEMOUS
   - link_all: [bosses_8_1, flasks_1_28] #ULCERATED TREE SPIRIT (CAPITAL OUTSKIRTS)/GOLDEN SEED
   - link_all: [bosses_8_4, weapons_33_10] #DEATHBIRD/TWINBIRD KITE SHIELD
   - link_all: [bosses_8_5, caves_6_1, weapons_8_1] #ONYX LORD/SEALED TUNNEL/ONYX LORD'S GREATSWORD
@@ -307,9 +306,9 @@ item_links:
   #- link_all: [bosses_8_14, _] #BLACK KNIFE ASSASSIN/ #TODO ADD DROPS
   - link_all: [bosses_8_15, spirit_ashes_7_3] #FELL TWINS (X2)/OMENKILLER ROLLO ASHES
   - link_all: [bosses_8_19, caves_6_3, talismans_9_2] #ESGAR/LEYNDELL CATACOMBS/LORD OF BLOOD'S EXULTATION TALISMAN
-  - link_all: [bosses_8_16, legacy_1_11, incantations_2_3] #MOHG THE OMEN/SUB SHUNNING GROUNDS/BLOODFLAME TALONS INCANTATION
+  - link_all: [bosses_8_16, caves_ld9, incantations_2_3] #MOHG THE OMEN/SUB SHUNNING GROUNDS/BLOODFLAME TALONS INCANTATION
   - link_all: [bosses_8_17, memory_stones_talisman_pouches_1_4] #GODFREY FIRST ELDEN LORD (GOLDEN SHADE)/TALISMAN POUCH
-  - link_all: [bosses_8_18, legacy_1_10, great_runes_1_4, remembrances_mausoleums_1_10] #MORGOTT THE OMEN KING/LEYNDELL ROYAL CAPITAL/MORGOTT'S GREAT RUNE, REMEMBRANCE OF THE OMEN KING
+  - link_all: [bosses_8_18, caves_ld8, great_runes_1_4, remembrances_mausoleums_1_10] #MORGOTT THE OMEN KING/LEYNDELL ROYAL CAPITAL/MORGOTT'S GREAT RUNE, REMEMBRANCE OF THE OMEN KING
   - link_all: [bosses_9_1, ashesofwar_11_4] #NIGHT'S CAVLARY/AOW PHANTOM SLASH
   - link_all: [bosses_9_2, weapons_19_9, weapons_18_5] #BLACK BLADE KINDRED/GARGOYLE'S BLACK AXE/GARGOYLE'S BLACK BLADES
   - link_all: [bosses_9_3, caves_7_1, weapons_8_5, armor_367, armor_368, armor_369, armor_370] #ANCIENT HERO OF ZAMOR/GIANT-CONQUERING HERO'S GRAVE/ZAMOR CURVED SWORD/ZAMOR SET (MASK, ARMOR, BRACELETS, LEGWRAPS)
@@ -318,8 +317,8 @@ item_links:
   - link_all: [bosses_9_6, weapons_27_4, armor_450, armor_452, armor_454, armor_455] #JUNO HOSLOW/HOSLOW'S PETAL WHIP, HOSLOW'S SET (HELM, ARMOR, GAUNTLETS, GREAVES)
   - link_all: [bosses_9_7, weapons_23_15] #DEATH RITE BIRD/DEATH RITUAL SPEAR
   - link_all: [bosses_9_8, weapons_14_17, dragon_hearts_death_roots_1_8] #TIBIA MARINER/HELPHEN'S STEEPLE GREATSWORD/DEATHROOT
-  - link_all: [bosses_9_9, legacy_1_13, weapons_28_7] #COMMANDER NIALL/CASTLE SOL/VETERAN'S PROSTHESIS FIST
-  - link_all: [bosses_9_10, evergaols_5_1, armor_477, armor_478, armor_480, armor_481, incantations_4_11] #VIKE/LORD CONTENDER'S EVERGAOL/FINGERPRINT SET (HELM, ARMOR, GAUNTLET, GREAVES)/VYKE'S DRAGONBOLT INCANTATION
+  - link_all: [bosses_9_9, caves_ld10, weapons_28_7] #COMMANDER NIALL/CASTLE SOL/VETERAN'S PROSTHESIS FIST
+  - link_all: [bosses_9_10, caves_e10, armor_477, armor_478, armor_480, armor_481, incantations_4_11] #VIKE/LORD CONTENDER'S EVERGAOL/FINGERPRINT SET (HELM, ARMOR, GAUNTLET, GREAVES)/VYKE'S DRAGONBOLT INCANTATION
   - link_all: [bosses_9_11, dragon_hearts_death_roots_0_12] #BOREALIS/DRAGON HEART
   - link_all: [bosses_9_12, weapons_17_6, armor_337] #BLOODY FINGER OKINA/RIVERS OF BLOOD KATANA, OKINA MASK
   - link_all: [bosses_9_13, caves_7_3, talismans_9_5, incantations_9_3] #GODSKIN APOSTLE & NOBLE (SPECTRAL DUO)/SPIRITCALLER'S CAVE/GODSKIN SWADDLING CLOTH TALISMAN/BLACK FLAME RITUAL INCANTATION
@@ -334,16 +333,16 @@ item_links:
   - link_all: [bosses_10_8, sorceries_12_4] #DEATH RITE BIRD/EXPLOSIVE GHOSTFLAME SORCERY
   #- link_all: [bosses_10_9, _] #BLACK KNIFE ASSASSIN/ #TODO: ADD INFO ONCE DROPS ARE LISTED ON 'BOSSES' PAGE
   - link_all: [bosses_10_12, ancient_dragon_smithing_stones_15] #ANASTASIA/SOMBER ANCIENT DRAGON SMITHING STONE
-  - link_all: [bosses_10_10, legacy_1_14, sorceries_13_1, weapons_25_15] #LORETTA/MIQUELLA'S HALIGTREE/LORETTA'S MASTERY SORCERY/LORETTA'S WAR SICKLE
-  - link_all: [bosses_10_11, legacy_1_15, great_runes_1_6, remembrances_mausoleums_1_14] #MALENIA/ELPHAEL BRACE OF THE HALIGTREE/MALENIA'S GREAT RUNE/REMEMBRANCE OF THE ROT GODDESS
+  - link_all: [bosses_10_10, caves_ld11, sorceries_13_1, weapons_25_15] #LORETTA/MIQUELLA'S HALIGTREE/LORETTA'S MASTERY SORCERY/LORETTA'S WAR SICKLE
+  - link_all: [bosses_10_11, caves_ld12, great_runes_1_6, remembrances_mausoleums_1_14] #MALENIA/ELPHAEL BRACE OF THE HALIGTREE/MALENIA'S GREAT RUNE/REMEMBRANCE OF THE ROT GODDESS
   - link_all: [bosses_11_2, ashesofwar_4_1, bell_bearings_1_4] #GODSKIN DUO/AOW BLACK FLAME TORNADO/SMITHING-STONE MINER'S BELL BEARING [4]
   - link_all: [bosses_11_3, weapons_22_15, legendaries_1_1, armor_523, armor_525, armor_526, armor_527] #RECUSANT BERNAHL/BLASPHEMOUS CLAW (TOOL)/DEVOURER'S SCEPTER GREAT HAMMER (+LEGENDARY)/BEAST CHAMPION SET #TODO: LINK BLASPHEMOUS CLAW (TOOL) AFTER TOOLS PAGE IS CREATED
   - link_all: [bosses_11_4, armor_533, armor_534, armor_535, armor_536] #DRACONIC TREE SENTINEL/MALFORMED DRAGON SET
   - link_all: [bosses_11_5, remembrances_mausoleums_1_11] #DRAGONLORD PLACIDUSAX/REMEMBRANCE OF THE DRAGONLORD
-  - link_all: [bosses_11_6, legacy_1_12, remembrances_mausoleums_1_7] #MALIKETH/CRUMBLING FARUM AZULA/REMEMBRANCE OF THE BLACK BLADE
+  - link_all: [bosses_11_6, caves_ld13, remembrances_mausoleums_1_7] #MALIKETH/CRUMBLING FARUM AZULA/REMEMBRANCE OF THE BLACK BLADE
   - link_all: [bosses_12_1, weapons_20_14, armor_486, armor_487, armor_489, armor_490] #SIR GIDEON OFNIR/SCEPTER OF THE ALL-KNOWING/ALL-KNOWING SET
   - link_all: [bosses_12_2, remembrances_mausoleums_1_6] #GODFREY (HOARAH LOUX)/REMEMBRANCE OF HOARAH LOUX
-  - link_all: [bosses_12_4, legacy_1_16, remembrances_mausoleums_1_13] #ELDEN BEAST/LEYNDELL ASHEN CAPITAL/ELDEN REMEMBRANCE
+  - link_all: [bosses_12_4, caves_ld14, remembrances_mausoleums_1_13] #ELDEN BEAST/LEYNDELL ASHEN CAPITAL/ELDEN REMEMBRANCE
   - link_all: [bosses_13_1, weapons_25_14] #DRAGONKIN SOLDIER/DRAGON HALBERD
   - link_all: [bosses_13_2, spirit_ashes_11_1] #ANCESTER SPIRIT/ANCESTRAL FOLLOWER ASHES
   - link_all: [bosses_14_1, armor_195] #MIMIC TEAR/SILVER TEAR MASK/LARVAL TEAR (X2) #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
@@ -380,7 +379,7 @@ item_links:
 
   # Walkthrough Linking - Limgrave
   - link_all: [playthrough_0, graces_0] # Walkthrough 0/The First Step
-  - link_all: [playthrough_1, quest_order_tldr_1, npc_quests_8_1] # Walkthrough 1/TLDR 1/Varré 1
+  - link_all: [playthrough_1, quest_order_tldr_1] # Walkthrough 1/TLDR 1
   - link_all: [playthrough_2, tools_4_4] # Walkthrough 2/Small Golden Effigy
   - link_all: [playthrough_3, graces_1] # Walkthrough 3/Church of Elleh
   - link_all: [playthrough_4, quest_order_tldr_2] # Walkthrough 4/TLDR 2
@@ -403,8 +402,8 @@ item_links:
   - link_all: [playthrough_21, flasks_1_5] # Walkthrough 21/Golden Seed 5
   - link_all: [playthrough_22, npc_quests_30_2, ashesofwar_1_3] # Walkthrough 22/Kenneth 2/Bloody Slash
   - source_and: [playthrough_22, playthrough_23]
-    target: [quest_order_tldr_12, legacy_1_3] 
-  - source_or: [quest_order_tldr_12, legacy_1_3]
+    target: [quest_order_tldr_12, caves_l16] 
+  - source_or: [quest_order_tldr_12, caves_l16]
     target: [playthrough_22, playthrough_23] # Walkthrough 22-23/TLDR 12/Fort Haight
   - link_all: [playthrough_24, quest_order_tldr_14, npc_quests_37_1, spirit_ashes_2_4] # Walkthrough 24/TLDR 14/Ranni 1/Lone Wolf Ashes
   - link_all: [playthrough_25, quest_order_tldr_13, gestures_1_7] # Walkthrough 25/TLDR 13/Finger Snap
