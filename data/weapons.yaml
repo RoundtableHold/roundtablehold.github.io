@@ -766,22 +766,28 @@ sections:
     items:
       - id: "24_1"
         icon: "/img/icons/weapons/greatspears/10646.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lance\">Lance</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lance\">Lance</a>", "Can be found on top of a ruin structure just southwest of the Deathtouched Catacombs.", "Normal"]
+        # TODO: add grace and weapon location 
       - id: "24_2"
         icon: "/img/icons/weapons/greatspears/10647.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Treespear\">Treespear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Treespear\">Treespear</a>", "Found on a hearse southeast from Liurnia Highway South Site of Grace.", "Normal"]
+        # TODO: add grace
       - id: "24_3"
         icon: "/img/icons/weapons/greatspears/10643.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent-Hunter\">Serpent Hunter</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent-Hunter\">Serpent Hunter</a>", "Can be found just as you enter the Rykard, Lord of Blasphemy Boss room, held by corpse.", "Somber"]
+        # TODO: add grace
       - id: "24_4"
         icon: "/img/icons/weapons/greatspears/10642.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Siluria's+Tree\">Siluria's Tree</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Siluria's+Tree\">Siluria's Tree</a>", "Dropped by Crucible Knight Siluria in the Deeprot Depths.", "Somber"]
+        # TODO: add grace
       - id: "24_5"
         icon: "/img/icons/weapons/greatspears/10645.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vyke's+War+Spear\">Vyke's War Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vyke's+War+Spear\">Vyke's War Spear</a>", "Dropped by NPC Invader Festering Fingerprint Vyke, South of the Church of Inhibition Site of Grace. ", "Somber"]
+        # TODO: add grace
       - id: "24_6"
         icon: "/img/icons/weapons/greatspears/10641.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mohgwyn's+Sacred+Spear\">Mohgwyn's Sacred Spear</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mohgwyn's+Sacred+Spear\">Mohgwyn's Sacred Spear</a>", "Can be traded for Rememberance of the Blood Lord with Enia at Roundtable Hold.", "Somber"]
+        # TODO: add grace
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
