@@ -2858,6 +2858,7 @@
 "quest_order_tldr_34",
 "quest_order_tldr_34_1",
 "quest_order_tldr_35",
+"quest_order_tldr_35_1",
 "quest_order_tldr_36",
 "quest_order_tldr_37",
 "quest_order_tldr_38",
@@ -3704,7 +3705,7 @@
 function calculateProgress() {
 const playthrough_total = 396;
 var playthrough_checked = 0;
-const quest_order_tldr_total = 272;
+const quest_order_tldr_total = 273;
 var quest_order_tldr_checked = 0;
 const npc_quests_total = 344;
 var npc_quests_checked = 0;
