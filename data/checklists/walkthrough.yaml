@@ -95,10 +95,6 @@ sections:
         data: ["Head North-West into the lake and fight the Flying Dragon Agheel, hitting it at least once, and run away."]
       - id: "35"
         data: ["Return to Yura after fighting Flying Dragon Agheel without killing it for extra dialogue."]
-      - id: "36"
-        data: ["Go back to Flying Dragon Agheel and kill him. Yura can be summoned near the Stake of Marika for extra dialogue."]
-      - id: "37"
-        data: ["Return to Yura and exhaust his dialogue."]
       - id: "38"
         data: ["Head East from Yura and grab the Agheel Lake South Grace."]
       - id: "39"
@@ -161,6 +157,10 @@ sections:
         data: ["Enter the Evergaol and summon Blaidd for dialogue then defeat the boss Bloodhound Knight Darriwil."]
       - id: "68"
         data: ["After the fight, talk to Blaidd nearby and exhaust his dialogue."]
+      - id: "36"
+        data: ["Go back to Flying Dragon Agheel and kill him. Yura can be summoned near the Stake of Marika for extra dialogue."]
+      - id: "37"
+        data: ["Return to Yura and exhaust his dialogue."]
       - id: "69"
         data: ["Limgrave is now 100% safe to explore! But be warned, if you are teleported by a chest, only grab the nearest Grace. If you grab any Grace besides the nearest one, you MAY break something. In addition, for the purposes of this guide, do not use the Bestial Sanctum Waygate yet. It's safe at this point but will change the order of steps."]
   -
@@ -242,7 +242,7 @@ sections:
       - id: "105"
         data: ["Follow the path going South-East from Rogier into the building until you hit the the room where you can see the Grafted Scion on the ground floor. Go around to the right and go through the doorway. To your left you will see the corpse of a giant hanging upside down. Hop down to the ground below the giant and grab the Chrysalids' Memento."]
       - id: "106"
-        data: ["After grabbing the Chrysalids' Memento, go out the door, turn into the door on the right and go up the lift to unlock the shortcut to Rampart Tower Grace."]
+        data: ["After grabbing the Chrysalids' Memento, go out the door, turn into the door on the left and go up the lift to unlock the shortcut to Rampart Tower Grace."]
       - id: "107"
         data: ["Return to Roderika at Stormhill Shack, give her the Chrysalids' Memento and exhaust her dialogue."]
       - id: "108"

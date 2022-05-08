@@ -41,8 +41,6 @@ sections:
         data: ["Meet Yura South of the Lake"]
       - id: "19"
         data: ["Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
-      - id: "20"
-        data: ["Kill the Flying Dragon Agheel (Summoning Yura) then back to Yura"]
       - id: "21"
         data: ["Meet Sellen under Waypoint Ruins"]
       - id: "22"
@@ -77,6 +75,10 @@ sections:
         data: ["Talk to Melina at the Castleward Tunnel Grace"]
       - id: "35"
         data: ["Defeat Bloodhound Knight Darriwil at Forlorn Hound Evergaol (Summoning Blaidd) then talk to Blaidd"]
+      - id: "20"
+        data: ["Kill the Flying Dragon Agheel (Summoning Yura) then back to Yura"]
+      - id: "35_1"
+        data: ["Limgrave is now safe to explore"]
   -
     title: "Weeping Peninsula"
     items:
@@ -304,7 +306,7 @@ sections:
       - id: "123"
         data: ["Talk to Diallos, Rya, Bernahl and Patches, grab your first task and kill Invader Ghiza upstairs"]
       - id: "124"
-        data: ["Kill the Magma Wyrm at Seethewater Terminus (Summoning Alexander) then talk to Alexander in the lava"]
+        data: ["Kill the Magma Wyrm at Seethewater Terminus then talk to Alexander in the lava"]
       - id: "125"
         data: ["Grab the Prattling Pate You're Beautiful at Hermit Village"]
       - id: "126"
