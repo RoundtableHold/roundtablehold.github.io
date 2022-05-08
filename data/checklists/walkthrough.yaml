@@ -557,27 +557,196 @@ sections:
       - id: "247"
         data: ["Caelid/Dragonburrow is now 100% safe to explore! There should be no warnings required!"]
   -
-    title: "Going Underground Part 1: Exploring the River Wells"
+    title: Underground Siofra/Liurnia Lake/Castle Redmane
     items:
-      - id: "6_1"
-        data: ["Go to Liurnia Lake and to the Ainsel River Well in the North-East, North of Carian Study Hall. Go down the lift and explore the area. Nothing notable really but this is the time to go."]
-      - id: "6_2"
-        data: ["Now go to the Siofra River Well in East Limgrave in the forest. Go down the lift and explore the area. In part 1 of the area, there isn't much. In part 2 of the area you can find Blaidd in the East section along the cliffs if you have continued Ranni's Questline. There is also a couple secrets in the area but I won't spoil it. When you're done with the area go ahead and leave. With this done, we are done with Limgrave with the exception of one optional quest step later."]
+      - id: "248"
+        data: ["Starting from the Third Church of Marika, go South and find the Siofra River Well. Go down the lift and grab the Siofra River Well Depths Grace."]
+      - id: "249"
+        data: ["Go through the area and go down the lift then grab the Siofra River Bank Grace"]
+      - id: "250"
+        data: ["Head East to the cliffs to talk to Blaidd and exhaust his dialogue."]
+      - id: "251"
+        data: ["Talk to Thops at Church of Irith, exhaust his dialogue before giving him the second Glintstone Key."]
+      - id: "252"
+        data: ["Go to the Schoolhouse Classroom Grace in Raya Lucaria and find Thops corpse just outside, around the corner."]
+      - id: "253"
+        data: ["Go to Ranni's Rise and head South to Seluvis' Rise, talk to Seluvis and exhaust his dialogue."]
+      - id: "254"
+        data: ["Leave Seluvis' Rise and go to the cliffs to the East and hop onto the rampart below. Follow the path and hop down into the building to talk to Pidia and exhaust his dialogue."]
+      - id: "255"
+        data: ["Go to Waypoint Ruins, talk to Sellen and exhaust her dialogue."]
+      - id: "256"
+        data: ["Return to Blaidd in Siofra River Well and exhaust his dialogue."]
+      - id: "257"
+        data: ["Head North to the ruins and climb the staircase onto the wooden platform. Follow this platform to the North-West and find the Nomadic Merchant. Purchase the Nomadic Warriors Cookbook 17 from him."]
+      - id: "258"
+        data: ["Go to the Impassable Greatbridge Grace and use the nearby Waypoint to enter Castle Redmane. Proceed through to grab the Chamber Outside the Plaza Grace."]
+      - id: "259"
+        data: ["Go into the plaza and talk to Therolina for an emote."]
+      - id: "260"
+        data: ["Talk to Alexander and Blaidd and exhaust their dialogue."]
+      - id: "261"
+        data: ["Talk to Jerren to unlock Radahn's boss fight."]
+      - id: "262"
+        data: ["Go through the church and down the lift to the Waygate that will lead to Radahn then kill Starscourge Radahn (Summoning as many as possible)"]
+      - id: "263"
+        data: ["Grab the Starscourge Radahn Grace"]
+      - id: "264"
+        data: ["Talk to Blaidd and exhaust his dialogue"]
+      - id: "265"
+        data: ["Talk to Alexander and exhaust his dialogue"]
+      - id: "266"
+        data: ["Go back to the Chamber Outside the Plaza Grace then go back to the church in the plaza to talk to Jerren and exhaust his dialogue."]
   -
-    title: Castle Redmane
+    title: Liurnia Lake/Roundtable
     items:
-      - id: "7_1"
-        data: ["If you've been following Ranni's Questline, now is the time to go to Castle Redmane in the South-East section of Caelid. If you haven't then you may have to wait until you've taken the lift up to Altus Plateau if the area isn't ready yet."]
-      - id: "7_2"
-        data: ["The way you'll know if the area is ready is that at the bridge near the castle you will find 2 Waygates, one on either side of the bridge. If you can use them, you can do the fight. Otherwise go to the next section and come back after."]
-      - id: "7_3"
-        data: ["So use one of the Waygates at the bridge then go up the stairs to the boss fight. After the boss fight, you can now explore the boss area and also the castle without fear of messing anything up."]
-      - id: "7_4"
-        data: ["Go back to the church where the announcement was made to talk to Jerren. If you rest at the Grace and come back, there is a boss battle in that area."]
-      - id: "7_5"
-        data: ["With the boss fight finished and everything explored, go ahead and leave Caelid, we won't be coming back except for an optional quest involving the seal in the illusory cave past Sellia."]
-      - id: "7_6"
-        data: ["As usual, Roundtable Hold for dialogue and quests."]
+      - id: "267"
+        data: ["Go to Enia in Roundtable Hold and purchase a piece of Radahn's Armor from her."]
+      - id: "268"
+        data: ["Start at the Liurnia Highway North Grace and then follow the road North to find Alexander again. Craft an Oil Pot using the Nomadic Warriors Cookbook 17. Toss the Oil Pot at him to free him then exhaust his dialogue."]
+      - id: "269"
+        data: ["Go to the Main Academy Gate Grace the use the Seal to the North-East to grab the East Raya Lucaria Gate Grace."]
+      - id: "270"
+        data: ["Talk to Boc, give him the Gold Sewing Needle and exhaust his dialogue."]
+      - id: "271"
+        data: ["Rest at the Grace, talk to Melina and exhaust her dialogue."]
+      - id: "272"
+        data: ["Talk to the Finger Reader and exhaust her dialogue."]
+      - id: "273"
+        data: ["Go North-East, into the Grand Lift of Dectus and grab the Grand Lift of Dectus Grace."]
+      - id: "274"
+        data: ["Rest at the Grace, talk to Melina and exhaust her dialogue."]
+      - id: "275"
+        data: ["Go South from the Grand Lift of Dectus and around the cliffs. BEWARE THE EYE OF SAURON! You can choose to go to the tower where the eye is and kill the enemies at the top to destroy the eye, or FLY YOU FOOL! to the South, through the Frenzied Flame Village and up the slope going North to kill the Invader, Festering Fingerprint Vyke for the Fingerprint Grape."]
+      - id: "276"
+        data: ["Grab the nearby Church of Inhibition Grace."]
+      - id: "277"
+        data: ["Go back to the East Raya Lucaria Gate Grace and head North to grab the Bellum Church Grace."]
+      - id: "278"
+        data: ["Talk to Hyetta nearby to give her the Fingerprint Grape and exhaust her dialogue"]
+      - id: "279"
+        data: ["Go down the slope going North/North-East and follow the river to grab the Golden Seed at the end."]
+      - id: "280"
+        data: ["Grab the Ravine-Veiled Village Grace nearby."]
+      - id: "281"
+        data: ["Climb the ladder and go through the cave to the lift. Continue going from the top of the lift until you make it outside to grab the Ruin-Strewn Precipice Grace."]
+      - id: "282"
+        data: ["Go up the nearby lift, up the ladder, up the next ladder, and up one more ladder. Then go up the lift to reach the Ruin-Strewn Precipice Overlook Grace."]
+      - id: "283"
+        data: ["Continue forward to the boss room and kill Magma Wyrm Makar (Summoning Great Horned Tragoth, and either Millicent or Blackguard Big Boggart)"]
+      - id: "284"
+        data: ["Grab the Magma Wyrm Makar Grace"]
+  -
+    title: Altus Plateau/Mt. Gelmir
+    items:
+      - id: "285"
+        data: ["Go up the lift and grab the Abandoned Coffin Grace"]
+      - id: "286"
+        data: ["Head North-East to fight or run past Ancient Dragon Lansseax and grab the Erdtree-Gazing Hill Grace."]
+      - id: "287"
+        data: ["Talk to Millicent nearby"]
+      - id: "288"
+        data: ["Go North up the slope to kill the Tibia Mariner at Wyndham Ruins for the Fifth Deathroot"]
+      - id: "289"
+        data: ["Go down the slope East of the Erdtree-Gazing Hill Grace then head North. Hug the cliffs to the right and look for a Spiritjump then use it. Use the next one then go across the bridge to grab the Bridge of Iniquity Grace."]
+      - id: "290"
+        data: ["Continue North-West go past all the Iron Virgins to the end of the path. Kill the Invader Anastasia, Tarnished-Eater at the Corpse-Stench Shack."]
+      - id: "291"
+        data: ["Turn back around and hug the cliffs to the South on your way back until you find a ladder. Climb it to grab the First Mt. Gelmir Campsite Grace."]
+      - id: "292"
+        data: ["Follow the path West until you find a glowing message on the ground telling you to follow the rainbow stones. Follow the stones leading South and look over the edge near the last one to see your good friend Patches again."]
+      - id: "293"
+        data: ["Follow the path going West to grab the Seethewater Terminus Grace"]
+      - id: "294"
+        data: ["Go South-West and kill the Magma Wyrm."]
+      - id: "295"
+        data: ["Talk to Alexander who is soaking himself in the lava near the cliffside and exhaust his dialogue."]
+      - id: "296"
+        data: ["Continue going South-East then East to grab the Craftsman's Shack Grace."]
+      - id: "297"
+        data: ["Continue East and look to the houses on the left to grab Prattling Pate \"You're Beautiful\""]
+      - id: "298"
+        data: ["Keep going and fight or run past Demi-Human Queen Maggie to grab the Primeval Sorcerer Azur Grace"]
+      - id: "299"
+        data: ["Talk to Primeval Sorcerer Azur nearby to get the Comet Azur Legendary Sorcery."]
+      - id: "300"
+        data: ["Use the rock bridge nearby to reach and grab the Gelmir Hero's Grave Grace."]
+      - id: "301"
+        data: ["Like all the Hero's Graves, the cave is a combat puzzle. The TL;DR is beat the Grave for the Sixth Deathroot, but I'll try to explain how to get through it with the steps below."]
+      - id: "302"
+        data: ["Start going down the slope, using the opening on either side to dodge the chariots when they come by. For the First Chariot, you will enter a doorway on the left to continue on."]
+      - id: "303"
+        data: ["Once you have escaped the First Chariot, go past the enemies and past the Imp Statue Fire Trap. You can hit the trap to turn it off."]
+      - id: "304"
+        data: ["Go down the next slope, avoiding the Second Chariot with the openings until you reach the bridge. Fall off the bridge on either side, hugging the edge, to fall onto the ledge below."]
+      - id: "305"
+        data: ["Go through the doorway the ledge leads you to find a Bloodhound Knight and a ladder. Climb the ladder to find a window, hop out the window onto the wooden rafters and make your way to the center of of it."]
+      - id: "306"
+        data: ["Wait at the center of the rafters for the Second Chariot to slow down just below you then hop onto the open seat on top of it. If you miss, you can easily use the ledge nearby again."]
+      - id: "307"
+        data: ["Ride it down to the bottom then wait for it to turn around and start going back up to hop off behind and go up the ladder and open the door nearby."]
+      - id: "308"
+        data: ["Go down the stairs and into the boss room to fight and kill the Red Wolf of the Champion to get the Sixth Deathroot."]
+      - id: "309"
+        data: ["Go back to the Erdtree-Gazing Hill and talk to Rya nearby to enter Volcano Manor"]
+      - id: "310"
+        data: ["Grab the Volcano Manor Grace"]
+      - id: "311"
+        data: ["Talk to Tanith and join the Manor"]
+      - id: "312"
+        data: ["Open the doors in the hallway to talk to Rya and exhaust her dialogue"]
+      - id: "313"
+        data: ["Talk to Bernahl and exhaust his dialogue"]
+      - id: "314"
+        data: ["Grab the Letter from Volcano Manor from the table nearby"]
+      - id: "315"
+        data: ["Talk to Diallos and exhaust his dialogue"]
+      - id: "316"
+        data: ["Talk to Tanith again and exhaust her dialogue."]
+      - id: "317"
+        data: ["Go upstairs and kill the Invader Inquisitor Ghiza"]
+      - id: "318"
+        data: ["Go back down an rest at the Grace then talk to Patches on the way outside and exhaust his dialogue."]
+  -
+    title: Sellen Part 1/Volcano Manor Quests Part 1
+    items:
+      - id: "319"
+        data: ["Go to the Warmaster's Shack Grace in Limgrave and head North to invade and kill Old Knight Istvan at location indicated by the Letter from Volcano Manor"]
+      - id: "320"
+        data: ["Go back to the Waypoint Ruins and talk to Sellen and exhaust her dialogue for the Sellian Sealbreaker"]
+      - id: "321"
+        data: ["Go to the Church of the Plague Grace and head North-East to find a very large tombstone. Attack or roll into the cliff wall behind the tombstone to grab the Sellia Hideaway Grace."]
+      - id: "322"
+        data: ["Make your way down to the bottom and open the seal to talk to Master Lusat and acquire the Stars of Ruin Legendary Sorcery"]
+      - id: "323"
+        data: ["Go just West of the entrance to Sellia Hideaway and use the Spiritjump to grab the Fort Faroth Grace. Head inside Fort Faroth and climb the ladder to grab the Grand Lift of Dectus Medallion(Right)"]
+      - id: "324"
+        data: ["Return to Sellen in Waypoint Ruins and exhaust her dialogue."]
+      - id: "325"
+        data: ["Go to the Church of Pilgrimage Grace in Weeping Peninsula and go South-West to grab the Fourth Church of Marika Grace."]
+      - id: "326"
+        data: ["Go just South of the Fourth Church of Marika and enter the Witchbane Ruins to talk to Sellen and receive Sellen's Primal Glintstone."]
+      - id: "327"
+        data: ["Reload the area to talk to Jerren and exhaust his dialogue."]
+      - id: "328"
+        data: ["Return to Volcano Manor and talk to Tanith and exhaust her dialogue."]
+      - id: "329"
+        data: ["Talk to Patches for the Letter to Patches and exhaust his dialogue."]
+      - id: "330"
+        data: ["Talk to Rya and exhaust her dialogue."]
+      - id: "331"
+        data: ["Talk to Bernahl and exhaust his dialogue."]
+      - id: "332"
+        data: ["Grab the second Letter from Volcano Manor on the table"]
+      - id: "333"
+        data: ["Talk to Diallos and exhaust his dialogue."]
+      - id: "334"
+        data: ["Talk to the ghost and exhaust his dialogue."]
+      - id: "335"
+        data: ["Return to the Magma Wyrm Makar Grace to invade and kill Great Horned Tragoth at the location indicated by the Letter to Patches."]
+      - id: "336"
+        data: ["Return to the Bridge of Iniquity Grace and cross the bridge East then use the Spiritjump to the South to jump down the cliff. Use the next Spiritjump to the West to get down to the bottom and head North to invade and kill Rileigh the Idle at the location indicated by the Letter from Volcano Manor."]
+
   -
     title: "Underground Part 2: Into the Crater"
     items:
@@ -601,53 +770,6 @@ sections:
         data: ["Go back to Roundtable Hold and talk to everyone if you want dialogue and quest stuff."]
       - id: "8_10"
         data: ["Here you have a choice and I recommend eventually doing all of them."]
-  -
-    title: "Choice 1: The Grand Lift of Dectus"
-    items:
-      - id: "9_1"
-        data: ["Go to the Grand Lift of Dectus in the far North of Liurnia Lake. When you get to the big circle in front of the 2 statues, you will have a prompt to use the medallion and the lift will activate."]
-      - id: "9_2"
-        data: ["At the top of the lift is Altus Plateau. Explore this area to your hearts content but don't enter Leyndell just yet. Everywhere else and everything else should be fine."]
-      - id: "9_3"
-        data: ["The Shaded Castle in the North where an item needed for Millicent's Questline is found."]
-      - id: "9_4"
-        data: ["On the road going North from the crossroads is Brother Corhyn(you may need to go back and talk to him in Roundtable Hold first)."]
-      - id: "9_5"
-        data: ["On the North side of the broken bridge in the North is Goldmask."]
-      - id: "9_6"
-        data: ["In the West standing next to the Erdtree Gazing Hill Grace is Millicent, she also appears at the Windmill Heights North of the broken bridge."]
-      - id: "9_7"
-        data: ["In the Centerish part of the area is the Second Church of Marika where you can finish Yura's Questline."]
-      - id: "9_8"
-        data: ["Once you've explored the area completely, you can technically continue to Leyndell but I think the game intends you to do the other choices/go into the crater first."]
-  -
-    title: "Choice 2: Taking the Coward's Path"
-    items:
-      - id: "10_1"
-        data: ["In North section of Liurnia Lake is a river in a ravine. Go up the river to the end to find a ladder going up to Ruin-Strewn Precipice. Continue the path up to make it through the Coward's Path and get to Mt. Gelmir."]
-      - id: "10_2"
-        data: ["Explore the area to your heart's content"]
-      - id: "10_3"
-        data: ["Going around the North-East and going all the way West and just basically around the Mountain you will eventually come to the Craftsman's Shack. Past it is the Hermit's Shack. Past that is the Hermit's Village. Past that is a man with a crystal face that gives you the spell Kamehameha. Remember, it takes 50 years to learn this technique."]
-      - id: "10_4"
-        data: ["After talking to this man, you can go to Sorceress Sellen and continue her questline. She will give you the key to the seal in that illusory cave in Caelid."]
-      - id: "10_5"
-        data: ["If you helped Rya, she will be around the Lux Ruins to take you to Volcano Manor."]
-      - id: "10_6"
-        data: ["You can also find Alexander in this area in the lava just past the Magma Wyrm. However in order to get him to appear you must go back to Liurnia Lake and, just South of it at the top of the cliff, there is Alexander, stuck. Throw an Oil Pot at him to free him and he will appear here."]
-      - id: "10_7"
-        data: ["Eventually you will reach the Volcano Manor and can explore it. It's fine to explore this whole area but DO NOT kill the final boss of the area if you want to do the Volcano Manor questline. You can't do this by mistake because the boss has 2 phases. If you beat a boss here and he goes into Phase 2, leave if you plan to do the Volcano Manor Questline."]
-      - id: "10_8"
-        data: ["After this, you can enter Altus Plateau from this area if you didn't already. You also have one more option."]
-  -
-    title: "Choice 3: The Iron Virgin"
-    items:
-      - id: "11_1"
-        data: ["Below Raya Lucaria, taking the rotating elevator outside the Student Classroom and heading down, you can find an Iron Virgin. Let it eat you and you need to die while being eaten by it to be teleported by it."]
-      - id: "11_2"
-        data: ["This will take you to Mt. Gelmir to a path you can't easily reach any other way. Continue through this path to the end to reach Mt. Gelmir."]
-      - id: "11_3"
-        data: ["For more information on this area, see Choice 2"]
   -
     title: "Underground Part 3: Into the Coffin and Following Ranni"
     items:
