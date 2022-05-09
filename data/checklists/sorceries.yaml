@@ -1,0 +1,257 @@
+title: Sorceries
+id: sorceries
+sections:
+  -
+    title: "Limgrave"
+    items:
+      - id: "1_3"
+        icon: "/img/icons/sorceries/06009.png"
+        data: ["Crystal Barrage - Sold by Sorceress Sellen (under the Waypoint Ruins, East of the lake)."]
+      - id: "1_4"
+        icon: "/img/icons/sorceries/06014.png"
+        data: ["Glintstone Arc - Sold by Sorceress Sellen"]
+      - id: "1_5"
+        icon: "/img/icons/sorceries/06000.png"
+        data: ["Glintstone Pebble - Sold by Sorceress Sellen"]
+      - id: "1_6"
+        icon: "/img/icons/sorceries/06010.png"
+        data: ["Glintstone Stars - Sold by Sorceress Sellen"]
+      - id: "1_7"
+        icon: "/img/icons/sorceries/06100.png"
+        data: ["Scholar's Armament - Sold by Sorceress Sellen"]
+      - id: "1_8"
+        icon: "/img/icons/sorceries/06101.png"
+        data: ["Scholar's Shield - Sold by Sorceress Sellen"]
+      - id: "1_9"
+        icon: "/img/icons/sorceries/06051.png"
+        data: ["Carian Slicer - Unlocked by Royal House Scroll (located on the ruin next to a mage, East of the Agheel Lake South Grace in South-East Limgrave)"]
+      - id: "1_10"
+        icon: "/img/icons/sorceries/06005.png"
+        data: ["Glintblade Phalanx - Unlocked by Royal House Scroll"]
+  -
+    title: "Weeping Peninsula"
+    items:
+      - id: "2_1"
+        icon: "/img/icons/sorceries/06036.png"
+        data: ["Ambush Shard - Found under the Witchbane Ruins in North-West Weeping Peninsula"]
+      - id: "2_2"
+        icon: "/img/icons/sorceries/06006.png"
+        data: ["Crystal Burst - Kill the Demi-Human Queen in the Demi-Human Forest Ruins in the forest in the Center of Weeping Peninsula."]
+  -
+    title: "Stormveil"
+    items:
+      - id: "3_1"
+        icon: "/img/icons/sorceries/06048.png"
+        data: ["Rancorcall - From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a scarab with the spell."]
+  -
+    title: "Liurnia Lake Part 1"
+    items:
+      - id: "4_1"
+        icon: "/img/icons/sorceries/06102.png"
+        data: ["Starlight - Sold by Thops in the Church of Irith near the Lake-Facing Cliffs Grace"]
+      - id: "4_18"
+        icon: "/img/icons/sorceries/06015.png"
+        data: ["Great Glintstone Shard - Unlocked by Academy Scroll (found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake)."]
+      - id: "4_19"
+        icon: "/img/icons/sorceries/06001.png"
+        data: ["Swift Glintstone Shard - Unlocked by Academy Scroll"]
+      - id: "4_20"
+        icon: "/img/icons/sorceries/06050.png"
+        data: ["Carian Greatsword - Sold by Miriel, Pastor of Vows at the Church of Vows in East Liurnia Lake."]
+      - id: "4_21"
+        icon: "/img/icons/sorceries/06027.png"
+        data: ["Magic Glintblade - Sold by Miriel, Pastor of Vows"]
+      - id: "4_4"
+        icon: "/img/icons/sorceries/06049.png"
+        data: ["Ancient Death Rancor - Kill the Death Rite Bird next to the Gate Town North Grace, East of Raya Lucaria Academy, at Night."]
+      - id: "4_5"
+        icon: "/img/icons/sorceries/06046.png"
+        data: ["Briars of Sin - North-West of the Artist's Shack, East of Academy Gate Town, there is a camp of fire guys. Outside the camp is lone enemy surrounded by fire slugs. Kill the lone enemy for the spell."]
+      - id: "4_6"
+        icon: "/img/icons/sorceries/06024.png"
+        data: ["Greatblade Phalanx - Kill the boss of Cuckoo's Evergaol in West Liurnia Lake."]
+      - id: "4_7"
+        icon: "/img/icons/sorceries/06011.png"
+        data: ["Magic Downpour - Kill Preceptor Miriam in Carian Study Hall without using the Carian Inverted Statue on the altar."]
+      - id: "4_8"
+        icon: "/img/icons/sorceries/06070.png"
+        data: ["Meteorite - Kill Boss of the Royal Grave Evergaol in North Liurnia Lake"]
+      - id: "4_9"
+        icon: "/img/icons/sorceries/06019.png"
+        data: ["Shatter Earth - In Raya Lucaria Crystal Tunnel near the end."]
+      - id: "4_22"
+        icon: "/img/icons/sorceries/06034.png"
+        data: ["Crystal Release - Kill the boss of Academy Crystal Cave"]
+      - id: "4_23"
+        icon: "/img/icons/sorceries/06103.png"
+        data: ["Terra Magica - Take the lift behind the boss room of Academy Crystal Cave and open the chest"]
+      - id: "4_11"
+        icon: "/img/icons/sorceries/06052.png"
+        data: ["Carian Piercer - Dropped by a scarab in Caria Manor. The beetle is found near the entrance to the manor on the East side."]
+      - id: "4_12"
+        icon: "/img/icons/sorceries/06013.png"
+        data: ["Loretta's Greatbow - Kill the boss of Caria Manor"]
+      - id: "4_13"
+        icon: "/img/icons/sorceries/06507.png"
+        data: ["Frozen Armament - Dropped by the scarab north of Caria Manor. Can only be accessed after finished Caria Manor."]
+      - id: "4_24"
+        icon: "/img/icons/sorceries/06023.png"
+        data: ["Carian Phalanx - Sold by Seluvis (you must give someone the potion or dispose of it with Gideon before he opens his shop"]
+      - id: "4_25"
+        icon: "/img/icons/sorceries/06040.png"
+        data: ["Carian Retaliation - Sold by Seluvis"]
+      - id: "4_26"
+        icon: "/img/icons/sorceries/06030.png"
+        data: ["Freezing Mist - Sold by Seluvis"]
+      - id: "4_27"
+        icon: "/img/icons/sorceries/06028.png"
+        data: ["Glintstone Icecrag - Sold by Seluvis"]
+      - id: "4_28"
+        icon: "/img/icons/sorceries/06017.png"
+        data: ["Cannon of Haima - Chest at the top of the Converted Fringe Tower in North-East Liurnia Lake. To get to the tower, you have to go past the Frenzied Flame Village North-East of the Bellum Church, North of the East Raya Lucaria Gate. Once at the Tower, you have to solve a puzzle. For this you must get any Glintstone Crown and use the Erudition emote. Once you have both items, wear the crown and use the emote while standing on the message in the Converted Fringe Tower."]
+      -
+        - id: "4_28_0"
+          data: ["The emote is gotten from Thops by giving him the secondary Glintstone Key found in on the chandelier at the top of the Church of Cuckoo in Raya Lucaria. Requires taking the rooftops outside the Debate Parlor and to the right."]
+        - id: "4_28_1"
+          data: ["A Glintstone Crown can be found near the key. While on balcony just before the key, find the crab and kill it."]
+      - id: "4_29"
+        icon: "/img/icons/sorceries/06020.png"
+        data: ["Gavel of Haima - In the same chest as Cannon of Haima"]
+      - id: "4_16"
+        icon: "/img/icons/sorceries/06039.png"
+        data: ["Thops's Barrier - After giving Thops the second Glintstone Key, you can find it on his body outside the room of the Schoolhouse Classroom Grace in Raya Lucaria."]
+      - id: "4_17"
+        icon: "/img/icons/sorceries/06004.png"
+        data: ["Shard Spiral - Purchased from Sellen after her quest if you sided with her."]
+  -
+    title: "Liurnia Lake Part 2: After Ranni's Questline"
+    items:
+      - id: "5_1"
+        icon: "/img/icons/sorceries/06031.png"
+        data: ["Adula's Moonblade - Kill Glintstone Dragon Adula in the area accessed after Ranni's Questline."]
+      - id: "5_2"
+        icon: "/img/icons/sorceries/06032.png"
+        data: ["Lucidity - Kill Preceptor Miriam in Carian Study Hall after using the Carian Inverted Statue gotten from Ranni's Questline on the altar."]
+      - id: "5_3"
+        icon: "/img/icons/sorceries/06025.png"
+        data: ["Ranni's Dark Moon - After finishing Ranni's Questline, go to the area where the questline ends at South Liurnia Lake. In the South-West corner of this area is Chelona's Rise. Solve the puzzle by killing the 3 giant turtles found on the side of the cliff nearby, below the cliffs in the East, and in the air above the Spiritjump to the North. At the top of the tower is the spell."]
+  -
+    title: "Raya Lucaria"
+    items:
+      - id: "6_1"
+        icon: "/img/icons/sorceries/06043.png"
+        data: ["Gravity Well - Just past the rotating elevator in Raya Lucaria, next to the Schoolhouse Grace. So the quick/tricky method is from the Grace, time jumping down to the rising elevator then hop down to the path below. If you can't do this, then come from the Church of the Cuckoo Grace and run past all the enemies. Past the elevator is a bunch of graves where an enemy will spawn. Kill it for the spell."]
+      - id: "6_6"
+        icon: "/img/icons/sorceries/06002.png"
+        data: ["Glintstone Cometshard - Unlocked by Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside."]
+      - id: "6_7"
+        icon: "/img/icons/sorceries/06016.png"
+        data: ["Star Shower - Unlocked by Conspectus Scroll"]
+      - id: "6_3"
+        icon: "/img/icons/sorceries/06003.png"
+        data: ["Comet - In Raya Lucaria. From the Debate Parlor Grace, go back to the area before the boss room. Roll into the bookshelf with no books to find an Illusory Wall where the spell can be found."]
+      - id: "6_4"
+        icon: "/img/icons/sorceries/06033.png"
+        data: ["Shattering Crystal - From the Debate Parlor Grace in Raya Lucaria, go outside and turn right. Hop down then climb the ladder to get to the roof. Make your way to the Church of the Cuckoo on the North-West side and it will there."]
+      - id: "6_5"
+        icon: "/img/icons/sorceries/06007.png"
+        data: ["Rennala's Full Moon - Gotten from Rennala's Remembrance which is obtained by killing the boss of Raya Lucaria."]
+  -
+    title: "Siofra River Well Underground"
+    items:
+      - id: "7_1"
+        icon: "/img/icons/sorceries/06607.png"
+        data: ["Oracle Bubbles - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the scarab is. Kill the beetle for the spell"]
+      - id: "7_2"
+        icon: "/img/icons/sorceries/06608.png"
+        data: ["Great Oracular Bubble - Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a scarab. Beat it to death for putting you through all that for the spell."]
+  -
+    title: "Caelid"
+    items:
+      - id: "8_1"
+        icon: "/img/icons/sorceries/06071.png"
+        data: ["Rock Sling - Under the North section of Street of Sages Ruins in the West part of the swamp."]
+      - id: "8_2"
+        icon: "/img/icons/sorceries/06018.png"
+        data: ["Rock Blaster - In a chest in the upper level of Sellia Crystal Tunnel located North of the swamp. Easily gotten to from the teleport chest under the ruins in the South part of the lake in Limgrave."]
+      - id: "8_3"
+        icon: "/img/icons/sorceries/06038.png"
+        data: ["Night Comet - One of the chests in Sellia that are available after unlocking the seals by lighting the towers."]
+      - id: "8_4"
+        icon: "/img/icons/sorceries/06035.png"
+        data: ["Crystal Torrent - Kill the Boss of Sellia Hideaway. To find the hideaway, go to Sellia in the North-East part of the swamp. Go past the seals by lighting the fires at the tops of the towers. Go up the path to the Church of Plague. Go North of the Church to find the mage enemy and a giant gravestone. Roll into the cliff behind the Grave to break the Illusion and find the Hideaway."]
+      - id: "8_5"
+        icon: "/img/icons/sorceries/06041.png"
+        data: ["Eternal Darkness - Go South from the Church of the Plague(explained just above) and cross the top of the gate nearby then go into the Swamp Lookout Tower to find the spell."]
+      - id: "8_9"
+        icon: "/img/icons/sorceries/06253.png"
+        data: ["Night Maiden's Mist - Sold by Gowry in Gowry's Shack south of Sellia after finishing his request."]
+      - id: "8_10"
+        icon: "/img/icons/sorceries/06037.png"
+        data: ["Night Shard - Sold by Gowry"]
+      - id: "8_7"
+        icon: "/img/icons/sorceries/06044.png"
+        data: ["Collapsing Stars - In a chest in the War-Dead Catacombs. The catacombs can be accessed after killing Radahn and are located in the North-East corner of his boss arena. The chest is on the lower levels, below all the fighting enemies."]
+      - id: "8_8"
+        icon: "/img/icons/sorceries/06022.png"
+        data: ["Stars of Ruin - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery."]
+  -
+    title: "Mt. Gelmir"
+    items:
+      - id: "9_1"
+        icon: "/img/icons/sorceries/06205.png"
+        data: ["Magma Shot - Reward from Volcano Manor's first request."]
+      - id: "9_2"
+        icon: "/img/icons/sorceries/06099.png"
+        data: ["Tibia's Summons - After killing the boss of the \"Coward's Path\" aka Ruin-Strewn Precipice, take the path going North and get to the Wyndham Ruins. Kill the Tibia Mariner for the spell."]
+      - id: "9_3"
+        icon: "/img/icons/sorceries/06213.png"
+        data: ["Roiling Magma - In the Hermit's Shack South of Volcano Manor. Requires going around the North side of the zone to reach South of the Manor."]
+      - id: "9_4"
+        icon: "/img/icons/sorceries/06012.png"
+        data: ["Comet Azur - Found on the Primeval Sorcery Azur located just North of Hermit Village, South-East of Volcano Manor. He will be lying on the ground and has a crystal head. Talk to him for the Sorcery. Note: This Sorcery is needed for Sorceress Sellen's Questline."]
+      - id: "9_5"
+        icon: "/img/icons/sorceries/06212.png"
+        data: ["Gelmir's Fury - Reward for helping Recusant Bernahl with his task in Volcano Manor. Requires being part of Volcano Manor, finishing at least one Volcano Manor request, and you cannot of killed Rykard or gotten to Crumbling Farum Azula yet."]
+      - id: "9_6"
+        icon: "/img/icons/sorceries/06045.png"
+        data: ["Rykard's Rancor - Gotten from Rykard's Remembrance obtained after killing the Boss of Volcano Manor."]
+  -
+    title: "Altus Plateau"
+    items:
+      - id: "10_2"
+        icon: "/img/icons/sorceries/06702.png"
+        data: ["Unseen Blade - At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock. The chest is at the top of the tower that appears."]
+      - id: "10_3"
+        icon: "/img/icons/sorceries/06704.png"
+        data: ["Unseen Form - In the same chest as Unseen Blade"]
+  -
+    title: "Deeproot Depths"
+    items:
+      - id: "11_1"
+        icon: "/img/icons/sorceries/06054.png"
+        data: ["Fia's Mist - Defeat the Boss located past the Across the Roots Grace. You can reach the Grace by going up the roots leading over the buildings."]
+  -
+    title: "Mountaintops of the Giants"
+    items:
+      - id: "12_1"
+        icon: "/img/icons/sorceries/06029.png"
+        data: ["Zamor Ice Storms - South part of Zamor Ruins."]
+      - id: "12_2"
+        icon: "/img/icons/sorceries/06047.png"
+        data: ["Briars of Punishment - On the path North from the Zamor Ruins. Next to the fire guys."]
+      - id: "12_3"
+        icon: "/img/icons/sorceries/06021.png"
+        data: ["Founding Rain of Stars - Freezing Lake Grace in the North-East. Go up the slope to the North and find the broken bridge on the Southern side of the cliff. The bridge is actually just invisible. Cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into Heretical Rise. Inside you will find the spell."]
+      - id: "12_4"
+        icon: "/img/icons/sorceries/06053.png"
+        data: ["Explosive Ghostflame - Kill the Death Rite Bird, South-East of the Apostate Derelict in the North-West section of the Consecrated Snowfield, at Night. Requires the Haligtree Medallion."]
+      - id: "12_5"
+        icon: "/img/icons/sorceries/06042.png"
+        data: ["Meteorite of Astel - Kill the Boss of Yelough Anix Tunnel in West Consecrated Snowfield. Requires Haligtree Medallion."]
+  -
+    title: "Miquella's Haligtree"
+    items:
+      - id: "13_1"
+        icon: "/img/icons/sorceries/06026.png"
+        data: ["Loretta's Mastery - Kill the first Boss of the Haligtree. Requires Haligtree Medallion."]

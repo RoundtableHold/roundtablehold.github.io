@@ -16,6 +16,7 @@
         spinner.removeClass('d-none');
         $.getJSON('/search_index.json', function(json_index) {
             var idx = lunr(function () {
+                this.b(1);
                 this.ref('id');
                 this.field('text');
                 this.metadataWhitelist = ['text']
@@ -30,6 +31,11 @@
                 return acc
             }, {});
 
+            var s = query.split(' ');
+            for (var i = 0; i < s.length; i++) {
+                s[i] = '+' + s[i];
+            }
+            query = s.join(' ');
             var results = idx.search(query);
             var m = new Set(results.map(x => x.ref))
             all_as.filter((idx, el) => {

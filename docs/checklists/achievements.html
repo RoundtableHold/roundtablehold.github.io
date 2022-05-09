@@ -19,26 +19,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none sticky-top" id="top_nav">
       <div class="container-fluid">
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <div class="order-md-last d-none d-md-block">
-          <form class="d-flex">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="d-md-none">
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
           <a class="nav-link me-0" href="/search.html">
             <i class="bi bi-search sb-icon-search"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Guides
@@ -71,13 +69,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                </li>
-                <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -99,10 +94,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -245,6 +240,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -269,13 +269,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_1" id="item_1_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_1&amp;id=achievements_1_1&amp;link=/checklists/achievements.html%23item_1_1&amp;title=Shardbearer Godrick">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_godrick.png" height="70" loading="lazy" width="70">Shardbearer Godrick
+                            <img class="me-1" data-src="/img/achievements/shardbearer_godrick.png" height="70" loading="lazy">Shardbearer Godrick
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -288,7 +293,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_1">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_godrick.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_godrick.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Godrick<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Godrick<br>
                         <strong class="me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.<br>
@@ -299,13 +304,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_2" id="item_1_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_2&amp;id=achievements_1_2&amp;link=/checklists/achievements.html%23item_1_2&amp;title=Shardbearer Radahn">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_radahn.png" height="70" loading="lazy" width="70">Shardbearer Radahn
+                            <img class="me-1" data-src="/img/achievements/shardbearer_radahn.png" height="70" loading="lazy">Shardbearer Radahn
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -318,7 +328,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_2">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_radahn.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_radahn.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Radahn<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Radahn<br>
                         <strong class="me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.<br>
@@ -329,13 +339,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_3" id="item_1_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_3&amp;id=achievements_1_3&amp;link=/checklists/achievements.html%23item_1_3&amp;title=Shardbearer Morgott">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_morgott.png" height="70" loading="lazy" width="70">Shardbearer Morgott
+                            <img class="me-1" data-src="/img/achievements/shardbearer_morgott.png" height="70" loading="lazy">Shardbearer Morgott
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -348,7 +363,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_3">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_morgott.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_morgott.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Morgott<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Morgott<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -359,13 +374,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_4" id="item_1_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_4&amp;id=achievements_1_4&amp;link=/checklists/achievements.html%23item_1_4&amp;title=Shardbearer Rykard">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_rykard.png" height="70" loading="lazy" width="70">Shardbearer Rykard
+                            <img class="me-1" data-src="/img/achievements/shardbearer_rykard.png" height="70" loading="lazy">Shardbearer Rykard
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -378,7 +398,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_4">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_rykard.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_rykard.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Rykard<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Rykard<br>
                         <strong class="me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.<br>
@@ -389,13 +409,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_5" id="item_1_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_5&amp;id=achievements_1_5&amp;link=/checklists/achievements.html%23item_1_5&amp;title=Shardbearer Mohg">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_mohg.png" height="70" loading="lazy" width="70">Shardbearer Mohg
+                            <img class="me-1" data-src="/img/achievements/shardbearer_mohg.png" height="70" loading="lazy">Shardbearer Mohg
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -408,7 +433,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_5">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_mohg.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_mohg.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Mohg<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Mohg<br>
                         <strong class="me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.<br>
@@ -419,13 +444,18 @@
                 <li class="list-group-item searchable" data-id="achievements_1_6" id="item_1_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_1_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="achievements_1_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_1_6&amp;id=achievements_1_6&amp;link=/checklists/achievements.html%23item_1_6&amp;title=Shardbearer Malenia">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
-                            <img class="me-1" data-src="/img/achievements/shardbearer_malenia.png" height="70" loading="lazy" width="70">Shardbearer Malenia
+                            <img class="me-1" data-src="/img/achievements/shardbearer_malenia.png" height="70" loading="lazy">Shardbearer Malenia
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -438,7 +468,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_1_6">
-                        <img class="float-end" data-src="/img/achievements/shardbearer_malenia.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/shardbearer_malenia.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Shardbearer Malenia<br>
                         <strong class="me-1">Condition: </strong>Defeat Shardbearer Malenia<br>
                         <strong class="me-1">Notes: </strong>Semi-optional, only two Shardbearers need to be defeated.<br>
@@ -466,6 +496,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -490,13 +525,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_1" id="item_2_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_1&amp;id=achievements_2_1&amp;link=/checklists/achievements.html%23item_2_1&amp;title=Margit, the Fell Omen">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
-                            <img class="me-1" data-src="/img/achievements/margit_the_fell_omen.png" height="70" loading="lazy" width="70">Margit, the Fell Omen
+                            <img class="me-1" data-src="/img/achievements/margit_the_fell_omen.png" height="70" loading="lazy">Margit, the Fell Omen
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -509,7 +549,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_1">
-                        <img class="float-end" data-src="/img/achievements/margit_the_fell_omen.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/margit_the_fell_omen.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Margit, the Fell Omen<br>
                         <strong class="me-1">Condition: </strong>Defeat Margit, the Fell Omen<br>
                         <strong class="me-1">Notes: </strong>Will unlock as you progress through Stormveil Castle.<br>
@@ -520,13 +560,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_2" id="item_2_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_2&amp;id=achievements_2_2&amp;link=/checklists/achievements.html%23item_2_2&amp;title=Leonine Misbegotten">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
-                            <img class="me-1" data-src="/img/achievements/leonine_misbegotten.png" height="70" loading="lazy" width="70">Leonine Misbegotten
+                            <img class="me-1" data-src="/img/achievements/leonine_misbegotten.png" height="70" loading="lazy">Leonine Misbegotten
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -539,7 +584,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_2">
-                        <img class="float-end" data-src="/img/achievements/leonine_misbegotten.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/leonine_misbegotten.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Leonine Misbegotten<br>
                         <strong class="me-1">Condition: </strong>Defeat the Leonine Misbegotten<br>
                       </label>
@@ -549,13 +594,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_3" id="item_2_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_3&amp;id=achievements_2_3&amp;link=/checklists/achievements.html%23item_2_3&amp;title=Red Wolf of Radagon">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
-                            <img class="me-1" data-src="/img/achievements/red_wolf_of_radagon.png" height="70" loading="lazy" width="70">Red Wolf of Radagon
+                            <img class="me-1" data-src="/img/achievements/red_wolf_of_radagon.png" height="70" loading="lazy">Red Wolf of Radagon
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -568,7 +618,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_3">
-                        <img class="float-end" data-src="/img/achievements/red_wolf_of_radagon.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/red_wolf_of_radagon.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Red Wolf of Radagon<br>
                         <strong class="me-1">Condition: </strong>Defeat the Red Wolf of Radagon<br>
                         <strong class="me-1">Notes: </strong>Will unlock as you progress through Raya Lucaria Academy.<br>
@@ -579,13 +629,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_4" id="item_2_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_4&amp;id=achievements_2_4&amp;link=/checklists/achievements.html%23item_2_4&amp;title=Rennala, Queen of the Full Moon">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
-                            <img class="me-1" data-src="/img/achievements/rennala_queen_of_the_full_moon.png" height="70" loading="lazy" width="70">Rennala, Queen of the Full Moon
+                            <img class="me-1" data-src="/img/achievements/rennala_queen_of_the_full_moon.png" height="70" loading="lazy">Rennala, Queen of the Full Moon
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -598,7 +653,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_4">
-                        <img class="float-end" data-src="/img/achievements/rennala_queen_of_the_full_moon.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/rennala_queen_of_the_full_moon.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Rennala, Queen of the Full Moon<br>
                         <strong class="me-1">Condition: </strong>Defeat Rennala, Queen of the Full Moon<br>
                       </label>
@@ -608,13 +663,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_5" id="item_2_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_5&amp;id=achievements_2_5&amp;link=/checklists/achievements.html%23item_2_5&amp;title=Royal Knight Loretta">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
-                            <img class="me-1" data-src="/img/achievements/royal_knight_loretta.png" height="70" loading="lazy" width="70">Royal Knight Loretta
+                            <img class="me-1" data-src="/img/achievements/royal_knight_loretta.png" height="70" loading="lazy">Royal Knight Loretta
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -627,7 +687,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_5">
-                        <img class="float-end" data-src="/img/achievements/royal_knight_loretta.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/royal_knight_loretta.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Royal Knight Loretta<br>
                         <strong class="me-1">Condition: </strong>Defeat Royal Knight Loretta<br>
                         <strong class="me-1">Notes: </strong>Defeat Royal Knight Loretta at Carian Manor.<br>
@@ -638,13 +698,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_6" id="item_2_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_6&amp;id=achievements_2_6&amp;link=/checklists/achievements.html%23item_2_6&amp;title=Magma Wyrm Makar">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
-                            <img class="me-1" data-src="/img/achievements/magma_wyrm_makar.png" height="70" loading="lazy" width="70">Magma Wyrm Makar
+                            <img class="me-1" data-src="/img/achievements/magma_wyrm_makar.png" height="70" loading="lazy">Magma Wyrm Makar
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -657,7 +722,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_6">
-                        <img class="float-end" data-src="/img/achievements/magma_wyrm_makar.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/magma_wyrm_makar.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Magma Wyrm Makar<br>
                         <strong class="me-1">Condition: </strong>Defeat Magma Wyrm Makar<br>
                       </label>
@@ -667,13 +732,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_7" id="item_2_7">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_7" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_7" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_7&amp;id=achievements_2_7&amp;link=/checklists/achievements.html%23item_2_7&amp;title=Ancestor Spirit">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
-                            <img class="me-1" data-src="/img/achievements/ancestor_spirit.png" height="70" loading="lazy" width="70">Ancestor Spirit
+                            <img class="me-1" data-src="/img/achievements/ancestor_spirit.png" height="70" loading="lazy">Ancestor Spirit
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -686,7 +756,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_7">
-                        <img class="float-end" data-src="/img/achievements/ancestor_spirit.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/ancestor_spirit.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Ancestor Spirit<br>
                         <strong class="me-1">Condition: </strong>Defeat the Ancestor Spirit<br>
                       </label>
@@ -696,13 +766,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_8" id="item_2_8">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_8" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_8" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_8&amp;id=achievements_2_8&amp;link=/checklists/achievements.html%23item_2_8&amp;title=Mimic Tear">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
-                            <img class="me-1" data-src="/img/achievements/mimic_tear.png" height="70" loading="lazy" width="70">Mimic Tear
+                            <img class="me-1" data-src="/img/achievements/mimic_tear.png" height="70" loading="lazy">Mimic Tear
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -715,7 +790,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_8">
-                        <img class="float-end" data-src="/img/achievements/mimic_tear.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/mimic_tear.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Mimic Tear<br>
                         <strong class="me-1">Condition: </strong>Defeat the Mimic Tear<br>
                       </label>
@@ -725,13 +800,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_9" id="item_2_9">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_9" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_9" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_9&amp;id=achievements_2_9&amp;link=/checklists/achievements.html%23item_2_9&amp;title=Godfrey, the First Lord">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
-                            <img class="me-1" data-src="/img/achievements/godfrey_the_first_lord.png" height="70" loading="lazy" width="70">Godfrey, the First Lord
+                            <img class="me-1" data-src="/img/achievements/godfrey_the_first_lord.png" height="70" loading="lazy">Godfrey, the First Lord
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -744,7 +824,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_9">
-                        <img class="float-end" data-src="/img/achievements/godfrey_the_first_lord.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/godfrey_the_first_lord.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Godfrey, the First Lord<br>
                         <strong class="me-1">Condition: </strong>Defeat Godfrey, the First Lord<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -755,13 +835,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_10" id="item_2_10">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_10" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_10" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_10&amp;id=achievements_2_10&amp;link=/checklists/achievements.html%23item_2_10&amp;title=Dragonkin Soldier of Nokstella">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
-                            <img class="me-1" data-src="/img/achievements/dragonkin_soldier_of_nokstella.png" height="70" loading="lazy" width="70">Dragonkin Soldier of Nokstella
+                            <img class="me-1" data-src="/img/achievements/dragonkin_soldier_of_nokstella.png" height="70" loading="lazy">Dragonkin Soldier of Nokstella
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -774,7 +859,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_10">
-                        <img class="float-end" data-src="/img/achievements/dragonkin_soldier_of_nokstella.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/dragonkin_soldier_of_nokstella.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Dragonkin Soldier of Nokstella<br>
                         <strong class="me-1">Condition: </strong>Defeat Dragonkin Soldier of Nokstella<br>
                       </label>
@@ -784,13 +869,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_11" id="item_2_11">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_11" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_11" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_11&amp;id=achievements_2_11&amp;link=/checklists/achievements.html%23item_2_11&amp;title=Astel, Naturalborn of the Void">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
-                            <img class="me-1" data-src="/img/achievements/astel_naturalborn_of_the_void.png" height="70" loading="lazy" width="70">Astel, Naturalborn of the Void
+                            <img class="me-1" data-src="/img/achievements/astel_naturalborn_of_the_void.png" height="70" loading="lazy">Astel, Naturalborn of the Void
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -803,7 +893,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_11">
-                        <img class="float-end" data-src="/img/achievements/astel_naturalborn_of_the_void.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/astel_naturalborn_of_the_void.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Astel, Naturalborn of the Void<br>
                         <strong class="me-1">Condition: </strong>Defeat Astel, Naturalborn of the Void<br>
                         <strong class="me-1">Notes: </strong>Required for Ranni's questline, and 'Age of the Stars' ending.<br>
@@ -814,13 +904,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_12" id="item_2_12">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_12" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_12" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_12&amp;id=achievements_2_12&amp;link=/checklists/achievements.html%23item_2_12&amp;title=Regal Ancestor Spirit">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
-                            <img class="me-1" data-src="/img/achievements/regal_ancestor_spirit.png" height="70" loading="lazy" width="70">Regal Ancestor Spirit
+                            <img class="me-1" data-src="/img/achievements/regal_ancestor_spirit.png" height="70" loading="lazy">Regal Ancestor Spirit
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -833,7 +928,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_12">
-                        <img class="float-end" data-src="/img/achievements/regal_ancestor_spirit.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/regal_ancestor_spirit.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Regal Ancestor Spirit<br>
                         <strong class="me-1">Condition: </strong>Defeat the Regal Ancestor Spirit<br>
                       </label>
@@ -843,13 +938,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_13" id="item_2_13">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_13" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_13" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_13&amp;id=achievements_2_13&amp;link=/checklists/achievements.html%23item_2_13&amp;title=Valiant Gargoyle">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
-                            <img class="me-1" data-src="/img/achievements/valiant_gargoyle.png" height="70" loading="lazy" width="70">Valiant Gargoyle
+                            <img class="me-1" data-src="/img/achievements/valiant_gargoyle.png" height="70" loading="lazy">Valiant Gargoyle
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -862,7 +962,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_13">
-                        <img class="float-end" data-src="/img/achievements/valiant_gargoyle.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/valiant_gargoyle.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Valiant Gargoyle<br>
                         <strong class="me-1">Condition: </strong>Defeat the Valiant Gargoyle<br>
                       </label>
@@ -872,13 +972,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_14" id="item_2_14">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_14" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_14" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_14&amp;id=achievements_2_14&amp;link=/checklists/achievements.html%23item_2_14&amp;title=Elemer of the Briar">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
-                            <img class="me-1" data-src="/img/achievements/elemer_of_the_briar.png" height="70" loading="lazy" width="70">Elemer of the Briar
+                            <img class="me-1" data-src="/img/achievements/elemer_of_the_briar.png" height="70" loading="lazy">Elemer of the Briar
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -891,7 +996,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_14">
-                        <img class="float-end" data-src="/img/achievements/elemer_of_the_briar.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/elemer_of_the_briar.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Elemer of the Briar<br>
                         <strong class="me-1">Condition: </strong>Defeat Elemer of the Briar<br>
                       </label>
@@ -901,13 +1006,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_15" id="item_2_15">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_15" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_15" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_15&amp;id=achievements_2_15&amp;link=/checklists/achievements.html%23item_2_15&amp;title=Godskin Noble">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
-                            <img class="me-1" data-src="/img/achievements/godskin_noble.png" height="70" loading="lazy" width="70">Godskin Noble
+                            <img class="me-1" data-src="/img/achievements/godskin_noble.png" height="70" loading="lazy">Godskin Noble
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -920,7 +1030,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_15">
-                        <img class="float-end" data-src="/img/achievements/godskin_noble.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/godskin_noble.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Godskin Noble<br>
                         <strong class="me-1">Condition: </strong>Defeat Godskin Noble<br>
                       </label>
@@ -930,13 +1040,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_16" id="item_2_16">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_16" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_16" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_16&amp;id=achievements_2_16&amp;link=/checklists/achievements.html%23item_2_16&amp;title=Commander Niall">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
-                            <img class="me-1" data-src="/img/achievements/commander_niall.png" height="70" loading="lazy" width="70">Commander Niall
+                            <img class="me-1" data-src="/img/achievements/commander_niall.png" height="70" loading="lazy">Commander Niall
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -949,7 +1064,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_16">
-                        <img class="float-end" data-src="/img/achievements/commander_niall.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/commander_niall.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Commander Niall<br>
                         <strong class="me-1">Condition: </strong>Defeat Commander Niall<br>
                       </label>
@@ -959,13 +1074,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_17" id="item_2_17">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_17" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_17" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_17&amp;id=achievements_2_17&amp;link=/checklists/achievements.html%23item_2_17&amp;title=Fire Giant">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
-                            <img class="me-1" data-src="/img/achievements/fire_giant.png" height="70" loading="lazy" width="70">Fire Giant
+                            <img class="me-1" data-src="/img/achievements/fire_giant.png" height="70" loading="lazy">Fire Giant
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -978,7 +1098,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_17">
-                        <img class="float-end" data-src="/img/achievements/fire_giant.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/fire_giant.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Fire Giant<br>
                         <strong class="me-1">Condition: </strong>Defeat the Fire Giant<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -989,13 +1109,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_18" id="item_2_18">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_18" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_18" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_18&amp;id=achievements_2_18&amp;link=/checklists/achievements.html%23item_2_18&amp;title=Godskin Duo">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
-                            <img class="me-1" data-src="/img/achievements/godskin_duo.png" height="70" loading="lazy" width="70">Godskin Duo
+                            <img class="me-1" data-src="/img/achievements/godskin_duo.png" height="70" loading="lazy">Godskin Duo
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1008,7 +1133,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_18">
-                        <img class="float-end" data-src="/img/achievements/godskin_duo.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/godskin_duo.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Godskin Duo<br>
                         <strong class="me-1">Condition: </strong>Defeat Godskin Duo<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -1019,13 +1144,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_19" id="item_2_19">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_19" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_19" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_19&amp;id=achievements_2_19&amp;link=/checklists/achievements.html%23item_2_19&amp;title=Loretta, Knight of the Haligtree">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
-                            <img class="me-1" data-src="/img/achievements/loretta_knight_of_the_haligtree.png" height="70" loading="lazy" width="70">Loretta, Knight of the Haligtree
+                            <img class="me-1" data-src="/img/achievements/loretta_knight_of_the_haligtree.png" height="70" loading="lazy">Loretta, Knight of the Haligtree
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1038,7 +1168,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_19">
-                        <img class="float-end" data-src="/img/achievements/loretta_knight_of_the_haligtree.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/loretta_knight_of_the_haligtree.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Loretta, Knight of the Haligtree<br>
                         <strong class="me-1">Condition: </strong>Defeat Loretta, Knight of the Haligtree<br>
                       </label>
@@ -1048,13 +1178,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_20" id="item_2_20">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_20" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_20" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_20&amp;id=achievements_2_20&amp;link=/checklists/achievements.html%23item_2_20&amp;title=Maliketh, the Black Blade">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
-                            <img class="me-1" data-src="/img/achievements/maliketh_the_black_blade.png" height="70" loading="lazy" width="70">Maliketh, the Black Blade
+                            <img class="me-1" data-src="/img/achievements/maliketh_the_black_blade.png" height="70" loading="lazy">Maliketh, the Black Blade
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1067,7 +1202,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_20">
-                        <img class="float-end" data-src="/img/achievements/maliketh_the_black_blade.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/maliketh_the_black_blade.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Maliketh, the Black Blade<br>
                         <strong class="me-1">Condition: </strong>Defeat Malekith, the Black Blade<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -1078,13 +1213,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_21" id="item_2_21">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_21" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_21" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_21&amp;id=achievements_2_21&amp;link=/checklists/achievements.html%23item_2_21&amp;title=Hoarah Loux, the Warrior">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
-                            <img class="me-1" data-src="/img/achievements/hoarah_loux_the_warrior.png" height="70" loading="lazy" width="70">Hoarah Loux, the Warrior
+                            <img class="me-1" data-src="/img/achievements/hoarah_loux_the_warrior.png" height="70" loading="lazy">Hoarah Loux, the Warrior
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1097,7 +1237,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_21">
-                        <img class="float-end" data-src="/img/achievements/hoarah_loux_the_warrior.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/hoarah_loux_the_warrior.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Hoarah Loux, the Warrior<br>
                         <strong class="me-1">Condition: </strong>Defeat Hoarah Loux, the Warrior<br>
                         <strong class="me-1">Notes: </strong>Will unlock through story progression.<br>
@@ -1108,13 +1248,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_22" id="item_2_22">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_22" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_22" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_22&amp;id=achievements_2_22&amp;link=/checklists/achievements.html%23item_2_22&amp;title=Mohg, the Omen">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
-                            <img class="me-1" data-src="/img/achievements/mohg_the_omen.png" height="70" loading="lazy" width="70">Mohg, the Omen
+                            <img class="me-1" data-src="/img/achievements/mohg_the_omen.png" height="70" loading="lazy">Mohg, the Omen
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1127,7 +1272,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_22">
-                        <img class="float-end" data-src="/img/achievements/mohg_the_omen.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/mohg_the_omen.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Mohg, the Omen<br>
                         <strong class="me-1">Condition: </strong>Defeat Mohg, the Omen<br>
                       </label>
@@ -1137,13 +1282,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_23" id="item_2_23">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_23" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_23" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_23&amp;id=achievements_2_23&amp;link=/checklists/achievements.html%23item_2_23&amp;title=Dragonlord Placidusax">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
-                            <img class="me-1" data-src="/img/achievements/dragonlord_placidusax.png" height="70" loading="lazy" width="70">Dragonlord Placidusax
+                            <img class="me-1" data-src="/img/achievements/dragonlord_placidusax.png" height="70" loading="lazy">Dragonlord Placidusax
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1156,7 +1306,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_23">
-                        <img class="float-end" data-src="/img/achievements/dragonlord_placidusax.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/dragonlord_placidusax.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Dragonlord Placidusax<br>
                         <strong class="me-1">Condition: </strong>Defeat Dragonlord Placidusax<br>
                       </label>
@@ -1166,13 +1316,18 @@
                 <li class="list-group-item searchable" data-id="achievements_2_24" id="item_2_24">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_2_24" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="achievements_2_24" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_2_24&amp;id=achievements_2_24&amp;link=/checklists/achievements.html%23item_2_24&amp;title=Lichdragon Fortissax">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
-                            <img class="me-1" data-src="/img/achievements/lichdragon_fortissax.png" height="70" loading="lazy" width="70">Lichdragon Fortissax
+                            <img class="me-1" data-src="/img/achievements/lichdragon_fortissax.png" height="70" loading="lazy">Lichdragon Fortissax
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1185,7 +1340,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_2_24">
-                        <img class="float-end" data-src="/img/achievements/lichdragon_fortissax.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/lichdragon_fortissax.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Lichdragon Fortissax<br>
                         <strong class="me-1">Condition: </strong>Defeat Lichdragon Fortissax<br>
                         <strong class="me-1">Notes: </strong>Follow Fia's questline to unlock, part of 'Age of Duskborn' ending.<br>
@@ -1213,6 +1368,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1237,13 +1397,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_1" id="item_3_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_1&amp;id=achievements_3_1&amp;link=/checklists/achievements.html%23item_3_1&amp;title=Roundtable Hold">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
-                            <img class="me-1" data-src="/img/achievements/roundtable_hold.png" height="70" loading="lazy" width="70">Roundtable Hold
+                            <img class="me-1" data-src="/img/achievements/roundtable_hold.png" height="70" loading="lazy">Roundtable Hold
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1256,7 +1421,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_1">
-                        <img class="float-end" data-src="/img/achievements/roundtable_hold.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/roundtable_hold.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Roundtable Hold<br>
                         <strong class="me-1">Condition: </strong>Arrive at Roundtable Hold<br>
                         <strong class="me-1">Notes: </strong>Will unlock as part of story progression.<br>
@@ -1267,13 +1432,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_2" id="item_3_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_2&amp;id=achievements_3_2&amp;link=/checklists/achievements.html%23item_3_2&amp;title=God-Slaying Armament">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
-                            <img class="me-1" data-src="/img/achievements/god-slaying_armament.png" height="70" loading="lazy" width="70">God-Slaying Armament
+                            <img class="me-1" data-src="/img/achievements/god-slaying_armament.png" height="70" loading="lazy">God-Slaying Armament
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1286,7 +1456,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_2">
-                        <img class="float-end" data-src="/img/achievements/god-slaying_armament.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/god-slaying_armament.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>God-Slaying Armament<br>
                         <strong class="me-1">Condition: </strong>Upgrade any armament to its highest stage.<br>
                       </label>
@@ -1296,13 +1466,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_3" id="item_3_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_3&amp;id=achievements_3_3&amp;link=/checklists/achievements.html%23item_3_3&amp;title=Legendary Armaments">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
-                            <img class="me-1" data-src="/img/achievements/legendary_armaments.png" height="70" loading="lazy" width="70">Legendary Armaments
+                            <img class="me-1" data-src="/img/achievements/legendary_armaments.png" height="70" loading="lazy">Legendary Armaments
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1315,7 +1490,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_3">
-                        <img class="float-end" data-src="/img/achievements/legendary_armaments.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/legendary_armaments.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Legendary Armaments<br>
                         <strong class="me-1">Condition: </strong>Acquire all nine legendary weapons.<br>
                       </label>
@@ -1325,13 +1500,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_4" id="item_3_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_4&amp;id=achievements_3_4&amp;link=/checklists/achievements.html%23item_3_4&amp;title=Legendary Ashen Remains">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
-                            <img class="me-1" data-src="/img/achievements/legendary_ashen_remains.png" height="70" loading="lazy" width="70">Legendary Ashen Remains
+                            <img class="me-1" data-src="/img/achievements/legendary_ashen_remains.png" height="70" loading="lazy">Legendary Ashen Remains
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1344,7 +1524,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_4">
-                        <img class="float-end" data-src="/img/achievements/legendary_ashen_remains.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/legendary_ashen_remains.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Legendary Ashen Remains<br>
                         <strong class="me-1">Condition: </strong>Acquire all six legendary ashen remains.<br>
                       </label>
@@ -1354,13 +1534,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_5" id="item_3_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_5&amp;id=achievements_3_5&amp;link=/checklists/achievements.html%23item_3_5&amp;title=Legendary Sorceries and Incantations">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
-                            <img class="me-1" data-src="/img/achievements/legendary_sorceries_and_incantations.png" height="70" loading="lazy" width="70">Legendary Sorceries and Incantations
+                            <img class="me-1" data-src="/img/achievements/legendary_sorceries_and_incantations.png" height="70" loading="lazy">Legendary Sorceries and Incantations
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1373,7 +1558,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_5">
-                        <img class="float-end" data-src="/img/achievements/legendary_sorceries_and_incantations.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/legendary_sorceries_and_incantations.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Legendary Sorceries and Incantations<br>
                         <strong class="me-1">Condition: </strong>Acquire all seven legendary sorceries and incantations.<br>
                       </label>
@@ -1383,13 +1568,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_6" id="item_3_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_6&amp;id=achievements_3_6&amp;link=/checklists/achievements.html%23item_3_6&amp;title=Legendary Talismans">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
-                            <img class="me-1" data-src="/img/achievements/legendary_talismans.png" height="70" loading="lazy" width="70">Legendary Talismans
+                            <img class="me-1" data-src="/img/achievements/legendary_talismans.png" height="70" loading="lazy">Legendary Talismans
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1402,7 +1592,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_6">
-                        <img class="float-end" data-src="/img/achievements/legendary_talismans.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/legendary_talismans.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Legendary Talismans<br>
                         <strong class="me-1">Condition: </strong>Acquire all eight legendary talismans.<br>
                       </label>
@@ -1412,13 +1602,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_7" id="item_3_7">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_7" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_7" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_7&amp;id=achievements_3_7&amp;link=/checklists/achievements.html%23item_3_7&amp;title=Great Rune">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
-                            <img class="me-1" data-src="/img/achievements/great_rune.png" height="70" loading="lazy" width="70">Great Rune
+                            <img class="me-1" data-src="/img/achievements/great_rune.png" height="70" loading="lazy">Great Rune
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1431,7 +1626,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_7">
-                        <img class="float-end" data-src="/img/achievements/great_rune.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/great_rune.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Great Rune<br>
                         <strong class="me-1">Condition: </strong>Restore the power of a Great Rune.<br>
                         <strong class="me-1">Notes: </strong>Easy to unlock at Stormveil, after defeating Godrick.<br>
@@ -1442,13 +1637,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_8" id="item_3_8">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_8" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_8" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_8&amp;id=achievements_3_8&amp;link=/checklists/achievements.html%23item_3_8&amp;title=Erdtree Aflame">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
-                            <img class="me-1" data-src="/img/achievements/erdtree_aflame.png" height="70" loading="lazy" width="70">Erdtree Aflame
+                            <img class="me-1" data-src="/img/achievements/erdtree_aflame.png" height="70" loading="lazy">Erdtree Aflame
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1461,7 +1661,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_8">
-                        <img class="float-end" data-src="/img/achievements/erdtree_aflame.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/erdtree_aflame.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Erdtree Aflame<br>
                         <strong class="me-1">Condition: </strong> Use kindling to set the Erdtree Aflame.<br>
                         <strong class="me-1">Notes: </strong>Will unlock as part of story progression, but I think it's achievable in two ways.<br>
@@ -1472,13 +1672,18 @@
                 <li class="list-group-item searchable" data-id="achievements_3_9" id="item_3_9">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_3_9" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="achievements_3_9" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_3_9&amp;id=achievements_3_9&amp;link=/checklists/achievements.html%23item_3_9&amp;title=Elden Ring">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
-                            <img class="me-1" data-src="/img/achievements/elden_ring.png" height="70" loading="lazy" width="70">Elden Ring
+                            <img class="me-1" data-src="/img/achievements/elden_ring.png" height="70" loading="lazy">Elden Ring
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1491,7 +1696,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_3_9">
-                        <img class="float-end" data-src="/img/achievements/elden_ring.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/elden_ring.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Elden Ring<br>
                         <strong class="me-1">Condition: </strong>Obtained all achievements<br>
                         <strong class="me-1">Notes: </strong>Equivalent to a PlayStaton platinum trophy, but there's an achievement for it on all platforms.<br>
@@ -1519,6 +1724,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1543,13 +1753,18 @@
                 <li class="list-group-item searchable" data-id="achievements_4_1" id="item_4_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_4_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="achievements_4_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_4_1&amp;id=achievements_4_1&amp;link=/checklists/achievements.html%23item_4_1&amp;title=Elden Lord">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
-                            <img class="me-1" data-src="/img/achievements/elden_lord.png" height="70" loading="lazy" width="70">Elden Lord
+                            <img class="me-1" data-src="/img/achievements/elden_lord.png" height="70" loading="lazy">Elden Lord
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1562,7 +1777,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_1">
-                        <img class="float-end" data-src="/img/achievements/elden_lord.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/elden_lord.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Elden Lord<br>
                         <strong class="me-1">Desc.: </strong>Achieve the 'Elden Lord' ending <br>
                         <strong class="me-1">Notes: </strong>Default ending. There are 4 confirmed variations based on quests you can do.<br>
@@ -1573,13 +1788,18 @@
                 <li class="list-group-item searchable" data-id="achievements_4_2" id="item_4_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_4_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="achievements_4_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_4_2&amp;id=achievements_4_2&amp;link=/checklists/achievements.html%23item_4_2&amp;title=Age of the Stars">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
-                            <img class="me-1" data-src="/img/achievements/age_of_the_stars.png" height="70" loading="lazy" width="70">Age of the Stars
+                            <img class="me-1" data-src="/img/achievements/age_of_the_stars.png" height="70" loading="lazy">Age of the Stars
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1592,7 +1812,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_2">
-                        <img class="float-end" data-src="/img/achievements/age_of_the_stars.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/age_of_the_stars.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Age of the Stars<br>
                         <strong class="me-1">Desc.: </strong>Achieve the 'Age of the Stars' ending<br>
                         <strong class="me-1">Notes: </strong>Alternate ending. Finish Ranni's questline to unlock.<br>
@@ -1603,13 +1823,18 @@
                 <li class="list-group-item searchable" data-id="achievements_4_3" id="item_4_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="achievements_4_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="achievements_4_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=achievements_4_3&amp;id=achievements_4_3&amp;link=/checklists/achievements.html%23item_4_3&amp;title=Lord of Frenzied Flame">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
                           <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
-                            <img class="me-1" data-src="/img/achievements/lord_of_frenzied_flame.png" height="70" loading="lazy" width="70">Lord of Frenzied Flame
+                            <img class="me-1" data-src="/img/achievements/lord_of_frenzied_flame.png" height="70" loading="lazy">Lord of Frenzied Flame
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-4">
@@ -1622,7 +1847,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="achievements_4_3">
-                        <img class="float-end" data-src="/img/achievements/lord_of_frenzied_flame.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/achievements/lord_of_frenzied_flame.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Lord of Frenzied Flame<br>
                         <strong class="me-1">Desc.: </strong>Achieve the 'Lord of Frenzied Flame' ending<br>
                         <strong class="me-1">Notes: </strong>Alternate ending. Search for the Three Fingers and follow through to unlock.<br>
@@ -1639,13 +1864,16 @@
     <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
       <span class="bi bi-arrow-up"></span>
     </a>
+    <script>window.current_page_id = "achievements";
+</script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
+    <script src="/js/progress.js"></script>
+    <script src="/js/item_links.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
-    <script src="/js/jstorage.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
     <script>
@@ -1687,6 +1915,5 @@
             })( jQuery );
             </script>
     <script src="/js/checklists.js"></script>
-    <script src="/js/item_links.js"></script>
   </body>
 </html>

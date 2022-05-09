@@ -19,26 +19,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none sticky-top" id="top_nav">
       <div class="container-fluid">
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <div class="order-md-last d-none d-md-block">
-          <form class="d-flex">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="d-md-none">
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
           <a class="nav-link me-0" href="/search.html">
             <i class="bi bi-search sb-icon-search"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
@@ -71,13 +69,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                </li>
-                <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons active" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -99,10 +94,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -257,6 +252,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -281,7 +281,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_1" id="item_1_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_1&amp;id=illusory_walls_1_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Academy+Crystal+Cave&quot;&gt;Academy Crystal Cave&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -308,7 +313,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_2" id="item_1_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_2&amp;id=illusory_walls_1_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Academy+of+Raya+Lucaria&quot;&gt;Academy of Raya Lucaria&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -335,7 +345,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_3" id="item_1_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_3&amp;id=illusory_walls_1_3&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_3&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Academy+of+Raya+Lucaria&quot;&gt;Academy of Raya Lucaria&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -362,7 +377,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_4" id="item_1_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_4&amp;id=illusory_walls_1_4&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_4&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Academy+of+Raya+Lucaria&quot;&gt;Academy of Raya Lucaria&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -389,7 +409,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_5" id="item_1_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_5&amp;id=illusory_walls_1_5&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_5&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Black+Knife+Catacombs&quot;&gt;Black Knife Catacombs&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -416,7 +441,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_6" id="item_1_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_6&amp;id=illusory_walls_1_6&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_6&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Kingsrealm+Ruins&quot;&gt;Kingsrealm Ruins&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -443,7 +473,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_7" id="item_1_7">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_7" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_7" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_7&amp;id=illusory_walls_1_7&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_7&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Kingsrealm+Ruins&quot;&gt;Kingsrealm Ruins&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -470,7 +505,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_8" id="item_1_8">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_8" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_8" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_8&amp;id=illusory_walls_1_8&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_8&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Moonfolk+Ruins&quot;&gt;Moonfolk Ruins&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -497,7 +537,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_9" id="item_1_9">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_9" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_9" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_9&amp;id=illusory_walls_1_9&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_9&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Road's+End+Catacombs&quot;&gt;Road's End Catacomb&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -524,7 +569,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_1_10" id="item_1_10">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_1_10" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="0" id="illusory_walls_1_10" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_1_10&amp;id=illusory_walls_1_10&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_1_10&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Three+Sisters&quot;&gt;Three Sisters&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -568,6 +618,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -592,7 +647,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_2_1" id="item_2_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_2_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="illusory_walls_2_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_2_1&amp;id=illusory_walls_2_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_2_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Caelid+Catacombs&quot;&gt;Caelid Catacombs&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -619,7 +679,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_2_2" id="item_2_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_2_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="illusory_walls_2_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_2_2&amp;id=illusory_walls_2_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_2_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Sellia+Hideaway&quot;&gt;Sellia Hideaway&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -663,6 +728,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -687,7 +757,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_1" id="item_3_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_1&amp;id=illusory_walls_3_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb&quot;&gt;Auriza Side Tomb&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -714,7 +789,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_2" id="item_3_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_2&amp;id=illusory_walls_3_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Mirage+Rise&quot;&gt;Mirage Rise&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -741,7 +821,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_3" id="item_3_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_3&amp;id=illusory_walls_3_3&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_3&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Sage's+Cave&quot;&gt;Sage's Cave&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -768,7 +853,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_4" id="item_3_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_4&amp;id=illusory_walls_3_4&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_4&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Sainted+Hero's+Grave&quot;&gt;Sainted Hero's Grave&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -795,7 +885,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_5" id="item_3_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_5&amp;id=illusory_walls_3_5&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_5&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Sealed+Tunnel&quot;&gt;Sealed Tunnel&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -822,7 +917,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_3_6" id="item_3_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_3_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="illusory_walls_3_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_3_6&amp;id=illusory_walls_3_6&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_3_6&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Sealed+Tunnel&quot;&gt;Sealed Tunnel&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -866,6 +966,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -890,7 +995,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_4_1" id="item_4_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_4_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="illusory_walls_4_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_4_1&amp;id=illusory_walls_4_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_4_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Frenzied+Flame+Proscription&quot;&gt;Frenzied Flame Proscription&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -917,7 +1027,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_4_2" id="item_4_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_4_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="illusory_walls_4_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_4_2&amp;id=illusory_walls_4_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_4_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Leyndell+Catacombs&quot;&gt;Leyndell Catacombs&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -961,6 +1076,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -985,7 +1105,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_5_1" id="item_5_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_5_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="4" id="illusory_walls_5_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_5_1&amp;id=illusory_walls_5_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_5_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Hidden+Path+to+the+Haligtree&quot;&gt;Hidden Path to the Haligtree&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1029,6 +1154,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1053,7 +1183,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_6_1" id="item_6_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_6_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="5" id="illusory_walls_6_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_6_1&amp;id=illusory_walls_6_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_6_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Giant-Conquering+Hero's+Grave&quot;&gt;Giant-Conquering Hero's Grave&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1080,7 +1215,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_6_2" id="item_6_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_6_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="5" id="illusory_walls_6_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_6_2&amp;id=illusory_walls_6_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_6_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs&quot;&gt;Giants' Mountaintop Catacombs&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1107,7 +1247,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_6_3" id="item_6_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_6_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="5" id="illusory_walls_6_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_6_3&amp;id=illusory_walls_6_3&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_6_3&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Heretical+Rise&quot;&gt;Heretical Rise&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1151,6 +1296,11 @@
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
                     </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
+                    </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1175,7 +1325,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_7_1" id="item_7_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_7_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="illusory_walls_7_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_7_1&amp;id=illusory_walls_7_1&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_7_1&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Volcano+Manor&quot;&gt;Volcano Manor&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1202,7 +1357,12 @@
                 <li class="list-group-item searchable" data-id="illusory_walls_7_2" id="item_7_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="illusory_walls_7_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="illusory_walls_7_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=illusory_walls_7_2&amp;id=illusory_walls_7_2&amp;link=/checklists/illusory_walls_invisible_paths.html%23item_7_2&amp;title=&lt;a href=&quot;https://eldenring.wiki.fextralife.com/Volcano+Manor&quot;&gt;Volcano Manor&lt;/a&gt;">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
@@ -1235,13 +1395,16 @@
     <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
       <span class="bi bi-arrow-up"></span>
     </a>
+    <script>window.current_page_id = "illusory_walls";
+</script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
+    <script src="/js/progress.js"></script>
+    <script src="/js/item_links.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
-    <script src="/js/jstorage.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
     <script>
@@ -1283,6 +1446,5 @@
             })( jQuery );
             </script>
     <script src="/js/checklists.js"></script>
-    <script src="/js/item_links.js"></script>
   </body>
 </html>
