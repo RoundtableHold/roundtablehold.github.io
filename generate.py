@@ -160,6 +160,7 @@ def make_nav(page, is_map = False):
 def make_footer(page=None):
     script(src="/js/jquery.min.js")
     script(src="/js/jstorage.min.js")
+    script(src='/js/progress.js')
     script(src='/js/item_links.js')
     script(src='/js/common.js')
     script(src="/js/bootstrap.bundle.min.js")
@@ -417,6 +418,7 @@ def make_checklist(page):
 
             with div(id=page['id']+"_list"):
                 for s_idx, section in enumerate(page['sections']):
+                    section['num_ids'] = 0
                     with div(cls='card shadow-sm mb-3', id=page['id'] + '_section_' + str(s_idx)).add(div(cls='card-body')):
                         with h4(cls="mt-1"):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
@@ -461,8 +463,9 @@ def make_checklist(page):
                                             with div(cls="row form-check checkbox d-flex"):
                                                 with div(cls="col-auto d-flex align-items-center"):
                                                     input_(cls="form-check-input pe-0 me-0", type="checkbox", value="",
-                                                            id=page['id'] + '_' + id)
+                                                            id=page['id'] + '_' + id, data_section_idx=str(s_idx))
                                                     page['num_ids'] += 1
+                                                    section['num_ids'] += 1
                                                 with div(cls='col-auto d-flex align-items-center order-last'):
                                                     href = '/map.html?'
                                                     if 'map_link' in item:
@@ -508,7 +511,7 @@ def make_checklist(page):
                                         id = str(item['id'])
                                         with li(data_id=page['id'] + "_" + id, cls="list-group-item searchable ps-0", id='item_' + id):
                                             with div(cls="form-check checkbox d-flex align-items-center"):
-                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id)
+                                                input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id, data_section_idx=str(s_idx))
                                                 with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                     if 'icon' in item:
                                                         img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-md-none float-end me-md-1')
@@ -522,6 +525,7 @@ def make_checklist(page):
                                                     href += '&id={}&link={}&title={}'.format(page['id'] + '_' + id, '/checklists/' + to_snake_case(page['title']) + '.html%23item_' + id, item['map_title'] if 'map_title' in item else item['data'][0])
                                                     a(href=href, cls='ms-2').add(i(cls='bi bi-geo-alt'))
                                                 page['num_ids'] += 1
+                                                section['num_ids'] += 1
                                     with u:
                                         f(item)
                                     if isinstance(items.peek(0), list):
@@ -531,7 +535,7 @@ def make_checklist(page):
                                                 f(subitem)
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
-
+        script(raw("window.current_page_id = \"{}\";\n".format(page['id'])))
         make_footer(page)
         script(src="/js/checklists.js")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
@@ -669,6 +673,18 @@ def make_item_links():
     with open(os.path.join('docs', 'js', 'item_links.js'), 'w', encoding='UTF-8') as links_f:
         links_f.write('const item_links = ')
         json.dump(links_json, links_f, indent=2, sort_keys=True)
+    
+def make_progress_js():
+    with open(os.path.join('docs', 'js', 'progress.js'), 'w', encoding='utf_8') as f:
+        f.write('window.progress = {\n')
+        for page in pages:
+            f.write('  "{}": {{\n'.format(page['id']))
+            f.write('    "total": [0, {}],\n'.format(page['num_ids']))
+            f.write('    "sections": [\n')
+            for section in page['sections']:
+                f.write('      [0, {}],\n'.format(section['num_ids']))
+            f.write('    ],\n  },\n')
+        f.write('};\n')
 
 def make_index_js():
     with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
@@ -889,6 +905,7 @@ for page in pages:
     make_checklist(page)
 make_search()
 make_search_index()
+make_progress_js()
 make_index_js()
 make_item_links()
 make_geojson()
