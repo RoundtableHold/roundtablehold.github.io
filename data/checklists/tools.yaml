@@ -1,0 +1,129 @@
+title: Tools & Multiplayer
+id: tools
+table_widths: [3, 3, 6]
+sections:
+  -
+    title: Functional
+    table: [Name, Description, Location]
+    items:
+      - id: "1_1"
+        icon: "/img/icons/tools/edited/00009.png"
+        data: ["Memory of Grace", "Return to last Site of Grace; destroys currently held runes, but leaves intact existing rune retrieval", "Granted automatically at start of game"]
+      - id: "1_2"
+        icon: "/img/icons/tools/edited/00092.png"
+        data: ["Telescope", "Shift camera into first person view", "Bought from Kalé in Church of Elleh, Limgrave, for 500 runes"]
+      - id: "1_3"
+        icon: "/img/icons/tools/edited/00013.png"
+        data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
+      - id: "1_4"
+        icon: "/img/icons/tools/edited/03068.png"
+        data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
+      - id: "1_5"
+        icon: "/img/icons/tools/edited/00093.png"
+        data: ["Lantern", "Dimly illuminate surroundings", "Bought for 1800 runes from either the Isolated Merchant at the Isolated Merchant's Shack Site of Grace in Weeping Peninsula or the Nomadic Merchant by the Liurnia Lake Shore Site of Grace in Liurnia"]
+      - id: "1_6"
+        icon: "/img/icons/tools/edited/00625.png"
+        data: ["Pureblood Knight's Medal", "Teleport self to Dynasty Mausoleum Entrance Site of Grace; can be used to warp out of any combat safely", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
+  -
+    title: Combat
+    table: [Name, Description, Location]
+    items:
+      - id: "2_1"
+        icon: "/img/icons/tools/edited/00597.png"
+        data: ["Margit's Shackle", "Usable up to twice in each attempt at the first phase of Margit, miniboss Margit, or Morgott: stun them for a few seconds", "Bought from Patches for 5000 runes"]
+      - id: "2_2"
+        icon: "/img/icons/tools/edited/00201.png"
+        data: ["Wraith Calling Bell", "Spend 7 FP to conjure homing projectiles", "In northwest Laskyar Ruins, Liurnia of the Lakes, in the underground chest"]
+      - id: "2_3"
+        icon: "/img/icons/tools/edited/00193.png"
+        data: ["Ancestral Infant's Head", "Spend 27 FP to spawn geysers that deal magic damage to enemies", "In the submerged ruin in northwestern Ancestral Woods in Nokron, Eternal City; carefully platform to the far side and defeat the Ancestral Follower guarding a chest with this tool"]
+      - id: "2_4"
+        icon: "/img/icons/tools/edited/00598.png"
+        data: ["Mohg's Shackle", "Usable up to twice in each attempt at the first phase of Mohg: stun him for a few seconds", "Found in Subterranean Shunning-Grounds guarded by two Giant Crayfish"]
+      - id: "2_5"
+        icon: "/img/icons/tools/00593.png"
+        data: ["Omen Bairn", "Spend 24 FP to conjure wraiths that chase enemies", "From the Underground Roadside Site of Grace in the Subterranean Shunning-Grounds, with shortcuts unlocked, go through the first two doors then down the ladder, and defeat an Omen enemy who drops it"]
+      - id: "2_6"
+        icon: "/img/icons/tools/00677.png"
+        data: ["Regal Omen Bairn", "Spend 50 FP to conjure more wraiths that deal more damage", "One of the choices offered when trading in the Remembrance of the Omen King to Finger Reader Enia at the Roundtable Hold"]
+      - id: "2_7"
+        icon: "/img/icons/tools/edited/00094.png"
+        data: ["Blasphemous Claw", "Parry specific melee attacks by Maliketh, stunning him", "Dropped by Recusant Bernahl in Crumbling Farum Azula"]
+  -
+    title: Prattling Pates
+    table: [Name, Description, Location]
+    items:
+      - id: "3_1"
+        icon: "/img/icons/tools/00095.png"
+        data: ["\"Hello\"", "Whispers, \"Hello\"", "Stormfoot Catacombs, Limgrave: Behind the first flamethrower pillar"]
+      - id: "3_2"
+        icon: "/img/icons/tools/00099.png"
+        data: ["\"Please Help\"", "Whispers, \"Please help\"", "Impaler's Catacombs, Weeping Peninsula: In the path after dropping under the spike trap"]
+      - id: "3_3"
+        icon: "/img/icons/tools/00096.png"
+        data: ["\"Thank You\"", "Whispers, \"Thank you\"", "Tombsward Catacombs, Weeping Peninsula: At the end of the main path of the dungeon, just past another flamethrower pillar"]
+      - id: "3_4"
+        icon: "/img/icons/tools/00098.png"
+        data: ["\"Wonderful\"", "Whispers, \"Wonderful\"", "Cliffbottom Catacombs, Liurnia of the Lakes: In the tunnels after dropping down under the first set of stairs from the locked doors"]
+      - id: "3_5"
+        icon: "/img/icons/tools/00097.png"
+        data: ["\"Apologies\"", "Whispers, \"Apologies\"", "Unsightly Catacombs, Altus Plateau: Near the lever for the boss door"]
+      - id: "3_6"
+        icon: "/img/icons/tools/00631.png"
+        data: ["\"You're Beautiful\"", "Whispers, \"You're beautiful\"", "Hermit Village, Mt. Gelmir: On the south side of the village against a house"]
+      - id: "3_7"
+        icon: "/img/icons/tools/00101.png"
+        data: ["\"Let's Get to It\"", "Whispers, \"Let's get to it\"", "Sainted Hero's Grave, Altus Plateau: By the entrance to the room with the shadow enemy that unlocks the boss door"]
+      - id: "3_8"
+        icon: "/img/icons/tools/00100.png"
+        data: ["\"My Beloved\"", "Whispers, \"My beloved\"", "Miquella's Haligtree: Two branches down from where the teleporter in Ordina, Liturgical Town puts you"]
+  -
+    title: Multiplayer
+    table: [Name, Description, Location]
+    table_widths: [3, 4, 5]
+    items:
+      - id: "4_1"
+        icon: "/img/icons/tools/online/00005.png"
+        data: ["Tarnished's Wizened Finger", "Write messages in online play", "Found directly in the beginning of the game, on a body in the building you spawn into"]
+      - id: "4_2"
+        icon: "/img/icons/tools/online/00001.png"
+        data: ["Tarnished's Furled Finger", "Place your cooperative summon sign in online play", "In the room with the Stranded Graveyard Site of Grace on a body"]
+      - id: "4_3"
+        icon: "/img/icons/tools/online/00004.png"
+        data: ["Finger Severer", "In online play, return to your world, or send your co-op phantoms home", "On the same body as the previous"]
+      - id: "4_4"
+        icon: "/img/icons/tools/online/00602.png"
+        data: ["Small Golden Effigy", "Send your cooperative summon sign to all nearby activated Martyr Effigies at once in online play", "Found on the first Martyr Effigy, nearby The First Step Site of Grace"]
+      - id: "4_5"
+        icon: "/img/icons/tools/online/00583.png"
+        data: ["Furlcalling Finger Remedy", "In online play, view summon signs placed by other players, whether cooperative or competitive; item is refunded unless you successfully summon someone", "Not reusable, but easily craftable with two Erdleaf Flowers, dropped by invaders including many NPCs, and a frequent loot pickup or shop item."]
+      - id: "4_6"
+        icon: "/img/icons/tools/online/00008.png"
+        data: ["Festering Bloody Finger", "Invade another player as a Bloody Finger in online play", "Not reusable, but can be bought in limited quantities from the Nomadic Merchant of East Limgrave, Patches, and the Imprisoned Merchant, and infinitely from the Hermit Merchant in Leyndell. Varré gives you five during his questline."]
+      - id: "4_7"
+        icon: "/img/icons/tools/online/00634.png"
+        data: ["Phantom Bloody Finger", "As an invader in online play, re-attempt your current invasion; useful if you can't find the host", "You're automatically granted three of these consumables if you invade someone, and you lose them once the invasion has concluded"]
+      - id: "4_8"
+        icon: "/img/icons/tools/online/00002.png"
+        data: ["Duelist's Furled Finger", "Place your competitive summon sign in online play", "At the northern tip of Limgrave at the foot of the ruined round structure, directly next to the ghost, near where Recusant Henricus invades"]
+      - id: "4_9"
+        icon: "/img/icons/tools/online/00603.png"
+        data: ["Small Red Effigy", "Send your competitive summon sign to all nearby activated Martyr Effigies at once in online play", "On the same body as the previous"]
+      - id: "4_10"
+        icon: "/img/icons/tools/online/00007.png"
+        data: ["Taunter's Tongue", "Allow your world to be invaded without cooperators present, and for a second invader to join if you have a cooperator. Requires using a Furlcalling Finger Remedy first.", "Dropped by NPC invader Mad Tongue Alberich in Roundtable Hold, down off the balcony"]
+      - id: "4_11"
+        icon: "/img/icons/tools/online/00579.png"
+        data: ["White Cipher Ring", "When invaded in online play, summon someone using the Blue Cipher Ring to aid you as a hunter; stays active permanently until you turn it off", "Bought from Twin Maiden Husks in Roundtable Hold for 1000 runes"]
+      - id: "4_12"
+        icon: "/img/icons/tools/online/00580.png"
+        data: ["Blue Cipher Ring", "Be summoned as a hunter anytime someone nearby using the White Cipher Ring is invaded; stays active permanently until you turn it off", "Bought from Twin Maiden Husks in Roundtable Hold for 1000 runes"]
+      - id: "4_13"
+        icon: "/img/icons/tools/online/00003.png"
+        data: ["Bloody Finger", "Invade another player as a Bloody Finger in online play; an infinite Festering Bloody Finger that replaces them in the Multiplayer menu", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
+      - id: "4_14"
+        icon: "/img/icons/tools/online/00635.png"
+        data: ["Recusant Finger", "Invade another player as a Recusant Finger in online play; nearly identical to Bloody Finger, though biases players who've used the Taunter's Tongue", "Found on the table with Requests in Volcano Manor"]
+      - id: "4_15"
+        icon: "/img/icons/tools/online/00626.png"
+        data: ["Phantom Great Rune", "When an invader in online play, buffs nearby enemies with the \"Blessing of Blood\"", "You're automatically granted three of these consumables if you invade someone after using a Rune Arc with Mohg's Great Rune equipped, and you lose them once the invasion has concluded"]

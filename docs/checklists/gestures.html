@@ -19,26 +19,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none sticky-top" id="top_nav">
       <div class="container-fluid">
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <div class="order-md-last d-none d-md-block">
-          <form class="d-flex">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="d-md-none">
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
           <a class="nav-link me-0" href="/search.html">
             <i class="bi bi-search sb-icon-search"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
@@ -71,13 +69,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                </li>
-                <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -99,10 +94,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -262,97 +257,97 @@
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_1" id="item_0_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_1" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07006.png" height="70" loading="lazy" width="70">Warm Welcome
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07006.png" height="70" loading="lazy">Warm Welcome
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_2" id="item_0_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07031.png" height="70" loading="lazy" width="70">Dejection
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07031.png" height="70" loading="lazy">Dejection
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_3" id="item_0_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07007.png" height="70" loading="lazy" width="70">Wave
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07007.png" height="70" loading="lazy">Wave
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_4" id="item_0_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_4">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07020.png" height="70" loading="lazy" width="70">Rallying Cry
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07020.png" height="70" loading="lazy">Rallying Cry
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_5" id="item_0_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_5" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_5">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07034.png" height="70" loading="lazy" width="70">Rest
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07034.png" height="70" loading="lazy">Rest
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_6" id="item_0_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_6" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_6">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07011.png" height="70" loading="lazy" width="70">Point Forwards
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07011.png" height="70" loading="lazy">Point Forwards
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_7" id="item_0_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_7" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_7">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07000.png" height="70" loading="lazy" width="70">Bow
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07000.png" height="70" loading="lazy">Bow
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_8" id="item_0_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_8" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_8">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07012.png" height="70" loading="lazy" width="70">Point Upwards
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07012.png" height="70" loading="lazy">Point Upwards
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_9" id="item_0_9">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_9" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_9">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07013.png" height="70" loading="lazy" width="70">Point Downwards
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07013.png" height="70" loading="lazy">Point Downwards
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_10" id="item_0_10">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_10" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_10">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07014.png" height="70" loading="lazy" width="70">Beckon
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07014.png" height="70" loading="lazy">Beckon
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_11" id="item_0_11">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_11" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_11">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07027.png" height="70" loading="lazy" width="70">Jump for Joy
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07027.png" height="70" loading="lazy">Jump for Joy
                     </label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="gestures_0_12" id="item_0_12">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="gestures_0_12" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="gestures_0_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="gestures_0_12">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07015.png" height="70" loading="lazy" width="70">Wait!
+                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/gestures/07015.png" height="70" loading="lazy">Wait!
                     </label>
                   </div>
                 </li>
@@ -375,6 +370,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -405,13 +405,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_1" id="item_1_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_1&amp;id=gestures_1_1&amp;link=/checklists/gestures.html%23item_1_1&amp;title=Strength!">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07009.png" height="70" loading="lazy" width="70">Strength!
+                            <img class="me-1" data-src="/img/icons/gestures/07009.png" height="70" loading="lazy">Strength!
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -427,7 +432,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07009.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07009.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Strength!<br>
                         <strong class="me-1">Location: </strong>Cave of Knowledge<br>
                         <strong class="me-1">Description: </strong>Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick.<br>
@@ -438,13 +443,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_2" id="item_1_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_2&amp;id=gestures_1_2&amp;link=/checklists/gestures.html%23item_1_2&amp;title=The Ring">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07050.png" height="70" loading="lazy" width="70">The Ring
+                            <img class="me-1" data-src="/img/icons/gestures/07050.png" height="70" loading="lazy">The Ring
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -460,7 +470,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07050.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07050.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>The Ring<br>
                         <strong class="me-1">Location: </strong>anywhere<br>
                         <strong class="me-1">Description: </strong>Help anyone beat a boss as a yellow phantom. Requires online access. (It was also a digital pre-order bonus.)<br>
@@ -471,13 +481,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_3" id="item_1_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_3&amp;id=gestures_1_3&amp;link=/checklists/gestures.html%23item_1_3&amp;title=Nod in Thought">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_3">
-                            <img class="me-1" data-src="/img/icons/gestures/07017.png" height="70" loading="lazy" width="70">Nod in Thought
+                            <img class="me-1" data-src="/img/icons/gestures/07017.png" height="70" loading="lazy">Nod in Thought
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -493,7 +508,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_3">
-                        <img class="float-end" data-src="/img/icons/gestures/07017.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07017.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Nod in Thought<br>
                         <strong class="me-1">Location: </strong>Waypoint Ruins Cellar<br>
                         <strong class="me-1">Questline: </strong>Sellen<br>
@@ -505,13 +520,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_4" id="item_1_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_4&amp;id=gestures_1_4&amp;link=/checklists/gestures.html%23item_1_4&amp;title=Grovel for Mercy">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_4">
-                            <img class="me-1" data-src="/img/icons/gestures/07019.png" height="70" loading="lazy" width="70">Grovel for Mercy
+                            <img class="me-1" data-src="/img/icons/gestures/07019.png" height="70" loading="lazy">Grovel for Mercy
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -527,7 +547,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_4">
-                        <img class="float-end" data-src="/img/icons/gestures/07019.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07019.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Grovel for Mercy<br>
                         <strong class="me-1">Location: </strong>Murkwater Cave<br>
                         <strong class="me-1">Questline: </strong>Patches<br>
@@ -539,13 +559,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_5" id="item_1_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_5&amp;id=gestures_1_5&amp;link=/checklists/gestures.html%23item_1_5&amp;title=Extreme Repentance">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_5">
-                            <img class="me-1" data-src="/img/icons/gestures/07018.png" height="70" loading="lazy" width="70">Extreme Repentance
+                            <img class="me-1" data-src="/img/icons/gestures/07018.png" height="70" loading="lazy">Extreme Repentance
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -555,17 +580,17 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_5">Patches</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_5">After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_5">At any time in Murkwater Cave after befriending Patches, even at the end of his questline when he returns, aggro him again and start another fight. This time, let him get YOUR health down below half. He'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro. Be very careful, because he does not stop attacking, so you have to equip and perform the gesture while also running from him. He won't accept your surrender if you've healed, either; you need to still be below half health.)</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_5">
-                        <img class="float-end" data-src="/img/icons/gestures/07018.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07018.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Extreme Repentance<br>
                         <strong class="me-1">Location: </strong>Murkwater Cave<br>
                         <strong class="me-1">Questline: </strong>Patches<br>
-                        <strong class="me-1">Description: </strong>After you've returned to Patches and he's set up his shop, aggro him again and restart the fight. This time, let him get YOUR health down low. He'll pause, and he'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro.)<br>
+                        <strong class="me-1">Description: </strong>At any time in Murkwater Cave after befriending Patches, even at the end of his questline when he returns, aggro him again and start another fight. This time, let him get YOUR health down below half. He'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro. Be very careful, because he does not stop attacking, so you have to equip and perform the gesture while also running from him. He won't accept your surrender if you've healed, either; you need to still be below half health.)<br>
                       </label>
                     </div>
                   </div>
@@ -573,13 +598,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_6" id="item_1_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_6&amp;id=gestures_1_6&amp;link=/checklists/gestures.html%23item_1_6&amp;title=Calm Down!">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_6">
-                            <img class="me-1" data-src="/img/icons/gestures/07016.png" height="70" loading="lazy" width="70">Calm Down!
+                            <img class="me-1" data-src="/img/icons/gestures/07016.png" height="70" loading="lazy">Calm Down!
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -589,17 +619,17 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_6">Patches</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_6">Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_6">Open Patches's special chest after he's set up his shop in the cave, then go talk to him about it.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_6">
-                        <img class="float-end" data-src="/img/icons/gestures/07016.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07016.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Calm Down!<br>
                         <strong class="me-1">Location: </strong>Murkwater Cave<br>
                         <strong class="me-1">Questline: </strong>Patches<br>
-                        <strong class="me-1">Description: </strong>Open Patches's special chest after he's set up his shop in the cave. You'll inescapably be teleported to the bear woods some distance away. Escape and return to Patches, where he'll unlock this gesture as he talks down to you.<br>
+                        <strong class="me-1">Description: </strong>Open Patches's special chest after he's set up his shop in the cave, then go talk to him about it.<br>
                       </label>
                     </div>
                   </div>
@@ -607,13 +637,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_7" id="item_1_7">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_7" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_7" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_7&amp;id=gestures_1_7&amp;link=/checklists/gestures.html%23item_1_7&amp;title=Finger Snap">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_7">
-                            <img class="me-1" data-src="/img/icons/gestures/07030.png" height="70" loading="lazy" width="70">Finger Snap
+                            <img class="me-1" data-src="/img/icons/gestures/07030.png" height="70" loading="lazy">Finger Snap
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -629,7 +664,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_7">
-                        <img class="float-end" data-src="/img/icons/gestures/07030.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07030.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Finger Snap<br>
                         <strong class="me-1">Location: </strong>Church of Elleh<br>
                         <strong class="me-1">Questline: </strong>Blaidd<br>
@@ -641,13 +676,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_8" id="item_1_8">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_8" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_8" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_8&amp;id=gestures_1_8&amp;link=/checklists/gestures.html%23item_1_8&amp;title=Triumphant Delight">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_8">
-                            <img class="me-1" data-src="/img/icons/gestures/07028.png" height="70" loading="lazy" width="70">Triumphant Delight
+                            <img class="me-1" data-src="/img/icons/gestures/07028.png" height="70" loading="lazy">Triumphant Delight
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -663,7 +703,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_8">
-                        <img class="float-end" data-src="/img/icons/gestures/07028.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07028.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Triumphant Delight<br>
                         <strong class="me-1">Location: </strong>Stormhill<br>
                         <strong class="me-1">Questline: </strong>Alexander<br>
@@ -675,13 +715,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_9" id="item_1_9">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_9" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_9" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_9&amp;id=gestures_1_9&amp;link=/checklists/gestures.html%23item_1_9&amp;title=Crossed Legs">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_9">
-                            <img class="me-1" data-src="/img/icons/gestures/07033.png" height="70" loading="lazy" width="70">Crossed Legs
+                            <img class="me-1" data-src="/img/icons/gestures/07033.png" height="70" loading="lazy">Crossed Legs
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -697,7 +742,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_9">
-                        <img class="float-end" data-src="/img/icons/gestures/07033.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07033.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Crossed Legs<br>
                         <strong class="me-1">Location: </strong>Stormhill<br>
                         <strong class="me-1">Description: </strong>South of Stormhill Shack is a large piece of debris with a corpse sitting on top in this pose. Interact with it to unlock the gesture.<br>
@@ -708,13 +753,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_10" id="item_1_10">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_10" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_10" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_10&amp;id=gestures_1_10&amp;link=/checklists/gestures.html%23item_1_10&amp;title=Sitting Sideways">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_10">
-                            <img class="me-1" data-src="/img/icons/gestures/07035.png" height="70" loading="lazy" width="70">Sitting Sideways
+                            <img class="me-1" data-src="/img/icons/gestures/07035.png" height="70" loading="lazy">Sitting Sideways
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -730,7 +780,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_10">
-                        <img class="float-end" data-src="/img/icons/gestures/07035.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07035.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Sitting Sideways<br>
                         <strong class="me-1">Location: </strong>Stormhill Shack<br>
                         <strong class="me-1">Questline: </strong>Roderika<br>
@@ -742,13 +792,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_11" id="item_1_11">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_11" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_11" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_11&amp;id=gestures_1_11&amp;link=/checklists/gestures.html%23item_1_11&amp;title=Dozing Cross-Legged">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_11">
-                            <img class="me-1" data-src="/img/icons/gestures/07036.png" height="70" loading="lazy" width="70">Dozing Cross-Legged
+                            <img class="me-1" data-src="/img/icons/gestures/07036.png" height="70" loading="lazy">Dozing Cross-Legged
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -764,7 +819,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_11">
-                        <img class="float-end" data-src="/img/icons/gestures/07036.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07036.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Dozing Cross-Legged<br>
                         <strong class="me-1">Location: </strong>Stormveil Castle<br>
                         <strong class="me-1">Description: </strong>Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask.<br>
@@ -775,13 +830,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_12" id="item_1_12">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_12" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_12" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_12&amp;id=gestures_1_12&amp;link=/checklists/gestures.html%23item_1_12&amp;title=Bravo!">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_12">
-                            <img class="me-1" data-src="/img/icons/gestures/07026.png" height="70" loading="lazy" width="70">Bravo!
+                            <img class="me-1" data-src="/img/icons/gestures/07026.png" height="70" loading="lazy">Bravo!
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -797,7 +857,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_12">
-                        <img class="float-end" data-src="/img/icons/gestures/07026.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07026.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Bravo!<br>
                         <strong class="me-1">Questline: </strong>Varré<br>
                         <strong class="me-1">Description: </strong>After you've beaten your first demigod (traditionally Godrick), but before finding Varré at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture.<br>
@@ -808,13 +868,18 @@
                 <li class="list-group-item searchable" data-id="gestures_1_13" id="item_1_13">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_1_13" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="1" id="gestures_1_13" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_1_13&amp;id=gestures_1_13&amp;link=/checklists/gestures.html%23item_1_13&amp;title=Patches' Crouch">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_13">
-                            <img class="me-1" data-src="/img/icons/gestures/07032.png" height="70" loading="lazy" width="70">Patches' Crouch
+                            <img class="me-1" data-src="/img/icons/gestures/07032.png" height="70" loading="lazy">Patches' Crouch
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -830,7 +895,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_1_13">
-                        <img class="float-end" data-src="/img/icons/gestures/07032.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07032.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Patches' Crouch<br>
                         <strong class="me-1">Location: </strong>Murkwater Cave<br>
                         <strong class="me-1">Questline: </strong>Patches<br>
@@ -858,6 +923,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -888,13 +958,18 @@
                 <li class="list-group-item searchable" data-id="gestures_2_1" id="item_2_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_2_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="gestures_2_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_2_1&amp;id=gestures_2_1&amp;link=/checklists/gestures.html%23item_2_1&amp;title=Prayer">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07041.png" height="70" loading="lazy" width="70">Prayer
+                            <img class="me-1" data-src="/img/icons/gestures/07041.png" height="70" loading="lazy">Prayer
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -910,7 +985,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07041.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07041.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Prayer<br>
                         <strong class="me-1">Questline: </strong>Corhyn<br>
                         <strong class="me-1">Description: </strong>Talk to Brother Corhyn.<br>
@@ -921,13 +996,18 @@
                 <li class="list-group-item searchable" data-id="gestures_2_2" id="item_2_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_2_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="gestures_2_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_2_2&amp;id=gestures_2_2&amp;link=/checklists/gestures.html%23item_2_2&amp;title=What Do You Want?">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07040.png" height="70" loading="lazy" width="70">What Do You Want?
+                            <img class="me-1" data-src="/img/icons/gestures/07040.png" height="70" loading="lazy">What Do You Want?
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -943,7 +1023,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07040.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07040.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>What Do You Want?<br>
                         <strong class="me-1">Questline: </strong>Ensha<br>
                         <strong class="me-1">Description: </strong>Try to talk to Ensha.<br>
@@ -954,13 +1034,18 @@
                 <li class="list-group-item searchable" data-id="gestures_2_3" id="item_2_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_2_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="gestures_2_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_2_3&amp;id=gestures_2_3&amp;link=/checklists/gestures.html%23item_2_3&amp;title=Reverential Bow">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_3">
-                            <img class="me-1" data-src="/img/icons/gestures/07004.png" height="70" loading="lazy" width="70">Reverential Bow
+                            <img class="me-1" data-src="/img/icons/gestures/07004.png" height="70" loading="lazy">Reverential Bow
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -976,7 +1061,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_3">
-                        <img class="float-end" data-src="/img/icons/gestures/07004.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07004.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Reverential Bow<br>
                         <strong class="me-1">Description: </strong>Hop over the balcony and get invaded by NPC Mad Tongue Alberich. He'll perform this gesture, and it'll unlock as long as you let him finish.<br>
                       </label>
@@ -986,13 +1071,18 @@
                 <li class="list-group-item searchable" data-id="gestures_2_4" id="item_2_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_2_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="gestures_2_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_2_4&amp;id=gestures_2_4&amp;link=/checklists/gestures.html%23item_2_4&amp;title=Curtsy">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_4">
-                            <img class="me-1" data-src="/img/icons/gestures/07003.png" height="70" loading="lazy" width="70">Curtsy
+                            <img class="me-1" data-src="/img/icons/gestures/07003.png" height="70" loading="lazy">Curtsy
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1008,7 +1098,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_4">
-                        <img class="float-end" data-src="/img/icons/gestures/07003.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07003.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Curtsy<br>
                         <strong class="me-1">Questline: </strong>Roderika<br>
                         <strong class="me-1">Description: </strong>Level up one of your spirits to at least +4, then talk to her.<br>
@@ -1019,13 +1109,18 @@
                 <li class="list-group-item searchable" data-id="gestures_2_5" id="item_2_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_2_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="2" id="gestures_2_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_2_5&amp;id=gestures_2_5&amp;link=/checklists/gestures.html%23item_2_5&amp;title=Rapture">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_5">
-                            <img class="me-1" data-src="/img/icons/gestures/07043.png" height="70" loading="lazy" width="70">Rapture
+                            <img class="me-1" data-src="/img/icons/gestures/07043.png" height="70" loading="lazy">Rapture
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1041,7 +1136,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_2_5">
-                        <img class="float-end" data-src="/img/icons/gestures/07043.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07043.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Rapture<br>
                         <strong class="me-1">Description: </strong>Once you have your first Great Rune and the door to the Two Fingers is open, interact with them.<br>
                       </label>
@@ -1067,6 +1162,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1097,13 +1197,18 @@
                 <li class="list-group-item searchable" data-id="gestures_3_1" id="item_3_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_1&amp;id=gestures_3_1&amp;link=/checklists/gestures.html%23item_3_1&amp;title=As You Wish">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07010.png" height="70" loading="lazy" width="70">As You Wish
+                            <img class="me-1" data-src="/img/icons/gestures/07010.png" height="70" loading="lazy">As You Wish
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1119,7 +1224,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07010.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07010.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>As You Wish<br>
                         <strong class="me-1">Questline: </strong>Hyetta<br>
                         <strong class="me-1">Description: </strong>Give Hyetta a Shabriri Grape.<br>
@@ -1130,13 +1235,18 @@
                 <li class="list-group-item searchable" data-id="gestures_3_2" id="item_3_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_2&amp;id=gestures_3_2&amp;link=/checklists/gestures.html%23item_3_2&amp;title=Fire Spur Me">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07024.png" height="70" loading="lazy" width="70">Fire Spur Me
+                            <img class="me-1" data-src="/img/icons/gestures/07024.png" height="70" loading="lazy">Fire Spur Me
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1152,7 +1262,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07024.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07024.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Fire Spur Me<br>
                         <strong class="me-1">Description: </strong>On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia.<br>
                       </label>
@@ -1162,13 +1272,18 @@
                 <li class="list-group-item searchable" data-id="gestures_3_3" id="item_3_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_3&amp;id=gestures_3_3&amp;link=/checklists/gestures.html%23item_3_3&amp;title=Spread Out">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_3">
-                            <img class="me-1" data-src="/img/icons/gestures/07037.png" height="70" loading="lazy" width="70">Spread Out
+                            <img class="me-1" data-src="/img/icons/gestures/07037.png" height="70" loading="lazy">Spread Out
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1184,7 +1299,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_3">
-                        <img class="float-end" data-src="/img/icons/gestures/07037.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07037.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Spread Out<br>
                         <strong class="me-1">Location: </strong>Boilprawn Shack<br>
                         <strong class="me-1">Questline: </strong>Blackguard Big Boggart<br>
@@ -1196,20 +1311,25 @@
                 <li class="list-group-item searchable" data-id="gestures_3_4" id="item_3_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_4&amp;id=gestures_3_4&amp;link=/checklists/gestures.html%23item_3_4&amp;title=Erudition">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">
-                            <img class="me-1" data-src="/img/icons/gestures/07046.png" height="70" loading="lazy" width="70">Erudition
+                            <img class="me-1" data-src="/img/icons/gestures/07046.png" height="70" loading="lazy">Erudition
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">Church of Irith</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">puzzle towers</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">Thops</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown.</label>
@@ -1218,10 +1338,10 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_4">
-                        <img class="float-end" data-src="/img/icons/gestures/07046.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07046.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Erudition<br>
                         <strong class="me-1">Location: </strong>Church of Irith<br>
-                        <strong class="me-1">Questline: </strong>puzzle towers<br>
+                        <strong class="me-1">Questline: </strong>Thops<br>
                         <strong class="me-1">Description: </strong>Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown.<br>
                       </label>
                     </div>
@@ -1230,13 +1350,18 @@
                 <li class="list-group-item searchable" data-id="gestures_3_5" id="item_3_5">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_5" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_5" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_5&amp;id=gestures_3_5&amp;link=/checklists/gestures.html%23item_3_5&amp;title=Balled Up">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_5">
-                            <img class="me-1" data-src="/img/icons/gestures/07039.png" height="70" loading="lazy" width="70">Balled Up
+                            <img class="me-1" data-src="/img/icons/gestures/07039.png" height="70" loading="lazy">Balled Up
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1246,16 +1371,16 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_5"></label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_5">Use a Larval Tear to rebirth yourself with Rennala.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_5">Perform rebirth or cosmetics with Rennala.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_5">
-                        <img class="float-end" data-src="/img/icons/gestures/07039.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07039.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Balled Up<br>
                         <strong class="me-1">Location: </strong>Academy of Raya Lucaria<br>
-                        <strong class="me-1">Description: </strong>Use a Larval Tear to rebirth yourself with Rennala.<br>
+                        <strong class="me-1">Description: </strong>Perform rebirth or cosmetics with Rennala.<br>
                       </label>
                     </div>
                   </div>
@@ -1263,13 +1388,18 @@
                 <li class="list-group-item searchable" data-id="gestures_3_6" id="item_3_6">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_3_6" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="3" id="gestures_3_6" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_3_6&amp;id=gestures_3_6&amp;link=/checklists/gestures.html%23item_3_6&amp;title=Casual Greeting (option 1)">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_6">
-                            <img class="me-1" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy" width="70">Casual Greeting (option 1)
+                            <img class="me-1" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy">Casual Greeting (option 1)
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1285,7 +1415,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_3_6">
-                        <img class="float-end" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Casual Greeting (option 1)<br>
                         <strong class="me-1">Location: </strong>Ruin-Strewn Precipice<br>
                         <strong class="me-1">Description: </strong>Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone.<br>
@@ -1312,6 +1442,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1342,13 +1477,18 @@
                 <li class="list-group-item searchable" data-id="gestures_4_1" id="item_4_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_4_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="4" id="gestures_4_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_4_1&amp;id=gestures_4_1&amp;link=/checklists/gestures.html%23item_4_1&amp;title=Desperate Prayer">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07042.png" height="70" loading="lazy" width="70">Desperate Prayer
+                            <img class="me-1" data-src="/img/icons/gestures/07042.png" height="70" loading="lazy">Desperate Prayer
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1364,7 +1504,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07042.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07042.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Desperate Prayer<br>
                         <strong class="me-1">Location: </strong>Gowry's Shack<br>
                         <strong class="me-1">Questline: </strong>Gowry<br>
@@ -1376,32 +1516,38 @@
                 <li class="list-group-item searchable" data-id="gestures_4_2" id="item_4_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_4_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="4" id="gestures_4_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_4_2&amp;id=gestures_4_2&amp;link=/checklists/gestures.html%23item_4_2&amp;title=Heartening Cry">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07021.png" height="70" loading="lazy" width="70">Heartening Cry
+                            <img class="me-1" data-src="/img/icons/gestures/07021.png" height="70" loading="lazy">Heartening Cry
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">Redmane Castle</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2"></label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">Jerren</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">Talk to Jerren the festival announcer at Redmane Castle before the Radahn fight, watch the cutscene, and talk again.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07021.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07021.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Heartening Cry<br>
                         <strong class="me-1">Location: </strong>Redmane Castle<br>
-                        <strong class="me-1">Description: </strong>Talk to the festival announcer (Jerren?) at Redmane Castle before the Radahn fight, watch the cutscene, and talk again.<br>
+                        <strong class="me-1">Questline: </strong>Jerren<br>
+                        <strong class="me-1">Description: </strong>Talk to Jerren the festival announcer at Redmane Castle before the Radahn fight, watch the cutscene, and talk again.<br>
                       </label>
                     </div>
                   </div>
@@ -1409,13 +1555,18 @@
                 <li class="list-group-item searchable" data-id="gestures_4_3" id="item_4_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_4_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="4" id="gestures_4_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_4_3&amp;id=gestures_4_3&amp;link=/checklists/gestures.html%23item_4_3&amp;title=Polite Bow">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_3">
-                            <img class="me-1" data-src="/img/icons/gestures/07001.png" height="70" loading="lazy" width="70">Polite Bow
+                            <img class="me-1" data-src="/img/icons/gestures/07001.png" height="70" loading="lazy">Polite Bow
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1425,16 +1576,16 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_3"></label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_3">Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_3">Try to talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_3">
-                        <img class="float-end" data-src="/img/icons/gestures/07001.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07001.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Polite Bow<br>
                         <strong class="me-1">Location: </strong>Redmane Castle<br>
-                        <strong class="me-1">Description: </strong>Talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight.<br>
+                        <strong class="me-1">Description: </strong>Try to talk to Finger Maiden Thorelina at Redmane Castle before the Radahn fight.<br>
                       </label>
                     </div>
                   </div>
@@ -1442,13 +1593,18 @@
                 <li class="list-group-item searchable" data-id="gestures_4_4" id="item_4_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_4_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="4" id="gestures_4_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_4_4&amp;id=gestures_4_4&amp;link=/checklists/gestures.html%23item_4_4&amp;title=Casual Greeting (option 2)">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_4">
-                            <img class="me-1" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy" width="70">Casual Greeting (option 2)
+                            <img class="me-1" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy">Casual Greeting (option 2)
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1464,7 +1620,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_4_4">
-                        <img class="float-end" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07008.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Casual Greeting (option 2)<br>
                         <strong class="me-1">Location: </strong>Redmane Castle<br>
                         <strong class="me-1">Description: </strong>Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing.<br>
@@ -1491,6 +1647,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1521,13 +1682,18 @@
                 <li class="list-group-item searchable" data-id="gestures_5_1" id="item_5_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_5_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="5" id="gestures_5_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_5_1&amp;id=gestures_5_1&amp;link=/checklists/gestures.html%23item_5_1&amp;title=My Thanks">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_5_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07002.png" height="70" loading="lazy" width="70">My Thanks
+                            <img class="me-1" data-src="/img/icons/gestures/07002.png" height="70" loading="lazy">My Thanks
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1537,17 +1703,17 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_5_1">Volcano Manor</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_5_1">At the end of the hallway after beating Rykard.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_5_1">After beating Rykard, return to where you met the ghost in the primary hall of the Manor to find he's left you this gesture.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_5_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07002.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07002.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>My Thanks<br>
                         <strong class="me-1">Location: </strong>Volcano Manor<br>
                         <strong class="me-1">Questline: </strong>Volcano Manor<br>
-                        <strong class="me-1">Description: </strong>At the end of the hallway after beating Rykard.<br>
+                        <strong class="me-1">Description: </strong>After beating Rykard, return to where you met the ghost in the primary hall of the Manor to find he's left you this gesture.<br>
                       </label>
                     </div>
                   </div>
@@ -1571,6 +1737,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1601,13 +1772,18 @@
                 <li class="list-group-item searchable" data-id="gestures_6_1" id="item_6_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_6_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="gestures_6_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_6_1&amp;id=gestures_6_1&amp;link=/checklists/gestures.html%23item_6_1&amp;title=Outer Order">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07047.png" height="70" loading="lazy" width="70">Outer Order
+                            <img class="me-1" data-src="/img/icons/gestures/07047.png" height="70" loading="lazy">Outer Order
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1623,7 +1799,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07047.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07047.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Outer Order<br>
                         <strong class="me-1">Location: </strong>Minor Erdtree Church, Capital Outskirts<br>
                         <strong class="me-1">Questline: </strong>Melina<br>
@@ -1635,13 +1811,18 @@
                 <li class="list-group-item searchable" data-id="gestures_6_2" id="item_6_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_6_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="gestures_6_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_6_2&amp;id=gestures_6_2&amp;link=/checklists/gestures.html%23item_6_2&amp;title=By My Sword">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07022.png" height="70" loading="lazy" width="70">By My Sword
+                            <img class="me-1" data-src="/img/icons/gestures/07022.png" height="70" loading="lazy">By My Sword
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1651,16 +1832,16 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_2"></label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_2">In a small room in the south wing.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_2">In the parallel to Fia's room.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07022.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07022.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>By My Sword<br>
                         <strong class="me-1">Location: </strong>Fortified Manor, First Floor<br>
-                        <strong class="me-1">Description: </strong>In a small room in the south wing.<br>
+                        <strong class="me-1">Description: </strong>In the parallel to Fia's room.<br>
                       </label>
                     </div>
                   </div>
@@ -1668,13 +1849,18 @@
                 <li class="list-group-item searchable" data-id="gestures_6_3" id="item_6_3">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_6_3" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="gestures_6_3" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_6_3&amp;id=gestures_6_3&amp;link=/checklists/gestures.html%23item_6_3&amp;title=My Lord">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_3">
-                            <img class="me-1" data-src="/img/icons/gestures/07005.png" height="70" loading="lazy" width="70">My Lord
+                            <img class="me-1" data-src="/img/icons/gestures/07005.png" height="70" loading="lazy">My Lord
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1690,7 +1876,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_3">
-                        <img class="float-end" data-src="/img/icons/gestures/07005.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07005.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>My Lord<br>
                         <strong class="me-1">Location: </strong>East Capital Rampart<br>
                         <strong class="me-1">Questline: </strong>Boc<br>
@@ -1702,13 +1888,18 @@
                 <li class="list-group-item searchable" data-id="gestures_6_4" id="item_6_4">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_6_4" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="6" id="gestures_6_4" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_6_4&amp;id=gestures_6_4&amp;link=/checklists/gestures.html%23item_6_4&amp;title=Golden Order Totality">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_4">
-                            <img class="me-1" data-src="/img/icons/gestures/07049.png" height="70" loading="lazy" width="70">Golden Order Totality
+                            <img class="me-1" data-src="/img/icons/gestures/07049.png" height="70" loading="lazy">Golden Order Totality
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1718,16 +1909,16 @@
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_4">Goldmask</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_4">Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_4">After solving the Regression puzzle, tell Goldmask by the colosseum.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_6_4">
-                        <img class="float-end" data-src="/img/icons/gestures/07049.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07049.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Golden Order Totality<br>
                         <strong class="me-1">Questline: </strong>Goldmask<br>
-                        <strong class="me-1">Description: </strong>Unlocked after solving the Regression puzzle and telling Goldmask in the colosseum.<br>
+                        <strong class="me-1">Description: </strong>After solving the Regression puzzle, tell Goldmask by the colosseum.<br>
                       </label>
                     </div>
                   </div>
@@ -1751,6 +1942,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1781,20 +1977,25 @@
                 <li class="list-group-item searchable" data-id="gestures_7_1" id="item_7_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_7_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="7" id="gestures_7_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_7_1&amp;id=gestures_7_1&amp;link=/checklists/gestures.html%23item_7_1&amp;title=Fancy Spin">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07029.png" height="70" loading="lazy" width="70">Fancy Spin
+                            <img class="me-1" data-src="/img/icons/gestures/07029.png" height="70" loading="lazy">Fancy Spin
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">Stargazer's Ruins</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">jellyfish</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">Aurelia</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">Reunite the jellyfish by summoning the Spirit Ash Roderika gave you.</label>
@@ -1803,10 +2004,10 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07029.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07029.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Fancy Spin<br>
                         <strong class="me-1">Location: </strong>Stargazer's Ruins<br>
-                        <strong class="me-1">Questline: </strong>jellyfish<br>
+                        <strong class="me-1">Questline: </strong>Aurelia<br>
                         <strong class="me-1">Description: </strong>Reunite the jellyfish by summoning the Spirit Ash Roderika gave you.<br>
                       </label>
                     </div>
@@ -1815,33 +2016,38 @@
                 <li class="list-group-item searchable" data-id="gestures_7_2" id="item_7_2">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_7_2" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="7" id="gestures_7_2" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_7_2&amp;id=gestures_7_2&amp;link=/checklists/gestures.html%23item_7_2&amp;title=Hoslow's Oath">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">
-                            <img class="me-1" data-src="/img/icons/gestures/07023.png" height="70" loading="lazy" width="70">Hoslow's Oath
+                            <img class="me-1" data-src="/img/icons/gestures/07023.png" height="70" loading="lazy">Hoslow's Oath
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">east of Shack of the Lofty</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">Shack of the Lofty</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">Volcano Manor</label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-5">
-                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">Invade Juno Hoslow.</label>
+                          <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">Invade Juno Hoslow as part of Volcano Manor. He'll perform this gesture when you arrive; just let him finish and it'll unlock.</label>
                         </div>
                       </div>
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_7_2">
-                        <img class="float-end" data-src="/img/icons/gestures/07023.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07023.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Hoslow's Oath<br>
-                        <strong class="me-1">Location: </strong>east of Shack of the Lofty<br>
+                        <strong class="me-1">Location: </strong>Shack of the Lofty<br>
                         <strong class="me-1">Questline: </strong>Volcano Manor<br>
-                        <strong class="me-1">Description: </strong>Invade Juno Hoslow.<br>
+                        <strong class="me-1">Description: </strong>Invade Juno Hoslow as part of Volcano Manor. He'll perform this gesture when you arrive; just let him finish and it'll unlock.<br>
                       </label>
                     </div>
                   </div>
@@ -1865,6 +2071,11 @@
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
                       <input class="form-check-input invisible pe-0 me-0" type="checkbox">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="#">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block">
                       <div class="row">
@@ -1895,13 +2106,18 @@
                 <li class="list-group-item searchable" data-id="gestures_8_1" id="item_8_1">
                   <div class="row form-check checkbox d-flex">
                     <div class="col-auto d-flex align-items-center">
-                      <input class="form-check-input pe-0 me-0" id="gestures_8_1" type="checkbox" value="">
+                      <input class="form-check-input pe-0 me-0" data-section-idx="8" id="gestures_8_1" type="checkbox" value="">
+                    </div>
+                    <div class="col-auto d-flex align-items-center order-last">
+                      <a class="invisible" href="/map.html?target=gestures_8_1&amp;id=gestures_8_1&amp;link=/checklists/gestures.html%23item_8_1&amp;title=Inner Order">
+                        <i class="bi bi-geo-alt"></i>
+                      </a>
                     </div>
                     <div class="col d-flex align-items-center d-md-block d-none">
                       <div class="row">
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-3">
                           <label class="form-check-label item_content ms-0 ps-0" for="gestures_8_1">
-                            <img class="me-1" data-src="/img/icons/gestures/07048.png" height="70" loading="lazy" width="70">Inner Order
+                            <img class="me-1" data-src="/img/icons/gestures/07048.png" height="70" loading="lazy">Inner Order
                           </label>
                         </div>
                         <div class="ms-0 ps-0 d-flex align-items-center col-md-2">
@@ -1917,7 +2133,7 @@
                     </div>
                     <div class="col d-md-none">
                       <label class="form-check-label item_content ms-0 ps-0" for="gestures_8_1">
-                        <img class="float-end" data-src="/img/icons/gestures/07048.png" height="70" loading="lazy" width="70">
+                        <img class="float-end" data-src="/img/icons/gestures/07048.png" height="70" loading="lazy">
                         <strong class="me-1">Name: </strong>Inner Order<br>
                         <strong class="me-1">Location: </strong>Siofra Aqueduct<br>
                         <strong class="me-1">Questline: </strong>D's twin<br>
@@ -1935,13 +2151,16 @@
     <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
       <span class="bi bi-arrow-up"></span>
     </a>
+    <script>window.current_page_id = "gestures";
+</script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
+    <script src="/js/progress.js"></script>
+    <script src="/js/item_links.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
-    <script src="/js/jstorage.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
     <script>
@@ -1983,6 +2202,5 @@
             })( jQuery );
             </script>
     <script src="/js/checklists.js"></script>
-    <script src="/js/item_links.js"></script>
   </body>
 </html>

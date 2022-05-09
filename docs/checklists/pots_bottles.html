@@ -19,26 +19,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none sticky-top" id="top_nav">
       <div class="container-fluid">
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <div class="order-md-last d-none d-md-block">
-          <form class="d-flex">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="d-md-none">
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
           <a class="nav-link me-0" href="/search.html">
             <i class="bi bi-search sb-icon-search"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
@@ -71,13 +69,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                </li>
-                <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -99,10 +94,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -231,7 +226,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_0Col" data-bs-toggle="collapse" href="#pots_bottles_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/keys/00504.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/edited/00504.png" height="70" loading="lazy">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Cracked+Pot">Cracked Pots</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_0"></span>
             </h4>
@@ -240,31 +235,31 @@
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_1" id="item_1_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_1" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_1">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_2" id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_2">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_3" id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_3">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_5" id="item_1_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_5" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_5">Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_4" id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_4">East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes</label>
                   </div>
                 </li>
@@ -273,7 +268,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_6" id="item_1_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_6" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_6">Castle Morne Rampart Grace: Sold by Nomadic Merchant for 600 runes</label>
                   </div>
                 </li>
@@ -282,13 +277,13 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_7" id="item_1_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_7" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_7">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_8" id="item_1_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_8" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_8">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</label>
                   </div>
                 </li>
@@ -297,25 +292,25 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_9" id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_9" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_9">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a corpse by a large headstone on the southern end of town</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_10" id="item_1_10">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_10" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_10">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a corpse leaning against a building's blocked entrance on the northern end of town</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_11" id="item_1_11">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_11" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_11" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_11">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found in a hut just northeast of the previous</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_13" id="item_1_13">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_13" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_13" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_13">Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through; it's amongst Living Pots on the right side of the cemetery</label>
                   </div>
                 </li>
@@ -324,7 +319,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_12" id="item_1_12">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_12" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_12" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_12">From Debate Parlor Grace, go outside then up the stairs to the left. On a body amongst Living Pots</label>
                   </div>
                 </li>
@@ -333,13 +328,13 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_15" id="item_1_15">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_15" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_15" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_15">Behind the Minor Erdtree in the North-West, on a tree branch extending from the northwest cliffs</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_14" id="item_1_14">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_14" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_14" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_14">South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
                   </div>
                 </li>
@@ -348,25 +343,25 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_16" id="item_1_16">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_16" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_16" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_16">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_17" id="item_1_17">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_17" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_17" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_17">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_18" id="item_1_18">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_18" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_18" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_18">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_19" id="item_1_19">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_19" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_19" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_19">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</label>
                   </div>
                 </li>
@@ -375,7 +370,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_20" id="item_1_20">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_1_20" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="pots_bottles_1_20" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_1_20">Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse</label>
                   </div>
                 </li>
@@ -389,7 +384,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_1Col" data-bs-toggle="collapse" href="#pots_bottles_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/keys/03010.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/edited/03010.png" height="70" loading="lazy">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Ritual+Pot">Ritual Pots</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_1"></span>
             </h4>
@@ -398,25 +393,25 @@
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_1" id="item_2_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_1" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_1">Laskyar Ruins, North-West of Liurnia Lake Shore Grace: near columns on the northern side</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_2" id="item_2_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_2">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop only accessible as you descend the cliffside path from above</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_3" id="item_2_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_3">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a decorative jar</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_5" id="item_2_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_5" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_5">After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes</label>
                   </div>
                 </li>
@@ -425,7 +420,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_4" id="item_2_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_4">Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar</label>
                   </div>
                 </li>
@@ -434,7 +429,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_6" id="item_2_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_6" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_6">Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes</label>
                   </div>
                 </li>
@@ -443,13 +438,13 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_7" id="item_2_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_7" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_7">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_8" id="item_2_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_8" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_8">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</label>
                   </div>
                 </li>
@@ -458,7 +453,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_9" id="item_2_9">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_9" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_9">In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace.</label>
                   </div>
                 </li>
@@ -467,7 +462,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_10" id="item_2_10">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_2_10" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="pots_bottles_2_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_2_10">Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar.</label>
                   </div>
                 </li>
@@ -481,7 +476,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_2Col" data-bs-toggle="collapse" href="#pots_bottles_2Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/keys/00443.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/edited/00443.png" height="70" loading="lazy">
               <a class="d-print-inline" href="https://eldenring.wiki.fextralife.com/Perfume+Bottle">Perfume Bottles</a>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_2"></span>
             </h4>
@@ -490,7 +485,7 @@
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_1" id="item_3_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_1" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_1">Street of Sages Ruins in the North-West part of the rot swamp: in the corner of a ruined building guarded by Miranda Sprouts and a Servant of Rot</label>
                   </div>
                 </li>
@@ -499,37 +494,37 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_2" id="item_3_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_2">Found North of the Altus Highway Junction Site of Grace, on a body in the small camp near the Erdtree sapling</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_5" id="item_3_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_5" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_5">Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_3" id="item_3_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_3">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_4" id="item_3_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_4">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, under the Giant Miranda Sprout in the basement</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_6" id="item_3_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_6" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_6">Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_8" id="item_3_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_8" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_8">Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes</label>
                   </div>
                 </li>
@@ -538,7 +533,7 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_7" id="item_3_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_7" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_7">Volcano Manor: on a body in a room unlocked with the Drawing-Room Key</label>
                   </div>
                 </li>
@@ -547,13 +542,13 @@
               <ul class="list-group-flush mb-0">
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_9" id="item_3_9">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_9" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_9" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_9">In a chest after a ladder to the second floor of the tower next to the East Capital Rampart Grace</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_10" id="item_3_10">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="pots_bottles_3_10" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="2" id="pots_bottles_3_10" type="checkbox" value="">
                     <label class="form-check-label item_content" for="pots_bottles_3_10">On the East side of the Eastern pond, on a body guarded by a Lesser Misbegotten</label>
                   </div>
                 </li>
@@ -566,13 +561,16 @@
     <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
       <span class="bi bi-arrow-up"></span>
     </a>
+    <script>window.current_page_id = "pots_bottles";
+</script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
+    <script src="/js/progress.js"></script>
+    <script src="/js/item_links.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
-    <script src="/js/jstorage.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
     <script>
@@ -614,6 +612,5 @@
             })( jQuery );
             </script>
     <script src="/js/checklists.js"></script>
-    <script src="/js/item_links.js"></script>
   </body>
 </html>

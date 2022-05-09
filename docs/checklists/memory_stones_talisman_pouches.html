@@ -19,26 +19,24 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark d-print-none" id="top_nav">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark d-print-none sticky-top" id="top_nav">
       <div class="container-fluid">
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <div class="order-md-last d-none d-md-block">
-          <form class="d-flex">
-            <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-            <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="d-md-none">
+        <form class="d-none d-sm-flex order-2 order-xl-3">
+          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="d-sm-none order-2">
           <a class="nav-link me-0" href="/search.html">
             <i class="bi bi-search sb-icon-search"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="nav-collapse">
+        <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
@@ -71,13 +69,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legacy_dungeons.html">Legacy Dungeons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/caves_catacombsand_tunnels.html">Caves, Catacombs, and Tunnels</a>
-                </li>
-                <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/evergaols.html">Evergaols</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
@@ -99,10 +94,10 @@
                   <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
                 </li>
                 <li class="tab-li">
                   <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
@@ -227,7 +222,7 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#memory_stones_talisman_pouches_0Col" data-bs-toggle="collapse" href="#memory_stones_talisman_pouches_0Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/keys/00553.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/edited/00553.png" height="70" loading="lazy">
               <span class="d-print-inline">Memory Stones</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="memory_stones_talisman_pouches_totals_0"></span>
             </h4>
@@ -235,49 +230,49 @@
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_1" id="item_0_1">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_1" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_1" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_1">Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_2" id="item_0_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_2">Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_3" id="item_0_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_3">Found in the Converted Tower, in the southwest of Liurnia of the Lakes.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_4" id="item_0_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_4">Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_5" id="item_0_5">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_5" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_5" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_5">Found in Testu's Rise, north of Raya Lucaria Academy.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_6" id="item_0_6">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_6" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_6" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_6">Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_7" id="item_0_7">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_7" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_7" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_7">Found in Lenne's Rise in eastern Caelid.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_0_8" id="item_0_8">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_0_8" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="0" id="memory_stones_talisman_pouches_0_8" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_0_8">Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir.</label>
                   </div>
                 </li>
@@ -291,33 +286,27 @@
               <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#memory_stones_talisman_pouches_1Col" data-bs-toggle="collapse" href="#memory_stones_talisman_pouches_1Col" role="button">
                 <i class="bi bi-chevron-up d-print-none"></i>
               </button>
-              <img class="me-1" data-src="/img/icons/keys/00554.png" height="70" loading="lazy" width="70">
+              <img class="me-1" data-src="/img/icons/keys/edited/00554.png" height="70" loading="lazy">
               <span class="d-print-inline">Talisman Pouches</span>
               <span class="mt-0 badge rounded-pill d-print-none" id="memory_stones_talisman_pouches_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="memory_stones_talisman_pouches_1Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_1_1" id="item_1_1">
-                  <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="memory_stones_talisman_pouches_1_1">Game starts with a Talisman Pouch</label>
-                  </div>
-                </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_1_2" id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_1_2" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="memory_stones_talisman_pouches_1_2" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_1_2">Reward for defeating Margit, the Fell Omen in Stormveil Castle.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_1_3" id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_1_3" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="memory_stones_talisman_pouches_1_3" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_1_3">Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far.</label>
                   </div>
                 </li>
                 <li class="list-group-item searchable ps-0" data-id="memory_stones_talisman_pouches_1_4" id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
-                    <input class="form-check-input" id="memory_stones_talisman_pouches_1_4" type="checkbox" value="">
+                    <input class="form-check-input" data-section-idx="1" id="memory_stones_talisman_pouches_1_4" type="checkbox" value="">
                     <label class="form-check-label item_content" for="memory_stones_talisman_pouches_1_4">Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital.</label>
                   </div>
                 </li>
@@ -330,13 +319,16 @@
     <a class="btn btn-primary btn-sm fadingbutton back-to-top d-print-none">Back to Top&thinsp;
       <span class="bi bi-arrow-up"></span>
     </a>
+    <script>window.current_page_id = "memory_stones_talisman_pouches";
+</script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/common.js"></script>
     <script src="/js/jstorage.min.js"></script>
+    <script src="/js/progress.js"></script>
+    <script src="/js/item_links.js"></script>
+    <script src="/js/common.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
-    <script src="/js/jstorage.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7FMWDCTF5"></script>
     <script>
@@ -378,6 +370,5 @@
             })( jQuery );
             </script>
     <script src="/js/checklists.js"></script>
-    <script src="/js/item_links.js"></script>
   </body>
 </html>

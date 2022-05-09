@@ -1,0 +1,131 @@
+html,body {
+    height: 100%;
+}
+
+#popup {
+    position: absolute;
+    width: intrinsic; /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content; /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    width: max-content;
+    max-width: 60vw;
+    left: 50%;
+    top: -20px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+}
+
+#popup-checkbox {
+    margin-left: 0px !important;
+}
+
+#popup-title {
+    padding-left: 0px !important;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: rgb(62, 62, 62);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border: 1px solid #2c2c2c;
+    bottom: 12px;
+    left: 30px;
+    /* min-width: 280px; */
+    width: intrinsic; /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content; /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    width: max-content;
+    overflow: hidden;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: rgb(62, 62, 62);
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+
+.ol-popup:before {
+    border-top-color: #626262;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+.ol-popup-closer:after {
+    content: "✖";
+}
+code {
+    display: block;
+    white-space: pre-wrap;
+}
+
+#info {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    z-index: 100;
+}
+
+/* .tooltip.in {
+    opacity: 1;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: white;
+}
+
+.tooltip-inner {
+    border: 2px solid white;
+} */
+
+.offcanvas-btn {
+    right: 100%;
+    top: 120px;
+    visibility: visible;
+}
+
+.offcanvas-btn i:last-child,
+.offcanvas.show .offcanvas-btn i:first-child {
+    display: none;
+}
+
+.offcanvas.show .offcanvas-btn i:last-child {
+    display: inline;
+}
+
+div.completed label {
+  text-decoration: line-through;
+  -webkit-text-decoration: line-through !important;
+}
+
+input[type="checkbox"]:checked + .item_content {
+  text-decoration: line-through;
+  -webkit-text-decoration: line-through !important;
+}
+
+div.completed img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
