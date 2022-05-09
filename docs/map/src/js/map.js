@@ -185,6 +185,7 @@
                 // resolutions: ertilegrid.getResolutions(),
                 showFullExtent: true,
                 enableRotation: false,
+                constrainOnlyCenter: true,
             }),
             overlays: [overlay],
         });
