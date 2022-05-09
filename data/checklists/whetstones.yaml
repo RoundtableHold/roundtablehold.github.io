@@ -9,18 +9,24 @@ sections:
       - id: "0_1"
         icon: "/img/icons/keys/edited/03090.png"
         data: ["Whetstone Knife", "Limgrave", "Found in a treasure chest underground in the Gatefront Ruins", "Can add new battle arts and affinities to weapons"]
+        cords: [3786, 6989]
       - id: "0_2"
         icon: "/img/icons/keys/edited/03020.png"
-        data: ["Iron Whetblade", "Limgrave", "Found on a corpse in a room accessible from the kitchen area. Requires a Stonesword key.", "Grants Quality, Keen, or Heavy affinity upgrade to weapon"]
+        data: ["Iron Whetblade", "Limgrave", "In Stormveil Castle. Found on a corpse in an armory room accessible from the kitchen area. Requires a Stonesword key.", "Grants Quality, Keen, or Heavy affinity upgrade to weapon"]
+        cords: [3084, 6689]
       - id: "0_3"
         icon: "/img/icons/keys/edited/03023.png"
-        data: ["Glintstone Whetblade", "Liurnia of the Lakes", "Found on a corpse near the debate hall in Raya Lucaria Academy", "Grants Magic or Cold affinity upgrade to weapon"]
+        data: ["Glintstone Whetblade", "Liurnia of the Lakes", "In Raya Lucaria Academy. Found on a corpse hanging over a balcony overlooking the courtyard near the Debate Parlor.", "Grants Magic or Cold affinity upgrade to weapon"]
+        cords: [1928, 4942]
       - id: "0_4"
         icon: "/img/icons/keys/edited/03021.png"
         data: ["Red-Hot Whetblade", "Caelid", "Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.", "Grants Fire and Flame Art affinity upgrade to weapon"]
+        cords: [6024, 7307]
       - id: "0_5"
         icon: "/img/icons/keys/edited/03024.png"
         data: ["Black Whetblade", "Nokron", "Found on a corpse slumped in front of an altar in Night's Sacred Ground", "Grants Poison, Blood, or Occult affinity upgrade to weapon"]
+        cords: [6068, 14426]
       - id: "0_6"
         icon: "/img/icons/keys/edited/03022.png"
-        data: ["Sanctified Whetblade", "Leyndell, Royal Capital", "Found in the Fortified Manor, accessible from the Avenue Balcony Grace", "Grants Lightning or Sacred affinity upgrade to weapon"]
+        data: ["Sanctified Whetblade", "Leyndell, Royal Capital", "Found in the Fortified Manor on the second floor next to an anvil, accessible from the Avenue Balcony Grace", "Grants Lightning or Sacred affinity upgrade to weapon"]
+        cords: [4220, 3646]
