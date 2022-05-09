@@ -793,54 +793,55 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Halberds"
     table: ["Name", "Location", "Upgrade" ]
     items:
+      # TODO: add grace and other links to all halberds
       - id: "25_1"
         icon: "/img/icons/weapons/halberds/10680.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Halberd\">Halberd</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Halberd\">Halberd</a>", "Starting equipment for the Vagabond class. Can be purchased from the Nomadic Merchant in northern Limgrave.", "Normal"]
       - id: "25_2"
         icon: "/img/icons/weapons/halberds/10683.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight's+Halberd\">Banished Knight's Halberd</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight's+Halberd\">Banished Knight's Halberd</a>", "Dropped by Banished Knights wielding this weapon. One Knight Patrols the Area down the stairs from the Castle Ramparts Site of Grace in Stormveil Castle.", "Normal"]
       - id: "25_3"
         icon: "/img/icons/weapons/halberds/10682.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lucerne\">Lucerne</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lucerne\">Lucerne</a>", "Can be found under some carts north of Liurnia Highway north Site of Grace.", "Normal"]
       - id: "25_4"
         icon: "/img/icons/weapons/halberds/10689.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glaive\">Glaive</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glaive\">Glaive</a>", "Dropped by Skeletons wielding this weapon. One Skeleton is located east of the Church of Vows Site of Grace.", "Normal"]
       - id: "25_5"
         icon: "/img/icons/weapons/halberds/10693.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Shotel\">Vulgar Militia Shotel</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Shotel\">Vulgar Militia Shotel</a>", "Dropped by Vulgar Militia. there are a few up the Hill from Farum Bridge to the Bestial Sanctum.", "Normal"]
       - id: "25_6"
         icon: "/img/icons/weapons/halberds/10687.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Saw\">Vulgar Militia Saw</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Saw\">Vulgar Militia Saw</a>", "Dropped by Vulgar Militia. there are a few up the Hill from Farum Bridge to the Bestial Sanctum.", "Normal"]
       - id: "25_7"
         icon: "/img/icons/weapons/halberds/10691.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian's+Swordspear\">Guardian's Swordspear</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Guardian's+Swordspear\">Guardian's Swordspear</a>", "Dropped by Erdtree Guardians. The earliest farm spot is at the minor Erdtree in the Weeping Peninsula.", "Normal"]
       - id: "25_8"
         icon: "/img/icons/weapons/halberds/10695.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gargoyle's+Halberd\">Gargoyle's Halberd</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gargoyle's+Halberd\">Gargoyle's Halberd</a>", "Dropped by the Valiant Gargoyle near the West Capital Rampart Site of Grace.", "Normal"]
       - id: "25_9"
         icon: "/img/icons/weapons/halberds/10696.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gargoyle's+Black+Halberd\">Gargoyle's Black Halberd</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gargoyle's+Black+Halberd\">Gargoyle's Black Halberd</a>", "Dropped by the Black Blade Kindred outside of the Bestial Sanctum.", "Somber"]
       - id: "25_10"
         icon: "/img/icons/weapons/halberds/10685.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Glaive\">Nightrider Glaive</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightrider+Glaive\">Nightrider Glaive</a>", "Dropped by the Night's Cavalry patrtolling between Bellum Church and East Raya Lucaria Gate in Liurnia of the Lakes.", "Somber"]
       - id: "25_11"
         icon: "/img/icons/weapons/halberds/10681.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pest's+Glaive\">Pest's Glaive</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pest's+Glaive\">Pest's Glaive</a>", "Droppped by Pests, there are many to be found at the Caelid waypoint Ruins. There are 2 guarding the Church of the Plague.", "Somber"]
       - id: "25_12"
         icon: "/img/icons/weapons/halberds/10686.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ripple+Crescent+Halberd\">Ripple Crescent Halberd</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ripple+Crescent+Halberd\">Ripple Crescent Halberd</a>", "Dropped by Albinaurics wielding this weapon. There is a group just east of the Fallen Ruins of the Lakes Site of Grace.", "Somber"]
       - id: "25_13"
         icon: "/img/icons/weapons/halberds/10688.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golden+Halberd\">Golden Halberd</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golden+Halberd\">Golden Halberd</a>", "Dropped by the Tree Sentinel in Limgrave.", "Somber"]
       - id: "25_14"
         icon: "/img/icons/weapons/halberds/10694.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Halberd\">Dragon Halberd</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Halberd\">Dragon Halberd</a>", "Dropped by the Dragonkin Soldier Boss in the upper section of the Worshipper's Woods in Siofra River.", "Somber"]
       - id: "25_15"
         icon: "/img/icons/weapons/halberds/10690.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Loretta's+War+Sickle\">Loretta's War Sickle</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Loretta's+War+Sickle\">Loretta's War Sickle</a>", "Dropped by Loretta, Kinght of the Haligtree.", "Somber"]
       - id: "25_16"
         icon: "/img/icons/weapons/halberds/10684.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commander's+Standard\">Commander's Standard</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commander's+Standard\">Commander's Standard</a>", "Dropped by Commander O'Neil in the heart of Aeonia.", "Somber"]
   -
     title: Reapers
     link: "https://eldenring.wiki.fextralife.com/Reapers"
