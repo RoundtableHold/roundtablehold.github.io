@@ -331,6 +331,16 @@
         function popup_feature(feature, offset = [0,0]) {
             profiles = $.jStorage.get(profilesKey, {});
             var id = feature.get('id');
+            const group = feature.get('group');
+            if (hiddenGroups.has(group)) {
+                hiddenGroups.delete(group);
+                const el = $('#' + group);
+                el.prop('checked', false);
+                el.closest('div').removeClass('completed text-muted')
+                profiles[profilesKey][profiles.current].map_settings['hiddenGroups'] = Array.from(hiddenGroups);
+                $.jStorage.set(profilesKey, profiles);
+                map.getAllLayers().forEach((l) => l.changed())
+            }
             var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
             $(popup_checkbox).prop('checked', checked);
             $(popup_checkbox).attr('data-id', id);
