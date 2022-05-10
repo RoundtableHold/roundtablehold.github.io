@@ -12,55 +12,46 @@ sections:
         data: ["Stranded Graveyard", "Cave", "Soldier of Godrick", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [3766, 7373]
-        map_icon_size: 50
       - id: "1_5"
         data: ["Groveside Cave", "Cave", "Beastman of Farum Azula", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [3664, 7065]
-        map_icon_size: 50
       - id: "1_3"
         data: ["Coastal Cave", "Cave", "Demi-Human Chief (x2)", "Related to Boc's questline."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [3497, 7347]
-        map_icon_size: 50
       - id: "1_9"
         data: ["Murkwater Cave", "Cave", "Patches", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [4060, 6975]
-        map_icon_size: 50
       - id: "1_6"
         data: ["Highroad Cave", "Cave", "Guardian Golem", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [4048, 6437]
-        map_icon_size: 50
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "1_4"
         data: ["Deathtouched Catacombs", "Catacomb", "Black Knife Assassin", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         cords: [3897, 6502]
-        map_icon_size: 50
       - id: "1_10"
         data: ["Stormfoot Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         cords: [3509, 7060]
-        map_icon_size: 50
       - id: "1_8"
         data: ["Murkwater Catacombs", "Catacomb", "Grave Warden Duelist", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         cords: [4067, 6704]
-        map_icon_size: 50
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "1_7"
         data: ["Limgrave Tunnels", "Tunnel", "Stonedigger Troll", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [3839, 7051]
-        map_icon_size: 50
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
       - id: "1_2"
         data: ["Fringefolk Hero's Grave", "Hero's grave", "Ulcerated Tree Sprit<br>Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/MENU_MAP_16.png'
         cords: [3755, 7319]
-        map_icon_size: 70
+        map_icon_size: 50
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e1"
         data: ["Forlorn Hound Evergaol", "Evergaol", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
@@ -75,94 +66,84 @@ sections:
         data: ["Minor Erdtree", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_30.png'
         cords: [4561, 7088]
-        map_icon_size: 70
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l2"
         data: ["Divine Tower of Limgrave", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
         cords: [4239, 6218]
-        map_icon_size: 70
+        map_icon_size: 45
         #TOWERS '/map/icons/MENU_MAP_08.png'
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l3"
         data: ["Dragon-Burnt Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [3965, 7373]
-        map_icon_size: 50
       - id: "l4"
         data: ["Gatefront Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [3785, 6961]
-        map_icon_size: 50
       - id: "l5"
         data: ["Mistwood Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [4419, 7152]
-        map_icon_size: 50
       - id: "l6"
         data: ["Waypoint Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [4234, 7222]
-        map_icon_size: 50
       - id: "l7"
         data: ["Summonwater Village", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [4462, 6491]
-        map_icon_size: 50
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l8"
         data: ["Stormhill Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
         cords: [3491, 6775]
-        map_icon_size: 50
       - id: "l9"
         data: ["Warmaster's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
         cords: [3720, 6694]
-        map_icon_size: 50
       - id: "l10"
         data: ["Artist's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
         cords: [4214, 6794]
-        map_icon_size: 50
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l11"
         data: ["Church of Elleh", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [3657, 7210]
-        map_icon_size: 60
+        map_icon_size: 40
       - id: "l12"
         data: ["Church of Dragon Communion", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [3382, 7601]
-        map_icon_size: 60
+        map_icon_size: 40
       - id: "l13"
         data: ["Third Church of Marika", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [4624, 6710]
-        map_icon_size: 60
+        map_icon_size: 40
         #UNIQUE
       - id: "l14"
         data: ["Stormgate", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_10.png'
         cords: [3677, 6915]
-        map_icon_size: 50
       - id: "l15"
         data: ["Siofra River Well", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Ungro.png'
         cords: [4581, 7032]
-        map_icon_size: 50
       - id: "l16"
         data: ["Fort Haight", "Landmark", "", "Related to Kenneth Haight's questline."]
         icon: '/map/icons/MENU_MAP_18.png'
         cords: [4707, 7314]
-        map_icon_size: 60
+        map_icon_size: 40
         #LEGACY
       - id: "ld1"
         data: ["Stormveil Castle", "Legacy dungeon (major)", "Margit, the Fell Omen<br>Godrick the Grafted", "Semi-required for progression."]
         icon: '/map/icons/MENU_MAP_50.png'
         cords: [3216, 6775]
-        map_icon_size: 70
+        map_icon_size: 45
   -
     title: "Weeping Peninsula"
     table: ["Name", "Type", "Bosses", "Notes"]
@@ -172,29 +153,24 @@ sections:
         data: ["Earthbore Cave", "Cave", "Runebear", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [4136, 7836]
-        map_icon_size: 50
       - id: "0_5"
         data: ["Tombsward Cave", "Cave", "Miranda, the Blighted Bloom", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [3616, 8023]
-        map_icon_size: 50
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "0_2"
         data: ["Impaler's Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         cords: [4472, 7848]
-        map_icon_size: 50
       - id: "0_4"
         data: ["Tombsward Catacombs", "Catacomb", "Cemetary Shade", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         cords: [3851, 7951]
-        map_icon_size: 50
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "0_3"
         data: ["Morne Tunnel", "Tunnel", "Scaly Misbegotten", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [4005, 8113]
-        map_icon_size: 50
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e3"
@@ -206,79 +182,71 @@ sections:
         data: ["Minor Erdtree", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
         cords: [3912, 8109]
-        map_icon_size: 70
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l18"
         data: ["Oridys's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
         cords: [4415, 8121]
-        map_icon_size: 70
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l19"
         data: ["Demi-Human Forest Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [3994, 7867]
-        map_icon_size: 50
       - id: "l20"
         data: ["Tombsward Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [3704, 7918]
-        map_icon_size: 50
       - id: "l21"
         data: ["Witchbane Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
         cords: [3510, 8063]
-        map_icon_size: 50
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l22"
         data: ["Isolated Merchant's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
         cords: [3468, 8225]
-        map_icon_size: 50
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l23"
         data: ["Church of Pilgrimage", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [3858, 7679]
-        map_icon_size: 60
+        map_icon_size: 40
       - id: "l24"
         data: ["Callu Baptismal Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [4137, 8122]
-        map_icon_size: 60
+        map_icon_size: 40
       - id: "l25"
         data: ["Fourth Church of Marika", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
         cords: [3538, 7993]
-        map_icon_size: 60
+        map_icon_size: 40
         #UNIQUE
       - id: "l26"
         data: ["Bridge of Sacrifice", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_11.png'
         cords: [4350, 7771]
-        map_icon_size: 50
       - id: "l27"
         data: ["Ailing Village", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_37.png'
         cords: [4119, 8090]
-        map_icon_size: 50
       - id: "l28"
         data: ["Forest Lookout Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
         cords: [4227, 7868]
-        map_icon_size: 50
       - id: "l29"
         data: ["Tower of Return", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
         cords: [3659, 8364]
-        map_icon_size: 50
         #LEGACY
       - id: "ld2"
         data: ["Castle Morne", "Legacy dungeon (minor)", "Leonine Misbegotten", "Related to Irina's questline."]
         icon: '/map/icons/MENU_MAP_25.png'
         cords: [4097, 8554]
-        map_icon_size: 70
+        map_icon_size: 45
   -
     title: "Liurnia of the Lakes"
     table: ["Name", "Type", "Bosses", "Notes"]
@@ -291,7 +259,6 @@ sections:
         data: ["Lakeside Crystal Cave", "Cave", "Bloodhound Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
         cords: [2327, 6002]
-        map_icon_size: 50
       - id: "2_8"
         data: ["Stillwater Cave", "Cave", "Cleanrot Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'

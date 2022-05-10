@@ -1520,7 +1520,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_1",
           "link": "/checklists/landmarks_locations.html#item_1_1",
           "title": "Stranded Graveyard"
@@ -1539,7 +1539,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_5",
           "link": "/checklists/landmarks_locations.html#item_1_5",
           "title": "Groveside Cave"
@@ -1558,7 +1558,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_3",
           "link": "/checklists/landmarks_locations.html#item_1_3",
           "title": "Coastal Cave"
@@ -1577,7 +1577,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_9",
           "link": "/checklists/landmarks_locations.html#item_1_9",
           "title": "Murkwater Cave"
@@ -1596,7 +1596,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_6",
           "link": "/checklists/landmarks_locations.html#item_1_6",
           "title": "Highroad Cave"
@@ -1615,7 +1615,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_4",
           "link": "/checklists/landmarks_locations.html#item_1_4",
           "title": "Deathtouched Catacombs"
@@ -1634,7 +1634,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_10",
           "link": "/checklists/landmarks_locations.html#item_1_10",
           "title": "Stormfoot Catacombs"
@@ -1653,7 +1653,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_8",
           "link": "/checklists/landmarks_locations.html#item_1_8",
           "title": "Murkwater Catacombs"
@@ -1672,7 +1672,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_14.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_7",
           "link": "/checklists/landmarks_locations.html#item_1_7",
           "title": "Limgrave Tunnels"
@@ -1691,7 +1691,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_16.png",
-          "icon_size": 70,
+          "icon_size": 50,
           "id": "caves_1_2",
           "link": "/checklists/landmarks_locations.html#item_1_2",
           "title": "Fringefolk Hero's Grave"
@@ -1748,7 +1748,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_30.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l1",
           "link": "/checklists/landmarks_locations.html#item_l1",
           "title": "Minor Erdtree"
@@ -1767,7 +1767,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_23.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l2",
           "link": "/checklists/landmarks_locations.html#item_l2",
           "title": "Divine Tower of Limgrave"
@@ -1786,7 +1786,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l3",
           "link": "/checklists/landmarks_locations.html#item_l3",
           "title": "Dragon-Burnt Ruins"
@@ -1805,7 +1805,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l4",
           "link": "/checklists/landmarks_locations.html#item_l4",
           "title": "Gatefront Ruins"
@@ -1824,7 +1824,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l5",
           "link": "/checklists/landmarks_locations.html#item_l5",
           "title": "Mistwood Ruins"
@@ -1843,7 +1843,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l6",
           "link": "/checklists/landmarks_locations.html#item_l6",
           "title": "Waypoint Ruins"
@@ -1862,7 +1862,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l7",
           "link": "/checklists/landmarks_locations.html#item_l7",
           "title": "Summonwater Village"
@@ -1881,7 +1881,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l8",
           "link": "/checklists/landmarks_locations.html#item_l8",
           "title": "Stormhill Shack"
@@ -1900,7 +1900,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l9",
           "link": "/checklists/landmarks_locations.html#item_l9",
           "title": "Warmaster's Shack"
@@ -1919,7 +1919,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l10",
           "link": "/checklists/landmarks_locations.html#item_l10",
           "title": "Artist's Shack"
@@ -1938,7 +1938,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l11",
           "link": "/checklists/landmarks_locations.html#item_l11",
           "title": "Church of Elleh"
@@ -1957,7 +1957,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l12",
           "link": "/checklists/landmarks_locations.html#item_l12",
           "title": "Church of Dragon Communion"
@@ -1976,7 +1976,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l13",
           "link": "/checklists/landmarks_locations.html#item_l13",
           "title": "Third Church of Marika"
@@ -1995,7 +1995,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_10.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l14",
           "link": "/checklists/landmarks_locations.html#item_l14",
           "title": "Stormgate"
@@ -2014,7 +2014,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Ungro.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l15",
           "link": "/checklists/landmarks_locations.html#item_l15",
           "title": "Siofra River Well"
@@ -2033,7 +2033,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_18.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l16",
           "link": "/checklists/landmarks_locations.html#item_l16",
           "title": "Fort Haight"
@@ -2052,7 +2052,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_50.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_ld1",
           "link": "/checklists/landmarks_locations.html#item_ld1",
           "title": "Stormveil Castle"
@@ -2071,7 +2071,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_1",
           "link": "/checklists/landmarks_locations.html#item_0_1",
           "title": "Earthbore Cave"
@@ -2090,7 +2090,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_5",
           "link": "/checklists/landmarks_locations.html#item_0_5",
           "title": "Tombsward Cave"
@@ -2109,7 +2109,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_2",
           "link": "/checklists/landmarks_locations.html#item_0_2",
           "title": "Impaler's Catacombs"
@@ -2128,7 +2128,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_4",
           "link": "/checklists/landmarks_locations.html#item_0_4",
           "title": "Tombsward Catacombs"
@@ -2147,7 +2147,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_14.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_3",
           "link": "/checklists/landmarks_locations.html#item_0_3",
           "title": "Morne Tunnel"
@@ -2185,7 +2185,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_30.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l17",
           "link": "/checklists/landmarks_locations.html#item_l17",
           "title": "Minor Erdtree"
@@ -2204,7 +2204,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_17.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l18",
           "link": "/checklists/landmarks_locations.html#item_l18",
           "title": "Oridys's Rise"
@@ -2223,7 +2223,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l19",
           "link": "/checklists/landmarks_locations.html#item_l19",
           "title": "Demi-Human Forest Ruins"
@@ -2242,7 +2242,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l20",
           "link": "/checklists/landmarks_locations.html#item_l20",
           "title": "Tombsward Ruins"
@@ -2261,7 +2261,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l21",
           "link": "/checklists/landmarks_locations.html#item_l21",
           "title": "Witchbane Ruins"
@@ -2280,7 +2280,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l22",
           "link": "/checklists/landmarks_locations.html#item_l22",
           "title": "Isolated Merchant's Shack"
@@ -2299,7 +2299,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l23",
           "link": "/checklists/landmarks_locations.html#item_l23",
           "title": "Church of Pilgrimage"
@@ -2318,7 +2318,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l24",
           "link": "/checklists/landmarks_locations.html#item_l24",
           "title": "Callu Baptismal Church"
@@ -2337,7 +2337,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l25",
           "link": "/checklists/landmarks_locations.html#item_l25",
           "title": "Fourth Church of Marika"
@@ -2356,7 +2356,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_11.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l26",
           "link": "/checklists/landmarks_locations.html#item_l26",
           "title": "Bridge of Sacrifice"
@@ -2375,7 +2375,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_37.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l27",
           "link": "/checklists/landmarks_locations.html#item_l27",
           "title": "Ailing Village"
@@ -2394,7 +2394,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_08.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l28",
           "link": "/checklists/landmarks_locations.html#item_l28",
           "title": "Forest Lookout Tower"
@@ -2413,7 +2413,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_08.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l29",
           "link": "/checklists/landmarks_locations.html#item_l29",
           "title": "Tower of Return"
@@ -2432,7 +2432,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_25.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_ld2",
           "link": "/checklists/landmarks_locations.html#item_ld2",
           "title": "Castle Morne"
@@ -2451,7 +2451,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
           "title": "Lakeside Crystal Cave"
@@ -8584,7 +8584,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_4",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
-          "title": "Third Church of Marika, in East Limgrave"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8603,7 +8603,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_1",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
-          "title": "Callu Baptismal Church, in the middle of the Weeping Peninsula"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8622,7 +8622,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_2",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
-          "title": "Church of Pilgrimage, north of Weeping Peninsula"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8641,7 +8641,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_3",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
-          "title": "Fourth Church of Marika, west of Weeping Peninsula"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8660,7 +8660,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_5",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
-          "title": "Church of Irith, southern part of Liurnia of the Lakes"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8679,7 +8679,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_6",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
-          "title": "Bellum Church, on the way to the Grand Lift of Dectus"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8698,7 +8698,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_7",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
-          "title": "Church of Inhibition, northeast of Bellum Highway Forest"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8717,7 +8717,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_8",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
-          "title": "Church of Plague, accessible through Sellia, Town of Sorcery"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8736,7 +8736,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_9",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
-          "title": "Second Church of Marika, north of Altus Highway Junction Grace"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8755,7 +8755,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_10",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
-          "title": "Stormcaller Church, west of Rampartside Path Gace"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8774,7 +8774,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_11",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
-          "title": "Church of Repose, east of Grand Lift of Rold"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       },
@@ -8793,7 +8793,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_12",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
-          "title": "First Church of Marika, southeastern most part of Mountaintops of the Giants"
+          "title": "Sacred Tear"
         },
         "type": "Feature"
       }
@@ -8818,7 +8818,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_1",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
-          "title": "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8837,7 +8837,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
-          "title": "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8856,7 +8856,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
-          "title": "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8875,7 +8875,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
-          "title": "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8894,7 +8894,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_5",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
-          "title": "Found in Testu's Rise, north of Raya Lucaria Academy."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8913,7 +8913,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_6",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
-          "title": "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8932,7 +8932,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_7",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
-          "title": "Found in Lenne's Rise in eastern Caelid."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8951,7 +8951,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_8",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
-          "title": "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."
+          "title": "Memory Stone"
         },
         "type": "Feature"
       },
@@ -8970,7 +8970,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
-          "title": "Reward for defeating Margit, the Fell Omen in Stormveil Castle."
+          "title": "Talisman Pouch"
         },
         "type": "Feature"
       },
@@ -8989,7 +8989,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
-          "title": "Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."
+          "title": "Talisman Pouch"
         },
         "type": "Feature"
       },
@@ -9008,7 +9008,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
-          "title": "Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."
+          "title": "Talisman Pouch"
         },
         "type": "Feature"
       }
@@ -9033,7 +9033,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
-          "title": "Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy."
+          "title": "Royal House Scroll"
         },
         "type": "Feature"
       },
@@ -9052,7 +9052,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
-          "title": "Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard."
+          "title": "Academy Scroll"
         },
         "type": "Feature"
       },
@@ -9071,7 +9071,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
-          "title": "Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building."
+          "title": "Conspectus Scroll"
         },
         "type": "Feature"
       },
@@ -9090,7 +9090,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
-          "title": "Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total."
+          "title": "Assassin's Prayerbook"
         },
         "type": "Feature"
       },
@@ -9109,7 +9109,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
-          "title": "Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side."
+          "title": "Godskin Prayerbook"
         },
         "type": "Feature"
       },
@@ -9128,7 +9128,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
-          "title": "Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture."
+          "title": "Fire Monks' Prayerbook"
         },
         "type": "Feature"
       },
@@ -9147,7 +9147,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_4",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
-          "title": "Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia."
+          "title": "Dragon Cult Prayerbook"
         },
         "type": "Feature"
       },
@@ -9166,7 +9166,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_5",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
-          "title": "Two Fingers' Prayerbook - In Leyndell, near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture."
+          "title": "Two Fingers' Prayerbook"
         },
         "type": "Feature"
       },
@@ -9185,7 +9185,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_8",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
-          "title": "Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling."
+          "title": "Golden Order Principia"
         },
         "type": "Feature"
       },
@@ -9204,7 +9204,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_6",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
-          "title": "Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy."
+          "title": "Giant's Prayerbook"
         },
         "type": "Feature"
       },
@@ -9223,7 +9223,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_7",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
-          "title": "Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall."
+          "title": "Ancient Dragon Prayerbook"
         },
         "type": "Feature"
       }
@@ -9868,7 +9868,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_1",
           "link": "/checklists/paintings.html#item_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>"
+          "title": "Prophecy Painting solution"
         },
         "type": "Feature"
       },
@@ -9887,7 +9887,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_2",
           "link": "/checklists/paintings.html#item_2",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>"
+          "title": "Homing Instinct Painting solution"
         },
         "type": "Feature"
       },
@@ -9906,7 +9906,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_3",
           "link": "/checklists/paintings.html#item_3",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>"
+          "title": "Resurrection Painting solution"
         },
         "type": "Feature"
       },
@@ -9925,7 +9925,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_4",
           "link": "/checklists/paintings.html#item_4",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>"
+          "title": "Redmane Painting solution"
         },
         "type": "Feature"
       },
@@ -9944,7 +9944,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_5",
           "link": "/checklists/paintings.html#item_5",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>"
+          "title": "Champion's Song Painting solution"
         },
         "type": "Feature"
       },
@@ -9963,7 +9963,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_6",
           "link": "/checklists/paintings.html#item_6",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>"
+          "title": "Flightless Bird Painting solution"
         },
         "type": "Feature"
       },
@@ -9982,7 +9982,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_7",
           "link": "/checklists/paintings.html#item_7",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>"
+          "title": "Sorcerer Painting solution"
         },
         "type": "Feature"
       }
