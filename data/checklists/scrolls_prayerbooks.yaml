@@ -1,5 +1,6 @@
 title: Scrolls and Prayerbooks
 id: scrolls_prayerbooks
+icon: "/img/icons/keys/edited/00318.png"
 sections:
   -
     title: Scrolls
@@ -7,36 +8,47 @@ sections:
       - id: "0_1"
         icon: "/img/icons/keys/edited/00311.png"
         data: ["Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy."]
+        cords: [4311, 7517]
       - id: "0_2"
         icon: "/img/icons/keys/edited/00310.png"
         data: ["Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard."]
+        cords: [2836, 6351]
       - id: "0_3"
         icon: "/img/icons/keys/edited/00310.png"
         data: ["Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building."]
+        cords: [1969, 4997]
   -
     title: Prayerbooks
     items:
       - id: "1_1"
         icon: "/img/icons/keys/edited/00319.png"
         data: ["Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total."]
+        cords: [710, 8415]
       - id: "1_2"
         icon: "/img/icons/keys/edited/00317.png"
         data: ["Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side."]
+        cords: [3126, 6731]
       - id: "1_3"
         icon: "/img/icons/keys/edited/00315.png"
         data: ["Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture."]
+        cords: [2229, 5961]
       - id: "1_4"
         icon: "/img/icons/keys/edited/00324.png"
         data: ["Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia."]
+        cords: [2797, 5200]
       - id: "1_5"
         icon: "/img/icons/keys/edited/00318.png"
-        data: ["Two Fingers' Prayerbook - Near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture."]
+        data: ["Two Fingers' Prayerbook - In Leyndell, near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture."]
+        cords: [4228, 3627]
       - id: "1_8"
         icon: "/img/icons/keys/edited/00322.png"
         data: ["Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling."]
+        cords: [4365, 3698]
       - id: "1_6"
         icon: "/img/icons/keys/edited/00316.png"
         data: ["Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy."]
+        cords: [6209, 2420]
       - id: "1_7"
         icon: "/img/icons/keys/edited/00325.png"
         data: ["Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall."]
+        cords: [8363, 4583]
