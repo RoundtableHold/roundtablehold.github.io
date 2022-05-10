@@ -938,19 +938,19 @@ sections:
     items:
       - id: "11_1"
         icon: "/img/icons/weapons/lightbows/11000.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shortbow\">Short Bow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shortbow\">Short Bow</a>", "Starting equipment for the Bandit. Can be bought from the Nomadic Merchant south of the Coastal Cave in Limgrave for 600 Runes.", "Normal"]
       - id: "11_2"
         icon: "/img/icons/weapons/lightbows/11005.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Composite+Bow\">Composite Bow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Composite+Bow\">Composite Bow</a>", "Can be bought from the Nomadic Merchant at the Bellum Church in Liurnia of the Lakes for 3500 Runes.", "Normal"]
       - id: "11_3"
         icon: "/img/icons/weapons/lightbows/11002.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Red+Branch+Shortbow\">Red Branch Shortbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Red+Branch+Shortbow\">Red Branch Shortbow</a>", "Dropped by Pages wielding this weilding this weapon. 1 is found just after the group of Oracle Envoys at the East Capital Rampart Site of Grace.", "Normal"]
       - id: "11_4"
         icon: "/img/icons/weapons/lightbows/11001.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Misbegotten+Shortbow\">Misbegotten Shortbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Misbegotten+Shortbow\">Misbegotten Shortbow</a>", "Can be farmed from flying Misbegotten in Castle Morne in the Weeping Peninsula.", "Normal"]
       - id: "11_5"
         icon: "/img/icons/weapons/lightbows/11003.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>", "Reward for Solving the Champion's Song Painting, found in The Shaded Castle.", "Normal"]
   -
     title: Bows
     link: "https://eldenring.wiki.fextralife.com/Bows"
@@ -958,25 +958,25 @@ sections:
     items:
       - id: "10_1"
         icon: "/img/icons/weapons/bows/11040.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Longbow\">Longbow</a>", "Starting equipment for the Samurai. Can be bought from the Twin Maiden Husks at Roundtable Hold for 1200 Runes.", "Normal"]
       - id: "10_2"
         icon: "/img/icons/weapons/bows/11041.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Bow\">Albinauric Bow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Bow\">Albinauric Bow</a>", "Dropped by Albinauric Wolfback Archers, around the consecrated Snowfield in the Mountaintops of the Giants.", "Normal"]
       - id: "10_7"
         icon: "/img/icons/weapons/bows/11047.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Bow\">Black Bow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Bow\">Black Bow</a>", "Found on a corpse on a roof north-east of the Avenue Balcony Site of Grace in Leyndell, Royal Capital.", "Normal"]
       - id: "10_6"
         icon: "/img/icons/weapons/bows/11046.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Bow\">Pulley Bow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Bow\">Pulley Bow</a>", "Found on a corpse on top of a mobile Siege Tower near Mt. Gelmir Camp Site of Grace.", "Somber"]
       - id: "10_3"
         icon: "/img/icons/weapons/bows/11042.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Horn+Bow\">Horn Bow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Horn+Bow\">Horn Bow</a>", "Can be found in Siofra River under the Stairs leading to the Hallowhorn Grounds.", "Somber"]
       - id: "10_5"
         icon: "/img/icons/weapons/bows/11044.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Bow\">Serpent Bow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Bow\">Serpent Bow</a>", "Can be found in the Abandoned Cave north of the Swamp of Aeonia in Caelid.", "Somber"]
       - id: "10_4"
         icon: "/img/icons/weapons/bows/11043.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Bow\">Erdtree Bow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Bow\">Erdtree Bow</a>", "Can be found in a chest on the second floor after an open window on a roof in the same building where the Erdtree Sancuary Site of Grace is situated.", "Somber"]
   -
     title: Greatbows
     link: "https://eldenring.wiki.fextralife.com/Greatbows"
@@ -984,16 +984,16 @@ sections:
     items:
       - id: "12_1"
         icon: "/img/icons/weapons/greatbows/11084.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>", "Can be found in a chest on the upper most level of the Highway lookout Tower north of Leyndell in Altus Plateau. Dropped by Radahn Knight in Fort Gael wielding this weapon", "Normal"]
       - id: "12_2"
         icon: "/img/icons/weapons/greatbows/11081.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>", "Dropped by Golem's wielding this weapon, 2 Golems can be found on the way to the Colosseum in Caelid, 1 more can be found just after reaching the Altus Plateau via the Grand lift of Dectus.", "Somber"]
       - id: "12_3"
         icon: "/img/icons/weapons/greatbows/11083.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Greatbow\">Erdtree Greatbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Greatbow\">Erdtree Greatbow</a>", "Dropped by 1 of the Chariots in the Fringefolk Hero's Grave after droppping one of the Giant Pots hanging from the ceiling on it.", "Somber"]
       - id: "12_4"
         icon: "/img/icons/weapons/greatbows/11080.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lion+Greatbow\">Lion Greatbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lion+Greatbow\">Lion Greatbow</a>", "Can be traded with Enia at Roundtable Hold for the Rememberance of the Starscourge.", "Somber"]
   -
     title: Crossbows
     link: "https://eldenring.wiki.fextralife.com/Crossbows"
@@ -1001,25 +1001,25 @@ sections:
     items:
       - id: "7_1"
         icon: "/img/icons/weapons/crossbows/11120.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Soldier's+Crossbow\">Soldier's Crossbow</a>", "Dropped by all Footsoldiers wielding this weapon.", "Normal"]
       - id: "7_2"
         icon: "/img/icons/weapons/crossbows/11121.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Light+Crossbow\">Light Crossbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Light+Crossbow\">Light Crossbow</a>", "Can be bought from the Nomadic Merchant at the Castle Morne Rampart Site of Grace for 1500 Runes.", "Normal"]
       - id: "7_3"
         icon: "/img/icons/weapons/crossbows/11122.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Heavy+Crossbow\">Heavy Crossbow</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Heavy+Crossbow\">Heavy Crossbow</a>", "Dropped by enemies wielding this weapon, a few soldiers at the Gatefront Site of Grace leading up to Stormhill have a chance of dropping it.", "Normal"]
       - id: "7_6"
         icon: "/img/icons/weapons/crossbows/11125.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Arbalest\">Arbalest</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Arbalest\">Arbalest</a>", "Found on a corpse after the Imp Fog wall that also has the Godskin Prayerbook near the courtyard filled with FLamethrowers in Stormveil Castle.", "Somber"]
       - id: "7_7"
         icon: "/img/icons/weapons/crossbows/11128.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crepus's+Black-Key+Crossbow\">Crepus's Black-Key Crossbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crepus's+Black-Key+Crossbow\">Crepus's Black-Key Crossbow</a>", "Found after the first Imp Fog Wall in Roundtable Hold.", "Somber"]
       - id: "7_4"
         icon: "/img/icons/weapons/crossbows/11123.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Crossbow\">Pulley Crossbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pulley+Crossbow\">Pulley Crossbow</a>", "Can be found next to the Craftmen's Shack in Mt. Gelmir.", "Somber"]
       - id: "7_5"
         icon: "/img/icons/weapons/crossbows/11124.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow\">Full Moon Crossbow</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow\">Full Moon Crossbow</a>", "Found on the Rooftop area after the Debate Parlor Site of Grace in Raya Lucaria.", "Somber"]
   -
     title: Ballistas
     link: "https://eldenring.wiki.fextralife.com/Ballistas"
@@ -1027,10 +1027,10 @@ sections:
     items:
       - id: "2_1"
         icon: "/img/icons/weapons/ballistas/11160.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hand+Ballista\">Hand Ballista</a>", "Can be found in a chest on top of the Forest Lookout Tower west of the Bridge of Sacrifice in the Weeping Peninsula.", "Normal"]
       - id: "2_2"
         icon: "/img/icons/weapons/ballistas/11161.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>", "Dropped by the Demi-human Queen Margot at the end of Volcano Cave north of Mt. Gelmir.", "Somber"]
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
@@ -1038,58 +1038,58 @@ sections:
     items:
       - id: "29_1"
         icon: "/img/icons/weapons/glintstonestaffs/11206.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer's+Staff\">Astrologer's Staff</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Astrologer's+Staff\">Astrologer's Staff</a>", "Starting equipment for the Astrologer. Can be purchased from the Nomadic Merchant near the Liurnia Lake Shore Site of Grace for 600 Runes.", "Normal"]
       - id: "29_2"
         icon: "/img/icons/weapons/glintstonestaffs/11200.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Staff\">Glintstone Staff</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Staff\">Glintstone Staff</a>", "Starting equipment for the Prisoner. Dropped by Noble Sorcerers, there is one south of the Waypoint Ruins and quite a few at the Kingsrealm Ruins.", "Normal"]
       - id: "29_3"
         icon: "/img/icons/weapons/glintstonestaffs/11212.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Academy+Glintstone+Staff\">Academy Glintstone Staff</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Academy+Glintstone+Staff\">Academy Glintstone Staff</a>", "Rewarded for finishing Thops questline, can also be dropped by any Glintstone Sorcerer in Raya Lucaria Academy.", "Normal"]
       - id: "29_4"
         icon: "/img/icons/weapons/glintstonestaffs/11205.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Digger's+Staff\">Digger's Staff</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Digger's+Staff\">Digger's Staff</a>", "Dropped from Sorcerer Miners in Sellia Crystal Tunnel.", "Normal"]
       - id: "29_5"
         icon: "/img/icons/weapons/glintstonestaffs/11203.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Queen's+Staff\">Demi-Human Queen's Staff</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Queen's+Staff\">Demi-Human Queen's Staff</a>", "Dropped by the Demi-human Queen in the Demi-human Forest Ruins.", "Normal"]
       - id: "29_6"
         icon: "/img/icons/weapons/glintstonestaffs/11214.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Staff\">Azur's Glintstone Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Staff\">Azur's Glintstone Staff</a>", "Can be found in room filled with Glintstone crystals after you unlocked the ladder shortcut in the Church of Cuckoo, on the upper level head to the east side through a doorway.", "Somber"]
       - id: "29_7"
         icon: "/img/icons/weapons/glintstonestaffs/11215.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Staff\">Lusat's Glintstone Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Staff\">Lusat's Glintstone Staff</a>", "Found in a chest after the Duo Nox Boss fight in Sellia, Town of Sorcery in Caelid.", "Somber"]
       - id: "29_9"
         icon: "/img/icons/weapons/glintstonestaffs/11211.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Glintstone+Staff\">Carian Glintstone Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Glintstone+Staff\">Carian Glintstone Staff</a>", "Can be found in Carian Stufy Hall just before the 2nd lift in Liurnia of the Lakes.", "Somber"]
       - id: "29_8"
         icon: "/img/icons/weapons/glintstonestaffs/11208.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Glintblade+Staff\">Carian Glintblade Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Glintblade+Staff\">Carian Glintblade Staff</a>", "Found on top of the Highway Lookout Tower in eastern Liurnia.", "Somber"]
       - id: "29_10"
         icon: "/img/icons/weapons/glintstonestaffs/11204.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Regal+Scepter\">Carian Regal Scepter</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Regal+Scepter\">Carian Regal Scepter</a>", "Can be traded with Enia for the Remembrance of the Full Moon in Roundtable Hold.", "Somber"]
       - id: "29_11"
         icon: "/img/icons/weapons/glintstonestaffs/11210.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Staff\">Albinauric Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Staff\">Albinauric Staff</a>", "Dropped by an Omenkiller in Volcano Manor near the Guesthouse Site of Grace.", "Somber"]
       - id: "29_12"
         icon: "/img/icons/weapons/glintstonestaffs/11219.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+Loss\">Staff of Loss</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+Loss\">Staff of Loss</a>", "Found on a corpse hanging over on of the balcony's in Sellia, Town of Sorcery in Caelid.", "Somber"]
       - id: "29_13"
         icon: "/img/icons/weapons/glintstonestaffs/11202.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Glintstone+Staff\">Gelmir Glintstone Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Glintstone+Staff\">Gelmir Glintstone Staff</a>", "Dropped by the Man Serpent wielding this weapon in the Throne Room above Volcano Manor.", "Somber"]
       - id: "29_14"
         icon: "/img/icons/weapons/glintstonestaffs/11201.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Staff\">Crystal Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystal+Staff\">Crystal Staff</a>", "Can be found in the Academy Crystal Cave in a room that is guarded by a sorcerer just before the Boss Fog Gate.", "Somber"]
       - id: "29_15"
         icon: "/img/icons/weapons/glintstonestaffs/11218.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Crystal+Staff\">Rotten Crystal Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Crystal+Staff\">Rotten Crystal Staff</a>", "Dropped by Crystallians in Elphael, Brace of the Haligtree.", "Somber"]
       - id: "29_16"
         icon: "/img/icons/weapons/glintstonestaffs/11216.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Meteorite+Staff\">Meteorite Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Meteorite+Staff\">Meteorite Staff</a>", "Found on a corpse hanging on a ledge of a ruin in the Street of Sage's Ruins in the western part of the Swamp of Aeonia in Caelid.", "Somber"]
       - id: "29_17"
         icon: "/img/icons/weapons/glintstonestaffs/11217.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+the+Guilty\">Staff of the Guilty</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+the+Guilty\">Staff of the Guilty</a>", "Dropped by enemies wielding this weapon at Fort Laiedd in Mt. Gelmir.", "Somber"]
       - id: "29_18"
         icon: "/img/icons/weapons/glintstonestaffs/11209.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prince+of+Death's+Staff\">Prince of Death's Staff</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prince+of+Death's+Staff\">Prince of Death's Staff</a>", "Found in the Deeproot Depths. Follow the path up the roots and take the first drop to the left and continue the path to the tower.", "Somber"]
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
