@@ -17,12 +17,15 @@ pin.putdata(new_pin_data)
 icon = Image.open(sys.argv[1])
 bbox = icon.getbbox()
 icon = icon.crop(bbox)
+icon.save('test.png')
 
 x = max(icon.size[0], icon.size[1])
 scale = x / 321
 print(scale)
 
 pin.thumbnail([round(pin.size[0] * scale), round(pin.size[1] * scale)])
-pin.paste(icon, (round(63 * scale), round(67 * scale)), icon)
+x = round(223 * scale - icon.size[0] / 2)
+y = round(67 * scale)
+pin.paste(icon, (x, y), icon)
 
 pin.save(sys.argv[2])
