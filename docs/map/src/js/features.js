@@ -8572,6 +8572,341 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4311,
+            7517
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_1",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00311.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_1",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
+          "title": "Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2836,
+            6351
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_2",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00310.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_2",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
+          "title": "Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1969,
+            4997
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_3",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00310.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_3",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
+          "title": "Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            710,
+            8415
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_1",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00319.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_1",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
+          "title": "Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3126,
+            6731
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_2",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00317.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_2",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
+          "title": "Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2229,
+            5961
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_3",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00315.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_3",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
+          "title": "Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2797,
+            5200
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_4",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00324.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_4",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
+          "title": "Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4228,
+            3627
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_5",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00318.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_5",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
+          "title": "Two Fingers' Prayerbook - In Leyndell, near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3698
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_8",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00322.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_8",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
+          "title": "Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6209,
+            2420
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_6",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00316.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_6",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
+          "title": "Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8363,
+            4583
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_7",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00325.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_7",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
+          "title": "Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall."
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "scrolls_prayerbooks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3786,
+            6989
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_1",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03090.png",
+          "icon_size": 35,
+          "id": "whetstones_0_1",
+          "link": "/checklists/whetstones.html#item_0_1",
+          "title": "Whetstone Knife"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3084,
+            6689
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_2",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03020.png",
+          "icon_size": 35,
+          "id": "whetstones_0_2",
+          "link": "/checklists/whetstones.html#item_0_2",
+          "title": "Iron Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1928,
+            4942
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_3",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03023.png",
+          "icon_size": 35,
+          "id": "whetstones_0_3",
+          "link": "/checklists/whetstones.html#item_0_3",
+          "title": "Glintstone Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6024,
+            7307
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_4",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03021.png",
+          "icon_size": 35,
+          "id": "whetstones_0_4",
+          "link": "/checklists/whetstones.html#item_0_4",
+          "title": "Red-Hot Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6068,
+            14426
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_5",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03024.png",
+          "icon_size": 35,
+          "id": "whetstones_0_5",
+          "link": "/checklists/whetstones.html#item_0_5",
+          "title": "Black Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4220,
+            3646
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_6",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03022.png",
+          "icon_size": 35,
+          "id": "whetstones_0_6",
+          "link": "/checklists/whetstones.html#item_0_6",
+          "title": "Sanctified Whetblade"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "whetstones",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3655,
             7210
           ],
@@ -9220,6 +9555,22 @@ const icon_urls = [
   "/img/icons/info/paintings/edited/03210.png",
   "/img/icons/info/paintings/edited/03211.png",
   "/img/icons/info/paintings/edited/03212.png",
+  "/img/icons/keys/edited/00310.png",
+  "/img/icons/keys/edited/00311.png",
+  "/img/icons/keys/edited/00315.png",
+  "/img/icons/keys/edited/00316.png",
+  "/img/icons/keys/edited/00317.png",
+  "/img/icons/keys/edited/00318.png",
+  "/img/icons/keys/edited/00319.png",
+  "/img/icons/keys/edited/00322.png",
+  "/img/icons/keys/edited/00324.png",
+  "/img/icons/keys/edited/00325.png",
+  "/img/icons/keys/edited/03020.png",
+  "/img/icons/keys/edited/03021.png",
+  "/img/icons/keys/edited/03022.png",
+  "/img/icons/keys/edited/03023.png",
+  "/img/icons/keys/edited/03024.png",
+  "/img/icons/keys/edited/03090.png",
   "/img/icons/spirit_ashes/00456.png",
   "/img/icons/weapons/lightbows/11003.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
