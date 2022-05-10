@@ -8572,6 +8572,455 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4651,
+            6696
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_4",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_4",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
+          "title": "Third Church of Marika, in East Limgrave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4143,
+            8129
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_1",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_1",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
+          "title": "Callu Baptismal Church, in the middle of the Weeping Peninsula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3857,
+            7677
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_2",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_2",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
+          "title": "Church of Pilgrimage, north of Weeping Peninsula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3503,
+            8005
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_3",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_3",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
+          "title": "Fourth Church of Marika, west of Weeping Peninsula"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2916,
+            6433
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_5",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_5",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
+          "title": "Church of Irith, southern part of Liurnia of the Lakes"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2187,
+            4037
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_6",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_6",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
+          "title": "Bellum Church, on the way to the Grand Lift of Dectus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2509,
+            3993
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_7",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_7",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
+          "title": "Church of Inhibition, northeast of Bellum Highway Forest"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5785,
+            6663
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_8",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_8",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
+          "title": "Church of Plague, accessible through Sellia, Town of Sorcery"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2963,
+            3141
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_9",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_9",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
+          "title": "Second Church of Marika, north of Altus Highway Junction Grace"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3209,
+            3345
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_10",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_10",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
+          "title": "Stormcaller Church, west of Rampartside Path Gace"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5956,
+            3012
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_11",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_11",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
+          "title": "Church of Repose, east of Grand Lift of Rold"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6754,
+            2369
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_12",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_12",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
+          "title": "First Church of Marika, southeastern most part of Mountaintops of the Giants"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "flasks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            4414,
+            8123
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_1",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_1",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
+          "title": "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            454,
+            8354
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_2",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_2",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
+          "title": "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1577,
+            5578
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_3",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_3",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
+          "title": "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1954,
+            5019
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_4",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_4",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
+          "title": "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1833,
+            4405
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_5",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_5",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
+          "title": "Found in Testu's Rise, north of Raya Lucaria Academy."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1732,
+            3803
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_6",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_6",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
+          "title": "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6321,
+            6033
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_7",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_7",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
+          "title": "Found in Lenne's Rise in eastern Caelid."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2443,
+            3031
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_8",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_8",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
+          "title": "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3317,
+            6832
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_2",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_2",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
+          "title": "Reward for defeating Margit, the Fell Omen in Stormveil Castle."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            610,
+            8617
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_3",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_3",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
+          "title": "Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3723
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_4",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_4",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
+          "title": "Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "memory_stones_talisman_pouches",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             4311,
             7517
           ],
@@ -9547,6 +9996,7 @@ const icon_urls = [
   "/img/icons/armor/15000.png",
   "/img/icons/armor/15290.png",
   "/img/icons/ashes_of_war/08385.png",
+  "/img/icons/bolstering/edited/00384.png",
   "/img/icons/incantations/06060.png",
   "/img/icons/info/paintings/edited/03066.png",
   "/img/icons/info/paintings/edited/03207.png",
@@ -9565,6 +10015,8 @@ const icon_urls = [
   "/img/icons/keys/edited/00322.png",
   "/img/icons/keys/edited/00324.png",
   "/img/icons/keys/edited/00325.png",
+  "/img/icons/keys/edited/00553.png",
+  "/img/icons/keys/edited/00554.png",
   "/img/icons/keys/edited/03020.png",
   "/img/icons/keys/edited/03021.png",
   "/img/icons/keys/edited/03022.png",
