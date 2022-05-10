@@ -8814,8 +8814,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_1",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_1",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
           "title": "Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."
@@ -8833,8 +8833,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_2",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
           "title": "Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."
@@ -8852,8 +8852,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_3",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
           "title": "Found in the Converted Tower, in the southwest of Liurnia of the Lakes."
@@ -8871,8 +8871,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_4",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
           "title": "Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."
@@ -8890,8 +8890,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_5",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_5",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
           "title": "Found in Testu's Rise, north of Raya Lucaria Academy."
@@ -8909,8 +8909,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_6",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_6",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
           "title": "Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."
@@ -8928,8 +8928,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_7",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_7",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
           "title": "Found in Lenne's Rise in eastern Caelid."
@@ -8947,8 +8947,8 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_8",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
-          "icon_size": 35,
+          "icon": "/map/icons/edited/pin.png",
+          "icon_size": 40,
           "id": "memory_stones_talisman_pouches_0_8",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
           "title": "Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."
@@ -10015,7 +10015,6 @@ const icon_urls = [
   "/img/icons/keys/edited/00322.png",
   "/img/icons/keys/edited/00324.png",
   "/img/icons/keys/edited/00325.png",
-  "/img/icons/keys/edited/00553.png",
   "/img/icons/keys/edited/00554.png",
   "/img/icons/keys/edited/03020.png",
   "/img/icons/keys/edited/03021.png",
@@ -10047,5 +10046,6 @@ const icon_urls = [
   "/map/icons/MENU_MAP_memo_20.png",
   "/map/icons/edited/MENU_MAP_04.png",
   "/map/icons/edited/MENU_MAP_09.png",
-  "/map/icons/edited/MENU_MAP_13.png"
+  "/map/icons/edited/MENU_MAP_13.png",
+  "/map/icons/edited/pin.png"
 ]

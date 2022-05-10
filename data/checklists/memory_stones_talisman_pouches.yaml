@@ -5,6 +5,8 @@ sections:
   -
     title: "Memory Stones"
     icon: "/img/icons/keys/edited/00553.png"
+    map_icon: '/map/icons/edited/pin.png'
+    map_icon_size: 40
     items:
       - id: "0_1"
         data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
