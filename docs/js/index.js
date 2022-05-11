@@ -875,6 +875,8 @@
 "bosses_5_3",
 "bosses_5_30",
 "bosses_5_31",
+"bosses_5_32",
+"bosses_5_33",
 "bosses_5_34",
 "bosses_5_35",
 "bosses_5_4",
@@ -3723,7 +3725,7 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const bosses_total = 240;
+const bosses_total = 242;
 var bosses_checked = 0;
 const caves_total = 205;
 var caves_checked = 0;

@@ -1520,6 +1520,595 @@ const feature_data = [
           "title": "Magma Wyrm Makar"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4812,
+            6462
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_1",
+          "link": "/checklists/bosses.html#item_5_1",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4904,
+            6126
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_2",
+          "link": "/checklists/bosses.html#item_5_2",
+          "title": "Putrid Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4983,
+            6171
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_3",
+          "link": "/checklists/bosses.html#item_5_3",
+          "title": "Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5135,
+            6420
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_4",
+          "link": "/checklists/bosses.html#item_5_4",
+          "title": "Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4985,
+            5898
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_5",
+          "link": "/checklists/bosses.html#item_5_5",
+          "title": "Knight of the Great Jar (x3) (NPC Invaders)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4872,
+            6806
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_30",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_30",
+          "link": "/checklists/bosses.html#item_5_30",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4942,
+            6746
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_6",
+          "link": "/checklists/bosses.html#item_5_6",
+          "title": "Frenzied Duelist"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5193,
+            7042
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_7",
+          "link": "/checklists/bosses.html#item_5_7",
+          "title": "Decaying Ekzykes"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5347,
+            7178
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_28",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_28",
+          "link": "/checklists/bosses.html#item_5_28",
+          "title": "Cemetery Shade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5372,
+            7018
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_8",
+          "link": "/checklists/bosses.html#item_5_8",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5574,
+            7091
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_31",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_31",
+          "link": "/checklists/bosses.html#item_5_31",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5604,
+            7001
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_9",
+          "link": "/checklists/bosses.html#item_5_9",
+          "title": "Death Rite Bird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5476,
+            6724
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_10",
+          "link": "/checklists/bosses.html#item_5_10",
+          "title": "Commander O'Neil"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5393,
+            6753
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_11",
+          "link": "/checklists/bosses.html#item_5_11",
+          "title": "Milicent (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5598,
+            6450
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_12",
+          "link": "/checklists/bosses.html#item_5_12",
+          "title": "Nox Priest & Nox Swordstress"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5533,
+            6382
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_13",
+          "link": "/checklists/bosses.html#item_5_13",
+          "title": "Fallingstar Beast"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5416,
+            6444
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_14",
+          "link": "/checklists/bosses.html#item_5_14",
+          "title": "Cleanrot Knight (Sickle) & Cleanrot Knight (Spear)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5429,
+            6490
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_15",
+          "link": "/checklists/bosses.html#item_5_15",
+          "title": "Battlemage Hugues"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5834,
+            6368
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_16",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_16",
+          "link": "/checklists/bosses.html#item_5_16",
+          "title": "Elder Dragon Greyoll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5896,
+            6451
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_17",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_17",
+          "link": "/checklists/bosses.html#item_5_17",
+          "title": "Putrid Crystalian (Spear, Ringblade & Staff)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5601,
+            6031
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_18",
+          "link": "/checklists/bosses.html#item_5_18",
+          "title": "Godskin Apostle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6040,
+            6184
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_20",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_20",
+          "link": "/checklists/bosses.html#item_5_20",
+          "title": "Putrid Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5130,
+            6117
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_19",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_19",
+          "link": "/checklists/bosses.html#item_5_19",
+          "title": "Bell Bearing Hunter (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5993,
+            6121
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_21",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_21",
+          "link": "/checklists/bosses.html#item_5_21",
+          "title": "Beastman of Farum Azula (Greatsword & Throwing Knife)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6155,
+            5839
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_23",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_23",
+          "link": "/checklists/bosses.html#item_5_23",
+          "title": "Flying Dragon Greyll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6002,
+            5519
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_24",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_24",
+          "link": "/checklists/bosses.html#item_5_24",
+          "title": "Black Blade Kindred"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5931,
+            5462
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_25",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_25",
+          "link": "/checklists/bosses.html#item_5_25",
+          "title": "Gurranq, Beast Clergyman"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6276,
+            5894
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_22",
+          "link": "/checklists/bosses.html#item_5_22",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6095,
+            7269
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_26",
+          "link": "/checklists/bosses.html#item_5_26",
+          "title": "Misbegotten Warrior & Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6364,
+            6758
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_27",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_27",
+          "link": "/checklists/bosses.html#item_5_27",
+          "title": "Starscourge Radahn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6307,
+            6138
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_29",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_29",
+          "link": "/checklists/bosses.html#item_5_29",
+          "title": "Putrid Tree Spirit"
+        },
+        "type": "Feature"
       }
     ],
     "id": "bosses",

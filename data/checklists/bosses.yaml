@@ -444,16 +444,11 @@ sections:
         map_title: "Putrid Crystalian (Spear, Ringblade & Staff)"
       - id: "5_18"
         data: ["Godskin Apostle", "Divine Tower of Caelid (Basement)", "94,000 runes, Godskin Apostle Set", "Guarding a chest with Godslayer's Greatsword."]
-      - id: "5_19"
-        data: ["Bell Bearing Hunter", "Isolated Merchant's Shack", "50,000 runes, Gravity Stone Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from merchant. Pass time, then rest once to summon."]
+        cords: [5601, 6031]
       - id: "5_20"
         data: ["Putrid Avatar", "Minor Erdtree (East)", "91,000 runes, Opaline Hardtear, Stonebarb Cracked Tear", "Field boss."]
         cords: [6040, 6184]
         map_title: "Putrid Avatar"
-      - id: "5_18"
-        data: ["Godskin Apostle", "Divine Tower of Caelid (Basement)", "94,000 runes, Godskin Apostle Set", ""]
-        cords: [5601, 6031]
-        map_title: "Godskin Apostle"
       - id: "5_19"
         data: ["Bell Bearing Hunter", "Isolated Merchant's Shack", "50,000 runes, Gravity Stone Peddler's Bell Bearing", "Field boss. Night only. Buy something from merchant. Pass time, then rest once to summon."]
         cords: [5130, 6117]
@@ -462,8 +457,6 @@ sections:
         data: ["Beastman of Farum Azula (Greatsword) & Beastman of Farum Azula (Throwing Knife)", "Dragonbarrow Cave", "65,000 runes, Flamedrake Talisman [+2]", ""]
         cords: [5993, 6121]
         map_title: "Beastman of Farum Azula (Greatsword & Throwing Knife)"
-      - id: "5_22"
-        data: ["Night's Cavalry", "Lenne's Rise Bridge/Dragonbarrow", "42,000 runes, Ash of War: Bloodhound's Step", "Field boss. Nighttime only."]
       - id: "5_35"
         data: ["Mage Golem", "Hidden Lower Area Below Eastern Minor Erdtree", "", "From the Erdtree, drop down from the cliffside onto a series of branches. Guardian the \"Redmane Painting Ghost\" that gives Ash of War: Rain of Arrows."] #TODO: ADD RUNES, DROPS
       - id: "5_23"
