@@ -105,46 +105,41 @@
         $("#bootstrap").attr("href", themes[stylesheet]);
     }
 
+    const overall_total_el = $('[id$="_overall_total"]');
+    const section_totals = $('[id^="' + window.current_page_id + '_totals_"]');
+    const nav_totals = $('[id^="' + window.current_page_id + '_nav_totals_"]');
+
+    function updateTotalSection(el, checked, total) {
+        if (checked === total) {
+            el.html('DONE');
+            el.removeClass('in_progress').addClass('done');
+            el.removeClass('bg-info').addClass('bg-success');
+            el.closest('.card').addClass('completed');// Show heading for not yet completed category
+        } else {
+            el.html(checked + '/' + total);
+            el.removeClass('done').addClass('in_progress');
+            el.removeClass('bg-success').addClass('bg-info');
+            el.closest('.card').removeClass('completed');// Show heading for not yet completed category
+        }
+    }
+
+    function updateTotalNav(el, checked, total) {
+        if (checked === total) {
+            el.html('DONE');
+            el.removeClass('in_progress').addClass('done');
+        } else {
+            el.html(checked + '/' + total);
+            el.removeClass('done').addClass('in_progress');
+        }
+    }
     
     function calculateTotals() {
-        $('[id$="_overall_total"]').each(function(index) {
-            var type = this.id.match(/(.*)_overall_total/)[1];
-            var overallCount = 0, overallChecked = 0;
-            $('[id^="' + type + '_totals_"]').each(function(index, el) {
-                var regex = new RegExp(type + '_totals_(.*)');
-                var i = parseInt(this.id.match(regex)[1]);
-                var count = 0, checked = 0;
-                $('div[id="' + type + '_' + i + 'Col"] input[id^="' + type + '"]').each(function(index, el) {
-                    var checkbox = $(el);
-                    count++;
-                    overallCount++;
-                    if (checkbox.prop('checked')) {
-                        checked++;
-                        overallChecked++;
-                    }
-                });
-                if (checked === count) {
-                    this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = 'DONE';
-                    $(this).removeClass('in_progress').addClass('done');
-                    $(this).removeClass('bg-info').addClass('bg-success');
-                    $(this).closest('.card').addClass('completed');// Show heading for not yet completed category
-                    $($('#' + type + '_nav_totals_' + i)[0]).removeClass('in_progress').addClass('done');
-                } else {
-                    this.innerHTML = $(this).closest('div').parent().parent().prevAll('nav').find('#' + type + '_nav_totals_' + i).get(0).innerHTML = checked + '/' + count;
-                    $(this).removeClass('done').addClass('in_progress');
-                    $(this).removeClass('bg-success').addClass('bg-info');
-                    $(this).closest('.card').removeClass('completed');// Show heading for not yet completed category
-                    $($('#' + type + '_nav_totals_' + i)[0]).removeClass('done').addClass('in_progress');
-                }
-            });
-            if (overallChecked === overallCount) {
-                this.innerHTML = 'DONE';
-                $(this).removeClass('in_progress').addClass('done');
-            } else {
-                this.innerHTML = overallChecked + '/' + overallCount;
-                $(this).removeClass('done').addClass('in_progress');
-            }
-        });
+        updateTotalNav(overall_total_el, window.progress[window.current_page_id]['total'][0], window.progress[window.current_page_id]['total'][1])
+        for (var i = 0; i < window.progress[window.current_page_id]['sections'].length; i++) {
+            let p = window.progress[window.current_page_id]['sections'][i];
+            updateTotalNav($(nav_totals.get(i)), p[0], p[1]);
+            updateTotalSection($(section_totals.get(i)), p[0], p[1]);
+        }
     }
     
     $(function() {

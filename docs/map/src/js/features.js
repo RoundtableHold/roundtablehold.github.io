@@ -308,6 +308,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4727,
+            7292
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_32",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_2_32",
+          "link": "/checklists/bosses.html#item_2_32",
+          "title": "Godrick Knight (During Kenneth Haight Questline)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4669,
             6279
           ],
@@ -1520,7 +1539,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_1",
           "link": "/checklists/landmarks_locations.html#item_1_1",
           "title": "Stranded Graveyard"
@@ -1539,7 +1558,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_5",
           "link": "/checklists/landmarks_locations.html#item_1_5",
           "title": "Groveside Cave"
@@ -1558,7 +1577,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_3",
           "link": "/checklists/landmarks_locations.html#item_1_3",
           "title": "Coastal Cave"
@@ -1577,7 +1596,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_9",
           "link": "/checklists/landmarks_locations.html#item_1_9",
           "title": "Murkwater Cave"
@@ -1596,7 +1615,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_6",
           "link": "/checklists/landmarks_locations.html#item_1_6",
           "title": "Highroad Cave"
@@ -1615,7 +1634,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_4",
           "link": "/checklists/landmarks_locations.html#item_1_4",
           "title": "Deathtouched Catacombs"
@@ -1634,7 +1653,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_10",
           "link": "/checklists/landmarks_locations.html#item_1_10",
           "title": "Stormfoot Catacombs"
@@ -1653,7 +1672,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_8",
           "link": "/checklists/landmarks_locations.html#item_1_8",
           "title": "Murkwater Catacombs"
@@ -1672,7 +1691,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_14.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_1_7",
           "link": "/checklists/landmarks_locations.html#item_1_7",
           "title": "Limgrave Tunnels"
@@ -1691,7 +1710,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_16.png",
-          "icon_size": 70,
+          "icon_size": 50,
           "id": "caves_1_2",
           "link": "/checklists/landmarks_locations.html#item_1_2",
           "title": "Fringefolk Hero's Grave"
@@ -1748,7 +1767,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_30.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l1",
           "link": "/checklists/landmarks_locations.html#item_l1",
           "title": "Minor Erdtree"
@@ -1767,7 +1786,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_23.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l2",
           "link": "/checklists/landmarks_locations.html#item_l2",
           "title": "Divine Tower of Limgrave"
@@ -1786,7 +1805,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l3",
           "link": "/checklists/landmarks_locations.html#item_l3",
           "title": "Dragon-Burnt Ruins"
@@ -1805,7 +1824,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l4",
           "link": "/checklists/landmarks_locations.html#item_l4",
           "title": "Gatefront Ruins"
@@ -1824,7 +1843,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l5",
           "link": "/checklists/landmarks_locations.html#item_l5",
           "title": "Mistwood Ruins"
@@ -1843,7 +1862,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l6",
           "link": "/checklists/landmarks_locations.html#item_l6",
           "title": "Waypoint Ruins"
@@ -1862,7 +1881,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l7",
           "link": "/checklists/landmarks_locations.html#item_l7",
           "title": "Summonwater Village"
@@ -1881,7 +1900,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l8",
           "link": "/checklists/landmarks_locations.html#item_l8",
           "title": "Stormhill Shack"
@@ -1900,7 +1919,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l9",
           "link": "/checklists/landmarks_locations.html#item_l9",
           "title": "Warmaster's Shack"
@@ -1919,7 +1938,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l10",
           "link": "/checklists/landmarks_locations.html#item_l10",
           "title": "Artist's Shack"
@@ -1938,7 +1957,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l11",
           "link": "/checklists/landmarks_locations.html#item_l11",
           "title": "Church of Elleh"
@@ -1957,7 +1976,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l12",
           "link": "/checklists/landmarks_locations.html#item_l12",
           "title": "Church of Dragon Communion"
@@ -1976,7 +1995,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l13",
           "link": "/checklists/landmarks_locations.html#item_l13",
           "title": "Third Church of Marika"
@@ -1995,7 +2014,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_10.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l14",
           "link": "/checklists/landmarks_locations.html#item_l14",
           "title": "Stormgate"
@@ -2014,7 +2033,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Ungro.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l15",
           "link": "/checklists/landmarks_locations.html#item_l15",
           "title": "Siofra River Well"
@@ -2033,7 +2052,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_18.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l16",
           "link": "/checklists/landmarks_locations.html#item_l16",
           "title": "Fort Haight"
@@ -2052,7 +2071,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_50.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_ld1",
           "link": "/checklists/landmarks_locations.html#item_ld1",
           "title": "Stormveil Castle"
@@ -2071,7 +2090,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_1",
           "link": "/checklists/landmarks_locations.html#item_0_1",
           "title": "Earthbore Cave"
@@ -2090,7 +2109,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_5",
           "link": "/checklists/landmarks_locations.html#item_0_5",
           "title": "Tombsward Cave"
@@ -2109,7 +2128,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_2",
           "link": "/checklists/landmarks_locations.html#item_0_2",
           "title": "Impaler's Catacombs"
@@ -2128,7 +2147,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_04.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_4",
           "link": "/checklists/landmarks_locations.html#item_0_4",
           "title": "Tombsward Catacombs"
@@ -2147,7 +2166,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_14.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_0_3",
           "link": "/checklists/landmarks_locations.html#item_0_3",
           "title": "Morne Tunnel"
@@ -2185,7 +2204,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_30.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l17",
           "link": "/checklists/landmarks_locations.html#item_l17",
           "title": "Minor Erdtree"
@@ -2204,7 +2223,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_17.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_l18",
           "link": "/checklists/landmarks_locations.html#item_l18",
           "title": "Oridys's Rise"
@@ -2223,7 +2242,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l19",
           "link": "/checklists/landmarks_locations.html#item_l19",
           "title": "Demi-Human Forest Ruins"
@@ -2242,7 +2261,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l20",
           "link": "/checklists/landmarks_locations.html#item_l20",
           "title": "Tombsward Ruins"
@@ -2261,7 +2280,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_05.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l21",
           "link": "/checklists/landmarks_locations.html#item_l21",
           "title": "Witchbane Ruins"
@@ -2280,7 +2299,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_06.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l22",
           "link": "/checklists/landmarks_locations.html#item_l22",
           "title": "Isolated Merchant's Shack"
@@ -2299,7 +2318,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l23",
           "link": "/checklists/landmarks_locations.html#item_l23",
           "title": "Church of Pilgrimage"
@@ -2318,7 +2337,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l24",
           "link": "/checklists/landmarks_locations.html#item_l24",
           "title": "Callu Baptismal Church"
@@ -2337,7 +2356,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_Church.png",
-          "icon_size": 60,
+          "icon_size": 40,
           "id": "caves_l25",
           "link": "/checklists/landmarks_locations.html#item_l25",
           "title": "Fourth Church of Marika"
@@ -2356,7 +2375,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_11.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l26",
           "link": "/checklists/landmarks_locations.html#item_l26",
           "title": "Bridge of Sacrifice"
@@ -2375,7 +2394,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_37.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l27",
           "link": "/checklists/landmarks_locations.html#item_l27",
           "title": "Ailing Village"
@@ -2394,7 +2413,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_08.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l28",
           "link": "/checklists/landmarks_locations.html#item_l28",
           "title": "Forest Lookout Tower"
@@ -2413,7 +2432,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_08.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_l29",
           "link": "/checklists/landmarks_locations.html#item_l29",
           "title": "Tower of Return"
@@ -2432,7 +2451,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/MENU_MAP_25.png",
-          "icon_size": 70,
+          "icon_size": 45,
           "id": "caves_ld2",
           "link": "/checklists/landmarks_locations.html#item_ld2",
           "title": "Castle Morne"
@@ -2451,7 +2470,7 @@ const feature_data = [
         "properties": {
           "group": "caves",
           "icon": "/map/icons/edited/MENU_MAP_13.png",
-          "icon_size": 50,
+          "icon_size": 35,
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
           "title": "Lakeside Crystal Cave"
@@ -8572,6 +8591,790 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4651,
+            6696
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_4",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_4",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4143,
+            8129
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_1",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_1",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3857,
+            7677
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_2",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_2",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3503,
+            8005
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_3",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_3",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2916,
+            6433
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_5",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_5",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2187,
+            4037
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_6",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_6",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2509,
+            3993
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_7",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_7",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5785,
+            6663
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_8",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_8",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2963,
+            3141
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_9",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_9",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3209,
+            3345
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_10",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_10",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5956,
+            3012
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_11",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_11",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6754,
+            2369
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_2_12",
+        "properties": {
+          "group": "flasks",
+          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon_size": 35,
+          "id": "flasks_2_12",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
+          "title": "Sacred Tear"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "flasks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            4414,
+            8123
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_1",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_1",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            454,
+            8354
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_2",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_2",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1577,
+            5578
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_3",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_3",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1954,
+            5019
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_4",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_4",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1833,
+            4405
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_5",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_5",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1732,
+            3803
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_6",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_6",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6321,
+            6033
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_7",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_7",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2443,
+            3031
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_0_8",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00553.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_0_8",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
+          "title": "Memory Stone"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3317,
+            6832
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_2",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_2",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
+          "title": "Talisman Pouch"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            610,
+            8617
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_3",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_3",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
+          "title": "Talisman Pouch"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3723
+          ],
+          "type": "Point"
+        },
+        "id": "memory_stones_talisman_pouches_1_4",
+        "properties": {
+          "group": "memory_stones_talisman_pouches",
+          "icon": "/img/icons/keys/edited/00554.png",
+          "icon_size": 35,
+          "id": "memory_stones_talisman_pouches_1_4",
+          "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
+          "title": "Talisman Pouch"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "memory_stones_talisman_pouches",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            4311,
+            7517
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_1",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00311.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_1",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
+          "title": "Royal House Scroll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2836,
+            6351
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_2",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00310.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_2",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
+          "title": "Academy Scroll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1969,
+            4997
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_0_3",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00310.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_0_3",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
+          "title": "Conspectus Scroll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            710,
+            8415
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_1",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00319.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_1",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
+          "title": "Assassin's Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3126,
+            6731
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_2",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00317.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_2",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
+          "title": "Godskin Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2229,
+            5961
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_3",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00315.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_3",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
+          "title": "Fire Monks' Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2797,
+            5200
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_4",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00324.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_4",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
+          "title": "Dragon Cult Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4228,
+            3627
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_5",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00318.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_5",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
+          "title": "Two Fingers' Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4365,
+            3698
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_8",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00322.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_8",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
+          "title": "Golden Order Principia"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6209,
+            2420
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_6",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00316.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_6",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
+          "title": "Giant's Prayerbook"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8363,
+            4583
+          ],
+          "type": "Point"
+        },
+        "id": "scrolls_prayerbooks_1_7",
+        "properties": {
+          "group": "scrolls_prayerbooks",
+          "icon": "/img/icons/keys/edited/00325.png",
+          "icon_size": 35,
+          "id": "scrolls_prayerbooks_1_7",
+          "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
+          "title": "Ancient Dragon Prayerbook"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "scrolls_prayerbooks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3786,
+            6989
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_1",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03090.png",
+          "icon_size": 35,
+          "id": "whetstones_0_1",
+          "link": "/checklists/whetstones.html#item_0_1",
+          "title": "Whetstone Knife"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3084,
+            6689
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_2",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03020.png",
+          "icon_size": 35,
+          "id": "whetstones_0_2",
+          "link": "/checklists/whetstones.html#item_0_2",
+          "title": "Iron Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1928,
+            4942
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_3",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03023.png",
+          "icon_size": 35,
+          "id": "whetstones_0_3",
+          "link": "/checklists/whetstones.html#item_0_3",
+          "title": "Glintstone Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6024,
+            7307
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_4",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03021.png",
+          "icon_size": 35,
+          "id": "whetstones_0_4",
+          "link": "/checklists/whetstones.html#item_0_4",
+          "title": "Red-Hot Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6068,
+            14426
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_5",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03024.png",
+          "icon_size": 35,
+          "id": "whetstones_0_5",
+          "link": "/checklists/whetstones.html#item_0_5",
+          "title": "Black Whetblade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4220,
+            3646
+          ],
+          "type": "Point"
+        },
+        "id": "whetstones_0_6",
+        "properties": {
+          "group": "whetstones",
+          "icon": "/img/icons/keys/edited/03022.png",
+          "icon_size": 35,
+          "id": "whetstones_0_6",
+          "link": "/checklists/whetstones.html#item_0_6",
+          "title": "Sanctified Whetblade"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "whetstones",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3655,
             7210
           ],
@@ -9084,7 +9887,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_1",
           "link": "/checklists/paintings.html#item_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>"
+          "title": "Prophecy Painting solution"
         },
         "type": "Feature"
       },
@@ -9103,7 +9906,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_2",
           "link": "/checklists/paintings.html#item_2",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>"
+          "title": "Homing Instinct Painting solution"
         },
         "type": "Feature"
       },
@@ -9122,7 +9925,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_3",
           "link": "/checklists/paintings.html#item_3",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>"
+          "title": "Resurrection Painting solution"
         },
         "type": "Feature"
       },
@@ -9141,7 +9944,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_4",
           "link": "/checklists/paintings.html#item_4",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>"
+          "title": "Redmane Painting solution"
         },
         "type": "Feature"
       },
@@ -9160,7 +9963,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_5",
           "link": "/checklists/paintings.html#item_5",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>"
+          "title": "Champion's Song Painting solution"
         },
         "type": "Feature"
       },
@@ -9179,7 +9982,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_6",
           "link": "/checklists/paintings.html#item_6",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>"
+          "title": "Flightless Bird Painting solution"
         },
         "type": "Feature"
       },
@@ -9198,7 +10001,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_7",
           "link": "/checklists/paintings.html#item_7",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>"
+          "title": "Sorcerer Painting solution"
         },
         "type": "Feature"
       }
@@ -9212,6 +10015,7 @@ const icon_urls = [
   "/img/icons/armor/15000.png",
   "/img/icons/armor/15290.png",
   "/img/icons/ashes_of_war/08385.png",
+  "/img/icons/bolstering/edited/00384.png",
   "/img/icons/incantations/06060.png",
   "/img/icons/info/paintings/edited/03066.png",
   "/img/icons/info/paintings/edited/03207.png",
@@ -9220,6 +10024,24 @@ const icon_urls = [
   "/img/icons/info/paintings/edited/03210.png",
   "/img/icons/info/paintings/edited/03211.png",
   "/img/icons/info/paintings/edited/03212.png",
+  "/img/icons/keys/edited/00310.png",
+  "/img/icons/keys/edited/00311.png",
+  "/img/icons/keys/edited/00315.png",
+  "/img/icons/keys/edited/00316.png",
+  "/img/icons/keys/edited/00317.png",
+  "/img/icons/keys/edited/00318.png",
+  "/img/icons/keys/edited/00319.png",
+  "/img/icons/keys/edited/00322.png",
+  "/img/icons/keys/edited/00324.png",
+  "/img/icons/keys/edited/00325.png",
+  "/img/icons/keys/edited/00553.png",
+  "/img/icons/keys/edited/00554.png",
+  "/img/icons/keys/edited/03020.png",
+  "/img/icons/keys/edited/03021.png",
+  "/img/icons/keys/edited/03022.png",
+  "/img/icons/keys/edited/03023.png",
+  "/img/icons/keys/edited/03024.png",
+  "/img/icons/keys/edited/03090.png",
   "/img/icons/spirit_ashes/00456.png",
   "/img/icons/weapons/lightbows/11003.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",

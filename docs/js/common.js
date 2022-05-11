@@ -93,8 +93,18 @@ var themes = {
             $(el).prop('checked', checked)
             if (checked) {
                 $(el).closest('li').addClass('completed')
+                if (window.current_page_id) {
+                    window.progress[window.current_page_id]['total'][0] += 1;
+                    const section_idx = parseInt($(el).attr('data-section-idx'));
+                    window.progress[window.current_page_id]['sections'][section_idx][0] += 1;
+                }
             } else {
                 $(el).closest('li').removeClass('completed')
+                if (window.current_page_id) {
+                    window.progress[window.current_page_id]['total'][0] -= 1;
+                    const section_idx = parseInt($(el).attr('data-section-idx'));
+                    window.progress[window.current_page_id]['sections'][section_idx][0] -= 1;
+                }
             }
         }
     }
