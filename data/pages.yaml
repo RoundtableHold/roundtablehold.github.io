@@ -261,9 +261,11 @@ item_links:
   - link_all: [bosses_6_3, talismans_6_3] #DEMI-HUMAN QUEEN GILIKA/RITUAL SWORD TALISMAN (CHEST IN NEXT ROOM)
   - link_all: [bosses_6_4, crystal_tears_4_1, weapons_18_6] #ELEONORA/PURIFYING CRYSTAL TEAR/ELEONORA'S POLEBLADE
   - link_all: [bosses_6_5, talismans_7_8] #RILEIGH THE IDLE/CREPUS'S VIAL TALISMAN (VOLCANO MANOR QUESTLINE)
+  - link_all: [bosses_6_6, weapons_16_3] #SANGUINE NOBLE/BLOODY HELICE HEAVY THRUSTING SWORD
   - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
   - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
   - link_all: [bosses_6_9, caves_4_2, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2]
+  - link_all: [bosses_6_20, weapons_6_5] #DUELIST/DUELIST GREATAXE
   - source: caves_4_4
     target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
   - source_and: [bosses_6_10, bosses_6_11]
@@ -347,6 +349,7 @@ item_links:
   - link_all: [bosses_13_2, spirit_ashes_11_1] #ANCESTER SPIRIT/ANCESTRAL FOLLOWER ASHES
   - link_all: [bosses_14_1, armor_195] #MIMIC TEAR/SILVER TEAR MASK/LARVAL TEAR (X2) #TODO: LINK IF LARVAL TEAR PAGE IS CREATED (OTHERWISE OK TO DELETE)
   - link_all: [bosses_14_2, remembrances_mausoleums_1_4] #REGAL ANCESTOR SPIRIT/REMEMBRANCE OF THE REGAL ANCESTOR
+  - link_all: [bosses_14_5, weapons_34_3] #LESSER CRUCIBLE KNIGHT/CRUCIBLE HORNSHIELD
   - link_all: [bosses_14_3, weapons_14_9, weapons_18_4] #VALIANT GARGOYLE & VALIANT GARGOYLE (TWINBLADE)/GARGOYLE'S GREATSWORD/GARGOYLE'S TWINBLADE
   - link_all: [bosses_15_1, armor_214, armor_215, armor_217, armor_218] #NAMELESS WHITE MASK (X3)/WAR SURGEON SET
   - link_all: [bosses_15_2, weapons_20_10] #WHITE-FACED VARRE/VARRE'S BOUQUET HAMMER (RETURN TO HIS SIGN AFTER DEFEAT)
