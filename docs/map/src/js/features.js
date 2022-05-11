@@ -308,6 +308,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4727,
+            7292
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_32",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_2_32",
+          "link": "/checklists/bosses.html#item_2_32",
+          "title": "Godrick Knight (During Kenneth Haight Questline)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4669,
             6279
           ],

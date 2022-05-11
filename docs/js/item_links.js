@@ -1179,6 +1179,11 @@ const item_links = {
       "weapons_18_4"
     ]
   },
+  "bosses_14_5": {
+    "targets": [
+      "weapons_34_3"
+    ]
+  },
   "bosses_15_1": {
     "targets": [
       "armor_214",
@@ -1935,6 +1940,11 @@ const item_links = {
       "ashesofwar_12_10"
     ]
   },
+  "bosses_6_20": {
+    "targets": [
+      "weapons_6_5"
+    ]
+  },
   "bosses_6_3": {
     "targets": [
       "talismans_6_3"
@@ -1949,6 +1959,11 @@ const item_links = {
   "bosses_6_5": {
     "targets": [
       "talismans_7_8"
+    ]
+  },
+  "bosses_6_6": {
+    "targets": [
+      "weapons_16_3"
     ]
   },
   "bosses_6_7": {
@@ -5281,6 +5296,11 @@ const item_links = {
       "bosses_7_23"
     ]
   },
+  "weapons_16_3": {
+    "targets": [
+      "bosses_6_6"
+    ]
+  },
   "weapons_16_4": {
     "targets": [
       "remembrances_mausoleums_1_11_1"
@@ -5561,6 +5581,11 @@ const item_links = {
       "bosses_5_4"
     ]
   },
+  "weapons_34_3": {
+    "targets": [
+      "bosses_14_5"
+    ]
+  },
   "weapons_34_4": {
     "targets": [
       "bosses_8_7",
@@ -5638,6 +5663,11 @@ const item_links = {
   "weapons_6_10": {
     "targets": [
       "bosses_7_21"
+    ]
+  },
+  "weapons_6_5": {
+    "targets": [
+      "bosses_6_20"
     ]
   },
   "weapons_6_6": {
