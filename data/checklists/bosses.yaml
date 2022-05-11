@@ -442,7 +442,7 @@ sections:
       - id: "7_6"
         data: ["Stonedigger Troll", "Old Altus Tunnel", "9600 runes, Great Club", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - id: "6_2"
-        data: ["Night's Cavalry", "Altus Highway", "10,000 runes, Ash of War: Shared Order", "Field boss. Nighttime only."]
+        data: ["Night's Cavalry", "Altus Highway", "10,500 runes, Ash of War: Shared Order", "Field boss. Nighttime only."]
       - id: "6_3"
         data: ["Demi-Human Queen Gilika", "Lux Ruins", "8500 runes, Ritual Sword Talisman (chest in the next room)", "Field boss."]
       - id: "6_4"
@@ -450,23 +450,29 @@ sections:
       - id: "6_5"
         data: ["Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Crepus's Vial Talisman, Black-Key Bolt (x20), Furlcalling Finger Remedy", "NPC. You can invade his world. Related to Volcano Manor quest."]
       - id: "6_6"
-        data: ["Sanguine Noble", "Writheblood Ruins", "8800 runes, Bloodrose", ""]
+        data: ["Sanguine Noble", "Writheblood Ruins", "8800 runes, Bloodrose", "Guarding a chest with Bloody Helice Heavy Thrusting Sword."]
       - id: "6_7"
         data: ["Wormface", "Minor Erdtree", "10,000 runes, Speckled Hardtear, Crimsonspill Crystal Tear", "Field boss."]
       - id: "6_8"
         data: ["Godskin Apostle", "Dominula Windmill Village", "14,000 runes, Godskin Peeler Twinblade, Scouring Black Flame Incantation", ""]
+      - id: "6_19"
+        data: ["Lion Guardian", "South of Windmill Village", "Larval Tear", "Field boss. Disguised as a Wandering Noble. Kill the enemy in the ruins area."] #TODO: ADD RUNES
       - id: "6_9"
         data: ["Crystalian (Spear) & Crystalian (Ringblade)", "Altus Tunnel", "1800 runes, Somberstone Miner's Bell Bearing [2]", ""]
       - id: "6_10"
-        data: ["Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "11,339 runes, Black Knife Dagger", ""]
+        data: ["Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "10,800 runes, Black Knife Dagger", ""]
+      - id: "6_20"
+        data: ["Duelist (Shadow)", "Sainted Hero's Grave", "Duelist Greataxe", "In the room with Prattling Pate. Must be defeated to unlock the boss door."] #TODO: ADD RUNES
       - id: "6_11"
         data: ["Ancient Hero of Zamor", "Sainted Hero's Grave", "24,000 runes, Ancient Dragon Knight Kristoff Ashes (Legendary)", ""]
+      - id: "6_18"
+        data: ["Malformed Star", "Perfumer's Grotto", "3844 Runes", "The enemy is in Perfumer's Grotto, but also visible/accessible midway through Altus Tunnel."]
       - id: "6_12"
         data: ["Omenkiller & Miranda, the Blighted Bloom", "Perfumer's Grotto", "8500 runes, Great Omenkiller Cleaver", ""]
       - id: "6_13"
         data: ["Fallingstar Beast", "South Altus Plateau Crater", "11,000 runes, Somber Smithing Stone [5], Smithing Stone [6] (x5), Gravity Stone Fan, Gravity Stone Chunk", ""]
       - id: "6_14"
-        data: ["Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "63,000 runes, Lansseax's Glaive Incantation", "Part 1 of this encounter takes place in Mt. Gelmir."]
+        data: ["Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "60,000 runes, Lansseax's Glaive Incantation", "Part 1 of this encounter takes place in Mt. Gelmir."]
       - id: "6_15"
         data: ["Tree Sentinel (x2)", "Leyndell Entrance", "20,000 runes, Erdtree Greatshield, Hero's Rune [1]", "Is one annoying bastard (x2)."]
       - id: "6_16"
@@ -673,6 +679,10 @@ sections:
         data: ["Lesser Red Wolf Of Radagon", "Ancestral Woods", "", "Surrounded by wolves."] #TODO: ADD RUNES, DROPS
       - id: "14_2"
         data: ["Regal Ancestor Spirit", "Hallowhorn Grounds", "24,000 runes, Remembrance of the Regal Ancestor", "You need to light six braziers around Nokron, Eternal City to activate him. Grants Achievement/Trophy: Regal Ancestor Spirit."]
+      - id: "14_5"
+        data: ["Lesser Crucible Knight", "Siofra Aqueduct", "Crucible Hornshield", ""] #TODO: ADD RUNES
+      - id: "14_6"
+        data: ["Crucible Tree Knight", "Siofra Aqueduct", "3080 runes, Somber Smithing Stone [6]", ""]
       - id: "14_3"
         data: ["Valiant Gargoyle & Valiant Gargoyle (Twinblade)", "Siofra Aqueduct", "32,000 runes, Gargoyle's Greatsword, Gargoyle's Twinblade", "After defeating it, the Great Waterfall Basin Site of Grace is accessible. Grants Achievement/Trophy: Valiant Gargoyle."]
   -
