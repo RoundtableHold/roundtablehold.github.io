@@ -430,32 +430,41 @@ sections:
       - id: "3_1"
         data: ["Abandoned Cave", "Cave", "Cleanrot Knight (x2)", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [5363, 6479]
       - id: "3_4"
         data: ["Gaol Cave", "Cave", "Frenzied Duelist", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [4936, 6771]
       - id: "3_7"
         data: ["Dragonbarrow Cave", "Cave", "Beastman of Farum Azula (x2)", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [6011, 6173]
       - id: "3_9"
         data: ["Sellia Hideaway", "Cave", "Crystalian (x3)", "Part of Sellen's questline. Located behind an illusory cliffside."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [5873, 6481]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "3_2"
         data: ["Caelid Catacombs", "Catacomb", "Cemetery Shade", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [5362, 7238]
       - id: "3_5"
         data: ["Minor Erdtree Catacombs", "Catacomb", "Erdtree Burial Watchdog (x2)", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [4930, 6172]
       - id: "3_8"
         data: ["War-Dead Catacombs", "Catacomb", "Putrid Tree Spirit", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [6310, 6173]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "3_3"
         data: ["Gael Tunnel", "Tunnel", "Magma Wyrm", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [4796, 6512]
       - id: "3_6"
         data: ["Sellia Crystal Tunnel", "Tunnel", "Fallingstar Beast", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [5520, 6433]
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e8"
@@ -466,79 +475,115 @@ sections:
       - id: "l67"
         data: ["Minor Erdtree (west)", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [4911, 6164]
+        map_icon_size: 45
       - id: "l68"
         data: ["Minor Erdtree (east)", "Landmark", "Putrid Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [6037, 6244]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l69"
         data: ["Divine Tower of Caelid", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [5581, 6055]
+        map_icon_size: 45
       - id: "l70"
         data: ["Isolated Divine Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [5990, 4819]
+        map_icon_size: 45
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l71"
         data: ["Lenne's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [6338, 6042]
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l72"
         data: ["Forsaken Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [4894, 6375]
       - id: "l73"
         data: ["Caelem Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5114, 6372]
       - id: "l74"
         data: ["Caelid Waypoint Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5043, 6879]
       - id: "l75"
         data: ["Street of Sages Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5286, 6664]
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l76"
         data: ["Shack of the Rotting", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [4819, 6362]
       - id: "l77"
         data: ["Isolated Merchant's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [5171, 6098]
       - id: "l78"
         data: ["Gowry's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [5672, 6738]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l79"
         data: ["Smouldering Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [4668, 6258]
+        map_icon_size: 40
       - id: "l80"
         data: ["Cathedral of Dragon Communion", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [5267, 7189]
+        map_icon_size: 40
       - id: "l81"
         data: ["Church of the Plague", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [5773, 6662]
+        map_icon_size: 40
         #UNIQUE
       - id: "l82"
         data: ["Sellia, Town of Sorcery", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_33.png'
+        cords: [5638, 6579]
+        map_icon_size: 40
       - id: "l83"
         data: ["Sellia Gateway", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_10.png'
+        cords: [5629, 6836]
       - id: "l84"
         data: ["Bestial Sanctum", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_54.png'
+        cords: [5983, 5504]
+        map_icon_size: 40
       - id: "l85"
         data: ["Deep Siofra Well", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Ungro.png'
+        cords: [5390, 6283]
       - id: "l86"
         data: ["Fort Gael", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_18.png'
+        cords: [4885, 6793]
+        map_icon_size: 40
       - id: "l87"
         data: ["Fort Faroth", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_18.png'
+        cords: [5957, 6429]
+        map_icon_size: 40
       - id: "l88"
         data: ["Swamp Lookout Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
+        cords: [5558, 6732]
         #LEGACY
       - id: "ld5"
         data: ["Redmane Castle", "Legacy dungeon (minor)", "Misbegotten Warrior & Crucible Knight<br>Starscourge Radahn", "Semi-required for progression."]
         icon: '/map/icons/MENU_MAP_28.png'
+        cords: [6060, 7357]
+        map_icon_size: 45
   -
     title: "Altus Plateau"
     table: ["Name", "Type", "Bosses", "Notes"]

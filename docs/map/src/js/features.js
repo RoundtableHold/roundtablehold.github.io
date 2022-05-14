@@ -3145,6 +3145,177 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            5363,
+            6479
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_1",
+          "link": "/checklists/landmarks_locations.html#item_3_1",
+          "title": "Abandoned Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4936,
+            6771
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_4",
+          "link": "/checklists/landmarks_locations.html#item_3_4",
+          "title": "Gaol Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6011,
+            6173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_7",
+          "link": "/checklists/landmarks_locations.html#item_3_7",
+          "title": "Dragonbarrow Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5873,
+            6481
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_9",
+          "link": "/checklists/landmarks_locations.html#item_3_9",
+          "title": "Sellia Hideaway"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5362,
+            7238
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_2",
+          "link": "/checklists/landmarks_locations.html#item_3_2",
+          "title": "Caelid Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4930,
+            6172
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_5",
+          "link": "/checklists/landmarks_locations.html#item_3_5",
+          "title": "Minor Erdtree Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6310,
+            6173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_8",
+          "link": "/checklists/landmarks_locations.html#item_3_8",
+          "title": "War-Dead Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4796,
+            6512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_3_3",
+          "link": "/checklists/landmarks_locations.html#item_3_3",
+          "title": "Gael Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5520,
+            6433
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_3_6",
+          "link": "/checklists/landmarks_locations.html#item_3_6",
+          "title": "Sellia Crystal Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             5413,
             6515
           ],
@@ -3158,6 +3329,443 @@ const feature_data = [
           "id": "caves_e8",
           "link": "/checklists/landmarks_locations.html#item_e8",
           "title": "Sellia Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4911,
+            6164
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l67",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l67",
+          "link": "/checklists/landmarks_locations.html#item_l67",
+          "title": "Minor Erdtree (west)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6037,
+            6244
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l68",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l68",
+          "link": "/checklists/landmarks_locations.html#item_l68",
+          "title": "Minor Erdtree (east)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5581,
+            6055
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l69",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l69",
+          "link": "/checklists/landmarks_locations.html#item_l69",
+          "title": "Divine Tower of Caelid"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5990,
+            4819
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l70",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l70",
+          "link": "/checklists/landmarks_locations.html#item_l70",
+          "title": "Isolated Divine Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6338,
+            6042
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l71",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l71",
+          "link": "/checklists/landmarks_locations.html#item_l71",
+          "title": "Lenne's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4894,
+            6375
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l72",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l72",
+          "link": "/checklists/landmarks_locations.html#item_l72",
+          "title": "Forsaken Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5114,
+            6372
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l73",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l73",
+          "link": "/checklists/landmarks_locations.html#item_l73",
+          "title": "Caelem Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5043,
+            6879
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l74",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l74",
+          "link": "/checklists/landmarks_locations.html#item_l74",
+          "title": "Caelid Waypoint Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5286,
+            6664
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l75",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l75",
+          "link": "/checklists/landmarks_locations.html#item_l75",
+          "title": "Street of Sages Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4819,
+            6362
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l76",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l76",
+          "link": "/checklists/landmarks_locations.html#item_l76",
+          "title": "Shack of the Rotting"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5171,
+            6098
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l77",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l77",
+          "link": "/checklists/landmarks_locations.html#item_l77",
+          "title": "Isolated Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5672,
+            6738
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l78",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l78",
+          "link": "/checklists/landmarks_locations.html#item_l78",
+          "title": "Gowry's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4668,
+            6258
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l79",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l79",
+          "link": "/checklists/landmarks_locations.html#item_l79",
+          "title": "Smouldering Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5267,
+            7189
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l80",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l80",
+          "link": "/checklists/landmarks_locations.html#item_l80",
+          "title": "Cathedral of Dragon Communion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5773,
+            6662
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l81",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l81",
+          "link": "/checklists/landmarks_locations.html#item_l81",
+          "title": "Church of the Plague"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5638,
+            6579
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l82",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_33.png",
+          "icon_size": 40,
+          "id": "caves_l82",
+          "link": "/checklists/landmarks_locations.html#item_l82",
+          "title": "Sellia, Town of Sorcery"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5629,
+            6836
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l83",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_10.png",
+          "icon_size": 35,
+          "id": "caves_l83",
+          "link": "/checklists/landmarks_locations.html#item_l83",
+          "title": "Sellia Gateway"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5983,
+            5504
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l84",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_54.png",
+          "icon_size": 40,
+          "id": "caves_l84",
+          "link": "/checklists/landmarks_locations.html#item_l84",
+          "title": "Bestial Sanctum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5390,
+            6283
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l85",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Ungro.png",
+          "icon_size": 35,
+          "id": "caves_l85",
+          "link": "/checklists/landmarks_locations.html#item_l85",
+          "title": "Deep Siofra Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4885,
+            6793
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l86",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l86",
+          "link": "/checklists/landmarks_locations.html#item_l86",
+          "title": "Fort Gael"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5957,
+            6429
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l87",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l87",
+          "link": "/checklists/landmarks_locations.html#item_l87",
+          "title": "Fort Faroth"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5558,
+            6732
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l88",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l88",
+          "link": "/checklists/landmarks_locations.html#item_l88",
+          "title": "Swamp Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6060,
+            7357
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_28.png",
+          "icon_size": 45,
+          "id": "caves_ld5",
+          "link": "/checklists/landmarks_locations.html#item_ld5",
+          "title": "Redmane Castle"
         },
         "type": "Feature"
       },
@@ -10645,10 +11253,13 @@ const icon_urls = [
   "/map/icons/MENU_MAP_18.png",
   "/map/icons/MENU_MAP_23.png",
   "/map/icons/MENU_MAP_25.png",
+  "/map/icons/MENU_MAP_28.png",
   "/map/icons/MENU_MAP_30.png",
+  "/map/icons/MENU_MAP_33.png",
   "/map/icons/MENU_MAP_37.png",
   "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_50.png",
+  "/map/icons/MENU_MAP_54.png",
   "/map/icons/MENU_MAP_80.png",
   "/map/icons/MENU_MAP_Church.png",
   "/map/icons/MENU_MAP_Ungro.png",
