@@ -255,27 +255,33 @@ sections:
       - id: "2_1"
         data: ["Academy Crystal Cave", "Cave", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [1724, 4870]
       - id: "2_4"
         data: ["Lakeside Crystal Cave", "Cave", "Bloodhound Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2327, 6002]
+        cords: [2335, 5968]
       - id: "2_8"
         data: ["Stillwater Cave", "Cave", "Cleanrot Knight", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [2940, 6303]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "2_2"
         data: ["Black Knife Catacombs", "Catacomb", "Black Knife Assassin<br>Cemetery Shade", "Has 1 Imp Statue inside."]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [2870, 4122]
       - id: "2_3"
         data: ["Cliffbottom Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [3037, 5944]
       - id: "2_6"
         data: ["Road's End Catacombs", "Catacomb", "Spirit-Caller Snail", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [1381, 5526]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "2_5"
         data: ["Raya Lucaria Crystal Tunnel", "Tunnel", "Crystalian (Ringblade)", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [2304, 4457]
         #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e4"
@@ -298,130 +304,187 @@ sections:
       - id: "l30"
         data: ["Minor Erdtree (southwest)", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [1440, 5437]
+        map_icon_size: 45
       - id: "l31"
         data: ["Minor Erdtree (northeast)", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [2673, 4345]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l32"
         data: ["Divine Tower of Liurnia", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [3345, 5135]
+        map_icon_size: 45
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l33"
         data: ["Converted Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1577, 5578]
+        map_icon_size: 45
       - id: "l34"
         data: ["Testu's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1833, 4405]
+        map_icon_size: 45
       - id: "l35"
         data: ["Converted Fringe Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [2919, 4172]
+        map_icon_size: 45
       - id: "l36"
         data: ["Ranni's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
-      - id: "l37"
-        data: ["Ranni's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1596, 3690]
+        map_icon_size: 45
       - id: "l38"
         data: ["Seluvis's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1732, 3803]
+        map_icon_size: 45
       - id: "l39"
         data: ["Renna's Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1755, 3517]
+        map_icon_size: 45
+      - id: "l50"
+        data: ["Chelona's Rise", "Landmark", "", ""]
+        icon: '/map/icons/MENU_MAP_17.png'
+        cords: [1406, 6245]
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l40"
         data: ["Laskyar Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [2543, 5875]
       - id: "l41"
         data: ["Purified Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [2861, 5927]
       - id: "l42"
         data: ["Kingsrealm Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [1722, 4123]
       - id: "l43"
         data: ["Lunar Estate Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [1950, 5937]
       - id: "l44"
         data: ["Moonfolk Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [1675, 5781]
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l45"
         data: ["Slumbering Wolf's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2302, 6064]
       - id: "l46"
         data: ["Boilprawn Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2277, 5562]
       - id: "l47"
         data: ["Artist's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2776, 5104]
       - id: "l48"
         data: ["Revenger's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [1430, 5208]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l49"
-        data: ["Callu Baptismal Church", "Landmark", "", ""]
+      - id: "l131"
+        data: ["Church of Irith", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
-      # - id: "l50" (TODO: does this exist on the map?)
-      #   data: ["Chapel of Anticipation", "Landmark", "", ""]
-      #   icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [2911, 6414]
+        map_icon_size: 40
       - id: "l51"
         data: ["Rose Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [1829, 5363]
+        map_icon_size: 40
       - id: "l52"
         data: ["Church of Vows", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [2405, 4720]
+        map_icon_size: 40
       - id: "l53"
         data: ["Bellum Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [2180, 4048]
+        map_icon_size: 40
       - id: "l54"
         data: ["Church of Inhibition", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [2499, 4013]
+        map_icon_size: 40
       - id: "l55"
         data: ["Cathedral of Manus Celes", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_20.png'
+        cords: [1883, 5784]
+        map_icon_size: 40
         #UNIQUE
       - id: "l56"
         data: ["Highway Lookout Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
+        cords: [2793, 5638]
       - id: "l57"
         data: ["Carian Study Hall", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_66.png'
+        cords: [2917, 5209]
+        map_icon_size: 45
       - id: "l58"
         data: ["Jarburg", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_38.png'
+        cords: [2993, 5259]
       - id: "l59"
         data: ["Academy Gate Town", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_32.png'
+        cords: [2345, 5207]
       - id: "l60"
         data: ["Temple Quarter", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_32.png'
+        cords: [1714, 5178]
       - id: "l61"
         data: ["Village of the Albinaurics", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_39.png'
+        cords: [1727, 5852]
       - id: "l62"
         data: ["The Four Belfries", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_52.png'
+        cords: [1475, 4565]
+        map_icon_size: 40
       - id: "l63"
         data: ["Frenzied Flame Village", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_35.png'
+        cords: [2650, 4245]
       - id: "l64"
         data: ["Frenzy-Flaming Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
+        cords: [2679, 4054]
       - id: "l65"
         data: ["Ainsel River Well", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Ungro.png'
+        cords: [2777, 4661]
       - id: "l66"
         data: ["Deep Ainsel Well", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Ungro.png'
+        cords: [1643, 5990]
         #LEGACY
       - id: "ld3"
         data: ["Academy of Raya Lucaria", "Legacy dungeon (major)", "Red Wolf of Radagon<br>Rennala, Queen of the Full Moon", "Semi-required for progression, needs Academy Key to enter."]
         icon: '/map/icons/MENU_MAP_51.png'
+        cords: [1800, 4807]
+        map_icon_size: 45
       - id: "ld4"
         data: ["Caria Manor", "Legacy dungeon (minor)", "Royal Knight Loretta", "Related to Ranni's questline."]
         icon: '/map/icons/MENU_MAP_26.png'
+        cords: [1927, 3730]
+        map_icon_size: 45
       - id: "2_7" #This legacy dungeon has a Cave-style ID instead of a Legacy Dungeon-style ID because it was listed on both original pages, and keeping the ID it had on the Caves page means it preserves its progress.
         data: ["Ruin-Strewn Precipice", "Legacy dungeon (minor)", "Magma Wyrm Makar", "Not required, unless you want alternate entry to Altus Plateau."]
         icon: '/map/icons/MENU_MAP_53.png'
+        cords: [2580, 3625]
+        map_icon_size: 45
   -
     title: "Caelid"
     table: ["Name", "Type", "Bosses", "Notes"]
