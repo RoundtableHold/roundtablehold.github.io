@@ -46,12 +46,12 @@ sections:
         data: ["Limgrave Tunnels", "Tunnel", "Stonedigger Troll", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [3839, 7051]
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "1_2"
         data: ["Fringefolk Hero's Grave", "Hero's grave", "Ulcerated Tree Sprit<br>Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/MENU_MAP_16.png'
+        map_icon: '/map/icons/edited/MENU_MAP_16.png'
         cords: [3755, 7319]
-        map_icon_size: 50
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e1"
         data: ["Forlorn Hound Evergaol", "Evergaol", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
@@ -171,7 +171,7 @@ sections:
         data: ["Morne Tunnel", "Tunnel", "Scaly Misbegotten", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [4005, 8113]
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e3"
         data: ["Weeping Evergaol", "Evergaol", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
@@ -282,7 +282,7 @@ sections:
         data: ["Raya Lucaria Crystal Tunnel", "Tunnel", "Crystalian (Ringblade)", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [2304, 4457]
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e4"
         data: ["Malefactor's Evergaol", "Evergaol", "Adan, Thief of Fire", "Flame of the Fell God (Incantation)"]
@@ -528,7 +528,7 @@ sections:
         data: ["Sellia Crystal Tunnel", "Tunnel", "Fallingstar Beast", ""]
         icon: '/map/icons/MENU_MAP_14.png'
         cords: [5520, 6433]
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e8"
         data: ["Sellia Evergaol", "Evergaol", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
@@ -655,24 +655,31 @@ sections:
       - id: "4_3"
         data: ["Perfumer's Grotto", "Cave", "Omenkiller & Miranda, the Blighted Bloom", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [3506, 3448]
       - id: "5_2"
         data: ["Sage's Cave", "Cave", "Necromancer Garris<br>Black Knife Assassin", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [2511, 3264]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "5_4"
         data: ["Unsightly Catacombs", "Catacomb", "Perfumer Tricia & Misbegotten Warrior", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [2126, 3369]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "4_1"
         data: ["Old Altus Tunnel", "Tunnel", "Stonedigger Troll", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [2794, 3058]
       - id: "4_2"
         data: ["Altus Tunnel", "Tunnel", "Crystalian (x2)", ""]
         icon: '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        cords: [3408, 3137]
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "4_4"
         data: ["Sainted Hero's Grave", "Hero's grave", "Ancient Hero of Zamor<br>Black Knife Assassin", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/MENU_MAP_16.png'
+        map_icon: '/map/icons/edited/MENU_MAP_16.png'
+        cords: [3225, 3190]
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e9"
         data: ["Golden Lineage Evergaol", "Evergaol", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
@@ -682,58 +689,81 @@ sections:
       - id: "l89"
         data: ["Minor Erdtree", "Landmark", "Wormface", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [3384, 2925]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l90"
         data: ["Mirage Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [3035, 3019]
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l91"
         data: ["Perfumer's Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [2149, 3328]
       - id: "l92"
         data: ["Lux Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [2663, 3448]
       - id: "l93"
         data: ["Wyndham Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [2637, 3187]
       - id: "l94"
         data: ["Writheblood Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [3140, 2866]
       - id: "l95"
         data: ["Woodfolk Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [3481, 2918]
         #SHACKS '/map/icons/MENU_MAP_06.png'
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l96"
         data: ["Stormcaller Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [3227, 3351]
+        map_icon_size: 40
       - id: "l97"
         data: ["Second Church of Marika", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [2979, 3146]
+        map_icon_size: 40
         #UNIQUE
       - id: "l98"
         data: ["Grand Lift of Dectus", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_21.png'
+        cords: [2745, 3733]
+        map_icon_size: 50
       - id: "l99"
         data: ["West Windmill Pasture", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_19.png'
+        cords: [3126, 2512]
       - id: "l100"
         data: ["East Windmill Pasture", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_19.png'
+        cords: [3348, 2391]
       - id: "l101"
         data: ["Village Windmill Pasture", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_19.png'
+        cords: [3504, 2528]
       - id: "l102"
         data: ["Dominula, Windmill Village", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_36.png'
+        cords: [3633, 2586]
+        map_icon_size: 40
       - id: "l103"
         data: ["Highway Lookout Tower", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_08.png'
+        cords: [3739, 2723]
         #LEGACY
       - id: "ld6"
         data: ["The Shaded Castle", "Legacy dungeon (minor)", "Elemer of the Briar", "Related to Millicent's questline."]
         icon: '/map/icons/MENU_MAP_27.png'
+        cords: [2921, 2682]
+        map_icon_size: 45
   -
     title: "Mt. Gelmir"
     table: ["Name", "Type", "Bosses", "Notes"]
@@ -750,10 +780,10 @@ sections:
         data: ["Wyndham Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "5_1"
         data: ["Gelmir Hero's Grave", "Hero's grave", "Red Wolf of the Champion", ""]
-        icon: '/map/icons/MENU_MAP_16.png'
+        icon: '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l104"
@@ -801,10 +831,10 @@ sections:
       - id: "6_1"
         data: ["Sealed Tunnel", "Tunnel", "Onyx Lord", ""]
         icon: '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "6_2"
         data: ["Auriza Hero's Grave", "Hero's grave", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
-        icon: '/map/icons/MENU_MAP_16.png'
+        icon: '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l110"
@@ -845,10 +875,10 @@ sections:
         data: ["Giants' Mountaintop Catacombs", "Catacomb", "Ulcerated Tree Sprit", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
         #TUNNELS '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "7_1"
         data: ["Giant-Conquering Hero's Grave", "Hero's grave", "Ancient Hero of Zamor", ""]
-        icon: '/map/icons/MENU_MAP_16.png'
+        icon: '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e10"
         data: ["Lord Contender's Evergaol", "Evergaol", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
@@ -917,7 +947,7 @@ sections:
       - id: "8_3"
         data: ["Yelough Anix Tunnel", "Tunnel", "Astel, Stars of Darkness", ""]
         icon: '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/MENU_MAP_16.png'
+        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l126"

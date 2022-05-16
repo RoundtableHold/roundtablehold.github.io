@@ -2298,8 +2298,8 @@ const feature_data = [
         "id": "caves_1_2",
         "properties": {
           "group": "caves",
-          "icon": "/map/icons/MENU_MAP_16.png",
-          "icon_size": 50,
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
           "id": "caves_1_2",
           "link": "/checklists/landmarks_locations.html#item_1_2",
           "title": "Fringefolk Hero's Grave"
@@ -4627,6 +4627,120 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3506,
+            3448
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_4_3",
+          "link": "/checklists/landmarks_locations.html#item_4_3",
+          "title": "Perfumer's Grotto"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2511,
+            3264
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_2",
+          "link": "/checklists/landmarks_locations.html#item_5_2",
+          "title": "Sage's Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2126,
+            3369
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_5_4",
+          "link": "/checklists/landmarks_locations.html#item_5_4",
+          "title": "Unsightly Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2794,
+            3058
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_4_1",
+          "link": "/checklists/landmarks_locations.html#item_4_1",
+          "title": "Old Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3408,
+            3137
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_4_2",
+          "link": "/checklists/landmarks_locations.html#item_4_2",
+          "title": "Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3225,
+            3190
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_4_4",
+          "link": "/checklists/landmarks_locations.html#item_4_4",
+          "title": "Sainted Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             2880,
             3791
           ],
@@ -4640,6 +4754,310 @@ const feature_data = [
           "id": "caves_e9",
           "link": "/checklists/landmarks_locations.html#item_e9",
           "title": "Golden Lineage Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3384,
+            2925
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l89",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l89",
+          "link": "/checklists/landmarks_locations.html#item_l89",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3035,
+            3019
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l90",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l90",
+          "link": "/checklists/landmarks_locations.html#item_l90",
+          "title": "Mirage Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2149,
+            3328
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l91",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l91",
+          "link": "/checklists/landmarks_locations.html#item_l91",
+          "title": "Perfumer's Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2663,
+            3448
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l92",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l92",
+          "link": "/checklists/landmarks_locations.html#item_l92",
+          "title": "Lux Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2637,
+            3187
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l93",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l93",
+          "link": "/checklists/landmarks_locations.html#item_l93",
+          "title": "Wyndham Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3140,
+            2866
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l94",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l94",
+          "link": "/checklists/landmarks_locations.html#item_l94",
+          "title": "Writheblood Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3481,
+            2918
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l95",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l95",
+          "link": "/checklists/landmarks_locations.html#item_l95",
+          "title": "Woodfolk Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3227,
+            3351
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l96",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l96",
+          "link": "/checklists/landmarks_locations.html#item_l96",
+          "title": "Stormcaller Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2979,
+            3146
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l97",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l97",
+          "link": "/checklists/landmarks_locations.html#item_l97",
+          "title": "Second Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2745,
+            3733
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l98",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_21.png",
+          "icon_size": 50,
+          "id": "caves_l98",
+          "link": "/checklists/landmarks_locations.html#item_l98",
+          "title": "Grand Lift of Dectus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3126,
+            2512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l99",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l99",
+          "link": "/checklists/landmarks_locations.html#item_l99",
+          "title": "West Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3348,
+            2391
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l100",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l100",
+          "link": "/checklists/landmarks_locations.html#item_l100",
+          "title": "East Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3504,
+            2528
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l101",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l101",
+          "link": "/checklists/landmarks_locations.html#item_l101",
+          "title": "Village Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3633,
+            2586
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l102",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_36.png",
+          "icon_size": 40,
+          "id": "caves_l102",
+          "link": "/checklists/landmarks_locations.html#item_l102",
+          "title": "Dominula, Windmill Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3739,
+            2723
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l103",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l103",
+          "link": "/checklists/landmarks_locations.html#item_l103",
+          "title": "Highway Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2921,
+            2682
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_27.png",
+          "icon_size": 45,
+          "id": "caves_ld6",
+          "link": "/checklists/landmarks_locations.html#item_ld6",
+          "title": "The Shaded Castle"
         },
         "type": "Feature"
       },
@@ -12103,18 +12521,21 @@ const icon_urls = [
   "/map/icons/MENU_MAP_10.png",
   "/map/icons/MENU_MAP_11.png",
   "/map/icons/MENU_MAP_14.png",
-  "/map/icons/MENU_MAP_16.png",
   "/map/icons/MENU_MAP_17.png",
   "/map/icons/MENU_MAP_18.png",
+  "/map/icons/MENU_MAP_19.png",
   "/map/icons/MENU_MAP_20.png",
+  "/map/icons/MENU_MAP_21.png",
   "/map/icons/MENU_MAP_23.png",
   "/map/icons/MENU_MAP_25.png",
   "/map/icons/MENU_MAP_26.png",
+  "/map/icons/MENU_MAP_27.png",
   "/map/icons/MENU_MAP_28.png",
   "/map/icons/MENU_MAP_30.png",
   "/map/icons/MENU_MAP_32.png",
   "/map/icons/MENU_MAP_33.png",
   "/map/icons/MENU_MAP_35.png",
+  "/map/icons/MENU_MAP_36.png",
   "/map/icons/MENU_MAP_37.png",
   "/map/icons/MENU_MAP_38.png",
   "/map/icons/MENU_MAP_39.png",
@@ -12131,5 +12552,6 @@ const icon_urls = [
   "/map/icons/MENU_MAP_memo_20.png",
   "/map/icons/edited/MENU_MAP_04.png",
   "/map/icons/edited/MENU_MAP_09.png",
-  "/map/icons/edited/MENU_MAP_13.png"
+  "/map/icons/edited/MENU_MAP_13.png",
+  "/map/icons/edited/MENU_MAP_16.png"
 ]
