@@ -772,23 +772,30 @@ sections:
       - id: "5_3"
         data: ["Seethewater Cave", "Cave", "Kindred of Rot", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [2433, 2813]
       - id: "5_5"
         data: ["Volcano Cave", "Cave", "Demi-Human Queen Margot", ""]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [2378, 2485]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "5_6"
         data: ["Wyndham Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [2560, 3090]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "5_1"
         data: ["Gelmir Hero's Grave", "Hero's grave", "Red Wolf of the Champion", ""]
-        icon: '/map/icons/edited/MENU_MAP_16.png'
+        icon: '/map/icons/MENU_MAP_16.png'
+        map_icon: '/map/icons/edited/MENU_MAP_16.png'
+        cords: [2521, 2928]
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l104"
         data: ["Minor Erdtree", "Landmark", "Ulcerated Tree Spirit", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [2427, 2772]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
         #TOWERS '/map/icons/MENU_MAP_08.png'
         #RUINS '/map/icons/MENU_MAP_05.png'
@@ -796,24 +803,32 @@ sections:
       - id: "l105"
         data: ["Corpse-Stench Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2587, 2688]
       - id: "l106"
         data: ["Craftsman's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2265, 3214]
       - id: "l107"
         data: ["Hermit's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [2057, 3173]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
         #UNIQUE
       - id: "l108"
         data: ["Hermit Village", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_40.png'
+        cords: [2435, 3108]
       - id: "l109"
         data: ["Fort Laiedd", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_18.png'
+        cords: [1908, 2820]
+        map_icon_size: 40
         #LEGACY
       - id: "ld7"
         data: ["Volcano Manor", "Legacy dungeon (major)", "God-Devouring Serpent / Rykard, Lord of Blasphemy", "Semi-required for progression."]
         icon: '/map/icons/MENU_MAP_58.png'
+        cords: [2190, 2837]
+        map_icon_size: 45
   -
     title: "Leyndell, Royal Capital"
     table: ["Name", "Type", "Bosses", "Notes"]
@@ -834,7 +849,8 @@ sections:
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "6_2"
         data: ["Auriza Hero's Grave", "Hero's grave", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
-        icon: '/map/icons/edited/MENU_MAP_16.png'
+        icon: '/map/icons/MENU_MAP_16.png'
+        map_icon: '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l110"
@@ -878,7 +894,8 @@ sections:
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "7_1"
         data: ["Giant-Conquering Hero's Grave", "Hero's grave", "Ancient Hero of Zamor", ""]
-        icon: '/map/icons/edited/MENU_MAP_16.png'
+        icon: '/map/icons/MENU_MAP_16.png'
+        map_icon: '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e10"
         data: ["Lord Contender's Evergaol", "Evergaol", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]

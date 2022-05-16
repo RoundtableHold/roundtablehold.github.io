@@ -5064,6 +5064,215 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2433,
+            2813
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_3",
+          "link": "/checklists/landmarks_locations.html#item_5_3",
+          "title": "Seethewater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2378,
+            2485
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_5",
+          "link": "/checklists/landmarks_locations.html#item_5_5",
+          "title": "Volcano Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2560,
+            3090
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_5_6",
+          "link": "/checklists/landmarks_locations.html#item_5_6",
+          "title": "Wyndham Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2521,
+            2928
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_5_1",
+          "link": "/checklists/landmarks_locations.html#item_5_1",
+          "title": "Gelmir Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2427,
+            2772
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l104",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l104",
+          "link": "/checklists/landmarks_locations.html#item_l104",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2587,
+            2688
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l105",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l105",
+          "link": "/checklists/landmarks_locations.html#item_l105",
+          "title": "Corpse-Stench Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2265,
+            3214
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l106",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l106",
+          "link": "/checklists/landmarks_locations.html#item_l106",
+          "title": "Craftsman's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2057,
+            3173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l107",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l107",
+          "link": "/checklists/landmarks_locations.html#item_l107",
+          "title": "Hermit's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2435,
+            3108
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l108",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_40.png",
+          "icon_size": 35,
+          "id": "caves_l108",
+          "link": "/checklists/landmarks_locations.html#item_l108",
+          "title": "Hermit Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1908,
+            2820
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l109",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l109",
+          "link": "/checklists/landmarks_locations.html#item_l109",
+          "title": "Fort Laiedd"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2190,
+            2837
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_58.png",
+          "icon_size": 45,
+          "id": "caves_ld7",
+          "link": "/checklists/landmarks_locations.html#item_ld7",
+          "title": "Volcano Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             6478,
             2280
           ],
@@ -12539,12 +12748,14 @@ const icon_urls = [
   "/map/icons/MENU_MAP_37.png",
   "/map/icons/MENU_MAP_38.png",
   "/map/icons/MENU_MAP_39.png",
+  "/map/icons/MENU_MAP_40.png",
   "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_50.png",
   "/map/icons/MENU_MAP_51.png",
   "/map/icons/MENU_MAP_52.png",
   "/map/icons/MENU_MAP_53.png",
   "/map/icons/MENU_MAP_54.png",
+  "/map/icons/MENU_MAP_58.png",
   "/map/icons/MENU_MAP_66.png",
   "/map/icons/MENU_MAP_80.png",
   "/map/icons/MENU_MAP_Church.png",
