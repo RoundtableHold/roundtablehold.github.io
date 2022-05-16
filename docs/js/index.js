@@ -1016,6 +1016,7 @@
 "caves_8_1",
 "caves_8_2",
 "caves_8_3",
+"caves_8_4",
 "caves_e1",
 "caves_e10",
 "caves_e2",
@@ -3727,7 +3728,7 @@ const legendaries_total = 32;
 var legendaries_checked = 0;
 const bosses_total = 242;
 var bosses_checked = 0;
-const caves_total = 205;
+const caves_total = 206;
 var caves_checked = 0;
 const graces_total = 314;
 var graces_checked = 0;

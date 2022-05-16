@@ -5273,6 +5273,253 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4591,
+            3186
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_6_4",
+          "link": "/checklists/landmarks_locations.html#item_6_4",
+          "title": "Auriza Side Tomb"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4381,
+            3571
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_6_3",
+          "link": "/checklists/landmarks_locations.html#item_6_3",
+          "title": "Leyndell Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3909,
+            3653
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_6_1",
+          "link": "/checklists/landmarks_locations.html#item_6_1",
+          "title": "Sealed Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4542,
+            3302
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_6_2",
+          "link": "/checklists/landmarks_locations.html#item_6_2",
+          "title": "Auriza Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4286,
+            2869
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l110",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l110",
+          "link": "/checklists/landmarks_locations.html#item_l110",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3919,
+            4009
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l111",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l111",
+          "link": "/checklists/landmarks_locations.html#item_l111",
+          "title": "Divine Tower of West Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3946,
+            2944
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l112",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l112",
+          "link": "/checklists/landmarks_locations.html#item_l112",
+          "title": "Hermit Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3849,
+            3752
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l113",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l113",
+          "link": "/checklists/landmarks_locations.html#item_l113",
+          "title": "Minor Erdtree Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4271,
+            3531
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_60.png",
+          "icon_size": 45,
+          "id": "caves_ld8",
+          "link": "/checklists/landmarks_locations.html#item_ld8",
+          "title": "Leyndell, Royal Capital"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4338,
+            3513
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_61.png",
+          "icon_size": 35,
+          "id": "caves_ld9",
+          "link": "/checklists/landmarks_locations.html#item_ld9",
+          "title": "Subterranean Shunning-Grounds"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6494,
+            2050
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_7_3",
+          "link": "/checklists/landmarks_locations.html#item_7_3",
+          "title": "Spiritcaller Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5786,
+            2808
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_7_2",
+          "link": "/checklists/landmarks_locations.html#item_7_2",
+          "title": "Giants' Mountaintop Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5686,
+            2823
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_7_1",
+          "link": "/checklists/landmarks_locations.html#item_7_1",
+          "title": "Giant-Conquering Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             6478,
             2280
           ],
@@ -5286,6 +5533,386 @@ const feature_data = [
           "id": "caves_e10",
           "link": "/checklists/landmarks_locations.html#item_e10",
           "title": "Lord Contender's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6229,
+            2108
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l114",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l114",
+          "link": "/checklists/landmarks_locations.html#item_l114",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5144,
+            3854
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l115",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l115",
+          "link": "/checklists/landmarks_locations.html#item_l115",
+          "title": "Divine Tower of East Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6382,
+            1985
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l116",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l116",
+          "link": "/checklists/landmarks_locations.html#item_l116",
+          "title": "Heretical Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5605,
+            3005
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l117",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l117",
+          "link": "/checklists/landmarks_locations.html#item_l117",
+          "title": "Zamor Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5967,
+            2141
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l118",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l118",
+          "link": "/checklists/landmarks_locations.html#item_l118",
+          "title": "Stargazer's Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5796,
+            2094
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l119",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l119",
+          "link": "/checklists/landmarks_locations.html#item_l119",
+          "title": "Shack of the Lofty"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6754,
+            2338
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l120",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l120",
+          "link": "/checklists/landmarks_locations.html#item_l120",
+          "title": "First Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5981,
+            2999
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l121",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l121",
+          "link": "/checklists/landmarks_locations.html#item_l121",
+          "title": "Church of Repose"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5483,
+            2972
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l122",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_21.png",
+          "icon_size": 50,
+          "id": "caves_l122",
+          "link": "/checklists/landmarks_locations.html#item_l122",
+          "title": "Grand Lift of Rold"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6220,
+            2352
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l123",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l123",
+          "link": "/checklists/landmarks_locations.html#item_l123",
+          "title": "Guardians' Garrison"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6030,
+            1849
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld10",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_29.png",
+          "icon_size": 45,
+          "id": "caves_ld10",
+          "link": "/checklists/landmarks_locations.html#item_ld10",
+          "title": "Castle Sol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5692,
+            2146
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_8_4",
+          "link": "/checklists/landmarks_locations.html#item_8_4",
+          "title": "Cave of the Forlorn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5427,
+            2869
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_8_2",
+          "link": "/checklists/landmarks_locations.html#item_8_2",
+          "title": "Hidden Path to the Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5666,
+            2509
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_8_1",
+          "link": "/checklists/landmarks_locations.html#item_8_1",
+          "title": "Consecrated Snowfield Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5044,
+            2512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_8_3",
+          "link": "/checklists/landmarks_locations.html#item_8_3",
+          "title": "Yelough Anix Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5633,
+            2054
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l126",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l126",
+          "link": "/checklists/landmarks_locations.html#item_l126",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5648,
+            2262
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l127",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l127",
+          "link": "/checklists/landmarks_locations.html#item_l127",
+          "title": "Albinauric Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5061,
+            2411
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l128",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l128",
+          "link": "/checklists/landmarks_locations.html#item_l128",
+          "title": "Yelough Anix Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5056,
+            1707
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l129",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l129",
+          "link": "/checklists/landmarks_locations.html#item_l129",
+          "title": "Apostate Derelict"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5312,
+            1923
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l130",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_34.png",
+          "icon_size": 40,
+          "id": "caves_l130",
+          "link": "/checklists/landmarks_locations.html#item_l130",
+          "title": "Ordina, Liturgical Town"
         },
         "type": "Feature"
       }
@@ -12320,8 +12947,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3947,
-            2942
+            3959,
+            2941
           ],
           "type": "Point"
         },
@@ -12740,9 +13367,11 @@ const icon_urls = [
   "/map/icons/MENU_MAP_26.png",
   "/map/icons/MENU_MAP_27.png",
   "/map/icons/MENU_MAP_28.png",
+  "/map/icons/MENU_MAP_29.png",
   "/map/icons/MENU_MAP_30.png",
   "/map/icons/MENU_MAP_32.png",
   "/map/icons/MENU_MAP_33.png",
+  "/map/icons/MENU_MAP_34.png",
   "/map/icons/MENU_MAP_35.png",
   "/map/icons/MENU_MAP_36.png",
   "/map/icons/MENU_MAP_37.png",
@@ -12756,6 +13385,8 @@ const icon_urls = [
   "/map/icons/MENU_MAP_53.png",
   "/map/icons/MENU_MAP_54.png",
   "/map/icons/MENU_MAP_58.png",
+  "/map/icons/MENU_MAP_60.png",
+  "/map/icons/MENU_MAP_61.png",
   "/map/icons/MENU_MAP_66.png",
   "/map/icons/MENU_MAP_80.png",
   "/map/icons/MENU_MAP_Church.png",

@@ -838,46 +838,59 @@ sections:
       - id: "6_4"
         data: ["Auriza Side Tomb", "Catacomb", "Grave Warden Duelist", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [4591, 3186]
       - id: "6_3"
-        data: ["Leyndell Catacombs", "Catacomb", "Esgar, Priest of Blood", ""]
-        #icon: '/map/icons/edited/MENU_MAP_04.png'
-        #TODO: This one doesn't have a map marker - should we put one anyway?
+        data: ["Leyndell Catacombs", "Catacomb", "Esgar, Priest of Blood", "Doesn't have a map icon in-game for some reason!"]
+        icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [4381, 3571]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "6_1"
         data: ["Sealed Tunnel", "Tunnel", "Onyx Lord", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [3909, 3653]
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "6_2"
         data: ["Auriza Hero's Grave", "Hero's grave", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
         icon: '/map/icons/MENU_MAP_16.png'
         map_icon: '/map/icons/edited/MENU_MAP_16.png'
+        cords: [4542, 3302]
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l110"
         data: ["Minor Erdtree", "Landmark", "Erdtree Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [4286, 2869]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l111"
         data: ["Divine Tower of West Altus", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [3919, 4009]
+        map_icon_size: 45
         #TOWERS '/map/icons/MENU_MAP_08.png'
         #RUINS '/map/icons/MENU_MAP_05.png'
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l112"
         data: ["Hermit Merchant's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [3946, 2944]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l113"
         data: ["Minor Erdtree Church", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [3849, 3752]
+        map_icon_size: 40
         #UNIQUE
         #LEGACY
       - id: "ld8"
         data: ["Leyndell, Royal Capital", "Legacy dungeon (major)", "Morgott, the Omen King<br>Godfrey, First Elden Lord (Golden Shade)", "Required."]
         icon: '/map/icons/MENU_MAP_60.png'
+        cords: [4271, 3531]
+        map_icon_size: 45
       - id: "ld9"
         data: ["Subterranean Shunning-Grounds", "Legacy dungeon (minor)", "Mohg, the Omen", "Related to the Dung Eater's questline."]
         icon: '/map/icons/MENU_MAP_61.png'
+        cords: [4338, 3513]
   -
     title: "Mountaintops of the Giants"
     table: ["Name", "Type", "Bosses", "Notes"]
@@ -886,16 +899,19 @@ sections:
       - id: "7_3"
         data: ["Spiritcaller Cave", "Cave", "Spirit-Caller Snail", "Requires 2 Stonesword Keys."]
         icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [6494, 2050]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "7_2"
         data: ["Giants' Mountaintop Catacombs", "Catacomb", "Ulcerated Tree Sprit", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [5786, 2808]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
       - id: "7_1"
         data: ["Giant-Conquering Hero's Grave", "Hero's grave", "Ancient Hero of Zamor", ""]
         icon: '/map/icons/MENU_MAP_16.png'
         map_icon: '/map/icons/edited/MENU_MAP_16.png'
+        cords: [5686, 2823]
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
       - id: "e10"
         data: ["Lord Contender's Evergaol", "Evergaol", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
@@ -905,107 +921,142 @@ sections:
       - id: "l114"
         data: ["Minor Erdtree", "Landmark", "Erdtree Avatar (x2)", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [6229, 2108]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
       - id: "l115"
         data: ["Divine Tower of East Altus", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_23.png'
+        cords: [5144, 3854]
+        map_icon_size: 45
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l116"
         data: ["Heretical Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [6382, 1985]
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l117"
         data: ["Zamor Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5605, 3005]
       - id: "l118"
         data: ["Stargazer's Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5967, 2141]
         #SHACKS '/map/icons/MENU_MAP_06.png'
       - id: "l119"
         data: ["Shack of the Lofty", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
+        cords: [5796, 2094]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l120"
         data: ["First Church of Marika", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [6754, 2338]
+        map_icon_size: 40
       - id: "l121"
         data: ["Church of Repose", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [5981, 2999]
+        map_icon_size: 40
         #UNIQUE
       - id: "l122"
         data: ["Grand Lift of Rold", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_21.png'
+        cords: [5483, 2972]
+        map_icon_size: 50
       - id: "l123"
         data: ["Guardians' Garrison", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_18.png'
-      - id: "l124"
-        data: ["Flame Peak", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_55.png' #TODO: Is fextra lying about this icon?
-      - id: "l125"
-        data: ["Forge of the Giants", "Landmark", "Fire Giant", ""]
+        cords: [6220, 2352]
+        map_icon_size: 40
+      - id: "l124" #TODO
+        data: ["Flame Peak", "Landmark", "Fire Giant", ""]
+        icon: '/map/icons/MENU_MAP_55.png' #Is fextra lying about this icon?
+      - id: "l125" #TODO
+        data: ["Forge of the Giants", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_57.png'
         #LEGACY
       - id: "ld10"
         data: ["Castle Sol", "Legacy dungeon (minor)", "Commander Niall", "Related to Latenna's questline."]
         icon: '/map/icons/MENU_MAP_29.png'
+        cords: [6030, 1849]
+        map_icon_size: 45
   -
     title: "Consecrated Snowfield"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
         #CAVES '/map/icons/edited/MENU_MAP_13.png'
+      - id: "8_4"
+        data: ["Cave of the Forlorn", "Cave", "Misbegotten Crusader", ""]
+        icon: '/map/icons/edited/MENU_MAP_13.png'
+        cords: [5692, 2146]
         #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
       - id: "8_2"
         data: ["Hidden Path to the Haligtree", "Catacomb", "Stray Mimic Tear", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [5427, 2869]
       - id: "8_1"
         data: ["Consecrated Snowfield Catacombs", "Catacomb", "Putrid Grave Warden Duelist", ""]
         icon: '/map/icons/edited/MENU_MAP_04.png'
+        cords: [5666, 2509]
         #TUNNELS '/map/icons/MENU_MAP_14.png'
       - id: "8_3"
         data: ["Yelough Anix Tunnel", "Tunnel", "Astel, Stars of Darkness", ""]
         icon: '/map/icons/MENU_MAP_14.png'
+        cords: [5044, 2512]
         #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
         #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
         #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
       - id: "l126"
         data: ["Minor Erdtree", "Landmark", "Putrid Avatar", ""]
         icon: '/map/icons/MENU_MAP_30.png'
+        cords: [5633, 2054]
+        map_icon_size: 45
         #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
         #TOWERS '/map/icons/MENU_MAP_08.png'
       - id: "l127"
         data: ["Albinauric Rise", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_17.png'
+        cords: [5648, 2262]
+        map_icon_size: 45
         #RUINS '/map/icons/MENU_MAP_05.png'
       - id: "l128"
         data: ["Yelough Anix Ruins", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_05.png'
+        cords: [5061, 2411]
         #SHACKS '/map/icons/MENU_MAP_06.png'
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l129"
         data: ["Apostate Derelict", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
+        cords: [5056, 1707]
+        map_icon_size: 40
         #UNIQUE
       - id: "l130"
         data: ["Ordina, Liturgical Town", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_34.png'
+        cords: [5312, 1923]
+        map_icon_size: 40
         #LEGACY
-      - id: "ld11"
+      - id: "ld11" #TODO
         data: ["Miquella's Haligtree", "Legacy dungeon (minor)", "N/A", "Required to get to Elphael, Brace of the Haligtree."]
         icon: '/map/icons/MENU_MAP_55.png'
-      - id: "ld12"
+      - id: "ld12" #TODO
         data: ["Elphael, Brace of the Haligtree", "Legacy dungeon (major)", "Malenia, Blade of Miquella", ":')"]
         icon: '/map/icons/MENU_MAP_56.png'
   -
     title: "Crumbling Farum Azula"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-      - id: "ld13"
+      - id: "ld13" #TODO
         data: ["Crumbling Farum Azula", "Legacy dungeon (major)", "Godskin Duo<br>Maliketh, the Black Blade", "Required."]
         icon: '/map/icons/MENU_MAP_59.png'
   -
     title: "Leyndell, Ashen Capital"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-      - id: "ld14"
+      - id: "ld14" #TODO
         data: ["Leyndell, Ashen Capital", "Legacy dungeon (major)", "Sir Gideon Ofnir, The All-Knowing<br>Godfrey, First Elden Lord (Hoarah Loux)<br>Radagon of the Golden Order / Elden Beast", "Required."]
         icon: '/map/icons/MENU_MAP_62.png'
