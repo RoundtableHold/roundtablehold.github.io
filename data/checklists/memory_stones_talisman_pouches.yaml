@@ -5,7 +5,7 @@ sections:
   -
     title: "Memory Stones"
     icon: "/img/icons/keys/edited/00553.png"
-    # map_icon: "/img/icons/map_edits/00553.png"
+    map_icon: "/map/icons/shadows/keys/00553.png"
     items:
       - id: "0_1"
         data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
@@ -42,7 +42,7 @@ sections:
   -
     title: "Talisman Pouches"
     icon: "/img/icons/keys/edited/00554.png"
-    # map_icon: "/img/icons/map_edits/00554.png"
+    map_icon: "/map/icons/shadows/keys/00554.png"
     items:
       - id: "1_2"
         data: ["Reward for defeating Margit, the Fell Omen in Stormveil Castle."]

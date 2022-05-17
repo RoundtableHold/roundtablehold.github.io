@@ -11905,7 +11905,7 @@ const feature_data = [
         "id": "flasks_2_4",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_4",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
@@ -11924,7 +11924,7 @@ const feature_data = [
         "id": "flasks_2_1",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_1",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
@@ -11943,7 +11943,7 @@ const feature_data = [
         "id": "flasks_2_2",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_2",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
@@ -11962,7 +11962,7 @@ const feature_data = [
         "id": "flasks_2_3",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_3",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
@@ -11981,7 +11981,7 @@ const feature_data = [
         "id": "flasks_2_5",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_5",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
@@ -12000,7 +12000,7 @@ const feature_data = [
         "id": "flasks_2_6",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_6",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
@@ -12019,7 +12019,7 @@ const feature_data = [
         "id": "flasks_2_7",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_7",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
@@ -12038,7 +12038,7 @@ const feature_data = [
         "id": "flasks_2_8",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_8",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
@@ -12057,7 +12057,7 @@ const feature_data = [
         "id": "flasks_2_9",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_9",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
@@ -12076,7 +12076,7 @@ const feature_data = [
         "id": "flasks_2_10",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_10",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
@@ -12095,7 +12095,7 @@ const feature_data = [
         "id": "flasks_2_11",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_11",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
@@ -12114,7 +12114,7 @@ const feature_data = [
         "id": "flasks_2_12",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_12",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
@@ -12139,7 +12139,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_1",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_1",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
@@ -12158,7 +12158,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_2",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
@@ -12177,7 +12177,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_3",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
@@ -12196,7 +12196,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_4",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
@@ -12215,7 +12215,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_5",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_5",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
@@ -12234,7 +12234,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_6",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_6",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
@@ -12253,7 +12253,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_7",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_7",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
@@ -12272,7 +12272,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_8",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_8",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
@@ -12291,7 +12291,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_2",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
@@ -12310,7 +12310,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_3",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
@@ -12329,7 +12329,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_4",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
@@ -12354,7 +12354,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_1",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00311.png",
+          "icon": "/map/icons/shadows/keys/00311.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
@@ -12373,7 +12373,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_2",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00310.png",
+          "icon": "/map/icons/shadows/keys/00310.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
@@ -12392,7 +12392,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_3",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00310.png",
+          "icon": "/map/icons/shadows/keys/00310.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
@@ -12411,7 +12411,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_1",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00319.png",
+          "icon": "/map/icons/shadows/keys/00319.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
@@ -12430,7 +12430,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_2",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00317.png",
+          "icon": "/map/icons/shadows/keys/00317.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
@@ -12449,7 +12449,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_3",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00315.png",
+          "icon": "/map/icons/shadows/keys/00315.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
@@ -12468,7 +12468,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_4",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00324.png",
+          "icon": "/map/icons/shadows/keys/00324.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_4",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
@@ -12487,7 +12487,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_5",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00318.png",
+          "icon": "/map/icons/shadows/keys/00318.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_5",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
@@ -12506,7 +12506,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_8",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00322.png",
+          "icon": "/map/icons/shadows/keys/00322.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_8",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
@@ -12525,7 +12525,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_6",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00316.png",
+          "icon": "/map/icons/shadows/keys/00316.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_6",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
@@ -12544,7 +12544,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_7",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00325.png",
+          "icon": "/map/icons/shadows/keys/00325.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_7",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
@@ -12569,7 +12569,7 @@ const feature_data = [
         "id": "whetstones_0_1",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03090.png",
+          "icon": "/map/icons/shadows/keys/03090.png",
           "icon_size": 35,
           "id": "whetstones_0_1",
           "link": "/checklists/whetstones.html#item_0_1",
@@ -12588,7 +12588,7 @@ const feature_data = [
         "id": "whetstones_0_2",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03020.png",
+          "icon": "/map/icons/shadows/keys/03020.png",
           "icon_size": 35,
           "id": "whetstones_0_2",
           "link": "/checklists/whetstones.html#item_0_2",
@@ -12607,7 +12607,7 @@ const feature_data = [
         "id": "whetstones_0_3",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03023.png",
+          "icon": "/map/icons/shadows/keys/03023.png",
           "icon_size": 35,
           "id": "whetstones_0_3",
           "link": "/checklists/whetstones.html#item_0_3",
@@ -12626,7 +12626,7 @@ const feature_data = [
         "id": "whetstones_0_4",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03021.png",
+          "icon": "/map/icons/shadows/keys/03021.png",
           "icon_size": 35,
           "id": "whetstones_0_4",
           "link": "/checklists/whetstones.html#item_0_4",
@@ -12645,7 +12645,7 @@ const feature_data = [
         "id": "whetstones_0_5",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03024.png",
+          "icon": "/map/icons/shadows/keys/03024.png",
           "icon_size": 35,
           "id": "whetstones_0_5",
           "link": "/checklists/whetstones.html#item_0_5",
@@ -12664,7 +12664,7 @@ const feature_data = [
         "id": "whetstones_0_6",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03022.png",
+          "icon": "/map/icons/shadows/keys/03022.png",
           "icon_size": 35,
           "id": "whetstones_0_6",
           "link": "/checklists/whetstones.html#item_0_6",
@@ -13056,7 +13056,7 @@ const feature_data = [
         "id": "paintings_1_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03210.png",
+          "icon": "/map/icons/shadows/info/paintings/03210.png",
           "icon_size": 35,
           "id": "paintings_1_1",
           "link": "/checklists/paintings.html#item_1_1",
@@ -13075,7 +13075,7 @@ const feature_data = [
         "id": "paintings_1_2",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03066.png",
+          "icon": "/map/icons/shadows/info/paintings/03066.png",
           "icon_size": 35,
           "id": "paintings_1_2",
           "link": "/checklists/paintings.html#item_1_2",
@@ -13094,7 +13094,7 @@ const feature_data = [
         "id": "paintings_2_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03207.png",
+          "icon": "/map/icons/shadows/info/paintings/03207.png",
           "icon_size": 35,
           "id": "paintings_2_1",
           "link": "/checklists/paintings.html#item_2_1",
@@ -13113,7 +13113,7 @@ const feature_data = [
         "id": "paintings_3_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03212.png",
+          "icon": "/map/icons/shadows/info/paintings/03212.png",
           "icon_size": 35,
           "id": "paintings_3_1",
           "link": "/checklists/paintings.html#item_3_1",
@@ -13132,7 +13132,7 @@ const feature_data = [
         "id": "paintings_4_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03208.png",
+          "icon": "/map/icons/shadows/info/paintings/03208.png",
           "icon_size": 35,
           "id": "paintings_4_1",
           "link": "/checklists/paintings.html#item_4_1",
@@ -13151,7 +13151,7 @@ const feature_data = [
         "id": "paintings_5_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03211.png",
+          "icon": "/map/icons/shadows/info/paintings/03211.png",
           "icon_size": 35,
           "id": "paintings_5_1",
           "link": "/checklists/paintings.html#item_5_1",
@@ -13170,7 +13170,7 @@ const feature_data = [
         "id": "paintings_6_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03209.png",
+          "icon": "/map/icons/shadows/info/paintings/03209.png",
           "icon_size": 35,
           "id": "paintings_6_1",
           "link": "/checklists/paintings.html#item_6_1",
@@ -13189,7 +13189,7 @@ const feature_data = [
         "id": "paintings_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/spirit_ashes/00456.png",
+          "icon": "/map/icons/shadows/spirit_ashes/00456.png",
           "icon_size": 35,
           "id": "paintings_1",
           "link": "/checklists/paintings.html#item_1",
@@ -13208,7 +13208,7 @@ const feature_data = [
         "id": "paintings_2",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/15290.png",
+          "icon": "/map/icons/shadows/armor/15290.png",
           "icon_size": 35,
           "id": "paintings_2",
           "link": "/checklists/paintings.html#item_2",
@@ -13227,8 +13227,8 @@ const feature_data = [
         "id": "paintings_3",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/14770.png",
-          "icon_size": 35,
+          "icon": "/map/icons/shadows/armor/14770.png",
+          "icon_size": 20,
           "id": "paintings_3",
           "link": "/checklists/paintings.html#item_3",
           "title": "Resurrection Painting solution"
@@ -13246,7 +13246,7 @@ const feature_data = [
         "id": "paintings_4",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/ashes_of_war/08385.png",
+          "icon": "/map/icons/shadows/ashes_of_war/08385.png",
           "icon_size": 35,
           "id": "paintings_4",
           "link": "/checklists/paintings.html#item_4",
@@ -13265,7 +13265,7 @@ const feature_data = [
         "id": "paintings_5",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/weapons/lightbows/11003.png",
+          "icon": "/map/icons/shadows/weapons/lightbows/11003.png",
           "icon_size": 35,
           "id": "paintings_5",
           "link": "/checklists/paintings.html#item_5",
@@ -13284,7 +13284,7 @@ const feature_data = [
         "id": "paintings_6",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/incantations/06060.png",
+          "icon": "/map/icons/shadows/incantations/06060.png",
           "icon_size": 35,
           "id": "paintings_6",
           "link": "/checklists/paintings.html#item_6",
@@ -13303,7 +13303,7 @@ const feature_data = [
         "id": "paintings_7",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/15000.png",
+          "icon": "/map/icons/shadows/armor/15000.png",
           "icon_size": 35,
           "id": "paintings_7",
           "link": "/checklists/paintings.html#item_7",
@@ -13317,39 +13317,6 @@ const feature_data = [
   }
 ];
 const icon_urls = [
-  "/img/icons/armor/14770.png",
-  "/img/icons/armor/15000.png",
-  "/img/icons/armor/15290.png",
-  "/img/icons/ashes_of_war/08385.png",
-  "/img/icons/bolstering/edited/00384.png",
-  "/img/icons/incantations/06060.png",
-  "/img/icons/info/paintings/edited/03066.png",
-  "/img/icons/info/paintings/edited/03207.png",
-  "/img/icons/info/paintings/edited/03208.png",
-  "/img/icons/info/paintings/edited/03209.png",
-  "/img/icons/info/paintings/edited/03210.png",
-  "/img/icons/info/paintings/edited/03211.png",
-  "/img/icons/info/paintings/edited/03212.png",
-  "/img/icons/keys/edited/00310.png",
-  "/img/icons/keys/edited/00311.png",
-  "/img/icons/keys/edited/00315.png",
-  "/img/icons/keys/edited/00316.png",
-  "/img/icons/keys/edited/00317.png",
-  "/img/icons/keys/edited/00318.png",
-  "/img/icons/keys/edited/00319.png",
-  "/img/icons/keys/edited/00322.png",
-  "/img/icons/keys/edited/00324.png",
-  "/img/icons/keys/edited/00325.png",
-  "/img/icons/keys/edited/00553.png",
-  "/img/icons/keys/edited/00554.png",
-  "/img/icons/keys/edited/03020.png",
-  "/img/icons/keys/edited/03021.png",
-  "/img/icons/keys/edited/03022.png",
-  "/img/icons/keys/edited/03023.png",
-  "/img/icons/keys/edited/03024.png",
-  "/img/icons/keys/edited/03090.png",
-  "/img/icons/spirit_ashes/00456.png",
-  "/img/icons/weapons/lightbows/11003.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",
@@ -13395,5 +13362,38 @@ const icon_urls = [
   "/map/icons/edited/MENU_MAP_04.png",
   "/map/icons/edited/MENU_MAP_09.png",
   "/map/icons/edited/MENU_MAP_13.png",
-  "/map/icons/edited/MENU_MAP_16.png"
+  "/map/icons/edited/MENU_MAP_16.png",
+  "/map/icons/shadows/armor/14770.png",
+  "/map/icons/shadows/armor/15000.png",
+  "/map/icons/shadows/armor/15290.png",
+  "/map/icons/shadows/ashes_of_war/08385.png",
+  "/map/icons/shadows/bolstering/00384.png",
+  "/map/icons/shadows/incantations/06060.png",
+  "/map/icons/shadows/info/paintings/03066.png",
+  "/map/icons/shadows/info/paintings/03207.png",
+  "/map/icons/shadows/info/paintings/03208.png",
+  "/map/icons/shadows/info/paintings/03209.png",
+  "/map/icons/shadows/info/paintings/03210.png",
+  "/map/icons/shadows/info/paintings/03211.png",
+  "/map/icons/shadows/info/paintings/03212.png",
+  "/map/icons/shadows/keys/00310.png",
+  "/map/icons/shadows/keys/00311.png",
+  "/map/icons/shadows/keys/00315.png",
+  "/map/icons/shadows/keys/00316.png",
+  "/map/icons/shadows/keys/00317.png",
+  "/map/icons/shadows/keys/00318.png",
+  "/map/icons/shadows/keys/00319.png",
+  "/map/icons/shadows/keys/00322.png",
+  "/map/icons/shadows/keys/00324.png",
+  "/map/icons/shadows/keys/00325.png",
+  "/map/icons/shadows/keys/00553.png",
+  "/map/icons/shadows/keys/00554.png",
+  "/map/icons/shadows/keys/03020.png",
+  "/map/icons/shadows/keys/03021.png",
+  "/map/icons/shadows/keys/03022.png",
+  "/map/icons/shadows/keys/03023.png",
+  "/map/icons/shadows/keys/03024.png",
+  "/map/icons/shadows/keys/03090.png",
+  "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/weapons/lightbows/11003.png"
 ]

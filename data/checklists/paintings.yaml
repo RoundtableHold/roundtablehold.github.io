@@ -9,30 +9,37 @@ sections:
     items:
       - id: "1_1"
         icon: "/img/icons/info/paintings/edited/03210.png"
+        map_icon: "/map/icons/shadows/info/paintings/03210.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "Limgrave", "Stormveil Castle, in a study room in the heavily guarded courtyard."]
         cords: [3060, 6606]
       - id: "1_2"
         icon: "/img/icons/info/paintings/edited/03066.png"
+        map_icon: "/map/icons/shadows/info/paintings/03066.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>", "Limgrave", "Artist's Shack, northwest of the Mistwood Outskirts Site of Grace, and east of the Murkwater Coast Site of Grace."]
         cords: [4218, 6800]
       - id: "2_1"
         icon: "/img/icons/info/paintings/edited/03207.png"
+        map_icon: "/map/icons/shadows/info/paintings/03207.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "Liurnia of the Lakes", "Artist's Shack, on the Plateau southeast of the Eastern Liurnia Lake Shore Site of Grace, and north of the Gate Town Bridge Site of Grace."]
         cords: [2782, 5096]
       - id: "3_1"
         icon: "/img/icons/info/paintings/edited/03212.png"
+        map_icon: "/map/icons/shadows/info/paintings/03212.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "Caelid", "Sellia, Town of Sorcery east of the Inner Aeonia Site of Grace, and southwest of Fort Faroth."]
         cords: [5642, 6603]
       - id: "4_1"
         icon: "/img/icons/info/paintings/edited/03208.png"
+        map_icon: "/map/icons/shadows/info/paintings/03208.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "Altus Plateau", "Shaded Castle, in a Wooden Shack next to the eastern outer wall of the Shaded Castle, along the wall of the Shaded Castle Ramparts Site of Grace."]
         cords: [2980, 2668]
       - id: "5_1"
         icon: "/img/icons/info/paintings/edited/03211.png"
+        map_icon: "/map/icons/shadows/info/paintings/03211.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "Leyndell, Royal Capital", "Fortified Manor, right next to the Fortified Manor, First Floor Site of Grace."]
         cords: [4184, 3587]
       - id: "6_1"
         icon: "/img/icons/info/paintings/edited/03209.png"
+        map_icon: "/map/icons/shadows/info/paintings/03209.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "Mountaintop of the Giants", "Castle Sol, in a locked room accessed from descending a ladder from atop the Ramparts guarded by two ballistas."]
         cords: [6039, 1806]
   -
@@ -41,36 +48,44 @@ sections:
     items:
       - id: "1"
         icon: "/img/icons/spirit_ashes/00456.png"
+        map_icon: "/map/icons/shadows/spirit_ashes/00456.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Weeping Peninsula, just north of Pilgrimage Church on the cliff edge you should see the spirit of the artist in a chair."]
         cords: [3845, 7638]
         map_title: "Prophecy Painting solution"
       - id: "2"
         icon: "/img/icons/armor/15290.png"
+        map_icon: "/map/icons/shadows/armor/15290.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Incantation Scarab</a>", "Limgrave, A small grave west from Dragon-Burnt Ruins, and northwest from the Seaside Ruins Site of Grace, next to some gravestones you should see the spirit of the painter in a chair."]
         cords: [3870, 7397]
         map_title: "Homing Instinct Painting solution"
       - id: "3"
         icon: "/img/icons/armor/14770.png"
+        map_icon: "/map/icons/shadows/armor/14770.png"
+        map_icon_size: 20
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Cap\">Juvenile Scholar Cap</a>, <a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Robe\">Juvenile Scholar Robe</a> and <a href=\"https://eldenring.wiki.fextralife.com/Larval+Tear\">Larval Tear</a>", "Liurnia of the Lakes, start at the Behind Caria Manor Site of Grace and head slightly southeast until you arrive at a graveyard, behind a big rock you should see the spirit of the artist sitting in a chair."]
         cords: [2135, 3783]
         map_title: "Resurrection Painting solution"
       - id: "4"
         icon: "/img/icons/ashes_of_war/08385.png"
+        map_icon: "/map/icons/shadows/ashes_of_war/08385.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Ash of War: Rain of Arrows</a>", "Caelid, off a cliff edge south east of the Minor Erdtree in Dragonbarrow where a powerful Magic weilding Golem will be. Once you've made your way down the roots and stone pillars, walk to the edge and you'll briefly see the spirit of a painter."]
         cords: [6063, 6323]
         map_title: "Redmane Painting solution"
       - id: "5"
         icon: "/img/icons/weapons/lightbows/11003.png"
+        map_icon: "/map/icons/shadows/weapons/lightbows/11003.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>", "Altus Plateau, on the cliff just slightly southeast of the Rampartside Path Site of Grace, you should see the painter in a chair."]
         cords: [3493, 3203]
         map_title: "Champion's Song Painting solution"
       - id: "6"
         icon: "/img/icons/incantations/06060.png"
+        map_icon: "/map/icons/shadows/incantations/06060.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin\">Fire's Deadly Sin</a>", "Altus Plateau, From the Windmill Heights Site of Grace head southeast along the cliff edge, you will find the spirit of the painter on a cliff left of the shack at the end of the road."]
         cords: [3727, 2615]
         map_title: "Flightless Bird Painting solution"
       - id: "7"
         icon: "/img/icons/armor/15000.png"
+        map_icon: "/map/icons/shadows/armor/15000.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Greathood</a>", "Moutaintops of the Giants, on the bridge Northwest of the Stargazers' Ruins, go on the small platform jutting out on the eastern side of the bridge to find the spirit of the artist."]
         cords: [5875, 2080]
         map_title: "Sorcerer Painting solution"

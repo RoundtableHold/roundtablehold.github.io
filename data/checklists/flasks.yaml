@@ -5,7 +5,7 @@ sections:
   -
     title: "Golden Seeds"
     icon: "/img/icons/bolstering/edited/00383.png"
-    # map_icon: "/img/icons/map_edits/00383.png"
+    map_icon: "/map/icons/shadows/bolstering/00383.png"
     items:
       - "Limgrave"
       - id: "1_2"
@@ -110,8 +110,7 @@ sections:
   -
     title: "Sacred Tears"
     icon: "/img/icons/bolstering/edited/00384.png"
-    # map_icon: "/img/icons/map_edits/00384.png"
-    # map_icon_size: 40
+    map_icon: "/map/icons/shadows/bolstering/00384.png"
     items:
       - "Limgrave"
       - id: "2_4"
