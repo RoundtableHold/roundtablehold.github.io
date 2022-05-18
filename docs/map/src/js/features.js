@@ -5915,6 +5915,44 @@ const feature_data = [
           "title": "Ordina, Liturgical Town"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5664,
+            1200
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld11",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_55.png",
+          "icon_size": 50,
+          "id": "caves_ld11",
+          "link": "/checklists/landmarks_locations.html#item_ld11",
+          "title": "Miquella's Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5610,
+            876
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld12",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_56.png",
+          "icon_size": 45,
+          "id": "caves_ld12",
+          "link": "/checklists/landmarks_locations.html#item_ld12",
+          "title": "Elphael, Brace of the Haligtree"
+        },
+        "type": "Feature"
       }
     ],
     "id": "caves",
@@ -13351,6 +13389,8 @@ const icon_urls = [
   "/map/icons/MENU_MAP_52.png",
   "/map/icons/MENU_MAP_53.png",
   "/map/icons/MENU_MAP_54.png",
+  "/map/icons/MENU_MAP_55.png",
+  "/map/icons/MENU_MAP_56.png",
   "/map/icons/MENU_MAP_58.png",
   "/map/icons/MENU_MAP_60.png",
   "/map/icons/MENU_MAP_61.png",

@@ -1040,12 +1040,16 @@ sections:
         cords: [5312, 1923]
         map_icon_size: 40
         #LEGACY
-      - id: "ld11" #TODO
+      - id: "ld11"
         data: ["Miquella's Haligtree", "Legacy dungeon (minor)", "N/A", "Required to get to Elphael, Brace of the Haligtree."]
         icon: '/map/icons/MENU_MAP_55.png'
-      - id: "ld12" #TODO
+        cords: [5664, 1200]
+        map_icon_size: 50
+      - id: "ld12"
         data: ["Elphael, Brace of the Haligtree", "Legacy dungeon (major)", "Malenia, Blade of Miquella", ":')"]
         icon: '/map/icons/MENU_MAP_56.png'
+        cords: [5610, 876]
+        map_icon_size: 45
   -
     title: "Crumbling Farum Azula"
     table: ["Name", "Type", "Bosses", "Notes"]
