@@ -971,12 +971,12 @@ sections:
         icon: '/map/icons/MENU_MAP_18.png'
         cords: [6220, 2352]
         map_icon_size: 40
-      - id: "l124" #TODO
-        data: ["Flame Peak", "Landmark", "Fire Giant", ""]
-        icon: '/map/icons/MENU_MAP_55.png' #Is fextra lying about this icon?
-      - id: "l125" #TODO
+      #l124 was Flame Peak (not a landmark)
+      - id: "l125"
         data: ["Forge of the Giants", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_57.png'
+        cords: [6700, 2983]
+        map_icon_size: 45
         #LEGACY
       - id: "ld10"
         data: ["Castle Sol", "Legacy dungeon (minor)", "Commander Niall", "Related to Latenna's questline."]
@@ -1054,13 +1054,16 @@ sections:
     title: "Crumbling Farum Azula"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-      - id: "ld13" #TODO
+      - id: "ld13"
         data: ["Crumbling Farum Azula", "Legacy dungeon (major)", "Godskin Duo<br>Maliketh, the Black Blade", "Required."]
         icon: '/map/icons/MENU_MAP_59.png'
+        cords: [8570, 4553]
+        map_icon_size: 50
   -
     title: "Leyndell, Ashen Capital"
     table: ["Name", "Type", "Bosses", "Notes"]
     items:
-      - id: "ld14" #TODO
-        data: ["Leyndell, Ashen Capital", "Legacy dungeon (major)", "Sir Gideon Ofnir, The All-Knowing<br>Godfrey, First Elden Lord (Hoarah Loux)<br>Radagon of the Golden Order / Elden Beast", "Required."]
+      - id: "ld14"
+        data: ["Leyndell, Ashen Capital", "Legacy dungeon (major)", "Sir Gideon Ofnir, The All-Knowing<br>Godfrey, First Elden Lord (Hoarah Loux)<br>Radagon of the Golden Order / Elden Beast", "Required. Replaces Leyndell, Royal Capital."]
         icon: '/map/icons/MENU_MAP_62.png'
+        map_link: [4271, 3531]

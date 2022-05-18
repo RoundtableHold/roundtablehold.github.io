@@ -5729,6 +5729,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            6700,
+            2983
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l125",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_57.png",
+          "icon_size": 45,
+          "id": "caves_l125",
+          "link": "/checklists/landmarks_locations.html#item_l125",
+          "title": "Forge of the Giants"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             6030,
             1849
           ],
@@ -5951,6 +5970,25 @@ const feature_data = [
           "id": "caves_ld12",
           "link": "/checklists/landmarks_locations.html#item_ld12",
           "title": "Elphael, Brace of the Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8570,
+            4553
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld13",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_59.png",
+          "icon_size": 50,
+          "id": "caves_ld13",
+          "link": "/checklists/landmarks_locations.html#item_ld13",
+          "title": "Crumbling Farum Azula"
         },
         "type": "Feature"
       }
@@ -13391,7 +13429,9 @@ const icon_urls = [
   "/map/icons/MENU_MAP_54.png",
   "/map/icons/MENU_MAP_55.png",
   "/map/icons/MENU_MAP_56.png",
+  "/map/icons/MENU_MAP_57.png",
   "/map/icons/MENU_MAP_58.png",
+  "/map/icons/MENU_MAP_59.png",
   "/map/icons/MENU_MAP_60.png",
   "/map/icons/MENU_MAP_61.png",
   "/map/icons/MENU_MAP_66.png",

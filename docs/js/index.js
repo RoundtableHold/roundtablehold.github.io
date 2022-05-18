@@ -1055,7 +1055,6 @@
 "caves_l121",
 "caves_l122",
 "caves_l123",
-"caves_l124",
 "caves_l125",
 "caves_l126",
 "caves_l127",
@@ -3727,7 +3726,7 @@ const legendaries_total = 32;
 var legendaries_checked = 0;
 const bosses_total = 242;
 var bosses_checked = 0;
-const caves_total = 206;
+const caves_total = 205;
 var caves_checked = 0;
 const graces_total = 314;
 var graces_checked = 0;
