@@ -424,7 +424,7 @@ def make_checklist(page):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
                             if 'icon' in section:
-                                img(data_src=section['icon'], loading='lazy', height=img_size, cls='me-1')
+                                img(data_src=section['icon'], loading='lazy', cls='me-1 cl-icon')
                             if 'link' in section:
                                 a(section['title'], href=section['link'], cls='d-print-inline')
                             else:
@@ -480,13 +480,13 @@ def make_checklist(page):
                                                         with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                                 if pos == 0 and 'icon' in item:
-                                                                    img(data_src=item['icon'], loading='lazy', height=img_size, cls='me-1')
+                                                                    img(data_src=item['icon'], loading='lazy', cls='me-1 cl-icon')
                                                                 if item['data'][pos]:
                                                                     raw(item['data'][pos])
                                                 with div(cls='col d-md-none'):
                                                     with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                         if 'icon' in item:
-                                                            img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-end')
+                                                            img(data_src=item['icon'], loading='lazy', cls='float-end cl-icon')
                                                         for pos in range(table_cols):
                                                             col_size = str(table_widths[pos])
                                                             if isinstance(section['table'], list) and item['data'][pos]:
@@ -514,7 +514,7 @@ def make_checklist(page):
                                                 input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id, data_section_idx=str(s_idx))
                                                 with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                     if 'icon' in item:
-                                                        img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-md-none float-end me-md-1')
+                                                        img(data_src=item['icon'], loading='lazy', cls='float-md-none float-end me-md-1 cl-icon')
                                                     raw(item['data'][0])
                                                 if 'cords' in item or 'map_link' in item:
                                                     href = '/map.html?'
@@ -578,12 +578,12 @@ def make_search():
                                                 col_size = str(table_widths[pos])
                                                 with div(cls='d-flex align-items-center col-md-' + col_size):
                                                     if pos == 0 and 'icon' in item:
-                                                        img(data_src=item['icon'], loading='lazy', height=img_size, cls='me-1')
+                                                        img(data_src=item['icon'], loading='lazy', cls='me-1 cl-icon')
                                                     if item['data'][pos]:
                                                         raw(strip_a_tags(item['data'][pos]))
                                         with div(cls='row d-md-none').add(div(cls='col')):
                                             if 'icon' in item:
-                                                img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-end')
+                                                img(data_src=item['icon'], loading='lazy', cls='float-end cl-icon')
                                             for pos in range(table_cols):
                                                 col_size = str(table_widths[pos])
                                                 if isinstance(section['table'], list) and item['data'][pos]:
@@ -599,7 +599,7 @@ def make_search():
                                         with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
                                             with div(cls='d-flex align-items-center'):
                                                 if 'icon' in item:
-                                                    img(data_src=item['icon'], loading='lazy', height=img_size, cls='float-md-none float-end me-md-1')
+                                                    img(data_src=item['icon'], loading='lazy', cls='float-md-none float-end me-md-1 cl-icon')
                                                 raw(strip_a_tags(item['data'][0]))
                                     f(item)
                                     if isinstance(items.peek(0), list):
