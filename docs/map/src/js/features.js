@@ -2109,6 +2109,101 @@ const feature_data = [
           "title": "Putrid Tree Spirit"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2973,
+            3151
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_6_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_6_4",
+          "link": "/checklists/bosses.html#item_6_4",
+          "title": "Eleonora, Violet Bloody Finger (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3385,
+            2901
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_6_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_6_7",
+          "link": "/checklists/bosses.html#item_6_7",
+          "title": "Wormface"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2405,
+            2730
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_12",
+          "link": "/checklists/bosses.html#item_7_12",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6228,
+            2138
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_5",
+          "link": "/checklists/bosses.html#item_9_5",
+          "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5660,
+            2033
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_7",
+          "link": "/checklists/bosses.html#item_10_7",
+          "title": "Putrid Avatar"
+        },
+        "type": "Feature"
       }
     ],
     "id": "bosses",
@@ -4912,8 +5007,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2979,
-            3146
+            2989,
+            3151
           ],
           "type": "Point"
         },
@@ -11973,8 +12068,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4651,
-            6696
+            4649,
+            6705
           ],
           "type": "Point"
         },
@@ -11992,8 +12087,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4143,
-            8129
+            4146,
+            8131
           ],
           "type": "Point"
         },
@@ -12011,8 +12106,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3857,
-            7677
+            3848,
+            7689
           ],
           "type": "Point"
         },
@@ -12030,8 +12125,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3503,
-            8005
+            3524,
+            7990
           ],
           "type": "Point"
         },
@@ -12087,8 +12182,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2509,
-            3993
+            2511,
+            4014
           ],
           "type": "Point"
         },
@@ -12163,8 +12258,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5956,
-            3012
+            5969,
+            3006
           ],
           "type": "Point"
         },
@@ -12183,7 +12278,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             6754,
-            2369
+            2354
           ],
           "type": "Point"
         },
@@ -12200,6 +12295,620 @@ const feature_data = [
       }
     ],
     "id": "flasks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3628,
+            6618
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00421.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_1",
+          "title": "Strength-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4529,
+            7097
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00414.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_2",
+          "title": "Spiked Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4546,
+            7095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00401.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_3",
+          "title": "Greenspill Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4648,
+            6718
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00402.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_4",
+          "title": "Crimson Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3976,
+            7730
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00424.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_1",
+          "title": "Faith-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3900,
+            8095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00409.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_2",
+          "title": "Crimsonburst Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3924,
+            8095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00408.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_3",
+          "title": "Opaline Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2171,
+            5659
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00422.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_1",
+          "title": "Dexterity-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1432,
+            5469
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00416.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_2",
+          "title": "Ruptured Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1451,
+            5466
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00404.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_3",
+          "title": "Cerulean Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2683,
+            4328
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00430.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_4",
+          "title": "Lightning-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2699,
+            4335
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_5",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00431.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_5",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_5",
+          "title": "Holy-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2717,
+            4328
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_6",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00429.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_6",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_6",
+          "title": "Magic-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1802,
+            3922
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_7",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00423.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_7",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_7",
+          "title": "Intelligence-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6031,
+            6200
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00428.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_1",
+          "title": "Flame-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6050,
+            6199
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00410.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_2",
+          "title": "Greenburst Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4893,
+            6141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00411.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_3",
+          "title": "Opaline Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4912,
+            6141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00426.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_4",
+          "title": "Stonebarb Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5501,
+            7093
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_5",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00415.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_5",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_5",
+          "title": "Windy Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2978,
+            3135
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00427.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_1",
+          "title": "Purifying Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3373,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00406.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_2",
+          "title": "Speckled Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3394,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00400.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_3",
+          "title": "Crimsonspill Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2390,
+            2720
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_5_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00418.png",
+          "icon_size": 35,
+          "id": "crystal_tears_5_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_5_1",
+          "title": "Leaden Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2390,
+            2736
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_5_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00425.png",
+          "icon_size": 35,
+          "id": "crystal_tears_5_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_5_2",
+          "title": "Cerulean Hidden Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4211,
+            2851
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00412.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_1",
+          "title": "Winged Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4283,
+            2895
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00419.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_2",
+          "title": "Twiggy Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4272,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00403.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_3",
+          "title": "Crimson Crystal Tear [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6263,
+            2646
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_7_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00420.png",
+          "icon_size": 35,
+          "id": "crystal_tears_7_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_7_1",
+          "title": "Crimsonwhorl Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6210,
+            2141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00405.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_1",
+          "title": "Cerulean Crystal Tear [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6243,
+            2123
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00407.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_2",
+          "title": "Crimson Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5649,
+            2046
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00413.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_3",
+          "title": "Thorny Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5670,
+            2046
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/img/icons/keys/crystal_tears/00417.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_4",
+          "title": "Ruptured Crystal Tear [2]"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "crystal_tears",
     "type": "FeatureCollection"
   },
   {
@@ -13393,6 +14102,38 @@ const feature_data = [
   }
 ];
 const icon_urls = [
+  "/img/icons/keys/crystal_tears/00400.png",
+  "/img/icons/keys/crystal_tears/00401.png",
+  "/img/icons/keys/crystal_tears/00402.png",
+  "/img/icons/keys/crystal_tears/00403.png",
+  "/img/icons/keys/crystal_tears/00404.png",
+  "/img/icons/keys/crystal_tears/00405.png",
+  "/img/icons/keys/crystal_tears/00406.png",
+  "/img/icons/keys/crystal_tears/00407.png",
+  "/img/icons/keys/crystal_tears/00408.png",
+  "/img/icons/keys/crystal_tears/00409.png",
+  "/img/icons/keys/crystal_tears/00410.png",
+  "/img/icons/keys/crystal_tears/00411.png",
+  "/img/icons/keys/crystal_tears/00412.png",
+  "/img/icons/keys/crystal_tears/00413.png",
+  "/img/icons/keys/crystal_tears/00414.png",
+  "/img/icons/keys/crystal_tears/00415.png",
+  "/img/icons/keys/crystal_tears/00416.png",
+  "/img/icons/keys/crystal_tears/00417.png",
+  "/img/icons/keys/crystal_tears/00418.png",
+  "/img/icons/keys/crystal_tears/00419.png",
+  "/img/icons/keys/crystal_tears/00420.png",
+  "/img/icons/keys/crystal_tears/00421.png",
+  "/img/icons/keys/crystal_tears/00422.png",
+  "/img/icons/keys/crystal_tears/00423.png",
+  "/img/icons/keys/crystal_tears/00424.png",
+  "/img/icons/keys/crystal_tears/00425.png",
+  "/img/icons/keys/crystal_tears/00426.png",
+  "/img/icons/keys/crystal_tears/00427.png",
+  "/img/icons/keys/crystal_tears/00428.png",
+  "/img/icons/keys/crystal_tears/00429.png",
+  "/img/icons/keys/crystal_tears/00430.png",
+  "/img/icons/keys/crystal_tears/00431.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",

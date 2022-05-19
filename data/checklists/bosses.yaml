@@ -507,12 +507,15 @@ sections:
         data: ["Demi-Human Queen Gilika", "Lux Ruins", "8500 runes, Ritual Sword Talisman (chest in the next room)", "Field boss."]
       - id: "6_4"
         data: ["Eleonora, Violet Bloody Finger", "Second Church of Marika", "3116 runes, Purifying Crystal Tear, Eleonora's Poleblade, Furlcalling Finger Remedy", "NPC invader. Part of Bloody Finger Hunter Yura's quest."]
+        cords: [2973, 3151]
+        map_title: "Eleonora, Violet Bloody Finger (NPC invader)"
       - id: "6_5"
         data: ["Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Crepus's Vial Talisman, Black-Key Bolt (x20), Furlcalling Finger Remedy", "NPC. You can invade his world. Related to Volcano Manor quest."]
       - id: "6_6"
         data: ["Sanguine Noble", "Writheblood Ruins", "8800 runes, Bloodrose", "Guarding a chest with Bloody Helice Heavy Thrusting Sword."]
       - id: "6_7"
         data: ["Wormface", "Minor Erdtree", "10,000 runes, Speckled Hardtear, Crimsonspill Crystal Tear", "Field boss."]
+        cords: [3385, 2901]
       - id: "6_8"
         data: ["Godskin Apostle", "Dominula Windmill Village", "14,000 runes, Godskin Peeler Twinblade, Scouring Black Flame Incantation", ""]
       - id: "6_19"
@@ -559,6 +562,7 @@ sections:
         data: ["Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon Balista", "Field boss."]
       - id: "7_12"
         data: ["Ulcerated Tree Spirit", "Minor Erdtree", "18,000 runes, Leaden Hardtear, Cerulean Hidden Tear", "Field boss."]
+        cords: [2405, 2730]
       - id: "7_13"
         data: ["Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
       - id: "7_14"
@@ -645,6 +649,7 @@ sections:
         data: ["Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
       - id: "9_5"
         data: ["Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
+        cords: [6228, 2138]
       - id: "9_6"
         data: ["Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Hoslow's Petal Whip, Hoslow's Set (Helm, Armor, Gauntlets, Greaves), Rune Arc, Furlcalling Finger Remedy", ""]
       - id: "9_7"
@@ -683,6 +688,7 @@ sections:
         data: ["Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword (Legendary)", ""]
       - id: "10_7"
         data: ["Putrid Avatar", "Minor Erdtree", "160,000 runes, Ruptured Crystal Tear, Thorny Cracked Tear", "Field boss."]
+        cords: [5660, 2033]
       - id: "10_8"
         data: ["Death Rite Bird", "Consecrated Snowfield (North)", "220,000 runes, Explosive Ghostflame Sorcery", "Field boss. Nighttime only."]
       - id: "10_9"
