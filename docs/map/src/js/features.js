@@ -859,8 +859,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2925,
-            5204
+            2927,
+            5193
           ],
           "type": "Point"
         },
@@ -878,8 +878,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2938,
-            5203
+            2934,
+            5220
           ],
           "type": "Point"
         },
@@ -1520,6 +1520,595 @@ const feature_data = [
           "title": "Magma Wyrm Makar"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4812,
+            6462
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_1",
+          "link": "/checklists/bosses.html#item_5_1",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4904,
+            6126
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_2",
+          "link": "/checklists/bosses.html#item_5_2",
+          "title": "Putrid Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4983,
+            6171
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_3",
+          "link": "/checklists/bosses.html#item_5_3",
+          "title": "Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5135,
+            6420
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_4",
+          "link": "/checklists/bosses.html#item_5_4",
+          "title": "Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4985,
+            5898
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_5",
+          "link": "/checklists/bosses.html#item_5_5",
+          "title": "Knight of the Great Jar (x3) (NPC Invaders)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4872,
+            6806
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_30",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_30",
+          "link": "/checklists/bosses.html#item_5_30",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4942,
+            6746
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_6",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_6",
+          "link": "/checklists/bosses.html#item_5_6",
+          "title": "Frenzied Duelist"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5193,
+            7042
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_7",
+          "link": "/checklists/bosses.html#item_5_7",
+          "title": "Decaying Ekzykes"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5347,
+            7178
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_28",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_28",
+          "link": "/checklists/bosses.html#item_5_28",
+          "title": "Cemetery Shade"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5372,
+            7018
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_8",
+          "link": "/checklists/bosses.html#item_5_8",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5574,
+            7091
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_31",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_31",
+          "link": "/checklists/bosses.html#item_5_31",
+          "title": "Lion Guardian"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5604,
+            7001
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_9",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_9",
+          "link": "/checklists/bosses.html#item_5_9",
+          "title": "Death Rite Bird (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5476,
+            6724
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_10",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_10",
+          "link": "/checklists/bosses.html#item_5_10",
+          "title": "Commander O'Neil"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5393,
+            6753
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_11",
+          "link": "/checklists/bosses.html#item_5_11",
+          "title": "Milicent (NPC Invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5598,
+            6450
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_12",
+          "link": "/checklists/bosses.html#item_5_12",
+          "title": "Nox Priest & Nox Swordstress"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5533,
+            6382
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_13",
+          "link": "/checklists/bosses.html#item_5_13",
+          "title": "Fallingstar Beast"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5416,
+            6444
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_14",
+          "link": "/checklists/bosses.html#item_5_14",
+          "title": "Cleanrot Knight (Sickle) & Cleanrot Knight (Spear)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5429,
+            6490
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_15",
+          "link": "/checklists/bosses.html#item_5_15",
+          "title": "Battlemage Hugues"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5834,
+            6368
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_16",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_16",
+          "link": "/checklists/bosses.html#item_5_16",
+          "title": "Elder Dragon Greyoll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5896,
+            6451
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_17",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_17",
+          "link": "/checklists/bosses.html#item_5_17",
+          "title": "Putrid Crystalian (Spear, Ringblade & Staff)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5601,
+            6031
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_18",
+          "link": "/checklists/bosses.html#item_5_18",
+          "title": "Godskin Apostle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6040,
+            6184
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_20",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_20",
+          "link": "/checklists/bosses.html#item_5_20",
+          "title": "Putrid Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5130,
+            6117
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_19",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_19",
+          "link": "/checklists/bosses.html#item_5_19",
+          "title": "Bell Bearing Hunter (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5993,
+            6121
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_21",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_21",
+          "link": "/checklists/bosses.html#item_5_21",
+          "title": "Beastman of Farum Azula (Greatsword & Throwing Knife)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6155,
+            5839
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_23",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_23",
+          "link": "/checklists/bosses.html#item_5_23",
+          "title": "Flying Dragon Greyll"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6002,
+            5519
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_24",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_24",
+          "link": "/checklists/bosses.html#item_5_24",
+          "title": "Black Blade Kindred"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5931,
+            5462
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_25",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_25",
+          "link": "/checklists/bosses.html#item_5_25",
+          "title": "Gurranq, Beast Clergyman"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6276,
+            5894
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_22",
+          "link": "/checklists/bosses.html#item_5_22",
+          "title": "Night's Cavalry (Night only)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6095,
+            7269
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_26",
+          "link": "/checklists/bosses.html#item_5_26",
+          "title": "Misbegotten Warrior & Crucible Knight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6364,
+            6758
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_27",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_27",
+          "link": "/checklists/bosses.html#item_5_27",
+          "title": "Starscourge Radahn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6307,
+            6138
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_5_29",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_5_29",
+          "link": "/checklists/bosses.html#item_5_29",
+          "title": "Putrid Tree Spirit"
+        },
+        "type": "Feature"
       }
     ],
     "id": "bosses",
@@ -1709,8 +2298,8 @@ const feature_data = [
         "id": "caves_1_2",
         "properties": {
           "group": "caves",
-          "icon": "/map/icons/MENU_MAP_16.png",
-          "icon_size": 50,
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
           "id": "caves_1_2",
           "link": "/checklists/landmarks_locations.html#item_1_2",
           "title": "Fringefolk Hero's Grave"
@@ -2461,8 +3050,27 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2327,
-            6002
+            1724,
+            4870
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_2_1",
+          "link": "/checklists/landmarks_locations.html#item_2_1",
+          "title": "Academy Crystal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2335,
+            5968
           ],
           "type": "Point"
         },
@@ -2474,6 +3082,101 @@ const feature_data = [
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
           "title": "Lakeside Crystal Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2940,
+            6303
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_2_8",
+          "link": "/checklists/landmarks_locations.html#item_2_8",
+          "title": "Stillwater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2870,
+            4122
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_2_2",
+          "link": "/checklists/landmarks_locations.html#item_2_2",
+          "title": "Black Knife Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3037,
+            5944
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_2_3",
+          "link": "/checklists/landmarks_locations.html#item_2_3",
+          "title": "Cliffbottom Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1381,
+            5526
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_2_6",
+          "link": "/checklists/landmarks_locations.html#item_2_6",
+          "title": "Road's End Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2304,
+            4457
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_2_5",
+          "link": "/checklists/landmarks_locations.html#item_2_5",
+          "title": "Raya Lucaria Crystal Tunnel"
         },
         "type": "Feature"
       },
@@ -2556,6 +3259,918 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            1440,
+            5437
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l30",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l30",
+          "link": "/checklists/landmarks_locations.html#item_l30",
+          "title": "Minor Erdtree (southwest)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2673,
+            4345
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l31",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l31",
+          "link": "/checklists/landmarks_locations.html#item_l31",
+          "title": "Minor Erdtree (northeast)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3345,
+            5135
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l32",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l32",
+          "link": "/checklists/landmarks_locations.html#item_l32",
+          "title": "Divine Tower of Liurnia"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1577,
+            5578
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l33",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l33",
+          "link": "/checklists/landmarks_locations.html#item_l33",
+          "title": "Converted Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1833,
+            4405
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l34",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l34",
+          "link": "/checklists/landmarks_locations.html#item_l34",
+          "title": "Testu's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2919,
+            4172
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l35",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l35",
+          "link": "/checklists/landmarks_locations.html#item_l35",
+          "title": "Converted Fringe Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1596,
+            3690
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l36",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l36",
+          "link": "/checklists/landmarks_locations.html#item_l36",
+          "title": "Ranni's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1732,
+            3803
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l38",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l38",
+          "link": "/checklists/landmarks_locations.html#item_l38",
+          "title": "Seluvis's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1755,
+            3517
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l39",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l39",
+          "link": "/checklists/landmarks_locations.html#item_l39",
+          "title": "Renna's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1406,
+            6245
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l50",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l50",
+          "link": "/checklists/landmarks_locations.html#item_l50",
+          "title": "Chelona's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2543,
+            5875
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l40",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l40",
+          "link": "/checklists/landmarks_locations.html#item_l40",
+          "title": "Laskyar Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2861,
+            5927
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l41",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l41",
+          "link": "/checklists/landmarks_locations.html#item_l41",
+          "title": "Purified Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1722,
+            4123
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l42",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l42",
+          "link": "/checklists/landmarks_locations.html#item_l42",
+          "title": "Kingsrealm Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1950,
+            5937
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l43",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l43",
+          "link": "/checklists/landmarks_locations.html#item_l43",
+          "title": "Lunar Estate Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1675,
+            5781
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l44",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l44",
+          "link": "/checklists/landmarks_locations.html#item_l44",
+          "title": "Moonfolk Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2302,
+            6064
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l45",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l45",
+          "link": "/checklists/landmarks_locations.html#item_l45",
+          "title": "Slumbering Wolf's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2277,
+            5562
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l46",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l46",
+          "link": "/checklists/landmarks_locations.html#item_l46",
+          "title": "Boilprawn Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2776,
+            5104
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l47",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l47",
+          "link": "/checklists/landmarks_locations.html#item_l47",
+          "title": "Artist's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1430,
+            5208
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l48",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l48",
+          "link": "/checklists/landmarks_locations.html#item_l48",
+          "title": "Revenger's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2911,
+            6414
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l131",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l131",
+          "link": "/checklists/landmarks_locations.html#item_l131",
+          "title": "Church of Irith"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1829,
+            5363
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l51",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l51",
+          "link": "/checklists/landmarks_locations.html#item_l51",
+          "title": "Rose Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2405,
+            4720
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l52",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l52",
+          "link": "/checklists/landmarks_locations.html#item_l52",
+          "title": "Church of Vows"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2180,
+            4048
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l53",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l53",
+          "link": "/checklists/landmarks_locations.html#item_l53",
+          "title": "Bellum Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2499,
+            4013
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l54",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l54",
+          "link": "/checklists/landmarks_locations.html#item_l54",
+          "title": "Church of Inhibition"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1883,
+            5784
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l55",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_20.png",
+          "icon_size": 40,
+          "id": "caves_l55",
+          "link": "/checklists/landmarks_locations.html#item_l55",
+          "title": "Cathedral of Manus Celes"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2793,
+            5638
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l56",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l56",
+          "link": "/checklists/landmarks_locations.html#item_l56",
+          "title": "Highway Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2917,
+            5209
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l57",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_66.png",
+          "icon_size": 45,
+          "id": "caves_l57",
+          "link": "/checklists/landmarks_locations.html#item_l57",
+          "title": "Carian Study Hall"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2993,
+            5259
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l58",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_38.png",
+          "icon_size": 35,
+          "id": "caves_l58",
+          "link": "/checklists/landmarks_locations.html#item_l58",
+          "title": "Jarburg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2345,
+            5207
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l59",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_32.png",
+          "icon_size": 35,
+          "id": "caves_l59",
+          "link": "/checklists/landmarks_locations.html#item_l59",
+          "title": "Academy Gate Town"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1714,
+            5178
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l60",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_32.png",
+          "icon_size": 35,
+          "id": "caves_l60",
+          "link": "/checklists/landmarks_locations.html#item_l60",
+          "title": "Temple Quarter"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1727,
+            5852
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l61",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_39.png",
+          "icon_size": 35,
+          "id": "caves_l61",
+          "link": "/checklists/landmarks_locations.html#item_l61",
+          "title": "Village of the Albinaurics"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1475,
+            4565
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l62",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_52.png",
+          "icon_size": 40,
+          "id": "caves_l62",
+          "link": "/checklists/landmarks_locations.html#item_l62",
+          "title": "The Four Belfries"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2650,
+            4245
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l63",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_35.png",
+          "icon_size": 35,
+          "id": "caves_l63",
+          "link": "/checklists/landmarks_locations.html#item_l63",
+          "title": "Frenzied Flame Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2679,
+            4054
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l64",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l64",
+          "link": "/checklists/landmarks_locations.html#item_l64",
+          "title": "Frenzy-Flaming Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2777,
+            4661
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l65",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Ungro.png",
+          "icon_size": 35,
+          "id": "caves_l65",
+          "link": "/checklists/landmarks_locations.html#item_l65",
+          "title": "Ainsel River Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1643,
+            5990
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l66",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Ungro.png",
+          "icon_size": 35,
+          "id": "caves_l66",
+          "link": "/checklists/landmarks_locations.html#item_l66",
+          "title": "Deep Ainsel Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1800,
+            4807
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_51.png",
+          "icon_size": 45,
+          "id": "caves_ld3",
+          "link": "/checklists/landmarks_locations.html#item_ld3",
+          "title": "Academy of Raya Lucaria"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1927,
+            3730
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_26.png",
+          "icon_size": 45,
+          "id": "caves_ld4",
+          "link": "/checklists/landmarks_locations.html#item_ld4",
+          "title": "Caria Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2580,
+            3625
+          ],
+          "type": "Point"
+        },
+        "id": "caves_2_7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_53.png",
+          "icon_size": 45,
+          "id": "caves_2_7",
+          "link": "/checklists/landmarks_locations.html#item_2_7",
+          "title": "Ruin-Strewn Precipice"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5363,
+            6479
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_1",
+          "link": "/checklists/landmarks_locations.html#item_3_1",
+          "title": "Abandoned Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4936,
+            6771
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_4",
+          "link": "/checklists/landmarks_locations.html#item_3_4",
+          "title": "Gaol Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6011,
+            6173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_7",
+          "link": "/checklists/landmarks_locations.html#item_3_7",
+          "title": "Dragonbarrow Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5873,
+            6481
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_3_9",
+          "link": "/checklists/landmarks_locations.html#item_3_9",
+          "title": "Sellia Hideaway"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5362,
+            7238
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_2",
+          "link": "/checklists/landmarks_locations.html#item_3_2",
+          "title": "Caelid Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4930,
+            6172
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_5",
+          "link": "/checklists/landmarks_locations.html#item_3_5",
+          "title": "Minor Erdtree Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6310,
+            6173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_3_8",
+          "link": "/checklists/landmarks_locations.html#item_3_8",
+          "title": "War-Dead Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4796,
+            6512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_3_3",
+          "link": "/checklists/landmarks_locations.html#item_3_3",
+          "title": "Gael Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5520,
+            6433
+          ],
+          "type": "Point"
+        },
+        "id": "caves_3_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_3_6",
+          "link": "/checklists/landmarks_locations.html#item_3_6",
+          "title": "Sellia Crystal Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             5413,
             6515
           ],
@@ -2569,6 +4184,557 @@ const feature_data = [
           "id": "caves_e8",
           "link": "/checklists/landmarks_locations.html#item_e8",
           "title": "Sellia Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4911,
+            6164
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l67",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l67",
+          "link": "/checklists/landmarks_locations.html#item_l67",
+          "title": "Minor Erdtree (west)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6037,
+            6244
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l68",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l68",
+          "link": "/checklists/landmarks_locations.html#item_l68",
+          "title": "Minor Erdtree (east)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5581,
+            6055
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l69",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l69",
+          "link": "/checklists/landmarks_locations.html#item_l69",
+          "title": "Divine Tower of Caelid"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5990,
+            4819
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l70",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l70",
+          "link": "/checklists/landmarks_locations.html#item_l70",
+          "title": "Isolated Divine Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6338,
+            6042
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l71",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l71",
+          "link": "/checklists/landmarks_locations.html#item_l71",
+          "title": "Lenne's Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4894,
+            6375
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l72",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l72",
+          "link": "/checklists/landmarks_locations.html#item_l72",
+          "title": "Forsaken Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5114,
+            6372
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l73",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l73",
+          "link": "/checklists/landmarks_locations.html#item_l73",
+          "title": "Caelem Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5043,
+            6879
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l74",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l74",
+          "link": "/checklists/landmarks_locations.html#item_l74",
+          "title": "Caelid Waypoint Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5286,
+            6664
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l75",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l75",
+          "link": "/checklists/landmarks_locations.html#item_l75",
+          "title": "Street of Sages Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4819,
+            6362
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l76",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l76",
+          "link": "/checklists/landmarks_locations.html#item_l76",
+          "title": "Shack of the Rotting"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5171,
+            6098
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l77",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l77",
+          "link": "/checklists/landmarks_locations.html#item_l77",
+          "title": "Isolated Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5672,
+            6738
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l78",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l78",
+          "link": "/checklists/landmarks_locations.html#item_l78",
+          "title": "Gowry's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4668,
+            6258
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l79",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l79",
+          "link": "/checklists/landmarks_locations.html#item_l79",
+          "title": "Smouldering Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5267,
+            7189
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l80",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l80",
+          "link": "/checklists/landmarks_locations.html#item_l80",
+          "title": "Cathedral of Dragon Communion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5773,
+            6662
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l81",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l81",
+          "link": "/checklists/landmarks_locations.html#item_l81",
+          "title": "Church of the Plague"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5638,
+            6579
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l82",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_33.png",
+          "icon_size": 40,
+          "id": "caves_l82",
+          "link": "/checklists/landmarks_locations.html#item_l82",
+          "title": "Sellia, Town of Sorcery"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5629,
+            6836
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l83",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_10.png",
+          "icon_size": 35,
+          "id": "caves_l83",
+          "link": "/checklists/landmarks_locations.html#item_l83",
+          "title": "Sellia Gateway"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5983,
+            5504
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l84",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_54.png",
+          "icon_size": 40,
+          "id": "caves_l84",
+          "link": "/checklists/landmarks_locations.html#item_l84",
+          "title": "Bestial Sanctum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5390,
+            6283
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l85",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Ungro.png",
+          "icon_size": 35,
+          "id": "caves_l85",
+          "link": "/checklists/landmarks_locations.html#item_l85",
+          "title": "Deep Siofra Well"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4885,
+            6793
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l86",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l86",
+          "link": "/checklists/landmarks_locations.html#item_l86",
+          "title": "Fort Gael"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5957,
+            6429
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l87",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l87",
+          "link": "/checklists/landmarks_locations.html#item_l87",
+          "title": "Fort Faroth"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5558,
+            6732
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l88",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l88",
+          "link": "/checklists/landmarks_locations.html#item_l88",
+          "title": "Swamp Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6060,
+            7357
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_28.png",
+          "icon_size": 45,
+          "id": "caves_ld5",
+          "link": "/checklists/landmarks_locations.html#item_ld5",
+          "title": "Redmane Castle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3506,
+            3448
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_4_3",
+          "link": "/checklists/landmarks_locations.html#item_4_3",
+          "title": "Perfumer's Grotto"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2511,
+            3264
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_2",
+          "link": "/checklists/landmarks_locations.html#item_5_2",
+          "title": "Sage's Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2126,
+            3369
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_5_4",
+          "link": "/checklists/landmarks_locations.html#item_5_4",
+          "title": "Unsightly Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2794,
+            3058
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_4_1",
+          "link": "/checklists/landmarks_locations.html#item_4_1",
+          "title": "Old Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3408,
+            3137
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_4_2",
+          "link": "/checklists/landmarks_locations.html#item_4_2",
+          "title": "Altus Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3225,
+            3190
+          ],
+          "type": "Point"
+        },
+        "id": "caves_4_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_4_4",
+          "link": "/checklists/landmarks_locations.html#item_4_4",
+          "title": "Sainted Hero's Grave"
         },
         "type": "Feature"
       },
@@ -2594,6 +4760,766 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3384,
+            2925
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l89",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l89",
+          "link": "/checklists/landmarks_locations.html#item_l89",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3035,
+            3019
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l90",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l90",
+          "link": "/checklists/landmarks_locations.html#item_l90",
+          "title": "Mirage Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2149,
+            3328
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l91",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l91",
+          "link": "/checklists/landmarks_locations.html#item_l91",
+          "title": "Perfumer's Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2663,
+            3448
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l92",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l92",
+          "link": "/checklists/landmarks_locations.html#item_l92",
+          "title": "Lux Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2637,
+            3187
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l93",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l93",
+          "link": "/checklists/landmarks_locations.html#item_l93",
+          "title": "Wyndham Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3140,
+            2866
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l94",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l94",
+          "link": "/checklists/landmarks_locations.html#item_l94",
+          "title": "Writheblood Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3481,
+            2918
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l95",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l95",
+          "link": "/checklists/landmarks_locations.html#item_l95",
+          "title": "Woodfolk Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3227,
+            3351
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l96",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l96",
+          "link": "/checklists/landmarks_locations.html#item_l96",
+          "title": "Stormcaller Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2979,
+            3146
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l97",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l97",
+          "link": "/checklists/landmarks_locations.html#item_l97",
+          "title": "Second Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2745,
+            3733
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l98",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_21.png",
+          "icon_size": 50,
+          "id": "caves_l98",
+          "link": "/checklists/landmarks_locations.html#item_l98",
+          "title": "Grand Lift of Dectus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3126,
+            2512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l99",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l99",
+          "link": "/checklists/landmarks_locations.html#item_l99",
+          "title": "West Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3348,
+            2391
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l100",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l100",
+          "link": "/checklists/landmarks_locations.html#item_l100",
+          "title": "East Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3504,
+            2528
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l101",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_19.png",
+          "icon_size": 35,
+          "id": "caves_l101",
+          "link": "/checklists/landmarks_locations.html#item_l101",
+          "title": "Village Windmill Pasture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3633,
+            2586
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l102",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_36.png",
+          "icon_size": 40,
+          "id": "caves_l102",
+          "link": "/checklists/landmarks_locations.html#item_l102",
+          "title": "Dominula, Windmill Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3739,
+            2723
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l103",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_08.png",
+          "icon_size": 35,
+          "id": "caves_l103",
+          "link": "/checklists/landmarks_locations.html#item_l103",
+          "title": "Highway Lookout Tower"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2921,
+            2682
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_27.png",
+          "icon_size": 45,
+          "id": "caves_ld6",
+          "link": "/checklists/landmarks_locations.html#item_ld6",
+          "title": "The Shaded Castle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2433,
+            2813
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_3",
+          "link": "/checklists/landmarks_locations.html#item_5_3",
+          "title": "Seethewater Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2378,
+            2485
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_5",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_5_5",
+          "link": "/checklists/landmarks_locations.html#item_5_5",
+          "title": "Volcano Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2560,
+            3090
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_6",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_5_6",
+          "link": "/checklists/landmarks_locations.html#item_5_6",
+          "title": "Wyndham Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2521,
+            2928
+          ],
+          "type": "Point"
+        },
+        "id": "caves_5_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_5_1",
+          "link": "/checklists/landmarks_locations.html#item_5_1",
+          "title": "Gelmir Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2427,
+            2772
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l104",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l104",
+          "link": "/checklists/landmarks_locations.html#item_l104",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2587,
+            2688
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l105",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l105",
+          "link": "/checklists/landmarks_locations.html#item_l105",
+          "title": "Corpse-Stench Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2265,
+            3214
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l106",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l106",
+          "link": "/checklists/landmarks_locations.html#item_l106",
+          "title": "Craftsman's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2057,
+            3173
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l107",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l107",
+          "link": "/checklists/landmarks_locations.html#item_l107",
+          "title": "Hermit's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2435,
+            3108
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l108",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_40.png",
+          "icon_size": 35,
+          "id": "caves_l108",
+          "link": "/checklists/landmarks_locations.html#item_l108",
+          "title": "Hermit Village"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1908,
+            2820
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l109",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l109",
+          "link": "/checklists/landmarks_locations.html#item_l109",
+          "title": "Fort Laiedd"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2190,
+            2837
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld7",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_58.png",
+          "icon_size": 45,
+          "id": "caves_ld7",
+          "link": "/checklists/landmarks_locations.html#item_ld7",
+          "title": "Volcano Manor"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4591,
+            3186
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_6_4",
+          "link": "/checklists/landmarks_locations.html#item_6_4",
+          "title": "Auriza Side Tomb"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4381,
+            3571
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_6_3",
+          "link": "/checklists/landmarks_locations.html#item_6_3",
+          "title": "Leyndell Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3909,
+            3653
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_6_1",
+          "link": "/checklists/landmarks_locations.html#item_6_1",
+          "title": "Sealed Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4542,
+            3302
+          ],
+          "type": "Point"
+        },
+        "id": "caves_6_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_6_2",
+          "link": "/checklists/landmarks_locations.html#item_6_2",
+          "title": "Auriza Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4286,
+            2869
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l110",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l110",
+          "link": "/checklists/landmarks_locations.html#item_l110",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3919,
+            4009
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l111",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l111",
+          "link": "/checklists/landmarks_locations.html#item_l111",
+          "title": "Divine Tower of West Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3946,
+            2944
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l112",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l112",
+          "link": "/checklists/landmarks_locations.html#item_l112",
+          "title": "Hermit Merchant's Shack"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3849,
+            3752
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l113",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l113",
+          "link": "/checklists/landmarks_locations.html#item_l113",
+          "title": "Minor Erdtree Church"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4271,
+            3531
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld8",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_60.png",
+          "icon_size": 45,
+          "id": "caves_ld8",
+          "link": "/checklists/landmarks_locations.html#item_ld8",
+          "title": "Leyndell, Royal Capital"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4338,
+            3513
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld9",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_61.png",
+          "icon_size": 35,
+          "id": "caves_ld9",
+          "link": "/checklists/landmarks_locations.html#item_ld9",
+          "title": "Subterranean Shunning-Grounds"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6494,
+            2050
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_7_3",
+          "link": "/checklists/landmarks_locations.html#item_7_3",
+          "title": "Spiritcaller Cave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5786,
+            2808
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_7_2",
+          "link": "/checklists/landmarks_locations.html#item_7_2",
+          "title": "Giants' Mountaintop Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5686,
+            2823
+          ],
+          "type": "Point"
+        },
+        "id": "caves_7_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_16.png",
+          "icon_size": 35,
+          "id": "caves_7_1",
+          "link": "/checklists/landmarks_locations.html#item_7_1",
+          "title": "Giant-Conquering Hero's Grave"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             6478,
             2280
           ],
@@ -2607,6 +5533,462 @@ const feature_data = [
           "id": "caves_e10",
           "link": "/checklists/landmarks_locations.html#item_e10",
           "title": "Lord Contender's Evergaol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6229,
+            2108
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l114",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l114",
+          "link": "/checklists/landmarks_locations.html#item_l114",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5144,
+            3854
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l115",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_23.png",
+          "icon_size": 45,
+          "id": "caves_l115",
+          "link": "/checklists/landmarks_locations.html#item_l115",
+          "title": "Divine Tower of East Altus"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6382,
+            1985
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l116",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l116",
+          "link": "/checklists/landmarks_locations.html#item_l116",
+          "title": "Heretical Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5605,
+            3005
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l117",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l117",
+          "link": "/checklists/landmarks_locations.html#item_l117",
+          "title": "Zamor Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5967,
+            2141
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l118",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l118",
+          "link": "/checklists/landmarks_locations.html#item_l118",
+          "title": "Stargazer's Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5796,
+            2094
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l119",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_06.png",
+          "icon_size": 35,
+          "id": "caves_l119",
+          "link": "/checklists/landmarks_locations.html#item_l119",
+          "title": "Shack of the Lofty"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6754,
+            2338
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l120",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l120",
+          "link": "/checklists/landmarks_locations.html#item_l120",
+          "title": "First Church of Marika"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5981,
+            2999
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l121",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l121",
+          "link": "/checklists/landmarks_locations.html#item_l121",
+          "title": "Church of Repose"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5483,
+            2972
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l122",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_21.png",
+          "icon_size": 50,
+          "id": "caves_l122",
+          "link": "/checklists/landmarks_locations.html#item_l122",
+          "title": "Grand Lift of Rold"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6220,
+            2352
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l123",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_18.png",
+          "icon_size": 40,
+          "id": "caves_l123",
+          "link": "/checklists/landmarks_locations.html#item_l123",
+          "title": "Guardians' Garrison"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6700,
+            2983
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l125",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_57.png",
+          "icon_size": 45,
+          "id": "caves_l125",
+          "link": "/checklists/landmarks_locations.html#item_l125",
+          "title": "Forge of the Giants"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6030,
+            1849
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld10",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_29.png",
+          "icon_size": 45,
+          "id": "caves_ld10",
+          "link": "/checklists/landmarks_locations.html#item_ld10",
+          "title": "Castle Sol"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5692,
+            2146
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_4",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_13.png",
+          "icon_size": 35,
+          "id": "caves_8_4",
+          "link": "/checklists/landmarks_locations.html#item_8_4",
+          "title": "Cave of the Forlorn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5427,
+            2869
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_2",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_8_2",
+          "link": "/checklists/landmarks_locations.html#item_8_2",
+          "title": "Hidden Path to the Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5666,
+            2509
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_1",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/edited/MENU_MAP_04.png",
+          "icon_size": 35,
+          "id": "caves_8_1",
+          "link": "/checklists/landmarks_locations.html#item_8_1",
+          "title": "Consecrated Snowfield Catacombs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5044,
+            2512
+          ],
+          "type": "Point"
+        },
+        "id": "caves_8_3",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_14.png",
+          "icon_size": 35,
+          "id": "caves_8_3",
+          "link": "/checklists/landmarks_locations.html#item_8_3",
+          "title": "Yelough Anix Tunnel"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5633,
+            2054
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l126",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_30.png",
+          "icon_size": 45,
+          "id": "caves_l126",
+          "link": "/checklists/landmarks_locations.html#item_l126",
+          "title": "Minor Erdtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5648,
+            2262
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l127",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_17.png",
+          "icon_size": 45,
+          "id": "caves_l127",
+          "link": "/checklists/landmarks_locations.html#item_l127",
+          "title": "Albinauric Rise"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5061,
+            2411
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l128",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_05.png",
+          "icon_size": 35,
+          "id": "caves_l128",
+          "link": "/checklists/landmarks_locations.html#item_l128",
+          "title": "Yelough Anix Ruins"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5056,
+            1707
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l129",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_Church.png",
+          "icon_size": 40,
+          "id": "caves_l129",
+          "link": "/checklists/landmarks_locations.html#item_l129",
+          "title": "Apostate Derelict"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5312,
+            1923
+          ],
+          "type": "Point"
+        },
+        "id": "caves_l130",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_34.png",
+          "icon_size": 40,
+          "id": "caves_l130",
+          "link": "/checklists/landmarks_locations.html#item_l130",
+          "title": "Ordina, Liturgical Town"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5664,
+            1200
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld11",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_55.png",
+          "icon_size": 50,
+          "id": "caves_ld11",
+          "link": "/checklists/landmarks_locations.html#item_ld11",
+          "title": "Miquella's Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5610,
+            876
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld12",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_56.png",
+          "icon_size": 45,
+          "id": "caves_ld12",
+          "link": "/checklists/landmarks_locations.html#item_ld12",
+          "title": "Elphael, Brace of the Haligtree"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8570,
+            4553
+          ],
+          "type": "Point"
+        },
+        "id": "caves_ld13",
+        "properties": {
+          "group": "caves",
+          "icon": "/map/icons/MENU_MAP_59.png",
+          "icon_size": 50,
+          "id": "caves_ld13",
+          "link": "/checklists/landmarks_locations.html#item_ld13",
+          "title": "Crumbling Farum Azula"
         },
         "type": "Feature"
       }
@@ -8599,7 +11981,7 @@ const feature_data = [
         "id": "flasks_2_4",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_4",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
@@ -8618,7 +12000,7 @@ const feature_data = [
         "id": "flasks_2_1",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_1",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
@@ -8637,7 +12019,7 @@ const feature_data = [
         "id": "flasks_2_2",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_2",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
@@ -8656,7 +12038,7 @@ const feature_data = [
         "id": "flasks_2_3",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_3",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
@@ -8675,7 +12057,7 @@ const feature_data = [
         "id": "flasks_2_5",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_5",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
@@ -8694,7 +12076,7 @@ const feature_data = [
         "id": "flasks_2_6",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_6",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
@@ -8713,7 +12095,7 @@ const feature_data = [
         "id": "flasks_2_7",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_7",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
@@ -8732,7 +12114,7 @@ const feature_data = [
         "id": "flasks_2_8",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_8",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
@@ -8751,7 +12133,7 @@ const feature_data = [
         "id": "flasks_2_9",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_9",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
@@ -8770,7 +12152,7 @@ const feature_data = [
         "id": "flasks_2_10",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_10",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
@@ -8789,7 +12171,7 @@ const feature_data = [
         "id": "flasks_2_11",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_11",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
@@ -8808,7 +12190,7 @@ const feature_data = [
         "id": "flasks_2_12",
         "properties": {
           "group": "flasks",
-          "icon": "/img/icons/bolstering/edited/00384.png",
+          "icon": "/map/icons/shadows/bolstering/00384.png",
           "icon_size": 35,
           "id": "flasks_2_12",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
@@ -8833,7 +12215,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_1",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_1",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
@@ -8852,7 +12234,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_2",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
@@ -8863,15 +12245,15 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1577,
-            5578
+            1584,
+            5592
           ],
           "type": "Point"
         },
         "id": "memory_stones_talisman_pouches_0_3",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
@@ -8890,7 +12272,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_4",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
@@ -8901,15 +12283,15 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1833,
-            4405
+            1825,
+            4411
           ],
           "type": "Point"
         },
         "id": "memory_stones_talisman_pouches_0_5",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_5",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
@@ -8920,15 +12302,15 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1732,
-            3803
+            1739,
+            3808
           ],
           "type": "Point"
         },
         "id": "memory_stones_talisman_pouches_0_6",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_6",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
@@ -8947,7 +12329,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_7",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_7",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
@@ -8966,7 +12348,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_0_8",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00553.png",
+          "icon": "/map/icons/shadows/keys/00553.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_8",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
@@ -8985,7 +12367,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_2",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
@@ -9004,7 +12386,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_3",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
@@ -9023,7 +12405,7 @@ const feature_data = [
         "id": "memory_stones_talisman_pouches_1_4",
         "properties": {
           "group": "memory_stones_talisman_pouches",
-          "icon": "/img/icons/keys/edited/00554.png",
+          "icon": "/map/icons/shadows/keys/00554.png",
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
@@ -9048,7 +12430,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_1",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00311.png",
+          "icon": "/map/icons/shadows/keys/00311.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
@@ -9067,7 +12449,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_2",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00310.png",
+          "icon": "/map/icons/shadows/keys/00310.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
@@ -9086,7 +12468,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_0_3",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00310.png",
+          "icon": "/map/icons/shadows/keys/00310.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
@@ -9105,7 +12487,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_1",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00319.png",
+          "icon": "/map/icons/shadows/keys/00319.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
@@ -9124,7 +12506,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_2",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00317.png",
+          "icon": "/map/icons/shadows/keys/00317.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
@@ -9143,7 +12525,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_3",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00315.png",
+          "icon": "/map/icons/shadows/keys/00315.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
@@ -9162,7 +12544,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_4",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00324.png",
+          "icon": "/map/icons/shadows/keys/00324.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_4",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
@@ -9181,7 +12563,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_5",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00318.png",
+          "icon": "/map/icons/shadows/keys/00318.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_5",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
@@ -9200,7 +12582,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_8",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00322.png",
+          "icon": "/map/icons/shadows/keys/00322.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_8",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
@@ -9219,7 +12601,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_6",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00316.png",
+          "icon": "/map/icons/shadows/keys/00316.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_6",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
@@ -9238,7 +12620,7 @@ const feature_data = [
         "id": "scrolls_prayerbooks_1_7",
         "properties": {
           "group": "scrolls_prayerbooks",
-          "icon": "/img/icons/keys/edited/00325.png",
+          "icon": "/map/icons/shadows/keys/00325.png",
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_7",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
@@ -9263,7 +12645,7 @@ const feature_data = [
         "id": "whetstones_0_1",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03090.png",
+          "icon": "/map/icons/shadows/keys/03090.png",
           "icon_size": 35,
           "id": "whetstones_0_1",
           "link": "/checklists/whetstones.html#item_0_1",
@@ -9282,7 +12664,7 @@ const feature_data = [
         "id": "whetstones_0_2",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03020.png",
+          "icon": "/map/icons/shadows/keys/03020.png",
           "icon_size": 35,
           "id": "whetstones_0_2",
           "link": "/checklists/whetstones.html#item_0_2",
@@ -9301,7 +12683,7 @@ const feature_data = [
         "id": "whetstones_0_3",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03023.png",
+          "icon": "/map/icons/shadows/keys/03023.png",
           "icon_size": 35,
           "id": "whetstones_0_3",
           "link": "/checklists/whetstones.html#item_0_3",
@@ -9320,7 +12702,7 @@ const feature_data = [
         "id": "whetstones_0_4",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03021.png",
+          "icon": "/map/icons/shadows/keys/03021.png",
           "icon_size": 35,
           "id": "whetstones_0_4",
           "link": "/checklists/whetstones.html#item_0_4",
@@ -9339,7 +12721,7 @@ const feature_data = [
         "id": "whetstones_0_5",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03024.png",
+          "icon": "/map/icons/shadows/keys/03024.png",
           "icon_size": 35,
           "id": "whetstones_0_5",
           "link": "/checklists/whetstones.html#item_0_5",
@@ -9358,7 +12740,7 @@ const feature_data = [
         "id": "whetstones_0_6",
         "properties": {
           "group": "whetstones",
-          "icon": "/img/icons/keys/edited/03022.png",
+          "icon": "/map/icons/shadows/keys/03022.png",
           "icon_size": 35,
           "id": "whetstones_0_6",
           "link": "/checklists/whetstones.html#item_0_6",
@@ -9641,8 +13023,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3947,
-            2942
+            3959,
+            2941
           ],
           "type": "Point"
         },
@@ -9750,7 +13132,7 @@ const feature_data = [
         "id": "paintings_1_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03210.png",
+          "icon": "/map/icons/shadows/info/paintings/03210.png",
           "icon_size": 35,
           "id": "paintings_1_1",
           "link": "/checklists/paintings.html#item_1_1",
@@ -9769,7 +13151,7 @@ const feature_data = [
         "id": "paintings_1_2",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03066.png",
+          "icon": "/map/icons/shadows/info/paintings/03066.png",
           "icon_size": 35,
           "id": "paintings_1_2",
           "link": "/checklists/paintings.html#item_1_2",
@@ -9780,15 +13162,15 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2775,
-            5100
+            2782,
+            5096
           ],
           "type": "Point"
         },
         "id": "paintings_2_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03207.png",
+          "icon": "/map/icons/shadows/info/paintings/03207.png",
           "icon_size": 35,
           "id": "paintings_2_1",
           "link": "/checklists/paintings.html#item_2_1",
@@ -9807,7 +13189,7 @@ const feature_data = [
         "id": "paintings_3_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03212.png",
+          "icon": "/map/icons/shadows/info/paintings/03212.png",
           "icon_size": 35,
           "id": "paintings_3_1",
           "link": "/checklists/paintings.html#item_3_1",
@@ -9826,7 +13208,7 @@ const feature_data = [
         "id": "paintings_4_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03208.png",
+          "icon": "/map/icons/shadows/info/paintings/03208.png",
           "icon_size": 35,
           "id": "paintings_4_1",
           "link": "/checklists/paintings.html#item_4_1",
@@ -9845,7 +13227,7 @@ const feature_data = [
         "id": "paintings_5_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03211.png",
+          "icon": "/map/icons/shadows/info/paintings/03211.png",
           "icon_size": 35,
           "id": "paintings_5_1",
           "link": "/checklists/paintings.html#item_5_1",
@@ -9864,7 +13246,7 @@ const feature_data = [
         "id": "paintings_6_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/info/paintings/edited/03209.png",
+          "icon": "/map/icons/shadows/info/paintings/03209.png",
           "icon_size": 35,
           "id": "paintings_6_1",
           "link": "/checklists/paintings.html#item_6_1",
@@ -9883,7 +13265,7 @@ const feature_data = [
         "id": "paintings_1",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/spirit_ashes/00456.png",
+          "icon": "/map/icons/shadows/spirit_ashes/00456.png",
           "icon_size": 35,
           "id": "paintings_1",
           "link": "/checklists/paintings.html#item_1",
@@ -9902,7 +13284,7 @@ const feature_data = [
         "id": "paintings_2",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/15290.png",
+          "icon": "/map/icons/shadows/armor/15290.png",
           "icon_size": 35,
           "id": "paintings_2",
           "link": "/checklists/paintings.html#item_2",
@@ -9921,8 +13303,8 @@ const feature_data = [
         "id": "paintings_3",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/14770.png",
-          "icon_size": 35,
+          "icon": "/map/icons/shadows/armor/14770.png",
+          "icon_size": 20,
           "id": "paintings_3",
           "link": "/checklists/paintings.html#item_3",
           "title": "Resurrection Painting solution"
@@ -9940,7 +13322,7 @@ const feature_data = [
         "id": "paintings_4",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/ashes_of_war/08385.png",
+          "icon": "/map/icons/shadows/ashes_of_war/08385.png",
           "icon_size": 35,
           "id": "paintings_4",
           "link": "/checklists/paintings.html#item_4",
@@ -9959,7 +13341,7 @@ const feature_data = [
         "id": "paintings_5",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/weapons/lightbows/11003.png",
+          "icon": "/map/icons/shadows/weapons/lightbows/11003.png",
           "icon_size": 35,
           "id": "paintings_5",
           "link": "/checklists/paintings.html#item_5",
@@ -9978,7 +13360,7 @@ const feature_data = [
         "id": "paintings_6",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/incantations/06060.png",
+          "icon": "/map/icons/shadows/incantations/06060.png",
           "icon_size": 35,
           "id": "paintings_6",
           "link": "/checklists/paintings.html#item_6",
@@ -9997,7 +13379,7 @@ const feature_data = [
         "id": "paintings_7",
         "properties": {
           "group": "paintings",
-          "icon": "/img/icons/armor/15000.png",
+          "icon": "/map/icons/shadows/armor/15000.png",
           "icon_size": 35,
           "id": "paintings_7",
           "link": "/checklists/paintings.html#item_7",
@@ -10011,39 +13393,6 @@ const feature_data = [
   }
 ];
 const icon_urls = [
-  "/img/icons/armor/14770.png",
-  "/img/icons/armor/15000.png",
-  "/img/icons/armor/15290.png",
-  "/img/icons/ashes_of_war/08385.png",
-  "/img/icons/bolstering/edited/00384.png",
-  "/img/icons/incantations/06060.png",
-  "/img/icons/info/paintings/edited/03066.png",
-  "/img/icons/info/paintings/edited/03207.png",
-  "/img/icons/info/paintings/edited/03208.png",
-  "/img/icons/info/paintings/edited/03209.png",
-  "/img/icons/info/paintings/edited/03210.png",
-  "/img/icons/info/paintings/edited/03211.png",
-  "/img/icons/info/paintings/edited/03212.png",
-  "/img/icons/keys/edited/00310.png",
-  "/img/icons/keys/edited/00311.png",
-  "/img/icons/keys/edited/00315.png",
-  "/img/icons/keys/edited/00316.png",
-  "/img/icons/keys/edited/00317.png",
-  "/img/icons/keys/edited/00318.png",
-  "/img/icons/keys/edited/00319.png",
-  "/img/icons/keys/edited/00322.png",
-  "/img/icons/keys/edited/00324.png",
-  "/img/icons/keys/edited/00325.png",
-  "/img/icons/keys/edited/00553.png",
-  "/img/icons/keys/edited/00554.png",
-  "/img/icons/keys/edited/03020.png",
-  "/img/icons/keys/edited/03021.png",
-  "/img/icons/keys/edited/03022.png",
-  "/img/icons/keys/edited/03023.png",
-  "/img/icons/keys/edited/03024.png",
-  "/img/icons/keys/edited/03090.png",
-  "/img/icons/spirit_ashes/00456.png",
-  "/img/icons/weapons/lightbows/11003.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",
@@ -10051,20 +13400,80 @@ const icon_urls = [
   "/map/icons/MENU_MAP_10.png",
   "/map/icons/MENU_MAP_11.png",
   "/map/icons/MENU_MAP_14.png",
-  "/map/icons/MENU_MAP_16.png",
   "/map/icons/MENU_MAP_17.png",
   "/map/icons/MENU_MAP_18.png",
+  "/map/icons/MENU_MAP_19.png",
+  "/map/icons/MENU_MAP_20.png",
+  "/map/icons/MENU_MAP_21.png",
   "/map/icons/MENU_MAP_23.png",
   "/map/icons/MENU_MAP_25.png",
+  "/map/icons/MENU_MAP_26.png",
+  "/map/icons/MENU_MAP_27.png",
+  "/map/icons/MENU_MAP_28.png",
+  "/map/icons/MENU_MAP_29.png",
   "/map/icons/MENU_MAP_30.png",
+  "/map/icons/MENU_MAP_32.png",
+  "/map/icons/MENU_MAP_33.png",
+  "/map/icons/MENU_MAP_34.png",
+  "/map/icons/MENU_MAP_35.png",
+  "/map/icons/MENU_MAP_36.png",
   "/map/icons/MENU_MAP_37.png",
+  "/map/icons/MENU_MAP_38.png",
+  "/map/icons/MENU_MAP_39.png",
+  "/map/icons/MENU_MAP_40.png",
   "/map/icons/MENU_MAP_48.png",
   "/map/icons/MENU_MAP_50.png",
+  "/map/icons/MENU_MAP_51.png",
+  "/map/icons/MENU_MAP_52.png",
+  "/map/icons/MENU_MAP_53.png",
+  "/map/icons/MENU_MAP_54.png",
+  "/map/icons/MENU_MAP_55.png",
+  "/map/icons/MENU_MAP_56.png",
+  "/map/icons/MENU_MAP_57.png",
+  "/map/icons/MENU_MAP_58.png",
+  "/map/icons/MENU_MAP_59.png",
+  "/map/icons/MENU_MAP_60.png",
+  "/map/icons/MENU_MAP_61.png",
+  "/map/icons/MENU_MAP_66.png",
   "/map/icons/MENU_MAP_80.png",
   "/map/icons/MENU_MAP_Church.png",
   "/map/icons/MENU_MAP_Ungro.png",
   "/map/icons/MENU_MAP_memo_20.png",
   "/map/icons/edited/MENU_MAP_04.png",
   "/map/icons/edited/MENU_MAP_09.png",
-  "/map/icons/edited/MENU_MAP_13.png"
+  "/map/icons/edited/MENU_MAP_13.png",
+  "/map/icons/edited/MENU_MAP_16.png",
+  "/map/icons/shadows/armor/14770.png",
+  "/map/icons/shadows/armor/15000.png",
+  "/map/icons/shadows/armor/15290.png",
+  "/map/icons/shadows/ashes_of_war/08385.png",
+  "/map/icons/shadows/bolstering/00384.png",
+  "/map/icons/shadows/incantations/06060.png",
+  "/map/icons/shadows/info/paintings/03066.png",
+  "/map/icons/shadows/info/paintings/03207.png",
+  "/map/icons/shadows/info/paintings/03208.png",
+  "/map/icons/shadows/info/paintings/03209.png",
+  "/map/icons/shadows/info/paintings/03210.png",
+  "/map/icons/shadows/info/paintings/03211.png",
+  "/map/icons/shadows/info/paintings/03212.png",
+  "/map/icons/shadows/keys/00310.png",
+  "/map/icons/shadows/keys/00311.png",
+  "/map/icons/shadows/keys/00315.png",
+  "/map/icons/shadows/keys/00316.png",
+  "/map/icons/shadows/keys/00317.png",
+  "/map/icons/shadows/keys/00318.png",
+  "/map/icons/shadows/keys/00319.png",
+  "/map/icons/shadows/keys/00322.png",
+  "/map/icons/shadows/keys/00324.png",
+  "/map/icons/shadows/keys/00325.png",
+  "/map/icons/shadows/keys/00553.png",
+  "/map/icons/shadows/keys/00554.png",
+  "/map/icons/shadows/keys/03020.png",
+  "/map/icons/shadows/keys/03021.png",
+  "/map/icons/shadows/keys/03022.png",
+  "/map/icons/shadows/keys/03023.png",
+  "/map/icons/shadows/keys/03024.png",
+  "/map/icons/shadows/keys/03090.png",
+  "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/weapons/lightbows/11003.png"
 ]
