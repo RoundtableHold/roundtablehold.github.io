@@ -3,6 +3,7 @@ import os
 import re
 from math import floor
 
+from PIL import Image
 import dominate
 import yaml
 from dominate.tags import *
@@ -384,6 +385,15 @@ def make_options():
 
 img_size = '70'
 
+def add_icon(icon, classes):
+    p = os.path.join('docs', icon[1:])
+    im = Image.open(p)
+    width, height = im.size
+    if width > height:
+        img(data_src=icon, loading='lazy', cls=classes, style="width: 70px; height: {}px".format(int(height * (70 / width))))
+    else:
+        img(data_src=icon, loading='lazy', cls=classes, style="height: 70px; width: {}px".format(int(width * (70 / height))))
+
 def make_checklist(page):
     page['num_ids'] = 0 
     doc = make_doc(page['title'] + " | Roundtable Guides", 'Elden Ring Guides and Progress Tracker')
@@ -424,7 +434,7 @@ def make_checklist(page):
                             with button(href="#" + page['id'] + '_' + str(s_idx) + "Col", data_bs_toggle="collapse", data_bs_target="#" + page['id'] + '_' + str(s_idx) + "Col", cls="btn btn-primary btn-sm me-2 collapse-button d-print-none", role="button"):
                                 i(cls='bi bi-chevron-up d-print-none')
                             if 'icon' in section:
-                                img(data_src=section['icon'], loading='lazy', cls='me-1 cl-icon')
+                                add_icon(section['icon'], 'me-1')
                             if 'link' in section:
                                 a(section['title'], href=section['link'], cls='d-print-inline')
                             else:
@@ -480,13 +490,13 @@ def make_checklist(page):
                                                         with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
                                                             with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                                 if pos == 0 and 'icon' in item:
-                                                                    img(data_src=item['icon'], loading='lazy', cls='me-1 cl-icon')
+                                                                    add_icon(item['icon'], 'me-1')
                                                                 if item['data'][pos]:
                                                                     raw(item['data'][pos])
                                                 with div(cls='col d-md-none'):
                                                     with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                         if 'icon' in item:
-                                                            img(data_src=item['icon'], loading='lazy', cls='float-end cl-icon')
+                                                            add_icon(item['icon'], 'float-end')
                                                         for pos in range(table_cols):
                                                             col_size = str(table_widths[pos])
                                                             if isinstance(section['table'], list) and item['data'][pos]:
@@ -514,7 +524,7 @@ def make_checklist(page):
                                                 input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id, data_section_idx=str(s_idx))
                                                 with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
                                                     if 'icon' in item:
-                                                        img(data_src=item['icon'], loading='lazy', cls='float-md-none float-end me-md-1 cl-icon')
+                                                        add_icon(item['icon'], 'float-md-none float-end me-md-1')
                                                     raw(item['data'][0])
                                                 if 'cords' in item or 'map_link' in item:
                                                     href = '/map.html?'
@@ -578,12 +588,12 @@ def make_search():
                                                 col_size = str(table_widths[pos])
                                                 with div(cls='d-flex align-items-center col-md-' + col_size):
                                                     if pos == 0 and 'icon' in item:
-                                                        img(data_src=item['icon'], loading='lazy', cls='me-1 cl-icon')
+                                                        add_icon(item['icon'], 'me-1')
                                                     if item['data'][pos]:
                                                         raw(strip_a_tags(item['data'][pos]))
                                         with div(cls='row d-md-none').add(div(cls='col')):
                                             if 'icon' in item:
-                                                img(data_src=item['icon'], loading='lazy', cls='float-end cl-icon')
+                                                add_icon(item['icon'], 'float-end')
                                             for pos in range(table_cols):
                                                 col_size = str(table_widths[pos])
                                                 if isinstance(section['table'], list) and item['data'][pos]:
@@ -599,7 +609,7 @@ def make_search():
                                         with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
                                             with div(cls='d-flex align-items-center'):
                                                 if 'icon' in item:
-                                                    img(data_src=item['icon'], loading='lazy', cls='float-md-none float-end me-md-1 cl-icon')
+                                                    add_icon(item['icon'], 'float-md-none float-end me-md-1')
                                                 raw(strip_a_tags(item['data'][0]))
                                     f(item)
                                     if isinstance(items.peek(0), list):
