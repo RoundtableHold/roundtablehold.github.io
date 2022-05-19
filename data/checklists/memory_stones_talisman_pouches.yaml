@@ -5,7 +5,7 @@ sections:
   -
     title: "Memory Stones"
     icon: "/img/icons/keys/edited/00553.png"
-    # map_icon: "/img/icons/keys/edited/00553s.png"
+    map_icon: "/map/icons/shadows/keys/00553.png"
     items:
       - id: "0_1"
         data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
@@ -17,7 +17,7 @@ sections:
         map_title: "Memory Stone"
       - id: "0_3"
         data: ["Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
-        cords: [1577, 5578]
+        cords: [1584, 5592]
         map_title: "Memory Stone"
       - id: "0_4"
         data: ["Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
@@ -25,11 +25,11 @@ sections:
         map_title: "Memory Stone"
       - id: "0_5"
         data: ["Found in Testu's Rise, north of Raya Lucaria Academy."]
-        cords: [1833, 4405]
+        cords: [1825, 4411]
         map_title: "Memory Stone"
       - id: "0_6"
-        data: ["Found Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
-        cords: [1732, 3803]
+        data: ["Found in Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
+        cords: [1739, 3808]
         map_title: "Memory Stone"
       - id: "0_7"
         data: ["Found in Lenne's Rise in eastern Caelid."]
@@ -42,7 +42,7 @@ sections:
   -
     title: "Talisman Pouches"
     icon: "/img/icons/keys/edited/00554.png"
-    # map_icon: "/img/icons/keys/edited/00554s.png"
+    map_icon: "/map/icons/shadows/keys/00554.png"
     items:
       - id: "1_2"
         data: ["Reward for defeating Margit, the Fell Omen in Stormveil Castle."]

@@ -875,6 +875,8 @@
 "bosses_5_3",
 "bosses_5_30",
 "bosses_5_31",
+"bosses_5_32",
+"bosses_5_33",
 "bosses_5_34",
 "bosses_5_35",
 "bosses_5_4",
@@ -1014,6 +1016,7 @@
 "caves_8_1",
 "caves_8_2",
 "caves_8_3",
+"caves_8_4",
 "caves_e1",
 "caves_e10",
 "caves_e2",
@@ -1052,7 +1055,6 @@
 "caves_l121",
 "caves_l122",
 "caves_l123",
-"caves_l124",
 "caves_l125",
 "caves_l126",
 "caves_l127",
@@ -1060,6 +1062,7 @@
 "caves_l129",
 "caves_l13",
 "caves_l130",
+"caves_l131",
 "caves_l14",
 "caves_l15",
 "caves_l16",
@@ -1085,7 +1088,6 @@
 "caves_l34",
 "caves_l35",
 "caves_l36",
-"caves_l37",
 "caves_l38",
 "caves_l39",
 "caves_l4",
@@ -1098,8 +1100,8 @@
 "caves_l46",
 "caves_l47",
 "caves_l48",
-"caves_l49",
 "caves_l5",
+"caves_l50",
 "caves_l51",
 "caves_l52",
 "caves_l53",
@@ -3722,7 +3724,7 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const bosses_total = 240;
+const bosses_total = 242;
 var bosses_checked = 0;
 const caves_total = 205;
 var caves_checked = 0;

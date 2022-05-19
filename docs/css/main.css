@@ -214,3 +214,10 @@ textarea#profileText {
 :target {
   scroll-margin-top: 15vh;
 }
+
+.cl-icon {
+  max-height: 70px;
+  max-width: 70px;
+  height: auto;
+  width: auto;
+}
