@@ -13852,6 +13852,202 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3070,
+            6443
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_1",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00163.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_1",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_1",
+          "title": "Remembrance of the Grafted"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1871,
+            4825
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_2",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00172.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_2",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_2",
+          "title": "Remembrance of the Full Moon Queen"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6375,
+            6743
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_3",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00164.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_3",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_3",
+          "title": "Remembrance of the Scarscourge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3612,
+            8137
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_1",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_1",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_1",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2182,
+            4487
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_2",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_2",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_2",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2458,
+            4316
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_3",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_3",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_3",
+          "title": "Wandering Mausoleum (no bell)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2511,
+            4414
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_7",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_7",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_7",
+          "title": "Wandering Mausoleum (no bell)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5981,
+            1817
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_4",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_4",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_4",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5060,
+            1768
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_5",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_5",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_5",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5418,
+            10698
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_6",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_6",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_6",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "remembrances_mausoleums",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3060,
             6606
           ],
@@ -14939,6 +15135,10 @@ const icon_urls = [
   "/map/icons/shadows/keys/crystal_tears/00429.png",
   "/map/icons/shadows/keys/crystal_tears/00430.png",
   "/map/icons/shadows/keys/crystal_tears/00431.png",
+  "/map/icons/shadows/mausoleum.png",
   "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/tools/remembrances/00163.png",
+  "/map/icons/shadows/tools/remembrances/00164.png",
+  "/map/icons/shadows/tools/remembrances/00172.png",
   "/map/icons/shadows/weapons/lightbows/11003.png"
 ]

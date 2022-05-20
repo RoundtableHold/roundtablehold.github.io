@@ -13,7 +13,7 @@ for root, dirs, files in os.walk(sys.argv[1]):
             icon_data = icon.getdata()
             new_icon_data = []
             for item in icon_data:
-                if item[3] < 20:
+                if item[3] < 30:
                     new_icon_data.append((0, 0, 0, 0))
                 else:
                     # new_icon_data.append((item[0], item[1], item[2], 255))
