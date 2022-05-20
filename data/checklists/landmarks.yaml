@@ -103,16 +103,16 @@ sections:
       - id: "l9"
         data: ["Warmaster's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
-        cords: [3720, 6694]
+        cords: [3720, 6696]
       - id: "l10"
         data: ["Artist's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
-        cords: [4214, 6794]
+        cords: [4214, 6789]
         #CHURCHES '/map/icons/MENU_MAP_Church.png'
       - id: "l11"
         data: ["Church of Elleh", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3657, 7210]
+        cords: [3659, 7225]
         map_icon_size: 40
       - id: "l12"
         data: ["Church of Dragon Communion", "Landmark", "", ""]
@@ -386,7 +386,7 @@ sections:
       - id: "l47"
         data: ["Artist's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2776, 5104]
+        cords: [2768, 5102]
       - id: "l48"
         data: ["Revenger's Shack", "Landmark", "", ""]
         icon: '/map/icons/MENU_MAP_06.png'

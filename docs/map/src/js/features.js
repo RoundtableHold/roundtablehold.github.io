@@ -365,8 +365,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3725,
-            6687
+            3735,
+            6684
           ],
           "type": "Point"
         },
@@ -802,8 +802,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2681,
-            6113
+            2678,
+            6108
           ],
           "type": "Point"
         },
@@ -1087,7 +1087,7 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2877,
+            2883,
             4091
           ],
           "type": "Point"
@@ -1334,8 +1334,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2280,
-            3691
+            2288,
+            3688
           ],
           "type": "Point"
         },
@@ -2057,7 +2057,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             6095,
-            7269
+            7263
           ],
           "type": "Point"
         },
@@ -2145,6 +2145,25 @@ const feature_data = [
           "id": "bosses_6_7",
           "link": "/checklists/bosses.html#item_6_7",
           "title": "Wormface"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2647,
+            3224
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_3",
+          "link": "/checklists/bosses.html#item_7_3",
+          "title": "Tibia Mariner"
         },
         "type": "Feature"
       },
@@ -2595,7 +2614,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             3720,
-            6694
+            6696
           ],
           "type": "Point"
         },
@@ -2614,7 +2633,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             4214,
-            6794
+            6789
           ],
           "type": "Point"
         },
@@ -2632,8 +2651,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3657,
-            7210
+            3659,
+            7225
           ],
           "type": "Point"
         },
@@ -3677,8 +3696,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2776,
-            5104
+            2768,
+            5102
           ],
           "type": "Point"
         },
@@ -13852,7 +13871,7 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4218,
+            4226,
             6800
           ],
           "type": "Point"
@@ -13872,7 +13891,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             2782,
-            5096
+            5092
           ],
           "type": "Point"
         },
@@ -13928,8 +13947,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4184,
-            3587
+            4188,
+            3582
           ],
           "type": "Point"
         },
@@ -14099,6 +14118,677 @@ const feature_data = [
     ],
     "id": "paintings",
     "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3789,
+            7363
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07009.png",
+          "icon_size": 35,
+          "id": "gestures_1_1",
+          "link": "/checklists/gestures.html#item_1_1",
+          "title": "Strength!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4246,
+            7274
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07017.png",
+          "icon_size": 35,
+          "id": "gestures_1_3",
+          "link": "/checklists/gestures.html#item_1_3",
+          "title": "Nod in Thought"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4015,
+            6948
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07019.png",
+          "icon_size": 35,
+          "id": "gestures_1_4",
+          "link": "/checklists/gestures.html#item_1_4",
+          "title": "Grovel for Mercy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4031,
+            6945
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07018.png",
+          "icon_size": 35,
+          "id": "gestures_1_5",
+          "link": "/checklists/gestures.html#item_1_5",
+          "title": "Extreme Repentance"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4040,
+            6960
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_6",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07016.png",
+          "icon_size": 35,
+          "id": "gestures_1_6",
+          "link": "/checklists/gestures.html#item_1_6",
+          "title": "Calm Down!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3648,
+            7223
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_7",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07030.png",
+          "icon_size": 35,
+          "id": "gestures_1_7",
+          "link": "/checklists/gestures.html#item_1_7",
+          "title": "Finger Snap"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3951,
+            6542
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_8",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07028.png",
+          "icon_size": 35,
+          "id": "gestures_1_8",
+          "link": "/checklists/gestures.html#item_1_8",
+          "title": "Triumphant Delight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3508,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_9",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07033.png",
+          "icon_size": 35,
+          "id": "gestures_1_9",
+          "link": "/checklists/gestures.html#item_1_9",
+          "title": "Crossed Legs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3473,
+            6777
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_10",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07035.png",
+          "icon_size": 35,
+          "id": "gestures_1_10",
+          "link": "/checklists/gestures.html#item_1_10",
+          "title": "Sitting Sideways"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3131,
+            6686
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_11",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07036.png",
+          "icon_size": 35,
+          "id": "gestures_1_11",
+          "link": "/checklists/gestures.html#item_1_11",
+          "title": "Dozing Cross-Legged"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3695,
+            7325
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_12",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07026.png",
+          "icon_size": 35,
+          "id": "gestures_1_12",
+          "link": "/checklists/gestures.html#item_1_12",
+          "title": "Bravo!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4027,
+            6977
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_13",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07032.png",
+          "icon_size": 35,
+          "id": "gestures_1_13",
+          "link": "/checklists/gestures.html#item_1_13",
+          "title": "Patches' Crouch"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            432,
+            8475
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07041.png",
+          "icon_size": 35,
+          "id": "gestures_2_1",
+          "link": "/checklists/gestures.html#item_2_1",
+          "title": "Prayer"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            502,
+            8332
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07040.png",
+          "icon_size": 35,
+          "id": "gestures_2_2",
+          "link": "/checklists/gestures.html#item_2_2",
+          "title": "What Do You Want?"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            582,
+            8307
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07004.png",
+          "icon_size": 35,
+          "id": "gestures_2_3",
+          "link": "/checklists/gestures.html#item_2_3",
+          "title": "Reverential Bow"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            679,
+            8347
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07003.png",
+          "icon_size": 35,
+          "id": "gestures_2_4",
+          "link": "/checklists/gestures.html#item_2_4",
+          "title": "Curtsy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            556,
+            8608
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07043.png",
+          "icon_size": 35,
+          "id": "gestures_2_5",
+          "link": "/checklists/gestures.html#item_2_5",
+          "title": "Rapture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2951,
+            6331
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07010.png",
+          "icon_size": 35,
+          "id": "gestures_3_1",
+          "link": "/checklists/gestures.html#item_3_1",
+          "title": "As You Wish"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2246,
+            5961
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07024.png",
+          "icon_size": 35,
+          "id": "gestures_3_2",
+          "link": "/checklists/gestures.html#item_3_2",
+          "title": "Fire Spur Me"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2265,
+            5548
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07037.png",
+          "icon_size": 35,
+          "id": "gestures_3_3",
+          "link": "/checklists/gestures.html#item_3_3",
+          "title": "Spread Out"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2903,
+            6428
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07046.png",
+          "icon_size": 35,
+          "id": "gestures_3_4",
+          "link": "/checklists/gestures.html#item_3_4",
+          "title": "Erudition"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1861,
+            4836
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07039.png",
+          "icon_size": 35,
+          "id": "gestures_3_5",
+          "link": "/checklists/gestures.html#item_3_5",
+          "title": "Balled Up"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2436,
+            3636
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_6",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07008.png",
+          "icon_size": 35,
+          "id": "gestures_3_6",
+          "link": "/checklists/gestures.html#item_3_6",
+          "title": "Casual Greeting (option 1)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5674,
+            6751
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07042.png",
+          "icon_size": 35,
+          "id": "gestures_4_1",
+          "link": "/checklists/gestures.html#item_4_1",
+          "title": "Desperate Prayer"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6090,
+            7245
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07021.png",
+          "icon_size": 35,
+          "id": "gestures_4_2",
+          "link": "/checklists/gestures.html#item_4_2",
+          "title": "Heartening Cry"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6083,
+            7271
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07001.png",
+          "icon_size": 35,
+          "id": "gestures_4_3",
+          "link": "/checklists/gestures.html#item_4_3",
+          "title": "Polite Bow"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6166,
+            6941
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07008.png",
+          "icon_size": 35,
+          "id": "gestures_4_4",
+          "link": "/checklists/gestures.html#item_4_4",
+          "title": "Casual Greeting (option 2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2189,
+            2916
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_5_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07002.png",
+          "icon_size": 35,
+          "id": "gestures_5_1",
+          "link": "/checklists/gestures.html#item_5_1",
+          "title": "My Thanks"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3858,
+            3775
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07047.png",
+          "icon_size": 35,
+          "id": "gestures_6_1",
+          "link": "/checklists/gestures.html#item_6_1",
+          "title": "Outer Order"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4208,
+            3647
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07022.png",
+          "icon_size": 35,
+          "id": "gestures_6_2",
+          "link": "/checklists/gestures.html#item_6_2",
+          "title": "By My Sword"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4455,
+            3410
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07005.png",
+          "icon_size": 35,
+          "id": "gestures_6_3",
+          "link": "/checklists/gestures.html#item_6_3",
+          "title": "My Lord"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4251,
+            3782
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07049.png",
+          "icon_size": 35,
+          "id": "gestures_6_4",
+          "link": "/checklists/gestures.html#item_6_4",
+          "title": "Golden Order Totality"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6023,
+            2115
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_7_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07029.png",
+          "icon_size": 35,
+          "id": "gestures_7_1",
+          "link": "/checklists/gestures.html#item_7_1",
+          "title": "Fancy Spin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5822,
+            2094
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_7_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07023.png",
+          "icon_size": 35,
+          "id": "gestures_7_2",
+          "link": "/checklists/gestures.html#item_7_2",
+          "title": "Hoslow's Oath"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6380,
+            13929
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_8_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07048.png",
+          "icon_size": 35,
+          "id": "gestures_8_1",
+          "link": "/checklists/gestures.html#item_8_1",
+          "title": "Inner Order"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "gestures",
+    "type": "FeatureCollection"
   }
 ];
 const icon_urls = [
@@ -14157,6 +14847,40 @@ const icon_urls = [
   "/map/icons/shadows/armor/15290.png",
   "/map/icons/shadows/ashes_of_war/08385.png",
   "/map/icons/shadows/bolstering/00384.png",
+  "/map/icons/shadows/gestures/07001.png",
+  "/map/icons/shadows/gestures/07002.png",
+  "/map/icons/shadows/gestures/07003.png",
+  "/map/icons/shadows/gestures/07004.png",
+  "/map/icons/shadows/gestures/07005.png",
+  "/map/icons/shadows/gestures/07008.png",
+  "/map/icons/shadows/gestures/07009.png",
+  "/map/icons/shadows/gestures/07010.png",
+  "/map/icons/shadows/gestures/07016.png",
+  "/map/icons/shadows/gestures/07017.png",
+  "/map/icons/shadows/gestures/07018.png",
+  "/map/icons/shadows/gestures/07019.png",
+  "/map/icons/shadows/gestures/07021.png",
+  "/map/icons/shadows/gestures/07022.png",
+  "/map/icons/shadows/gestures/07023.png",
+  "/map/icons/shadows/gestures/07024.png",
+  "/map/icons/shadows/gestures/07026.png",
+  "/map/icons/shadows/gestures/07028.png",
+  "/map/icons/shadows/gestures/07029.png",
+  "/map/icons/shadows/gestures/07030.png",
+  "/map/icons/shadows/gestures/07032.png",
+  "/map/icons/shadows/gestures/07033.png",
+  "/map/icons/shadows/gestures/07035.png",
+  "/map/icons/shadows/gestures/07036.png",
+  "/map/icons/shadows/gestures/07037.png",
+  "/map/icons/shadows/gestures/07039.png",
+  "/map/icons/shadows/gestures/07040.png",
+  "/map/icons/shadows/gestures/07041.png",
+  "/map/icons/shadows/gestures/07042.png",
+  "/map/icons/shadows/gestures/07043.png",
+  "/map/icons/shadows/gestures/07046.png",
+  "/map/icons/shadows/gestures/07047.png",
+  "/map/icons/shadows/gestures/07048.png",
+  "/map/icons/shadows/gestures/07049.png",
   "/map/icons/shadows/incantations/06060.png",
   "/map/icons/shadows/info/paintings/03066.png",
   "/map/icons/shadows/info/paintings/03207.png",

@@ -85,7 +85,7 @@ sections:
         map_title: "Crucible Knight"
       - id: "2_20"
         data: ["Bell Bearing Hunter", "Warmaster's Shack", "2700 runes, Bone Peddler's Bell Bearing", "Field boss. Night. Buy something from Bernhal. Pass time, then rest once to summon."]
-        cords: [3725, 6687]
+        cords: [3735, 6684]
         map_title: "Bell Bearing Hunter (Night only)"        
       - id: "2_21"
         data: ["Deathbird", "Warmaster's Shack East", "2800 runes, Blue-Feathered Branchsword", "Field boss. Night only."]
@@ -205,7 +205,7 @@ sections:
         map_title: "Bloodhound Knight"
       - id: "4_2"
         data: ["Adan, Thief of Fire", "Malefactor's Evergaol", "3800 runes, Flame of the Fell God Incantation (Legendary)", ""]
-        cords: [2681, 6113]
+        cords: [2678, 6108]
         map_title: "Adan, Thief of Fire"
       - id: "4_3"
         data: ["Erdtree Burial Watchdog", "Cliffbottom Catacombs", "3200 runes, Kaiden Sellsword Ashes", ""]
@@ -265,7 +265,7 @@ sections:
         map_title: "Cemetery Shade"
       - id: "4_17"
         data: ["Black Knife Assassin", "Black Knife Catacombs", "1600 runes, Assassin's Cerulean Dagger Talisman, Black Knifeprint (Key Item)", "Secret boss, hidden behind illusory wall. Related to Rogier and Fia's questlines."]
-        cords: [2877, 4091]
+        cords: [2883, 4091]
         map_title: "Black Knife Assassin"
       - id: "4_18"
         data: ["Festering Fingerprint Vyke", "Church of Inhibition", "Vyke's War Spear, Fingerprint Grape (Key Item), Furlcalling Finger Remedy", "NPC invader."]
@@ -317,7 +317,7 @@ sections:
         map_title: "Red Wolf"
       - id: "4_29"
         data: ["Alabaster Lord (Onyx Lord)", "Royal Grave Evergaol", "3600 runes, Meteorite Sorcery", ""]
-        cords: [2280, 3691]
+        cords: [2288, 3688]
         map_title: "Alabaster Lord (Onyx Lord)"
       - id: "4_30"
         data: ["Glintstone Dragon Adula", "Three Sisters", "0 runes", "Field boss. Disappears from Three Sisters mid-fight, then reappears at Moonlight Altar."]
@@ -479,7 +479,7 @@ sections:
         data: ["Lion Guardian (x2)", "Redmane Castle", "1138 runes, Somber Smithing Stone [4], Beast Blood, Old Fang (x2)", ""]
       - id: "5_26"
         data: ["Misbegotten Warrior & Crucible Knight", "Redmane Castle", "16,000 runes, Ruins Greatsword (Legendary)", "Semi-required to get to Radahn, but can be skipped if you progress Ranni's quest to a certain point."]
-        cords: [6095, 7269]
+        cords: [6095, 7263]
         map_title: "Misbegotten Warrior & Crucible Knight"
       - id: "5_27"
         data: ["Starscourge Radahn", "Wailing Dunes (beyond Redmane Castle)", "70,000 runes, Radahn's Great Rune, Remembrance of the Starscourge", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Radahn."]
@@ -550,6 +550,7 @@ sections:
         data: ["Perfumer Tricia & Misbegotten Warrior", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - id: "7_3"
         data: ["Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons Sorcery", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        cords: [2647, 3224]
       - id: "7_5"
         data: ["Erdtree Burial Watchdog", "Wyndham Catacombs", "12,000 runes, Glovewort Picker's Bell Bearing [1]", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
       - id: "7_7"
