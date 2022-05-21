@@ -61,6 +61,7 @@ sections:
       - id: "1_1"
         icon: "/img/icons/gestures/07009.png"
         map_icon: "/map/icons/shadows/gestures/07009.png"
+        map_icon_size: 40
         data: ["Strength!", "Cave of Knowledge", "", "Reward for beating the tutorial dungeon. It's on a body on the ledge after the Soldier of Godrick."]
         cords: [3789, 7363]
       - id: "1_2"
@@ -70,6 +71,7 @@ sections:
       - id: "1_3"
         icon: "/img/icons/gestures/07017.png"
         map_icon: "/map/icons/shadows/gestures/07017.png"
+        map_icon_size: 40
         data: ["Nod in Thought", "Waypoint Ruins Cellar", "Sellen", "Meet Sellen and become her student."]
         cords: [4246, 7274]
       - id: "1_4"
@@ -80,21 +82,25 @@ sections:
       - id: "1_5"
         icon: "/img/icons/gestures/07018.png"
         map_icon: "/map/icons/shadows/gestures/07018.png"
+        map_icon_size: 30
         data: ["Extreme Repentance", "Murkwater Cave", "Patches", "At any time in Murkwater Cave after befriending Patches, even at the end of his questline when he returns, aggro him again and start another fight. This time, let him get YOUR health down below half. He'll give you this gesture and tell you to perform it. (If you do, he'll back off and de-aggro. Be very careful, because he does not stop attacking, so you have to equip and perform the gesture while also running from him. He won't accept your surrender if you've healed, either; you need to still be below half health.)"]
         cords: [4031, 6945]
       - id: "1_6"
         icon: "/img/icons/gestures/07016.png"
         map_icon: "/map/icons/shadows/gestures/07016.png"
+        map_icon_size: 40
         data: ["Calm Down!", "Murkwater Cave", "Patches", "Open Patches's special chest after he's set up his shop in the cave, then go talk to him about it."]
         cords: [4040, 6960]
       - id: "1_7"
         icon: "/img/icons/gestures/07030.png"
         map_icon: "/map/icons/shadows/gestures/07030.png"
+        map_icon_size: 40
         data: ["Finger Snap", "Church of Elleh", "Blaidd", "Once you've visited Mistwood Ruins and heard a strangely human-sounding howl, ask Kalé about it."]
         cords: [3648, 7223]
       - id: "1_8"
         icon: "/img/icons/gestures/07028.png"
         map_icon: "/map/icons/shadows/gestures/07028.png"
+        map_icon_size: 40
         data: ["Triumphant Delight", "Stormhill", "Alexander", "Help Iron Fist Alexander out of his hole."]
         cords: [3951, 6542]
       - id: "1_9"
@@ -110,11 +116,13 @@ sections:
       - id: "1_11"
         icon: "/img/icons/gestures/07036.png"
         map_icon: "/map/icons/shadows/gestures/07036.png"
+        map_icon_size: 30
         data: ["Dozing Cross-Legged", "Stormveil Castle", "", "Take the path up the spiral staircase from the Rampart Tower Site of Grace. It's on a corpse on one of the first rooftops, guarded by a Stormhawk with a fire-breathing mask."]
         cords: [3131, 6686]
       - id: "1_12"
         icon: "/img/icons/gestures/07026.png"
         map_icon: "/map/icons/shadows/gestures/07026.png"
+        map_icon_size: 40
         data: ["Bravo!", "", "Varré", "After you've beaten your first demigod (traditionally Godrick), but before finding Varré at Rose Church in Liurnia, pop back to his original spot by The First Step. In his place is a glowing message he's left you to come find him, which unlocks this gesture."]
         cords: [3695, 7325]
       - id: "1_13"
@@ -134,6 +142,7 @@ sections:
       - id: "2_2"
         icon: "/img/icons/gestures/07040.png"
         map_icon: "/map/icons/shadows/gestures/07040.png"
+        map_icon_size: 40
         data: ["What Do You Want?", "", "Ensha", "Try to talk to Ensha."]
         cords: [502, 8332]
       - id: "2_3"
@@ -144,11 +153,13 @@ sections:
       - id: "2_4"
         icon: "/img/icons/gestures/07003.png"
         map_icon: "/map/icons/shadows/gestures/07003.png"
+        map_icon_size: 40
         data: ["Curtsy", "", "Roderika", "Level up one of your spirits to at least +4, then talk to her."]
         cords: [679, 8347]
       - id: "2_5"
         icon: "/img/icons/gestures/07043.png"
         map_icon: "/map/icons/shadows/gestures/07043.png"
+        map_icon_size: 40
         data: ["Rapture", "", "", "Once you have your first Great Rune and the door to the Two Fingers is open, interact with them."]
         cords: [556, 8608]
   -
@@ -158,31 +169,37 @@ sections:
       - id: "3_1"
         icon: "/img/icons/gestures/07010.png"
         map_icon: "/map/icons/shadows/gestures/07010.png"
+        map_icon_size: 40
         data: ["As You Wish", "", "Hyetta", "Give Hyetta a Shabriri Grape."]
         cords: [2951, 6331]
       - id: "3_2"
         icon: "/img/icons/gestures/07024.png"
         map_icon: "/map/icons/shadows/gestures/07024.png"
+        map_icon_size: 40
         data: ["Fire Spur Me", "", "", "On a body next to fire cauldrons in the center of a camp of Fire Monks in southern Liurnia."]
         cords: [2246, 5961]
       - id: "3_3"
         icon: "/img/icons/gestures/07037.png"
         map_icon: "/map/icons/shadows/gestures/07037.png"
+        map_icon_size: 25
         data: ["Spread Out", "Boilprawn Shack", "Blackguard Big Boggart", "Buy some boiled prawns and talk to him."]
         cords: [2265, 5548]
       - id: "3_4"
         icon: "/img/icons/gestures/07046.png"
         map_icon: "/map/icons/shadows/gestures/07046.png"
+        map_icon_size: 40
         data: ["Erudition", "Church of Irith", "Thops", "Give Thops the second Academy Glintstone Key. Required to access multiple puzzle towers, in addition to wearing any Glintstone Crown."]
         cords: [2903, 6428]
       - id: "3_5"
         icon: "/img/icons/gestures/07039.png"
         map_icon: "/map/icons/shadows/gestures/07039.png"
+        map_icon_size: 25
         data: ["Balled Up", "Academy of Raya Lucaria", "", "Perform rebirth or cosmetics with Rennala."]
         cords: [1861, 4836]
       - id: "3_6"
         icon: "/img/icons/gestures/07008.png"
         map_icon: "/map/icons/shadows/gestures/07008.png"
+        map_icon_size: 40
         data: ["Casual Greeting (option 1)", "Ruin-Strewn Precipice", "", "Summon Great Horned Tragoth for the Magma Wyrm Makar boss fight and he'll promptly unlock this gesture upon appearing. You can still then send him home if you prefer to face the boss alone."]
         cords: [2436, 3636]
   -
@@ -197,6 +214,7 @@ sections:
       - id: "4_2"
         icon: "/img/icons/gestures/07021.png"
         map_icon: "/map/icons/shadows/gestures/07021.png"
+        map_icon_size: 40
         data: ["Heartening Cry", "Redmane Castle", "Jerren", "Talk to Jerren the festival announcer at Redmane Castle before the Radahn fight, watch the cutscene, and talk again."]
         cords: [6090, 7245]
       - id: "4_3"
@@ -207,6 +225,7 @@ sections:
       - id: "4_4"
         icon: "/img/icons/gestures/07008.png"
         map_icon: "/map/icons/shadows/gestures/07008.png"
+        map_icon_size: 40
         data: ["Casual Greeting (option 2)", "Redmane Castle", "", "Summon Great Horned Tragoth for the Radahn fight and he'll promptly unlock this gesture upon appearing."]
         cords: [6166, 6941]
   -
@@ -216,6 +235,7 @@ sections:
       - id: "5_1"
         icon: "/img/icons/gestures/07002.png"
         map_icon: "/map/icons/shadows/gestures/07002.png"
+        map_icon_size: 40
         data: ["My Thanks", "Volcano Manor", "Volcano Manor", "After beating Rykard, return to where you met the ghost in the primary hall of the Manor to find he's left you this gesture."]
         cords: [2189, 2916]
   -
@@ -225,11 +245,13 @@ sections:
       - id: "6_1"
         icon: "/img/icons/gestures/07047.png"
         map_icon: "/map/icons/shadows/gestures/07047.png"
+        map_icon_size: 40
         data: ["Outer Order", "Minor Erdtree Church, Capital Outskirts", "Melina", "Talk to Melina at the grace in the church."]
         cords: [3858, 3775]
       - id: "6_2"
         icon: "/img/icons/gestures/07022.png"
         map_icon: "/map/icons/shadows/gestures/07022.png"
+        map_icon_size: 40
         data: ["By My Sword", "Fortified Manor, First Floor", "", "In the parallel to Fia's room."]
         cords: [4208, 3647]
       - id: "6_3"
@@ -240,6 +262,7 @@ sections:
       - id: "6_4"
         icon: "/img/icons/gestures/07049.png"
         map_icon: "/map/icons/shadows/gestures/07049.png"
+        map_icon_size: 40
         data: ["Golden Order Totality", "", "Goldmask", "After solving the Regression puzzle, tell Goldmask by the colosseum."]
         cords: [4251, 3782]
   -
@@ -249,11 +272,13 @@ sections:
       - id: "7_1"
         icon: "/img/icons/gestures/07029.png"
         map_icon: "/map/icons/shadows/gestures/07029.png"
+        map_icon_size: 40
         data: ["Fancy Spin", "Stargazer's Ruins", "Aurelia", "Reunite the jellyfish by summoning the Spirit Ash Roderika gave you."]
         cords: [6023, 2115]
       - id: "7_2"
         icon: "/img/icons/gestures/07023.png"
         map_icon: "/map/icons/shadows/gestures/07023.png"
+        map_icon_size: 40
         data: ["Hoslow's Oath", "Shack of the Lofty", "Volcano Manor", "Invade Juno Hoslow as part of Volcano Manor. He'll perform this gesture when you arrive; just let him finish and it'll unlock."]
         cords: [5822, 2094]
   -
@@ -263,5 +288,6 @@ sections:
       - id: "8_1"
         icon: "/img/icons/gestures/07048.png"
         map_icon: "/map/icons/shadows/gestures/07048.png"
+        map_icon_size: 40
         data: ["Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]
         cords: [6380, 13929]

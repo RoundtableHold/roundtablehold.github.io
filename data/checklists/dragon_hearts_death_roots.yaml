@@ -1,66 +1,113 @@
 title: "Dragon Hearts & Deathroots"
 id: dragon_hearts_death_roots
+map_icon: "/img/icons/keys/edited/03230.png"
 sections:
   -
     title: "Dragon Hearts"
     icon: "/img/icons/keys/edited/03230.png"
+    map_icon: "/map/icons/shadows/keys/03230.png"
     items:
       - "Limgrave"
       - id: "0_1"
         data: ["Defeat Flying Dragon Agheel in Agheel Lake (x1)"]
+        cords: [3891, 7227]
+        map_title: "Dragon Heart"
       - "Liurnia of the Lakes"
-      - id: "0_2"
-        data: ["Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)"]
       - id: "0_3"
         data: ["Defeat Glintstone Dragon Smarag, west of Raya Lucaria Academy (x1)"]
+        cords: [1613, 4973]
+        map_title: "Dragon Heart"
       - id: "0_4"
         data: ["Defeat Magma Wyrm Makar in Ruin-Strewn Precipice (x1)"]
+        cords: [2426, 3602]
+        map_title: "Dragon Heart"
       - id: "0_5"
         data: ["Defeat the three dragons in Moonlight Altar (x3)"]
+        cords: [1529, 5943]
+        map_title: "Dragon Heart x3"
+      - id: "0_2"
+        data: ["Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)"]
+        cords: [1778, 5793]
+        map_title: "Dragon Heart x3"
       - "Caelid"
       - id: "0_6"
         data: ["Defeat Decaying Ekzykes, northwest of the Cathedral of Dragon Communion (x1)"]
+        cords: [5179, 7029]
+        map_title: "Dragon Heart"
       - id: "0_7"
         data: ["Defeat Flying Dragon Greyll in the northeast of Caelid on the Farum Greatbridge (x1)"]
+        cords: [6156, 5856]
+        map_title: "Dragon Heart"
       - id: "0_8"
         data: ["Defeat Elder Dragon Greyoll in front of Fort Faroth (x5)"]
+        cords: [5846, 6377]
+        map_title: "Dragon Heart x5"
       - id: "0_9"
         data: ["Defeat the Magma Wyrm in Gael Tunnel bordering Limgrave (x1)"]
+        cords: [4828, 6464]
+        map_title: "Dragon Heart"
       - "Mt. Gelmir"
       - id: "0_10"
         data: ["Defeat the Magma Wyrm in Volcano Manor (x1)"]
+        cords: [2205, 3041]
+        map_title: "Dragon Heart"
       - id: "0_11"
         data: ["Defeat the Magma Wyrm near Seethwater Terminus to the west of Mt. Gelmir (x1)"]
+        cords: [1936, 3004]
+        map_title: "Dragon Heart"
       - "Mountaintops of the Giants"
       - id: "0_12"
         data: ["Defeat Borealis, the Freezing Fog in the frozen lake in the northeast (x1)"]
+        cords: [6661, 2034]
+        map_title: "Dragon Heart"
       - "Consecrated Snowfield"
       - id: "0_13"
-        data: ["Defeat Great Wyrm Theodorix, north of Albinauric Rise (x1)"]
+        data: ["Defeat Great Wyrm Theodorix, north of Albinauric Rise (x3)"]
+        cords: [5739, 2171]
+        map_title: "Dragon Heart x3"
   -
     title: "Deathroots"
     icon: "/img/icons/keys/edited/00557.png"
+    map_icon: "/map/icons/shadows/keys/00557.png"
     items:
       - "Limgrave"
       - id: "1_1"
         data: ["Defeat the Tibia Mariner in northeast Limgrave in Summonwater Village"]
+        cords: [4440, 6524]
+        map_title: "Deathroot"
       - id: "1_2"
-        data: ["Defeat the Black Knife Assassin in the Deathtouched Catacombs"]
+        data: ["In a chest in the boss room of the Deathtouched Catacombs"]
+        cords: [3898, 6485]
+        map_title: "Deathroot"
       - "Liurnia of the Lakes"
       - id: "1_3"
-        data: ["Defeat the Cemetary Shade in the Black Knife Catacombs"]
+        data: ["In a chest in the main boss room of the Black Knife Catacombs"]
+        cords: [2851, 4095]
+        map_title: "Deathroot"
       - id: "1_4"
         data: ["Defeat the Tibia Mariner southwest of Carian Study Hall in east Liurnia of the Lakes"]
+        cords: [2861, 5271]
+        map_title: "Deathroot"
       - "Mt. Gelmir"
       - id: "1_5"
         data: ["Defeat the Tibia Mariner in the Wyndham Ruins"]
+        cords: [2658, 3232]
+        map_title: "Deathroot"
       - id: "1_6"
-        data: ["Inside a chest in Gelmir Hero's Grave"]
+        data: ["In a chest in the boss room of the Gelmir Hero's Grave"]
+        cords: [2297, 2856]
+        map_title: "Deathroot"
       - "Mountaintops of the Giants"
       - id: "1_7"
-        data: ["Inside a chest in the Giants' Mountaintop Catacombs"]
+        data: ["In a chest in the boss room of the Giants' Mountaintop Catacombs"]
+        cords: [5607, 2786]
+        map_title: "Deathroot"
       - id: "1_8"
         data: ["Defeat the Tibia Mariner south of Castle Sol, on a cliff edge"]
+        cords: [6028, 1921]
+        map_title: "Deathroot"
       - "Consecrated Snowfield"
       - id: "1_9"
-        data: ["Inside a chest in the Catacombs underneath the Hidden Path to the Haligtree"]
+        data: ["In a chest in the boss room at the bottom of the Hidden Path to the Haligtree"]
+        cords: [5416, 2962]
+        map_title: "Deathroot"

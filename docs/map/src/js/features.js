@@ -2189,6 +2189,82 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2289,
+            2863
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_14",
+          "link": "/checklists/bosses.html#item_7_14",
+          "title": "Red Wolf of the Champion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1925,
+            3007
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_18",
+          "link": "/checklists/bosses.html#item_7_18",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2214,
+            3035
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_22",
+          "link": "/checklists/bosses.html#item_7_22",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5634,
+            2783
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_4",
+          "link": "/checklists/bosses.html#item_9_4",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             6228,
             2138
           ],
@@ -2202,6 +2278,82 @@ const feature_data = [
           "id": "bosses_9_5",
           "link": "/checklists/bosses.html#item_9_5",
           "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6016,
+            1922
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_8",
+          "link": "/checklists/bosses.html#item_9_8",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6648,
+            2032
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_11",
+          "link": "/checklists/bosses.html#item_9_11",
+          "title": "Borealis, the Freezing Fog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5415,
+            2939
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_13",
+          "link": "/checklists/bosses.html#item_10_13",
+          "title": "Stray Mimic Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5752,
+            2178
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_5",
+          "link": "/checklists/bosses.html#item_10_5",
+          "title": "Great Wyrm Theodorix"
         },
         "type": "Feature"
       },
@@ -12992,8 +13144,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1954,
-            5019
+            1938,
+            5013
           ],
           "type": "Point"
         },
@@ -14048,6 +14200,430 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3891,
+            7227
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_1",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_1",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_1",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1613,
+            4973
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_3",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_3",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_3",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2426,
+            3602
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_4",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_4",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_4",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1529,
+            5943
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_5",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_5",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_5",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1778,
+            5793
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_2",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_2",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_2",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5179,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_6",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_6",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_6",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6156,
+            5856
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_7",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_7",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_7",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5846,
+            6377
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_8",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_8",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_8",
+          "title": "Dragon Heart x5"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4828,
+            6464
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_9",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_9",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_9",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2205,
+            3041
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_10",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_10",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_10",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1936,
+            3004
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_11",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_11",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_11",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6661,
+            2034
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_12",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_12",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_12",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5739,
+            2171
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_13",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_13",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_13",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4440,
+            6524
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_1",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_1",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_1",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3898,
+            6485
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_2",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_2",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_2",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2851,
+            4095
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_3",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_3",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_3",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2861,
+            5271
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_4",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_4",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_4",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2658,
+            3232
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_5",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_5",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_5",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2297,
+            2856
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_6",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_6",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_6",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5607,
+            2786
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_7",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_7",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_7",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6028,
+            1921
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_8",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_8",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_8",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5416,
+            2962
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_9",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_9",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_9",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "dragon_hearts_death_roots",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3060,
             6606
           ],
@@ -14320,6 +14896,202 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2547,
+            5851
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_1",
+          "link": "/checklists/pots_bottles.html#item_2_1",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2971,
+            5235
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_2",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_2",
+          "link": "/checklists/pots_bottles.html#item_2_2",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2973,
+            5264
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_3",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_3",
+          "link": "/checklists/pots_bottles.html#item_2_3",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1822,
+            3733
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_5",
+          "link": "/checklists/pots_bottles.html#item_2_5",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1900,
+            5036
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_4",
+          "link": "/checklists/pots_bottles.html#item_2_4",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5144,
+            6094
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_6",
+          "link": "/checklists/pots_bottles.html#item_2_6",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4517,
+            3053
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_7",
+          "link": "/checklists/pots_bottles.html#item_2_7",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4493,
+            3056
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_8",
+          "link": "/checklists/pots_bottles.html#item_2_8",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4422,
+            3483
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_9",
+          "link": "/checklists/pots_bottles.html#item_2_9",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5710,
+            2862
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_10",
+          "link": "/checklists/pots_bottles.html#item_2_10",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "pots_bottles",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3789,
             7363
           ],
@@ -14329,7 +15101,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07009.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_1",
           "link": "/checklists/gestures.html#item_1_1",
           "title": "Strength!"
@@ -14348,7 +15120,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07017.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_3",
           "link": "/checklists/gestures.html#item_1_3",
           "title": "Nod in Thought"
@@ -14386,7 +15158,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07018.png",
-          "icon_size": 35,
+          "icon_size": 30,
           "id": "gestures_1_5",
           "link": "/checklists/gestures.html#item_1_5",
           "title": "Extreme Repentance"
@@ -14405,7 +15177,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07016.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_6",
           "link": "/checklists/gestures.html#item_1_6",
           "title": "Calm Down!"
@@ -14424,7 +15196,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07030.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_7",
           "link": "/checklists/gestures.html#item_1_7",
           "title": "Finger Snap"
@@ -14443,7 +15215,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07028.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_8",
           "link": "/checklists/gestures.html#item_1_8",
           "title": "Triumphant Delight"
@@ -14500,7 +15272,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07036.png",
-          "icon_size": 35,
+          "icon_size": 30,
           "id": "gestures_1_11",
           "link": "/checklists/gestures.html#item_1_11",
           "title": "Dozing Cross-Legged"
@@ -14519,7 +15291,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07026.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_1_12",
           "link": "/checklists/gestures.html#item_1_12",
           "title": "Bravo!"
@@ -14576,7 +15348,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07040.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_2_2",
           "link": "/checklists/gestures.html#item_2_2",
           "title": "What Do You Want?"
@@ -14614,7 +15386,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07003.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_2_4",
           "link": "/checklists/gestures.html#item_2_4",
           "title": "Curtsy"
@@ -14633,7 +15405,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07043.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_2_5",
           "link": "/checklists/gestures.html#item_2_5",
           "title": "Rapture"
@@ -14652,7 +15424,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07010.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_3_1",
           "link": "/checklists/gestures.html#item_3_1",
           "title": "As You Wish"
@@ -14671,7 +15443,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07024.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_3_2",
           "link": "/checklists/gestures.html#item_3_2",
           "title": "Fire Spur Me"
@@ -14690,7 +15462,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07037.png",
-          "icon_size": 35,
+          "icon_size": 25,
           "id": "gestures_3_3",
           "link": "/checklists/gestures.html#item_3_3",
           "title": "Spread Out"
@@ -14709,7 +15481,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07046.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_3_4",
           "link": "/checklists/gestures.html#item_3_4",
           "title": "Erudition"
@@ -14728,7 +15500,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07039.png",
-          "icon_size": 35,
+          "icon_size": 25,
           "id": "gestures_3_5",
           "link": "/checklists/gestures.html#item_3_5",
           "title": "Balled Up"
@@ -14747,7 +15519,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07008.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_3_6",
           "link": "/checklists/gestures.html#item_3_6",
           "title": "Casual Greeting (option 1)"
@@ -14785,7 +15557,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07021.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_4_2",
           "link": "/checklists/gestures.html#item_4_2",
           "title": "Heartening Cry"
@@ -14823,7 +15595,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07008.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_4_4",
           "link": "/checklists/gestures.html#item_4_4",
           "title": "Casual Greeting (option 2)"
@@ -14842,7 +15614,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07002.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_5_1",
           "link": "/checklists/gestures.html#item_5_1",
           "title": "My Thanks"
@@ -14861,7 +15633,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07047.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_6_1",
           "link": "/checklists/gestures.html#item_6_1",
           "title": "Outer Order"
@@ -14880,7 +15652,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07022.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_6_2",
           "link": "/checklists/gestures.html#item_6_2",
           "title": "By My Sword"
@@ -14918,7 +15690,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07049.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_6_4",
           "link": "/checklists/gestures.html#item_6_4",
           "title": "Golden Order Totality"
@@ -14937,7 +15709,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07029.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_7_1",
           "link": "/checklists/gestures.html#item_7_1",
           "title": "Fancy Spin"
@@ -14956,7 +15728,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07023.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_7_2",
           "link": "/checklists/gestures.html#item_7_2",
           "title": "Hoslow's Oath"
@@ -14975,7 +15747,7 @@ const feature_data = [
         "properties": {
           "group": "gestures",
           "icon": "/map/icons/shadows/gestures/07048.png",
-          "icon_size": 35,
+          "icon_size": 40,
           "id": "gestures_8_1",
           "link": "/checklists/gestures.html#item_8_1",
           "title": "Inner Order"
@@ -15097,12 +15869,15 @@ const icon_urls = [
   "/map/icons/shadows/keys/00325.png",
   "/map/icons/shadows/keys/00553.png",
   "/map/icons/shadows/keys/00554.png",
+  "/map/icons/shadows/keys/00557.png",
+  "/map/icons/shadows/keys/03010.png",
   "/map/icons/shadows/keys/03020.png",
   "/map/icons/shadows/keys/03021.png",
   "/map/icons/shadows/keys/03022.png",
   "/map/icons/shadows/keys/03023.png",
   "/map/icons/shadows/keys/03024.png",
   "/map/icons/shadows/keys/03090.png",
+  "/map/icons/shadows/keys/03230.png",
   "/map/icons/shadows/keys/crystal_tears/00400.png",
   "/map/icons/shadows/keys/crystal_tears/00401.png",
   "/map/icons/shadows/keys/crystal_tears/00402.png",

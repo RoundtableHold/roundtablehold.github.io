@@ -568,12 +568,14 @@ sections:
         data: ["Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
       - id: "7_14"
         data: ["Red Wolf of the Champion", "Gelmir Hero's Grave", "21,000 runes, Bloodhound Knight Floh Ashes", ""]
+        cords: [2289, 2863]
       - id: "7_15"
         data: ["Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Fallingstar Beast Jaw Colossal Weapon, Somber Smithing Stone, Smithing Stone [6] (x5)", "Field boss."]
       - id: "7_17"
         data: ["Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier Colossal Weapon, Thorned Whip", "Field boss. Chance to drop Fire Prelate Set."]
       - id: "7_18"
         data: ["Magma Wyrm", "Fort Laiedd (South)", "19,000 runes, Dragon Heart, Unlocks Magma Breath (Dragon Communion Incantation)", ""]
+        cords: [1925, 3007]
       - id: "7_19"
         data: ["Demi-Human Queen Maggie", "Hermit Village", "13,000 runes, Memory Stone, Golden Rune [1]", ""]
       - id: "7_27"
@@ -586,6 +588,7 @@ sections:
         data: ["Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Ghiza's Wheel Colossal Weapon, Furlcalling Finger Remedy", ""]
       - id: "7_22"
         data: ["Magma Wyrm", "Volcano Manor", "Dragon Heart", ""]
+        cords: [2214, 3035]
       - id: "7_23"
         data: ["Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher Heavy Thrusting Sword", "Grants Achievement/Trophy: Godskin Noble."]
       - id: "7_25"
@@ -648,6 +651,7 @@ sections:
         data: ["Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set", ""]
       - id: "9_4"
         data: ["Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
+        cords: [5634, 2783]
       - id: "9_5"
         data: ["Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
         cords: [6228, 2138]
@@ -657,12 +661,14 @@ sections:
         data: ["Death Rite Bird", "North Mountaintops", "77,000 runes, Death Ritual Spear", "Field boss. Nighttime only."]
       - id: "9_8"
         data: ["Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple Greatsword", "Field boss."]
+        cords: [6016, 1922]
       - id: "9_9"
         data: ["Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy: Commander Niall."]
       - id: "9_10"
         data: ["Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set, Vyke's Dragonbolt Incantation", ""]
       - id: "9_11"
         data: ["Borealis, the Freezing Fog", "Frozen Lake", "100,000 runes, Dragon Heart", ""]
+        cords: [6648, 2032]
       - id: "9_12"
         data: ["Bloody Finger Okina", "Church of Repose", "734 runes, Rivers of Blood Katana, Okina Mask, Furlcalling Finger Remedy", "NPC invader."]
       - id: "9_13"
@@ -674,7 +680,8 @@ sections:
     table: ["Name", "Location", "Drops", "Notes"]
     items:
       - id: "10_13"
-        data: ["Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
+        data: ["Stray Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
+        cords: [5415, 2939]
       - id: "10_1"
         data: ["Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort", ""]
       - id: "10_2"
@@ -685,6 +692,7 @@ sections:
         data: ["Sanguine Noble", "Consecrated Snowfield (West)", "8800 runes, Bloodrose", ""]
       - id: "10_5"
         data: ["Great Wyrm Theodorix", "Consecrated Snowfield (East)", "180,000 runes, Dragon Heart (x3)", ""]
+        cords: [5752, 2178]
       - id: "10_6"
         data: ["Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword (Legendary)", ""]
       - id: "10_7"

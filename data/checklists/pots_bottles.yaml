@@ -1,5 +1,6 @@
 title: "Pots & Bottles"
 id: pots_bottles
+icon: "/img/icons/keys/edited/00504.png"
 sections:
   -
     title: "Cracked Pots"
@@ -25,7 +26,7 @@ sections:
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
       - id: "1_8"
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
-      - "Liurnia Lake"
+      - "Liurnia of the Lakes"
       - id: "1_9"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a corpse by a large headstone on the southern end of town"]
       - id: "1_10"
@@ -58,33 +59,54 @@ sections:
     title: "Ritual Pots"
     link: https://eldenring.wiki.fextralife.com/Ritual+Pot
     icon: "/img/icons/keys/edited/03010.png"
+    map_icon: "/map/icons/shadows/keys/03010.png"
     items:
-      - "Liurnia Lake"
+      - "Liurnia of the Lakes"
       - id: "2_1"
         data: ["Laskyar Ruins, North-West of Liurnia Lake Shore Grace: near columns on the northern side"]
+        cords: [2547, 5851]
+        map_title: "Ritual Pot"
       - id: "2_2"
-        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop only accessible as you descend the cliffside path from above"]
+        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop; jump onto it from above near Jar-Bairn's perch."]
+        cords: [2971, 5235]
+        map_title: "Ritual Pot"
       - id: "2_3"
-        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a decorative jar"]
+        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a large decorative jar"]
+        cords: [2973, 5264]
+        map_title: "Ritual Pot"
       - id: "2_5"
         data: ["After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes"]
+        cords: [1822, 3733]
+        map_title: "Ritual Pot"
       - "Raya Lucaria"
       - id: "2_4"
         data: ["Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar"]
+        cords: [1900, 5036]
+        map_title: "Ritual Pot"
       - "Caelid"
       - id: "2_6"
         data: ["Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes"]
+        cords: [5144, 6094]
+        map_title: "Ritual Pot"
       - "Altus Plateau"
       - id: "2_7"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
+        cords: [4517, 3053]
+        map_title: "Ritual Pot"
       - id: "2_8"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
+        cords: [4493, 3056]
+        map_title: "Ritual Pot"
       - "Leyndell"
       - id: "2_9"
         data: ["In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace."]
+        cords: [4422, 3483]
+        map_title: "Ritual Pot"
       - "Mountaintops of the Giants"
       - id: "2_10"
         data: ["Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar."]
+        cords: [5710, 2862]
+        map_title: "Ritual Pot"
   -
     title: "Perfume Bottles"
     link: https://eldenring.wiki.fextralife.com/Perfume+Bottle
