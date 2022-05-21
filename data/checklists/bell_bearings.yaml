@@ -1,7 +1,6 @@
 title: Bell Bearings
 id: bell_bearings
 map_icon: "/map/icons/MENU_MAP_80.png"
-#Icons: 3142-3147
 description: "Bell bearings should be given to the Twin Maiden Husks at the Roundtable Hold. Each one found unlocks a unique selection of items for the shop, either adding it to the base stock or creating a new special sub-inventory within \"Bell bearing shops.\" Some are found in the world or as boss drops; additionally, every NPC who sells items will drop a bell bearing if they die so that you can still access what they sell. Some bell bearings, including all from the unnamed Merchants of the world, can only be collected by murder, the only benefit to which is the convenience of their inventory being available in the Roundtable Hold instead of going and finding them if you want to buy from them again. All bell bearings reset upon NG+."
 sections:
   -
@@ -123,7 +122,6 @@ sections:
     title: "Merchants' Bell Bearings"
     icon: "/img/icons/keys/edited/03142.png"
     map_icon: "/map/icons/MENU_MAP_80.png"
-    map_icon_size: 35
     table: ["Merchant", "Location"]
     table_widths: [2, 10]
     items:
@@ -184,7 +182,7 @@ sections:
         map_title: "Isolated Merchant (3)"
       - id: "7_15"
         data: ["Hermit [1]", "At the Hermit Merchant's Shack in northern Capital Outskirts."]
-        cords: [3947, 2942]
+        cords: [3959, 2941]
         map_title: "Hermit Merchant (1)"
       - id: "7_16"
         data: ["Hermit [2]", "Just up the ravine from the Ancient Snow Valley Ruins Site of Grace. Access by the spiritspring to the west, or the Snow Valley Ruins Overlook Site of Grace to the north."]

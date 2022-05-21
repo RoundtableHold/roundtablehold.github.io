@@ -196,8 +196,9 @@ sections:
         data: ["Return to Irina's location near the Bridge of Sacrifice Grace, talk to Edgar and exhaust his dialogue."]
       - id: "84"
         data: ["Weeping Peninsula is now 100% safe to explore! There should be no warnings required!"]
-      - id: "85"
-        data: ["Margit/Roundtable Hold"]
+  -
+    title: "Margit/Roundtable Hold"
+    items:
       - id: "86"
         data: ["Go back to the Castleward Tunnel Grace in West Limgrave, summon Rogier outside the boss room and kill Margit, The Fell Omen for a Talisman Pouch."]
       - id: "87"

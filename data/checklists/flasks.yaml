@@ -1,9 +1,11 @@
 title: Golden Seeds & Sacred Tears
+icon: "/img/icons/bolstering/edited/00383.png"
 id: flasks
 sections:
   -
     title: "Golden Seeds"
     icon: "/img/icons/bolstering/edited/00383.png"
+    map_icon: "/map/icons/shadows/bolstering/00383.png"
     items:
       - "Limgrave"
       - id: "1_2"
@@ -108,34 +110,59 @@ sections:
   -
     title: "Sacred Tears"
     icon: "/img/icons/bolstering/edited/00384.png"
+    map_icon: "/map/icons/shadows/bolstering/00384.png"
     items:
       - "Limgrave"
       - id: "2_4"
         data: ["Third Church of Marika, in East Limgrave"]
+        cords: [4649, 6705]
+        map_title: "Sacred Tear"
       - "Weeping Peninsula"
       - id: "2_1"
         data: ["Callu Baptismal Church, in the middle of the Weeping Peninsula"]
+        cords: [4146, 8131]
+        map_title: "Sacred Tear"
       - id: "2_2"
         data: ["Church of Pilgrimage, north of Weeping Peninsula"]
+        cords: [3848, 7689]
+        map_title: "Sacred Tear"
       - id: "2_3"
         data: ["Fourth Church of Marika, west of Weeping Peninsula"]
+        cords: [3524, 7990]
+        map_title: "Sacred Tear"
       - "Liurnia of the Lakes"
       - id: "2_5"
         data: ["Church of Irith, southern part of Liurnia of the Lakes"]
+        cords: [2916, 6433]
+        map_title: "Sacred Tear"
       - id: "2_6"
         data: ["Bellum Church, on the way to the Grand Lift of Dectus"]
+        cords: [2187, 4037]
+        map_title: "Sacred Tear"
       - id: "2_7"
         data: ["Church of Inhibition, northeast of Bellum Highway Forest"]
+        cords: [2511, 4014]
+        map_title: "Sacred Tear"
       - "Caelid"
       - id: "2_8"
         data: ["Church of Plague, accessible through Sellia, Town of Sorcery"]
+        cords: [5785, 6663]
+        map_title: "Sacred Tear"
       - "Altus Plateau"
       - id: "2_9"
         data: ["Second Church of Marika, north of Altus Highway Junction Grace"]
+        cords: [2963, 3141]
+        map_title: "Sacred Tear"
       - id: "2_10"
-        data: ["Stormcaller Church, west of Rampartside Path Gace"]
+        data: ["Stormcaller Church, west of Rampartside Path Grace"]
+        cords: [3209, 3345]
+        map_title: "Sacred Tear"
       - "Mountaintops of the Giants"
       - id: "2_11"
         data: ["Church of Repose, east of Grand Lift of Rold"]
+        cords: [5969, 3006]
+        map_title: "Sacred Tear"
       - id: "2_12"
         data: ["First Church of Marika, southeastern most part of Mountaintops of the Giants"]
+        cords: [6754, 2354]
+        map_title: "Sacred Tear"

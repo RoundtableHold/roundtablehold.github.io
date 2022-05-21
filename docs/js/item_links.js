@@ -910,6 +910,7 @@ const item_links = {
   },
   "ashesofwar_1_3": {
     "targets": [
+      "bosses_2_32",
       "npc_quests_30_2",
       "playthrough_22"
     ]
@@ -1179,6 +1180,11 @@ const item_links = {
       "weapons_18_4"
     ]
   },
+  "bosses_14_5": {
+    "targets": [
+      "weapons_34_3"
+    ]
+  },
   "bosses_15_1": {
     "targets": [
       "armor_214",
@@ -1343,12 +1349,14 @@ const item_links = {
   },
   "bosses_2_15": {
     "targets": [
+      "caves_l3",
       "dragon_hearts_death_roots_0_1",
       "playthrough_36"
     ]
   },
   "bosses_2_16": {
     "targets": [
+      "caves_l7",
       "dragon_hearts_death_roots_1_1",
       "playthrough_13",
       "spirit_ashes_2_6"
@@ -1442,6 +1450,13 @@ const item_links = {
   "bosses_2_31": {
     "targets": [
       "weapons_30_9"
+    ]
+  },
+  "bosses_2_32": {
+    "targets": [
+      "ashesofwar_1_3",
+      "npc_quests_30_2",
+      "playthrough_22"
     ]
   },
   "bosses_2_4": {
@@ -1935,6 +1950,11 @@ const item_links = {
       "ashesofwar_12_10"
     ]
   },
+  "bosses_6_20": {
+    "targets": [
+      "weapons_6_5"
+    ]
+  },
   "bosses_6_3": {
     "targets": [
       "talismans_6_3"
@@ -1949,6 +1969,11 @@ const item_links = {
   "bosses_6_5": {
     "targets": [
       "talismans_7_8"
+    ]
+  },
+  "bosses_6_6": {
+    "targets": [
+      "weapons_16_3"
     ]
   },
   "bosses_6_7": {
@@ -2670,6 +2695,32 @@ const item_links = {
       "talismans_6_5"
     ]
   },
+  "caves_l10": {
+    "targets": [
+      "graces_26",
+      "playthrough_56"
+    ]
+  },
+  "caves_l11": {
+    "targets": [
+      "graces_1",
+      "playthrough_3"
+    ]
+  },
+  "caves_l12": {
+    "targets": [
+      "graces_9",
+      "playthrough_30"
+    ]
+  },
+  "caves_l13": {
+    "targets": [
+      "crystal_tears_1_4",
+      "flasks_2_4",
+      "graces_5",
+      "playthrough_16"
+    ]
+  },
   "caves_l16": {
     "orsources": [
       "quest_order_tldr_12"
@@ -2677,6 +2728,40 @@ const item_links = {
     "ortargets": [
       "playthrough_22",
       "playthrough_23"
+    ]
+  },
+  "caves_l3": {
+    "targets": [
+      "bosses_2_15",
+      "dragon_hearts_death_roots_0_1",
+      "playthrough_36"
+    ]
+  },
+  "caves_l4": {
+    "targets": [
+      "playthrough_5"
+    ]
+  },
+  "caves_l6": {
+    "targets": [
+      "graces_3",
+      "npc_quests_10_1",
+      "playthrough_40",
+      "quest_order_tldr_21"
+    ]
+  },
+  "caves_l7": {
+    "targets": [
+      "bosses_2_16",
+      "dragon_hearts_death_roots_1_1",
+      "playthrough_13",
+      "spirit_ashes_2_6"
+    ]
+  },
+  "caves_l8": {
+    "targets": [
+      "graces_23",
+      "playthrough_59"
     ]
   },
   "caves_ld1": {
@@ -2794,6 +2879,7 @@ const item_links = {
   },
   "crystal_tears_1_4": {
     "targets": [
+      "caves_l13",
       "flasks_2_4",
       "graces_5",
       "playthrough_16"
@@ -2913,6 +2999,7 @@ const item_links = {
   "dragon_hearts_death_roots_0_1": {
     "targets": [
       "bosses_2_15",
+      "caves_l3",
       "playthrough_36"
     ]
   },
@@ -2979,6 +3066,7 @@ const item_links = {
   "dragon_hearts_death_roots_1_1": {
     "targets": [
       "bosses_2_16",
+      "caves_l7",
       "playthrough_13",
       "spirit_ashes_2_6"
     ]
@@ -3070,6 +3158,7 @@ const item_links = {
   },
   "flasks_2_4": {
     "targets": [
+      "caves_l13",
       "crystal_tears_1_4",
       "graces_5",
       "playthrough_16"
@@ -3293,6 +3382,7 @@ const item_links = {
   },
   "graces_1": {
     "targets": [
+      "caves_l11",
       "playthrough_3"
     ]
   },
@@ -3313,6 +3403,7 @@ const item_links = {
   },
   "graces_23": {
     "targets": [
+      "caves_l8",
       "playthrough_59"
     ]
   },
@@ -3323,6 +3414,7 @@ const item_links = {
   },
   "graces_26": {
     "targets": [
+      "caves_l10",
       "playthrough_56"
     ]
   },
@@ -3338,6 +3430,7 @@ const item_links = {
   },
   "graces_3": {
     "targets": [
+      "caves_l6",
       "npc_quests_10_1",
       "playthrough_40",
       "quest_order_tldr_21"
@@ -3345,6 +3438,7 @@ const item_links = {
   },
   "graces_5": {
     "targets": [
+      "caves_l13",
       "crystal_tears_1_4",
       "flasks_2_4",
       "playthrough_16"
@@ -3367,6 +3461,7 @@ const item_links = {
   },
   "graces_9": {
     "targets": [
+      "caves_l12",
       "playthrough_30"
     ]
   },
@@ -3611,6 +3706,7 @@ const item_links = {
   },
   "npc_quests_10_1": {
     "targets": [
+      "caves_l6",
       "graces_3",
       "playthrough_40",
       "quest_order_tldr_21"
@@ -3673,6 +3769,7 @@ const item_links = {
   "npc_quests_30_2": {
     "targets": [
       "ashesofwar_1_3",
+      "bosses_2_32",
       "playthrough_22"
     ]
   },
@@ -3697,6 +3794,7 @@ const item_links = {
   },
   "npc_quests_35_1": {
     "targets": [
+      "caves_l5",
       "playthrough_19",
       "playthrough_51"
     ]
@@ -3763,7 +3861,6 @@ const item_links = {
   },
   "npc_quests_9_4": {
     "targets": [
-      "playthrough_9_7",
       "quest_order_tldr_145",
       "weapons_18_6"
     ]
@@ -3805,6 +3902,7 @@ const item_links = {
     ],
     "targets": [
       "bosses_2_16",
+      "caves_l7",
       "dragon_hearts_death_roots_1_1",
       "spirit_ashes_2_6"
     ]
@@ -3826,6 +3924,7 @@ const item_links = {
   },
   "playthrough_16": {
     "targets": [
+      "caves_l13",
       "crystal_tears_1_4",
       "flasks_2_4",
       "graces_5"
@@ -3873,6 +3972,7 @@ const item_links = {
     ],
     "targets": [
       "ashesofwar_1_3",
+      "bosses_2_32",
       "npc_quests_30_2"
     ]
   },
@@ -3940,11 +4040,13 @@ const item_links = {
   },
   "playthrough_3": {
     "targets": [
+      "caves_l11",
       "graces_1"
     ]
   },
   "playthrough_30": {
     "targets": [
+      "caves_l12",
       "graces_9"
     ]
   },
@@ -3995,6 +4097,7 @@ const item_links = {
     ],
     "targets": [
       "bosses_2_15",
+      "caves_l3",
       "dragon_hearts_death_roots_0_1"
     ]
   },
@@ -4023,6 +4126,7 @@ const item_links = {
   },
   "playthrough_40": {
     "targets": [
+      "caves_l6",
       "graces_3",
       "npc_quests_10_1",
       "quest_order_tldr_21"
@@ -4115,6 +4219,11 @@ const item_links = {
       "npc_quests_29_2"
     ]
   },
+  "playthrough_5": {
+    "targets": [
+      "caves_l4"
+    ]
+  },
   "playthrough_50": {
     "targets": [
       "npc_quests_30_3",
@@ -4162,6 +4271,7 @@ const item_links = {
   },
   "playthrough_56": {
     "targets": [
+      "caves_l10",
       "graces_26"
     ]
   },
@@ -4180,6 +4290,7 @@ const item_links = {
   },
   "playthrough_59": {
     "targets": [
+      "caves_l8",
       "graces_23"
     ]
   },
@@ -4244,6 +4355,11 @@ const item_links = {
       "quest_order_tldr_35"
     ]
   },
+  "playthrough_69": {
+    "targets": [
+      "quest_order_tldr_35_1"
+    ]
+  },
   "playthrough_7": {
     "targets": [
       "graces_8"
@@ -4259,13 +4375,6 @@ const item_links = {
     "targets": [
       "npc_quests_3_1",
       "quest_order_tldr_4"
-    ]
-  },
-  "playthrough_9_7": {
-    "targets": [
-      "npc_quests_9_4",
-      "quest_order_tldr_145",
-      "weapons_18_6"
     ]
   },
   "quest_order_tldr_1": {
@@ -4303,7 +4412,6 @@ const item_links = {
   "quest_order_tldr_145": {
     "targets": [
       "npc_quests_9_4",
-      "playthrough_9_7",
       "weapons_18_6"
     ]
   },
@@ -4368,6 +4476,7 @@ const item_links = {
   },
   "quest_order_tldr_21": {
     "targets": [
+      "caves_l6",
       "graces_3",
       "npc_quests_10_1",
       "playthrough_40"
@@ -4486,6 +4595,11 @@ const item_links = {
     "ortargets": [
       "playthrough_67",
       "playthrough_68"
+    ]
+  },
+  "quest_order_tldr_35_1": {
+    "targets": [
+      "playthrough_69"
     ]
   },
   "quest_order_tldr_4": {
@@ -4911,6 +5025,7 @@ const item_links = {
   "spirit_ashes_2_6": {
     "targets": [
       "bosses_2_16",
+      "caves_l7",
       "dragon_hearts_death_roots_1_1",
       "playthrough_13"
     ]
@@ -5281,6 +5396,11 @@ const item_links = {
       "bosses_7_23"
     ]
   },
+  "weapons_16_3": {
+    "targets": [
+      "bosses_6_6"
+    ]
+  },
   "weapons_16_4": {
     "targets": [
       "remembrances_mausoleums_1_11_1"
@@ -5332,7 +5452,6 @@ const item_links = {
       "bosses_6_4",
       "crystal_tears_4_1",
       "npc_quests_9_4",
-      "playthrough_9_7",
       "quest_order_tldr_145"
     ]
   },
@@ -5561,6 +5680,11 @@ const item_links = {
       "bosses_5_4"
     ]
   },
+  "weapons_34_3": {
+    "targets": [
+      "bosses_14_5"
+    ]
+  },
   "weapons_34_4": {
     "targets": [
       "bosses_8_7",
@@ -5638,6 +5762,11 @@ const item_links = {
   "weapons_6_10": {
     "targets": [
       "bosses_7_21"
+    ]
+  },
+  "weapons_6_5": {
+    "targets": [
+      "bosses_6_20"
     ]
   },
   "weapons_6_6": {

@@ -750,11 +750,15 @@
 "bosses_14_1",
 "bosses_14_2",
 "bosses_14_3",
+"bosses_14_4",
+"bosses_14_5",
+"bosses_14_6",
 "bosses_15_1",
 "bosses_15_2",
 "bosses_15_3",
 "bosses_16_1",
 "bosses_16_2",
+"bosses_16_3",
 "bosses_17_1",
 "bosses_17_2",
 "bosses_18_1",
@@ -797,6 +801,7 @@
 "bosses_2_3",
 "bosses_2_30",
 "bosses_2_31",
+"bosses_2_32",
 "bosses_2_4",
 "bosses_2_5",
 "bosses_2_6",
@@ -870,6 +875,10 @@
 "bosses_5_3",
 "bosses_5_30",
 "bosses_5_31",
+"bosses_5_32",
+"bosses_5_33",
+"bosses_5_34",
+"bosses_5_35",
 "bosses_5_4",
 "bosses_5_5",
 "bosses_5_6",
@@ -885,7 +894,10 @@
 "bosses_6_15",
 "bosses_6_16",
 "bosses_6_17",
+"bosses_6_18",
+"bosses_6_19",
 "bosses_6_2",
+"bosses_6_20",
 "bosses_6_3",
 "bosses_6_4",
 "bosses_6_5",
@@ -1004,6 +1016,7 @@
 "caves_8_1",
 "caves_8_2",
 "caves_8_3",
+"caves_8_4",
 "caves_e1",
 "caves_e10",
 "caves_e2",
@@ -1042,7 +1055,6 @@
 "caves_l121",
 "caves_l122",
 "caves_l123",
-"caves_l124",
 "caves_l125",
 "caves_l126",
 "caves_l127",
@@ -1050,6 +1062,7 @@
 "caves_l129",
 "caves_l13",
 "caves_l130",
+"caves_l131",
 "caves_l14",
 "caves_l15",
 "caves_l16",
@@ -1075,7 +1088,6 @@
 "caves_l34",
 "caves_l35",
 "caves_l36",
-"caves_l37",
 "caves_l38",
 "caves_l39",
 "caves_l4",
@@ -1088,8 +1100,8 @@
 "caves_l46",
 "caves_l47",
 "caves_l48",
-"caves_l49",
 "caves_l5",
+"caves_l50",
 "caves_l51",
 "caves_l52",
 "caves_l53",
@@ -2596,7 +2608,6 @@
 "playthrough_82",
 "playthrough_83",
 "playthrough_84",
-"playthrough_85",
 "playthrough_86",
 "playthrough_87",
 "playthrough_88",
@@ -2986,6 +2997,7 @@
 "remembrances_mausoleums_2_4",
 "remembrances_mausoleums_2_5",
 "remembrances_mausoleums_2_6",
+"remembrances_mausoleums_2_7",
 "scrolls_prayerbooks_0_1",
 "scrolls_prayerbooks_0_2",
 "scrolls_prayerbooks_0_3",
@@ -3703,7 +3715,7 @@
 "whetstones_0_6",
 ]);
 function calculateProgress() {
-const playthrough_total = 396;
+const playthrough_total = 395;
 var playthrough_checked = 0;
 const quest_order_tldr_total = 273;
 var quest_order_tldr_checked = 0;
@@ -3713,7 +3725,7 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const bosses_total = 230;
+const bosses_total = 242;
 var bosses_checked = 0;
 const caves_total = 205;
 var caves_checked = 0;
@@ -3751,7 +3763,7 @@ const cookbooks_total = 59;
 var cookbooks_checked = 0;
 const ancient_dragon_smithing_stones_total = 21;
 var ancient_dragon_smithing_stones_checked = 0;
-const remembrances_mausoleums_total = 51;
+const remembrances_mausoleums_total = 52;
 var remembrances_mausoleums_checked = 0;
 const great_runes_total = 11;
 var great_runes_checked = 0;
