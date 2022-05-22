@@ -743,17 +743,15 @@ sections:
         data: ["Talk to Diallos and exhaust his dialogue."]
       - id: "334"
         data: ["Talk to the ghost and exhaust his dialogue."]
-      - id: "335"
-        data: ["Return to the Magma Wyrm Makar Grace to invade and kill Great Horned Tragoth at the location indicated by the Letter to Patches."]
       - id: "336"
         data: ["Return to the Bridge of Iniquity Grace and cross the bridge East then use the Spiritjump to the South to jump down the cliff. Use the next Spiritjump to the West to get down to the bottom and head North to invade and kill Rileigh the Idle at the location indicated by the Letter from Volcano Manor."]
   -
     title: Millicent/Roundtable Hold
     items:
       - id: "337"
-        data: ["Continue North-West to kill the Invader Maleigh Marais, Shaded Castle Castellan."]
+        data: ["Continue North-West to kill the Maleigh Marais, Shaded Castle Castellan."]
       - id: "338"
-        data: ["Go East and find a opening on the West side of the wall you can use to jump onto the ramparts of the Shaded Castle. Follow the rampart South to the end then hop off to climb the ladder to the East. At the top, follow the path North to open the chest and grab the Valkyrie's Prosthesis."]
+        data: ["Go East and find an opening on the West side of the wall you can use to jump onto the ramparts of the Shaded Castle. Follow the rampart South to the end then hop off to climb the ladder to the East. At the top, follow the path North to open the chest and grab the Valkyrie's Prosthesis."]
       - id: "339"
         data: ["Turn back around and take the path East from the ladder this time. Hop onto the roof below and hop from rooftop to rooftop to grab the Shaded Castle Inner Gate Grace for using at a later time."]
       - id: "340"
@@ -762,8 +760,6 @@ sections:
         data: ["Cuddle with Fia and talk to her to get the Weathered Dagger"]
       - id: "342"
         data: ["Talk to Roderika and exhaust her dialogue"]
-      - id: "343"
-        data: ["Talk to Hewg and exhaust his dialogue"]
       - id: "344"
         data: ["Talk to D, give him the Weathered Dagger and exhaust his dialogue"]
       - id: "345"
@@ -780,9 +776,9 @@ sections:
       - id: "349"
         data: ["Head East, across the battlefield and to the road to grab the Altus Highway Junction Grace."]
       - id: "350"
-        data: ["Talk to Boc and exhaust his dialogue"]
-      - id: "351"
         data: ["Rest at the Grace, talk to Melina and exhaust her dialogue."]
+      - id: "351"
+        data: ["Talk to Boc and exhaust his dialogue"]
       - id: "352"
         data: ["Go North-East from the Grace and through the passage to grab the Amber Starlight Shard."]
       - id: "353"
@@ -797,13 +793,13 @@ sections:
     title: Underground Crater
     items:
       - id: "357"
-        data: ["Go back to East Limgrave and find the note at Mistwood Ruins where you first met Blaidd"]
+        data: ["Go back to East Limgrave and find a note from Blaidd just outside of the newly formed crater, West of Fort Haight"]
       - id: "358"
         data: ["Go to the Forlorn Hound Evergaol and free Blaidd"]
       - id: "359"
         data: ["Go to the Road to the Manor Grace, talk to Iji and exhaust his dialogue"]
       - id: "360"
-        data: ["Head into the Crater that has formed West of Fort Haight and grab the Nokron, Eternal City Grace."]
+        data: ["Head into the crater West of Fort Haight and grab the Nokron, Eternal City Grace."]
       - id: "361"
         data: ["Follow the path forward to reach and kill the boss, Mimic Tear"]
       - id: "362"
@@ -821,7 +817,7 @@ sections:
       - id: "368"
         data: ["Head North-East from the Ancestral Woods Grace, past the altar, into the forest and along the hidden path to reach the Aqueduct-Facing Cliffs Grace."]
       - id: "369"
-        data: ["Follow this path until you find a man kneeling next to a balcony outside the boss room. This man is D's Brother, D, Beholder of Death. Give him D's Armor and reload the area."]
+        data: ["Follow this path until you find a man kneeling next to a balcony outside the boss room. This man is D's Brother, D, Beholder of Death and he wants you to give him D's Armor"]
       - id: "370"
         data: ["Summon D, Beholder of Death and go into the boss room to kill the boss, Valiant Gargoyle Duo"]
       - id: "371"
@@ -853,6 +849,8 @@ sections:
         data: ["Follow the road South-East from the Windmill Village, through the opening in the wall and grab the Outer Wall Battleground Grace"]
       - id: "383"
         data: ["Rest at the Grace, talk to Melina and exhaust her dialogue"]
+      - id: "383_1"
+        data: ["Head South-East and fight Margit, The Fell Omen who is currently disguised as a common servant on the battlefield"]
       - id: "384"
         data: ["Follow the road South and talk to the Finger Reader"]
       - id: "385"
@@ -870,6 +868,8 @@ sections:
   -
     title: Volcano Manor Part Two
     items:
+      - id: "335"
+        data: ["Return to the Magma Wyrm Makar Grace to invade and kill Great Horned Tragoth at the location indicated by the Letter to Patches."]
       - id: "391"
         data: ["Return to Volcano Manor, talk to Patches and exhaust his dialogue."]
       - id: "392"
@@ -879,7 +879,7 @@ sections:
       - id: "394"
         data: ["Talk to Bernahl and exhaust his dialogue for Letter to Bernahl"]
       - id: "395"
-        data: ["Grab the Third Letter from Volcano Manor from the table."]
+        data: ["Grab the Red Letter from the table."]
       - id: "396"
         data: ["Talk to Tanith and exhaust her dialogue"]
       - id: "397"
@@ -887,9 +887,9 @@ sections:
       - id: "398"
         data: ["Talk to Rya again and exhaust her dialogue"]
       - id: "399"
-        data: ["Go into the last room down the hall and roll into the wall to break the illusion. Follow the path to grab the Prison Town Church Grace."]
+        data: ["Go into the first room on the right down the hall and roll into the wall to break the illusion. Follow the path down the stairs to grab the Prison Town Church Grace."]
       - id: "400"
-        data: ["Follow the path down to the bottom, into the lava going South, up the stairs, up the lift and use the lever next to the boss room to raise the bridge for a shortcut."]
+        data: ["Follow the path down to the bottom, into the lava then going South-West, up the stairs, up the lift and use the lever next to the boss room to raise the bridge for a shortcut."]
       - id: "401"
         data: ["Go into the boss room and kill the boss, Godskin Noble."]
       - id: "402"
@@ -903,7 +903,7 @@ sections:
       - id: "406"
         data: ["Return to the Temple of Eiglay and tak the lift up. Go outside and hop off the balcony to the lava below. Cross the bridge of slugs, across the gap, up the slope and run past the Iron Virgin into the lava to find a room where you will find Rya. (You have the option to give her the potion but I don't recommend it)"]
       - id: "407"
-        data: ["Follow the path out and then up the ladder and take the path going left. Go into the temple, up the stairs and into the room above the entrance where you will find an Imp Statue and use it(if you accidentally go the path with the Waygate, DO NOT TAKE THE WAYGATE)"]
+        data: ["Follow the path out and then up the ladder and take the path going left. Go into the temple, open the door, then up the stairs and into the room above the entrance where you will find an Imp Statue and use it(if you accidentally go the path with the Waygate, DO NOT TAKE THE WAYGATE)"]
       - id: "408"
         data: ["Go into the room and make your way to the bottom and grab the Seedbed Curse."]
       - id: "409"
@@ -916,11 +916,13 @@ sections:
       - id: "411"
         data: ["Go to the Capital Rampart Grace just inside of Leyndell and follow the path into the city to grab the East Capital Rampart Grace."]
       - id: "412"
-        data: ["Talk to Boc and exhaust his dialogue. When he asks for a Larval Tear, Use Prattling Pate You're Beautiful on him then talk to him again and exhaust his dialogue."]
-      - id: "413"
         data: ["Rest at the Grace to talk to Melina and exhaust her dialogue."]
+      - id: "413"
+        data: ["Talk to Boc and exhaust his dialogue. When he asks for a Larval Tear, Use Prattling Pate You're Beautiful on him then talk to him again and exhaust his dialogue."]
+      - id: "477"
+        data: ["Starting from the East Capital Rampart Grace, make your way to the center of Leyndell and grab the Avenue Balcony Grace."]
       - id: "414"
-        data: ["Make your way to the Sewers and grab the Underground Roadside Grace"]
+        data: ["Go down the stairs and then jump off the ledge to the left and find the nearby well to enter the sewers and grab the Underground Roadside Grace"]
       - id: "415"
         data: ["From the Grace, leave the room and go left and hop down the open grate on the left. Run past all the rats and plants to climb the ladder. Kill or run past the giants hands and open the door to the cell to find and talk to the Dung Eater and exhaust his dialogue."]
       - id: "416"
@@ -935,25 +937,29 @@ sections:
         data: ["Walk around the water nearby and kill the Invader Dung-Eater"]
       - id: "421"
         data: ["Return to the Dung-Eater in Roundtable Hold and exhaust his dialogue."]
+      - id: "421_1"
+        data: ["Talk to Roderika and exhaust her dialogue"]
   -
     title: Sellen Part Two/Seluvis
     items:
       - id: "422"
         data: ["From here you now have the freedom to choose between giving Seluvis' Potion to Gideon (nothing happens), Dung-Eater (you get Dung Eater Puppet and can't finish his questline) or Nepheli (You get Nepheli Loux Puppet and can't finish Nepheli's, Kenneth's or Gostoc's questlines). For the purpose of this Walkthrough, Dung Eater will be sacrificed cause he deserves it."]
       - id: "423"
-        data: ["Return to Dung Eater in the Sewers and use Seluvis' Potion on him"]
+        data: ["Return to Dung Eater in the Sewers and use Seluvis' Potion on him. After giving him the potion, kill him(this will let you get both the puppet and his gear)"]
       - id: "424"
         data: ["Go to Ranni's Rise and go into the nearby ruins to find an Illusory Floor, hiding a staircase going down. Enter the room to find a bunch of puppets stuck in place. Break the Illusory Wall in the back to find a Sellen Puppet and interact with it to use Sellen's Primal Glintstone on it."]
       - id: "425"
         data: ["Talk to Sellen and exhaust her dialogue."]
       - id: "426"
-        data: ["Go talk to Seluvis and exhaust his dialogue to gain access to buying spells from him. Buy all of them."]
+        data: ["Make sure to interact with the note next to where the Illusory Wall was."]
       - id: "427"
-        data: ["Reload and talk to him again, mentioning his hidden room, to get him to allow you to purchase a puppet (note that you must have at least 1 Starlight Shard in your inventory. They can be found on little altars all over the map) buy at least one."]
+        data: ["Go talk to Seluvis and exhaust his dialogue to gain access to buying spells and a puppet from him. Buy all the spells and a puppet. Note that you will need to have at least one Starlight Shard in your inventory in order to get the puppet. Starlight Shards can be found at at little statues that look like half-filled cups all over the map."]
       - id: "428"
-        data: ["Reload and talk to him again asking for more puppets and he will ask you to get him the Amber Starlight Shard."]
+        data: ["Either grab another Starlight Shard or leave one and pick it back up. Afterwards reload and talk to Seluvis again, asking for more puppets for him to open his puppet shop."]
+      - id: "428_1"
+        data: ["Buy another puppet and talk to him again. He will ask you to get him the Amber Starlight. Note that if he doesn't ask for the item, you will have to buy all of his current puppets"]
       - id: "429"
-        data: ["Give him the Amber Startlight Shard to finish his quest (if you talk to him again, he will give you a potion to give to Ranni but I recommend not doing so. If you do you will need to seek absolution at the Church of Vows to continue Ranni's quest)"]
+        data: ["Give him the Amber Starlight to finish his quest and talk to him one more time to get rewarded.(if you talk to him again, he will give you a potion to give to Ranni but I recommend not doing so. If you do you will need to seek absolution at the Church of Vows to continue Ranni's quest)"]
   -
     title: Liurnia Lake/Roundtable Hold
     items:
@@ -966,7 +972,11 @@ sections:
       - id: "433"
         data: ["Use the Carian Inverted Statue on the altar to trigger a cutscene that change the Carian Study Hall"]
       - id: "434"
-        data: ["Make your way through the Carian Study Hall to the top to grab the Cursemark of Death"]
+        data: ["Make your way through the Carian Study Hall to the top to grab the Liurnia Tower Bridge Grace"]
+      - id: "434_1"
+        data: ["Continue forward, through the door and up the lift to grab the Divine Tower of Liurnia Grace"]
+      - id: "434_2"
+        data: ["Continue up the stairs to grab the Cursemark of Death"]
       - id: "435"
         data: ["Go back to Roundtable Hold and loot Rogier's corpse."]
       - id: "436"
@@ -1003,11 +1013,11 @@ sections:
       - id: "450"
         data: ["Loot Fia nearby"]
       - id: "451"
-        data: ["Talk to D and exhaust his dialogue"]
+        data: ["Reload, talk to D and exhaust his dialogue"]
       - id: "452"
-        data: ["Kill D or reload then loot D's Armor and sword."]
+        data: ["Loot Fia for her clothes."]
       - id: "453"
-        data: ["Reload and loot Fia for her clothes."]
+        data: ["Kill D or reload then loot D's Armor and sword."]
   -
     title: Liurnia Lake/Ainsel River Main
     items:
@@ -1018,17 +1028,19 @@ sections:
       - id: "456"
         data: ["Go to Pidia nearby and loot his corpse"]
       - id: "457"
-        data: ["Head North-East of Ranni's Rise and into Renna's Rise use the Waygate and grab the Ainsel River Main Grace."]
+        data: ["Head North-East of Ranni's Rise and into Renna's Rise. Use the Waygate and grab doll from the coffin nearby"]
       - id: "458"
-        data: ["Grab doll from the coffin nearby"]
+        data: ["Grab the Ainsel River Main Grace."]
       - id: "459"
         data: ["Rest at the Grace and talk to the doll there 3 times"]
       - id: "460"
         data: ["Head South-West and grab the Nokstella, Eternal City Grace"]
       - id: "461"
-        data: ["Follow the path and kill the Invader Baleful Shadow"]
+        data: ["Follow the lower path, down the lift and grab the Nokstella Waterfall Basin Grace"]
+      - id: "461_1"
+        data: ["Rest at the Grace and talk to Ranni"]
       - id: "462"
-        data: ["Continue to grab the Nokstella Waterfall Basin Grace"]
+        data: ["Continue to kill the Invader Baleful Shadow"]
       - id: "463"
         data: ["Keep going and grab the Lake of Rot Shoreside Grace."]
       - id: "464"
@@ -1051,7 +1063,9 @@ sections:
       - id: "471"
         data: ["Go North and take the lift up and grab the Moonlight Altar Grace"]
       - id: "472"
-        data: ["Talk to Ranni and exhaust her dialogue to receive the Dark Moon Greatsword."]
+        data: ["Continue on the road North-East to grab the Cathedral of Manus Celes Grace"]
+      - id: "472_1"
+        data: ["Go down the nearby hole to talk to Ranni and exhaust her dialogue to receive the Dark Moon Greatsword."]
       - id: "473"
         data: ["Return to Iji, talk to him and exhaust his dialogue"]
       - id: "474"
@@ -1063,14 +1077,12 @@ sections:
   -
     title: Leyndell
     items:
-      - id: "477"
-        data: ["Starting from the East Capital Rampart Grace, make your way to the center of Leyndell and grab the Avenue Balcony Grace."]
       - id: "478"
-        data: ["Continue South-West to grab the Fortified Manor, First Floor Grace."]
+        data: ["Starting from the Avenue Balcony Grace, head North-West and climb the wing of the dragon corpse to the top. Hop down and climb the ladder to to grab the West Capital Rampart Grace."]
       - id: "479"
-        data: ["Go to the location marked on the map to Invade and kill Errant Sorceror Wilhelm and Vargram the Raging Wolf alongside Recusant Bernahl."]
+        data: ["Go down the stairs and hop off the ledge going South-West then go to the location marked on the map to Invade and kill Errant Sorceror Wilhelm and Vargram the Raging Wolf alongside Recusant Bernahl."]
       - id: "480"
-        data: ["Make your way South to the coliseum and talk to Brother Corhyn and exhaust his dialogue"]
+        data: ["Make your way South from the West Capital Rampart Grace to the coliseum and talk to Brother Corhyn and exhaust his dialogue"]
       - id: "481"
         data: ["Talk to Goldmask and exhaust his dialogue."]
       - id: "482"
@@ -1078,7 +1090,7 @@ sections:
       - id: "483"
         data: ["Grab the Erdtree Sanctuary Grace."]
       - id: "484"
-        data: ["Go up the roots outside to the roof and enter the window to grab the Golden Order Principia from above the Erdtree Sanctuary Grace."]
+        data: ["Go up the roots to the East, up to the next floor. Go outside, and go left onto the roof to enter the window. Go up the roots then grab the Golden Order Principia from above the Erdtree Sanctuary Grace."]
       - id: "485"
         data: ["Go to Miriel, Pastor of Vows and exhaust his dialogue."]
       - id: "486"
@@ -1098,7 +1110,7 @@ sections:
       - id: "493"
         data: ["Attempt to open enter the Erdtree to be denied then grab the Elden Throne Grace"]
       - id: "494"
-        data: ["Talk to Melina and exhaust her dialogue"]
+        data: ["Rest at the Grace to talk to Melina and exhaust her dialogue"]
       - id: "495"
         data: ["Rest at the Queen's Bedchamber Grace to talk to Melina and exhaust her dialogue."]
       - id: "496"
@@ -1154,7 +1166,9 @@ sections:
       - id: "518"
         data: ["Head North-East and when you see the fire guys, enter the nearby door to grab the Giants' Mountaintop Catacombs Grace."]
       - id: "519"
-        data: ["Make your way to the end of the Giant's Mountaintop Catacombs and kill the boss, Ulcerated Tree Spirit for the Seventh Deathroot"]
+        data: ["Go through the area then down the lift, keep going to go down another lift. Follow this path to it's end then fall down side path hole near the Giant Warrior Pot. This area will look like the same area as before but if you go back to the lift, activate it and step off, there will be a secret path under the lift with a Giant Warrior Pot. Hop down and use the lever to unlock the boss room"]
+      - id: "519_1"
+        data: ["With the boss door opened now just kill the boss, Ulcerated Tree Spirit, for the Seventh Deathroot"]
       - id: "520"
         data: ["Exit the catacombs and head North-East to grab the Ancient Snow Valley Grace"]
       - id: "521"
@@ -1172,6 +1186,8 @@ sections:
     items:
       - id: "526"
         data: ["Go to Volcano Manor and talk to Bernahl for reward"]
+      - id: "526_1"
+        data: ["Talk to Diallos nearby and exhaust his dialogue"]
       - id: "527"
         data: ["Talk to Tanith and exhaust her dialogue to grab the Audience Pathway Grace"]
       - id: "528"
@@ -1184,14 +1200,12 @@ sections:
         data: ["Talk to Patches and exhaust his dialogue"]
       - id: "532"
         data: ["Talk to Bernahl and exhaust his dialogue"]
-      - id: "533"
-        data: ["Talk to the ghost and exhaust his dialogue"]
       - id: "534"
         data: ["Talk to Rya at her location past the Temple of Eiglay Grace(don't give her the potion)"]
       - id: "535"
         data: ["Reload and read the note she left at her location."]
       - id: "536"
-        data: ["Go to the Shaded Castle Inner Gate Grace in Shaded Castle and continue through to the bossroom to talk to Patches on the bridge and receive the Dancer's Castanettes from him."]
+        data: ["Go to the Shaded Castle Inner Gate Grace in Shaded Castle and continue through, up the lift to the bossroom to talk to Patches on the bridge full of statues and receive the Dancer's Castanettes from him."]
       - id: "537"
         data: ["Go back to the Rykard, Lord of Blasphemy Grace, talk Tanith nearby and exhaust her dialogue."]
       - id: "538"
@@ -1225,8 +1239,6 @@ sections:
         data: ["Head West to grab the Whiteridge Road Grace"]
       - id: "551"
         data: ["Head South and go across the bridge to grab the Giants' Gravepost Grace"]
-      - id: "552"
-        data: ["Rest at the Grace to talk to Melina and exhaust her dialogue."]
       - id: "553"
         data: ["Go South/South-West to the Church of Repose to kill the Invader, Bloody Finger Okina"]
       - id: "554"
@@ -1245,7 +1257,7 @@ sections:
       - id: "559"
         data: ["Open the closed door and go through it. Turn left and hop down to the path below. Turn around and go down the stairs. Keep making lefts as you follow the path until you reach the flowers. Hop down to the flowers then turn around and enter the path behind you. Continue straight to the end of the path then make a right and go up the slope to enter an open room with an Omen and two ladders. Climb the ladder on the right side and go through the doorway. Open the door in front of you to unloack the shortcut right in front of the Underground Roadside Grace."]
       - id: "560"
-        data: ["After opening the door, turn around and take the pipe sloping upwards on your right. Follow it all the way to the top then hop down to the left. Hop up onto the wooden path just above and go through the doorway. Jump down onto the open-top pipe just in front of you and enter it. Take the path going East, then turn left and immediately turn left again to go down the slope. Follow the path to a hole and jump INTO the hole this time. Follow the path to find a ladder then go down the ladder to see a giant pot. To the right of the pot is a lift, take the lift down and grab the Forsaken Depths Grace."]
+        data: ["After opening the door, turn around and take the pipe sloping upwards on your right. Follow it all the way to the top then hop down to the left. Hop up onto the wooden path just above and go through the doorway. Jump down onto the open-top pipe just in front of you and enter it. Take the path going East, then turn left and immediately turn left again to go down the slope. Follow the path going right to a hole and jump INTO the hole this time. Follow the path to find a ladder then go down the ladder to see a giant pot. To the right of the pot is a lift, take the lift down and grab the Forsaken Depths Grace."]
       - id: "561"
         data: ["Enter the boss room to kill the boss, Mohg, The Omen"]
       - id: "562"
@@ -1278,7 +1290,7 @@ sections:
       - id: "574"
         data: ["Once you have grabbed the Grace, turn around and go back to the platform with the railings and find where the railing is broken. Fall off the edge where that railing is to reveal the invisible path below."]
       - id: "575"
-        data: ["Follow the invible path using messages, bloodstains, rainbow stones, or the Hoarfrost Stomp Ash of War to it different locations but the specific path we want to follow is the one going West to the doorway. At the doorway, before entering, look to your left to see a corpse on a platform below. Jump down to the platform and look through either windowsill. Kill the giant kraken however you wish and pull the lever on the North side. Turn South and head through the pathway to find the boss room."]
+        data: ["Follow the invible path using messages, bloodstains, rainbow stones, or the Hoarfrost Stomp Ash of War to it different locations but the specific path we want to follow is the one going West to the doorway. At the doorway, before entering, look to your left to see a corpse on a platform below. Jump down to the platform and jump through either windowsill and pull the lever on the North side behind the giant kraken. Turn South and head through the pathway to find the boss room."]
       - id: "576"
         data: ["Enter the boss room and kill the boss, Stray Mimic Tear and open the nearby chest for the Ninth and final Deathroot."]
   -
@@ -1314,9 +1326,11 @@ sections:
     title: Mohgwyn's Palace
     items:
       - id: "590"
-        data: ["You may have already entered Mohgwyn's Palace by using the Pureblood Knight's Talisman, however we will now enter another way. Go to the Western edge of the Consecrated Snowfield, into the forest and use the Waygate to grab the Palace Approach Ledge-Road Grace"]
+        data: ["You may have already entered Mohgwyn's Palace by using the Pureblood Knight's Talisman, however we will now enter another way. First, go to the Western edge of the Consecrated Snowfield to kill the Invader, Sanguine Noble."]
+      - id: "590_1"
+        data: ["Head West of the Sanguine Noble, into the corner of the forest and use the Waygate to grab the Palace Approach Ledge-Road Grace"]
       - id: "591"
-        data: ["Explore the area until you are Invaded three separate times by the Invaders, Nameless White Masks. Kill all three of the invaders(if you do not, their rewards will be missed)"]
+        data: ["Explore the blood area in the South until you are Invaded three separate times by the Invaders, Nameless White Masks. Kill all three of the invaders(if you do not, their rewards will be missed)"]
       - id: "592"
         data: ["Make your way to the North-West part of the area to grab the Dynasty Mausoleum Entrance Grace"]
       - id: "593"
@@ -1329,6 +1343,8 @@ sections:
         data: ["Rest at the Grace and make sure to put the Purifying Crystal Tear in your Flask, otherwise this next fight will be very difficult."]
       - id: "597"
         data: ["Continue up the path from the Grace and use the lift to kill the boss, Mohg, Lord of Blood"]
+      - id: "598"
+        data: ["Grab the Cocoon of the Empyrean Grace"]
 
   -
     title: This Tree is on FIIIIREEEE!!!!!
