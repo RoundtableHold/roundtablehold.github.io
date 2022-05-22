@@ -4,60 +4,99 @@ icon: "/img/icons/keys/edited/00504.png"
 sections:
   -
     title: "Cracked Pots"
-    link: https://eldenring.wiki.fextralife.com/Cracked+Pot
     icon: "/img/icons/keys/edited/00504.png"
+    map_icon: "/map/icons/shadows/keys/00504.png"
     items:
       - "Limgrave"
       - id: "1_1"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
+        cords: [3667, 7210]
+        map_title: "Cracked Pot x3"
       - id: "1_2"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
+        map_link: [3667, 7210]
+        map_title: "Cracked Pot"
       - id: "1_3"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
+        map_link: [3667, 7210]
+        map_title: "Cracked Pot"
       - id: "1_5"
         data: ["Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves"]
+        cords: [3613, 7029]
+        map_title: "Cracked Pot"
       - id: "1_4"
         data: ["East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes"]
+        cords: [4114, 6553]
+        map_title: "Cracked Pot"
       - "Weeping Peninsula"
       - id: "1_6"
         data: ["Castle Morne Rampart Grace: Sold by Nomadic Merchant for 600 runes"]
-      - "Stormveil"
+        cords: [4310, 8172]
+        map_title: "Cracked Pot"
+      - "Stormveil Castle"
       - id: "1_7"
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
+        cords: [3066, 6551]
+        map_title: "Cracked Pot"
       - id: "1_8"
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
+        cords: [3065, 6537]
+        map_title: "Cracked Pot"
       - "Liurnia of the Lakes"
       - id: "1_9"
-        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a corpse by a large headstone on the southern end of town"]
+        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found by a large headstone on the southern end of town"]
+        cords: [3008, 5286]
+        map_title: "Cracked Pot"
       - id: "1_10"
-        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a corpse leaning against a building's blocked entrance on the northern end of town"]
+        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a Ritual Pot on the roof"]
+        cords: [2961, 5245]
+        map_title: "Cracked Pot"
       - id: "1_11"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found in a hut just northeast of the previous"]
+        cords: [2996, 5219]
+        map_title: "Cracked Pot"
       - id: "1_13"
-        data: ["Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through; it's amongst Living Pots on the right side of the cemetery"]
-      - "Raya Lucaria"
+        data: ["Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through, then drop down to ground level; as soon as you do, without dropping further, follow the wall to the left and find it on the cliff edge"]
+        cords: [1926, 3685]
+        map_title: "Cracked Pot"
+      - "Academy of Raya Lucaria"
       - id: "1_12"
         data: ["From Debate Parlor Grace, go outside then up the stairs to the left. On a body amongst Living Pots"]
+        cords: [1963, 5007]
+        map_title: "Cracked Pot"
       - "Caelid"
       - id: "1_15"
         data: ["Behind the Minor Erdtree in the North-West, on a tree branch extending from the northwest cliffs"]
+        cords: [4898, 6089]
+        map_title: "Cracked Pot"
       - id: "1_14"
         data: ["South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
+        cords: [5439, 7052]
+        map_title: "Cracked Pot"
       - "Altus Plateau"
       - id: "1_16"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
+        cords: [4499, 3147]
+        map_title: "Cracked Pot"
       - id: "1_17"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
+        cords: [4513, 3156]
+        map_title: "Cracked Pot"
       - id: "1_18"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
+        cords: [4506, 3133]
+        map_title: "Cracked Pot"
       - id: "1_19"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
+        cords: [4510, 3121]
+        map_title: "Cracked Pot"
       - "Leyndell"
       - id: "1_20"
         data: ["Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse"]
+        cords: [4292, 3480]
+        map_title: "Cracked Pot"
   -
     title: "Ritual Pots"
-    link: https://eldenring.wiki.fextralife.com/Ritual+Pot
     icon: "/img/icons/keys/edited/03010.png"
     map_icon: "/map/icons/shadows/keys/03010.png"
     items:
@@ -109,30 +148,50 @@ sections:
         map_title: "Ritual Pot"
   -
     title: "Perfume Bottles"
-    link: https://eldenring.wiki.fextralife.com/Perfume+Bottle
     icon: "/img/icons/keys/edited/00443.png"
+    map_icon: "/map/icons/shadows/keys/00443.png"
     items:
       - "Caelid"
       - id: "3_1"
         data: ["Street of Sages Ruins in the North-West part of the rot swamp: in the corner of a ruined building guarded by Miranda Sprouts and a Servant of Rot"]
+        cords: [5284, 6689]
+        map_title: "Perfume Bottle"
       - "Altus Plateau"
       - id: "3_2"
         data: ["Found North of the Altus Highway Junction Site of Grace, on a body in the small camp near the Erdtree sapling"]
+        cords: [3010, 3347]
+        map_title: "Perfume Bottle"
       - id: "3_5"
         data: ["Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout"]
+        cords: [3459, 3321]
+        map_title: "Perfume Bottle"
       - id: "3_3"
         data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook"]
+        cords: [2153, 3337]
+        map_title: "Perfume Bottle"
       - id: "3_4"
-        data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, under the Giant Miranda Sprout in the basement"]
+        data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, near the Giant Miranda Sprout"]
+        cords: [2142, 3319]
+        map_title: "Perfume Bottle"
       - id: "3_6"
         data: ["Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder"]
+        cords: [2934, 2695]
+        map_title: "Perfume Bottle"
       - id: "3_8"
         data: ["Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes"]
+        cords: [3974, 2945]
+        map_title: "Perfume Bottle"
       - "Mt. Gelmir"
       - id: "3_7"
         data: ["Volcano Manor: on a body in a room unlocked with the Drawing-Room Key"]
+        cords: [2205, 2885]
+        map_title: "Perfume Bottle"
       - "Leyndell"
       - id: "3_9"
-        data: ["In a chest after a ladder to the second floor of the tower next to the East Capital Rampart Grace"]
+        data: ["Follow the path from the East Capital Rampart Grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a Perfumer. It's in a chest in the room at the top"]
+        cords: [4434, 3542]
+        map_title: "Perfume Bottle"
       - id: "3_10"
-        data: ["On the East side of the Eastern pond, on a body guarded by a Lesser Misbegotten"]
+        data: ["Through the large double doors in Leyndell leading to the path to the Forbidden Lands, all the way in the back without going up the stairs, on a body guarded by a Lesser Misbegotten"]
+        cords: [4581, 3560]
+        map_title: "Perfume Bottle"

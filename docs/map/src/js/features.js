@@ -5064,8 +5064,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2149,
-            3328
+            2165,
+            3317
           ],
           "type": "Point"
         },
@@ -14896,6 +14896,348 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3667,
+            7210
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_1",
+          "link": "/checklists/pots_bottles.html#item_1_1",
+          "title": "Cracked Pot x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3613,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_5",
+          "link": "/checklists/pots_bottles.html#item_1_5",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4114,
+            6553
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_4",
+          "link": "/checklists/pots_bottles.html#item_1_4",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4310,
+            8172
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_6",
+          "link": "/checklists/pots_bottles.html#item_1_6",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3066,
+            6551
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_7",
+          "link": "/checklists/pots_bottles.html#item_1_7",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3065,
+            6537
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_8",
+          "link": "/checklists/pots_bottles.html#item_1_8",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3008,
+            5286
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_9",
+          "link": "/checklists/pots_bottles.html#item_1_9",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2961,
+            5245
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_10",
+          "link": "/checklists/pots_bottles.html#item_1_10",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2996,
+            5219
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_11",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_11",
+          "link": "/checklists/pots_bottles.html#item_1_11",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1926,
+            3685
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_13",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_13",
+          "link": "/checklists/pots_bottles.html#item_1_13",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1963,
+            5007
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_12",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_12",
+          "link": "/checklists/pots_bottles.html#item_1_12",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4898,
+            6089
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_15",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_15",
+          "link": "/checklists/pots_bottles.html#item_1_15",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5439,
+            7052
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_14",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_14",
+          "link": "/checklists/pots_bottles.html#item_1_14",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4499,
+            3147
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_16",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_16",
+          "link": "/checklists/pots_bottles.html#item_1_16",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4513,
+            3156
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_17",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_17",
+          "link": "/checklists/pots_bottles.html#item_1_17",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4506,
+            3133
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_18",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_18",
+          "link": "/checklists/pots_bottles.html#item_1_18",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4510,
+            3121
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_19",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_19",
+          "link": "/checklists/pots_bottles.html#item_1_19",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4292,
+            3480
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_20",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_20",
+          "link": "/checklists/pots_bottles.html#item_1_20",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             2547,
             5851
           ],
@@ -15080,6 +15422,196 @@ const feature_data = [
           "id": "pots_bottles_2_10",
           "link": "/checklists/pots_bottles.html#item_2_10",
           "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5284,
+            6689
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_1",
+          "link": "/checklists/pots_bottles.html#item_3_1",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3010,
+            3347
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_2",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_2",
+          "link": "/checklists/pots_bottles.html#item_3_2",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3459,
+            3321
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_5",
+          "link": "/checklists/pots_bottles.html#item_3_5",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2153,
+            3337
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_3",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_3",
+          "link": "/checklists/pots_bottles.html#item_3_3",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2142,
+            3319
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_4",
+          "link": "/checklists/pots_bottles.html#item_3_4",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2934,
+            2695
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_6",
+          "link": "/checklists/pots_bottles.html#item_3_6",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3974,
+            2945
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_8",
+          "link": "/checklists/pots_bottles.html#item_3_8",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2205,
+            2885
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_7",
+          "link": "/checklists/pots_bottles.html#item_3_7",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4434,
+            3542
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_9",
+          "link": "/checklists/pots_bottles.html#item_3_9",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4581,
+            3560
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_10",
+          "link": "/checklists/pots_bottles.html#item_3_10",
+          "title": "Perfume Bottle"
         },
         "type": "Feature"
       }
@@ -15892,6 +16424,8 @@ const icon_urls = [
   "/map/icons/shadows/keys/00322.png",
   "/map/icons/shadows/keys/00324.png",
   "/map/icons/shadows/keys/00325.png",
+  "/map/icons/shadows/keys/00443.png",
+  "/map/icons/shadows/keys/00504.png",
   "/map/icons/shadows/keys/00553.png",
   "/map/icons/shadows/keys/00554.png",
   "/map/icons/shadows/keys/00557.png",
