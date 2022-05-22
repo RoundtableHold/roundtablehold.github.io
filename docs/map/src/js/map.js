@@ -62,6 +62,7 @@
 
         var hideChecked = false;
         var hiddenGroups = new Set();
+        var selectedId = '';
 
         var styleCache = {};
         const styleSelector = function (feature, resolution) {
@@ -105,7 +106,7 @@
             var checked = profiles[profilesKey][profiles.current].checklistData[id] === true;
             var style;
             if (checked) {
-                if (!hideChecked || feature.get('group') === 'graces')
+                if (!hideChecked || feature.get('group') === 'graces' || feature.get('id') === selectedId)
                     style = styleCache[lookup][1];
             } else {
                 style = styleCache[lookup][0];
@@ -206,7 +207,8 @@
                 for (let group of hiddenGroups) {
                     console.log(group)
                     $('#' + group).prop('checked', true);
-                    $('#' + group).closest('div').addClass('completed text-muted')
+                    $('#' + group).closest('div').addClass('completed')
+                    $('#' + group).next('label').addClass('text-muted')
                 }
             }
             if ('devMode' in profiles[profilesKey][profiles.current].map_settings) {
@@ -331,15 +333,10 @@
         function popup_feature(feature, offset = [0,0]) {
             profiles = $.jStorage.get(profilesKey, {});
             var id = feature.get('id');
+            selectedId = id;
             const group = feature.get('group');
             if (hiddenGroups.has(group)) {
-                hiddenGroups.delete(group);
-                const el = $('#' + group);
-                el.prop('checked', false);
-                el.closest('div').removeClass('completed text-muted')
-                profiles[profilesKey][profiles.current].map_settings['hiddenGroups'] = Array.from(hiddenGroups);
-                $.jStorage.set(profilesKey, profiles);
-                map.getAllLayers().forEach((l) => l.changed())
+                showLayer(group);
             }
             var checked = profiles[profilesKey][profiles.current].checklistData[feature.get('id')] === true;
             $(popup_checkbox).prop('checked', checked);
@@ -365,6 +362,8 @@
                 popup_feature(feature);
                 return;
             }
+
+            selectedId = '';
 
             if (devMode) {
                 var c = ol.coordinate.toStringXY(ol.proj.fromLonLat(coordinate, projection));
@@ -418,20 +417,52 @@
             $.jStorage.set(profilesKey, profiles);
         });
 
-        $('.category-filter').click(function () {
+        function hideLayer(id) {
             profiles = $.jStorage.get(profilesKey, {});
-            var isChecked = !!$(this).prop('checked');
-            var id = $(this).attr('id');
-            if (isChecked) {
-                hiddenGroups.add(id);
-                $(this).closest('div').addClass('completed text-muted')
-            } else {
-                hiddenGroups.delete(id);
-                $(this).closest('div').removeClass('completed text-muted')
-            }
+            hiddenGroups.add(id);
+            $('#' + id).closest('div').addClass('completed')
+            $('#' + id).next('label').addClass('text-muted')
             profiles[profilesKey][profiles.current].map_settings['hiddenGroups'] = Array.from(hiddenGroups);
             $.jStorage.set(profilesKey, profiles);
             map.getAllLayers().forEach((l) => l.changed())
+        }
+
+        function showLayer(id) {
+            profiles = $.jStorage.get(profilesKey, {});
+            hiddenGroups.delete(id);
+            $('#' + id).closest('div').removeClass('completed')
+            $('#' + id).next('label').removeClass('text-muted')
+            profiles[profilesKey][profiles.current].map_settings['hiddenGroups'] = Array.from(hiddenGroups);
+            $.jStorage.set(profilesKey, profiles);
+            map.getAllLayers().forEach((l) => l.changed())
+
+        }
+
+        $('.category-filter').click(function () {
+            console.log('clicked')
+            var isChecked = !!$(this).prop('checked');
+            var id = $(this).attr('id');
+            if (isChecked) {
+                hideLayer(id)
+            } else {
+                showLayer(id)
+            }
+        });
+
+        $('#show-all').click(function() {
+            $('.category-filter').each(function(i, el) {
+                var id = $(el).attr('id');
+                $(el).prop('checked', false);
+                showLayer(id);
+            });
+        });
+
+        $('#hide-all').click(function() {
+            $('.category-filter').each(function(i, el) {
+                var id = $(el).attr('id');
+                $(el).prop('checked', true);
+                hideLayer(id);
+            });
         });
 
         function calculateProgress() {
