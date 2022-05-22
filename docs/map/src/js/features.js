@@ -15092,6 +15092,31 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            4657,
+            6711
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_7",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/flasks/00024.png",
+          "icon_size": 35,
+          "id": "tools_1_7",
+          "link": "/checklists/tools_multiplayer.html#item_1_7",
+          "title": "Flask of Wondrous Physick"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "tools",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3789,
             7363
           ],
@@ -15912,6 +15937,7 @@ const icon_urls = [
   "/map/icons/shadows/keys/crystal_tears/00431.png",
   "/map/icons/shadows/mausoleum.png",
   "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/tools/flasks/00024.png",
   "/map/icons/shadows/tools/remembrances/00163.png",
   "/map/icons/shadows/tools/remembrances/00164.png",
   "/map/icons/shadows/tools/remembrances/00172.png",

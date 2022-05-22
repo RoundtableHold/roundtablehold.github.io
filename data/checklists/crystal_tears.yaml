@@ -10,7 +10,7 @@ sections:
       - id: "1_1"
         icon: "/img/icons/keys/crystal_tears/00421.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00421.png"
-        data: ["Strength-Knot Crystal Tear", "Northwest of the Warmaster's Shack, in a stone receptacle, guarded by a troll", "+10 Strength, lasts 180 seconds"]
+        data: ["Strength-Knot Crystal Tear", "Northwest of the Warmaster's Shack, in a stone basin, guarded by a troll", "+10 Strength, lasts 180 seconds"]
         cords: [3628, 6618]
       - id: "1_2"
         icon: "/img/icons/keys/crystal_tears/00414.png"
@@ -34,7 +34,7 @@ sections:
       - id: "0_1"
         icon: "/img/icons/keys/crystal_tears/00424.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00424.png"
-        data: ["Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers, in a stone receptacle", "+10 Faith, lasts 180 seconds"]
+        data: ["Faith-Knot Crystal Tear", "North of the Demi-Human Ruins, under a tree surrounded by poison flowers, in a stone basin", "+10 Faith, lasts 180 seconds"]
         cords: [3976, 7730]
       - id: "0_2"
         icon: "/img/icons/keys/crystal_tears/00409.png"
@@ -53,7 +53,7 @@ sections:
       - id: "2_1"
         icon: "/img/icons/keys/crystal_tears/00422.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00422.png"
-        data: ["Dexterity-Knot Crystal Tear", "On top of a small island southwest of the Boilprawn Shack Grace, in a stone receptacle", "+10 Dexterity, lasts 180 seconds"]
+        data: ["Dexterity-Knot Crystal Tear", "On top of a small island southwest of the Boilprawn Shack Grace, in a stone basin", "+10 Dexterity, lasts 180 seconds"]
         cords: [2171, 5659]
       - id: "2_2"
         icon: "/img/icons/keys/crystal_tears/00416.png"
@@ -83,7 +83,7 @@ sections:
       - id: "2_7"
         icon: "/img/icons/keys/crystal_tears/00423.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00423.png"
-        data: ["Intelligence-Knot Crystal Tear", "In a stone receptacle surrounded by Fingercreepers just southwest of the Main Caria Manor Gate Grace, at the bottom of the steep cliff (to get there, drop off east of Kingsrealm Ruins and go north, or travel west from The Ravine)", "+10 Intelligence, lasts 180 seconds"]
+        data: ["Intelligence-Knot Crystal Tear", "In a stone basin surrounded by Fingercreepers just southwest of the Main Caria Manor Gate Grace, at the bottom of the steep cliff (to get there, drop off east of Kingsrealm Ruins and go north, or travel west from The Ravine)", "+10 Intelligence, lasts 180 seconds"]
         cords: [1802, 3922]
   -
     title: "Caelid"
@@ -112,7 +112,7 @@ sections:
       - id: "3_5"
         icon: "/img/icons/keys/crystal_tears/00415.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00415.png"
-        data: ["Windy Crystal Tear", "South of Southern Aeonia Swamp Bank Grace, in a stone receptacle guarded by Monstrous Crows on the cliffs above", "Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds"]
+        data: ["Windy Crystal Tear", "South of Southern Aeonia Swamp Bank Grace, in a stone basin guarded by Monstrous Crows on the cliffs above", "Increased i-frames when rolling, but 10% physical defenses debuff; lasts 180 seconds"]
         cords: [5501, 7093]
   -
     title: "Altus Plateau"
@@ -154,17 +154,17 @@ sections:
       - id: "6_1"
         icon: "/img/icons/keys/crystal_tears/00412.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00412.png"
-        data: ["Winged Crystal Tear", "In a stone receptacle northeast of the Hermit Merchant's Shack, near a cliffside overlooking the Minor Erdtree, surrounded by Skeletal Snails", "Maximum equip load multiplied by 4.5, lasts 180 seconds"]
+        data: ["Winged Crystal Tear", "In a stone basin northeast of the Hermit Merchant's Shack, near a cliffside overlooking the Minor Erdtree, surrounded by Skeletal Snails", "Maximum equip load multiplied by 4.5, lasts 180 seconds"]
         cords: [4211, 2851]
       - id: "6_2"
         icon: "/img/icons/keys/crystal_tears/00419.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00419.png"
-        data: ["Twiggy Cracked Tear", "Found in a stone receptacle at the base of the Minor Erdtree in Capital Outskirts, guarded by an Omen", "Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds"]
+        data: ["Twiggy Cracked Tear", "Found in a stone basin at the base of the Minor Erdtree in Capital Outskirts, guarded by an Omen", "Free effects of a Sacrificial Twig (no rune loss on death + second chance to retrieve lost runes), lasts 180 seconds"]
         cords: [4283, 2895]
       - id: "6_3"
         icon: "/img/icons/keys/crystal_tears/00403.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00403.png"
-        data: ["Crimson Crystal Tear [2]", "Found in a stone receptacle at the base of the Minor Erdtree in Capital Outskirts, guarded by an Omen", "Restores half of total HP"]
+        data: ["Crimson Crystal Tear [2]", "Found in a stone basin at the base of the Minor Erdtree in Capital Outskirts, guarded by an Omen", "Restores half of total HP"]
         cords: [4272, 2886]
   -
     title: "Mountaintops of the Giants"
@@ -173,7 +173,7 @@ sections:
       - id: "7_1"
         icon: "/img/icons/keys/crystal_tears/00420.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00420.png"
-        data: ["Crimsonwhorl Bubbletear", "In a stone receptacle on a cliff ledge overlooking Giants' Gravepost Grace (must wrap around to the south to get up there)", "Converts elemental damage to HP, lasts 15 seconds"]
+        data: ["Crimsonwhorl Bubbletear", "In a stone basin on a cliff ledge overlooking Giants' Gravepost Grace (must wrap around to the south to get up there)", "Converts elemental damage to HP, lasts 15 seconds"]
         cords: [6263, 2646]
       - id: "8_1"
         icon: "/img/icons/keys/crystal_tears/00405.png"

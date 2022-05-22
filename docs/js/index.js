@@ -3300,6 +3300,7 @@
 "tools_1_4",
 "tools_1_5",
 "tools_1_6",
+"tools_1_7",
 "tools_2_1",
 "tools_2_2",
 "tools_2_3",
@@ -3775,7 +3776,7 @@ const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
-const tools_total = 36;
+const tools_total = 37;
 var tools_checked = 0;
 const gestures_total = 48;
 var gestures_checked = 0;

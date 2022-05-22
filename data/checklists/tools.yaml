@@ -1,6 +1,7 @@
 title: Tools & Multiplayer
 id: tools
 table_widths: [3, 3, 6]
+icon: "/img/icons/tools/edited/00009.png"
 sections:
   -
     title: Functional
@@ -15,6 +16,11 @@ sections:
       - id: "1_3"
         icon: "/img/icons/tools/edited/00013.png"
         data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
+      - id: "1_7"
+        icon: "/img/icons/tools/flasks/00024.png"
+        map_icon: "/map/icons/shadows/tools/flasks/00024.png"
+        data: ["Flask of Wondrous Physick", "Harness effects of two mixed Crystal Tears, once usage per rest", "Found at the Third Church of Marika in Limgrave"]
+        cords: [4657, 6711]
       - id: "1_4"
         icon: "/img/icons/tools/edited/03068.png"
         data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
