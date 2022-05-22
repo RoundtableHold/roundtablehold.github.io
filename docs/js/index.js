@@ -3214,6 +3214,7 @@
 "remembrances_mausoleums_2_4",
 "remembrances_mausoleums_2_5",
 "remembrances_mausoleums_2_6",
+"remembrances_mausoleums_2_7",
 "scrolls_prayerbooks_0_1",
 "scrolls_prayerbooks_0_2",
 "scrolls_prayerbooks_0_3",
@@ -3979,7 +3980,7 @@ const cookbooks_total = 59;
 var cookbooks_checked = 0;
 const ancient_dragon_smithing_stones_total = 21;
 var ancient_dragon_smithing_stones_checked = 0;
-const remembrances_mausoleums_total = 51;
+const remembrances_mausoleums_total = 52;
 var remembrances_mausoleums_checked = 0;
 const great_runes_total = 11;
 var great_runes_checked = 0;

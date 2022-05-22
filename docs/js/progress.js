@@ -591,10 +591,10 @@ window.progress = {
     ],
   },
   "remembrances_mausoleums": {
-    "total": [0, 51],
+    "total": [0, 52],
     "sections": [
       [0, 45],
-      [0, 6],
+      [0, 7],
     ],
   },
   "great_runes": {

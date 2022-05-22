@@ -365,8 +365,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3725,
-            6687
+            3735,
+            6684
           ],
           "type": "Point"
         },
@@ -802,8 +802,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2681,
-            6113
+            2678,
+            6108
           ],
           "type": "Point"
         },
@@ -1087,7 +1087,7 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2877,
+            2883,
             4091
           ],
           "type": "Point"
@@ -1334,8 +1334,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2280,
-            3691
+            2288,
+            3688
           ],
           "type": "Point"
         },
@@ -2057,7 +2057,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             6095,
-            7269
+            7263
           ],
           "type": "Point"
         },
@@ -2107,6 +2107,272 @@ const feature_data = [
           "id": "bosses_5_29",
           "link": "/checklists/bosses.html#item_5_29",
           "title": "Putrid Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2973,
+            3151
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_6_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_6_4",
+          "link": "/checklists/bosses.html#item_6_4",
+          "title": "Eleonora, Violet Bloody Finger (NPC invader)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3385,
+            2901
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_6_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_6_7",
+          "link": "/checklists/bosses.html#item_6_7",
+          "title": "Wormface"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2647,
+            3224
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_3",
+          "link": "/checklists/bosses.html#item_7_3",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2405,
+            2730
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_12",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_12",
+          "link": "/checklists/bosses.html#item_7_12",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2289,
+            2863
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_14",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_14",
+          "link": "/checklists/bosses.html#item_7_14",
+          "title": "Red Wolf of the Champion"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1925,
+            3007
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_18",
+          "link": "/checklists/bosses.html#item_7_18",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2214,
+            3035
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_22",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_7_22",
+          "link": "/checklists/bosses.html#item_7_22",
+          "title": "Magma Wyrm"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5634,
+            2783
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_4",
+          "link": "/checklists/bosses.html#item_9_4",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6228,
+            2138
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_5",
+          "link": "/checklists/bosses.html#item_9_5",
+          "title": "Erdtree Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6016,
+            1922
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_8",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_8",
+          "link": "/checklists/bosses.html#item_9_8",
+          "title": "Tibia Mariner"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6648,
+            2032
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_9_11",
+          "link": "/checklists/bosses.html#item_9_11",
+          "title": "Borealis, the Freezing Fog"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5415,
+            2939
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_13",
+          "link": "/checklists/bosses.html#item_10_13",
+          "title": "Stray Mimic Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5752,
+            2178
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_5",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_5",
+          "link": "/checklists/bosses.html#item_10_5",
+          "title": "Great Wyrm Theodorix"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5660,
+            2033
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_7",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_10_7",
+          "link": "/checklists/bosses.html#item_10_7",
+          "title": "Putrid Avatar"
         },
         "type": "Feature"
       }
@@ -2500,7 +2766,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             3720,
-            6694
+            6696
           ],
           "type": "Point"
         },
@@ -2519,7 +2785,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             4214,
-            6794
+            6789
           ],
           "type": "Point"
         },
@@ -2537,8 +2803,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3657,
-            7210
+            3659,
+            7225
           ],
           "type": "Point"
         },
@@ -3582,8 +3848,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2776,
-            5104
+            2768,
+            5102
           ],
           "type": "Point"
         },
@@ -4912,8 +5178,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2979,
-            3146
+            2989,
+            3151
           ],
           "type": "Point"
         },
@@ -11973,8 +12239,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4651,
-            6696
+            4649,
+            6705
           ],
           "type": "Point"
         },
@@ -11992,8 +12258,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4143,
-            8129
+            4146,
+            8131
           ],
           "type": "Point"
         },
@@ -12011,8 +12277,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3857,
-            7677
+            3848,
+            7689
           ],
           "type": "Point"
         },
@@ -12030,8 +12296,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3503,
-            8005
+            3524,
+            7990
           ],
           "type": "Point"
         },
@@ -12087,8 +12353,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2509,
-            3993
+            2511,
+            4014
           ],
           "type": "Point"
         },
@@ -12163,8 +12429,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5956,
-            3012
+            5969,
+            3006
           ],
           "type": "Point"
         },
@@ -12183,7 +12449,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             6754,
-            2369
+            2354
           ],
           "type": "Point"
         },
@@ -12200,6 +12466,620 @@ const feature_data = [
       }
     ],
     "id": "flasks",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3628,
+            6618
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00421.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_1",
+          "title": "Strength-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4529,
+            7097
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00414.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_2",
+          "title": "Spiked Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4546,
+            7095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00401.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_3",
+          "title": "Greenspill Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4648,
+            6718
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_1_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00402.png",
+          "icon_size": 35,
+          "id": "crystal_tears_1_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_1_4",
+          "title": "Crimson Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3976,
+            7730
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00424.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_1",
+          "title": "Faith-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3900,
+            8095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00409.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_2",
+          "title": "Crimsonburst Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3924,
+            8095
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_0_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00408.png",
+          "icon_size": 35,
+          "id": "crystal_tears_0_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_0_3",
+          "title": "Opaline Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2171,
+            5659
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00422.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_1",
+          "title": "Dexterity-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1432,
+            5469
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00416.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_2",
+          "title": "Ruptured Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1451,
+            5466
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00404.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_3",
+          "title": "Cerulean Crystal Tear [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2683,
+            4328
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00430.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_4",
+          "title": "Lightning-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2699,
+            4335
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_5",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00431.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_5",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_5",
+          "title": "Holy-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2717,
+            4328
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_6",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00429.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_6",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_6",
+          "title": "Magic-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1802,
+            3922
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_2_7",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00423.png",
+          "icon_size": 35,
+          "id": "crystal_tears_2_7",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_2_7",
+          "title": "Intelligence-Knot Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6031,
+            6200
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00428.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_1",
+          "title": "Flame-Shrouding Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6050,
+            6199
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00410.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_2",
+          "title": "Greenburst Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4893,
+            6141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00411.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_3",
+          "title": "Opaline Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4912,
+            6141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00426.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_4",
+          "title": "Stonebarb Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5501,
+            7093
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_3_5",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00415.png",
+          "icon_size": 35,
+          "id": "crystal_tears_3_5",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_3_5",
+          "title": "Windy Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2978,
+            3135
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00427.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_1",
+          "title": "Purifying Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3373,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00406.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_2",
+          "title": "Speckled Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3394,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_4_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00400.png",
+          "icon_size": 35,
+          "id": "crystal_tears_4_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_4_3",
+          "title": "Crimsonspill Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2390,
+            2720
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_5_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00418.png",
+          "icon_size": 35,
+          "id": "crystal_tears_5_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_5_1",
+          "title": "Leaden Hardtear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2390,
+            2736
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_5_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00425.png",
+          "icon_size": 35,
+          "id": "crystal_tears_5_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_5_2",
+          "title": "Cerulean Hidden Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4211,
+            2851
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00412.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_1",
+          "title": "Winged Crystal Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4283,
+            2895
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00419.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_2",
+          "title": "Twiggy Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4272,
+            2886
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_6_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00403.png",
+          "icon_size": 35,
+          "id": "crystal_tears_6_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_6_3",
+          "title": "Crimson Crystal Tear [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6263,
+            2646
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_7_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00420.png",
+          "icon_size": 35,
+          "id": "crystal_tears_7_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_7_1",
+          "title": "Crimsonwhorl Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6210,
+            2141
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_1",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00405.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_1",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_1",
+          "title": "Cerulean Crystal Tear [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6243,
+            2123
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_2",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00407.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_2",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_2",
+          "title": "Crimson Bubbletear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5649,
+            2046
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_3",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00413.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_3",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_3",
+          "title": "Thorny Cracked Tear"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5670,
+            2046
+          ],
+          "type": "Point"
+        },
+        "id": "crystal_tears_8_4",
+        "properties": {
+          "group": "crystal_tears",
+          "icon": "/map/icons/shadows/keys/crystal_tears/00417.png",
+          "icon_size": 35,
+          "id": "crystal_tears_8_4",
+          "link": "/checklists/flaskof_wondrous_physick.html#item_8_4",
+          "title": "Ruptured Crystal Tear [2]"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "crystal_tears",
     "type": "FeatureCollection"
   },
   {
@@ -12264,8 +13144,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1954,
-            5019
+            1938,
+            5013
           ],
           "type": "Point"
         },
@@ -13124,6 +14004,626 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3070,
+            6443
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_1",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00163.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_1",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_1",
+          "title": "Remembrance of the Grafted"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1871,
+            4825
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_2",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00172.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_2",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_2",
+          "title": "Remembrance of the Full Moon Queen"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6375,
+            6743
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_1_3",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/tools/remembrances/00164.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_1_3",
+          "link": "/checklists/remembrances_mausoleums.html#item_1_3",
+          "title": "Remembrance of the Scarscourge"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3612,
+            8137
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_1",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_1",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_1",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2182,
+            4487
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_2",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_2",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_2",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2458,
+            4316
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_3",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_3",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_3",
+          "title": "Wandering Mausoleum (no bell)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2511,
+            4414
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_7",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_7",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_7",
+          "title": "Wandering Mausoleum (no bell)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5981,
+            1817
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_4",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_4",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_4",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5060,
+            1768
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_5",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_5",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_5",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5418,
+            10698
+          ],
+          "type": "Point"
+        },
+        "id": "remembrances_mausoleums_2_6",
+        "properties": {
+          "group": "remembrances_mausoleums",
+          "icon": "/map/icons/shadows/mausoleum.png",
+          "icon_size": 35,
+          "id": "remembrances_mausoleums_2_6",
+          "link": "/checklists/remembrances_mausoleums.html#item_2_6",
+          "title": "Wandering Mausoleum"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "remembrances_mausoleums",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3891,
+            7227
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_1",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_1",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_1",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1613,
+            4973
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_3",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_3",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_3",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2426,
+            3602
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_4",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_4",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_4",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1529,
+            5943
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_5",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_5",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_5",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1778,
+            5793
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_2",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_2",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_2",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5179,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_6",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_6",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_6",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6156,
+            5856
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_7",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_7",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_7",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5846,
+            6377
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_8",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_8",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_8",
+          "title": "Dragon Heart x5"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4828,
+            6464
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_9",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_9",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_9",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2205,
+            3041
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_10",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_10",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_10",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1936,
+            3004
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_11",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_11",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_11",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6661,
+            2034
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_12",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_12",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_12",
+          "title": "Dragon Heart"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5739,
+            2171
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_0_13",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/03230.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_0_13",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_0_13",
+          "title": "Dragon Heart x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4440,
+            6524
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_1",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_1",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_1",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3898,
+            6485
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_2",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_2",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_2",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2851,
+            4095
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_3",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_3",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_3",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2861,
+            5271
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_4",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_4",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_4",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2658,
+            3232
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_5",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_5",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_5",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2297,
+            2856
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_6",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_6",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_6",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5607,
+            2786
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_7",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_7",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_7",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6028,
+            1921
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_8",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_8",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_8",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5416,
+            2962
+          ],
+          "type": "Point"
+        },
+        "id": "dragon_hearts_death_roots_1_9",
+        "properties": {
+          "group": "dragon_hearts_death_roots",
+          "icon": "/map/icons/shadows/keys/00557.png",
+          "icon_size": 35,
+          "id": "dragon_hearts_death_roots_1_9",
+          "link": "/checklists/dragon_hearts_deathroots.html#item_1_9",
+          "title": "Deathroot"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "dragon_hearts_death_roots",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3060,
             6606
           ],
@@ -13143,7 +14643,7 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4218,
+            4226,
             6800
           ],
           "type": "Point"
@@ -13163,7 +14663,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             2782,
-            5096
+            5092
           ],
           "type": "Point"
         },
@@ -13219,8 +14719,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4184,
-            3587
+            4188,
+            3582
           ],
           "type": "Point"
         },
@@ -13390,6 +14890,873 @@ const feature_data = [
     ],
     "id": "paintings",
     "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            2547,
+            5851
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_1",
+          "link": "/checklists/pots_bottles.html#item_2_1",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2971,
+            5235
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_2",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_2",
+          "link": "/checklists/pots_bottles.html#item_2_2",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2973,
+            5264
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_3",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_3",
+          "link": "/checklists/pots_bottles.html#item_2_3",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1822,
+            3733
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_5",
+          "link": "/checklists/pots_bottles.html#item_2_5",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1900,
+            5036
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_4",
+          "link": "/checklists/pots_bottles.html#item_2_4",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5144,
+            6094
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_6",
+          "link": "/checklists/pots_bottles.html#item_2_6",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4517,
+            3053
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_7",
+          "link": "/checklists/pots_bottles.html#item_2_7",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4493,
+            3056
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_8",
+          "link": "/checklists/pots_bottles.html#item_2_8",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4422,
+            3483
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_9",
+          "link": "/checklists/pots_bottles.html#item_2_9",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5710,
+            2862
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_2_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/03010.png",
+          "icon_size": 35,
+          "id": "pots_bottles_2_10",
+          "link": "/checklists/pots_bottles.html#item_2_10",
+          "title": "Ritual Pot"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "pots_bottles",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3789,
+            7363
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07009.png",
+          "icon_size": 40,
+          "id": "gestures_1_1",
+          "link": "/checklists/gestures.html#item_1_1",
+          "title": "Strength!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4246,
+            7274
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07017.png",
+          "icon_size": 40,
+          "id": "gestures_1_3",
+          "link": "/checklists/gestures.html#item_1_3",
+          "title": "Nod in Thought"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4015,
+            6948
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07019.png",
+          "icon_size": 35,
+          "id": "gestures_1_4",
+          "link": "/checklists/gestures.html#item_1_4",
+          "title": "Grovel for Mercy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4031,
+            6945
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07018.png",
+          "icon_size": 30,
+          "id": "gestures_1_5",
+          "link": "/checklists/gestures.html#item_1_5",
+          "title": "Extreme Repentance"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4040,
+            6960
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_6",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07016.png",
+          "icon_size": 40,
+          "id": "gestures_1_6",
+          "link": "/checklists/gestures.html#item_1_6",
+          "title": "Calm Down!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3648,
+            7223
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_7",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07030.png",
+          "icon_size": 40,
+          "id": "gestures_1_7",
+          "link": "/checklists/gestures.html#item_1_7",
+          "title": "Finger Snap"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3951,
+            6542
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_8",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07028.png",
+          "icon_size": 40,
+          "id": "gestures_1_8",
+          "link": "/checklists/gestures.html#item_1_8",
+          "title": "Triumphant Delight"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3508,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_9",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07033.png",
+          "icon_size": 35,
+          "id": "gestures_1_9",
+          "link": "/checklists/gestures.html#item_1_9",
+          "title": "Crossed Legs"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3473,
+            6777
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_10",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07035.png",
+          "icon_size": 35,
+          "id": "gestures_1_10",
+          "link": "/checklists/gestures.html#item_1_10",
+          "title": "Sitting Sideways"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3131,
+            6686
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_11",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07036.png",
+          "icon_size": 30,
+          "id": "gestures_1_11",
+          "link": "/checklists/gestures.html#item_1_11",
+          "title": "Dozing Cross-Legged"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3695,
+            7325
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_12",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07026.png",
+          "icon_size": 40,
+          "id": "gestures_1_12",
+          "link": "/checklists/gestures.html#item_1_12",
+          "title": "Bravo!"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4027,
+            6977
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_1_13",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07032.png",
+          "icon_size": 35,
+          "id": "gestures_1_13",
+          "link": "/checklists/gestures.html#item_1_13",
+          "title": "Patches' Crouch"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            432,
+            8475
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07041.png",
+          "icon_size": 35,
+          "id": "gestures_2_1",
+          "link": "/checklists/gestures.html#item_2_1",
+          "title": "Prayer"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            502,
+            8332
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07040.png",
+          "icon_size": 40,
+          "id": "gestures_2_2",
+          "link": "/checklists/gestures.html#item_2_2",
+          "title": "What Do You Want?"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            582,
+            8307
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07004.png",
+          "icon_size": 35,
+          "id": "gestures_2_3",
+          "link": "/checklists/gestures.html#item_2_3",
+          "title": "Reverential Bow"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            679,
+            8347
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07003.png",
+          "icon_size": 40,
+          "id": "gestures_2_4",
+          "link": "/checklists/gestures.html#item_2_4",
+          "title": "Curtsy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            556,
+            8608
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_2_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07043.png",
+          "icon_size": 40,
+          "id": "gestures_2_5",
+          "link": "/checklists/gestures.html#item_2_5",
+          "title": "Rapture"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2951,
+            6331
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07010.png",
+          "icon_size": 40,
+          "id": "gestures_3_1",
+          "link": "/checklists/gestures.html#item_3_1",
+          "title": "As You Wish"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2246,
+            5961
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07024.png",
+          "icon_size": 40,
+          "id": "gestures_3_2",
+          "link": "/checklists/gestures.html#item_3_2",
+          "title": "Fire Spur Me"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2265,
+            5548
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07037.png",
+          "icon_size": 25,
+          "id": "gestures_3_3",
+          "link": "/checklists/gestures.html#item_3_3",
+          "title": "Spread Out"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2903,
+            6428
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07046.png",
+          "icon_size": 40,
+          "id": "gestures_3_4",
+          "link": "/checklists/gestures.html#item_3_4",
+          "title": "Erudition"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1861,
+            4836
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_5",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07039.png",
+          "icon_size": 25,
+          "id": "gestures_3_5",
+          "link": "/checklists/gestures.html#item_3_5",
+          "title": "Balled Up"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2436,
+            3636
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_3_6",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07008.png",
+          "icon_size": 40,
+          "id": "gestures_3_6",
+          "link": "/checklists/gestures.html#item_3_6",
+          "title": "Casual Greeting (option 1)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5674,
+            6751
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07042.png",
+          "icon_size": 35,
+          "id": "gestures_4_1",
+          "link": "/checklists/gestures.html#item_4_1",
+          "title": "Desperate Prayer"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6090,
+            7245
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07021.png",
+          "icon_size": 40,
+          "id": "gestures_4_2",
+          "link": "/checklists/gestures.html#item_4_2",
+          "title": "Heartening Cry"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6083,
+            7271
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07001.png",
+          "icon_size": 35,
+          "id": "gestures_4_3",
+          "link": "/checklists/gestures.html#item_4_3",
+          "title": "Polite Bow"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6166,
+            6941
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_4_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07008.png",
+          "icon_size": 40,
+          "id": "gestures_4_4",
+          "link": "/checklists/gestures.html#item_4_4",
+          "title": "Casual Greeting (option 2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2189,
+            2916
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_5_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07002.png",
+          "icon_size": 40,
+          "id": "gestures_5_1",
+          "link": "/checklists/gestures.html#item_5_1",
+          "title": "My Thanks"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3858,
+            3775
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07047.png",
+          "icon_size": 40,
+          "id": "gestures_6_1",
+          "link": "/checklists/gestures.html#item_6_1",
+          "title": "Outer Order"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4208,
+            3647
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07022.png",
+          "icon_size": 40,
+          "id": "gestures_6_2",
+          "link": "/checklists/gestures.html#item_6_2",
+          "title": "By My Sword"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4455,
+            3410
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_3",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07005.png",
+          "icon_size": 35,
+          "id": "gestures_6_3",
+          "link": "/checklists/gestures.html#item_6_3",
+          "title": "My Lord"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4251,
+            3782
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_6_4",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07049.png",
+          "icon_size": 40,
+          "id": "gestures_6_4",
+          "link": "/checklists/gestures.html#item_6_4",
+          "title": "Golden Order Totality"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6023,
+            2115
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_7_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07029.png",
+          "icon_size": 40,
+          "id": "gestures_7_1",
+          "link": "/checklists/gestures.html#item_7_1",
+          "title": "Fancy Spin"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5822,
+            2094
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_7_2",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07023.png",
+          "icon_size": 40,
+          "id": "gestures_7_2",
+          "link": "/checklists/gestures.html#item_7_2",
+          "title": "Hoslow's Oath"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6380,
+            13929
+          ],
+          "type": "Point"
+        },
+        "id": "gestures_8_1",
+        "properties": {
+          "group": "gestures",
+          "icon": "/map/icons/shadows/gestures/07048.png",
+          "icon_size": 40,
+          "id": "gestures_8_1",
+          "link": "/checklists/gestures.html#item_8_1",
+          "title": "Inner Order"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "gestures",
+    "type": "FeatureCollection"
   }
 ];
 const icon_urls = [
@@ -13448,6 +15815,40 @@ const icon_urls = [
   "/map/icons/shadows/armor/15290.png",
   "/map/icons/shadows/ashes_of_war/08385.png",
   "/map/icons/shadows/bolstering/00384.png",
+  "/map/icons/shadows/gestures/07001.png",
+  "/map/icons/shadows/gestures/07002.png",
+  "/map/icons/shadows/gestures/07003.png",
+  "/map/icons/shadows/gestures/07004.png",
+  "/map/icons/shadows/gestures/07005.png",
+  "/map/icons/shadows/gestures/07008.png",
+  "/map/icons/shadows/gestures/07009.png",
+  "/map/icons/shadows/gestures/07010.png",
+  "/map/icons/shadows/gestures/07016.png",
+  "/map/icons/shadows/gestures/07017.png",
+  "/map/icons/shadows/gestures/07018.png",
+  "/map/icons/shadows/gestures/07019.png",
+  "/map/icons/shadows/gestures/07021.png",
+  "/map/icons/shadows/gestures/07022.png",
+  "/map/icons/shadows/gestures/07023.png",
+  "/map/icons/shadows/gestures/07024.png",
+  "/map/icons/shadows/gestures/07026.png",
+  "/map/icons/shadows/gestures/07028.png",
+  "/map/icons/shadows/gestures/07029.png",
+  "/map/icons/shadows/gestures/07030.png",
+  "/map/icons/shadows/gestures/07032.png",
+  "/map/icons/shadows/gestures/07033.png",
+  "/map/icons/shadows/gestures/07035.png",
+  "/map/icons/shadows/gestures/07036.png",
+  "/map/icons/shadows/gestures/07037.png",
+  "/map/icons/shadows/gestures/07039.png",
+  "/map/icons/shadows/gestures/07040.png",
+  "/map/icons/shadows/gestures/07041.png",
+  "/map/icons/shadows/gestures/07042.png",
+  "/map/icons/shadows/gestures/07043.png",
+  "/map/icons/shadows/gestures/07046.png",
+  "/map/icons/shadows/gestures/07047.png",
+  "/map/icons/shadows/gestures/07048.png",
+  "/map/icons/shadows/gestures/07049.png",
   "/map/icons/shadows/incantations/06060.png",
   "/map/icons/shadows/info/paintings/03066.png",
   "/map/icons/shadows/info/paintings/03207.png",
@@ -13468,12 +15869,51 @@ const icon_urls = [
   "/map/icons/shadows/keys/00325.png",
   "/map/icons/shadows/keys/00553.png",
   "/map/icons/shadows/keys/00554.png",
+  "/map/icons/shadows/keys/00557.png",
+  "/map/icons/shadows/keys/03010.png",
   "/map/icons/shadows/keys/03020.png",
   "/map/icons/shadows/keys/03021.png",
   "/map/icons/shadows/keys/03022.png",
   "/map/icons/shadows/keys/03023.png",
   "/map/icons/shadows/keys/03024.png",
   "/map/icons/shadows/keys/03090.png",
+  "/map/icons/shadows/keys/03230.png",
+  "/map/icons/shadows/keys/crystal_tears/00400.png",
+  "/map/icons/shadows/keys/crystal_tears/00401.png",
+  "/map/icons/shadows/keys/crystal_tears/00402.png",
+  "/map/icons/shadows/keys/crystal_tears/00403.png",
+  "/map/icons/shadows/keys/crystal_tears/00404.png",
+  "/map/icons/shadows/keys/crystal_tears/00405.png",
+  "/map/icons/shadows/keys/crystal_tears/00406.png",
+  "/map/icons/shadows/keys/crystal_tears/00407.png",
+  "/map/icons/shadows/keys/crystal_tears/00408.png",
+  "/map/icons/shadows/keys/crystal_tears/00409.png",
+  "/map/icons/shadows/keys/crystal_tears/00410.png",
+  "/map/icons/shadows/keys/crystal_tears/00411.png",
+  "/map/icons/shadows/keys/crystal_tears/00412.png",
+  "/map/icons/shadows/keys/crystal_tears/00413.png",
+  "/map/icons/shadows/keys/crystal_tears/00414.png",
+  "/map/icons/shadows/keys/crystal_tears/00415.png",
+  "/map/icons/shadows/keys/crystal_tears/00416.png",
+  "/map/icons/shadows/keys/crystal_tears/00417.png",
+  "/map/icons/shadows/keys/crystal_tears/00418.png",
+  "/map/icons/shadows/keys/crystal_tears/00419.png",
+  "/map/icons/shadows/keys/crystal_tears/00420.png",
+  "/map/icons/shadows/keys/crystal_tears/00421.png",
+  "/map/icons/shadows/keys/crystal_tears/00422.png",
+  "/map/icons/shadows/keys/crystal_tears/00423.png",
+  "/map/icons/shadows/keys/crystal_tears/00424.png",
+  "/map/icons/shadows/keys/crystal_tears/00425.png",
+  "/map/icons/shadows/keys/crystal_tears/00426.png",
+  "/map/icons/shadows/keys/crystal_tears/00427.png",
+  "/map/icons/shadows/keys/crystal_tears/00428.png",
+  "/map/icons/shadows/keys/crystal_tears/00429.png",
+  "/map/icons/shadows/keys/crystal_tears/00430.png",
+  "/map/icons/shadows/keys/crystal_tears/00431.png",
+  "/map/icons/shadows/mausoleum.png",
   "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/tools/remembrances/00163.png",
+  "/map/icons/shadows/tools/remembrances/00164.png",
+  "/map/icons/shadows/tools/remembrances/00172.png",
   "/map/icons/shadows/weapons/lightbows/11003.png"
 ]

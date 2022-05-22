@@ -1,11 +1,16 @@
 title: Remembrances & Mausoleums
 id: remembrances_mausoleums
+description: "Remembrances are dropped by <i>Elden Ring</i>'s most significant bosses. They have a basic function as consumable rune items, but more importantly, each can be redeemed by Enia for a reward, your choice of one of two pieces of equipment associated with the boss.<br><br>Wandering Mausoleums are crypts on the backs of massive stone turtles that often amble around in a small path. They are covered, either on top or on their feet, in dark magical residue resembling many skulls. To interact with the Mausoleum, you must clear much of the residue off with attacks, until finally it collapses and becomes inert, allowing you to climb inside. Here you can duplicate one of your Remembrances, even if you've used it already, meaning you can redeem both rewards. Only one duplication is allowed per Mausoleum per playthrough. Mausoleums without big bells attached can only duplicate select Remembrances."
+icon: "/img/icons/tools/remembrances/00163.png"
 sections:
   -
     title: "Remembrances"
     items:
       - id: "1_1"
         icon: "/img/icons/tools/remembrances/00163.png"
+        cords: [3070, 6443]
+        map_title: "Remembrance of the Grafted"
+        map_icon: "/map/icons/shadows/tools/remembrances/00163.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance Of The Grafted</a> (20,000 Runes)"]
       -
         - id: "1_1_1"
@@ -16,6 +21,9 @@ sections:
           data: ["Weapon - Grafted Dragon"]
       - id: "1_2"
         icon: "/img/icons/tools/remembrances/00172.png"
+        cords: [1871, 4825]
+        map_title: "Remembrance of the Full Moon Queen"
+        map_icon: "/map/icons/shadows/tools/remembrances/00172.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen\">Remembrance Of The Full Moon Queen</a> (20,000 Runes)"]
       -
         - id: "1_2_1"
@@ -26,6 +34,9 @@ sections:
           data: ["Weapon - Carian Regal Scepter"]
       - id: "1_3"
         icon: "/img/icons/tools/remembrances/00164.png"
+        cords: [6375, 6743]
+        map_title: "Remembrance of the Scarscourge"
+        map_icon: "/map/icons/shadows/tools/remembrances/00164.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Starscourge</a> (40,000 Runes)"]
       -
         - id: "1_3_1"
@@ -103,7 +114,7 @@ sections:
           data: ["Weapon - Morgott's Cursed Sword"]
         - id: "1_10_2"
           icon: "/img/icons/tools/00677.png"
-          data: ["Reusable Item - Regal Omen Bairn"]
+          data: ["Reusable Tool - Regal Omen Bairn"]
       - id: "1_11"
         icon: "/img/icons/tools/remembrances/00171.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance Of The Dragonlord</a> (30,000 Runes)"]
@@ -155,18 +166,40 @@ sections:
           icon: "/img/icons/weapons/greatspears/10641.png"
           data: ["Weapon - Mohgwyn's Sacred Spear"]
   -
-    title: "Walking Mausoleums"
-    link: https://eldenring.wiki.fextralife.com/Walking+Mausoleum
+    title: "Wandering Mausoleums"
     items:
       - id: "2_1"
-        data: ["Weeping Peninsula - In the western area past the Church of Pilgrimage."]
+        data: ["Weeping Peninsula - In the western area past the Church of Pilgrimage. The skulls are on its feet."]
+        cords: [3612, 8137]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum"
       - id: "2_2"
-        data: ["Liurnia of the Lakes - Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace."]
+        data: ["Liurnia of the Lakes - Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace. The skulls are on top."]
+        cords: [2182, 4487]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum"
       - id: "2_3"
-        data: ["Liurnia of the Lakes - Two of them can be found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate Remembrances from Non-Shardbearer bosses.</b>"]
+        data: ["Liurnia of the Lakes - One of two found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate a limited amount of Remembrances.</b> Watch out for its hops. The skulls are on its feet."]
+        cords: [2458, 4316]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum (no bell)"
+      - id: "2_7"
+        data: ["Liurnia of the Lakes - One of two found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate a limited amount of Remembrances.</b> Watch out for its hops. The skulls are on its feet."]
+        cords: [2511, 4414]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum (no bell)"
       - id: "2_4"
-        data: ["Mountaintop of the Giants - Just outside Castle Sol in the northern area."]
+        data: ["Mountaintop of the Giants - Just outside Castle Sol in the northern area. The skulls are on its feet."]
+        cords: [5981, 1817]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum"
       - id: "2_5"
-        data: ["Consecrated Snowfield - Northwest of Ordina, next to the Apostate Derelict Grace"]
+        data: ["Consecrated Snowfield - Northwest of Ordina, next to the Apostate Derelict Grace. Watch out for its murder rain. The skulls are on its feet."]
+        cords: [5060, 1768]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum"
       - id: "2_6"
-        data: ["Deeproot Depths - Near the The Nameless Eternal City Grace."]
+        data: ["Deeproot Depths - Near the The Nameless Eternal City Grace. The skulls are on top."]
+        cords: [5418, 10698]
+        map_icon: "/map/icons/shadows/mausoleum.png"
+        map_title: "Wandering Mausoleum"

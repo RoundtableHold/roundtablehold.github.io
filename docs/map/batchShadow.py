@@ -28,19 +28,28 @@ def dropShadow(sourceFolder, targetFolder, image):
     imagePath = os.path.join(sourceFolder, image) #Creates a complete path to the image
     img = pdb.file_png_load(imagePath, imagePath) #img is a new, active gimp project of the image file
     draw = img.active_drawable #drawables are layers, and the pngs open with only one layer; draw is set to be that layer
+    #
+    #Run the below on icons that are largely transparent
+    # for x in range(4): #Run this many times
+    #     pdb.gimp_image_insert_layer(img, pdb.gimp_layer_copy(draw, 1), None, 1) #Make a clone of the layer
+    # draw = pdb.gimp_image_merge_visible_layers(img, CLIP_TO_IMAGE) #Merges clone layers and main image layer into one layer
+    #
     margin = 50 #Size of margin to be created
     pdb.gimp_image_resize(img, img.width+margin*2, img.height+margin*2, margin, margin) #Empty margin to increase workspace
     shadow = pdb.gimp_layer_new(img, img.width, img.height, 1, 'shadow', 100, 0) #Creates a new layer object the height and width of the image, called 'shadow'
     pdb.gimp_image_insert_layer(img, shadow, None, 1) #Inserts shadow as a layer into img
     pdb.gimp_image_select_item(img, 0, draw) #"Alpha to selection" on draw layer - selects all the content in it
-    pdb.gimp_selection_grow(img, 3) #Grows selection by 6
+    pdb.gimp_selection_grow(img, 3) #Inflates selection
     pdb.gimp_context_set_background((254, 241, 229)) #Sets background color to white, if it wasn't yet
     pdb.gimp_edit_bucket_fill(shadow, 1, 0, 100, 0, FALSE, 0, 0) #Fills selection with white on the shadow layer
     pdb.gimp_selection_none(img) #Unselects all
     pdb.plug_in_gauss(img, shadow, 10, 10, 0) #Blurs shadow layer
+    #
+    #Optional
     # pdb.gimp_image_select_item(img, 0, draw) #"Alpha to selection" on draw layer again
     # pdb.gimp_edit_clear(shadow) #Delete background so it's just the edges
     # pdb.gimp_selection_none(img) #Unselects all
+    #
     pdb.gimp_layer_set_opacity(shadow, 80) #80% opacity for shadow layer
     merged = pdb.gimp_image_merge_visible_layers(img, CLIP_TO_IMAGE) #Merges shadow layer and main image layer into one layer
     pdb.plug_in_autocrop(img, merged) #Crop img to content

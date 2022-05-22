@@ -645,7 +645,7 @@ sections:
         # TODO: add grace link
       - id: "6_12"
         icon: "/img/icons/weapons/colossalweapons/10892.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem's+Halberd\">Golem's Halberd</a>", "Dropped by Golem's wielding this weapon. Can be farmed at Limgrave Twower Bridge Site of Grace.", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem's+Halberd\">Golem's Halberd</a>", "Dropped by Golems wielding this weapon. Can be farmed at Limgrave Twower Bridge Site of Grace.", "Normal"]
         # TODO: add grace link  
       - id: "6_11"
         icon: "/img/icons/weapons/colossalweapons/10891.png"
@@ -987,7 +987,7 @@ sections:
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatbow\">Greatbow</a>", "Can be found in a chest on the upper most level of the Highway lookout Tower north of Leyndell in Altus Plateau. Dropped by Radahn Knight in Fort Gael wielding this weapon", "Normal"]
       - id: "12_2"
         icon: "/img/icons/weapons/greatbows/11081.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>", "Dropped by Golem's wielding this weapon, 2 Golems can be found on the way to the Colosseum in Caelid, 1 more can be found just after reaching the Altus Plateau via the Grand lift of Dectus.", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem+Greatbow\">Golem Greatbow</a>", "Dropped by Golems wielding this weapon, 2 Golems can be found on the way to the Colosseum in Caelid, 1 more can be found just after reaching the Altus Plateau via the Grand lift of Dectus.", "Somber"]
       - id: "12_3"
         icon: "/img/icons/weapons/greatbows/11083.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Greatbow\">Erdtree Greatbow</a>", "Dropped by 1 of the Chariots in the Fringefolk Hero's Grave after droppping one of the Giant Pots hanging from the ceiling on it.", "Somber"]
@@ -1071,7 +1071,7 @@ sections:
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Staff\">Albinauric Staff</a>", "Dropped by an Omenkiller in Volcano Manor near the Guesthouse Site of Grace.", "Somber"]
       - id: "29_12"
         icon: "/img/icons/weapons/glintstonestaffs/11219.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+Loss\">Staff of Loss</a>", "Found on a corpse hanging over on of the balcony's in Sellia, Town of Sorcery in Caelid.", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+Loss\">Staff of Loss</a>", "Found on a corpse hanging over on of the balconies in Sellia, Town of Sorcery in Caelid.", "Somber"]
       - id: "29_13"
         icon: "/img/icons/weapons/glintstonestaffs/11202.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gelmir+Glintstone+Staff\">Gelmir Glintstone Staff</a>", "Dropped by the Man Serpent wielding this weapon in the Throne Room above Volcano Manor.", "Somber"]
@@ -1097,31 +1097,31 @@ sections:
     items:
       - id: "30_1"
         icon: "/img/icons/weapons/sacredseals/11240.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Seal\">Finger Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Seal\">Finger Seal</a>", "Starting item for Confessor and Prophet. Bought from Twin Maiden Husks for 600 Runes", "Normal"]
       - id: "30_2"
         icon: "/img/icons/weapons/sacredseals/11246.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Seal\">Erdtree Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Seal\">Erdtree Seal</a>", "Found on a Corpse after the Omenkiller near the Prison Town Church Site of Grace", "Normal"]
       - id: "30_3"
         icon: "/img/icons/weapons/sacredseals/11247.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golden+Order+Seal\">Golden Order Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golden+Order+Seal\">Golden Order Seal</a>", "Looted from a corpse near the Minor Erdtre Church Site of Grace.", "Normal"]
       - id: "30_4"
         icon: "/img/icons/weapons/sacredseals/11243.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gravel+Stone+Seal\">Gravel Stone Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gravel+Stone+Seal\">Gravel Stone Seal</a>", "Dropped by a Leyndell Knight in the courtyard with the big dragon foot near the West Capital Rampart Site of Grace.", "Normal"]
       - id: "30_5"
         icon: "/img/icons/weapons/sacredseals/11242.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant's+Seal\">Giant's Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant's+Seal\">Giant's Seal</a>", "Can be found in the basement of the Giant-Conquering Hero's Grave.", "Normal"]
       - id: "30_6"
         icon: "/img/icons/weapons/sacredseals/11241.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godslayer's+Seal\">Godslayer's Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godslayer's+Seal\">Godslayer's Seal</a>", "Can be found after the Imp Wall near were the Grafted Scion is in Stormveil Castle.", "Normal"]
       - id: "30_7"
         icon: "/img/icons/weapons/sacredseals/11244.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Clawmark+Seal\">Clawmark Seal</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Clawmark+Seal\">Clawmark Seal</a>", "Reward from Gurranq for the first Deathroot.", "Normal"]
       - id: "30_8"
         icon: "/img/icons/weapons/sacredseals/11249.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Frenzied+Flame+Seal\">Frenzied Flame Seal</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Frenzied+Flame+Seal\">Frenzied Flame Seal</a>", "Reward for finishing Hyetta's questline.", "Somber"]
       - id: "30_9"
         icon: "/img/icons/weapons/sacredseals/11248.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Communion+Seal\">Dragon Communion Seal</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Communion+Seal\">Dragon Communion Seal</a>", "Can be found Fringefolk Hero's Grave guarded by a Knight.", "Somber"]
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
@@ -1129,22 +1129,22 @@ sections:
     items:
       - id: "31_1"
         icon: "/img/icons/weapons/torches/10920.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Torch\">Torch</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Torch\">Torch</a>", "Can be Purchased from Kalé for 200 runes.", "Normal"]
       - id: "31_2"
         icon: "/img/icons/weapons/torches/10927.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast-Repellent+Torch\">Beast-Repllent Torch</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast-Repellent+Torch\">Beast-Repllent Torch</a>", "Sold by the merchant at the Isolated Merchant's Shack in Caelid for 1200 runes.", "Normal"]
       - id: "31_3"
         icon: "/img/icons/weapons/torches/10922.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Steel-Wire+Torch\">Steel-Wire Torch</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Steel-Wire+Torch\">Steel-Wire Torch</a>", "Found on a corpse guarded by two Misbegotten on the upper part of Castle Morne.", "Normal"]
       - id: "31_4"
         icon: "/img/icons/weapons/torches/10928.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sentry's+Torch\">Sentry's Torch</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sentry's+Torch\">Sentry's Torch</a>", "Can be bought from Hermit Merchant at the Hermit Merchant's Shack on the Altus Plateau for 7,000 Runes", "Somber"]
       - id: "31_5"
         icon: "/img/icons/weapons/torches/10926.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ghostflame+Torch\">Ghostflame Torch</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ghostflame+Torch\">Ghostflame Torch</a>", "Can be found just after one enters Nokron, the Eternal City through the Crater. After getting to the first roof section jump on the tower to reach the torch.", "Somber"]
       - id: "31_6"
         icon: "/img/icons/weapons/torches/10924.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/St+Trina's+Torch\">St Trina's Torch</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/St+Trina's+Torch\">St Trina's Torch</a>", "Found in a chest on a hearse southwest in the Consecrated Snowfield in the Mountaintops of the Goants.", "Somber"]
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
@@ -1152,55 +1152,55 @@ sections:
     items:
       - id: "32_4"
         icon: "/img/icons/weapons/smallshields/12003.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rickety+Shield\">Rickety Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rickety+Shield\">Rickety Shield</a>", "Starting equimpent for the Prophet, dropped by Demi-humans.", "Normal"]
       - id: "32_9"
         icon: "/img/icons/weapons/smallshields/12009.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Riveted+Wooden+Shield\">Riveted Wooden Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Riveted+Wooden+Shield\">Riveted Wooden Shield</a>", "Starting equipment for the Warrior. Can be bought for 600 runes from Nomadic Merchant in East Limgrave", "Normal"]
       - id: "32_10"
         icon: "/img/icons/weapons/smallshields/12010.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue-White+Wooden+Shield\">Blue-white Wooden Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blue-White+Wooden+Shield\">Blue-white Wooden Shield</a>", "Found when circling around the buildings when heading to Raya Lucaria Academy Main Gate.", "Normal"]
       - id: "32_8"
         icon: "/img/icons/weapons/smallshields/12008.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scripture+Wooden+Shield\">Scripture Wooden Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Scripture+Wooden+Shield\">Scripture Wooden Shield</a>", "Starting equipment for the Astrologer, dropped by Scimitar and shield wielding skeletons in catacombs.", "Normal"]
       - id: "32_7"
         icon: "/img/icons/weapons/smallshields/12007.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Red+Thorn+Roundshield\">Red Thorn Roundshield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Red+Thorn+Roundshield\">Red Thorn Roundshield</a>", "Starting equipment for the Samurai. Can be bought from the Nomadic Merchant at the Castle Morne Rampart Site of Grace for 600 runes.", "Normal"]
       - id: "32_5"
         icon: "/img/icons/weapons/smallshields/12004.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pillory+Shield\">Pillory Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pillory+Shield\">Pillory Shield</a>", "Inside the Gaol Cave behind an Imp Wall.", "Normal"]
       - id: "32_1"
         icon: "/img/icons/weapons/smallshields/12000.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Buckler\">Buckler</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Buckler\">Buckler</a>", "Starting equipment for the Bandit Class. Can be bought from Gatekeeper Gostoc for 1500 runes after he's become a merchant.", "Normal"]
       - id: "32_12"
         icon: "/img/icons/weapons/smallshields/12012.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Roundshield\">Iron Roundshield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Iron+Roundshield\">Iron Roundshield</a>", "Can be bought from the Nomadic Merchant near the Coastal Cave in Limgrave for 900 runes.", "Normal"]
       - id: "32_13"
         icon: "/img/icons/weapons/smallshields/12013.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gilded+Iron+Shield\">Gilded Iron Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gilded+Iron+Shield\">Gilded Iron Shield</a>", "Found on Corpse west of the Church of Pilgrimage in the Weeping Peninsula.", "Normal"]
       - id: "32_3"
         icon: "/img/icons/weapons/smallshields/12002.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Serpent's+Shield\">Man-serpent's Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Serpent's+Shield\">Man-serpent's Shield</a>", "Dropped by Man-Serpents in Volcano Manor.", "Normal"]
       - id: "32_14"
         icon: "/img/icons/weapons/smallshields/12014.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ice+Crest+Shield\">Ice Crest Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ice+Crest+Shield\">Ice Crest Shield</a>", "Found behind a stone pillar after entering Caria Manor near the eastern wall.", "Normal"]
       - id: "32_11"
         icon: "/img/icons/weapons/smallshields/12011.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rift+Shield\">Rift Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rift+Shield\">Rift Shield</a>", "Starting equipment for the Prisoner. Bought for 1800 runes from the Nomadic Merchant sitting north of Bellum church.", "Normal"]
       - id: "32_2"
         icon: "/img/icons/weapons/smallshields/12001.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer's+Shield\">Perfumer's Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer's+Shield\">Perfumer's Shield</a>", "Dropped by Perfumers wielding this shield. There are 2 farmable Perfumers near the Perfumer's Grotto Site of Grace.", "Normal"]
       - id: "32_6"
         icon: "/img/icons/weapons/smallshields/12053.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shield+of+the+Guilty\">Shield Of The Guilty</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shield+of+the+Guilty\">Shield Of The Guilty</a>", "In the Cellar of the Demi-human Forest Ruins in the Weeping Peninsula.", "Normal"]
       - id: "32_16"
         icon: "/img/icons/weapons/smallshields/12019.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiralhorn+Shield\">Spiralhorn Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiralhorn+Shield\">Spiralhorn Shield</a>", "Found uphill along the lakeshore at the Mausoleum Compound in Liurnia of the Lakes.", "Normal"]
       - id: "32_15"
         icon: "/img/icons/weapons/smallshields/12015.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smoldering+Shield\">Smoldering Shield</a>", "", "Normal"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smoldering+Shield\">Smoldering Shield</a>", "From the Prison Town Church Site of Grace exit to the left and drop down until you reach a confined Magma Graveyard area. The shield is sitting on a corpse.", "Normal"]
       - id: "32_17"
         icon: "/img/icons/weapons/smallshields/12020.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Coil+Shield\">Coil Shield</a>", "", "Somber"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Coil+Shield\">Coil Shield</a>", "Found in the Volcano Cave from the first large room take the right most exit drop down onto a cliff below and enter the tunnel until you reach a room with a corpse holding the shield.", "Somber"]
   -
     title: Medium Shields
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
