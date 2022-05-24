@@ -1,10 +1,10 @@
 (function ($) {
     'use strict';
         
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 992) {
         $('#layer-menu').removeClass('show');
-        $('#layer-menu').removeClass('d-none');
     }
+    $('#layer-menu').removeClass('d-none');
 
     const loadImage = src =>
         new Promise((resolve, reject) => {

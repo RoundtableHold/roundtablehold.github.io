@@ -862,9 +862,16 @@ def make_map():
                     i(cls='bi bi-caret-left-fill m-0 p-0')
                     i(cls='bi bi-caret-right-fill m-0 p-0')
                     # h3('Map', cls='offcanvas-title')
-                with div(cls='offcanvas-body'):
-                    with div(cls='text-center mb-2'):
-                        h3('Layers')
+                with div(cls='offcanvas-body overflow-auto h-100'):
+                    with div(cls='d-flex align-items-center justify-content-between'):
+                        h3('Layers', cls='offcanvas-title')
+                        button(type='button', cls='btn-close text-reset', data_bs_dismiss='offcanvas')
+                    hr()
+                    # with div(cls='row mb-2'):
+                    #     with div(cls='col-auto order-last'):
+                    #         button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
+                    #     with div(cls='col text-center'):
+                    #         h3('Layers')
                     with div(cls='mb-2 d-flex justify-content-evenly'):
                         button('Show All', type='button', cls='btn btn-secondary btn-sm', id='show-all')
                         button('Hide All', type='button', cls='btn btn-secondary btn-sm', id='hide-all')
@@ -886,13 +893,9 @@ def make_map():
                                         b += guide[0]
                                         b += span(id=guide[1] + '_progress_total')
                     hr()
-                    with div(cls='row mb-2'):
-                        with div(cls='col-auto order-last'):
-                            button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
-                        with div(cls='col'):
-                            with div(cls='form-check'):
-                                input_(cls='form-check-input', type='checkbox', value='', id='hideCompleted')
-                                label('Hide Completed', cls='form-check-label', _for='hideCompleted')
+                    with div(cls='form-check'):
+                        input_(cls='form-check-input', type='checkbox', value='', id='hideCompleted')
+                        label('Hide Completed', cls='form-check-label', _for='hideCompleted')
                                         # l = label(cls='form-check-label layer-button', _for=guide[1])
                                         # l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
                                         # if guide[2]:

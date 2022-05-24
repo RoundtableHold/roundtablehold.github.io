@@ -196,10 +196,12 @@
           <i class="bi bi-caret-left-fill m-0 p-0"></i>
           <i class="bi bi-caret-right-fill m-0 p-0"></i>
         </button>
-        <div class="offcanvas-body">
-          <div class="text-center mb-2">
-            <h3>Layers</h3>
+        <div class="offcanvas-body overflow-auto h-100">
+          <div class="d-flex align-items-center justify-content-between">
+            <h3 class="offcanvas-title">Layers</h3>
+            <button class="btn-close text-reset" data-bs-dismiss="offcanvas" type="button"></button>
           </div>
+          <hr>
           <div class="mb-2 d-flex justify-content-evenly">
             <button class="btn btn-secondary btn-sm" id="show-all" type="button">Show All</button>
             <button class="btn btn-secondary btn-sm" id="hide-all" type="button">Hide All</button>
@@ -306,16 +308,9 @@
             </label>
           </div>
           <hr>
-          <div class="row mb-2">
-            <div class="col-auto order-last">
-              <button class="btn-close text-reset d-lg-none" data-bs-dismiss="offcanvas" type="button"></button>
-            </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" id="hideCompleted" type="checkbox" value="">
-                <label class="form-check-label" for="hideCompleted">Hide Completed</label>
-              </div>
-            </div>
+          <div class="form-check">
+            <input class="form-check-input" id="hideCompleted" type="checkbox" value="">
+            <label class="form-check-label" for="hideCompleted">Hide Completed</label>
           </div>
         </div>
       </div>
