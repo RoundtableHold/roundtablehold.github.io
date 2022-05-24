@@ -129,3 +129,8 @@ div.completed img {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
+
+.layer-button {
+    cursor: pointer;
+    text-decoration: underline;
+}

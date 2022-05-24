@@ -196,128 +196,128 @@
           <i class="bi bi-caret-left-fill m-0 p-0"></i>
           <i class="bi bi-caret-right-fill m-0 p-0"></i>
         </button>
-        <div class="offcanvas-body">
-          <div class="row mb-2">
-            <div class="col-auto order-last">
-              <button class="btn-close text-reset d-lg-none" data-bs-dismiss="offcanvas" type="button"></button>
-            </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" id="hideCompleted" type="checkbox" value="">
-                <label class="form-check-label" for="hideCompleted">Hide Completed</label>
-              </div>
-            </div>
+        <div class="offcanvas-body overflow-auto h-100">
+          <div class="d-flex align-items-center justify-content-between">
+            <h3 class="offcanvas-title">Layers</h3>
+            <button class="btn-close text-reset" data-bs-dismiss="offcanvas" type="button"></button>
+          </div>
+          <hr>
+          <div class="mb-2 d-flex justify-content-evenly">
+            <button class="btn btn-secondary btn-sm" id="show-all" type="button">Show All</button>
+            <button class="btn btn-secondary btn-sm" id="hide-all" type="button">Hide All</button>
           </div>
           <h4>Locations</h4>
-          <hr class="m-0">
           <div class="form-check ps-0">
-            <label class="form-check-label" for="bosses">
-              <input class="form-check-input category-filter" hidden="" id="bosses" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/MENU_MAP_memo_20.png" height="20" loading="lazy" width="20">Bosses
+            <input autocomplete="off" class="btn-check category-filter" id="bosses" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="bosses">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_memo_20.png" height="25" loading="lazy" width="25">Bosses
               <span id="bosses_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="caves">
-              <input class="form-check-input category-filter" hidden="" id="caves" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/MENU_MAP_30.png" height="20" loading="lazy" width="20">Landmarks &amp; Locations
+            <input autocomplete="off" class="btn-check category-filter" id="caves" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="caves">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_30.png" height="25" loading="lazy" width="25">Landmarks &amp; Locations
               <span id="caves_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="graces">
-              <input class="form-check-input category-filter" hidden="" id="graces" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="20" loading="lazy" width="20">Sites of Grace
+            <input autocomplete="off" class="btn-check category-filter" id="graces" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="graces">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_01_Bonfire.png" height="25" loading="lazy" width="25">Sites of Grace
               <span id="graces_progress_total"></span>
             </label>
           </div>
           <h4>Upgrades &amp; Unlocks</h4>
-          <hr class="m-0">
           <div class="form-check ps-0">
-            <label class="form-check-label" for="flasks">
-              <input class="form-check-input category-filter" hidden="" id="flasks" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/bolstering/edited/00383.png" height="20" loading="lazy" width="20">Golden Seeds &amp; Sacred Tears
+            <input autocomplete="off" class="btn-check category-filter" id="flasks" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="flasks">
+              <img class="me-1" data-src="/img/icons/bolstering/edited/00383.png" height="25" loading="lazy" width="25">Golden Seeds &amp; Sacred Tears
               <span id="flasks_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="crystal_tears">
-              <input class="form-check-input category-filter" hidden="" id="crystal_tears" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/crystal_tears/00416.png" height="20" loading="lazy" width="20">Flask of Wondrous Physick
+            <input autocomplete="off" class="btn-check category-filter" id="crystal_tears" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="crystal_tears">
+              <img class="me-1" data-src="/img/icons/keys/crystal_tears/00416.png" height="25" loading="lazy" width="25">Flask of Wondrous Physick
               <span id="crystal_tears_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="memory_stones_talisman_pouches">
-              <input class="form-check-input category-filter" hidden="" id="memory_stones_talisman_pouches" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/edited/00554.png" height="20" loading="lazy" width="20">Memory Stones &amp; Talisman Pouches
+            <input autocomplete="off" class="btn-check category-filter" id="memory_stones_talisman_pouches" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="memory_stones_talisman_pouches">
+              <img class="me-1" data-src="/img/icons/keys/edited/00554.png" height="25" loading="lazy" width="25">Memory Stones &amp; Talisman Pouches
               <span id="memory_stones_talisman_pouches_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="scrolls_prayerbooks">
-              <input class="form-check-input category-filter" hidden="" id="scrolls_prayerbooks" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/edited/00318.png" height="20" loading="lazy" width="20">Scrolls and Prayerbooks
+            <input autocomplete="off" class="btn-check category-filter" id="scrolls_prayerbooks" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="scrolls_prayerbooks">
+              <img class="me-1" data-src="/img/icons/keys/edited/00318.png" height="25" loading="lazy" width="25">Scrolls and Prayerbooks
               <span id="scrolls_prayerbooks_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="whetstones">
-              <input class="form-check-input category-filter" hidden="" id="whetstones" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/edited/03090.png" height="20" loading="lazy" width="20">Whetstones
+            <input autocomplete="off" class="btn-check category-filter" id="whetstones" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="whetstones">
+              <img class="me-1" data-src="/img/icons/keys/edited/03090.png" height="25" loading="lazy" width="25">Whetstones
               <span id="whetstones_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="bell_bearings">
-              <input class="form-check-input category-filter" hidden="" id="bell_bearings" type="checkbox" value="">
-              <img class="me-1" data-src="/map/icons/MENU_MAP_80.png" height="20" loading="lazy" width="20">Bell Bearings
+            <input autocomplete="off" class="btn-check category-filter" id="bell_bearings" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="bell_bearings">
+              <img class="me-1" data-src="/map/icons/MENU_MAP_80.png" height="25" loading="lazy" width="25">Bell Bearings
               <span id="bell_bearings_progress_total"></span>
             </label>
           </div>
           <h4>Collectables</h4>
-          <hr class="m-0">
           <div class="form-check ps-0">
-            <label class="form-check-label" for="remembrances_mausoleums">
-              <input class="form-check-input category-filter" hidden="" id="remembrances_mausoleums" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/tools/remembrances/00163.png" height="20" loading="lazy" width="20">Remembrances &amp; Mausoleums
+            <input autocomplete="off" class="btn-check category-filter" id="remembrances_mausoleums" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="remembrances_mausoleums">
+              <img class="me-1" data-src="/img/icons/tools/remembrances/00163.png" height="25" loading="lazy" width="25">Remembrances &amp; Mausoleums
               <span id="remembrances_mausoleums_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="dragon_hearts_death_roots">
-              <input class="form-check-input category-filter" hidden="" id="dragon_hearts_death_roots" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/edited/03230.png" height="20" loading="lazy" width="20">Dragon Hearts &amp; Deathroots
+            <input autocomplete="off" class="btn-check category-filter" id="dragon_hearts_death_roots" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="dragon_hearts_death_roots">
+              <img class="me-1" data-src="/img/icons/keys/edited/03230.png" height="25" loading="lazy" width="25">Dragon Hearts &amp; Deathroots
               <span id="dragon_hearts_death_roots_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="paintings">
-              <input class="form-check-input category-filter" hidden="" id="paintings" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/info/paintings/edited/03066.png" height="20" loading="lazy" width="20">Paintings
+            <input autocomplete="off" class="btn-check category-filter" id="paintings" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="paintings">
+              <img class="me-1" data-src="/img/icons/info/paintings/edited/03066.png" height="25" loading="lazy" width="25">Paintings
               <span id="paintings_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="pots_bottles">
-              <input class="form-check-input category-filter" hidden="" id="pots_bottles" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/keys/edited/00504.png" height="20" loading="lazy" width="20">Pots &amp; Bottles
+            <input autocomplete="off" class="btn-check category-filter" id="pots_bottles" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="pots_bottles">
+              <img class="me-1" data-src="/img/icons/keys/edited/00504.png" height="25" loading="lazy" width="25">Pots &amp; Bottles
               <span id="pots_bottles_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="tools">
-              <input class="form-check-input category-filter" hidden="" id="tools" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/tools/edited/00009.png" height="20" loading="lazy" width="20">Tools &amp; Multiplayer
+            <input autocomplete="off" class="btn-check category-filter" id="tools" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="tools">
+              <img class="me-1" data-src="/img/icons/tools/edited/00009.png" height="25" loading="lazy" width="25">Tools &amp; Multiplayer
               <span id="tools_progress_total"></span>
             </label>
           </div>
           <div class="form-check ps-0">
-            <label class="form-check-label" for="gestures">
-              <input class="form-check-input category-filter" hidden="" id="gestures" type="checkbox" value="">
-              <img class="me-1" data-src="/img/icons/gestures/07050.png" height="20" loading="lazy" width="20">Gestures
+            <input autocomplete="off" class="btn-check category-filter" id="gestures" type="checkbox">
+            <label class="btn btn-sm btn-secondary w-100 text-start" for="gestures">
+              <img class="me-1" data-src="/img/icons/gestures/07050.png" height="25" loading="lazy" width="25">Gestures
               <span id="gestures_progress_total"></span>
             </label>
+          </div>
+          <hr>
+          <div class="form-check">
+            <input class="form-check-input" id="hideCompleted" type="checkbox" value="">
+            <label class="form-check-label" for="hideCompleted">Hide Completed</label>
           </div>
         </div>
       </div>

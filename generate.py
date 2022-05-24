@@ -862,14 +862,19 @@ def make_map():
                     i(cls='bi bi-caret-left-fill m-0 p-0')
                     i(cls='bi bi-caret-right-fill m-0 p-0')
                     # h3('Map', cls='offcanvas-title')
-                with div(cls='offcanvas-body'):
-                    with div(cls='row mb-2'):
-                        with div(cls='col-auto order-last'):
-                            button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
-                        with div(cls='col'):
-                            with div(cls='form-check'):
-                                input_(cls='form-check-input', type='checkbox', value='', id='hideCompleted')
-                                label('Hide Completed', cls='form-check-label', _for='hideCompleted')
+                with div(cls='offcanvas-body overflow-auto h-100'):
+                    with div(cls='d-flex align-items-center justify-content-between'):
+                        h3('Layers', cls='offcanvas-title')
+                        button(type='button', cls='btn-close text-reset', data_bs_dismiss='offcanvas')
+                    hr()
+                    # with div(cls='row mb-2'):
+                    #     with div(cls='col-auto order-last'):
+                    #         button(type='button', cls='btn-close text-reset d-lg-none', data_bs_dismiss='offcanvas')
+                    #     with div(cls='col text-center'):
+                    #         h3('Layers')
+                    with div(cls='mb-2 d-flex justify-content-evenly'):
+                        button('Show All', type='button', cls='btn btn-secondary btn-sm', id='show-all')
+                        button('Hide All', type='button', cls='btn btn-secondary btn-sm', id='hide-all')
                     for name, l in dropdowns:
                         should_print_category = False
                         for guide in l:
@@ -878,16 +883,25 @@ def make_map():
                                 break
                         if should_print_category:
                             h4(name)
-                            hr(cls='m-0')
                             for guide in l:
                                 if guide[1] in pages_in_map:
                                     with div(cls='form-check ps-0'):
-                                        l = label(cls='form-check-label', _for=guide[1])
-                                        l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
+                                        input_(type='checkbox', cls='btn-check category-filter', id=guide[1], autocomplete='off')
+                                        b = label(cls='btn btn-sm btn-secondary w-100 text-start', _for=guide[1])
                                         if guide[2]:
-                                            l += img(data_src=guide[2], loading='lazy', height=20, width=20, cls='me-1')
-                                        l += guide[0]
-                                        l += span(id=guide[1] + "_progress_total")
+                                            b += img(data_src=guide[2], loading='lazy', height=25, width=25, cls='me-1')
+                                        b += guide[0]
+                                        b += span(id=guide[1] + '_progress_total')
+                    hr()
+                    with div(cls='form-check'):
+                        input_(cls='form-check-input', type='checkbox', value='', id='hideCompleted')
+                        label('Hide Completed', cls='form-check-label', _for='hideCompleted')
+                                        # l = label(cls='form-check-label layer-button', _for=guide[1])
+                                        # l += input_(cls='form-check-input category-filter', type='checkbox', value='', id=guide[1], hidden='')
+                                        # if guide[2]:
+                                        #     l += img(data_src=guide[2], loading='lazy', height=20, width=20, cls='me-1')
+                                        # l += guide[0]
+                                        # l += span(id=guide[1] + "_progress_total")
                         # with li(cls="dropdown nav-item"):
                         #     a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
                         #     with ul(cls="dropdown-menu"):
