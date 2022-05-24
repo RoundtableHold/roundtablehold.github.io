@@ -96,14 +96,15 @@ sections:
         cords: [3650, 6420]
         map_title: "Recusant Henricus (NPC Invader)"
       - id: "2_30"
-        data: ["Grafted Scion (x2)", "Stranded Graveyard/Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman."]
-        
-      - id: "2_31"
-        data: ["Elite Phantom", "Stranded Graveyard/Fringefolk Hero's Grave", "Dragon Communion Seal", "Head down the Fringefolk tunnel until the path splits (continue downward or head back upwards). Take the path heading up until you reach the end."]  #TODO: ADD RUNES
-        
+        data: ["Grafted Scion (x2)", "Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman."]
+        cords: [3772, 7304]
+      # - id: "2_31"
+      #   data: ["Elite Phantom", "Fringefolk Hero's Grave", "Dragon Communion Seal", "Head down the Fringefolk tunnel until the path splits (continue downward or head back upwards). Take the path heading up until you reach the end."]  #TODO: ADD RUNES
+      #   cords: [3750, 7300]
+      # This is a normal, respawning enemy; should we list it?        
       - id: "2_23"
-        data: ["Ulcerated Tree Spirit", "Stranded Graveyard/Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", ""]
-        
+        data: ["Ulcerated Tree Spirit", "Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", ""]
+        cords: [3775, 7327]
       - id: "2_24"
         data: ["Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and guards the Prince of Death's Pustule Talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace."] #TODO: ADD RUNES
         cords: [3088, 6708]
@@ -487,7 +488,7 @@ sections:
         map_title: "Starscourge Radahn"
       - id: "5_29"
         data: ["Putrid Tree Spirit", "War-Dead Catacombs", "67,200 runes, Golden Seed, Redmane Knight Ogha Spirit Ashes (Legendary)", "Accessible after defeating Radahn, in his arena."]
-        cords: [6307, 6138]
+        cords: [6307, 6133]
         map_title: "Putrid Tree Spirit"
   -
     title: "Altus Plateau"
@@ -568,7 +569,7 @@ sections:
         data: ["Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
       - id: "7_14"
         data: ["Red Wolf of the Champion", "Gelmir Hero's Grave", "21,000 runes, Bloodhound Knight Floh Ashes", ""]
-        cords: [2289, 2863]
+        cords: [2505, 2918]
       - id: "7_15"
         data: ["Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Fallingstar Beast Jaw Colossal Weapon, Somber Smithing Stone, Smithing Stone [6] (x5)", "Field boss."]
       - id: "7_17"
@@ -603,6 +604,7 @@ sections:
     items:
       - id: "8_1"
         data: ["Ulcerated Tree Spirit", "Capital Outskirts (Southwest)", "Golden Seed", "Field boss."]
+        cords: [3677, 3653]
       - id: "8_2"
         data: ["Valiant Gargoyle", "Leyndell Entrance", "30,000 runes", ""]
       - id: "8_3"
@@ -623,6 +625,7 @@ sections:
         data: ["Erdtree Avatar", "Leyndell Main Road", "Lord's Rune", ""]
       - id: "8_11"
         data: ["Ulcerated Tree Spirit", "Lower Capital Church", "9828 runes, Golden Seed", "Field miniboss."]
+        cords: [4288, 3439]
       - id: "8_12"
         data: ["Valiant Gargoyle", "West Capital Rampart", "30,000 runes", ""]
       - id: "8_13"
@@ -651,7 +654,7 @@ sections:
         data: ["Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set", ""]
       - id: "9_4"
         data: ["Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
-        cords: [5634, 2783]
+        cords: [5769, 2818]
       - id: "9_5"
         data: ["Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
         cords: [6228, 2138]
@@ -681,7 +684,7 @@ sections:
     items:
       - id: "10_13"
         data: ["Stray Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
-        cords: [5415, 2939]
+        cords: [5419, 2884]
       - id: "10_1"
         data: ["Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort", ""]
       - id: "10_2"
@@ -786,6 +789,9 @@ sections:
     items:
       - id: "17_1"
         data: ["Dragonkin Soldier", "Lake of Rot (South East)", "58,000 runes, Dragonscale Blade", "Field boss. Raise four platforms around him (use pressure plate east of him) to avoid Scarlet Rot."]
+      - id: "17_3"
+        data: ["Lesser Putrid Tree Spirit", "Grand Cloister", "11,193 runes, Golden Seed", "Miniboss. Hiding at the bottom of the rot waterfall beneath the Grand Cloister Site of Grace."]
+        cords: [3156, 12607]
       - id: "17_2"
         data: ["Astel, Naturalborn of the Void", "Grand Cloister", "80,000 runes, Remembrance of the Naturalborn", "Accessible via a coffin in Grand Cloister. Required for Ranni's questline. Grants Achievement/Trophy: Astel, Naturalborn of the Void."]
   -

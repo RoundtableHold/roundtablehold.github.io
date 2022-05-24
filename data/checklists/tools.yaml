@@ -12,7 +12,9 @@ sections:
         data: ["Memory of Grace", "Return to last Site of Grace; destroys currently held runes, but leaves intact existing rune retrieval", "Granted automatically at start of game"]
       - id: "1_2"
         icon: "/img/icons/tools/edited/00092.png"
+        map_icon: "/map/icons/shadows/tools/00092.png"
         data: ["Telescope", "Shift camera into first person view", "Bought from Kalé in Church of Elleh, Limgrave, for 500 runes"]
+        cords: [3668, 7193]
       - id: "1_3"
         icon: "/img/icons/tools/edited/00013.png"
         data: ["Spectral Steed Whistle", "Summon or dismiss Torrent", "Obtained by meeting Melina at your third overworld Site of Grace"]
@@ -23,13 +25,20 @@ sections:
         cords: [4657, 6711]
       - id: "1_4"
         icon: "/img/icons/tools/edited/03068.png"
+        map_icon: "/map/icons/shadows/tools/03068.png"
+        map_icon_size: 25
         data: ["Mimic's Veil", "Spend 6 FP to disguise self as an inanimate object", "Stormveil Castle: Up the stairs from the room with the Grafted Scion, in the room just past the dropoff for the Chrysalid's Memento, in a chest guarded by a Banished Knight"]
+        cords: [3134, 6721]
       - id: "1_5"
         icon: "/img/icons/tools/edited/00093.png"
+        map_icon: "/map/icons/shadows/tools/00093.png"
         data: ["Lantern", "Dimly illuminate surroundings", "Bought for 1800 runes from either the Isolated Merchant at the Isolated Merchant's Shack Site of Grace in Weeping Peninsula or the Nomadic Merchant by the Liurnia Lake Shore Site of Grace in Liurnia"]
+        cords: [3449, 8218]
       - id: "1_6"
         icon: "/img/icons/tools/edited/00625.png"
+        map_icon: "/map/icons/shadows/tools/00625.png"
         data: ["Pureblood Knight's Medal", "Teleport self to Dynasty Mausoleum Entrance Site of Grace; can be used to warp out of any combat safely", "Given by Varré at Rose Church, Liurnia, at the end of his various requests"]
+        cords: [1813, 5387]
   -
     title: Combat
     table: [Name, Description, Location]
@@ -101,7 +110,7 @@ sections:
         icon: "/img/icons/tools/online/00602.png"
         data: ["Small Golden Effigy", "Send your cooperative summon sign to all nearby activated Martyr Effigies at once in online play", "Found on the first Martyr Effigy, nearby The First Step Site of Grace"]
       - id: "4_5"
-        icon: "/img/icons/tools/online/00583.png"
+        icon: "/img/icons/tools/online/00014.png"
         data: ["Furlcalling Finger Remedy", "In online play, view summon signs placed by other players, whether cooperative or competitive; item is refunded unless you successfully summon someone", "Not reusable, but easily craftable with two Erdleaf Flowers, dropped by invaders including many NPCs, and a frequent loot pickup or shop item."]
       - id: "4_6"
         icon: "/img/icons/tools/online/00008.png"

@@ -4433,15 +4433,11 @@
   },
   {
     "id": "/checklists/bosses.html#item_2_30",
-    "text": "Grafted Scion (x2) Stranded Graveyard/Fringefolk Hero's Grave 583 runes Will drop from above once you grab the Erdtree's Favor Talisman."
-  },
-  {
-    "id": "/checklists/bosses.html#item_2_31",
-    "text": "Elite Phantom Stranded Graveyard/Fringefolk Hero's Grave Dragon Communion Seal Head down the Fringefolk tunnel until the path splits (continue downward or head back upwards). Take the path heading up until you reach the end."
+    "text": "Grafted Scion (x2) Fringefolk Hero's Grave 583 runes Will drop from above once you grab the Erdtree's Favor Talisman."
   },
   {
     "id": "/checklists/bosses.html#item_2_23",
-    "text": "Ulcerated Tree Spirit Stranded Graveyard/Fringefolk Hero's Grave 15,000 runes, Banished Knight Oleg Ashes, Golden Seed "
+    "text": "Ulcerated Tree Spirit Fringefolk Hero's Grave 15,000 runes, Banished Knight Oleg Ashes, Golden Seed "
   },
   {
     "id": "/checklists/bosses.html#item_2_24",
@@ -5290,6 +5286,10 @@
   {
     "id": "/checklists/bosses.html#item_17_1",
     "text": "Dragonkin Soldier Lake of Rot (South East) 58,000 runes, Dragonscale Blade Field boss. Raise four platforms around him (use pressure plate east of him) to avoid Scarlet Rot."
+  },
+  {
+    "id": "/checklists/bosses.html#item_17_3",
+    "text": "Lesser Putrid Tree Spirit Grand Cloister 11,193 runes, Golden Seed Miniboss. Hiding at the bottom of the rot waterfall beneath the Grand Cloister Site of Grace."
   },
   {
     "id": "/checklists/bosses.html#item_17_2",
@@ -12856,10 +12856,6 @@
     "text": "Under a Golden Tree on the path to Stormveil Castle"
   },
   {
-    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_43",
-    "text": "Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"
-  },
-  {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_4",
     "text": "Reward for finishing Roderika's quest, can otherwise be found at her shack"
   },
@@ -12874,6 +12870,10 @@
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_7",
     "text": "Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"
+  },
+  {
+    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_43",
+    "text": "Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_8",
@@ -12936,6 +12936,14 @@
     "text": "under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"
   },
   {
+    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_29",
+    "text": "under a Golden Tree in the ravine, south of Seethewater Cave"
+  },
+  {
+    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_30",
+    "text": "under a Golden Tree, northwest of Road of Iniquity"
+  },
+  {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_22",
     "text": "under a large Golden Tree near the Outer Wall Phantom Tree Grace"
   },
@@ -12964,28 +12972,20 @@
     "text": "reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"
   },
   {
-    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_29",
-    "text": "under a Golden Tree in the ravine, near Gelmir Hero's Grave"
-  },
-  {
-    "id": "/checklists/golden_seeds_sacred_tears.html#item_1_30",
-    "text": "under a Golden Tree, northwest of Road of Iniquity"
-  },
-  {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_31",
-    "text": "under a Golden Tree, on the way to the Grand Lift of Rold"
+    "text": "under a Golden Tree in the Forbidden Lands"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_32",
-    "text": "reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs"
+    "text": "reward for defeating Ulcerated Tree Spirit in the Giants' Mountaintop Catacombs"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_33",
-    "text": "under a Golden Tree, northwest of the Foot of the Forge Grace"
+    "text": "under a Golden Tree, northeast of the Foot of the Forge Grace"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_34",
-    "text": "under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem"
+    "text": "under a Golden Tree, in the ravine between the Minor Erdtree and Heretical Rise, guarded by a Giant Golem"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_35",
@@ -13005,7 +13005,7 @@
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_39",
-    "text": "under a Golden Tree in the upper area of Siofra River, accessible via waygate"
+    "text": "under a Golden Tree accessible by crossing a stone bridge southwest of the Below the Well Site of Grace"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_40",
@@ -13013,7 +13013,7 @@
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_41",
-    "text": "under a Golden Tree in the northwest of Ainsel River, accessible via elevator"
+    "text": "under a Golden Tree in the northwest of Nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the Moon of Nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom"
   },
   {
     "id": "/checklists/golden_seeds_sacred_tears.html#item_1_42",
@@ -13113,11 +13113,11 @@
   },
   {
     "id": "/checklists/flaskof_wondrous_physick.html#item_2_5",
-    "text": "Holy-Shrouding Cracked Tear Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace +20% magic damage, lasts 180 seconds"
+    "text": "Holy-Shrouding Cracked Tear Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace +20% holy damage, lasts 180 seconds"
   },
   {
     "id": "/checklists/flaskof_wondrous_physick.html#item_2_6",
-    "text": "Magic-Shrouding Cracked Tear Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace +20% holy damage, lasts 180 seconds"
+    "text": "Magic-Shrouding Cracked Tear Reward for defeating the Erdtree Avatar south of the Frenzied Flame Village Outskirts Grace +20% magic damage, lasts 180 seconds"
   },
   {
     "id": "/checklists/flaskof_wondrous_physick.html#item_2_7",
