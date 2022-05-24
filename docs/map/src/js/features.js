@@ -15311,7 +15311,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_1",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_1",
           "title": "Deathroot"
@@ -15330,7 +15330,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_2",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_2",
           "title": "Deathroot"
@@ -15349,7 +15349,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_3",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_3",
           "title": "Deathroot"
@@ -15368,7 +15368,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_4",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_4",
           "title": "Deathroot"
@@ -15387,7 +15387,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_5",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_5",
           "title": "Deathroot"
@@ -15406,7 +15406,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_6",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_6",
           "title": "Deathroot"
@@ -15425,7 +15425,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_7",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_7",
           "title": "Deathroot"
@@ -15444,7 +15444,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_8",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_8",
           "title": "Deathroot"
@@ -15463,7 +15463,7 @@ const feature_data = [
         "properties": {
           "group": "dragon_hearts_death_roots",
           "icon": "/map/icons/shadows/keys/00557.png",
-          "icon_size": 35,
+          "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_9",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_9",
           "title": "Deathroot"
