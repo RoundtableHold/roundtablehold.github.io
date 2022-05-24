@@ -12,101 +12,184 @@ sections:
         data: ["Can choose one as a Keepsake"]
       - id: "1_3"
         data: ["Under a Golden Tree on the path to Stormveil Castle"]
-      - id: "1_43"
-        data: ["Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"]
+        cords: [3501, 6860]
+        map_title: "Golden Seed"
       - id: "1_4"
         data: ["Reward for finishing Roderika's quest, can otherwise be found at her shack"]
+        cords: [724, 8465]
+        map_title: "Golden Seed"
       - id: "1_5"
         data: ["Under Golden Tree in front of Fort Haight"]
+        cords: [4674, 7344]
+        map_title: "Golden Seed"
       - id: "1_6"
         data: ["Drops from Kenneth Haight if killed"]
+        cords: [4393, 6811]
+        map_title: "Golden Seed"
       - id: "1_7"
         data: ["Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
+        cords: [3789, 7318]
+        map_title: "Golden Seed"
+      - id: "1_43"
+        data: ["Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"]
+        cords: [3175, 6585]
+        map_title: "Golden Seed"
       - id: "1_8"
         data: ["Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
+        cords: [3091, 6723]
+        map_title: "Golden Seed"
       - "Weeping Peninsula"
       - id: "1_1"
         data: ["Under a Golden Tree south of Castle Morne Rampart Grace"]
+        cords: [4169, 8346]
+        map_title: "Golden Seed"
       - "Liurnia of the Lakes"
       - id: "1_9"
         data: ["Under a Golden Tree in Academy Gate Town"]
+        cords: [2192, 5235]
+        map_title: "Golden Seed"
       - id: "1_10"
         data: ["Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
+        cords: [1932, 4612]
+        map_title: "Golden Seed"
       - id: "1_11"
         data: ["Under a Golden Tree west side of Raya Lucaria Academy courtyard"]
+        cords: [1906, 4905]
+        map_title: "Golden Seed"
       - id: "1_12"
         data: ["Under a Golden Tree in Caria Manor's upper level."]
+        cords: [1984, 3730]
+        map_title: "Golden Seed"
       - id: "1_13"
         data: ["Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice"]
+        cords: [2490, 3661]
+        map_title: "Golden Seed"
       - "Caelid"
       - id: "1_14"
         data: ["under a Golden Tree near the three way crossroad leading to Castle Redmane"]
+        cords: [5471, 7149]
+        map_title: "Golden Seed"
       - id: "1_15"
         data: ["under a Golden Tree in the upper area of Sellia, Town of Sorcery"]
+        cords: [5644, 6515]
+        map_title: "Golden Seed"
       - id: "1_16"
         data: ["under a Golden Tree, south of Bestial Sanctum"]
+        cords: [6088, 5594]
+        map_title: "Golden Seed"
       - id: "1_17"
         data: ["reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)"]
+        cords: [6322, 6137]
+        map_title: "Golden Seed"
       - "Altus Plateau"
       - id: "1_18"
         data: ["under a Golden Tree near Erdtree-Grazing Hill Grace"]
+        cords: [2697, 3377]
+        map_title: "Golden Seed"
       - id: "1_19"
         data: ["under a Golden Tree north of Altus Highway Junction"]
+        cords: [3037, 3372]
+        map_title: "Golden Seed"
       - id: "1_20"
         data: ["under a Golden Tree near the Minor Erdtree"]
+        cords: [3329, 2800]
+        map_title: "Golden Seed"
       - id: "1_21"
         data: ["under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"]
+        cords: [3675, 2801]
+        map_title: "Golden Seed"
+      - "Mt. Gelmir"
+      - id: "1_29"
+        data: ["under a Golden Tree in the ravine, south of Seethewater Cave"]
+        cords: [2458, 2953]
+        map_title: "Golden Seed"
+      - id: "1_30"
+        data: ["under a Golden Tree, northwest of Road of Iniquity"]
+        cords: [2059, 2650]
+        map_title: "Golden Seed"
       - "Leyndell, Royal Capital"
       - id: "1_22"
         data: ["under a large Golden Tree near the Outer Wall Phantom Tree Grace"]
+        cords: [3670, 3491]
+        map_title: "Golden Seed x2"
       - id: "1_23"
         data: ["under the same Golden Tree mentioned above"]
+        map_link: [3670, 3491]
+        map_title: "Golden Seed"
       - id: "1_24"
         data: ["under a large Golden Tree north of the Outer Wall Phantom Tree Grace"]
+        cords: [3842, 3233]
+        map_title: "Golden Seed x2"
       - id: "1_25"
         data: ["under the same Golden Tree mentioned above"]
+        map_link: [3842, 3233]
+        map_title: "Golden Seed"
       - id: "1_26"
         data: ["reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace"]
+        cords: [3664, 3661]
+        map_title: "Golden Seed"
       - id: "1_27"
         data: ["under a Golden Tree south of the West Capital Rampart Grace"]
+        cords: [4293, 3645]
+        map_title: "Golden Seed"
       - id: "1_28"
         data: ["reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"]
-      - "Mt. Gelmir"
-      - id: "1_29"
-        data: ["under a Golden Tree in the ravine, near Gelmir Hero's Grave"]
-      - id: "1_30"
-        data: ["under a Golden Tree, northwest of Road of Iniquity"]
+        cords: [4278, 3429]
+        map_title: "Golden Seed"
       - "Mountaintops of the Giants"
       - id: "1_31"
-        data: ["under a Golden Tree, on the way to the Grand Lift of Rold"]
+        data: ["under a Golden Tree in the Forbidden Lands"]
+        cords: [5424, 3302]
+        map_title: "Golden Seed"
       - id: "1_32"
-        data: ["reward for defeating Ulcerated Tree Spirit in the Giant's Peak Catacombs"]
+        data: ["reward for defeating Ulcerated Tree Spirit in the Giants' Mountaintop Catacombs"]
+        cords: [5773, 2833]
+        map_title: "Golden Seed"
       - id: "1_33"
-        data: ["under a Golden Tree, northwest of the Foot of the Forge Grace"]
+        data: ["under a Golden Tree, northeast of the Foot of the Forge Grace"]
+        cords: [6331, 2826]
+        map_title: "Golden Seed"
       - id: "1_34"
-        data: ["under a Golden Tree, northeast of the Minor Erdtree, guarded by a Giant Golem"]
+        data: ["under a Golden Tree, in the ravine between the Minor Erdtree and Heretical Rise, guarded by a Giant Golem"]
+        cords: [6310, 2042]
+        map_title: "Golden Seed"
       - "Consecrated Snowfield"
       - id: "1_35"
         data: ["under a Golden Tree, south of Inner Consecrated Snowfield Grace"]
+        cords: [5498, 2519]
+        map_title: "Golden Seed"
       - id: "1_36"
         data: ["under a Golden Tree, west of Ordina, Liturgical Town"]
+        cords: [5158, 1981]
+        map_title: "Golden Seed"
       - "Crumbling Farum Azula"
       - id: "1_37"
         data: ["under a Golden Tree in the middle of the Dragon Temple"]
+        cords: [8469, 4420] #TODO: Verify
+        map_title: "Golden Seed"
       - id: "1_38"
         data: ["under a Golden Tree, southeast of Dragon Temple Rooftop Grace"]
+        cords: [8645, 4325] #TODO: Verify
+        map_title: "Golden Seed"
       - "Siofra River"
       - id: "1_39"
-        data: ["under a Golden Tree in the upper area of Siofra River, accessible via waygate"]
+        data: ["under a Golden Tree accessible by crossing a stone bridge southwest of the Below the Well Site of Grace"]
+        cords: [6423, 14011]
+        map_title: "Golden Seed"
       - "Mohgwyn Palace"
       - id: "1_40"
         data: ["under a Golden Tree in the middle of the lake, surrounded by giant birds"]
+        cords: [7039, 14440]
+        map_title: "Golden Seed"
       - "Ainsel River"
       - id: "1_41"
-        data: ["under a Golden Tree in the northwest of Ainsel River, accessible via elevator"]
-      - "Lake of Rot"
+        data: ["under a Golden Tree in the northwest of Nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the Moon of Nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom"]
+        cords: [3344, 11892]
+        map_title: "Golden Seed"
       - id: "1_42"
         data: ["reward for defeating Putrid Tree Spirit in Lake of Rot"]
+        cords: [3155, 12592]
+        map_title: "Golden Seed"
   -
     title: "Sacred Tears"
     icon: "/img/icons/bolstering/edited/00384.png"

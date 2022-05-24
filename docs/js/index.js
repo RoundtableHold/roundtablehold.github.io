@@ -761,6 +761,7 @@
 "bosses_16_3",
 "bosses_17_1",
 "bosses_17_2",
+"bosses_17_3",
 "bosses_18_1",
 "bosses_18_2",
 "bosses_18_3",
@@ -800,7 +801,6 @@
 "bosses_2_29",
 "bosses_2_3",
 "bosses_2_30",
-"bosses_2_31",
 "bosses_2_32",
 "bosses_2_4",
 "bosses_2_5",
@@ -3525,6 +3525,7 @@
 "tools_1_4",
 "tools_1_5",
 "tools_1_6",
+"tools_1_7",
 "tools_2_1",
 "tools_2_2",
 "tools_2_3",
@@ -4000,7 +4001,7 @@ const paintings_total = 14;
 var paintings_checked = 0;
 const pots_bottles_total = 40;
 var pots_bottles_checked = 0;
-const tools_total = 36;
+const tools_total = 37;
 var tools_checked = 0;
 const gestures_total = 48;
 var gestures_checked = 0;

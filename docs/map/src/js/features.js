@@ -422,6 +422,44 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3772,
+            7304
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_30",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_2_30",
+          "link": "/checklists/bosses.html#item_2_30",
+          "title": "Grafted Scion (x2)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3775,
+            7327
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_2_23",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_2_23",
+          "link": "/checklists/bosses.html#item_2_23",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3088,
             6708
           ],
@@ -2095,7 +2133,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             6307,
-            6138
+            6133
           ],
           "type": "Point"
         },
@@ -2189,8 +2227,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2289,
-            2863
+            2505,
+            2918
           ],
           "type": "Point"
         },
@@ -2246,8 +2284,46 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5634,
-            2783
+            3677,
+            3653
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_8_1",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_8_1",
+          "link": "/checklists/bosses.html#item_8_1",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4288,
+            3439
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_8_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_8_11",
+          "link": "/checklists/bosses.html#item_8_11",
+          "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5769,
+            2818
           ],
           "type": "Point"
         },
@@ -2322,8 +2398,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5415,
-            2939
+            5419,
+            2884
           ],
           "type": "Point"
         },
@@ -2373,6 +2449,25 @@ const feature_data = [
           "id": "bosses_10_7",
           "link": "/checklists/bosses.html#item_10_7",
           "title": "Putrid Avatar"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3156,
+            12607
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_17_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_17_3",
+          "link": "/checklists/bosses.html#item_17_3",
+          "title": "Lesser Putrid Tree Spirit"
         },
         "type": "Feature"
       }
@@ -5064,8 +5159,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2149,
-            3328
+            2165,
+            3317
           ],
           "type": "Point"
         },
@@ -12239,6 +12334,766 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3501,
+            6860
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_3",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_3",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_3",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            724,
+            8465
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_4",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_4",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_4",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4674,
+            7344
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_5",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_5",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_5",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4393,
+            6811
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_6",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_6",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_6",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3789,
+            7318
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_7",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_7",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_7",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3175,
+            6585
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_43",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_43",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_43",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3091,
+            6723
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_8",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_8",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_8",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4169,
+            8346
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_1",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_1",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_1",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2192,
+            5235
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_9",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_9",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_9",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1932,
+            4612
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_10",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_10",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_10",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1906,
+            4905
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_11",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_11",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_11",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1984,
+            3730
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_12",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_12",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_12",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2490,
+            3661
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_13",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_13",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_13",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5471,
+            7149
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_14",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_14",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_14",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5644,
+            6515
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_15",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_15",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_15",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6088,
+            5594
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_16",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_16",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_16",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6322,
+            6137
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_17",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_17",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_17",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2697,
+            3377
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_18",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_18",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_18",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3037,
+            3372
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_19",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_19",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_19",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3329,
+            2800
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_20",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_20",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_20",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3675,
+            2801
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_21",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_21",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_21",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2458,
+            2953
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_29",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_29",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_29",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2059,
+            2650
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_30",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_30",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_30",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3670,
+            3491
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_22",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_22",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_22",
+          "title": "Golden Seed x2"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3842,
+            3233
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_24",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_24",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_24",
+          "title": "Golden Seed x2"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3664,
+            3661
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_26",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_26",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_26",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4293,
+            3645
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_27",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_27",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_27",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4278,
+            3429
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_28",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_28",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_28",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5424,
+            3302
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_31",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_31",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_31",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5773,
+            2833
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_32",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_32",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_32",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6331,
+            2826
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_33",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_33",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_33",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6310,
+            2042
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_34",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_34",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_34",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5498,
+            2519
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_35",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_35",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_35",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5158,
+            1981
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_36",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_36",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_36",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8469,
+            4420
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_37",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_37",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_37",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8645,
+            4325
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_38",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_38",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_38",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6423,
+            14011
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_39",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_39",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_39",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            7039,
+            14440
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_40",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_40",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_40",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3344,
+            11892
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_41",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_41",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_41",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3155,
+            12592
+          ],
+          "type": "Point"
+        },
+        "id": "flasks_1_42",
+        "properties": {
+          "group": "flasks",
+          "icon": "/map/icons/shadows/bolstering/00383.png",
+          "icon_size": 35,
+          "id": "flasks_1_42",
+          "link": "/checklists/golden_seeds_sacred_tears.html#item_1_42",
+          "title": "Golden Seed"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             4649,
             6705
           ],
@@ -14542,8 +15397,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            2297,
-            2856
+            2505,
+            2934
           ],
           "type": "Point"
         },
@@ -14561,8 +15416,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5607,
-            2786
+            5772,
+            2802
           ],
           "type": "Point"
         },
@@ -14599,8 +15454,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5416,
-            2962
+            5436,
+            2882
           ],
           "type": "Point"
         },
@@ -14896,6 +15751,348 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3667,
+            7210
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_1",
+          "link": "/checklists/pots_bottles.html#item_1_1",
+          "title": "Cracked Pot x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3613,
+            7029
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_5",
+          "link": "/checklists/pots_bottles.html#item_1_5",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4114,
+            6553
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_4",
+          "link": "/checklists/pots_bottles.html#item_1_4",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4310,
+            8172
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_6",
+          "link": "/checklists/pots_bottles.html#item_1_6",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3066,
+            6551
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_7",
+          "link": "/checklists/pots_bottles.html#item_1_7",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3065,
+            6537
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_8",
+          "link": "/checklists/pots_bottles.html#item_1_8",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3008,
+            5286
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_9",
+          "link": "/checklists/pots_bottles.html#item_1_9",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2961,
+            5245
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_10",
+          "link": "/checklists/pots_bottles.html#item_1_10",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2996,
+            5219
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_11",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_11",
+          "link": "/checklists/pots_bottles.html#item_1_11",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1926,
+            3685
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_13",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_13",
+          "link": "/checklists/pots_bottles.html#item_1_13",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1963,
+            5007
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_12",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_12",
+          "link": "/checklists/pots_bottles.html#item_1_12",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4898,
+            6089
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_15",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_15",
+          "link": "/checklists/pots_bottles.html#item_1_15",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5439,
+            7052
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_14",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_14",
+          "link": "/checklists/pots_bottles.html#item_1_14",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4499,
+            3147
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_16",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_16",
+          "link": "/checklists/pots_bottles.html#item_1_16",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4513,
+            3156
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_17",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_17",
+          "link": "/checklists/pots_bottles.html#item_1_17",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4506,
+            3133
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_18",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_18",
+          "link": "/checklists/pots_bottles.html#item_1_18",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4510,
+            3121
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_19",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_19",
+          "link": "/checklists/pots_bottles.html#item_1_19",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4292,
+            3480
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_1_20",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00504.png",
+          "icon_size": 35,
+          "id": "pots_bottles_1_20",
+          "link": "/checklists/pots_bottles.html#item_1_20",
+          "title": "Cracked Pot"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             2547,
             5851
           ],
@@ -15082,9 +16279,300 @@ const feature_data = [
           "title": "Ritual Pot"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5284,
+            6689
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_1",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_1",
+          "link": "/checklists/pots_bottles.html#item_3_1",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3010,
+            3347
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_2",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_2",
+          "link": "/checklists/pots_bottles.html#item_3_2",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3459,
+            3321
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_5",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_5",
+          "link": "/checklists/pots_bottles.html#item_3_5",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2153,
+            3337
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_3",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_3",
+          "link": "/checklists/pots_bottles.html#item_3_3",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2142,
+            3319
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_4",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_4",
+          "link": "/checklists/pots_bottles.html#item_3_4",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2934,
+            2695
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_6",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_6",
+          "link": "/checklists/pots_bottles.html#item_3_6",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3974,
+            2945
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_8",
+          "link": "/checklists/pots_bottles.html#item_3_8",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2205,
+            2885
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_7",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_7",
+          "link": "/checklists/pots_bottles.html#item_3_7",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4434,
+            3542
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_9",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_9",
+          "link": "/checklists/pots_bottles.html#item_3_9",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4581,
+            3560
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_10",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_10",
+          "link": "/checklists/pots_bottles.html#item_3_10",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
       }
     ],
     "id": "pots_bottles",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3668,
+            7193
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_2",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/00092.png",
+          "icon_size": 35,
+          "id": "tools_1_2",
+          "link": "/checklists/tools_multiplayer.html#item_1_2",
+          "title": "Telescope"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4657,
+            6711
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_7",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/flasks/00024.png",
+          "icon_size": 35,
+          "id": "tools_1_7",
+          "link": "/checklists/tools_multiplayer.html#item_1_7",
+          "title": "Flask of Wondrous Physick"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3134,
+            6721
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_4",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/03068.png",
+          "icon_size": 25,
+          "id": "tools_1_4",
+          "link": "/checklists/tools_multiplayer.html#item_1_4",
+          "title": "Mimic's Veil"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3449,
+            8218
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_5",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/00093.png",
+          "icon_size": 35,
+          "id": "tools_1_5",
+          "link": "/checklists/tools_multiplayer.html#item_1_5",
+          "title": "Lantern"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1813,
+            5387
+          ],
+          "type": "Point"
+        },
+        "id": "tools_1_6",
+        "properties": {
+          "group": "tools",
+          "icon": "/map/icons/shadows/tools/00625.png",
+          "icon_size": 35,
+          "id": "tools_1_6",
+          "link": "/checklists/tools_multiplayer.html#item_1_6",
+          "title": "Pureblood Knight's Medal"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "tools",
     "type": "FeatureCollection"
   },
   {
@@ -15814,6 +17302,7 @@ const icon_urls = [
   "/map/icons/shadows/armor/15000.png",
   "/map/icons/shadows/armor/15290.png",
   "/map/icons/shadows/ashes_of_war/08385.png",
+  "/map/icons/shadows/bolstering/00383.png",
   "/map/icons/shadows/bolstering/00384.png",
   "/map/icons/shadows/gestures/07001.png",
   "/map/icons/shadows/gestures/07002.png",
@@ -15867,6 +17356,8 @@ const icon_urls = [
   "/map/icons/shadows/keys/00322.png",
   "/map/icons/shadows/keys/00324.png",
   "/map/icons/shadows/keys/00325.png",
+  "/map/icons/shadows/keys/00443.png",
+  "/map/icons/shadows/keys/00504.png",
   "/map/icons/shadows/keys/00553.png",
   "/map/icons/shadows/keys/00554.png",
   "/map/icons/shadows/keys/00557.png",
@@ -15912,6 +17403,11 @@ const icon_urls = [
   "/map/icons/shadows/keys/crystal_tears/00431.png",
   "/map/icons/shadows/mausoleum.png",
   "/map/icons/shadows/spirit_ashes/00456.png",
+  "/map/icons/shadows/tools/00092.png",
+  "/map/icons/shadows/tools/00093.png",
+  "/map/icons/shadows/tools/00625.png",
+  "/map/icons/shadows/tools/03068.png",
+  "/map/icons/shadows/tools/flasks/00024.png",
   "/map/icons/shadows/tools/remembrances/00163.png",
   "/map/icons/shadows/tools/remembrances/00164.png",
   "/map/icons/shadows/tools/remembrances/00172.png",
