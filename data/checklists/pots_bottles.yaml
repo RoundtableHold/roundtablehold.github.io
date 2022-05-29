@@ -22,7 +22,7 @@ sections:
         map_title: "Cracked Pot"
       - id: "1_5"
         data: ["Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves"]
-        cords: [3613, 7029]
+        cords: [3649, 7067]
         map_title: "Cracked Pot"
       - id: "1_4"
         data: ["East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes"]
@@ -76,19 +76,19 @@ sections:
       - "Altus Plateau"
       - id: "1_16"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
-        cords: [4499, 3147]
-        map_title: "Cracked Pot"
+        cords: [4597, 3173]
+        map_title: "Cracked Pot x4"
       - id: "1_17"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
-        cords: [4513, 3156]
+        map_link: [4597, 3173]
         map_title: "Cracked Pot"
       - id: "1_18"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
-        cords: [4506, 3133]
+        map_link: [4597, 3173]
         map_title: "Cracked Pot"
       - id: "1_19"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
-        cords: [4510, 3121]
+        map_link: [4597, 3173]
         map_title: "Cracked Pot"
       - "Leyndell"
       - id: "1_20"
@@ -130,11 +130,11 @@ sections:
       - "Altus Plateau"
       - id: "2_7"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
-        cords: [4517, 3053]
-        map_title: "Ritual Pot"
+        cords: [4606, 3184]
+        map_title: "Ritual Pot x2"
       - id: "2_8"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
-        cords: [4493, 3056]
+        map_link: [4606, 3184]
         map_title: "Ritual Pot"
       - "Leyndell"
       - id: "2_9"
@@ -144,7 +144,7 @@ sections:
       - "Mountaintops of the Giants"
       - id: "2_10"
         data: ["Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar."]
-        cords: [5710, 2862]
+        cords: [5798, 2822]
         map_title: "Ritual Pot"
   -
     title: "Perfume Bottles"
@@ -163,7 +163,7 @@ sections:
         map_title: "Perfume Bottle"
       - id: "3_5"
         data: ["Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout"]
-        cords: [3459, 3321]
+        cords: [3521, 3441]
         map_title: "Perfume Bottle"
       - id: "3_3"
         data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook"]
