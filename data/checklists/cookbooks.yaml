@@ -1,153 +1,280 @@
 title: Cookbooks
 id: cookbooks
+icon: "/img/icons/keys/cookbooks/edited/03119.png"
 sections:
   -
-    title: Nomadic Cookbook
+    title: Nomadic Warrior's Cookbooks
     icon: "/img/icons/keys/cookbooks/edited/03119.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03119.png"
     items:
       - id: "1_1"
-        data: ["1. Kalé in Church of Elleh"]
+        data: ["1. Sold by Kalé in Church of Elleh"]
+        cords: [3640, 7208]
+        map_title: "Nomadic Warrior's Cookbook [1]"
       - id: "1_2"
-        data: ["2. Kalé in Church of Elleh"]
+        data: ["2. Sold by Kalé in Church of Elleh"]
+        cords: [3640, 7193]
+        map_title: "Nomadic Warrior's Cookbook [2]"
       - id: "1_3"
-        data: ["3. Nomad in North Limgrave, West of Summonwater Village"]
+        data: ["3. Sold by Nomadic Merchant in north Limgrave, west of Summonwater Village"]
+        cords: [4142, 6554]
+        map_title: "Nomadic Warrior's Cookbook [3]"
       - id: "1_4"
-        data: ["4. Next to giant bear by Patches teleport (open the trapped chest in Murkwater Cave, located in the river going North from the lake in Limgrave)"]
+        data: ["4. Next to giant bear by Patches teleport (open the trapped chest in Murkwater Cave, located in the river going north from the lake in Limgrave)"]
+        cords: [4499, 7026]
+        map_title: "Nomadic Warrior's Cookbook [4]"
       - id: "1_5"
-        data: ["5. Nomad Northwest of Fort Haight in the South-East section of the forest in East Limgrave"]
+        data: ["5. Sold by Nomadic Merchant Northwest of Fort Haight in the southeast section of the forest in east Limgrave"]
+        cords: [4571, 7182]
+        map_title: "Nomadic Warrior's Cookbook [5]"
       - id: "1_6"
-        data: ["6. Fort Haight in the South-East section of the forest in East Limgrave"]
+        data: ["6. Fort Haight in the southeast section of the forest in east Limgrave, in the room under the stairs"]
+        cords: [4729, 7309]
+        map_title: "Nomadic Warrior's Cookbook [6]"
       - id: "1_7"
-        data: ["7. North of Stormhill Shack at the edge of the broken bridge"]
+        data: ["7. North of Stormhill Shack at the edge of the broken bridge past the Finger Reader Crone"]
+        cords: [3291, 6453]
+        map_title: "Nomadic Warrior's Cookbook [7]"
       - id: "1_8"
-        data: ["8. Tombsward Cave, South-East of Fourth Church of Marika in North-West Weeping Peninsula"]
+        data: ["8. Tombsward Cave, southeast of Fourth Church of Marika in northwest Weeping Peninsula"]
+        cords: [3599, 8014]
+        map_title: "Nomadic Warrior's Cookbook [8]"
       - id: "1_9"
-        data: ["9. Tombs ward Catacombs, South of Church of the Pilgrimage in North Weeping Peninsula."]
+        data: ["9. Tombsward Catacombs, south of Church of the Pilgrimage in north Weeping Peninsula."]
+        cords: [3858, 7965]
+        map_title: "Nomadic Warrior's Cookbook [9]"
       - id: "1_10"
-        data: ["10. In Stormveil Castle, from Rampart Tower Grace, go through the North Door and jump to the roof in the East. Keep going this way and you'll find it."]
+        data: ["10. In Stormveil Castle, from Rampart Tower Grace, go through the north door and jump to the roof in the east. Keep going this way and you'll find it."]
+        cords: [3132, 6612]
+        map_title: "Nomadic Warrior's Cookbook [10]"
       - id: "1_11"
-        data: ["11. Nomad at the entrance to Liurnia Lake"]
+        data: ["11. Sold by Nomadic Merchant at the Liurnia Lake Shore Grace"]
+        cords: [2741, 6131]
+        map_title: "Nomadic Warrior's Cookbook [11]"
       - id: "1_12"
-        data: ["12. Rose Church, South-West of Raya Lucaria"]
+        data: ["12. Rose Church, southwest of Raya Lucaria"]
+        cords: [1840, 5362]
+        map_title: "Nomadic Warrior's Cookbook [12]"
       - id: "1_13"
-        data: ["13. Nomad North of Bellum Church in North-East Liurnia Lake"]
+        data: ["13. Sold by Nomadic Merchant north of Bellum Church in northeast Liurnia of the Lakes"]
+        cords: [2205, 3974]
+        map_title: "Nomadic Warrior's Cookbook [13]"
       - id: "1_14"
-        data: ["14. Smoldering Church North-East Limgrave/North-West Caelid"]
+        data: ["14. Smoldering Church, northeast Limgrave/northwest Caelid"]
+        cords: [4671, 6243]
+        map_title: "Nomadic Warrior's Cookbook [14]"
       - id: "1_15"
-        data: ["15. Nomad South of Caelid swamp at fork in the road."]
+        data: ["15. Sold by Nomadic Merchant south of Caelid swamp at fork in the road."]
+        cords: [5411, 7053]
+        map_title: "Nomadic Warrior's Cookbook [15]"
       - id: "1_16"
-        data: ["16. Nomad in South/Center of Ainsel River."]
+        data: ["16. Sold by Hermit Merchant in south/central of Ainsel River."]
+        cords: [3572, 12158]
+        map_title: "Nomadic Warrior's Cookbook [16]"
       - id: "1_17"
-        data: ["17. Nomad in center of Siofra River on top of wooden house."]
+        data: ["17. Sold by Abandoned Merchant in center of Siofra River on top of wooden house."]
+        cords: [6319, 14248]
+        map_title: "Nomadic Warrior's Cookbook [17]"
       - id: "1_18"
-        data: ["18. Nomad in center of Siofra River on top of wooden house."]
+        data: ["18. Sold by Abandoned Merchant in center of Siofra River on top of wooden house."]
+        cords: [6319, 14264]
+        map_title: "Nomadic Warrior's Cookbook [18]"
       - id: "1_19"
-        data: ["19. Woodfolk Ruins, East of the Minor Erdtree in North Altus Plateau"]
+        data: ["19. Woodfolk Ruins, east of the Minor Erdtree in north Altus Plateau"]
+        cords: [3388, 2870]
+        map_title: "Nomadic Warrior's Cookbook [19]"
       - id: "1_20"
-        data: ["20. Nomad in North Mt. Gelmir, North-East of Volcano Manor"]
+        data: ["20. Sold by Nomadic Merchant in north Mt. Gelmir, northeast of Volcano Manor"]
+        cords: [2462, 2632]
+        map_title: "Nomadic Warrior's Cookbook [20]"
       - id: "1_21"
         data: ["21. Volcano Manor in the area hidden behind the Illusory Wall in one of the hallway rooms."]
+        cords: [2223, 2914]
+        map_title: "Nomadic Warrior's Cookbook [21]"
       - id: "1_22"
-        data: ["22. Chest in West Lake of Rot, West of Ainsel River underground. May require Ranni's questline."]
+        data: ["22. Chest in west Lake of Rot, west of Ainsel River underground. May require Ranni's questline."]
+        cords: [3049, 12503]
+        map_title: "Nomadic Warrior's Cookbook [22]"
       - id: "1_23"
-        data: ["23. Consecrated Snowfield, North of the first Grace. Requires Haligtree Medallion"]
+        data: ["23. Consecrated Snowfield, north of the first Grace. Requires Haligtree Medallion"]
+        cords: [5425, 2627]
+        map_title: "Nomadic Warrior's Cookbook [23]"
       - id: "1_24"
         data: ["24. Mohgwyn Palace on the edge of the cliffs past the swamp. Requires Haligtree Medallion or completion of White-Faced Varré's Questline."]
+        cords: [7093, 14470]
+        map_title: "Nomadic Warrior's Cookbook [24]"
   -
-    title: Missionary Cookbook
-    icon: "/img/icons/keys/cookbooks/edited/03122.png"
-    items:
-      - id: "2_1"
-        data: ["1. Kalé in Church of Elleh"]
-      - id: "2_2"
-        data: ["2. Patches in Murkwater Cave located in the river going North from the lake in Limgrave."]
-      - id: "2_3"
-        data: ["3. Smoldering Church North-East Limgrave/North-West Caelid"]
-      - id: "2_4"
-        data: ["4. Minor Erdtree Church, Southwest Leyndell Capital."]
-      - id: "2_5"
-        data: ["5. Siofra Aqueduct, in the crater in South-East forest in East Limgrave, made after Radahn fight. Past the Crucible Knight, North-East of Ancestral Woods Grace."]
-      - id: "2_6"
-        data: ["6. Volcano Manor, from Temple of Eiglay Grace, go up the elevator and hop down into the lava. Go past the the Iron maiden, through a window, down a ladder, and down the stairs."]
-      - id: "2_7"
-        data: ["7. Nomad in Mountaintops of the Giants, near the Ancient Snow Valley Ruins Grace."]
-  -
-    title: Armorer Cookbook
+    title: Armorer's Cookbooks
     icon: "/img/icons/keys/cookbooks/edited/03120.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03120.png"
     items:
       - id: "3_1"
-        data: ["1. In camp north-east of North Agheel Lake Grace"]
+        data: ["1. In camp northeast of north Agheel Lake Grace"]
+        cords: [4017, 6901]
+        map_title: "Armorer's Cookbook [1]"
       - id: "3_2"
-        data: ["2. Nomad by Coastal Cave in South-West Limgrave"]
+        data: ["2. Sold by Nomadic Merchant by Coastal Cave in southwest Limgrave"]
+        cords: [3579, 7395]
+        map_title: "Armorer's Cookbook [2]"
       - id: "3_3"
-        data: ["3. Nomad Northwest of Fort Haight in the South-East section of the forest in East Limgrave"]
+        data: ["3. Sold by Nomadic Merchant Northwest of Fort Haight in the southeast section of the forest in east Limgrave"]
+        cords: [4540, 7181]
+        map_title: "Armorer's Cookbook [3]"
       - id: "3_4"
-        data: ["4. Castle Redmane in South-East Caelid in the North-West gatehouse"]
+        data: ["4. Castle Redmane in southeast Caelid in the northwest gatehouse"]
+        cords: [6000, 7342]
+        map_title: "Armorer's Cookbook [4]"
       - id: "3_5"
-        data: ["5. Castle Redmane in South-East Caelid. Follow the path going through the door in the South-West."]
+        data: ["5. Castle Redmane in southeast Caelid. Follow the path going through the door in the southwest."]
+        cords: [6035, 7427]
+        map_title: "Armorer's Cookbook [5]"
       - id: "3_6"
-        data: ["6. Siofra River. West of the Siofra River Bank Grace"]
+        data: ["6. Siofra River. west of the Siofra River Bank Grace"]
+        cords: [6082, 14514]
+        map_title: "Armorer's Cookbook [6]"
       - id: "3_7"
-        data: ["7. Fort Laiedd in West Mt. Gelmir. West of Volcano Manor."]
+        data: ["7. Fort Laiedd in west Mt. Gelmir. west of Volcano Manor."]
+        cords: [1903, 2872]
+        map_title: "Armorer's Cookbook [7]"
   -
-    title: Fevor's Cookbook
-    icon: "/img/icons/keys/cookbooks/edited/03125.png"
-    items:
-      - id: "4_1"
-        data: ["1. On a stone tomb south of Summonwater Village in North-East Limgrave"]
-      - id: "4_2"
-        data: ["2. Nomad East of Raya Lucaria Main Gate Grace. Requires Glintstone Key gotten next to the Dragon West of Raya Lucaria."]
-      - id: "4_3"
-        data: ["3. Reward from Gideon Ofnir for information on Mohgwyn Dynasty Medallion. Requires either Haligtree Medallion or finishing White-Faced Varré's Questline."]
-  -
-    title: Glintstone Craftsman's Cookbook
+    title: Glintstone Craftsman's Cookbooks
     icon: "/img/icons/keys/cookbooks/edited/03121.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03121.png"
     items:
       - id: "5_1"
-        data: ["1. In outpost North-West of Church of Irith next to Lake-Facing Cliffs Grace"]
+        data: ["1. In outpost south of Liurnia Lake Shore Grace"]
+        cords: [2758, 6261]
+        map_title: "Glintstone Craftsman's Cookbook [1]"
       - id: "5_2"
-        data: ["2. Lanskyar Ruins in South East Liurnia Lake"]
+        data: ["2. Directly next to the Laskyar Ruins Grace in southeast Liurnia of the Lakes"]
+        cords: [2605, 5925]
+        map_title: "Glintstone Craftsman's Cookbook [2]"
       - id: "5_3"
-        data: ["3. Highway Lookout Tower in East Liurnia Lake, North-West of Liurnia Highway North Grace"]
+        data: ["3. Highway Lookout Tower in east Liurnia of the Lakes, northwest of Liurnia Highway North Grace"]
+        cords: [2810, 5637]
+        map_title: "Glintstone Craftsman's Cookbook [3]"
       - id: "5_4"
-        data: ["4. Academy Gate Town South-East of Raya Lucaria Academy. It's in a chest North-West of the Grace."]
+        data: ["4. Academy Gate Town southeast of Raya Lucaria Academy. It's in a chest northwest of the Grace."]
+        cords: [2302, 5214]
+        map_title: "Glintstone Craftsman's Cookbook [4]"
       - id: "5_5"
-        data: ["5. Raya Lucaria Academy in a chest past the Schoolhouse Classroom Grace"]
+        data: ["5. Academy of Raya Lucaria in a chest past the Schoolhouse Classroom Grace"]
+        cords: [1975, 5010]
+        map_title: "Glintstone Craftsman's Cookbook [5]"
       - id: "5_6"
-        data: ["6. Caria Manor in a room South-East of the courtyard."]
+        data: ["6. Caria Manor in a room southeast of the courtyard."]
+        cords: [1989, 3857]
+        map_title: "Glintstone Craftsman's Cookbook [6]"
       - id: "5_7"
-        data: ["7. Pidia in Caria Manor. Complete Caria Manor then go to Seluvis's Rise West of it and then go east and drop onto the rampart from the cliff."]
+        data: ["7. Sold by Pidia in Caria Manor. Complete Caria Manor then go to Seluvis's Rise west of it and then go east and drop onto the rampart from the cliff."]
+        cords: [1829, 3721]
+        map_title: "Glintstone Craftsman's Cookbook [7]"
       - id: "5_8"
-        data: ["8. South-West of Albinaurics Rise in East Consecrated Snowfield. Requires Haligtree Medallion."]
+        data: ["8. Southwest of Albinaurics Rise in east Consecrated Snowfield. Requires Haligtree Medallion."]
+        cords: [5606, 2293]
+        map_title: "Glintstone Craftsman's Cookbook [8]"
   -
-    title: Frenzied Cookbook
-    icon: "/img/icons/keys/cookbooks/edited/03126.png"
+    title: Missionary's Cookbooks
+    icon: "/img/icons/keys/cookbooks/edited/03122.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03122.png"
     items:
-      - id: "6_1"
-        data: ["1. Frenzied Flame Village in North-East Liurnia Lake"]
-      - id: "6_2"
-        data: ["2. On the Path Down to the Frenzied Flame."]
+      - id: "2_1"
+        data: ["1. Sold by Kalé in Church of Elleh"]
+        cords: [3654, 7193]
+        map_title: "Missionary's Cookbook [1]"
+      - id: "2_2"
+        data: ["2. Sold by Patches in Murkwater Cave located in the river going north from the lake in Limgrave."]
+        cords: [4012, 6961]
+        map_title: "Missionary's Cookbook [2]"
+      - id: "2_3"
+        data: ["3. Smoldering Church in northeast Limgrave/northwest Caelid"]
+        cords: [4679, 6256]
+        map_title: "Missionary's Cookbook [3]"
+      - id: "2_4"
+        data: ["4. Minor Erdtree Church in southwest Capital Outskirts."]
+        cords: [3851, 3735]
+        map_title: "Missionary's Cookbook [4]"
+      - id: "2_5"
+        data: ["5. Siofra Aqueduct (accessed from Nokron), northeast of the Aqueduct-Facing Cliffs Grace. Drop onto the beam and into the room at the end, then exit to the west. It's in the room past the bridge with a Crucible Knight."]
+        cords: [6232, 14043]
+        map_title: "Missionary's Cookbook [5]"
+      - id: "2_6"
+        data: ["6. Volcano Manor, from Temple of Eiglay Grace, go up the elevator and hop down into the lava. Go through the window guarded by an Iron Maiden, down a ladder, and down the stairs. It's in a small cell in the room at the bottom."]
+        cords: [2264, 3014]
+        map_title: "Missionary's Cookbook [6]"
+      - id: "2_7"
+        data: ["7. Sold by Hermit Merchant in Mountaintops of the Giants, near the Ancient Snow Valley Ruins Grace."]
+        cords: [5984, 2239]
+        map_title: "Missionary's Cookbook [7]"
   -
-    title: Perfumer's Cookbook
-    icon: "/img/icons/keys/cookbooks/edited/03123.png"
-    items:
-      - id: "7_1"
-        data: ["1. Perfumer's Ruins, North-West of Abandoned Coffin Grace in Altus Plateau, found by going through the \"Cowards\" path past the Magma Wyrm. "]
-      - id: "7_2"
-        data: ["2. Rooftops of Shaded Castle in North Altus Plateau"]
-      - id: "7_3"
-        data: ["3. Auriza Side Tomb North East of Leyndell. Open the chest in the room with a lot of benches."]
-      - id: "7_4"
-        data: ["4. Nomad in South/Center Ainsel River"]
-  -
-    title: Ancient Dragon Apostle's Cookbook
+    title: Ancient Dragon Apostle's Cookbooks
     icon: "/img/icons/keys/cookbooks/edited/03124.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03124.png"
     items:
       - id: "8_1"
-        data: ["1. Wyndham Catacombs in West Altus Plateau. South-East of Volcano Manor"]
+        data: ["1. Wyndham Catacombs in west Altus Plateau. southeast of Volcano Manor. Under the spike trap, guarded by giant crabs"]
+        cords: [2574, 3084]
+        map_title: "Ancient Dragon Apostle's Cookbook [1]"
       - id: "8_2"
-        data: ["2. Nomad just North of the Forest-Spanning Greatbridge Grace on the South side of the broken bridge in North/Central Altus Plateau."]
+        data: ["2. Sold by Nomadic Merchant just north of the Forest-Spanning Greatbridge Grace on the south side of the broken bridge in north/central Altus Plateau."]
+        cords: [3291, 3074]
+        map_title: "Ancient Dragon Apostle's Cookbook [2]"
       - id: "8_3"
-        data: ["3. Cathedral of Dragon Communion in South Caelid, West of Castle Redmane."]
+        data: ["3. Cathedral of Dragon Communion in south Caelid, west of Castle Redmane."]
+        cords: [5276, 7205]
+        map_title: "Ancient Dragon Apostle's Cookbook [3]"
       - id: "8_4"
-        data: ["4. Crumbling Farum Azula on a roof in the South-West section past a dragon."]
+        data: ["4. Crumbling Farum Azula on a roof in the southwest section past a dragon."]
+        cords: [8360, 4527]
+        map_title: "Ancient Dragon Apostle's Cookbook [4]"
+  -
+    title: Perfumer's Cookbooks
+    icon: "/img/icons/keys/cookbooks/edited/03123.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03123.png"
+    items:
+      - id: "7_1"
+        data: ["1. Perfumer's Ruins, northwest of Abandoned Coffin Grace in Altus Plateau, found by going through the \"Coward's\" path past the Magma Wyrm."]
+        cords: [2140, 3335]
+        map_title: "Perfumer's Cookbook [1]"
+      - id: "7_2"
+        data: ["2. Rooftops of Shaded Castle in north Altus Plateau"]
+        cords: [2897, 2598]
+        map_title: "Perfumer's Cookbook [2]"
+      - id: "7_3"
+        data: ["3. Auriza Side Tomb northeast of Leyndell. Open the chest in the room with a lot of benches."]
+        cords: [4575, 3186]
+        map_title: "Perfumer's Cookbook [3]"
+      - id: "7_4"
+        data: ["4. Sold by Hermit Merchant in south/central Ainsel River"]
+        cords: [3542, 12157]
+        map_title: "Perfumer's Cookbook [4]"
+  -
+    title: Fevor's Cookbooks
+    icon: "/img/icons/keys/cookbooks/edited/03125.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03125.png"
+    items:
+      - id: "4_1"
+        data: ["1. On a stone tomb south of Summonwater Village in northeast Limgrave"]
+        cords: [4409, 6708]
+        map_title: "Fevor's Cookbook [1]"
+      - id: "4_2"
+        data: ["2. Sold by Isolated Merchant east of Main Academy Gate Grace. Requires Glintstone Key gotten next to the Dragon west of Raya Lucaria."]
+        cords: [2031, 4945]
+        map_title: "Fevor's Cookbook [2]"
+      - id: "4_3"
+        data: ["3. Reward from Gideon Ofnir for information on Mohgwyn Dynasty Medallion. Requires either Haligtree Medallion or finishing White-Faced Varré's Questline."]
+        cords: [478, 8340]
+        map_title: "Fevor's Cookbook [3]"
+  -
+    title: Frenzied's Cookbooks
+    icon: "/img/icons/keys/cookbooks/edited/03126.png"
+    map_icon: "/map/icons/shadows/keys/cookbooks/03126.png"
+    items:
+      - id: "6_1"
+        data: ["1. Frenzied Flame Village in northeast Liurnia of the Lakes"]
+        cords: [2641, 4211]
+        map_title: "Frenzied's Cookbook [1]"
+      - id: "6_2"
+        data: ["2. On the path down to the Frenzied Flame."]
+        cords: [4607, 3393]
+        map_title: "Frenzied's Cookbook [2]"

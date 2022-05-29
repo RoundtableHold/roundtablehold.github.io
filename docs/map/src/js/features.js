@@ -81,7 +81,7 @@ const feature_data = [
         "geometry": {
           "coordinates": [
             3653,
-            7047
+            7037
           ],
           "type": "Point"
         },
@@ -593,8 +593,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4120,
-            7843
+            4113,
+            7834
           ],
           "type": "Point"
         },
@@ -707,8 +707,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3862,
-            7951
+            3865,
+            7942
           ],
           "type": "Point"
         },
@@ -726,8 +726,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3590,
-            8024
+            3583,
+            8020
           ],
           "type": "Point"
         },
@@ -745,8 +745,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3602,
-            7950
+            3606,
+            7942
           ],
           "type": "Point"
         },
@@ -13942,8 +13942,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4414,
-            8123
+            4403,
+            8129
           ],
           "type": "Point"
         },
@@ -14852,6 +14852,1133 @@ const feature_data = [
       }
     ],
     "id": "bell_bearings",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3640,
+            7208
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_1",
+          "link": "/checklists/cookbooks.html#item_1_1",
+          "title": "Nomadic Warrior's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3640,
+            7193
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_2",
+          "link": "/checklists/cookbooks.html#item_1_2",
+          "title": "Nomadic Warrior's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4142,
+            6554
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_3",
+          "link": "/checklists/cookbooks.html#item_1_3",
+          "title": "Nomadic Warrior's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4499,
+            7026
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_4",
+          "link": "/checklists/cookbooks.html#item_1_4",
+          "title": "Nomadic Warrior's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4571,
+            7182
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_5",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_5",
+          "link": "/checklists/cookbooks.html#item_1_5",
+          "title": "Nomadic Warrior's Cookbook [5]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4729,
+            7309
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_6",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_6",
+          "link": "/checklists/cookbooks.html#item_1_6",
+          "title": "Nomadic Warrior's Cookbook [6]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3291,
+            6453
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_7",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_7",
+          "link": "/checklists/cookbooks.html#item_1_7",
+          "title": "Nomadic Warrior's Cookbook [7]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3599,
+            8014
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_8",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_8",
+          "link": "/checklists/cookbooks.html#item_1_8",
+          "title": "Nomadic Warrior's Cookbook [8]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3858,
+            7965
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_9",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_9",
+          "link": "/checklists/cookbooks.html#item_1_9",
+          "title": "Nomadic Warrior's Cookbook [9]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3132,
+            6612
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_10",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_10",
+          "link": "/checklists/cookbooks.html#item_1_10",
+          "title": "Nomadic Warrior's Cookbook [10]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2741,
+            6131
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_11",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_11",
+          "link": "/checklists/cookbooks.html#item_1_11",
+          "title": "Nomadic Warrior's Cookbook [11]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1840,
+            5362
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_12",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_12",
+          "link": "/checklists/cookbooks.html#item_1_12",
+          "title": "Nomadic Warrior's Cookbook [12]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2205,
+            3974
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_13",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_13",
+          "link": "/checklists/cookbooks.html#item_1_13",
+          "title": "Nomadic Warrior's Cookbook [13]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4671,
+            6243
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_14",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_14",
+          "link": "/checklists/cookbooks.html#item_1_14",
+          "title": "Nomadic Warrior's Cookbook [14]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5411,
+            7053
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_15",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_15",
+          "link": "/checklists/cookbooks.html#item_1_15",
+          "title": "Nomadic Warrior's Cookbook [15]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3572,
+            12158
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_16",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_16",
+          "link": "/checklists/cookbooks.html#item_1_16",
+          "title": "Nomadic Warrior's Cookbook [16]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6319,
+            14248
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_17",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_17",
+          "link": "/checklists/cookbooks.html#item_1_17",
+          "title": "Nomadic Warrior's Cookbook [17]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6319,
+            14264
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_18",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_18",
+          "link": "/checklists/cookbooks.html#item_1_18",
+          "title": "Nomadic Warrior's Cookbook [18]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3388,
+            2870
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_19",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_19",
+          "link": "/checklists/cookbooks.html#item_1_19",
+          "title": "Nomadic Warrior's Cookbook [19]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2462,
+            2632
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_20",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_20",
+          "link": "/checklists/cookbooks.html#item_1_20",
+          "title": "Nomadic Warrior's Cookbook [20]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2223,
+            2914
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_21",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_21",
+          "link": "/checklists/cookbooks.html#item_1_21",
+          "title": "Nomadic Warrior's Cookbook [21]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3049,
+            12503
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_22",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_22",
+          "link": "/checklists/cookbooks.html#item_1_22",
+          "title": "Nomadic Warrior's Cookbook [22]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5425,
+            2627
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_23",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_23",
+          "link": "/checklists/cookbooks.html#item_1_23",
+          "title": "Nomadic Warrior's Cookbook [23]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            7093,
+            14470
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_1_24",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03119.png",
+          "icon_size": 35,
+          "id": "cookbooks_1_24",
+          "link": "/checklists/cookbooks.html#item_1_24",
+          "title": "Nomadic Warrior's Cookbook [24]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4017,
+            6901
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_1",
+          "link": "/checklists/cookbooks.html#item_3_1",
+          "title": "Armorer's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3579,
+            7395
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_2",
+          "link": "/checklists/cookbooks.html#item_3_2",
+          "title": "Armorer's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4540,
+            7181
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_3",
+          "link": "/checklists/cookbooks.html#item_3_3",
+          "title": "Armorer's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6000,
+            7342
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_4",
+          "link": "/checklists/cookbooks.html#item_3_4",
+          "title": "Armorer's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6035,
+            7427
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_5",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_5",
+          "link": "/checklists/cookbooks.html#item_3_5",
+          "title": "Armorer's Cookbook [5]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6082,
+            14514
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_6",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_6",
+          "link": "/checklists/cookbooks.html#item_3_6",
+          "title": "Armorer's Cookbook [6]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1903,
+            2872
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_3_7",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03120.png",
+          "icon_size": 35,
+          "id": "cookbooks_3_7",
+          "link": "/checklists/cookbooks.html#item_3_7",
+          "title": "Armorer's Cookbook [7]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2758,
+            6261
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_1",
+          "link": "/checklists/cookbooks.html#item_5_1",
+          "title": "Glintstone Craftsman's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2605,
+            5925
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_2",
+          "link": "/checklists/cookbooks.html#item_5_2",
+          "title": "Glintstone Craftsman's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2810,
+            5637
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_3",
+          "link": "/checklists/cookbooks.html#item_5_3",
+          "title": "Glintstone Craftsman's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2302,
+            5214
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_4",
+          "link": "/checklists/cookbooks.html#item_5_4",
+          "title": "Glintstone Craftsman's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1975,
+            5010
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_5",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_5",
+          "link": "/checklists/cookbooks.html#item_5_5",
+          "title": "Glintstone Craftsman's Cookbook [5]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1989,
+            3857
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_6",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_6",
+          "link": "/checklists/cookbooks.html#item_5_6",
+          "title": "Glintstone Craftsman's Cookbook [6]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1829,
+            3721
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_7",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_7",
+          "link": "/checklists/cookbooks.html#item_5_7",
+          "title": "Glintstone Craftsman's Cookbook [7]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5606,
+            2293
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_5_8",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03121.png",
+          "icon_size": 35,
+          "id": "cookbooks_5_8",
+          "link": "/checklists/cookbooks.html#item_5_8",
+          "title": "Glintstone Craftsman's Cookbook [8]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3654,
+            7193
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_1",
+          "link": "/checklists/cookbooks.html#item_2_1",
+          "title": "Missionary's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4012,
+            6961
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_2",
+          "link": "/checklists/cookbooks.html#item_2_2",
+          "title": "Missionary's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4679,
+            6256
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_3",
+          "link": "/checklists/cookbooks.html#item_2_3",
+          "title": "Missionary's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3851,
+            3735
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_4",
+          "link": "/checklists/cookbooks.html#item_2_4",
+          "title": "Missionary's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6232,
+            14043
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_5",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_5",
+          "link": "/checklists/cookbooks.html#item_2_5",
+          "title": "Missionary's Cookbook [5]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2264,
+            3014
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_6",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_6",
+          "link": "/checklists/cookbooks.html#item_2_6",
+          "title": "Missionary's Cookbook [6]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5984,
+            2239
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_2_7",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03122.png",
+          "icon_size": 35,
+          "id": "cookbooks_2_7",
+          "link": "/checklists/cookbooks.html#item_2_7",
+          "title": "Missionary's Cookbook [7]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2574,
+            3084
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_8_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03124.png",
+          "icon_size": 35,
+          "id": "cookbooks_8_1",
+          "link": "/checklists/cookbooks.html#item_8_1",
+          "title": "Ancient Dragon Apostle's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3291,
+            3074
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_8_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03124.png",
+          "icon_size": 35,
+          "id": "cookbooks_8_2",
+          "link": "/checklists/cookbooks.html#item_8_2",
+          "title": "Ancient Dragon Apostle's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5276,
+            7205
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_8_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03124.png",
+          "icon_size": 35,
+          "id": "cookbooks_8_3",
+          "link": "/checklists/cookbooks.html#item_8_3",
+          "title": "Ancient Dragon Apostle's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8360,
+            4527
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_8_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03124.png",
+          "icon_size": 35,
+          "id": "cookbooks_8_4",
+          "link": "/checklists/cookbooks.html#item_8_4",
+          "title": "Ancient Dragon Apostle's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2140,
+            3335
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_7_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03123.png",
+          "icon_size": 35,
+          "id": "cookbooks_7_1",
+          "link": "/checklists/cookbooks.html#item_7_1",
+          "title": "Perfumer's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2897,
+            2598
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_7_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03123.png",
+          "icon_size": 35,
+          "id": "cookbooks_7_2",
+          "link": "/checklists/cookbooks.html#item_7_2",
+          "title": "Perfumer's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4575,
+            3186
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_7_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03123.png",
+          "icon_size": 35,
+          "id": "cookbooks_7_3",
+          "link": "/checklists/cookbooks.html#item_7_3",
+          "title": "Perfumer's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3542,
+            12157
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_7_4",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03123.png",
+          "icon_size": 35,
+          "id": "cookbooks_7_4",
+          "link": "/checklists/cookbooks.html#item_7_4",
+          "title": "Perfumer's Cookbook [4]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4409,
+            6708
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_4_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03125.png",
+          "icon_size": 35,
+          "id": "cookbooks_4_1",
+          "link": "/checklists/cookbooks.html#item_4_1",
+          "title": "Fevor's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2031,
+            4945
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_4_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03125.png",
+          "icon_size": 35,
+          "id": "cookbooks_4_2",
+          "link": "/checklists/cookbooks.html#item_4_2",
+          "title": "Fevor's Cookbook [2]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            478,
+            8340
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_4_3",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03125.png",
+          "icon_size": 35,
+          "id": "cookbooks_4_3",
+          "link": "/checklists/cookbooks.html#item_4_3",
+          "title": "Fevor's Cookbook [3]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2641,
+            4211
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_6_1",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03126.png",
+          "icon_size": 35,
+          "id": "cookbooks_6_1",
+          "link": "/checklists/cookbooks.html#item_6_1",
+          "title": "Frenzied's Cookbook [1]"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4607,
+            3393
+          ],
+          "type": "Point"
+        },
+        "id": "cookbooks_6_2",
+        "properties": {
+          "group": "cookbooks",
+          "icon": "/map/icons/shadows/keys/cookbooks/03126.png",
+          "icon_size": 35,
+          "id": "cookbooks_6_2",
+          "link": "/checklists/cookbooks.html#item_6_2",
+          "title": "Frenzied's Cookbook [2]"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "cookbooks",
     "type": "FeatureCollection"
   },
   {
@@ -15770,8 +16897,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3613,
-            7029
+            3649,
+            7067
           ],
           "type": "Point"
         },
@@ -15998,8 +17125,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4499,
-            3147
+            4597,
+            3173
           ],
           "type": "Point"
         },
@@ -16010,64 +17137,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_16",
           "link": "/checklists/pots_bottles.html#item_1_16",
-          "title": "Cracked Pot"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4513,
-            3156
-          ],
-          "type": "Point"
-        },
-        "id": "pots_bottles_1_17",
-        "properties": {
-          "group": "pots_bottles",
-          "icon": "/map/icons/shadows/keys/00504.png",
-          "icon_size": 35,
-          "id": "pots_bottles_1_17",
-          "link": "/checklists/pots_bottles.html#item_1_17",
-          "title": "Cracked Pot"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4506,
-            3133
-          ],
-          "type": "Point"
-        },
-        "id": "pots_bottles_1_18",
-        "properties": {
-          "group": "pots_bottles",
-          "icon": "/map/icons/shadows/keys/00504.png",
-          "icon_size": 35,
-          "id": "pots_bottles_1_18",
-          "link": "/checklists/pots_bottles.html#item_1_18",
-          "title": "Cracked Pot"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4510,
-            3121
-          ],
-          "type": "Point"
-        },
-        "id": "pots_bottles_1_19",
-        "properties": {
-          "group": "pots_bottles",
-          "icon": "/map/icons/shadows/keys/00504.png",
-          "icon_size": 35,
-          "id": "pots_bottles_1_19",
-          "link": "/checklists/pots_bottles.html#item_1_19",
-          "title": "Cracked Pot"
+          "title": "Cracked Pot x4"
         },
         "type": "Feature"
       },
@@ -16207,8 +17277,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            4517,
-            3053
+            4606,
+            3184
           ],
           "type": "Point"
         },
@@ -16219,26 +17289,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_7",
           "link": "/checklists/pots_bottles.html#item_2_7",
-          "title": "Ritual Pot"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            4493,
-            3056
-          ],
-          "type": "Point"
-        },
-        "id": "pots_bottles_2_8",
-        "properties": {
-          "group": "pots_bottles",
-          "icon": "/map/icons/shadows/keys/03010.png",
-          "icon_size": 35,
-          "id": "pots_bottles_2_8",
-          "link": "/checklists/pots_bottles.html#item_2_8",
-          "title": "Ritual Pot"
+          "title": "Ritual Pot x2"
         },
         "type": "Feature"
       },
@@ -16264,8 +17315,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            5710,
-            2862
+            5798,
+            2822
           ],
           "type": "Point"
         },
@@ -16321,8 +17372,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3459,
-            3321
+            3521,
+            3441
           ],
           "type": "Point"
         },
@@ -16555,8 +17606,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            1813,
-            5387
+            1849,
+            5341
           ],
           "type": "Point"
         },
@@ -17369,6 +18420,14 @@ const icon_urls = [
   "/map/icons/shadows/keys/03024.png",
   "/map/icons/shadows/keys/03090.png",
   "/map/icons/shadows/keys/03230.png",
+  "/map/icons/shadows/keys/cookbooks/03119.png",
+  "/map/icons/shadows/keys/cookbooks/03120.png",
+  "/map/icons/shadows/keys/cookbooks/03121.png",
+  "/map/icons/shadows/keys/cookbooks/03122.png",
+  "/map/icons/shadows/keys/cookbooks/03123.png",
+  "/map/icons/shadows/keys/cookbooks/03124.png",
+  "/map/icons/shadows/keys/cookbooks/03125.png",
+  "/map/icons/shadows/keys/cookbooks/03126.png",
   "/map/icons/shadows/keys/crystal_tears/00400.png",
   "/map/icons/shadows/keys/crystal_tears/00401.png",
   "/map/icons/shadows/keys/crystal_tears/00402.png",
