@@ -1447,11 +1447,6 @@ const item_links = {
       "talismans_2_16"
     ]
   },
-  "bosses_2_31": {
-    "targets": [
-      "weapons_30_9"
-    ]
-  },
   "bosses_2_32": {
     "targets": [
       "ashesofwar_1_3",
@@ -5658,11 +5653,6 @@ const item_links = {
     "targets": [
       "bosses_7_11",
       "caves_5_5"
-    ]
-  },
-  "weapons_30_9": {
-    "targets": [
-      "bosses_2_31"
     ]
   },
   "weapons_33_10": {
