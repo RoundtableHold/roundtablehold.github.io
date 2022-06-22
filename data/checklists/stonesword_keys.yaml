@@ -1,0 +1,522 @@
+title: "Stonesword Keys & Imp Seals"
+id: stonesword
+icon: "/img/icons/keys/00228.png"
+description: "Stonesword Keys are consumable key items that open Imp Statue Seals, which typically guard loot, dungeons, or optional paths. A maximum of 80 Stonesword Keys can be found in the game, plus 2 if chosen as a Keepsake. However, only 46 are required to open every Imp Statue Seal. Imp Statues each require either 1 or 2 keys, and the only way to tell the difference is by visual examination: most Imp Statues already have one key in them when you find them, meaning you only need one more."
+sections:
+  -
+    title: "Stonesword Keys"
+    icon: "/img/icons/keys/00228.png"
+    map_icon: "/map/icons/shadows/keys/00228.png"
+    items:
+      - id: "k1"
+        data: ["Can choose two as a keepsake"]
+      - id: "k2"
+        data: ["Can choose two as a keepsake"]
+      #
+      - "Limgrave"
+      - id: "k3"
+        data: ["In a tiny intact room in the center of Dragon-Burnt Ruins, on a body guarded by a single rat"]
+        cords: [3939, 7352]
+        map_title: "Stonesword Key"
+      - id: "k4"
+        data: ["Sold by Patches for 5000 runes in Murkwater Cave (and thereafter)"]
+        cords: [4015, 6975]
+        map_title: "Stonesword Key"
+      - id: "k5"
+        data: ["On the front of Stormhill Shack, on a body atop the little staircase of wooden platforms"]
+        cords: [3485, 6762]
+        map_title: "Stonesword Key"
+      - id: "k6"
+        data: ["In Fringefolk Hero's Grave, on the ledge from which you can shoot down the jars to destroy the chariot"]
+        cords: [3757, 7304]
+        map_title: "Stonesword Key"
+      #
+      - "Roundtable Hold"
+      - id: "k7"
+        data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        cords: [451, 8385]
+        map_title: "Stonesword Key x3"
+      - id: "k8"
+        data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        map_link: [451, 8385]
+        map_title: "Stonesword Key"
+      - id: "k9"
+        data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        map_link: [451, 8385]
+        map_title: "Stonesword Key"
+      #
+      - "Weeping Peninsula"
+      - id: "k10"
+        data: ["On the Bridge of Sacrifice on a body behind the ballista"]
+        cords: [4350, 7756]
+        map_title: "Stonesword Key"
+      - id: "k11"
+        data: ["On the northern tip of the high ledge in the northeast, on a body sitting in a chair"]
+        cords: [4435, 7826]
+        map_title: "Stonesword Key"
+      - id: "k12"
+        data: ["Sold by the Nomadic Merchant in Weeping Peninsula for 2000 runes"]
+        cords: [4307, 8185]
+        map_title: "Stonesword Key"
+      - id: "k13"
+        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        cords: [3450, 8230]
+        map_title: "Stonesword Key x3"
+      - id: "k14"
+        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        map_link: [3450, 8230]
+        map_title: "Stonesword Key"
+      - id: "k15"
+        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        map_link: [3450, 8230]
+        map_title: "Stonesword Key"
+      - id: "k16"
+        data: ["From the Behind the Castle Site of Grace in Castle Morne, descend down a couple ledges to the first rooftop, then walk forward and drop off to a wooden platform halfway down with the key on a body"]
+        cords: [3973, 8699]
+        map_title: "Stonesword Key"
+      #
+      - "Stormveil Castle"
+      - id: "k17"
+        data: ["From Rampart Tower, follow the path up the central spiral staircase and to the rooftops; from the stack of sandbags, follow the ledge to the south tower, then turn east and hop to the next crumbling tower, and drop down inside it to find it on a body"]
+        cords: [3104, 6709]
+        map_title: "Stonesword Key"
+      - id: "k18"
+        data: ["On a body on the wooden platform above the Grafted Scion (down the shortcut elevator from Rampart Tower)"]
+        cords: [3132, 6698]
+        map_title: "Stonesword Key"
+      - id: "k19"
+        data: ["On a body in the pit with the Ulcerated Tree Spirit, just past the first big roots on the left"]
+        cords: [3078, 6662]
+        map_title: "Stonesword Key"
+      #
+      - "Liurnia of the Lakes"
+      - id: "k20"
+        data: ["In Academy Crystal Cave, stick to the left past the rats and the Sages to find a small side room in the back, containing the key on a body in a cage"]
+        cords: [1733, 4883]
+        map_title: "Stonesword Key"
+      - id: "k21"
+        data: ["On the island directly east of the South Raya Lucaria Gate Site of Grace, accessible from Gate Town North; it's in a chest in a small tower sticking out of the water, requiring Torrent's double jump to reach"]
+        cords: [2102, 5056]
+        map_title: "Stonesword Key"
+      - id: "k22"
+        data: ["Outside Raya Lucaria at the base of its northeastern corner, up an incline leading to an area with many Wraith Callers and a body sitting in a chair with the key"]
+        cords: [1948, 4840]
+        map_title: "Stonesword Key"
+      - id: "k23"
+        data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        cords: [2028, 4957]
+        map_title: "Stonesword Key x3"
+      - id: "k24"
+        data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        map_link: [2028, 4957]
+        map_title: "Stonesword Key"
+      - id: "k25"
+        data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        map_link: [2028, 4957]
+        map_title: "Stonesword Key"
+      - id: "k26"
+        data: ["As far north as it's possible to go from the Ainsel River Well before the cliff wall cuts off the path, on a body in a chair in a small patch of flowers"]
+        cords: [2782, 4459]
+        map_title: "Stonesword Key"
+      - id: "k27"
+        data: ["Atop the western wall of Frenzied Flame Village"]
+        cords: [2573, 4200]
+        map_title: "Stonesword Key"
+      - id: "k28"
+        data: ["From Three Sisters above Caria Manor, follow the path along the rooftops, dropping down when necessary, all the way to the rampart overlooking the Main Gate, with a Giant Crab on top guarding a body with the key"]
+        cords: [1885, 3832]
+        map_title: "Stonesword Key"
+      #
+      - "Academy of Raya Lucaria"
+      - id: "k29"
+        data: ["Past the illusory bookshelf directly before the Debate Parlor (Red Wolf of Radagon), on the other side of the altar behind the chest"]
+        cords: [1923, 5008]
+        map_title: "Stonesword Key"
+      - id: "k30"
+        data: ["In the courtyard directly after the Debate Parlor, on a body draped on the central fountain"]
+        cords: [1949, 4942]
+        map_title: "Stonesword Key"
+      #
+      - "Caelid"
+      - id: "k31"
+        data: ["In Gaol Cave, on a body in a cell"]
+        cords: [4921, 6764]
+        map_title: "Stonesword Key"
+      - id: "k32"
+        data: ["Sold by the Nomadic Merchant in south Caelid for 4000 runes"]
+        cords: [5416, 7067]
+        map_title: "Stonesword Key"
+      - id: "k33"
+        data: ["From the Dragonbarrow West grace, head to the Divine Tower of Caelid and jump onto the high tree branch, then to the first ledge with a ladder and a sentry with a torch; don't climb the ladder but face southeast from it and follow the arch to find the key on a body on the next landing, guarded by a knight"]
+        cords: [5569, 6091]
+        map_title: "Stonesword Key"
+      - id: "k34"
+        data: ["In Sellia, Town of Sorcery, on a body slumped atop an archway connecting two buildings at the southern entrance of town; passing northward through the arch underneath, turn right to see rubble with a rotted tree through it, an easy way up on horseback"]
+        cords: [5628, 6618]
+        map_title: "Stonesword Key"
+      - id: "k35"
+        data: ["From Fort Faroth, face west and climb the hulking white rock in the distance; it's in a body on a chair"]
+        cords: [5747, 6449]
+        map_title: "Stonesword Key"
+      - id: "k36"
+        data: ["South of the Deep Siofra Well, past the large bear, on a body sitting on the cliff"]
+        cords: [5353, 6421]
+        map_title: "Stonesword Key"
+      #
+      - "Altus Plateau"
+      - id: "k37"
+        data: ["Early on the road northeast from the Grand Lift of Dectus, in the small encampment of Misbegottens on the right, on a body against a tent"]
+        cords: [2940, 3670]
+        map_title: "Stonesword Key"
+      - id: "k38"
+        data: ["In Sage's Cave, proceed down the linear path, through illusory walls when necessary, until a more open room with a bonfire, many stalactites, and a larger skeleton wielding the Executioner's Greataxe; on the left, being stared at by another skeleton, is an illusory wall hiding a nook with a chest with the key inside"]
+        cords: [2528, 3269]
+        map_title: "Stonesword Key"
+      - id: "k39"
+        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        cords: [3321, 3074]
+        map_title: "Stonesword Key x3"
+      - id: "k40"
+        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        map_link: [3321, 3074]
+        map_title: "Stonesword Key"
+      - id: "k41"
+        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        map_link: [3321, 3074]
+        map_title: "Stonesword Key"
+      - id: "k42"
+        data: ["On the eastern side of the raised plateau in the center of Altus with perpetual lightning storms, on a body slumped on a stone platform"]
+        cords: [3429, 3295]
+        map_title: "Stonesword Key"
+      - id: "k43"
+        data: ["From the Shaded Castle Ramparts grace, go back down the little stairs and turn left, following the rampart around to find a Perfumer near a ramp down to the swamp below. The wall of the rampart is broken near this ramp, providing a way up, so get on the wall and follow it back a bit the way you came (south) until you can hop to the right onto the large stone barrier. Carefully climb up the stones with a few precise jumps, until a ledge wraps slightly around to the right, from where you can see a lower landing ahead that you can jump to. Then turn left and hop over the rock in the way (it's a bit tricky to get over it) and drop down to the other side of it, onto a small ledge with a body holding the key, with three slugs looking up at you from below."]
+        cords: [2972, 2711]
+        map_title: "Stonesword Key"
+      #
+      - "Mt. Gelmir"
+      - id: "k44"
+        data: ["In Gelmir Hero's Grave, past the first chariot, a few Nobles and Pages, and a fire trap, you'll find a second chariot through an archway; instead of turning left to go down the incline and progress through the dungeon, turn right and run up into a dead end to find the key, though beware it's very difficult to get back on track without being killed by the chariot, as it will suddenly go all the way up the incline on its way back, so you may need to make a suicide run for it"]
+        cords: [2530, 2915]
+        map_title: "Stonesword Key"
+      - id: "k45"
+        data: ["On the broken bridge just west of Corpse-Stench Shack"]
+        cords: [2513, 2700]
+        map_title: "Stonesword Key"
+      - id: "k46"
+        data: ["Sold by the Nomadic Merchant for 5000 runes"]
+        cords: [2438, 2633]
+        map_title: "Stonesword Key"
+      - id: "k47"
+        data: ["North of Fort Laiedd, in the corner with gravestones and jellyfish, on a body against a large tree"]
+        cords: [1957, 2722]
+        map_title: "Stonesword Key"
+      #
+      - "Volcano Manor"
+      - id: "k48"
+        data: ["From the Prison Town Church grace, descend into the town square with an Omenkiller by a bonfire. Go through the doorway near the Omenkiller's initial position, proceed through another archway with a dog, and turn right. Go down the stairs to the broken gap. Instead of dropping all the way down (you can survive that fall), if you take a running jump, you can just barely reach the other end of the gap and land on the wooden platform, which has the key."]
+        cords: [2063, 2983]
+        map_title: "Stonesword Key"
+      - id: "k49"
+        data: ["Exit southeast from the room Rya moves to deep in Volcano Manor later in her questline, hop over the thin lava stream, and jump up the ledge through an open window to find the key on a body on a cot"]
+        cords: [2224, 2976]
+        map_title: "Stonesword Key"
+      #
+      - "Capital Outskirts"
+      - id: "k50"
+        data: ["In Sealed Tunnel, when you emerge into an open room navigable by tree branches and containing many Vulgar Militia and an Iron Maiden, use the branches to get to the platform on the right side, which has a short dead-end path with the key on a body"]
+        cords: [3914, 3668]
+        map_title: "Stonesword Key"
+      - id: "k51"
+        data: ["In Auriza Hero's Grave in the room with two chariots running opposite each other, on a body in an alcove in the center of their paths"]
+        cords: [4556, 3311]
+        map_title: "Stonesword Key"
+      #
+      - "Leyndell, Royal Capital"
+      - id: "k52"
+        data: ["From East Capital Rampart, follow the rampart all the way south until just before the door into a building filled with plants, drop off the side of the rampart onto the rooftops, and hop between rooftops all the way back north, until you find the key on a body next to two Imps"]
+        cords: [4431, 3459]
+        map_title: "Stonesword Key"
+      - id: "k53"
+        data: ["From West Capital Rampart, drop down to ground level and face northwest, then climb the petrified dragon foot and leap from its extended claw to the roof of a barn, and from there into the second floor of an adjacent building, with the key on a body draped over a windowsill"]
+        cords: [4225, 3565]
+        map_title: "Stonesword Key"
+      - id: "k54"
+        data: ["From Avenue Balcony, head down the stairs and hook around them to the right, then down the ladder into a room with many enemies throwing lightning pots, and open the little cell on the ground floor to find a chest with the key inside"]
+        cords: [4301, 3495]
+        map_title: "Stonesword Key"
+      - id: "k55"
+        data: ["From the previous, head out the door on the ground floor, and continue forward until you can hook around a little set of stairs up and right, to see two Skeletal Militiamen and a Putrid Corpse praying at a grave bearing a body with the key"]
+        cords: [4334, 3488]
+        map_title: "Stonesword Key"
+      - id: "k56"
+        data: ["From Lower Capital Church, exit the church and wrap around the building to the right; climb the long ladder and the following ladder to emerge at a gazebo; hook right again before the gazebo, then turn left and follow the tight path until you can climb a large staircase on your left; finally, from the top of the staircase, face directly east and run and jump on top of the gazebo to loot the key from the body"]
+        cords: [4338, 3595]
+        map_title: "Stonesword Key"
+      - id: "k57"
+        data: ["Subterranean Shunning-Grounds: From Underground Roadside, head northeast and drop through the gap in the floor grate, turn northwest and go into the tunnel in the right wall, drop into the first hole surrounded by Slugs, and follow the path from there into a room with three Wraith Callers and the key on a body"]
+        cords: [4364, 3366]
+        map_title: "Stonesword Key"
+      #
+      - "Mountaintops of the Giants"
+      - id: "k58"
+        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        cords: [5960, 2238]
+        map_title: "Stonesword Key x3"
+      - id: "k59"
+        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        map_link: [5960, 2238]
+        map_title: "Stonesword Key"
+      - id: "k60"
+        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        map_link: [5960, 2238]
+        map_title: "Stonesword Key"
+      - id: "k61"
+        data: ["In Castle Sol, from the Church of the Eclipse, exit to the north, climb the ladder to the east, go all the way north, cross the wooden bridge, and climb the stairs on the right to find a body slumped over the wall on the left with the key"]
+        cords: [6037, 1724]
+        map_title: "Stonesword Key"
+      - id: "k62"
+        data: ["On a body right behind the Fire Prelate outside Guardians' Garrison"]
+        cords: [6275, 2393]
+        map_title: "Stonesword Key"
+      #
+      - "Consecrated Snowfield"
+      - id: "k63"
+        data: ["From Inner Consecrated Snowfield, travel exactly one notch north of West until you find a hill guarded by two lightning balls; on top is a chair with a corpse with the key"]
+        cords: [5194, 2247]
+        map_title: "Stonesword Key"
+      - id: "k64"
+        data: ["In the northwest of Yelough Anix Ruins, in a tiny crumbling room packed with four frenzied rats"]
+        cords: [5012, 2341]
+        map_title: "Stonesword Key"
+      #
+      - "Miquella's Haligtree"
+      - id: "k65"
+        data: ["Directly south of Haligtree Canopy on a body at the tip of the same branch"]
+        cords: [5610, 1351]
+        map_title: "Stonesword Key"
+      - id: "k66"
+        data: ["From Haligtree Canopy, head east, dropping down when necessary to reach the first Large Oracle Envoy; follow the branch from there east/northeast until you can reach a large central branch with Giant Ants patrolling; follow the large branch south until its first offshoot on the left, which you can follow around in a large ascending circle onto a wide branch above with a scarlot rot flavored Giant Miranda Sprout; face northwest and walk along this branch until its first offshoot at a sharp left angle, at the end of which is an Oracle Envoy and a body with the key"]
+        cords: [5713, 1309]
+        map_title: "Stonesword Key"
+      #
+      - "Crumbling Farum Azula"
+      - id: "k67" #TODO: Verify
+        data: ["In the back of the Dragon Temple to the east, on a body near a ledge"]
+        cords: [8530, 4410]
+        map_title: "Stonesword Key"
+      #
+      - "Siofra River"
+      - id: "k68"
+        data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        cords: [6289, 14256]
+        map_title: "Stonesword Key x3"
+      - id: "k69"
+        data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        map_link: [6289, 14256]
+        map_title: "Stonesword Key"
+      - id: "k70"
+        data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        map_link: [6289, 14256]
+        map_title: "Stonesword Key"
+      - id: "k71"
+        data: ["At the end of the long bridge/wall protruding from the southwest of Siofra River, accessed via a spiritspring in front of it"]
+        cords: [6495, 14564]
+        map_title: "Stonesword Key"
+      - id: "k72"
+        data: ["From the Below the Well grace, travel southwest along the right cliffside until you find a bridge leading to the other side near a Golden Tree; turn left at the other side and hop onto the pillar there, then run down the attached beam to the next pillar, which hides a body with a key"]
+        cords: [6434, 14046]
+        map_title: "Stonesword Key"
+      #
+      - "Nokron, Eternal City"
+      - id: "k73"
+        data: ["On a body just south of the Aqueduct-Facing Cliffs grace, right outside the cave, where you drop down from the ledge above with the jellyfish to reach it"]
+        cords: [6221, 14108]
+        map_title: "Stonesword Key"
+      #
+      - "Ainsel River"
+      - id: "k74"
+        data: ["On a body in water surrounded by many frenzied Miranda Sprouts, near the waterfall just southwest of Uld Palace Ruins"]
+        cords: [3930, 12022]
+        map_title: "Stonesword Key"
+      - id: "k75"
+        data: ["In Nokstella, Eternal City, directly north of the elevator to Nokstella Waterfall Basin, on a cliff under a ledge"]
+        cords: [3356, 11846]
+        map_title: "Stonesword Key"
+      #
+      - "Deeproot Depths"
+      - id: "k76"
+        data: ["Atop the very tall square building directly southeast of Crucible Knight Siluria, reached via the spiritspring next to the building"]
+        cords: [5249, 10856]
+        map_title: "Stonesword Key"
+      #
+      - "Mohgwyn Palace"
+      - id: "k77"
+        data: ["On the south end of the area with many Giant Crows, on a body on the ground in the open"]
+        cords: [6952, 14489]
+        map_title: "Stonesword Key"
+      - id: "k78"
+        data: ["Along the path up from Dynasty Mausoleum Entrance, just past the Giant Skeletal Slime, turn right for a dead end side path with many praying Putrid Corpses and a key on a body against a rock"]
+        cords: [6913, 14428]
+        map_title: "Stonesword Key"
+      - id: "k79"
+        data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        cords: [6793, 14474]
+        map_title: "Stonesword Key x5"
+      - id: "k80"
+        data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        map_link: [6793, 14474]
+        map_title: "Stonesword Key"
+      - id: "k81"
+        data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        map_link: [6793, 14474]
+        map_title: "Stonesword Key"
+      - id: "k82"
+        data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        map_link: [6793, 14474]
+        map_title: "Stonesword Key"
+      - id: "k83"
+        data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        map_link: [6793, 14474]
+        map_title: "Stonesword Key"
+  -
+    title: "Imp Statue Seals"
+    items:
+      - "Limgrave"
+      - id: "s1"
+        data: ["2 keys: The entrance to Fringefolk Hero's Grave"]
+        # cords: [3727, 7368]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s2"
+        data: ["1 key: A cellar in eastern Summonwater Village containing the Green Turtle Talisman"]
+        # cords: [4496, 6510]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Roundtable Hold"
+      - id: "s3"
+        data: ["1 key: A small room down the stairs near Smithing Master Hewg containing Crepus's Black-Key Crossbow and another Imp Statue Seal"]
+        # cords: [631, 8321]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s4"
+        data: ["2 keys: A small room accessed via the previous, containing the Assassin's Prayerbook"]
+        # cords: [642, 8325]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Weeping Peninsula"
+      - id: "s5"
+        data: ["1 key: A small room in Tombsward Catacombs containing Nomadic Warrior's Cookbook [9]"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s6"
+        data: ["1 key: Unlocks Weeping Evergaol"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Stormveil Castle"
+      - id: "s7"
+        data: ["1 key: A cellar down some stairs in the main courtyard near Liftside Chamber, containing the Godskin Prayerbook, the Godslayer's Seal, and a shortcut door"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s8"
+        data: ["1 key: A small room out the northwest of the main hall with the Grafted Scion, containing the Iron Whetblade, a Miséricorde, and a Hawk Crest Wooden Shield"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Liurnia of the Lakes"
+      - id: "s9"
+        data: ["1 key: A small room in Cliffbottom Catacombs containing the Nox Mirrorhelm"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s10"
+        data: ["2 keys: The entrance to Academy Crystal Cave"]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s11"
+        data: ["1 key: A small room in Black Knife Catacombs containing Rosus' Axe"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s12"
+        data: ["1 key: A cellar in Lunar Estate Ruins up by the Moonlight Altar accessed late in Ranni's questline. The Imp Statue appears to be by itself, with its seal located to its right underneath an illusory floor blocking a hidden basement. Contains the Cerulean Amber Medallion +2."]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Caelid"
+      - id: "s13"
+        data: ["2 keys: The entrance to Gaol Cave"]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s14"
+        data: ["1 key: A cellar in Forsaken Ruins containing the Sword of St. Trina"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Altus Plateau"
+      - id: "s15"
+        data: ["1 key: Unlocks Golden Lineage Evergaol"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s16"
+        data: ["2 keys: The entrance to Unsightly Catacombs"]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s17"
+        data: ["1 key: A small room in Sainted Hero's Grave containing the Crimson Seed Talisman"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s18"
+        data: ["1 key: A small room much farther into Sainted Hero's Grave containing a Ghost Glovewort [5] and the Dragoncrest Shield Talisman +1"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s19"
+        data: ["2 keys: The entrance to Old Altus Tunnel"]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Mt. Gelmir"
+      - id: "s20"
+        data: ["2 keys: The entrance to Seethewater Cave"]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s21"
+        data: ["1 key: A cellar near the top of Wyndham Ruins containing the Pearldrake Talisman +1"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s22"
+        data: ["1 key: A small room in Wyndham Catacombs containing the Lightning Scorpion Charm"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Volcano Manor"
+      - id: "s23"
+        data: ["1 key: A building with an Abductor Virgin and a spiral staircase to the Crimson Amber Medallion +1"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s24"
+        data: ["2 keys: A large room with hanging cages that leads to the Dagger Talisman, a Seedbed Curse, a Somber Smithing Stone [7], and eventually a shortcut door"]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Capital Outskirts"
+      - id: "s25"
+        data: ["1 key: A small room in Auriza Hero's Grave containing the Golden Epitaph"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Mountaintops of the Giants"
+      - id: "s26"
+        data: ["2 keys: The entrance to Spiritcaller Cave"]
+        map_title: "Imp Statue Seal (2 keys)"
+      - id: "s27"
+        data: ["1 key: A small room in Giant-Conquering Hero's Grave containing Flame, Protect Me"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Consecrated Snowfield"
+      - id: "s28"
+        data: ["2 keys: The entrance to Cave of the Forlorn"]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Elphael, Brace of the Haligtree"
+      - id: "s29"
+        data: ["1 key: A small room containing Triple Rings of Light"]
+        map_title: "Imp Statue Seal (1 key)"
+      - id: "s30"
+        data: ["1 key: A small room containing the Marika's Soreseal"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Crumbling Farum Azula"
+      - id: "s31"
+        data: ["2 keys: The Dragon Temple Lift"]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Siofra River"
+      - id: "s32"
+        data: ["2 keys: The elevator up to Deep Siofra Well"]
+        map_title: "Imp Statue Seal (2 keys)"
+      #
+      - "Nokron, Eternal City"
+      - id: "s33"
+        data: ["1 key: A small room in Night's Sacred Ground containing the Mimic Tear Ashes"]
+        map_title: "Imp Statue Seal (1 key)"
+      #
+      - "Ainsel River"
+      - id: "s34"
+        data: ["1 key: A small room at the top of Nokstella, Eternal City, containing the Nightmaiden & Swordstress Puppets"]
+        map_title: "Imp Statue Seal (1 key)"

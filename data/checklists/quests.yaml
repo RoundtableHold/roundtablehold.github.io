@@ -577,7 +577,7 @@ sections:
         - id: "31_20_1"
           data: ["If you choose the Red summon sign, you'll invade and kill Millicent. From her, you'll receive Millicent's Prothesis. Go back to Gowry's Shack, and he'll be dead as well, giving you the Flock's Canvas Talisman and his bell bearing."]
         - id: "31_20_2"
-          data: ["If you use the Gold summon sign, you'll help her fight her invaders. Once you win, return to where the summon signs were to find her lying by the pool of rot. Be very careful dropping down to her, if you land on her, she'll die. Exhaust her dialogue for the Rotten Winged Sword Insignia then reload the area to get back the Unalloyed Gold Needle, which you can use on a flower in Malenia's boss arena for Somber Ancient Dragon Smithing Stone and Miquella's Needle, which is needed to cure yourself of the Frenzied Flame. Gowry will remain alive, kill him for his stuff"]
+          data: ["If you use the Gold summon sign, you'll help her fight her invaders. If you or she dies, you can try again. Once you win, return to where the summon signs were to find her lying by the pool of rot. Exhaust her dialogue for the Rotten Winged Sword Insignia then reload the area to get back the Unalloyed Gold Needle, which you can use on a flower in Malenia's boss arena for Somber Ancient Dragon Smithing Stone and Miquella's Needle, which is needed to cure yourself of the Frenzied Flame. Gowry will remain alive, but can finally be killed for his stuff"]
       - id: "31_21"
         data: ["Summons"]
       -
@@ -594,7 +594,7 @@ sections:
     link: "https://eldenring.wiki.fextralife.com/Miriel+Pastor+of+Vows"
     items:
       - id: "5_1"
-        data: ["Located at the Church of Vows in East Liurnia Lake. Teaches sorceries and incantations, and accepts scrolls and prayerbooks. Never moves or dies, unless you're the worst kind of person, so is a good candidate to give them all to."]
+        data: ["Located at the Church of Vows in East Liurnia of the Lakes. Teaches sorceries and incantations, and accepts scrolls and prayerbooks. Never moves or dies, unless you're the worst kind of person, so is a good candidate to give them all to."]
       - id: "5_2"
         data: ["Gives you the hint needed for Brother Corhyn and Goldmasks questline in Leyndell"]
       - id: "5_3"
@@ -647,11 +647,11 @@ sections:
       - id: "29_2"
         data: ["Reload and talk to him again for some dialogue and buy some stuff from him. Reload and come back and he will offer you his chest, open it for a fun time."]
       - id: "29_8"
-        data: ["Make your way back to him and he'll give you another gesture (Note: he won't give the gesture if you've been to Liurnia Lake)"]
+        data: ["Make your way back to him and he'll give you another gesture (Note: he won't give the gesture if you've been to Liurnia of the Lakes)"]
       - id: "29_3"
-        data: ["He'll next be found at the Scenic Isle Grace in Liurnia Lake and will inform you about an Iron Virgin deep at the bottom of Raya Lucaria that will teleport you to the Erdtree if you let it eat you"]
+        data: ["He'll next be found at the Scenic Isle Grace in Liurnia of the Lakes and will inform you about an Iron Virgin deep at the bottom of Raya Lucaria that will teleport you to the Erdtree if you let it eat you"]
       - id: "29_4"
-        data: ["Missable: His next new location is near the First Mt. Gelmir Campfire Site of Grace. Follow the cliff edge westward until you reach the corner, and read the message he's left. You can find him nearby, squatting in a bush. He'll say you should totally check out what those Rainbow Stones are leading to. Wander over, with your back turned and your defenses lowered, to the tall ledge"]
+        data: ["Missable: His next new location is near the First Mt. Gelmir Campfire Site of Grace. Follow the cliff edge westward until you reach the corner, and read the message he's left. You can find him nearby, squatting in a bush. He'll say you should totally check out what those Rainbow Stones are leading to. Wander over, with your back turned and your defenses lowered, to the tall ledge. (If you missed the Calm Down gesture before, you can get it again from him now by making your way back to him before he moves on)"]
       - id: "29_5"
         data: ["Once you join Volcano Manor, you'll find him inside"]
       - id: "29_6"

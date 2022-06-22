@@ -604,6 +604,13 @@ window.progress = {
       [0, 4],
     ],
   },
+  "stonesword": {
+    "total": [0, 117],
+    "sections": [
+      [0, 83],
+      [0, 34],
+    ],
+  },
   "dragon_hearts_death_roots": {
     "total": [0, 22],
     "sections": [
