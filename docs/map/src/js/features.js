@@ -17413,6 +17413,652 @@ const feature_data = [
           "title": "Stonesword Key x5"
         },
         "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3727,
+            7368
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s1",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s1",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s1",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4496,
+            6510
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s2",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s2",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s2",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            631,
+            8321
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s3",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s3",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s3",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            642,
+            8325
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s4",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s4",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s4",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3844,
+            7966
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s5",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s5",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s5",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3615,
+            7957
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s6",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s6",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s6",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3122,
+            6713
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s7",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s7",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s7",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3096,
+            6693
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s8",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s8",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s8",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3027,
+            5957
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s9",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s9",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s9",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1723,
+            4885
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s10",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s10",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s10",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2885,
+            4117
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s11",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s11",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s11",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1887,
+            5920
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s12",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s12",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s12",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4922,
+            6779
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s13",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s13",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s13",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4889,
+            6351
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s14",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s14",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s14",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2865,
+            3795
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s15",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s15",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s15",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2141,
+            3366
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s16",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s16",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s16",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2626,
+            3119
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s21",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s21",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s21",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3237,
+            3180
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s17",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s17",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s17",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3223,
+            3176
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s18",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s18",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s18",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2810,
+            3060
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s19",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s19",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s19",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2433,
+            2828
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s20",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s20",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s20",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2547,
+            3081
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s22",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s22",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s22",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2017,
+            2987
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s23",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s23",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s23",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2185,
+            2869
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s24",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s24",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s24",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4529,
+            3313
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s25",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s25",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s25",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6480,
+            2046
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s26",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s26",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s26",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5672,
+            2823
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s27",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s27",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s27",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5678,
+            2147
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s28",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s28",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s28",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5710,
+            915
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s29",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s29",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s29",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5726,
+            935
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s30",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s30",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s30",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8432,
+            4332
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s31",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s31",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s31",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6593,
+            13866
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s32",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s32",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s32",
+          "title": "Imp Statue Seal (2 keys)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6098,
+            14428
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s33",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s33",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s33",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3473,
+            11993
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_s34",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/imp.png",
+          "icon_size": 35,
+          "id": "stonesword_s34",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s34",
+          "title": "Imp Statue Seal (1 key)"
+        },
+        "type": "Feature"
       }
     ],
     "id": "stonesword",
@@ -19630,6 +20276,7 @@ const icon_urls = [
   "/map/icons/shadows/gestures/07047.png",
   "/map/icons/shadows/gestures/07048.png",
   "/map/icons/shadows/gestures/07049.png",
+  "/map/icons/shadows/imp.png",
   "/map/icons/shadows/incantations/06060.png",
   "/map/icons/shadows/info/paintings/03066.png",
   "/map/icons/shadows/info/paintings/03207.png",
