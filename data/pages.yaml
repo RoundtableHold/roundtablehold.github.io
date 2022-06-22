@@ -42,6 +42,7 @@ dropdowns:
     pages:
       - "remembrances.yaml" #Remembrances & Mausoleums
       - "greatrunes.yaml" #Great Runes
+      - "stonesword_keys.yaml" #Stonesword Keys & Seals
       - "dragon_hearts_death_roots.yaml" #Dragon Hearts & Deathroots
       - "tears_dews.yaml" #Larval Tears & Celestial Dews
       - "paintings.yaml" #Paintings
@@ -286,7 +287,7 @@ item_links:
   - link_all: [bosses_7_13, caves_5_3, talismans_7_5] #KINDRED OF ROT (X2)/SEETHEWATER CAVE/KINDRED OF ROT'S EXULTATION TALISMAN
   - link_all: [bosses_7_14, caves_5_1, spirit_ashes_6_1] #RED WOLF OF THE CHAMPION/GELMIR HERO'S GRAVE/BLOODHOUND KNIGHT FLOH ASHES
   - link_all: [bosses_7_15, weapons_6_9] #FULL-GROWN FALLINGSTAR BEAST/FALLINGSTAR BEAST JAW COLOSSAL WEAPON
-  - link_all: [bosses_7_17, weapons_6_1, weapons_27_2] #FIRE PRELATE/PRELATE'S INFERNO CROZIER COLOSSAL WEAPON/THORNED WHIP
+  - link_all: [bosses_7_17, weapons_6_1] #FIRE PRELATE/PRELATE'S INFERNO CROZIER
   - link_all: [bosses_7_18, dragon_hearts_death_roots_0_11] #MAGMA WYRM (FORT LAIEDD)/DRAGON HEART
   - link_all: [bosses_7_19, memory_stones_talisman_pouches_0_8] #DEMI-HUMAN QUEEN MAGGIE/MEMORY STONE
   - link_all: [bosses_7_27, weapons_19_7] #ANASTASIA/BUTCHERING KNIFE GREATAXE

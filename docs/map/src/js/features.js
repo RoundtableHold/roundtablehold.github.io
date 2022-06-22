@@ -13961,8 +13961,8 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            454,
-            8354
+            463,
+            8363
           ],
           "type": "Point"
         },
@@ -16182,6 +16182,1247 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3939,
+            7352
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k3",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k3",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k3",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4015,
+            6975
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k4",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k4",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k4",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3485,
+            6762
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k5",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k5",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k5",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3757,
+            7304
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k6",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k6",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k6",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            451,
+            8385
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k7",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k7",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k7",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4350,
+            7756
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k10",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k10",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k10",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4435,
+            7826
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k11",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k11",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k11",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4307,
+            8185
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k12",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k12",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k12",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3450,
+            8230
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k13",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k13",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k13",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3973,
+            8699
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k16",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k16",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k16",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3104,
+            6709
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k17",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k17",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k17",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3132,
+            6698
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k18",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k18",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k18",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3078,
+            6662
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k19",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k19",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k19",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1733,
+            4883
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k20",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k20",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k20",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2102,
+            5056
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k21",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k21",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k21",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1948,
+            4840
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k22",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k22",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k22",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2028,
+            4957
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k23",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k23",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k23",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2782,
+            4459
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k26",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k26",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k26",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2573,
+            4200
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k27",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k27",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k27",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1885,
+            3832
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k28",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k28",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k28",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1923,
+            5008
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k29",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k29",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k29",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1949,
+            4942
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k30",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k30",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k30",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4921,
+            6764
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k31",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k31",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k31",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5416,
+            7067
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k32",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k32",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k32",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5569,
+            6091
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k33",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k33",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k33",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5628,
+            6618
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k34",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k34",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k34",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5747,
+            6449
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k35",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k35",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k35",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5353,
+            6421
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k36",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k36",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k36",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2940,
+            3670
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k37",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k37",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k37",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2528,
+            3269
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k38",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k38",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k38",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3321,
+            3074
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k39",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k39",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k39",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3429,
+            3295
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k42",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k42",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k42",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2972,
+            2711
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k43",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k43",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k43",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2530,
+            2915
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k44",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k44",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k44",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2513,
+            2700
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k45",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k45",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k45",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2438,
+            2633
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k46",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k46",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k46",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1957,
+            2722
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k47",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k47",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k47",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2063,
+            2983
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k48",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k48",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k48",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2224,
+            2976
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k49",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k49",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k49",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3914,
+            3668
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k50",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k50",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k50",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4556,
+            3311
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k51",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k51",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k51",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4431,
+            3459
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k52",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k52",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k52",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4225,
+            3565
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k53",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k53",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k53",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4301,
+            3495
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k54",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k54",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k54",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4334,
+            3488
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k55",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k55",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k55",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4338,
+            3595
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k56",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k56",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k56",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4364,
+            3366
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k57",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k57",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k57",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5960,
+            2238
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k58",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k58",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k58",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6037,
+            1724
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k61",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k61",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k61",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6275,
+            2393
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k62",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k62",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k62",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5194,
+            2247
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k63",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k63",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k63",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5012,
+            2341
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k64",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k64",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k64",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5610,
+            1351
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k65",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k65",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k65",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5713,
+            1309
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k66",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k66",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k66",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8530,
+            4410
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k67",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k67",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k67",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6289,
+            14256
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k68",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k68",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k68",
+          "title": "Stonesword Key x3"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6495,
+            14564
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k71",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k71",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k71",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6434,
+            14046
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k72",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k72",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k72",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6221,
+            14108
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k73",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k73",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k73",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3930,
+            12022
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k74",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k74",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k74",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3356,
+            11846
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k75",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k75",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k75",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5249,
+            10856
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k76",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k76",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k76",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6952,
+            14489
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k77",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k77",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k77",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6913,
+            14428
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k78",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k78",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k78",
+          "title": "Stonesword Key"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6793,
+            14474
+          ],
+          "type": "Point"
+        },
+        "id": "stonesword_k79",
+        "properties": {
+          "group": "stonesword",
+          "icon": "/map/icons/shadows/keys/00228.png",
+          "icon_size": 35,
+          "id": "stonesword_k79",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_k79",
+          "title": "Stonesword Key x5"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "stonesword",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3891,
             7227
           ],
@@ -17448,25 +18689,6 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3974,
-            2945
-          ],
-          "type": "Point"
-        },
-        "id": "pots_bottles_3_8",
-        "properties": {
-          "group": "pots_bottles",
-          "icon": "/map/icons/shadows/keys/00443.png",
-          "icon_size": 35,
-          "id": "pots_bottles_3_8",
-          "link": "/checklists/pots_bottles.html#item_3_8",
-          "title": "Perfume Bottle"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
             2205,
             2885
           ],
@@ -17479,6 +18701,25 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_7",
           "link": "/checklists/pots_bottles.html#item_3_7",
+          "title": "Perfume Bottle"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3974,
+            2945
+          ],
+          "type": "Point"
+        },
+        "id": "pots_bottles_3_8",
+        "properties": {
+          "group": "pots_bottles",
+          "icon": "/map/icons/shadows/keys/00443.png",
+          "icon_size": 35,
+          "id": "pots_bottles_3_8",
+          "link": "/checklists/pots_bottles.html#item_3_8",
           "title": "Perfume Bottle"
         },
         "type": "Feature"
@@ -18397,6 +19638,7 @@ const icon_urls = [
   "/map/icons/shadows/info/paintings/03210.png",
   "/map/icons/shadows/info/paintings/03211.png",
   "/map/icons/shadows/info/paintings/03212.png",
+  "/map/icons/shadows/keys/00228.png",
   "/map/icons/shadows/keys/00310.png",
   "/map/icons/shadows/keys/00311.png",
   "/map/icons/shadows/keys/00315.png",

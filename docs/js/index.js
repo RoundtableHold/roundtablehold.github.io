@@ -3370,6 +3370,123 @@
 "spirit_ashes_9_2",
 "spirit_ashes_9_3",
 "spirit_ashes_9_4",
+"stonesword_k1",
+"stonesword_k10",
+"stonesword_k11",
+"stonesword_k12",
+"stonesword_k13",
+"stonesword_k14",
+"stonesword_k15",
+"stonesword_k16",
+"stonesword_k17",
+"stonesword_k18",
+"stonesword_k19",
+"stonesword_k2",
+"stonesword_k20",
+"stonesword_k21",
+"stonesword_k22",
+"stonesword_k23",
+"stonesword_k24",
+"stonesword_k25",
+"stonesword_k26",
+"stonesword_k27",
+"stonesword_k28",
+"stonesword_k29",
+"stonesword_k3",
+"stonesword_k30",
+"stonesword_k31",
+"stonesword_k32",
+"stonesword_k33",
+"stonesword_k34",
+"stonesword_k35",
+"stonesword_k36",
+"stonesword_k37",
+"stonesword_k38",
+"stonesword_k39",
+"stonesword_k4",
+"stonesword_k40",
+"stonesword_k41",
+"stonesword_k42",
+"stonesword_k43",
+"stonesword_k44",
+"stonesword_k45",
+"stonesword_k46",
+"stonesword_k47",
+"stonesword_k48",
+"stonesword_k49",
+"stonesword_k5",
+"stonesword_k50",
+"stonesword_k51",
+"stonesword_k52",
+"stonesword_k53",
+"stonesword_k54",
+"stonesword_k55",
+"stonesword_k56",
+"stonesword_k57",
+"stonesword_k58",
+"stonesword_k59",
+"stonesword_k6",
+"stonesword_k60",
+"stonesword_k61",
+"stonesword_k62",
+"stonesword_k63",
+"stonesword_k64",
+"stonesword_k65",
+"stonesword_k66",
+"stonesword_k67",
+"stonesword_k68",
+"stonesword_k69",
+"stonesword_k7",
+"stonesword_k70",
+"stonesword_k71",
+"stonesword_k72",
+"stonesword_k73",
+"stonesword_k74",
+"stonesword_k75",
+"stonesword_k76",
+"stonesword_k77",
+"stonesword_k78",
+"stonesword_k79",
+"stonesword_k8",
+"stonesword_k80",
+"stonesword_k81",
+"stonesword_k82",
+"stonesword_k83",
+"stonesword_k9",
+"stonesword_s1",
+"stonesword_s10",
+"stonesword_s11",
+"stonesword_s12",
+"stonesword_s13",
+"stonesword_s14",
+"stonesword_s15",
+"stonesword_s16",
+"stonesword_s17",
+"stonesword_s18",
+"stonesword_s19",
+"stonesword_s2",
+"stonesword_s20",
+"stonesword_s21",
+"stonesword_s22",
+"stonesword_s23",
+"stonesword_s24",
+"stonesword_s25",
+"stonesword_s26",
+"stonesword_s27",
+"stonesword_s28",
+"stonesword_s29",
+"stonesword_s3",
+"stonesword_s30",
+"stonesword_s31",
+"stonesword_s32",
+"stonesword_s33",
+"stonesword_s34",
+"stonesword_s4",
+"stonesword_s5",
+"stonesword_s6",
+"stonesword_s7",
+"stonesword_s8",
+"stonesword_s9",
 "talismans_10_1",
 "talismans_10_2",
 "talismans_10_3",
@@ -3993,6 +4110,8 @@ const remembrances_mausoleums_total = 52;
 var remembrances_mausoleums_checked = 0;
 const great_runes_total = 11;
 var great_runes_checked = 0;
+const stonesword_total = 117;
+var stonesword_checked = 0;
 const dragon_hearts_death_roots_total = 22;
 var dragon_hearts_death_roots_checked = 0;
 const tears_dews_total = 28;
@@ -4084,6 +4203,9 @@ remembrances_mausoleums_checked += 1;
 }
 if (id.startsWith("great_runes")) {
 great_runes_checked += 1;
+}
+if (id.startsWith("stonesword")) {
+stonesword_checked += 1;
 }
 if (id.startsWith("dragon_hearts_death_roots")) {
 dragon_hearts_death_roots_checked += 1;
@@ -4234,6 +4356,11 @@ if (great_runes_checked >= great_runes_total){
 $("#great_runes_progress_total").html("DONE");
 } else {
 $("#great_runes_progress_total").html(great_runes_checked + "/" + great_runes_total);
+}
+if (stonesword_checked >= stonesword_total){
+$("#stonesword_progress_total").html("DONE");
+} else {
+$("#stonesword_progress_total").html(stonesword_checked + "/" + stonesword_total);
 }
 if (dragon_hearts_death_roots_checked >= dragon_hearts_death_roots_total){
 $("#dragon_hearts_death_roots_progress_total").html("DONE");

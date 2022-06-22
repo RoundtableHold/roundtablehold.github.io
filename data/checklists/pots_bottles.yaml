@@ -73,7 +73,7 @@ sections:
         data: ["South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
         cords: [5439, 7052]
         map_title: "Cracked Pot"
-      - "Altus Plateau"
+      - "Capital Outskirts"
       - id: "1_16"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
         cords: [4597, 3173]
@@ -90,7 +90,7 @@ sections:
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
         map_link: [4597, 3173]
         map_title: "Cracked Pot"
-      - "Leyndell"
+      - "Leyndell, Royal Capital"
       - id: "1_20"
         data: ["Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse"]
         cords: [4292, 3480]
@@ -117,7 +117,7 @@ sections:
         data: ["After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes"]
         cords: [1822, 3733]
         map_title: "Ritual Pot"
-      - "Raya Lucaria"
+      - "Academy of Raya Lucaria"
       - id: "2_4"
         data: ["Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar"]
         cords: [1900, 5036]
@@ -127,7 +127,7 @@ sections:
         data: ["Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes"]
         cords: [5144, 6094]
         map_title: "Ritual Pot"
-      - "Altus Plateau"
+      - "Capital Outskirts"
       - id: "2_7"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
         cords: [4606, 3184]
@@ -136,7 +136,7 @@ sections:
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
         map_link: [4606, 3184]
         map_title: "Ritual Pot"
-      - "Leyndell"
+      - "Leyndell, Royal Capital"
       - id: "2_9"
         data: ["In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace."]
         cords: [4422, 3483]
@@ -177,16 +177,17 @@ sections:
         data: ["Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder"]
         cords: [2934, 2695]
         map_title: "Perfume Bottle"
-      - id: "3_8"
-        data: ["Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes"]
-        cords: [3974, 2945]
-        map_title: "Perfume Bottle"
       - "Mt. Gelmir"
       - id: "3_7"
         data: ["Volcano Manor: on a body in a room unlocked with the Drawing-Room Key"]
         cords: [2205, 2885]
         map_title: "Perfume Bottle"
-      - "Leyndell"
+      - "Capital Outskirts"
+      - id: "3_8"
+        data: ["Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes"]
+        cords: [3974, 2945]
+        map_title: "Perfume Bottle"
+      - "Leyndell, Royal Capital"
       - id: "3_9"
         data: ["Follow the path from the East Capital Rampart Grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a Perfumer. It's in a chest in the room at the top"]
         cords: [4434, 3542]

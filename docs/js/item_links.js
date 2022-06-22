@@ -2020,7 +2020,6 @@ const item_links = {
   },
   "bosses_7_17": {
     "targets": [
-      "weapons_27_2",
       "weapons_6_1"
     ]
   },
@@ -5601,12 +5600,6 @@ const item_links = {
       "bosses_5_24"
     ]
   },
-  "weapons_27_2": {
-    "targets": [
-      "bosses_7_17",
-      "weapons_6_1"
-    ]
-  },
   "weapons_27_4": {
     "targets": [
       "armor_450",
@@ -5745,8 +5738,7 @@ const item_links = {
   },
   "weapons_6_1": {
     "targets": [
-      "bosses_7_17",
-      "weapons_27_2"
+      "bosses_7_17"
     ]
   },
   "weapons_6_10": {
