@@ -1,7 +1,7 @@
 title: "Stonesword Keys & Imp Seals"
 id: stonesword
 icon: "/img/icons/keys/00228.png"
-description: "Stonesword Keys are consumable key items that open Imp Statue Seals, which typically guard loot, dungeons, or optional paths. A maximum of 80 Stonesword Keys can be found in the game, plus 2 if chosen as a Keepsake. However, only 46 are required to open every Imp Statue Seal. Imp Statues each require either 1 or 2 keys, and the only way to tell the difference is by visual examination: most Imp Statues already have one key in them when you find them, meaning you only need one more."
+description: "Stonesword Keys are consumable key items that open Imp Statue Seals, which typically guard loot, dungeons, or optional paths. A maximum of 81 Stonesword Keys can be found in the game, plus 2 if chosen as a Keepsake. However, only 46 are required to open every Imp Statue Seal. Imp Statues each require either 1 or 2 keys, and the only way to tell the difference is by visual examination: most Imp Statues already have one key in them when you find them, meaning you only need one more."
 sections:
   -
     title: "Stonesword Keys"
@@ -380,143 +380,174 @@ sections:
         map_title: "Stonesword Key"
   -
     title: "Imp Statue Seals"
+    map_icon: "/map/icons/shadows/imp.png"
     items:
       - "Limgrave"
       - id: "s1"
         data: ["2 keys: The entrance to Fringefolk Hero's Grave"]
-        # cords: [3727, 7368]
+        cords: [3727, 7368]
         map_title: "Imp Statue Seal (2 keys)"
       - id: "s2"
         data: ["1 key: A cellar in eastern Summonwater Village containing the Green Turtle Talisman"]
-        # cords: [4496, 6510]
+        cords: [4496, 6510]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Roundtable Hold"
       - id: "s3"
         data: ["1 key: A small room down the stairs near Smithing Master Hewg containing Crepus's Black-Key Crossbow and another Imp Statue Seal"]
-        # cords: [631, 8321]
+        cords: [631, 8321]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s4"
         data: ["2 keys: A small room accessed via the previous, containing the Assassin's Prayerbook"]
-        # cords: [642, 8325]
+        cords: [642, 8325]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Weeping Peninsula"
       - id: "s5"
         data: ["1 key: A small room in Tombsward Catacombs containing Nomadic Warrior's Cookbook [9]"]
+        cords: [3844, 7966]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s6"
         data: ["1 key: Unlocks Weeping Evergaol"]
+        cords: [3615, 7957]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Stormveil Castle"
       - id: "s7"
-        data: ["1 key: A cellar down some stairs in the main courtyard near Liftside Chamber, containing the Godskin Prayerbook, the Godslayer's Seal, and a shortcut door"]
+        data: ["1 key: A cellar down some stairs in the main courtyard opposite Liftside Chamber, on the other side of a room full of rats; contains the Godskin Prayerbook, the Godslayer's Seal, and a shortcut door"]
+        cords: [3122, 6713]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s8"
         data: ["1 key: A small room out the northwest of the main hall with the Grafted Scion, containing the Iron Whetblade, a Miséricorde, and a Hawk Crest Wooden Shield"]
+        cords: [3096, 6693]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Liurnia of the Lakes"
       - id: "s9"
         data: ["1 key: A small room in Cliffbottom Catacombs containing the Nox Mirrorhelm"]
+        cords: [3027, 5957]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s10"
         data: ["2 keys: The entrance to Academy Crystal Cave"]
+        cords: [1723, 4885]
         map_title: "Imp Statue Seal (2 keys)"
       - id: "s11"
         data: ["1 key: A small room in Black Knife Catacombs containing Rosus' Axe"]
+        cords: [2885, 4117]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s12"
         data: ["1 key: A cellar in Lunar Estate Ruins up by the Moonlight Altar accessed late in Ranni's questline. The Imp Statue appears to be by itself, with its seal located to its right underneath an illusory floor blocking a hidden basement. Contains the Cerulean Amber Medallion +2."]
+        cords: [1887, 5920]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Caelid"
       - id: "s13"
         data: ["2 keys: The entrance to Gaol Cave"]
+        cords: [4922, 6779]
         map_title: "Imp Statue Seal (2 keys)"
       - id: "s14"
         data: ["1 key: A cellar in Forsaken Ruins containing the Sword of St. Trina"]
+        cords: [4889, 6351]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Altus Plateau"
       - id: "s15"
         data: ["1 key: Unlocks Golden Lineage Evergaol"]
+        cords: [2865, 3795]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s16"
         data: ["2 keys: The entrance to Unsightly Catacombs"]
+        cords: [2141, 3366]
         map_title: "Imp Statue Seal (2 keys)"
+      - id: "s21"
+        data: ["1 key: A cellar near the top of Wyndham Ruins containing the Pearldrake Talisman +1"]
+        cords: [2626, 3119]
+        map_title: "Imp Statue Seal (1 key)"
       - id: "s17"
         data: ["1 key: A small room in Sainted Hero's Grave containing the Crimson Seed Talisman"]
+        cords: [3237, 3180]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s18"
         data: ["1 key: A small room much farther into Sainted Hero's Grave containing a Ghost Glovewort [5] and the Dragoncrest Shield Talisman +1"]
+        cords: [3223, 3176]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s19"
         data: ["2 keys: The entrance to Old Altus Tunnel"]
+        cords: [2810, 3060]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Mt. Gelmir"
       - id: "s20"
         data: ["2 keys: The entrance to Seethewater Cave"]
+        cords: [2433, 2828]
         map_title: "Imp Statue Seal (2 keys)"
-      - id: "s21"
-        data: ["1 key: A cellar near the top of Wyndham Ruins containing the Pearldrake Talisman +1"]
-        map_title: "Imp Statue Seal (1 key)"
       - id: "s22"
         data: ["1 key: A small room in Wyndham Catacombs containing the Lightning Scorpion Charm"]
+        cords: [2547, 3081]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Volcano Manor"
       - id: "s23"
-        data: ["1 key: A building with an Abductor Virgin and a spiral staircase to the Crimson Amber Medallion +1"]
+        data: ["1 key: A building along the main path from Prison Town Church with an Abductor Virgin and a spiral staircase to the Crimson Amber Medallion +1"]
+        cords: [2017, 2987]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s24"
-        data: ["2 keys: A large room with hanging cages that leads to the Dagger Talisman, a Seedbed Curse, a Somber Smithing Stone [7], and eventually a shortcut door"]
+        data: ["2 keys: In the grand hall with an eastern upstairs exit to a balcony with the teleporter to Audience Chamber, climb the west-facing stairs instead; a cavernous room with hanging cages that leads to the Dagger Talisman, a Seedbed Curse, a Somber Smithing Stone [7], and eventually a shortcut door"]
+        cords: [2185, 2869]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Capital Outskirts"
       - id: "s25"
         data: ["1 key: A small room in Auriza Hero's Grave containing the Golden Epitaph"]
+        cords: [4529, 3313]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Mountaintops of the Giants"
       - id: "s26"
         data: ["2 keys: The entrance to Spiritcaller Cave"]
+        cords: [6480, 2046]
         map_title: "Imp Statue Seal (2 keys)"
       - id: "s27"
         data: ["1 key: A small room in Giant-Conquering Hero's Grave containing Flame, Protect Me"]
+        cords: [5672, 2823]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Consecrated Snowfield"
       - id: "s28"
         data: ["2 keys: The entrance to Cave of the Forlorn"]
+        cords: [5678, 2147]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Elphael, Brace of the Haligtree"
       - id: "s29"
-        data: ["1 key: A small room containing Triple Rings of Light"]
+        data: ["1 key: Drop down twice immediately after the Prayer Room grace; a small room containing Triple Rings of Light"]
+        cords: [5710, 915]
         map_title: "Imp Statue Seal (1 key)"
       - id: "s30"
-        data: ["1 key: A small room containing the Marika's Soreseal"]
+        data: ["1 key: Visible below from the previous, but must be climbed down to further on, e.g. via the pillars; a small room containing the Marika's Soreseal"]
+        cords: [5726, 935]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Crumbling Farum Azula"
       - id: "s31"
-        data: ["2 keys: The Dragon Temple Lift"]
+        data: ["2 keys: Unlocks the Dragon Temple Lift"]
+        cords: [8432, 4332] #TODO: Verify
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Siofra River"
       - id: "s32"
         data: ["2 keys: The elevator up to Deep Siofra Well"]
+        cords: [6593, 13866]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Nokron, Eternal City"
       - id: "s33"
-        data: ["1 key: A small room in Night's Sacred Ground containing the Mimic Tear Ashes"]
+        data: ["1 key: A room down a small hall in the massive cathedral with a large ball in Night's Sacred Ground, upstairs near the altar with the Black Whetblade; contains the Mimic Tear Ashes"]
+        cords: [6098, 14428]
         map_title: "Imp Statue Seal (1 key)"
       #
-      - "Ainsel River"
+      - "Nokstella, Eternal City"
       - id: "s34"
-        data: ["1 key: A small room at the top of Nokstella, Eternal City, containing the Nightmaiden & Swordstress Puppets"]
+        data: ["1 key: A room along the path to the top, tucked around the far side of a building before the bridge leading to a large ball on a stairway; contains two Nox Monks guarding the Nightmaiden & Swordstress Puppets"]
+        cords: [3473, 11993]
         map_title: "Imp Statue Seal (1 key)"

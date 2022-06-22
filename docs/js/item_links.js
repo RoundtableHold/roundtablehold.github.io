@@ -994,11 +994,9 @@ const item_links = {
   },
   "bell_bearings_3_2": {
     "targets": [
-      "bosses_8_11",
       "bosses_9_4",
       "caves_7_2",
       "dragon_hearts_death_roots_1_7",
-      "flasks_1_28",
       "flasks_1_32"
     ]
   },
@@ -2125,12 +2123,11 @@ const item_links = {
   },
   "bosses_8_1": {
     "targets": [
-      "flasks_1_28"
+      "flasks_1_26"
     ]
   },
   "bosses_8_11": {
     "targets": [
-      "bell_bearings_3_2",
       "flasks_1_28"
     ]
   },
@@ -3114,10 +3111,13 @@ const item_links = {
       "spirit_ashes_4_8"
     ]
   },
+  "flasks_1_26": {
+    "targets": [
+      "bosses_8_1"
+    ]
+  },
   "flasks_1_28": {
     "targets": [
-      "bell_bearings_3_2",
-      "bosses_8_1",
       "bosses_8_11"
     ]
   },
