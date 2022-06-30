@@ -563,7 +563,7 @@ const feature_data = [
         "id": "bosses_2_29",
         "properties": {
           "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon": "/map/icons/shadows/tools/remembrances/00163.png",
           "icon_size": 35,
           "id": "bosses_2_29",
           "link": "/checklists/bosses.html#item_2_29",
@@ -1532,7 +1532,7 @@ const feature_data = [
         "id": "bosses_4_36",
         "properties": {
           "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon": "/map/icons/shadows/tools/remembrances/00172.png",
           "icon_size": 35,
           "id": "bosses_4_36",
           "link": "/checklists/bosses.html#item_4_36",
@@ -2121,7 +2121,7 @@ const feature_data = [
         "id": "bosses_5_27",
         "properties": {
           "group": "bosses",
-          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon": "/map/icons/shadows/tools/remembrances/00164.png",
           "icon_size": 35,
           "id": "bosses_5_27",
           "link": "/checklists/bosses.html#item_5_27",
@@ -2284,6 +2284,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            2292,
+            2960
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_7_26",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00166.png",
+          "icon_size": 35,
+          "id": "bosses_7_26",
+          "link": "/checklists/bosses.html#item_7_26",
+          "title": "Rykard, Lord of Blasphemy"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3677,
             3653
           ],
@@ -2316,6 +2335,25 @@ const feature_data = [
           "id": "bosses_8_11",
           "link": "/checklists/bosses.html#item_8_11",
           "title": "Ulcerated Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4521,
+            3727
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_8_18",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00165.png",
+          "icon_size": 35,
+          "id": "bosses_8_18",
+          "link": "/checklists/bosses.html#item_8_18",
+          "title": "Morgott, the Omen King"
         },
         "type": "Feature"
       },
@@ -2398,6 +2436,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            6355,
+            3160
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_9_15",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00174.png",
+          "icon_size": 35,
+          "id": "bosses_9_15",
+          "link": "/checklists/bosses.html#item_9_15",
+          "title": "Fire Giant"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             5419,
             2884
           ],
@@ -2455,6 +2512,63 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            5574,
+            885
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_10_11",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00167.png",
+          "icon_size": 35,
+          "id": "bosses_10_11",
+          "link": "/checklists/bosses.html#item_10_11",
+          "title": "Malenia, Blade of Miquella"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6224,
+            14147
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_14_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00175.png",
+          "icon_size": 35,
+          "id": "bosses_14_2",
+          "link": "/checklists/bosses.html#item_14_2",
+          "title": "Regal Ancestor Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6796,
+            14396
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_15_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00168.png",
+          "icon_size": 35,
+          "id": "bosses_15_3",
+          "link": "/checklists/bosses.html#item_15_3",
+          "title": "Mohg, Lord of Blood"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             3156,
             12607
           ],
@@ -2468,6 +2582,63 @@ const feature_data = [
           "id": "bosses_17_3",
           "link": "/checklists/bosses.html#item_17_3",
           "title": "Lesser Putrid Tree Spirit"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2765,
+            13744
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_17_2",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00177.png",
+          "icon_size": 35,
+          "id": "bosses_17_2",
+          "link": "/checklists/bosses.html#item_17_2",
+          "title": "Astel, Naturalborn of the Void"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5586,
+            10782
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_18_3",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_18_3",
+          "link": "/checklists/bosses.html#item_18_3",
+          "title": "Fia's Champions"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5656,
+            10740
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_18_4",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/shadows/tools/remembrances/00173.png",
+          "icon_size": 35,
+          "id": "bosses_18_4",
+          "link": "/checklists/bosses.html#item_18_4",
+          "title": "Lichdragon Fortissax"
         },
         "type": "Feature"
       }
@@ -15986,63 +16157,6 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
-            3070,
-            6443
-          ],
-          "type": "Point"
-        },
-        "id": "remembrances_mausoleums_1_1",
-        "properties": {
-          "group": "remembrances_mausoleums",
-          "icon": "/map/icons/shadows/tools/remembrances/00163.png",
-          "icon_size": 35,
-          "id": "remembrances_mausoleums_1_1",
-          "link": "/checklists/remembrances_mausoleums.html#item_1_1",
-          "title": "Remembrance of the Grafted"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            1871,
-            4825
-          ],
-          "type": "Point"
-        },
-        "id": "remembrances_mausoleums_1_2",
-        "properties": {
-          "group": "remembrances_mausoleums",
-          "icon": "/map/icons/shadows/tools/remembrances/00172.png",
-          "icon_size": 35,
-          "id": "remembrances_mausoleums_1_2",
-          "link": "/checklists/remembrances_mausoleums.html#item_1_2",
-          "title": "Remembrance of the Full Moon Queen"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            6375,
-            6743
-          ],
-          "type": "Point"
-        },
-        "id": "remembrances_mausoleums_1_3",
-        "properties": {
-          "group": "remembrances_mausoleums",
-          "icon": "/map/icons/shadows/tools/remembrances/00164.png",
-          "icon_size": 35,
-          "id": "remembrances_mausoleums_1_3",
-          "link": "/checklists/remembrances_mausoleums.html#item_1_3",
-          "title": "Remembrance of the Scarscourge"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
             3612,
             8137
           ],
@@ -16175,6 +16289,297 @@ const feature_data = [
       }
     ],
     "id": "remembrances_mausoleums",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
+            3076,
+            6437
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_1",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03078.png",
+          "icon_size": 35,
+          "id": "great_runes_1_1",
+          "link": "/checklists/great_runes.html#item_1_1",
+          "title": "Godrick's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1866,
+            4810
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_2",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03202.png",
+          "icon_size": 45,
+          "id": "great_runes_1_2",
+          "link": "/checklists/great_runes.html#item_1_2",
+          "title": "Great Rune of the Unborn"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6381,
+            6758
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_3",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03079.png",
+          "icon_size": 35,
+          "id": "great_runes_1_3",
+          "link": "/checklists/great_runes.html#item_1_3",
+          "title": "Radahn's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4535,
+            3722
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_4",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03080.png",
+          "icon_size": 35,
+          "id": "great_runes_1_4",
+          "link": "/checklists/great_runes.html#item_1_4",
+          "title": "Morgott's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            2279,
+            2962
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_5",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03081.png",
+          "icon_size": 35,
+          "id": "great_runes_1_5",
+          "link": "/checklists/great_runes.html#item_1_5",
+          "title": "Rykard's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6782,
+            14390
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_7",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03082.png",
+          "icon_size": 35,
+          "id": "great_runes_1_7",
+          "link": "/checklists/great_runes.html#item_1_7",
+          "title": "Mohg's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5586,
+            875
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_6",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03083.png",
+          "icon_size": 35,
+          "id": "great_runes_1_6",
+          "link": "/checklists/great_runes.html#item_1_6",
+          "title": "Malenia's Great Rune (unactivated)"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4249,
+            6222
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_1r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03201.png",
+          "icon_size": 35,
+          "id": "great_runes_1_1r",
+          "link": "/checklists/great_runes.html#item_1_1r",
+          "title": "Godrick's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5593,
+            6056
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_3r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03204.png",
+          "icon_size": 35,
+          "id": "great_runes_1_3r",
+          "link": "/checklists/great_runes.html#item_1_3r",
+          "title": "Radahn's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3920,
+            4037
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_5r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03203.png",
+          "icon_size": 35,
+          "id": "great_runes_1_5r",
+          "link": "/checklists/great_runes.html#item_1_5r",
+          "title": "Rykard's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5999,
+            4817
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_6r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03206.png",
+          "icon_size": 35,
+          "id": "great_runes_1_6r",
+          "link": "/checklists/great_runes.html#item_1_6r",
+          "title": "Malenia's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5140,
+            3872
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_4r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03200.png",
+          "icon_size": 35,
+          "id": "great_runes_1_4r",
+          "link": "/checklists/great_runes.html#item_1_4r",
+          "title": "Morgott's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5157,
+            3863
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_1_7r",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03205.png",
+          "icon_size": 35,
+          "id": "great_runes_1_7r",
+          "link": "/checklists/great_runes.html#item_1_7r",
+          "title": "Mohg's Great Rune restoration"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5704,
+            10698
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_2_2",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03117.png",
+          "icon_size": 45,
+          "id": "great_runes_2_2",
+          "link": "/checklists/great_runes.html#item_2_2",
+          "title": "Mending Rune of the Death-Prince"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4296,
+            3452
+          ],
+          "type": "Point"
+        },
+        "id": "great_runes_2_3",
+        "properties": {
+          "group": "great_runes",
+          "icon": "/map/icons/shadows/keys/great_runes/03118.png",
+          "icon_size": 35,
+          "id": "great_runes_2_3",
+          "link": "/checklists/great_runes.html#item_2_3",
+          "title": "Mending Rune of the Fell Curse"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "great_runes",
     "type": "FeatureCollection"
   },
   {
@@ -20349,6 +20754,21 @@ const icon_urls = [
   "/map/icons/shadows/keys/crystal_tears/00429.png",
   "/map/icons/shadows/keys/crystal_tears/00430.png",
   "/map/icons/shadows/keys/crystal_tears/00431.png",
+  "/map/icons/shadows/keys/great_runes/03078.png",
+  "/map/icons/shadows/keys/great_runes/03079.png",
+  "/map/icons/shadows/keys/great_runes/03080.png",
+  "/map/icons/shadows/keys/great_runes/03081.png",
+  "/map/icons/shadows/keys/great_runes/03082.png",
+  "/map/icons/shadows/keys/great_runes/03083.png",
+  "/map/icons/shadows/keys/great_runes/03117.png",
+  "/map/icons/shadows/keys/great_runes/03118.png",
+  "/map/icons/shadows/keys/great_runes/03200.png",
+  "/map/icons/shadows/keys/great_runes/03201.png",
+  "/map/icons/shadows/keys/great_runes/03202.png",
+  "/map/icons/shadows/keys/great_runes/03203.png",
+  "/map/icons/shadows/keys/great_runes/03204.png",
+  "/map/icons/shadows/keys/great_runes/03205.png",
+  "/map/icons/shadows/keys/great_runes/03206.png",
   "/map/icons/shadows/mausoleum.png",
   "/map/icons/shadows/spirit_ashes/00456.png",
   "/map/icons/shadows/tools/00092.png",
@@ -20358,6 +20778,14 @@ const icon_urls = [
   "/map/icons/shadows/tools/flasks/00024.png",
   "/map/icons/shadows/tools/remembrances/00163.png",
   "/map/icons/shadows/tools/remembrances/00164.png",
+  "/map/icons/shadows/tools/remembrances/00165.png",
+  "/map/icons/shadows/tools/remembrances/00166.png",
+  "/map/icons/shadows/tools/remembrances/00167.png",
+  "/map/icons/shadows/tools/remembrances/00168.png",
   "/map/icons/shadows/tools/remembrances/00172.png",
+  "/map/icons/shadows/tools/remembrances/00173.png",
+  "/map/icons/shadows/tools/remembrances/00174.png",
+  "/map/icons/shadows/tools/remembrances/00175.png",
+  "/map/icons/shadows/tools/remembrances/00177.png",
   "/map/icons/shadows/weapons/lightbows/11003.png"
 ]

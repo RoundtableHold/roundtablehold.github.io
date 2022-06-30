@@ -376,6 +376,8 @@ item_links:
   # - link_all: [armor_296, armor_571] # Links Dirty Chainmail
   - link_all: [armor_540, armor_545] # Crucible Gauntlets
   - link_all: [armor_541, armor_546] # Crucible Greaves
+  
+  - link_all: [stonesword_k1, stonesword_k2] #The two keepsake Stonesword Keys
 
   # Added for weapon linking - separating so these can be ordered as more links are added for each area
   - link_all: [weapons_18_6, quest_order_tldr_145, npc_quests_9_4] # Link Eleanor's Poleblade to related quest steps

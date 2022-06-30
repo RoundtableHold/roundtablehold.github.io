@@ -8,10 +8,9 @@ sections:
     items:
       - id: "1_1"
         icon: "/img/icons/tools/remembrances/00163.png"
-        cords: [3070, 6443]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance of the Grafted</a> (20,000 Runes)"]
+        map_link: [3087, 6447]
         map_title: "Remembrance of the Grafted"
-        map_icon: "/map/icons/shadows/tools/remembrances/00163.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance Of The Grafted</a> (20,000 Runes)"]
       -
         - id: "1_1_1"
           icon: "/img/icons/weapons/greataxes/10564.png"
@@ -21,10 +20,9 @@ sections:
           data: ["Weapon - Grafted Dragon"]
       - id: "1_2"
         icon: "/img/icons/tools/remembrances/00172.png"
-        cords: [1871, 4825]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen\">Remembrance of the Full Moon Queen</a> (20,000 Runes)"]
+        map_link: [1856, 4823]
         map_title: "Remembrance of the Full Moon Queen"
-        map_icon: "/map/icons/shadows/tools/remembrances/00172.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Full+Moon+Queen\">Remembrance Of The Full Moon Queen</a> (20,000 Runes)"]
       -
         - id: "1_2_1"
           icon: "/img/icons/sorceries/06007.png"
@@ -34,10 +32,9 @@ sections:
           data: ["Weapon - Carian Regal Scepter"]
       - id: "1_3"
         icon: "/img/icons/tools/remembrances/00164.png"
-        cords: [6375, 6743]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance of the Starscourge</a> (40,000 Runes)"]
+        map_link: [6364, 6758]
         map_title: "Remembrance of the Scarscourge"
-        map_icon: "/map/icons/shadows/tools/remembrances/00164.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Starscourge</a> (40,000 Runes)"]
       -
         - id: "1_3_1"
           icon: "/img/icons/weapons/colossalswords/10125.png"
@@ -45,49 +42,11 @@ sections:
         - id: "1_3_2"
           icon: "/img/icons/weapons/greatbows/11080.png"
           data: ["Weapon - Lion Greatbow"]
-      - id: "1_4"
-        icon: "/img/icons/tools/remembrances/00175.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Starscourge\">Remembrance Of The Regal Ancestor</a> (30,000 Runes)"]
-      -
-        - id: "1_4_1"
-          icon: "/img/icons/weapons/greataxes/10571.png"
-          data: ["Weapon - Winged Greathorn"]
-        - id: "1_4_2"
-          icon: "/img/icons/talismans/18880.png"
-          data: ["Talisman - Ancestral Spirit's Horn"]
-      - id: "1_5"
-        icon: "/img/icons/tools/remembrances/00177.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Naturalborn\">Remembrance Of The Naturalborn</a> (30,000 Runes)"]
-      -
-        - id: "1_5_1"
-          icon: "/img/icons/weapons/flails/10483.png"
-          data: ["Weapon - Bastard's Stars"]
-        - id: "1_5_2"
-          icon: "/img/icons/ashes_of_war/08407.png"
-          data: ["Ash Of War - Waves Of Darkness"]
-      - id: "1_6"
-        icon: "/img/icons/tools/remembrances/00170.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+Hoarah+Loux\">Remembrance Of Hoarah Loux</a> (30,000 Runes)"]
-      -
-        - id: "1_6_1"
-          icon: "/img/icons/weapons/colossalweapons/10885.png"
-          data: ["Weapon - Axe Of Godfrey"]
-        - id: "1_6_2"
-          icon: "/img/icons/ashes_of_war/08408.png"
-          data: ["Ash Of War - Hoarah Loux's Earthshaker"]
-      - id: "1_7"
-        icon: "/img/icons/tools/remembrances/00169.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade\">Remembrance Of The Black Blade</a> (30,000 Runes)"]
-      -
-        - id: "1_7_1"
-          icon: "/img/icons/weapons/colossalswords/10122.png"
-          data: ["Weapon - Maliketh's Black Blade"]
-        - id: "1_7_2"
-          icon: "/img/icons/incantations/06712.png"
-          data: ["Incantation Spell - Black Blade"]
       - id: "1_8"
         icon: "/img/icons/tools/remembrances/00166.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blasphemous\">Remembrance Of The Blasphemous</a> (50,000 Runes)"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blasphemous\">Remembrance of the Blasphemous</a> (50,000 Runes)"]
+        map_link: [2292, 2960]
+        map_title: "Remembrance of the Blasphemous"
       -
         - id: "1_8_1"
           icon: "/img/icons/sorceries/06045.png"
@@ -95,19 +54,11 @@ sections:
         - id: "1_8_2"
           icon: "/img/icons/weapons/greatswords/10094.png"
           data: ["Weapon - Blasphemous Blade"]
-      - id: "1_9"
-        icon: "/img/icons/tools/remembrances/00174.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Fire+Giant\">Remembrance Of The Fire Giant</a> (30,000 Runes)"]
-      -
-        - id: "1_9_1"
-          icon: "/img/icons/weapons/whips/10766.png"
-          data: ["Weapon - Giant's Red Braid"]
-        - id: "1_9_2"
-          icon: "/img/icons/incantations/06211.png"
-          data: ["Incantation Spell - Burn, O Flame!"]
       - id: "1_10"
         icon: "/img/icons/tools/remembrances/00165.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King\">Remembrance Of The Omen King</a> (30,000 Runes)"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King\">Remembrance of the Omen King</a> (30,000 Runes)"]
+        map_link: [4521, 3727]
+        map_title: "Remembrance of the Omen King"
       -
         - id: "1_10_1"
           icon: "/img/icons/weapons/curvedgreatswords/10288.png"
@@ -115,39 +66,23 @@ sections:
         - id: "1_10_2"
           icon: "/img/icons/tools/00677.png"
           data: ["Reusable Tool - Regal Omen Bairn"]
-      - id: "1_11"
-        icon: "/img/icons/tools/remembrances/00171.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance Of The Dragonlord</a> (30,000 Runes)"]
+      - id: "1_9"
+        icon: "/img/icons/tools/remembrances/00174.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Fire+Giant\">Remembrance of the Fire Giant</a> (30,000 Runes)"]
+        map_link: [6355, 3160]
+        map_title: "Remembrance of the Fire Giant"
       -
-        - id: "1_11_1"
-          icon: "/img/icons/weapons/heavythrustingswords/10204.png"
-          data: ["Weapon - Dragon King's Cragblade"]
-        - id: "1_11_2"
-          icon: "/img/icons/incantations/06089.png"
-          data: ["Incantation Spell - Placidusax's Ruin"]
-      - id: "1_12"
-        icon: "/img/icons/tools/remembrances/00173.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lichdragon\">Remembrance Of The Lichdragon</a> (30,000 Runes)"]
-      -
-        - id: "1_12_1"
-          icon: "/img/icons/incantations/06075.png"
-          data: ["Incantation Spell - Fortissax's Lightning Spear"]
-        - id: "1_12_2"
-          icon: "/img/icons/incantations/06104.png"
-          data: ["Incantation Spell - Death Lightning"]
-      - id: "1_13"
-        icon: "/img/icons/tools/remembrances/00176.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Remembrance\">Elden Remembrance</a> (50,000 Runes)"]
-      -
-        - id: "1_13_1"
-          icon: "/img/icons/weapons/hammers/10414.png"
-          data: ["Weapon - Marika's Hammer"]
-        - id: "1_13_2"
-          icon: "/img/icons/weapons/greatswords/10090.png"
-          data: ["Weapon - Sacred Relic Sword"]
+        - id: "1_9_1"
+          icon: "/img/icons/weapons/whips/10766.png"
+          data: ["Weapon - Giant's Red Braid"]
+        - id: "1_9_2"
+          icon: "/img/icons/incantations/06211.png"
+          data: ["Incantation Spell - Burn, O Flame!"]
       - id: "1_14"
         icon: "/img/icons/tools/remembrances/00167.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess\">Remembrance Of The Rot Goddess</a> (50,000 Runes)"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess\">Remembrance of the Rot Goddess</a> (50,000 Runes)"]
+        map_link: [5574, 885]
+        map_title: "Remembrance of the Rot Goddess"
       -
         - id: "1_14_1"
           icon: "/img/icons/weapons/katanas/10322.png"
@@ -155,9 +90,71 @@ sections:
         - id: "1_14_2"
           icon: "/img/icons/incantations/06713.png"
           data: ["Incantation Spell - Scarlet Aeonia"]
+      - id: "1_11"
+        icon: "/img/icons/tools/remembrances/00171.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance of the Dragonlord</a> (30,000 Runes)"]
+        #TODO: map_link
+        map_title: "Remembrance of the Dragonlord"
+      -
+        - id: "1_11_1"
+          icon: "/img/icons/weapons/heavythrustingswords/10204.png"
+          data: ["Weapon - Dragon King's Cragblade"]
+        - id: "1_11_2"
+          icon: "/img/icons/incantations/06089.png"
+          data: ["Incantation Spell - Placidusax's Ruin"]
+      - id: "1_7"
+        icon: "/img/icons/tools/remembrances/00169.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade\">Remembrance of the Black Blade</a> (30,000 Runes)"]
+        #TODO: map_link
+        map_title: "Remembrance of the Black Blade"
+      -
+        - id: "1_7_1"
+          icon: "/img/icons/weapons/colossalswords/10122.png"
+          data: ["Weapon - Maliketh's Black Blade"]
+        - id: "1_7_2"
+          icon: "/img/icons/incantations/06712.png"
+          data: ["Incantation Spell - Black Blade"]
+      - id: "1_6"
+        icon: "/img/icons/tools/remembrances/00170.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+Hoarah+Loux\">Remembrance of Hoarah Loux</a> (30,000 Runes)"]
+        #TODO: map_link
+        map_title: "Remembrance of Hoarah Loux"
+      -
+        - id: "1_6_1"
+          icon: "/img/icons/weapons/colossalweapons/10885.png"
+          data: ["Weapon - Axe Of Godfrey"]
+        - id: "1_6_2"
+          icon: "/img/icons/ashes_of_war/08408.png"
+          data: ["Ash Of War - Hoarah Loux's Earthshaker"]
+      - id: "1_13"
+        icon: "/img/icons/tools/remembrances/00176.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elden+Remembrance\">Elden Remembrance</a> (50,000 Runes)"]
+        #TODO: map_link
+        map_title: "Elden Remembrance"
+      -
+        - id: "1_13_1"
+          icon: "/img/icons/weapons/hammers/10414.png"
+          data: ["Weapon - Marika's Hammer"]
+        - id: "1_13_2"
+          icon: "/img/icons/weapons/greatswords/10090.png"
+          data: ["Weapon - Sacred Relic Sword"]
+      - id: "1_4"
+        icon: "/img/icons/tools/remembrances/00175.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Regal+Ancestor\">Remembrance of the Regal Ancestor</a> (30,000 Runes)"]
+        map_link: [6224, 14147]
+        map_title: "Remembrance of the Regal Ancestor"
+      -
+        - id: "1_4_1"
+          icon: "/img/icons/weapons/greataxes/10571.png"
+          data: ["Weapon - Winged Greathorn"]
+        - id: "1_4_2"
+          icon: "/img/icons/talismans/18880.png"
+          data: ["Talisman - Ancestral Spirit's Horn"]
       - id: "1_15"
         icon: "/img/icons/tools/remembrances/00168.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blood+Lord\">Remembrance Of The Blood Lord</a> (30,000 Runes)"]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Blood+Lord\">Remembrance of the Blood Lord</a> (30,000 Runes)"]
+        map_link: [6796, 14396]
+        map_title: "Remembrance of the Blood Lord"
       -
         - id: "1_15_1"
           icon: "/img/icons/incantations/06254.png"
@@ -165,41 +162,59 @@ sections:
         - id: "1_15_2"
           icon: "/img/icons/weapons/greatspears/10641.png"
           data: ["Weapon - Mohgwyn's Sacred Spear"]
+      - id: "1_5"
+        icon: "/img/icons/tools/remembrances/00177.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Naturalborn\">Remembrance of the Naturalborn</a> (30,000 Runes)"]
+        map_link: [2765, 13744]
+        map_title: "Remembrance of the Naturalborn"
+      -
+        - id: "1_5_1"
+          icon: "/img/icons/weapons/flails/10483.png"
+          data: ["Weapon - Bastard's Stars"]
+        - id: "1_5_2"
+          icon: "/img/icons/ashes_of_war/08407.png"
+          data: ["Ash Of War - Waves Of Darkness"]
+      - id: "1_12"
+        icon: "/img/icons/tools/remembrances/00173.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lichdragon\">Remembrance of the Lichdragon</a> (30,000 Runes)"]
+        map_link: [5656, 10740]
+        map_title: "Remembrance of the Lichdragon"
+      -
+        - id: "1_12_1"
+          icon: "/img/icons/incantations/06075.png"
+          data: ["Incantation Spell - Fortissax's Lightning Spear"]
+        - id: "1_12_2"
+          icon: "/img/icons/incantations/06104.png"
+          data: ["Incantation Spell - Death Lightning"]
   -
     title: "Wandering Mausoleums"
+    map_icon: "/map/icons/shadows/mausoleum.png"
     items:
       - id: "2_1"
         data: ["Weeping Peninsula - In the western area past the Church of Pilgrimage. The skulls are on its feet."]
         cords: [3612, 8137]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum"
       - id: "2_2"
         data: ["Liurnia of the Lakes - Northeast of Raya Lucaria, in the waters in front of Raya Lucaria Crystal Tunnel Grace. The skulls are on top."]
         cords: [2182, 4487]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum"
       - id: "2_3"
         data: ["Liurnia of the Lakes - One of two found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate a limited amount of Remembrances.</b> Watch out for its hops. The skulls are on its feet."]
         cords: [2458, 4316]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum (no bell)"
       - id: "2_7"
         data: ["Liurnia of the Lakes - One of two found around the Mausoleum Compound Grace in Uld Palace Ruins, north of the Church of Vows. <b>IMPORTANT - These only duplicate a limited amount of Remembrances.</b> Watch out for its hops. The skulls are on its feet."]
         cords: [2511, 4414]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum (no bell)"
       - id: "2_4"
         data: ["Mountaintop of the Giants - Just outside Castle Sol in the northern area. The skulls are on its feet."]
         cords: [5981, 1817]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum"
       - id: "2_5"
         data: ["Consecrated Snowfield - Northwest of Ordina, next to the Apostate Derelict Grace. Watch out for its murder rain. The skulls are on its feet."]
         cords: [5060, 1768]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum"
       - id: "2_6"
         data: ["Deeproot Depths - Near the The Nameless Eternal City Grace. The skulls are on top."]
         cords: [5418, 10698]
-        map_icon: "/map/icons/shadows/mausoleum.png"
         map_title: "Wandering Mausoleum"

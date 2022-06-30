@@ -1700,12 +1700,18 @@
 "graces_98",
 "graces_99",
 "great_runes_1_1",
+"great_runes_1_1r",
 "great_runes_1_2",
 "great_runes_1_3",
+"great_runes_1_3r",
 "great_runes_1_4",
+"great_runes_1_4r",
 "great_runes_1_5",
+"great_runes_1_5r",
 "great_runes_1_6",
+"great_runes_1_6r",
 "great_runes_1_7",
+"great_runes_1_7r",
 "great_runes_2_1",
 "great_runes_2_2",
 "great_runes_2_3",
@@ -4108,7 +4114,7 @@ const ancient_dragon_smithing_stones_total = 21;
 var ancient_dragon_smithing_stones_checked = 0;
 const remembrances_mausoleums_total = 52;
 var remembrances_mausoleums_checked = 0;
-const great_runes_total = 11;
+const great_runes_total = 17;
 var great_runes_checked = 0;
 const stonesword_total = 117;
 var stonesword_checked = 0;

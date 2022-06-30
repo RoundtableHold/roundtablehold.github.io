@@ -5130,6 +5130,16 @@ const item_links = {
       "caves_8_2"
     ]
   },
+  "stonesword_k1": {
+    "targets": [
+      "stonesword_k2"
+    ]
+  },
+  "stonesword_k2": {
+    "targets": [
+      "stonesword_k1"
+    ]
+  },
   "talismans_1_3": {
     "targets": [
       "bosses_1_9",

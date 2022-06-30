@@ -55,19 +55,19 @@ sections:
         cords: [4435, 7826]
         map_title: "Stonesword Key"
       - id: "k12"
-        data: ["Sold by the Nomadic Merchant in Weeping Peninsula for 2000 runes"]
+        data: ["Sold by the Nomadic Merchant in the east for 2000 runes"]
         cords: [4307, 8185]
         map_title: "Stonesword Key"
       - id: "k13"
-        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
         cords: [3450, 8230]
         map_title: "Stonesword Key x3"
       - id: "k14"
-        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
         map_link: [3450, 8230]
         map_title: "Stonesword Key"
       - id: "k15"
-        data: ["Sold by the Isolated Merchant in Weeping Peninsula for 2000 runes"]
+        data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
         map_link: [3450, 8230]
         map_title: "Stonesword Key"
       - id: "k16"
@@ -143,7 +143,7 @@ sections:
         cords: [4921, 6764]
         map_title: "Stonesword Key"
       - id: "k32"
-        data: ["Sold by the Nomadic Merchant in south Caelid for 4000 runes"]
+        data: ["Sold by the Nomadic Merchant in the south for 4000 runes"]
         cords: [5416, 7067]
         map_title: "Stonesword Key"
       - id: "k33"
@@ -155,7 +155,7 @@ sections:
         cords: [5628, 6618]
         map_title: "Stonesword Key"
       - id: "k35"
-        data: ["From Fort Faroth, face west and climb the hulking white rock in the distance; it's in a body on a chair"]
+        data: ["From Fort Faroth, face west and climb the hulking white rock in the distance; it's on one of the bodies on top, the one whose chair fell over"]
         cords: [5747, 6449]
         map_title: "Stonesword Key"
       - id: "k36"
@@ -173,15 +173,15 @@ sections:
         cords: [2528, 3269]
         map_title: "Stonesword Key"
       - id: "k39"
-        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        data: ["Sold by the Nomadic Merchant here for 4000 runes"]
         cords: [3321, 3074]
         map_title: "Stonesword Key x3"
       - id: "k40"
-        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        data: ["Sold by the Nomadic Merchant here for 4000 runes"]
         map_link: [3321, 3074]
         map_title: "Stonesword Key"
       - id: "k41"
-        data: ["Sold by the Nomadic Merchant for 4000 runes"]
+        data: ["Sold by the Nomadic Merchant here for 4000 runes"]
         map_link: [3321, 3074]
         map_title: "Stonesword Key"
       - id: "k42"
@@ -203,7 +203,7 @@ sections:
         cords: [2513, 2700]
         map_title: "Stonesword Key"
       - id: "k46"
-        data: ["Sold by the Nomadic Merchant for 5000 runes"]
+        data: ["Sold by the Nomadic Merchant here for 5000 runes"]
         cords: [2438, 2633]
         map_title: "Stonesword Key"
       - id: "k47"
@@ -259,15 +259,15 @@ sections:
       #
       - "Mountaintops of the Giants"
       - id: "k58"
-        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        data: ["Sold by the Hermit Merchant here for 5000 runes"]
         cords: [5960, 2238]
         map_title: "Stonesword Key x3"
       - id: "k59"
-        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        data: ["Sold by the Hermit Merchant here for 5000 runes"]
         map_link: [5960, 2238]
         map_title: "Stonesword Key"
       - id: "k60"
-        data: ["Sold by the Hermit Merchant for 5000 runes"]
+        data: ["Sold by the Hermit Merchant here for 5000 runes"]
         map_link: [5960, 2238]
         map_title: "Stonesword Key"
       - id: "k61"
@@ -281,7 +281,7 @@ sections:
       #
       - "Consecrated Snowfield"
       - id: "k63"
-        data: ["From Inner Consecrated Snowfield, travel exactly one notch north of West until you find a hill guarded by two lightning balls; on top is a chair with a corpse with the key"]
+        data: ["From Inner Consecrated Snowfield, look at your compass and travel exactly one notch north of West, to a hill guarded by two lightning balls; on top is a chair with a corpse with the key"]
         cords: [5194, 2247]
         map_title: "Stonesword Key"
       - id: "k64"

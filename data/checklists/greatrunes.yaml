@@ -1,45 +1,119 @@
 title: Great Runes
 id: great_runes
-table_widths: [4, 4, 4]
+icon: "/img/icons/keys/great_runes/03201.png"
 sections:
   -
     title: "Great Runes"
     table: ["Boss", "Location", "Effect"]
+    table_widths: [4, 4, 4]
     items:
       - id: "1_1"
-        icon: "/img/icons/keys/great_runes/03201.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick's+Great+Rune\">Godrick the Grafted</a>", "Limgrave - Stormveil Castle", "Raises all attributes by +5"]
+        icon: "/img/icons/keys/great_runes/03078.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03078.png"
+        data: ["Godrick the Grafted", "Limgrave - Stormveil Castle", "Raises all attributes by +5."]
+        cords: [3076, 6437]
+        map_title: "Godrick's Great Rune (unactivated)"
       - id: "1_2"
         icon: "/img/icons/keys/great_runes/03202.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Rune+of+the+Unborn\">Rennala Queen of the Full Moon</a>", "Liurnia of the Lakes - Raya Lucaria Academy", "Used to respec"]
+        map_icon: "/map/icons/shadows/keys/great_runes/03202.png"
+        map_icon_size: 45
+        data: ["Rennala, Queen of the Full Moon", "Liurnia of the Lakes - Raya Lucaria Academy", "Special, can't equip - used to respec."]
+        cords: [1866, 4810]
+        map_title: "Great Rune of the Unborn"
       - id: "1_3"
-        icon: "/img/icons/keys/great_runes/03204.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn's+Great+Rune\">Starscourge Radahn</a>", "Caelid - Redmane Castle", "Raises maximum HP, FP, and Stamina"]
+        icon: "/img/icons/keys/great_runes/03079.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03079.png"
+        data: ["Starscourge Radahn", "Caelid - Redmane Castle", "Raises maximum HP, FP, and Stamina by 15% each."]
+        cords: [6381, 6758]
+        map_title: "Radahn's Great Rune (unactivated)"
       - id: "1_4"
-        icon: "/img/icons/keys/great_runes/03200.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Great+Rune\">Morgott, the Omen Knight</a>", "Altus Plateau - Leyndell, the Royal Capital", "Greatly raises maximum HP"]
+        icon: "/img/icons/keys/great_runes/03080.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03080.png"
+        data: ["Morgott, the Omen King", "Altus Plateau - Leyndell, Royal Capital", "Raises maximum HP by 25%."]
+        cords: [4535, 3722]
+        map_title: "Morgott's Great Rune (unactivated)"
       - id: "1_5"
-        icon: "/img/icons/keys/great_runes/03203.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rykard's+Great+Rune\">Rykard, Lord of Blasphemy</a>", "Mt. Gelmir - Valcano Manor", "Restores 185 HP upon defeating enemies"]
-      - id: "1_6"
-        icon: "/img/icons/keys/great_runes/03206.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Malenia's+Great+Rune\">Malenia, Blade of Miquella</a>", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Attacks dealt after taking damage recover HP"]
+        icon: "/img/icons/keys/great_runes/03081.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03081.png"
+        data: ["Rykard, Lord of Blasphemy", "Mt. Gelmir - Volcano Manor", "Restores 80 HP + 7% of maximum upon defeating enemies."]
+        cords: [2279, 2962]
+        map_title: "Rykard's Great Rune (unactivated)"
       - id: "1_7"
+        icon: "/img/icons/keys/great_runes/03082.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03082.png"
+        data: ["Mohg, Lord of Blood", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Grants the <a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Blessing of Blood</a> to Spirit Ashes."]
+        cords: [6782, 14390]
+        map_title: "Mohg's Great Rune (unactivated)"
+      - id: "1_6"
+        icon: "/img/icons/keys/great_runes/03083.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03083.png"
+        data: ["Malenia, Blade of Miquella", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Become Bloodborne (After taking damage, provides a few seconds to regain health by attacking, but nerfs all other healing by 25%)."]
+        cords: [5586, 875]
+        map_title: "Malenia's Great Rune (unactivated)"
+  -
+    title: "Great Rune restoration"
+    table: ["Rune", "Location", "Notes"]
+    table_widths: [2, 3, 7]
+    items:
+      - id: "1_1r"
+        icon: "/img/icons/keys/great_runes/03201.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03201.png"
+        data: ["Godrick's", "Divine Tower of Limgrave", "Tower waygate guarded by Giant Golems."]
+        cords: [4249, 6222]
+        map_title: "Godrick's Great Rune restoration"
+      - id: "1_3r"
+        icon: "/img/icons/keys/great_runes/03204.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03204.png"
+        data: ["Radahn's", "Divine Tower of Caelid", "Features a platforming challenge to find the way inside. Features another optional platforming challenge inside to descend into the tower and find a boss."]
+        cords: [5593, 6056]
+        map_title: "Radahn's Great Rune restoration"
+      - id: "1_5r"
+        icon: "/img/icons/keys/great_runes/03203.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03203.png"
+        data: ["Rykard's", "Divine Tower of West Altus", "Accessed via Sealed Tunnel."]
+        cords: [3920, 4037]
+        map_title: "Rykard's Great Rune restoration"
+      - id: "1_6r"
+        icon: "/img/icons/keys/great_runes/03206.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03206.png"
+        data: ["Malenia's", "Isolated Divine Tower", "Accessed via a waygate at the Divine Bridge in Leyndell, which itself can be accessed via a waygate at the Tower of Return in Weeping Peninsula."]
+        cords: [5999, 4817]
+        map_title: "Malenia's Great Rune restoration"
+      - id: "1_4r"
+        icon: "/img/icons/keys/great_runes/03200.png"
+        map_icon: "/map/icons/shadows/keys/great_runes/03200.png"
+        data: ["Morgott's", "Divine Tower of East Altus", "Tower guarded by Fell Twins. Uniquely restores two Great Runes, not one."]
+        cords: [5140, 3872]
+        map_title: "Morgott's Great Rune restoration"
+      - id: "1_7r"
         icon: "/img/icons/keys/great_runes/03205.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mohg's+Great+Rune\">Mohg, Lord of Blood</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Grants a blessing of blood to phantoms"]
+        map_icon: "/map/icons/shadows/keys/great_runes/03205.png"
+        data: ["Mohg's", "Divine Tower of East Altus", "Tower guarded by Fell Twins. Uniquely restores two Great Runes, not one."]
+        cords: [5157, 3863]
+        map_title: "Mohg's Great Rune restoration"
   -
     title: "Other Important Runes"
     table: ["Name", "Location", "Description"]
+    table_widths: [4, 3, 5]
     items:
       - id: "2_1"
         icon: "/img/icons/tools/online/00626.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Phantom+Great+Rune\">Phantom Great Rune</a>", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Item for online play. Obtained after using the Mohg's Great Rune and invading another world."]
+        data: ["Phantom Great Rune", "Mohgwyn Palace - Mohgwyn Dynasty Mausoleum", "Item for online play. Obtained after using the Mohg's Great Rune and invading another world. Grants the Blessing of Blood to enemies native to the invaded world."]
       - id: "2_2"
         icon: "/img/icons/keys/great_runes/03117.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Death-Prince\">Mending Rune of the Death Prince</a>", "Awarded to the player by Fia after completing her questline", "Rune gestated by Fia, the Deathbed Companion.  Formed of the two hallowbrand half-wheels combined, it will embed the principle of life within Death into Order."]
+        map_icon: "/map/icons/shadows/keys/great_runes/03117.png"
+        map_icon_size: 45
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Death-Prince\">Mending Rune of the Death-Prince</a>", "Received from Fia after completing her questline", "Rune gestated by Fia, the Deathbed Companion. Formed of the two hallowbrand half-wheels combined, it will embed the principle of life within Death into Order. Unlocks a variant of the Elden Lord ending."]
+        cords: [5704, 10698]
+        map_title: "Mending Rune of the Death-Prince"
       - id: "2_3"
         icon: "/img/icons/keys/great_runes/edited/03118.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Fell+Curse\">Mending Rune of the Fell Curse</a>", "Awarded to the player by Dung Eater after following his questline and giving him 5 Seedbed Curse", "Loathsome rune gestated by the Dung Eater. The reviled curse will last eternally, and the world's children, grandchildren, and every generation hence, will be its pustules."]
+        map_icon: "/map/icons/shadows/keys/great_runes/03118.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+the+Fell+Curse\">Mending Rune of the Fell Curse</a>", "Dropped by Dung Eater after completing his questline", "Loathsome rune gestated by the Dung Eater. The reviled curse will last eternally, and the world's children, grandchildren, and every generation hence, will be its pustules. Unlocks a variant of the Elden Lord ending."]
+        cords: [4296, 3452]
+        map_title: "Mending Rune of the Fell Curse"
       - id: "2_4"
         icon: "/img/icons/keys/great_runes/edited/03116.png"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order\">Mending Rune of Perfect Order</a>", "Dropped by Goldmask after following his and Brother Corhyn's questline.", "Rune discovered by the noble Goldmask. A rune of transcendental ideology which will attempt to perfect the Golden Order."]
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mending+Rune+of+Perfect+Order\">Mending Rune of Perfect Order</a>", "Dropped by Goldmask after completing his and Brother Corhyn's questline", "Rune discovered by the noble Goldmask. A rune of transcendental ideology which will attempt to perfect the Golden Order. Unlocks a variant of the Elden Lord ending."]
+        #TODO: cords
+        map_title: "Mending Rune of Perfect Order"
