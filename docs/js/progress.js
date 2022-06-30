@@ -598,9 +598,10 @@ window.progress = {
     ],
   },
   "great_runes": {
-    "total": [0, 11],
+    "total": [0, 17],
     "sections": [
       [0, 7],
+      [0, 6],
       [0, 4],
     ],
   },

@@ -72,7 +72,7 @@ sections:
         data: ["Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
       - id: "1_2"
         icon: "/img/icons/talismans/18750.png"
-        data: ["Sacrificial Twig (x3)", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
+        data: ["Sacrificial Twig (x3)", "Can be purchased from the Isolated Merchant at the western side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
       - id: "1_3"
         icon: "/img/icons/talismans/18020.png"
         data: ["Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina by 11%"]
@@ -247,7 +247,7 @@ sections:
         data: ["Concealing Veil", "Dropped by the Black Knife Assassin in Sage's Cave", "Conceals wearer while crouching away from foes."]
       - id: "6_11"
         icon: "/img/icons/talismans/18750.png"
-        data: ["Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Frace", "Will be lost on death in place of runes"]
+        data: ["Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Grace", "Will be lost on death in place of runes"]
       - id: "7_8"
         icon: "/img/icons/talismans/18680.png"
         data: ["Crepus's Vial", "Reward for defeating Rileigh the Idle as part of the Volcano Manor questline", "Eliminates all sound made by the wearer during movement"]
@@ -324,7 +324,7 @@ sections:
         icon: "/img/icons/talismans/18650.png"
         data: ["Godskin Swaddling Cloth", "Dropped by Godskin Apostle & Godskin Noble in the Spiritcaller's Cave", "Successive attacks restore HP (3% of max HP + 30 HP, timer resets at ~10 seconds)"]
   -
-    title: "Consecrated Snowfields"
+    title: "Consecrated Snowfield"
     table: ["Name", "Location", "Effect(s)"]
     items:
       - id: "10_1"
