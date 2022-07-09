@@ -1,6 +1,6 @@
 window.progress = {
   "playthrough": {
-    "total": [0, 620],
+    "total": [0, 663],
     "sections": [
       [0, 70],
       [0, 15],
@@ -37,8 +37,9 @@ window.progress = {
       [0, 4],
       [0, 13],
       [0, 10],
-      [0, 8],
-      [0, 2],
+      [0, 19],
+      [0, 27],
+      [0, 7],
     ],
   },
   "quest_order_tldr": {
