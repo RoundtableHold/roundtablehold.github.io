@@ -108,7 +108,7 @@ sections:
         data: ["Finger Severer", "In online play, return to your world, or send your co-op phantoms home", "On the same body as the previous"]
       - id: "4_4"
         icon: "/img/icons/tools/online/00602.png"
-        data: ["Small Golden Effigy", "Send your cooperative summon sign to all nearby activated Martyr Effigies at once in online play", "Found on the first Martyr Effigy, nearby The First Step Site of Grace"]
+        data: ["Small Golden Effigy", "Send your cooperative summon sign to all activated Martyr Effigies at once (or just those nearby) in online play", "Found on the first Martyr Effigy, nearby The First Step Site of Grace"]
       - id: "4_5"
         icon: "/img/icons/tools/online/00014.png"
         data: ["Furlcalling Finger Remedy", "In online play, view summon signs placed by other players, whether cooperative or competitive; item is refunded unless you successfully summon someone", "Not reusable, but easily craftable with two Erdleaf Flowers, dropped by invaders including many NPCs, and a frequent loot pickup or shop item."]
@@ -123,7 +123,7 @@ sections:
         data: ["Duelist's Furled Finger", "Place your competitive summon sign in online play", "At the northern tip of Limgrave at the foot of the ruined round structure, directly next to the ghost, near where Recusant Henricus invades"]
       - id: "4_9"
         icon: "/img/icons/tools/online/00603.png"
-        data: ["Small Red Effigy", "Send your competitive summon sign to all nearby activated Martyr Effigies at once in online play", "On the same body as the previous"]
+        data: ["Small Red Effigy", "Send your competitive summon sign to all activated Martyr Effigies at once (or just those nearby) in online play", "On the same body as the previous"]
       - id: "4_10"
         icon: "/img/icons/tools/online/00007.png"
         data: ["Taunter's Tongue", "Allow your world to be invaded without cooperators present, and for a second invader to join if you have a cooperator. Requires using a Furlcalling Finger Remedy first.", "Dropped by NPC invader Mad Tongue Alberich in Roundtable Hold, down off the balcony"]
