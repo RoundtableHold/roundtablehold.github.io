@@ -2826,6 +2826,7 @@
 "playthrough_609",
 "playthrough_61",
 "playthrough_610",
+"playthrough_610_1",
 "playthrough_611",
 "playthrough_612",
 "playthrough_613",
@@ -4107,7 +4108,7 @@
 "whetstones_0_6",
 ]);
 function calculateProgress() {
-const playthrough_total = 663;
+const playthrough_total = 664;
 var playthrough_checked = 0;
 const quest_order_tldr_total = 273;
 var quest_order_tldr_checked = 0;

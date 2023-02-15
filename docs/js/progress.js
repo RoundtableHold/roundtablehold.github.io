@@ -1,6 +1,6 @@
 window.progress = {
   "playthrough": {
-    "total": [0, 663],
+    "total": [0, 664],
     "sections": [
       [0, 70],
       [0, 15],
@@ -37,7 +37,7 @@ window.progress = {
       [0, 4],
       [0, 13],
       [0, 10],
-      [0, 19],
+      [0, 20],
       [0, 27],
       [0, 7],
     ],
