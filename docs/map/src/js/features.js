@@ -2189,6 +2189,25 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            3497,
+            3608
+          ],
+          "type": "Point"
+        },
+        "id": "bosses_6_13",
+        "properties": {
+          "group": "bosses",
+          "icon": "/map/icons/MENU_MAP_memo_20.png",
+          "icon_size": 35,
+          "id": "bosses_6_13",
+          "link": "/checklists/bosses.html#item_6_13",
+          "title": "Fallingstar Beast"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             2647,
             3224
           ],
