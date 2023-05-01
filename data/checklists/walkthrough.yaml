@@ -300,54 +300,79 @@ sections:
     items:
       - id: "96"
         data: ["Return to the Margit, The Fell Omen Grace and follow the path up to grab the Stormveil Main Gate Grace"]
+        map_link: [3235,6791]
       - id: "97"
         data: ["Talk to Gostoc in the building nearby and agree first, then talk to him again and reject his advice before walking over to the gate to open it."]
+        map_link: [3216, 6798]
       - id: "98"
         data: ["Follow the path that Gostoc originally recommended and grab the Stormveil Cliffside Grace."]
+        map_link: [3130,6827]
       - id: "99"
         data: ["Go up the steps, enter the building at the top of the steps, and go through the second doorway then turn around walk back to the Stormveil Cliffside Grace but don't rest at it. You will find Gostoc on the cliff above the Grace, talk to him and exhaust his dialogue."]
+        map_link: [3134, 6836]
       - id: "100"
         data: ["Return to Gostoc next to the castle gate and his shop will now be open."]
+        map_link: [3216, 6798]
       - id: "101"
         data: ["Proceed up the steps as before and continue on this path to grab the Rampart Tower Grace."]
+        map_link: [3070,6697]
       - id: "102"
         data: ["Option 1: Go through the door going North-West where all the birds are and go past them and climb down the ladder on the church rooftop."]
+        map_link: [3080, 6679]
       - id: "103"
         data: ["Option 2: Alternatively you can turn to the right before having your first encounter. Jump over the balcony onto the rooftop across the way and hop down onto the path below."]
+        map_link: [3080, 6679]
       - id: "104"
         data: ["Follow the path going North-West to the chapel, talk to Rogier and exhaust his dialogue."]
+        map_link: [3061, 6633]
       - id: "105"
         data: ["Follow the path going South-East from Rogier into the building until you hit the the room where you can see the Grafted Scion on the ground floor. Go around to the right and go through the doorway. To your left you will see the corpse of a giant hanging upside down. Hop down to the ground below the giant and grab the Chrysalids' Memento."]
+        map_link: [3118,6698]
       - id: "106"
         data: ["After grabbing the Chrysalids' Memento, go out the door, turn into the door on the left and go up the lift to unlock the shortcut to Rampart Tower Grace."]
+        map_link: [3070,6697]
       - id: "107"
         data: ["Return to Roderika at Stormhill Shack, give her the Chrysalids' Memento and exhaust her dialogue."]
+        map_link: [3472,6764]
       - id: "108"
         data: ["Return to the Rampart Tower Grace and go back down the lift. Go out the door and kill or run past the Grafted Scion and through the doorway on the far left side. Go outside and turn left, following the wall going North past the enemies and then go into the doorway on your left to grab the Prophecy Painting."]
+        map_link: [3060,6606]
       - id: "109"
         data: ["Go back outside, turn left and go up the stairs to grab the Liftside Chamber Grace."]
+        map_link: [3056,6569]
       - id: "110"
         data: ["Pull the lever and go up the lift. Follow the path and grab x2 Cracked Pots next to the Living Jar enemies."]
+        map_link: [3065, 6545]
       - id: "111"
         data: ["Go to the end of the path to grab the Secluded Cell Grace."]
+        map_link: [3141,6496]
       - id: "112"
         data: ["Head South-East from the Secluded Cell Grace and grab the Golden Seed by the Erdtree Sapling."]
+        map_link: [3175,6585]
       - id: "113"
         data: ["Enter the nearby building, talk to Nepheli Loux and exhaust her dialogue."]
+        map_link: [3150, 6596]
       - id: "114"
         data: ["Go back to the Secluded Cell Grace, summon Nepheli and then kill the boss Godrick the Grafted."]
+        map_link: [3087,6447]
       - id: "115"
         data: ["Grab the Godrick the Grafted Grace, talk to Gostoc nearby and exhaust his dialogue."]
+        map_link: [3099,6464]
       - id: "116"
         data: ["Return to the Liftside Chamber Grace and go up the lift to the path heading to the Secluded Chamber Grace again. Instead of going down the slope to the Grace, take the high road and cross the wooden bridge. Hop onto the stone ledge from the wooden bridge and hug the wall going right. Finally jump off the ledge onto the nearby balcony to reach the hidden path."]
+        map_link: [3130, 6527]
       - id: "117"
         data: ["Follow this hidden path until you reach a a message from Rogier that you can read. Just beyond that message is a door that unlocks the shortcut to the Liftside Chamber Grace."]
+        map_link: [3021, 6534]
       - id: "118"
         data: ["You can now either follow that path to it's bottom(it will take a bit longer) or you can go out the South door from the Liftside Chamber Grace and turn right. Head to the ledge and drop off of it to the ledge below and make your way to the bottom from there."]
+        map_link: [3045, 6583]
       - id: "119"
         data: ["At the bottom, past all the rats, will be a Lesser Ulcerated Tree Spirit. Kill it(this is required) for a Golden Seed."]
+        map_link: [3070, 6659]
       - id: "120"
         data: ["Past the Lesser Ulcerated Tree Spirit is the Prince of Death's Pustule and beside that is a bloodstain of Rogier. Use it to see what happened."]
+        map_link: [3088,6708]
   -
     title: Limgrave/Roundtable
     items:
