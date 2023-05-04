@@ -411,114 +411,163 @@ sections:
     items:
       - id: "131"
         data: ["Go to the Godrick the Grafted Grace, go through the throne room and grab the Shabriri Grape underneath it"]
+        map_link: [3032, 6386]
       - id: "132"
         data: ["Grab the Lake-Facing Cliffs Grace nearby"]
+        map_link: [2959,6344]
       - id: "133"
         data: ["Give the Shabriri Grape to Hyetta who is near the Grace(may require resting) and exhaust her dialogue"]
+        map_link: [2951,6331]
       - id: "134"
         data: ["Talk to Boc and exhaust his dialogue"]
+        map_link: [2950, 6347]
       - id: "135"
         data: ["Go into the Church of Irith and grab the Sacred Tear"]
+        map_link: [2916,6433]
       - id: "136"
         data: ["Talk to Thops in the Church of Irith and exhaust his dialogue"]
+        map_link: [2909, 6432]
       - id: "137"
         data: ["Head North-West, down the slope, to the shore and grab the Liurnia Lake Shore Grace(I recommend purchasing a Lantern from the merchant nearby if you don't already have one)"]
+        map_link: [2730,6158]
       - id: "138"
         data: ["Go North from the shore and grab Map (Liurnia, East)"]
+        map_link: [2699, 6026]
       - id: "139"
         data: ["Continue North to the shore, talk to Hyetta at the Purified Ruins and exhaust her dialogue."]
+        map_link: [2768, 5921]
       - id: "140"
         data: ["Go East, into the Purified Ruins, and find the hidden stairs underneath some wood boards. Go down the stairs and grab the Shabriri Grape"]
+        map_link: [2870, 5925]
       - id: "141"
         data: ["Return to Hyetta, give her the Shabriri Grap and exhaust her dialogue"]
+        map_link: [2768, 5921]
       - id: "142"
         data: ["Head up the slope North-East and grab the Liurnia Highway North Grace for later."]
+        map_link: [2938,5800]
       - id: "143"
         data: ["Go back down the slope but enter a nearby ruin and use the Waygate inside to grab the South Raya Lucaria Gate Grace and the Meeting Place Map"]
+        map_link: [2836, 5826]
       - id: "144"
         data: ["Go back to the Liurnia Highway North Grace then go back South-West to the shore. Head to the island to the West, just West of the telescope and grab the Scenic Isle Grace."]
+        map_link: [2332,5734]
       - id: "145"
         data: ["Talk to Patches at the Scenic Isle Grace and exhaust his dialogue"]
+        map_link: [2339, 5730]
       - id: "146"
         data: ["Go East to the pavillion near the telescope, talk to Rya and exhaust her dialogue"]
-      - id: "147"
-        data: ["Return to Patches and exhaust his dialogue."]
+        map_link: [2481, 5720]
       - id: "148"
         data: ["Go North-West to find the Boilprawn Shack and grab the Boilprawn Shack Grace"]
+        map_link: [2256,5562]
       - id: "149"
         data: ["Talk to Blackguard Big Boggart at Boilprawn Shack and buy necklace"]
+        map_link: [2256,5562]
       - id: "150"
         data: ["Talk to Blackguard Big Boggart again, buy some Boiled Prawn and exhaust his dialogue"]
+        map_link: [2256,5562]
       - id: "151"
         data: ["Return to Rya to give her the necklace and exhaust her dialogue"]
+        map_link: [2481, 5720]
       - id: "152"
         data: ["Go North to the Academy Gate Town and grab the Academy Gate Town Grace and Map (Liurnia, North)"]
+        map_link: [2401,5349]
       - id: "153"
         data: ["Go North/North-West of the Grace, talk to Diallos and exhaust his dialogue"]
-      - id: "154"
-        data: ["Head West/South-West, talk to the Finger Reader and exhaust her dialogue"]
+        map_link: [2368, 5194]
       - id: "155"
         data: ["Go South-West and grab the Fallen Ruins of the Lake Grace"]
+        map_link: [2057,5367]
       - id: "156"
         data: ["Head West to the Rose Church, talk to Varre and exhaust his dialogue"]
+        map_link: [1829,5363]
       - id: "157"
         data: ["Invade other players 3 times(you can invade then leave immediately)"]
+        map_link: [1829,5363]
       - id: "158"
         data: ["Talk to Varre again and exhaust his dialogue"]
+        map_link: [1829,5363]
       - id: "159"
         data: ["Go North-West and grab the Temple Quarter Grace"]
+        map_link: [1620,5124]
       - id: "160"
         data: ["Head North from the Grace, kill or run past the Glintstone Dragon and grab the Glintstone Key"]
+        map_link: [1620,4953]
       - id: "161"
         data: ["Turn around and head South-West to the shore to find a ghost then follow the trail of bodies up to the Revenger's Shack."]
+        map_link: [1430,5208]
       - id: "162"
         data: ["Kill Edgar the Revenger at Revenger's Shack to receive a Shabriri Grape and grab the Revenger's Shack Grace."]
+        map_link: [1430,5208]
       - id: "162_1"
         data: ["Follow the road North from the Revenger's Shack and grab the Foot of the Four Belfries Grace"]
+        map_link: [1347,4800]
       - id: "163"
         data: ["Follow the road East to the top and grab the Imbued Sword Key and The Four Belfries Grace"]
+        map_link: [1469,4582]
       - id: "164"
         data: ["Go East to the nearby Waygate with the message that says Anticipation, use the key to unlock it and enter it"]
+        map_link: [1548, 4566]
       - id: "165"
         data: ["Kill the Boss of the Chapel of Anticipation, Grafted Scion"]
+        map_link: [2776,6652]
       - id: "166"
         data: ["Go through the area to the chapel where you started at and go through the nearby opened door to grab The Stormhawk King ashes"]
+        map_link: [2774, 6773]
       - id: "166_1"
         data: ["Go inside of the church and interract with the dead maiden to dye the cloth Varre gave you to get the Lord of Blood's Favor"]
+        map_link: [2794, 6793]
       - id: "166_2"
         data: ["Return to the Fallen Ruins of the Lake Grace and head back to Varre at the Rose Church. Talk with him and exhaust his dialogue to receive the Pureblood Knight's Medal(this can be used to enter Mohgwyn's Palace early for Rune Farming. Just don't kill the boss and nothing should break. This area will be covered later)"]
+        map_link: [1849,5341]
       - id: "167"
         data: ["Go back to the Fallen Ruins of the Lake and head South-West to grab the Folly on the Lake Grace"]
+        map_link: [1947,5619]
       - id: "169"
         data: ["Head South-West, underneath the cliffs and follow the path to talk to Nepheli and exhaust her dialogue"]
+        map_link: [1746, 5840]
       - id: "168"
         data: ["Continue up the path to grab the Village of the Albinaurics Grace and rest at it"]
+        map_link: [1711,5861]
       - id: "170"
         data: ["Proceed through the village to find a giant pot that looks out of place and is making noises, attack or roll into it to reveal Albus."]
+        map_link: [1752, 5862]
       - id: "171"
         data: ["Talk to Albus and exhaust his dialogue"]
+        map_link: [1752, 5862]
       - id: "172"
         data: ["Summon Nepheli and kill the Boss of Village of the Albinaurics, Omenkiller"]
+        map_link: [1763, 5835]
       - id: "173"
         data: ["Starting from the Scenic Isle Grace, head South to grab the Lakeside Crystal Cave Grace"]
+        map_link: [2318,6018]
       - id: "174"
         data: ["Kill the Boss of Lakeside Crystal Cave, Bloodhound Knight"]
+        map_link: [2307,6007]
       - id: "175"
         data: ["Go through the back exit of the cave and grab the Slumbering Wolf's Shack Grace"]
+        map_link: [2315,6076]
       - id: "176"
         data: ["Talk to Latenna and exhaust her dialogue"]
+        map_link: [2315,6076]
       - id: "177"
         data: ["Starting from the Liurnia Highway North Grace, follow the road North to the Gate Town Bridge Grace"]
+        map_link: [2740,5480]
       - id: "178"
         data: ["Talk to Hyetta, give her the Shabriri Grape and exhaust her dialogue"]
+        map_link: [2767, 5462]
       - id: "179"
         data: ["Rest at the Grace, talk to Hyetta again and exhaust her dialogue"]
+        map_link: [2767, 5462]
       - id: "180"
         data: ["Head East and use the Spiritjump to reach the top of the cliffs then summon D, Hunter of the Dead and head North to kill the Tibia Mariner for your third Deathroot."]
+        map_link: [2884, 5340]
       - id: "181"
         data: ["Go back South-East to the cliffs East of where you killed the Tibia Mariner and use ledges poking out of the cliff to make your way down to grab the Jarburg Grace."]
+        map_link: [2947, 5297]
       - id: "182"
         data: ["Nearby the Grace, on a porch, is Jar-Bairn. Talk to him and exhaust his dialogue."]
+        map_link: [2970, 5277]
   -
     title: Raya Lucaria
     items:

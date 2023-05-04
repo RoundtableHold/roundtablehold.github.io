@@ -2298,7 +2298,6 @@
 "playthrough_144",
 "playthrough_145",
 "playthrough_146",
-"playthrough_147",
 "playthrough_148",
 "playthrough_149",
 "playthrough_15",
@@ -2306,7 +2305,6 @@
 "playthrough_151",
 "playthrough_152",
 "playthrough_153",
-"playthrough_154",
 "playthrough_155",
 "playthrough_156",
 "playthrough_157",
@@ -4108,7 +4106,7 @@
 "whetstones_0_6",
 ]);
 function calculateProgress() {
-const playthrough_total = 664;
+const playthrough_total = 662;
 var playthrough_checked = 0;
 const quest_order_tldr_total = 273;
 var quest_order_tldr_checked = 0;
