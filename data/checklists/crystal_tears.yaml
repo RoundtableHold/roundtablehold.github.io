@@ -93,22 +93,23 @@ sections:
         icon: "/img/icons/keys/crystal_tears/00428.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00428.png"
         data: ["Flame-Shrouding Cracked Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "+20% fire damage, lasts 180 seconds"]
-        cords: [6031, 6200]
+        cords: [4893, 6141]
       - id: "3_2"
         icon: "/img/icons/keys/crystal_tears/00410.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00410.png"
         data: ["Greenburst Crystal Tear", "Reward for defeating the Erdtree Avatar northeast of the Smoldering Church Grace", "~30% stamina regen boost, lasts 180 seconds"]
-        cords: [6050, 6199]
+        cords: [4912, 6141]
       - id: "3_3"
         icon: "/img/icons/keys/crystal_tears/00411.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00411.png"
         data: ["Opaline Hardtear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+15% to all damage negations, lasts 180 seconds"]
-        cords: [4893, 6141]
+        cords: [6031, 6200]
       - id: "3_4"
         icon: "/img/icons/keys/crystal_tears/00426.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00426.png"
         data: ["Stonebarb Cracked Tear", "Reward for defeating the Putrid Avatar east of Dragonbarrow Fork Grace", "+30% to posture and stamina damage, lasts 30 seconds"]
-        cords: [4912, 6141]
+        
+        cords: [6050, 6199]
       - id: "3_5"
         icon: "/img/icons/keys/crystal_tears/00415.png"
         map_icon: "/map/icons/shadows/keys/crystal_tears/00415.png"
