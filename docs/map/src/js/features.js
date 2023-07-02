@@ -16176,6 +16176,411 @@ const feature_data = [
       {
         "geometry": {
           "coordinates": [
+            5931,
+            5462
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_1",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_1",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_1",
+          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman\">Gurranq, Beast Clergyman</a>, after feeding him 9 <a href=\"https://eldenring.wiki.fextralife.com/Deathroot\">Deathroot</a>. Alternatively, he will drop this stone when killed."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6069,
+            3052
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_2",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_2",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_2",
+          "title": "Found on a corpse inside the mouth of a giant skull, just south-east of <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Repose\">Church of Repose</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=6399&lat=-91&lng=157.801089&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5298,
+            2447
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_3",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_3",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_3",
+          "title": "Dropped from the two <a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry\">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA\">Inner Consecrated Snowfield</a> grace site.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4411&lat=-76.39&lng=139&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5783,
+            2161
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_4",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_4",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_4",
+          "title": "Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA\">Great Wyrm Theodorix</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=6398&lat=-69.28&lng=151.13&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5030,
+            2534
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_5",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_5",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_5",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel\">Yelough Anix Tunnel</a>: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss <a href=\"https://eldenring.wiki.fextralife.com/Alabaster+Lord\">Alabaster Lord</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5612,
+            1063
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_6",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_6",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_6",
+          "title": "Looted from a corpse just below a hugging statue, north of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA\">Haligtree Town Plaza</a> grace site. The stone is guarded by two winged and one red-maned <a href=\"https://eldenring.wiki.fextralife.com/Misbegotten\">Misbegotten</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5770,
+            1007
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_7",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_7",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_7",
+          "title": "After defeating <a href=\"https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree\">Loretta</a>, make your way down a long ladder and past (not down) the lift to find this stone in a chest."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8495,
+            4656
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_8",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_8",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_8",
+          "title": "Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave</a> and <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave Depths</a> grace sites.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=8612&lat=-129.726562&lng=216.571842&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8444,
+            4322
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_9",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_9",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_9",
+          "title": "Starting from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA\">Dragon Temple Altar</a> grace site, head north through the door way and make your way past the assorted <a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman\">Azula Beastman</a> and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8630,
+            4392
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_10",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_10",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_10",
+          "title": "Dropped from the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            1816,
+            4820
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_11",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_11",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_11",
+          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren\">Witch-Hunter Jerren</a> for siding with him at the end of <a href=\"https://eldenring.wiki.fextralife.com/Sorceress+Sellen\">Sorceress Sellen's</a> questline just outside the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA\">Raya Lucaria Grand Library</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3080,
+            6457
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_12",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_12",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_12",
+          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux\">Nepheli Loux</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            3077,
+            6453
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_13",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02008.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_13",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_13",
+          "title": "Purchased from <a href=\"https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc\">Gatekeeper Gostoc</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            6870,
+            14430
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_14",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_14",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_14",
+          "title": "Found in a chest just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB\">Dynasty Mausoleum Midpoint</a> grace site. The player should be careful as the chest is surrounded by a <a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble\">Sanguine Noble</a> and seven 2nd generation <a href=\"https://eldenring.wiki.fextralife.com/Albinauric\">Albinaurics</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5228,
+            2155
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_15",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_15",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_15",
+          "title": "Dropped from the invading phantom <a href=\"https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater\">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href=\"https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town\">Ordina, Liturgical Town</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7919&lat=-69.203125&lng=137.478198&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5729,
+            946
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_16",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_16",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_16",
+          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Avatar\">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5671,
+            801
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_17",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_17",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_17",
+          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=8299&lat=-36.265625&lng=148.499286&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            8649,
+            4392
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_18",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_18",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_18",
+          "title": "Found in a gazebo behind the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4357&lat=-123.476562&lng=220.336526&zoom=8&code=mapA\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            4253,
+            3592
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_19",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_19",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_19",
+          "title": "From the main <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC\">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7715&lat=-103.914062&lng=114.004391&zoom=8&code=mapC\"></a>"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5046,
+            1703
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_20",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_20",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_20",
+          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Latenna\">Latenna</a> after completing her questline at the <a href=\"https://eldenring.wiki.fextralife.com/Apostate+Derelict\">Apostate Derelict</a> in the <a href=\"https://eldenring.wiki.fextralife.com/Consecrated+Snowfield\">Consecrated Snowfield</a>."
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            5681,
+            843
+          ],
+          "type": "Point"
+        },
+        "id": "ancient_dragon_smithing_stones_21",
+        "properties": {
+          "group": "ancient_dragon_smithing_stones",
+          "icon": "/img/icons/bolstering/edited/02018.png",
+          "icon_size": 35,
+          "id": "ancient_dragon_smithing_stones_21",
+          "link": "/checklists/ancient_dragon_smithing_stones.html#item_21",
+          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: After completing <a href=\"https://eldenring.wiki.fextralife.com/Millicent\">Millicent's</a> questline and defeating <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia, Blade of Miquella</a>, insert the gold needle into Malenia's scarlet flower to receive the stone as well as <a href=\"https://eldenring.wiki.fextralife.com/Miquella's+Needle\">Miquella's Needle</a>."
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "ancient_dragon_smithing_stones",
+    "type": "FeatureCollection"
+  },
+  {
+    "features": [
+      {
+        "geometry": {
+          "coordinates": [
             3612,
             8137
           ],
@@ -20610,6 +21015,8 @@ const feature_data = [
   }
 ];
 const icon_urls = [
+  "/img/icons/bolstering/edited/02008.png",
+  "/img/icons/bolstering/edited/02018.png",
   "/map/icons/MENU_MAP_01_Bonfire.png",
   "/map/icons/MENU_MAP_05.png",
   "/map/icons/MENU_MAP_06.png",
