@@ -16207,7 +16207,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_2",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_2",
-          "title": "Found on a corpse inside the mouth of a giant skull, just south-east of <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Repose\">Church of Repose</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=6399&lat=-91&lng=157.801089&zoom=8&code=mapA\"></a>"
+          "title": "Found on a corpse inside the mouth of a giant skull, just south-east of <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Repose\">Church of Repose</a>."
         },
         "type": "Feature"
       },
@@ -16226,7 +16226,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_3",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_3",
-          "title": "Dropped from the two <a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry\">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA\">Inner Consecrated Snowfield</a> grace site.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4411&lat=-76.39&lng=139&zoom=8&code=mapA\"></a>"
+          "title": "Dropped from the two <a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry\">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA\">Inner Consecrated Snowfield</a> grace site."
         },
         "type": "Feature"
       },
@@ -16245,7 +16245,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_4",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_4",
-          "title": "Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA\">Great Wyrm Theodorix</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=6398&lat=-69.28&lng=151.13&zoom=8&code=mapA\"></a>"
+          "title": "Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA\">Great Wyrm Theodorix</a>."
         },
         "type": "Feature"
       },
@@ -16321,7 +16321,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_8",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_8",
-          "title": "Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave</a> and <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave Depths</a> grace sites.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=8612&lat=-129.726562&lng=216.571842&zoom=8&code=mapA\"></a>"
+          "title": "Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave</a> and <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave Depths</a> grace sites."
         },
         "type": "Feature"
       },
@@ -16454,7 +16454,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_15",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_15",
-          "title": "Dropped from the invading phantom <a href=\"https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater\">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href=\"https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town\">Ordina, Liturgical Town</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7919&lat=-69.203125&lng=137.478198&zoom=8&code=mapA\"></a>"
+          "title": "Dropped from the invading phantom <a href=\"https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater\">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href=\"https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town\">Ordina, Liturgical Town</a>."
         },
         "type": "Feature"
       },
@@ -16473,7 +16473,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_16",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_16",
-          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Avatar\">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\"></a>"
+          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Avatar\">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it."
         },
         "type": "Feature"
       },
@@ -16492,7 +16492,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_17",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_17",
-          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=8299&lat=-36.265625&lng=148.499286&zoom=8&code=mapA\"></a>"
+          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside."
         },
         "type": "Feature"
       },
@@ -16511,7 +16511,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_18",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_18",
-          "title": "Found in a gazebo behind the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4357&lat=-123.476562&lng=220.336526&zoom=8&code=mapA\"></a>"
+          "title": "Found in a gazebo behind the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."
         },
         "type": "Feature"
       },
@@ -16530,7 +16530,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_19",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_19",
-          "title": "From the main <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC\">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building.  <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7715&lat=-103.914062&lng=114.004391&zoom=8&code=mapC\"></a>"
+          "title": "From the main <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC\">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building."
         },
         "type": "Feature"
       },
