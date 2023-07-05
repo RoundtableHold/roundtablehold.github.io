@@ -257,7 +257,7 @@ item_links:
     target: caves_5_2 #NECROMANCER GARRIS & BLACK KNIFE ASSASSIN/SAGE'S CAVE
   - link_all: [bosses_7_4, weapons_21_4] #NECROMANCER GARRIS/FAMILY HEADS FLAIL
   - link_all: [bosses_6_17, talismans_6_10] #BLACK KNIFE ASSASSIN (SAGE'S CAVE)/CONCEILING VEIL TALISMAN
-  - link_all: [bosses_7_6, caves_4_1, weapons_22_2] #STONEDIGGER TROLL/OLD ALTUS TUNNEL/GREAT CLUB
+  - link_all: [bosses_7_6, caves_4_1, weapons_6_3] #STONEDIGGER TROLL/OLD ALTUS TUNNEL/GREAT CLUB
   - link_all: [bosses_6_2, ashesofwar_12_10] #NIGHT'S CAVALRY/AOW: SHARED ORDER
   - link_all: [bosses_6_3, talismans_6_3] #DEMI-HUMAN QUEEN GILIKA/RITUAL SWORD TALISMAN (CHEST IN NEXT ROOM)
   - link_all: [bosses_6_4, crystal_tears_4_1, weapons_18_6] #ELEONORA/PURIFYING CRYSTAL TEAR/ELEONORA'S POLEBLADE
@@ -266,7 +266,6 @@ item_links:
   - link_all: [bosses_6_7, crystal_tears_4_2, crystal_tears_4_3] #WORMFACE/SPECKLED HARDTEAR/CRIMSONSPILL CRYSTAL TEAR
   - link_all: [bosses_6_8, weapons_18_3, incantations_9_6] #GODSKIN APOSTLE/GODSKIN PEELER TWINBLADE/SCOURING BLACK FLAME INCANTATION
   - link_all: [bosses_6_9, caves_4_2, bell_bearings_2_2] #CRYSTALIAN (SPEAR & RINGBLADE)/ALTUS TUNNEL/SOMBERSTONE MINER'S BELL BEARING [2]
-  - link_all: [bosses_6_20, weapons_6_5] #DUELIST/DUELIST GREATAXE
   - source: caves_4_4
     target: [bosses_6_11] #SAINTED HERO'S GRAVE/ANCIENT HERO OF ZAMOR
   - source_and: [bosses_6_10, bosses_6_11]

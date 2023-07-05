@@ -1943,11 +1943,6 @@ const item_links = {
       "ashesofwar_12_10"
     ]
   },
-  "bosses_6_20": {
-    "targets": [
-      "weapons_6_5"
-    ]
-  },
   "bosses_6_3": {
     "targets": [
       "talismans_6_3"
@@ -2102,7 +2097,7 @@ const item_links = {
   "bosses_7_6": {
     "targets": [
       "caves_4_1",
-      "weapons_22_2"
+      "weapons_6_3"
     ]
   },
   "bosses_7_7": {
@@ -2499,7 +2494,7 @@ const item_links = {
   "caves_4_1": {
     "targets": [
       "bosses_7_6",
-      "weapons_22_2"
+      "weapons_6_3"
     ]
   },
   "caves_4_2": {
@@ -5541,12 +5536,6 @@ const item_links = {
       "legendaries_1_1"
     ]
   },
-  "weapons_22_2": {
-    "targets": [
-      "bosses_7_6",
-      "caves_4_1"
-    ]
-  },
   "weapons_23_11": {
     "targets": [
       "bosses_7_20"
@@ -5756,9 +5745,10 @@ const item_links = {
       "bosses_7_21"
     ]
   },
-  "weapons_6_5": {
+  "weapons_6_3": {
     "targets": [
-      "bosses_6_20"
+      "bosses_7_6",
+      "caves_4_1"
     ]
   },
   "weapons_6_6": {
