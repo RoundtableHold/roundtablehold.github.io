@@ -615,72 +615,103 @@ sections:
     items:
       - id: "196"
         data: ["From the Raya Lucaria Grand Library Grace, go back down the lift and into the building just before reaching the metal ball again. To the North will be Waygate, use it to arrive at the Church of Vows and grab the Church of Vows Grace"]
+        map_link: [2405,4720]
       - id: "197"
         data: ["Talk to Miriel, Pastor of Vows inside the Church of Vows and exhaust his dialogue."]
+        map_link: [2405,4720]
       - id: "198"
         data: ["Grab the Gold Sewing Needle and Gold Tailoring Tools from the chest nearby"]
+        map_link: [2405,4720]
       - id: "199"
         data: ["Go North-East from the Church of Vows and grab the Ruined Labyrinth Grace"]
+        map_link: [2586,4487]
       - id: "200"
         data: ["Follow the road East from the Grace to it's end to find the Black Knife Catacombs Grace"]
+        map_link: [2872,4108]
       - id: "201"
         data: ["Proceed through the catacombs to the room with the falling blades then hop onto one of the blades. Ride the blade up and hop onto the ledge to find the hidden path. Follow this path to the end and roll into the Illusory Wall to make it disappear. Summon D, Hunter of the Dead and kill the Boss, Black Knife Assassin for the Black Knifeprint."]
+        map_link: [2883,4091]
       - id: "202"
         data: ["Proceed to the end of the regular path and kill the Boss, Cemetary Shade for the fourth Deathroot."]
+        map_link: [2867,4090]
   -
     title: Roundtable Hold
     items:
       - id: "203"
         data: ["Go back to Roundtable Hold and kill the Invader, Ensha"]
+        map_link: [584,8454]
       - id: "204"
         data: ["Talk to Gideon and Nepheli until dialogue with both is exhausted"]
+        map_link: [584,8454]
       - id: "205"
         data: ["Talk to Hewg until dialogue is exhausted"]
+        map_link: [584,8454]
       - id: "206"
         data: ["Talk to Roderika until dialogue is exhausted"]
+        map_link: [584,8454]
       - id: "206_1"
         data: ["Talk to Corhyn until dialogue is exhausted"]
+        map_link: [584,8454]
       - id: "207"
         data: ["Talk to Diallos until dialogue is exhausted"]
+        map_link: [584,8454]
       - id: "208"
         data: ["Talk to Enia until dialogue is exhausted"]
+        map_link: [584,8454]
       - id: "209"
         data: ["Cuddle with Fia and talk to Rogier until dialogue with both is exhausted"]
+        map_link: [584,8454]
       - id: "210"
         data: ["Reload and talk to Rogier again until dialogue is exhausted."]
+        map_link: [584,8454]
   -
     title: Liurnia Lake Part Three/Roundtable
     items:
       - id: "211"
-        data: ["Start from the Academy Gate Town Grace then head North-West. In a pavillion you will find a Waygate. Use it to appear near and grab the Northern Liurnia Lak Shore Grace."]
+        data: ["Start from the Academy Gate Town Grace then head North-West. In a pavillion you will find a Waygate. Use it to appear near and grab the Northern Liurnia Lake Shore Grace."]
+        map_link: [2275, 4977]
       - id: "212"
         data: ["Grab the Map (Liurnia, West) just North-East of the Grace"]
+        map_link: [1643, 4177]
       - id: "213"
         data: ["Head North-East and break the Illusory Wall to grab the Road to the Manor Grace"]
+        map_link: [1718,4037]
       - id: "214"
         data: ["Talk to Iji and exhaust his dialogue"]
+        map_link: [1713, 4026]
       - id: "215"
         data: ["Head North-East and grab the Main Caria Manor Gate Grace"]
+        map_link: [1902,3845]
       - id: "216"
         data: ["Run through the manor to the Manor Lower Level Grace."]
+        map_link: [1843,3749]
       - id: "217"
         data: ["Run across the bridges then up the lift to the Manor Upper Level Grace."]
+        map_link: [2023,3757]
       - id: "218"
         data: ["Run past the enemies and kill the boss, Royal Knight Loretta."]
+        map_link: [1889,3612]
       - id: "219"
         data: ["Grab the Royal Knight Loretta Grace"]
+        map_link: [1889,3612]
       - id: "220"
         data: ["Head outside and go West, fighting or running past the Glintstone Dragon Adula and enter Ranni's Rise and grab the Ranni's Rise Grace."]
+        map_link: [1576,3700]
       - id: "221"
         data: ["Go up the lift and talk to Ranni and get rejected"]
+        map_link: [1596,3690]
       - id: "222"
         data: ["Go back to Rogier get advice"]
+        map_link: [584,8454]
       - id: "223"
         data: ["Go back to Ranni and get accepted"]
+        map_link: [1596,3690]
       - id: "224"
         data: ["Talk to Iji, Blaidd and Seluvis then back to Ranni."]
+        map_link: [1596,3690]
       - id: "225"
         data: ["Return to Rogier, reload and talk again"]
+        map_link: [584,8454]
   -
     title: Caelid
     items:
