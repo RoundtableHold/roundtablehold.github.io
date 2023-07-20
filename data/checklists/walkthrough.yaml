@@ -440,7 +440,7 @@ sections:
         data: ["Go East, into the Purified Ruins, and find the hidden stairs underneath some wood boards. Go down the stairs and grab the Shabriri Grape"]
         map_link: [2870, 5925]
       - id: "141"
-        data: ["Return to Hyetta, give her the Shabriri Grap and exhaust her dialogue"]
+        data: ["Return to Hyetta, give her the Shabriri Grape and exhaust her dialogue"]
         map_link: [2768, 5921]
       - id: "142"
         data: ["Head up the slope North-East and grab the Liurnia Highway North Grace for later."]
@@ -685,51 +685,74 @@ sections:
     title: Caelid
     items:
       - id: "226"
-        data: ["Starting from the Summonwater Village Outskirts in North-East Limgrave, head East to the cliffs and find your way down to grab the Grace just outside of a cave entrance"]
+        data: ["Starting from the Summonwater Village Outskirts in North-East Limgrave, head East to the cliffs and find your way down to find a cave entrance"]
+        map_link: [4681, 6465]
       - id: "227"
-        data: ["Go inside and talk to Alexander in the cave on Limgrave's side of Gael Tunnel"]
+        data: ["Go inside, grab Rear Gael Tunnel Enterance grace, and talk to Alexander."]
+        map_link: [4700,6415]
       - id: "228"
         data: ["Go back up the cliffs and follow the road North-East to kill Invader, Anastasia, Tarnished Eater at the Smoldering Church"]
+        map_link: [4669,6279]
       - id: "229"
         data: ["Continue following the road in Caelid and grab the Rotview Balcony Grace"]
+        map_link: [4842,6339]
       - id: "230"
         data: ["Follow the cliffs South of the Grace to reach the Gael Tunnel, enter it and drop down to grab the Gael Tunnel Grace"]
+        map_link: [4794,6490]
       - id: "231"
-        data: ["Make your way to the end of Gael Tunnel and grab the Rear Gael Tunnel Entrance Grace."]
+        data: ["Make your way to the end of Gael Tunnel"]
+        map_link: [4716, 6414]
       - id: "232"
-        data: ["Open the door nearby, talk to Alexander and exhaust his dialogue"]
+        data: ["Open the door at the end, talk to Alexander and exhaust his dialogue"]
+        map_link: [4716, 6414]
       - id: "233"
         data: ["Go back to the Rotview Balcony Grace and follow the road East to grab the Caelem Ruins Grace"]
+        map_link: [5094,6292]
       - id: "234"
         data: ["Follow the road South to grab the Smoldering Wall Grace"]
+        map_link: [5159,6524]
       - id: "235"
         data: ["Talk to the Finger Reader nearby"]
+        map_link: [5136, 6526]
       - id: "236"
         data: ["Head into the swamp South-East and kill the Invader, Millicent."]
+        map_link: [5393,6753]
       - id: "236_1"
         data: ["Head to the North-East side of the swamp and grab the Inner Aeonia Grace"]
+        map_link: [5443,6666]
       - id: "237"
         data: ["Continue further North-East to grab the Sellia Under-Stair Grace."]
+        map_link: [5600,6559]
       - id: "238"
         data: ["Go into the town up the stairs and head South to find Gowry's Shack. Kill the dog to make sure it doesn't break the quest then talk to Gowry in his shack and exhaust his dialogue."]
+        map_link: [5672,6738]
       - id: "239"
         data: ["Follow the swamp heading South from the Inner Aeonia Grace to summon Polyanna, Adopted Daughter and kill Commander O'Neil in the South-East section of the swamp."]
+        map_link: [5481,6734]
       - id: "240"
         data: ["Return to Gowry and give him the needle then reload, talk to him again and exhaust his dialogue"]
+        map_link: [5672,6738]
       - id: "241"
         data: ["Light the fires on top of the buildings in Sellia to undo the seal, then go through the seal North of town to grab the Sellia Backstreets Grace"]
+        map_link: [5631,6471]
       - id: "242"
         data: ["Follow the road North-East and then South to grab the Church of the Plague Grace"]
+        map_link: [5771,6646]
       - id: "243"
         data: ["Talk to Millicent and exhaust her dialogue, then reload, talk to her again and exhaust her dialogue"]
+        map_link: [5771,6646]
       - id: "244"
-        data: ["Return to Gowry and exhaust his dialogue"]
+        data: ["Return to Gowry and exhaust his dialogue. If Millicent is there, exhaust her dialogue, then reload to talk to Gowry."]
+        map_link: [5672,6738]
       - id: "245"
         data: ["Head South and grab the Southern Aeonia Swamp Grace"]
+        map_link: [5507,6975]
       - id: "246"
         data: ["Follow the road South-East to the bridge to grab the Impassable Greatbridge Grace for later."]
+        map_link: [5693,7378]
       - id: "247"
         data: ["Caelid/Dragonburrow is now 100% safe to explore! There should be no warnings required!"]
+        map_link: [5693,7378]
   -
     title: Underground Siofra/Liurnia Lake/Castle Redmane
     items:
