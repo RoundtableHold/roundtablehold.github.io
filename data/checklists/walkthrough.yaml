@@ -789,42 +789,61 @@ sections:
     items:
       - id: "248"
         data: ["Starting from the Third Church of Marika, go South and find the Siofra River Well. Go down the lift and grab the Siofra River Well Depths Grace."]
+        map_link: [4581,7032]
       - id: "249"
-        data: ["Go through the area and go down the lift then grab the Siofra River Bank Grace"]
+        data: ["Go through the area and go up the lift then grab the Siofra River Bank Grace"]
+        map_link: [6131,14519]
       - id: "250"
         data: ["Head East to the cliffs to talk to Blaidd and exhaust his dialogue."]
+        map_link: [6366, 14511]
       - id: "251"
         data: ["Talk to Thops at Church of Irith, exhaust his dialogue before giving him the second Glintstone Key."]
+        map_link: [2911,6414]
       - id: "252"
         data: ["Go to the Schoolhouse Classroom Grace in Raya Lucaria and find Thops corpse just outside, around the corner."]
+        map_link: [1943,4983]
       - id: "253"
         data: ["Go to Ranni's Rise and head South to Seluvis' Rise, talk to Seluvis and exhaust his dialogue."]
+        map_link: [1732,3803]
       - id: "254"
         data: ["Leave Seluvis' Rise and go to the cliffs to the East and hop onto the rampart below. Follow the path and hop down into the building to talk to Pidia and exhaust his dialogue."]
+        map_link: [1811, 3730]
       - id: "255"
         data: ["Go to Waypoint Ruins, talk to Sellen and exhaust her dialogue."]
+        map_link: [4239,7258]
       - id: "256"
         data: ["Return to Blaidd in Siofra River Well and exhaust his dialogue."]
+        map_link: [6366, 14511]
       - id: "257"
         data: ["Head North to the ruins and climb the staircase onto the wooden platform. Follow this platform to the North-West and find the Nomadic Merchant. Purchase the Nomadic Warriors Cookbook 17 from him."]
+        map_link: [6392, 14302]
       - id: "258"
         data: ["Go to the Impassable Greatbridge Grace and use the nearby Waypoint to enter Castle Redmane. Proceed through to grab the Chamber Outside the Plaza Grace."]
+        map_link: [6110,7341]
       - id: "259"
         data: ["Go into the plaza and talk to Therolina for an emote."]
+        map_link: [6083,7271]
       - id: "260"
         data: ["Talk to Alexander and Blaidd and exhaust their dialogue."]
+        map_link: [6104, 7272]
       - id: "261"
         data: ["Talk to Jerren to unlock Radahn's boss fight."]
+        map_link: [6095, 7245]
       - id: "262"
         data: ["Go through the church and down the lift to the Waygate that will lead to Radahn then kill Starscourge Radahn (Summoning as many as possible)"]
+        map_link: [6085, 7119]
       - id: "263"
         data: ["Grab the Starscourge Radahn Grace"]
+        map_link: [6226,6824]
       - id: "264"
         data: ["Talk to Blaidd and exhaust his dialogue"]
+        map_link: [6226,6824]
       - id: "265"
         data: ["Talk to Alexander and exhaust his dialogue"]
+        map_link: [6226,6824]
       - id: "266"
         data: ["Go back to the Chamber Outside the Plaza Grace then go back to the church in the plaza to talk to Jerren and exhaust his dialogue."]
+        map_link: [6073, 7197]
   -
     title: Liurnia Lake/Roundtable
     items:
