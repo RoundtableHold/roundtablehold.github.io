@@ -1101,10 +1101,10 @@ sections:
     items:
       - id: "349"
         data: ["Head East, across the battlefield and to the road to grab the Altus Highway Junction Grace."]
-        map_link: [3037,3452]
+        map_link: [3037, 3452]
       - id: "350"
         data: ["Rest at the Grace, talk to Melina and exhaust her dialogue."]
-        map_link: [3037,3452]
+        map_link: [3037, 3452]
       - id: "351"
         data: ["Talk to Boc and exhaust his dialogue"]
         map_link: [3037,3452]
@@ -1119,129 +1119,184 @@ sections:
         map_link: [3096, 3270]
       - id: "355"
         data: ["Go North-West to find the Second Church of Marika. Talk to Yura and exhaust his dialogue."]
-        map_link: [2989,3151]
+        map_link: [2989, 3151]
       - id: "356"
         data: ["Kill the Invader Eleonora, Violet Bloody Finger"]
-        map_link: [2989,3151]
+        map_link: [2989, 3151]
   -
     title: Underground Crater
     items:
       - id: "357"
         data: ["Go back to East Limgrave and find a note from Blaidd just outside of the newly formed crater, West of Fort Haight"]
+        map_link: [4458, 7207]
       - id: "358"
         data: ["Go to the Forlorn Hound Evergaol and free Blaidd"]
+        map_link: [4207, 7666]
       - id: "359"
         data: ["Go to the Road to the Manor Grace, talk to Iji and exhaust his dialogue"]
+        map_link: [1718, 4037]
       - id: "360"
         data: ["Head into the crater West of Fort Haight and grab the Nokron, Eternal City Grace."]
+        map_link: [5747, 14546]
       - id: "361"
         data: ["Follow the path forward to reach and kill the boss, Mimic Tear"]
+        map_link: [6054, 14623]
       - id: "362"
         data: ["Grab the Mimic Tear Grace"]
+        map_link: [6054, 14623]
       - id: "363"
         data: ["Cross the bridge going North-East and then follow the cliffs to the West to find the Ancestral Woods Grace hidden in the cliffs."]
+        map_link: [6059, 14320]
       - id: "364"
         data: ["Follow the path of rooftops South-West and on the way you can find the Black Whetblade"]
+        map_link: [6068, 14426]
       - id: "365"
         data: ["Keep following the path to the bottom to find the Night's Sacred Ground Grace"]
+        map_link: [5996, 14480]
       - id: "366"
         data: ["From the Grace, go North-East and into the building to find the Fingerslayer Blade inside of the chest(For the purposes of this Walkthrough DO NOT GIVE IT TO RANNI YET)"]
+        map_link: [6070, 14348]
       - id: "367"
         data: ["Use the Waygate nearby to return to the Ancestral Woods."]
+        map_link: [6052, 14354]
       - id: "368"
         data: ["Head North-East from the Ancestral Woods Grace, past the altar, into the forest and along the hidden path to reach the Aqueduct-Facing Cliffs Grace."]
+        map_link: [6219, 14020]
       - id: "369"
         data: ["Follow this path until you find a man kneeling next to a balcony outside the boss room. This man is D's Brother, D, Beholder of Death and he wants you to give him D's Armor"]
+        map_link: [6380, 13929]
       - id: "370"
         data: ["Summon D, Beholder of Death and go into the boss room to kill the boss, Valiant Gargoyle Duo"]
+        map_link: [6360, 13912]
       - id: "371"
         data: ["Grab the Great Waterfall Basin Grace."]
+        map_link: [6224,13874]
   -
     title: Altus Plateau Part Two
     items:
       - id: "372"
         data: ["Go to the Altus Highway Junction Grace, follow the road North until you reach the bridge and grab the Forest-Spanning Greatbridge Grace"]
+        map_link: [3310,3063]
       - id: "373"
         data: ["Talk to the Finger Reader nearby and exhaust her dialogue"]
+        map_link: [3307,3074]
       - id: "374"
         data: ["Use the Waygate on the bridge to reach the other side of the bridge and talk to Goldmask"]
+        map_link: [3310,3063]
       - id: "375"
         data: ["Return to Brother Corhyn and exhaust his dialogue."]
+        map_link: [584,8454]
       - id: "376"
         data: ["Return to Goldmask's location, talk to Brother Corhyn and exhaust his dialogue"]
+        map_link: [3274, 2645]
       - id: "377"
         data: ["Talk to Goldmask"]
+        map_link: [3274, 2645]
       - id: "378"
         data: ["Follow the road East from the bridge and grab the Windmill Village Grace."]
+        map_link: [3534,2631]
       - id: "379"
         data: ["Go through the village and kill the boss, Godskin Apostle"]
+        map_link: [3669, 2509]
       - id: "380"
         data: ["Grab the Windmill Heights Grace"]
+        map_link: [3673,2469]
       - id: "381"
         data: ["Talk to Millicent nearby and exhaust her dialogue."]
+        map_link: [3675, 2481]
       - id: "382"
         data: ["Follow the road South-East from the Windmill Village, through the opening in the wall and grab the Outer Wall Battleground Grace"]
+        map_link: [3914,3021]
       - id: "383"
         data: ["Rest at the Grace, talk to Melina and exhaust her dialogue"]
+        map_link: [3914,3021]
       - id: "383_1"
         data: ["Head South-East and fight Margit, The Fell Omen who is currently disguised as a common servant on the battlefield"]
+        map_link: [3870, 3099]
       - id: "384"
         data: ["Follow the road South and talk to the Finger Reader"]
+        map_link: [3845, 3253]
       - id: "385"
         data: ["Head South-West and grab the Outer Wall Phantom Tree Grace"]
+        map_link: [3661,3502]
       - id: "386"
         data: ["Grab Map (Leyndell, Royal Capital)"]
+        map_link: [3683, 3497]
       - id: "387"
         data: ["Follow the road South-East and grab the Minor Erdtree Church Grace"]
+        map_link: [3851,3767]
       - id: "388"
         data: ["Rest at the Grace, talk to Melina and exhaust her dialogue"]
+        map_link: [3851,3767]
       - id: "389"
         data: ["Return to the Outer Wall Battleground Grace and head East to summon Millicent and Great Horned Tragoth and kill the boss, Draconic Tree Sentinel"]
+        map_link: [4498, 3179]
       - id: "390"
         data: ["Go onto the bridge South-West and grab the Capital Rampart Grace."]
+        map_link: [4443,3255]
   -
     title: Volcano Manor Part Two
     items:
       - id: "335"
         data: ["Return to the Magma Wyrm Makar Grace to invade and kill Great Horned Tragoth at the location indicated by the Letter to Patches."]
+        map_link: [2372, 3603]
       - id: "391"
         data: ["Return to Volcano Manor, talk to Patches and exhaust his dialogue."]
+        map_link: [2229,2895]
       - id: "392"
         data: ["Talk to Tanith and exhaust her dialogue"]
+        map_link: [2229,2895]
       - id: "393"
         data: ["Talk to Rya and exhaust her dialogue."]
+        map_link: [2229,2895]
       - id: "394"
         data: ["Talk to Bernahl and exhaust his dialogue for Letter to Bernahl"]
+        map_link: [2229,2895]
       - id: "395"
         data: ["Grab the Red Letter from the table."]
+        map_link: [2229,2895]
       - id: "396"
         data: ["Talk to Tanith and exhaust her dialogue"]
+        map_link: [2229,2895]
       - id: "397"
         data: ["Reload, talk to Patches again and exhaust his dialogue"]
+        map_link: [2229,2895]
       - id: "398"
         data: ["Talk to Rya again and exhaust her dialogue"]
+        map_link: [2229,2895]
       - id: "399"
         data: ["Go into the first room on the right down the hall and roll into the wall to break the illusion. Follow the path down the stairs to grab the Prison Town Church Grace."]
+        map_link: [2127,2948]
       - id: "400"
         data: ["Follow the path down to the bottom, into the lava then going South-West, up the stairs, up the lift and use the lever next to the boss room to raise the bridge for a shortcut."]
+        map_link: [2208, 3019]
       - id: "401"
         data: ["Go into the boss room and kill the boss, Godskin Noble."]
+        map_link: [2249, 3052]
       - id: "402"
         data: ["Grab the Temple of Eiglay Grace"]
+        map_link: [2242,3043]
       - id: "403"
         data: ["Grab the Serpent's Amnion from the altar."]
+        map_link: [2251, 3053]
       - id: "404"
         data: ["Return to Rya and exhaust her dialogue"]
+        map_link: [2229,2895]
       - id: "405"
         data: ["Reload, talk to Tanith and exhaust her dialogue"]
+        map_link: [2229,2895]
       - id: "406"
         data: ["Return to the Temple of Eiglay and tak the lift up. Go outside and hop off the balcony to the lava below. Cross the bridge of slugs, across the gap, up the slope and run past the Iron Virgin into the lava to find a room where you will find Rya. (You have the option to give her the potion but I don't recommend it)"]
+        map_link: [2205, 2978]
       - id: "407"
-        data: ["Follow the path out and then up the ladder and take the path going left. Go into the temple, open the door, then up the stairs and into the room above the entrance where you will find an Imp Statue and use it(if you accidentally go the path with the Waygate, DO NOT TAKE THE WAYGATE)"]
+        data: ["Follow the path out and then up the ladder and take the path going left. Go into the temple, open the door, then up the stairs and into the room above the entrance where you will find an Imp Statue and use it (if you accidentally go the path with the Waygate, DO NOT TAKE THE WAYGATE)"]
+        map_link: [2146, 2887]
       - id: "408"
         data: ["Go into the room and make your way to the bottom and grab the Seedbed Curse."]
+        map_link: [2126, 2898]
       - id: "409"
         data: ["You can now continue along this path to unlock a shortcut to this area by opening the door in front of Patches"]
+        map_link: [2202, 2873]
   -
     title: Loathsome Dung-Eater
     items:
