@@ -1302,53 +1302,76 @@ sections:
     items:
       - id: "410"
         data: ["Return to Roundtable Hold and talk to the Dung Eater and exhaust his dialogue for the Sewer-Gaol Key"]
+        map_link: [584,8454]
       - id: "411"
         data: ["Go to the Capital Rampart Grace just inside of Leyndell and follow the path into the city to grab the East Capital Rampart Grace."]
+        map_link: [4465,3400]
       - id: "412"
         data: ["Rest at the Grace to talk to Melina and exhaust her dialogue."]
+        map_link: [4465,3400]
       - id: "413"
         data: ["Talk to Boc and exhaust his dialogue. When he asks for a Larval Tear, Use Prattling Pate You're Beautiful on him then talk to him again and exhaust his dialogue."]
+        map_link: [4465,3400]
       - id: "477"
         data: ["Starting from the East Capital Rampart Grace, make your way to the center of Leyndell and grab the Avenue Balcony Grace."]
+        map_link: [4316,3506]
       - id: "414"
         data: ["Go down the stairs and then jump off the ledge to the left and find the nearby well to enter the sewers and grab the Underground Roadside Grace"]
+        map_link: [4350,3486]
       - id: "415"
         data: ["From the Grace, leave the room and go left and hop down the open grate on the left. Run past all the rats and plants to climb the ladder. Kill or run past the giants hands and open the door to the cell to find and talk to the Dung Eater and exhaust his dialogue."]
+        map_link: [4302, 3441]
       - id: "416"
         data: ["Return to Roundtable Hold and read the note where Dung-Eater was"]
+        map_link: [584,8454]
       - id: "417"
         data: ["Talk to Roderika and exhaust her dialogue"]
+        map_link: [584,8454]
       - id: "418"
         data: ["From the Capital Rampart Grace, go North-East then follow the road until you can take the path South to reach the moat just outside the wall. Once there, talk to Blackguard Big Boggart, buy some Boiled Crab and exhaust his dialogue."]
+        map_link: [4259, 3153]
       - id: "419"
         data: ["Reload the area and talk to Blackguard Big Boggart again and exhaust his dialogue to loot him."]
+        map_link: [4259, 3153]
       - id: "420"
         data: ["Walk around the water nearby and kill the Invader Dung-Eater"]
+        map_link: [4310, 3173]
       - id: "421"
         data: ["Return to the Dung-Eater in Roundtable Hold and exhaust his dialogue."]
+        map_link: [584,8454]
       - id: "421_1"
         data: ["Talk to Roderika and exhaust her dialogue"]
+        map_link: [584,8454]
   -
     title: Sellen Part Two/Seluvis
     items:
       - id: "422"
         data: ["From here you now have the freedom to choose between giving Seluvis' Potion to Gideon (nothing happens), Dung-Eater (you get Dung Eater Puppet and can't finish his questline) or Nepheli (You get Nepheli Loux Puppet and can't finish Nepheli's, Kenneth's or Gostoc's questlines). For the purpose of this Walkthrough, Dung Eater will be sacrificed cause he deserves it."]
+        map_link: [4302, 3441]
       - id: "423"
         data: ["Return to Dung Eater in the Sewers and use Seluvis' Potion on him. After giving him the potion, kill him(this will let you get both the puppet and his gear)"]
+        map_link: [4302, 3441]
       - id: "424"
         data: ["Go to Ranni's Rise and go into the nearby ruins to find an Illusory Floor, hiding a staircase going down. Enter the room to find a bunch of puppets stuck in place. Break the Illusory Wall in the back to find a Sellen Puppet and interact with it to use Sellen's Primal Glintstone on it."]
+        map_link: [1664, 3666]
       - id: "425"
         data: ["Talk to Sellen and exhaust her dialogue."]
+        map_link: [1664, 3666]
       - id: "426"
         data: ["Make sure to interact with the note next to where the Illusory Wall was."]
+        map_link: [1664, 3666]
       - id: "427"
         data: ["Go talk to Seluvis and exhaust his dialogue to gain access to buying spells and a puppet from him. Buy all the spells and a puppet. Note that you will need to have at least one Starlight Shard in your inventory in order to get the puppet. Starlight Shards can be found at at little statues that look like half-filled cups all over the map."]
+        map_link: [1732,3803]
       - id: "428"
         data: ["Either grab another Starlight Shard or leave one and pick it back up. Afterwards reload and talk to Seluvis again, asking for more puppets for him to open his puppet shop."]
+        map_link: [1732,3803]
       - id: "428_1"
         data: ["Buy another puppet and talk to him again. He will ask you to get him the Amber Starlight. Note that if he doesn't ask for the item, you will have to buy all of his current puppets"]
+        map_link: [1732,3803]
       - id: "429"
         data: ["Give him the Amber Starlight to finish his quest and talk to him one more time to get rewarded.(if you talk to him again, he will give you a potion to give to Ranni but I recommend not doing so. If you do you will need to seek absolution at the Church of Vows to continue Ranni's quest)"]
+        map_link: [1732,3803]
   -
     title: Liurnia Lake/Roundtable Hold
     items:
