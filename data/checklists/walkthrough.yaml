@@ -1377,115 +1377,166 @@ sections:
     items:
       - id: "430"
         data: ["Talk to Ranni in Ranni's Rise and give her the Fingerslayer Blade to get the Carian Inverted Statue."]
+        map_link: [1576,3700]
       - id: "431"
         data: ["Go to the Church of Vows and head South-East to grab the Eastern Tableland Grace"]
+        map_link: [2742,4788]
       - id: "432"
         data: ["Continue East then South to grab the Study Hall Entrance Grace"]
+        map_link: [2904,5140]
       - id: "433"
         data: ["Use the Carian Inverted Statue on the altar to trigger a cutscene that change the Carian Study Hall"]
+        map_link: [2904,5140]
       - id: "434"
         data: ["Make your way through the Carian Study Hall to the top to grab the Liurnia Tower Bridge Grace"]
+        map_link: [2973,5195]
       - id: "434_1"
         data: ["Continue forward, through the door and up the lift to grab the Divine Tower of Liurnia Grace"]
+        map_link: [3373,5130]
       - id: "434_2"
         data: ["Continue up the stairs to grab the Cursemark of Death"]
+        map_link: [3345,5135]
       - id: "435"
         data: ["Go back to Roundtable Hold and loot Rogier's corpse."]
+        map_link: [584,8454]
       - id: "436"
         data: ["Talk to Roderika and exhaust her dialogue."]
+        map_link: [584,8454]
       - id: "437"
         data: ["If you haven't already, upgrade any Spirit Ash to at least +4, reload and talk to Roderika again."]
+        map_link: [584,8454]
       - id: "438"
         data: ["Talk to Nepheli to give her the Stormhawk King and exhaust her dialogue."]
+        map_link: [584,8454]
   -
     title: Deeproot Depths
     items:
       - id: "439"
         data: ["Go to the Great Waterfall Basin Grace in the Twin Gargoyle boss room and use the coffin nearby to grab the Great Waterfall Crest Grace."]
+        map_link: [6224,13874]
       - id: "440"
         data: ["Head West, across the roots, and grab the Deeproot Depths Grace next to the cliffs"]
+        map_link: [5467,11117]
       - id: "441"
         data: ["Talk to Palm Reader and exhaust her dialogue."]
+        map_link: [5467,11117]
       - id: "442"
         data: ["Make your way North/North-West and grab Map (Deeproot Depths)"]
+        map_link: [5513, 10930]
       - id: "443"
         data: ["Go up the nearby roots and head East and upwards, using the roots to grab the Across the Roots Grace"]
+        map_link: [5594,10857]
       - id: "444"
         data: ["Head North and kill the boss, Fia's Champions"]
+        map_link: [5586,10782]
       - id: "445"
         data: ["Talk to Fia and cuddle with her."]
+        map_link: [5704,10698]
       - id: "446"
         data: ["Grab the Prince of Death's Throne Grace"]
+        map_link: [5685,10708]
       - id: "447"
         data: ["Reload and cuddle with Fia again."]
+        map_link: [5704,10698]
       - id: "448"
         data: ["Reload and interact with the sleeping Fia"]
+        map_link: [5704,10698]
       - id: "449"
         data: ["Kill the boss, Lichdragon Fortissax"]
+        map_link: [5656,10740]
       - id: "450"
         data: ["Loot Fia nearby"]
+        map_link: [5704,10698]
       - id: "451"
         data: ["Reload, talk to D and exhaust his dialogue"]
+        map_link: [5704,10698]
       - id: "452"
         data: ["Loot Fia for her clothes."]
+        map_link: [5704,10698]
       - id: "453"
         data: ["Kill D or reload then loot D's Armor and sword."]
+        map_link: [5704,10698]
   -
     title: Liurnia Lake/Ainsel River Main
     items:
       - id: "454"
         data: ["Go to the Road to the Manor Grace, talk to Iji and exhaust his dialogue"]
+        map_link: [1718,4037]
       - id: "455"
         data: ["Go to Ranni's Rise Grace then head to Seluvis' Rise to find Seluvis' corpse(you can now use it to buy puppets)"]
+        map_link: [1732,3803]
       - id: "456"
         data: ["Go to Pidia nearby and loot his corpse"]
+        map_link: [1819, 3727]
       - id: "457"
         data: ["Head North-East of Ranni's Rise and into Renna's Rise. Use the Waygate and grab doll from the coffin nearby"]
+        map_link: [1755,3517]
       - id: "458"
         data: ["Grab the Ainsel River Main Grace."]
+        map_link: [3906,11847]
       - id: "459"
         data: ["Rest at the Grace and talk to the doll there 3 times"]
+        map_link: [3906,11847]
       - id: "460"
         data: ["Head South-West and grab the Nokstella, Eternal City Grace"]
+        map_link: [3605,12044]
       - id: "461"
         data: ["Follow the lower path, down the lift and grab the Nokstella Waterfall Basin Grace"]
+        map_link: [3335,11970]
       - id: "461_1"
         data: ["Rest at the Grace and talk to Ranni"]
+        map_link: [3335,11970]
       - id: "462"
         data: ["Continue to kill the Invader Baleful Shadow"]
+        map_link: [3278, 12098]
       - id: "463"
         data: ["Keep going and grab the Lake of Rot Shoreside Grace."]
+        map_link: [3267,12188]
       - id: "464"
         data: ["Make your way past the Lake of Rot(using the platforms will be easiest but you can run to the other side as long as you heal) and grab the Grand Cloister Grace."]
+        map_link: [3160,12643]
   -
     title: Sellen/Ranni
     items:
       - id: "465"
         data: ["Go to the Raya Lucaria Grand Library Grace and open the nearby chest for the Dark Moon Ring"]
+        map_link: [1840,4819]
       - id: "466"
         data: ["Head outside the room to find 2 summon signs. Choose to either join Sellen or join Jerren"]
+        map_link: [1903, 4845]
       - id: "467"
         data: ["After the fight, loot the corpse/talk to the one you helped(may require reloading). If you helped Sellen, reload and talk to her again."]
+        map_link: [1840,4819]
       - id: "468"
         data: ["Return to the Grand Cloister Grace and head down then to the cliffs edge to the South and use the coffin."]
+        map_link: [3037, 12704]
       - id: "469"
         data: ["Kill the boss, Astel, Naturalborn of the Void"]
+        map_link: [2765,13744]
       - id: "470"
         data: ["Grab the Astel, Naturalborn of the Void Grace."]
+        map_link: [2796,13677]
       - id: "471"
         data: ["Go North and take the lift up and grab the Moonlight Altar Grace"]
+        map_link: [1673,5933]
       - id: "472"
         data: ["Continue on the road North-East to grab the Cathedral of Manus Celes Grace"]
+        map_link: [1905,5783]
       - id: "472_1"
         data: ["Go down the nearby hole to talk to Ranni and exhaust her dialogue to receive the Dark Moon Greatsword."]
+        map_link: [1905,5783]
       - id: "473"
         data: ["Return to Iji, talk to him and exhaust his dialogue"]
+        map_link: [1718,4037]
       - id: "474"
         data: ["Return to Ranni's Rise and kill Blaidd"]
+        map_link: [1576,3700]
       - id: "475"
         data: ["Return to Iji again and exhaust his dialogue."]
+        map_link: [1718,4037]
       - id: "476"
         data: ["Reload and loot Iji's corpse."]
+        map_link: [1718,4037]
   -
     title: Leyndell
     items:
