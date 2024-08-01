@@ -291,3 +291,22 @@ sections:
         map_icon_size: 40
         data: ["Inner Order", "Siofra Aqueduct", "D's twin", "Try to talk to D's twin outside the boss room for the pair of Valiant Gargoyles."]
         cords: [6380, 13929]
+  -
+    title: "Real of Shadow"
+    table: ["Name", "Location", "Questline", "Description"]
+    items:
+      - id: "11_1"
+        icon: "/img/icons/gestures/07100.png"
+        data: ["Ring of Miquella", "", "", "Obtained by Pre-Ordering Shadow of the Erdtree DLC, or awarded after killing a DLC boss with a player who received it via pre-order (but not with someone who received the gesture from someone else)."]
+      - id: "11_2"
+        icon: "/img/icons/gestures/07101.png"
+        data: ["May the Best Win", "Scadu Altus", "Dryleaf Dane", "Laying on the ground near the Highroad Cross Site of grace. Obtained once you pick up the Monk's Missive. "]
+      - id: "11_3"
+        icon: "/img/icons/gestures/07102.png"
+        data: ["The Two Fingers", "Finger Ruins of Dheo", "", "Laying on the ground. North side of the Finger Ruins of Dheo."]
+      - id: "11_4"
+        icon: "/img/icons/gestures/07103.png"
+        data: ["Let Us Go Together", "Enir-Ilim", "", "Obtained after being grabbed by This Boss while charmed or by picking it up inside the arena after the fight."]
+      - id: "11_5"
+        icon: "/img/icons/gestures/07104.png"
+        data: ["O Mother", "Bonny Village,", "Count Ymir", "Found north of Bonny Village, in front of a headless statue."]
