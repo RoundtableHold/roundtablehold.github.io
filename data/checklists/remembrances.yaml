@@ -186,6 +186,119 @@ sections:
         - id: "1_12_2"
           icon: "/img/icons/incantations/06104.png"
           data: ["Incantation Spell - Death Lightning"]
+      - id: "1_21"
+        icon: "/img/icons/tools/remembrances/00732.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Wild+Boar+Rider\">Remembrance of the Wild Boar Rider</a>"]
+      -
+        - id: "1_21_1"
+          icon: "/img/icons/weapons/dlc/12214.png"
+          data: ["Weapon: Sword Lance"]
+        - id: "1_21_2"
+          icon: "/img/icons/sorceries/06805.png"
+          data: ["Sorcery: Blades of Stone"]
+      - id: "1_22"
+        icon: "/img/icons/tools/remembrances/00733.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Impaler\">Remembrance of the Impaler</a>"]
+      -
+        - id: "1_22_1"
+          icon: "/img/icons/weapons/dlc/12242.png"
+          data: ["Weapon: Spear of the Impaler"]
+        - id: "1_22_2"
+          icon: "/img/icons/incantations/06877.png"
+          data: ["Incantation: Messmer's Orb"]
+      - id: "1_23"
+        icon: "/img/icons/tools/remembrances/00734.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Shadow+Sunflower\">Remembrance of the Shadow Sunflower</a>"]
+      -
+        - id: "1_23_1"
+          icon: "/img/icons/weapons/dlc/12257.png"
+          data: ["Weapon: Shadow Sunflower Blossom"]
+        - id: "1_23_2"
+          icon: "/img/icons/incantations/06855.png"
+          data: ["Incantation: Land of Shadow"]
+      - id: "1_24"
+        icon: "/img/icons/tools/remembrances/00735.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Twin+Moon+Knight\">Remembrance of the Twin Moon Knight</a>"]
+      -
+        - id: "1_24_1"
+          icon: "/img/icons/weapons/dlc/12279.png"
+          data: ["Weapon: Rellana's Twin Blades"]
+        - id: "1_24_2"
+          icon: "/img/icons/sorceries/06801.png"
+          data: ["Sorcery: Rellana's Twin Moons"]
+      - id: "1_25"
+        icon: "/img/icons/tools/remembrances/00736.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Saint+of+the+Bud\">Remembrance of the Saint of the Bud</a>"]
+      -
+        - id: "1_25_1"
+          icon: "/img/icons/weapons/dlc/12246.png"
+          data: ["Weapon: Poleblade of the Bud"]
+        - id: "1_25_2"
+          icon: "/img/icons/incantations/06866.png"
+          data: ["Incantation: Rotten Butterflies"]
+      - id: "1_26"
+        icon: "/img/icons/tools/remembrances/00737.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dancing+Lion\">Remembrance of the Dancing Lion</a>"]
+      -
+        - id: "1_26_1"
+          icon: '/img/icons/talismans/18930.png'
+          data: ["Talisman: Enraged Divine Beast"]
+        - id: "1_26_2"
+          icon: "/img/icons/ashes_of_war/08518.png"
+          data: ["Ash of War: Divine Beast Frost Stomp"]
+      - id: "1_27"
+        icon: "/img/icons/tools/remembrances/00739.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+a+God+and+a+Lord\">Remembrance of a God and a Lord</a>"]
+      -
+        - id: "1_27_1"
+          icon: "/img/icons/weapons/dlc/12212.png"
+          data: ["Weapon: Greatsword of Radahn (Lord)"]
+        - id: "1_27_2"
+          icon: "/img/icons/weapons/dlc/12212.png"
+          data: ["Weapon: Greatsword of Radahn (Light)"]
+        - id: "1_27_3"
+          icon: "/img/icons/incantations/06857.png"
+          data: ["Incantation: Light of Miquella"]
+      - id: "1_28"
+        icon: "/img/icons/tools/remembrances/00740.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Lord+of+Frenzied+Flame\">Remembrance of the Lord of Frenzied Flame</a>"]
+      -
+        - id: "1_28_1"
+          icon: "/img/icons/weapons/dlc/12207.png"
+          data: ["Weapon: Greatsword of Damnation"]
+        - id: "1_28_2"
+          icon: "/img/icons/incantations/06868.png"
+          data: ["Incantation: Midra's Flame of Frenzy"]
+      - id: "1_29"
+        icon: "/img/icons/tools/remembrances/00741.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Mother+of+Fingers\">Remembrance of the Mother of Fingers</a>"]
+      -
+        - id: "1_29_1"
+          icon: "/img/icons/weapons/dlc/12290.png"
+          data: ["Weapon: Staff of the Great Beyond"]
+        - id: "1_29_2"
+          icon: "/img/icons/weapons/dlc/12258.png"
+          data: ["Weapon: Gazing Finger"]
+      - id: "1_30"
+        icon: "/img/icons/tools/remembrances/00742.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+Putrescence\">Remembrance of Putrescence</a>"]
+      -
+        - id: "1_30_1"
+          icon: "/img/icons/weapons/dlc/12220.png"
+          data: ["Weapon: Putrescence Cleaver"]
+        - id: "1_30_2"
+          icon: "/img/icons/sorceries/06810.png"
+          data: ["Sorcery: Vortex of Putrescence"]
+      - id: "1_31"
+        icon: "/img/icons/tools/remembrances/03807.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Heart+of+Bayle\">Heart of Bayle</a>"]
+      -
+        - id: "1_31_1"
+          icon: "/img/icons/incantations/06864.png"
+          data: ["Incantation: Bayle's Flame Lightning"]
+        - id: "1_31_2"
+          icon: "/img/icons/incantations/06863.png"
+          data: ["Incantation: Bayle's Tyranny"]
   -
     title: "Wandering Mausoleums"
     map_icon: "/map/icons/shadows/mausoleum.png"

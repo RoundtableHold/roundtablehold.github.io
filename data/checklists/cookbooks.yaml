@@ -278,3 +278,145 @@ sections:
         data: ["2. On the path down to the Frenzied Flame."]
         cords: [4607, 3393]
         map_title: "Frenzied's Cookbook [2]"
+  -
+    title: Forager Brood Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03855.png"
+    items:
+      - id: "10_1"
+        data: ["1. Acquired from a pest who hands it to you if you interact with him just west of Ruined Forge of Starfall Past along the cliffside.<br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_2"
+        data: ["2. Given by a Non-hostile Servant of Rot. From the pond located to the east of the Cliffroad Terminus Site of Grace, exactly all the way south on the map. It may require certain well-timed jumps from Torrent.<br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_3"
+        data: ["3. Acquired from a pest who hands it to you if you interact with it at the north-east corner of the forest of lightning rams near the Furnace Golem on the Ellac River. Closest Site of Grace is Cerulean Coast.<br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_4"
+        data: ["4. Acquired by interacting with a pest found north of Church of the Crusade. The pest will be found shivering and unresponsive. Use a Warming Stone or Sunwarmth Stone to warm it up, and reload the area by teleporting or logging out. It can now be interacted with and will grant the cookbook.<br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_5"
+        data: ["5. Acquired by interacting with the pest found along the right cliff edge in the Deathbird-infested poisonous swamp north of Moorth ruins. The swamp can be reached by going through the cave with the Miranda flowers and Perfumers.<br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_6"
+        data: ["6. Acquired by interacting with the pest found east outside of the Shadow Keep. It can be accessed from the Church District Highroad site of grace and traveling West up the cliff above the tunnel road, then continuing West to the outer wall of the keep.<br><br><strong><span style=\"color: #ff0000;\">NOTE:</span> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+      - id: "10_7"
+        data: ["7. Acquired by selecting the option \"Talk to Moore\" when speaking with Moore. Requires having all of the other Forager Brood Cookbooks.<br><span style=\"color: #ff0000;\">NOTE:</span><strong> </strong>You can lock yourself out of the Forager Brood Cookbooks if Moore dies during his questline, and will not be able to pick them up anymore."]
+  -
+    title: Igon's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03840.png"
+    items:
+      - id: "11_1"
+        data: ["1. Can be found on a corpse in the broken tower just before the Grand Altar of Dragon Communion."]
+      - id: "11_2"
+        data: ["2. Can be found at the edge of a cliff near the Jagged Peak Mountainside site of grace."]
+  -
+    title: Finger-Weaver's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/01384.png"
+    items:
+      - id: "12_1"
+        data: ["1. Found at Finger-Weaver's Hovel. Accessible via Finger Ruins of Rhia following the path to the left and heading straight underneath the Grand Altar of Dragon Communion."]
+      - id: "12_2"
+        data: ["2. Found on a corpse before the bell in Finger Ruins of Miyr. Only accessible after progressing Ymir's questline and finding the secret path under the Catherdal."]
+  -
+    title: Greater Potentate's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03842.png"
+    items:
+      - id: "13_1"
+        data: ["1. Scorched Ruins: From the Hefty Cracked Pot, just head right until a set of stairs is on your left. Take them and continue forward to find the cookbook."]
+      - id: "13_2"
+        data: ["2. Looted from a body that's inside the Run-Down Traveler's Rest location."]
+      - id: "13_3"
+        data: ["3. Across the wooden bridge heading west from Fog Rift Fort, just after the first small tower."]
+      - id: "13_4"
+        data: ["4. East of Cathedral of Manu Metyr. Can be found on a corpse sitting on the ground, surrounded by multiple Marionette Soldiers."]
+      - id: "13_5"
+        data: ["5. Found in the forest area, there are two thunder cows in the area. From Prospect Town, just follow the cliff south to find it."]
+      - id: "13_6"
+        data: ["6. Found on a cliff edge corpse north of the spiritspring used to launch up towards the Foot of the Jagged Peak grace."]
+      - id: "13_7"
+        data: ["7. Found in the swamp area, on the east side of the area where the Bloodfiends and Messmer soldiers are fighting. A Giant Poison Miranda Sprout and several smaller ones protect it. It allows you to create a Hefty Poison Pot."]
+      - id: "13_8"
+        data: ["8. Rauh Base: From the Ravine North site of grace, follow the river west to the west-most area near a water-logged cemetery. The orange side of the river will have a large green mound  full of Horn-Strewn Excrement; The Cookbook will be on top of the mound."]
+      - id: "13_9"
+        data: ["9. After getting past the scarlet rot swamp area, head outside and you'll find this item on a corpse near the wall."]
+      - id: "13_10"
+        data: ["10. The item is looted from a body that is inside a dilapidated building. You can use your mount to jump onto the roof where you'll find a hole that you can jump through."]
+      - id: "13_11"
+        data: ["11. Belurat Gaol: Found within the jar labyrinth."]
+      - id: "13_12"
+        data: ["12. To find the book, descend from the top of the waterfall using the rocks as steps. The book can be looted from a corpse leaning on one of the elevated rocks."]
+      - id: "13_13"
+        data: ["13. Ruined Forge Lava Intake. Take the first ladder down, and go up the set of stairs on the right, you will find it on a body near the back wall. This cookbook allows you to craft a Hefty Volcano Pot."]
+      - id: "13_14"
+        data: ["14. Going through the north-west path from the Charo's Hidden Grave grace, hug the water to the left until you stumble upon a corpse holding the cookbook, guarded by a large poison Miranda Flower and several smaller Miranda Flowers."]
+  -
+    title: Ancient Dragon Knight's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03837.png"
+    items:
+      - id: "14_1"
+        data: ["1. Fog Rift Catacombs. After the room with the sorcerer, the path opens up. Take the right side first, fight the two goblins and grab this item from the ground."]
+      - id: "14_2"
+        data: ["2. Found in a chest in <strong>Scorpion River Catacombs</strong>. Right after the room with the annoying elevated sorcerer and two imps, you'll come across a bridge patrolled by more death eyes. You can drop off the side onto a path which eventually leads to the chest for this."]
+  -
+    title: Mad Craftsman's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03843.png"
+    items:
+      - id: "15_1"
+        data: ["1. Abyssal Woods: West from the Divided Falls Site of Grace, up the rocks that lead to the waterfall."]
+      - id: "15_2"
+        data: ["2. Abyssal Woods: Found on a corpse among large roots in the upper areas in the middle portion of the map. Access by going west and climbing up. [Elden Ring Map]"]
+      - id: "15_3"
+        data: ["3. Found in Midra's Manse, just before the second site of grace. Walk across the rafters and jump into a room filled with frenzy rats. The cookbook is found on a body in that room."]
+  -
+    title: St. Trina Disciple's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03841.png"
+    items:
+      - id: "16_1"
+        data: ["1. Cerulean Coast: From the Cerulean Coast Cross site of grace, head north, across a coffin ship, and while mounted, double jump to the hill with a large wilted tree being guarded by a Cemetery Shade. There will be a sitting corpse under the tree, which holds the Cookbook."]
+      - id: "16_2"
+        data: ["2. From Cerulean Coast Cross follow the path south until the very end to the highest cliff of the mountain."]
+      - id: "16_3"
+        data: ["3. Found in the Garden of Deep Purple after defeating the Putrescent Knight. The cookbook is inside the small cave nearby."]
+  -
+    title: Fire Knight's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03836.png"
+    items:
+      - id: "17_1"
+        data: ["1. East of the Highroad Cross Site of Grace, there is a messmer soldiers encampment. On one of the tents you can find this item."]
+      - id: "17_2"
+        data: ["2. In the soldier camp past Ellac Greatbridge, found inside one of the tents. Beware of the black knight in the area."]
+  -
+    title: Loyal Knight's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03838.png"
+    items:
+      - id: "18_1"
+        data: ["The Loyal Knight's Cookbook can be found inside a chest. The chest is located inside an armory room."]
+  -
+    title: Battlefield Priest's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03839.png"
+    items:
+      - id: "19_1"
+        data: ["1. Shadow Keep. Facing the Queen Marika's statue from the front, take the right room and continue towards the stairs, to reach the upper level in which this cookbook can be found."]
+      - id: "19_2"
+        data: ["2. Fort Reprimand. Take the stairs up after defeating Black Knight Edreed. It is inside the chest at the top."]
+      - id: "19_3"
+        data: ["3. The item can be looted from a corpse, located inside an army tent."]
+      - id: "19_4"
+        data: ["4. Shadow Keep: Take the left lift down from the Storehouse, first floor site of grace. take the first exit to the right and continue forwad until the end of thehallway. Kill the enemy, and take the left route, hit the wall to reveal a path. The Battlefield Priest's Cookbook 4] is on a corpse, after the revealed hidden door."]
+  -
+    title: Grave Keeper's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03844.png"
+    items:
+      - id: "20_1"
+        data: ["1. From cerulean coast west, head south east until you reach a small grave with a tree. There should be a tree on your map not that far from the grace."]
+      - id: "20_2"
+        data: ["2. Located shortly after entering Charo's Hidden Grave. It's by a pile of rocks and turtles when you first reach the water."]
+  -
+    title: Antiquity Scholar's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03845.png"
+    items:
+      - id: "21_1"
+        data: ["1. North of the temple town ruins site of grace, past the red servants of rot, there is a cave, inside it you will find a Shadowpothead enemy. Beware of the poison traps littered around. Drops x3 Fire Spritestone, and Antiquity Scholar's Cookbook 1]."]
+      - id: "21_2"
+        data: ["2. From the entrance of the Ancient Ruins of Rauh, head north towards the edge, and head west, you will find an area with an item below in which you can jump."]
+  -
+    title: Tibia's Cookbook
+    icon: "/img/icons/keys/cookbooks/edited/03852.png"
+    items:
+      - id: "22_1"
+        data: ["Dropped by Tibia Mariner upon defeat, located west of Finger-Weaver's Hovel."]

@@ -187,7 +187,7 @@ def make_footer(page=None):
                         searchTag: "#{page_id}_search",
                         contentTag: "#{page_id}_list ul",
                         didSearch: function(search_phrase) {{
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
+                            search_phrase = search_phrase.trim().toLowerCase().replace(/\\s\\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
                             $(".card").each(function(index, el) {{
                                 if (!search_phrase) {{
                                     $(el).removeClass('d-none');

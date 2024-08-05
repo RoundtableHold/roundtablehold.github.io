@@ -50,6 +50,10 @@ sections:
         data: ["Malenia, Blade of Miquella", "Miquella's Haligtree - Elphael, Brace of the Haligtree", "Become Bloodborne (After taking damage, provides a few seconds to regain health by attacking, but nerfs Flask of Crimson Tears by 30%)."]
         cords: [5586, 875]
         map_title: "Malenia's Great Rune (unactivated)"
+      - id: "1_11"
+        icon: "/img/icons/keys/great_runes/03801.png"
+        data: ["Scadutree Avatar", "Scadutree Base", "Special, can't equip - can be used after the first grab of final boss to remove the glowing symbol, preventing the second grab from causing a game over. It is reusable and can be used to remove the status effect as often as required during the fight."]
+        map_title: "Miquella's Great Rune"
   -
     title: "Great Rune restoration"
     table: ["Rune", "Location", "Notes"]

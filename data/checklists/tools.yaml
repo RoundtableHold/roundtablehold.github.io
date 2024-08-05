@@ -64,6 +64,18 @@ sections:
       - id: "2_7"
         icon: "/img/icons/tools/edited/00094.png"
         data: ["Blasphemous Claw", "Parry specific melee attacks by Maliketh, stunning him", "Dropped by Recusant Bernahl in Crumbling Farum Azula"]
+      - id: "2_11"
+        icon: "/img/icons/tools/edited/00764.png"
+        data: ["Bondstone", "Causes a spiritual explosion, consuming sprite dwelling within spritestone", "From the entrance of the Ancient Ruins of Rauh, head north towards the edge, and head west, you will find an area with an item below in which you can jump."]
+      - id: "2_12"
+        icon: "/img/icons/tools/edited/00758.png"
+        data: ["Horned Bairn", "Uses FP to summon vengeful spirits surrounding caster", "Drops from the Lesser Ulcerated Tree Spirit near the Ellac River Cave Site of Grace."]
+      - id: "2_13"
+        icon: "/img/icons/tools/edited/00755.png"
+        data: ["Perfumed Oil of Ranah", "Uses FP to spout flames forward", "Looted from the corpse in the small island found East from Cerulean Coast. The island is accessed by traversing an underground cave passage located along the coast just south near the Cerulean Coast West Site of Grace. "]
+      - id: "2_14"
+        icon: "/img/icons/tools/edited/00780.png"
+        data: ["Call of Tibia", "Uses FP to summon one lost in death", "Looted from a grave by a skeleton ambush."]
   -
     title: Prattling Pates
     table: [Name, Description, Location]
@@ -92,6 +104,9 @@ sections:
       - id: "3_8"
         icon: "/img/icons/tools/00100.png"
         data: ["\"My Beloved\"", "Whispers, \"My beloved\"", "Miquella's Haligtree: Two branches down from where the teleporter in Ordina, Liturgical Town puts you"]
+      - id: "3_11"
+        icon: "/img/icons/tools/00100.png"
+        data: ["\"Lamentation\"", "Whispers, \"Weeping, weeping, weeping. Ever weeping.\"", "Lamenter's Gaol: Lamenter's Gaol. Climb up the long ladder, cross the connecting stone bridge, and enter the room on the left, you'll find this key item on a corpse"]
   -
     title: Multiplayer
     table: [Name, Description, Location]

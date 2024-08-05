@@ -42,6 +42,15 @@ sections:
         map_icon: "/map/icons/shadows/info/paintings/03209.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "Mountaintop of the Giants", "Castle Sol, in a locked room accessed from descending a ladder from atop the Ramparts guarded by two ballistas."]
         cords: [6039, 1806]
+      - id: "11_1"
+        icon: "/img/icons/info/paintings/edited/03831.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Incursion Painting</a>", "Gravesite Plain", "Obtained from the Artist's Shack."]
+      - id: "11_2"
+        icon: "/img/icons/info/paintings/edited/03834.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">The Sacred Tower Painting</a>", "Gravesite Plain", "Can be found in a small cave north-east from Scorched Ruins in"]
+      - id: "11_3"
+        icon: "/img/icons/info/paintings/edited/03835.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Domain of Dragons Painting</a>", "Shadow Keep", "Bottom part of keep, accessing by climbing down ladders from main plaza"]
   -
     title: "Painting Rewards"
     table: ["Name", "Rewards","Destination"]
@@ -89,3 +98,12 @@ sections:
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Greathood</a>", "Moutaintops of the Giants, on the bridge Northwest of the Stargazers' Ruins, go on the small platform jutting out on the eastern side of the bridge to find the spirit of the artist."]
         cords: [5875, 2080]
         map_title: "Sorcerer Painting solution"
+      - id: "11"
+        icon: "/img/icons/weapons/dlc/12286.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Incursion Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield\">Serpent Crest Shield</a>", "Travel to the Greatbridge North Site of Grace, and head straight West until you can see the large bridge leading into Belurat Tower Settlement in the Distance."]
+      - id: "12"
+        icon: "/img/icons/weapons/dlc/12294.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">The Sacred Tower Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Spiraltree+Seal\">Spiraltree Seal</a>", "Found on the high ground above Temple Town Ruins. This area is accessed by a Spiritspring on the north side of the platform. Once up at the top, right past the Northern Nameless Mausoleum and down the western slope, explore until you find two jagged rocks. Look north-west while aligning the rocks to find the ghost."]
+      - id: "13"
+        icon: "/img/icons/tools/edited/00788.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Domain of Dragons Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Rock+Heart\">Rock Heart</a>", "Traveling to the Jagged Peak Mountainside site of grace and following a path south-west from the grace, across rugged terrain. Instead of proceeding South for the level, take the spiritspring to land slightly west and find a spot where the storm clears up."]
