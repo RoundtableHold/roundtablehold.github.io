@@ -200,3 +200,35 @@ sections:
         data: ["Imprisoned", "West of the Moghwyn Palace, enter the Mohgwyn Dynasty Mausoleum and keep to the left to find the merchant at a dead end."]
         cords: [6781, 14472]
         map_title: "Imprisoned Merchant"
+  -
+    title: "Real of Shadow: NPCs' Bell Bearings"
+    icon: "/img/icons/keys/edited/03142.png"
+    table: ["Name", "Location"]
+    table_widths: [2, 10]
+    items:
+      - id: "10_1"
+        data: ["Moore's Bell Bearing", "Can be acquired as a reward for completing Moore's side quest."]
+      - id: "10_2"
+        data: ["Ymir's Bell Bearing", "Obtained by killing Count Ymir in Cathedral of Manus Metyr."]
+  -
+    title: "Real of Shadow: Seller's Bell Bearings"
+    icon: "/img/icons/keys/edited/03142.png"
+    table: ["Name", "Unlocks", "Location"]
+    table_widths: [3, 2, 6]
+    items:
+      - id: "11_1"
+        data: ["Herbalist's Bell Bearing", "Rada Fruit", "Found on the west wall of the ravine between Pillar Path Waypoint and Dragon's Pit Sites of Grace in Gravesite Plain."]
+      - id: "11_2"
+        data: ["Mushroom-Seller's Bell Bearing [1]", "Mushroom<br>Redflesh Mushroom", "From the Temple Town Ruins Site of Grace in the Rauh Ruins, head south east along the water, which will terminate in a waterfall. To the south west of the waterfall there will be several large gravestones along the cliffside, navigate down the gravestones to the pond at the bottom. Head west following the base of the cliff and look for a black pot hanging by a rope on the side of the cliff wall. Destroy the pot to make it drop the Bell Bearing."]
+      - id: "11_3"
+        data: ["Mushroom-Seller's Bell Bearing [2]", "Toxic Mushroom<br>Whiteflesh Mushroom", "In a jar hanging off a cliff-side waterfall south of the Ellac River Downstream Grace."]
+      - id: "11_4"
+        data: ["Greasemonger's Bell Bearing", "Root Resin<br>Knot Resin", "It can be found north of the Bridge Leading to the Village grace. Go past the giant, follow the road, and look for a pack of wolves on the left. The pot containing the bell bearing is hanging near them."]
+      - id: "11_5"
+        data: ["Moldmonger's Bell Bearing", "Fly Mold", "Inside a pot hanging from a rock wall right next to the Recluse’s River Downstream grace. Shoot it down with a bow and drop down from the graves sticking out from the waterfall to grab it."]
+      - id: "11_6"
+        data: ["Igon's Bell Bearing", "Igon's Harpoon", "Found on the body of Igon after killing Bayle The Dread. His body is found where you last spoke to him, near the double Jagged Peak Drake fight."]
+      - id: "11_7"
+        data: ["Spellmachinist's Bell Bearing", "Rabbath's Greatbolt", "Starting at Shaman Village head southeast and follow the path to the lower peak, from here carefully jump down the ledges until you overlook Rabbath's Rise. Carefully jump to the balcony below and enter the room, jump to the lower level and you will see a body containing the bell bearing."]
+      - id: "11_8"
+        data: ["String-Seller's Bell Bearing", "String", "Hanging from a wall in a ravine in Prospect Town in the Shadow Lands. Shoot and break the hanging pot with a bow. "]
