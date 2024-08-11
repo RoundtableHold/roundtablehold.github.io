@@ -441,3 +441,123 @@ sections:
       - id: "19_1"
         icon: "/img/icons/talismans/18201.png"
         data: ["Prince of Death's Cyst", "Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]
+  - title: "Realm of Shadow"
+    table: ["Name", "Location", "Effect(s)"]
+    items:
+      - id: '50_1'
+        icon: '/img/icons/talismans/18900.png'
+        data: ['Crimson Amber Medallion +3', 'Drops as a reward upon defeating the Death Knight boss located at the Fog Rift Catacombs.', 'Boosts maximum HP by 10%.']
+      - id: '50_2'
+        icon: '/img/icons/talismans/18901.png'
+        data: ['Cerulean Amber Medallion +3', 'Drops as a reward upon defeating the Death Knight boss located at the Scorpion River Catacombs.', 'Boosts maximum FP by 12.5%.']
+      - id: '50_3'
+        icon: '/img/icons/talismans/18902.png'
+        data: ['Viridian Amber Medallion +3', 'Darklight Catacombs, right after the first canon imp. Jump over on the ledge to the right and then drop down to that small archway under it.', 'Boosts maximum stamina by 17%.']
+      - id: '50_4'
+        icon: '/img/icons/talismans/18903.png'
+        data: ['Two-Headed Turtle Talisman', 'Inside a cave beneath a waterfall guarded by enemies Just east of Rivermouth Cave.', 'Greatly raises stamina recovery speed by 22.2%.']
+      - id: '50_5'
+        icon: '/img/icons/talismans/18904.png'
+        data: ['Stalwart Horn Charm +2', 'Bonny Gaol: After you jump down the hole, head east past the rats and climb up the ladder. Defeat the Inner Jar monster, you will find the talisman in the room.', 'Vastly raises robustness by 180.']
+      - id: '50_6'
+        icon: '/img/icons/talismans/18905.png'
+        data: ['Immunizing Horn Charm +2', 'Drops upon defeating the Lesser Ulcerated Tree Spirit in the sewers section of Belurat Tower Settlement.', 'Vastly raises immunity by 180.']
+      - id: '50_7'
+        icon: '/img/icons/talismans/18906.png'
+        data: ['Clarifying Horn Charm +2', 'Lamenter''s Gaol: After dropping down the small cave infested with rats, continue following the path and go straight. You''ll find this talisman on a corpse on the right side once you enter the area.', 'Vastly raises focus by 230.']
+      - id: '50_8'
+        icon: '/img/icons/talismans/18908.png'
+        data: ['Mottled Necklace +2', 'In the Rauh Ancient ruins just after getting past the forge giant across the bridge. You must make your way through the ruin it was in front of, and once at the top proceed past the large stone structure all the way to the end of the area and unblock the spirit spring. Then jump down onto the spring and jump back up to the opposite side. The necklace will be at the top of the stairs.', 'Vastly raises immunity, robustness, and focus by 100.']
+      - id: '50_9'
+        icon: '/img/icons/talismans/18909.png'
+        data: ['Spelldrake Talisman +3', 'Can be looted from a corpse near the Castle Front site of Grace near Castle Ensis. From the Castle Front site of Grace, If you go directly north you can drop off of the cliffside and then follow the path east which will lead you to the storeroom where the talisman is located.', 'Boosts magic damage negation by 22%.']
+      - id: '50_10'
+        icon: '/img/icons/talismans/18910.png'
+        data: ['Flamedrake Talisman +3', 'Can be found at the Fort of Reprimand inside a chest. Entering through the front gate, go down the staircase in the back right corner. Continue through the doorway on the left side of the hallway and follow this path until you see two soldiers standing in front of a body. Climb over the cages to their left and it will lead you to the chest that contains the talisman.', 'Boosts fire damage negation by 22%.']
+      - id: '50_11'
+        icon: '/img/icons/talismans/18911.png'
+        data: ['Boltdrake Talisman +3', 'Can be found at Shadow Keep. From the Storehouse: First Floor site of grace, take the stairs up to the second floor and find a dead-end with several shade protectors. Jump over the railing to reach a room with the talisman, then use the lever to move the bookcase and re-emerge near the site of grace.', 'Boosts lightning damage negation by 22%.']
+      - id: '50_12'
+        icon: '/img/icons/talismans/18912.png'
+        data: ['Golden Braid', 'Shaman Village, Scaduview: The talisman is looted in front of a statue at the top of the hill found inside the trunk of a large decayed tree (the only dead tree there) in the Shaman Village of the Scaduview region. Closest graces are Hinterland and Hinterland Bridge.', 'Boosts holy damage negation by 22%.']
+      - id: '50_13'
+        icon: '/img/icons/talismans/18913.png'
+        data: ['Pearldrake Talisman +3', 'Can be found within Shadow Keep, Specimen Storehouse. You must progress until the seventh floor to pull the lever that moves the statues. Once you do this, return to the third floor and find the head of the statue to pull this item from its beard. One way to do this is to visit the Storehouse, Fourth Floor site of grace, turn around and go East to the railing, then do a big jump from the railing to the feet of the statue below. After landing, run across the statue''s back until you can drop down and loot the talisman.', 'Boosts non-physical damage negation by 11%.']
+      - id: '50_14'
+        icon: '/img/icons/talismans/18914.png'
+        data: ['Crimson Seed Talisman +1', 'In the centre of the Finger Ruins of Rhia. Go to the large ring of fingers (as shown by the Ruins Map given by Count Ymir), and then sound the hanging bell from one of the fingers that''s pointing down. The Hole-Laden Necklace given by Ymir is required to sound it.', 'Greatly boosts HP restoration from the Flask of Crimson Tears by 30%.']
+      - id: '50_15'
+        icon: '/img/icons/talismans/18915.png'
+        data: ['Cerulean Seed Talisman +1', 'Sound the Hanging Bell in Finger Ruins of Dheo.', 'Greatly boosts FP restoration from the Flask of Cerulean Tears by 30%.']
+      - id: '50_16'
+        icon: '/img/icons/talismans/18916.png'
+        data: ['Blessed Blue Dew Talisman', 'Church of Benediction. Head inside the church and investigate the statue of Marika to find the Blessed Blue Dew Talisman.', 'Gradually restores FP (0.5 FP per second).']
+      - id: '50_17'
+        icon: '/img/icons/talismans/18917.png'
+        data: ['Fine Crucible Feather Talisman', 'Ancient Ruins of Rauh: From the Rauh Ancient Ruins, East site of grace, travel to the north west through the cave until you reach a room with two branches, then climb up the branch and jump to the other branch on the left.', 'Improves backsteps but increases damage taken by 15%.']
+      - id: '50_18'
+        icon: '/img/icons/talismans/18918.png'
+        data: ['Outer God Heirloom', 'Found inside a chest inside a small building at the top of Prospect Town.', 'Raises arcane by 5.']
+      - id: '50_19'
+        icon: '/img/icons/talismans/18924.png'
+        data: ['Shattered Stone Talisman', 'Moorth Ruins. From Moorth Ruins Site of Grace head South-East through the big stony archway. You''ll directly head towards a house ruin. You can go through the house''s doorway, exit on the small roof, turn left and around the corner you''ll find the talisman lying there on a corpse.', 'Raises potency of kicking and stomping skills by 10%.']
+      - id: '50_20'
+        icon: '/img/icons/talismans/18919.png'
+        data: ['Two-Handed Sword Talisman', 'Temple Town Ruins: Found inside the highest structure. After the fight with the Horned Warrior, just continue up the stairs into the next room to find a chest with this item inside.', 'Enhances attacks with two-handed weapons by 15%.']
+      - id: '50_21'
+        icon: '/img/icons/talismans/18920.png'
+        data: ['Crusade Insignia', 'Belurat Tower Settlement: The Crusade Insignia Talisman is acquired upon defeating the Fire Knight Queelign NPC Invader.', 'Raises attack power by 15% for 20 seconds after defeating an enemy.']
+      - id: '50_22'
+        icon: '/img/icons/talismans/18921.png'
+        data: ['Aged One''s Exultation', 'Abyssal Woods: Dropped by the Aging Untouchable found nearest to the Abandoned Church. After the enemy''s grab attack is parried, the Aging Untouchable enters a vulnerable state in which it can be damaged.', 'Raises attack power by 20% when madness is triggered in the vicinity.']
+      - id: '50_23'
+        icon: '/img/icons/talismans/18922.png'
+        data: ['Arrow''s Soaring Sting Talisman', 'Found on top of a tower at Fog Rift Fort. From within the door of the tower where Black Knight Garrew was, go through a gap between the tower and the rock wall to the east of the doorway. Hop down onto the wooden pathway and follow it until you see a ladder on your right. Take it up, after which you''ll see another ladder on your left. Take it to the uppermost level of the tower. Here you can find the treasure chest containing the Talisman.', 'Increases the effective range of bows by 50% and raises attack power of arrows and bolts by 8%.']
+      - id: '50_24'
+        icon: '/img/icons/talismans/18925.png'
+        data: ['Pearl Shield Talisman', 'Found inside a chest in a small camp of Messmer soldiers in the woods. Southwestern of Taylew''s Ruined Forge Site of Grace.', 'Boosts all non-physical damage negation by 20% while guarding.']
+      - id: '50_25'
+        icon: '/img/icons/talismans/18923.png'
+        data: ['Dried Bouquet', 'Found in a small room hidden behind debris in the area you fight several Man-Fly enemies. From where you got the Bone Bow, as you exit the doorway, make a hard left and you''ll see a pile of rubble that you can jump on and you''ll see there''s a secret room tucked behind it. Go inside a large storeroom.', 'Raises attack power by 15% for 20 seconds when a spirit you have summoned dies.']
+      - id: '50_26'
+        icon: '/img/icons/talismans/18934.png'
+        data: ['Smithing Talisman', 'Ruined Forge Starfall Past: Looted from a corpse. The body is inside a room filled with Fire Blob enemies, on the upper-most level of the Ruined Forge of Starfall Past.', 'Enhances weapon-throwing attacks by 10%.']
+      - id: '50_27'
+        icon: '/img/icons/talismans/18926.png'
+        data: ['Ailment Talisman', 'Can be looted from a corpse. The body can be found lying at the edge of an unfinished wooden bridge of the Abandoned Ailing Village. ', 'When certain ailments are triggered, this talisman grants resistance by roughly 350 to the same ailment.']
+      - id: '50_28'
+        icon: '/img/icons/talismans/18937.png'
+        data: ['Retaliatory Crossed-Tree', 'You need to follow Leda''s questline, and invade Ansbach. Then return to the grace where You talk to Leda and say your farewells. She will give you this talisman before her dialogue ends.', 'Enhances attacks executed after rolling or backstepping by 17%.']
+      - id: '50_29'
+        icon: '/img/icons/talismans/18938.png'
+        data: ['Lacerating Crossed-Tree', 'You get it from aiding Needle Knight Leda in invading and defeating Hornsent after she chooses him as a target, you have to go back to the Highroad Cross site of grace and talk to her after doing so and she will give the talisman to you. If you begin the Mesmer fight in the Shadow Keep, you are unable to aquire this item, as the Hornset invasion / assist signs are removed.', 'Enhances dash attacks 15% in PvE and 7.5% in PVP.']
+      - id: '50_30'
+        icon: '/img/icons/talismans/18927.png'
+        data: ['Sharpshot Talisman', 'Found inside Albinauric''s Shack in Scaduview.', 'Boosts attack power of precision-aimed shots by 12%.']
+      - id: '50_31'
+        icon: '/img/icons/talismans/18928.png'
+        data: ['St. Trina''s Smile', 'Obtained as a drop upon defeating a hostile NPC, Thiollier. Thiollier only becomes hostile if you pursue St. Trina and Thiollier''s quest.', 'Raises attack power by 20% for 30 seconds when sleep is triggered in the vicinity.']
+      - id: '50_32'
+        icon: '/img/icons/talismans/18929.png'
+        data: ['Talisman of the Dread', 'Elder''s Hovel: Can be found on a corpse inside Elder''s Hovel.', 'Raises potency of magma by 14%.']
+      - id: '50_33'
+        icon: '/img/icons/talismans/18930.png'
+        data: ['Enraged Divine Beast', 'Can be selected as one of the possible rewards when trading Remembrance of the Dancing Lion with Enia at the Roundtable Hold.', 'Raises potency of storms by 10%.']
+      - id: '50_34'
+        icon: '/img/icons/talismans/18931.png'
+        data: ['Beloved Stardust', 'Given by Count Ymir after completing the first part of his quest line.', 'Shortens casting speed +99 for sorcery and incantations by the utmost, but increases damage taken by 30%.']
+      - id: '50_35'
+        icon: '/img/icons/talismans/18932.png'
+        data: ['Talisman of Lord''s Bestowal', 'Shadow Keep: Can be found beside the big golden tree.', 'Increases poise by 54% after using a flask of tears.']
+      - id: '50_36'
+        icon: '/img/icons/talismans/18933.png'
+        data: ['Verdigris Discus', 'Due west of the Highroad Cross site of grace is a waygate that can be unlocked with an Imbued Sword Key. Once through the waygate, walk uphill to see two waterfalls flowing in front of a set of stone arches. Through the middle of the two waterfalls, and past a Divine Bird Warrior, is a statue with this talisman at its base.', 'Raises defense with higher equipment load.']
+      - id: '50_37'
+        icon: '/img/icons/talismans/18935.png'
+        data: ['Rellana''s Cameo', 'Located in Castle Ensis just behind hostile NPC Moonrithyll, lying on an altar.', 'Enhances attacks executed by 15% after maintaining the same stance for 2 seconds.']
+      - id: '50_38'
+        icon: '/img/icons/talismans/18936.png'
+        data: ['Blade of Mercy', 'From the Scorched Ruins Site of Grace, go south down the path. Just a bit after passing under the bridge above, there will be 2 small trees to your left. Turn west and you will see a small stairway. Go up the four steps, then head south up a slight slope to find a stairway to the west. Follow this path around, up some more stairs, north up a small clothed rooftop and some more stairs up, and then east across the cloth draped roof of the bridge. Go up the stairs to the north and open the door. Inside is a chest, open it to find the item.', 'Raises attack power by 20% for 20 seconds after each critical hit.']
+      - id: '50_39'
+        icon: '/img/icons/talismans/18939.png'
+        data: ['Talisman of All Crucibles', 'Start at the Ancient Ruins, Grand Starway Site of Grace, head southwest to the elevator. At bottom of the elavator looking south west, there is 2 paths of floating platforms, go to the left one, following it around and it loops to chest with this talisman.', 'Reduces damage taken from critical hits and head shots and improves the effectiveness of rolling and backstepping, but also increases damage taken by 45%.']
