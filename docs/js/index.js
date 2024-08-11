@@ -4258,6 +4258,7 @@
 "talismans_2_18",
 "talismans_2_19",
 "talismans_2_2",
+"talismans_2_20",
 "talismans_2_3",
 "talismans_2_4",
 "talismans_2_5",
@@ -4963,7 +4964,7 @@ const weapons_total = 479;
 var weapons_checked = 0;
 const armor_total = 657;
 var armor_checked = 0;
-const talismans_total = 160;
+const talismans_total = 161;
 var talismans_checked = 0;
 const sorceries_total = 84;
 var sorceries_checked = 0;

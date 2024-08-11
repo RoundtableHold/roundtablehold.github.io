@@ -489,9 +489,9 @@ window.progress = {
     ],
   },
   "talismans": {
-    "total": [0, 160],
+    "total": [0, 161],
     "sections": [
-      [0, 19],
+      [0, 20],
       [0, 7],
       [0, 4],
       [0, 20],
