@@ -3,6 +3,98 @@ id: weapons
 table_widths: [3,8,1]
 sections:
   -
+    title: Hand-to-Hand Arts
+    link: "https://eldenring.wiki.fextralife.com/Hand-to-Hand+Arts"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_63"
+        icon: "/img/icons/weapons/dlc/12260.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dryleaf+Arts\">Dryleaf Arts</a>", "This weapon is obtained as a drop upon defeating Dryleaf Dane.", "Normal"]
+      - id: "50_64"
+        icon: "/img/icons/weapons/dlc/12261.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dane's+Footwork\">Dane's Footwork</a>", "Dane's Footwork is on Dryleaf Dane's body after you beat the Leda and Allies Boss fight.", "Normal"]
+  -
+    title: Throwing Blades
+    link: "https://eldenring.wiki.fextralife.com/Throwing+Blades"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_72"
+        icon: "/img/icons/weapons/dlc/12269.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Dagger\">Smithscript Dagger</a>", "Ruined Forge Lava Intake. Take the first ladder down, past the golem, and after the fire blob turn right. As soon as you enter the room past the Fire Blob, slightly to the left. You can also drop down to this area from the lever's location. At the end of the hallway, you will find a golem and this weapon on a corpse near the back wall.", "Normal"]
+  -
+    title: Backhand Blades
+    link: "https://eldenring.wiki.fextralife.com/Backhand+Blades"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_73"
+        icon: "/img/icons/weapons/dlc/12271.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Backhand+Blade\">Backhand Blade</a>", "Beside a coffin, in the Inquisitor enemies area of Gravesite Plain, northeast from the Scorched Ruins site of grace.", "Normal"]
+      - id: "50_74"
+        icon: "/img/icons/weapons/dlc/12272.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Cirque\">Smithscript Cirque</a>", "The weapon is looted from a body in the Ruined Forge of Starfall Past. The body is located by the edge of the sewage waterfall.", "Normal"]
+      - id: "50_75"
+        icon: "/img/icons/weapons/dlc/12273.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curseblade's+Cirque\">Curseblade's Cirque</a>", "Drops from Curseblade enemies who wield it.", "Somber"]
+  -
+    title: Perfume Bottles
+    link: "https://eldenring.wiki.fextralife.com/Perfume+Bottles"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_65"
+        icon: "/img/icons/weapons/dlc/12262.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Firespark+Perfume+Bottle\">Firespark Perfume Bottle</a>", "Found in an elevated area South of the Castle Front Site of Grace, in a chest guarded by both Perfumers and Messmer Soldiers.", "Normal"]
+      - id: "50_66"
+        icon: "/img/icons/weapons/dlc/12263.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Chilling+Perfume+Bottle\">Chilling Perfume Bottle</a>", "Lamenter's Gaol: after using the Upper Gaol key on the door, descending the ladder, and walking into the room with the frozen floor, some Jar Innards will come out of a door to your right. The Chilling Perfume Bottle is in that room.", "Normal"]
+      - id: "50_67"
+        icon: "/img/icons/weapons/dlc/12264.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Frenzyflame+Perfume+Bottle\">Frenzyflame Perfume Bottle</a>", "Looted from a dead body located at the northern interior of the Abandoned Church in Abyssal Woods.", "Normal"]
+      - id: "50_68"
+        icon: "/img/icons/weapons/dlc/12265.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lightning+Perfume+Bottle\">Lightning Perfume Bottle</a>", "Found on a corpse a ways northeast of the Cerulean Coast Site of Grace, laying in a pool of water guarded by a lightning ram.", "Normal"]
+      - id: "50_69"
+        icon: "/img/icons/weapons/dlc/12266.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Deadly+Poison+Perfume+Bottle\">Deadly Poison Perfume Bottle</a>", "Can be purchased from Thiollier for 6000 Runes.", "Somber"]
+  -
+    title: Beast Claws
+    link: "https://eldenring.wiki.fextralife.com/Beast+Claws"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_82"
+        icon: "/img/icons/weapons/dlc/12280.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Beast+Claw+(Weapon)\">Beast Claw</a>", "Drops from killing Logur the Beast Claw in Gravesite Plains in the forest, southeast of the Gravesite Plain Site of Grace.", "Normal"]
+      - id: "50_83"
+        icon: "/img/icons/weapons/dlc/12281.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Red+Bear's+Claw\">Red Bear's Claw</a>", "Northern Nameless Mausoleum: Weapon drops upon defeating the Red Bear located at the Northern Nameless Mausoleum.", "Somber"]
+  -
+    title: Light Greatswords
+    link: "https://eldenring.wiki.fextralife.com/Light+Greatswords"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_79"
+        icon: "/img/icons/weapons/dlc/12277.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Milady\">Milady</a>", "Castle Ensis: The Milady Light Greatsword weapon can be found inside a chest. The chest is located at the top of a watchtower.", "Normal"]
+      - id: "50_80"
+        icon: "/img/icons/weapons/dlc/12278.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leda's+Sword\">Leda's Sword</a>", "Dropped by the Leda and Allies Boss fight.", "Somber"]
+      - id: "50_81"
+        icon: "/img/icons/weapons/dlc/12279.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rellana's+Twin+Blades\">Rellana's Twin Blades</a>", "Trade Remembrance of the Twin Moon Knight with Enia at the Roundtable Hold, to receive this weapon.", "Somber"]
+  -
+    title: Great Katanas
+    link: "https://eldenring.wiki.fextralife.com/Great+Katanas"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_76"
+        icon: "/img/icons/weapons/dlc/12274.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Katana\">Great Katana</a>", "Gravesite Plain: The Great Katana can be found next to the sleeping Ghostflame Dragon on the lake, west of the Abandoned Ailing Village site of grace.", "Normal"]
+      - id: "50_77"
+        icon: "/img/icons/weapons/dlc/12275.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon-Hunter's+Great+Katana\">Dragon-Hunter's Great Katana</a>", "Dropped by the Ancient Dragon-Man in the Dragon's Pit.", "Somber"]
+      - id: "50_78"
+        icon: "/img/icons/weapons/dlc/12276.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rakshasa's+Great+Katana\">Rakshasa's Great Katana</a>", "Dropped by Rakshasa in Eastern Nameless Mausoleum. This area can only be accessed by using the ladder in Shadow Keep to get down to a special teleport coffin (this Elden Ring Map location). This will take you to Ruins of Unte and you must follow the cliffs downstream and then carefully drop down to bottom level to reach the mausoleum.", "Somber"]
+  -
     title: Daggers
     link: "https://eldenring.wiki.fextralife.com/Daggers"
     table: ["Name", "Location", "Upgrade" ]
@@ -55,6 +147,12 @@ sections:
       - id: "3_2"
         icon: "/img/icons/weapons/daggers/10001.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife\">Black Knife</a>", "Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Assassin\">Black Knife Assassin</a> guarding the entrance of <a href=\"https://eldenring.wiki.fextralife.com/Sainted+Hero's+Grave\">Sainted Hero's Grave</a>.", "Somber"]
+      - id: "50_1"
+        icon: "/img/icons/weapons/dlc/12200.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Main-gauche\">Main-gauche</a>", "Shadow Keep: Midway through the Stairs, turn right and enter the room. Enter the room on the right, and defeat the enemies to find the body that contains this weapon on the other side.", "Normal"]
+      - id: "50_2"
+        icon: "/img/icons/weapons/dlc/12201.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight's+Shortsword\">Fire Knight's Shortsword</a>", "Has a 4.0% chance to drop by Fire Knights wielding this weapon in Shadow Keep.", "Normal"]
   -
     title: Straight Swords
     link: "https://eldenring.wiki.fextralife.com/Straight+Swords"
@@ -117,6 +215,18 @@ sections:
       - id: "13_19"
         icon: "/img/icons/weapons/straightswords/10053.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame\">Sword of Night and Flame</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Caria+Manor\">Caria Manor</a>: From the <a href=\"https://eldenring.wiki.fextralife.com/interactive+map?id=1524&lat=-107.995313&lng=55.635558&zoom=8&code=mapA\">Manor Lower Level</a> grace site, head south-east across the rooftop walls (mind the blue spectral soldiers), making a left (north) at the first intersection, follow the pathway until it ends. There will be a rooftop to the north, run and jump to safely make it. To the north, beyond a small broken wall, will be another lower rooftop with a ladder, climb down to find a chest with the sword inside. <a href=\"https://eldenring.wiki.fextralife.com/interactive+map?id=1528&lat=-108.082812&lng=58.335612&zoom=8&code=mapA\">[Map Link]</a>", "Somber"]
+      - id: "50_3"
+        icon: "/img/icons/weapons/dlc/12202.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Velvet+Sword+of+St.+Trina\">Velvet Sword of St. Trina</a>", "Stone Coffin Fissure: From the Fissure Cross site of grace, walk immediately north-west to the closest giant coffin that's tilted nearly vertical. Climb down to a ledge that passes underneath the brick platform nearest the site of grace. The sword is in a small cave network there and guarded by several putrescent oozes.", "Somber"]
+      - id: "50_5"
+        icon: "/img/icons/weapons/dlc/12204.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Stone-Sheathed+Sword\">Stone-Sheathed Sword</a>", "Can be acquired at one of the 3 Altar locations: Fog Rift Catacombs (on top of the 3 trap platforms and run to the furthest right corner); Ruins of Unte (flowery courtyard); Ancient Ruins of Rauh (on a tower connected by an invisible floor).", "Somber"]
+      - id: "50_6"
+        icon: "/img/icons/weapons/dlc/12205.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sword+of+Light\">Sword of Light</a>", "Once acquired Stone-Sheathed Sword, the altar from which the sword is acquired will become inert, and the sword can then be transformed into the Sword of Darkness or Sword of Light at one of the 2 other Altars", "Somber"]
+      - id: "50_7"
+        icon: "/img/icons/weapons/dlc/12206.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sword+of+Darkness\">Sword of Darkness</a>", "Once acquired Stone-Sheathed Sword, the altar from which the sword is acquired will become inert, and the sword can then be transformed into the Sword of Darkness or Sword of Light at one of the 2 other Altars", "Somber"]
   -
     title: Greatswords
     link: "https://eldenring.wiki.fextralife.com/Greatswords"
@@ -185,6 +295,15 @@ sections:
       - id: "14_21"
         icon: "/img/icons/weapons/greatswords/10090.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sacred+Relic+Sword\">Sacred Relic Sword</a>", "One of the choices offered when trading in the <a href=\"https://eldenring.wiki.fextralife.com/Elden+Remembrance\">Elden Remembrance</a> to <a href=\"https://eldenring.wiki.fextralife.com/Enia\">Finger Reader Enia</a> at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>.", "Somber"]
+      - id: "50_8"
+        icon: "/img/icons/weapons/dlc/12207.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatsword+of+Damnation\">Greatsword of Damnation</a>", "Trade Midra, Lord Of Frenzied Flame's Remembrance with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_9"
+        icon: "/img/icons/weapons/dlc/12208.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lizard+Greatsword\">Lizard Greatsword</a>", "Dropped by the Imps wielding this in Catacombs.", "Normal"]
+      - id: "50_10"
+        icon: "/img/icons/weapons/dlc/12209.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatsword+of+Solitude\">Greatsword of Solitude</a>", "Obtained after defeating the Blackgaol Knight. This boss is located inside the Western Nameless Mausoleum.", "Somber"]
   -
     title: Colossal Swords
     link: "https://eldenring.wiki.fextralife.com/Colossal+Swords"
@@ -223,6 +342,21 @@ sections:
       - id: "5_3"
         icon: "/img/icons/weapons/colossalswords/10122.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maliketh's+Black+Blade\">Maliketh's Black Blade</a>", "One of the choices offered when trading in the <a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Black+Blade\">Remembrance of the Black Blade</a> to <a href=\"https://eldenring.wiki.fextralife.com/Enia\">Finger Reader Enia</a> at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>.", "Somber"]
+      - id: "50_11"
+        icon: "/img/icons/weapons/dlc/12210.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword\">Ancient Meteoric Ore Greatsword</a>", "Ruined Forge Starfall Past: The weapon is acquired after examining the altar of the Ruined Forge of Starfall Past. The altar is found on the second level. To reach the altar, you must pull the lever to make the iron door rise, and use it as a platform to jump across to the second level where the altar is.", "Somber"]
+      - id: "50_12"
+        icon: "/img/icons/weapons/dlc/12211.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight's+Greatsword\">Fire Knight's Greatsword</a>", "4.0% Chance to be dropped by Fire Knights that wield it in the Shadow Keep.", "Normal"]
+      - id: "50_13"
+        icon: "/img/icons/weapons/dlc/12212.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Light)\">Greatsword of Radahn (Light)</a>", "Trade Remembrance of a God and a Lord with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_14"
+        icon: "/img/icons/weapons/dlc/12212.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Lord)\">Greatsword of Radahn (Lord)</a>", "Trade Remembrance of a God and a Lord with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_15"
+        icon: "/img/icons/weapons/colossalswords/10132.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Moonrithyll's+Knight+Sword\">Moonrithyll's Knight Sword</a>", "The weapon drops from defeating the hostile NPC Moonrithyll, Carian Knight.", "Somber"]
   -
     title: Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Thrusting+Swords"
@@ -249,6 +383,9 @@ sections:
       - id: "15_7"
         icon: "/img/icons/weapons/thrustingswords/10165.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Frozen+Needle\">Frozen Needle</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Kingsrealm+Ruins\">Kingsrealm Ruins</a>, at the northwestern part of <a href=\"https://eldenring.wiki.fextralife.com/Liurnia+of+the+Lakes\">Liurnia of the Lakes</a>: Found inside a chest after defeating the <a href=\"https://eldenring.wiki.fextralife.com/Royal+Revenant\">Royal Revenant</a> boss in a hidden underground area. The stairway is paved over with an illusionary floor at the east end of the ruins, near a pack of wolves.", "Somber"]
+      - id: "50_16"
+        icon: "/img/icons/weapons/dlc/12213.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Sorcery+Sword\">Carian Sorcery Sword</a>", "In a chest after dropping down into Castle Ensis from Scadu Altus.", "Normal"]
   -
     title: Heavy Thrusting Swords
     link: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords"
@@ -266,6 +403,12 @@ sections:
       - id: "16_4"
         icon: "/img/icons/weapons/heavythrustingswords/10204.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+King's+Cragblade\">Dragon King's Cragblade</a>", "One of the choices offered when trading in the <a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Dragonlord\">Remembrance of the Dragonlord</a> to <a href=\"https://eldenring.wiki.fextralife.com/Enia\">Finger Reader Enia</a> at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>.", "Somber"]
+      - id: "50_17"
+        icon: "/img/icons/weapons/dlc/12214.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sword+Lance\">Sword Lance</a>", "Can be selected as one of the possible rewards when trading Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold.", "Normal"]
+      - id: "50_18"
+        icon: "/img/icons/weapons/dlc/12215.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Queelign's+Greatsword\">Queelign's Greatsword</a>", "Shadow Keep: Use Iris of Occultation on the NPC in the Prayer Room to receive Queelign's Greatsword.", "Normal"]
   -
     title: Curved Swords
     link: "https://eldenring.wiki.fextralife.com/Curved+Swords"
@@ -316,6 +459,18 @@ sections:
       - id: "9_10"
         icon: "/img/icons/weapons/curvedswords/10250.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eclipse+Shotel\">Eclipse Shotel</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Castle+Sol\">Castle Sol</a>: Found at the altar of the church in the southeast section of the castle. <a href=\"https://eldenring.wiki.fextralife.com/Interactive+map?id=3770&lat=-60.85&lng=158.646&zoom=8&code=mapA\">[Map Link]</a>", "Somber"]
+      - id: "50_19"
+        icon: "/img/icons/weapons/dlc/12216.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Sword\">Spirit Sword</a>", "You can find this weapon in Cerulean Coast. Northeast from the Cerulean Coast West site of grace, the entrance to a triangular ravine can be accessed. It's in the right corner in that lower area, near some demi-humans.", "Somber"]
+      - id: "50_20"
+        icon: "/img/icons/weapons/dlc/12217.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Falx\">Falx</a>", "If you summoned him to fight Messmer the Impaler, he will drop Falx after invading you near the Rauh Ancient Ruins Site of Grace. If you choose to assist Leda and invade Hornsent in Shadow Keep, he will drop Falx once defeated. Otherwise, you can find Falx on his corpse after fighting him as part of the Leda and Allies Boss fight.", "Somber"]
+      - id: "50_21"
+        icon: "/img/icons/weapons/dlc/12218.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dancing+Blade+of+Ranah\">Dancing Blade of Ranah</a>", "Dropped by defeating Dancer of Ranah at the Southern Nameless Mausoleum.", "Somber"]
+      - id: "50_22"
+        icon: "/img/icons/weapons/dlc/12219.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Horned+Warrior's+Sword\">Horned Warrior's Sword</a>", "Drops from Horned Warriors who wield them.", "Somber"]
   -
     title: Curved Greatswords
     link: "https://eldenring.wiki.fextralife.com/Curved+Greatswords"
@@ -348,6 +503,12 @@ sections:
       - id: "8_9"
         icon: "/img/icons/weapons/curvedgreatswords/10288.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Morgott's+Cursed+Sword\">Morgott's Cursed Sword</a>", "Can be purchased from <a href=\"https://eldenring.wiki.fextralife.com/Finger+Reader+Enia\">Finger Reader Enia</a> found at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a> with the <a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Omen+King\">Remembrance of the Omen King</a>.", "Somber"]
+      - id: "50_24"
+        icon: "/img/icons/weapons/dlc/12221.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Freyja's+Greatsword\">Freyja's Greatsword</a>", "If you gave her Freyja's Letter, you can find Freyja's Greatsword on her body after beating her in the Leda and Allies Boss fight. Otherwise, you can find it by the Storehouse, Seventh Floor Site of Grace after beating the Leda and Allies Boss fight", "Normal"]
+      - id: "50_25"
+        icon: "/img/icons/weapons/dlc/12222.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Horned+Warrior's+Greatsword\">Horned Warrior's Greatsword</a>", "Guaranteed drop from the Wind-Aspected Horned Warrior towards the end of Enir-Ilim.", "Somber"]
   -
     title: Katanas
     link: "https://eldenring.wiki.fextralife.com/Katanas"
@@ -377,6 +538,12 @@ sections:
       - id: "17_8"
         icon: "/img/icons/weapons/katanas/10322.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Hand+of+Malenia\">Hand of Malenia</a>", "Can be drawn by <A href=\"https://eldenring.wiki.fextralife.com/Enia\">Enia</a> out of the <a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Rot+Goddess\">Remembrance of the Rot Goddess</a> at the <A href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>, obtained after killing <A href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia, Blade of Miquella</a>.", "Somber"]
+      - id: "50_4"
+        icon: "/img/icons/weapons/dlc/12203.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Star-Lined+Sword\">Star-Lined Sword</a>", "Dropped by Demi-Human Queen Marigga, who can be found in the Cerulean Coast starting from Cerulean Coast West Site of Grace to follow the path northeast populated with demi-humans.", "Somber"]
+      - id: "50_26"
+        icon: "/img/icons/weapons/dlc/12223.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sword+of+Night\">Sword of Night</a>", "Cathedral of Manus Metyr: After completing the whole finger questline for Count Ymir, Jolan will be dejected nearby. Give her an Iris of Occultation to get the Sword of Night.", "Somber"]
   -
     title: Twinblades
     link: "https://eldenring.wiki.fextralife.com/Twinblades"
@@ -400,6 +567,12 @@ sections:
       - id: "18_6"
         icon: "/img/icons/weapons/twinblades/10364.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Eleonora's+Poleblade\">Eleonora's Poleblade</a>", "Obtained by defeating <a href=\"https://eldenring.wiki.fextralife.com/Eleonora,+Violet+Bloody+Finger\">Eleonora, Violet Bloody Finger</a>, at the <a href=\"https://eldenring.wiki.fextralife.com/Second+Church+of+Marika\">Second Church of Marika</a>. <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5822&lat=-92.5125&lng=83.590583&zoom=8&code=mapA\">[Map Link]</a> (You do not have to complete <A href=\"https://eldenring.wiki.fextralife.com/Bloody+Finger+Hunter+Yura\">Bloody Finger Hunter Yura's</a> quest line to obtain this weapon.)", "Somber"]
+      - id: "50_27"
+        icon: "/img/icons/weapons/dlc/12224.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Euporia\">Euporia</a>", "Can be found in Belurat Tower Settlement", "Somber"]
+      - id: "50_28"
+        icon: "/img/icons/weapons/dlc/12225.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Steel+Twinblade\">Black Steel Twinblade</a>", "Drops from the Black Knight located at the top of western camp in Scadu Altus (Northeast of Church of the Crusade)", "Normal"]
   -
     title: Axes
     link: "https://eldenring.wiki.fextralife.com/Axes"
@@ -444,6 +617,18 @@ sections:
       - id: "1_11"
         icon: "/img/icons/weapons/axes/10531.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rosus'+Axe\">Rosus' Axe</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Catacombs\">Black Knife Catacombs</a>: Found behind an Imp Statue fog door right after the grace (Requires a <a href=\"https://eldenring.wiki.fextralife.com/Stonesword+Key\">Stonesword Key</a> to enter). [<a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1865&lat=-117.32812&lng=79.66849&zoom=8&code=mapA\">Map Link</a>]", "Somber"]
+      - id: "50_35"
+        icon: "/img/icons/weapons/dlc/12232.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Axe\">Smithscript Axe</a>", "Taylew's Ruined Forge: From the initial site of grace, continue following the path, get past the enemy, and take the ladder down then jump across the other platforms and turn left. You will find a Golem there. Behind it, at the back of the room, you will find the Smithscript Axe.", "Normal"]
+      - id: "50_36"
+        icon: "/img/icons/weapons/dlc/12233.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Death+Knight's+Twin+Axes\">Death Knight's Twin Axes</a>", "Fog Rift Catacombs: The weapon is obtained as a reward for defeating the Death Knight boss.", "Somber"]
+      - id: "50_37"
+        icon: "/img/icons/weapons/dlc/12234.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Axe\">Messmer Soldier's Axe</a>", "Has a 2.00% chance to be dropped by Messmer Soldiers.", "Normal"]
+      - id: "50_38"
+        icon: "/img/icons/weapons/dlc/12236.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet\">Forked-Tongue Hatchet</a>", "Dropped by Imps wielding this in Catacombs.", "Normal"]
   -
     title: Greataxes
     link: "https://eldenring.wiki.fextralife.com/Greataxes"
@@ -482,6 +667,15 @@ sections:
       - id: "19_11"
         icon: "/img/icons/weapons/greataxes/10564.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Axe+of+Godrick\">Axe of Godrick</a>", "One of the choices offered when trading in the <a href=\"https://eldenring.wiki.fextralife.com/Remembrance+of+the+Grafted\">Remembrance of the Grafted</a> to <a href=\"https://eldenring.wiki.fextralife.com/Enia\">Finger Reader Enia</a> at the <a href=\"https://eldenring.wiki.fextralife.com/Roundtable+Hold\">Roundtable Hold</a>.", "Somber"]
+      - id: "50_23"
+        icon: "/img/icons/weapons/dlc/12220.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Putrescence+Cleaver\">Putrescence Cleaver</a>", "Trade Remembrance of Putrescence with Enia at the Roundtable Hold to receive this item.", "Somber"]
+      - id: "50_39"
+        icon: "/img/icons/weapons/dlc/12237.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Death+Knight's+Longhaft+Axe\">Death Knight's Longhaft Axe</a>", "The weapon is obtained as a reward for defeating the Death Knight boss located at the Scorpion River Catacombs.", "Somber"]
+      - id: "50_40"
+        icon: "/img/icons/weapons/greataxes/10572.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bonny+Butchering+Knife\">Bonny Butchering Knife</a>", "Bonny Village: Below a small shed, outside a house. Near the broken bridge.", "Somber"]
   -
     title: Hammers
     link: "https://eldenring.wiki.fextralife.com/Hammers"
@@ -545,6 +739,9 @@ sections:
       - id: "20_15"
         icon: "/img/icons/weapons/hammers/10414.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marika's+Hammer\">Marika's Hammer</a>", "Can be Traded for Elden Remembrance with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_29"
+        icon: "/img/icons/weapons/dlc/12226.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flowerstone+Gavel\">Flowerstone Gavel</a>", "The Dragon Communion Priestess drops this item at the Grand Altar of Dragon Communion after defeating Bayle The Dread.", "Somber"]
   -
     title: Flails
     link: "https://eldenring.wiki.fextralife.com/Flails"
@@ -569,6 +766,9 @@ sections:
       - id: "21_5"
         icon: "/img/icons/weapons/flails/10483.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bastard's+Stars\">Bastard's Stars</a>", "Can be traded for Rememberance of the Naturalborn with Enia at Roundtable Hold", "Somber"]
+      - id: "50_34"
+        icon: "/img/icons/weapons/dlc/12231.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Flail\">Serpent Flail</a>", "Fog Rift Fort: Head down using the ladder past the first tower, and defeat the enemies. Beware of the flamethrowers. Use spells or arrows if you have them. Reach the end of the area to find a chest that contains this item.", "Somber"]
   -
     title: Great Hammers
     link: "https://eldenring.wiki.fextralife.com/Great+Hammers"
@@ -629,6 +829,12 @@ sections:
         icon: "/img/icons/weapons/greathammers/10452.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\">Devourer's Scepter</a>", "Dropped by Bernahl when killed at the Warmaster's Shack or as part from his Invasion in Crumbling Farrum Azula", "Somber"]
         # TODO: add grace links
+      - id: "50_30"
+        icon: "/img/icons/weapons/dlc/12227.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Greathammer\">Smithscript Greathammer</a>", "Taylew's Ruined Forge: Use the giant platform in the middle to jump to the other side. Once there, keep moving forward and on the left side there will be a fire blob enemy protecting the item. Defeat the enemy and loot the corpse behind it to obtain the weapon.", "Normal"]
+      - id: "50_32"
+        icon: "/img/icons/weapons/dlc/12229.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Steel+Greathammer\">Black Steel Greathammer</a>", "Guaranteed drop from the Black Knight found at the Church of Consolation.", "Normal"]
 
   -
     title: Colossal Weapons
@@ -693,6 +899,21 @@ sections:
       - id: "6_6"
         icon: "/img/icons/weapons/colossalweapons/10885.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Axe+of+Godfrey\">Axe of Godfrey</a>", "Can be traded for Rememberance of Hoarah Loux with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_31"
+        icon: "/img/icons/weapons/dlc/12228.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Anvil+Hammer\">Anvil Hammer</a>", "Ruined Forge Lava Intake. Use the column you have lowered with the lever as a bridge and climb it until the end. Beware of the fire blob, and then at the top, turn right and jump to reach the stairs. Climb them up and interact with a furnace to obtain this weapon and an Ancient Dragon Smithing Stone.", "Somber"]
+      - id: "50_33"
+        icon: "/img/icons/weapons/dlc/12230.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodfiend's+Arm\">Bloodfiend's Arm</a>", "Guaranteed one-time drop from a Bloodfiend group in Prospect Town located at the Gravesite Plain.", "Normal"]
+      - id: "50_59"
+        icon: "/img/icons/weapons/dlc/12256.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Devonia's+Hammer\">Devonia's Hammer</a>", "Dropped by Devonia, Crucible Knight near Rauh Ancient Ruins, East Grace.", "Somber"]
+      - id: "50_60"
+        icon: "/img/icons/weapons/dlc/12257.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shadow+Sunflower+Blossom\">Shadow Sunflower Blossom</a>", "Trade Remembrance of the Shadow Sunflower at Enia to receive this weapon.", "Somber"]
+      - id: "50_61"
+        icon: "/img/icons/weapons/dlc/12258.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gazing+Finger\">Gazing Finger</a>", "Trade Remembrance of the Mother of Fingers at Enia to receive this weapon.", "Somber"]
   -
     title: Spears
     link: "https://eldenring.wiki.fextralife.com/Spears"
@@ -759,6 +980,15 @@ sections:
       - id: "23_16"
         icon: "/img/icons/weapons/spears/10609.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bolt+of+Gransax\">Bolt of Gransax</a>", "Can be found in Leyndell Royal Capital after defeating Godfrey (Golden Shade). Walk up the spear at Erdtree Sanctuary Site of Grace.", "Somber"]
+      - id: "50_41"
+        icon: "/img/icons/weapons/dlc/12238.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Spear\">Smithscript Spear</a>", "Ruined Forge Starfall Past: The weapon is looted from a body located on the main floor of the Ruined Forge of Starfall Past.", "Normal"]
+      - id: "50_42"
+        icon: "/img/icons/weapons/dlc/12239.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Swift+Spear\">Swift Spear</a>", "Can be found lying on a corpse guarded by 3 Messmer Soldiers along the road going South-East from the Castle Front site of grace.", "Normal"]
+      - id: "50_43"
+        icon: "/img/icons/weapons/dlc/12240.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodfiend's+Fork\">Bloodfiend's Fork</a>", "Has a 3.0% dropped from Bloodfiends who wield it (you can find two in a melee battle not far from Ruined Forge Lava Intake)", "Normal"]
   -
     title: Great Spears
     link: "https://eldenring.wiki.fextralife.com/Great+Spears"
@@ -788,6 +1018,18 @@ sections:
         icon: "/img/icons/weapons/greatspears/10641.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mohgwyn's+Sacred+Spear\">Mohgwyn's Sacred Spear</a>", "Can be traded for Rememberance of the Blood Lord with Enia at Roundtable Hold.", "Somber"]
         # TODO: add grace
+      - id: "50_44"
+        icon: "/img/icons/weapons/dlc/12241.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodfiend's+Sacred+Spear\">Bloodfiend's Sacred Spear</a>", "The Bloodfiend west of Taylew's Ruined Forge drops this when killed.", "Somber"]
+      - id: "50_45"
+        icon: "/img/icons/weapons/dlc/12242.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spear+of+the+Impaler\">Spear of the Impaler</a>", "Trade Remembrance of the Impaler with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_46"
+        icon: "/img/icons/weapons/dlc/12243.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Spear\">Messmer Soldier's Spear</a>", "Has a 2.00% chance to be dropped by Messmer Soldiers.", "Normal"]
+      - id: "50_47"
+        icon: "/img/icons/weapons/dlc/12244.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear\">Barbed Staff-Spear</a>", "Dropped by Jori Elder Inquisitor who can be found in the Abyssal Woods.", "Somber"]
   -
     title: Halberds
     link: "https://eldenring.wiki.fextralife.com/Halberds"
@@ -842,6 +1084,12 @@ sections:
       - id: "25_16"
         icon: "/img/icons/weapons/halberds/10684.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Commander's+Standard\">Commander's Standard</a>", "Dropped by Commander O'Neil in the heart of Aeonia.", "Somber"]
+      - id: "50_48"
+        icon: "/img/icons/weapons/dlc/12245.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Glaive\">Spirit Glaive</a>", "Start at the Charo's Hidden Grave site of grace and walk through the arch to the northwest, turn right directly after and take the path that ramps up north, follow it to where it meets the edge of the Gravesite Plains and it will be on a grave.", "Somber"]
+      - id: "50_49"
+        icon: "/img/icons/weapons/dlc/12246.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Poleblade+of+the+Bud\">Poleblade of the Bud</a>", "Trade Remembrance of the Saint of the Bud with Enia to be able to receive this weapon. The remembrance is dropped by Romina, Saint of the Bud at the Church of the Bud.", "Somber"]
   -
     title: Reapers
     link: "https://eldenring.wiki.fextralife.com/Reapers"
@@ -859,6 +1107,9 @@ sections:
       - id: "26_4"
         icon: "/img/icons/weapons/reapers/10726.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Winged+Scythe\">Winged Scythe</a>", "In a Chest at the Tombsward Ruins in the Weeping Peninsula.", "Somber"]
+      - id: "50_50"
+        icon: "/img/icons/weapons/dlc/12247.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Obsidian+Lamina\">Obsidian Lamina</a>", "Complete the entirety of Sir Ansbach's questline by assisting him. This weapon will be available at the end of his questline after the Final Boss where he will be by the entrance to the arena after the fight.", "Somber"]
   -
     title: Whips
     link: "https://eldenring.wiki.fextralife.com/Whips"
@@ -882,6 +1133,9 @@ sections:
       - id: "27_6"
         icon: "/img/icons/weapons/whips/10766.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant's+Red+Braid\">Giant Red Braid</a>", "Can be traded for Rememberance of the Fire Giant with Enia at Roundtable Hold.", "Somber"]
+      - id: "50_51"
+        icon: "/img/icons/weapons/dlc/12248.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Tooth+Whip\">Tooth Whip</a>", "Found inside the Whipping Hut.", "Somber"]
   -
     title: Fists
     link: "https://eldenring.wiki.fextralife.com/Fists"
@@ -914,6 +1168,21 @@ sections:
       - id: "28_9"
         icon: "/img/icons/weapons/fists/10806.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Grafted+Dragon\">Grafted Dragon</a>", "Can be traded for Rememberance of the Grafted with Enia in Roundtable Hold.", "Somber"]
+      - id: "50_52"
+        icon: "/img/icons/weapons/dlc/12249.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Thiollier's+Hidden+Needle\">Thiollier's Hidden Needle</a>", "Finish the St. Trina and Thiollier quests and loot it after defeating the final boss.", "Somber"]
+      - id: "50_53"
+        icon: "/img/icons/weapons/dlc/12250.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Pata\">Pata</a>", "Found inside a hanging body, just outside the Church of Benediction.", "Normal"]
+      - id: "50_54"
+        icon: "/img/icons/weapons/dlc/12251.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Poisoned+Hand\">Poisoned Hand</a>", "Sewer Level of the Belurat Tower Settlement in Gravesite Plain.", "Somber"]
+      - id: "50_55"
+        icon: "/img/icons/weapons/dlc/12252.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Madding+Hand\">Madding Hand</a>", "South of Woodland Trail site of grace in the Abyssal Woods. Drop by Madding Hand enemy", "Somber"]
+      - id: "50_56"
+        icon: "/img/icons/weapons/dlc/12253.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golem+Fist\">Golem Fist</a>", "Looted from Golems throwing stones in Taylew's Ruined Forge.", "Normal"]
   -
     title: Claws
     link: "https://eldenring.wiki.fextralife.com/Claws"
@@ -931,6 +1200,9 @@ sections:
       - id: "4_4"
         icon: "/img/icons/weapons/claws/10843.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raptor+Talons\">Raptor Talons</a>", "Can be found in one of the many chests in the Sage's Cave on the Altus Plateau.", "Normal"]
+      - id: "50_58"
+        icon: "/img/icons/weapons/dlc/12255.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Claws+of+Night\">Claws of Night</a>", "Dropped by NPC invader Swordhand of Night Anna, found in the Finger Ruins of Miyr underneath Cathedral of Manus Metyr. This area can only be accessed by progressing Ymir's questline.", "Somber"]
   -
     title: Light Bows
     link: "https://eldenring.wiki.fextralife.com/Light+Bows"
@@ -951,6 +1223,9 @@ sections:
       - id: "11_5"
         icon: "/img/icons/weapons/lightbows/11003.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>", "Reward for Solving the Champion's Song Painting, found in The Shaded Castle.", "Normal"]
+      - id: "50_97"
+        icon: "/img/icons/weapons/dlc/12295.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bone+Bow\">Bone Bow</a>", "Belurat Tower Settlement: Can be found being protected by 2 giant Spider-Scorpions, inside the massive tower with a broken spiral staircase.", "Normal"]
   -
     title: Bows
     link: "https://eldenring.wiki.fextralife.com/Bows"
@@ -977,6 +1252,9 @@ sections:
       - id: "10_4"
         icon: "/img/icons/weapons/bows/11043.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Bow\">Erdtree Bow</a>", "Can be found in a chest on the second floor after an open window on a roof in the same building where the Erdtree Sancuary Site of Grace is situated.", "Somber"]
+      - id: "50_98"
+        icon: "/img/icons/weapons/dlc/12296.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ansbach's+Longbow\">Ansbach's Longbow</a>", "Assist or Kill Sir Ansbach during his questline in Shadow Keep against the enemy invader.", "Somber"]
   -
     title: Greatbows
     link: "https://eldenring.wiki.fextralife.com/Greatbows"
@@ -994,6 +1272,9 @@ sections:
       - id: "12_4"
         icon: "/img/icons/weapons/greatbows/11080.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lion+Greatbow\">Lion Greatbow</a>", "Can be traded with Enia at Roundtable Hold for the Rememberance of the Starscourge.", "Somber"]
+      - id: "50_99"
+        icon: "/img/icons/weapons/dlc/12297.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Igon's+Greatbow\">Igon's Greatbow</a>", "Defeat Igon on the eastern side of Gravesite Plain. Alternatively: Complete Igon's questline by summoning him and then defeating Bayle The Dread. Igon will drop his items at his previous location, just south-east of Foot of the Jagged Peak [Map Link] his body will have both Igon's Greatbow and Igon's set. ", "Normal"]
   -
     title: Crossbows
     link: "https://eldenring.wiki.fextralife.com/Crossbows"
@@ -1020,6 +1301,12 @@ sections:
       - id: "7_5"
         icon: "/img/icons/weapons/crossbows/11124.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow\">Full Moon Crossbow</a>", "Found on the Rooftop area after the Debate Parlor Site of Grace in Raya Lucaria.", "Somber"]
+      - id: "50_100"
+        icon: "/img/icons/weapons/dlc/12298.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Repeating+Crossbow\">Repeating Crossbow</a>", "Along the road next to the Ghostflame Dragon north of the Moorth Highway, South site of Grace.", "Somber"]
+      - id: "50_101"
+        icon: "/img/icons/weapons/dlc/12299.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spread+Crossbow\">Spread Crossbow</a>", "Found on a body by the riverside and the Ellac Greatbridge. From the Castle Front site of grace, head east until you reach the rock wall, and then turn south, drop down the short cliff and continue south. Just after the first wooden stake fence, head west and drop down to three Messmer Soldiers. The Spread Crossbow is on a corpse in this camp.", "Normal"]
   -
     title: Ballistas
     link: "https://eldenring.wiki.fextralife.com/Ballistas"
@@ -1031,6 +1318,9 @@ sections:
       - id: "2_2"
         icon: "/img/icons/weapons/ballistas/11161.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jar+Cannon\">Jar Cannon</a>", "Dropped by the Demi-human Queen Margot at the end of Volcano Cave north of Mt. Gelmir.", "Somber"]
+      - id: "50_102"
+        icon: "/img/icons/weapons/dlc/12300.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rabbath's+Cannon\">Rabbath's Cannon</a>", "Rabbath's Rise: After you free the Spiritspring, head outside and use it while mounted on Torrent to reach the higher part of the tower. Loot the chest at the top to obtain this weapon.", "Somber"]
   -
     title: Glintstone Staffs
     link: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs"
@@ -1090,6 +1380,12 @@ sections:
       - id: "29_18"
         icon: "/img/icons/weapons/glintstonestaffs/11209.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prince+of+Death's+Staff\">Prince of Death's Staff</a>", "Found in the Deeproot Depths. Follow the path up the roots and take the first drop to the left and continue the path to the tower.", "Somber"]
+      - id: "50_92"
+        icon: "/img/icons/weapons/dlc/12290.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Staff+of+the+Great+Beyond\">Staff of the Great Beyond</a>", "Exchange Remembrance of the Mother of Fingers with Finger Reader Enia in Roundtable Hold.", "Somber"]
+      - id: "50_93"
+        icon: "/img/icons/weapons/dlc/12291.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Maternal+Staff\">Maternal Staff</a>", "Cathedral of Manus Metyr: Dropped by Count Ymir, Mother of Fingers.", "Normal"]
   -
     title: Sacred Seals
     link: "https://eldenring.wiki.fextralife.com/Sacred+Seals"
@@ -1122,6 +1418,15 @@ sections:
       - id: "30_9"
         icon: "/img/icons/weapons/sacredseals/11248.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dragon+Communion+Seal\">Dragon Communion Seal</a>", "Can be found Fringefolk Hero's Grave guarded by a Knight.", "Somber"]
+      - id: "50_94"
+        icon: "/img/icons/weapons/dlc/12292.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dryleaf+Seal\">Dryleaf Seal</a>", "Found on a ledge under a cave guarded by gravebirds in the area under Bonny Village. You can only reach this section by going through the secret passage in Shadow Keep and using the coffin there to transport to Ruins of Unte via Castle Watering Hole. From Ruins of Unte, make your way to the Recluses' River Upstream site of grace, then ride south along the cliffs. Cross the chasm and continue onwards, making your way to a small graveyard guarded by grave-birds. Near the ledge there is a game-message which indicates the point to drop down to find this item.", "Normal"]
+      - id: "50_95"
+        icon: "/img/icons/weapons/dlc/12293.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight's+Seal\">Fire Knight's Seal</a>", "Shadow Keep: In the area with the giant Queen Marika statue, it is behind the statue. You have to use the lever to lower the water level.", "Normal"]
+      - id: "50_96"
+        icon: "/img/icons/weapons/dlc/12294.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spiraltree+Seal\">Spiraltree Seal</a>", "Reward for completing \"The Sacred Tower\" Painting Puzzle.", "Normal"]
   -
     title: Torches
     link: "https://eldenring.wiki.fextralife.com/Torches"
@@ -1145,6 +1450,12 @@ sections:
       - id: "31_6"
         icon: "/img/icons/weapons/torches/10924.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/St+Trina's+Torch\">St Trina's Torch</a>", "Found in a chest on a hearse southwest in the Consecrated Snowfield in the Mountaintops of the Goants.", "Somber"]
+      - id: "50_62"
+        icon: "/img/icons/weapons/dlc/12259.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nanaya's+Torch\">Nanaya's Torch</a>", "Looted from a balcony in Midra's Manse in the Abyssal Woods.", "Somber"]
+      - id: "50_84"
+        icon: "/img/icons/weapons/dlc/12282.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lamenting+Visage\">Lamenting Visage</a>", "Inside a room on the lower level of the Lamenter's Gaol, hidden behind an illusory wall. In the area you fall through the floor, go up the stairs and into the the first doorway. Roll into the end of the passageway, and use the Gaol Lower Level Key to open the door.", "Somber"]
   -
     title: Small Shields
     link: "https://eldenring.wiki.fextralife.com/Small+Shields"
@@ -1201,6 +1512,12 @@ sections:
       - id: "32_17"
         icon: "/img/icons/weapons/smallshields/12020.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Coil+Shield\">Coil Shield</a>", "Found in the Volcano Cave from the first large room take the right most exit drop down onto a cliff below and enter the tunnel until you reach a room with a corpse holding the shield.", "Somber"]
+      - id: "50_57"
+        icon: "/img/icons/weapons/dlc/12254.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Shield+of+Night\">Shield of Night</a>", "Can be found in Bonny Gaol. The top level of this gaol can be accessed after using the jar lift near the bridge twice. You need to jump off at the bridge level, activate the switch, and then ride the jar going up. You will find this on the ledge behind the corpse on top of a table.", "Somber"]
+      - id: "50_85"
+        icon: "/img/icons/weapons/dlc/12283.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Smithscript+Shield\">Smithscript Shield</a>", "Taylew's Ruined Forge: Jump from the opening left to the Lever, and instead of heading forward turn left. There are two Smithing Golems there, one that uses fire. Once defeated, stick to the right and go up to the upper platform using the crumbled column. You will find the item at the end of the hallway. Beware of the fire blob that falls from the ceiling.", "Normal"]
   -
     title: Medium Shields
     link: "https://eldenring.wiki.fextralife.com/Medium+Shields"
@@ -1287,6 +1604,18 @@ sections:
       - id: "33_13"
         icon: "/img/icons/weapons/mediumshields/12052.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Great+Turtle+Shell\">Great Turtle Shell</a>", "", "Somber"]
+      - id: "50_86"
+        icon: "/img/icons/weapons/dlc/12284.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Messmer+Soldier+Shield\">Messmer Soldier Shield</a>", "Has a 2.00% chance to be dropped by Messmer Soldiers, from shield-wielding Messmer Soldiers.", "Normal"]
+      - id: "50_87"
+        icon: "/img/icons/weapons/dlc/12285.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Wolf+Crest+Shield\">Wolf Crest Shield</a>", "Can be found in: Castle Ensis. Located inside a storeroom you'll find a treasure chest that has the Wolf Crest Shield.", "Normal"]
+      - id: "50_88"
+        icon: "/img/icons/weapons/dlc/12286.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield\">Serpent Crest Shield</a>", "Can be obtained by completing the Incursion Painting Puzzle.", "Normal"]
+      - id: "50_89"
+        icon: "/img/icons/weapons/dlc/12287.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Golden+Lion+Shield\">Golden Lion Shield</a>", "Shadow Keep: Given by Redmane Freyja after you hand her over the Letter for Freyja, received from Sir Ansbach.", "Somber"]
   -
     title: Greatshields
     link: "https://eldenring.wiki.fextralife.com/Greatshields"
@@ -1367,3 +1696,20 @@ sections:
       - id: "34_11"
         icon: "/img/icons/weapons/greatshields/12093.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/One-Eyed+Shield\">One-eyed Shield</a>", "", "Somber"]
+      - id: "50_90"
+        icon: "/img/icons/weapons/dlc/12288.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Steel+Greatshield\">Black Steel Greatshield</a>", "Dropped by Black Knight Garrew that can be found by Fog Rift Fort. Random drop by any Black Knight.", "Normal"]
+      - id: "50_91"
+        icon: "/img/icons/weapons/dlc/12289.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Verdigris+Greatshield\">Verdigris Greatshield</a>", "If you kill a Forager Brood Pest, Moore will invade you and will drop this when killed. If you tell Moore \"Remain sad forever\", you can find this on his corpse by the Forager Brood Pest north of the Church of the Crusade. If you tell Moore \"Put it behind you\", you can find this on his corpse after fighting him as part of the Leda and Allies Boss fight.", "Somber"]
+  -
+    title: Thrusting Shields
+    link: "https://eldenring.wiki.fextralife.com/Thrusting+Shields"
+    table: ["Name", "Location", "Upgrade" ]
+    items:
+      - id: "50_70"
+        icon: "/img/icons/weapons/dlc/12267.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dueling+Shield\">Dueling Shield</a>", "Shadow Keep: From the Storehouse, First Floor site of grace, go North around the specimen pillar towards the stairs, and turn immediately left after going up them. Keep going straight until you see another staircase to your right (immediately past the room that Sir Ansbach moves to). Go to your left towards the large flight of stairs and go up them. Sneak past or kill the Fire Knight you see to your right. To his left you'll see a path. Go down it until you get to the bull-like specimen hanging from the ceiling. Keep your eye to the left and you'll see a corpse with the shield and a small section of wall that will let you get to the shield.", "Normal"]
+      - id: "50_71"
+        icon: "/img/icons/weapons/dlc/12268.png"
+        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield\">Carian Thrusting Shield</a>", "Shadow Keep: From the \"Storehouse, Back Section\" site of grace, go west and you will reach a room where you find a Fire Knight and a few other enemies. The item is right past the Fire Knight and can be found on a corpse under the table.", "Normal"]

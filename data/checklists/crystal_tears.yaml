@@ -199,3 +199,31 @@ sections:
         map_icon: "/map/icons/shadows/keys/crystal_tears/00417.png"
         data: ["Ruptured Crystal Tear [2]", "Reward for defeating the Putrid Avatar north of the Cave of Forlorn Grace", "Deal 800 damage in a 2-meter radius, but take 300 yourself; if using both, deal 1,750 damage in a 4-meter radius, but take 700 yourself"]
         cords: [5670, 2046]
+  -
+    title: "Realm of Shadow"
+    table: ["Name", "Location", "Effect"]
+    items:
+      - id: "20_1"
+        icon: "/img/icons/keys/crystal_tears/05000.png"
+        data: ["Viridian Hidden Tear", "Drops from the Furnace Golem roaming around Ellac River.", "Eliminates all stamina consumption in mixed physick, lasts 15 seconds"]
+      - id: "20_2"
+        icon: "/img/icons/keys/crystal_tears/05001.png"
+        data: ["Crimsonburst Dried Tear", "Drops from the Furnace Golem located around the army campsite, outside of the Shadow Keep.", "Steadily restores 7 HP per second of nearby allies for a time in mixed physick, lasts 180 seconds"]
+      - id: "20_3"
+        icon: "/img/icons/keys/crystal_tears/05002.png"
+        data: ["Crimson-Sapping Cracked Tear", "drops from the Furnace Golem located in the west section of Ancient Ruins of Rauh.", "Grants attacks HP-restoring effect (0.75% of the maximum HP upon each hit) in mixed physick, lasts 45 seconds"]
+      - id: "20_4"
+        icon: "/img/icons/keys/crystal_tears/05003.png"
+        data: ["Cerulean-Sapping Cracked Tear", "Drops from the Furnace Golem located east of the Cathedral of Manus Metyr within the Scadu Atlus region.", "Grants attacks FP-restoring (5 FP upon each hit) effect in mixed physick, lasts 45 seconds"]
+      - id: "20_5"
+        icon: "/img/icons/keys/crystal_tears/05004.png"
+        data: ["Oil-Soaked Tear", "Drops from the Furnace Golem located at the Ruins of Unte.", "Coats nearby enemies with oil in mixed physick, Increases the Fire Dmg dealt to enemies by 20%, lasts 60 seconds"]
+      - id: "20_6"
+        icon: "/img/icons/keys/crystal_tears/05005.png"
+        data: ["Bloodsucking Cracked Tear", "Ruins of Unte: Defeat the Furnace Golem that requires to be lit by throwing a Hefty Furnace Pot on its furnace head. Killing the creature drops this item, along with x1 Furnace Visage.", "Enhances attacks at the cost of HP in mixed physick, increases damage by 20%, drains [MaxHP*0.002+20] per second, lasts 180 seconds"]
+      - id: "20_7"
+        icon: "/img/icons/keys/crystal_tears/05006.png"
+        data: ["Glovewort Crystal Tear", "Drops from the Furnace Golem located around Charo's Hidden Grave.", "Enhances attacks of spirits by 7.5% in mixed physick, lasts 180 seconds"]
+      - id: "20_8"
+        icon: "/img/icons/keys/crystal_tears/05007.png"
+        data: ["Deflecting Hardtear", "Drops from the Furnace Golem located along the main road near the Scorched Ruins.", "Enhances spontaneous guard in mixed physick, lasts 300 seconds"]

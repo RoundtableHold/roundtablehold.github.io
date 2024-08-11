@@ -5,6 +5,7 @@ dropdowns:
     name: "Guides"
     pages:
       - "walkthrough.yaml" #Walkthrough
+      - "dlc.yaml" #DLC Walkthrough
       - "quest_order_tldr.yaml" #TL;DR All NPC Quest Steps in Order
       - "quests.yaml" #NPC Questlines
       - "achievements.yaml" #Achievements
@@ -37,6 +38,7 @@ dropdowns:
       - "bell_bearings.yaml" #Bell Bearings
       - "cookbooks.yaml" #Cookbooks
       - "ancient_dragon_smithing_stones.yaml" #Ancient Dragon Smithing Stones
+      - "scadutree_fragment_revered_spirit_ash.yaml"
   -
     name: "Collectables"
     pages:
