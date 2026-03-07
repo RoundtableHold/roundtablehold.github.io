@@ -1,8 +1,8 @@
-
 (function($) {
     'use strict';
+    window.DONE_HTML = '<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>';
     $(function() {
-        var all_ids = new Set([
+var all_ids = new Set([
 "achievements_1_1",
 "achievements_1_2",
 "achievements_1_3",
@@ -775,6 +775,7 @@
 "ashesofwar_13_8",
 "ashesofwar_13_9",
 "ashesofwar_14_1",
+"ashesofwar_14_2",
 "ashesofwar_1_1",
 "ashesofwar_1_2",
 "ashesofwar_1_3",
@@ -916,6 +917,26 @@
 "bell_bearings_7_7",
 "bell_bearings_7_8",
 "bell_bearings_7_9",
+"bosses_1001",
+"bosses_1002",
+"bosses_1003",
+"bosses_1004",
+"bosses_1005",
+"bosses_1006",
+"bosses_1007",
+"bosses_1008",
+"bosses_1009",
+"bosses_1010",
+"bosses_1011",
+"bosses_1012",
+"bosses_1013",
+"bosses_1014",
+"bosses_1015",
+"bosses_1016",
+"bosses_1017",
+"bosses_1018",
+"bosses_1019",
+"bosses_1020",
 "bosses_10_1",
 "bosses_10_10",
 "bosses_10_11",
@@ -1163,6 +1184,28 @@
 "caves_0_3",
 "caves_0_4",
 "caves_0_5",
+"caves_100_1",
+"caves_100_10",
+"caves_100_11",
+"caves_100_12",
+"caves_100_13",
+"caves_100_14",
+"caves_100_15",
+"caves_100_16",
+"caves_100_17",
+"caves_100_18",
+"caves_100_19",
+"caves_100_2",
+"caves_100_20",
+"caves_100_21",
+"caves_100_22",
+"caves_100_3",
+"caves_100_4",
+"caves_100_5",
+"caves_100_6",
+"caves_100_7",
+"caves_100_8",
+"caves_100_9",
 "caves_1_1",
 "caves_1_10",
 "caves_1_2",
@@ -1892,17 +1935,122 @@
 "graces_1",
 "graces_10",
 "graces_100",
+"graces_1001",
+"graces_1002",
+"graces_1003",
+"graces_1004",
+"graces_1005",
+"graces_1006",
+"graces_1007",
+"graces_1008",
+"graces_1009",
 "graces_101",
+"graces_1010",
+"graces_1011",
+"graces_1012",
+"graces_1013",
+"graces_1014",
+"graces_1015",
+"graces_1016",
+"graces_1017",
+"graces_1018",
+"graces_1019",
 "graces_102",
+"graces_1020",
+"graces_1021",
+"graces_1022",
+"graces_1023",
+"graces_1024",
+"graces_1025",
+"graces_1026",
+"graces_1027",
+"graces_1028",
+"graces_1029",
 "graces_103",
+"graces_1030",
+"graces_1031",
+"graces_1032",
+"graces_1033",
+"graces_1034",
+"graces_1035",
+"graces_1036",
+"graces_1037",
+"graces_1038",
+"graces_1039",
 "graces_104",
+"graces_1040",
+"graces_1041",
+"graces_1042",
+"graces_1043",
+"graces_1044",
+"graces_1045",
+"graces_1046",
+"graces_1047",
+"graces_1048",
+"graces_1049",
 "graces_105",
+"graces_1050",
+"graces_1051",
+"graces_1052",
+"graces_1053",
+"graces_1054",
+"graces_1055",
+"graces_1056",
+"graces_1057",
+"graces_1058",
+"graces_1059",
 "graces_106",
+"graces_1060",
+"graces_1061",
+"graces_1062",
+"graces_1063",
+"graces_1064",
+"graces_1065",
+"graces_1066",
+"graces_1067",
+"graces_1068",
+"graces_1069",
 "graces_107",
+"graces_1070",
+"graces_1071",
+"graces_1072",
+"graces_1073",
+"graces_1074",
+"graces_1075",
+"graces_1076",
+"graces_1077",
+"graces_1078",
+"graces_1079",
 "graces_108",
+"graces_1080",
+"graces_1081",
+"graces_1082",
+"graces_1083",
+"graces_1084",
+"graces_1085",
+"graces_1086",
+"graces_1087",
+"graces_1088",
+"graces_1089",
 "graces_109",
+"graces_1090",
+"graces_1091",
+"graces_1092",
+"graces_1093",
+"graces_1094",
+"graces_1095",
+"graces_1096",
+"graces_1097",
+"graces_1098",
+"graces_1099",
 "graces_11",
 "graces_110",
+"graces_1100",
+"graces_1101",
+"graces_1102",
+"graces_1103",
+"graces_1104",
+"graces_1105",
 "graces_111",
 "graces_112",
 "graces_113",
@@ -4952,11 +5100,11 @@ const achievements_total = 42;
 var achievements_checked = 0;
 const legendaries_total = 32;
 var legendaries_checked = 0;
-const bosses_total = 242;
+const bosses_total = 262;
 var bosses_checked = 0;
-const caves_total = 205;
+const caves_total = 227;
 var caves_checked = 0;
-const graces_total = 314;
+const graces_total = 419;
 var graces_checked = 0;
 const illusory_walls_total = 26;
 var illusory_walls_checked = 0;
@@ -4970,7 +5118,7 @@ const sorceries_total = 84;
 var sorceries_checked = 0;
 const incantations_total = 129;
 var incantations_checked = 0;
-const ashesofwar_total = 117;
+const ashesofwar_total = 118;
 var ashesofwar_checked = 0;
 const spirit_ashes_total = 84;
 var spirit_ashes_checked = 0;
@@ -5120,180 +5268,251 @@ gestures_checked += 1;
 }
 }
 if (playthrough_checked >= playthrough_total){
-$("#playthrough_progress_total").html("DONE");
+$("#playthrough_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#playthrough_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#playthrough_progress_total").html(playthrough_checked + "/" + playthrough_total);
+$("#playthrough_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (dlc_playthrough_checked >= dlc_playthrough_total){
-$("#dlc_playthrough_progress_total").html("DONE");
+$("#dlc_playthrough_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#dlc_playthrough_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#dlc_playthrough_progress_total").html(dlc_playthrough_checked + "/" + dlc_playthrough_total);
+$("#dlc_playthrough_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (quest_order_tldr_checked >= quest_order_tldr_total){
-$("#quest_order_tldr_progress_total").html("DONE");
+$("#quest_order_tldr_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#quest_order_tldr_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#quest_order_tldr_progress_total").html(quest_order_tldr_checked + "/" + quest_order_tldr_total);
+$("#quest_order_tldr_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (npc_quests_checked >= npc_quests_total){
-$("#npc_quests_progress_total").html("DONE");
+$("#npc_quests_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#npc_quests_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#npc_quests_progress_total").html(npc_quests_checked + "/" + npc_quests_total);
+$("#npc_quests_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (achievements_checked >= achievements_total){
-$("#achievements_progress_total").html("DONE");
+$("#achievements_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#achievements_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#achievements_progress_total").html(achievements_checked + "/" + achievements_total);
+$("#achievements_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (legendaries_checked >= legendaries_total){
-$("#legendaries_progress_total").html("DONE");
+$("#legendaries_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#legendaries_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#legendaries_progress_total").html(legendaries_checked + "/" + legendaries_total);
+$("#legendaries_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (bosses_checked >= bosses_total){
-$("#bosses_progress_total").html("DONE");
+$("#bosses_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#bosses_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#bosses_progress_total").html(bosses_checked + "/" + bosses_total);
+$("#bosses_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (caves_checked >= caves_total){
-$("#caves_progress_total").html("DONE");
+$("#caves_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#caves_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#caves_progress_total").html(caves_checked + "/" + caves_total);
+$("#caves_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (graces_checked >= graces_total){
-$("#graces_progress_total").html("DONE");
+$("#graces_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#graces_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#graces_progress_total").html(graces_checked + "/" + graces_total);
+$("#graces_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (illusory_walls_checked >= illusory_walls_total){
-$("#illusory_walls_progress_total").html("DONE");
+$("#illusory_walls_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#illusory_walls_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#illusory_walls_progress_total").html(illusory_walls_checked + "/" + illusory_walls_total);
+$("#illusory_walls_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (weapons_checked >= weapons_total){
-$("#weapons_progress_total").html("DONE");
+$("#weapons_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#weapons_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#weapons_progress_total").html(weapons_checked + "/" + weapons_total);
+$("#weapons_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (armor_checked >= armor_total){
-$("#armor_progress_total").html("DONE");
+$("#armor_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#armor_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#armor_progress_total").html(armor_checked + "/" + armor_total);
+$("#armor_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (talismans_checked >= talismans_total){
-$("#talismans_progress_total").html("DONE");
+$("#talismans_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#talismans_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#talismans_progress_total").html(talismans_checked + "/" + talismans_total);
+$("#talismans_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (sorceries_checked >= sorceries_total){
-$("#sorceries_progress_total").html("DONE");
+$("#sorceries_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#sorceries_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#sorceries_progress_total").html(sorceries_checked + "/" + sorceries_total);
+$("#sorceries_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (incantations_checked >= incantations_total){
-$("#incantations_progress_total").html("DONE");
+$("#incantations_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#incantations_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#incantations_progress_total").html(incantations_checked + "/" + incantations_total);
+$("#incantations_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (ashesofwar_checked >= ashesofwar_total){
-$("#ashesofwar_progress_total").html("DONE");
+$("#ashesofwar_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#ashesofwar_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#ashesofwar_progress_total").html(ashesofwar_checked + "/" + ashesofwar_total);
+$("#ashesofwar_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (spirit_ashes_checked >= spirit_ashes_total){
-$("#spirit_ashes_progress_total").html("DONE");
+$("#spirit_ashes_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#spirit_ashes_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#spirit_ashes_progress_total").html(spirit_ashes_checked + "/" + spirit_ashes_total);
+$("#spirit_ashes_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (flasks_checked >= flasks_total){
-$("#flasks_progress_total").html("DONE");
+$("#flasks_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#flasks_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#flasks_progress_total").html(flasks_checked + "/" + flasks_total);
+$("#flasks_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (crystal_tears_checked >= crystal_tears_total){
-$("#crystal_tears_progress_total").html("DONE");
+$("#crystal_tears_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#crystal_tears_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#crystal_tears_progress_total").html(crystal_tears_checked + "/" + crystal_tears_total);
+$("#crystal_tears_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (memory_stones_talisman_pouches_checked >= memory_stones_talisman_pouches_total){
-$("#memory_stones_talisman_pouches_progress_total").html("DONE");
+$("#memory_stones_talisman_pouches_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#memory_stones_talisman_pouches_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#memory_stones_talisman_pouches_progress_total").html(memory_stones_talisman_pouches_checked + "/" + memory_stones_talisman_pouches_total);
+$("#memory_stones_talisman_pouches_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (scrolls_prayerbooks_checked >= scrolls_prayerbooks_total){
-$("#scrolls_prayerbooks_progress_total").html("DONE");
+$("#scrolls_prayerbooks_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#scrolls_prayerbooks_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#scrolls_prayerbooks_progress_total").html(scrolls_prayerbooks_checked + "/" + scrolls_prayerbooks_total);
+$("#scrolls_prayerbooks_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (whetstones_checked >= whetstones_total){
-$("#whetstones_progress_total").html("DONE");
+$("#whetstones_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#whetstones_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#whetstones_progress_total").html(whetstones_checked + "/" + whetstones_total);
+$("#whetstones_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (bell_bearings_checked >= bell_bearings_total){
-$("#bell_bearings_progress_total").html("DONE");
+$("#bell_bearings_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#bell_bearings_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#bell_bearings_progress_total").html(bell_bearings_checked + "/" + bell_bearings_total);
+$("#bell_bearings_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (cookbooks_checked >= cookbooks_total){
-$("#cookbooks_progress_total").html("DONE");
+$("#cookbooks_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#cookbooks_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#cookbooks_progress_total").html(cookbooks_checked + "/" + cookbooks_total);
+$("#cookbooks_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (ancient_dragon_smithing_stones_checked >= ancient_dragon_smithing_stones_total){
-$("#ancient_dragon_smithing_stones_progress_total").html("DONE");
+$("#ancient_dragon_smithing_stones_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#ancient_dragon_smithing_stones_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#ancient_dragon_smithing_stones_progress_total").html(ancient_dragon_smithing_stones_checked + "/" + ancient_dragon_smithing_stones_total);
+$("#ancient_dragon_smithing_stones_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (scadutree_fragment_revered_spirit_ash_checked >= scadutree_fragment_revered_spirit_ash_total){
-$("#scadutree_fragment_revered_spirit_ash_progress_total").html("DONE");
+$("#scadutree_fragment_revered_spirit_ash_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#scadutree_fragment_revered_spirit_ash_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#scadutree_fragment_revered_spirit_ash_progress_total").html(scadutree_fragment_revered_spirit_ash_checked + "/" + scadutree_fragment_revered_spirit_ash_total);
+$("#scadutree_fragment_revered_spirit_ash_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (remembrances_mausoleums_checked >= remembrances_mausoleums_total){
-$("#remembrances_mausoleums_progress_total").html("DONE");
+$("#remembrances_mausoleums_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#remembrances_mausoleums_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#remembrances_mausoleums_progress_total").html(remembrances_mausoleums_checked + "/" + remembrances_mausoleums_total);
+$("#remembrances_mausoleums_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (great_runes_checked >= great_runes_total){
-$("#great_runes_progress_total").html("DONE");
+$("#great_runes_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#great_runes_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#great_runes_progress_total").html(great_runes_checked + "/" + great_runes_total);
+$("#great_runes_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (stonesword_checked >= stonesword_total){
-$("#stonesword_progress_total").html("DONE");
+$("#stonesword_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#stonesword_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#stonesword_progress_total").html(stonesword_checked + "/" + stonesword_total);
+$("#stonesword_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (dragon_hearts_death_roots_checked >= dragon_hearts_death_roots_total){
-$("#dragon_hearts_death_roots_progress_total").html("DONE");
+$("#dragon_hearts_death_roots_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#dragon_hearts_death_roots_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#dragon_hearts_death_roots_progress_total").html(dragon_hearts_death_roots_checked + "/" + dragon_hearts_death_roots_total);
+$("#dragon_hearts_death_roots_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (tears_dews_checked >= tears_dews_total){
-$("#tears_dews_progress_total").html("DONE");
+$("#tears_dews_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#tears_dews_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#tears_dews_progress_total").html(tears_dews_checked + "/" + tears_dews_total);
+$("#tears_dews_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (paintings_checked >= paintings_total){
-$("#paintings_progress_total").html("DONE");
+$("#paintings_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#paintings_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#paintings_progress_total").html(paintings_checked + "/" + paintings_total);
+$("#paintings_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (pots_bottles_checked >= pots_bottles_total){
-$("#pots_bottles_progress_total").html("DONE");
+$("#pots_bottles_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#pots_bottles_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#pots_bottles_progress_total").html(pots_bottles_checked + "/" + pots_bottles_total);
+$("#pots_bottles_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (tools_checked >= tools_total){
-$("#tools_progress_total").html("DONE");
+$("#tools_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#tools_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#tools_progress_total").html(tools_checked + "/" + tools_total);
+$("#tools_progress_total").removeClass("bg-success").addClass("bg-info");
 }
 if (gestures_checked >= gestures_total){
-$("#gestures_progress_total").html("DONE");
+$("#gestures_progress_total").html('<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>');
+$("#gestures_progress_total").removeClass("bg-info").addClass("bg-success");
 } else {
 $("#gestures_progress_total").html(gestures_checked + "/" + gestures_total);
+$("#gestures_progress_total").removeClass("bg-success").addClass("bg-info");
 }
+if (window.applyLanguageCss) { window.applyLanguageCss(window.currentLanguage); }
 }
 calculateProgress();
   });

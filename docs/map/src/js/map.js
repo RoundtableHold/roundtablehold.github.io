@@ -1,6 +1,6 @@
 (function ($) {
     'use strict';
-        
+
     if (window.innerWidth < 992) {
         $('#layer-menu').removeClass('show');
     }
@@ -224,7 +224,7 @@
         }
 
         initializeSettings();
-        
+
         const updateSavedPosition = function () {
             profiles = $.jStorage.get(profilesKey, {});
             const center = map.getView().getCenter();
@@ -292,7 +292,7 @@
         }
 
         map.once('rendercomplete', gototarget);
-        
+
         map.on('moveend', updateSavedPosition);
 
 
@@ -330,7 +330,7 @@
         //     }
         // })
 
-        function popup_feature(feature, offset = [0,0]) {
+        function popup_feature(feature, offset = [0, 0]) {
             profiles = $.jStorage.get(profilesKey, {});
             var id = feature.get('id');
             selectedId = id;
@@ -408,7 +408,7 @@
             calculateProgress();
         });
 
-        $('#hideCompleted').click(function() {
+        $('#hideCompleted').click(function () {
             profiles = $.jStorage.get(profilesKey, {});
             var isChecked = !!$(this).prop('checked');
             hideChecked = isChecked;
@@ -449,16 +449,16 @@
             }
         });
 
-        $('#show-all').click(function() {
-            $('.category-filter').each(function(i, el) {
+        $('#show-all').click(function () {
+            $('.category-filter').each(function (i, el) {
                 var id = $(el).attr('id');
                 $(el).prop('checked', false);
                 showLayer(id);
             });
         });
 
-        $('#hide-all').click(function() {
-            $('.category-filter').each(function(i, el) {
+        $('#hide-all').click(function () {
+            $('.category-filter').each(function (i, el) {
                 var id = $(el).attr('id');
                 $(el).prop('checked', true);
                 hideLayer(id);
@@ -478,11 +478,12 @@
                     }
                 }
                 if (num_checked === total) {
-                    tracker.html('DONE')
+                    tracker.html(window.DONE_HTML || 'DONE')
                 } else {
                     tracker.html(num_checked + '/' + total);
                 }
             }
+            if (window.applyLanguageCss) { window.applyLanguageCss(window.currentLanguage); }
         }
 
         calculateProgress();

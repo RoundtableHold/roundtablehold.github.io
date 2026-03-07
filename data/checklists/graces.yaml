@@ -1,1057 +1,3261 @@
-title: "Sites of Grace"
+title: Sites of Grace
 id: graces
-map_icon: '/map/icons/MENU_MAP_01_Bonfire.png'
+map_icon: /map/icons/MENU_MAP_01_Bonfire.png
 map_icon_size: 45
 sections:
-  -
-    title: Roundtable Hold
-    items:
-      - id: "313"
-        data: ["Table of Lost Grace"]
-        cords: [584, 8454]
-        map_icon: '/map/icons/MENU_MAP_48.png'
-        map_icon_size: 60
-  -
-    title: Limgrave
-    items:
-      - id: "0"
-        data: ["The First Step"]
-        cords: [3701, 7341]
-      - id: "1"
-        data: ["Church of Elleh"]
-        cords: [3673, 7223]
-      - id: "2"
-        data: ["Gatefront"]
-        cords: [3727, 6933]
-      - id: "3"
-        data: ["Waypoint Ruins Cellar"]
-        cords: [4239, 7258]
-      - id: "4"
-        data: ["Artist's Shack"]
-        cords: [4213, 6803]
-      - id: "5"
-        data: ["Third Church of Marika"]
-        cords: [4635, 6711]
-      - id: "6"
-        data: ["Fort Haight West"]
-        cords: [4595, 7341]
-      - id: "7"
-        data: ["Agheel Lake South"]
-        cords: [4188, 7505]
-      - id: "8"
-        data: ["Agheel Lake North"]
-        cords: [3885, 6983]
-      - id: "9"
-        data: ["Church of Dragon Communion"]
-        cords: [3403, 7573]
-      - id: "10"
-        data: ["Seaside Ruins"]
-        cords: [3951, 7503]
-      - id: "11"
-        data: ["Mistwood Outskirts"]
-        cords: [4346, 6933]
-      - id: "12"
-        data: ["Murkwater Coast"]
-        cords: [4079, 6822]
-      - id: "13"
-        data: ["Summonwater Village Outskirts"]
-        cords: [4348, 6567]
-      - id: "14"
-        data: ["Stormfoot Catacombs"]
-        cords: [3498, 7046]
-      - id: "15"
-        data: ["Murkwater Catacombs"]
-        cords: [4054, 6716]
-      - id: "16"
-        data: ["Groveside Cave"]
-        cords: [3652, 7053]
-      - id: "17"
-        data: ["Coastal Cave"]
-        cords: [3504, 7336]
-      - id: "18"
-        data: ["Murkwater Cave"]
-        cords: [4042, 6975]
-      - id: "19"
-        data: ["Highroad Cave"]
-        cords: [4028, 6429]
-      - id: "20"
-        data: ["Limgrave Tunnels"]
-        cords: [3846, 7073]
-  -
-    title: Stranded Graveyard
-    items:
-      - id: "21"
-        data: ["Cave of Knowledge"]
-        cords: [3744, 7384]
-      - id: "22"
-        data: ["Stranded Graveyard"]
-        cords: [3771, 7356]
-  -
-    title: Stormhill
-    items:
-      - id: "23"
-        data: ["Stormhill Shack"]
-        cords: [3472, 6764]
-      - id: "24"
-        data: ["Castleward Tunnel"]
-        cords: [3367, 6805]
-      - id: "25"
-        data: ["Margit, the Fell Omen"]
-        cords: [3302, 6827]
-      - id: "26"
-        data: ["Warmaster's Shack"]
-        cords: [3719, 6684]
-      - id: "27"
-        data: ["Saintsbridge"]
-        cords: [3989, 6525]
-      - id: "28"
-        data: ["Deathtouched Catacombs"]
-        cords: [3883, 6497]
-      - id: "29"
-        data: ["Limgrave Tower Bridge"]
-        cords: [3268, 6678]
-      - id: "30"
-        data: ["Divine Tower of Limgrave"]
-        cords: [4263, 6205]
-  -
-    title: Weeping Peninsula
-    items:
-      - id: "31"
-        data: ["Church of Pilgrimage"]
-        cords: [3858, 7699]
-      - id: "32"
-        data: ["Castle Morne Rampart"]
-        cords: [4306, 8158]
-      - id: "33"
-        data: ["Tombsward"]
-        cords: [3788, 8099]
-      - id: "34"
-        data: ["South of the Lookout Tower"]
-        cords: [4209, 7976]
-      - id: "35"
-        data: ["Ailing Village Outskirts"]
-        cords: [4155, 7991]
-      - id: "36"
-        data: ["Beside The Crater-Pocked Glade"]
-        cords: [4412, 8002]
-      - id: "37"
-        data: ["Isolated Merchant's Shack"]
-        cords: [3459, 8208]
-      - id: "38"
-        data: ["Fourth Church of Marika"]
-        cords: [3507, 8001]
-      - id: "39"
-        data: ["Bridge of Sacrifice"]
-        cords: [4331, 7806]
-      - id: "40"
-        data: ["Castle Morne Lift"]
-        cords: [4071, 8580]
-      - id: "41"
-        data: ["Behind The Castle"]
-        cords: [4007, 8692]
-      - id: "42"
-        data: ["Beside the Rampart Gaol"]
-        cords: [3985, 8720]
-      - id: "43"
-        data: ["Morne Moangrave"]
-        cords: [3935, 8846]
-      - id: "44"
-        data: ["Impaler's Catacombs"]
-        cords: [4455, 7853]
-      - id: "45"
-        data: ["Tombsward Catacombs"]
-        cords: [3871, 7957]
-      - id: "46"
-        data: ["Earthbore Cave"]
-        cords: [4122, 7849]
-      - id: "47"
-        data: ["Tombsward Cave"]
-        cords: [3596, 8030]
-      - id: "48"
-        data: ["Morne Tunnel"]
-        cords: [4004, 8133]
-  -
-    title: Stormveil Castle
-    items:
-      - id: "49"
-        data: ["Stormveil Main Gate"]
-        cords: [3235,6791]
-      - id: "50"
-        data: ["Gateside Chamber"]
-        cords: [3209,6797]
-      - id: "51"
-        data: ["Stormveil Cliffside"]
-        cords: [3130,6827]
-      - id: "52"
-        data: ["Rampart Tower"]
-        cords: [3070,6697]
-      - id: "53"
-        data: ["Liftside Chamber"]
-        cords: [3056,6569]
-      - id: "54"
-        data: ["Secluded Cell"]
-        cords: [3141,6496]
-      - id: "55"
-        data: ["Godrick the Grafted"]
-        cords: [3099,6464]
-  -
-    title: Liurnia of the Lakes
-    items:
-      - id: "56"
-        data: ["Lake-Facing Cliffs"]
-        cords: [2959, 6344]
-      - id: "57"
-        data: ["Liurnia Lake Shore"]
-        cords: [2730, 6158]
-      - id: "58"
-        data: ["Laskyar Ruins"]
-        cords: [2609, 5940]
-      - id: "59"
-        data: ["Scenic Isle"]
-        cords: [2332, 5734]
-      - id: "60"
-        data: ["Academy Gate Town"]
-        cords: [2401, 5349]
-      - id: "61"
-        data: ["South Raya Lucaria Gate"]
-        cords: [2025, 5056]
-      - id: "62"
-        data: ["Main Academy Gate"]
-        cords: [1826, 4767]
-      - id: "63"
-        data: ["Liurnia Highway South"]
-        cords: [2982, 6141]
-      - id: "64"
-        data: ["Liurnia Highway North"]
-        cords: [2938, 5800]
-      - id: "65"
-        data: ["Gate Town Bridge"]
-        cords: [2740, 5480]
-      - id: "66"
-        data: ["Artist's Shack"]
-        cords: [2784, 5106]
-      - id: "67"
-        data: ["Eastern Liurnia Lake Shore"]
-        cords: [2655, 5013]
-      - id: "68"
-        data: ["Jarburg"]
-        cords: [2992, 5306]
-      - id: "69"
-        data: ["Ranni's Chamber"]
-        cords: [1607, 3687]
-      - id: "70"
-        data: ["Eastern Tableland"]
-        cords: [2742, 4788]
-      - id: "71"
-        data: ["Church of Vows"]
-        cords: [2422, 4709]
-      - id: "72"
-        data: ["Ruined Labyrinth"]
-        cords: [2586, 4487]
-      - id: "73"
-        data: ["Mausoleum Compound"]
-        cords: [2481, 4345]
-      - id: "74"
-        data: ["Slumbering Wolf's Shack"]
-        cords: [2315, 6076]
-      - id: "75"
-        data: ["Boilprawn Shack"]
-        cords: [2256, 5562]
-      - id: "76"
-        data: ["Fallen Ruins of the Lake"]
-        cords: [2057, 5367]
-      - id: "77"
-        data: ["Folly on the Lake"]
-        cords: [1947, 5619]
-      - id: "78"
-        data: ["Village of the Albinaurics"]
-        cords: [1711, 5861]
-      - id: "79"
-        data: ["Converted Tower"]
-        cords: [1572, 5603]
-      - id: "80"
-        data: ["Revenger's Shack"]
-        cords: [1427, 5227]
-      - id: "81"
-        data: ["Temple Quarter"]
-        cords: [1620, 5124]
-      - id: "82"
-        data: ["Crystalline Woods"]
-        cords: [1668, 4805]
-      - id: "83"
-        data: ["Foot of the Four Belfries"]
-        cords: [1347, 4800]
-      - id: "84"
-        data: ["The Four Belfries"]
-        cords: [1469, 4582]
-      - id: "85"
-        data: ["Sorcerer's Isle"]
-        cords: [1743, 4434]
-      - id: "86"
-        data: ["East Gate Bridge Trestle"]
-        cords: [1952, 4578]
-      - id: "87"
-        data: ["Gate Town North"]
-        cords: [2114, 4882]
-      - id: "88"
-        data: ["Northern Liurnia Lake Shore"]
-        cords: [1610, 4211]
-      - id: "89"
-        data: ["Road to the Manor"]
-        cords: [1718, 4037]
-      - id: "90"
-        data: ["Main Caria Manor Gate"]
-        cords: [1902, 3845]
-      - id: "91"
-        data: ["Manor Upper Level"]
-        cords: [2023, 3757]
-      - id: "92"
-        data: ["Manor Lower Level"]
-        cords: [1843, 3749]
-      - id: "93"
-        data: ["Royal Moongazing Grounds"]
-        cords: [1889, 3612]
-      - id: "94"
-        data: ["Ranni's Rise"]
-        cords: [1576, 3700]
-      - id: "95"
-        data: ["Behind Caria Manor"]
-        cords: [2090, 3636]
-      - id: "96"
-        data: ["The Ravine"]
-        cords: [2114, 3979]
-      - id: "97"
-        data: ["Ravine-Veiled Village"]
-        cords: [2562, 3617]
-      - id: "98"
-        data: ["Cliffbottom Catacombs"]
-        cords: [3021, 5945]
-      - id: "99"
-        data: ["Road's End Catacombs"]
-        cords: [1397, 5526]
-      - id: "100"
-        data: ["Black Knife Catacombs"]
-        cords: [2872, 4108]
-      - id: "101"
-        data: ["Stillwater Cave"]
-        cords: [2955, 6310]
-      - id: "102"
-        data: ["Lakeside Crystal Cave"]
-        cords: [2318, 6018]
-      - id: "103"
-        data: ["Academy Crystal Cave"]
-        cords: [1738, 4870]
-      - id: "104"
-        data: ["Raya Lucaria Crystal Tunnel"]
-        cords: [2319, 4464]
-      - id: "105"
-        data: ["Study Hall Entrance"]
-        cords: [2904, 5140]
-      - id: "106"
-        data: ["Liurnia Tower Bridge"]
-        cords: [2973, 5195]
-      - id: "107"
-        data: ["Divine Tower of Liurnia"]
-        cords: [3373, 5130]
-  -
-    title: Bellum Highway
-    items:
-      - id: "108"
-        data: ["East Raya Lucaria Gate"]
-        cords: [2088, 4323]
-      - id: "109"
-        data: ["Bellum Church"]
-        cords: [2185, 4061]
-      - id: "110"
-        data: ["Grand Lift of Dectus"]
-        cords: [2671, 3774]
-      - id: "111"
-        data: ["Frenzied Flame Village Outskirts"]
-        cords: [2740, 4154]
-      - id: "112"
-        data: ["Church of Inhibition"]
-        cords: [2507, 3999]
-  -
-    title: Ruin-Strewn Precipice
-    items:
-      - id: "113"
-        data: ["Ruin-Strewn Precipice"]
-        cords: [2571, 3606]
-      - id: "114"
-        data: ["Ruin-Strewn Precipice Overlook"]
-        cords: [2468, 3640]
-      - id: "115"
-        data: ["Magma Wyrm Makar"]
-        cords: [2358, 3594]
-  -
-    title: Moonlight Altar
-    items:
-      - id: "116"
-        data: ["Moonlight Altar"]
-        cords: [1673, 5933]
-      - id: "117"
-        data: ["Cathedral of Manus Celes"]
-        cords: [1905, 5783]
-      - id: "118"
-        data: ["Altar South"]
-        cords: [1437, 6222]
-  -
-    title: Academy of Raya Lucaria
-    items:
-      - id: "119"
-        data: ["Church of the Cuckoo"]
-        cords: [1795, 4894]
-      - id: "120"
-        data: ["Schoolhouse Classroom"]
-        cords: [1943, 4983]
-      - id: "121"
-        data: ["Debate Parlor"]
-        cords: [1963, 5019]
-      - id: "122"
-        data: ["Raya Lucaria Grand Library"]
-        cords: [1840, 4819]
-  -
-    title: Altus Plateau
-    items:
-      - id: "123"
-        data: ["Abandoned Coffin"]
-        cords: [2385, 3516]
-      - id: "124"
-        data: ["Erdtree-Gazing Hill"]
-        cords: [2666, 3407]
-      - id: "125"
-        data: ["Altus Plateau"]
-        cords: [2744, 3631]
-      - id: "126"
-        data: ["Altus Highway Junction"]
-        cords: [3037, 3452]
-      - id: "127"
-        data: ["Forest-Spanning Greatbridge"]
-        cords: [3310, 3063]
-      - id: "128"
-        data: ["Bower of Bounty"]
-        cords: [3211, 3025]
-      - id: "129"
-        data: ["Windmill Village"]
-        cords: [3534, 2631]
-      - id: "130"
-        data: ["Windmill Heights"]
-        cords: [3673, 2469]
-      - id: "131"
-        data: ["Road of Iniquity Side Path"]
-        cords: [3268, 2575]
-      - id: "132"
-        data: ["Rampartside Path"]
-        cords: [3545, 3180]
-      - id: "133"
-        data: ["Shaded Castle Ramparts"]
-        cords: [2966, 2736]
-      - id: "134"
-        data: ["Shaded Castle Inner Gate"]
-        cords: [2893, 2639]
-      - id: "135"
-        data: ["Castellan's Hall"]
-        cords: [2897, 2632]
-      - id: "136"
-        data: ["Unsightly Catacombs"]
-        cords: [2136, 3351]
-      - id: "137"
-        data: ["Sainted Hero's Grave"]
-        cords: [3246, 3192]
-      - id: "138"
-        data: ["Sage's Cave"]
-        cords: [2534, 3256]
-      - id: "139"
-        data: ["Perfumer's Grotto"]
-        cords: [3506, 3433]
-      - id: "140"
-        data: ["Old Altus Tunnel"]
-        cords: [2776, 3060]
-      - id: "141"
-        data: ["Altus Tunnel"]
-        cords: [3403, 3156]
-  -
-    title: Mt. Gelmir
-    items:
-      - id: "142"
-        data: ["Bridge of Iniquity"]
-        cords: [2844, 2906]
-      - id: "143"
-        data: ["First Mt. Gelmir Campsite"]
-        cords: [2715, 2811]
-      - id: "144"
-        data: ["Ninth Mt. Gelmir Campsite"]
-        cords: [2293, 2664]
-      - id: "145"
-        data: ["Road of Iniquity"]
-        cords: [2157, 2777]
-      - id: "146"
-        data: ["Seethewater River"]
-        cords: [2496, 3147]
-      - id: "147"
-        data: ["Seethewater Terminus"]
-        cords: [2045, 2864]
-      - id: "148"
-        data: ["Craftsman's Shack"]
-        cords: [2279, 3226]
-      - id: "149"
-        data: ["Primeval Sorcerer Azur"]
-        cords: [2437, 2997]
-      - id: "150"
-        data: ["Wyndham Catacombs"]
-        cords: [2561, 3077]
-      - id: "151"
-        data: ["Gelmir Hero's Grave"]
-        cords: [2537, 2928]
-      - id: "152"
-        data: ["Seethewater Cave"]
-        cords: [2421, 2803]
-      - id: "153"
-        data: ["Volcano Cave"]
-        cords: [2364, 2492]
-  -
-    title: Capital Outskirts
-    items:
-      - id: "154"
-        data: ["Outer Wall Phantom Tree"]
-        cords: [3661, 3502]
-      - id: "155"
-        data: ["Minor Erdtree Church"]
-        cords: [3851, 3767]
-      - id: "156"
-        data: ["Outer Wall Battleground"]
-        cords: [3914, 3021]
-      - id: "157"
-        data: ["Hermit Merchant's Shack"]
-        cords: [3966, 2934]
-      - id: "158"
-        data: ["Capital Rampart"]
-        cords: [4443, 3255]
-      - id: "159"
-        data: ["Auriza Side Tomb"]
-        cords: [4583, 3174]
-      - id: "160"
-        data: ["Auriza Hero's Grave"]
-        cords: [4542, 3317]
-      - id: "161"
-        data: ["Sealed Tunnel"]
-        cords: [3901, 3675]
-      - id: "162"
-        data: ["Divine Tower of West Altus: Gate"]
-        cords: [3925, 3951]
-      - id: "163"
-        data: ["Divine Tower of West Altus"]
-        cords: [3921, 4062]
-  -
-    title: Volcano Manor
-    items:
-      - id: "164"
-        data: ["Volcano Manor"]
-        cords: [2229, 2895]
-      - id: "165"
-        data: ["Prison Town Church"]
-        cords: [2127, 2948]
-      - id: "166"
-        data: ["Temple of Eiglay"]
-        cords: [2242, 3043]
-      - id: "167"
-        data: ["Guest Hall"]
-        cords: [2056, 3046]
-      - id: "168"
-        data: ["Audience Pathway"]
-        cords: [2285, 2845]
-      - id: "169"
-        data: ["Abductor Virgin"]
-        cords: [2461, 3093]
-      - id: "170"
-        data: ["Subterranean Inquisition Chamber"]
-        cords: [2351, 2984]
-      - id: "171"
-        data: ["Rykard, Lord of Blasphemy"]
-        cords: [2282, 2949]
-  -
-    title: Leyndell, Royal Capital
-    items:
-      - id: "172"
-        data: ["Erdtree Sanctuary"]
-        cords: [4365, 3708]
-      - id: "173"
-        data: ["East Capital Rampart"]
-        cords: [4465, 3400]
-      - id: "174"
-        data: ["Lower Capital Church"]
-        cords: [4281, 3543]
-      - id: "175"
-        data: ["Avenue Balcony"]
-        cords: [4316, 3506]
-      - id: "176"
-        data: ["West Capital Rampart"]
-        cords: [4279, 3581]
-      - id: "177"
-        data: ["Queen's Bedchamber"]
-        cords: [4441, 3629]
-      - id: "178"
-        data: ["Fortified Manor, First Floor"]
-        cords: [4178, 3591]
-      - id: "179"
-        data: ["Divine Bridge"]
-        cords: [4070, 3616]
-      - id: "180"
-        data: ["Elden Throne"]
-        cords: [4534, 3737]
-  -
-    title: Subterranean Shunning-Grounds
-    items:
-      - id: "181"
-        data: ["Underground Roadside"]
-        cords: [4350, 3486]
-      - id: "182"
-        data: ["Forsaken Depths"]
-        cords: [4448, 3471]
-      - id: "183"
-        data: ["Leyndell Catacombs"]
-        cords: [4357, 3564]
-      - id: "184"
-        data: ["Frenzied Flame Proscription"]
-        cords: [4622, 3385]
-      - id: "185"
-        data: ["Cathedral of the Forsaken"]
-        cords: [4570, 3402]
-  -
-    title: Leyndell, Ashen Capital 
-    items:
-      - id: "186"
-        data: ["East Capital Rampart"]
-        cords: [4465, 3400]
-      - id: "187"
-        data: ["Leyndell, Capital of Ash"]
-        cords: [4365, 3450]
-      - id: "188"
-        data: ["Erdtree Sanctuary"]
-        cords: [4365, 3708]
-      - id: "189"
-        data: ["Queen's Bedchamber"]
-        cords: [4441, 3629]
-      - id: "190"
-        data: ["Divine Bridge"]
-        cords: [4070, 3616]
-      - id: "191"
-        data: ["Elden Throne"]
-        cords: [4534, 3737]
-  -
-    title: Stone Platform #TODO
-    items:
-      - id: "192"
-        data: ["Fractured Marika"]
-        cords: [4677, 3928]
-  -
-    title: Caelid
-    items:
-      - id: "193"
-        data: ["Smoldering Church"]
-        cords: [4658, 6243]
-      - id: "194"
-        data: ["Rotview Balcony"]
-        cords: [4842, 6339]
-      - id: "195"
-        data: ["Caelem Ruins"]
-        cords: [5094, 6292]
-      - id: "196"
-        data: ["Fort Gael North"]
-        cords: [4859, 6610]
-      - id: "197"
-        data: ["Smoldering Wall"]
-        cords: [5159, 6524]
-      - id: "198"
-        data: ["Caelid Highway South"]
-        cords: [5126, 6997]
-      - id: "199"
-        data: ["Cathedral of Dragon Communion"]
-        cords: [5286, 7194]
-      - id: "200"
-        data: ["Southern Aeonia Swamp Bank"]
-        cords: [5507, 6975]
-      - id: "201"
-        data: ["Sellia Backstreets"]
-        cords: [5631, 6471]
-      - id: "202"
-        data: ["Sellia Under-Stair"]
-        cords: [5600, 6559]
-      - id: "203"
-        data: ["Chair-Crypt of Sellia"]
-        cords: [5601, 6452]
-      - id: "204"
-        data: ["Church of the Plague"]
-        cords: [5771, 6646]
-      - id: "205"
-        data: ["Deep Siofra Well"]
-        cords: [5356, 6271]
-      - id: "206"
-        data: ["Impassable Greatbridge"]
-        cords: [5693, 7378]
-      - id: "207"
-        data: ["Chamber Outside the Plaza"]
-        cords: [6110, 7341]
-      - id: "208"
-        data: ["Redmane Castle Plaza"]
-        cords: [6096, 7276]
-      - id: "209"
-        data: ["Starscourge Radahn"]
-        cords: [6226, 6824]
-      - id: "210"
-        data: ["Minor Erdtree Catacombs"]
-        cords: [4932, 6205]
-      - id: "211"
-        data: ["Caelid Catacombs"]
-        cords: [5338, 7225]
-      - id: "212"
-        data: ["War-Dead Catacombs"]
-        cords: [6310, 6148]
-      - id: "213"
-        data: ["Abandoned Cave"]
-        cords: [5388, 6480]
-      - id: "214"
-        data: ["Gaol Cave"]
-        cords: [4926, 6747]
-      - id: "215"
-        data: ["Gael Tunnel"]
-        cords: [4794, 6490]
-      - id: "216"
-        data: ["Rear Gael Tunnel Entrance"]
-        cords: [4700, 6415]
-      - id: "217"
-        data: ["Sellia Crystal Tunnel"]
-        cords: [5520, 6416]
-  -
-    title: Swamp of Aeonia
-    items:
-      - id: "218"
-        data: ["Aeonia Swamp Shore"]
-        cords: [5245, 6816]
-      - id: "219"
-        data: ["Astray from Caelid Highway North"]
-        cords: [5140, 6764]
-      - id: "220"
-        data: ["Heart of Aeonia"]
-        cords: [5481, 6734]
-      - id: "221"
-        data: ["Inner Aeonia"]
-        cords: [5443, 6666]
-  -
-    title: Greyoll's Dragonbarrow
-    items:
-      - id: "222"
-        data: ["Dragonbarrow West"]
-        cords: [5356, 6205]
-      - id: "223"
-        data: ["Isolated Merchant's Shack"]
-        cords: [5159, 6105]
-      - id: "224"
-        data: ["Fort Faroth"]
-        cords: [5938, 6406]
-      - id: "225"
-        data: ["Dragonbarrow Fork"]
-        cords: [5838, 6152]
-      - id: "226"
-        data: ["Lenne's Rise"]
-        cords: [6291, 6006]
-      - id: "227"
-        data: ["Farum Greatbridge"]
-        cords: [6166, 5732]
-      - id: "228"
-        data: ["Bestial Sanctum"]
-        cords: [5968, 5488]
-      - id: "229"
-        data: ["Sellia Hideaway"]
-        cords: [5886, 6463]
-      - id: "230"
-        data: ["Dragonbarrow Cave"]
-        cords: [6017, 6187]
-      - id: "231"
-        data: ["Divine Tower of Caelid: Center"]
-        cords: [5580, 6025]
-      - id: "232"
-        data: ["Divine Tower of Caelid: Basement"]
-        cords: [5592, 6040]
-      - id: "233"
-        data: ["Isolated Divine Tower"]
-        cords: [5999, 4845]
-  -
-    title: Forbidden Lands
-    items:
-      - id: "234"
-        data: ["Forbidden Lands"]       
-        cords: [4989, 3485]
-      - id: "235"
-        data: ["Grand Lift of Rold"]       
-        cords: [5493, 3042]
-      - id: "236"
-        data: ["Hidden Path to the Haligtree"]        
-        cords: [5401, 2805]
-      - id: "237"
-        data: ["Divine Tower of East Altus: Gate"]       
-        cords: [5105, 3810]
-      - id: "238"
-        data: ["Divine Tower of East Altus"]       
-        cords: [5121, 3866]
-  -
-    title: Mountaintops of the Giants
-    items:
-      - id: "239"
-        data: ["Zamor Ruins"]        
-        cords: [5583, 2844]
-      - id: "240"
-        data: ["Ancient Snow Valley Ruins"]        
-        cords: [6010, 2220]
-      - id: "241"
-        data: ["Freezing Lake"]        
-        cords: [6348, 1841]
-      - id: "242"
-        data: ["First Church of Marika"]       
-        cords: [6754, 2370]
-      - id: "243"
-        data: ["Whiteridge Road"]        
-        cords: [6311, 2302]
-      - id: "244"
-        data: ["Snow Valley Ruins Overlook"]       
-        cords: [6136, 1961]
-      - id: "245"
-        data: ["Castle Sol Main Gate"]        
-        cords: [6004, 1854]
-      - id: "246"
-        data: ["Church of the Eclipse"]       
-        cords: [6087, 1806]
-      - id: "247"
-        data: ["Castle Sol Rooftop"]        
-        cords: [6100, 1725]
-      - id: "248"
-        data: ["Spiritcaller Cave"]        
-        cords: [6500, 2067]
-  -
-    title: Flame Peak
-    items:
-      - id: "249"
-        data: ["Giants' Gravepost"]        
-        cords: [6215, 2620]
-      - id: "250"
-        data: ["Church of Repose"]        
-        cords: [5955, 3013]
-      - id: "251"
-        data: ["Foot of the Forge"]        
-        cords: [6189, 2994]
-      - id: "252"
-        data: ["Fire Giant"]       
-        cords: [6445, 3177]
-      - id: "253"
-        data: ["Forge of the Giants"]       
-        cords: [6759, 2957]
-      - id: "254"
-        data: ["Giants' Mountaintop Catacombs"]       
-        cords: [5787, 2830]
-      - id: "255"
-        data: ["Giant-Conquering Hero's Grave"]        
-        cords: [5646, 2823]
-  -
-    title: Consecrated Snowfield 
-    items:
-      - id: "256"
-        data: ["Consecrated Snowfield"]
-        cords: [5405, 2691]
-      - id: "257"
-        data: ["Inner Consecrated Snowfield"]
-        cords: [5401, 2332]
-      - id: "258"
-        data: ["Ordina, Liturgical Town"]
-        cords: [5271, 1956]
-      - id: "259"
-        data: ["Apostate Derelict"]
-        cords: [5044, 1695]
-      - id: "260"
-        data: ["Consecrated Snowfield Catacombs"]
-        cords: [5684, 2514]
-      - id: "261"
-        data: ["Cave of the Forlorn"]
-        cords: [5696, 2132]
-      - id: "262"
-        data: ["Yelough Anix Tunnel"]
-        cords: [5041, 2497]
-  -
-    title: Miquella's Haligtree
-    items:
-      - id: "263"
-        data: ["Haligtree Canopy"]        
-        cords: [5610, 1330]
-      - id: "264"
-        data: ["Haligtree Town"]        
-        cords: [5673, 1139]
-      - id: "265"
-        data: ["Haligtree Town Plaza"]       
-        cords: [5615, 1075]
-      - id: "266"
-        data: ["Haligtree Promenade"]        
-        cords: [5786, 1071]
-  -
-    title: Elphael, Brace of the Haligtree
-    items:
-      - id: "267"
-        data: ["Prayer Room"]       
-        cords: [5690, 936]
-      - id: "268"
-        data: ["Elphael Inner Wall"]        
-        cords: [5584, 778]
-      - id: "269"
-        data: ["Drainage Channel"]        
-        cords: [5735, 881]
-      - id: "270"
-        data: ["Haligtree Roots"]        
-        cords: [5701, 818]
-      - id: "271"
-        data: ["Malenia, Goddess of Rot"]        
-        cords: [5590, 889]
-  -
-    title: Ainsel River
-    items:
-      - id: "272"
-        data: ["Ainsel River Well Depths"]
-        cords: [3974, 12225]
-      - id: "273"
-        data: ["Ainsel River Sluice Gate"]
-        cords: [3783, 12324]
-      - id: "274"
-        data: ["Ainsel River Downstream"]
-        cords: [3556, 12229]
-      - id: "275"
-        data: ["Dragonkin Soldier of Nokstella"]
-        cords: [3461, 12002]
-      - id: "276"
-        data: ["Astel, Naturalborn of the Void"]
-        cords: [2796, 13677]
-  -
-    title: Ainsel River Main
-    items:
-      - id: "277"
-        data: ["Ainsel River Main"]        
-        cords: [3906, 11847]
-      - id: "278"
-        data: ["Nokstella, Eternal City"]       
-        cords: [3605, 12044]
-      - id: "279"
-        data: ["Nokstella Waterfall Basin"]  
-        cords: [3335, 11970]
-  -
-    title: Lake of Rot
-    items:
-      - id: "280"
-        data: ["Lake of Rot Shoreside"] 
-        cords: [3267, 12188]
-      - id: "281"
-        data: ["Grand Cloister"]       
-        cords: [3160, 12643]
-  -
-    title: Nokron, Eternal City
-    items:
-      - id: "282"
-        data: ["Nokron, Eternal City"]       
-        cords: [5747, 14546]
-      - id: "283"
-        data: ["Mimic Tear"]        
-        cords: [6054, 14623]
-      - id: "284"
-        data: ["Ancestral Woods"]
-        cords: [6059, 14320]
-      - id: "285"
-        data: ["Night's Sacred Ground"]        
-        cords: [5996, 14480]
-      - id: "286"
-        data: ["Aqueduct-Facing Cliffs"] 
-        cords: [6219, 14020]
-      - id: "287"
-        data: ["Great Waterfall Basin"]       
-        cords: [6224, 13874]
-  -
-    title: Siofra River
-    items:
-      - id: "288"
-        data: ["Siofra River Well Depths"]       
-        cords: [5786, 14613]
-      - id: "289"
-        data: ["Siofra River Bank"]        
-        cords: [6131, 14519]
-      - id: "290"
-        data: ["Worshippers' Woods"]        
-        cords: [6477, 14257]
-      - id: "291"
-        data: ["Below the Well"]       
-        cords: [6559, 13915]
-  -
-    title: Mohgwyn Palace
-    items:
-      - id: "292"
-        data: ["Palace Approach Ledge-Road"]        
-        cords: [7120, 14498]
-      - id: "293"
-        data: ["Dynasty Mausoleum Entrance"]       
-        cords: [6919, 14330]
-      - id: "294"
-        data: ["Dynasty Mausoleum Midpoint"]       
-        cords: [6850, 14371]
-      - id: "295"
-        data: ["Cocoon of the Empyrean"]       
-        cords: [6752, 14376]
-  -
-    title: Deeproot Depths
-    items:
-      - id: "296"
-        data: ["Root-Facing Cliffs"]
-        cords: [5880, 11021]
-      - id: "297"
-        data: ["Great Waterfall Crest"]
-        cords: [5902, 11129]
-      - id: "298"
-        data: ["Deeproot Depths"]
-        cords: [5467, 11117]
-      - id: "299"
-        data: ["The Nameless Eternal City"]
-        cords: [5376, 10914]
-      - id: "300"
-        data: ["Across the Roots"]
-        cords: [5594, 10857]
-      - id: "301"
-        data: ["Prince of Death's Throne"]
-        cords: [5685, 10708]
-  -
-    title: Crumbling Farum Azula
-    items:
-      - id: "302"
-        data: ["Crumbling Beast Grave"]        
-        cords: [8605, 4675]        
-      - id: "303"
-        data: ["Crumbling Beast Grave Depths"]
-        cords: [8398, 4629]
-      - id: "304"
-        data: ["Tempest-Facing Balcony"]        
-        cords: [8399, 4553]        
-      - id: "305"
-        data: ["Dragon Temple"]
-        cords: [8411, 4429]
-      - id: "306"
-        data: ["Dragon Temple Transept"]       
-        cords: [8517, 4472]
-      - id: "307"
-        data: ["Dragon Temple Altar"]        
-        cords: [8499, 4422]
-      - id: "308"
-        data: ["Dragon Temple Lift"]       
-        cords: [8416, 4339]
-      - id: "309"
-        data: ["Dragon Temple Rooftop"]       
-        cords: [8572, 4227]
-      - id: "310"
-        data: ["Beside the Great Bridge"]        
-        cords: [8553, 4336]
-      - id: "311"
-        data: ["Dragonlord Placidusax"]        
-        cords: [8507, 4503]
-      - id: "312"
-        data: ["Maliketh, the Black Blade"]       
-        cords: [8715, 4463]
+- title: Roundtable Hold
+  items:
+  - id: '313'
+    data:
+    - Table of Lost Grace
+    cords:
+    - 584
+    - 8454
+    map_icon: /map/icons/MENU_MAP_48.png
+    map_icon_size: 60
+    data_it:
+    - Tavolo della grazia perduta
+  title_it: Rocca della Tavola rotonda
+- title: Limgrave
+  items:
+  - id: '0'
+    data:
+    - The First Step
+    cords:
+    - 3701
+    - 7341
+    data_it:
+    - Il primo passo
+  - id: '1'
+    data:
+    - Church of Elleh
+    cords:
+    - 3673
+    - 7223
+    data_it:
+    - Chiesa di Elleh
+  - id: '2'
+    data:
+    - Gatefront
+    cords:
+    - 3727
+    - 6933
+    data_it:
+    - Davanti al cancello
+  - id: '3'
+    data:
+    - Waypoint Ruins Cellar
+    cords:
+    - 4239
+    - 7258
+    data_it:
+    - Sotterranei delle rovine del punto di sosta
+  - id: '4'
+    data:
+    - Artist's Shack
+    cords:
+    - 4213
+    - 6803
+    data_it:
+    - Capanna dell'artista
+  - id: '5'
+    data:
+    - Third Church of Marika
+    cords:
+    - 4635
+    - 6711
+    data_it:
+    - Terza chiesa di Marika
+  - id: '6'
+    data:
+    - Fort Haight West
+    cords:
+    - 4595
+    - 7341
+    data_it:
+    - Forte Haight ovest
+  - id: '7'
+    data:
+    - Agheel Lake South
+    cords:
+    - 4188
+    - 7505
+    data_it:
+    - Lago Agheel sud
+  - id: '8'
+    data:
+    - Agheel Lake North
+    cords:
+    - 3885
+    - 6983
+    data_it:
+    - Lago Agheel nord
+  - id: '9'
+    data:
+    - Church of Dragon Communion
+    cords:
+    - 3403
+    - 7573
+    data_it:
+    - Chiesa della Comunione draconica
+  - id: '10'
+    data:
+    - Seaside Ruins
+    cords:
+    - 3951
+    - 7503
+    data_it:
+    - Rovine costiere
+  - id: '11'
+    data:
+    - Mistwood Outskirts
+    cords:
+    - 4346
+    - 6933
+    data_it:
+    - Periferia di Tetrobosco
+  - id: '12'
+    data:
+    - Murkwater Coast
+    cords:
+    - 4079
+    - 6822
+    data_it:
+    - Costa di Acquaquieta
+  - id: '13'
+    data:
+    - Summonwater Village Outskirts
+    cords:
+    - 4348
+    - 6567
+    data_it:
+    - Periferia del villaggio di Idrochiama
+  - id: '14'
+    data:
+    - Stormfoot Catacombs
+    cords:
+    - 3498
+    - 7046
+    data_it:
+    - Catacombe di Piè di Tempesta
+  - id: '15'
+    data:
+    - Murkwater Catacombs
+    cords:
+    - 4054
+    - 6716
+    data_it:
+    - Catacombe di Acquaquieta
+  - id: '16'
+    data:
+    - Groveside Cave
+    cords:
+    - 3652
+    - 7053
+    data_it:
+    - Grotta del bosco
+  - id: '17'
+    data:
+    - Coastal Cave
+    cords:
+    - 3504
+    - 7336
+    data_it:
+    - Grotta costiera
+  - id: '18'
+    data:
+    - Murkwater Cave
+    cords:
+    - 4042
+    - 6975
+    data_it:
+    - Grotta di Acquaquieta
+  - id: '19'
+    data:
+    - Highroad Cave
+    cords:
+    - 4028
+    - 6429
+    data_it:
+    - Grotta della via maestra
+  - id: '20'
+    data:
+    - Limgrave Tunnels
+    cords:
+    - 3846
+    - 7073
+    data_it:
+    - Gallerie di Sepolcride
+  title_it: Sepolcride
+- title: Stranded Graveyard
+  items:
+  - id: '21'
+    data:
+    - Cave of Knowledge
+    cords:
+    - 3744
+    - 7384
+    data_it:
+    - Grotta della conoscenza
+  - id: '22'
+    data:
+    - Stranded Graveyard
+    cords:
+    - 3771
+    - 7356
+    data_it:
+    - Cimitero abbandonato
+  title_it: Cimitero abbandonato
+- title: Stormhill
+  items:
+  - id: '23'
+    data:
+    - Stormhill Shack
+    cords:
+    - 3472
+    - 6764
+    data_it:
+    - Capanna di Colle Tempesta
+  - id: '24'
+    data:
+    - Castleward Tunnel
+    cords:
+    - 3367
+    - 6805
+    data_it:
+    - Galleria del castello
+  - id: '25'
+    data:
+    - Margit, the Fell Omen
+    cords:
+    - 3302
+    - 6827
+    data_it:
+    - Margit, l'Araldo nefasto
+  - id: '26'
+    data:
+    - Warmaster's Shack
+    cords:
+    - 3719
+    - 6684
+    data_it:
+    - Capanna del mastro guerriero
+  - id: '27'
+    data:
+    - Saintsbridge
+    cords:
+    - 3989
+    - 6525
+    data_it:
+    - Ponte dei santi
+  - id: '28'
+    data:
+    - Deathtouched Catacombs
+    cords:
+    - 3883
+    - 6497
+    data_it:
+    - Catacombe tocca-morte
+  - id: '29'
+    data:
+    - Limgrave Tower Bridge
+    cords:
+    - 3268
+    - 6678
+    data_it:
+    - Ponte della torre di Sepolcride
+  - id: '30'
+    data:
+    - Divine Tower of Limgrave
+    cords:
+    - 4263
+    - 6205
+    data_it:
+    - Torre divina di Sepolcride
+  title_it: Colle Tempesta
+- title: Weeping Peninsula
+  items:
+  - id: '31'
+    data:
+    - Church of Pilgrimage
+    cords:
+    - 3858
+    - 7699
+    data_it:
+    - Chiesa del pellegrinaggio
+  - id: '32'
+    data:
+    - Castle Morne Rampart
+    cords:
+    - 4306
+    - 8158
+    data_it:
+    - Bastioni di Castel Morne
+  - id: '33'
+    data:
+    - Tombsward
+    cords:
+    - 3788
+    - 8099
+    data_it:
+    - Sepolcreto
+  - id: '34'
+    data:
+    - South of the Lookout Tower
+    cords:
+    - 4209
+    - 7976
+    data_it:
+    - A sud della vedetta
+  - id: '35'
+    data:
+    - Ailing Village Outskirts
+    cords:
+    - 4155
+    - 7991
+    data_it:
+    - Periferia del villaggio malato
+  - id: '36'
+    data:
+    - Beside The Crater-Pocked Glade
+    cords:
+    - 4412
+    - 8002
+    data_it:
+    - Presso la radura dei crateri
+  - id: '37'
+    data:
+    - Isolated Merchant's Shack
+    cords:
+    - 3459
+    - 8208
+    data_it:
+    - Capanna del mercante isolato
+  - id: '38'
+    data:
+    - Fourth Church of Marika
+    cords:
+    - 3507
+    - 8001
+    data_it:
+    - Quarta chiesa di Marika
+  - id: '39'
+    data:
+    - Bridge of Sacrifice
+    cords:
+    - 4331
+    - 7806
+    data_it:
+    - Ponte del Sacrificio
+  - id: '40'
+    data:
+    - Castle Morne Lift
+    cords:
+    - 4071
+    - 8580
+    data_it:
+    - Ascensore di Castel Morne
+  - id: '41'
+    data:
+    - Behind The Castle
+    cords:
+    - 4007
+    - 8692
+    data_it:
+    - Dietro il castello
+  - id: '42'
+    data:
+    - Beside the Rampart Gaol
+    cords:
+    - 3985
+    - 8720
+    data_it:
+    - Presso la prigione del bastione
+  - id: '43'
+    data:
+    - Morne Moangrave
+    cords:
+    - 3935
+    - 8846
+    data_it:
+    - Sepolcro gemente di Morne
+  - id: '44'
+    data:
+    - Impaler's Catacombs
+    cords:
+    - 4455
+    - 7853
+    data_it:
+    - Catacombe dell'Impalatore
+  - id: '45'
+    data:
+    - Tombsward Catacombs
+    cords:
+    - 3871
+    - 7957
+    data_it:
+    - Catacombe del Sepolcreto
+  - id: '46'
+    data:
+    - Earthbore Cave
+    cords:
+    - 4122
+    - 7849
+    data_it:
+    - Grotta dello scavo
+  - id: '47'
+    data:
+    - Tombsward Cave
+    cords:
+    - 3596
+    - 8030
+    data_it:
+    - Grotta del Sepolcreto
+  - id: '48'
+    data:
+    - Morne Tunnel
+    cords:
+    - 4004
+    - 8133
+    data_it:
+    - Galleria di Morne
+  title_it: Penisola del pianto
+- title: Stormveil Castle
+  items:
+  - id: '49'
+    data:
+    - Stormveil Main Gate
+    cords:
+    - 3235
+    - 6791
+    data_it:
+    - Portone principale di Grantempesta
+  - id: '50'
+    data:
+    - Gateside Chamber
+    cords:
+    - 3209
+    - 6797
+    data_it:
+    - Cella presso il cancello
+  - id: '51'
+    data:
+    - Stormveil Cliffside
+    cords:
+    - 3130
+    - 6827
+    data_it:
+    - Scogliera di Grantempesta
+  - id: '52'
+    data:
+    - Rampart Tower
+    cords:
+    - 3070
+    - 6697
+    data_it:
+    - Torre del bastione
+  - id: '53'
+    data:
+    - Liftside Chamber
+    cords:
+    - 3056
+    - 6569
+    data_it:
+    - Cella presso l'ascensore
+  - id: '54'
+    data:
+    - Secluded Cell
+    cords:
+    - 3141
+    - 6496
+    data_it:
+    - Cella isolata
+  - id: '55'
+    data:
+    - Godrick the Grafted
+    cords:
+    - 3099
+    - 6464
+    data_it:
+    - Godrick l'Innestato
+  title_it: Castello di Grantempesta
+- title: Liurnia of the Lakes
+  items:
+  - id: '56'
+    data:
+    - Lake-Facing Cliffs
+    cords:
+    - 2959
+    - 6344
+    data_it:
+    - Scogliera sul lago
+  - id: '57'
+    data:
+    - Liurnia Lake Shore
+    cords:
+    - 2730
+    - 6158
+    data_it:
+    - Riva del lago di Liurnia
+  - id: '58'
+    data:
+    - Laskyar Ruins
+    cords:
+    - 2609
+    - 5940
+    data_it:
+    - Rovine di Laskyar
+  - id: '59'
+    data:
+    - Scenic Isle
+    cords:
+    - 2332
+    - 5734
+    data_it:
+    - Isola panoramica
+  - id: '60'
+    data:
+    - Academy Gate Town
+    cords:
+    - 2401
+    - 5349
+    data_it:
+    - Borgo dei cancelli dell'Accademia
+  - id: '61'
+    data:
+    - South Raya Lucaria Gate
+    cords:
+    - 2025
+    - 5056
+    data_it:
+    - Porta sud di Raya Lucaria
+  - id: '62'
+    data:
+    - Main Academy Gate
+    cords:
+    - 1826
+    - 4767
+    data_it:
+    - Porta principale dell'Accademia
+  - id: '63'
+    data:
+    - Liurnia Highway South
+    cords:
+    - 2982
+    - 6141
+    data_it:
+    - Via maestra di Liurnia sud
+  - id: '64'
+    data:
+    - Liurnia Highway North
+    cords:
+    - 2938
+    - 5800
+    data_it:
+    - Via maestra di Liurnia nord
+  - id: '65'
+    data:
+    - Gate Town Bridge
+    cords:
+    - 2740
+    - 5480
+    data_it:
+    - Ponte del borgo dei cancelli
+  - id: '66'
+    data:
+    - Artist's Shack
+    cords:
+    - 2784
+    - 5106
+    data_it:
+    - Capanna dell'artista
+  - id: '67'
+    data:
+    - Eastern Liurnia Lake Shore
+    cords:
+    - 2655
+    - 5013
+    data_it:
+    - Riva est del lago di Liurnia
+  - id: '68'
+    data:
+    - Jarburg
+    cords:
+    - 2992
+    - 5306
+    data_it:
+    - Jarburg
+  - id: '69'
+    data:
+    - Ranni's Chamber
+    cords:
+    - 1607
+    - 3687
+    data_it:
+    - Camera di Ranni
+  - id: '70'
+    data:
+    - Eastern Tableland
+    cords:
+    - 2742
+    - 4788
+    data_it:
+    - Altopiano orientale
+  - id: '71'
+    data:
+    - Church of Vows
+    cords:
+    - 2422
+    - 4709
+    data_it:
+    - Chiesa dei voti
+  - id: '72'
+    data:
+    - Ruined Labyrinth
+    cords:
+    - 2586
+    - 4487
+    data_it:
+    - Labirinto in rovina
+  - id: '73'
+    data:
+    - Mausoleum Compound
+    cords:
+    - 2481
+    - 4345
+    data_it:
+    - Complesso del mausoleo
+  - id: '74'
+    data:
+    - Slumbering Wolf's Shack
+    cords:
+    - 2315
+    - 6076
+    data_it:
+    - Capanna del lupo dormiente
+  - id: '75'
+    data:
+    - Boilprawn Shack
+    cords:
+    - 2256
+    - 5562
+    data_it:
+    - Capanna del gambero bollito
+  - id: '76'
+    data:
+    - Fallen Ruins of the Lake
+    cords:
+    - 2057
+    - 5367
+    data_it:
+    - Rovine lacustri abbattute
+  - id: '77'
+    data:
+    - Folly on the Lake
+    cords:
+    - 1947
+    - 5619
+    data_it:
+    - Follia sul lago
+  - id: '78'
+    data:
+    - Village of the Albinaurics
+    cords:
+    - 1711
+    - 5861
+    data_it:
+    - Villaggio degli Albinauri
+  - id: '79'
+    data:
+    - Converted Tower
+    cords:
+    - 1572
+    - 5603
+    data_it:
+    - Torre convertita
+  - id: '80'
+    data:
+    - Revenger's Shack
+    cords:
+    - 1427
+    - 5227
+    data_it:
+    - Capanna del vendicatore
+  - id: '81'
+    data:
+    - Temple Quarter
+    cords:
+    - 1620
+    - 5124
+    data_it:
+    - Quartiere del tempio
+  - id: '82'
+    data:
+    - Crystalline Woods
+    cords:
+    - 1668
+    - 4805
+    data_it:
+    - Boschi cristallini
+  - id: '83'
+    data:
+    - Foot of the Four Belfries
+    cords:
+    - 1347
+    - 4800
+    data_it:
+    - Ai piedi dei quattro campanili
+  - id: '84'
+    data:
+    - The Four Belfries
+    cords:
+    - 1469
+    - 4582
+    data_it:
+    - I quattro campanili
+  - id: '85'
+    data:
+    - Sorcerer's Isle
+    cords:
+    - 1743
+    - 4434
+    data_it:
+    - Isola dello stregone
+  - id: '86'
+    data:
+    - East Gate Bridge Trestle
+    cords:
+    - 1952
+    - 4578
+    data_it:
+    - Sostegno del ponte della porta est
+  - id: '87'
+    data:
+    - Gate Town North
+    cords:
+    - 2114
+    - 4882
+    data_it:
+    - Borgo dei cancelli nord
+  - id: '88'
+    data:
+    - Northern Liurnia Lake Shore
+    cords:
+    - 1610
+    - 4211
+    data_it:
+    - Riva nord del lago di Liurnia
+  - id: '89'
+    data:
+    - Road to the Manor
+    cords:
+    - 1718
+    - 4037
+    data_it:
+    - Strada per il maniero
+  - id: '90'
+    data:
+    - Main Caria Manor Gate
+    cords:
+    - 1902
+    - 3845
+    data_it:
+    - Portone principale del maniero cariano
+  - id: '91'
+    data:
+    - Manor Upper Level
+    cords:
+    - 2023
+    - 3757
+    data_it:
+    - Livello superiore del maniero
+  - id: '92'
+    data:
+    - Manor Lower Level
+    cords:
+    - 1843
+    - 3749
+    data_it:
+    - Livello inferiore del maniero
+  - id: '93'
+    data:
+    - Royal Moongazing Grounds
+    cords:
+    - 1889
+    - 3612
+    data_it:
+    - Terreni reali di contemplazione lunare
+  - id: '94'
+    data:
+    - Ranni's Rise
+    cords:
+    - 1576
+    - 3700
+    data_it:
+    - Guglia di Ranni
+  - id: '95'
+    data:
+    - Behind Caria Manor
+    cords:
+    - 2090
+    - 3636
+    data_it:
+    - Dietro il maniero cariano
+  - id: '96'
+    data:
+    - The Ravine
+    cords:
+    - 2114
+    - 3979
+    data_it:
+    - Il burrone
+  - id: '97'
+    data:
+    - Ravine-Veiled Village
+    cords:
+    - 2562
+    - 3617
+    data_it:
+    - Villaggio velato dal burrone
+  - id: '98'
+    data:
+    - Cliffbottom Catacombs
+    cords:
+    - 3021
+    - 5945
+    data_it:
+    - Catacombe di Piè di Scarpata
+  - id: '99'
+    data:
+    - Road's End Catacombs
+    cords:
+    - 1397
+    - 5526
+    data_it:
+    - Catacombe della fine della strada
+  - id: '100'
+    data:
+    - Black Knife Catacombs
+    cords:
+    - 2872
+    - 4108
+    data_it:
+    - Catacombe dei Neri Coltelli
+  - id: '101'
+    data:
+    - Stillwater Cave
+    cords:
+    - 2955
+    - 6310
+    data_it:
+    - Grotta d'Acquastagna
+  - id: '102'
+    data:
+    - Lakeside Crystal Cave
+    cords:
+    - 2318
+    - 6018
+    data_it:
+    - Grotta di cristallo sul lago
+  - id: '103'
+    data:
+    - Academy Crystal Cave
+    cords:
+    - 1738
+    - 4870
+    data_it:
+    - Grotta di cristallo dell'Accademia
+  - id: '104'
+    data:
+    - Raya Lucaria Crystal Tunnel
+    cords:
+    - 2319
+    - 4464
+    data_it:
+    - Galleria cristallina di Raya Lucaria
+  - id: '105'
+    data:
+    - Study Hall Entrance
+    cords:
+    - 2904
+    - 5140
+    data_it:
+    - Ingresso della sala studio
+  - id: '106'
+    data:
+    - Liurnia Tower Bridge
+    cords:
+    - 2973
+    - 5195
+    data_it:
+    - Ponte della torre di Liurnia
+  - id: '107'
+    data:
+    - Divine Tower of Liurnia
+    cords:
+    - 3373
+    - 5130
+    data_it:
+    - Torre divina di Liurnia
+  title_it: Liurnia lacustre
+- title: Bellum Highway
+  items:
+  - id: '108'
+    data:
+    - East Raya Lucaria Gate
+    cords:
+    - 2088
+    - 4323
+    data_it:
+    - Porta est di Raya Lucaria
+  - id: '109'
+    data:
+    - Bellum Church
+    cords:
+    - 2185
+    - 4061
+    data_it:
+    - Chiesa di Bellum
+  - id: '110'
+    data:
+    - Grand Lift of Dectus
+    cords:
+    - 2671
+    - 3774
+    data_it:
+    - Grande montacarichi di Dectus
+  - id: '111'
+    data:
+    - Frenzied Flame Village Outskirts
+    cords:
+    - 2740
+    - 4154
+    data_it:
+    - Periferia del villaggio della Fiamma Frenetica
+  - id: '112'
+    data:
+    - Church of Inhibition
+    cords:
+    - 2507
+    - 3999
+    data_it:
+    - Chiesa dell'inibizione
+  title_it: Strada di Bellum
+- title: Ruin-Strewn Precipice
+  items:
+  - id: '113'
+    data:
+    - Ruin-Strewn Precipice
+    cords:
+    - 2571
+    - 3606
+    data_it:
+    - Precipizio cosparso di rovine
+  - id: '114'
+    data:
+    - Ruin-Strewn Precipice Overlook
+    cords:
+    - 2468
+    - 3640
+    data_it:
+    - Belvedere del precipizio cosparso di rovine
+  - id: '115'
+    data:
+    - Magma Wyrm Makar
+    cords:
+    - 2358
+    - 3594
+    data_it:
+    - Makar, drago di magma
+  title_it: Precipizio cosparso di rovine
+- title: Moonlight Altar
+  items:
+  - id: '116'
+    data:
+    - Moonlight Altar
+    cords:
+    - 1673
+    - 5933
+    data_it:
+    - Altare della Luna
+  - id: '117'
+    data:
+    - Cathedral of Manus Celes
+    cords:
+    - 1905
+    - 5783
+    data_it:
+    - Cattedrale di Manus Celes
+  - id: '118'
+    data:
+    - Altar South
+    cords:
+    - 1437
+    - 6222
+    data_it:
+    - Altare sud
+  title_it: Altare della Luna
+- title: Academy of Raya Lucaria
+  items:
+  - id: '119'
+    data:
+    - Church of the Cuckoo
+    cords:
+    - 1795
+    - 4894
+    data_it:
+    - Chiesa del cuculo
+  - id: '120'
+    data:
+    - Schoolhouse Classroom
+    cords:
+    - 1943
+    - 4983
+    data_it:
+    - Aula scolastica
+  - id: '121'
+    data:
+    - Debate Parlor
+    cords:
+    - 1963
+    - 5019
+    data_it:
+    - Aula del dibattito
+  - id: '122'
+    data:
+    - Raya Lucaria Grand Library
+    cords:
+    - 1840
+    - 4819
+    data_it:
+    - Grande biblioteca di Raya Lucaria
+  title_it: Accademia di Raya Lucaria
+- title: Altus Plateau
+  items:
+  - id: '123'
+    data:
+    - Abandoned Coffin
+    cords:
+    - 2385
+    - 3516
+    data_it:
+    - Bara abbandonata
+  - id: '124'
+    data:
+    - Erdtree-Gazing Hill
+    cords:
+    - 2666
+    - 3407
+    data_it:
+    - Colle dell'Albero Madre
+  - id: '125'
+    data:
+    - Altus Plateau
+    cords:
+    - 2744
+    - 3631
+    data_it:
+    - Altopiano di Altus
+  - id: '126'
+    data:
+    - Altus Highway Junction
+    cords:
+    - 3037
+    - 3452
+    data_it:
+    - Bivio della via maestra dell'Altus
+  - id: '127'
+    data:
+    - Forest-Spanning Greatbridge
+    cords:
+    - 3310
+    - 3063
+    data_it:
+    - Granponte della foresta
+  - id: '128'
+    data:
+    - Bower of Bounty
+    cords:
+    - 3211
+    - 3025
+    data_it:
+    - Sottobosco dell'abbondanza
+  - id: '129'
+    data:
+    - Windmill Village
+    cords:
+    - 3534
+    - 2631
+    data_it:
+    - Villaggio del mulino a vento
+  - id: '130'
+    data:
+    - Windmill Heights
+    cords:
+    - 3673
+    - 2469
+    data_it:
+    - Alture del mulino a vento
+  - id: '131'
+    data:
+    - Road of Iniquity Side Path
+    cords:
+    - 3268
+    - 2575
+    data_it:
+    - Sentiero della strada dell'iniquità
+  - id: '132'
+    data:
+    - Rampartside Path
+    cords:
+    - 3545
+    - 3180
+    data_it:
+    - Sentiero del bastione
+  - id: '133'
+    data:
+    - Shaded Castle Ramparts
+    cords:
+    - 2966
+    - 2736
+    data_it:
+    - Bastioni del castello d'Ombra
+  - id: '134'
+    data:
+    - Shaded Castle Inner Gate
+    cords:
+    - 2893
+    - 2639
+    data_it:
+    - Porta interna del castello d'Ombra
+  - id: '135'
+    data:
+    - Castellan's Hall
+    cords:
+    - 2897
+    - 2632
+    data_it:
+    - Sala del castellano
+  - id: '136'
+    data:
+    - Unsightly Catacombs
+    cords:
+    - 2136
+    - 3351
+    data_it:
+    - Catacombe sgradevoli
+  - id: '137'
+    data:
+    - Sainted Hero's Grave
+    cords:
+    - 3246
+    - 3192
+    data_it:
+    - Tomba dell'eroe santo
+  - id: '138'
+    data:
+    - Sage's Cave
+    cords:
+    - 2534
+    - 3256
+    data_it:
+    - Grotta del saggio
+  - id: '139'
+    data:
+    - Perfumer's Grotto
+    cords:
+    - 3506
+    - 3433
+    data_it:
+    - Grotta dei profumieri
+  - id: '140'
+    data:
+    - Old Altus Tunnel
+    cords:
+    - 2776
+    - 3060
+    data_it:
+    - Vecchia galleria dell'Altus
+  - id: '141'
+    data:
+    - Altus Tunnel
+    cords:
+    - 3403
+    - 3156
+    data_it:
+    - Galleria dell'Altus
+  title_it: Altopiano di Altus
+- title: Mt. Gelmir
+  items:
+  - id: '142'
+    data:
+    - Bridge of Iniquity
+    cords:
+    - 2844
+    - 2906
+    data_it:
+    - Ponte dell'iniquità
+  - id: '143'
+    data:
+    - First Mt. Gelmir Campsite
+    cords:
+    - 2715
+    - 2811
+    data_it:
+    - Primo accampamento del monte Gelmir
+  - id: '144'
+    data:
+    - Ninth Mt. Gelmir Campsite
+    cords:
+    - 2293
+    - 2664
+    data_it:
+    - Nono accampamento del monte Gelmir
+  - id: '145'
+    data:
+    - Road of Iniquity
+    cords:
+    - 2157
+    - 2777
+    data_it:
+    - Strada dell'iniquità
+  - id: '146'
+    data:
+    - Seethewater River
+    cords:
+    - 2496
+    - 3147
+    data_it:
+    - Fiume dell'Acqua ribollente
+  - id: '147'
+    data:
+    - Seethewater Terminus
+    cords:
+    - 2045
+    - 2864
+    data_it:
+    - Capolinea dell'Acqua ribollente
+  - id: '148'
+    data:
+    - Craftsman's Shack
+    cords:
+    - 2279
+    - 3226
+    data_it:
+    - Capanna dell'artigiano
+  - id: '149'
+    data:
+    - Primeval Sorcerer Azur
+    cords:
+    - 2437
+    - 2997
+    data_it:
+    - Stregone primordiale Azur
+  - id: '150'
+    data:
+    - Wyndham Catacombs
+    cords:
+    - 2561
+    - 3077
+    data_it:
+    - Catacombe di Wyndham
+  - id: '151'
+    data:
+    - Gelmir Hero's Grave
+    cords:
+    - 2537
+    - 2928
+    data_it:
+    - Tomba dell'eroe di Gelmir
+  - id: '152'
+    data:
+    - Seethewater Cave
+    cords:
+    - 2421
+    - 2803
+    data_it:
+    - Grotta dell'Acqua ribollente
+  - id: '153'
+    data:
+    - Volcano Cave
+    cords:
+    - 2364
+    - 2492
+    data_it:
+    - Grotta del vulcano
+  title_it: Monte Gelmir
+- title: Capital Outskirts
+  items:
+  - id: '154'
+    data:
+    - Outer Wall Phantom Tree
+    cords:
+    - 3661
+    - 3502
+    data_it:
+    - Albero spettrale delle mura esterne
+  - id: '155'
+    data:
+    - Minor Erdtree Church
+    cords:
+    - 3851
+    - 3767
+    data_it:
+    - Chiesa dell'Albero Madre minore
+  - id: '156'
+    data:
+    - Outer Wall Battleground
+    cords:
+    - 3914
+    - 3021
+    data_it:
+    - Campo di battaglia delle mura esterne
+  - id: '157'
+    data:
+    - Hermit Merchant's Shack
+    cords:
+    - 3966
+    - 2934
+    data_it:
+    - Capanna del mercante eremita
+  - id: '158'
+    data:
+    - Capital Rampart
+    cords:
+    - 4443
+    - 3255
+    data_it:
+    - Bastioni della capitale
+  - id: '159'
+    data:
+    - Auriza Side Tomb
+    cords:
+    - 4583
+    - 3174
+    data_it:
+    - Tomba laterale di Auriza
+  - id: '160'
+    data:
+    - Auriza Hero's Grave
+    cords:
+    - 4542
+    - 3317
+    data_it:
+    - Tomba dell'eroe di Auriza
+  - id: '161'
+    data:
+    - Sealed Tunnel
+    cords:
+    - 3901
+    - 3675
+    data_it:
+    - Galleria sigillata
+  - id: '162'
+    data:
+    - 'Divine Tower of West Altus: Gate'
+    cords:
+    - 3925
+    - 3951
+    data_it:
+    - 'Torre divina dell''Altus occidentale: porta'
+  - id: '163'
+    data:
+    - Divine Tower of West Altus
+    cords:
+    - 3921
+    - 4062
+    data_it:
+    - Torre divina dell'Altus occidentale
+  title_it: Periferia della capitale
+- title: Volcano Manor
+  items:
+  - id: '164'
+    data:
+    - Volcano Manor
+    cords:
+    - 2229
+    - 2895
+    data_it:
+    - Villa Vulcano
+  - id: '165'
+    data:
+    - Prison Town Church
+    cords:
+    - 2127
+    - 2948
+    data_it:
+    - Chiesa dell'insediamento carcerario
+  - id: '166'
+    data:
+    - Temple of Eiglay
+    cords:
+    - 2242
+    - 3043
+    data_it:
+    - Tempio di Eiglay
+  - id: '167'
+    data:
+    - Guest Hall
+    cords:
+    - 2056
+    - 3046
+    data_it:
+    - Salone degli ospiti
+  - id: '168'
+    data:
+    - Audience Pathway
+    cords:
+    - 2285
+    - 2845
+    data_it:
+    - Sentiero dell'udienza
+  - id: '169'
+    data:
+    - Abductor Virgin
+    cords:
+    - 2461
+    - 3093
+    data_it:
+    - Vergine rapitrice
+  - id: '170'
+    data:
+    - Subterranean Inquisition Chamber
+    cords:
+    - 2351
+    - 2984
+    data_it:
+    - Inquisizione sotterranea
+  - id: '171'
+    data:
+    - Rykard, Lord of Blasphemy
+    cords:
+    - 2282
+    - 2949
+    data_it:
+    - Rykard, signore della blasfemia
+  title_it: Villa Vulcano
+- title: Leyndell, Royal Capital
+  items:
+  - id: '172'
+    data:
+    - Erdtree Sanctuary
+    cords:
+    - 4365
+    - 3708
+    data_it:
+    - Santuario dell'Albero Madre
+  - id: '173'
+    data:
+    - East Capital Rampart
+    cords:
+    - 4465
+    - 3400
+    data_it:
+    - Bastioni orientali della capitale
+  - id: '174'
+    data:
+    - Lower Capital Church
+    cords:
+    - 4281
+    - 3543
+    data_it:
+    - Chiesa della capitale bassa
+  - id: '175'
+    data:
+    - Avenue Balcony
+    cords:
+    - 4316
+    - 3506
+    data_it:
+    - Balconata sulla strada
+  - id: '176'
+    data:
+    - West Capital Rampart
+    cords:
+    - 4279
+    - 3581
+    data_it:
+    - Bastioni occidentali della capitale
+  - id: '177'
+    data:
+    - Queen's Bedchamber
+    cords:
+    - 4441
+    - 3629
+    data_it:
+    - Camera da letto della regina
+  - id: '178'
+    data:
+    - Fortified Manor, First Floor
+    cords:
+    - 4178
+    - 3591
+    data_it:
+    - Primo piano del maniero fortificato
+  - id: '179'
+    data:
+    - Divine Bridge
+    cords:
+    - 4070
+    - 3616
+    data_it:
+    - Ponte divino
+  - id: '180'
+    data:
+    - Elden Throne
+    cords:
+    - 4534
+    - 3737
+    data_it:
+    - Trono ancestrale
+  title_it: Leyndell, capitale reale
+- title: Subterranean Shunning-Grounds
+  items:
+  - id: '181'
+    data:
+    - Underground Roadside
+    cords:
+    - 4350
+    - 3486
+    data_it:
+    - Strada sotterranea
+  - id: '182'
+    data:
+    - Forsaken Depths
+    cords:
+    - 4448
+    - 3471
+    data_it:
+    - Abissi dei rinnegati
+  - id: '183'
+    data:
+    - Leyndell Catacombs
+    cords:
+    - 4357
+    - 3564
+    data_it:
+    - Catacombe di Leyndell
+  - id: '184'
+    data:
+    - Frenzied Flame Proscription
+    cords:
+    - 4622
+    - 3385
+    data_it:
+    - Proscrizione della Fiamma Frenetica
+  - id: '185'
+    data:
+    - Cathedral of the Forsaken
+    cords:
+    - 4570
+    - 3402
+    data_it:
+    - Cattedrale dei rinnegati
+  title_it: Sotterranei dei rinnegati
+- title: Leyndell, Ashen Capital
+  items:
+  - id: '186'
+    data:
+    - East Capital Rampart
+    cords:
+    - 4465
+    - 3400
+    data_it:
+    - Bastioni orientali della capitale
+  - id: '187'
+    data:
+    - Leyndell, Capital of Ash
+    cords:
+    - 4365
+    - 3450
+    data_it:
+    - Leyndell, capitale delle ceneri
+  - id: '188'
+    data:
+    - Erdtree Sanctuary
+    cords:
+    - 4365
+    - 3708
+    data_it:
+    - Santuario dell'Albero Madre
+  - id: '189'
+    data:
+    - Queen's Bedchamber
+    cords:
+    - 4441
+    - 3629
+    data_it:
+    - Camera da letto della regina
+  - id: '190'
+    data:
+    - Divine Bridge
+    cords:
+    - 4070
+    - 3616
+    data_it:
+    - Ponte divino
+  - id: '191'
+    data:
+    - Elden Throne
+    cords:
+    - 4534
+    - 3737
+    data_it:
+    - Trono ancestrale
+  title_it: Leyndell, capitale delle ceneri
+- title: Stone Platform
+  items:
+  - id: '192'
+    data:
+    - Fractured Marika
+    cords:
+    - 4677
+    - 3928
+    data_it:
+    - Marika frantumata
+  title_it: Piattaforma di pietra
+- title: Caelid
+  items:
+  - id: '193'
+    data:
+    - Smoldering Church
+    cords:
+    - 4658
+    - 6243
+    data_it:
+    - Chiesa ardente
+  - id: '194'
+    data:
+    - Rotview Balcony
+    cords:
+    - 4842
+    - 6339
+    data_it:
+    - Balconata sulla putrefazione
+  - id: '195'
+    data:
+    - Caelem Ruins
+    cords:
+    - 5094
+    - 6292
+    data_it:
+    - Rovine di Caelem
+  - id: '196'
+    data:
+    - Fort Gael North
+    cords:
+    - 4859
+    - 6610
+    data_it:
+    - Forte Gael nord
+  - id: '197'
+    data:
+    - Smoldering Wall
+    cords:
+    - 5159
+    - 6524
+    data_it:
+    - Muro ardente
+  - id: '198'
+    data:
+    - Caelid Highway South
+    cords:
+    - 5126
+    - 6997
+    data_it:
+    - Via maestra di Caelid sud
+  - id: '199'
+    data:
+    - Cathedral of Dragon Communion
+    cords:
+    - 5286
+    - 7194
+    data_it:
+    - Cattedrale della Comunione draconica
+  - id: '200'
+    data:
+    - Southern Aeonia Swamp Bank
+    cords:
+    - 5507
+    - 6975
+    data_it:
+    - Riva sud della palude di Aeonia
+  - id: '201'
+    data:
+    - Sellia Backstreets
+    cords:
+    - 5631
+    - 6471
+    data_it:
+    - Vicolo di Sellia
+  - id: '202'
+    data:
+    - Sellia Under-Stair
+    cords:
+    - 5600
+    - 6559
+    data_it:
+    - Sottoscala di Sellia
+  - id: '203'
+    data:
+    - Chair-Crypt of Sellia
+    cords:
+    - 5601
+    - 6452
+    data_it:
+    - Cripta del seggio di Sellia
+  - id: '204'
+    data:
+    - Church of the Plague
+    cords:
+    - 5771
+    - 6646
+    data_it:
+    - Chiesa della piaga
+  - id: '205'
+    data:
+    - Deep Siofra Well
+    cords:
+    - 5356
+    - 6271
+    data_it:
+    - Pozzo profondo del Siofra
+  - id: '206'
+    data:
+    - Impassable Greatbridge
+    cords:
+    - 5693
+    - 7378
+    data_it:
+    - Granponte invalicabile
+  - id: '207'
+    data:
+    - Chamber Outside the Plaza
+    cords:
+    - 6110
+    - 7341
+    data_it:
+    - Cella fuori dal piazzale
+  - id: '208'
+    data:
+    - Redmane Castle Plaza
+    cords:
+    - 6096
+    - 7276
+    data_it:
+    - Piazzale del castello di Mantorosso
+  - id: '209'
+    data:
+    - Starscourge Radahn
+    cords:
+    - 6226
+    - 6824
+    data_it:
+    - Radahn, il Flagello celeste
+  - id: '210'
+    data:
+    - Minor Erdtree Catacombs
+    cords:
+    - 4932
+    - 6205
+    data_it:
+    - Catacombe dell'Albero Madre minore
+  - id: '211'
+    data:
+    - Caelid Catacombs
+    cords:
+    - 5338
+    - 7225
+    data_it:
+    - Catacombe di Caelid
+  - id: '212'
+    data:
+    - War-Dead Catacombs
+    cords:
+    - 6310
+    - 6148
+    data_it:
+    - Catacombe dei caduti in guerra
+  - id: '213'
+    data:
+    - Abandoned Cave
+    cords:
+    - 5388
+    - 6480
+    data_it:
+    - Grotta abbandonata
+  - id: '214'
+    data:
+    - Gaol Cave
+    cords:
+    - 4926
+    - 6747
+    data_it:
+    - Grotta delle segrete
+  - id: '215'
+    data:
+    - Gael Tunnel
+    cords:
+    - 4794
+    - 6490
+    data_it:
+    - Galleria di Gael
+  - id: '216'
+    data:
+    - Rear Gael Tunnel Entrance
+    cords:
+    - 4700
+    - 6415
+    data_it:
+    - Ingresso posteriore della galleria di Gael
+  - id: '217'
+    data:
+    - Sellia Crystal Tunnel
+    cords:
+    - 5520
+    - 6416
+    data_it:
+    - Galleria cristallina di Sellia
+  title_it: Caelid
+- title: Swamp of Aeonia
+  items:
+  - id: '218'
+    data:
+    - Aeonia Swamp Shore
+    cords:
+    - 5245
+    - 6816
+    data_it:
+    - Riva della palude di Aeonia
+  - id: '219'
+    data:
+    - Astray from Caelid Highway North
+    cords:
+    - 5140
+    - 6764
+    data_it:
+    - Nord della via maestra di Caelid (fuori sentiero)
+  - id: '220'
+    data:
+    - Heart of Aeonia
+    cords:
+    - 5481
+    - 6734
+    data_it:
+    - Cuore di Aeonia
+  - id: '221'
+    data:
+    - Inner Aeonia
+    cords:
+    - 5443
+    - 6666
+    data_it:
+    - Aeonia interna
+  title_it: Palude di Aeonia
+- title: Greyoll's Dragonbarrow
+  items:
+  - id: '222'
+    data:
+    - Dragonbarrow West
+    cords:
+    - 5356
+    - 6205
+    data_it:
+    - Tumuli draconici ovest
+  - id: '223'
+    data:
+    - Isolated Merchant's Shack
+    cords:
+    - 5159
+    - 6105
+    data_it:
+    - Capanna del mercante isolato
+  - id: '224'
+    data:
+    - Fort Faroth
+    cords:
+    - 5938
+    - 6406
+    data_it:
+    - Forte Faroth
+  - id: '225'
+    data:
+    - Dragonbarrow Fork
+    cords:
+    - 5838
+    - 6152
+    data_it:
+    - Bivio dei tumuli draconici
+  - id: '226'
+    data:
+    - Lenne's Rise
+    cords:
+    - 6291
+    - 6006
+    data_it:
+    - Guglia di Lenne
+  - id: '227'
+    data:
+    - Farum Greatbridge
+    cords:
+    - 6166
+    - 5732
+    data_it:
+    - Granponte di Farum
+  - id: '228'
+    data:
+    - Bestial Sanctum
+    cords:
+    - 5968
+    - 5488
+    data_it:
+    - Santuario bestiale
+  - id: '229'
+    data:
+    - Sellia Hideaway
+    cords:
+    - 5886
+    - 6463
+    data_it:
+    - Rifugio di Sellia
+  - id: '230'
+    data:
+    - Dragonbarrow Cave
+    cords:
+    - 6017
+    - 6187
+    data_it:
+    - Grotta dei tumuli draconici
+  - id: '231'
+    data:
+    - 'Divine Tower of Caelid: Center'
+    cords:
+    - 5580
+    - 6025
+    data_it:
+    - 'Torre divina di Caelid: centro'
+  - id: '232'
+    data:
+    - 'Divine Tower of Caelid: Basement'
+    cords:
+    - 5592
+    - 6040
+    data_it:
+    - 'Torre divina di Caelid: seminterrato'
+  - id: '233'
+    data:
+    - Isolated Divine Tower
+    cords:
+    - 5999
+    - 4845
+    data_it:
+    - Torre divina isolata
+  title_it: Tumuli draconici di Greyoll
+- title: Forbidden Lands
+  items:
+  - id: '234'
+    data:
+    - Forbidden Lands
+    cords:
+    - 4989
+    - 3485
+    data_it:
+    - Terre proibite
+  - id: '235'
+    data:
+    - Grand Lift of Rold
+    cords:
+    - 5493
+    - 3042
+    data_it:
+    - Grande montacarichi di Rold
+  - id: '236'
+    data:
+    - Hidden Path to the Haligtree
+    cords:
+    - 5401
+    - 2805
+    data_it:
+    - Cammino nascosto per il Sacro Albero
+  - id: '237'
+    data:
+    - 'Divine Tower of East Altus: Gate'
+    cords:
+    - 5105
+    - 3810
+    data_it:
+    - 'Torre divina dell''Altus orientale: porta'
+  - id: '238'
+    data:
+    - Divine Tower of East Altus
+    cords:
+    - 5121
+    - 3866
+    data_it:
+    - Torre divina dell'Altus orientale
+  title_it: Terre proibite
+- title: Mountaintops of the Giants
+  items:
+  - id: '239'
+    data:
+    - Zamor Ruins
+    cords:
+    - 5583
+    - 2844
+    data_it:
+    - Rovine di Zamor
+  - id: '240'
+    data:
+    - Ancient Snow Valley Ruins
+    cords:
+    - 6010
+    - 2220
+    data_it:
+    - Rovine dell'antica valle innevata
+  - id: '241'
+    data:
+    - Freezing Lake
+    cords:
+    - 6348
+    - 1841
+    data_it:
+    - Lago gelato
+  - id: '242'
+    data:
+    - First Church of Marika
+    cords:
+    - 6754
+    - 2370
+    data_it:
+    - Prima chiesa di Marika
+  - id: '243'
+    data:
+    - Whiteridge Road
+    cords:
+    - 6311
+    - 2302
+    data_it:
+    - Strada della cresta bianca
+  - id: '244'
+    data:
+    - Snow Valley Ruins Overlook
+    cords:
+    - 6136
+    - 1961
+    data_it:
+    - Belvedere delle rovine della valle innevata
+  - id: '245'
+    data:
+    - Castle Sol Main Gate
+    cords:
+    - 6004
+    - 1854
+    data_it:
+    - Portone principale di Castel Sol
+  - id: '246'
+    data:
+    - Church of the Eclipse
+    cords:
+    - 6087
+    - 1806
+    data_it:
+    - Chiesa dell'eclissi
+  - id: '247'
+    data:
+    - Castle Sol Rooftop
+    cords:
+    - 6100
+    - 1725
+    data_it:
+    - Tetto di Castel Sol
+  - id: '248'
+    data:
+    - Spiritcaller Cave
+    cords:
+    - 6500
+    - 2067
+    data_it:
+    - Grotta degli evocatori di spiriti
+  title_it: Vette dei Giganti
+- title: Flame Peak
+  items:
+  - id: '249'
+    data:
+    - Giants' Gravepost
+    cords:
+    - 6215
+    - 2620
+    data_it:
+    - Pietra miliare dei giganti
+  - id: '250'
+    data:
+    - Church of Repose
+    cords:
+    - 5955
+    - 3013
+    data_it:
+    - Chiesa del riposo
+  - id: '251'
+    data:
+    - Foot of the Forge
+    cords:
+    - 6189
+    - 2994
+    data_it:
+    - Ai piedi della forgia
+  - id: '252'
+    data:
+    - Fire Giant
+    cords:
+    - 6445
+    - 3177
+    data_it:
+    - Gigante di fuoco
+  - id: '253'
+    data:
+    - Forge of the Giants
+    cords:
+    - 6759
+    - 2957
+    data_it:
+    - Forgia dei giganti
+  - id: '254'
+    data:
+    - Giants' Mountaintop Catacombs
+    cords:
+    - 5787
+    - 2830
+    data_it:
+    - Catacombe delle Vette dei Giganti
+  - id: '255'
+    data:
+    - Giant-Conquering Hero's Grave
+    cords:
+    - 5646
+    - 2823
+    data_it:
+    - Tomba dell'eroe conquistatore di giganti
+  title_it: Picco della Fiamma
+- title: Consecrated Snowfield
+  items:
+  - id: '256'
+    data:
+    - Consecrated Snowfield
+    cords:
+    - 5405
+    - 2691
+    data_it:
+    - Terre sacre
+  - id: '257'
+    data:
+    - Inner Consecrated Snowfield
+    cords:
+    - 5401
+    - 2332
+    data_it:
+    - Terre sacre interne
+  - id: '258'
+    data:
+    - Ordina, Liturgical Town
+    cords:
+    - 5271
+    - 1956
+    data_it:
+    - Ordina, città liturgica
+  - id: '259'
+    data:
+    - Apostate Derelict
+    cords:
+    - 5044
+    - 1695
+    data_it:
+    - Ruderi del reietto
+  - id: '260'
+    data:
+    - Consecrated Snowfield Catacombs
+    cords:
+    - 5684
+    - 2514
+    data_it:
+    - Catacombe delle Terre sacre
+  - id: '261'
+    data:
+    - Cave of the Forlorn
+    cords:
+    - 5696
+    - 2132
+    data_it:
+    - Grotta del reietto
+  - id: '262'
+    data:
+    - Yelough Anix Tunnel
+    cords:
+    - 5041
+    - 2497
+    data_it:
+    - Galleria di Yelough Anix
+  title_it: Terre sacre
+- title: Miquella's Haligtree
+  items:
+  - id: '263'
+    data:
+    - Haligtree Canopy
+    cords:
+    - 5610
+    - 1330
+    data_it:
+    - Chioma del Sacro Albero
+  - id: '264'
+    data:
+    - Haligtree Town
+    cords:
+    - 5673
+    - 1139
+    data_it:
+    - Città del Sacro Albero
+  - id: '265'
+    data:
+    - Haligtree Town Plaza
+    cords:
+    - 5615
+    - 1075
+    data_it:
+    - Piazza della città del Sacro Albero
+  - id: '266'
+    data:
+    - Haligtree Promenade
+    cords:
+    - 5786
+    - 1071
+    data_it:
+    - Passeggiata del Sacro Albero
+  title_it: Sacro Albero di Miquella
+- title: Elphael, Brace of the Haligtree
+  items:
+  - id: '267'
+    data:
+    - Prayer Room
+    cords:
+    - 5690
+    - 936
+    data_it:
+    - Stanza della preghiera
+  - id: '268'
+    data:
+    - Elphael Inner Wall
+    cords:
+    - 5584
+    - 778
+    data_it:
+    - Muro interno di Elphael
+  - id: '269'
+    data:
+    - Drainage Channel
+    cords:
+    - 5735
+    - 881
+    data_it:
+    - Canale di drenaggio
+  - id: '270'
+    data:
+    - Haligtree Roots
+    cords:
+    - 5701
+    - 818
+    data_it:
+    - Radici del Sacro Albero
+  - id: '271'
+    data:
+    - Malenia, Goddess of Rot
+    cords:
+    - 5590
+    - 889
+    data_it:
+    - Malenia, dea della marcescenza
+  title_it: Elphael, sostegno del Sacro Albero
+- title: Ainsel River
+  items:
+  - id: '272'
+    data:
+    - Ainsel River Well Depths
+    cords:
+    - 3974
+    - 12225
+    data_it:
+    - Pozzo del fiume Ainsel (profondità)
+  - id: '273'
+    data:
+    - Ainsel River Sluice Gate
+    cords:
+    - 3783
+    - 12324
+    data_it:
+    - Chiusa del fiume Ainsel
+  - id: '274'
+    data:
+    - Ainsel River Downstream
+    cords:
+    - 3556
+    - 12229
+    data_it:
+    - Corso inferiore del fiume Ainsel
+  - id: '275'
+    data:
+    - Dragonkin Soldier of Nokstella
+    cords:
+    - 3461
+    - 12002
+    data_it:
+    - Soldato draconico di Nokstella
+  - id: '276'
+    data:
+    - Astel, Naturalborn of the Void
+    cords:
+    - 2796
+    - 13677
+    data_it:
+    - Astel, progenie del vuoto
+  title_it: Fiume Ainsel
+- title: Ainsel River Main
+  items:
+  - id: '277'
+    data:
+    - Ainsel River Main
+    cords:
+    - 3906
+    - 11847
+    data_it:
+    - Corso principale del fiume Ainsel
+  - id: '278'
+    data:
+    - Nokstella, Eternal City
+    cords:
+    - 3605
+    - 12044
+    data_it:
+    - Nokstella, la Città Eterna
+  - id: '279'
+    data:
+    - Nokstella Waterfall Basin
+    cords:
+    - 3335
+    - 11970
+    data_it:
+    - Bacino della cascata di Nokstella
+  title_it: Corso principale del fiume Ainsel
+- title: Lake of Rot
+  items:
+  - id: '280'
+    data:
+    - Lake of Rot Shoreside
+    cords:
+    - 3267
+    - 12188
+    data_it:
+    - Riva del lago di Marcescenza
+  - id: '281'
+    data:
+    - Grand Cloister
+    cords:
+    - 3160
+    - 12643
+    data_it:
+    - Gran Chiostro
+  title_it: Lago di Marcescenza
+- title: Nokron, Eternal City
+  items:
+  - id: '282'
+    data:
+    - Nokron, Eternal City
+    cords:
+    - 5747
+    - 14546
+    data_it:
+    - Nokron, la Città Eterna
+  - id: '283'
+    data:
+    - Mimic Tear
+    cords:
+    - 6054
+    - 14623
+    data_it:
+    - Lacrima riflessa
+  - id: '284'
+    data:
+    - Ancestral Woods
+    cords:
+    - 6059
+    - 14320
+    data_it:
+    - Boschi ancestrali
+  - id: '285'
+    data:
+    - Night's Sacred Ground
+    cords:
+    - 5996
+    - 14480
+    data_it:
+    - Suolo sacro della notte
+  - id: '286'
+    data:
+    - Aqueduct-Facing Cliffs
+    cords:
+    - 6219
+    - 14020
+    data_it:
+    - Scogliera sull'acquedotto
+  - id: '287'
+    data:
+    - Great Waterfall Basin
+    cords:
+    - 6224
+    - 13874
+    data_it:
+    - Bacino della grande cascata
+  title_it: Nokron, la Città Eterna
+- title: Siofra River
+  items:
+  - id: '288'
+    data:
+    - Siofra River Well Depths
+    cords:
+    - 5786
+    - 14613
+    data_it:
+    - Pozzo del fiume Siofra (profondità)
+  - id: '289'
+    data:
+    - Siofra River Bank
+    cords:
+    - 6131
+    - 14519
+    data_it:
+    - Riva del fiume Siofra
+  - id: '290'
+    data:
+    - Worshippers' Woods
+    cords:
+    - 6477
+    - 14257
+    data_it:
+    - Boschi dei seguaci
+  - id: '291'
+    data:
+    - Below the Well
+    cords:
+    - 6559
+    - 13915
+    data_it:
+    - Sotto il pozzo
+  title_it: Fiume Siofra
+- title: Mohgwyn Palace
+  items:
+  - id: '292'
+    data:
+    - Palace Approach Ledge-Road
+    cords:
+    - 7120
+    - 14498
+    data_it:
+    - Strada del cornicione del palazzo
+  - id: '293'
+    data:
+    - Dynasty Mausoleum Entrance
+    cords:
+    - 6919
+    - 14330
+    data_it:
+    - Ingresso del mausoleo della dinastia
+  - id: '294'
+    data:
+    - Dynasty Mausoleum Midpoint
+    cords:
+    - 6850
+    - 14371
+    data_it:
+    - Punto intermedio del mausoleo della dinastia
+  - id: '295'
+    data:
+    - Cocoon of the Empyrean
+    cords:
+    - 6752
+    - 14376
+    data_it:
+    - Bozzolo dell'Empireo
+  title_it: Palazzo di Mohgwyn
+- title: Deeproot Depths
+  items:
+  - id: '296'
+    data:
+    - Root-Facing Cliffs
+    cords:
+    - 5880
+    - 11021
+    data_it:
+    - Scogliera sulle radici
+  - id: '297'
+    data:
+    - Great Waterfall Crest
+    cords:
+    - 5902
+    - 11129
+    data_it:
+    - Cresta della grande cascata
+  - id: '298'
+    data:
+    - Deeproot Depths
+    cords:
+    - 5467
+    - 11117
+    data_it:
+    - Abissi tra le radici
+  - id: '299'
+    data:
+    - The Nameless Eternal City
+    cords:
+    - 5376
+    - 10914
+    data_it:
+    - Città Eterna senza nome
+  - id: '300'
+    data:
+    - Across the Roots
+    cords:
+    - 5594
+    - 10857
+    data_it:
+    - Attraverso le radici
+  - id: '301'
+    data:
+    - Prince of Death's Throne
+    cords:
+    - 5685
+    - 10708
+    data_it:
+    - Trono del Principe della Morte
+  title_it: Abissi tra le radici
+- title: Crumbling Farum Azula
+  items:
+  - id: '302'
+    data:
+    - Crumbling Beast Grave
+    cords:
+    - 8605
+    - 4675
+    data_it:
+    - Tomba della bestia in frantumi
+  - id: '303'
+    data:
+    - Crumbling Beast Grave Depths
+    cords:
+    - 8398
+    - 4629
+    data_it:
+    - Profondità della tomba della bestia
+  - id: '304'
+    data:
+    - Tempest-Facing Balcony
+    cords:
+    - 8399
+    - 4553
+    data_it:
+    - Balconata sulla tempesta
+  - id: '305'
+    data:
+    - Dragon Temple
+    cords:
+    - 8411
+    - 4429
+    data_it:
+    - Tempio del drago
+  - id: '306'
+    data:
+    - Dragon Temple Transept
+    cords:
+    - 8517
+    - 4472
+    data_it:
+    - Transetto del tempio del drago
+  - id: '307'
+    data:
+    - Dragon Temple Altar
+    cords:
+    - 8499
+    - 4422
+    data_it:
+    - Altare del tempio del drago
+  - id: '308'
+    data:
+    - Dragon Temple Lift
+    cords:
+    - 8416
+    - 4339
+    data_it:
+    - Ascensore del tempio del drago
+  - id: '309'
+    data:
+    - Dragon Temple Rooftop
+    cords:
+    - 8572
+    - 4227
+    data_it:
+    - Tetto del tempio del drago
+  - id: '310'
+    data:
+    - Beside the Great Bridge
+    cords:
+    - 8553
+    - 4336
+    data_it:
+    - Presso il gran ponte
+  - id: '311'
+    data:
+    - Dragonlord Placidusax
+    cords:
+    - 8507
+    - 4503
+    data_it:
+    - Placidusax, signore dei draghi
+  - id: '312'
+    data:
+    - Maliketh, the Black Blade
+    cords:
+    - 8715
+    - 4463
+    data_it:
+    - Maliketh, la Lama Nera
+  title_it: Farum Azula in frantumi
+- title: Realm of Shadow
+  title_it: Regno Dell'Ombra
+  items:
+  - id: '1001'
+    data:
+    - Gravesite Plain
+    data_it:
+    - Pianura delle Tombe
+    dlc: true
+  - id: '1002'
+    data:
+    - Scorched Ruins
+    data_it:
+    - Rovine bruciate
+    dlc: true
+  - id: '1003'
+    data:
+    - Three-Path Cross
+    data_it:
+    - Croce a tre vie
+    dlc: true
+  - id: '1004'
+    data:
+    - Greatbridge, North
+    data_it:
+    - Granponte nord
+    dlc: true
+  - id: '1005'
+    data:
+    - Main Gate Cross
+    data_it:
+    - Croce del portone principale
+    dlc: true
+  - id: '1006'
+    data:
+    - Cliffroad Terminus
+    data_it:
+    - Capolinea della strada della scogliera
+    dlc: true
+  - id: '1007'
+    data:
+    - Castle Front
+    data_it:
+    - Fronte del castello
+    dlc: true
+  - id: '1008'
+    data:
+    - Pillar Path Cross
+    data_it:
+    - Croce del sentiero dei pilastri
+    dlc: true
+  - id: '1009'
+    data:
+    - Pillar Path Waypoint
+    data_it:
+    - Punto di riferimento del sentiero dei pilastri
+    dlc: true
+  - id: '1010'
+    data:
+    - Ellac River Cave
+    data_it:
+    - Grotta del fiume Ellac
+    dlc: true
+  - id: '1011'
+    data:
+    - Ellac River Downstream
+    data_it:
+    - Corso inferiore del fiume Ellac
+    dlc: true
+  - id: '1012'
+    data:
+    - Fog Rift Catacombs
+    data_it:
+    - Catacombe della faglia di nebbia
+    dlc: true
+  - id: '1013'
+    data:
+    - Belurat Gaol
+    data_it:
+    - Prigione di Belurat
+    dlc: true
+  - id: '1014'
+    data:
+    - Ruined Forge Lava Intake
+    data_it:
+    - Presa della forgia in rovina di lava
+    dlc: true
+  - id: '1015'
+    data:
+    - Rivermouth Cave
+    data_it:
+    - Grotta della foce del fiume
+    dlc: true
+  - id: '1016'
+    data:
+    - Dragon's Pit
+    data_it:
+    - Fossa del drago
+    dlc: true
+  - id: '1017'
+    data:
+    - Dragon's Pit Terminus
+    data_it:
+    - Capolinea della fossa del drago
+    dlc: true
+  - id: '1018'
+    data:
+    - Belurat, Tower Settlement
+    data_it:
+    - Belurat, insediamento della torre
+    dlc: true
+  - id: '1019'
+    data:
+    - Small Private Altar
+    data_it:
+    - Piccolo altare privato
+    dlc: true
+  - id: '1020'
+    data:
+    - Stagefront
+    data_it:
+    - Fronte del palco
+    dlc: true
+  - id: '1021'
+    data:
+    - Theatre of the Divine Beast
+    data_it:
+    - Teatro della bestia divina
+    dlc: true
+  - id: '1022'
+    data:
+    - Castle Ensis Checkpoint
+    data_it:
+    - Checkpoint del castello Ensis
+    dlc: true
+  - id: '1023'
+    data:
+    - Ensis Moongazing Grounds
+    data_it:
+    - Terreni di contemplazione lunare di Ensis
+    dlc: true
+  - id: '1024'
+    data:
+    - Castle-Lord's Chamber
+    data_it:
+    - Camera del signore del castello
+    dlc: true
+  - id: '1025'
+    data:
+    - Abandoned Ailing Village
+    data_it:
+    - Villaggio afflitto abbandonato
+    dlc: true
+  - id: '1026'
+    data:
+    - Cerulean Coast
+    data_it:
+    - Costa Cerulea
+    dlc: true
+  - id: '1027'
+    data:
+    - Cerulean Coast West
+    data_it:
+    - Costa Cerulea ovest
+    dlc: true
+  - id: '1028'
+    data:
+    - Cerulean Coast Cross
+    data_it:
+    - Croce della Costa Cerulea
+    dlc: true
+  - id: '1029'
+    data:
+    - The Fissure
+    data_it:
+    - La fessura
+    dlc: true
+  - id: '1030'
+    data:
+    - Finger Ruins of Rhia
+    data_it:
+    - Rovine del dito di Rhia
+    dlc: true
+  - id: '1031'
+    data:
+    - Charo's Hidden Grave
+    data_it:
+    - Tomba nascosta di Charo
+    dlc: true
+  - id: '1032'
+    data:
+    - Stone Coffin Fissure
+    data_it:
+    - Fessura della bara di pietra
+    dlc: true
+  - id: '1033'
+    data:
+    - Fissure Cross
+    data_it:
+    - Croce della fessura
+    dlc: true
+  - id: '1034'
+    data:
+    - Garden of Deep Purple
+    data_it:
+    - Giardino del porpora profondo
+    dlc: true
+  - id: '1035'
+    data:
+    - Fissure Depths
+    data_it:
+    - Profondità della fessura
+    dlc: true
+  - id: '1036'
+    data:
+    - Fissure Waypoint
+    data_it:
+    - Punto di riferimento della fessura
+    dlc: true
+  - id: '1037'
+    data:
+    - Lamenter's Gaol
+    data_it:
+    - Prigione del lamentatore
+    dlc: true
+  - id: '1038'
+    data:
+    - Grand Altar of Dragon Communion
+    data_it:
+    - Grande altare della Comunione draconica
+    dlc: true
+  - id: '1039'
+    data:
+    - Foot of the Jagged Peak
+    data_it:
+    - Piede della Cima Frastagliata
+    dlc: true
+  - id: '1040'
+    data:
+    - Jagged Peak Mountainside
+    data_it:
+    - Fianco della montagna della Cima Frastagliata
+    dlc: true
+  - id: '1041'
+    data:
+    - Jagged Peak Summit
+    data_it:
+    - Cima del Picco Frastagliato
+    dlc: true
+  - id: '1042'
+    data:
+    - Rest of the Dread Dragon
+    data_it:
+    - Riposo del drago spaventoso
+    dlc: true
+  - id: '1043'
+    data:
+    - Jagged Peak
+    data_it:
+    - Picco Frastagliato
+    dlc: true
+  - id: '1044'
+    data:
+    - Ancient Ruins Base
+    data_it:
+    - Base delle rovine antiche
+    dlc: true
+  - id: '1045'
+    data:
+    - Temple Town Ruins
+    data_it:
+    - Rovine della città tempio
+    dlc: true
+  - id: '1046'
+    data:
+    - Ravine North
+    data_it:
+    - Burrone nord
+    dlc: true
+  - id: '1047'
+    data:
+    - Scorpion River Catacombs
+    data_it:
+    - Catacombe del fiume scorpione
+    dlc: true
+  - id: '1048'
+    data:
+    - Taylew's Ruined Forge
+    data_it:
+    - Forgia in rovina di Taylew
+    dlc: true
+  - id: '1049'
+    data:
+    - Viaduct Minor Tower
+    data_it:
+    - Torre minore del viadotto
+    dlc: true
+  - id: '1050'
+    data:
+    - Rauh Ancient Ruins, East
+    data_it:
+    - Antiche rovine di Rauh est
+    dlc: true
+  - id: '1051'
+    data:
+    - Rauh Ancient Ruins, West
+    data_it:
+    - Antiche rovine di Rauh ovest
+    dlc: true
+  - id: '1052'
+    data:
+    - Ancient Ruins, Grand Stairway
+    data_it:
+    - Antiche rovine, grande scalinata
+    dlc: true
+  - id: '1053'
+    data:
+    - Church of the Bud, Main Entrance
+    data_it:
+    - Chiesa del bocciolo, ingresso principale
+    dlc: true
+  - id: '1054'
+    data:
+    - Church of the Bud
+    data_it:
+    - Chiesa del bocciolo
+    dlc: true
+  - id: '1055'
+    data:
+    - Rauh Base
+    data_it:
+    - Base di Rauh
+    dlc: true
+  - id: '1056'
+    data:
+    - Highroad Cross
+    data_it:
+    - Croce dell'autostrada
+    dlc: true
+  - id: '1057'
+    data:
+    - Scadu Altus, West
+    data_it:
+    - Scadu Altus ovest
+    dlc: true
+  - id: '1058'
+    data:
+    - Moorth Ruins
+    data_it:
+    - Rovine di Moorth
+    dlc: true
+  - id: '1059'
+    data:
+    - Moorth Highway, South
+    data_it:
+    - Autostrada di Moorth sud
+    dlc: true
+  - id: '1060'
+    data:
+    - Fort of Reprimand
+    data_it:
+    - Forte del rimprovero
+    dlc: true
+  - id: '1061'
+    data:
+    - Behind the Fort of Reprimand
+    data_it:
+    - Dietro il forte del rimprovero
+    dlc: true
+  - id: '1062'
+    data:
+    - Scaduview Cross
+    data_it:
+    - Croce di Ombravista
+    dlc: true
+  - id: '1063'
+    data:
+    - Bonny Village
+    data_it:
+    - Villaggio Bonny
+    dlc: true
+  - id: '1064'
+    data:
+    - Bridge Leading to the Village
+    data_it:
+    - Ponte che porta al villaggio
+    dlc: true
+  - id: '1065'
+    data:
+    - Church District Highroad
+    data_it:
+    - Autostrada del distretto della chiesa
+    dlc: true
+  - id: '1066'
+    data:
+    - Cathedral of Manus Metyr
+    data_it:
+    - Cattedrale di Manus Metyr
+    dlc: true
+  - id: '1067'
+    data:
+    - Finger Birthing Grounds
+    data_it:
+    - Terreni di nascita delle dita
+    dlc: true
+  - id: '1068'
+    data:
+    - Castle Watering Hole
+    data_it:
+    - Pozza d'acqua del castello
+    dlc: true
+  - id: '1069'
+    data:
+    - Recluses' River Upstream
+    data_it:
+    - Corso superiore del fiume dei reclusi
+    dlc: true
+  - id: '1070'
+    data:
+    - Recluses' River Downstream
+    data_it:
+    - Corso inferiore del fiume dei reclusi
+    dlc: true
+  - id: '1071'
+    data:
+    - Darklight Catacombs
+    data_it:
+    - Catacombe della luce oscura
+    dlc: true
+  - id: '1072'
+    data:
+    - Bonny Gaol
+    data_it:
+    - Prigione Bonny
+    dlc: true
+  - id: '1073'
+    data:
+    - Ruined Forge of Starfall Past
+    data_it:
+    - Forgia in rovina del passato caduto di stelle
+    dlc: true
+  - id: '1074'
+    data:
+    - Shadow Keep Main Gate
+    data_it:
+    - Portone principale della Rocca delle Ombre
+    dlc: true
+  - id: '1075'
+    data:
+    - Main Gate Plaza
+    data_it:
+    - Piazzale del portone principale
+    dlc: true
+  - id: '1076'
+    data:
+    - Sunken Chapel
+    data_it:
+    - Cappella sommersa
+    dlc: true
+  - id: '1077'
+    data:
+    - Church District Entrance
+    data_it:
+    - Ingresso del distretto della chiesa
+    dlc: true
+  - id: '1078'
+    data:
+    - Storehouse, First Floor
+    data_it:
+    - Magazzino, primo piano
+    dlc: true
+  - id: '1079'
+    data:
+    - Storehouse, Fourth Floor
+    data_it:
+    - Magazzino, quarto piano
+    dlc: true
+  - id: '1080'
+    data:
+    - Storehouse, Seventh Floor
+    data_it:
+    - Magazzino, settimo piano
+    dlc: true
+  - id: '1081'
+    data:
+    - Storehouse, Back Section
+    data_it:
+    - Magazzino, sezione posteriore
+    dlc: true
+  - id: '1082'
+    data:
+    - Specimen Storehouse
+    data_it:
+    - Magazzino degli esemplari
+    dlc: true
+  - id: '1083'
+    data:
+    - Scaduview
+    data_it:
+    - Ombravista
+    dlc: true
+  - id: '1084'
+    data:
+    - Shadow Keep
+    data_it:
+    - Rocca delle Ombre
+    dlc: true
+  - id: '1085'
+    data:
+    - Shadow Keep, Church District
+    data_it:
+    - Rocca delle Ombre, distretto della chiesa
+    dlc: true
+  - id: '1086'
+    data:
+    - Abyssal Woods
+    data_it:
+    - Boschi Abissali
+    dlc: true
+  - id: '1087'
+    data:
+    - Forsaken Graveyard
+    data_it:
+    - Cimitero abbandonato
+    dlc: true
+  - id: '1088'
+    data:
+    - Woodland Trail
+    data_it:
+    - Sentiero nel bosco
+    dlc: true
+  - id: '1089'
+    data:
+    - Church Ruins
+    data_it:
+    - Rovine della chiesa
+    dlc: true
+  - id: '1090'
+    data:
+    - Divided Fall
+    data_it:
+    - Caduta divisa
+    dlc: true
+  - id: '1091'
+    data:
+    - Manse Hall
+    data_it:
+    - Sala del maniero
+    dlc: true
+  - id: '1092'
+    data:
+    - Midra's Library
+    data_it:
+    - Biblioteca di Midra
+    dlc: true
+  - id: '1093'
+    data:
+    - Second Floor Chamber
+    data_it:
+    - Camera del secondo piano
+    dlc: true
+  - id: '1094'
+    data:
+    - Discussion Chamber
+    data_it:
+    - Camera di discussione
+    dlc: true
+  - id: '1095'
+    data:
+    - Midra's Manse
+    data_it:
+    - Maniero di Midra
+    dlc: true
+  - id: '1096'
+    data:
+    - 'Enir-Ilim: Outer Wall'
+    data_it:
+    - 'Enir-Ilim: muro esterno'
+    dlc: true
+  - id: '1097'
+    data:
+    - First Rise
+    data_it:
+    - Prima salita
+    dlc: true
+  - id: '1098'
+    data:
+    - Spiral Rise
+    data_it:
+    - Salita a spirale
+    dlc: true
+  - id: '1099'
+    data:
+    - Cleansing Chamber Anteroom
+    data_it:
+    - Anticamera della camera di purificazione
+    dlc: true
+  - id: '1100'
+    data:
+    - Divine Gate Front Staircase
+    data_it:
+    - Scalinata anteriore del cancello divino
+    dlc: true
+  - id: '1101'
+    data:
+    - Gate of Divinity
+    data_it:
+    - Cancello della divinità
+    dlc: true
+  - id: '1102'
+    data:
+    - Hinterland Bridge
+    data_it:
+    - Ponte dell'Hinterland
+    dlc: true
+  - id: '1103'
+    data:
+    - Fingerstone Hill
+    data_it:
+    - Collina della pietra delle dita
+    dlc: true
+  - id: '1104'
+    data:
+    - Finger Ruins of Dheo
+    data_it:
+    - Rovine del dito di Dheo
+    dlc: true
+  - id: '1105'
+    data:
+    - Village of Flies
+    data_it:
+    - Villaggio delle mosche
+    dlc: true
+title_it: Luoghi di grazia

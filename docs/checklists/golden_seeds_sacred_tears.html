@@ -14,7 +14,83 @@
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <script>
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -24,168 +100,387 @@
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <form class="d-none d-sm-flex order-2 order-xl-3">
-          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+        <a class="navbar-brand me-auto ms-2" href="/index.html">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Roundtable Guides</span>
+            <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+          </span>
+        </a>
+        <ul class="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="langDropdown">
+              <span id="lang-display"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end position-absolute" id="lang-menu">
+              <li>
+                <a class="dropdown-item lang-option" data-lang="en" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> EN</a>
+              </li>
+              <li>
+                <a class="dropdown-item lang-option" data-lang="it" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> IT</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action="/search.html" class="d-none d-sm-flex order-2 order-xl-3" method="get">
+          <input aria-label="search" class="form-control me-2" data-placeholder-it="Cerca" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit"><i class="bi bi-search"></i></button>
         </form>
         <div class="d-sm-none order-2">
-          <a class="nav-link me-0" href="/search.html">
-            <i class="bi bi-search sb-icon-search"></i>
-          </a>
+          <a class="nav-link me-0" href="/search.html"><i class="bi bi-search sb-icon-search"></i></a>
         </div>
         <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Guides</span>
+                  <span class="lang-text lang-it">Guide</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">DLC Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">DLC Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione DLC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                      <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">NPC Questlines</span>
+                      <span class="lang-text lang-it">Missioni NPC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Achievements</span>
+                      <span class="lang-text lang-it">Obiettivi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Legendaries</span>
+                      <span class="lang-text lang-it">Leggendari</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Locations</span>
+                  <span class="lang-text lang-it">Luoghi</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bosses</span>
+                      <span class="lang-text lang-it">Boss</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                      <span class="lang-text lang-it">Luoghi d'interesse</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sites of Grace</span>
+                      <span class="lang-text lang-it">Luoghi di grazia</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                      <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Equipment</span>
+                  <span class="lang-text lang-it">Equipaggiamento</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Weapons</span>
+                      <span class="lang-text lang-it">Armi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Armor</span>
+                      <span class="lang-text lang-it">Armatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Talismans</span>
+                      <span class="lang-text lang-it">Talismani</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sorceries</span>
+                      <span class="lang-text lang-it">Stregonerie</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Incantations</span>
+                      <span class="lang-text lang-it">Incantesimi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ashes of War</span>
+                      <span class="lang-text lang-it">Ceneri di Guerra</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Spirit Ashes</span>
+                      <span class="lang-text lang-it">Ceneri spiritiche</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Upgrades &amp; Unlocks</span>
+                  <span class="lang-text lang-it">Potenziamenti e Sbloccabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons active" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                  <a class="dropdown-item show-buttons active" href="/checklists/golden_seeds_sacred_tears.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                      <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                      <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                      <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                      <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Whetstones</span>
+                      <span class="lang-text lang-it">Coltelli per affilatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bell Bearings</span>
+                      <span class="lang-text lang-it">Globi cinerei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Cookbooks</span>
+                      <span class="lang-text lang-it">Ricettari</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                      <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                      <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Collectables</span>
+                  <span class="lang-text lang-it">Collezionabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                      <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Great Runes</span>
+                      <span class="lang-text lang-it">Grandi Rune</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                      <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                      <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                      <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Paintings</span>
+                      <span class="lang-text lang-it">Dipinti</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                      <span class="lang-text lang-it">Vasi e boccette</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                      <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Gestures</span>
+                      <span class="lang-text lang-it">Gesti</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/map.html">
-                <i class="bi bi-map"></i> Map
+              <a class="nav-link hide-buttons" href="/map.html"><i class="bi bi-map"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Map</span>
+                  <span class="lang-text lang-it">Mappa</span>
+                </span>
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/options.html">
-                <i class="bi bi-gear-fill"></i> Options
+              <a class="nav-link hide-buttons" href="/options.html"><i class="bi bi-gear-fill"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Options</span>
+                  <span class="lang-text lang-it">Opzioni</span>
+                </span>
               </a>
             </li>
           </ul>
@@ -194,471 +489,684 @@
     </nav>
     <div class="container uncolor-links">
       <div class="row text-center">
-        <h1 class="mt-4">Golden Seeds &amp; Sacred Tears
-          <span class="d-print-none" id="flasks_overall_total"></span>
+        <h1 class="mt-4">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+            <span class="lang-text lang-it d-none">Semi d'oro e Lacrime sacre</span>
+          </span>
+          <span class="badge rounded-pill bg-success progress-val d-print-none ms-2" id="flasks_overall_total"></span>
         </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
           <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
-          <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+          <label class="form-check-label" for="toggleHideCompleted">
+            <span class="lang-pair">
+              <span class="lang-text lang-en">Hide Completed</span>
+              <span class="lang-text lang-it">Nascondi Completati</span>
+            </span>
+          </label>
         </div>
       </div>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
-          <a class="toc-button" data-bs-toggle="collapse" href="#toc_flasks" role="button">
-            <i class="bi bi-plus-lg"></i>Table Of Contents
+          <a class="toc-button" data-bs-toggle="collapse" href="#toc_flasks" role="button"><i class="bi bi-plus-lg"></i>
+            <span class="lang-pair">
+              <span class="lang-text lang-en"> Table Of Contents</span>
+              <span class="lang-text lang-it"> Indice</span>
+            </span>
           </a>
         </strong>
         <ul class="toc_page collapse" id="toc_flasks">
           <li>
-            <a class="toc_link" href="#flasks_section_0">Golden Seeds</a>
+            <a class="toc_link" href="#flasks_section_0">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Golden Seeds</span>
+                <span class="lang-text lang-it d-none">Semi d'oro</span>
+              </span>
+            </a>
             <span id="flasks_nav_totals_0"></span>
           </li>
           <li>
-            <a class="toc_link" href="#flasks_section_1">Sacred Tears</a>
+            <a class="toc_link" href="#flasks_section_1">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Sacred Tears</span>
+                <span class="lang-text lang-it d-none">Lacrime sacre</span>
+              </span>
+            </a>
             <span id="flasks_nav_totals_1"></span>
           </li>
         </ul>
       </nav>
-      <div class="input-group d-print-none">
-        <input class="form-control my-3" id="flasks_search" placeholder="Start typing to filter results..." type="search">
+      <div class="input-group my-3 d-print-none">
+        <input class="form-control" id="flasks_search" placeholder="Start typing to filter results..." type="search">
+        <div class="input-group-text">
+          <input aria-label="Use Regex for Search" class="form-check-input mt-0 me-2" id="flasks_regex" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Use Regex</span>
+            <span class="lang-text lang-it">Usa Regex</span>
+          </span>
+        </div>
+        <div class="input-group-text">
+          <input aria-label="Name Only Search" class="form-check-input mt-0 me-2" id="flasks_name_only" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Name Only</span>
+            <span class="lang-text lang-it">Solo nome</span>
+          </span>
+        </div>
       </div>
       <div id="flasks_list">
         <div class="card shadow-sm mb-3" id="flasks_section_0">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_0Col" data-bs-toggle="collapse" href="#flasks_0Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_0Col" data-bs-toggle="collapse" href="#flasks_0Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/bolstering/edited/00383.png" loading="lazy" style="height: 70px; width: 68px">
-              <span class="d-print-inline">Golden Seeds</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Golden Seeds</span>
+                  <span class="lang-text lang-it d-none">Semi d'oro</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="flasks_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="flasks_0Col">
-              <h5>Limgrave</h5>
-              <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_2" id="item_1_2">
+              <ul class="list-group-flush mb-0 ps-0 ps-md-4"></ul>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Limgrave</span>
+                <span class="lang-text lang-it d-none">Sepolcride</span>
+              </h5>
+              <ul class="list-group-flush mb-0">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_2" data-name-jets="can choose one as a keepsake puoi sceglierne uno come rimembranza d'origine" id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_2">Can choose one as a Keepsake</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Can choose one as a Keepsake</span>
+                        <span class="lang-text lang-it d-none">Puoi sceglierne uno come Rimembranza d'origine</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_3" id="item_1_3">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_3" data-name-jets="under a golden tree on the path to stormveil castle sotto a un albero dorato sul percorso per il castello di gran tempesta" id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_3">Under a Golden Tree on the path to Stormveil Castle</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_3&amp;id=flasks_1_3&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_3&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree on the path to Stormveil Castle</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato sul percorso per il Castello di Gran Tempesta</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_3&amp;id=flasks_1_3&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_3&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_4" id="item_1_4">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_4" data-name-jets="reward for finishing roderika's quest, can otherwise be found at her shack ricompensa per aver completato la missione di roderika, altrimenti reperibile alla sua capanna" id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_4">Reward for finishing Roderika's quest, can otherwise be found at her shack</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_4&amp;id=flasks_1_4&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_4&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Reward for finishing Roderika's quest, can otherwise be found at her shack</span>
+                        <span class="lang-text lang-it d-none">Ricompensa per aver completato la missione di Roderika, altrimenti reperibile alla sua capanna</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_4&amp;id=flasks_1_4&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_4&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_5" id="item_1_5">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_5" data-name-jets="under golden tree in front of fort haight sotto a un albero dorato di fronte a forte haight" id="item_1_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_5">Under Golden Tree in front of Fort Haight</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_5&amp;id=flasks_1_5&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_5&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under Golden Tree in front of Fort Haight</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato di fronte a Forte Haight</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_5&amp;id=flasks_1_5&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_5&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_6" id="item_1_6">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_6" data-name-jets="drops from kenneth haight if killed lasciato cadere da kenneth haight se ucciso" id="item_1_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_6">Drops from Kenneth Haight if killed</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_6&amp;id=flasks_1_6&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_6&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Drops from Kenneth Haight if killed</span>
+                        <span class="lang-text lang-it d-none">Lasciato cadere da Kenneth Haight se ucciso</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_6&amp;id=flasks_1_6&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_6&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_7" id="item_1_7">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_7" data-name-jets="reward for defeating ulcerated tree spirit in fringefolk hero's grave ricompensa per aver sconfitto lo spirito arboreo ulcerato nella tomba dell'eroe dei margini" id="item_1_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_7">Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_7&amp;id=flasks_1_7&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_7&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave</span>
+                        <span class="lang-text lang-it d-none">Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nella Tomba dell'eroe dei Margini</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_7&amp;id=flasks_1_7&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_7&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_43" id="item_1_43">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_43" data-name-jets="under a golden tree inside stormveil, near the secluded cell grace sotto a un albero dorato dentro gran tempesta, vicino al luogo di grazia cella isolata" id="item_1_43">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_43" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_43">Under a Golden Tree inside Stormveil, near the Secluded Cell Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_43&amp;id=flasks_1_43&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_43&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_43">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree inside Stormveil, near the Secluded Cell Grace</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato dentro Gran Tempesta, vicino al Luogo di Grazia Cella isolata</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_43&amp;id=flasks_1_43&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_43&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_8" id="item_1_8">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_8" data-name-jets="reward for defeating hidden ulcerated tree spirit in stormveil castle ricompensa per aver sconfitto lo spirito arboreo ulcerato nascosto nel castello di gran tempesta" id="item_1_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_8">Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_8&amp;id=flasks_1_8&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_8&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle</span>
+                        <span class="lang-text lang-it d-none">Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nascosto nel Castello di Gran Tempesta</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_8&amp;id=flasks_1_8&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_8&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Weeping Peninsula</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Weeping Peninsula</span>
+                <span class="lang-text lang-it d-none">Penisola del Pianto</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_1" id="item_1_1">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_1" data-name-jets="under a golden tree south of castle morne rampart grace sotto a un albero dorato a sud del luogo di grazia muro del castello di morne" id="item_1_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_1">Under a Golden Tree south of Castle Morne Rampart Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_1&amp;id=flasks_1_1&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_1&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree south of Castle Morne Rampart Grace</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato a sud del Luogo di Grazia Muro del Castello di Morne</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_1&amp;id=flasks_1_1&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_1&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Liurnia of the Lakes</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Liurnia of the Lakes</span>
+                <span class="lang-text lang-it d-none">Liurnia lacustre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_9" id="item_1_9">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_9" data-name-jets="under a golden tree in academy gate town sotto a un albero dorato nel borgo del cancello dell'accademia" id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_9">Under a Golden Tree in Academy Gate Town</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_9&amp;id=flasks_1_9&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_9&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree in Academy Gate Town</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato nel Borgo del cancello dell'Accademia</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_9&amp;id=flasks_1_9&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_9&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_10" id="item_1_10">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_10" data-name-jets="under a golden tree north of main academy gate grace, at the end of the bridge sotto a un albero dorato a nord del luogo di grazia cancello p. dell'accademia, alla fine del ponte" id="item_1_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_10">Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_10&amp;id=flasks_1_10&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_10&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato a nord del Luogo di Grazia Cancello p. dell'Accademia, alla fine del ponte</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_10&amp;id=flasks_1_10&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_10&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_11" id="item_1_11">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_11" data-name-jets="under a golden tree west side of raya lucaria academy courtyard sotto a un albero dorato nel lato ovest del cortile dell'accademia di raya lucaria" id="item_1_11">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_11">Under a Golden Tree west side of Raya Lucaria Academy courtyard</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_11&amp;id=flasks_1_11&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_11&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_11">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree west side of Raya Lucaria Academy courtyard</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato nel lato ovest del cortile dell'Accademia di Raya Lucaria</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_11&amp;id=flasks_1_11&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_11&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_12" id="item_1_12">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_12" data-name-jets="under a golden tree in caria manor's upper level. sotto a un albero dorato nel livello superiore del maniero cariano." id="item_1_12">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_12">Under a Golden Tree in Caria Manor's upper level.</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_12&amp;id=flasks_1_12&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_12&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_12">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree in Caria Manor's upper level.</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato nel livello superiore del Maniero cariano.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_12&amp;id=flasks_1_12&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_12&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_13" id="item_1_13">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_13" data-name-jets="under a golden tree at the north end of the lake, near the ruin-strewn precipice sotto a un albero dorato all'estremità nord del lago, vicino al baratro disseminato di rovine" id="item_1_13">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_13" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_13">Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_13&amp;id=flasks_1_13&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_13&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_13">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice</span>
+                        <span class="lang-text lang-it d-none">Sotto a un Albero dorato all'estremità nord del lago, vicino al Baratro disseminato di rovine</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_13&amp;id=flasks_1_13&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_13&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Caelid</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Caelid</span>
+                <span class="lang-text lang-it d-none">Caelid</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_14" id="item_1_14">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_14" data-name-jets="under a golden tree near the three way crossroad leading to castle redmane sotto a un albero dorato vicino all'incrocio a tre vie che porta al castello di mantorosso" id="item_1_14">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_14">under a Golden Tree near the three way crossroad leading to Castle Redmane</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_14&amp;id=flasks_1_14&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_14&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_14">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree near the three way crossroad leading to Castle Redmane</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato vicino all'incrocio a tre vie che porta al Castello di Mantorosso</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_14&amp;id=flasks_1_14&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_14&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_15" id="item_1_15">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_15" data-name-jets="under a golden tree in the upper area of sellia, town of sorcery sotto a un albero dorato nella zona superiore di sellia, città della stregoneria" id="item_1_15">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_15" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_15">under a Golden Tree in the upper area of Sellia, Town of Sorcery</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_15&amp;id=flasks_1_15&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_15&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_15">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the upper area of Sellia, Town of Sorcery</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato nella zona superiore di Sellia, Città della Stregoneria</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_15&amp;id=flasks_1_15&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_15&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_16" id="item_1_16">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_16" data-name-jets="under a golden tree, south of bestial sanctum sotto a un albero dorato, a sud del santuario ferino" id="item_1_16">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_16" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_16">under a Golden Tree, south of Bestial Sanctum</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_16&amp;id=flasks_1_16&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_16&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_16">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, south of Bestial Sanctum</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a sud del Santuario ferino</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_16&amp;id=flasks_1_16&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_16&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_17" id="item_1_17">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_17" data-name-jets="reward for defeating putrid tree spirit in war-dead catacombs (after radahn) ricompensa per aver sconfitto lo spirito arboreo putrido nelle catacombe dei caduti in guerra (dopo radahn)" id="item_1_17">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_17" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_17">reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_17&amp;id=flasks_1_17&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_17&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_17">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)</span>
+                        <span class="lang-text lang-it d-none">ricompensa per aver sconfitto lo Spirito arboreo putrido nelle Catacombe dei caduti in guerra (dopo Radahn)</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_17&amp;id=flasks_1_17&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_17&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Altus Plateau</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Altus Plateau</span>
+                <span class="lang-text lang-it d-none">Altopiano di Altus</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_18" id="item_1_18">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_18" data-name-jets="under a golden tree near erdtree-grazing hill grace sotto a un albero dorato vicino al luogo di grazia colle prospiciente l'albero madre" id="item_1_18">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_18" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_18">under a Golden Tree near Erdtree-Grazing Hill Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_18&amp;id=flasks_1_18&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_18&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_18">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree near Erdtree-Grazing Hill Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato vicino al Luogo di Grazia Colle prospiciente l'Albero Madre</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_18&amp;id=flasks_1_18&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_18&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_19" id="item_1_19">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_19" data-name-jets="under a golden tree north of altus highway junction sotto a un albero dorato a nord del crocevia della strada di altus" id="item_1_19">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_19" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_19">under a Golden Tree north of Altus Highway Junction</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_19&amp;id=flasks_1_19&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_19&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_19">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree north of Altus Highway Junction</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato a nord del Crocevia della strada di Altus</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_19&amp;id=flasks_1_19&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_19&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_20" id="item_1_20">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_20" data-name-jets="under a golden tree near the minor erdtree sotto a un albero dorato vicino all'albero madre minore" id="item_1_20">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_20" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_20">under a Golden Tree near the Minor Erdtree</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_20&amp;id=flasks_1_20&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_20&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_20">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree near the Minor Erdtree</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato vicino all'Albero Madre Minore</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_20&amp;id=flasks_1_20&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_20&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_21" id="item_1_21">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_21" data-name-jets="under a golden tree, southeast of windmill village, near highway lookout tower sotto a un albero dorato, a sud-est del villaggio dei mulini, vicino alla torre di guardia della strada" id="item_1_21">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_21" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_21">under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_21&amp;id=flasks_1_21&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_21&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_21">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a sud-est del Villaggio dei Mulini, vicino alla Torre di guardia della strada</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_21&amp;id=flasks_1_21&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_21&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mt. Gelmir</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Mt. Gelmir</span>
+                <span class="lang-text lang-it d-none">Monte Gelmir</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_29" id="item_1_29">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_29" data-name-jets="under a golden tree in the ravine, south of seethewater cave sotto a un albero dorato nel burrone, a sud della caverna di acquabollente" id="item_1_29">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_29" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_29">under a Golden Tree in the ravine, south of Seethewater Cave</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_29&amp;id=flasks_1_29&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_29&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_29">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the ravine, south of Seethewater Cave</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato nel burrone, a sud della Caverna di Acquabollente</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_29&amp;id=flasks_1_29&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_29&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_30" id="item_1_30">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_30" data-name-jets="under a golden tree, northwest of road of iniquity sotto a un albero dorato, a nord-ovest del percorso dell'iniquità" id="item_1_30">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_30" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_30">under a Golden Tree, northwest of Road of Iniquity</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_30&amp;id=flasks_1_30&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_30&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_30">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, northwest of Road of Iniquity</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a nord-ovest del Percorso dell'iniquità</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_30&amp;id=flasks_1_30&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_30&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Capital Outskirts</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Capital Outskirts</span>
+                <span class="lang-text lang-it d-none">Periferia della Capitale</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_22" id="item_1_22">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_22" data-name-jets="under a large golden tree near the outer wall phantom tree grace sotto a un grande albero dorato vicino al luogo di grazia albero fantasma del muro esterno" id="item_1_22">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_22" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_22">under a large Golden Tree near the Outer Wall Phantom Tree Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_22&amp;id=flasks_1_22&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_22&amp;title=Golden Seed x2">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_22">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a large Golden Tree near the Outer Wall Phantom Tree Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un grande Albero dorato vicino al Luogo di Grazia Albero fantasma del muro esterno</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_22&amp;id=flasks_1_22&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_22&amp;title=Golden Seed x2"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_23" id="item_1_23">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_23" data-name-jets="under the same golden tree mentioned above sotto lo stesso albero dorato menzionato sopra" id="item_1_23">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_23" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_23">under the same Golden Tree mentioned above</label>
-                    <a class="ms-2" href="/map.html?x=3670&amp;y=3491&amp;id=flasks_1_23&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_23&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_23">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under the same Golden Tree mentioned above</span>
+                        <span class="lang-text lang-it d-none">sotto lo stesso Albero dorato menzionato sopra</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=3670&amp;y=3491&amp;id=flasks_1_23&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_23&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_24" id="item_1_24">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_24" data-name-jets="under a large golden tree north of the outer wall phantom tree grace sotto a un grande albero dorato a nord del luogo di grazia albero fantasma del muro esterno" id="item_1_24">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_24" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_24">under a large Golden Tree north of the Outer Wall Phantom Tree Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_24&amp;id=flasks_1_24&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_24&amp;title=Golden Seed x2">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_24">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a large Golden Tree north of the Outer Wall Phantom Tree Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un grande Albero dorato a nord del Luogo di Grazia Albero fantasma del muro esterno</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_24&amp;id=flasks_1_24&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_24&amp;title=Golden Seed x2"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_25" id="item_1_25">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_25" data-name-jets="under the same golden tree mentioned above sotto lo stesso albero dorato menzionato sopra" id="item_1_25">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_25" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_25">under the same Golden Tree mentioned above</label>
-                    <a class="ms-2" href="/map.html?x=3842&amp;y=3233&amp;id=flasks_1_25&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_25&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_25">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under the same Golden Tree mentioned above</span>
+                        <span class="lang-text lang-it d-none">sotto lo stesso Albero dorato menzionato sopra</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=3842&amp;y=3233&amp;id=flasks_1_25&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_25&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_26" id="item_1_26">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_26" data-name-jets="reward for defeating ulcerated tree spirit south of outer wall phantom tree grace ricompensa per aver sconfitto lo spirito arboreo ulcerato a sud del luogo di grazia albero fantasma del muro esterno" id="item_1_26">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_26" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_26">reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_26&amp;id=flasks_1_26&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_26&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_26">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace</span>
+                        <span class="lang-text lang-it d-none">ricompensa per aver sconfitto lo Spirito arboreo ulcerato a sud del Luogo di Grazia Albero fantasma del muro esterno</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_26&amp;id=flasks_1_26&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_26&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Leyndell, Royal Capital</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Leyndell, Royal Capital</span>
+                <span class="lang-text lang-it d-none">Leyndell, Capitale Reale</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_27" id="item_1_27">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_27" data-name-jets="under a golden tree south of the west capital rampart grace sotto a un albero dorato a sud del luogo di grazia baluardo occid. della capitale" id="item_1_27">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_27" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_27">under a Golden Tree south of the West Capital Rampart Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_27&amp;id=flasks_1_27&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_27&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_27">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree south of the West Capital Rampart Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato a sud del Luogo di Grazia Baluardo occid. della capitale</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_27&amp;id=flasks_1_27&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_27&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_28" id="item_1_28">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_28" data-name-jets="reward for defeating ulcerated tree spirit west of avenue balcony grace ricompensa per aver sconfitto lo spirito arboreo ulcerato a ovest del luogo di grazia terrazza sul viale" id="item_1_28">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_28" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_28">reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_28&amp;id=flasks_1_28&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_28&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_28">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace</span>
+                        <span class="lang-text lang-it d-none">ricompensa per aver sconfitto lo Spirito arboreo ulcerato a ovest del Luogo di Grazia Terrazza sul viale</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_28&amp;id=flasks_1_28&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_28&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mountaintops of the Giants</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Mountaintops of the Giants</span>
+                <span class="lang-text lang-it d-none">Vette dei Giganti</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_31" id="item_1_31">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_31" data-name-jets="under a golden tree in the forbidden lands sotto a un albero dorato nelle terre proibite" id="item_1_31">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_31" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_31">under a Golden Tree in the Forbidden Lands</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_31&amp;id=flasks_1_31&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_31&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_31">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the Forbidden Lands</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato nelle Terre proibite</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_31&amp;id=flasks_1_31&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_31&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_32" id="item_1_32">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_32" data-name-jets="reward for defeating ulcerated tree spirit in the giants' mountaintop catacombs ricompensa per aver sconfitto lo spirito arboreo ulcerato nelle catacombe delle vette dei giganti" id="item_1_32">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_32" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_32">reward for defeating Ulcerated Tree Spirit in the Giants' Mountaintop Catacombs</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_32&amp;id=flasks_1_32&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_32&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_32">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">reward for defeating Ulcerated Tree Spirit in the Giants' Mountaintop Catacombs</span>
+                        <span class="lang-text lang-it d-none">ricompensa per aver sconfitto lo Spirito arboreo ulcerato nelle Catacombe delle Vette dei Giganti</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_32&amp;id=flasks_1_32&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_32&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_33" id="item_1_33">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_33" data-name-jets="under a golden tree, northeast of the foot of the forge grace sotto a un albero dorato, a nord-est del luogo di grazia piedi della forgia" id="item_1_33">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_33" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_33">under a Golden Tree, northeast of the Foot of the Forge Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_33&amp;id=flasks_1_33&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_33&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_33">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, northeast of the Foot of the Forge Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a nord-est del Luogo di Grazia Piedi della Forgia</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_33&amp;id=flasks_1_33&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_33&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_34" id="item_1_34">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_34" data-name-jets="under a golden tree, in the ravine between the minor erdtree and heretical rise, guarded by a giant golem sotto a un albero dorato, nel burrone tra l'albero madre minore e la guglia eretica, sorvegliato da un golem gigante" id="item_1_34">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_34" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_34">under a Golden Tree, in the ravine between the Minor Erdtree and Heretical Rise, guarded by a Giant Golem</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_34&amp;id=flasks_1_34&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_34&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_34">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, in the ravine between the Minor Erdtree and Heretical Rise, guarded by a Giant Golem</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, nel burrone tra l'Albero Madre Minore e la Guglia eretica, sorvegliato da un golem gigante</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_34&amp;id=flasks_1_34&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_34&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Consecrated Snowfield</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Consecrated Snowfield</span>
+                <span class="lang-text lang-it d-none">Terre del sacro Albero Madre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_35" id="item_1_35">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_35" data-name-jets="under a golden tree, south of inner consecrated snowfield grace sotto a un albero dorato, a sud del luogo di grazia interno delle terre del sacro albero madre" id="item_1_35">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_35" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_35">under a Golden Tree, south of Inner Consecrated Snowfield Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_35&amp;id=flasks_1_35&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_35&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_35">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, south of Inner Consecrated Snowfield Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a sud del Luogo di Grazia Interno delle Terre del sacro Albero Madre</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_35&amp;id=flasks_1_35&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_35&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_36" id="item_1_36">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_36" data-name-jets="under a golden tree, west of ordina, liturgical town sotto a un albero dorato, a ovest di ordina, la città liturgica" id="item_1_36">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_36" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_36">under a Golden Tree, west of Ordina, Liturgical Town</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_36&amp;id=flasks_1_36&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_36&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_36">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, west of Ordina, Liturgical Town</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a ovest di Ordina, la città liturgica</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_36&amp;id=flasks_1_36&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_36&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Crumbling Farum Azula</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Crumbling Farum Azula</span>
+                <span class="lang-text lang-it d-none">Farum Azula in frantumi</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_37" id="item_1_37">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_37" data-name-jets="under a golden tree in the middle of the dragon temple sotto a un albero dorato in mezzo al tempio del drago" id="item_1_37">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_37" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_37">under a Golden Tree in the middle of the Dragon Temple</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_37&amp;id=flasks_1_37&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_37&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_37">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the middle of the Dragon Temple</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato in mezzo al Tempio del drago</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_37&amp;id=flasks_1_37&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_37&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_38" id="item_1_38">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_38" data-name-jets="under a golden tree, southeast of dragon temple rooftop grace sotto a un albero dorato, a sud-est del luogo di grazia tetto del tempio del drago" id="item_1_38">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_38" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_38">under a Golden Tree, southeast of Dragon Temple Rooftop Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_38&amp;id=flasks_1_38&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_38&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_38">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree, southeast of Dragon Temple Rooftop Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato, a sud-est del Luogo di Grazia Tetto del Tempio del drago</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_38&amp;id=flasks_1_38&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_38&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Siofra River</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Siofra River</span>
+                <span class="lang-text lang-it d-none">Fiume Siofra</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_39" id="item_1_39">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_39" data-name-jets="under a golden tree accessible by crossing a stone bridge southwest of the below the well site of grace sotto a un albero dorato accessibile attraversando un ponte di pietra a sud-ovest del luogo di grazia pozzo inferiore" id="item_1_39">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_39" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_39">under a Golden Tree accessible by crossing a stone bridge southwest of the Below the Well Site of Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_39&amp;id=flasks_1_39&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_39&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_39">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree accessible by crossing a stone bridge southwest of the Below the Well Site of Grace</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato accessibile attraversando un ponte di pietra a sud-ovest del Luogo di Grazia Pozzo inferiore</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_39&amp;id=flasks_1_39&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_39&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mohgwyn Palace</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Mohgwyn Palace</span>
+                <span class="lang-text lang-it d-none">Palazzo di Mohgwyn</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_40" id="item_1_40">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_40" data-name-jets="under a golden tree in the middle of the lake, surrounded by giant birds sotto a un albero dorato in mezzo al lago, circondato da uccelli giganti" id="item_1_40">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_40" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_40">under a Golden Tree in the middle of the lake, surrounded by giant birds</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_40&amp;id=flasks_1_40&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_40&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_40">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the middle of the lake, surrounded by giant birds</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato in mezzo al lago, circondato da uccelli giganti</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_40&amp;id=flasks_1_40&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_40&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Ainsel River</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ainsel River</span>
+                <span class="lang-text lang-it d-none">Fiume Ainsel</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_41" id="item_1_41">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_41" data-name-jets="under a golden tree in the northwest of nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the moon of nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom sotto a un albero dorato nel nord-ovest di nokstella; sali le scale fino alla cima della città, esci dall'edificio più alto (quello con il talismano luna di nokstella) a sinistra, scendi l'ascensore lì vicino per trovare l'albero quando riemergerai in fondo" id="item_1_41">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_41" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_41">under a Golden Tree in the northwest of Nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the Moon of Nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_41&amp;id=flasks_1_41&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_41&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_41">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">under a Golden Tree in the northwest of Nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the Moon of Nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom</span>
+                        <span class="lang-text lang-it d-none">sotto a un Albero dorato nel nord-ovest di Nokstella; sali le scale fino alla cima della città, esci dall'edificio più alto (quello con il talismano Luna di Nokstella) a sinistra, scendi l'ascensore lì vicino per trovare l'albero quando riemergerai in fondo</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_41&amp;id=flasks_1_41&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_41&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_1_42" id="item_1_42">
+                <li class="list-group-item searchable ps-0" data-id="flasks_1_42" data-name-jets="reward for defeating putrid tree spirit in lake of rot ricompensa per aver sconfitto lo spirito arboreo putrido nel lago putrescente" id="item_1_42">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="flasks_1_42" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_1_42">reward for defeating Putrid Tree Spirit in Lake of Rot</label>
-                    <a class="ms-2" href="/map.html?target=flasks_1_42&amp;id=flasks_1_42&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_42&amp;title=Golden Seed">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_1_42">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">reward for defeating Putrid Tree Spirit in Lake of Rot</span>
+                        <span class="lang-text lang-it d-none">ricompensa per aver sconfitto lo Spirito arboreo putrido nel Lago putrescente</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_1_42&amp;id=flasks_1_42&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_1_42&amp;title=Golden Seed"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
@@ -668,137 +1176,195 @@
         <div class="card shadow-sm mb-3" id="flasks_section_1">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_1Col" data-bs-toggle="collapse" href="#flasks_1Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#flasks_1Col" data-bs-toggle="collapse" href="#flasks_1Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/bolstering/edited/00384.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Sacred Tears</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Sacred Tears</span>
+                  <span class="lang-text lang-it d-none">Lacrime sacre</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="flasks_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="flasks_1Col">
-              <h5>Limgrave</h5>
-              <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_4" id="item_2_4">
+              <ul class="list-group-flush mb-0 ps-0 ps-md-4"></ul>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Limgrave</span>
+                <span class="lang-text lang-it d-none">Sepolcride</span>
+              </h5>
+              <ul class="list-group-flush mb-0">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_4" data-name-jets="third church of marika, in east limgrave terza chiesa di marika, a sepolcride orientale" id="item_2_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_4">Third Church of Marika, in East Limgrave</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_4&amp;id=flasks_2_4&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_4&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Third Church of Marika, in East Limgrave</span>
+                        <span class="lang-text lang-it d-none">Terza chiesa di Marika, a Sepolcride orientale</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_4&amp;id=flasks_2_4&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_4&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Weeping Peninsula</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Weeping Peninsula</span>
+                <span class="lang-text lang-it d-none">Penisola del Pianto</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_1" id="item_2_1">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_1" data-name-jets="callu baptismal church, in the middle of the weeping peninsula chiesa battesimale di callu, nel mezzo della penisola del pianto" id="item_2_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_1">Callu Baptismal Church, in the middle of the Weeping Peninsula</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_1&amp;id=flasks_2_1&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_1&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Callu Baptismal Church, in the middle of the Weeping Peninsula</span>
+                        <span class="lang-text lang-it d-none">Chiesa battesimale di Callu, nel mezzo della Penisola del Pianto</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_1&amp;id=flasks_2_1&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_1&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_2" id="item_2_2">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_2" data-name-jets="church of pilgrimage, north of weeping peninsula chiesa del pellegrinaggio, a nord della penisola del pianto" id="item_2_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_2">Church of Pilgrimage, north of Weeping Peninsula</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_2&amp;id=flasks_2_2&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_2&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Pilgrimage, north of Weeping Peninsula</span>
+                        <span class="lang-text lang-it d-none">Chiesa del Pellegrinaggio, a nord della Penisola del Pianto</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_2&amp;id=flasks_2_2&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_2&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_3" id="item_2_3">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_3" data-name-jets="fourth church of marika, west of weeping peninsula quarta chiesa di marika, a ovest della penisola del pianto" id="item_2_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_3">Fourth Church of Marika, west of Weeping Peninsula</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_3&amp;id=flasks_2_3&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_3&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Fourth Church of Marika, west of Weeping Peninsula</span>
+                        <span class="lang-text lang-it d-none">Quarta chiesa di Marika, a ovest della Penisola del Pianto</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_3&amp;id=flasks_2_3&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_3&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Liurnia of the Lakes</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Liurnia of the Lakes</span>
+                <span class="lang-text lang-it d-none">Liurnia lacustre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_5" id="item_2_5">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_5" data-name-jets="church of irith, southern part of liurnia of the lakes chiesa di irith, parte meridionale di liurnia lacustre" id="item_2_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_5">Church of Irith, southern part of Liurnia of the Lakes</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_5&amp;id=flasks_2_5&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_5&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Irith, southern part of Liurnia of the Lakes</span>
+                        <span class="lang-text lang-it d-none">Chiesa di Irith, parte meridionale di Liurnia lacustre</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_5&amp;id=flasks_2_5&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_5&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_6" id="item_2_6">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_6" data-name-jets="bellum church, on the way to the grand lift of dectus chiesa di bellum, sulla strada per il montacarichi di dectus" id="item_2_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_6">Bellum Church, on the way to the Grand Lift of Dectus</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_6&amp;id=flasks_2_6&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_6&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Bellum Church, on the way to the Grand Lift of Dectus</span>
+                        <span class="lang-text lang-it d-none">Chiesa di Bellum, sulla strada per il Montacarichi di Dectus</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_6&amp;id=flasks_2_6&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_6&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_7" id="item_2_7">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_7" data-name-jets="church of inhibition, northeast of bellum highway forest chiesa dell'inibizione, a nord-est della foresta della strada di bellum" id="item_2_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_7">Church of Inhibition, northeast of Bellum Highway Forest</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_7&amp;id=flasks_2_7&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_7&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Inhibition, northeast of Bellum Highway Forest</span>
+                        <span class="lang-text lang-it d-none">Chiesa dell'Inibizione, a nord-est della Foresta della strada di Bellum</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_7&amp;id=flasks_2_7&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_7&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Caelid</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Caelid</span>
+                <span class="lang-text lang-it d-none">Caelid</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_8" id="item_2_8">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_8" data-name-jets="church of plague, accessible through sellia, town of sorcery chiesa della pestilenza, accessibile attraverso sellia, città della stregoneria" id="item_2_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_8">Church of Plague, accessible through Sellia, Town of Sorcery</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_8&amp;id=flasks_2_8&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_8&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Plague, accessible through Sellia, Town of Sorcery</span>
+                        <span class="lang-text lang-it d-none">Chiesa della Pestilenza, accessibile attraverso Sellia, Città della Stregoneria</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_8&amp;id=flasks_2_8&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_8&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Altus Plateau</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Altus Plateau</span>
+                <span class="lang-text lang-it d-none">Altopiano di Altus</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_9" id="item_2_9">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_9" data-name-jets="second church of marika, north of altus highway junction grace seconda chiesa di marika, a nord del luogo di grazia crocevia della strada di altus" id="item_2_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_9">Second Church of Marika, north of Altus Highway Junction Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_9&amp;id=flasks_2_9&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_9&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Second Church of Marika, north of Altus Highway Junction Grace</span>
+                        <span class="lang-text lang-it d-none">Seconda chiesa di Marika, a nord del Luogo di Grazia Crocevia della strada di Altus</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_9&amp;id=flasks_2_9&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_9&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_10" id="item_2_10">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_10" data-name-jets="stormcaller church, west of rampartside path grace chiesa dell'evocastempeste, a ovest del luogo di grazia sentiero del baluardo" id="item_2_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_10">Stormcaller Church, west of Rampartside Path Grace</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_10&amp;id=flasks_2_10&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_10&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Stormcaller Church, west of Rampartside Path Grace</span>
+                        <span class="lang-text lang-it d-none">Chiesa dell'Evocastempeste, a ovest del Luogo di Grazia Sentiero del baluardo</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_10&amp;id=flasks_2_10&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_10&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mountaintops of the Giants</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Mountaintops of the Giants</span>
+                <span class="lang-text lang-it d-none">Vette dei Giganti</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_11" id="item_2_11">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_11" data-name-jets="church of repose, east of grand lift of rold chiesa del riposo, a est del grande montacarichi di rold" id="item_2_11">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_11">Church of Repose, east of Grand Lift of Rold</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_11&amp;id=flasks_2_11&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_11&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_11">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Repose, east of Grand Lift of Rold</span>
+                        <span class="lang-text lang-it d-none">Chiesa del Riposo, a est del Grande Montacarichi di Rold</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_11&amp;id=flasks_2_11&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_11&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="flasks_2_12" id="item_2_12">
+                <li class="list-group-item searchable ps-0" data-id="flasks_2_12" data-name-jets="first church of marika, southeastern most part of mountaintops of the giants prima chiesa di marika, nella parte più a sud-est delle vette dei giganti" id="item_2_12">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="flasks_2_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="flasks_2_12">First Church of Marika, southeastern most part of Mountaintops of the Giants</label>
-                    <a class="ms-2" href="/map.html?target=flasks_2_12&amp;id=flasks_2_12&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_12&amp;title=Sacred Tear">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="flasks_2_12">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">First Church of Marika, southeastern most part of Mountaintops of the Giants</span>
+                        <span class="lang-text lang-it d-none">Prima chiesa di Marika, nella parte più a sud-est delle Vette dei Giganti</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=flasks_2_12&amp;id=flasks_2_12&amp;link=/checklists/golden_seeds_sacred_tears.html%23item_2_12&amp;title=Sacred Tear"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
@@ -812,11 +1378,14 @@
     </a>
     <script>window.current_page_id = "flasks";
 </script>
+    <script>window.DONE_HTML = '<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>';
+</script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/progress.js"></script>
     <script src="/js/item_links.js"></script>
-    <script src="/js/common.js"></script>
+    <script src="/js/common.js?v=1.1"></script>
+    <script src="/js/sync.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
@@ -837,29 +1406,212 @@
                     var jet = new Jets({
                         searchTag: "#flasks_search",
                         contentTag: "#flasks_list ul",
+                        searchSelector: '*and',
+                        manualContentHandling: function(node) {
+                            if ($('#flasks_name_only').is(':checked')) {
+                                return node.getAttribute('data-name-jets') || '';
+                            }
+                            var $clone = $(node).clone();
+                            $clone.find('.no-highlight').remove();
+                            return $clone.text();
+                        },
                         didSearch: function(search_phrase) {
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
-                            $(".card").each(function(index, el) {
-                                if (!search_phrase) {
-                                    $(el).removeClass('d-none');
-                                    return;
+                            // Only handled by Jets if Regex off.
+                            if ($('#flasks_regex').is(':checked')) return;
+                            
+                            // Un-hide all sections to accurately measure visibility
+                            $(".card").removeClass('d-none');
+                            $("#flasks_list h5").removeClass('d-none');
+                            $("#flasks_list h5").nextUntil('h5').removeClass('d-none');
+                            $(".toc_link").closest('li').removeClass('d-none');
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                                return;
+                            }
+                            
+                            var clean_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            var words = clean_phrase.split(' ');
+                            var searchAtt = $('#flasks_name_only').is(':checked') ? 'data-name-jets' : 'data-jets';
+                            
+                            var filterFunc = function() {
+                                var text = ($(this).attr(searchAtt) || '').toLowerCase();
+                                for (var i = 0; i < words.length; i++) {
+                                    if (text.indexOf(words[i]) === -1) return false;
                                 }
-                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
-                                if (! hasResults ) {
+                                return true;
+                            };
+                            
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                var hasResults = $(el).find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
                                     $(el).addClass('d-none');
-                                } else {
-                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
                                 }
                             });
+                            
+                            $("#flasks_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                var hasResults = $subsection.find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
+                                    $h5.addClass('d-none');
+                                    $subsection.addClass('d-none');
+                                }
+                            });
+                        },
+                    });
+                    function updateSearch() {
+                        var search_phrase = $("#flasks_search").val().trim();
+                        var isRegex = $('#flasks_regex').is(':checked');
+
+                        if (isRegex) {
+                            var regex = null;
+                            if (search_phrase.length > 0) {
+                                try {
+                                    regex = new RegExp(search_phrase, 'i');
+                                } catch (e) {
+                                    return; // Invalid regex, ignore
+                                }
+                            }
+                            
+                            // Disable jets css injection manually
+                            if (jet.styleTag) {
+                                jet.styleTag.innerHTML = '';
+                            }
+                            
+                            $(".searchable").each(function() {
+                                var text = '';
+                                if ($('#flasks_name_only').is(':checked')) {
+                                    text = $(this).attr('data-name-jets') || '';
+                                } else {
+                                    var $clone = $(this).clone();
+                                    $clone.find('.no-highlight').remove();
+                                    text = $clone.attr('data-jets') || $clone.text() || '';
+                                }
+                                
+                                if (!search_phrase || search_phrase.length === 0) {
+                                    $(this).removeClass('d-none-regex');
+                                } else if (regex && text.match(regex)) {
+                                    $(this).removeClass('d-none-regex');
+                                } else {
+                                    $(this).addClass('d-none-regex');
+                                }
+                            });
+                            
+                            // Manage empty cards/sections like Jets did
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                if (!hasResults) {
+                                    $(el).addClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                }
+                            });
+                            $("#flasks_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                if (!search_phrase) {
+                                    $h5.removeClass('d-none');
+                                    $subsection.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $subsection.find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                $h5.toggleClass('d-none', !hasResults);
+                                $subsection.toggleClass('d-none', !hasResults);
+                            });
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                            }
+                            
+                            // Highlighting for regex
+                            $("#flasks_list").unhighlight();
+                            if (search_phrase.length > 0 && regex) {
+                                try {
+                                    if ($('#flasks_name_only').is(':checked')) {
+                                        $("#flasks_list .item-name").highlight(regex);
+                                    } else {
+                                        $("#flasks_list").highlight(regex);
+                                    }
+                                } catch(e) {}
+                            }
+                            
+                        } else {
+                            // Non-regex mode: Let Jets handle normal search filtering
+                            $(".searchable").removeClass('d-none-regex');
+                            if (jet._applyCSS) {
+                                jet._applyCSS();
+                            }
+                            jet.options.didSearch(search_phrase);
+                            
+                            // Highlighting for normal text
+                            $("#flasks_list").unhighlight();
+                            if (search_phrase && search_phrase.length > 0) {
+                                if ($('#flasks_name_only').is(':checked')) {
+                                    $("#flasks_list .item-name").highlight(search_phrase);
+                                } else {
+                                    $("#flasks_list").highlight(search_phrase);
+                                }
+                            }
+                        }
+                    }
+
+                    $("#flasks_search").keyup(function(e) {
+                        updateSearch();
+                    });
+                    
+                    $('#flasks_regex').on('change', function() {
+                        updateSearch();
+                    });
+                    
+                    $('#flasks_name_only').on('change', function() {
+                        if (jet.options) {
+                            jet.options.manualContentHandling = function(node) {
+                                if ($('#flasks_name_only').is(':checked')) {
+                                    return node.getAttribute('data-name-jets') || '';
+                                }
+                                var $clone = $(node).clone();
+                                $clone.find('.no-highlight').remove();
+                                return $clone.text();
+                            };
+                        }
+                        if (jet._setJets) {
+                            jet._setJets('', true);
+                        }
+                        
+                        if ($('#flasks_regex').is(':checked')) {
+                            updateSearch();
+                        } else {
+                            // Trigger Jets' internal search and our didSearch callback
+                            $('#flasks_search').trigger('input');
                         }
                     });
-                    $("#flasks_search").keyup(function() {
-                        $("#flasks_list").unhighlight();
-                        $("#flasks_list").highlight($(this).val());
-                    });
+                    updateSearch();
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
+    <script src="/js/checklists.js?v=1.1"></script>
   </body>
 </html>

@@ -1,234 +1,318 @@
 title: Bell Bearings
+title_it: "Globi cinerei"
 id: bell_bearings
 map_icon: "/map/icons/MENU_MAP_80.png"
 description: "Bell bearings should be given to the Twin Maiden Husks at the Roundtable Hold. Each one found unlocks a unique selection of items for the shop, either adding it to the base stock or creating a new special sub-inventory within \"Bell bearing shops.\" Some are found in the world or as boss drops; additionally, every NPC who sells items will drop a bell bearing if they die so that you can still access what they sell. Some bell bearings, including all from the unnamed Merchants of the world, can only be collected by murder, the only benefit to which is the convenience of their inventory being available in the Roundtable Hold. Bell bearings from merchants and NPCs reset upon NG+, but the others don't."
+description_it: "I Globi cinerei vanno consegnati ai Resti di Leggidita gemelle alla Rocca della Tavola Rotonda. Ognuno di essi sblocca una selezione unica di oggetti per il negozio, aggiungendoli all'inventario di base o creando un nuovo sotto-inventario speciale nei \"Negozi dei Globi cinerei\". Alcuni si trovano nel mondo o vengono lasciati dai boss; inoltre, ogni PNG che vende oggetti lascerà un globo cinereo se muore, in modo da poter ancora accedere a ciò che vende. Alcuni globi cinerei, inclusi tutti quelli dei Mercanti senza nome del mondo, possono essere ottenuti solo uccidendoli, e l'unico vantaggio è la comodità di avere il loro inventario disponibile alla Tavola Rotonda. I globi cinerei dei mercanti e dei PNG si resettano nel NG+, gli altri no."
 sections:
   -
     title: "Smithing-Stone Miner's Bell Bearings"
+    title_it: "Globi cinerei del minatore (Pietra da forgiatura)"
     icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
+    table_it: ["", "Sblocca", "Luogo"]
     table_widths: [1, 2, 9]
     items:
       - id: "1_1"
         data: ["[1]", "Smithing Stone 1/2", "Dropped by the boss of the <a href=\"landmarks_locations.html#item_2_5\">Raya Lucaria Crystal Tunnels</a>."]
+        data_it: ["[1]", "Pietra da forgiatura [1]/[2]", "Lasciato cadere dal boss della <a href=\"landmarks_locations.html#item_2_5\">Galleria di cristallo di Raya Lucaria</a>."]
       - id: "1_2"
         data: ["[2]", "Smithing Stone 3/4", "In a chest in the Sealed Tunnel, North-East of the Minor Erdtree Church next to the South-West gate of Leyndell. The tunnel is in the river of the outer moat. Inside the Tunnel you will find lots of Illusory Walls. In a chest behind the Illusory Wall just before reaching the elevator is the Bell Bearing."]
+        data_it: ["[2]", "Pietra da forgiatura [3]/[4]", "In un forziere nella Galleria sigillata, a nord-est della Chiesa dell'Albero Madre Minore vicino al cancello sud-ovest di Leyndell. La galleria si trova nel fiume del fossato esterno. All'interno della galleria troverai molti Muri illusori. Il Globo cinereo è in un forziere dietro un Muro illusorio appena prima di raggiungere l'ascensore."]
       - id: "1_3"
         data: ["[3]", "Smithing Stone 5/6", "Under the Zamor Ruins at the entrance of Mountaintops of the Giants. In the ruins, find a staircase going under the ruins and open the chest for the Bell Bearing."]
+        data_it: ["[3]", "Pietra da forgiatura [5]/[6]", "Sotto le Rovine di Zamor all'ingresso delle Vette dei Giganti. Nelle rovine, trova una scala che scende sottoterra e apri il forziere per ottenere il Globo cinereo."]
       - id: "1_4"
         data: ["[4]", "Smithing Stone 7/8", "Dropped by the <a href=\"bosses.html#item_11_2\">Godskin Duo</a> in Crumbling Farum Azula."]
+        data_it: ["[4]", "Pietra da forgiatura [7]/[8]", "Lasciato cadere dal <a href=\"bosses.html#item_11_2\">Duo Sacriderma</a> a Farum Azula in frantumi."]
   -
     title: "Somberstone Miner's Bell Bearings"
+    title_it: "Globi cinerei del minatore (Pietra funerea)"
     icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
+    table_it: ["", "Sblocca", "Luogo"]
     table_widths: [1, 2, 9]
     items:
       - id: "2_1"
         data: ["[1]", "Somber Stone 1/2", "Dropped by the boss of <a href=\"landmarks_locations.html#item_3_6\">Sellia Crystal Tunnel</a>. Fastest way to the tunnel is by taking the teleporter chest located in the ruins at the South end of the lake in Limgrave. Under the ruins and past some rats is a chest that will teleport you to the Tunnel."]
+        data_it: ["[1]", "Pietra funerea [1]/[2]", "Lasciato cadere dal boss della <a href=\"landmarks_locations.html#item_3_6\">Galleria di cristallo di Sellia</a>. Il modo più veloce per arrivarci è prendere il forziere teletrasportatore nelle rovine all'estremità sud del lago a Sepolcride. Sotto le rovine, oltre ad alcuni ratti, c'è un forziere che ti teletrasporterà alla galleria."]
       - id: "2_2"
         data: ["[2]", "Somber Stone 3/4", "Dropped by the boss of <a href=\"landmarks_locations.html#item_4_2\">Altus Tunnel</a>."]
+        data_it: ["[2]", "Pietra funerea [3]/[4]", "Lasciato cadere dal boss della <a href=\"landmarks_locations.html#item_4_2\">Galleria di Altus</a>."]
       - id: "2_3"
         data: ["[3]", "Somber Stone 5/6", "Found on a body at the First Church of Marika in East Mountaintops of the Giants."]
+        data_it: ["[3]", "Pietra funerea [5]/[6]", "Trovato su un cadavere alla Prima chiesa di Marika, nella parte est delle Vette dei Giganti."]
       - id: "2_4"
         data: ["[4]", "Somber Stone 7/8", "Next to the Tempest-Facting Balcony Grace in Crumbling Farum Azula."]
+        data_it: ["[4]", "Pietra funerea [7]/[8]", "Vicino al Luogo di Grazia Terrazza sulle tempeste a Farum Azula in frantumi."]
       - id: "2_5"
         data: ["[5]", "Somber Stone 9", "In Crumbling Farum Azula. Little hard to explain. From the Dragon Temple Rooftop Grace, hop down to where all the nasty birds are. Past the birds is a dragon. Going past the dragon to the right is a bunch of demi-humans. Past them is a ruin that's fallen over and become a bridge. In the next building on the right is a corpse with the Bell Bearing."]
+        data_it: ["[5]", "Pietra funerea [9]", "A Farum Azula in frantumi. Dal Luogo di Grazia Tetto del Tempio del drago, scendi dove ci sono i grandi volatili. Oltre gli uccelli c'è un drago. Oltrepassando il drago a destra c'è un gruppo di semi-umani. Oltre di loro c'è una rovina crollata che fa da ponte. Nel prossimo edificio a destra c'è un cadavere con il Globo cinereo."]
   -
     title: "Glovewort Picker's Bell Bearings"
+    title_it: "Globi cinerei del raccoglitore di convallaria"
     icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
+    table_it: ["", "Sblocca", "Luogo"]
     table_widths: [1, 2, 9]
     items:
       - id: "3_1"
         data: ["[1]", "Grave Glovewort 1/2/3", "Dropped by the boss of <a href=\"landmarks_locations.html#item_5_6\">Wyndham Catacombs</a> located on North of the Lux Ruins, North of the exit of the \"Cowards\" Path aka Ruins-Strewn Precipice."]
+        data_it: ["[1]", "Convallaria sepolcrale [1]/[2]/[3]", "Lasciato cadere dal boss delle <a href=\"landmarks_locations.html#item_5_6\">Catacombe di Wyndham</a>, situate a nord delle Rovine di Lux, a nord dell'uscita del Baratro disseminato di rovine."]
       - id: "3_2"
         data: ["[2]", "Grave Glovewort 4/5/6", "Dropped by the boss of <a href=\"landmarks_locations.html#item_7_2\">Giants' Mountaintop Catacomb</a> located North of the Zamor Ruins. On the path North, when you meet the fire guys, turn to the right and down the stairs to the catacomb."]
+        data_it: ["[2]", "Convallaria sepolcrale [4]/[5]/[6]", "Lasciato cadere dal boss delle <a href=\"landmarks_locations.html#item_7_2\">Catacombe delle Vette dei Giganti</a>, situate a nord delle Rovine di Zamor. Sul sentiero a nord, quando incontri i nemici di fuoco, gira a destra e scendi le scale verso le catacombe."]
       - id: "3_3"
         data: ["[3]", "Grave Glovewort 7/8/9", "In Crumbling Farum Azula in a lake. Go down the elevator South-West of the room that is North-West from the Crumbling Beast Grave Depths Grace. You'll see a lake down the path and the Bell Bearing is there."]
+        data_it: ["[3]", "Convallaria sepolcrale [7]/[8]/[9]", "A Farum Azula in frantumi in un lago. Scendi l'ascensore a sud-ovest della stanza che si trova a nord-ovest del Luogo di Grazia Profondità della tomba della bestia. Vedrai un lago lungo il sentiero e il Globo cinereo si trova lì."]
   -
-    title: "Ghostform Picker's Bell Bearings"
+    title: "Ghost-Glovewort Picker's Bell Bearings"
+    title_it: "Globi cinerei del raccoglitore di convallaria spettrale"
     icon: "/img/icons/keys/edited/03142.png"
     table: ["", "Unlocks", "Location"]
+    table_it: ["", "Sblocca", "Luogo"]
     table_widths: [1, 2, 9]
     items:
       - id: "4_1"
         data: ["[1]", "Ghost Glovewort 1/2/3", "Just ahead of the Nokron, Eternal City Grace."]
+        data_it: ["[1]", "Convallaria spettrale [1]/[2]/[3]", "Appena oltre il Luogo di Grazia Nokron, Città Eterna."]
       - id: "4_2"
         data: ["[2]", "Ghost Glovewort 4/5/6", "In a chest in Nokstella, Eternal City. From the Grace head West and it will be in a building on the left in the chest."]
+        data_it: ["[2]", "Convallaria spettrale [4]/[5]/[6]", "In un forziere a Nokstella, Città Eterna. Dal Luogo di Grazia vai verso ovest e sarà in un edificio sulla sinistra dentro un forziere."]
       - id: "4_3"
         data: ["[3]", "Ghost Glovewort 7/8/9", "Requires Haligtree Medallion. In Miquella's Haligtree. From the Haligtree Roots Grace, go up the elevator and outside the church. Turn left and go down to all the shrimp men and it will next to a grave."]
+        data_it: ["[3]", "Convallaria spettrale [7]/[8]/[9]", "Richiede il Ciondolo segreto del Sacro Albero. Nel Sacro Albero di Miquella. Dal Luogo di Grazia Radici del Sacro Albero, sali sull'ascensore ed esci dalla chiesa. Gira a sinistra e scendi verso gli uomini gambero, si trova vicino a una tomba."]
   -
     title: "Peddlers' Bell Bearings"
+    title_it: "Globi cinerei dei venditori ambulanti"
     icon: "/img/icons/keys/edited/03142.png"
     table: ["Version", "Unlocks", "Location"]
+    table_it: ["Versione", "Sblocca", "Luogo"]
     table_widths: [2, 2, 8]
     items:
       - id: "5_1"
         data: ["Bone", "Thin Animal Bones<br>Hefty Beast Bone", "Dropped by <a href=\"bosses.html#item_2_20\">Bell Bearing Hunter</a> in Warmaster's Shack, Limgrave."]
+        data_it: ["Osso", "Ossa fini di bestia<br>Ossa spesse di bestia", "Lasciato cadere dal <a href=\"bosses.html#item_2_20\">Cacciatore di globi cinerei</a> nella Capanna del Maestro d'armi, Sepolcride."]
       - id: "5_2"
         data: ["Meat", "Sliver of Meat<br>Lump of Flesh<br>Turtle Neck Meat", "Dropped by <a href=\"bosses.html#item_4_14\">Bell Bearing Hunter</a> in Church of Vows, Liurnia."]
+        data_it: ["Carne", "Pezzo di carne<br>Massa di carne<br>Carne di collo di tartaruga", "Lasciato cadere dal <a href=\"bosses.html#item_4_14\">Cacciatore di globi cinerei</a> nella Chiesa dei Voti, Liurnia."]
       - id: "5_3"
         data: ["Gravity", "Gravity Stone Fan<br>Gravity Stone Chunk", "Dropped by <a href=\"bosses.html#item_5_19\">Bell Bearing Hunter</a> in Isolated Merchant's Shack, Dragonbarrow, Caelid."]
+        data_it: ["Gravità", "Pietra gravitazionale a ventaglio<br>Pezzo di pietra gravitazionale", "Lasciato cadere dal <a href=\"bosses.html#item_5_19\">Cacciatore di globi cinerei</a> nella Capanna del mercante isolato, Tumulodrago, Caelid."]
       - id: "5_4"
         data: ["Medicine", "Neutralizing Boluses<br>Stanching Boluses<br>Thawfrost Boluses<br>Stimulating Boluses", "Dropped by <a href=\"bosses.html#item_6_16\">Bell Bearing Hunter</a> in Hermit Merchant's Shack, Capital Outskirts."]
+        data_it: ["Medicina", "Boli neutralizzanti<br>Boli coagulanti<br>Boli scongelanti<br>Boli stimolanti", "Lasciato cadere dal <a href=\"bosses.html#item_6_16\">Cacciatore di globi cinerei</a> nella Capanna del mercante eremita, Periferia della Capitale."]
   -
     title: "NPCs' Bell Bearings"
+    title_it: "Globi cinerei dei PNG"
     table: ["NPC", "Obtained naturally?", "Notes"]
+    table_it: ["PNG", "Ottenuto naturalmente?", "Note"]
     table_widths: [3, 2, 7]
     items:
       - id: "6_1"
         icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_36_5\">Bernahl</a>", "No", "The only chance to get Bernahl's bell bearing is murdering him at his initial location in the Warmaster's Shack in Limgrave. The only other place you see him in person is the combat-free Volcano Manor; when he moves on from there, he leaves his sword behind, which functions as his shop from then on, and at the end of his questline, he doesn't drop it. His shop also adds unique items when you meet him at Volcano Manor, so getting his bell bearing at all locks you out of buying these exclusive Ashes of War."]
+        data_it: ["<a href=\"npc_questlines.html#item_36_5\">Bernahl</a>", "No", "L'unica possibilità di ottenere il globo cinereo di Bernahl è ucciderlo nella sua posizione iniziale, la Capanna del Maestro d'armi a Sepolcride. L'altro luogo in cui lo incontri di persona è a Villa Vulcano, dove non si combatte; quando se ne va da lì, lascia la sua spada che funziona come negozio da quel momento in poi, ma alla fine della sua missione non lo lascerà cadere. Il suo negozio aggiunge anche oggetti unici quando lo incontri a Villa Vulcano, quindi ottenere il suo globo cinereo ti impedisce di comprare le esclusive Ceneri di Guerra."]
       - id: "6_2"
         icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#item_11_4\">Blackguard</a>", "Depends", "If you follow both his and Dung Eater's questlines, you can loot his bell bearing once he dies in Capital Outskirts. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
+        data_it: ["<a href=\"npc_questlines.html#item_11_4\">Guardia nera</a>", "Dipende", "Se segui sia la sua missione sia quella del Mangiasterco, puoi saccheggiare il suo globo cinereo dopo la sua morte nella Periferia della Capitale. Il catalogo del suo negozio (e del suo globo) si amplia progredendo nella sua missione, perciò non ucciderlo troppo presto."]
       - id: "6_3"
         icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#item_7_8\">Corhyn</a>", "Yes", "If you follow his questline, at the end in Leyndell, Capital of Ash or Mountaintops of the Giants, reload after finding him for the final time and you'll find his bell bearing. His shop inventory (and thus his bell bearing) adds items over his questline, in addition to any prayerbooks, so don't kill him early."]
+        data_it: ["<a href=\"npc_questlines.html#item_7_8\">Corhyn</a>", "Sì", "Se segui la sua missione fino alla fine a Leyndell, Capitale Cinerea o nelle Vette dei Giganti, ricarica l'area dopo averlo trovato per l'ultima volta per ottenere il globo cinereo. Il suo inventario si arricchisce col tempo (inclusi i ricettari che gli consegni), quindi evita di ucciderlo prematuramente."]
       - id: "6_4"
         icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#item_23_5\">D, Hunter of the Dead</a>", "Yes", "Lootable at the end of his questline in Roundtable Hold."]
+        data_it: ["<a href=\"npc_questlines.html#item_23_5\">D, Cacciatore di Morti</a>", "Sì", "Ottenibile alla fine della sua missione alla Rocca della Tavola Rotonda."]
       - id: "6_5"
         icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_15\">Gostoc</a>", "No", "Gostoc never becomes hostile. To obtain his bell bearing, you must murder him at some point. His shop inventory (and thus his bell bearing) adds a very rare item at the end of his questline, so don't kill him early if you want it."]
+        data_it: ["<a href=\"npc_questlines.html#npc_quests_section_15\">Gostoc</a>", "No", "Gostoc non diventerà mai ostile. Otterrai il suo globo cinereo solo uccidendolo. Il suo negozio aggiunge un oggetto molto raro alla fine della sua missione, quindi aspetta a ucciderlo se ti interessa l'oggetto in questione."]
       - id: "6_6"
         icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_31_20\">Gowry</a>", "Depends", "At the end of Gowry and Millicent's intertwined questline, he will die naturally if you side against Millicent. If you side with her, you'll have to kill him yourself, in which case he won't respawn like he usually does and you'll get his loot and bell bearing."]
+        data_it: ["<a href=\"npc_questlines.html#item_31_20\">Gowry</a>", "Dipende", "Alla fine delle missioni intrecciate di Gowry e Millicent, Gowry morirà da sé se decidi di scontrarti contro Millicent. Se ti schieri con lei dovrai ucciderlo tu stesso. In questo caso non rinascerà come fa solitamente, e rilascerà il suo equipaggiamento e il globo cinereo."]
       - id: "6_7"
         icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_41_5\">Iji</a>", "Yes", "Looted off his body at the end of his questline at his usual spot in Liurnia. You cannot kill him early. Following Blaidd's quest adds an extra item to his shop and bell bearing."]
+        data_it: ["<a href=\"npc_questlines.html#item_41_5\">Iji</a>", "Sì", "Trovato sul suo corpo alla fine della sua missione nel suo solito posto a Liurnia. Non puoi ucciderlo prima. Completare in parte la missione di Blaidd conferisce un oggetto extra al suo catalogo."]
       - id: "6_8"
         icon: "/img/icons/keys/edited/03144.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_28\">Miriel</a>", "No", "Miriel never becomes hostile. If you murder him, you'll get his bell bearing. You monster."]
+        data_it: ["<a href=\"npc_questlines.html#npc_quests_section_28\">Miriel</a>", "No", "Miriel diventerà mai ostile. Otterrai il suo globo cinereo solo se deciderai di assassinarlo. Mostro."]
       - id: "6_9"
         icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#npc_quests_section_30\">Patches</a>", "No", "Patches never becomes hostile (permanently). To obtain his bell bearing, you must murder him at some point."]
+        data_it: ["<a href=\"npc_questlines.html#npc_quests_section_30\">Patches</a>", "No", "Patches non diventa mai ostile (in modo permanente). Otterrai il suo globo cinereo solo uccidendolo."]
       - id: "6_10"
         icon: "/img/icons/keys/edited/03142.png"
         data: ["<a href=\"npc_questlines.html#item_18_2\">Pidia</a>", "Yes", "Looted off his body at the end of his questline in Caria Manor."]
+        data_it: ["<a href=\"npc_questlines.html#item_18_2\">Pidia</a>", "Sì", "Trovato sul suo corpo alla fine della sua missione nel Maniero cariano."]
       - id: "6_11"
         icon: "/img/icons/keys/edited/03145.png"
         data: ["<a href=\"npc_questlines.html#item_21_7\">Rogier</a>", "Yes", "Looted off his body at the end of his questline in Roundtable Hold."]
+        data_it: ["<a href=\"npc_questlines.html#item_21_7\">Rogier</a>", "Sì", "Trovato sul suo corpo alla fine della sua missione alla Rocca della Tavola Rotonda."]
       - id: "6_12"
         icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_10_8\">Sellen</a>", "Depends", "At the end of her questline, you choose whether or not to side with her in her duel with Jerren. Killing her grants her bell bearing, while siding with her does not, and you will not be able to obtain it thereafter as she stays in Rennala's combat-free library."]
+        data_it: ["<a href=\"npc_questlines.html#item_10_8\">Sellen</a>", "Dipende", "Al culmine della sua missione compirai una scelta. Ucciderla nello scontro con Jerren premierà col globo cinereo. Aiutarla ti impedirà permanentemente di ottenere il globo dato che trascorrerà il resto del gioco pacificamente al fianco di Rennala."]
       - id: "6_13"
         icon: "/img/icons/keys/edited/03146.png"
         data: ["<a href=\"npc_questlines.html#item_19_7\">Seluvis</a>", "Yes", "Looted off his body at Seluvis's Rise at the end of his questline. His shop inventory (and thus his bell bearing) adds items over his questline, so don't kill him early."]
+        data_it: ["<a href=\"npc_questlines.html#item_19_7\">Seluvis</a>", "Sì", "Trovato sul suo corpo nella Guglia di Seluvis alla fine della sua missione. Il suo catalogo si arricchisce durante la sua missione, pertanto evita di ucciderlo prematuramente."]
       - id: "6_14"
         icon: "/img/icons/keys/edited/03143.png"
         data: ["<a href=\"npc_questlines.html#item_4_3\">Thops</a>", "Yes", "Looted off his body in Raya Lucaria at the end of his questline."]
+        data_it: ["<a href=\"npc_questlines.html#item_4_3\">Thops</a>", "Sì", "Trovato sul suo corpo all'Accademia di Raya Lucaria, alla fine della sua missione."]
   -
     title: "Merchants' Bell Bearings"
+    title_it: "Globi cinerei dei Mercanti"
     icon: "/img/icons/keys/edited/03142.png"
     map_icon: "/map/icons/MENU_MAP_80.png"
     table: ["Merchant", "Location"]
+    table_it: ["Mercante", "Luogo"]
     table_widths: [2, 10]
     items:
       - id: "7_1"
         data: ["Kalé", "Church of Elleh, Limgrave, just north of where you emerge at the beginning. Note that if you want his or any Merchant's bell bearing to bring back to the Twin Maiden Husks, you must murder them, as they never die or turn hostile otherwise."]
+        data_it: ["Kalé", "Chiesa di Elleh, Sepolcride, appena a nord di dove emergi all'inizio. Nota che se vuoi portare il globo cinereo suo o di qualsiasi altro Mercante ai Resti di Leggidita, devi ucciderlo, poiché altrimenti non moriranno mai né diventeranno ostili."]
         cords: [3655, 7210]
       - id: "7_2"
         data: ["Nomadic [1]", "East of Saintsbridge in northern Limgrave, alongside the road."]
+        data_it: ["Nomade [1]", "A est del Ponte dei Santi nel nord di Sepolcride, lungo la strada."]
         cords: [4128, 6553]
         map_title: "Nomadic Merchant (1)"
       - id: "7_3"
         data: ["Nomadic [2]", "At the southern edge of the Mistwood in Limgrave near the road to Fort Haight; a dev message on the ground serves as a shop sign indicating he's nearby."]
+        data_it: ["Nomade [2]", "Al margine meridionale di Boscotetro a Sepolcride, vicino alla strada per Forte Haight; un messaggio degli sviluppatori a terra funge da insegna del negozio per indicare che è nelle vicinanze."]
         cords: [4557, 7182]
         map_title: "Nomadic Merchant (2)"
       - id: "7_4"
         data: ["Nomadic [3]", "Southeast of the entrance to Coastal Cave in southwest Limgrave, under a collapsed ruin of stone."]
+        data_it: ["Nomade [3]", "A sud-est dell'ingresso della Caverna litoranea nel sud-ovest di Sepolcride, sotto una rovina di pietra crollata."]
         cords: [3565, 7394]
         map_title: "Nomadic Merchant (3)"
       - id: "7_5"
         data: ["Nomadic [4]", "Near the Castle Morne Rampart Site of Grace in Weeping Peninsula."]
+        data_it: ["Nomade [4]", "Vicino al Luogo di Grazia Muro del Castello di Morne nella Penisola del Pianto."]
         cords: [4298, 8173]
         map_title: "Nomadic Merchant (4)"
       - id: "7_6"
         data: ["Nomadic [5]", "Near the Liurnia Lake Shore Site of Grace in Liurnia."]
+        data_it: ["Nomade [5]", "Vicino al Luogo di Grazia Riva del lago di Liurnia a Liurnia."]
         cords: [2725, 6138]
         map_title: "Nomadic Merchant (5)"
       - id: "7_7"
         data: ["Nomadic [6]", "Just down the path of the hole in Bellum Church in Liurnia."]
+        data_it: ["Nomade [6]", "Lungo il sentiero giù per il buco nella Chiesa di Bellum a Liurnia."]
         cords: [2192, 3974]
         map_title: "Nomadic Merchant (6)"
       - id: "7_8"
         data: ["Nomadic [7]", "Near the Forest-Spanning Greatbridge Site of Grace in Altus Plateau."]
+        data_it: ["Nomade [7]", "Vicino al Luogo di Grazia Granponte della foresta nell'Altopiano di Altus."]
         cords: [3307, 3074]
         map_title: "Nomadic Merchant (7)"
       - id: "7_9"
         data: ["Nomadic [8]", "On a mountain in Mt. Gelmir only accessible by ladders up and down. From the Ninth Mt. Gelmir Campsite Site of Grace, cross the rope bridge to the east, then continue east up the slopes to find a ladder down to the merchant."]
+        data_it: ["Nomade [8]", "Su una montagna del Monte Gelmir accessibile solo tramite scale a pioli su e giù. Dal Luogo di Grazia Nono accampamento del Monte Gelmir, attraversa il ponte di corda a est, quindi continua a est su per i pendii per trovare una scala a pioli che scende verso il mercante."]
         cords: [2450, 2632]
         map_title: "Nomadic Merchant (8)"
       - id: "7_10"
         data: ["Nomadic [9]", "Near the Astray from Caelid Highway North Site of Grace, just to the east."]
+        data_it: ["Nomade [9]", "Vicino al Luogo di Grazia Deviazione a nord della strada di Caelid, appena a est."]
         cords: [5216, 6762]
         map_title: "Nomadic Merchant (9)"
       - id: "7_11"
         data: ["Nomadic [10]", "A bit southwest of the Southern Aeonia Swamp Bank Site of Grace, near the map fragment pillar."]
+        data_it: ["Nomade [10]", "Un po' a sud-ovest del Luogo di Grazia Riva sud della palude di Aeonia, vicino al pilastro del frammento di mappa."]
         cords: [5426, 7053]
         map_title: "Nomadic Merchant (10)"
       - id: "7_12"
         data: ["Isolated [1]", "At the Isolated Merchant's Shack in southwestern Weeping Peninsula."]
+        data_it: ["Eremita [1]", "Alla Capanna del mercante isolato nel sud-ovest della Penisola del Pianto."]
         cords: [3463, 8219]
         map_title: "Isolated Merchant (1)"
       - id: "7_13"
         data: ["Isolated [2]", "From the Main Academy Gate Site of Grace in Liurnia, face southeast toward the seal teleporter to the outside side of the South Raya Lucaria Gate. Instead of using the portal, run right through it, and follow the path down to the merchant."]
+        data_it: ["Eremita [2]", "Dal Luogo di Grazia Cancello p. dell'Accademia a Liurnia, guarda a sud-est verso il sigillo di teletrasporto verso l'esterno del Cancello sud di Raya Lucaria. Invece di usare il portale, oltrepassalo correndo e segui il sentiero fino a raggiungere il mercante."]
         cords: [2017, 4945]
         map_title: "Isolated Merchant (2)"
       - id: "7_14"
         data: ["Isolated [3]", "At the Isolated Merchant's Shack in Dragonbarrow, Caelid."]
+        data_it: ["Eremita [3]", "Alla Capanna del mercante isolato a Tumulodrago, Caelid."]
         cords: [5158, 6090]
         map_title: "Isolated Merchant (3)"
       - id: "7_15"
         data: ["Hermit [1]", "At the Hermit Merchant's Shack in northern Capital Outskirts."]
+        data_it: ["Isolato [1]", "Alla Capanna del mercante eremita nel nord della Periferia della Capitale."]
         cords: [3959, 2941]
         map_title: "Hermit Merchant (1)"
       - id: "7_16"
         data: ["Hermit [2]", "Just up the ravine from the Ancient Snow Valley Ruins Site of Grace. Access by the spiritspring to the west, or the Snow Valley Ruins Overlook Site of Grace to the north."]
+        data_it: ["Isolato [2]", "Appena su per il burrone dal Luogo di Grazia Antiche rovine della valle innevata. Accessibile tramite la fonte spiritica a ovest, o dal Luogo di Grazia Balconata delle rovine della valle innevata a nord."]
         cords: [5973, 2238]
         map_title: "Hermit Merchant (2)"
       - id: "7_17"
         data: ["Hermit [3]", "In Ainsel River, from the Ainsel River Downstream Site of Grace, face east and head into the big room, climb the stairs to enter the building with the massive Malformed Star enemy on top, and find the merchant inside."]
+        data_it: ["Isolato [3]", "Nel Fiume Ainsel, dal Luogo di Grazia Fiume Ainsel - Valle, guarda a est e dirigiti nella grande stanza, sali le scale per entrare nell'edificio con l'enorme nemico Stella malformata in cima e trova il mercante all'interno."]
         cords: [3558, 12158]
         map_title: "Hermit Merchant (3)"
       - id: "7_18"
         data: ["Abandoned", "From the Worshippers' Woods Site of Grace in Siofra River, climb the scaffolding you can see directly west - climb the ladders, drop down around the corner, cross the wooden bridge, and follow the cave-like path until you can drop down into his room."]
+        data_it: ["Abbandonato", "Dal Luogo di Grazia Bosco dei seguaci nel Fiume Siofra, arrampicati sull'impalcatura che vedi direttamente a ovest: sali le scale, lasciati cadere dietro l'angolo, attraversa il ponte di legno e segui il sentiero a forma di caverna fino a poterti calare nella sua stanza."]
         cords: [6304, 14256]
         map_title: "Abandoned Merchant"
       - id: "7_19"
         data: ["Imprisoned", "West of the Moghwyn Palace, enter the Mohgwyn Dynasty Mausoleum and keep to the left to find the merchant at a dead end."]
+        data_it: ["Imprigionato", "A ovest del Palazzo di Mohgwyn, entra nel Mausoleo della Dinastia Mohgwyn e mantieni la sinistra per trovare il mercante in un vicolo cieco."]
         cords: [6781, 14472]
         map_title: "Imprisoned Merchant"
   -
-    title: "Real of Shadow: NPCs' Bell Bearings"
+    title: "Realm of Shadow: NPCs' Bell Bearings"
+    title_it: "Regno dell'Ombra: Globi cinerei dei PNG"
+    dlc: true
     icon: "/img/icons/keys/edited/03142.png"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Luogo"]
     table_widths: [2, 10]
     items:
       - id: "10_1"
         data: ["Moore's Bell Bearing", "Can be acquired as a reward for completing Moore's side quest."]
+        data_it: ["Globo cinereo di Moore", "Può essere ottenuto come ricompensa completando la missione secondaria di Moore."]
       - id: "10_2"
         data: ["Ymir's Bell Bearing", "Obtained by killing Count Ymir in Cathedral of Manus Metyr."]
+        data_it: ["Globo cinereo di Ymir", "Ottenuto uccidendo il conte Ymir nella Cattedrale di Manus Metyr."]
   -
-    title: "Real of Shadow: Seller's Bell Bearings"
+    title: "Realm of Shadow: Seller's Bell Bearings"
+    title_it: "Regno dell'Ombra: Globi cinerei dei Venditori"
+    dlc: true
     icon: "/img/icons/keys/edited/03142.png"
     table: ["Name", "Unlocks", "Location"]
+    table_it: ["Nome", "Sblocca", "Luogo"]
     table_widths: [3, 2, 6]
     items:
       - id: "11_1"
         data: ["Herbalist's Bell Bearing", "Rada Fruit", "Found on the west wall of the ravine between Pillar Path Waypoint and Dragon's Pit Sites of Grace in Gravesite Plain."]
+        data_it: ["Globo cinereo dell'erborista", "Frutto di rada", "Trovato sul muro a ovest del burrone tra i Luoghi di Grazia Punto di passaggio del sentiero con le colonne e Fossa del drago, nella Piana dei sepolcri."]
       - id: "11_2"
         data: ["Mushroom-Seller's Bell Bearing [1]", "Mushroom<br>Redflesh Mushroom", "From the Temple Town Ruins Site of Grace in the Rauh Ruins, head south east along the water, which will terminate in a waterfall. To the south west of the waterfall there will be several large gravestones along the cliffside, navigate down the gravestones to the pond at the bottom. Head west following the base of the cliff and look for a black pot hanging by a rope on the side of the cliff wall. Destroy the pot to make it drop the Bell Bearing."]
+        data_it: ["Globo cinereo del mercante di funghi [1]", "Fungo<br>Fungo a carne rossa", "Dal Luogo di Grazia Rovine della città tempio nelle Rovine di Rauh, vai a sud-est lungo l'acqua, che terminerà in una cascata. A sud-ovest della cascata ci saranno diverse grandi lapidi lungo la scogliera: scendi lungo le lapidi fino allo stagno in fondo. Dirigiti a ovest seguendo la base della scogliera e cerca un vaso nero appeso a una corda sul lato della parete rocciosa. Distruggi il vaso per fargli cadere il Globo cinereo."]
       - id: "11_3"
         data: ["Mushroom-Seller's Bell Bearing [2]", "Toxic Mushroom<br>Whiteflesh Mushroom", "In a jar hanging off a cliff-side waterfall south of the Ellac River Downstream Grace."]
+        data_it: ["Globo cinereo del mercante di funghi [2]", "Fungo tossico<br>Fungo a carne bianca", "In una giara appesa alla cascata sul fianco di una scogliera a sud del Luogo di Grazia Fiume Ellac - valle."]
       - id: "11_4"
         data: ["Greasemonger's Bell Bearing", "Root Resin<br>Knot Resin", "It can be found north of the Bridge Leading to the Village grace. Go past the giant, follow the road, and look for a pack of wolves on the left. The pot containing the bell bearing is hanging near them."]
+        data_it: ["Globo cinereo del mercante di grasso", "Resina di radice<br>Resina del groviglio", "Si trova a nord del Luogo di Grazia Ponte che conduce al villaggio. Supera il gigante, segui la strada e cerca un branco di lupi sulla sinistra. Il vaso contenente il globo cinereo è appeso vicino a loro."]
       - id: "11_5"
         data: ["Moldmonger's Bell Bearing", "Fly Mold", "Inside a pot hanging from a rock wall right next to the Recluse’s River Downstream grace. Shoot it down with a bow and drop down from the graves sticking out from the waterfall to grab it."]
+        data_it: ["Globo cinereo del mercante di muffa", "Muffa di mosche", "Dentro a un vaso appeso a una parete rocciosa proprio accanto al Luogo di Grazia Fiume del recluso a valle. Fallo cadere con una freccia e scendi dalle tombe che sporgono dalla cascata per recuperarlo."]
       - id: "11_6"
         data: ["Igon's Bell Bearing", "Igon's Harpoon", "Found on the body of Igon after killing Bayle The Dread. His body is found where you last spoke to him, near the double Jagged Peak Drake fight."]
+        data_it: ["Globo cinereo di Igon", "Arpione di Igon", "Trovato sul corpo di Igon dopo aver ucciso Bayle il Terribile. Il suo corpo si trova dove gli hai parlato per l'ultima volta, vicino allo scontro doppio con i Draghi del Picco scosceso."]
       - id: "11_7"
         data: ["Spellmachinist's Bell Bearing", "Rabbath's Greatbolt", "Starting at Shaman Village head southeast and follow the path to the lower peak, from here carefully jump down the ledges until you overlook Rabbath's Rise. Carefully jump to the balcony below and enter the room, jump to the lower level and you will see a body containing the bell bearing."]
+        data_it: ["Globo cinereo dello stregone costruttore", "Dardo maggiore di Rabbath", "Partendo dal Villaggio degli sciamani dirigiti a sud-est e segui il sentiero fino al picco inferiore, da qui salta con attenzione lungo le sporgenze finché non guarderai la Guglia di Rabbath. Salta delicatamente sul balcone sottostante ed entra nella stanza, salta al livello inferiore e vedrai un cadavere contenente il globo cinereo."]
       - id: "11_8"
         data: ["String-Seller's Bell Bearing", "String", "Hanging from a wall in a ravine in Prospect Town in the Shadow Lands. Shoot and break the hanging pot with a bow. "]
+        data_it: ["Globo cinereo del mercante di corde", "Corda", "Appeso a un muro in un burrone nella Città panoramica nelle Terre dell'Ombra. Spara e rompi il vaso appeso con un arco resistente o una magia."]

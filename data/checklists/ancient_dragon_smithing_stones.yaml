@@ -1,127 +1,303 @@
 title: Ancient Dragon Smithing Stones
 id: ancient_dragon_smithing_stones
-map_icon: '/img/icons/bolstering/edited/02008.png'
+map_icon: /img/icons/bolstering/edited/02008.png
 sections:
-  -
-    title: "Ancient Dragon Smithing Stones"
-    link: "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Smithing+Stone"
-    icon: "/img/icons/bolstering/edited/02008.png"
-    items:
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Caelid\">Caelid</a>"
-      - id: "1"
-        data: ["Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman\">Gurranq, Beast Clergyman</a>, after feeding him 9 <a href=\"https://eldenring.wiki.fextralife.com/Deathroot\">Deathroot</a>. Alternatively, he will drop this stone when killed."]
-        cords: [5931,5462]
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Mountaintops+of+the+Giants\">Mountaintops of the Giants</a>"
-      - id: "2"
-        data: ["Found on a corpse inside the mouth of a giant skull, just south-east of <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Repose\">Church of Repose</a>."]
-        cords: [6069, 3052]
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Consecrated+Snowfield\">Consecrated Snowfield</a>"
-      - id: "3"
-        data: ["Dropped from the two <a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry\">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA\">Inner Consecrated Snowfield</a> grace site."]
-        cords: [5298, 2447]
-      - id: "4"
-        data: ["Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA\">Great Wyrm Theodorix</a>."]
-        cords: [5783, 2161]
-      - id: "5"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel\">Yelough Anix Tunnel</a>: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss <a href=\"https://eldenring.wiki.fextralife.com/Alabaster+Lord\">Alabaster Lord</a>."]
-        cords: [5030, 2534]
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Miquella's+Haligtree\">Miquella's Haligtree</a>"
-      - id: "6"
-        data: ["Looted from a corpse just below a hugging statue, north of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA\">Haligtree Town Plaza</a> grace site. The stone is guarded by two winged and one red-maned <a href=\"https://eldenring.wiki.fextralife.com/Misbegotten\">Misbegotten</a>."]
-        cords: [5612, 1063]
-      - id: "7"
-        data: ["After defeating <a href=\"https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree\">Loretta</a>, make your way down a long ladder and past (not down) the lift to find this stone in a chest."]
-        cords: [5770, 1007]
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula\">Crumbling Farum Azula</a>"
-      - id: "8"
-        data: ["Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave</a> and <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave Depths</a> grace sites."]
-        cords: [8495, 4656]
-      - id: "9"
-        data: ["Starting from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA\">Dragon Temple Altar</a> grace site, head north through the door way and make your way past the assorted <a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman\">Azula Beastman</a> and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog."]
-        cords: [8444, 4322]
-      - id: "10"
-        data: ["Dropped from the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."]
-        cords: [8630, 4392]
-      - "Quests"
-      - id: "11"
-        data: ["Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren\">Witch-Hunter Jerren</a> for siding with him at the end of <a href=\"https://eldenring.wiki.fextralife.com/Sorceress+Sellen\">Sorceress Sellen's</a> questline just outside the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA\">Raya Lucaria Grand Library</a>."]
-        cords: [1816, 4820]
-      - id: "12"
-        data: ["Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux\">Nepheli Loux</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."]
-        cords: [3080, 6457]
-      - id: "13"
-        data: ["Purchased from <a href=\"https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc\">Gatekeeper Gostoc</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."]
-        cords: [3077, 6453]
-      - "Realm of Shadow"
-      - id: "51"
-        data: ["Gravesite Plain - Ruined Forge Lava Intake: Interact with the furnace to obtain this item and the Anvil Hammer."]
-      - id: "52"
-        data: ["Gravesite Plain - Dropped by the Magma Wyrm found inside the Dragon's Pit."]
-      - id: "53"
-        data: ["Gravesite Plain - At the top of the Suppressing Pillar, inside a chest."]
-      - id: "54"
-        data: ["Scadu Altus - Ruined Forge of Starfall Past: Interact with the furnace to obtain this item and the Ancient Meteoric Ore Greatsword."]
-      - id: "55"
-        data: ["Jagged Peak - Dropped by Ancient Dragon Senessax, west of the Jagged Peak Summit Site of Grace."]
-      - id: "56"
-        data: ["Jagged Peak - Found next to 3 Skeletal Slimes on the way to Jagged Peak Summit Site of Grace, just before the last spiritspring before the site of grace."]
-      - id: "57"
-        data: ["Rauh Base - Taylew's Ruined Forge: Can be looted on a balcony just next the central platform, in a room with 2 Smithing Golems."]
-      - id: "58"
-        data: ["Rauh Base - Taylew's Ruined Forge: Interacting with the furnace at the end of the dungeon. Also rewards the Taylew the Golem Smith Spirit Ashes."]
-  -
-    title: "Somber Ancient Dragon Smithing Stones"
-    link: "https://eldenring.wiki.fextralife.com/Somber+Ancient+Dragon+Smithing+Stone"
-    icon: "/img/icons/bolstering/edited/02018.png"
-    items:
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Mohgwyn+Palace\">Mohgwyn Palace</a>"
-      - id: "14"
-        data: ["Found in a chest just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB\">Dynasty Mausoleum Midpoint</a> grace site. The player should be careful as the chest is surrounded by a <a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble\">Sanguine Noble</a> and seven 2nd generation <a href=\"https://eldenring.wiki.fextralife.com/Albinauric\">Albinaurics</a>."]
-        cords: [6870, 14430]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Consecrated+Snowfield\">Consecrated Snowfield</a>"
-      - id: "15"
-        data: ["Dropped from the invading phantom <a href=\"https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater\">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href=\"https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town\">Ordina, Liturgical Town</a>."]
-        cords: [5228, 2155]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>"
-      - id: "16"
-        data: ["Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Avatar\">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it."]
-        cords: [5729, 946]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - id: "17"
-        data: ["Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside."]
-        cords: [5671, 801]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula\">Crumbling Farum Azula</a>"
-      - id: "18"
-        data: ["Found in a gazebo behind the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."]
-        cords: [8649, 4392]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "<a href=\"https://eldenring.wiki.fextralife.com/Leyndell,+Ashen+Capital\">Leyndell, Ashen Capital</a>"
-      - id: "19"
-        data: ["From the main <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC\">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building."]
-        cords: [4253, 3592]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "Quests"
-      - id: "20"
-        data: ["Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Latenna\">Latenna</a> after completing her questline at the <a href=\"https://eldenring.wiki.fextralife.com/Apostate+Derelict\">Apostate Derelict</a> in the <a href=\"https://eldenring.wiki.fextralife.com/Consecrated+Snowfield\">Consecrated Snowfield</a>."]
-        cords: [5046, 1703]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - id: "21"
-        data: ["<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: After completing <a href=\"https://eldenring.wiki.fextralife.com/Millicent\">Millicent's</a> questline and defeating <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia, Blade of Miquella</a>, insert the gold needle into Malenia's scarlet flower to receive the stone as well as <a href=\"https://eldenring.wiki.fextralife.com/Miquella's+Needle\">Miquella's Needle</a>."]
-        cords: [5681, 843]
-        map_icon: "/img/icons/bolstering/edited/02018.png"
-      - "Realm of Shadow"
-      - id: "71"
-        data: ["Gravesite Plain - Dropped by the Ghostflame Dragon found in the lake west of the Greatbridge, North Site of Grace."]
-      - id: "72"
-        data: ["Scadu Altus - Dropped by the Ghostflame Dragon found North of Fort Reprimand."]
-      - id: "73"
-        data: ["Cerulean Coast - Ghostflame Dragon found South of the Cerulean Coast Site of Grace."]
-      - id: "74"
-        data: ["Jagged Peak - Dropped by Ancient Dragon Senessax, west from the Jagged Peak Summit Site of Grace."]
-      - id: "75"
-        data: ["Jagged Peak - From the Jagged Peak Mountainside Site of Grace, follow the path southwest and use the 2 spiritsprings to get to the elevated areas. Once you make it through the second spiritspring, turn around and drop down the area just below you, follow the path northeast and you'll find this material on a corpse."]
-      - id: "76"
-        data: ["Enir-Ilim - From the altar with an elevator, head outside and go down. Be wary of an enemy lurking in the area. Get past the enemy and you'll find this material on a corpse at the edge of a broken stairs."]
+- title: Ancient Dragon Smithing Stones
+  link: https://eldenring.wiki.fextralife.com/Ancient+Dragon+Smithing+Stone
+  icon: /img/icons/bolstering/edited/02008.png
+  items:
+  - name: <a href="https://eldenring.wiki.fextralife.com/Caelid">Caelid</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Caelid">Caelid</a>
+  - id: '1'
+    data:
+    - Rewarded by <a href="https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman">Gurranq, Beast Clergyman</a>, after feeding him 9 <a href="https://eldenring.wiki.fextralife.com/Deathroot">Deathroot</a>. Alternatively, he will drop this stone when killed.
+    cords:
+    - 5931
+    - 5462
+    data_it:
+    - Ricompensa di <a href="https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman">Gurranq, chierico bestiale</a> dopo avergli consegnato 9 <a href="https://eldenring.wiki.fextralife.com/Deathroot">Radici mortali</a>. In alternativa, la lascia cadere se ucciso.
+  - name: <a href="https://eldenring.wiki.fextralife.com/Mountaintops+of+the+Giants">Mountaintops of the Giants</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Mountaintops+of+the+Giants">Vette dei Giganti</a>
+  - id: '2'
+    data:
+    - Found on a corpse inside the mouth of a giant skull, just south-east of <a href="https://eldenring.wiki.fextralife.com/Church+of+Repose">Church of Repose</a>.
+    cords:
+    - 6069
+    - 3052
+    data_it:
+    - Su un cadavere all'interno della bocca di un teschio gigante, poco a sud-est della <a href="https://eldenring.wiki.fextralife.com/Church+of+Repose">Chiesa del riposo</a>.
+  - name: <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Terre sacre</a>
+  - id: '3'
+    data:
+    - Dropped from the two <a href="https://eldenring.wiki.fextralife.com/Night's+Cavalry">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA">Inner Consecrated Snowfield</a> grace site.
+    cords:
+    - 5298
+    - 2447
+    data_it:
+    - Lasciata dai due <a href="https://eldenring.wiki.fextralife.com/Night's+Cavalry">Cavalieri notturni</a> (appaiono solo di notte) che scortano il carro trainato dai troll a sud-ovest della grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA">Terre sacre interne</a>.
+  - id: '4'
+    data:
+    - Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA">Great Wyrm Theodorix</a>.
+    cords:
+    - 5783
+    - 2161
+    data_it:
+    - All'estremità orientale del fiume ghiacciato, su una sporgenza ai piedi della cascata ghiacciata, poco oltre <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA">Theodorix, il Grande Drago</a>.
+  - id: '5'
+    data:
+    - '<a href="https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel">Yelough Anix Tunnel</a>: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss <a href="https://eldenring.wiki.fextralife.com/Alabaster+Lord">Alabaster Lord</a>.'
+    cords:
+    - 5030
+    - 2534
+    data_it:
+    - '<a href="https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel">Galleria di Yelough Anix</a>: esplorando il dungeon troverai un cadavere seduto su un ponte di ghiaccio; scendi la scala a destra e troverai la pietra su un cadavere subito dopo il <a href="https://eldenring.wiki.fextralife.com/Alabaster+Lord">Signore d''alabastro</a> (non boss).'
+  - name: <a href="https://eldenring.wiki.fextralife.com/Miquella's+Haligtree">Miquella's Haligtree</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Miquella's+Haligtree">Sacro Albero di Miquella</a>
+  - id: '6'
+    data:
+    - Looted from a corpse just below a hugging statue, north of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA">Haligtree Town Plaza</a> grace site. The stone is guarded by two winged and one red-maned <a href="https://eldenring.wiki.fextralife.com/Misbegotten">Misbegotten</a>.
+    cords:
+    - 5612
+    - 1063
+    data_it:
+    - Su un cadavere sotto una statua, a nord della grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA">Piazza della città del Sacro Albero</a>. La pietra è sorvegliata da due <a href="https://eldenring.wiki.fextralife.com/Misbegotten">Creature scagliose</a> alate e una dalla criniera rossa.
+  - id: '7'
+    data:
+    - After defeating <a href="https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree">Loretta</a>, make your way down a long ladder and past (not down) the lift to find this stone in a chest.
+    cords:
+    - 5770
+    - 1007
+    data_it:
+    - Dopo aver sconfitto <a href="https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree">Loretta</a>, scendi la lunga scala e prosegui oltre l'ascensore (senza prenderlo) per trovare la pietra in un forziere.
+  - name: <a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Crumbling Farum Azula</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Farum Azula in frantumi</a>
+  - id: '8'
+    data:
+    - Dropped from the <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Crumbling Beast Grave</a> and <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Crumbling Beast Grave Depths</a> grace sites.
+    cords:
+    - 8495
+    - 4656
+    data_it:
+    - Lasciata dal <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Drago di Farum Azula</a> che plana mentre percorri la piattaforma curva, vicino all'inizio dell'area tra le grazie <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Cimitero della bestia in frantumi</a> e <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA">Profondità del cimitero della bestia</a>.
+  - id: '9'
+    data:
+    - Starting from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA">Dragon Temple Altar</a> grace site, head north through the door way and make your way past the assorted <a href="https://eldenring.wiki.fextralife.com/Azula+Beastman">Azula Beastman</a> and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog.
+    cords:
+    - 8444
+    - 4322
+    data_it:
+    - Dalla grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA">Altare del Tempio del drago</a>, vai a nord e prosegui oltre gli <a href="https://eldenring.wiki.fextralife.com/Azula+Beastman">Uomini bestia di Farum Azula</a> e i cani fino a una stretta piattaforma fiancheggiata da statue di draghi. Prosegui dritto e sali la scala a chiocciola sulla destra. In cima, gira a sinistra e salta sul pilastro fluttuante. Percorrilo con cura e salta sulla piattaforma. La pietra è vicino alla sporgenza, sorvegliata da un uomo bestia e un cane.
+  - id: '10'
+    data:
+    - Dropped from the stationary <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href="https://eldenring.wiki.fextralife.com/Warhawk">Warhawks</a>.
+    cords:
+    - 8630
+    - 4392
+    data_it:
+    - Lasciata dal <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Drago di Farum Azula</a> stazionario in fondo alla piazza, a sud della grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Tetti del Tempio del drago</a>. Il drago evoca costantemente fulmini rossi mentre il percorso è infestato da <a href="https://eldenring.wiki.fextralife.com/Warhawk">Falchi di guerra</a>.
+  - name: Quests
+    name_it: Missioni
+  - id: '11'
+    data:
+    - Rewarded by <a href="https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren">Witch-Hunter Jerren</a> for siding with him at the end of <a href="https://eldenring.wiki.fextralife.com/Sorceress+Sellen">Sorceress Sellen's</a> questline just outside the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA">Raya Lucaria Grand Library</a>.
+    cords:
+    - 1816
+    - 4820
+    data_it:
+    - Ricompensa di <a href="https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren">Jerren il cacciatore di streghe</a> per esserti schierato con lui alla fine della missione di <a href="https://eldenring.wiki.fextralife.com/Sorceress+Sellen">Sellen</a>, fuori dalla <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA">Grande biblioteca di Raya Lucaria</a>.
+  - id: '12'
+    data:
+    - Rewarded by <a href="https://eldenring.wiki.fextralife.com/Nepheli+Loux">Nepheli Loux</a> in Godrick's Throneroom (just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA">Godrick the Grafted</a> grace site) after completing <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href="https://eldenring.wiki.fextralife.com/Seluvis's+Potion">Seluvis's Potion</a> was given to Nepheli.
+    cords:
+    - 3080
+    - 6457
+    data_it:
+    - Ricompensa di <a href="https://eldenring.wiki.fextralife.com/Nepheli+Loux">Nepheli Loux</a> nella sala del trono di Godrick (oltre la grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA">Godrick l'Innestato</a>) dopo aver completato la missione di <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight</a>. Non ottenibile se hai dato la <a href="https://eldenring.wiki.fextralife.com/Seluvis's+Potion">pozione di Seluvis</a> a Nepheli.
+  - id: '13'
+    data:
+    - Purchased from <a href="https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc">Gatekeeper Gostoc</a> in Godrick's Throneroom (just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA">Godrick the Grafted</a> grace site) after completing <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href="https://eldenring.wiki.fextralife.com/Seluvis's+Potion">Seluvis's Potion</a> was given to Nepheli.
+    cords:
+    - 3077
+    - 6453
+    data_it:
+    - Venduta da <a href="https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc">Gostoc il guardiano del cancello</a> nella sala del trono di Godrick dopo aver completato la missione di <a href="https://eldenring.wiki.fextralife.com/Kenneth+Haight">Kenneth Haight</a>. Non ottenibile se hai dato la pozione a Nepheli o se Gostoc è morto.
+  - name: Realm of Shadow
+    name_it: Regno dell'Ombra
+  - id: '51'
+    dlc: true
+    data:
+    - 'Gravesite Plain - Ruined Forge Lava Intake: Interact with the furnace to obtain this item and the Anvil Hammer.'
+    data_it:
+    - 'Piana dei sepolcri - Forgia in rovina dell''afflusso lavico: interagisci con la fornace per ottenere questo oggetto e il Martello a incudine.'
+  - id: '52'
+    dlc: true
+    data:
+    - Gravesite Plain - Dropped by the Magma Wyrm found inside the Dragon's Pit.
+    data_it:
+    - Piana dei sepolcri - Lasciata dal Drago di magma all'interno della Fossa del drago.
+  - id: '53'
+    dlc: true
+    data:
+    - Gravesite Plain - At the top of the Suppressing Pillar, inside a chest.
+    data_it:
+    - Piana dei sepolcri - In cima al Pilastro della repressione, in un forziere.
+  - id: '54'
+    dlc: true
+    data:
+    - 'Scadu Altus - Ruined Forge of Starfall Past: Interact with the furnace to obtain this item and the Ancient Meteoric Ore Greatsword.'
+    data_it:
+    - 'Altus dell''Ombra - Forgia in rovina di Starfall Past: interagisci con la fornace per ottenere questo oggetto e lo Spadone di minerale meteoritico antico.'
+  - id: '55'
+    dlc: true
+    data:
+    - Jagged Peak - Dropped by Ancient Dragon Senessax, west of the Jagged Peak Summit Site of Grace.
+    data_it:
+    - Picco dente di sega - Lasciata dal Drago antico Senessax, a ovest della grazia Cima del Picco dente di sega.
+  - id: '56'
+    dlc: true
+    data:
+    - Jagged Peak - Found next to 3 Skeletal Slimes on the way to Jagged Peak Summit Site of Grace, just before the last spiritspring before the site of grace.
+    data_it:
+    - Picco dente di sega - Vicino a 3 Melme scheletriche sulla strada per la Cima del Picco dente di sega, poco prima dell'ultimo soffio spirituale prima della grazia.
+  - id: '57'
+    dlc: true
+    data:
+    - 'Rauh Base - Taylew''s Ruined Forge: Can be looted on a balcony just next the central platform, in a room with 2 Smithing Golems.'
+    data_it:
+    - 'Base di Rauh - Forgia in rovina di Taylew: su un balcone vicino alla piattaforma centrale, in una stanza con 2 Golem forgiatori.'
+  - id: '58'
+    dlc: true
+    data:
+    - 'Rauh Base - Taylew''s Ruined Forge: Interacting with the furnace at the end of the dungeon. Also rewards the Taylew the Golem Smith Spirit Ashes.'
+    data_it:
+    - 'Base di Rauh - Forgia in rovina di Taylew: interagendo con la fornace alla fine del dungeon. Fornisce anche le Ceneri di Taylew, il Golem forgiatore.'
+  title_it: Pietre da forgiatura del drago antico
+- title: Somber Ancient Dragon Smithing Stones
+  link: https://eldenring.wiki.fextralife.com/Somber+Ancient+Dragon+Smithing+Stone
+  icon: /img/icons/bolstering/edited/02018.png
+  items:
+  - name: <a href="https://eldenring.wiki.fextralife.com/Mohgwyn+Palace">Mohgwyn Palace</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Mohgwyn+Palace">Palazzo di Mohgwyn</a>
+  - id: '14'
+    data:
+    - Found in a chest just past the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB">Dynasty Mausoleum Midpoint</a> grace site. The player should be careful as the chest is surrounded by a <a href="https://eldenring.wiki.fextralife.com/Sanguine+Noble">Sanguine Noble</a> and seven 2nd generation <a href="https://eldenring.wiki.fextralife.com/Albinauric">Albinaurics</a>.
+    cords:
+    - 6870
+    - 14430
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - 'In un baule poco oltre la grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB">Punto centrale del mausoleo</a>. Fai attenzione: il baule è circondato da un <a href="https://eldenring.wiki.fextralife.com/Sanguine+Noble">Nobile sanguinario</a> e sette <a href="https://eldenring.wiki.fextralife.com/Albinauric">Albinauri</a>.'
+  - name: <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Terre sacre</a>
+  - id: '15'
+    data:
+    - Dropped from the invading phantom <a href="https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href="https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town">Ordina, Liturgical Town</a>.
+    cords:
+    - 5228
+    - 2155
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - Lasciata dal fantasma invasore <a href="https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater">Anastasia, divoratrice di Senzaluce</a> sul fiume ghiacciato vicino al branco di lupi, a sud di <a href="https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town">Ordina, città liturgica</a>.
+  - name: <a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, Brace of the Haligtree</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, sostegno del Sacro Albero</a>
+  - id: '16'
+    data:
+    - Start from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href="https://eldenring.wiki.fextralife.com/Erdtree+Avatar">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it.
+    cords:
+    - 5729
+    - 946
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - Dalla grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Stanza della preghiera</a>, vai a nord. Attraversa il secondo pilastro a destra scendendo sulla sporgenza inferiore e poi sulla passerella dove si trova l' <a href="https://eldenring.wiki.fextralife.com/Erdtree+Avatar">Incarnazione dell'Albero Madre</a>. All'estremità sud troverai la pietra su un corpo.
+  - id: '17'
+    data:
+    - Start from the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside.
+    cords:
+    - 5671
+    - 801
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - 'Dalla grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA">Stanza della preghiera</a>, vai a nord fino alla fine. Salta a destra su un pilastro vicino a un chiosco con uno scarabeo. Prosegui e sali su un altro pilastro: in cima troverai una stanza con un forziere contenente la pietra.'
+  - name: <a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Crumbling Farum Azula</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula">Farum Azula in frantumi</a>
+  - id: '18'
+    data:
+    - Found in a gazebo behind the stationary <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href="https://eldenring.wiki.fextralife.com/Warhawk">Warhawks</a>.
+    cords:
+    - 8649
+    - 4392
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - In un chiosco dietro al <a href="https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon">Drago di Farum Azula</a> stazionario in fondo alla piazza, a sud della grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA">Tetti del Tempio del drago</a>. Il drago evoca fulmini rossi mentre il percorso è pieno di <a href="https://eldenring.wiki.fextralife.com/Warhawk">Falchi di guerra</a>.
+  - name: <a href="https://eldenring.wiki.fextralife.com/Leyndell,+Ashen+Capital">Leyndell, Ashen Capital</a>
+    name_it: <a href="https://eldenring.wiki.fextralife.com/Leyndell,+Ashen+Capital">Leyndell, Capitale delle Ceneri</a>
+  - id: '19'
+    data:
+    - From the main <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building.
+    cords:
+    - 4253
+    - 3592
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - 'Dalla grazia <a href="https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC">Leyndell, capitale delle ceneri</a>, vai a ovest e sali sull''al''ala del drago sepolto. Salta sul muro rotto, sali la scala e poi le scale di pietra. In cima al baluardo vedrai un gargoyle a destra: scavalca la ringhiera sulla sabbia e troverai la pietra su un corpo davanti a un edificio familiare.'
+  - name: Quests
+    name_it: Missioni
+  - id: '20'
+    data:
+    - Rewarded by <a href="https://eldenring.wiki.fextralife.com/Latenna">Latenna</a> after completing her questline at the <a href="https://eldenring.wiki.fextralife.com/Apostate+Derelict">Apostate Derelict</a> in the <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Consecrated Snowfield</a>.
+    cords:
+    - 5046
+    - 1703
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - Donata da <a href="https://eldenring.wiki.fextralife.com/Latenna">Latenna</a> dopo aver completato la sua missione ai <a href="https://eldenring.wiki.fextralife.com/Apostate+Derelict">Ruderi del reietto</a> nelle <a href="https://eldenring.wiki.fextralife.com/Consecrated+Snowfield">Terre sacre</a>.
+  - id: '21'
+    data:
+    - '<a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, Brace of the Haligtree</a>: After completing <a href="https://eldenring.wiki.fextralife.com/Millicent">Millicent''s</a> questline and defeating <a href="https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella">Malenia, Blade of Miquella</a>, insert the gold needle into Malenia''s scarlet flower to receive the stone as well as <a href="https://eldenring.wiki.fextralife.com/Miquella''s+Needle">Miquella''s Needle</a>.'
+    cords:
+    - 5681
+    - 843
+    map_icon: /img/icons/bolstering/edited/02018.png
+    data_it:
+    - '<a href="https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree">Elphael, sostegno del Sacro Albero</a>: dopo aver completato la missione di <a href="https://eldenring.wiki.fextralife.com/Millicent">Millicent</a> e sconfitto <a href="https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella">Malenia</a>, inserisci l''ago d''oro nel fiore scarlatto di Malenia per ricevere la pietra e l'' <a href="https://eldenring.wiki.fextralife.com/Miquella''s+Needle">Ago di Miquella</a>.'
+  - name: Realm of Shadow
+    name_it: Regno dell'Ombra
+  - id: '71'
+    dlc: true
+    data:
+    - Gravesite Plain - Dropped by the Ghostflame Dragon found in the lake west of the Greatbridge, North Site of Grace.
+    data_it:
+    - Piana dei sepolcri - Lasciata dal Drago di fiammapetrea nel lago a ovest della grazia Nord del granponte.
+  - id: '72'
+    dlc: true
+    data:
+    - Scadu Altus - Dropped by the Ghostflame Dragon found North of Fort Reprimand.
+    data_it:
+    - Altus dell'Ombra - Lasciata dal Drago di fiammapetrea a nord di Forte Reprimenda.
+  - id: '73'
+    dlc: true
+    data:
+    - Cerulean Coast - Ghostflame Dragon found South of the Cerulean Coast Site of Grace.
+    data_it:
+    - Costa cerulea - Drago di fiammapetrea a sud della grazia Costa cerulea.
+  - id: '74'
+    dlc: true
+    data:
+    - Jagged Peak - Dropped by Ancient Dragon Senessax, west from the Jagged Peak Summit Site of Grace.
+    data_it:
+    - Picco dente di sega - Lasciata dal Drago antico Senessax, a ovest della grazia Cima del Picco dente di sega.
+  - id: '75'
+    dlc: true
+    data:
+    - Jagged Peak - From the Jagged Peak Mountainside Site of Grace, follow the path southwest and use the 2 spiritsprings to get to the elevated areas. Once you make it through the second spiritspring, turn around and drop down the area just below you, follow the path northeast and you'll find this material on a corpse.
+    data_it:
+    - Picco dente di sega - Dalla grazia Pendici del Picco dente di sega, segui il sentiero a sud-ovest e usa i 2 soffi spirituali. Dopo il secondo, girati e scendi nell'area sottostante, segui il sentiero a nord-est per trovare l'oggetto su un cadavere.
+  - id: '76'
+    dlc: true
+    data:
+    - Enir-Ilim - From the altar with an elevator, head outside and go down. Be wary of an enemy lurking in the area. Get past the enemy and you'll find this material on a corpse at the edge of a broken stairs.
+    data_it:
+    - Enir-Ilim - Dall'altare con l'ascensore, esci e scendi. Fai attenzione al nemico in zona. Oltrepassalo e troverai l'oggetto su un corpo alla fine di una scala interrotta.
+  title_it: Pietre da forgiatura del drago funeree (antiche)
+title_it: Pietre da forgiatura del drago antico

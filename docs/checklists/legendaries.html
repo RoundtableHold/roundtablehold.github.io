@@ -14,7 +14,83 @@
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <script>
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -24,168 +100,387 @@
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <form class="d-none d-sm-flex order-2 order-xl-3">
-          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+        <a class="navbar-brand me-auto ms-2" href="/index.html">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Roundtable Guides</span>
+            <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+          </span>
+        </a>
+        <ul class="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="langDropdown">
+              <span id="lang-display"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end position-absolute" id="lang-menu">
+              <li>
+                <a class="dropdown-item lang-option" data-lang="en" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> EN</a>
+              </li>
+              <li>
+                <a class="dropdown-item lang-option" data-lang="it" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> IT</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action="/search.html" class="d-none d-sm-flex order-2 order-xl-3" method="get">
+          <input aria-label="search" class="form-control me-2" data-placeholder-it="Cerca" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit"><i class="bi bi-search"></i></button>
         </form>
         <div class="d-sm-none order-2">
-          <a class="nav-link me-0" href="/search.html">
-            <i class="bi bi-search sb-icon-search"></i>
-          </a>
+          <a class="nav-link me-0" href="/search.html"><i class="bi bi-search sb-icon-search"></i></a>
         </div>
         <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Guides
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Guides</span>
+                  <span class="lang-text lang-it">Guide</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">DLC Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">DLC Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione DLC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                      <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">NPC Questlines</span>
+                      <span class="lang-text lang-it">Missioni NPC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Achievements</span>
+                      <span class="lang-text lang-it">Obiettivi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons active" href="/checklists/legendaries.html">Legendaries</a>
+                  <a class="dropdown-item show-buttons active" href="/checklists/legendaries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Legendaries</span>
+                      <span class="lang-text lang-it">Leggendari</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Locations</span>
+                  <span class="lang-text lang-it">Luoghi</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bosses</span>
+                      <span class="lang-text lang-it">Boss</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                      <span class="lang-text lang-it">Luoghi d'interesse</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sites of Grace</span>
+                      <span class="lang-text lang-it">Luoghi di grazia</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                      <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Equipment</span>
+                  <span class="lang-text lang-it">Equipaggiamento</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Weapons</span>
+                      <span class="lang-text lang-it">Armi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Armor</span>
+                      <span class="lang-text lang-it">Armatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Talismans</span>
+                      <span class="lang-text lang-it">Talismani</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sorceries</span>
+                      <span class="lang-text lang-it">Stregonerie</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Incantations</span>
+                      <span class="lang-text lang-it">Incantesimi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ashes of War</span>
+                      <span class="lang-text lang-it">Ceneri di Guerra</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Spirit Ashes</span>
+                      <span class="lang-text lang-it">Ceneri spiritiche</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Upgrades &amp; Unlocks</span>
+                  <span class="lang-text lang-it">Potenziamenti e Sbloccabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                      <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                      <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                      <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                      <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Whetstones</span>
+                      <span class="lang-text lang-it">Coltelli per affilatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bell Bearings</span>
+                      <span class="lang-text lang-it">Globi cinerei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Cookbooks</span>
+                      <span class="lang-text lang-it">Ricettari</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                      <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                      <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Collectables</span>
+                  <span class="lang-text lang-it">Collezionabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                      <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Great Runes</span>
+                      <span class="lang-text lang-it">Grandi Rune</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                      <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                      <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                      <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Paintings</span>
+                      <span class="lang-text lang-it">Dipinti</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                      <span class="lang-text lang-it">Vasi e boccette</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                      <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Gestures</span>
+                      <span class="lang-text lang-it">Gesti</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/map.html">
-                <i class="bi bi-map"></i> Map
+              <a class="nav-link hide-buttons" href="/map.html"><i class="bi bi-map"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Map</span>
+                  <span class="lang-text lang-it">Mappa</span>
+                </span>
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/options.html">
-                <i class="bi bi-gear-fill"></i> Options
+              <a class="nav-link hide-buttons" href="/options.html"><i class="bi bi-gear-fill"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Options</span>
+                  <span class="lang-text lang-it">Opzioni</span>
+                </span>
               </a>
             </li>
           </ul>
@@ -194,143 +489,243 @@
     </nav>
     <div class="container uncolor-links">
       <div class="row text-center">
-        <h1 class="mt-4">Legendaries
-          <span class="d-print-none" id="legendaries_overall_total"></span>
+        <h1 class="mt-4">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Legendaries</span>
+            <span class="lang-text lang-it d-none">Leggendari</span>
+          </span>
+          <span class="badge rounded-pill bg-success progress-val d-print-none ms-2" id="legendaries_overall_total"></span>
         </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
           <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
-          <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+          <label class="form-check-label" for="toggleHideCompleted">
+            <span class="lang-pair">
+              <span class="lang-text lang-en">Hide Completed</span>
+              <span class="lang-text lang-it">Nascondi Completati</span>
+            </span>
+          </label>
         </div>
       </div>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
-          <a class="toc-button" data-bs-toggle="collapse" href="#toc_legendaries" role="button">
-            <i class="bi bi-plus-lg"></i>Table Of Contents
+          <a class="toc-button" data-bs-toggle="collapse" href="#toc_legendaries" role="button"><i class="bi bi-plus-lg"></i>
+            <span class="lang-pair">
+              <span class="lang-text lang-en"> Table Of Contents</span>
+              <span class="lang-text lang-it"> Indice</span>
+            </span>
           </a>
         </strong>
         <ul class="toc_page collapse" id="toc_legendaries">
           <li>
-            <a class="toc_link" href="#legendaries_section_0">Legendary Weapons</a>
+            <a class="toc_link" href="#legendaries_section_0">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Legendary Weapons</span>
+                <span class="lang-text lang-it d-none">Armi leggendarie</span>
+              </span>
+            </a>
             <span id="legendaries_nav_totals_0"></span>
           </li>
           <li>
-            <a class="toc_link" href="#legendaries_section_1">Legendary Talismans</a>
+            <a class="toc_link" href="#legendaries_section_1">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Legendary Talismans</span>
+                <span class="lang-text lang-it d-none">Talismani leggendari</span>
+              </span>
+            </a>
             <span id="legendaries_nav_totals_1"></span>
           </li>
           <li>
-            <a class="toc_link" href="#legendaries_section_2">Legendary Ashes</a>
+            <a class="toc_link" href="#legendaries_section_2">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Legendary Ashes</span>
+                <span class="lang-text lang-it d-none">Ceneri leggendarie</span>
+              </span>
+            </a>
             <span id="legendaries_nav_totals_2"></span>
           </li>
           <li>
-            <a class="toc_link" href="#legendaries_section_3">Legendary Sorceries</a>
+            <a class="toc_link" href="#legendaries_section_3">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Legendary Sorceries</span>
+                <span class="lang-text lang-it d-none">Stregonerie leggendarie</span>
+              </span>
+            </a>
             <span id="legendaries_nav_totals_3"></span>
           </li>
           <li>
-            <a class="toc_link" href="#legendaries_section_4">Legendary Incantations</a>
+            <a class="toc_link" href="#legendaries_section_4">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Legendary Incantations</span>
+                <span class="lang-text lang-it d-none">Incantesimi leggendari</span>
+              </span>
+            </a>
             <span id="legendaries_nav_totals_4"></span>
           </li>
         </ul>
       </nav>
-      <div class="input-group d-print-none">
-        <input class="form-control my-3" id="legendaries_search" placeholder="Start typing to filter results..." type="search">
+      <div class="input-group my-3 d-print-none">
+        <input class="form-control" id="legendaries_search" placeholder="Start typing to filter results..." type="search">
+        <div class="input-group-text">
+          <input aria-label="Use Regex for Search" class="form-check-input mt-0 me-2" id="legendaries_regex" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Use Regex</span>
+            <span class="lang-text lang-it">Usa Regex</span>
+          </span>
+        </div>
+        <div class="input-group-text">
+          <input aria-label="Name Only Search" class="form-check-input mt-0 me-2" id="legendaries_name_only" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Name Only</span>
+            <span class="lang-text lang-it">Solo nome</span>
+          </span>
+        </div>
       </div>
       <div id="legendaries_list">
         <div class="card shadow-sm mb-3" id="legendaries_section_0">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_0Col" data-bs-toggle="collapse" href="#legendaries_0Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
-              <span class="d-print-inline">Legendary Weapons</span>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_0Col" data-bs-toggle="collapse" href="#legendaries_0Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Legendary Weapons</span>
+                  <span class="lang-text lang-it d-none">Armi leggendarie</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="legendaries_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="legendaries_0Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_1" id="item_1_1">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_1" data-name-jets="devourer's scepter (warning: this weapon is missable. if he leaves warmaster's shack and you either don't do his quest in volcano manor before killing the lord of the manor or you kill the final boss of crumbling farum azula, he will not invade.) - scettro del divoratore (attenzione: quest'arma può essere mancata. se bernahl lascia la capanna del mestre d'armi e non completi la sua missione a villa vulcano prima di uccidere il lord o se uccidi il boss finale di farum azula, non ti invaderà.)" id="item_1_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/greathammers/10452.png" loading="lazy" style="height: 70px; width: 70px">Devourer's Scepter (WARNING: This Weapon is Missable. If he leaves Warmaster's Shack and you either don't do his quest in Volcano Manor before killing the Lord of the Manor or you kill the final boss of Crumbling Farum Azula, he will not invade.) -
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_1">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/greathammers/10452.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Devourer's Scepter (WARNING: This Weapon is Missable. If he leaves Warmaster's Shack and you either don't do his quest in Volcano Manor before killing the Lord of the Manor or you kill the final boss of Crumbling Farum Azula, he will not invade.) -</span>
+                        <span class="lang-text lang-it d-none">Scettro del Divoratore (ATTENZIONE: quest'arma può essere mancata. Se Bernahl lascia la Capanna del mestre d'armi e non completi la sua missione a Villa Vulcano prima di uccidere il lord o se uccidi il boss finale di Farum Azula, non ti invaderà.)</span>
+                      </span>
                     </label>
                   </div>
                 </li>
                 <ul class="list-group-flush">
-                  <li class="list-group-item searchable ps-0" data-id="legendaries_1_1_0" id="item_1_1_0">
+                  <li class="list-group-item searchable ps-0" data-id="legendaries_1_1_0" data-name-jets="choice 1 - east of the stormhill shack is the warmaster's shack. inside is knight bernahl. kill him for the weapon. opzione 1 - a est della capanna di colle tempesta c'è la capanna del maestro d'armi. uccidi il cavaliere bernahl per ottenere l'arma." id="item_1_1_0">
                     <div class="form-check checkbox d-flex align-items-center">
                       <input class="form-check-input" data-section-idx="0" id="legendaries_1_1_0" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="legendaries_1_1_0">Choice 1 - East of the Stormhill Shack is the Warmaster's Shack. Inside is Knight Bernahl. Kill him for the Weapon.</label>
+                      <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_1_0">
+                        <span class="lang-pair item-name">
+                          <span class="lang-text lang-en">Choice 1 - East of the Stormhill Shack is the Warmaster's Shack. Inside is Knight Bernahl. Kill him for the Weapon.</span>
+                          <span class="lang-text lang-it d-none">Opzione 1 - A est della Capanna di Colle Tempesta c'è la Capanna del maestro d'armi. Uccidi il cavaliere Bernahl per ottenere l'arma.</span>
+                        </span>
+                      </label>
                     </div>
                   </li>
-                  <li class="list-group-item searchable ps-0" data-id="legendaries_1_1_1" id="item_1_1_1">
+                  <li class="list-group-item searchable ps-0" data-id="legendaries_1_1_1" data-name-jets="choice 2 - do the volcano manor questline and he will appear there and then disappear at the end. he will later appear in crumbling farum azula. when you reach the great bridge grace and go up the stairs, you can go right to access the boss room. go left instead. follow that path and at the end and he will invade. kill him for the weapon. opzione 2 - completa la missione di villa vulcano. ti invaderà a farum azula (vai a sinistra invece che verso il boss dal sito di grazia granponti)." id="item_1_1_1">
                     <div class="form-check checkbox d-flex align-items-center">
                       <input class="form-check-input" data-section-idx="0" id="legendaries_1_1_1" type="checkbox" value="">
-                      <label class="form-check-label item_content" for="legendaries_1_1_1">Choice 2 - Do the Volcano Manor Questline and he will appear there and then disappear at the end. He will later appear in Crumbling Farum Azula. When you reach the Great Bridge Grace and go up the stairs, you can go right to access the Boss room. Go left instead. Follow that path and at the end and he will invade. Kill him for the Weapon.</label>
+                      <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_1_1">
+                        <span class="lang-pair item-name">
+                          <span class="lang-text lang-en">Choice 2 - Do the Volcano Manor Questline and he will appear there and then disappear at the end. He will later appear in Crumbling Farum Azula. When you reach the Great Bridge Grace and go up the stairs, you can go right to access the Boss room. Go left instead. Follow that path and at the end and he will invade. Kill him for the Weapon.</span>
+                          <span class="lang-text lang-it d-none">Opzione 2 - Completa la missione di Villa Vulcano. Ti invaderà a Farum Azula (vai a sinistra invece che verso il boss dal Sito di grazia Granponti).</span>
+                        </span>
+                      </label>
                     </div>
                   </li>
                 </ul>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_2" id="item_1_2">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_2" data-name-jets="grafted blade greatsword - kill the boss of castle morne, located in the south-east corner of the map. spadone dell'innestato - sconfiggi il boss di castel morne (angolo sud-est della mappa)." id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/colossalswords/10130.png" loading="lazy" style="height: 70px; width: 70px">Grafted Blade Greatsword - Kill the boss of Castle Morne, located in the South-East corner of the map.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_2">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/colossalswords/10130.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Grafted Blade Greatsword - Kill the boss of Castle Morne, located in the South-East corner of the map.</span>
+                        <span class="lang-text lang-it d-none">Spadone dell'Innestato - Sconfiggi il boss di Castel Morne (angolo sud-est della mappa).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_3" id="item_1_3">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_3" data-name-jets="sword of night and flame - in caria manor, get to the manor lower level grace. go outside and go along the walls until you reach the third tower. jump down to the building below on your left then jump onto another building with a ladder leading inside. inside the building is a chest. inside the chest is the weapon. spada della notte e della fiamma - al maniero cariano, dal sito di grazia livello inferiore del maniero, percorri le mura e scendi nell'edificio segreto tramite i tetti." id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/straightswords/10053.png" loading="lazy" style="height: 70px; width: 70px">Sword of Night and Flame - In Caria Manor, get to the Manor Lower Level Grace. Go outside and go along the walls until you reach the third tower. Jump down to the building below on your left then jump onto another building with a ladder leading inside. Inside the building is a chest. Inside the chest is the Weapon.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_3">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/straightswords/10053.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Sword of Night and Flame - In Caria Manor, get to the Manor Lower Level Grace. Go outside and go along the walls until you reach the third tower. Jump down to the building below on your left then jump onto another building with a ladder leading inside. Inside the building is a chest. Inside the chest is the Weapon.</span>
+                        <span class="lang-text lang-it d-none">Spada della Notte e della Fiamma - Al Maniero cariano, dal Sito di grazia Livello inferiore del maniero, percorri le mura e scendi nell'edificio segreto tramite i tetti.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_4" id="item_1_4">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_4" data-name-jets="ruins greatsword - after killing radahn, go back to redmane castle to the chamber outside the plaza grace. go into the announcement are then to the church up the stairs and talk to witch-hunter jerren. go back to the chamber outside the plaza grace and the announcement area becomes a boss area. kill the bosses for the weapon. spadone delle rovine - dopo radahn, torna al castello di mantorosso e parla con jerren. sconfiggi i due boss nell'arena della piazza." id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_4">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/colossalswords/10128.png" loading="lazy" style="height: 70px; width: 70px">Ruins Greatsword - After killing Radahn, go back to Redmane Castle To the Chamber Outside the Plaza Grace. Go into the announcement are then to the church up the stairs and talk to Witch-Hunter Jerren. Go back to the Chamber Outside the Plaza Grace and the announcement area becomes a boss area. Kill the bosses for the Weapon.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_4">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/colossalswords/10128.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Ruins Greatsword - After killing Radahn, go back to Redmane Castle To the Chamber Outside the Plaza Grace. Go into the announcement are then to the church up the stairs and talk to Witch-Hunter Jerren. Go back to the Chamber Outside the Plaza Grace and the announcement area becomes a boss area. Kill the bosses for the Weapon.</span>
+                        <span class="lang-text lang-it d-none">Spadone delle rovine - Dopo Radahn, torna al Castello di Mantorosso e parla con Jerren. Sconfiggi i due boss nell'arena della piazza.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_5" id="item_1_5">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_5" data-name-jets="dark moon greatsword - complete ranni's questline and she gives it to you at the end. spadone della luna nera - ricompensa finale per aver completato la missione di ranni." id="item_1_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_5">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/greatswords/10089.png" loading="lazy" style="height: 70px; width: 70px">Dark Moon Greatsword - Complete Ranni's Questline and she gives it to you at the end.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_5">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/greatswords/10089.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Dark Moon Greatsword - Complete Ranni's Questline and she gives it to you at the end.</span>
+                        <span class="lang-text lang-it d-none">Spadone della Luna Nera - Ricompensa finale per aver completato la missione di Ranni.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_6" id="item_1_6">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_6" data-name-jets="marais executioner's sword - kill the boss of shaded castle, located north of the grand lift of dectus, west of the broken bridge. spada da esecuzione di marais - sconfiggi il boss del castellombra (altopiano di altus)." id="item_1_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_6">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/greatswords/10095.png" loading="lazy" style="height: 70px; width: 70px">Marais Executioner's Sword - Kill the Boss of Shaded Castle, located North of the Grand Lift of Dectus, West of the broken bridge.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_6">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/greatswords/10095.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Marais Executioner's Sword - Kill the Boss of Shaded Castle, located North of the Grand Lift of Dectus, West of the broken bridge.</span>
+                        <span class="lang-text lang-it d-none">Spada da esecuzione di Marais - Sconfiggi il boss del Castellombra (Altopiano di Altus).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_7" id="item_1_7">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_7" data-name-jets="eclipse shotel - go to castle sol, located in the north section of mountaintops of the giants. go through it until you find the church of the eclipse grace. just around the corner, on the altar inside the church is the weapon. shotel dell'eclissi - si trova all'interno della chiesa dell'eclissi a castel sol (vette dei giganti)." id="item_1_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_7">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/curvedswords/10250.png" loading="lazy" style="height: 70px; width: 70px">Eclipse Shotel - Go to Castle Sol, located in the North section of Mountaintops of the Giants. Go through it until you find the Church of the Eclipse Grace. Just around the corner, on the altar inside the church is the Weapon.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_7">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/curvedswords/10250.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Eclipse Shotel - Go to Castle Sol, located in the North section of Mountaintops of the Giants. Go through it until you find the Church of the Eclipse Grace. Just around the corner, on the altar inside the church is the Weapon.</span>
+                        <span class="lang-text lang-it d-none">Shotel dell'eclissi - Si trova all'interno della Chiesa dell'eclissi a Castel Sol (Vette dei Giganti).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_8" id="item_1_8">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_8" data-name-jets="golden order greatsword - requires getting the haligtree medallion. in the consecrated snowfield, the area before reaching miquella's haligtree, go east from ordina, liturgical town grace. south of the minor erdtree is the cave of the forlorn. kill the boss for the weapon. spadone dell'ordine aureo - sconfiggi il boss della grotta dei derelitti nei campi di neve consacrati." id="item_1_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_8">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/greatswords/10097.png" loading="lazy" style="height: 70px; width: 70px">Golden Order Greatsword - Requires getting the Haligtree Medallion. In the Consecrated Snowfield, the area before reaching Miquella's Haligtree, go East from Ordina, Liturgical Town Grace. South of the Minor Erdtree is the Cave of the Forlorn. Kill the boss for the Weapon.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_8">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/greatswords/10097.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Golden Order Greatsword - Requires getting the Haligtree Medallion. In the Consecrated Snowfield, the area before reaching Miquella's Haligtree, go East from Ordina, Liturgical Town Grace. South of the Minor Erdtree is the Cave of the Forlorn. Kill the boss for the Weapon.</span>
+                        <span class="lang-text lang-it d-none">Spadone dell'Ordine Aureo - Sconfiggi il boss della Grotta dei derelitti nei Campi di neve consacrati.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_1_9" id="item_1_9">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_1_9" data-name-jets="bolt of gransax (warning: this weapon is missable. do not complete crumbling farum azula or you'll have to wait until next playthrough to get this weapon.) - in leyndell, go to the erdtree sanctuary grace. leave through the west door, down the stairs, down the elevator, down more stairs, past the enemies and look to your left. there will be a spot you can hop down onto that will allow you to hop onto the giant golden spear in the wall. hop onto the spear and carefully make your way up. up near the top is the weapon. saetta di gransax (attenzione: quest'arma può essere mancata. non completare farum azula prima di averla presa.) - salta sulla lancia gigante che sovrasta leyndell partendo dal sito di grazia santuario dell'albero madre." id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="legendaries_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_1_9">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/weapons/spears/10609.png" loading="lazy" style="height: 70px; width: 70px">Bolt of Gransax (WARNING: This Weapon is Missable. Do not complete Crumbling Farum Azula or you'll have to wait until next playthrough to get this weapon.) - In Leyndell, go to the Erdtree Sanctuary Grace. Leave through the West door, down the stairs, down the elevator, down more stairs, past the enemies and look to your left. There will be a spot you can hop down onto that will allow you to hop onto the giant golden spear in the wall. Hop onto the spear and carefully make your way up. Up near the top is the Weapon.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_1_9">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/weapons/spears/10609.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Bolt of Gransax (WARNING: This Weapon is Missable. Do not complete Crumbling Farum Azula or you'll have to wait until next playthrough to get this weapon.) - In Leyndell, go to the Erdtree Sanctuary Grace. Leave through the West door, down the stairs, down the elevator, down more stairs, past the enemies and look to your left. There will be a spot you can hop down onto that will allow you to hop onto the giant golden spear in the wall. Hop onto the spear and carefully make your way up. Up near the top is the Weapon.</span>
+                        <span class="lang-text lang-it d-none">Saetta di Gransax (ATTENZIONE: quest'arma può essere mancata. Non completare Farum Azula prima di averla presa.) - Salta sulla lancia gigante che sovrasta Leyndell partendo dal Sito di grazia Santuario dell'Albero Madre.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
@@ -341,75 +736,110 @@
         <div class="card shadow-sm mb-3" id="legendaries_section_1">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_1Col" data-bs-toggle="collapse" href="#legendaries_1Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
-              <span class="d-print-inline">Legendary Talismans</span>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_1Col" data-bs-toggle="collapse" href="#legendaries_1Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Legendary Talismans</span>
+                  <span class="lang-text lang-it d-none">Talismani leggendari</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="legendaries_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="legendaries_1Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_1" id="item_2_1">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_1" data-name-jets="radagon icon - from the debate parlor grace located in raya lucaria, go outside, make a right, go around the corner, hop down the side of the cliff to the ground below, climb the nearby ladder and find a nearby chest. inside is the talisman. icona di radagon - si trova in un baule al piano superiore dell'aula del dibattito a raya lucaria." id="item_2_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18470.png" loading="lazy" style="height: 70px; width: 70px">Radagon Icon - From the Debate Parlor Grace located in Raya Lucaria, go outside, make a right, go around the corner, hop down the side of the cliff to the ground below, climb the nearby ladder and find a nearby chest. Inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_1">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18470.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Radagon Icon - From the Debate Parlor Grace located in Raya Lucaria, go outside, make a right, go around the corner, hop down the side of the cliff to the ground below, climb the nearby ladder and find a nearby chest. Inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Icona di Radagon - Si trova in un baule al piano superiore dell'Aula del dibattito a Raya Lucaria.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_2" id="item_2_2">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_2" data-name-jets="radagon's soreseal - go to the bestial sanctum grace, found by using the waygate north of the third church of marika grace, north-east of the forest in east limgrave. from the bestial sanctum, go south-east to the bridge, south across the bridge, south-west past the minor erdtree to the dragonbarrow fork grace. go south-west from there then south-east, up the slope when you reach the fork in the road. go around the giant white dragon and find the entrance to fort faroth. from the top of the fort, drop down into a hole and inside is the talisman. piaga del dolore di radagon - si trova a forte faroth (caelid), buttandosi nei buchi sul tetto." id="item_2_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18051.png" loading="lazy" style="height: 70px; width: 70px">Radagon's Soreseal - Go to the Bestial Sanctum Grace, found by using the Waygate North of the Third Church of Marika Grace, North-East of the forest in East Limgrave. From the Bestial Sanctum, go South-East to the bridge, South across the bridge, South-West past the Minor Erdtree to the Dragonbarrow Fork Grace. Go South-West from there then South-East, up the slope when you reach the Fork in the Road. Go around the giant white dragon and find the entrance to Fort Faroth. From the top of the Fort, drop down into a hole and inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_2">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18051.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Radagon's Soreseal - Go to the Bestial Sanctum Grace, found by using the Waygate North of the Third Church of Marika Grace, North-East of the forest in East Limgrave. From the Bestial Sanctum, go South-East to the bridge, South across the bridge, South-West past the Minor Erdtree to the Dragonbarrow Fork Grace. Go South-West from there then South-East, up the slope when you reach the Fork in the Road. Go around the giant white dragon and find the entrance to Fort Faroth. From the top of the Fort, drop down into a hole and inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Piaga del dolore di Radagon - Si trova a Forte Faroth (Caelid), buttandosi nei buchi sul tetto.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_3" id="item_2_3">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_3" data-name-jets="moon of nokstella - you must give the fingerslaying blade to ranni during her questline. afterwards, go north-east from ranni's rise to renna's rise and use the waygate to enter nokstella, eternal city. proceed through the area and in the north-west corner, under a giant throne is a chest. inside is the talisman. luna di nokstella - si trova in un baule sotto il trono gigante alla fine di nokstella, la città eterna." id="item_2_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18150.png" loading="lazy" style="height: 70px; width: 70px">Moon of Nokstella - You must give the Fingerslaying Blade to Ranni during her questline. Afterwards, go North-East from Ranni's Rise to Renna's Rise and use the Waygate to enter Nokstella, Eternal City. Proceed through the area and in the North-West corner, under a giant throne is a chest. Inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_3">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18150.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Moon of Nokstella - You must give the Fingerslaying Blade to Ranni during her questline. Afterwards, go North-East from Ranni's Rise to Renna's Rise and use the Waygate to enter Nokstella, Eternal City. Proceed through the area and in the North-West corner, under a giant throne is a chest. Inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Luna di Nokstella - Si trova in un baule sotto il trono gigante alla fine di Nokstella, la Città eterna.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_4" id="item_2_4">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_4" data-name-jets="godfrey icon - just east of the grand lift of dectus is the golden lineage evergaol. defeat it for the talisman. icona di godfrey - sconfiggi il boss della galera eterna della stirpe aurea (altopiano di altus)." id="item_2_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_4">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18860.png" loading="lazy" style="height: 70px; width: 70px">Godfrey Icon - Just East of the Grand Lift of Dectus is the Golden Lineage Evergaol. Defeat it for the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_4">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18860.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Godfrey Icon - Just East of the Grand Lift of Dectus is the Golden Lineage Evergaol. Defeat it for the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Icona di Godfrey - Sconfiggi il boss della Galera eterna della stirpe aurea (Altopiano di Altus).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_5" id="item_2_5">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_5" data-name-jets="dragoncrest greatshield - from the drainage channel grace, travel across the tree branches and beams to the roof of the building on the other side. in the roof is a hole. inside is the talisman. scudo grande del drago - si trova in un baule sopra la cappella accessibile dai rami vicino al canale di scolo (elphael)." id="item_2_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_5">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18493.png" loading="lazy" style="height: 70px; width: 70px">Dragoncrest Greatshield - From the Drainage Channel Grace, travel across the tree branches and beams to the roof of the building on the other side. In the roof is a hole. Inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_5">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18493.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Dragoncrest Greatshield - From the Drainage Channel Grace, travel across the tree branches and beams to the roof of the building on the other side. In the roof is a hole. Inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Scudo grande del drago - Si trova in un baule sopra la cappella accessibile dai rami vicino al Canale di scolo (Elphael).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_6" id="item_2_6">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_6" data-name-jets="marika's soreseal - in miquella's haligtree, start at the elphael inner wall grace. go outside, past the erdtree avatar and go to the right. at the ledge in the corner is a ladder. go down the ladder and past all the enemies in the area. at the end of the path is an imp statue blocking a room. inside is the talisman. piaga del dolore di marika - si trova dietro un sigillo della statua dell'imp ai livelli inferiori di elphael." id="item_2_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_6">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18061.png" loading="lazy" style="height: 70px; width: 70px">Marika's Soreseal - In Miquella's Haligtree, start at the Elphael Inner Wall Grace. Go outside, past the Erdtree Avatar and go to the right. At the ledge in the corner is a ladder. Go down the ladder and past all the enemies in the area. At the end of the path is an Imp Statue blocking a room. Inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_6">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18061.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Marika's Soreseal - In Miquella's Haligtree, start at the Elphael Inner Wall Grace. Go outside, past the Erdtree Avatar and go to the right. At the ledge in the corner is a ladder. Go down the ladder and past all the enemies in the area. At the end of the path is an Imp Statue blocking a room. Inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Piaga del dolore di Marika - Si trova dietro un sigillo della statua dell'imp ai livelli inferiori di Elphael.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_7" id="item_2_7">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_7" data-name-jets="old lord's talisman - in crumbling farum azula, near the end of the game, when you reach the great bridge grace and go up the stairs, you can go right to access the boss room. go left instead. follow that path and at the end is a chest. inside is the talisman. talismano del vecchio lord - si trova in un baule a farum azula (vai a sinistra dal sito di grazia granponti)." id="item_2_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_7">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18460.png" loading="lazy" style="height: 70px; width: 70px">Old Lord's Talisman - In Crumbling Farum Azula, near the end of the game, when you reach the Great Bridge Grace and go up the stairs, you can go right to access the Boss room. Go left instead. Follow that path and at the end is a chest. Inside is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_7">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18460.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Old Lord's Talisman - In Crumbling Farum Azula, near the end of the game, when you reach the Great Bridge Grace and go up the stairs, you can go right to access the Boss room. Go left instead. Follow that path and at the end is a chest. Inside is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Talismano del vecchio lord - Si trova in un baule a Farum Azula (vai a sinistra dal Sito di grazia Granponti).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_2_8" id="item_2_8">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_2_8" data-name-jets="erdtree's favor +2 - after crumbling farum azula is completed and you go back to leyndell, go to the forbidden lands grace, east of leyndell. take the lift back up, run back to leyndell, take the lift down, and past 3 corrupted erdtree roots is a dead tree. on the tree is the talisman. favore dell'albero madre +2 - si trova a leyndell, capitale cinerea, nell'area sabbiosa sorvegliata da tre spiriti dell'albero." id="item_2_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="legendaries_2_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_2_8">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/talismans/18042.png" loading="lazy" style="height: 70px; width: 70px">Erdtree's Favor +2 - After Crumbling Farum Azula is completed and you go back to Leyndell, go to the Forbidden Lands Grace, East of Leyndell. Take the lift back up, run back to Leyndell, take the lift down, and past 3 Corrupted Erdtree Roots is a dead tree. On the tree is the Talisman.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_2_8">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/talismans/18042.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Erdtree's Favor +2 - After Crumbling Farum Azula is completed and you go back to Leyndell, go to the Forbidden Lands Grace, East of Leyndell. Take the lift back up, run back to Leyndell, take the lift down, and past 3 Corrupted Erdtree Roots is a dead tree. On the tree is the Talisman.</span>
+                        <span class="lang-text lang-it d-none">Favore dell'Albero Madre +2 - Si trova a Leyndell, capitale cinerea, nell'area sabbiosa sorvegliata da tre spiriti dell'albero.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
@@ -420,59 +850,86 @@
         <div class="card shadow-sm mb-3" id="legendaries_section_2">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_2Col" data-bs-toggle="collapse" href="#legendaries_2Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
-              <span class="d-print-inline">Legendary Ashes</span>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_2Col" data-bs-toggle="collapse" href="#legendaries_2Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Legendary Ashes</span>
+                  <span class="lang-text lang-it d-none">Ceneri leggendarie</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="legendaries_totals_2"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="legendaries_2Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_1" id="item_3_1">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_1" data-name-jets="lhutel the headless - north of the southern-most minor erdtree, north-west of castle morne, is the tombsward catacombs. inside is the spirit ashes. lhutel la senzatesta - sconfiggi il boss delle catacombe della necropoli (penisola del pianto)." id="item_3_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00475.png" loading="lazy" style="height: 70px; width: 70px">Lhutel the Headless - North of the Southern-most Minor Erdtree, North-West of Castle Morne, is the Tombsward Catacombs. Inside is the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_1">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00475.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Lhutel the Headless - North of the Southern-most Minor Erdtree, North-West of Castle Morne, is the Tombsward Catacombs. Inside is the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Lhutel la Senzatesta - Sconfiggi il boss delle Catacombe della necropoli (Penisola del Pianto).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_2" id="item_3_2">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_2" data-name-jets="redmane knight ogha - after defeating radahn, travel north of the grace in his boss area. all the way north you will find the war-dead catacombs and inside you will find the spirit ashes. ogha, cavaliere di mantorosso - sconfiggi il boss delle catacombe dei caduti in guerra (caelid, arena di radahn)." id="item_3_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00473.png" loading="lazy" style="height: 70px; width: 70px">Redmane Knight Ogha - After defeating Radahn, travel North of the Grace in his boss area. All the way North you will find the War-Dead Catacombs and inside you will find the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_2">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00473.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Redmane Knight Ogha - After defeating Radahn, travel North of the Grace in his boss area. All the way North you will find the War-Dead Catacombs and inside you will find the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Ogha, cavaliere di Mantorosso - Sconfiggi il boss delle Catacombe dei caduti in guerra (Caelid, arena di Radahn).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_3" id="item_3_3">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_3" data-name-jets="mimic tear - defeat radahn in castle redmane in the south-east corner of caelid then go the the crater located in east limgrave, south-east of the forest to enter nokron, eternal city. go south-east and defeat the mimic tear boss then go north and find the ancestral wood grace. jump to the nearby building and follow the path into night's sacred ground and find an imp statue. past the door blocked by the imp statue is the spirit ashes. lacrima riflessa - si trova a nokron, dietro un sigillo della statua dell'imp nel terreno consacrato alla notte." id="item_3_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00117.png" loading="lazy" style="height: 70px; width: 70px">Mimic Tear - Defeat Radahn in Castle Redmane in the South-East corner of Caelid then go the the crater located in East Limgrave, South-East of the Forest to enter Nokron, Eternal City. Go South-East and defeat the Mimic Tear Boss then go North and find the Ancestral Wood Grace. Jump to the nearby building and follow the path into Night's Sacred Ground and find an Imp Statue. Past the door blocked by the Imp Statue is the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_3">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00117.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Mimic Tear - Defeat Radahn in Castle Redmane in the South-East corner of Caelid then go the the crater located in East Limgrave, South-East of the Forest to enter Nokron, Eternal City. Go South-East and defeat the Mimic Tear Boss then go North and find the Ancestral Wood Grace. Jump to the nearby building and follow the path into Night's Sacred Ground and find an Imp Statue. Past the door blocked by the Imp Statue is the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Lacrima riflessa - Si trova a Nokron, dietro un sigillo della statua dell'imp nel Terreno consacrato alla notte.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_4" id="item_3_4">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_4" data-name-jets="black knife tiche - you will need to complete ranni's questline. then after completing ranni's questline you will have access to the area in south liurnia lake. go to the north-west corner of the area from deep ainsel well to find the ringleader's evergaol. kill the boss for the spirit ashes. tiche, il coltello nero - sconfiggi il boss della galera eterna del capoclan (altare della luna)." id="item_3_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_4">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00113.png" loading="lazy" style="height: 70px; width: 70px">Black Knife Tiche - You will need to complete Ranni's Questline. Then after completing Ranni's Questline you will have access to the area in South Liurnia Lake. Go to the North-West corner of the area from Deep Ainsel Well to find the Ringleader's Evergaol. Kill the boss for the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_4">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00113.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Black Knife Tiche - You will need to complete Ranni's Questline. Then after completing Ranni's Questline you will have access to the area in South Liurnia Lake. Go to the North-West corner of the area from Deep Ainsel Well to find the Ringleader's Evergaol. Kill the boss for the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Tiche, il Coltello Nero - Sconfiggi il boss della Galera eterna del capoclan (Altare della Luna).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_5" id="item_3_5">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_5" data-name-jets="ancient dragon knight kristoff - from the rampartside path grace, located north-west of leyndell, head west to find the sainted hero's grave. inside is the spirit ashes. kristoff, cavaliere del drago antico - sconfiggi il boss della tomba dell'eroe santo (altopiano di altus)." id="item_3_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_5">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00474.png" loading="lazy" style="height: 70px; width: 70px">Ancient Dragon Knight Kristoff - From the Rampartside Path Grace, located North-West of Leyndell, head West to find the Sainted Hero's Grave. Inside is the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_5">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00474.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Ancient Dragon Knight Kristoff - From the Rampartside Path Grace, located North-West of Leyndell, head West to find the Sainted Hero's Grave. Inside is the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Kristoff, cavaliere del drago antico - Sconfiggi il boss della Tomba dell'eroe santo (Altopiano di Altus).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_3_6" id="item_3_6">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_3_6" data-name-jets="cleanrot knight finlay - once you have access to miquella's haligtree, travel through the zone until you reach the prayer room grace. from the grace, continue along the path, descending down a few sets of stairs. when you reach the point that the stairs require you to turn around, jump onto the nearby bridge instead then jump onto the roof of the building below. there will be a door and a chest inside. inside the chest is the spirit ashes. finlay, cavaliere della marcescenza - si trova in un baule a elphael, sorvegliato da un cavaliere di marcescenza." id="item_3_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="legendaries_3_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_3_6">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/spirit_ashes/00131.png" loading="lazy" style="height: 70px; width: 70px">Cleanrot Knight Finlay - Once you have access to Miquella's Haligtree, travel through the zone until you reach the Prayer Room Grace. From the Grace, continue along the path, descending down a few sets of stairs. When you reach the point that the stairs require you to turn around, jump onto the nearby bridge instead then jump onto the roof of the building below. There will be a door and a chest inside. Inside the chest is the Spirit Ashes.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_3_6">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/spirit_ashes/00131.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Cleanrot Knight Finlay - Once you have access to Miquella's Haligtree, travel through the zone until you reach the Prayer Room Grace. From the Grace, continue along the path, descending down a few sets of stairs. When you reach the point that the stairs require you to turn around, jump onto the nearby bridge instead then jump onto the roof of the building below. There will be a door and a chest inside. Inside the chest is the Spirit Ashes.</span>
+                        <span class="lang-text lang-it d-none">Finlay, cavaliere della Marcescenza - Si trova in un baule a Elphael, sorvegliato da un Cavaliere di Marcescenza.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
@@ -483,43 +940,62 @@
         <div class="card shadow-sm mb-3" id="legendaries_section_3">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_3Col" data-bs-toggle="collapse" href="#legendaries_3Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
-              <span class="d-print-inline">Legendary Sorceries</span>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_3Col" data-bs-toggle="collapse" href="#legendaries_3Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Legendary Sorceries</span>
+                  <span class="lang-text lang-it d-none">Stregonerie leggendarie</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="legendaries_totals_3"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="legendaries_3Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="legendaries_4_1" id="item_4_1">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_4_1" data-name-jets="ranni's dark moon - you will need to complete ranni's questline. then after completing ranni's questline you will have access to the area in south liurnia lake. go south-west from the deep ainsel well to find chelona's rise. read the puzzle and then kill the 3 giant white turtles. one is on the side of a cliff nearby, one is on the ground hidden over the edge of a cliff, and the third is flying in the air and requires you to use a spiritjump with your horse to kill. after unlocking the door, enter chelona's rise for the sorcery. luna nera di ranni - si trova in un baule alla guglia di chelona. per entrare devi colpire le 3 tartarughe giganti spettrali." id="item_4_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="legendaries_4_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_4_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/sorceries/06025.png" loading="lazy" style="height: 70px; width: 70px">Ranni's Dark Moon - You will need to complete Ranni's Questline. Then after completing Ranni's Questline you will have access to the area in South Liurnia Lake. Go South-West from the Deep Ainsel Well to find Chelona's Rise. Read the puzzle and then kill the 3 Giant White Turtles. One is on the side of a cliff nearby, one is on the ground hidden over the edge of a cliff, and the third is flying in the air and requires you to use a Spiritjump with your horse to kill. After unlocking the door, enter Chelona's Rise for the Sorcery.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_4_1">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/sorceries/06025.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Ranni's Dark Moon - You will need to complete Ranni's Questline. Then after completing Ranni's Questline you will have access to the area in South Liurnia Lake. Go South-West from the Deep Ainsel Well to find Chelona's Rise. Read the puzzle and then kill the 3 Giant White Turtles. One is on the side of a cliff nearby, one is on the ground hidden over the edge of a cliff, and the third is flying in the air and requires you to use a Spiritjump with your horse to kill. After unlocking the door, enter Chelona's Rise for the Sorcery.</span>
+                        <span class="lang-text lang-it d-none">Luna nera di Ranni - Si trova in un baule alla Guglia di Chelona. Per entrare devi colpire le 3 tartarughe giganti spettrali.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_4_2" id="item_4_2">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_4_2" data-name-jets="comet azur - found on the primeval sorcery azur located just north of hermit village, south-east of volcano manor on mt. gelmir. he will be lying on the ground and has a crystal head. talk to him for the sorcery. note: this sorcery is needed for sorceress sellen's questline. cometa di azur - ricevuta da azur, lo stregone originario, a nord del villaggio dell'eremita (monte gelmir)." id="item_4_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="legendaries_4_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_4_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/sorceries/06012.png" loading="lazy" style="height: 70px; width: 70px">Comet Azur - Found on the Primeval Sorcery Azur located just North of Hermit Village, South-East of Volcano Manor on Mt. Gelmir. He will be lying on the ground and has a crystal head. Talk to him for the Sorcery. Note: This Sorcery is needed for Sorceress Sellen's Questline.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_4_2">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/sorceries/06012.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Comet Azur - Found on the Primeval Sorcery Azur located just North of Hermit Village, South-East of Volcano Manor on Mt. Gelmir. He will be lying on the ground and has a crystal head. Talk to him for the Sorcery. Note: This Sorcery is needed for Sorceress Sellen's Questline.</span>
+                        <span class="lang-text lang-it d-none">Cometa di Azur - Ricevuta da Azur, lo stregone originario, a nord del Villaggio dell'eremita (Monte Gelmir).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_4_3" id="item_4_3">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_4_3" data-name-jets="stars of ruin - requires you to have found the comet azur. after finding the comet azur, go to sellen in the basement of waypoint ruins, east of where the game started. talk to her about the comet azur and she will give you a key. after get the key, head to sellian hideaway in north caelid past the seals in sellia and north of the church of the plague grace. it is hidden behind an illusory wall behind a giant gravestone. go through sellia hideaway and at the bottom you will find a seal guarded by a sorceror. kill him and open the seal then talk to master lusat for the sorcery. stelle della rovina - ricevuta da lusat all'interno del rifugio di sellia (caelid). richiede la chiave data da sellen." id="item_4_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="legendaries_4_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_4_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/sorceries/06022.png" loading="lazy" style="height: 70px; width: 70px">Stars of Ruin - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_4_3">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/sorceries/06022.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Stars of Ruin - Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery.</span>
+                        <span class="lang-text lang-it d-none">Stelle della rovina - Ricevuta da Lusat all'interno del Rifugio di Sellia (Caelid). Richiede la chiave data da Sellen.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_4_4" id="item_4_4">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_4_4" data-name-jets="founding rain of stars - in the mountaintops of the giants near the end of the game, go to the north-east section to the freezing lake grace. go up the slope to the north and find the broken bridge on the southern side of the cliff. the bridge is actually just invisible. cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into heretical rise. inside you will find the sorcery. pioggia di stelle primordiale - si trova alla guglia eretica (vette dei giganti), accessibile tramite un ponte invisibile sopra il lago ghiacciato." id="item_4_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="legendaries_4_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_4_4">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/sorceries/06021.png" loading="lazy" style="height: 70px; width: 70px">Founding Rain of Stars - In the Mountaintops of the Giants near the end of the game, go to the North-East section to the Freezing Lake Grace. Go up the slope to the North and find the broken bridge on the Southern side of the cliff. The bridge is actually just invisible. Cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into Heretical Rise. Inside you will find the Sorcery.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_4_4">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/sorceries/06021.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Founding Rain of Stars - In the Mountaintops of the Giants near the end of the game, go to the North-East section to the Freezing Lake Grace. Go up the slope to the North and find the broken bridge on the Southern side of the cliff. The bridge is actually just invisible. Cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into Heretical Rise. Inside you will find the Sorcery.</span>
+                        <span class="lang-text lang-it d-none">Pioggia di stelle primordiale - Si trova alla Guglia eretica (Vette dei Giganti), accessibile tramite un ponte invisibile sopra il lago ghiacciato.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
@@ -530,35 +1006,50 @@
         <div class="card shadow-sm mb-3" id="legendaries_section_4">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_4Col" data-bs-toggle="collapse" href="#legendaries_4Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
-              <span class="d-print-inline">Legendary Incantations</span>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#legendaries_4Col" data-bs-toggle="collapse" href="#legendaries_4Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Legendary Incantations</span>
+                  <span class="lang-text lang-it d-none">Incantesimi leggendari</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="legendaries_totals_4"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="legendaries_4Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="legendaries_5_1" id="item_5_1">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_5_1" data-name-jets="flame of the fell god - start at the liurnia lake shore grace, just north-west of the lake-facing cliffs grace after passing stormveil castle. go north-west from the grace and go west until you find a path up the cliff to your left. go up the path and follow the cliff back to the grace where you started to find the malefactor evergaol. kill the boss for the incantation. fiamma del dio caduto - sconfiggi il boss della galera eterna del malfattore (liurnia)." id="item_5_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="4" id="legendaries_5_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_5_1">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/incantations/06207.png" loading="lazy" style="height: 70px; width: 70px">Flame of the Fell God - Start at the Liurnia Lake Shore Grace, just North-West of the Lake-Facing Cliffs Grace after passing Stormveil Castle. Go North-West from the Grace and go West until you find a path up the cliff to your left. Go up the path and follow the cliff back to the Grace where you started to find the Malefactor Evergaol. Kill the boss for the Incantation.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_5_1">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/incantations/06207.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Flame of the Fell God - Start at the Liurnia Lake Shore Grace, just North-West of the Lake-Facing Cliffs Grace after passing Stormveil Castle. Go North-West from the Grace and go West until you find a path up the cliff to your left. Go up the path and follow the cliff back to the Grace where you started to find the Malefactor Evergaol. Kill the boss for the Incantation.</span>
+                        <span class="lang-text lang-it d-none">Fiamma del dio caduto - Sconfiggi il boss della Galera eterna del malfattore (Liurnia).</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_5_2" id="item_5_2">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_5_2" data-name-jets="greyoll's roar - go to the bestial sanctum grace, found by using the waygate north of the third church of marika grace, north-east of the forest in east limgrave. from the bestial sanctum, go south-east to the bridge, south across the bridge, south-west past the minor erdtree to the dragonbarrow fork grace. go south-west from there then south-east, up the slope when you reach the fork in the road. greyoll will be there with a ton of dragons to fight. if you kill him then you can go to the cathedral of dragon communion in south caelid, west of castle redmane along the coast. trade in some dragon hearts to get the incantation. note: it is easier to kill greyoll if you can get to fort faroth, located just behind him. at the fort faroth grace you can attack his tail and kill him easily without getting attacked back. ruggito di greyoll - acquistabile alla cattedrale della comunione draconica (caelid) dopo aver sconfitto greyoll." id="item_5_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="4" id="legendaries_5_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_5_2">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/incantations/06092.png" loading="lazy" style="height: 70px; width: 70px">Greyoll's Roar - Go to the Bestial Sanctum Grace, found by using the Waygate North of the Third Church of Marika Grace, North-East of the forest in East Limgrave. From the Bestial Sanctum, go South-East to the bridge, South across the bridge, South-West past the Minor Erdtree to the Dragonbarrow Fork Grace. Go South-West from there then South-East, up the slope when you reach the Fork in the Road. Greyoll will be there with a ton of Dragons to fight. If you kill him then you can go to the Cathedral of Dragon Communion in South Caelid, West of Castle Redmane along the coast. Trade in some Dragon Hearts to get the Incantation. Note: It is easier to kill Greyoll if you can get to Fort Faroth, located just behind him. At the Fort Faroth Grace you can attack his tail and kill him easily without getting attacked back.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_5_2">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/incantations/06092.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Greyoll's Roar - Go to the Bestial Sanctum Grace, found by using the Waygate North of the Third Church of Marika Grace, North-East of the forest in East Limgrave. From the Bestial Sanctum, go South-East to the bridge, South across the bridge, South-West past the Minor Erdtree to the Dragonbarrow Fork Grace. Go South-West from there then South-East, up the slope when you reach the Fork in the Road. Greyoll will be there with a ton of Dragons to fight. If you kill him then you can go to the Cathedral of Dragon Communion in South Caelid, West of Castle Redmane along the coast. Trade in some Dragon Hearts to get the Incantation. Note: It is easier to kill Greyoll if you can get to Fort Faroth, located just behind him. At the Fort Faroth Grace you can attack his tail and kill him easily without getting attacked back.</span>
+                        <span class="lang-text lang-it d-none">Ruggito di Greyoll - Acquistabile alla Cattedrale della Comunione draconica (Caelid) dopo aver sconfitto Greyoll.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="legendaries_5_3" id="item_5_3">
+                <li class="list-group-item searchable ps-0" data-id="legendaries_5_3" data-name-jets="elden stars - defeat radahn in castle redmane in the south-east corner of caelid then go the the crater located in east limgrave, south-east of the forest to enter nokron, eternal city. go through nokron until you hit the gargoyle boss room. after killing the boss, interact with the coffin next to the grace to enter deeproot depths. when crossing the root bridge by the giant ants, take a root going to the right to enter a cave filled with ant queens. past the ant queens is the incantation. stelle ancestrali - si trova nelle abissi tra le radici, seguendo le radici a destra prima delle formiche giganti per entrare in una caverna." id="item_5_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="4" id="legendaries_5_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="legendaries_5_3">
-                      <img class="float-md-none float-end me-md-1" data-src="/img/icons/incantations/06063.png" loading="lazy" style="height: 70px; width: 70px">Elden Stars - Defeat Radahn in Castle Redmane in the South-East corner of Caelid then go the the crater located in East Limgrave, South-East of the Forest to enter Nokron, Eternal City. Go through Nokron until you hit the Gargoyle boss room. After killing the boss, interact with the coffin next to the Grace to enter Deeproot Depths. When crossing the root bridge by the Giant Ants, take a root going to the right to enter a cave filled with Ant Queens. Past the Ant Queens is the Incantation.
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="legendaries_5_3">
+                      <img class="float-md-none float-end me-md-2 flex-shrink-0" data-src="/img/icons/incantations/06063.png" loading="lazy" style="height: 70px; width: 70px">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Elden Stars - Defeat Radahn in Castle Redmane in the South-East corner of Caelid then go the the crater located in East Limgrave, South-East of the Forest to enter Nokron, Eternal City. Go through Nokron until you hit the Gargoyle boss room. After killing the boss, interact with the coffin next to the Grace to enter Deeproot Depths. When crossing the root bridge by the Giant Ants, take a root going to the right to enter a cave filled with Ant Queens. Past the Ant Queens is the Incantation.</span>
+                        <span class="lang-text lang-it d-none">Stelle ancestrali - Si trova nelle Abissi tra le radici, seguendo le radici a destra prima delle formiche giganti per entrare in una caverna.</span>
+                      </span>
                     </label>
                   </div>
                 </li>
@@ -573,11 +1064,14 @@
     </a>
     <script>window.current_page_id = "legendaries";
 </script>
+    <script>window.DONE_HTML = '<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>';
+</script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/progress.js"></script>
     <script src="/js/item_links.js"></script>
-    <script src="/js/common.js"></script>
+    <script src="/js/common.js?v=1.1"></script>
+    <script src="/js/sync.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
@@ -598,29 +1092,212 @@
                     var jet = new Jets({
                         searchTag: "#legendaries_search",
                         contentTag: "#legendaries_list ul",
+                        searchSelector: '*and',
+                        manualContentHandling: function(node) {
+                            if ($('#legendaries_name_only').is(':checked')) {
+                                return node.getAttribute('data-name-jets') || '';
+                            }
+                            var $clone = $(node).clone();
+                            $clone.find('.no-highlight').remove();
+                            return $clone.text();
+                        },
                         didSearch: function(search_phrase) {
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
-                            $(".card").each(function(index, el) {
-                                if (!search_phrase) {
-                                    $(el).removeClass('d-none');
-                                    return;
+                            // Only handled by Jets if Regex off.
+                            if ($('#legendaries_regex').is(':checked')) return;
+                            
+                            // Un-hide all sections to accurately measure visibility
+                            $(".card").removeClass('d-none');
+                            $("#legendaries_list h5").removeClass('d-none');
+                            $("#legendaries_list h5").nextUntil('h5').removeClass('d-none');
+                            $(".toc_link").closest('li').removeClass('d-none');
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                                return;
+                            }
+                            
+                            var clean_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            var words = clean_phrase.split(' ');
+                            var searchAtt = $('#legendaries_name_only').is(':checked') ? 'data-name-jets' : 'data-jets';
+                            
+                            var filterFunc = function() {
+                                var text = ($(this).attr(searchAtt) || '').toLowerCase();
+                                for (var i = 0; i < words.length; i++) {
+                                    if (text.indexOf(words[i]) === -1) return false;
                                 }
-                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
-                                if (! hasResults ) {
+                                return true;
+                            };
+                            
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                var hasResults = $(el).find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
                                     $(el).addClass('d-none');
-                                } else {
-                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
                                 }
                             });
+                            
+                            $("#legendaries_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                var hasResults = $subsection.find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
+                                    $h5.addClass('d-none');
+                                    $subsection.addClass('d-none');
+                                }
+                            });
+                        },
+                    });
+                    function updateSearch() {
+                        var search_phrase = $("#legendaries_search").val().trim();
+                        var isRegex = $('#legendaries_regex').is(':checked');
+
+                        if (isRegex) {
+                            var regex = null;
+                            if (search_phrase.length > 0) {
+                                try {
+                                    regex = new RegExp(search_phrase, 'i');
+                                } catch (e) {
+                                    return; // Invalid regex, ignore
+                                }
+                            }
+                            
+                            // Disable jets css injection manually
+                            if (jet.styleTag) {
+                                jet.styleTag.innerHTML = '';
+                            }
+                            
+                            $(".searchable").each(function() {
+                                var text = '';
+                                if ($('#legendaries_name_only').is(':checked')) {
+                                    text = $(this).attr('data-name-jets') || '';
+                                } else {
+                                    var $clone = $(this).clone();
+                                    $clone.find('.no-highlight').remove();
+                                    text = $clone.attr('data-jets') || $clone.text() || '';
+                                }
+                                
+                                if (!search_phrase || search_phrase.length === 0) {
+                                    $(this).removeClass('d-none-regex');
+                                } else if (regex && text.match(regex)) {
+                                    $(this).removeClass('d-none-regex');
+                                } else {
+                                    $(this).addClass('d-none-regex');
+                                }
+                            });
+                            
+                            // Manage empty cards/sections like Jets did
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                if (!hasResults) {
+                                    $(el).addClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                }
+                            });
+                            $("#legendaries_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                if (!search_phrase) {
+                                    $h5.removeClass('d-none');
+                                    $subsection.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $subsection.find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                $h5.toggleClass('d-none', !hasResults);
+                                $subsection.toggleClass('d-none', !hasResults);
+                            });
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                            }
+                            
+                            // Highlighting for regex
+                            $("#legendaries_list").unhighlight();
+                            if (search_phrase.length > 0 && regex) {
+                                try {
+                                    if ($('#legendaries_name_only').is(':checked')) {
+                                        $("#legendaries_list .item-name").highlight(regex);
+                                    } else {
+                                        $("#legendaries_list").highlight(regex);
+                                    }
+                                } catch(e) {}
+                            }
+                            
+                        } else {
+                            // Non-regex mode: Let Jets handle normal search filtering
+                            $(".searchable").removeClass('d-none-regex');
+                            if (jet._applyCSS) {
+                                jet._applyCSS();
+                            }
+                            jet.options.didSearch(search_phrase);
+                            
+                            // Highlighting for normal text
+                            $("#legendaries_list").unhighlight();
+                            if (search_phrase && search_phrase.length > 0) {
+                                if ($('#legendaries_name_only').is(':checked')) {
+                                    $("#legendaries_list .item-name").highlight(search_phrase);
+                                } else {
+                                    $("#legendaries_list").highlight(search_phrase);
+                                }
+                            }
+                        }
+                    }
+
+                    $("#legendaries_search").keyup(function(e) {
+                        updateSearch();
+                    });
+                    
+                    $('#legendaries_regex').on('change', function() {
+                        updateSearch();
+                    });
+                    
+                    $('#legendaries_name_only').on('change', function() {
+                        if (jet.options) {
+                            jet.options.manualContentHandling = function(node) {
+                                if ($('#legendaries_name_only').is(':checked')) {
+                                    return node.getAttribute('data-name-jets') || '';
+                                }
+                                var $clone = $(node).clone();
+                                $clone.find('.no-highlight').remove();
+                                return $clone.text();
+                            };
+                        }
+                        if (jet._setJets) {
+                            jet._setJets('', true);
+                        }
+                        
+                        if ($('#legendaries_regex').is(':checked')) {
+                            updateSearch();
+                        } else {
+                            // Trigger Jets' internal search and our didSearch callback
+                            $('#legendaries_search').trigger('input');
                         }
                     });
-                    $("#legendaries_search").keyup(function() {
-                        $("#legendaries_list").unhighlight();
-                        $("#legendaries_list").highlight($(this).val());
-                    });
+                    updateSearch();
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
+    <script src="/js/checklists.js?v=1.1"></script>
   </body>
 </html>

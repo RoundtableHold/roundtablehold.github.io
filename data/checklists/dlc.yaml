@@ -1,551 +1,821 @@
 title: DLC Walkthrough
+title_it: Soluzione DLC
 id: dlc_playthrough
 sections:
   -
     title: Starting Out
+    title_it: Per iniziare
     items:
       - id: "0"
         data: ["From the Cocoon of the Empyrean Grace: Talk to Needle Knight Leda nearby"]
+        data_it: ["Dal Sito di Grazia Bozzolo dell'Empireo: parla con Ago Cavaliere Leda nelle vicinanze"]
       - id: "1"
         data: ["Touch the Hand of Miquella to enter the Shadow of the Erdtree"]
+        data_it: ["Tocca la mano di Miquella per entrare nell'Ombra dell'Albero Madre"]
       - id: "2"
         data: ["Head North-East to grab the Gravesite Plain Grace"]
+        data_it: ["Dirigiti a nord-est per attivare il Sito di Grazia Pianura dei Sepolcri"]
       - id: "3"
         data: ["Continue North-East to grab the Map: Gravesite Plain (Everything accessible before crossing the bridge North-East is safe to explore whenever you prefer with one exception. WARNING: DO NOT kill any \"Pests\" you find. They are the white insect-people in Scarlet Rot areas with spears that shot out webs in the base in the base game. DO NOT kill them or you will miss out on quest rewards and can potentially mess up several questlines.)"]
+        data_it: ["Continua a nord-est per raccogliere la Mappa: Pianura dei Sepolcri (Tutto ciò che è accessibile prima di attraversare il ponte a nord-est può essere esplorato in sicurezza quando preferisci, con un'eccezione. ATTENZIONE: NON uccidere alcun \"Parassita\" che trovi. Sono le creature insettoidi bianche nelle aree della Marcescenza Scarlatta con lance che lanciavano ragnatele nel gioco base. NON ucciderli o perderai le ricompense delle missioni e potresti compromettere diverse serie di missioni.)"]
       - id: "4"
         data: ["Head North through the town to grab the Scorched Ruins Grace"]
+        data_it: ["Dirigiti a nord attraverso la città per attivare il Sito di Grazia Rovine Bruciate"]
       - id: "5"
         data: ["Follow the road North-West to grab the Three-Path Cross Grace and interact with Miquella's Cross nearby."]
+        data_it: ["Segui la strada a nord-ovest per attivare il Sito di Grazia Croce dei tre sentieri e interagisci con la Croce di Miquella nelle vicinanze."]
       - id: "6"
         data: ["Talk to Redmane Freyja and Hornsent nearby to receive the Cross Map"]
+        data_it: ["Parla con Freyja delle Criniere Rosse e il Corneo nelle vicinanze per ricevere la Mappa delle croci"]
       - id: "7"
         data: ["Follow the road West to grab the Main Gate Cross Grace and interact with Miquella's Cross nearby"]
+        data_it: ["Segui la strada a ovest per attivare il Sito di Grazia Croce dell'ingresso principale e interagisci con la Croce di Miquella nelle vicinanze"]
       - id: "8"
         data: ["Talk to Moore and Sir Ansbach nearby."]
+        data_it: ["Parla con Moore e Sir Ansbach nelle vicinanze."]
   -
     title: Belurat, Tower Settlement
+    title_it: Belurat, insediamento della torre
     items:
       - id: "9"
         data: ["Head North-West and follow the path through the area to grab the Belurat, Tower Settlement Grace (All of the settlement is safe to explore as desired)"]
+        data_it: ["Dirigiti a nord-ovest e segui il sentiero attraverso l'area per attivare il Sito di Grazia Belurat, insediamento della torre (L'intero insediamento può essere esplorato in sicurezza a piacimento)"]
       - id: "10"
         data: ["Proceed through the area as desired to grab the Small Private Altar Grace"]
+        data_it: ["Procedi nell'area a piacimento per attivare il Sito di Grazia Piccolo altare privato"]
       - id: "11"
         data: ["Follow the road North then North-East to a courtyard with a large tree"]
+        data_it: ["Segui la strada a nord e poi a nord-est fino a un cortile con un grande albero"]
       - id: "12"
         data: ["Kill the Invader - Fire Knight Queelign for the Crusade Insignia"]
+        data_it: ["Uccidi l'invasore Queelign, Cavaliere del Fuoco, per ottenere l'Insegna della crociata"]
       - id: "13"
         data: ["Go back and follow the path West this time to climb the ladder to grab the Storage Key"]
+        data_it: ["Torna indietro e questa volta segui il sentiero a ovest per salire sulla scala e raccogliere la Chiave del magazzino"]
       - id: "14"
         data: ["Leave the room and go left then left onto the roof tiles to jump onto the bridge to the left."]
+        data_it: ["Esci dalla stanza e vai a sinistra, poi di nuovo a sinistra sulle tegole del tetto per saltare sul ponte a sinistra."]
       - id: "15"
         data: ["Jump onto the bridge and grab the Well Depths Key from the room to the East."]
+        data_it: ["Salta sul ponte e raccogli la Chiave delle profondità del pozzo dalla stanza a est."]
       - id: "16"
         data: ["Head back West, jump down and climb the ladder again, this time go right up the stairs then left then left again down the stairs to find a lift."]
+        data_it: ["Torna a ovest, salta giù e sali di nuovo sulla scala, questa volta vai a destra su per le scale, poi a sinistra e ancora a sinistra giù per le scale per trovare un ascensore."]
       - id: "17"
         data: ["Take the lift to open the shortcut door near the Belurat, Tower Settlement Grace"]
+        data_it: ["Prendi l'ascensore per aprire la porta della scorciatoia vicino al Sito di Grazia Belurat, insediamento della torre"]
       - id: "18"
         data: ["Go back up the lift and go West until you see a room with a giant scorpion then turn right and jump over the rubble to enter a room full of fly-guys."]
+        data_it: ["Torna su con l'ascensore e vai a ovest finché non vedi una stanza con uno scorpione gigante, poi gira a destra e salta sopra le macerie per entrare in una stanza piena di uomini-mosca."]
       - id: "19"
         data: ["Go through the room full of fly-guys to interact with Miquella's Cross"]
+        data_it: ["Attraversa la stanza piena di uomini-mosca per interagire con la Croce di Miquella"]
       - id: "20"
         data: ["Hop down the ledge to the East to climb the ladder."]
+        data_it: ["Salta giù dalla sporgenza a est per salire sulla scala."]
       - id: "21"
         data: ["Head West and up the stairs to grab the Stagefront Grace"]
+        data_it: ["Dirigiti a ovest e su per le scale per attivare il Sito di Grazia Davanti al palco"]
       - id: "22"
         data: ["From the Small Private Altar Grace: Go into the room to the West then head South to open the door with the Storage Key."]
+        data_it: ["Dal Sito di Grazia Piccolo altare privato: vai nella stanza a ovest, poi dirigiti a sud per aprire la porta con la Chiave del magazzino."]
       - id: "23"
         data: ["Go inside to talk to the Hornsent Grandam."]
+        data_it: ["Entra per parlare con la Vegliarda dei Cornei."]
       - id: "24"
         data: ["From the Stagefront Grace: Summon Redmane Freya and kill the Boss - Divine Beast Dancing Lion for the Remembrance of the Dancing Lion, Divine Beast Head and Theatre of the Divine Beast Grace."]
+        data_it: ["Dal Sito di Grazia Davanti al palco: evoca Freyja delle Criniere Rosse e uccidi il Boss - Bestia divina leone danzante per ottenere la Rimembranza del leone danzante, la Testa di bestia divina e attivare il Sito di Grazia Teatro della bestia divina."]
       - id: "25"
         data: ["Go through the doors, up the lift and up the stairs to grab the Tower of Shadow Message."]
+        data_it: ["Oltrepassa le porte, prendi l'ascensore e sali le scale per raccogliere il Messaggio della Torre dell'Ombra."]
       - id: "26"
         data: ["From the Small Private Altar Grace: Talk to Hornsent Grandam then put on the Divine Beast Head and talk with her again for the Watchful Spirit Incantation."]
+        data_it: ["Dal Sito di Grazia Piccolo altare privato: parla con la Vegliarda dei Cornei, poi indossa la Testa di bestia divina e parlale di nuovo per ottenere l'Incantesimo Spirito vigile."]
       - id: "27"
         data: ["Reload and talk to her again for a Scorpion Stew(you can come back for more when you use it or store it.)"]
+        data_it: ["Ricarica e parlale di nuovo per uno Stufato di scorpione (puoi tornare per averne ancora quando lo usi o lo depositi)."]
   -
     title: Gravesite Plains and Southern Shore
+    title_it: Pianura dei Sepolcri e costa meridionale
     items:
       - id: "28"
         data: ["From the Main Gate Cross Grace: Talk to Sir Ansbach to tell him of the Cross in the tower."]
+        data_it: ["Dal Sito di Grazia Croce dell'ingresso principale: parla con Sir Ansbach per riferirgli della Croce nella torre."]
       - id: "29"
         data: ["Head South up the rocky path to grab the Cliffroad Terminus Grace."]
+        data_it: ["Dirigiti a sud lungo il sentiero roccioso per attivare il Sito di Grazia Capolinea della strada della scarpata."]
       - id: "30"
         data: ["**WARNING:** DO NOT KILL ANY Foragers like the one in the next step. It will look like a Pest from the base game but it is friendly."]
+        data_it: ["**ATTENZIONE:** NON UCCIDERE alcun Cercatore come quello nel prossimo passo. Sembrerà un nemico Parassita del gioco base ma è amichevole."]
       - id: "31"
         data: ["Go South-East and up a small hill to talk with the Forager(which looks like a Pest enemy from the base game) to receive the Forager Brood Cookbook"]
+        data_it: ["Vai a sud-est e su per una piccola collina per parlare con il Cercatore (che somiglia a un nemico Parassita del gioco base) per ricevere il Ricettario della nidiata dei cercatori"]
       - id: "32"
         data: ["From the Three-Path Cross Grace: Talk with Redmane Freyja then talk with Hornsent to give him the Scorpion Stew and receive x3 Furnace Visage in exchange."]
+        data_it: ["Dal Sito di Grazia Croce dei tre sentieri: parla con Freyja delle Criniere Rosse, poi parla con il Corneo per dargli lo Stufato di scorpione e ricevere in cambio x3 Volto della fornace."]
       - id: "33"
         data: ["Head North-East across the bridge to grab the Castle Front Grace"]
+        data_it: ["Dirigiti a nord-est attraverso il ponte per attivare il Sito di Grazia Davanti al castello"]
       - id: "34"
         data: ["Take the road South-East then follow the cliff South-East to grab the Pillar Path Cross Grace."]
+        data_it: ["Prendi la strada a sud-est, poi segui la scogliera a sud-est per attivare il Sito di Grazia Croce del sentiero della colonna."]
       - id: "35"
         data: ["Talk with Thiollier"]
+        data_it: ["Parla con Thiollier"]
       - id: "36"
         data: ["From the Castle Front Grace: Head down the slope to the South-East and into the swamp"]
+        data_it: ["Dal Sito di Grazia Davanti al castello: scendi lungo il pendio a sud-est e inoltrati nella palude"]
       - id: "37"
         data: ["Continue North-East then North into the pond"]
+        data_it: ["Continua a nord-est e poi a nord nello stagno"]
       - id: "38"
         data: ["Go South-West to grab the Ellac River Cave Grace (The entire river is safe to explore as desired just don't kill the Forager)"]
+        data_it: ["Vai a sud-ovest per attivare il Sito di Grazia Grotta del fiume Ellac (L'intero fiume può essere esplorato in sicurezza a piacimento, basta non uccidere il Cercatore)"]
       - id: "39"
         data: ["Follow the river South, jumping across the rocks and down the slopes until you reach the very bottom after crossing a giant rock bridge."]
+        data_it: ["Segui il fiume verso sud, saltando tra le rocce e scendendo lungo i pendii fino a raggiungere il fondo dopo aver attraversato un gigantesco ponte di roccia."]
       - id: "40"
         data: ["Follow the East to the corner and talk with the Forager for the Forager Brood Cookbook. The Forager is buggy and may be upside down so you may need to search a little."]
+        data_it: ["Segui verso Est fino all'angolo e parla con il Cercatore per il Ricettario della nidiata dei cercatori. Il Cercatore è buggato e potrebbe essere a testa in giù, quindi potresti dover cercare un po'."]
       - id: "41"
         data: ["Head far South-West, across the river and into the ravine to grab the Cerulean Coast Grace.(The entire Cerulean Coast is safe to explore as desired.)"]
+        data_it: ["Dirigiti verso l'estremo sud-ovest, attraversa il fiume e inoltrati nel burrone per attivare il Sito di Grazia Costa Cerulea (L'intera Costa Cerulea può essere esplorata in sicurezza a piacimento)."]
       - id: "42"
         data: ["Go far South to grab the Map: Southern Shore"]
+        data_it: ["Vai verso l'estremo sud per raccogliere la Mappa: Costa meridionale"]
       - id: "43"
         data: ["Head South-East to grab the Cerulean Coast Cross Grace and interact with Miquella's Cross."]
+        data_it: ["Dirigiti a sud-est per attivare il Sito di Grazia Croce della Costa Cerulea e interagisci con la Croce di Miquella."]
       - id: "44"
         data: ["Jump down the cliffs to the North-East and follow the coast going North-East to the end on the far East coast."]
+        data_it: ["Salta giù dalle scogliere a nord-est e segui la costa andando a nord-est fino alla fine sulla costa dell'estremo est."]
       - id: "45"
         data: ["Go North-East up the ruin to grab the Finger Ruins of Rhia Grace for later."]
+        data_it: ["Sali a nord-est sulla rovina per attivare il Sito di Grazia Rovine delle dita di Rhia per dopo."]
       - id: "46"
         data: ["From the Cerulean Coast Cross Grace: Head West then far South and down into the giant fissure to grab The Fissue Grace for later."]
+        data_it: ["Dal Sito di Grazia Croce della Costa Cerulea: vai a ovest, poi verso l'estremo sud e scendi nella gigantesca fenditura per attivare il Sito di Grazia La Fenditura per dopo."]
       - id: "47"
         data: ["From the Castle Front Grace: Head North-East across the bridge and follow the path to it's end to grab the Castle Ensis Checkpoint Grace and the nearby Castle Cross Message as well as interact with Miquella's Cross."]
+        data_it: ["Dal Sito di Grazia Davanti al castello: dirigiti a nord-est attraverso il ponte e segui il sentiero fino alla fine per attivare il Sito di Grazia Posto di blocco di Castel Ensis e il vicino Messaggio della Croce del Castello, oltre a interagire con la Croce di Miquella."]
       - id: "48"
         data: ["Follow the path over the edge of the cliff to come back around and open the gate to create a shortcut to the Grace."]
+        data_it: ["Segui il sentiero oltre il bordo della scogliera per tornare indietro e aprire il cancello per creare una scorciatoia per il Sito di Grazia."]
       - id: "49"
         data: ["Continue through the area until you reach the Castle-Lord's Chamber Grace"]
+        data_it: ["Continua attraverso l'area fino a raggiungere il Sito di Grazia Camera del signore del castello"]
       - id: "50"
         data: ["Summon Needle Knight Leda and defeat the Boss – Rellana, Twin Moon Knight for the Remembrance of the Twin Moon Knight and the Ensis Moongazing Grounds Grace."]
+        data_it: ["Evoca Ago Cavaliere Leda e sconfiggi il Boss – Rellana, cavaliere delle lune gemelle per ottenere la Rimembranza del cavaliere delle lune gemelle e attivare il Sito di Grazia Area di osservazione della luna di Ensis."]
   -
     title: Scadu Altus
+    title_it: Altus Ombra
     items:
       - id: "51"
         data: ["Head North and grab the Highroad Cross Grace."]
+        data_it: ["Dirigiti a nord e attiva il Sito di Grazia Croce della strada maestra."]
       - id: "52"
         data: ["Grab the Monk's Missive and May the Best Win Emote nearby"]
+        data_it: ["Raccogli il Messaggio del monaco e l'Emote Vinca il migliore nelle vicinanze"]
       - id: "53"
         data: ["Talk with Needle Knight Leda and Hornsent for a New Cross Map."]
+        data_it: ["Parla con Ago Cavaliere Leda e il Corneo per una Nuova mappa delle croci."]
       - id: "54"
         data: ["Optional: Get another Scorpion Stew from the Hornsent Grandam and try to give it to Hornsent"]
+        data_it: ["Opzionale: ottieni un altro Stufato di scorpione dalla Vegliarda dei Cornei e prova a darlo al Corneo"]
       - id: "55"
         data: ["Follow the road North to grab the Map: Scadu Altus (WARNING: Do not go entirely through the town North of this map or you will risk progressing several questlines. Scadu Altus is not yet safe to explore as desired)"]
+        data_it: ["Segui la strada a nord per raccogliere la Mappa: Altus Ombra (ATTENZIONE: non attraversare interamente la città a nord di questa mappa o rischierai di far progredire diverse serie di missioni. Altus Ombra non è ancora sicura da esplorare a piacimento)"]
       - id: "56"
         data: ["Head West into the Church of the Crusade and defeat the Invader – Fire Knight Queelign to get the Ash of War: Flame Skewer and Prayer Room Key."]
+        data_it: ["Dirigiti a ovest verso la Chiesa della crociata e sconfiggi l'invasore – Queelign, Cavaliere del Fuoco per ottenere la Cenere di Guerra: Spiedone di fiamme e la Chiave della sala di preghiera."]
       - id: "57"
         data: ["Go North and use healing magic or a Warming Stone on the Forager to heal it."]
+        data_it: ["Vai a nord e usa la magia curativa o una Pietra riscaldante sul Cercatore per curarlo."]
       - id: "58"
         data: ["Talk to the Forager to receive Forager Brood Cookbook. You may need to reload to get the talk option."]
+        data_it: ["Parla con il Cercatore per ricevere il Ricettario della nidiata dei cercatori. Potrebbe essere necessario ricaricare l'area per far apparire l'opzione di dialogo."]
       - id: "59"
         data: ["From the Highroad Cross Grace: Follow the road North then South -East to grab the Moorth Ruins Grace"]
+        data_it: ["Dal Sito di Grazia Croce della strada maestra: segui la strada verso nord e poi verso sud-est per attivare il Sito di Grazia Rovine di Moorth"]
       - id: "60"
         data: ["Use the May the Best Win Emote on Dryleaf Dane nearby to receive Dryleaf Arts and Dane's Hat"]
+        data_it: ["Usa l'Emote Vinca il migliore su Dane Foglia Morta nelle vicinanze per ricevere le Arti di Foglia Morta e il Cappello di Dane"]
       - id: "61"
         data: ["Head far South-West to the cliff then North-West to talk with the Forager for the Forager Brood Cookbook."]
+        data_it: ["Dirigiti verso l'estremo sud-ovest fino alla scogliera, poi a nord-ovest per parlare con il Cercatore per il Ricettario della nidiata dei cercatori."]
       - id: "62"
         data: ["Head far East to the cliff then South the find a Sealed Spiritjump."]
+        data_it: ["Dirigiti verso l'estremo est fino alla scogliera, poi a sud per trovare un Salto spirituale sigillato."]
       - id: "63"
         data: ["Continue South-East to break the Pile of Stones and unlock the Spiritjump."]
+        data_it: ["Continua a sud-est per rompere il mucchio di pietre e sbloccare il Salto spirituale."]
       - id: "64"
         data: ["Spirtjump up and head to the far South-East corner to grab the Scaduview Cross Grace and interact with Miquella's Cross"]
+        data_it: ["Usa il Salto spirituale e dirigiti verso l'angolo all'estremo sud-est per attivare il Sito di Grazia Croce panoramica sull'Ombra e interagisci con la Croce di Miquella"]
       - id: "65"
         data: ["From the Main Gate Cross Grace: Talk to Sir Ansbach to tell him of the crosses you found."]
+        data_it: ["Dal Sito di Grazia Croce dell'ingresso principale: parla con Sir Ansbach per riferirgli delle croci che hai trovato."]
       - id: "66"
         data: ["Talk with Moore to receive Black Syrup"]
+        data_it: ["Parla con Moore per ricevere lo Sciroppo nero"]
       - id: "67"
         data: ["Talk with Moore again to receive the Forager Brood Cookbook and exhaust his dialogue"]
+        data_it: ["Parla di nuovo con Moore per ricevere il Ricettario della nidiata dei cercatori ed esaurire i suoi dialoghi"]
       - id: "68"
         data: ["From the Pillar Path Cross Grace: Talk with Thiollier to give him the Black Syrup."]
+        data_it: ["Dal Sito di Grazia Croce del sentiero della colonna: parla con Thiollier per dargli lo Sciroppo nero."]
       - id: "69"
         data: ["Ask him about the Black Syrup and then tell him you tire of life to receive Thiollier's Concoction. If you lose this, you can buy more."]
+        data_it: ["Chiedigli dello Sciroppo nero e poi digli che sei stanco di vivere per ricevere il Decotto di Thiollier. Se lo perdi, puoi comprarne dell'altro."]
       - id: "70"
         data: ["From the Moorth Ruins Grace: Head North-East to the lake then continue North through the tunnel into the poison swamp"]
+        data_it: ["Dal Sito di Grazia Rovine di Moorth: dirigiti a nord-est verso il lago, poi continua a nord attraverso il tunnel nella palude velenosa"]
       - id: "71"
         data: ["Cross the swamp to the North-East corner to talk with the Forager for the Forager Brood Cookbook"]
+        data_it: ["Attraversa la palude fino all'angolo nord-est per parlare con il Cercatore per il Ricettario della nidiata dei cercatori"]
       - id: "72"
         data: ["From the Moorth Ruins Grace: Head South-East into town and follow the dirt road North to go down into the path below."]
+        data_it: ["Dal Sito di Grazia Rovine di Moorth: vai a sud-est in città e segui la strada sterrata verso nord per scendere nel sentiero sottostante."]
       - id: "73"
         data: ["Follow the path to it's end to grab the Bonny Village Grace"]
+        data_it: ["Segui il sentiero fino alla fine per attivare il Sito di Grazia Villaggio di Bonny"]
       - id: "74"
         data: ["Head North-East over the river basin to the other side and continue North-East to grab the O Mother Gesture from the statue beneath the tree."]
+        data_it: ["Dirigiti a nord-est oltre il bacino del fiume verso l'altro lato e continua a nord-est per raccogliere il Gesto O Madre dalla statua sotto l'albero."]
       - id: "75"
         data: ["**WARNING**: Make sure to complete any of the above questline steps/talk to any NPCs now because the next step will irreversibly progress the story and cause some of the above steps to be unable to be completed."]
+        data_it: ["**ATTENZIONE**: assicurati di completare tutti i passaggi delle missioni sopra indicati e di parlare con tutti gli NPC ora, perché il prossimo passo farà progredire irreversibilmente la storia e renderà alcuni dei passaggi precedenti non più completabili."]
       - id: "76"
         data: ["Head South-East and cross the bridges to the East to grab the Bridge Leading to the Village.(You should now receive a message and all of Scadu Altus is now safe to explore as desired.)"]
+        data_it: ["Dirigiti a sud-est e attraversa i ponti a est per attivare il Sito di Grazia Ponte verso il villaggio (Dovresti ora ricevere un messaggio e tutta Altus Ombra è ora sicura da esplorare a piacimento)."]
       - id: "77"
         data: ["Follow the road North to grab the Church District Highroad Grace."]
+        data_it: ["Segui la strada verso nord per attivare il Sito di Grazia Strada maestra del quartiere della chiesa."]
       - id: "78"
         data: ["Head West to the cliff and go up the rocks to the North-West to talk with the Forager for Forager Brood Cookbook"]
+        data_it: ["Vai a ovest verso la scogliera e sali sulle rocce a nord-ovest per parlare con il Cercatore per il Ricettario della nidiata dei cercatori"]
       - id: "79"
         data: ["Head East back to the road then West into the the tunnel to grab the Church District Entrance Grace for later."]
+        data_it: ["Torna a est sulla strada e poi a ovest nel tunnel per attivare il Sito di Grazia Ingresso del quartiere della chiesa per dopo."]
   -
     title: Progressing Questlines
+    title_it: Avanzamento delle missioni
     items:
       - id: "80"
         data: ["From the Pillar Path Cross Grace: Talk with Thiollier"]
+        data_it: ["Dal Sito di Grazia Croce del sentiero della colonna: parla con Thiollier"]
       - id: "81"
         data: ["From the Three-Path Cross Grace: Talk with Redmane Freyja 3 times"]
+        data_it: ["Dal Sito di Grazia Croce dei tre sentieri: parla con Freyja delle Criniere Rosse 3 volte"]
       - id: "82"
         data: ["From the Main Gate Cross Grace: Talk with Sir Ansbach"]
+        data_it: ["Dal Sito di Grazia Croce dell'ingresso principale: parla con Sir Ansbach"]
       - id: "83"
         data: ["Talk with Moore and choose 1 of 3 options. The only difference is whether you get the rewards now or later and whether a later battle is harder or easier. I recommend Option 1 for your first playthrough."]
+        data_it: ["Parla con Moore e scegli 1 tra 3 opzioni. L'unica differenza è se ottieni le ricompense ora o dopo e se una battaglia successiva sarà più difficile o più facile. Consiglio l'Opzione 1 per la tua prima partita."]
       -
         - id: "84"
           data: ["Option 1: Tell him to 'Put it behind him' and you will need to wait until near the end of the game to get his armor, shield and bell bearing. A battle will be more difficult."]
+          data_it: ["Opzione 1: digli di 'Lasciarsi tutto alle spalle' e dovrai aspettare quasi la fine del gioco per ottenere la sua armatura, lo scudo e il globo cinereo. Una battaglia sarà più difficile."]
         - id: "85"
           data: ["Option 2: Tell him to 'Be sad forever' then go to the Forager near the Church of the Crusade to get his armor, shield and bell bearing. A battle will be easier."]
+          data_it: ["Opzione 2: digli di 'Essere triste per sempre', poi vai dal Cercatore vicino alla Chiesa della crociata per ottenere la sua armatura, lo scudo e il globo cinereo. Una battaglia sarà più facile."]
         - id: "86"
           data: ["Option 3: Tell him 'I don't know' to put the decision off indefinitely. He will not progress the questline until you progress it and at some point will have to be killed directly to get his rewards. A battle will be easier."]
+          data_it: ["Opzione 3: digli 'Non lo so' per rimandare la decisione indefinitamente. Non farà progredire la missione finché non lo farai tu e a un certo punto dovrà essere ucciso direttamente per ottenere le sue ricompense. Una battaglia sarà più facile."]
   -
     title: Starting "The Count's" Questline
+    title_it: Inizio della missione del Conte
     items:
       - id: "87"
         data: ["From the Church District Highroad Grace: Head South into the cathedral and grab the Cathedral of Manus Metyr Grace."]
+        data_it: ["Dal Sito di Grazia Strada maestra del quartiere della chiesa: dirigiti a sud nella cattedrale e attiva il Sito di Grazia Cattedrale di Manus Metyr."]
       - id: "88"
         data: ["Go through the gate and talk with Count Ymir, High Priest to receive Hole-Laden Necklace and Ruins Map."]
+        data_it: ["Attraversa il cancello e parla con il Conte Ymir, Sommo Sacerdote, per ricevere la Collana bucherellata e la Mappa delle rovine."]
       - id: "89"
         data: ["Just North-West, talk to Swordhand of Night Jolan who is leaning on a pillar and may be hard to see."]
+        data_it: ["Poco più a nord-ovest, parla con Jolan, Mano della Notte, che è appoggiata a un pilastro e potrebbe essere difficile da vedere."]
       - id: "90"
         data: ["From the Finger Ruins of Rhia Grace: Go North to where the finger statues create a circle."]
+        data_it: ["Dal Sito di Grazia Rovine delle dita di Rhia: vai a nord dove le statue a forma di dita formano un cerchio."]
       - id: "91"
         data: ["Sound the hanging bell to receive the Crimson Seed Talisman +1"]
+        data_it: ["Suona la campana appesa per ricevere il Talismano del seme cremisi +1"]
       - id: "92"
         data: ["From the Cathedral of Manus Metyr Grace: Talk with Count Ymir to receive Ruins Map (2^(nd)) and Beloved Stardust."]
+        data_it: ["Dal Sito di Grazia Cattedrale di Manus Metyr: parla con il Conte Ymir per ricevere la Mappa delle rovine (2ª) e la Polvere di stelle diletta."]
       - id: "93"
         data: ["Talk with Jolan at her pillar."]
+        data_it: ["Parla con Jolan al suo pilastro."]
   -
     title: Starting "The Saint's" Questline
+    title_it: Inizio della missione della Santa
     items:
       - id: "94"
         data: ["From the The Fissure Grace: Head East down the slope to grab the Stone Coffin Fissure Grace."]
+        data_it: ["Dal Sito di Grazia La Fenditura: dirigiti a est lungo il pendio per attivare il Sito di Grazia Fenditura del sarcofago di pietra."]
       - id: "95"
         data: ["Follow the path South-East to grab the Fissure Cross Grace and interact with Miquella's Cross."]
+        data_it: ["Segui il sentiero a sud-est per attivare il Sito di Grazia Croce della fenditura e interagisci con la Croce di Miquella."]
       - id: "96"
         data: ["Follow the path North as desired to grab the Fissure Waypoint Grace"]
+        data_it: ["Segui il sentiero a nord a piacimento per attivare il Sito di Grazia Punto di sosta della fenditura"]
       - id: "97"
         data: ["Continue following the path as desired to grab the Fissure Depths Grace"]
+        data_it: ["Continua a seguire il sentiero a piacimento per attivare il Sito di Grazia Profondità della fenditura"]
       - id: "98"
         data: ["Jump down and kill the Boss – Putrescent Knight to receive Remembrance of Putrescence and grab the Garden of Deep Purple Grace"]
+        data_it: ["Salta giù e uccidi il Boss – Cavaliere putrescente per ottenere la Rimembranza della putrescenza e attivare il Sito di Grazia Giardino del viola profondo"]
       - id: "99"
         data: ["Head into the cave to interact with St. Trina and Imbibe nectar."]
+        data_it: ["Entra nella grotta per interagire con Santa Trina e bevi il nettare."]
       - id: "100"
         data: ["From the Pillar Path Cross Grace: Talk to Thiollier to tell him of St. Trina's whereabouts."]
+        data_it: ["Dal Sito di Grazia Croce del sentiero della colonna: parla con Thiollier per riferirgli dove si trova Santa Trina."]
       - id: "101"
         data: ["From the Garden of Deep Purple Grace: Head into the cave and talk with Thiollier until you've exhausted his dialogue."]
+        data_it: ["Dal Sito di Grazia Giardino del viola profondo: entra nella grotta e parla con Thiollier finché non avrai esaurito i suoi dialoghi."]
       - id: "102"
         data: ["Talk with St. Trina and Imbibe nectar repeatedly until you trigger a cutscene, which should take 4 total imbibes."]
+        data_it: ["Parla con Santa Trina e bevi il nettare ripetutamente finché non attivi un filmato (dovresti berlo 4 volte in totale)."]
       - id: "103"
         data: ["Talk with Thiollier and pass on the word twice."]
+        data_it: ["Parla con Thiollier e riferisci il messaggio due volte."]
       - id: "104"
         data: ["Imbibe nectar again and defeat the Invader – Thiollier to receive St. Trina's Smile"]
+        data_it: ["Bevi di nuovo il nettare e sconfiggi l'invasore – Thiollier per ricevere il Sorriso di Santa Trina"]
       - id: "105"
         data: ["Talk with Thiollier and Imbibe nectar again"]
+        data_it: ["Parla con Thiollier e bevi di nuovo il nettare"]
       - id: "106"
         data: ["Talk with Thiollier and pass on the words"]
+        data_it: ["Parla con Thiollier e riferisci le parole"]
       - id: "107"
         data: ["Reload and talk with Thiollier again"]
+        data_it: ["Ricarica e parla ancora con Thiollier"]
   -
     title: Shadow Keep
+    title_it: Rocca d'Ombra
     items:
       - id: "108"
         data: ["From the Highroad Cross Grace: Talk with Hornsent"]
+        data_it: ["Dal Sito di Grazia Croce della strada maestra: parla con il Corneo"]
       - id: "109"
         data: ["Talk with Needle Knight Leda and choose 1 of 3 options. The choice doesn't actually matter and you can choose more than one."]
+        data_it: ["Parla con Ago Cavaliere Leda e scegli 1 tra 3 opzioni. La scelta non è realmente vincolante e puoi sceglierne più di una."]
       - id: "110"
         data: ["Reload and talk with Leda again"]
+        data_it: ["Ricarica l'area e parla di nuovo con Leda"]
       - id: "111"
         data: ["Follow the road North-East through the camp, into the Shadow Keep and up the lift to grab the Shadow Keep Main Gate Grace"]
+        data_it: ["Segui la strada a nord-est attraverso l'accampamento, entra nella Rocca d'Ombra e prendi l'ascensore per attivare il Sito di Grazia Ingresso principale della Rocca d'Ombra"]
       - id: "112"
         data: ["Summon Hornsent and Redmane Freyja then kill the Boss – Golden Hippopotomaus to receive Aspects of the Crucible: Thorns, x2 Scadutree Fragments and the Main Gate Plaza Grace."]
+        data_it: ["Evoca il Corneo e Freyja delle Criniere Rosse, poi uccidi il Boss – Ippopotamo d'oro per ottenere gli Aspetti del crogiolo: Spine, x2 Frammenti di Albero Ombra e attivare il Sito di Grazia Piazzale dell'ingresso principale."]
       - id: "113"
         data: ["Follow the path as desired until you reach a 4-way intersections with a line of giant braziers but DO NOT use the summon signs at the crossroads yet."]
+        data_it: ["Segui il sentiero a piacimento fino a raggiungere un incrocio a 4 vie con una fila di bracieri giganti, ma NON usare ancora i segni di evocazione all'incrocio."]
       - id: "114"
         data: ["Take the path going South, down the ramp, to open the shortcut door to the Main Gate Plaza Grace (You can technically use the summon signs now if you want to but, for the purposes of the guide, I'm going to hold off on them until their cutoff to make the choices and consequences easier to understand.) (Everywhere in every area that you can reach without taking the lift and without passing the Church District Entrance Grace on the East side of the keep is now safe to explore as desired.)"]
+        data_it: ["Prendi il sentiero verso sud, scendi lungo la rampa per aprire la porta della scorciatoia per il Sito di Grazia Piazzale dell'ingresso principale (Tecnicamente potresti usare i segni di evocazione ora, se vuoi, ma ai fini della guida aspetterò fino al punto limite per rendere le scelte e le conseguenze più facili da capire). (Ogni luogo in ogni area raggiungibile senza prendere l'ascensore e senza passare per il Sito di Grazia Ingresso del quartiere della chiesa sul lato est della rocca è ora sicuro da esplorare a piacimento)."]
       - id: "115"
         data: ["Go back up to the top of the hill and use the lift to grab the Storehouse, First Floor Grace"]
+        data_it: ["Torna in cima alla collina e usa l'ascensore per attivare il Sito di Grazia Magazzino, primo piano"]
       - id: "116"
         data: ["From Storehouse, First Floor Grace: Take left-left path and go down elevator."]
+        data_it: ["Dal Sito di Grazia Magazzino, primo piano: prendi il sentiero a sinistra-sinistra e scendi con l'ascensore."]
       - id: "117"
         data: ["Continue on this path to the bottom to grab the Iris of Grace in front of the altar in the room full of pots."]
+        data_it: ["Continua su questo sentiero fino in fondo per raccogliere l'Iride di grazia davanti all'altare nella stanza piena di vasi."]
       - id: "118"
         data: ["Afterward, continue going on this path until you grab the West Rampart Grace for later."]
+        data_it: ["Successivamente, continua su questo sentiero fino ad attivare il Sito di Grazia Bastione occidentale per dopo."]
       - id: "119"
         data: ["From the Storehouse, First Floor Grace: Take the left-right path between the bookshelves until you go up the stairs."]
+        data_it: ["Dal Sito di Grazia Magazzino, primo piano: prendi il sentiero a sinistra-destra tra gli scaffali finché non sali le scale."]
       - id: "120"
         data: ["Go down the stairs into the room on the North side to talk with Sir Ansbach and remember where you found him because we will be returning multiple times."]
+        data_it: ["Scendi le scale nella stanza sul lato nord per parlare con Sir Ansbach e ricorda dove l'hai trovato perché torneremo più volte."]
       - id: "121"
         data: ["Leave the room and continue on the path upwards until you grab the Storehouse, Fourth Floor Grace."]
+        data_it: ["Esci dalla stanza e continua sul sentiero verso l'alto fino ad attivare il Sito di Grazia Magazzino, quarto piano."]
       - id: "122"
         data: ["Grab the Storehouse Cross Message and interact with Miquella's Cross nearby"]
+        data_it: ["Raccogli il Messaggio della Croce del magazzino e interagisci con la Croce di Miquella nelle vicinanze"]
       - id: "123"
         data: ["Proceed on the path West as desired until you see a staircase going down on the left side."]
+        data_it: ["Procedi sul sentiero a ovest a piacimento finché non vedi una scala che scende sul lato sinistro."]
       - id: "124"
         data: ["Go down the staircase and grab the Secret Rite Scroll from the room"]
+        data_it: ["Scendi la scala e raccogli la Pergamena del rito segreto dalla stanza"]
       - id: "125"
         data: ["Leave the room and keep following the path as desired until you hear talking."]
+        data_it: ["Esci dalla stanza e continua a seguire il sentiero a piacimento finché non senti qualcuno parlare."]
       - id: "126"
         data: ["Once you hear talking, go up the stairs to grab the Storehouse, Seventh Floor Grace"]
+        data_it: ["Quando senti parlare, sali le scale per attivare il Sito di Grazia Magazzino, settimo piano"]
       - id: "127"
         data: ["Talk with Redmane Freyja nearby"]
+        data_it: ["Parla con Freyja delle Criniere Rosse nelle vicinanze"]
       - id: "128"
         data: ["From the Storehouse, First Floor Grace: Return to Ansbach and give him the Secret Rite Scroll first and then talk to him about Freyja to receive Letter for Freyja (If you accidentally talk to him about Freyja first, just reload after giving him the scroll to receive the letter.)"]
+        data_it: ["Dal Sito di Grazia Magazzino, primo piano: torna da Ansbach e consegnagli prima la Pergamena del rito segreto, poi parlagli di Freyja per ricevere la Lettera per Freyja (se parli accidentalmente prima di Freyja, ricarica l'area dopo aver consegnato la pergamena per ricevere la lettera)."]
       - id: "129"
         data: ["From the Storehouse, Seventh Floor Grace: Talk with Freyja to give her the letter to receive the Golden Lion Shield."]
+        data_it: ["Dal Sito di Grazia Magazzino, settimo piano: parla con Freyja per consegnarle la lettera e ricevere lo Scudo del leone d'oro."]
       - id: "130"
         data: ["Go down the stairs to the East and into the next room to pull the lever."]
+        data_it: ["Scendi le scale verso est e nella stanza successiva tira la leva."]
       - id: "131"
         data: ["Continue through as desired until you grab the Dark Chamber Entrance Grace."]
+        data_it: ["Continua a piacimento fino ad attivare il Sito di Grazia Ingresso della Camera oscura."]
       - id: "132"
         data: ["**WARNING:** This is the cutoff point for Aiding or Invading the Hornsent. Read the following section very carefully to fully understand your choices."]
+        data_it: ["**ATTENZIONE:** questo è il punto limite per aiutare o invadere il Corneo. Leggi la sezione seguente con molta attenzione per comprendere appieno le tue scelte."]
   -
     title: Complicated Quest Choices
+    title_it: Scelte complicate per le missioni
     items:
-      - "<h6>Now you have a few choices to make that will affect several questlines and several quest rewards as well. This is complicated so to make it simple, the best options are to either Help Hornsent or Help Leda both times. This will give you all the rewards within 2 playthroughs and provide the best flow for the story. So, my recommendation is to either go Option 1 or go Option 2 with all following choices as that will maximize your rewards and lead to the best flow for the questlines but I will explain the combination of choices.<h6>"
-      - "<h6>Option 1: Help Hornsent against Leda. Choosing this will do the following:<ul style=\"list-style-type:disc\"><li>Give you Leda's Rune (obtainable elsewhere) and Ash of War: Swift Slash (Not obtainable otherwise)</li><li>Lock you out of Aiding or Invading Ansbach and getting those rewards later.</li><li>Allow you to summon Hornsent against Messmer</li><li>Possibly make a later battle easier or harder</li></ul></h6>"
-      - "<h6>Option 2: Help Leda against Hornsent. Choosing this will do the following:<ul style=\"list-style-type:disc\"><li>Give you Hornsent's Armor Set and Falx(both obtainable later anyway) and Lacerating Crossed-Tree (Not obtainable otherwise)</li><li>Allow you to also Aid or Invade Ansbach and get those rewards later.</li><li>Prevent you from summoning Hornsent against Messmer</li><li>Prevent him from showing up later and make a later battle easier.</li></ul></h6>"
-      - "<h6>Option 3: Ignore the fight and continuing forward. Choosing this will do the following:<ul style=\"list-style-type:disc\"><li>Allow you to Aid or Invade Ansbach and get those rewards later.</li><li>Allow you to summon Hornsent against Messmer</li><li>Possibly make a later battle easier or harder</li><li>If you choose this, skip to the fight with Messmer then follow \"If Option 2\" after you kill him.</li></ul></h6>"
-      - "If you choose Option 1 or 2:"
+      - name: "<b>Now you have a few choices to make that will affect several questlines and several quest rewards as well. This is complicated so to make it simple, the best options are to either Help Hornsent or Help Leda both times. This will give you all the rewards within 2 playthroughs and provide the best flow for the story. So, my recommendation is to either go Option 1 or go Option 2 with all following choices as that will maximize your rewards and lead to the best flow for the questlines but I will explain the combination of choices.</b><br>"
+        name_it: "<b>Ora hai alcune scelte da compiere che influenzeranno diverse serie di missioni e diverse ricompense. È complicato, quindi per farla semplice le opzioni migliori sono aiutare il Corneo o aiutare Leda in entrambi i casi. Questo ti darà tutte le ricompense in 2 partite e fornirà il miglior flusso per la storia. Quindi, la mia raccomandazione è di scegliere l'Opzione 1 o l'Opzione 2 per tutte le scelte seguenti, poiché massimizzerà le tue ricompense e porterà al miglior flusso per le missioni, ma spiegherò la combinazione di scelte.</b><br>"
+      - name: "<b>Option 1: Help Hornsent against Leda. Choosing this will do the following:</b><br>&bull; Give you Leda's Rune (obtainable elsewhere) and Ash of War: Swift Slash (Not obtainable otherwise)<br>&bull; Lock you out of Aiding or Invading Ansbach and getting those rewards later.<br>&bull; Allow you to summon Hornsent against Messmer<br>&bull; Possibly make a later battle easier or harder"
+        name_it: "<b>Opzione 1: aiuta il Corneo contro Leda. Scegliere questo farà quanto segue:</b><br>&bull; Ti darà la Runa di Leda (ottenibile altrove) e la Cenere di Guerra: Fendente rapido (non ottenibile altrimenti)<br>&bull; Ti escluderà dall'aiutare o invadere Ansbach e ottenere quelle ricompense più tardi.<br>&bull; Ti permetterà di evocare il Corneo contro Messmer<br>&bull; Renderà possibilmente una battaglia successiva più facile o più difficile"
+      - name: "<b>Option 2: Help Leda against Hornsent. Choosing this will do the following:</b><br>&bull; Give you Hornsent's Armor Set and Falx(both obtainable later anyway) and Lacerating Crossed-Tree (Not obtainable otherwise)<br>&bull; Allow you to also Aid or Invade Ansbach and get those rewards later.<br>&bull; Prevent you from summoning Hornsent against Messmer<br>&bull; Prevent him from showing up later and make a later battle easier."
+        name_it: "<b>Opzione 2: aiuta Leda contro il Corneo. Scegliere questo farà quanto segue:</b><br>&bull; Ti darà il set di armatura del Corneo e la Falx (entrambi ottenibili più tardi comunque) e il Legno incrociato lacerante (non ottenibile altrimenti)<br>&bull; Ti permetterà di aiutare o invadere anche Ansbach e ottenere quelle ricompense più tardi.<br>&bull; Ti impedirà di evocare il Corneo contro Messmer<br>&bull; Gli impedirà di apparire più tardi e renderà la battaglia successiva più facile."
+      - name: "<b>Option 3: Ignore the fight and continuing forward. Choosing this will do the following:</b><br>&bull; Allow you to Aid or Invade Ansbach and get those rewards later.<br>&bull; Allow you to summon Hornsent against Messmer<br>&bull; Possibly make a later battle easier or harder<br>&bull; If you choose this, skip to the fight with Messmer then follow \"If Option 2\" after you kill him."
+        name_it: "<b>Opzione 3: ignora il combattimento e prosegui. Scegliere questo farà quanto segue:</b><br>&bull; Ti permetterà di aiutare o invadere Ansbach e ottenere quelle ricompense più tardi.<br>&bull; Ti permetterà di evocare il Corneo contro Messmer<br>&bull; Renderà possibilmente una battaglia successiva più facile o più difficile<br>&bull; Se scegli questa opzione, passa alla battaglia con Messmer e poi segui \"Se Opzione 2\" dopo averlo ucciso."
+      - name: "If you choose Option 1 or 2:"
+        name_it: "Se scegli l'Opzione 1 o 2:"
       - id: "133"
         data: ["From the Storehouse, First Floor Grace: Go back down the elevator and to the crossroads. There will be 2 summons signs to choose from on the South-East corner by the brazier."]
+        data_it: ["Dal Sito di Grazia Magazzino, primo piano: torna giù con l'ascensore fino all'incrocio. Ci saranno 2 segni di evocazione tra cui scegliere nell'angolo sud-est vicino al braciere."]
       - id: "134"
         data: ["If Option 1: Skip to the fight with Messmer."]
-      - "If Option 2:"
+        data_it: ["Se Opzione 1: passa alla battaglia con Messmer."]
+      - name: "If Option 2:"
+        name_it: "Se Opzione 2:"
       - id: "135"
         data: ["From the Highroad Cross Grace: Talk with Leda to receive Lacerating Crossed-Tree."]
+        data_it: ["Dal Sito di Grazia Croce della strada maestra: parla con Leda per ricevere il Legno incrociato lacerante."]
       - id: "136"
         data: ["Reload and talk with her again."]
+        data_it: ["Ricarica l'area e parlale di nuovo."]
       - id: "137"
         data: ["From the Storehouse, First Floor Grace: Return to where you talked with Ansbach and you now have a choice that will affect future battles."]
+        data_it: ["Dal Sito di Grazia Magazzino, primo piano: torna dove hai parlato con Ansbach, ora hai una scelta che influenzerà le battaglie future."]
       - id: "138"
         data: ["<b>Ansbach/Leda</b> - Available if you chose Option 2 or 3 on the Hornsent/Leda choice. Choose to Aid Ansbach or Invade him with Leda. If you have this choice from already helping against Hornsent, I recommend Option 2."]
-      - "<h6>Option 1: Help Ansbach against Leda. Choosing this will do the following:<ul style=\"list-style-type:disc\"> <li>Give you Leda's Rune (not obtainable after this) and Ansbach's Longow(obtainable with Option 2 as well)</li> <li>Allow you to summon him for 2 later battles and finish his questline to acquire his armor set(obtainable with Option 2 as well), the Obsidian Lamina and Furious Blade of Ansbach later(neither are available otherwise).</li> </ul></h6>"
-      - "<h6>Option 2: Help Leda against Ansbach. Choosing this will do the following:</p> <ul style=\"list-style-type:disc\"> <li>Give you Ansbach's Longbow and armor set (both obtainable with Option 1) as well as the Retaliatory Crossed-Tree (not obtainable otherwise)</li> <li>Prevent you from summoning Ansbach in 2 fights later</li> <li>Prevent you from completing his questline and obtaining those rewards.</li> </ul></h6>"
-      - "<h6>Option 3: Ignore the fight. You don't get any rewards and may not be able to summon him later. Don't choose this.</h6>"
+        data_it: ["<b>Ansbach/Leda</b> - Disponibile se hai scelto l'Opzione 2 o 3 per la scelta Corneo/Leda. Scegli se aiutare Ansbach o invaderlo con Leda. Se hai questa scelta dopo aver già aiutato contro il Corneo, consiglio l'Opzione 2."]
+      - name: "<b>Option 1: Help Ansbach against Leda. Choosing this will do the following:</b><br>&bull; Give you Leda's Rune (not obtainable after this) and Ansbach's Longow(obtainable with Option 2 as well)<br>&bull; Allow you to summon him for 2 later battles and finish his questline to acquire his armor set(obtainable with Option 2 as well), the Obsidian Lamina and Furious Blade of Ansbach later(neither are available otherwise)."
+        name_it: "<b>Opzione 1: aiuta Ansbach contro Leda. Scegliere questo farà quanto segue:</b><br>&bull; Ti darà la Runa di Leda (non ottenibile dopo questo punto) e l'Arco lungo di Ansbach (ottenibile anche con l'Opzione 2)<br>&bull; Ti permetterà di evocarlo per 2 battaglie successive e finire la sua missione per ottenere il suo set di armatura (ottenibile anche con l'Opzione 2), la Lamina d'ossidiana e la Lama furiosa di Ansbach più tardi (nessuna delle due è disponibile altrimenti)."
+      - name: "<b>Option 2: Help Leda against Ansbach. Choosing this will do the following:</b><br>&bull; Give you Ansbach's Longbow and armor set (both obtainable with Option 1) as well as the Retaliatory Crossed-Tree (not obtainable otherwise)<br>&bull; Prevent you from summoning Ansbach in 2 fights later<br>&bull; Prevent you from completing his questline and obtaining those rewards."
+        name_it: "<b>Opzione 2: aiuta Leda contro Ansbach. Scegliere questo farà quanto segue:</b><br>&bull; Ti darà l'Arco lungo di Ansbach e il suo set di armatura (entrambi ottenibili con l'Opzione 1) così come il Legno incrociato ritorsivo (non ottenibile altrimenti)<br>&bull; Ti impedirà di evocare Ansbach in 2 battaglie successive<br>&bull; Ti impedirà di completare la sua missione e ottenere quelle ricompense."
+      - name: "<b>Option 3: Ignore the fight. You don't get any rewards and may not be able to summon him later. Don't choose this.</b>"
+        name_it: "<b>Opzione 3: ignora il combattimento. Non otterrai alcuna ricompensa e potresti non essere in grado di evocarlo più tardi. Non scegliere questa opzione.</b>"
       - id: "139"
         data: ["If you choose Option 1: Talk with Ansbach after the fight then continue to the fight with Messmer."]
+        data_it: ["Se scegli l'Opzione 1: parla con Ansbach dopo il combattimento, poi prosegui verso la battaglia con Messmer."]
       - id: "140"
         data: ["If you choose Option 2: From the Highroad Cross Grace: Talk with Leda to receive Retaliatory Crossed-Tree then continue to the fight with Messmer."]
+        data_it: ["Se scegli l'Opzione 2: dal Sito di Grazia Croce della strada maestra: parla con Leda per ricevere il Legno incrociato ritorsivo, poi prosegui verso la battaglia con Messmer."]
   -
     title: Finishing the Shadow Keep
+    title_it: Completamento della Rocca d'Ombra
     items:
-      - "<h6>Now it's time for the boss fight against Messmer but you have a choice as you potentially have 2 Summon Signs but can only summon one of them for aid. My recommendation is Option 1.<br>Option 1: Summon Hornsent on the right. Unavailable if you Invaded Hornsent with Leda. Choosing this will cause a later battle to be easier.<br>Option 2: Summon Jolan on the left. Choosing this will cause a later battle to be harder.<br>Option 3: Don't Summon. Choosing this will cause a later battle to be harder.</h6>"
+      - name: "<b>Now it's time for the boss fight against Messmer but you have a choice as you potentially have 2 Summon Signs but can only summon one of them for aid. My recommendation is Option 1.</b><br>Option 1: Summon Hornsent on the right. Unavailable if you Invaded Hornsent with Leda. Choosing this will cause a later battle to be easier.<br>Option 2: Summon Jolan on the left. Choosing this will cause a later battle to be harder.<br>Option 3: Don't Summon. Choosing this will cause a later battle to be harder."
+        name_it: "<b>È il momento dello scontro con il boss Messmer, ma hai una scelta poiché potresti avere 2 segni di evocazione ma puoi evocarne solo uno per farti aiutare. La mia raccomandazione è l'Opzione 1.</b><br>Opzione 1: evoca il Corneo a destra. Non disponibile se hai invaso il Corneo con Leda. Scegliere questa opzione renderà una battaglia successiva più facile.<br>Opzione 2: evoca Jolan a sinistra. Scegliere questa opzione renderà una battaglia successiva più difficile.<br>Opzione 3: non evocare nessuno. Scegliere questa opzione renderà una battaglia successiva più difficile."
       - id: "147"
         data: ["Kill the Boss Messmer the Impaler to receive Remembrance of the Impaler, Messmer's Kindling and grab the Messmer's Dark Chamber Grace. (Everywhere that isn't across the bridge going West from the Shadow Keep is now safe to explore as desired.)"]
+        data_it: ["Uccidi il Boss Messmer l'Impalatore per ricevere la Rimembranza dell'Impalatore, l'Esca di Messmer e attivare il Sito di Grazia Camera oscura di Messmer. (Ovunque non sia oltre il ponte che va a ovest dalla Rocca d'Ombra è ora sicuro da esplorare a piacimento)."]
       - id: "148"
         data: ["If you chose Option 1: Rest at the grace and talk with the Hornsent if you summoned him. If you miss him here, he will be at Highroad Cross Grace."]
+        data_it: ["Se hai scelto l'Opzione 1: riposa al Sito di Grazia e parla con il Corneo se l'hai evocato. Se lo manchi qui, sarà al Sito di Grazia Croce della strada maestra."]
       - id: "149"
         data: ["From the Highroad Cross Grace: Grab the Message from Leda."]
+        data_it: ["Dal Sito di Grazia Croce della strada maestra: raccogli il Messaggio di Leda."]
       - id: "150"
         data: ["If you chose Option 3: From the Highroad Cross Grace: Talk with Hornsent and Needle Knight Leda. Reload and talk with Leda again"]
+        data_it: ["Se hai scelto l'Opzione 3: dal Sito di Grazia Croce della strada maestra: parla con il Corneo e Ago Cavaliere Leda. Ricarica l'area e parla di nuovo con Leda"]
       - id: "151"
         data: ["From the Small Private Altar Grace: Go talk with the Hornsent Grandam to receive Gourmet Scorpion Stew."]
+        data_it: ["Dal Sito di Grazia Piccolo altare privato: vai a parlare con la Vegliarda dei Cornei per ricevere lo Stufato di scorpione prelibato."]
       - id: "152"
         data: ["Reload and grab a second Gourmet Scorpion Stew."]
+        data_it: ["Ricarica l'area e raccogli un secondo Stufato di scorpione prelibato."]
       - id: "153"
         data: ["From the Church District Entrance Grace: Proceed through the area as desired until you drop down through the church roof."]
+        data_it: ["Dal Sito di Grazia Ingresso del quartiere della chiesa: procedi nell'area a piacimento finché non ti cali attraverso il tetto della chiesa."]
       - id: "154"
         data: ["Once you are in the church, go East to open the door with the Prayer Room Key"]
+        data_it: ["Una volta nella chiesa, vai a est per aprire la porta con la Chiave della sala di preghiera"]
       - id: "155"
         data: ["Here you have a choice. I recommend Option 1:<br>Option 1: Give Fire Knight Queelign the Iris of Grace to receive his Spirit Ash.<br>Option 2: Come back later and give Fire Knight Queelign the Iris of Occultation to receive Queelign's Greatsword. You will find an Iris of Occultation from killing an Ulcerated Tree Spirit after draining the water from the area, but you will have to find your way back here afterward."]
+        data_it: ["Qui hai una scelta. Consiglio l'Opzione 1:<br>Opzione 1: dai a Queelign, Cavaliere del Fuoco l'Iride di grazia per ricevere le sue Ceneri di spirito.<br>Opzione 2: torna più tardi e dai a Queelign, Cavaliere del Fuoco l'Iride dell'occultamento per ricevere lo Spadone di Queelign. Troverai un'Iride dell'occultamento uccidendo uno Spirito dell'albero ulcerato dopo aver drenato l'acqua dall'area, ma dovrai ritrovare la strada per tornare qui in seguito."]
       - id: "156"
         data: ["Whatever your choice, proceed through the area as desired until you use the lever to lower the water levels."]
+        data_it: ["Qualunque sia la tua scelta, procedi nell'area a piacimento finché non usi la leva per abbassare il livello dell'acqua."]
       - id: "157"
         data: ["Head back to the church and jump down to the bottom"]
+        data_it: ["Torna alla chiesa e salta giù fino in fondo"]
       - id: "158"
         data: ["Follow the path West and then North through the doorway."]
+        data_it: ["Segui il sentiero a ovest e poi a nord attraverso la porta."]
       - id: "159"
         data: ["Take the elevator down to grab the Tree-Worship Passage Grace"]
+        data_it: ["Prendi l'ascensore verso il basso per attivare il Sito di Grazia Passaggio del culto dell'albero"]
       - id: "160"
         data: ["Continue on this path to grab the Iris of Grace below the statue."]
+        data_it: ["Continua su questo sentiero per raccogliere l'Iride di grazia sotto la statua."]
       - id: "161"
         data: ["Keep following this path to grab the Tree-Worship Sanctum Grace"]
+        data_it: ["Continua a seguire questo sentiero per attivare il Sito di Grazia Santuario del culto dell'albero"]
       - id: "162"
         data: ["Kill the Boss – Shadow Sunflower for Remembrance of the Shadow Sunflower, Miquella's Great Rune and Scadutree Base Grace"]
+        data_it: ["Uccidi il Boss – Girasole d'ombra per ottenere la Rimembranza del girasole d'ombra, la Runa maggiore di Miquella e attivare il Sito di Grazia Base dell'Albero Ombra"]
   -
     title: Finishing "The Counts" Questline
+    title_it: Completamento della missione del Conte
     items:
       - id: "163"
         data: ["From the Tree-Worship Passage Grace: Go back South then, while still inside the church, go around the corner to East to use the lift to get back up."]
+        data_it: ["Dal Sito di Grazia Passaggio del culto dell'albero: torna a sud poi, restando dentro la chiesa, gira l'angolo verso est per usare l'ascensore e tornare su."]
       - id: "164"
         data: ["Follow this path West to grab the Storehouse, Back Section Grace."]
+        data_it: ["Segui questo sentiero verso ovest per attivare il Sito di Grazia Magazzino, sezione sul retro."]
       - id: "165"
         data: ["Proceed as desired to grab the Storehouse, Loft Grace"]
+        data_it: ["Procedi a piacimento per attivare il Sito di Grazia Magazzino, soffitta"]
       - id: "166"
         data: ["Continue up the lift to proceed as desired until you grab the Shadow Keep, Back Gate Grace (We will not explore the area through the door to the North in the guide but it's safe.)"]
+        data_it: ["Continua su con l'ascensore per procedere a piacimento fino ad attivare il Sito di Grazia Rocca d'Ombra, cancello sul retro (Non esploreremo l'area oltre la porta a nord nella guida, ma è sicura)."]
       - id: "167"
         data: ["Go into the room to the East and use the O' Mother Emote in front of the statue to open a path and grab the Hinterland Grace"]
+        data_it: ["Entra nella stanza a est e usa l'Emote O Madre davanti alla statua per aprire un sentiero e attiva il Sito di Grazia Entroterra"]
       - id: "168"
         data: ["Follow the road South-East then North-East across the bridge to grab the Hinterland Bridge Grace (You can summon Jolan on the way to help with the Tree Sentinels.)"]
+        data_it: ["Segui la strada a sud-est poi a nord-est attraverso il ponte per attivare il Sito di Grazia Ponte dell'entroterra (Puoi evocare Jolan lungo la strada per farti aiutare con le Sentinelle dell'Albero)."]
       - id: "169"
         data: ["Continue East to grab the Fingerstone Hill Grace"]
+        data_it: ["Continua a est per attivare il Sito di Grazia Collina delle dita di pietra"]
       - id: "170"
         data: ["Head Far South-East into the Finger Ruins of Dheo and go to it's center to sound the hanging bell and receive the Cerulean Seed Talisman +1"]
+        data_it: ["Dirigiti verso l'estremo sud-est nelle Rovine delle dita di Dheo e vai al centro per suonare la campana appesa e ricevere il Talismano del seme ceruleo +1"]
       - id: "171"
         data: ["From the Cathedral of Manus Metyr: Talk with Jolan at her pillar"]
+        data_it: ["Dalla Cattedrale di Manus Metyr: parla con Jolan al suo pilastro"]
       - id: "172"
         data: ["Talk with Ymir to receive Ruins Map (3rd) and exhaust his dialogue"]
+        data_it: ["Parla con Ymir per ricevere la Mappa delle rovine (3ª) ed esaurire i suoi dialoghi"]
       - id: "173"
         data: ["Reload and examine the throne to open a path"]
+        data_it: ["Ricarica l'area ed esamina il trono per aprire un sentiero"]
       - id: "174"
         data: ["Climb down the ladder and defeat the Invader - Swordhand of Night Anna to receive the Claws of Night"]
+        data_it: ["Scendi lungo la scala e sconfiggi l'invasore - Anna, Mano della Notte per ricevere gli Artigli della notte"]
       - id: "175"
         data: ["Sound the hanging bell and kill the Boss – Metyr, Mother of Fingers to receive the Remembrance of the Mother of Fingers and grab the Finger Birthing Grounds Grace"]
+        data_it: ["Suona la campana appesa e uccidi il Boss – Metyr, madre delle dita per ottenere la Rimembranza della madre delle dita e attivare il Sito di Grazia Luogo di nascita delle dita"]
       - id: "176"
         data: ["From the Cathedral of Manus Metyr Grace: Examine the throne to receive >!Ymir's Bell Bearing, Ymir's armor set and the Maternal Staff!<"]
+        data_it: ["Dal Sito di Grazia Cattedrale di Manus Metyr: esamina il trono per ricevere >!il Globo cinereo di Ymir, il suo set di armatura e il Bastone materno!<"]
       - id: "177"
         data: ["Reload and here you have a choice. I recommend Option 1 and will proceed through the guide as if you chose this option:<br>Option 1: Give Jolan the Iris of Grace to receive her Spirit Ash.<br>Option 2: Give Jolan the Iris of Occultation if you have one to receive the Sword of Night"]
+        data_it: ["Ricarica l'area e qui hai una scelta. Consiglio l'Opzione 1 e proseguirò la guida come se avessi scelto questa opzione:<br>Opzione 1: dai a Jolan l'Iride di grazia per ricevere le sue Ceneri di spirito.<br>Opzione 2: dai a Jolan l'Iride dell'occultamento se ne hai una per ricevere la Spada della notte"]
       - id: "178"
         data: ["Go through the door to the West to grab the Cherishing Fingers Sorcery from the grave and read the gravestone."]
+        data_it: ["Attraversa la porta a ovest per raccogliere lo Stregonia Dita amorevoli dalla tomba e leggi la lapide."]
       - id: "179"
         data: ["From the Hinterland Grace: Head South-East then go South-East up the slope and all the way to the corner."]
+        data_it: ["Dal Sito di Grazia Entroterra: dirigiti a sud-est poi vai a sud-est su per il pendio fino all'angolo."]
       - id: "180"
         data: ["Jump down the rocks South-East and fall down into onto the balcony of Rabbath's Rise"]
+        data_it: ["Salta giù tra le rocce a sud-est e calati sul balcone della Guglia di Rabbath"]
       - id: "181"
         data: ["Interact with the Puppet of Anna to change the Jolan Spirit Ashes into the Jolan and Anna Spirit Ashes"]
+        data_it: ["Interagisci con il fantoccio di Anna per trasformare le Ceneri di spirito di Jolan nelle Ceneri di spirito di Jolan e Anna"]
   -
     title: Finishing "The Lord's" "Quest"
+    title_it: Completamento della "missione" del Signore
     items:
       - id: "182"
         data: ["This isn't technically a questline but there is a cutscene and you will miss several whole areas if you skip this section, but you can absolutely skip it"]
+        data_it: ["Tecnicamente non è una missione, ma c'è un filmato e perderai diverse aree intere se salti questa sezione, ma puoi assolutamente farlo"]
       - id: "183"
         data: ["From the Main Gate Plaza Grace: Go through the door to the East and up to the crossroad."]
+        data_it: ["Dal Sito di Grazia Piazzale dell'ingresso principale: attraversa la porta a est e sali fino all'incrocio."]
       - id: "184"
         data: ["Take the South-East path and climb down the ladder, go behind the waterfall and down the next ladder."]
+        data_it: ["Prendi il sentiero a sud-est e scendi lungo la scala, vai dietro la cascata e scendi la scala successiva."]
       - id: "185"
         data: ["In the room with the Painting, find the Illusory Wall and take the coffin to grab the Castle Watering Hole Grace."]
+        data_it: ["Nella stanza con il dipinto, trova il muro illusorio e prendi la bara per attivare il Sito di Grazia Area di abbeveraggio del castello."]
       - id: "186"
         data: ["Head South-East and grab the Recluses' River Upstream Grace"]
+        data_it: ["Dirigiti a sud-est e attiva il Sito di Grazia Fiume dei reclusi, parte superiore"]
       - id: "187"
         data: ["Follow the path to grab the Recluses' River Downstream Grace"]
+        data_it: ["Segui il sentiero per attivare il Sito di Grazia Fiume dei reclusi, parte inferiore"]
       - id: "188"
         data: ["Jump down the tombstones jutting out of the cliff all the way to the very bottom"]
+        data_it: ["Salta giù tra le pietre tombali che sporgono dalla scogliera fino in fondo"]
       - id: "189"
         data: ["Head South by South-East and jump down the tombstones to the bottom"]
+        data_it: ["Dirigiti a sud-sud-est e salta tra le pietre tombali fino in fondo"]
       - id: "190"
         data: ["Open the door to the catacomb and take the lift down to grab the Darklight Catacombs Grace"]
+        data_it: ["Apri la porta della catacomba e prendi l'ascensore per attivare il Sito di Grazia Catacombe di Lucebuia"]
       - id: "191"
         data: ["Proceed through the area as desired to it's end to kill the Boss – Jori, Elder Inquisitor to receive the Barbed Staff-Spear and grab the Forsaken Graveyard Grace."]
+        data_it: ["Procedi nell'area a piacimento fino alla fine per uccidere il Boss – Jori, inquisitore anziano per ricevere la Lancia-bastone spinata e attivare il Sito di Grazia Cimitero abbandonato."]
       - id: "192"
         data: ["Head South to grab the Woodland Trail Grace"]
+        data_it: ["Vai a sud per attivare il Sito di Grazia Sentiero boscoso"]
       - id: "193"
         data: ["Head South and kill the Madding Hand to receive the Madding Hand"]
+        data_it: ["Vai a sud e uccidi la Mano furente per ricevere l'arma Mano furente"]
       - id: "194"
         data: ["Head South-East to grab the Map: Abyss and the Church Ruins Grace nearby"]
+        data_it: ["Dirigiti a sud-est per raccogliere la Mappa: Abisso e attivare il Sito di Grazia Rovine della chiesa nelle vicinanze"]
       - id: "195"
         data: ["Head far West and read the messages for hints on how to proceed past the enemies"]
+        data_it: ["Dirigiti verso l'estremo ovest e leggi i messaggi per suggerimenti su come oltrepassare i nemici"]
       - id: "196"
         data: ["Use the bushes to hide and be careful of the flowers as they will alert the enemy<br>You can't hurt these enemies unless you parry them once. After being parried, they become able to be damaged<br>The first one you'll see is the only one actually worth killing as it drops the Aged One's Exultation"]
+        data_it: ["Usa i cespugli per nasconderti e fai attenzione ai fiori perché allarmeranno il nemico<br>Non puoi ferire questi nemici a meno che non esegua un parry su di loro. Dopo il parry, diventano vulnerabili ai danni<br>Il primo che incontrerai è l'unico che valga davvero la pena uccidere perché rilascia l'Esultanza del vegliardo"]
       - id: "197"
         data: ["Head far far West, keeping the wall nearby until you reach the corner."]
+        data_it: ["Dirigiti verso l'estremo ovest, tenendoti vicino al muro fino a raggiungere l'angolo."]
       - id: "198"
         data: ["Head far South and open the door to grab the Manse Hall Grace"]
+        data_it: ["Dirigiti verso l'estremo sud e apri la porta per attivare il Sito di Grazia Atrio della villa"]
       - id: "199"
         data: ["Talk to the ghost nearby then hit the painting on the East side to reveal an Illusory Wall."]
+        data_it: ["Parla con il fantasma nelle vicinanze, poi colpisci il dipinto sul lato est per rivelare un muro illusorio."]
       - id: "200"
         data: ["Proceed through the madhouse as desired to grab the Midra's Library Grace"]
+        data_it: ["Procedi nel manicomio a piacimento fino ad attivare il Sito di Grazia Biblioteca di Midra"]
       - id: "201"
         data: ["Continue as desired to open the shortcut door to the Manse Hall Grace"]
+        data_it: ["Continua a piacimento per aprire la porta della scorciatoia per il Sito di Grazia Atrio della villa"]
       - id: "202"
         data: ["Hit the large painting in the room through the shortcut door to reveal an Illusory Wall"]
+        data_it: ["Colpisci il grande dipinto nella stanza oltre la scorciatoia per rivelare un muro illusorio"]
       - id: "203"
         data: ["Proceed as desired to grab the Second Floor Chamber Grace"]
+        data_it: ["Procedi a piacimento per attivare il Sito di Grazia Camera al secondo piano"]
       - id: "204"
         data: ["Kill the Boss – Midra, Lord of Frenzied Flame to receive the Remembrance of the Lord of Frenzied Flame and grab the Discussion Chamber Grace."]
+        data_it: ["Uccidi il Boss – Midra, signore della fiamma frenetica per ottenere la Rimembranza del signore della fiamma frenetica e attivare il Sito di Grazia Sala delle discussioni."]
   -
     title: Finishing Igon's Questline
+    title_it: Completamento della missione di Igon
     items:
       - id: "205"
         data: ["From the Castle Front Grace: Follow the road South-East to grab the Pillar Path Waypoint Grace"]
+        data_it: ["Dal Sito di Grazia Davanti al castello: segui la strada verso sud-est per attivare il Sito di Grazia Punto di sosta del sentiero della colonna"]
       - id: "206"
         data: ["Talk with the screaming homeless man nearby"]
+        data_it: ["Parla con il senzatetto che urla nelle vicinanze"]
       - id: "207"
         data: ["Follow the road South-West and kill the Invader – Ancient Dragon-Man"]
+        data_it: ["Segui la strada a sud-ovest e uccidi l'invasore – Uomo-drago antico"]
       - id: "208"
         data: ["Continue following this path to grab the Dragon's Pit Grace"]
+        data_it: ["Continua a seguire questo sentiero per attivare il Sito di Grazia Fossa del drago"]
       - id: "209"
         data: ["Proceed through the area as desired to kill the Boss – Ancient Dragon-Man and receive the Dragon-Hunter's Great Katana and grab the Dragon's Pit Terminus Grace"]
+        data_it: ["Procedi nell'area a piacimento per uccidere il Boss – Uomo-drago antico e ricevere la Katana grande del cacciatore di draghi e attivare il Sito di Grazia Capolinea della fossa del drago"]
       - id: "210"
         data: ["Continue East and up to the top of the hill to interact with the message."]
+        data_it: ["Continua a est e sali in cima alla collina per interagire con il messaggio."]
       - id: "211"
         data: ["Kill the Jagged Peak Drake below"]
+        data_it: ["Uccidi la Drago del Picco Abbagliante qui sotto"]
       - id: "212"
         data: ["Head South to grab the Grand Altar of Dragon Communion Grace (We will not be exploring the area West, across the dragon's wing, in the guide but it is safe to do so.)"]
+        data_it: ["Vai a sud per attivare il Sito di Grazia Gran altare della Comunione draconica (non esploreremo l'area a ovest, oltre l'ala del drago, nella guida ma è sicuro farlo)."]
       - id: "213"
         data: ["Go back North and follow the Northern path to grab the Foot of the Jagged Peak Grace"]
+        data_it: ["Torna a nord e segui il sentiero settentrionale per attivare il Sito di Grazia Piedi del Picco Abbagliante"]
       - id: "214"
         data: ["Kill the stronger of the 2 Jagged Peak Drakes(or both if desired)"]
+        data_it: ["Uccidi il più forte dei 2 Draghi del Picco Abbagliante (o entrambi, se preferisci)"]
       - id: "215"
         data: ["Reload and talk with Igon near the battlefield to receive Igon's Furled Finger"]
+        data_it: ["Ricarica l'area e parla con Igon vicino al campo di battaglia per ricevere il Dito ricurvo di Igon"]
       - id: "216"
         data: ["Continue on the path East until you grab the Jagged Peak Mountainside Grace"]
+        data_it: ["Continua sul sentiero verso est finché non attivi il Sito di Grazia Pendici del Picco Abbagliante"]
       - id: "217"
         data: ["Continue proceeding as desired until you grab the Jagged Peak Summit Grace"]
+        data_it: ["Continua a procedere a piacimento finché non attivi il Sito di Grazia Sommità del Picco Abbagliante"]
       - id: "218"
         data: ["DO NOT enter the boss room yet."]
+        data_it: ["NON entrare ancora nella stanza del boss."]
       - id: "219"
         data: ["From the Grand Altar of Dragon Communion Grace: Talk with the Dragon Communion Priestess nearby and accept her request to receive Ancient Dragon's Blessing"]
+        data_it: ["Dal Sito di Grazia Gran altare della Comunione draconica: parla con la Sacerdotessa della Comunione draconica nelle vicinanze e accetta la sua richiesta per ricevere la Benedizione dell'antico drago"]
       - id: "220"
         data: ["Talk with her again to exhaust her dialogue"]
+        data_it: ["Parlale di nuovo per esaurire i suoi dialoghi"]
       - id: "221"
         data: ["Here you have a choice. I recommend Option 1 and will proceed as if you had chosen this option:<br>Option 1: Give the Priestess Thiollier's Concoction at night. This will do the following: You cannot get anymore Ancient Dragon's Blessings. Killing Bayle will cause her to give you the Dragonbolt of Florissax Incantation and her Spirit Ashes but you will not get the Option 2 rewards from her.<br> Option 2: Do not give the Priestess the concoction and just kill Bayle. This will do the following: Returning to her after killing Bayle will give you the Flowerstone Gavel and Priestess Heart(there is an alternative to this heart) but you will not get the Option 1 rewards."]
+        data_it: ["Qui hai una scelta. Consiglio l'Opzione 1 e proseguirò come se avessi scelto questa opzione:<br>Opzione 1: dai alla Sacerdotessa il Decotto di Thiollier di notte. Questo causerà quanto segue: non potrai più ottenere Benedizioni dell'antico drago. Uccidere Bayle farà sì che lei ti dia l'Incantesimo Fulmine draconico di Florissax e le sue Ceneri di spirito, ma non otterrai le ricompense dell'Opzione 2.<br> Opzione 2: non dare alla Sacerdotessa il decotto e uccidi semplicemente Bayle. Questo causerà quanto segue: tornare da lei dopo aver ucciso Bayle ti darà il Maglio di pietra fiorita e il Cuore della Sacerdotessa (esiste un'alternativa a questo cuore), ma non otterrai le ricompense dell'Opzione 1."]
       - id: "222"
         data: ["If you choose Option 2: Rest at the grace and pass time until nightfall. If she is missing, pass time until nightfall again. Give her Thiollier's Concoction. Rest at the grace and pass time until morning twice then talk with her."]
+        data_it: ["Se scegli l'Opzione 2: riposa al Sito di Grazia e fai passare il tempo fino a notte fonda. Se è sparita, fai passare il tempo fino a notte fonda di nuovo. Consegna il Decotto di Thiollier. Riposa al Sito di Grazia e fai passare il tempo fino al mattino per due volte, poi parlale."]
       - id: "223"
         data: ["From the Jagged Peak Summit Grace: Enter the boss arena and summon Igon just to the left of the entrance inside the arena then kill the Boss – Bayle to receive the Heart of Bayle"]
+        data_it: ["Dal Sito di Grazia Sommità del Picco Abbagliante: entra nell'arena del boss ed evoca Igon appena a sinistra dell'ingresso all'interno dell'arena, poi uccidi il Boss – Bayle per ricevere il Cuore di Bayle"]
       - id: "224"
         data: ["From the Foot of the Jagged Peak Grace: Return to where you found Igon and receive Igon's Greatbow, his armor set and his bell bearing."]
+        data_it: ["Dal Sito di Grazia Piedi del Picco Abbagliante: torna dove hai trovato Igon e ricevi l'Arco lungo di Igon, il suo set di armatura e il suo globo cinereo."]
       - id: "225"
         data: ["From the Grand Altar of Dragon Communion Grace: Talk with the Dragon Communion Priestess to receive your rewards based on your earlier choice. If you gave her Thiollier's Concoction, you must confess what you did to receive all of your rewards."]
+        data_it: ["Dal Sito di Grazia Gran altare della Comunione draconica: parla con la Sacerdotessa della Comunione draconica per ricevere le ricompense in base alla tua scelta precedente. Se le hai dato il Decotto di Thiollier, devi confessare quello che hai fatto per ricevere tutte le tue ricompense."]
 
   -
     title: Continuing the Main Story
+    title_it: Continuazione della storia principale
     items:
-
       - id: "226"
         data: ["From the West Rampart Grace: Open the door fit for an Elden Lord and head West across the bridge."]
+        data_it: ["Dal Sito di Grazia Bastione occidentale: apri la porta degna di un Lord Ancestrale e dirigiti a ovest attraverso il ponte."]
       - id: "227"
         data: ["Go up the stairs and up the lift to grab the Viaduct Minor Tower Grace."]
+        data_it: ["Sali le scale e prendi l'ascensore per attivare il Sito di Grazia Torre minore del viadotto."]
       - id: "228"
         data: ["Head West to find a tunnel system"]
+        data_it: ["Dirigiti a ovest per trovare un sistema di tunnel"]
       - id: "229"
         data: ["Proceed through as desired until you manage to come out of the other side and grab the Rauh Ancient Ruins , East Grace"]
+        data_it: ["Procedi a piacimento finché non riesci a uscire dall'altro lato e attiva il Sito di Grazia Antiche rovine di Rauh, parte orientale"]
       - id: "230"
         data: ["Interact with the nearby Miquella's Cross and grab the Ancient Ruins Cross Message"]
+        data_it: ["Interagisci con la Croce di Miquella nelle vicinanze e raccogli il Messaggio della Croce delle antiche rovine"]
       - id: "231"
         data: ["Head West across the bridge and then South to grab the Rauh Ancient Ruins, West Grace"]
+        data_it: ["Dirigiti a ovest attraverso il ponte e poi a sud per attivare il Sito di Grazia Antiche rovine di Rauh, parte occidentale"]
       - id: "232"
         data: ["Follow the path West until you reach a church filled with rot then, while outside the church, go North-East up the slope to break the pile of stones and open the shortcut, just in case"]
+        data_it: ["Segui il sentiero a ovest fino a raggiungere una chiesa piena di marcescenza poi, restando fuori, vai a nord-est su per il pendio per rompere il mucchio di pietre e aprire la scorciatoia, per sicurezza"]
       - id: "233"
         data: ["Enter the church and defeat the Invader – Hornsent to receive his armor set and Falx (He will not appear unless you summoned him for the fight against Messmer.)"]
+        data_it: ["Entra nella chiesa e sconfiggi l'invasore – Corneo per ricevere il suo set di armatura e la Falx (non apparirà a meno che tu non lo abbia evocato per la battaglia contro Messmer)."]
       - id: "234"
         data: ["Grab the Church of the Bud, Main Entrance Grace"]
+        data_it: ["Attiva il Sito di Grazia Ingresso principale della Chiesa del Bocciolo"]
       - id: "235"
         data: ["Summon Dryleaf Dane and kill the Boss – Romina, Saint of the Bud to receive Remembrance of the Saint of the Bud and grab the Church of the Bud Grace"]
+        data_it: ["Evoca Dane Foglia Morta e uccidi il Boss – Romina, Santa del Bocciolo per ottenere la Rimembranza della Santa del Bocciolo e attivare il Sito di Grazia Chiesa del Bocciolo"]
       - id: "236"
         data: ["<b>WARNING:</b> The next step will lock out some questlines. If you've been following the guide all the way through, you will be good but if not then you may need to go back. The NPCs that are or may be affected are Leda, Hornsent, Redmane Freyja, Moore, Sir Ansbach, Thiollier, Dryleaf Dane and St. Trina. Doing all steps before Completing \"The Count's\" Questline should prevent any questlines from being negatively impacted."]
+        data_it: ["<b>ATTENZIONE:</b> il prossimo passo bloccherà alcune serie di missioni. Se hai seguito la guida fin qui, sarai a posto, altrimenti potresti dover tornare indietro. Gli NPC che sono o potrebbero essere influenzati sono Leda, il Corneo, Freyja delle Criniere Rosse, Moore, Sir Ansbach, Thiollier, Dane Foglia Morta e Santa Trina. Completare tutti i passaggi prima di finire la missione del Conte dovrebbe impedire impatti negativi su qualsiasi missione."]
   -
     title: The Final Stretch
+    title_it: La retta finale
     items:
       - id: "237"
         data: ["From the Church of the Bud Grace: Head South up the stairs and examine the sealing tree to burn it"]
+        data_it: ["Dal Sito di Grazia Chiesa del Bocciolo: vai a sud su per le scale ed esamina l'Albero del Sigillo per bruciarlo"]
       - id: "238"
         data: ["Grab the Enir-Ilim: Outer Wall Grace"]
+        data_it: ["Attiva il Sito di Grazia Enir-Ilim: mura esterne"]
       - id: "239"
         data: ["Follow the path forward to grab the First Rise Grace."]
+        data_it: ["Segui il sentiero in avanti per attivare il Sito di Grazia Prima ascesa."]
       - id: "240"
         data: ["Proceed as desired until you grab the Spiral Rise Grace and interact with the final Miquella's Cross nearby"]
+        data_it: ["Procedi a piacimento finché non attivi il Sito di Grazia Ascesa a spirale e interagisci con l'ultima Croce di Miquella nelle vicinanze"]
       - id: "241"
         data: ["Keep proceeding as desired until you grab the Cleansing Chamber Anteroom Grace"]
+        data_it: ["Continua a procedere a piacimento finché non attivi il Sito di Grazia Anticamera della sala della purificazione"]
       - id: "242"
         data: ["Proceed forward and summon your allies(certain decisions affect how many you have) and then use the Invasion Sign to do battle."]
+        data_it: ["Procedi in avanti ed evoca i tuoi alleati (alcune decisioni influenzano quanti ne avrai) e poi usa il segno di invasione per combattere."]
       - id: "243"
         data: ["After the battle receive your rewards. (Only Leda's Sword, Leda's Armor and Dane's Footwork are guaranteed. Everything else is dependent on prior decisions.)"]
+        data_it: ["Dopo la battaglia ricevi le tue ricompense. (Sono garantiti solo la Spada di Leda, l'Armatura di Leda e il Gioco di gambe di Dane. Tutto il resto dipende dalle decisioni precedenti)."]
       - id: "244"
         data: ["Proceed forward up the lift"]
+        data_it: ["Procedi in avanti prendendo l'ascensore"]
       - id: "245"
         data: ["Talk with Sir Ansbach if he is there. He will only appear if you made certain choices and gave him the Secret Rite Scroll."]
+        data_it: ["Parla con Sir Ansbach se è presente. Apparirà solo se hai fatto determinate scelte e gli hai consegnato la Pergamena del rito segreto."]
       - id: "246"
         data: ["Continue up the stairs to grab the Divine Gate Front Staircase Grace"]
+        data_it: ["Continua su per le scale per attivare il Sito di Grazia Davanti alla scalinata del Portale Divino"]
       - id: "247"
         data: ["Summon your allies and fight the Final Boss"]
+        data_it: ["Evoca i tuoi alleati e combatti il Boss finale"]
       - id: "248"
         data: ["After defeating the final boss, grab the Gate of Divinity Grace and rest at it."]
+        data_it: ["Dopo aver sconfitto il boss finale, attiva il Sito di Grazia Portale della Divinità e riposati."]
       - id: "249"
         data: ["Explore the battlefield to grab the Let Us Go Together Emote, >!Thiollier's Hidden Needle and Thiollier's Armor Set, Obsidian Lamina, Furious Blade of Ansbach and Ansbach's Armor Set!<"]
+        data_it: ["Esplora il campo di battaglia per raccogliere l'Emote Andiamo insieme, >!l'Ago celato di Thiollier e il suo set di armatura, la Lamina d'ossidiana, la Lama furiosa di Ansbach e il suo set di armatura!<"]
       - id: "250"
         data: ["From the Garden of Deep Purple Grace: Go to St. Trina and receive St. Trina's Blossom."]
+        data_it: ["Dal Sito di Grazia Giardino del viola profondo: vai da Santa Trina e ricevi il Fiore di Santa Trina."]

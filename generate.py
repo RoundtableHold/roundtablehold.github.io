@@ -10,6 +10,26 @@ from dominate.tags import *
 from dominate.util import raw
 from more_itertools import peekable
 
+# Supported display languages. Add new entries here to support more languages.
+# The key is the 2-3 letter code used in YAML fields (title_it, data_it, etc.)
+UK_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+IT_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+ES_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23c60b1e'/%3E%3Crect width='3' height='1' y='0.5' fill='%23ffc400'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+FR_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23002395'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ed2939'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+DE_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23000'/%3E%3Crect width='3' height='1.333' y='0.666' fill='%23d00'/%3E%3Crect width='3' height='0.666' y='1.333' fill='%23ffce00'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+PT_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 3'%3E%3Cpath fill='%23060' d='M0 0h2v3H0z'/%3E%3Cpath fill='%23f00' d='M2 0h3v3H2z'/%3E%3Ccircle fill='%23ff0' cx='2' cy='1.5' r='0.6'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+JA_FLAG = "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23fff'/%3E%3Ccircle cx='1.5' cy='1' r='0.6' fill='%23bc002d'/%3E%3C/svg%3E\" style=\"height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);\">"
+
+LANGUAGE_META = {
+    'en': {'flag': UK_FLAG, 'name': 'EN'},
+    'it': {'flag': IT_FLAG, 'name': 'IT'},
+    'es': {'flag': ES_FLAG, 'name': 'ES'},
+    'fr': {'flag': FR_FLAG, 'name': 'FR'},
+    'de': {'flag': DE_FLAG, 'name': 'DE'},
+    'pt': {'flag': PT_FLAG, 'name': 'PT'},
+    'ja': {'flag': JA_FLAG, 'name': 'JA'},
+}
+
 
 def to_snake_case(name):
     name = "".join(name.split())
@@ -25,17 +45,53 @@ def strip_a_tags(s):
 dropdowns = []
 pages = []
 item_links = []
+nav_static = {}
 with open(os.path.join('data', 'pages.yaml'), 'r', encoding='utf_8') as pages_yaml:
     yml = yaml.safe_load(pages_yaml)
-    item_links = yml['item_links']
+    item_links = yml.get('item_links', [])
+    
+    # Load static nav translations
+    if 'nav_static' in yml:
+        # Default English
+        for idx, val in enumerate(yml['nav_static']):
+            if idx not in nav_static:
+                nav_static[idx] = {'en': val}
+            else:
+                nav_static[idx]['en'] = val
+                
+        # Load other languages
+        for lang_code in LANGUAGE_META.keys():
+            if lang_code == 'en': continue
+            key = f'nav_static_{lang_code}'
+            if key in yml:
+                for idx, val in enumerate(yml[key]):
+                    if idx in nav_static:
+                        nav_static[idx][lang_code] = val
+
     for dropdown in yml['dropdowns']:
         dropdown_urls = []
         for page in dropdown['pages']:
             with open(os.path.join('data', 'checklists', page), 'r', encoding='utf_8') as data:
-                yml = yaml.safe_load(data)
-                pages.append(yml)
-                dropdown_urls.append((yml['title'], yml['id'], yml.get('map_icon', yml.get('icon', None))))
-        dropdowns.append((dropdown['name'], dropdown_urls))
+                page_yml = yaml.safe_load(data)
+                pages.append(page_yml)
+                
+                # Extract translated titles for the page
+                page_titles = {'en': page_yml['title']}
+                for lang in LANGUAGE_META.keys():
+                    if lang == 'en': continue
+                    if f'title_{lang}' in page_yml:
+                        page_titles[lang] = page_yml[f'title_{lang}']
+                        
+                dropdown_urls.append((page_titles, page_yml['id'], page_yml.get('map_icon', page_yml.get('icon', None))))
+        
+        # Extract translated names for the dropdown
+        dropdown_names = {'en': dropdown['name']}
+        for lang in LANGUAGE_META.keys():
+            if lang == 'en': continue
+            if f'name_{lang}' in dropdown:
+                dropdown_names[lang] = dropdown[f'name_{lang}']
+                
+        dropdowns.append((dropdown_names, dropdown_urls))
 
 page_ids = set()
 all_ids = set()
@@ -58,6 +114,8 @@ for page in pages:
             if isinstance(item, str):
                 continue
             def f(item):
+                if 'id' not in item:
+                    return
                 if not isinstance(item['id'], str):
                     print("Please make item id " + str(item['id']) + ' a string by wrapping it in quotes. Found on page ' + page['id'] + ' in section "' + section['title'] + '"')
                     quit(1)
@@ -70,6 +128,75 @@ for page in pages:
                 item = next(items)
                 for subitem in item:
                     f(subitem)
+
+def detect_languages():
+    """Scan all pages to find non-English language codes present in YAML data."""
+    lang_pattern = re.compile(r'^(title|data|name)_([a-z]{2,3})$')
+    langs = set()
+    for page in pages:
+        for key in page:
+            if not isinstance(key, str):
+                continue
+            m = lang_pattern.match(key)
+            if m:
+                langs.add(m.group(2))
+        for section in page.get('sections', []):
+            for key in section:
+                if not isinstance(key, str):
+                    continue
+                m = lang_pattern.match(key)
+                if m:
+                    langs.add(m.group(2))
+            for item in section.get('items', []):
+                if isinstance(item, str):
+                    continue
+                for key in item:
+                    if not isinstance(key, str):
+                        continue
+                    m = lang_pattern.match(key)
+                    if m:
+                        langs.add(m.group(2))
+    return langs
+
+available_languages = detect_languages()
+
+def get_theme_colors():
+    def extract_colors(filepath):
+        with open(filepath, "r") as f:
+            content = f.read()
+            bg_match = re.search(r'--bs-body-bg:(.*?);', content)
+            color_match = re.search(r'--bs-body-color:(.*?);', content)
+            if not bg_match:
+                bg_match = re.search(r'body\{[^\}]*background-color:(.*?)[;\}]', content)
+            if not color_match:
+                color_match = re.search(r'body\{[^\}]*color:(.*?)[;\}]', content)
+            bg = bg_match.group(1).split('}')[0] if bg_match else "#ffffff"
+            color = color_match.group(1).split('}')[0] if color_match else "#212529"
+            return bg, color
+
+    theme_dir = "docs/css/themes"
+    themes = {}
+    for root, _, files in os.walk(theme_dir):
+        for file in files:
+            if file == "bootstrap.min.css":
+                theme_name = os.path.basename(root)
+                filepath = os.path.join(root, file)
+                bg, color = extract_colors(filepath)
+                
+                key = theme_name.capitalize()
+                if key == "Lightmode": key = "LightMode"
+                themes[key] = {"bg": bg, "color": color}
+                
+    standard_path = "docs/css/bootstrap.min.css"
+    if os.path.exists(standard_path):
+        bg, color = extract_colors(standard_path)
+        themes["Standard"] = {"bg": bg, "color": color}
+    else:
+        themes["Standard"] = {"bg": "#ffffff", "color": "#212529"}
+        
+    return themes
+
+theme_colors_map = get_theme_colors()
 
 def make_doc(title, description):
     doc = dominate.document(title=title)
@@ -87,7 +214,83 @@ def make_doc(title, description):
         meta(name="description", content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc.")
         meta(name="author", content="Ben Lambeth")
         meta(name="mobile-web-app-capable", content="yes")
-        link(href="/css/bootstrap.min.css", rel="stylesheet", id="bootstrap")
+        script(raw("""
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+"""))
         link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css")
         link(href="/css/main.css", rel="stylesheet")
     return doc
@@ -95,10 +298,10 @@ def make_doc(title, description):
 def title_row():
     with div(cls="row"):
         with div(cls="col-md-12 text-center"):
-            h1("Roundtable Hold", cls="mt-3")
+            h1(localized_span({'en': 'Roundtable Hold', 'it': 'Tavola Rotonda'}), cls="mt-3")
             text = p(cls="lead d-print-none")
-            text += "Contribute at the "
-            text += a("Github Page",
+            text += localized_span({'en': 'Contribute at the ', 'it': 'Contribuisci alla '})
+            text += a(localized_span({'en': 'Github Page', 'it': 'Pagina GitHub'}),
                       href="https://github.com/RoundtableHold/roundtablehold.github.io")
 
 def hide_completed_button():
@@ -106,8 +309,16 @@ def hide_completed_button():
         with div(cls="form-check form-switch"):
             input_(cls="form-check-input", type="checkbox",
                    id='toggleHideCompleted')
-            label("Hide Completed", cls="form-check-label",
-                  _for='toggleHideCompleted')
+            with label(cls="form-check-label", _for='toggleHideCompleted'):
+                t = nav_static.get(5, {'en': 'Hide Completed'})
+                localized_span(t)
+
+def localized_span(translations_dict):
+    """Returns a span with lang-pair and lang-text spans for each language in the dict."""
+    with span(cls="lang-pair") as s:
+        for lang, text in translations_dict.items():
+            span(text, cls=f"lang-text lang-{lang}")
+    return s
 
 def make_nav(page, is_map = False):
     with nav(cls="navbar navbar-expand-xl bg-dark navbar-dark d-print-none" + (' sticky-top' if not is_map else ''), id="top_nav"):
@@ -115,27 +326,60 @@ def make_nav(page, is_map = False):
             # with div(cls='order-sm-last d-none d-sm-block ms-auto'):
             with button(type="button", cls="navbar-toggler", data_bs_toggle="collapse", data_bs_target="#nav-collapse", aria_expanded="false", aria_controls="nav-collapse", aria_label="Toggle navigation"):
                 span(cls="navbar-toggler-icon")
-            a('Roundtable Guides', cls="navbar-brand me-auto ms-2" + (' active' if page == 'index' else ''), href="/index.html")
-            with form(cls="d-none d-sm-flex order-2 order-xl-3"):
-                input_(cls='form-control me-2', type='search', placeholder='Search', aria_label='search', name='search')
-                button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true').add(i(cls='bi bi-search'))
+            
+            rt_guides_text = nav_static.get(0, {'en': 'Roundtable Guides'})
+            a(localized_span(rt_guides_text), cls="navbar-brand me-auto ms-2" + (' active' if page == 'index' else ''), href="/index.html")
+            
+            if available_languages:
+                all_lang_codes = ['en'] + sorted(available_languages)
+                with ul(cls="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2"):
+                    with li(cls="nav-item dropdown"):
+                        with a(href="#", cls="nav-link dropdown-toggle", id="langDropdown",
+                               data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false"):
+                            span(id="lang-display")
+                        with ul(cls="dropdown-menu dropdown-menu-end position-absolute", id="lang-menu"):
+                            for lang_code in all_lang_codes:
+                                meta = LANGUAGE_META.get(lang_code, {'flag': '🌐', 'name': lang_code.upper()})
+                                with li():
+                                    a(raw(meta['flag']), ' ', meta['name'], href="#", cls="dropdown-item lang-option", data_lang=lang_code)
+
+            with form(cls="d-none d-sm-flex order-2 order-xl-3", action="/search.html", method="get"):
+                search_text_dict = nav_static.get(12, {'en': 'Search'})
+                search_text_en = search_text_dict.get('en', 'Search')
+                search_text_it = search_text_dict.get('it', 'Cerca')
+                input_(cls='form-control me-2', type='search', placeholder=search_text_en, aria_label='search', name='search', data_placeholder_it=search_text_it)
+                with button(type='submit', cls='btn', formaction='/search.html', formmethod='get', formnovalidate='true'):
+                    i(cls='bi bi-search')
             with div(cls='d-sm-none order-2'):
-                a(href='/search.html', cls='nav-link me-0').add(i(cls='bi bi-search sb-icon-search'))
+                with a(href='/search.html', cls='nav-link me-0'):
+                    i(cls='bi bi-search sb-icon-search')
             with div(cls="collapse navbar-collapse order-3 order-xl-2 ms-xl-2", id="nav-collapse"):
                 with ul(cls="nav navbar-nav navbar-nav-scroll mr-auto"):
                     # with li(cls="nav-item"):
                     #     a(href="/index.html", cls="nav-link hide-buttons" + (' active' if page == 'index' else '')).add(i(cls="bi bi-house-fill"))
-                    for name, l in dropdowns:
-                        page_in_dropdown = page in [to_snake_case(guide[0]) for guide in l]
+                    for names_dict, l in dropdowns:
+                        page_in_dropdown = page in [to_snake_case(guide[0]['en']) for guide in l]
                         with li(cls="dropdown nav-item"):
-                            a(name, cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false").add(span(cls="caret"))
+                            with a(cls="nav-link dropdown-toggle" + (' active' if page_in_dropdown else ''), href="#", data_bs_toggle="dropdown", aria_haspopup="true", aria_expanded="false"):
+                                localized_span(names_dict)
+                                span(cls="caret")
                             with ul(cls="dropdown-menu"):
                                 for guide in l:
-                                    li(cls='tab-li').add(a(guide[0], cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]) else ''), href='/checklists/' + to_snake_case(guide[0]) + '.html'))
+                                    li(cls='tab-li').add(a(localized_span(guide[0]), cls="dropdown-item show-buttons"  + (' active' if page == to_snake_case(guide[0]['en']) else ''), href='/checklists/' + to_snake_case(guide[0]['en']) + '.html'))
+                    
+                    map_text = nav_static.get(1, {'en': 'Map'})
                     with li(cls='nav-item tab-li'):
-                        a(href="/map.html", cls="nav-link hide-buttons" + (' active' if page == 'map' else '')).add(i(cls="bi bi-map"), " Map")
+                        with a(href="/map.html", cls="nav-link hide-buttons" + (' active' if page == 'map' else '')):
+                            i(cls="bi bi-map")
+                            span(" ")
+                            localized_span(map_text)
+                            
+                    options_text = nav_static.get(2, {'en': 'Options'})
                     with li(cls="nav-item tab-li"):
-                        a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')).add(i(cls="bi bi-gear-fill"), " Options")
+                        with a(href="/options.html", cls="nav-link hide-buttons" + (' active' if page == 'options' else '')):
+                            i(cls="bi bi-gear-fill")
+                            span(" ")
+                            localized_span(options_text)
 
 # def make_sidebar_nav(page):
 #     with aside(cls="bd-sidebar"):
@@ -163,7 +407,8 @@ def make_footer(page=None):
     script(src="/js/jstorage.min.js")
     script(src='/js/progress.js')
     script(src='/js/item_links.js')
-    script(src='/js/common.js')
+    script(src='/js/common.js?v=1.1')
+    script(src='/js/sync.js')
     script(src="/js/bootstrap.bundle.min.js")
     script(src="/js/jets.min.js")
     script(src="/js/jquery.highlight.js")
@@ -186,26 +431,209 @@ def make_footer(page=None):
                     var jet = new Jets({{
                         searchTag: "#{page_id}_search",
                         contentTag: "#{page_id}_list ul",
+                        searchSelector: '*and',
+                        manualContentHandling: function(node) {{
+                            if ($('#{page_id}_name_only').is(':checked')) {{
+                                return node.getAttribute('data-name-jets') || '';
+                            }}
+                            var $clone = $(node).clone();
+                            $clone.find('.no-highlight').remove();
+                            return $clone.text();
+                        }},
                         didSearch: function(search_phrase) {{
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\\s\\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
-                            $(".card").each(function(index, el) {{
-                                if (!search_phrase) {{
-                                    $(el).removeClass('d-none');
-                                    return;
+                            // Only handled by Jets if Regex off.
+                            if ($('#{page_id}_regex').is(':checked')) return;
+                            
+                            // Un-hide all sections to accurately measure visibility
+                            $(".card").removeClass('d-none');
+                            $("#{page_id}_list h5").removeClass('d-none');
+                            $("#{page_id}_list h5").nextUntil('h5').removeClass('d-none');
+                            $(".toc_link").closest('li').removeClass('d-none');
+                            
+                            if (!search_phrase) {{
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) {{ dlcFilter.trigger('change'); }}
+                                return;
+                            }}
+                            
+                            var clean_phrase = search_phrase.trim().toLowerCase().replace(/\\s\\s+/g, ' ').replace(/\\\\/g, '\\\\\\\\');
+                            var words = clean_phrase.split(' ');
+                            var searchAtt = $('#{page_id}_name_only').is(':checked') ? 'data-name-jets' : 'data-jets';
+                            
+                            var filterFunc = function() {{
+                                var text = ($(this).attr(searchAtt) || '').toLowerCase();
+                                for (var i = 0; i < words.length; i++) {{
+                                    if (text.indexOf(words[i]) === -1) return false;
                                 }}
-                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
-                                if (! hasResults ) {{
+                                return true;
+                            }};
+                            
+                            $(".card").each(function(index, el) {{
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {{
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }}
+
+                                var hasResults = $(el).find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {{
                                     $(el).addClass('d-none');
-                                }} else {{
-                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
                                 }}
                             }});
+                            
+                            $("#{page_id}_list h5").each(function() {{
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                var hasResults = $subsection.find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {{
+                                    $h5.addClass('d-none');
+                                    $subsection.addClass('d-none');
+                                }}
+                            }});
+                        }},
+                    }});
+                    function updateSearch() {{
+                        var search_phrase = $("#{page_id}_search").val().trim();
+                        var isRegex = $('#{page_id}_regex').is(':checked');
+
+                        if (isRegex) {{
+                            var regex = null;
+                            if (search_phrase.length > 0) {{
+                                try {{
+                                    regex = new RegExp(search_phrase, 'i');
+                                }} catch (e) {{
+                                    return; // Invalid regex, ignore
+                                }}
+                            }}
+                            
+                            // Disable jets css injection manually
+                            if (jet.styleTag) {{
+                                jet.styleTag.innerHTML = '';
+                            }}
+                            
+                            $(".searchable").each(function() {{
+                                var text = '';
+                                if ($('#{page_id}_name_only').is(':checked')) {{
+                                    text = $(this).attr('data-name-jets') || '';
+                                }} else {{
+                                    var $clone = $(this).clone();
+                                    $clone.find('.no-highlight').remove();
+                                    text = $clone.attr('data-jets') || $clone.text() || '';
+                                }}
+                                
+                                if (!search_phrase || search_phrase.length === 0) {{
+                                    $(this).removeClass('d-none-regex');
+                                }} else if (regex && text.match(regex)) {{
+                                    $(this).removeClass('d-none-regex');
+                                }} else {{
+                                    $(this).addClass('d-none-regex');
+                                }}
+                            }});
+                            
+                            // Manage empty cards/sections like Jets did
+                            $(".card").each(function(index, el) {{
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {{
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }}
+
+                                if (!search_phrase) {{
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                    return;
+                                }}
+                                var hasResults = $(el).find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                if (!hasResults) {{
+                                    $(el).addClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
+                                }} else {{
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                }}
+                            }});
+                            $("#{page_id}_list h5").each(function() {{
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                if (!search_phrase) {{
+                                    $h5.removeClass('d-none');
+                                    $subsection.removeClass('d-none');
+                                    return;
+                                }}
+                                var hasResults = $subsection.find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                $h5.toggleClass('d-none', !hasResults);
+                                $subsection.toggleClass('d-none', !hasResults);
+                            }});
+                            
+                            if (!search_phrase) {{
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) {{ dlcFilter.trigger('change'); }}
+                            }}
+                            
+                            // Highlighting for regex
+                            $("#{page_id}_list").unhighlight();
+                            if (search_phrase.length > 0 && regex) {{
+                                try {{
+                                    if ($('#{page_id}_name_only').is(':checked')) {{
+                                        $("#{page_id}_list .item-name").highlight(regex);
+                                    }} else {{
+                                        $("#{page_id}_list").highlight(regex);
+                                    }}
+                                }} catch(e) {{}}
+                            }}
+                            
+                        }} else {{
+                            // Non-regex mode: Let Jets handle normal search filtering
+                            $(".searchable").removeClass('d-none-regex');
+                            if (jet._applyCSS) {{
+                                jet._applyCSS();
+                            }}
+                            jet.options.didSearch(search_phrase);
+                            
+                            // Highlighting for normal text
+                            $("#{page_id}_list").unhighlight();
+                            if (search_phrase && search_phrase.length > 0) {{
+                                if ($('#{page_id}_name_only').is(':checked')) {{
+                                    $("#{page_id}_list .item-name").highlight(search_phrase);
+                                }} else {{
+                                    $("#{page_id}_list").highlight(search_phrase);
+                                }}
+                            }}
+                        }}
+                    }}
+
+                    $("#{page_id}_search").keyup(function(e) {{
+                        updateSearch();
+                    }});
+                    
+                    $('#{page_id}_regex').on('change', function() {{
+                        updateSearch();
+                    }});
+                    
+                    $('#{page_id}_name_only').on('change', function() {{
+                        if (jet.options) {{
+                            jet.options.manualContentHandling = function(node) {{
+                                if ($('#{page_id}_name_only').is(':checked')) {{
+                                    return node.getAttribute('data-name-jets') || '';
+                                }}
+                                var $clone = $(node).clone();
+                                $clone.find('.no-highlight').remove();
+                                return $clone.text();
+                            }};
+                        }}
+                        if (jet._setJets) {{
+                            jet._setJets('', true);
+                        }}
+                        
+                        if ($('#{page_id}_regex').is(':checked')) {{
+                            updateSearch();
+                        }} else {{
+                            // Trigger Jets' internal search and our didSearch callback
+                            $('#{page_id}_search').trigger('input');
                         }}
                     }});
-                    $("#{page_id}_search").keyup(function() {{
-                        $("#{page_id}_list").unhighlight();
-                        $("#{page_id}_list").highlight($(this).val());
-                    }});
+                    updateSearch();
                 }});
             }})( jQuery );
             """.format(page_id=page['id']))
@@ -217,19 +645,19 @@ def make_index():
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Guides", cls="mt-4")
+                    h1(localized_span(nav_static.get(0, {'en': 'Roundtable Guides'})), cls="mt-4")
                 with div(cls="row gy-3"):
                     with div(cls='col-md-8 col-12'):
                         with div(cls='row row-cols-1 row-cols-md-2 gy-3'):
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Welcome to Roundtable Guides', cls='card-title text-center')
-                                        p('Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', cls='card-text')
+                                        h5(localized_span({'en': 'Welcome to Roundtable Guides', 'it': 'Benvenuti nelle Guide della Tavola Rotonda'}), cls='card-title text-center')
+                                        p(localized_span({'en': 'Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.', 'it': 'Guide, Soluzioni e monitoraggio dei progressi per Elden Ring. Scritto e mantenuto dai giocatori. Questo sito è ancora in fase di sviluppo. Ci lavoriamo ogni giorno.'}), cls='card-text')
                             with div(cls='col'):
                                 with div(cls='card shadow h-100'):
                                     with div(cls='card-body'):
-                                        h5('Get the Apps!', cls='card-title text-center')
+                                        h5(localized_span({'en': 'Get the Apps!', 'it': 'Scarica le App!'}), cls='card-title text-center')
                                         with div(style='width: 180px;', cls='badge'):
                                             with a(href='https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;itscg=30200'):
                                                 img(src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1650585600&h=3eb10370b9c49cf5b5dde5ca0352f23a", alt="Download on the App Store", style='margin: 6%; width: 88%;')
@@ -239,42 +667,42 @@ def make_index():
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Our other resources', cls='card-title text-center')
-                                        p('Join the Roundtable Hold ', cls='card-text').add(a('Discord community', href='https://discord.gg/BzJzFeBjHr'))
-                                        p('More guides are over on ', cls='card-text').add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
-                                        p('Video guides on the ', cls='card-text').add(a('YouTube channel', href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
+                                        h5(localized_span({'en': 'Our other resources', 'it': 'Altre risorse'}), cls='card-title text-center')
+                                        p(cls='card-text').add(localized_span({'en': 'Join the Roundtable Hold ', 'it': 'Unisciti alla comunità della '})).add(a(localized_span({'en': 'Discord community', 'it': 'Tavola Rotonda su Discord'}), href='https://discord.gg/BzJzFeBjHr'))
+                                        p(cls='card-text').add(localized_span({'en': 'More guides are over on ', 'it': 'Altre guide sono disponibili su '})).add(a('/r/Roundtable_Guides', href='https://www.reddit.com/r/Roundtable_Guides/'))
+                                        p(cls='card-text').add(localized_span({'en': 'Video guides on the ', 'it': 'Video guide sul '})).add(a(localized_span({'en': 'YouTube channel', 'it': 'canale YouTube'}), href='https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA'))
                             with div(cls="col"):
                                 with div(cls='card shadow h-100'):
                                     with div(cls="card-body"):
-                                        h5('I have feedback, how can I contribute?', cls='card-title text-center')
+                                        h5(localized_span({'en': 'I have feedback, how can I contribute?', 'it': 'Ho un feedback, come posso contribuire?'}), cls='card-title text-center')
                                         text = p(cls='card-text')
-                                        text += 'Contributing is easy! And does not require you to know how to code. You can find instructions on the'
-                                        text += a('Github repository', href='https://github.com/RoundtableHold/roundtablehold.github.io')
-                                        text += ' You can also simply '
-                                        text += a('report issues', href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
-                                        text += " and we'll fix them."
+                                        text += localized_span({'en': 'Contributing is easy! And does not require you to know how to code. You can find instructions on the', 'it': 'Contribuire è facile! E non richiede di saper programmare. Puoi trovare istruzioni sulla'})
+                                        text += a(localized_span({'en': 'Github repository', 'it': 'repository GitHub'}), href='https://github.com/RoundtableHold/roundtablehold.github.io')
+                                        text += localized_span({'en': ' You can also simply ', 'it': ' Puoi anche semplicemente '})
+                                        text += a(localized_span({'en': 'report issues', 'it': 'segnalare problemi'}), href='https://github.com/RoundtableHold/roundtablehold.github.io/issues')
+                                        text += localized_span({'en': " and we'll fix them.", 'it': ' e noi li risolveremo.'})
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('Can I use this for multiple characters?', cls='card-title text-center')
-                                        p('Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', cls='card-text')
+                                        h5(localized_span({'en': 'Can I use this for multiple characters?', 'it': 'Posso usarlo per più personaggi?'}), cls='card-title text-center')
+                                        p(localized_span({'en': 'Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.', 'it': 'Sì! Usa il selettore di profili e i pulsanti nella scheda delle opzioni nella parte superiore della pagina per impostare più profili.'}), cls='card-text')
                             with div(cls="col"):
                                 with div(cls="card shadow h-100"):
                                     with div(cls="card-body"):
-                                        h5('How does the checklist status get saved?', cls='card-title text-center')
-                                        p("The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", cls='card-text')
+                                        h5(localized_span({'en': 'How does the checklist status get saved?', 'it': 'Come viene salvato lo stato della checklist?'}), cls='card-title text-center')
+                                        p(localized_span({'en': "The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.", 'it': 'Le checklist vengono salvate nella memoria locale del browser. Fai attenzione quando svuoti la cache del browser poiché distruggerà anche i tuoi progressi salvati.'}), cls='card-text')
                     with div(cls="col-md-4 col-12"):
                         with div(cls='card shadow'):
                             with div(cls="card-body uncolor-links"):
-                                h5('Progress', cls='card-title text-center')
+                                h5(localized_span({'en': 'Progress', 'it': 'Progressi'}), cls='card-title text-center')
                                 with ul(id='progress_list', cls='nav flex-column'):
                                     hr()
                                     for name, l in dropdowns:
                                         for guide in l:
-                                            li(cls='tab-li').add(a(guide[0], href="/checklists/" + to_snake_case(guide[0]) + '.html')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
+                                            li(cls='tab-li').add(a(localized_span(guide[0]), href="/checklists/" + to_snake_case(guide[0]['en']) + '.html')).add(span(id=guide[1] + "_progress_total", cls='d-print-none'))
                                         hr()
             make_footer()
-            script(src="/js/index.js")
+            script(src="/js/index.js?v=1.1")
     with open(os.path.join('docs', 'index.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
@@ -285,77 +713,107 @@ def make_options():
         with div(cls="container"):
             with div(cls="row"):
                 with div(cls="col-md-12 text-center"):
-                    h1("Roundtable Guides", cls="mt-4")
+                    h1(localized_span(nav_static.get(0, {'en': 'Roundtable Guides'})), cls="mt-4")
             with div(cls="row"):
-                h2("Options")
+                h2(localized_span(nav_static.get(2, {'en': 'Options'})))
                 with div(cls="row"):
-                    div(cls="col col-12 col-md-6").add(h4("Theme selection:"))
+                    div(cls="col col-12 col-md-6").add(h4(localized_span({'en': 'Theme selection:', 'it': 'Selezione del tema:'})))
                     div(cls="col col-12 col-md-6").add(select(cls="form-select", id="themes"))
                 with div(cls="row"):
-                    div(cls="col col-12 col-md-4").add(h4("Profile management:"))
+                    div(cls="col col-12 col-md-4").add(h4(localized_span({'en': 'Profile management:', 'it': 'Gestione dei profili:'})))
                     with form(cls="form-inline input-group pull-right gap-1"):
                         with div(cls="col col-12 col-md-4"):
                             select(cls="form-select", id="profiles")
                         with div(cls="col col-12 col-md-4"):
                             with div(cls="btn-group"):
-                                button("Add", cls="btn btn-primary", type="button", id="profileAdd")
+                                button(localized_span({'en': 'Add', 'it': 'Aggiungi'}), cls="btn btn-primary", type="button", id="profileAdd")
                             with div(cls="btn-group"):
-                                button("Edit", cls="btn btn-primary", type="button", id="profileEdit")
+                                button(localized_span({'en': 'Edit', 'it': 'Modifica'}), cls="btn btn-primary", type="button", id="profileEdit")
                             with div(cls="btn-group"):
                                 button("NG+", cls="btn btn-primary", type="button", id="profileNG+")
                 with div(cls="row"):
-                    div(cls="col col-12 col-md-4").add(h4("Data import/export:"))
+                    div(cls="col col-12 col-md-4").add(h4(localized_span({'en': 'Data import/export:', 'it': 'Importazione/esportazione dati:'})))
                     with div(cls="col col-12 col-md-8"):
                         with form(cls="form-inline gap-1 m-1"):
                             with div(cls="btn-group pull-left"):
-                                button("Import file", cls="btn btn-primary", type="button", id="profileImport")
+                                button(localized_span({'en': 'Import file', 'it': 'Importa file'}), cls="btn btn-primary", type="button", id="profileImport")
                             with div(cls="btn-group pull-left"):
-                                button("Export file", cls="btn btn-primary", type="button", id="profileExport")
+                                button(localized_span({'en': 'Export file', 'it': 'Esporta file'}), cls="btn btn-primary", type="button", id="profileExport")
                             with div(cls="btn-group pull-right"):
-                                button("Import textbox", cls="btn btn-primary", type="button", id="profileImportText")
+                                button(localized_span({'en': 'Import textbox', 'it': 'Importa casella di testo'}), cls="btn btn-primary", type="button", id="profileImportText")
                             with div(cls="btn-group pull-right mt-1 mt-md-0"):
-                                button("Export clipboard", cls="btn btn-primary", type="button", id="profileExportText")
+                                button(localized_span({'en': 'Export clipboard', 'it': 'Esporta negli appunti'}), cls="btn btn-primary", type="button", id="profileExportText")
                     with div(cls='row'):
                         div(id='alert-div')
                     with div(cls='row'):
                         with div(cls="col col-12"):
-                            textarea(id="profileText", cls="form-control")
+                            with a(href="#detailedConfig", data_bs_toggle="collapse",
+                                   cls="text-muted small d-inline-flex align-items-center gap-1 mb-1",
+                                   aria_expanded="false"):
+                                i(cls="bi bi-chevron-down")
+                                span(localized_span({'en': 'Detailed configuration', 'it': 'Configurazione dettagliata'}))
+                            with div(id="detailedConfig", cls="collapse"):
+                                textarea(id="profileText", cls="form-control")
+            with div(cls="row mt-4", id="cloudSync"):
+                h2(localized_span({'en': 'Cloud Sync & Backup', 'it': 'Sincronizzazione Cloud e Backup'}))
+                div(id="syncAlertDiv")
+                with div(id="syncInactive"):
+                    p(localized_span({'en': 'Back up and sync your progress across browsers and devices. Your data is stored in your own cloud account.', 'it': 'Esegui il backup e sincronizza i tuoi progressi su browser e dispositivi diversi. I tuoi dati sono archiviati nel tuo account cloud.'}), cls="text-muted mb-3")
+                    button(cls="btn btn-primary", id="btnActivateSync").add(
+                        i(cls="bi bi-cloud-upload"), localized_span({'en': ' Activate Cloud Sync', 'it': ' Attiva Sincronizzazione Cloud'}))
+                with div(id="syncActive", cls="d-none"):
+                    with div(cls="d-flex align-items-center gap-2 mb-2"):
+                        span(id="syncStatusBadge", cls="badge bg-success").add(
+                            i(cls="bi bi-check-circle-fill"), localized_span({'en': ' Synced', 'it': ' Sincronizzato'}))
+                    p(id="syncProviderInfo", cls="mb-1")
+                    p(id="syncLastSyncTime", cls="text-muted small mb-3")
+                    with div(cls="d-flex gap-2 flex-wrap"):
+                        button(cls="btn btn-sm btn-primary", id="btnSyncNow").add(
+                            i(cls="bi bi-arrow-repeat"), localized_span({'en': ' Sync Now', 'it': ' Sincronizza Ora'}))
+                        button(cls="btn btn-sm btn-outline-secondary", id="btnViewHistory").add(
+                            i(cls="bi bi-clock-history"), localized_span({'en': ' View History', 'it': ' Visualizza Cronologia'}))
+                        button(cls="btn btn-sm btn-outline-danger", id="btnDeactivateSync").add(
+                            i(cls="bi bi-cloud-slash"), localized_span({'en': ' Deactivate', 'it': ' Disattiva'}))
+                    with div(id="syncVersionPanel", cls="mt-3 d-none"):
+                        h5(localized_span({'en': 'Version History', 'it': 'Cronologia Versioni'}), cls="mb-2")
+                        p(cls="text-muted small mb-2", id="syncVersionDesc")
+                        div(cls="list-group", id="syncVersionList")
             with div(id="profileModal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
                     with div(cls="modal-content"):
                         with div(cls="modal-header"):
-                            h3("Profile", id="profileModalTitle", cls="modal-title")
+                            h3(localized_span({'en': 'Profile', 'it': 'Profilo'}), id="profileModalTitle", cls="modal-title")
                             button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
                         with div(cls="modal-body"):
                             with form(cls="form-horizontal"):
                                 with div(cls="control-group"):
-                                    label("Name", cls="control-label", _for="profileModalName")
+                                    label(localized_span({'en': 'Name', 'it': 'Nome'}), cls="control-label", _for="profileModalName")
                                     div(cls="controls").add(input_(type="text", cls="form-control", id="profileModalName", placeholder="Enter Profile name"))
                         with div(cls="modal-footer"):
-                            button("Close", id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
-                            a("Add", href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
-                            a("Update", href="#", id="profileModalUpdate", cls="btn btn-primary")
-                            a("Delete", href="#", id="profileModalDelete", cls="btn btn-primary")
+                            button(localized_span({'en': 'Close', 'it': 'Chiudi'}), id="profileModalClose", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            a(localized_span({'en': 'Add', 'it': 'Aggiungi'}), href="#", id="profileModalAdd", cls="btn btn-primary", data_bs_dismiss="modal")
+                            a(localized_span({'en': 'Update', 'it': 'Aggiorna'}), href="#", id="profileModalUpdate", cls="btn btn-primary")
+                            a(localized_span({'en': 'Delete', 'it': 'Elimina'}), href="#", id="profileModalDelete", cls="btn btn-primary")
             with div(id="NG+Modal", cls="modal fade", tabindex="-1", role="dialog"):
                 with div(cls="modal-dialog", role="document"):
                     with div(cls="modal-content"):
                         with div(cls="modal-header"):
-                            h3("Begin next journey?", id="profileModalTitleNG", cls="modal-title")
+                            h3(localized_span({'en': 'Begin next journey?', 'it': 'Iniziare il prossimo viaggio?'}), id="profileModalTitleNG", cls="modal-title")
                             button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
-                        div('If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', cls="modal-body")
+                        div(localized_span({'en': 'If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.', 'it': 'Se inizi il prossimo viaggio, tutti i progressi nelle schede "Walkthrough" e "Varie" di questo profilo verranno ripristinati, mentre le checklist degli obiettivi e dei collezionabili verranno mantenute.'}), cls="modal-body")
                         with div(cls="modal-footer"):
-                            a("No", href="#", cls="btn btn-primary", data_bs_dismiss="modal")
-                            a("Yes", href="#", cls="btn btn-danger", id="NG+ModalYes")
+                            a(localized_span({'en': 'No', 'it': 'No'}), href="#", cls="btn btn-primary", data_bs_dismiss="modal")
+                            a(localized_span({'en': 'Yes', 'it': 'Sì'}), href="#", cls="btn btn-danger", id="NG+ModalYes")
             with div(id='importTextModal', cls='modal fade', tabindex='-1', role='dialog'):
                 with div(cls='modal-dialog', role='document'):
                     with div(cls='modal-content'):
                         with div(cls='modal-header'):
-                            h3('Import profile?', cls='modal-title')
+                            h3(localized_span({'en': 'Import profile?', 'it': 'Importare profilo?'}), cls='modal-title')
                             button(type='button', cls='btn-close', data_bs_dismiss='modal', aria_label='Close')
-                        div('If you import this profile all of your current progress will be lost.', cls='modal-body')
+                        div(localized_span({'en': 'If you import this profile all of your current progress will be lost.', 'it': 'Se importi questo profilo, tutti i tuoi progressi attuali andranno persi.'}), cls='modal-body')
                         with div(cls='modal-footer'):
-                            a('No', href='#', cls='btn btn-primary', data_bs_dismiss='modal')
-                            a('Yes', href='#', cls='btn btn-danger', id='importTextYes')
+                            a(localized_span({'en': 'No', 'it': 'No'}), href='#', cls='btn btn-primary', data_bs_dismiss='modal')
+                            a(localized_span({'en': 'Yes', 'it': 'Sì'}), href='#', cls='btn btn-danger', id='importTextYes')
             with div(id='importFileModal', cls='modal fade', tabindex='-1', role='dialog'):
                 with div(cls='modal-dialog', role='document'):
                     with div(cls='modal-content'):
@@ -376,6 +834,59 @@ def make_options():
                         with div(cls='modal-footer'):
                             a('No', href='#', cls='btn btn-primary', data_bs_dismiss='modal')
                             a('Yes', href='#', cls='btn btn-danger', id='deleteYes')
+            with div(id="syncProviderModal", cls="modal fade", tabindex="-1", role="dialog"):
+                with div(cls="modal-dialog", role="document"):
+                    with div(cls="modal-content"):
+                        with div(cls="modal-header"):
+                            h3("Choose a sync provider", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
+                        with div(cls="modal-body"):
+                            p("Your data is stored in your own account \u2014 the site never sees your files.",
+                              cls="text-muted small mb-3")
+                            with div(cls="list-group"):
+                                with button(cls="list-group-item list-group-item-action d-flex align-items-center gap-3 py-3 d-none",
+                                            id="btnConnectGoogle", type="button"):
+                                    i(cls="bi bi-google fs-4")
+                                    with div(cls="text-start"):
+                                        div("Google Drive", cls="fw-semibold")
+                                        div("Uses your Google account \u2014 15 GB free", cls="text-muted small")
+                                with button(cls="list-group-item list-group-item-action d-flex align-items-center gap-3 py-3",
+                                            id="btnConnectGitHub", type="button"):
+                                    i(cls="bi bi-github fs-4")
+                                    with div(cls="text-start"):
+                                        div("GitHub Gist", cls="fw-semibold")
+                                        div("Uses a Personal Access Token \u2014 no OAuth required", cls="text-muted small")
+                        with div(cls="modal-footer"):
+                            button("Cancel", type="button", cls="btn btn-secondary", data_bs_dismiss="modal")
+            with div(id="syncGithubPATModal", cls="modal fade", tabindex="-1", role="dialog"):
+                with div(cls="modal-dialog", role="document"):
+                    with div(cls="modal-content"):
+                        with div(cls="modal-header"):
+                            h3(i(cls="bi bi-github"), " Connect GitHub Gist", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
+                        with div(cls="modal-body"):
+                            p("A Personal Access Token lets this app read and write a private Gist in your GitHub account. The token is stored only in this browser and never sent to this site.",
+                              cls="text-muted small mb-3")
+                            with ol(cls="small mb-3"):
+                                li(raw('Go to <a href="https://github.com/settings/tokens/new?scopes=gist&description=Elden+Lord+sync" target="_blank" rel="noopener">GitHub \u2192 New Personal Access Token</a>'))
+                                li(raw('Confirm the <code>gist</code> scope is checked, then click <strong>Generate token</strong>'))
+                                li("Copy the generated token and paste it below")
+                            input_(cls="form-control font-monospace", id="githubPATInput", placeholder="ghp_\u2026",
+                                   type="text", autocomplete="off", spellcheck="false")
+                        with div(cls="modal-footer"):
+                            button("Cancel", type="button", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            button(i(cls="bi bi-github"), " Connect", type="button", cls="btn btn-dark", id="btnConnectGitHubConfirm")
+            with div(id="syncDeactivateModal", cls="modal fade", tabindex="-1", role="dialog"):
+                with div(cls="modal-dialog", role="document"):
+                    with div(cls="modal-content"):
+                        with div(cls="modal-header"):
+                            h3("Deactivate cloud sync?", cls="modal-title")
+                            button(type="button", cls="btn-close", data_bs_dismiss="modal", aria_label="Close")
+                        div("Your local progress will not be affected. The backup file in your cloud "
+                            "account will remain there until you delete it manually.", cls="modal-body")
+                        with div(cls="modal-footer"):
+                            button("Cancel", type="button", cls="btn btn-secondary", data_bs_dismiss="modal")
+                            button("Deactivate", type="button", cls="btn btn-danger", id="btnDeactivateConfirm")
 
         div(cls="hiddenfile").add(input_(name="upload", type="file", id="fileInput"))
         make_footer()
@@ -404,36 +915,79 @@ def make_checklist(page):
             # title_row()
             # Filter buttons
             with div(cls="row text-center"):
-                h = h1(cls='mt-4')
-                h += page['title']
-                h += span(id=page['id'] + "_overall_total", cls='d-print-none')
+                with h1(cls='mt-4'):
+                    with span(cls='lang-pair'):
+                        span(page['title'], cls='lang-text lang-en')
+                        for lang in sorted(available_languages):
+                            title_key = 'title_' + lang
+                            if title_key in page:
+                                span(page[title_key], cls='lang-text lang-' + lang + ' d-none')
+                    span(id=page['id'] + "_overall_total", cls='badge rounded-pill bg-success progress-val d-print-none ms-2')
             
             hide_completed_button()
 
             if 'description' in page:
-                p(raw(page['description']))
+                with p():
+                    with span(cls='lang-pair'):
+                        span(raw(page['description']), cls='lang-text lang-en')
+                        for lang in sorted(available_languages):
+                            desc_key = 'description_' + lang
+                            if desc_key in page:
+                                span(raw(page[desc_key]), cls='lang-text lang-' + lang + ' d-none')
 
             with nav(cls="text-muted toc d-print-none"):
                 with strong(cls="d-block h5").add(a(data_bs_toggle="collapse", role="button", href="#toc_" + page['id'], cls="toc-button")):
                     i(cls='bi bi-plus-lg')
-                    raw('Table Of Contents')
+                    toc_text = nav_static.get(3, {'en': ' Table Of Contents'})
+                    if 'en' in toc_text and not toc_text['en'].startswith(' '):
+                        # Ensure space before text
+                        toc_text_spaced = {k: (' ' + v if not str(v).startswith(' ') else v) for k, v in toc_text.items()}
+                        localized_span(toc_text_spaced)
+                    else:
+                        localized_span(toc_text)
                 with ul(id="toc_" + page['id'], cls="toc_page collapse"):
                     for s_idx, section in enumerate(page['sections']):
                         with li():
-                            a(section['title'], href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link")
+                            with a(href="#" + page['id'] + '_section_'  + str(s_idx), cls="toc_link"):
+                                with span(cls='lang-pair'):
+                                    span(section['title'], cls='lang-text lang-en')
+                                    for lang in sorted(available_languages):
+                                        t_key = 'title_' + lang
+                                        if t_key in section:
+                                            span(section[t_key], cls='lang-text lang-' + lang + ' d-none')
                             span(id=page['id']  + "_nav_totals_" + str(s_idx))
 
-            with div(cls="input-group d-print-none"):
-                input_(type="search", id=page['id'] + "_search", cls="form-control my-3", placeholder="Start typing to filter results...")
+            with div(cls="input-group my-3 d-print-none"):
+                input_(type="search", id=page['id'] + "_search", cls="form-control", placeholder="Start typing to filter results...")
+                with div(cls="input-group-text"):
+                    input_(cls="form-check-input mt-0 me-2", type="checkbox", id=page['id'] + "_regex", aria_label="Use Regex for Search")
+                    label_text = nav_static.get(4, {'en': 'Use Regex'})
+                    localized_span(label_text)
+                with div(cls="input-group-text"):
+                    input_(cls="form-check-input mt-0 me-2", type="checkbox", id=page['id'] + "_name_only", aria_label="Name Only Search")
+                    name_only_text = nav_static.get(10, {'en': 'Name Only'})
+                    localized_span(name_only_text)
 
-            if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar'}:
+            if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar', 'cookbooks', 'talismans', 'sorceries', 'spirit_ashes', 'bosses', 'crystal_tears', 'bell_bearings', 'ancient_dragon_smithing_stones', 'graces', 'caves'}:
                 with div(cls='row d-print-none mb-3'):
                     with div(cls='col-auto d-flex align-items-center gap-2'):
-                        label('Show:', _for='dlc_filter', cls='mb-0')
-                        with select(id='dlc_filter', cls='form-select form-select-sm'):
-                            option('Both', value='both', selected='selected')
-                            option('Base Game', value='base')
-                            option('DLC', value='dlc')
+                        with label(_for='dlc_filter', cls='mb-0'):
+                            localized_span(nav_static.get(6, {'en': 'Show:'}))
+                        with select(id='dlc_filter', cls='form-select form-select-sm', style='min-width: 140px;'):
+                            both_opts = {'value': 'both', 'selected': 'selected'}
+                            for l in available_languages | {'en'}:
+                                both_opts[f'data_lang_{l}'] = nav_static.get(7, {'en': 'Both'}).get(l, 'Both')
+                            option(nav_static.get(7, {'en': 'Both'})['en'], **both_opts)
+
+                            base_opts = {'value': 'base'}
+                            for l in available_languages | {'en'}:
+                                base_opts[f'data_lang_{l}'] = nav_static.get(8, {'en': 'Base Game'}).get(l, 'Base Game')
+                            option(nav_static.get(8, {'en': 'Base Game'})['en'], **base_opts)
+
+                            dlc_opts = {'value': 'dlc'}
+                            for l in available_languages | {'en'}:
+                                dlc_opts[f'data_lang_{l}'] = nav_static.get(9, {'en': 'DLC'}).get(l, 'DLC')
+                            option(nav_static.get(9, {'en': 'DLC'})['en'], **dlc_opts)
 
             with div(id=page['id']+"_list"):
                 for s_idx, section in enumerate(page['sections']):
@@ -445,9 +999,21 @@ def make_checklist(page):
                             if 'icon' in section:
                                 add_icon(section['icon'], 'me-1')
                             if 'link' in section:
-                                a(section['title'], href=section['link'], cls='d-print-inline')
+                                with a(href=section['link'], cls='d-print-inline'):
+                                    with span(cls='lang-pair'):
+                                        span(section['title'], cls='lang-text lang-en')
+                                        for lang in sorted(available_languages):
+                                            t_key = 'title_' + lang
+                                            if t_key in section:
+                                                span(section[t_key], cls='lang-text lang-' + lang + ' d-none')
                             else:
-                                span(section['title'], cls='d-print-inline')
+                                with span(cls='d-print-inline'):
+                                    with span(cls='lang-pair'):
+                                        span(section['title'], cls='lang-text lang-en')
+                                        for lang in sorted(available_languages):
+                                            t_key = 'title_' + lang
+                                            if t_key in section:
+                                                span(section[t_key], cls='lang-text lang-' + lang + ' d-none')
                             span(id=page['id'] + "_totals_" + str(s_idx), cls="mt-0 badge rounded-pill d-print-none")
                         if 'table' in section:
                             with div(id=page['id'] + '_' + str(s_idx) + "Col", cls="collapse show row", aria_expanded="true"):
@@ -472,15 +1038,34 @@ def make_checklist(page):
                                             with div(cls="col d-flex align-items-center d-md-block").add(div(cls="row")):
                                                 for idx, header in enumerate(section['table']):
                                                     col_size = str(table_widths[idx])
-                                                    div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size).add(label(strong(header), cls='ms-0 ps-0'))
+                                                    with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
+                                                        with label(cls='ms-0 ps-0'):
+                                                            with strong(cls="no-highlight lang-pair"):
+                                                                span(header, cls='lang-text lang-en')
+                                                                for lang in sorted(available_languages):
+                                                                    t_key = 'table_' + lang
+                                                                    if t_key in section and len(section[t_key]) > idx:
+                                                                        span(section[t_key][idx], cls='lang-text lang-' + lang + ' d-none')
                                     for item in items:
+                                        if isinstance(item, str):
+                                            with li(cls="list-group-item bg-light"):
+                                                h5(item, cls="mb-0")
+                                            continue
                                         id = str(item['id'])
+                                        
+                                        d_name_jets = strip_a_tags(item['data'][0])
+                                        for lang in available_languages:
+                                            d_key = 'data_' + lang
+                                            if d_key in item and item[d_key]:
+                                                d_name_jets += ' ' + strip_a_tags(item[d_key][0])
+                                                
                                         li_kwargs = {
                                             'cls': "list-group-item searchable",
                                             'data_id': page['id'] + '_' + id,
                                             'id': 'item_' + id,
+                                            'data_name_jets': d_name_jets.lower() if hasattr(d_name_jets, 'lower') else str(d_name_jets).lower(),
                                         }
-                                        if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar'}:
+                                        if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar', 'cookbooks', 'talismans', 'sorceries', 'spirit_ashes', 'bosses', 'crystal_tears', 'bell_bearings', 'ancient_dragon_smithing_stones'}:
                                             is_dlc = item.get('dlc', section.get('dlc', page.get('dlc', False)))
                                             li_kwargs['data_dlc'] = str(bool(is_dlc)).lower()
                                         with li(**li_kwargs):
@@ -505,11 +1090,21 @@ def make_checklist(page):
                                                     for pos in range(table_cols):
                                                         col_size = str(table_widths[pos])
                                                         with div(cls="ms-0 ps-0 d-flex align-items-center col-md-" + col_size):
-                                                            with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
+                                                            with label(cls="form-check-label item_content ms-0 ps-0 d-flex align-items-center", _for=page['id'] + '_' + id):
                                                                 if pos == 0 and 'icon' in item:
-                                                                    add_icon(item['icon'], 'me-1')
-                                                                if item['data'][pos]:
-                                                                    raw(item['data'][pos])
+                                                                    add_icon(item['icon'], 'me-2 flex-shrink-0')
+                                                                with span(cls='lang-pair item-name' if pos == 0 else 'lang-pair'):
+                                                                    with span(cls='lang-text lang-en'):
+                                                                        if item['data'][pos]:
+                                                                            raw(item['data'][pos])
+                                                                    for lang in sorted(available_languages):
+                                                                        d_key = 'data_' + lang
+                                                                        if d_key in item:
+                                                                            lang_data = item[d_key]
+                                                                            val = lang_data[pos] if pos < len(lang_data) else item['data'][pos]
+                                                                            with span(cls='lang-text lang-' + lang + ' d-none'):
+                                                                                if val:
+                                                                                    raw(val)
                                                 with div(cls='col d-md-none'):
                                                     with label(cls="form-check-label item_content ms-0 ps-0", _for=page['id'] + '_' + id):
                                                         if 'icon' in item:
@@ -517,9 +1112,25 @@ def make_checklist(page):
                                                         for pos in range(table_cols):
                                                             col_size = str(table_widths[pos])
                                                             if isinstance(section['table'], list) and item['data'][pos]:
-                                                                strong(section['table'][pos] + ': ', cls="me-1")
+                                                                with strong(cls="me-1 no-highlight lang-pair"):
+                                                                    span(section['table'][pos] + ': ', cls='lang-text lang-en')
+                                                                    for lang in sorted(available_languages):
+                                                                        t_key = 'table_' + lang
+                                                                        if t_key in section and len(section[t_key]) > pos:
+                                                                            span(section[t_key][pos] + ': ', cls='lang-text lang-' + lang + ' d-none')
+                                                            with span(cls='lang-pair item-name' if pos == 0 else 'lang-pair'):
+                                                                with span(cls='lang-text lang-en'):
+                                                                    if item['data'][pos]:
+                                                                        raw(item['data'][pos])
+                                                                for lang in sorted(available_languages):
+                                                                    d_key = 'data_' + lang
+                                                                    if d_key in item:
+                                                                        lang_data = item[d_key]
+                                                                        val = lang_data[pos] if pos < len(lang_data) else item['data'][pos]
+                                                                        with span(cls='lang-text lang-' + lang + ' d-none'):
+                                                                            if val:
+                                                                                raw(val)
                                                             if item['data'][pos]:
-                                                                raw(item['data'][pos])
                                                                 br()
                                                         
                         else:
@@ -534,23 +1145,48 @@ def make_checklist(page):
                                         h5(raw(item))
                                         u = ul(cls="list-group-flush mb-0")
                                         continue
+                                    if isinstance(item, dict) and 'name' in item and 'id' not in item:
+                                        with h5(cls="lang-pair"):
+                                            span(raw(item['name']), cls='lang-text lang-en')
+                                            for lang in sorted(available_languages):
+                                                n_key = 'name_' + lang
+                                                if n_key in item:
+                                                    span(raw(item[n_key]), cls='lang-text lang-' + lang + ' d-none')
+                                        u = ul(cls="list-group-flush mb-0")
+                                        continue
                                     def f(item):
                                         id = str(item['id'])
+                                        
+                                        d_name_jets = strip_a_tags(item['data'][0])
+                                        for lang in available_languages:
+                                            d_key = 'data_' + lang
+                                            if d_key in item and item[d_key]:
+                                                d_name_jets += ' ' + strip_a_tags(item[d_key][0])
+                                                
                                         li_kwargs = {
                                             'data_id': page['id'] + "_" + id,
                                             'cls': "list-group-item searchable ps-0",
                                             'id': 'item_' + id,
+                                            'data_name_jets': d_name_jets.lower() if hasattr(d_name_jets, 'lower') else str(d_name_jets).lower(),
                                         }
-                                        if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar'}:
+                                        if page['id'] in {'weapons', 'armor', 'incantations', 'ashesofwar', 'cookbooks', 'talismans', 'sorceries', 'spirit_ashes', 'bosses', 'crystal_tears', 'bell_bearings', 'ancient_dragon_smithing_stones', 'graces'}:
                                             is_dlc = item.get('dlc', section.get('dlc', page.get('dlc', False)))
                                             li_kwargs['data_dlc'] = str(bool(is_dlc)).lower()
                                         with li(**li_kwargs):
                                             with div(cls="form-check checkbox d-flex align-items-center"):
                                                 input_(cls="form-check-input", type="checkbox", value="", id=page['id'] + '_' + id, data_section_idx=str(s_idx))
-                                                with label(cls="form-check-label item_content", _for=page['id'] + '_' + id):
+                                                with label(cls="form-check-label item_content d-md-flex align-items-center w-100", _for=page['id'] + '_' + id):
                                                     if 'icon' in item:
-                                                        add_icon(item['icon'], 'float-md-none float-end me-md-1')
-                                                    raw(item['data'][0])
+                                                        add_icon(item['icon'], 'float-md-none float-end me-md-2 flex-shrink-0')
+                                                    with span(cls='lang-pair item-name'):
+                                                        with span(cls='lang-text lang-en'):
+                                                            raw(item['data'][0])
+                                                        for lang in sorted(available_languages):
+                                                            d_key = 'data_' + lang
+                                                            if d_key in item:
+                                                                lang_val = item[d_key][0] if item[d_key] else item['data'][0]
+                                                                with span(cls='lang-text lang-' + lang + ' d-none'):
+                                                                    raw(lang_val)
                                                 if 'cords' in item or 'map_link' in item:
                                                     href = '/map.html?'
                                                     if 'map_link' in item:
@@ -571,8 +1207,9 @@ def make_checklist(page):
 
         a(cls="btn btn-primary btn-sm fadingbutton back-to-top d-print-none").add(raw("Back to Top&thinsp;"), span(cls="bi bi-arrow-up"))
         script(raw("window.current_page_id = \"{}\";\n".format(page['id'])))
+        script(raw(f"window.DONE_HTML = '{get_done_html()}';\n"))
         make_footer(page)
-        script(src="/js/checklists.js")
+        script(src="/js/checklists.js?v=1.1")
     with open(os.path.join('docs', 'checklists', to_snake_case(page['title']) + '.html'), 'w', encoding='utf_8') as index:
         index.write(doc.render())
 
@@ -605,9 +1242,9 @@ def make_search():
                                     size = floor(12 / table_cols)
                                 table_widths = section['table_widths'] if 'table_widths' in section else page['table_widths']
                                 for item in items:
+                                    if isinstance(item, str):
+                                        continue
                                     with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
-                                        if isinstance(item,str):
-                                            continue
                                         with div(cls='row d-md-flex d-none'):
                                             for pos in range(table_cols):
                                                 col_size = str(table_widths[pos])
@@ -622,7 +1259,12 @@ def make_search():
                                             for pos in range(table_cols):
                                                 col_size = str(table_widths[pos])
                                                 if isinstance(section['table'], list) and item['data'][pos]:
-                                                    strong(strip_a_tags(section['table'][pos]) + ': ', cls='me-1')
+                                                    with strong(cls="me-1 no-highlight lang-pair"):
+                                                        span(strip_a_tags(section['table'][pos]) + ': ', cls='lang-text lang-en')
+                                                        for lang in sorted(available_languages):
+                                                            t_key = 'table_' + lang
+                                                            if t_key in section and len(section[t_key]) > pos:
+                                                                span(strip_a_tags(section[t_key][pos]) + ': ', cls='lang-text lang-' + lang + ' d-none')
                                                 if item['data'][pos]:
                                                     raw(strip_a_tags(item['data'][pos]))
                                                     br()
@@ -631,12 +1273,15 @@ def make_search():
                                     if isinstance(item, str):
                                         continue
                                     def f(item):
+                                        if 'id' not in item:
+                                            return
                                         with a(cls='d-none list-group-item list-group-item-action searchable', href='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id']), id='/checklists/' + to_snake_case(page['title']) + '.html#item_' + str(item['id'])):
                                             with div(cls='d-flex align-items-center'):
                                                 if 'icon' in item:
                                                     add_icon(item['icon'], 'float-md-none float-end me-md-1')
                                                 raw(strip_a_tags(item['data'][0]))
-                                    f(item)
+                                    if isinstance(item, dict):
+                                        f(item)
                                     if isinstance(items.peek(0), list):
                                         item_id = str(item['id'])
                                         item = next(items)
@@ -720,15 +1365,22 @@ def make_progress_js():
                 f.write('      [0, {}],\n'.format(section['num_ids']))
             f.write('    ],\n  },\n')
         f.write('};\n')
+def get_done_html():
+    done_en = nav_static.get(11, {'en': 'DONE'})['en']
+    html = f'<span class="lang-pair"><span class="lang-text lang-en">{done_en}</span>'
+    for lang in sorted(available_languages):
+        if lang == 'en': continue
+        done_text = nav_static.get(11, {'en': 'DONE'}).get(lang, done_en)
+        html += f'<span class="lang-text lang-{lang} d-none">{done_text}</span>'
+    html += '</span>'
+    return html
 
 def make_index_js():
     with open(os.path.join('docs', 'js', 'index.js'), 'w', encoding='utf_8') as f:
-        f.write(
-            """
-(function($) {
-    'use strict';
-    $(function() {
-        """)
+        f.write("(function($) {\n")
+        f.write("    'use strict';\n")
+        f.write(f"    window.DONE_HTML = '{get_done_html()}';\n")
+        f.write("    $(function() {\n")
         f.write('var all_ids = new Set([\n')
         all_ids_list = list(all_ids)
         all_ids_list.sort()
@@ -746,12 +1398,17 @@ def make_index_js():
             f.write(page['id'] + '_checked += 1;\n}\n')
         f.write('}\n')
         f.write('}\n')
+        
+        done_html = get_done_html()
         for page in pages:
             f.write('if ({page_id}_checked >= {page_id}_total){{\n'.format(page_id=page['id']))
-            f.write('$("#{page_id}_progress_total").html("DONE");\n'.format(page_id=page['id']))
+            f.write(f'$("#{page["id"]}_progress_total").html(\'{done_html}\');\n')
+            f.write(f'$("#{page["id"]}_progress_total").removeClass("bg-info").addClass("bg-success");\n')
             f.write('} else {\n')
             f.write('$("#{page_id}_progress_total").html({page_id}_checked + "/" + {page_id}_total);\n'.format(page_id=page['id']))
+            f.write(f'$("#{page["id"]}_progress_total").removeClass("bg-success").addClass("bg-info");\n')
             f.write('}\n')
+        f.write('if (window.applyLanguageCss) { window.applyLanguageCss(window.currentLanguage); }\n')
         f.write('}\n')
         f.write('calculateProgress();\n')
         f.write('  });\n')
@@ -766,11 +1423,14 @@ def make_search_index():
                 if isinstance(item, str):
                     continue
                 def f(item):
+                    if 'id' not in item:
+                        return
                     search_idx.append({
                         'id': '/checklists/{page_href}#item_{id}'.format(page_href=to_snake_case(page['title']) + '.html', id=item['id']),
                         'text': re.sub(r'(<([^>]+)>)', '', ' '.join(item['data'])),
                     })
-                f(item)
+                if isinstance(item, dict):
+                    f(item)
                 if isinstance(items.peek(0), list):
                     item = next(items)
                     for subitem in item:
@@ -815,6 +1475,34 @@ def get_icon(page, section, item):
         print("Missing icon for {}".format(page['id'] + '_' + item['id']))
     return (icon, icon_size)
 
+def get_localized_map_title(item, available_languages):
+    en_title = item.get('map_title', strip_a_tags(item['data'][0]))
+    has_other_langs = False
+    for lang in sorted(available_languages):
+        if lang == 'en': continue
+        if f'map_title_{lang}' in item or f'data_{lang}' in item:
+            has_other_langs = True
+            break
+            
+    if not has_other_langs:
+        return en_title
+
+    html = f'<span class="lang-pair"><span class="lang-text lang-en">{en_title}</span>'
+    for lang in sorted(available_languages):
+        if lang == 'en': continue
+        
+        if f'map_title_{lang}' in item:
+            loc_title = item[f'map_title_{lang}']
+        elif f'data_{lang}' in item:
+            loc_title = strip_a_tags(item[f'data_{lang}'][0])
+        else:
+            loc_title = en_title
+            
+        html += f'<span class="lang-text lang-{lang} d-none">{loc_title}</span>'
+        
+    html += '</span>'
+    return html
+
 def make_feature(page, section, item):
     icon, icon_size = get_icon(page, section, item)
     return {
@@ -825,7 +1513,7 @@ def make_feature(page, section, item):
             'coordinates': item['cords'],
         },
         'properties': {
-            'title': item['map_title'] if 'map_title' in item else item['data'][0],
+            'title': get_localized_map_title(item, available_languages),
             'id': page['id'] + '_' + item['id'],
             'group': page['id'],
             'icon': icon,
@@ -942,9 +1630,11 @@ def make_map():
                     with div(cls='d-none', id='dev-mode-copy'):
                         a('map_link', type='button', cls='btn btn-primary btn-sm', id='dev-mode-copy-button')
         make_footer()
+        with script():
+            raw(f"window.DONE_HTML = '{get_done_html()}';")
         script(src='/map/src/js/ol.js')
         script(src='/map/src/js/features.js')
-        script(src='/map/src/js/map.js')
+        script(src='/map/src/js/map.js?v=1.1')
     with open(os.path.join('docs', 'map.html'), 'w', encoding='utf_8') as f:
         f.write(doc.render())
 

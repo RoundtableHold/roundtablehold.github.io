@@ -1,553 +1,680 @@
 title: "Stonesword Keys & Imp Seals"
+title_it: "Chiavi della spada di pietra e Sigilli demoniaci"
 id: stonesword
 icon: "/img/icons/keys/00228.png"
 description: "Stonesword Keys are consumable key items that open Imp Statue Seals, which typically guard loot, dungeons, or optional paths. A maximum of 81 Stonesword Keys can be found in the game, plus 2 if chosen as a Keepsake. However, only 46 are required to open every Imp Statue Seal. Imp Statues each require either 1 or 2 keys, and the only way to tell the difference is by visual examination: most Imp Statues already have one key in them when you find them, meaning you only need one more."
+description_it: "Le chiavi della spada di pietra sono oggetti consumabili che aprono i sigilli demoniaci, che solitamente sorvegliano bottini, dungeon o percorsi opzionali. Nel gioco si possono trovare un massimo di 81 chiavi, più 2 se scelte come dono iniziale. Tuttavia, ne sono necessarie solo 46 per aprire ogni sigillo. Ogni statua richiede 1 o 2 chiavi, e l'unico modo per capire la differenza è tramite un esame visivo: la maggior parte delle statue ha già una chiave inserita, il che significa che ne serve solo un'altra."
 sections:
   -
     title: "Stonesword Keys"
+    title_it: "Chiavi della spada di pietra"
     icon: "/img/icons/keys/00228.png"
     map_icon: "/map/icons/shadows/keys/00228.png"
     items:
       - id: "k1"
         data: ["Can choose two as a keepsake"]
+        data_it: ["Possono essere scelte come dono iniziale (x2)"]
       - id: "k2"
         data: ["Can choose two as a keepsake"]
+        data_it: ["Possono essere scelte come dono iniziale (x2)"]
       #
       - "Limgrave"
       - id: "k3"
         data: ["In a tiny intact room in the center of Dragon-Burnt Ruins, on a body guarded by a single rat"]
+        data_it: ["In una piccola stanza intatta al centro delle Rovine bruciate dal drago, su un cadavere sorvegliato da un singolo topo"]
         cords: [3939, 7352]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k4"
         data: ["Sold by Patches for 5000 runes in Murkwater Cave (and thereafter)"]
+        data_it: ["Venduta da Patches per 5.000 rune nella Grotta di Acquaquieta (e successivamente)"]
         cords: [4015, 6975]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k5"
         data: ["On the front of Stormhill Shack, on a body atop the little staircase of wooden platforms"]
+        data_it: ["Davanti alla Capanna di Colle Tempesta, su un cadavere in cima alla piccola scala di piattaforme di legno"]
         cords: [3485, 6762]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k6"
         data: ["In Fringefolk Hero's Grave, on the ledge from which you can shoot down the jars to destroy the chariot"]
+        data_it: ["Nella Tomba dell'eroe dei confini, sulla sporgenza dalla quale è possibile colpire i vasi per distruggere il carro"]
         cords: [3757, 7304]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Roundtable Hold"
       - id: "k7"
         data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        data_it: ["In vendita dai Resti delle fanciulle gemelle per 4.000 rune (x3)"]
         cords: [451, 8385]
         map_title: "Stonesword Key x3"
       - id: "k8"
         data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        data_it: ["In vendita dai Resti delle fanciulle gemelle per 4.000 rune"]
         map_link: [451, 8385]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k9"
         data: ["Sold by Twin Maiden Husks for 4000 runes"]
+        data_it: ["In vendita dai Resti delle fanciulle gemelle per 4.000 rune"]
         map_link: [451, 8385]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Weeping Peninsula"
       - id: "k10"
         data: ["On the Bridge of Sacrifice on a body behind the ballista"]
+        data_it: ["Sul Ponte del Sacrificio, su un cadavere dietro la balista"]
         cords: [4350, 7756]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k11"
         data: ["On the northern tip of the high ledge in the northeast, on a body sitting in a chair"]
+        data_it: ["All'estremità settentrionale dell'alta sporgenza a nord-est, su un cadavere seduto su una sedia"]
         cords: [4435, 7826]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k12"
         data: ["Sold by the Nomadic Merchant in the east for 2000 runes"]
+        data_it: ["Venduta dal mercante nomade a est per 2.000 rune"]
         cords: [4307, 8185]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k13"
         data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
+        data_it: ["Venduta dal mercante isolato a ovest per 2.000 rune (x3)"]
         cords: [3450, 8230]
         map_title: "Stonesword Key x3"
       - id: "k14"
         data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
+        data_it: ["Venduta dal mercante isolato a ovest per 2.000 rune"]
         map_link: [3450, 8230]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k15"
         data: ["Sold by the Isolated Merchant in the west for 2000 runes"]
+        data_it: ["Venduta dal mercante isolato a ovest per 2.000 rune"]
         map_link: [3450, 8230]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k16"
         data: ["From the Behind the Castle Site of Grace in Castle Morne, descend down a couple ledges to the first rooftop, then walk forward and drop off to a wooden platform halfway down with the key on a body"]
+        data_it: ["Dal luogo di grazia Dietro al castello presso il Castello di Morne, scendi per un paio di sporgenze fino al primo tetto, poi procedi in avanti e calati su una piattaforma di legno a metà altezza per trovare la chiave su un cadavere"]
         cords: [3973, 8699]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Stormveil Castle"
       - id: "k17"
         data: ["From Rampart Tower, follow the path up the central spiral staircase and to the rooftops; from the stack of sandbags, follow the ledge to the south tower, then turn east and hop to the next crumbling tower, and drop down inside it to find it on a body"]
+        data_it: ["Dalla Torre del bastione, sali la scala a chiocciola centrale e raggiungi i tetti; dalla pila di sacchi di sabbia, segui la sporgenza fino alla torre meridionale, poi gira a est e salta sulla successiva torre in rovina, quindi calati all'interno per trovarla su un cadavere"]
         cords: [3104, 6709]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k18"
         data: ["On a body on the wooden platform above the Grafted Scion (down the shortcut elevator from Rampart Tower)"]
+        data_it: ["Su un cadavere sulla piattaforma di legno sopra il Rampollo innestato (tramite l'ascensore di scelta rapida dalla Torre del bastione)"]
         cords: [3132, 6698]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k19"
         data: ["On a body in the pit with the Ulcerated Tree Spirit, just past the first big roots on the left"]
+        data_it: ["Su un cadavere nella fossa con lo Spirito arboreo ulcerato, subito dopo le prime grandi radici sulla sinistra"]
         cords: [3078, 6662]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Liurnia of the Lakes"
       - id: "k20"
         data: ["In Academy Crystal Cave, stick to the left past the rats and the Sages to find a small side room in the back, containing the key on a body in a cage"]
+        data_it: ["Nella Grotta di cristallo dell'Accademia, tieni la sinistra superando topi e saggi per trovare una piccola stanza laterale sul fondo, contenente la chiave su un corpo in gabbia"]
         cords: [1733, 4883]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k21"
         data: ["On the island directly east of the South Raya Lucaria Gate Site of Grace, accessible from Gate Town North; it's in a chest in a small tower sticking out of the water, requiring Torrent's double jump to reach"]
+        data_it: ["Sull'isola direttamente a est del luogo di grazia Cancello meridionale di Raya Lucaria, accessibile dal Borgo dell'accademia nord; si trova in un forziere in una piccola torre emersa, richiede il doppio salto di Torrente per essere raggiunta"]
         cords: [2102, 5056]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k22"
         data: ["Outside Raya Lucaria at the base of its northeastern corner, up an incline leading to an area with many Wraith Callers and a body sitting in a chair with the key"]
+        data_it: ["Fuori da Raya Lucaria alla base del suo angolo nord-orientale, su un pendio che conduce a un'area con molti Evocatori di spettri e un cadavere seduto su una sedia con la chiave"]
         cords: [1948, 4840]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k23"
         data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        data_it: ["Venduta dal mercante isolato all'interno del Cancello meridionale di Raya Lucaria per 3.000 rune (x3)"]
         cords: [2028, 4957]
         map_title: "Stonesword Key x3"
       - id: "k24"
         data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        data_it: ["Venduta dal mercante isolato all'interno del Cancello meridionale di Raya Lucaria per 3.000 rune"]
         map_link: [2028, 4957]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k25"
         data: ["Sold by the Isolated Merchant inside the South Raya Lucaria Gate for 3000 runes"]
+        data_it: ["Venduta dal mercante isolato all'interno del Cancello meridionale di Raya Lucaria per 3.000 rune"]
         map_link: [2028, 4957]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k26"
         data: ["As far north as it's possible to go from the Ainsel River Well before the cliff wall cuts off the path, on a body in a chair in a small patch of flowers"]
+        data_it: ["Il più a nord possibile partendo dal Pozzo del fiume Ainsel prima che la parete rocciosa interrompa il sentiero, su un cadavere seduto su una sedia in una piccola zona fiorita"]
         cords: [2782, 4459]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k27"
         data: ["Atop the western wall of Frenzied Flame Village"]
+        data_it: ["In cima al muro occidentale del Villaggio della Fiamma Frenetica"]
         cords: [2573, 4200]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k28"
         data: ["From Three Sisters above Caria Manor, follow the path along the rooftops, dropping down when necessary, all the way to the rampart overlooking the Main Gate, with a Giant Crab on top guarding a body with the key"]
+        data_it: ["Dalle Tre Sorelle sopra il Maniero di Caria, segui il sentiero lungo i tetti calandoti dove necessario fino al bastione che domina il cancello principale, con un granchio gigante in cima a guardia di un cadavere con la chiave"]
         cords: [1885, 3832]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Academy of Raya Lucaria"
       - id: "k29"
         data: ["Past the illusory bookshelf directly before the Debate Parlor (Red Wolf of Radagon), on the other side of the altar behind the chest"]
+        data_it: ["Oltre la libreria illusoria direttamente prima della Sala del dibattito (Lupo rosso di Radagon), dall'altro lato dell'altare dietro il forziere"]
         cords: [1923, 5008]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k30"
         data: ["In the courtyard directly after the Debate Parlor, on a body draped on the central fountain"]
+        data_it: ["Nel cortile subito dopo la Sala del dibattito, su un cadavere disteso sulla fontana centrale"]
         cords: [1949, 4942]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Caelid"
       - id: "k31"
         data: ["In Gaol Cave, on a body in a cell"]
+        data_it: ["Nella Grotta della galera, su un cadavere in una cella"]
         cords: [4921, 6764]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k32"
         data: ["Sold by the Nomadic Merchant in the south for 4000 runes"]
+        data_it: ["Venduta dal mercante nomade a sud per 4.000 rune"]
         cords: [5416, 7067]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k33"
         data: ["From the Dragonbarrow West grace, head to the Divine Tower of Caelid and jump onto the high tree branch, then to the first ledge with a ladder and a sentry with a torch; don't climb the ladder but face southeast from it and follow the arch to find the key on a body on the next landing, guarded by a knight"]
+        data_it: ["Dal luogo di grazia Dragonbarrow ovest, dirigiti alla Torre divina di Caelid e salta sul ramo alto dell'albero, poi sulla prima sporgenza con una scala e una sentinella con una torcia; non salire la scala ma rivolgiti a sud-est e segui l'arco per trovare la chiave su un cadavere nel pianerottolo successivo, sorvegliato da un cavaliere"]
         cords: [5569, 6091]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k34"
         data: ["In Sellia, Town of Sorcery, on a body slumped atop an archway connecting two buildings at the southern entrance of town; passing northward through the arch underneath, turn right to see rubble with a rotted tree through it, an easy way up on horseback"]
+        data_it: ["A Sellia, città della stregoneria, su un cadavere accasciato sopra un arco che collega due edifici all'ingresso meridionale della città; passando verso nord sotto l'arco, gira a destra per vedere delle macerie con un albero marcio, un modo facile per salire a cavallo"]
         cords: [5628, 6618]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k35"
         data: ["From Fort Faroth, face west and climb the hulking white rock in the distance; it's on one of the bodies on top, the one whose chair fell over"]
+        data_it: ["Da Forte Faroth, rivolgiti a ovest e sali sulla massiccia roccia bianca in lontananza; si trova su uno dei cadaveri in cima, quello con la sedia rovesciata"]
         cords: [5747, 6449]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k36"
         data: ["South of the Deep Siofra Well, past the large bear, on a body sitting on the cliff"]
+        data_it: ["A sud del Pozzo profondo del Siofra, oltre il grosso orso, su un cadavere seduto sulla scogliera"]
         cords: [5353, 6421]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Altus Plateau"
       - id: "k37"
         data: ["Early on the road northeast from the Grand Lift of Dectus, in the small encampment of Misbegottens on the right, on a body against a tent"]
+        data_it: ["All'inizio della strada a nord-est dal Montacarichi di Dectus, nel piccolo accampamento di creature nel lato destro, su un cadavere appoggiato a una tenda"]
         cords: [2940, 3670]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k38"
         data: ["In Sage's Cave, proceed down the linear path, through illusory walls when necessary, until a more open room with a bonfire, many stalactites, and a larger skeleton wielding the Executioner's Greataxe; on the left, being stared at by another skeleton, is an illusory wall hiding a nook with a chest with the key inside"]
+        data_it: ["Nella Grotta del saggio, procedi lungo il sentiero lineare attraverso i muri illusori quando necessario, fino a una stanza più aperta con un falò, molte stalattiti e uno scheletro più grande armato di Granascia del boia; sulla sinistra c'è un muro illusorio che nasconde una nicchia con un forziere contenente la chiave"]
         cords: [2528, 3269]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k39"
         data: ["Sold by the Nomadic Merchant here for 4000 runes"]
+        data_it: ["Venduta dal mercante nomade qui per 4.000 rune (x3)"]
         cords: [3321, 3074]
         map_title: "Stonesword Key x3"
       - id: "k40"
         data: ["Sold by the Nomadic Merchant here for 4000 runes"]
+        data_it: ["Venduta dal mercante nomade qui per 4.000 rune"]
         map_link: [3321, 3074]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k41"
         data: ["Sold by the Nomadic Merchant here for 4000 runes"]
+        data_it: ["Venduta dal mercante nomade qui per 4.000 rune"]
         map_link: [3321, 3074]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k42"
         data: ["On the eastern side of the raised plateau in the center of Altus with perpetual lightning storms, on a body slumped on a stone platform"]
+        data_it: ["Sul lato orientale dell'altopiano rialzato al centro di Altus con tempeste di fulmini perenni, su un cadavere accasciato su una piattaforma di pietra"]
         cords: [3429, 3295]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k43"
         data: ["From the Shaded Castle Ramparts grace, go back down the little stairs and turn left, following the rampart around to find a Perfumer near a ramp down to the swamp below. The wall of the rampart is broken near this ramp, providing a way up, so get on the wall and follow it back a bit the way you came (south) until you can hop to the right onto the large stone barrier. Carefully climb up the stones with a few precise jumps, until a ledge wraps slightly around to the right, from where you can see a lower landing ahead that you can jump to. Then turn left and hop over the rock in the way (it's a bit tricky to get over it) and drop down to the other side of it, onto a small ledge with a body holding the key, with three slugs looking up at you from below."]
+        data_it: ["Dal luogo di grazia Bastioni del Castello d'Ombra, torna giù per le scale e gira a sinistra, seguendo il bastione per trovare un Profumiere vicino a una rampa che scende verso la palude sottostante. Il muro del bastione è rotto vicino a questa rampa; sali sul muro e seguilo all'indietro (verso sud) finché non puoi saltare a destra sulla grande barriera di pietra. Sali attentamente sulle pietre con alcuni salti precisi finché una sporgenza non curva leggermente a destra, da dove puoi vedere un pianerottolo più basso verso il quale saltare. Poi gira a sinistra e salta oltre la roccia d'intralcio (è un po' difficile) e calati dall'altra parte, su una piccola sporgenza con un cadavere che tiene la chiave."]
         cords: [2972, 2711]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Mt. Gelmir"
       - id: "k44"
         data: ["In Gelmir Hero's Grave, past the first chariot, a few Nobles and Pages, and a fire trap, you'll find a second chariot through an archway; instead of turning left to go down the incline and progress through the dungeon, turn right and run up into a dead end to find the key, though beware it's very difficult to get back on track without being killed by the chariot, as it will suddenly go all the way up the incline on its way back, so you may need to make a suicide run for it"]
+        data_it: ["Nella Tomba dell'eroe di Gelmir, oltre il primo carro, alcuni Nobili e Paggi e una trappola di fuoco, troverai un secondo carro oltre un arco; invece di girare a sinistra per scendere lungo il pendio, gira a destra e corri in un vicolo cieco per trovare la chiave. Attenzione: è molto difficile tornare indietro senza essere uccisi dal carro, che risalirà improvvisamente tutto il pendio al ritorno, quindi potrebbe essere necessario un tentativo suicida."]
         cords: [2530, 2915]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k45"
         data: ["On the broken bridge just west of Corpse-Stench Shack"]
+        data_it: ["Sul ponte interrotto subito a ovest della Capanna dell'odore di morte"]
         cords: [2513, 2700]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k46"
         data: ["Sold by the Nomadic Merchant here for 5000 runes"]
+        data_it: ["Venduta dal mercante nomade qui per 5.000 rune"]
         cords: [2438, 2633]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k47"
         data: ["North of Fort Laiedd, in the corner with gravestones and jellyfish, on a body against a large tree"]
+        data_it: ["A nord di Forte Laiedd, nell'angolo con lapidi e meduse, su un cadavere appoggiato a un grande albero"]
         cords: [1957, 2722]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Volcano Manor"
       - id: "k48"
         data: ["From the Prison Town Church grace, descend into the town square with an Omenkiller by a bonfire. Go through the doorway near the Omenkiller's initial position, proceed through another archway with a dog, and turn right. Go down the stairs to the broken gap. Instead of dropping all the way down (you can survive that fall), if you take a running jump, you can just barely reach the other end of the gap and land on the wooden platform, which has the key."]
+        data_it: ["Dal luogo di grazia Chiesa della città carceraria, scendi nella piazza della città con un Assassino di presagi vicino a un falò. Attraversa la porta vicino alla posizione iniziale dell'Assassino di presagi, procedi attraverso un altro arco con un cane e gira a destra. Scendi le scale fino all'interruzione. Invece di calarti (caduta fatale), con un salto in corsa puoi raggiungere a stento l'altro lato e atterrare sulla piattaforma di legno che ha la chiave."]
         cords: [2063, 2983]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k49"
         data: ["Exit southeast from the room Rya moves to deep in Volcano Manor later in her questline, hop over the thin lava stream, and jump up the ledge through an open window to find the key on a body on a cot"]
+        data_it: ["Esci a sud-est dalla stanza in cui si sposta Rya a Villa Vulcano durante la sua missione, salta sopra il sottile ruscello di lava e balza sulla sporgenza attraverso una finestra aperta per trovare la chiave su un cadavere su una branda"]
         cords: [2224, 2976]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Capital Outskirts"
       - id: "k50"
         data: ["In Sealed Tunnel, when you emerge into an open room navigable by tree branches and containing many Vulgar Militia and an Iron Maiden, use the branches to get to the platform on the right side, which has a short dead-end path with the key on a body"]
+        data_it: ["Nella Galleria sigillata, quando arrivi in una stanza aperta percorribile tramite rami d'albero e contenente molti membri della Milizia volgare e una Vergine rapitrice, usa i rami per raggiungere la piattaforma sul lato destro, che ha un breve sentiero senza uscita con la chiave su un cadavere"]
         cords: [3914, 3668]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k51"
         data: ["In Auriza Hero's Grave in the room with two chariots running opposite each other, on a body in an alcove in the center of their paths"]
+        data_it: ["Nella Tomba dell'eroe di Auriza, nella stanza con i due carri che corrono in direzioni opposte, su un cadavere in una nicchia al centro dei loro percorsi"]
         cords: [4556, 3311]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Leyndell, Royal Capital"
       - id: "k52"
         data: ["From East Capital Rampart, follow the rampart all the way south until just before the door into a building filled with plants, drop off the side of the rampart onto the rooftops, and hop between rooftops all the way back north, until you find the key on a body next to two Imps"]
+        data_it: ["Dal Bastione orientale della capitale, segui il bastione verso sud fino a poco prima della porta di un edificio pieno di piante, calati dai bastioni sui tetti e salta tra i tetti tornando verso nord, finché non trovi la chiave su un cadavere vicino statua demoniaca."]
         cords: [4431, 3459]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k53"
         data: ["From West Capital Rampart, drop down to ground level and face northwest, then climb the petrified dragon foot and leap from its extended claw to the roof of a barn, and from there into the second floor of an adjacent building, with the key on a body draped over a windowsill"]
+        data_it: ["Dal Bastione occidentale della capitale, scendi al livello del suolo e rivolgiti a nord-ovest, poi sali sulla zampa di drago pietrificata e salta dal suo artiglio teso sul tetto di un fienile, e da lì nel secondo piano di un edificio adiacente, con la chiave su un cadavere disteso su un davanzale."]
         cords: [4225, 3565]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k54"
         data: ["From Avenue Balcony, head down the stairs and hook around them to the right, then down the ladder into a room with many enemies throwing lightning pots, and open the little cell on the ground floor to find a chest with the key inside"]
+        data_it: ["Dalla Terrazza sul viale, scendi le scale e gira intorno a esse verso destra, poi scendi la scala a pioli in una stanza con molti nemici che lanciano vasi fulminanti e apri la piccola cella al piano terra per trovare un forziere con la chiave."]
         cords: [4301, 3495]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k55"
         data: ["From the previous, head out the door on the ground floor, and continue forward until you can hook around a little set of stairs up and right, to see two Skeletal Militiamen and a Putrid Corpse praying at a grave bearing a body with the key"]
+        data_it: ["Dalla posizione precedente, esci dalla porta al piano terra e prosegui finché non puoi girare intorno a una piccola rampa di scale in alto a destra, per vedere due Miliziani scheletrici e un cadavere putrido che pregano su una tomba con un corpo che tiene la chiave."]
         cords: [4334, 3488]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k56"
         data: ["From Lower Capital Church, exit the church and wrap around the building to the right; climb the long ladder and the following ladder to emerge at a gazebo; hook right again before the gazebo, then turn left and follow the tight path until you can climb a large staircase on your left; finally, from the top of the staircase, face directly east and run and jump on top of the gazebo to loot the key from the body"]
+        data_it: ["Dalla Chiesa inferiore della capitale, esci e gira intorno all'edificio a destra; sali la lunga scala a pioli e la successiva per sbucare a un gazebo; gira di nuovo a destra prima del gazebo, poi gira a sinistra e segui lo stretto sentiero finché non puoi salire una grande scala alla tua sinistra; infine, dalla cima della scala, rivolgiti direttamente a est e corri saltando sopra il gazebo per raccogliere la chiave dal cadavere."]
         cords: [4338, 3595]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k57"
         data: ["Subterranean Shunning-Grounds: From Underground Roadside, head northeast and drop through the gap in the floor grate, turn northwest and go into the tunnel in the right wall, drop into the first hole surrounded by Slugs, and follow the path from there into a room with three Wraith Callers and the key on a body"]
+        data_it: ["Sotterranei dei reietti: Dal Bordo della strada sotterranea, vai a nord-est e calati nell'apertura della grata sul pavimento, gira a nord-ovest ed entra nel tunnel nella parete destra, calati nel primo buco circondato da lumache e segui il sentiero fino a una stanza con tre Evocatori di spettri e la chiave su un cadavere."]
         cords: [4364, 3366]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Mountaintops of the Giants"
       - id: "k58"
         data: ["Sold by the Hermit Merchant here for 5000 runes"]
+        data_it: ["Venduta dal mercante eremita qui per 5.000 rune (x3)"]
         cords: [5960, 2238]
         map_title: "Stonesword Key x3"
       - id: "k59"
         data: ["Sold by the Hermit Merchant here for 5000 runes"]
+        data_it: ["Venduta dal mercante eremita qui per 5.000 rune"]
         map_link: [5960, 2238]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k60"
         data: ["Sold by the Hermit Merchant here for 5000 runes"]
+        data_it: ["Venduta dal mercante eremita qui per 5.000 rune"]
         map_link: [5960, 2238]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k61"
         data: ["In Castle Sol, from the Church of the Eclipse, exit to the north, climb the ladder to the east, go all the way north, cross the wooden bridge, and climb the stairs on the right to find a body slumped over the wall on the left with the key"]
+        data_it: ["A Castel Sol, dalla Chiesa dell'eclissi, esci a nord, sali la scala a pioli a est, vai fino in fondo a nord, attraversa il ponte di legno e sali le scale a destra per trovare un cadavere disteso sul muro a sinistra con la chiave."]
         cords: [6037, 1724]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k62"
         data: ["On a body right behind the Fire Prelate outside Guardians' Garrison"]
+        data_it: ["Su un cadavere proprio dietro il Prelato del fuoco fuori dalla Guarnigione dei guardiani."]
         cords: [6275, 2393]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Consecrated Snowfield"
       - id: "k63"
         data: ["From Inner Consecrated Snowfield, look at your compass and travel exactly one notch north of West, to a hill guarded by two lightning balls; on top is a chair with a corpse with the key"]
+        data_it: ["Dall'Entroterra del campo di neve consacrato, guarda la bussola e viaggia esattamente una tacca a nord dell'Ovest, verso una collina sorvegliata da due sfere fulminanti; in cima c'è una sedia con un cadavere che porta la chiave."]
         cords: [5194, 2247]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k64"
         data: ["In the northwest of Yelough Anix Ruins, in a tiny crumbling room packed with four frenzied rats"]
+        data_it: ["Nella parte nord-occidentale delle Rovine di Yelough Anix, in una piccola stanza fatiscente piena di quattro topi frenetici."]
         cords: [5012, 2341]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Miquella's Haligtree"
       - id: "k65"
         data: ["Directly south of Haligtree Canopy on a body at the tip of the same branch"]
+        data_it: ["Direttamente a sud della Chioma dell'Albero Sacro su un cadavere sulla punta dello stesso ramo."]
         cords: [5610, 1351]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k66"
         data: ["From Haligtree Canopy, head east, dropping down when necessary to reach the first Large Oracle Envoy; follow the branch from there east/northeast until you can reach a large central branch with Giant Ants patrolling; follow the large branch south until its first offshoot on the left, which you can follow around in a large ascending circle onto a wide branch above with a scarlot rot flavored Giant Miranda Sprout; face northwest and walk along this branch until its first offshoot at a sharp left angle, at the end of which is an Oracle Envoy and a body with the key"]
+        data_it: ["Dalla Chioma dell'Albero Sacro, vai a est calandoti quando necessario per raggiungere il primo Grande inviato dell'Oracolo; segui il ramo da lì verso est/nord-est finché non puoi raggiungere un grande ramo centrale pattugliato da formiche giganti; segui il grande ramo verso sud fino alla sua prima diramazione a sinistra, che puoi seguire compiendo un grande cerchio ascendente su un ampio ramo superiore con un Germoglio di Miranda gigante; rivolgiti a nord-ovest e cammina lungo questo ramo fino alla sua prima diramazione a sinistra con un angolo acuto, alla fine della quale c'è un inviato dell'Oracolo e un cadavere con la chiave."]
         cords: [5713, 1309]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Crumbling Farum Azula"
       - id: "k67" #TODO: Verify
         data: ["In the back of the Dragon Temple to the east, on a body near a ledge"]
+        data_it: ["Sul retro del Tempio del drago a est, su un cadavere vicino a una sporgenza."]
         cords: [8530, 4410]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Siofra River"
       - id: "k68"
         data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        data_it: ["Venduta dal mercante abbandonato per 2.000 rune (x3)"]
         cords: [6289, 14256]
         map_title: "Stonesword Key x3"
       - id: "k69"
         data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        data_it: ["Venduta dal mercante abbandonato per 2.000 rune"]
         map_link: [6289, 14256]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k70"
         data: ["Sold by the Abandoned Merchant for 2000 runes"]
+        data_it: ["Venduta dal mercante abbandonato per 2.000 rune"]
         map_link: [6289, 14256]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k71"
         data: ["At the end of the long bridge/wall protruding from the southwest of Siofra River, accessed via a spiritspring in front of it"]
+        data_it: ["Alla fine del lungo ponte che sporge a sud-ovest del Fiume Siofra, accessibile tramite una sorgente spiritica situata di fronte."]
         cords: [6495, 14564]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k72"
         data: ["From the Below the Well grace, travel southwest along the right cliffside until you find a bridge leading to the other side near a Golden Tree; turn left at the other side and hop onto the pillar there, then run down the attached beam to the next pillar, which hides a body with a key"]
+        data_it: ["Dal luogo di grazia Pozzo del Siofra inferiore, viaggia a sud-ovest lungo la scogliera a destra finché non trovi un ponte che conduce all'altro lato vicino a un Albero d'oro; gira a sinistra e salta sulla colonna lì presente, poi corri lungo la trave attaccata fino alla colonna successiva, che nasconde un cadavere con la chiave."]
         cords: [6434, 14046]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Nokron, Eternal City"
       - id: "k73"
         data: ["On a body just south of the Aqueduct-Facing Cliffs grace, right outside the cave, where you drop down from the ledge above with the jellyfish to reach it"]
+        data_it: ["Su un cadavere subito a sud del luogo di grazia Scogliera sull'acquedotto, appena fuori dalla grotta, raggiungibile calandosi dalla sporgenza soprastante dove si trovano le meduse."]
         cords: [6221, 14108]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Ainsel River"
       - id: "k74"
         data: ["On a body in water surrounded by many frenzied Miranda Sprouts, near the waterfall just southwest of Uld Palace Ruins"]
+        data_it: ["Su un cadavere nell'acqua circondato da molti germogli di Miranda, vicino alla cascata appena a sud-ovest delle Rovine del palazzo di Uld."]
         cords: [3930, 12022]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k75"
         data: ["In Nokstella, Eternal City, directly north of the elevator to Nokstella Waterfall Basin, on a cliff under a ledge"]
+        data_it: ["A Nokstella, Città Eterna, direttamente a nord dell'ascensore per il Bacino della cascata di Nokstella, su una scogliera sotto una sporgenza."]
         cords: [3356, 11846]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Deeproot Depths"
       - id: "k76"
         data: ["Atop the very tall square building directly southeast of Crucible Knight Siluria, reached via the spiritspring next to the building"]
+        data_it: ["In cima all'edificio quadrato molto alto direttamente a sud-est del Cavaliere del crogiolo Siluria, raggiungibile tramite la sorgente spiritica accanto all'edificio."]
         cords: [5249, 10856]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       #
       - "Mohgwyn Palace"
       - id: "k77"
         data: ["On the south end of the area with many Giant Crows, on a body on the ground in the open"]
+        data_it: ["All'estremità meridionale dell'area con molti corvi giganti, su un corpo a terra all'aperto."]
         cords: [6952, 14489]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k78"
         data: ["Along the path up from Dynasty Mausoleum Entrance, just past the Giant Skeletal Slime, turn right for a dead end side path with many praying Putrid Corpses and a key on a body against a rock"]
+        data_it: ["Lungo il sentiero che sale dall'Ingresso del mausoleo della dinastia, superato il fango scheletrico gigante, gira a destra per un sentiero laterale cieco con molti cadaveri putridi oranti e una chiave su un corpo appoggiato a una roccia."]
         cords: [6913, 14428]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k79"
         data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        data_it: ["Venduta dal mercante prigioniero per 5.000 rune (x5)"]
         cords: [6793, 14474]
         map_title: "Stonesword Key x5"
       - id: "k80"
         data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        data_it: ["Venduta dal mercante prigioniero per 5.000 rune"]
         map_link: [6793, 14474]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k81"
         data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        data_it: ["Venduta dal mercante prigioniero per 5.000 rune"]
         map_link: [6793, 14474]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k82"
         data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        data_it: ["Venduta dal mercante prigioniero per 5.000 rune"]
         map_link: [6793, 14474]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
       - id: "k83"
         data: ["Sold by the Imprisoned Merchant for 5000 runes"]
+        data_it: ["Venduta dal mercante prigioniero per 5.000 rune"]
         map_link: [6793, 14474]
-        map_title: "Stonesword Key"
+        map_title_it: "Chiave della spada di pietra"
   -
     title: "Imp Statue Seals"
+    title_it: "Sigilli demoniaci"
+    icon: "/img/icons/keys/00228.png"
     map_icon: "/map/icons/shadows/imp.png"
+    table: ["Location", "Keys", "Rewards"]
+    table_it: ["Luogo", "Chiavi", "Ricompense"]
+    table_widths: [4, 1, 7]
     items:
       - "Limgrave"
       - id: "s1"
-        data: ["2 keys: The entrance to Fringefolk Hero's Grave"]
+        data: ["Fringefolk Hero's Grave (entrance)", "2", "Fringefolk Hero's Grave"]
+        data_it: ["Tomba dell'eroe dei confini (ingresso)", "2", "Tomba dell'eroe dei confini"]
         cords: [3727, 7368]
-        map_title: "Imp Statue Seal (2 keys)"
-      - id: "s2"
-        data: ["1 key: A cellar in eastern Summonwater Village containing the Green Turtle Talisman"]
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
+      - id: "s5"
+        data: ["Summonwater Village (cellar)", "1", "Green Turtle Talisman"]
+        data_it: ["Villaggio di Acqua Evocata (cantina)", "1", "Talismano della tartaruga verde"]
         cords: [4496, 6510]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Roundtable Hold"
+      - id: "s2"
+        data: ["Downstairs (first seal)", "1", "Crepus's Black-Key Crossbow + 20 Black-Key Bolts"]
+        data_it: ["Piano inferiore (primo sigillo)", "1", "Balestra a carrucola di Crepus + 20 dardi a carrucola"]
+        map_link: [451, 8385]
+        #TODO: cords
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s3"
-        data: ["1 key: A small room down the stairs near Smithing Master Hewg containing Crepus's Black-Key Crossbow and another Imp Statue Seal"]
-        cords: [631, 8321]
-        map_title: "Imp Statue Seal (1 key)"
-      - id: "s4"
-        data: ["2 keys: A small room accessed via the previous, containing the Assassin's Prayerbook"]
-        cords: [642, 8325]
-        map_title: "Imp Statue Seal (2 keys)"
+        data: ["Downstairs (second seal)", "2", "Assassin's Prayerbook"]
+        data_it: ["Piano inferiore (secondo sigillo)", "2", "Ricettario dell'assassino"]
+        map_link: [451, 8385]
+        #TODO: cords
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       #
       - "Weeping Peninsula"
-      - id: "s5"
-        data: ["1 key: A small room in Tombsward Catacombs containing Nomadic Warrior's Cookbook [9]"]
+      - id: "s4"
+        data: ["Tombsward Catacombs", "1", "Lhulier the Finger Maiden (Spirit Ash)"]
+        data_it: ["Catacombe del sacrario", "1", "Lhulier, servitrice delle Dita (Ceneri di spirito)"]
         cords: [3844, 7966]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s6"
-        data: ["1 key: Unlocks Weeping Evergaol"]
+        data: ["Weeping Evergaol", "1", "Ancient Dragon Apostle's Cookbook [1]"]
+        data_it: ["Evergaol del Pianto", "1", "Ricettario dell'apostolo del drago antico [1]"]
         cords: [3615, 7957]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Stormveil Castle"
       - id: "s7"
-        data: ["1 key: A cellar down some stairs in the main courtyard opposite Liftside Chamber, on the other side of a room full of rats; contains the Godskin Prayerbook, the Godslayer's Seal, and a shortcut door"]
+        data: ["Godskin Prayerbook (cellar)", "1", "Godskin Prayerbook, Godslayer's Seal"]
+        data_it: ["Ricettario del Sacriderma (cantina)", "1", "Ricettario del Sacriderma, Sigillo dell'uccisore di dèi"]
         cords: [3122, 6713]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s8"
-        data: ["1 key: A small room out the northwest of the main hall with the Grafted Scion, containing the Iron Whetblade, a Miséricorde, and a Hawk Crest Wooden Shield"]
+        data: ["Stormveil Castle (near Grafted Scion)", "1", "Iron Whetblade, Miséricorde, Hawk Crest Wooden Shield"]
+        data_it: ["Castello di Grantempesta (vicino al Rampollo innestato)", "1", "Affilalamine di ferro, Misericordia, Scudo di legno del falco"]
         cords: [3096, 6693]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Liurnia of the Lakes"
       - id: "s9"
-        data: ["1 key: A small room in Cliffbottom Catacombs containing the Nox Mirrorhelm"]
+        data: ["Cliffbottom Catacombs", "1", "Nox Mirrorhelm"]
+        data_it: ["Catacombe di fine scogliera", "1", "Elmo a specchio di Nox"]
         cords: [3027, 5957]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s10"
-        data: ["2 keys: The entrance to Academy Crystal Cave"]
+        data: ["Academy Crystal Cave (entrance)", "2", "Academy Crystal Cave"]
+        data_it: ["Grotta di cristallo dell'Accademia (ingresso)", "2", "Grotta di cristallo dell'Accademia"]
         cords: [1723, 4885]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       - id: "s11"
-        data: ["1 key: A small room in Black Knife Catacombs containing Rosus' Axe"]
+        data: ["Black Knife Catacombs", "1", "Rosus' Axe"]
+        data_it: ["Catacombe dei Neri Coltelli", "1", "Ascia di Rosus"]
         cords: [2885, 4117]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s12"
-        data: ["1 key: A cellar in Lunar Estate Ruins up by the Moonlight Altar accessed late in Ranni's questline. The Imp Statue appears to be by itself, with its seal located to its right underneath an illusory floor blocking a hidden basement. Contains the Cerulean Amber Medallion +2."]
+        data: ["Lunar Estate Ruins", "1", "Cerulean Amber Medallion +2"]
+        data_it: ["Rovine del feudo lunare", "1", "Medaglione d'ambra cerulea +2"]
         cords: [1887, 5920]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Caelid"
       - id: "s13"
-        data: ["2 keys: The entrance to Gaol Cave"]
+        data: ["Gaol Cave (entrance)", "2", "Gaol Cave"]
+        data_it: ["Grotta della galera (ingresso)", "2", "Grotta della galera"]
         cords: [4922, 6779]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       - id: "s14"
-        data: ["1 key: A cellar in Forsaken Ruins containing the Sword of St. Trina"]
+        data: ["Forsaken Ruins (cellar)", "1", "Sword of St. Trina"]
+        data_it: ["Rovine dei derelitti (cantina)", "1", "Spada di santa Trina"]
         cords: [4889, 6351]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Altus Plateau"
       - id: "s15"
-        data: ["1 key: Unlocks Golden Lineage Evergaol"]
+        data: ["Golden Lineage Evergaol", "1", "Godfrey Icon"]
+        data_it: ["Evergaol della stirpe aurea", "1", "Icona di Godfrey"]
         cords: [2865, 3795]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s16"
-        data: ["2 keys: The entrance to Unsightly Catacombs"]
+        data: ["Unsightly Catacombs (entrance)", "2", "Unsightly Catacombs"]
+        data_it: ["Catacombe spiacevoli (ingresso)", "2", "Catacombe spiacevoli"]
         cords: [2141, 3366]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       - id: "s21"
-        data: ["1 key: A cellar near the top of Wyndham Ruins containing the Pearldrake Talisman +1"]
+        data: ["Wyndham Ruins (cellar)", "1", "Pearldrake Talisman +1"]
+        data_it: ["Rovine di Wyndham (cantina)", "1", "Talismano del drago di perla +1"]
         cords: [2626, 3119]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s17"
-        data: ["1 key: A small room in Sainted Hero's Grave containing the Crimson Seed Talisman"]
+        data: ["Sainted Hero's Grave (room 1)", "1", "Crimson Seed Talisman"]
+        data_it: ["Tomba dell'eroe santo (stanza 1)", "1", "Talismano del seme cremisi"]
         cords: [3237, 3180]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s18"
-        data: ["1 key: A small room much farther into Sainted Hero's Grave containing a Ghost Glovewort [5] and the Dragoncrest Shield Talisman +1"]
+        data: ["Sainted Hero's Grave (room 2)", "1", "Ghost Glovewort [5], Dragoncrest Shield Talisman +1"]
+        data_it: ["Tomba dell'eroe santo (stanza 2)", "1", "Convallaria spettrale [5], Talismano dello scudo del drago +1"]
         cords: [3223, 3176]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s19"
-        data: ["2 keys: The entrance to Old Altus Tunnel"]
+        data: ["Old Altus Tunnel (entrance)", "2", "Old Altus Tunnel"]
+        data_it: ["Vecchio tunnel di Altus (ingresso)", "2", "Vecchio tunnel di Altus"]
         cords: [2810, 3060]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       #
       - "Mt. Gelmir"
       - id: "s20"
-        data: ["2 keys: The entrance to Seethewater Cave"]
+        data: ["Seethewater Cave (entrance)", "2", "Seethewater Cave"]
+        data_it: ["Grotta di Acquaebollente (ingresso)", "2", "Grotta di Acquaebollente"]
         cords: [2433, 2828]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       - id: "s22"
-        data: ["1 key: A small room in Wyndham Catacombs containing the Lightning Scorpion Charm"]
+        data: ["Wyndham Catacombs", "1", "Lightning Scorpion Charm"]
+        data_it: ["Catacombe di Wyndham", "1", "Amuleto dello scorpione fulminante"]
         cords: [2547, 3081]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Volcano Manor"
       - id: "s23"
-        data: ["1 key: A building along the main path from Prison Town Church with an Abductor Virgin and a spiral staircase to the Crimson Amber Medallion +1"]
+        data: ["Volcano Manor (cellar)", "1", "Crimson Amber Medallion +1"]
+        data_it: ["Villa Vulcano (cantina)", "1", "Medaglione d'ambra cremisi +1"]
         cords: [2017, 2987]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s24"
-        data: ["2 keys: In the grand hall with an eastern upstairs exit to a balcony with the teleporter to Audience Chamber, climb the west-facing stairs instead; a cavernous room with hanging cages that leads to the Dagger Talisman, a Seedbed Curse, a Somber Smithing Stone [7], and eventually a shortcut door"]
+        data: ["Volcano Manor (hall)", "2", "Dagger Talisman, Seedbed Curse, Somber Smithing Stone [7]"]
+        data_it: ["Villa Vulcano (atrio)", "2", "Talismano del pugnale, Maledizione del vivaio, Pietra di forgiatura funerea [7]"]
         cords: [2185, 2869]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       #
       - "Capital Outskirts"
       - id: "s25"
-        data: ["1 key: A small room in Auriza Hero's Grave containing the Golden Epitaph"]
+        data: ["Auriza Hero's Grave", "1", "Golden Epitaph"]
+        data_it: ["Tomba dell'eroe di Auriza", "1", "Epitaffio aureo"]
         cords: [4529, 3313]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Mountaintops of the Giants"
       - id: "s26"
-        data: ["2 keys: The entrance to Spiritcaller Cave"]
+        data: ["Spiritcaller Cave (entrance)", "2", "Spiritcaller Cave"]
+        data_it: ["Grotta del chiamaspirti (ingresso)", "2", "Grotta del chiamaspirti"]
         cords: [6480, 2046]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       - id: "s27"
-        data: ["1 key: A small room in Giant-Conquering Hero's Grave containing Flame, Protect Me"]
+        data: ["Giant-Conquering Hero's Grave", "1", "Flame, Protect Me"]
+        data_it: ["Tomba dell'eroe conquistatore dei giganti", "1", "Fiamma, proteggimi"]
         cords: [5672, 2823]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Consecrated Snowfield"
       - id: "s28"
-        data: ["2 keys: The entrance to Cave of the Forlorn"]
+        data: ["Cave of the Forlorn (entrance)", "2", "Cave of the Forlorn"]
+        data_it: ["Grotta dei derelitti (ingresso)", "2", "Grotta dei derelitti"]
         cords: [5678, 2147]
-        map_title: "Imp Statue Seal (2 keys)"
+        map_title_it: "Sigillo demoniaco (2 chiavi)"
       #
       - "Elphael, Brace of the Haligtree"
       - id: "s29"
-        data: ["1 key: Drop down twice immediately after the Prayer Room grace; a small room containing Triple Rings of Light"]
+        data: ["Prayer Room (upper)", "1", "Triple Rings of Light"]
+        data_it: ["Stanza della preghiera (superiore)", "1", "Triplo cerchio di luce"]
         cords: [5710, 915]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       - id: "s30"
-        data: ["1 key: Visible below from the previous, but must be climbed down to further on, e.g. via the pillars; a small room containing the Marika's Soreseal"]
+        data: ["Prayer Room (lower)", "1", "Marika's Soreseal"]
+        data_it: ["Stanza della preghiera (inferiore)", "1", "Piaga dolorosa di Marika"]
         cords: [5726, 935]
-        map_title: "Imp Statue Seal (1 key)"
+        map_title_it: "Sigillo demoniaco (1 chiave)"
       #
       - "Crumbling Farum Azula"
       - id: "s31"
-        data: ["2 keys: Unlocks the Dragon Temple Lift"]
+        data: ["Dragon Temple Lift (entrance)", "2", "Dragon Temple Lift"]
+        data_it: ["Ascensore del tempio del drago (ingresso)", "2", "Ascensore del tempio del drago"]
         cords: [8432, 4332] #TODO: Verify
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Siofra River"
       - id: "s32"
-        data: ["2 keys: The elevator up to Deep Siofra Well"]
+        data: ["Deep Siofra Well (elevator)", "2", "Deep Siofra Well"]
+        data_it: ["Pozzo profondo del Siofra (ascensore)", "2", "Pozzo profondo del Siofra"]
         cords: [6593, 13866]
         map_title: "Imp Statue Seal (2 keys)"
       #
       - "Nokron, Eternal City"
       - id: "s33"
-        data: ["1 key: A room down a small hall in the massive cathedral with a large ball in Night's Sacred Ground, upstairs near the altar with the Black Whetblade; contains the Mimic Tear Ashes"]
+        data: ["Night's Sacred Ground", "1", "Mimic Tear Ashes"]
+        data_it: ["Terra sacra della notte", "1", "Ceneri di Lacrima riflessa"]
         cords: [6098, 14428]
         map_title: "Imp Statue Seal (1 key)"
       #
       - "Nokstella, Eternal City"
       - id: "s34"
-        data: ["1 key: A room along the path to the top, tucked around the far side of a building before the bridge leading to a large ball on a stairway; contains two Nox Monks guarding the Nightmaiden & Swordstress Puppets"]
+        data: ["Nokstella, Eternal City", "1", "Nightmaiden & Swordstress Puppets"]
+        data_it: ["Nokstella, Città Eterna", "1", "Marionette di ancella e spadaccina della notte"]
         cords: [3473, 11993]
         map_title: "Imp Statue Seal (1 key)"

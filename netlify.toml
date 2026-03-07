@@ -1,0 +1,5 @@
+[build]
+  publish = "docs"
+
+[build.processing]
+  skip_processing = true

@@ -1,222 +1,307 @@
 title: "Pots & Bottles"
+title_it: "Vasi e boccette"
 id: pots_bottles
 icon: "/img/icons/keys/edited/00504.png"
 sections:
   -
     title: "Hefty Cracked Pots"
+    title_it: "Vasi incrinati grandi"
     icon: "/img/icons/keys/edited/03800.png"
     items:
       - id: "4_1"
         data: ["Scorched Ruins: From the location of the Ghost NPC, south of the Scorched Ruins. Head north and take the first right to the higher ground. Alongside a group of Shadows, you will find a body containing this item."]
+        data_it: ["Rovine arse: Dalla posizione dell'NPC fantasma, a sud delle Rovine arse. Vai a nord e prendi la prima a destra verso l'altura. Insieme a un gruppo di Ombre, troverai un corpo contenente questo oggetto."]
       - id: "4_2"
         data: ["Belurat Gaol: Inside a treasure chest in a room full of hanging pots that players have to jump down between."]
+        data_it: ["Prigione di Belurat: In un forziere in una stanza piena di vasi appesi tra cui saltare."]
       - id: "4_3"
         data: ["Belurat Gaol: Another one can be found within a labyrinth full of large jars after falling down a broken staircase trap."]
+        data_it: ["Prigione di Belurat: Un altro si trova in un labirinto pieno di grandi giare dopo essere caduti in una trappola di scale rotte."]
       - id: "4_4"
         data: ["Belurat Gaol: A last one can be found on some jar pots nearby."]
+        data_it: ["Prigione di Belurat: L'ultimo si trova su alcuni vasi vicini."]
       - id: "4_5"
         data: ["Bonny Village: One can be found on the edge of the broken bridge."]
+        data_it: ["Villaggio di Bonny: Uno si trova sul bordo del ponte rotto."]
       - id: "4_6"
         data: ["Bonny Village: Another is found past the broken bridge, among many enemies. Below a shed."]
+        data_it: ["Villaggio di Bonny: Un altro si trova oltre il ponte rotto, tra molti nemici, sotto una tettoia."]
       - id: "4_7"
         data: ["Bonny Gaol: Right when you walk in there's two hanging pots you can jump down to and that leads to it."]
+        data_it: ["Prigione di Bonny: Appena entri ci sono due vasi appesi su cui puoi saltare che conducono ad esso."]
       - id: "4_8"
         data: ["Shadow Keep: Right to the location of the Iris of Grace, on a bed. in the Room after the West Rampart Site of Grace."]
+        data_it: ["Rocca d'Ombra: A destra della posizione dell'Iride della grazia, su un letto, nella stanza dopo il Luogo di grazia Bastioni occidentali."]
+        map_title_it: "Vaso incrinato grande"
       - id: "4_9"
         data: ["Cerulean Coast: Given after defeating a Troll that throws giant sleep pots, found heading south."]
+        data_it: ["Costa cerulea: Ottenuto sconfiggendo un Troll che lancia vasi soporiferi giganti, procedendo verso sud."]
       - id: "4_10"
         data: ["Lamenter's Gaol: In a body on the southwestern corner of the area with the piled-up remains. "]
+        data_it: ["Prigione del Lamentatore: Su un corpo nell'angolo sud-ovest dell'area con i resti accumulati."]
   -
     title: "Cracked Pots"
+    title_it: "Vasi incrinati"
     icon: "/img/icons/keys/edited/00504.png"
     map_icon: "/map/icons/shadows/keys/00504.png"
     items:
-      - "Limgrave"
+      - "Sepolcride"
       - id: "1_1"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
         cords: [3667, 7210]
         map_title: "Cracked Pot x3"
+        map_title_it: "Vaso incrinato x3"
       - id: "1_2"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
         map_link: [3667, 7210]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_3"
         data: ["Church of Elleh, North-West of game's start: sold by Kalé for 300 runes"]
         map_link: [3667, 7210]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_5"
         data: ["Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves"]
+        data_it: ["Grotta del bosco, tra le scogliere a nord della Chiesa di Elleh: vicino all'entrata, su un corpo vicino ai lupi."]
         cords: [3649, 7067]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_4"
         data: ["East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes"]
+        data_it: ["A est del Luogo di grazia Ponte dei santi, a nord: in vendita dal mercante nomade per 600 rune."]
         cords: [4114, 6553]
         map_title: "Cracked Pot"
-      - "Weeping Peninsula"
+        map_title_it: "Vaso incrinato"
+      - "Penisola del Pianto"
       - id: "1_6"
         data: ["Castle Morne Rampart Grace: Sold by Nomadic Merchant for 600 runes"]
+        data_it: ["Luogo di grazia Bastioni di Castel Morne: in vendita dal mercante nomade per 600 rune."]
         cords: [4310, 8172]
         map_title: "Cracked Pot"
-      - "Stormveil Castle"
+        map_title_it: "Vaso incrinato"
+      - "Castello di Grantempesta"
       - id: "1_7"
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
         cords: [3066, 6551]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_8"
         data: ["On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots"]
         cords: [3065, 6537]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - "Liurnia of the Lakes"
       - id: "1_9"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found by a large headstone on the southern end of town"]
+        data_it: ["Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova vicino a una grande lapide all'estremità meridionale del villaggio."]
         cords: [3008, 5286]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_10"
-        data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a Ritual Pot on the roof"]
+        data: ["Jarburg, located in the East, down the cliffs South of Carian Study Hall. Found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a Ritual Pot on the roof"]
+        data_it: ["Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova sulla soglia di un ingresso bloccato all'estremità settentrionale del villaggio, proprio sotto un Vaso rituale sul tetto."]
         cords: [2961, 5245]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_11"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found in a hut just northeast of the previous"]
+        data_it: ["Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova in una capanna poco a nord-est del precedente."]
         cords: [2996, 5219]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_13"
         data: ["Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through, then drop down to ground level; as soon as you do, without dropping further, follow the wall to the left and find it on the cliff edge"]
+        data_it: ["Maniero di Caria, a nord-ovest: a sinistra dell'entrata del boss, attraversa un piccolo arco nel muro e calati al livello del suolo. Segui il muro a sinistra per trovarlo sul ciglio del dirupo."]
         cords: [1926, 3685]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - "Academy of Raya Lucaria"
       - id: "1_12"
         data: ["From Debate Parlor Grace, go outside then up the stairs to the left. On a body amongst Living Pots"]
+        data_it: ["Dal Luogo di grazia Aula del dibattito, esci e sali le scale a sinistra. Su un corpo tra i Vasi viventi."]
         cords: [1963, 5007]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - "Caelid"
       - id: "1_15"
         data: ["Behind the Minor Erdtree in the North-West, on a tree branch extending from the northwest cliffs"]
+        data_it: ["Dietro l'Albero Madre minore a nord-ovest, su un ramo d'albero che sporge dalle scogliere nord-ovest."]
         cords: [4898, 6089]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_14"
         data: ["South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
+        data_it: ["A sud-ovest del Luogo di grazia Sponda sud della palude di Aeonia, a sud della palude di marcescenza. In vendita dal mercante nomade per 1.500 rune (NOTA: scegliere Vaso incrinato come dono iniziale fornisce questo vaso in anticipo)."]
         cords: [5439, 7052]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - "Capital Outskirts"
       - id: "1_16"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
         cords: [4597, 3173]
         map_title: "Cracked Pot x4"
+        map_title_it: "Vaso incrinato x4"
       - id: "1_17"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)"]
         map_link: [4597, 3173]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_18"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
         map_link: [4597, 3173]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
       - id: "1_19"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom"]
         map_link: [4597, 3173]
         map_title: "Cracked Pot"
-      - "Leyndell, Royal Capital"
+        map_title_it: "Vaso incrinato"
+      - "Leyndell, capitale reale"
       - id: "1_20"
         data: ["Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse"]
+        data_it: ["A nord-ovest del Luogo di grazia Balcone sulla strada, un livello più sotto, attraverso un paio di porte, su un cadavere."]
         cords: [4292, 3480]
         map_title: "Cracked Pot"
+        map_title_it: "Vaso incrinato"
   -
     title: "Ritual Pots"
+    title_it: "Vasi rituali"
     icon: "/img/icons/keys/edited/03010.png"
     map_icon: "/map/icons/shadows/keys/03010.png"
     items:
       - "Liurnia of the Lakes"
       - id: "2_1"
         data: ["Laskyar Ruins, North-West of Liurnia Lake Shore Grace: near columns on the northern side"]
+        data_it: ["Rovine di Laskyar, a nord-ovest del Luogo di grazia Sponda del lago di Liurnia: vicino alle colonne sul lato nord."]
         cords: [2547, 5851]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - id: "2_2"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop; jump onto it from above near Jar-Bairn's perch."]
+        data_it: ["Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova su un tetto; saltaci sopra dall'alto vicino alla postazione di Jar-Bairn."]
         cords: [2971, 5235]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - id: "2_3"
         data: ["Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a large decorative jar"]
+        data_it: ["Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. A sud del precedente, su una grande giara decorativa."]
         cords: [2973, 5264]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - id: "2_5"
         data: ["After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes"]
+        data_it: ["Dopo il Maniero di Caria, vai a ovest del maniero e poi a sud. Lungo le scogliere sul lato est, puoi calarti nel maniero. In vendita da Pidia per 1.500 rune."]
         cords: [1822, 3733]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - "Academy of Raya Lucaria"
       - id: "2_4"
         data: ["Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar"]
+        data_it: ["Vicino al Luogo di grazia Aula scolastica, in un forziere sorvegliato da maghi e da una Giarra vivente gigante."]
         cords: [1900, 5036]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - "Caelid"
       - id: "2_6"
         data: ["Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes"]
+        data_it: ["Capanna del mercante isolato a nord: in vendita dal mercante isolato per 3.000 rune."]
         cords: [5144, 6094]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
       - "Capital Outskirts"
       - id: "2_7"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
         cords: [4606, 3184]
         map_title: "Ritual Pot x2"
+        map_title_it: "Vaso rituale"
       - id: "2_8"
         data: ["Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar"]
+        data_it: ["Tomba laterale di Auriza, a nord-ovest di Leyndell: in una stanza con una Giarra vivente gigante."]
         map_link: [4606, 3184]
         map_title: "Ritual Pot"
-      - "Leyndell, Royal Capital"
+        map_title_it: "Vaso rituale"
+      - "Leyndell, capitale reale"
       - id: "2_9"
         data: ["In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace."]
+        data_it: ["Nelle fogne alla fine del labirinto di tunnel, appena prima dell'ascensore per il Luogo di grazia Abissi dimenticati."]
         cords: [4422, 3483]
         map_title: "Ritual Pot"
-      - "Mountaintops of the Giants"
+        map_title_it: "Vaso rituale"
+      - "Vette dei Giganti"
       - id: "2_10"
         data: ["Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar."]
+        data_it: ["Catacombe delle vette dei Giganti. Segui il sentiero a nord dalle Rovine di Zamor e quando raggiungi i nemici di fuoco, gira a destra per entrare. In una stanza con una Giarra vivente gigante."]
         cords: [5798, 2822]
         map_title: "Ritual Pot"
+        map_title_it: "Vaso rituale"
   -
     title: "Perfume Bottles"
+    title_it: "Boccette di profumo"
     icon: "/img/icons/keys/edited/00443.png"
     map_icon: "/map/icons/shadows/keys/00443.png"
     items:
       - "Caelid"
       - id: "3_1"
         data: ["Street of Sages Ruins in the North-West part of the rot swamp: in the corner of a ruined building guarded by Miranda Sprouts and a Servant of Rot"]
+        data_it: ["Rovine della strada dei saggi, nella parte nord-ovest della palude di marcescenza: nell'angolo di un edificio in rovina sorvegliato da Germogli di Miranda e da un Servitore della Marcescenza."]
         cords: [5284, 6689]
         map_title: "Perfume Bottle"
-      - "Altus Plateau"
+        map_title_it: "Boccetta di profumo"
+      - "Altopiano di Altus"
       - id: "3_2"
         data: ["Found North of the Altus Highway Junction Site of Grace, on a body in the small camp near the Erdtree sapling"]
+        data_it: ["Si trova a nord del Luogo di grazia Crocevia della strada di Altus, su un corpo nel piccolo accampamento vicino al virgulto dell'Albero Madre."]
         cords: [3010, 3347]
         map_title: "Perfume Bottle"
+        map_title_it: "Boccetta di profumo"
       - id: "3_5"
         data: ["Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout"]
+        data_it: ["Grotta del profumiere, a est del Crocevia della strada di Altus: in un forziere vicino al secondo Germoglio di Miranda gigante."]
         cords: [3521, 3441]
         map_title: "Perfume Bottle"
+        map_title_it: "Boccetta di profumo"
       - id: "3_3"
         data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook"]
+        data_it: ["Rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal Luogo di grazia Bara abbandonata: su un cadavere vicino al forziere con il ricettario del profumiere."]
         cords: [2153, 3337]
         map_title: "Perfume Bottle"
+        map_title_it: "Boccetta di profumo"
       - id: "3_4"
         data: ["Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, near the Giant Miranda Sprout"]
+        data_it: ["Rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal Luogo di grazia Bara abbandonata: in fondo, vicino al Germoglio di Miranda gigante."]
         cords: [2142, 3319]
         map_title: "Perfume Bottle"
+        map_title_it: "Boccetta di profumo"
       - id: "3_6"
         data: ["Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder"]
+        data_it: ["Castellombroso, a nord-ovest: su un corpo in cima a un muro, accessibile tramite la seconda scala della palude."]
         cords: [2934, 2695]
         map_title: "Perfume Bottle"
-      - "Mt. Gelmir"
+        map_title_it: "Boccetta di profumo"
+      - "Monte Gelmir"
       - id: "3_7"
         data: ["Volcano Manor: on a body in a room unlocked with the Drawing-Room Key"]
+        data_it: ["Villa Vulcano: su un corpo in una stanza sbloccata con la chiave del salone."]
         cords: [2205, 2885]
         map_title: "Perfume Bottle"
-      - "Capital Outskirts"
+        map_title_it: "Boccetta di profumo"
+      - "Sobborghi della capitale"
       - id: "3_8"
         data: ["Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes"]
+        data_it: ["Capanna del mercante eremita, sul dirupo a nord-est del Luogo di grazia Campo di battaglia delle mura esterne: in vendita dal mercante eremita per 2.000 rune."]
         cords: [3974, 2945]
         map_title: "Perfume Bottle"
-      - "Leyndell, Royal Capital"
+        map_title_it: "Boccetta di profumo"
+      - "Leyndell, capitale reale"
       - id: "3_9"
         data: ["Follow the path from the East Capital Rampart Grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a Perfumer. It's in a chest in the room at the top"]
+        data_it: ["Dal Luogo di grazia Bastioni orientali della capitale, segui il bastione, entra nella torre, scendi con l'ascensore, entra nella torre successiva e sali una scala sorvegliata da un profumiere. Si trova in un forziere nella stanza in cima."]
         cords: [4434, 3542]
         map_title: "Perfume Bottle"
+        map_title_it: "Boccetta di profumo"
       - id: "3_10"
         data: ["Through the large double doors in Leyndell leading to the path to the Forbidden Lands, all the way in the back without going up the stairs, on a body guarded by a Lesser Misbegotten"]
+        data_it: ["Attraverso i grandi portoni doppi di Leyndell che portano alle Terre proibite, in fondo senza salire le scale, su un corpo sorvegliato da una Chimera minore."]
         cords: [4581, 3560]
         map_title: "Perfume Bottle"

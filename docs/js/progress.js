@@ -160,7 +160,7 @@ window.progress = {
     ],
   },
   "bosses": {
-    "total": [0, 242],
+    "total": [0, 262],
     "sections": [
       [0, 31],
       [0, 11],
@@ -180,10 +180,11 @@ window.progress = {
       [0, 3],
       [0, 3],
       [0, 4],
+      [0, 20],
     ],
   },
   "caves": {
-    "total": [0, 205],
+    "total": [0, 227],
     "sections": [
       [0, 29],
       [0, 20],
@@ -196,10 +197,11 @@ window.progress = {
       [0, 11],
       [0, 1],
       [0, 1],
+      [0, 22],
     ],
   },
   "graces": {
-    "total": [0, 314],
+    "total": [0, 419],
     "sections": [
       [0, 1],
       [0, 21],
@@ -237,6 +239,7 @@ window.progress = {
       [0, 4],
       [0, 6],
       [0, 11],
+      [0, 105],
     ],
   },
   "illusory_walls": {
@@ -551,7 +554,7 @@ window.progress = {
     ],
   },
   "ashesofwar": {
-    "total": [0, 117],
+    "total": [0, 118],
     "sections": [
       [0, 16],
       [0, 18],
@@ -566,7 +569,7 @@ window.progress = {
       [0, 5],
       [0, 5],
       [0, 21],
-      [0, 1],
+      [0, 2],
     ],
   },
   "spirit_ashes": {

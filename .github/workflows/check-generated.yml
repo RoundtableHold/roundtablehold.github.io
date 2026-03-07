@@ -1,0 +1,49 @@
+name: Keep generated HTML in sync
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Regenerate HTML if needed
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Check out the actual branch, not the merge commit,
+          # so we can push back to it if needed.
+          ref: ${{ github.head_ref || github.ref_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run generator
+        run: python generate.py
+
+      - name: Commit regenerated HTML if out of sync
+        run: |
+          if ! git diff --exit-code docs/ > /dev/null 2>&1; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/
+            git commit -m "Auto-regenerate HTML from YAML changes [skip ci]"
+            git push
+            echo "Regenerated and committed updated HTML."
+          else
+            echo "HTML is already in sync, nothing to commit."
+          fi

@@ -14,7 +14,83 @@
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <script>
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -24,168 +100,387 @@
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <form class="d-none d-sm-flex order-2 order-xl-3">
-          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+        <a class="navbar-brand me-auto ms-2" href="/index.html">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Roundtable Guides</span>
+            <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+          </span>
+        </a>
+        <ul class="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="langDropdown">
+              <span id="lang-display"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end position-absolute" id="lang-menu">
+              <li>
+                <a class="dropdown-item lang-option" data-lang="en" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> EN</a>
+              </li>
+              <li>
+                <a class="dropdown-item lang-option" data-lang="it" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> IT</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action="/search.html" class="d-none d-sm-flex order-2 order-xl-3" method="get">
+          <input aria-label="search" class="form-control me-2" data-placeholder-it="Cerca" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit"><i class="bi bi-search"></i></button>
         </form>
         <div class="d-sm-none order-2">
-          <a class="nav-link me-0" href="/search.html">
-            <i class="bi bi-search sb-icon-search"></i>
-          </a>
+          <a class="nav-link me-0" href="/search.html"><i class="bi bi-search sb-icon-search"></i></a>
         </div>
         <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Guides</span>
+                  <span class="lang-text lang-it">Guide</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">DLC Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">DLC Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione DLC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                      <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">NPC Questlines</span>
+                      <span class="lang-text lang-it">Missioni NPC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Achievements</span>
+                      <span class="lang-text lang-it">Obiettivi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Legendaries</span>
+                      <span class="lang-text lang-it">Leggendari</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Locations</span>
+                  <span class="lang-text lang-it">Luoghi</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bosses</span>
+                      <span class="lang-text lang-it">Boss</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                      <span class="lang-text lang-it">Luoghi d'interesse</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sites of Grace</span>
+                      <span class="lang-text lang-it">Luoghi di grazia</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                      <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Equipment</span>
+                  <span class="lang-text lang-it">Equipaggiamento</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Weapons</span>
+                      <span class="lang-text lang-it">Armi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Armor</span>
+                      <span class="lang-text lang-it">Armatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Talismans</span>
+                      <span class="lang-text lang-it">Talismani</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sorceries</span>
+                      <span class="lang-text lang-it">Stregonerie</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Incantations</span>
+                      <span class="lang-text lang-it">Incantesimi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ashes of War</span>
+                      <span class="lang-text lang-it">Ceneri di Guerra</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Spirit Ashes</span>
+                      <span class="lang-text lang-it">Ceneri spiritiche</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Upgrades &amp; Unlocks</span>
+                  <span class="lang-text lang-it">Potenziamenti e Sbloccabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                      <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                      <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                      <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                      <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Whetstones</span>
+                      <span class="lang-text lang-it">Coltelli per affilatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bell Bearings</span>
+                      <span class="lang-text lang-it">Globi cinerei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Cookbooks</span>
+                      <span class="lang-text lang-it">Ricettari</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                      <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                      <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Collectables
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Collectables</span>
+                  <span class="lang-text lang-it">Collezionabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                      <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Great Runes</span>
+                      <span class="lang-text lang-it">Grandi Rune</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                      <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                      <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                      <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Paintings</span>
+                      <span class="lang-text lang-it">Dipinti</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons active" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                  <a class="dropdown-item show-buttons active" href="/checklists/pots_bottles.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                      <span class="lang-text lang-it">Vasi e boccette</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                      <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Gestures</span>
+                      <span class="lang-text lang-it">Gesti</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/map.html">
-                <i class="bi bi-map"></i> Map
+              <a class="nav-link hide-buttons" href="/map.html"><i class="bi bi-map"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Map</span>
+                  <span class="lang-text lang-it">Mappa</span>
+                </span>
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/options.html">
-                <i class="bi bi-gear-fill"></i> Options
+              <a class="nav-link hide-buttons" href="/options.html"><i class="bi bi-gear-fill"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Options</span>
+                  <span class="lang-text lang-it">Opzioni</span>
+                </span>
               </a>
             </li>
           </ul>
@@ -194,115 +489,214 @@
     </nav>
     <div class="container uncolor-links">
       <div class="row text-center">
-        <h1 class="mt-4">Pots &amp; Bottles
-          <span class="d-print-none" id="pots_bottles_overall_total"></span>
+        <h1 class="mt-4">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Pots &amp; Bottles</span>
+            <span class="lang-text lang-it d-none">Vasi e boccette</span>
+          </span>
+          <span class="badge rounded-pill bg-success progress-val d-print-none ms-2" id="pots_bottles_overall_total"></span>
         </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
           <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
-          <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+          <label class="form-check-label" for="toggleHideCompleted">
+            <span class="lang-pair">
+              <span class="lang-text lang-en">Hide Completed</span>
+              <span class="lang-text lang-it">Nascondi Completati</span>
+            </span>
+          </label>
         </div>
       </div>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
-          <a class="toc-button" data-bs-toggle="collapse" href="#toc_pots_bottles" role="button">
-            <i class="bi bi-plus-lg"></i>Table Of Contents
+          <a class="toc-button" data-bs-toggle="collapse" href="#toc_pots_bottles" role="button"><i class="bi bi-plus-lg"></i>
+            <span class="lang-pair">
+              <span class="lang-text lang-en"> Table Of Contents</span>
+              <span class="lang-text lang-it"> Indice</span>
+            </span>
           </a>
         </strong>
         <ul class="toc_page collapse" id="toc_pots_bottles">
           <li>
-            <a class="toc_link" href="#pots_bottles_section_0">Hefty Cracked Pots</a>
+            <a class="toc_link" href="#pots_bottles_section_0">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Hefty Cracked Pots</span>
+                <span class="lang-text lang-it d-none">Vasi incrinati grandi</span>
+              </span>
+            </a>
             <span id="pots_bottles_nav_totals_0"></span>
           </li>
           <li>
-            <a class="toc_link" href="#pots_bottles_section_1">Cracked Pots</a>
+            <a class="toc_link" href="#pots_bottles_section_1">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Cracked Pots</span>
+                <span class="lang-text lang-it d-none">Vasi incrinati</span>
+              </span>
+            </a>
             <span id="pots_bottles_nav_totals_1"></span>
           </li>
           <li>
-            <a class="toc_link" href="#pots_bottles_section_2">Ritual Pots</a>
+            <a class="toc_link" href="#pots_bottles_section_2">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Ritual Pots</span>
+                <span class="lang-text lang-it d-none">Vasi rituali</span>
+              </span>
+            </a>
             <span id="pots_bottles_nav_totals_2"></span>
           </li>
           <li>
-            <a class="toc_link" href="#pots_bottles_section_3">Perfume Bottles</a>
+            <a class="toc_link" href="#pots_bottles_section_3">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Perfume Bottles</span>
+                <span class="lang-text lang-it d-none">Boccette di profumo</span>
+              </span>
+            </a>
             <span id="pots_bottles_nav_totals_3"></span>
           </li>
         </ul>
       </nav>
-      <div class="input-group d-print-none">
-        <input class="form-control my-3" id="pots_bottles_search" placeholder="Start typing to filter results..." type="search">
+      <div class="input-group my-3 d-print-none">
+        <input class="form-control" id="pots_bottles_search" placeholder="Start typing to filter results..." type="search">
+        <div class="input-group-text">
+          <input aria-label="Use Regex for Search" class="form-check-input mt-0 me-2" id="pots_bottles_regex" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Use Regex</span>
+            <span class="lang-text lang-it">Usa Regex</span>
+          </span>
+        </div>
+        <div class="input-group-text">
+          <input aria-label="Name Only Search" class="form-check-input mt-0 me-2" id="pots_bottles_name_only" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Name Only</span>
+            <span class="lang-text lang-it">Solo nome</span>
+          </span>
+        </div>
       </div>
       <div id="pots_bottles_list">
         <div class="card shadow-sm mb-3" id="pots_bottles_section_0">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_0Col" data-bs-toggle="collapse" href="#pots_bottles_0Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_0Col" data-bs-toggle="collapse" href="#pots_bottles_0Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/keys/edited/03800.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Hefty Cracked Pots</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Hefty Cracked Pots</span>
+                  <span class="lang-text lang-it d-none">Vasi incrinati grandi</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="pots_bottles_0Col">
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_1" id="item_4_1">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_1" data-name-jets="scorched ruins: from the location of the ghost npc, south of the scorched ruins. head north and take the first right to the higher ground. alongside a group of shadows, you will find a body containing this item. rovine arse: dalla posizione dell'npc fantasma, a sud delle rovine arse. vai a nord e prendi la prima a destra verso l'altura. insieme a un gruppo di ombre, troverai un corpo contenente questo oggetto." id="item_4_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_1">Scorched Ruins: From the location of the Ghost NPC, south of the Scorched Ruins. Head north and take the first right to the higher ground. Alongside a group of Shadows, you will find a body containing this item.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Scorched Ruins: From the location of the Ghost NPC, south of the Scorched Ruins. Head north and take the first right to the higher ground. Alongside a group of Shadows, you will find a body containing this item.</span>
+                        <span class="lang-text lang-it d-none">Rovine arse: Dalla posizione dell'NPC fantasma, a sud delle Rovine arse. Vai a nord e prendi la prima a destra verso l'altura. Insieme a un gruppo di Ombre, troverai un corpo contenente questo oggetto.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_2" id="item_4_2">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_2" data-name-jets="belurat gaol: inside a treasure chest in a room full of hanging pots that players have to jump down between. prigione di belurat: in un forziere in una stanza piena di vasi appesi tra cui saltare." id="item_4_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_2">Belurat Gaol: Inside a treasure chest in a room full of hanging pots that players have to jump down between.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Belurat Gaol: Inside a treasure chest in a room full of hanging pots that players have to jump down between.</span>
+                        <span class="lang-text lang-it d-none">Prigione di Belurat: In un forziere in una stanza piena di vasi appesi tra cui saltare.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_3" id="item_4_3">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_3" data-name-jets="belurat gaol: another one can be found within a labyrinth full of large jars after falling down a broken staircase trap. prigione di belurat: un altro si trova in un labirinto pieno di grandi giare dopo essere caduti in una trappola di scale rotte." id="item_4_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_3">Belurat Gaol: Another one can be found within a labyrinth full of large jars after falling down a broken staircase trap.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Belurat Gaol: Another one can be found within a labyrinth full of large jars after falling down a broken staircase trap.</span>
+                        <span class="lang-text lang-it d-none">Prigione di Belurat: Un altro si trova in un labirinto pieno di grandi giare dopo essere caduti in una trappola di scale rotte.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_4" id="item_4_4">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_4" data-name-jets="belurat gaol: a last one can be found on some jar pots nearby. prigione di belurat: l'ultimo si trova su alcuni vasi vicini." id="item_4_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_4">Belurat Gaol: A last one can be found on some jar pots nearby.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Belurat Gaol: A last one can be found on some jar pots nearby.</span>
+                        <span class="lang-text lang-it d-none">Prigione di Belurat: L'ultimo si trova su alcuni vasi vicini.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_5" id="item_4_5">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_5" data-name-jets="bonny village: one can be found on the edge of the broken bridge. villaggio di bonny: uno si trova sul bordo del ponte rotto." id="item_4_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_5">Bonny Village: One can be found on the edge of the broken bridge.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Bonny Village: One can be found on the edge of the broken bridge.</span>
+                        <span class="lang-text lang-it d-none">Villaggio di Bonny: Uno si trova sul bordo del ponte rotto.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_6" id="item_4_6">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_6" data-name-jets="bonny village: another is found past the broken bridge, among many enemies. below a shed. villaggio di bonny: un altro si trova oltre il ponte rotto, tra molti nemici, sotto una tettoia." id="item_4_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_6">Bonny Village: Another is found past the broken bridge, among many enemies. Below a shed.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Bonny Village: Another is found past the broken bridge, among many enemies. Below a shed.</span>
+                        <span class="lang-text lang-it d-none">Villaggio di Bonny: Un altro si trova oltre il ponte rotto, tra molti nemici, sotto una tettoia.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_7" id="item_4_7">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_7" data-name-jets="bonny gaol: right when you walk in there's two hanging pots you can jump down to and that leads to it. prigione di bonny: appena entri ci sono due vasi appesi su cui puoi saltare che conducono ad esso." id="item_4_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_7">Bonny Gaol: Right when you walk in there's two hanging pots you can jump down to and that leads to it.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Bonny Gaol: Right when you walk in there's two hanging pots you can jump down to and that leads to it.</span>
+                        <span class="lang-text lang-it d-none">Prigione di Bonny: Appena entri ci sono due vasi appesi su cui puoi saltare che conducono ad esso.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_8" id="item_4_8">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_8" data-name-jets="shadow keep: right to the location of the iris of grace, on a bed. in the room after the west rampart site of grace. rocca d'ombra: a destra della posizione dell'iride della grazia, su un letto, nella stanza dopo il luogo di grazia bastioni occidentali." id="item_4_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_8">Shadow Keep: Right to the location of the Iris of Grace, on a bed. in the Room after the West Rampart Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Shadow Keep: Right to the location of the Iris of Grace, on a bed. in the Room after the West Rampart Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">Rocca d'Ombra: A destra della posizione dell'Iride della grazia, su un letto, nella stanza dopo il Luogo di grazia Bastioni occidentali.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_9" id="item_4_9">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_9" data-name-jets="cerulean coast: given after defeating a troll that throws giant sleep pots, found heading south. costa cerulea: ottenuto sconfiggendo un troll che lancia vasi soporiferi giganti, procedendo verso sud." id="item_4_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_9">Cerulean Coast: Given after defeating a Troll that throws giant sleep pots, found heading south.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Cerulean Coast: Given after defeating a Troll that throws giant sleep pots, found heading south.</span>
+                        <span class="lang-text lang-it d-none">Costa cerulea: Ottenuto sconfiggendo un Troll che lancia vasi soporiferi giganti, procedendo verso sud.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_10" id="item_4_10">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_4_10" data-name-jets="lamenter's gaol: in a body on the southwestern corner of the area with the piled-up remains.  prigione del lamentatore: su un corpo nell'angolo sud-ovest dell'area con i resti accumulati." id="item_4_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="pots_bottles_4_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_4_10">Lamenter's Gaol: In a body on the southwestern corner of the area with the piled-up remains. </label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_4_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Lamenter's Gaol: In a body on the southwestern corner of the area with the piled-up remains. </span>
+                        <span class="lang-text lang-it d-none">Prigione del Lamentatore: Su un corpo nell'angolo sud-ovest dell'area con i resti accumulati.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
@@ -312,215 +706,269 @@
         <div class="card shadow-sm mb-3" id="pots_bottles_section_1">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_1Col" data-bs-toggle="collapse" href="#pots_bottles_1Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_1Col" data-bs-toggle="collapse" href="#pots_bottles_1Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/keys/edited/00504.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Cracked Pots</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Cracked Pots</span>
+                  <span class="lang-text lang-it d-none">Vasi incrinati</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="pots_bottles_1Col">
-              <h5>Limgrave</h5>
+              <h5>Sepolcride</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_1" id="item_1_1">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_1" data-name-jets="church of elleh, north-west of game's start: sold by kalé for 300 runes" id="item_1_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_1">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_1&amp;id=pots_bottles_1_1&amp;link=/checklists/pots_bottles.html%23item_1_1&amp;title=Cracked Pot x3">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_1&amp;id=pots_bottles_1_1&amp;link=/checklists/pots_bottles.html%23item_1_1&amp;title=Cracked Pot x3"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_2" id="item_1_2">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_2" data-name-jets="church of elleh, north-west of game's start: sold by kalé for 300 runes" id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_2">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
-                    <a class="ms-2" href="/map.html?x=3667&amp;y=7210&amp;id=pots_bottles_1_2&amp;link=/checklists/pots_bottles.html%23item_1_2&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=3667&amp;y=7210&amp;id=pots_bottles_1_2&amp;link=/checklists/pots_bottles.html%23item_1_2&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_3" id="item_1_3">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_3" data-name-jets="church of elleh, north-west of game's start: sold by kalé for 300 runes" id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_3">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</label>
-                    <a class="ms-2" href="/map.html?x=3667&amp;y=7210&amp;id=pots_bottles_1_3&amp;link=/checklists/pots_bottles.html%23item_1_3&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Church of Elleh, North-West of game's start: sold by Kalé for 300 runes</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=3667&amp;y=7210&amp;id=pots_bottles_1_3&amp;link=/checklists/pots_bottles.html%23item_1_3&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_5" id="item_1_5">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_5" data-name-jets="groveside cave, in cliffs north of church of elleh: near the entrance, on a body near wolves grotta del bosco, tra le scogliere a nord della chiesa di elleh: vicino all'entrata, su un corpo vicino ai lupi." id="item_1_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_5">Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_5&amp;id=pots_bottles_1_5&amp;link=/checklists/pots_bottles.html%23item_1_5&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Groveside Cave, in cliffs North of Church of Elleh: near the entrance, on a body near wolves</span>
+                        <span class="lang-text lang-it d-none">Grotta del bosco, tra le scogliere a nord della Chiesa di Elleh: vicino all'entrata, su un corpo vicino ai lupi.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_5&amp;id=pots_bottles_1_5&amp;link=/checklists/pots_bottles.html%23item_1_5&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_4" id="item_1_4">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_4" data-name-jets="east of saintsbridge grace in the north: sold by nomadic merchant for 600 runes a est del luogo di grazia ponte dei santi, a nord: in vendita dal mercante nomade per 600 rune." id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_4">East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_4&amp;id=pots_bottles_1_4&amp;link=/checklists/pots_bottles.html%23item_1_4&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">East of Saintsbridge Grace in the North: Sold by Nomadic Merchant for 600 runes</span>
+                        <span class="lang-text lang-it d-none">A est del Luogo di grazia Ponte dei santi, a nord: in vendita dal mercante nomade per 600 rune.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_4&amp;id=pots_bottles_1_4&amp;link=/checklists/pots_bottles.html%23item_1_4&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Weeping Peninsula</h5>
+              <h5>Penisola del Pianto</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_6" id="item_1_6">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_6" data-name-jets="castle morne rampart grace: sold by nomadic merchant for 600 runes luogo di grazia bastioni di castel morne: in vendita dal mercante nomade per 600 rune." id="item_1_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_6">Castle Morne Rampart Grace: Sold by Nomadic Merchant for 600 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_6&amp;id=pots_bottles_1_6&amp;link=/checklists/pots_bottles.html%23item_1_6&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Castle Morne Rampart Grace: Sold by Nomadic Merchant for 600 runes</span>
+                        <span class="lang-text lang-it d-none">Luogo di grazia Bastioni di Castel Morne: in vendita dal mercante nomade per 600 rune.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_6&amp;id=pots_bottles_1_6&amp;link=/checklists/pots_bottles.html%23item_1_6&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Stormveil Castle</h5>
+              <h5>Castello di Grantempesta</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_7" id="item_1_7">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_7" data-name-jets="on the path between liftside chamber grace and secluded cell grace. amongst the living pots" id="item_1_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_7">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_7&amp;id=pots_bottles_1_7&amp;link=/checklists/pots_bottles.html%23item_1_7&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_7&amp;id=pots_bottles_1_7&amp;link=/checklists/pots_bottles.html%23item_1_7&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_8" id="item_1_8">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_8" data-name-jets="on the path between liftside chamber grace and secluded cell grace. amongst the living pots" id="item_1_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_8">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_8&amp;id=pots_bottles_1_8&amp;link=/checklists/pots_bottles.html%23item_1_8&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">On the path between Liftside Chamber Grace and Secluded Cell Grace. Amongst the Living Pots</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_8&amp;id=pots_bottles_1_8&amp;link=/checklists/pots_bottles.html%23item_1_8&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_9" id="item_1_9">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_9" data-name-jets="jarburg, located in the east, down the cliffs just south of carian study hall. found by a large headstone on the southern end of town iarburg, situata a est, giù per le scogliere a sud della sala da studio cariana. si trova vicino a una grande lapide all'estremità meridionale del villaggio." id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_9">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found by a large headstone on the southern end of town</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_9&amp;id=pots_bottles_1_9&amp;link=/checklists/pots_bottles.html%23item_1_9&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found by a large headstone on the southern end of town</span>
+                        <span class="lang-text lang-it d-none">Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova vicino a una grande lapide all'estremità meridionale del villaggio.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_9&amp;id=pots_bottles_1_9&amp;link=/checklists/pots_bottles.html%23item_1_9&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_10" id="item_1_10">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_10" data-name-jets="jarburg, located in the east, down the cliffs south of carian study hall. found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a ritual pot on the roof iarburg, situata a est, giù per le scogliere a sud della sala da studio cariana. si trova sulla soglia di un ingresso bloccato all'estremità settentrionale del villaggio, proprio sotto un vaso rituale sul tetto." id="item_1_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_10">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a Ritual Pot on the roof</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_10&amp;id=pots_bottles_1_10&amp;link=/checklists/pots_bottles.html%23item_1_10&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Jarburg, located in the East, down the cliffs South of Carian Study Hall. Found on the doorstep of a building's blocked entrance on the northern end of town, directly beneath a Ritual Pot on the roof</span>
+                        <span class="lang-text lang-it d-none">Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova sulla soglia di un ingresso bloccato all'estremità settentrionale del villaggio, proprio sotto un Vaso rituale sul tetto.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_10&amp;id=pots_bottles_1_10&amp;link=/checklists/pots_bottles.html%23item_1_10&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_11" id="item_1_11">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_11" data-name-jets="jarburg, located in the east, down the cliffs just south of carian study hall. found in a hut just northeast of the previous iarburg, situata a est, giù per le scogliere a sud della sala da studio cariana. si trova in una capanna poco a nord-est del precedente." id="item_1_11">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_11">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found in a hut just northeast of the previous</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_11&amp;id=pots_bottles_1_11&amp;link=/checklists/pots_bottles.html%23item_1_11&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_11">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found in a hut just northeast of the previous</span>
+                        <span class="lang-text lang-it d-none">Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova in una capanna poco a nord-est del precedente.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_11&amp;id=pots_bottles_1_11&amp;link=/checklists/pots_bottles.html%23item_1_11&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_13" id="item_1_13">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_13" data-name-jets="caria manor, located in the north-west: left of the entrance to the boss, find a small archway in the wall to walk through, then drop down to ground level; as soon as you do, without dropping further, follow the wall to the left and find it on the cliff edge maniero di caria, a nord-ovest: a sinistra dell'entrata del boss, attraversa un piccolo arco nel muro e calati al livello del suolo. segui il muro a sinistra per trovarlo sul ciglio del dirupo." id="item_1_13">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_13" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_13">Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through, then drop down to ground level; as soon as you do, without dropping further, follow the wall to the left and find it on the cliff edge</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_13&amp;id=pots_bottles_1_13&amp;link=/checklists/pots_bottles.html%23item_1_13&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_13">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Caria Manor, located in the North-West: Left of the entrance to the boss, find a small archway in the wall to walk through, then drop down to ground level; as soon as you do, without dropping further, follow the wall to the left and find it on the cliff edge</span>
+                        <span class="lang-text lang-it d-none">Maniero di Caria, a nord-ovest: a sinistra dell'entrata del boss, attraversa un piccolo arco nel muro e calati al livello del suolo. Segui il muro a sinistra per trovarlo sul ciglio del dirupo.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_13&amp;id=pots_bottles_1_13&amp;link=/checklists/pots_bottles.html%23item_1_13&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Academy of Raya Lucaria</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_12" id="item_1_12">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_12" data-name-jets="from debate parlor grace, go outside then up the stairs to the left. on a body amongst living pots dal luogo di grazia aula del dibattito, esci e sali le scale a sinistra. su un corpo tra i vasi viventi." id="item_1_12">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_12">From Debate Parlor Grace, go outside then up the stairs to the left. On a body amongst Living Pots</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_12&amp;id=pots_bottles_1_12&amp;link=/checklists/pots_bottles.html%23item_1_12&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_12">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">From Debate Parlor Grace, go outside then up the stairs to the left. On a body amongst Living Pots</span>
+                        <span class="lang-text lang-it d-none">Dal Luogo di grazia Aula del dibattito, esci e sali le scale a sinistra. Su un corpo tra i Vasi viventi.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_12&amp;id=pots_bottles_1_12&amp;link=/checklists/pots_bottles.html%23item_1_12&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_15" id="item_1_15">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_15" data-name-jets="behind the minor erdtree in the north-west, on a tree branch extending from the northwest cliffs dietro l'albero madre minore a nord-ovest, su un ramo d'albero che sporge dalle scogliere nord-ovest." id="item_1_15">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_15" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_15">Behind the Minor Erdtree in the North-West, on a tree branch extending from the northwest cliffs</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_15&amp;id=pots_bottles_1_15&amp;link=/checklists/pots_bottles.html%23item_1_15&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_15">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Behind the Minor Erdtree in the North-West, on a tree branch extending from the northwest cliffs</span>
+                        <span class="lang-text lang-it d-none">Dietro l'Albero Madre minore a nord-ovest, su un ramo d'albero che sporge dalle scogliere nord-ovest.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_15&amp;id=pots_bottles_1_15&amp;link=/checklists/pots_bottles.html%23item_1_15&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_14" id="item_1_14">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_14" data-name-jets="south-west of southern aeonia swamp bank grace, south of the rot swamp. sold by nomadic merchant for 1500 runes (note: choosing cracked pots as a keepsake gives you this pot early) a sud-ovest del luogo di grazia sponda sud della palude di aeonia, a sud della palude di marcescenza. in vendita dal mercante nomade per 1.500 rune (nota: scegliere vaso incrinato come dono iniziale fornisce questo vaso in anticipo)." id="item_1_14">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_14">South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_14&amp;id=pots_bottles_1_14&amp;link=/checklists/pots_bottles.html%23item_1_14&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_14">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">South-West of Southern Aeonia Swamp Bank Grace, South of the rot swamp. Sold by Nomadic Merchant for 1500 runes (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</span>
+                        <span class="lang-text lang-it d-none">A sud-ovest del Luogo di grazia Sponda sud della palude di Aeonia, a sud della palude di marcescenza. In vendita dal mercante nomade per 1.500 rune (NOTA: scegliere Vaso incrinato come dono iniziale fornisce questo vaso in anticipo).</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_14&amp;id=pots_bottles_1_14&amp;link=/checklists/pots_bottles.html%23item_1_14&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Capital Outskirts</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_16" id="item_1_16">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_16" data-name-jets="auriza side tomb, just north-east of leyndell: in the gated-off watery rooms at the bottom (note: choosing cracked pots as a keepsake gives you this pot early)" id="item_1_16">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_16" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_16">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_16&amp;id=pots_bottles_1_16&amp;link=/checklists/pots_bottles.html%23item_1_16&amp;title=Cracked Pot x4">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_16">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_16&amp;id=pots_bottles_1_16&amp;link=/checklists/pots_bottles.html%23item_1_16&amp;title=Cracked Pot x4"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_17" id="item_1_17">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_17" data-name-jets="auriza side tomb, just north-east of leyndell: in the gated-off watery rooms at the bottom (note: choosing cracked pots as a keepsake gives you this pot early)" id="item_1_17">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_17" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_17">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</label>
-                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_17&amp;link=/checklists/pots_bottles.html%23item_1_17&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_17">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom (NOTE: choosing Cracked Pots as a Keepsake gives you this pot early)</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_17&amp;link=/checklists/pots_bottles.html%23item_1_17&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_18" id="item_1_18">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_18" data-name-jets="auriza side tomb, just north-east of leyndell: in the gated-off watery rooms at the bottom" id="item_1_18">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_18" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_18">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</label>
-                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_18&amp;link=/checklists/pots_bottles.html%23item_1_18&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_18">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_18&amp;link=/checklists/pots_bottles.html%23item_1_18&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_19" id="item_1_19">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_19" data-name-jets="auriza side tomb, just north-east of leyndell: in the gated-off watery rooms at the bottom" id="item_1_19">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_19" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_19">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</label>
-                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_19&amp;link=/checklists/pots_bottles.html%23item_1_19&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_19">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In the gated-off watery rooms at the bottom</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=4597&amp;y=3173&amp;id=pots_bottles_1_19&amp;link=/checklists/pots_bottles.html%23item_1_19&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Leyndell, Royal Capital</h5>
+              <h5>Leyndell, capitale reale</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_20" id="item_1_20">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_1_20" data-name-jets="northwest of the avenue balcony site of grace and one level below, through a couple doors, on a corpse a nord-ovest del luogo di grazia balcone sulla strada, un livello più sotto, attraverso un paio di porte, su un cadavere." id="item_1_20">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="pots_bottles_1_20" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_1_20">Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_1_20&amp;id=pots_bottles_1_20&amp;link=/checklists/pots_bottles.html%23item_1_20&amp;title=Cracked Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_1_20">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Northwest of the Avenue Balcony Site of Grace and one level below, through a couple doors, on a corpse</span>
+                        <span class="lang-text lang-it d-none">A nord-ovest del Luogo di grazia Balcone sulla strada, un livello più sotto, attraverso un paio di porte, su un cadavere.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_1_20&amp;id=pots_bottles_1_20&amp;link=/checklists/pots_bottles.html%23item_1_20&amp;title=Cracked Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
@@ -530,119 +978,151 @@
         <div class="card shadow-sm mb-3" id="pots_bottles_section_2">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_2Col" data-bs-toggle="collapse" href="#pots_bottles_2Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_2Col" data-bs-toggle="collapse" href="#pots_bottles_2Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/keys/edited/03010.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Ritual Pots</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Ritual Pots</span>
+                  <span class="lang-text lang-it d-none">Vasi rituali</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_2"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="pots_bottles_2Col">
               <h5>Liurnia of the Lakes</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_1" id="item_2_1">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_1" data-name-jets="laskyar ruins, north-west of liurnia lake shore grace: near columns on the northern side rovine di laskyar, a nord-ovest del luogo di grazia sponda del lago di liurnia: vicino alle colonne sul lato nord." id="item_2_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_1">Laskyar Ruins, North-West of Liurnia Lake Shore Grace: near columns on the northern side</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_1&amp;id=pots_bottles_2_1&amp;link=/checklists/pots_bottles.html%23item_2_1&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Laskyar Ruins, North-West of Liurnia Lake Shore Grace: near columns on the northern side</span>
+                        <span class="lang-text lang-it d-none">Rovine di Laskyar, a nord-ovest del Luogo di grazia Sponda del lago di Liurnia: vicino alle colonne sul lato nord.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_1&amp;id=pots_bottles_2_1&amp;link=/checklists/pots_bottles.html%23item_2_1&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_2" id="item_2_2">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_2" data-name-jets="jarburg, located in the east, down the cliffs just south of carian study hall. found on a rooftop; jump onto it from above near jar-bairn's perch. iarburg, situata a est, giù per le scogliere a sud della sala da studio cariana. si trova su un tetto; saltaci sopra dall'alto vicino alla postazione di jar-bairn." id="item_2_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_2">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop; jump onto it from above near Jar-Bairn's perch.</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_2&amp;id=pots_bottles_2_2&amp;link=/checklists/pots_bottles.html%23item_2_2&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. Found on a rooftop; jump onto it from above near Jar-Bairn's perch.</span>
+                        <span class="lang-text lang-it d-none">Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. Si trova su un tetto; saltaci sopra dall'alto vicino alla postazione di Jar-Bairn.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_2&amp;id=pots_bottles_2_2&amp;link=/checklists/pots_bottles.html%23item_2_2&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_3" id="item_2_3">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_3" data-name-jets="jarburg, located in the east, down the cliffs just south of carian study hall. south of the previous, on a large decorative jar iarburg, situata a est, giù per le scogliere a sud della sala da studio cariana. a sud del precedente, su una grande giara decorativa." id="item_2_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_3">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a large decorative jar</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_3&amp;id=pots_bottles_2_3&amp;link=/checklists/pots_bottles.html%23item_2_3&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Jarburg, located in the East, down the cliffs just South of Carian Study Hall. South of the previous, on a large decorative jar</span>
+                        <span class="lang-text lang-it d-none">Iarburg, situata a est, giù per le scogliere a sud della Sala da studio cariana. A sud del precedente, su una grande giara decorativa.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_3&amp;id=pots_bottles_2_3&amp;link=/checklists/pots_bottles.html%23item_2_3&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_5" id="item_2_5">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_5" data-name-jets="after caria manor, go west of the manor then head south. along the cliffs on the east side, you can jump down, back into caria manor. sold by pidia for 1500 runes dopo il maniero di caria, vai a ovest del maniero e poi a sud. lungo le scogliere sul lato est, puoi calarti nel maniero. in vendita da pidia per 1.500 rune." id="item_2_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_5">After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_5&amp;id=pots_bottles_2_5&amp;link=/checklists/pots_bottles.html%23item_2_5&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">After Caria Manor, go West of the Manor then head South. Along the cliffs on the East side, you can jump down, back into Caria manor. Sold by Pidia for 1500 runes</span>
+                        <span class="lang-text lang-it d-none">Dopo il Maniero di Caria, vai a ovest del maniero e poi a sud. Lungo le scogliere sul lato est, puoi calarti nel maniero. In vendita da Pidia per 1.500 rune.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_5&amp;id=pots_bottles_2_5&amp;link=/checklists/pots_bottles.html%23item_2_5&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Academy of Raya Lucaria</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_4" id="item_2_4">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_4" data-name-jets="near the schoolhouse classroom site of grace, in a chest guarded by mages and a giant living jar vicino al luogo di grazia aula scolastica, in un forziere sorvegliato da maghi e da una giarra vivente gigante." id="item_2_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_4">Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_4&amp;id=pots_bottles_2_4&amp;link=/checklists/pots_bottles.html%23item_2_4&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Near the Schoolhouse Classroom Site of Grace, in a chest guarded by mages and a giant Living Jar</span>
+                        <span class="lang-text lang-it d-none">Vicino al Luogo di grazia Aula scolastica, in un forziere sorvegliato da maghi e da una Giarra vivente gigante.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_4&amp;id=pots_bottles_2_4&amp;link=/checklists/pots_bottles.html%23item_2_4&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_6" id="item_2_6">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_6" data-name-jets="isolated merchant's shack in the north. sold by the isolated merchant for 3000 runes capanna del mercante isolato a nord: in vendita dal mercante isolato per 3.000 rune." id="item_2_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_6">Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_6&amp;id=pots_bottles_2_6&amp;link=/checklists/pots_bottles.html%23item_2_6&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Isolated Merchant's Shack in the North. Sold by the Isolated Merchant for 3000 runes</span>
+                        <span class="lang-text lang-it d-none">Capanna del mercante isolato a nord: in vendita dal mercante isolato per 3.000 rune.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_6&amp;id=pots_bottles_2_6&amp;link=/checklists/pots_bottles.html%23item_2_6&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
               <h5>Capital Outskirts</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_7" id="item_2_7">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_7" data-name-jets="auriza side tomb, just north-east of leyndell: in a room with a giant living jar" id="item_2_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_7">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_7&amp;id=pots_bottles_2_7&amp;link=/checklists/pots_bottles.html%23item_2_7&amp;title=Ritual Pot x2">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_7&amp;id=pots_bottles_2_7&amp;link=/checklists/pots_bottles.html%23item_2_7&amp;title=Ritual Pot x2"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_8" id="item_2_8">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_8" data-name-jets="auriza side tomb, just north-east of leyndell: in a room with a giant living jar tomba laterale di auriza, a nord-ovest di leyndell: in una stanza con una giarra vivente gigante." id="item_2_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_8">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</label>
-                    <a class="ms-2" href="/map.html?x=4606&amp;y=3184&amp;id=pots_bottles_2_8&amp;link=/checklists/pots_bottles.html%23item_2_8&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Auriza Side Tomb, just North-East of Leyndell: In a room with a giant Living Jar</span>
+                        <span class="lang-text lang-it d-none">Tomba laterale di Auriza, a nord-ovest di Leyndell: in una stanza con una Giarra vivente gigante.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?x=4606&amp;y=3184&amp;id=pots_bottles_2_8&amp;link=/checklists/pots_bottles.html%23item_2_8&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Leyndell, Royal Capital</h5>
+              <h5>Leyndell, capitale reale</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_9" id="item_2_9">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_9" data-name-jets="in the sewers at the end of the maze of tunnels, just before the elevator to the forsaken depths grace. nelle fogne alla fine del labirinto di tunnel, appena prima dell'ascensore per il luogo di grazia abissi dimenticati." id="item_2_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_9">In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace.</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_9&amp;id=pots_bottles_2_9&amp;link=/checklists/pots_bottles.html%23item_2_9&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">In the Sewers at the end of the maze of tunnels, just before the elevator to the Forsaken Depths Grace.</span>
+                        <span class="lang-text lang-it d-none">Nelle fogne alla fine del labirinto di tunnel, appena prima dell'ascensore per il Luogo di grazia Abissi dimenticati.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_9&amp;id=pots_bottles_2_9&amp;link=/checklists/pots_bottles.html%23item_2_9&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mountaintops of the Giants</h5>
+              <h5>Vette dei Giganti</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_10" id="item_2_10">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_2_10" data-name-jets="giants' mountaintop catacombs. follow the path north from zamor ruins and when you reach the fire enemies, turn around to the right to enter. in a room with a giant living jar. catacombe delle vette dei giganti. segui il sentiero a nord dalle rovine di zamor e quando raggiungi i nemici di fuoco, gira a destra per entrare. in una stanza con una giarra vivente gigante." id="item_2_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="2" id="pots_bottles_2_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_2_10">Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar.</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_2_10&amp;id=pots_bottles_2_10&amp;link=/checklists/pots_bottles.html%23item_2_10&amp;title=Ritual Pot">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_2_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Giants' Mountaintop Catacombs. Follow the path North from Zamor Ruins and when you reach the fire enemies, turn around to the right to enter. In a room with a giant Living Jar.</span>
+                        <span class="lang-text lang-it d-none">Catacombe delle vette dei Giganti. Segui il sentiero a nord dalle Rovine di Zamor e quando raggiungi i nemici di fuoco, gira a destra per entrare. In una stanza con una Giarra vivente gigante.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_2_10&amp;id=pots_bottles_2_10&amp;link=/checklists/pots_bottles.html%23item_2_10&amp;title=Ritual Pot"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
@@ -652,116 +1132,149 @@
         <div class="card shadow-sm mb-3" id="pots_bottles_section_3">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_3Col" data-bs-toggle="collapse" href="#pots_bottles_3Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#pots_bottles_3Col" data-bs-toggle="collapse" href="#pots_bottles_3Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/keys/edited/00443.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Perfume Bottles</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Perfume Bottles</span>
+                  <span class="lang-text lang-it d-none">Boccette di profumo</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="pots_bottles_totals_3"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="pots_bottles_3Col">
               <h5>Caelid</h5>
               <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_1" id="item_3_1">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_1" data-name-jets="street of sages ruins in the north-west part of the rot swamp: in the corner of a ruined building guarded by miranda sprouts and a servant of rot rovine della strada dei saggi, nella parte nord-ovest della palude di marcescenza: nell'angolo di un edificio in rovina sorvegliato da germogli di miranda e da un servitore della marcescenza." id="item_3_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_1">Street of Sages Ruins in the North-West part of the rot swamp: in the corner of a ruined building guarded by Miranda Sprouts and a Servant of Rot</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_1&amp;id=pots_bottles_3_1&amp;link=/checklists/pots_bottles.html%23item_3_1&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Street of Sages Ruins in the North-West part of the rot swamp: in the corner of a ruined building guarded by Miranda Sprouts and a Servant of Rot</span>
+                        <span class="lang-text lang-it d-none">Rovine della strada dei saggi, nella parte nord-ovest della palude di marcescenza: nell'angolo di un edificio in rovina sorvegliato da Germogli di Miranda e da un Servitore della Marcescenza.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_1&amp;id=pots_bottles_3_1&amp;link=/checklists/pots_bottles.html%23item_3_1&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Altus Plateau</h5>
+              <h5>Altopiano di Altus</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_2" id="item_3_2">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_2" data-name-jets="found north of the altus highway junction site of grace, on a body in the small camp near the erdtree sapling si trova a nord del luogo di grazia crocevia della strada di altus, su un corpo nel piccolo accampamento vicino al virgulto dell'albero madre." id="item_3_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_2">Found North of the Altus Highway Junction Site of Grace, on a body in the small camp near the Erdtree sapling</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_2&amp;id=pots_bottles_3_2&amp;link=/checklists/pots_bottles.html%23item_3_2&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Found North of the Altus Highway Junction Site of Grace, on a body in the small camp near the Erdtree sapling</span>
+                        <span class="lang-text lang-it d-none">Si trova a nord del Luogo di grazia Crocevia della strada di Altus, su un corpo nel piccolo accampamento vicino al virgulto dell'Albero Madre.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_2&amp;id=pots_bottles_3_2&amp;link=/checklists/pots_bottles.html%23item_3_2&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_5" id="item_3_5">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_5" data-name-jets="perfumer's grotto, east of the altus highway junction: in a chest near the second giant miranda sprout grotta del profumiere, a est del crocevia della strada di altus: in un forziere vicino al secondo germoglio di miranda gigante." id="item_3_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_5">Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_5&amp;id=pots_bottles_3_5&amp;link=/checklists/pots_bottles.html%23item_3_5&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Perfumer's Grotto, East of the Altus Highway Junction: in a chest near the second Giant Miranda Sprout</span>
+                        <span class="lang-text lang-it d-none">Grotta del profumiere, a est del Crocevia della strada di Altus: in un forziere vicino al secondo Germoglio di Miranda gigante.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_5&amp;id=pots_bottles_3_5&amp;link=/checklists/pots_bottles.html%23item_3_5&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_3" id="item_3_3">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_3" data-name-jets="perfumer's ruins, in the far south-west, north-west from the abandoned coffin grace: on a body near the chest with the perfumer's cookbook rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal luogo di grazia bara abbandonata: su un cadavere vicino al forziere con il ricettario del profumiere." id="item_3_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_3">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_3&amp;id=pots_bottles_3_3&amp;link=/checklists/pots_bottles.html%23item_3_3&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: on a body near the chest with the Perfumer's Cookbook</span>
+                        <span class="lang-text lang-it d-none">Rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal Luogo di grazia Bara abbandonata: su un cadavere vicino al forziere con il ricettario del profumiere.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_3&amp;id=pots_bottles_3_3&amp;link=/checklists/pots_bottles.html%23item_3_3&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_4" id="item_3_4">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_4" data-name-jets="perfumer's ruins, in the far south-west, north-west from the abandoned coffin grace: in the back, near the giant miranda sprout rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal luogo di grazia bara abbandonata: in fondo, vicino al germoglio di miranda gigante." id="item_3_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_4">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, near the Giant Miranda Sprout</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_4&amp;id=pots_bottles_3_4&amp;link=/checklists/pots_bottles.html%23item_3_4&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Perfumer's Ruins, in the far South-West, North-West from the Abandoned Coffin Grace: in the back, near the Giant Miranda Sprout</span>
+                        <span class="lang-text lang-it d-none">Rovine del profumiere, nell'estremo sud-ovest, a nord-ovest dal Luogo di grazia Bara abbandonata: in fondo, vicino al Germoglio di Miranda gigante.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_4&amp;id=pots_bottles_3_4&amp;link=/checklists/pots_bottles.html%23item_3_4&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_6" id="item_3_6">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_6" data-name-jets="shaded castle, in the north-west: on a body atop a wall, accessible via the second swamp ladder castellombroso, a nord-ovest: su un corpo in cima a un muro, accessibile tramite la seconda scala della palude." id="item_3_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_6">Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_6&amp;id=pots_bottles_3_6&amp;link=/checklists/pots_bottles.html%23item_3_6&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Shaded Castle, in the North-West: on a body atop a wall, accessible via the second swamp ladder</span>
+                        <span class="lang-text lang-it d-none">Castellombroso, a nord-ovest: su un corpo in cima a un muro, accessibile tramite la seconda scala della palude.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_6&amp;id=pots_bottles_3_6&amp;link=/checklists/pots_bottles.html%23item_3_6&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Mt. Gelmir</h5>
+              <h5>Monte Gelmir</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_7" id="item_3_7">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_7" data-name-jets="volcano manor: on a body in a room unlocked with the drawing-room key villa vulcano: su un corpo in una stanza sbloccata con la chiave del salone." id="item_3_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_7">Volcano Manor: on a body in a room unlocked with the Drawing-Room Key</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_7&amp;id=pots_bottles_3_7&amp;link=/checklists/pots_bottles.html%23item_3_7&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Volcano Manor: on a body in a room unlocked with the Drawing-Room Key</span>
+                        <span class="lang-text lang-it d-none">Villa Vulcano: su un corpo in una stanza sbloccata con la chiave del salone.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_7&amp;id=pots_bottles_3_7&amp;link=/checklists/pots_bottles.html%23item_3_7&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Capital Outskirts</h5>
+              <h5>Sobborghi della capitale</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_8" id="item_3_8">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_8" data-name-jets="hermit merchant's shack, on the cliff north-east from the outer wall battleground grace on the north side of the outer wall: sold by hermit merchant for 2000 runes capanna del mercante eremita, sul dirupo a nord-est del luogo di grazia campo di battaglia delle mura esterne: in vendita dal mercante eremita per 2.000 rune." id="item_3_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_8">Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_8&amp;id=pots_bottles_3_8&amp;link=/checklists/pots_bottles.html%23item_3_8&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Hermit Merchant's Shack, on the cliff North-East from the Outer Wall Battleground Grace on the North side of the outer wall: sold by Hermit Merchant for 2000 runes</span>
+                        <span class="lang-text lang-it d-none">Capanna del mercante eremita, sul dirupo a nord-est del Luogo di grazia Campo di battaglia delle mura esterne: in vendita dal mercante eremita per 2.000 rune.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_8&amp;id=pots_bottles_3_8&amp;link=/checklists/pots_bottles.html%23item_3_8&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
-              <h5>Leyndell, Royal Capital</h5>
+              <h5>Leyndell, capitale reale</h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_9" id="item_3_9">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_9" data-name-jets="follow the path from the east capital rampart grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a perfumer. it's in a chest in the room at the top dal luogo di grazia bastioni orientali della capitale, segui il bastione, entra nella torre, scendi con l'ascensore, entra nella torre successiva e sali una scala sorvegliata da un profumiere. si trova in un forziere nella stanza in cima." id="item_3_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_9">Follow the path from the East Capital Rampart Grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a Perfumer. It's in a chest in the room at the top</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_9&amp;id=pots_bottles_3_9&amp;link=/checklists/pots_bottles.html%23item_3_9&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Follow the path from the East Capital Rampart Grace along the rampart, into the tower, down the elevator, into the next tower, and up a ladder guarded by a Perfumer. It's in a chest in the room at the top</span>
+                        <span class="lang-text lang-it d-none">Dal Luogo di grazia Bastioni orientali della capitale, segui il bastione, entra nella torre, scendi con l'ascensore, entra nella torre successiva e sali una scala sorvegliata da un profumiere. Si trova in un forziere nella stanza in cima.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_9&amp;id=pots_bottles_3_9&amp;link=/checklists/pots_bottles.html%23item_3_9&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_10" id="item_3_10">
+                <li class="list-group-item searchable ps-0" data-id="pots_bottles_3_10" data-name-jets="through the large double doors in leyndell leading to the path to the forbidden lands, all the way in the back without going up the stairs, on a body guarded by a lesser misbegotten attraverso i grandi portoni doppi di leyndell che portano alle terre proibite, in fondo senza salire le scale, su un corpo sorvegliato da una chimera minore." id="item_3_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="3" id="pots_bottles_3_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="pots_bottles_3_10">Through the large double doors in Leyndell leading to the path to the Forbidden Lands, all the way in the back without going up the stairs, on a body guarded by a Lesser Misbegotten</label>
-                    <a class="ms-2" href="/map.html?target=pots_bottles_3_10&amp;id=pots_bottles_3_10&amp;link=/checklists/pots_bottles.html%23item_3_10&amp;title=Perfume Bottle">
-                      <i class="bi bi-geo-alt"></i>
-                    </a>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="pots_bottles_3_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">Through the large double doors in Leyndell leading to the path to the Forbidden Lands, all the way in the back without going up the stairs, on a body guarded by a Lesser Misbegotten</span>
+                        <span class="lang-text lang-it d-none">Attraverso i grandi portoni doppi di Leyndell che portano alle Terre proibite, in fondo senza salire le scale, su un corpo sorvegliato da una Chimera minore.</span>
+                      </span>
+                    </label>
+                    <a class="ms-2" href="/map.html?target=pots_bottles_3_10&amp;id=pots_bottles_3_10&amp;link=/checklists/pots_bottles.html%23item_3_10&amp;title=Perfume Bottle"><i class="bi bi-geo-alt"></i></a>
                   </div>
                 </li>
               </ul>
@@ -775,11 +1288,14 @@
     </a>
     <script>window.current_page_id = "pots_bottles";
 </script>
+    <script>window.DONE_HTML = '<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>';
+</script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/progress.js"></script>
     <script src="/js/item_links.js"></script>
-    <script src="/js/common.js"></script>
+    <script src="/js/common.js?v=1.1"></script>
+    <script src="/js/sync.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
@@ -800,29 +1316,212 @@
                     var jet = new Jets({
                         searchTag: "#pots_bottles_search",
                         contentTag: "#pots_bottles_list ul",
+                        searchSelector: '*and',
+                        manualContentHandling: function(node) {
+                            if ($('#pots_bottles_name_only').is(':checked')) {
+                                return node.getAttribute('data-name-jets') || '';
+                            }
+                            var $clone = $(node).clone();
+                            $clone.find('.no-highlight').remove();
+                            return $clone.text();
+                        },
                         didSearch: function(search_phrase) {
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
-                            $(".card").each(function(index, el) {
-                                if (!search_phrase) {
-                                    $(el).removeClass('d-none');
-                                    return;
+                            // Only handled by Jets if Regex off.
+                            if ($('#pots_bottles_regex').is(':checked')) return;
+                            
+                            // Un-hide all sections to accurately measure visibility
+                            $(".card").removeClass('d-none');
+                            $("#pots_bottles_list h5").removeClass('d-none');
+                            $("#pots_bottles_list h5").nextUntil('h5').removeClass('d-none');
+                            $(".toc_link").closest('li').removeClass('d-none');
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                                return;
+                            }
+                            
+                            var clean_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            var words = clean_phrase.split(' ');
+                            var searchAtt = $('#pots_bottles_name_only').is(':checked') ? 'data-name-jets' : 'data-jets';
+                            
+                            var filterFunc = function() {
+                                var text = ($(this).attr(searchAtt) || '').toLowerCase();
+                                for (var i = 0; i < words.length; i++) {
+                                    if (text.indexOf(words[i]) === -1) return false;
                                 }
-                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
-                                if (! hasResults ) {
+                                return true;
+                            };
+                            
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                var hasResults = $(el).find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
                                     $(el).addClass('d-none');
-                                } else {
-                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
                                 }
                             });
+                            
+                            $("#pots_bottles_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                var hasResults = $subsection.find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
+                                    $h5.addClass('d-none');
+                                    $subsection.addClass('d-none');
+                                }
+                            });
+                        },
+                    });
+                    function updateSearch() {
+                        var search_phrase = $("#pots_bottles_search").val().trim();
+                        var isRegex = $('#pots_bottles_regex').is(':checked');
+
+                        if (isRegex) {
+                            var regex = null;
+                            if (search_phrase.length > 0) {
+                                try {
+                                    regex = new RegExp(search_phrase, 'i');
+                                } catch (e) {
+                                    return; // Invalid regex, ignore
+                                }
+                            }
+                            
+                            // Disable jets css injection manually
+                            if (jet.styleTag) {
+                                jet.styleTag.innerHTML = '';
+                            }
+                            
+                            $(".searchable").each(function() {
+                                var text = '';
+                                if ($('#pots_bottles_name_only').is(':checked')) {
+                                    text = $(this).attr('data-name-jets') || '';
+                                } else {
+                                    var $clone = $(this).clone();
+                                    $clone.find('.no-highlight').remove();
+                                    text = $clone.attr('data-jets') || $clone.text() || '';
+                                }
+                                
+                                if (!search_phrase || search_phrase.length === 0) {
+                                    $(this).removeClass('d-none-regex');
+                                } else if (regex && text.match(regex)) {
+                                    $(this).removeClass('d-none-regex');
+                                } else {
+                                    $(this).addClass('d-none-regex');
+                                }
+                            });
+                            
+                            // Manage empty cards/sections like Jets did
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                if (!hasResults) {
+                                    $(el).addClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                }
+                            });
+                            $("#pots_bottles_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                if (!search_phrase) {
+                                    $h5.removeClass('d-none');
+                                    $subsection.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $subsection.find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                $h5.toggleClass('d-none', !hasResults);
+                                $subsection.toggleClass('d-none', !hasResults);
+                            });
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                            }
+                            
+                            // Highlighting for regex
+                            $("#pots_bottles_list").unhighlight();
+                            if (search_phrase.length > 0 && regex) {
+                                try {
+                                    if ($('#pots_bottles_name_only').is(':checked')) {
+                                        $("#pots_bottles_list .item-name").highlight(regex);
+                                    } else {
+                                        $("#pots_bottles_list").highlight(regex);
+                                    }
+                                } catch(e) {}
+                            }
+                            
+                        } else {
+                            // Non-regex mode: Let Jets handle normal search filtering
+                            $(".searchable").removeClass('d-none-regex');
+                            if (jet._applyCSS) {
+                                jet._applyCSS();
+                            }
+                            jet.options.didSearch(search_phrase);
+                            
+                            // Highlighting for normal text
+                            $("#pots_bottles_list").unhighlight();
+                            if (search_phrase && search_phrase.length > 0) {
+                                if ($('#pots_bottles_name_only').is(':checked')) {
+                                    $("#pots_bottles_list .item-name").highlight(search_phrase);
+                                } else {
+                                    $("#pots_bottles_list").highlight(search_phrase);
+                                }
+                            }
+                        }
+                    }
+
+                    $("#pots_bottles_search").keyup(function(e) {
+                        updateSearch();
+                    });
+                    
+                    $('#pots_bottles_regex').on('change', function() {
+                        updateSearch();
+                    });
+                    
+                    $('#pots_bottles_name_only').on('change', function() {
+                        if (jet.options) {
+                            jet.options.manualContentHandling = function(node) {
+                                if ($('#pots_bottles_name_only').is(':checked')) {
+                                    return node.getAttribute('data-name-jets') || '';
+                                }
+                                var $clone = $(node).clone();
+                                $clone.find('.no-highlight').remove();
+                                return $clone.text();
+                            };
+                        }
+                        if (jet._setJets) {
+                            jet._setJets('', true);
+                        }
+                        
+                        if ($('#pots_bottles_regex').is(':checked')) {
+                            updateSearch();
+                        } else {
+                            // Trigger Jets' internal search and our didSearch callback
+                            $('#pots_bottles_search').trigger('input');
                         }
                     });
-                    $("#pots_bottles_search").keyup(function() {
-                        $("#pots_bottles_list").unhighlight();
-                        $("#pots_bottles_list").highlight($(this).val());
-                    });
+                    updateSearch();
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
+    <script src="/js/checklists.js?v=1.1"></script>
   </body>
 </html>

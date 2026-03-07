@@ -1,58 +1,136 @@
-title: "Memory Stones & Talisman Pouches"
+title: Memory Stones & Talisman Pouches
 id: memory_stones_talisman_pouches
-icon: "/img/icons/keys/edited/00554.png"
+icon: /img/icons/keys/edited/00554.png
 sections:
-  -
-    title: "Memory Stones"
-    icon: "/img/icons/keys/edited/00553.png"
-    map_icon: "/map/icons/shadows/keys/00553.png"
+  - title: Memory Stones
+    title_it: Pietre della memoria
+    icon: /img/icons/keys/edited/00553.png
+    map_icon: /map/icons/shadows/keys/00553.png
     items:
-      - id: "0_1"
-        data: ["Found in Oridys' Rise, on the plateau to the east side of the Weeping Peninsula."]
-        cords: [4403, 8129]
-        map_title: "Memory Stone"
-      - id: "0_2"
-        data: ["Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes."]
-        cords: [463, 8363]
-        map_title: "Memory Stone"
-      - id: "0_3"
-        data: ["Found in the Converted Tower, in the southwest of Liurnia of the Lakes."]
-        cords: [1584, 5592]
-        map_title: "Memory Stone"
-      - id: "0_4"
-        data: ["Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy."]
-        cords: [1938, 5013]
-        map_title: "Memory Stone"
-      - id: "0_5"
-        data: ["Found in Testu's Rise, north of Raya Lucaria Academy."]
-        cords: [1825, 4411]
-        map_title: "Memory Stone"
-      - id: "0_6"
-        data: ["Found in Seluvis's Rise behind Caria Manor in Liurnia of the Lakes."]
-        cords: [1739, 3808]
-        map_title: "Memory Stone"
-      - id: "0_7"
-        data: ["Found in Lenne's Rise in eastern Caelid."]
-        cords: [6321, 6033]
-        map_title: "Memory Stone"
-      - id: "0_8"
-        data: ["Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village in Mt. Gelmir."]
-        cords: [2443, 3031]
-        map_title: "Memory Stone"
-  -
-    title: "Talisman Pouches"
-    icon: "/img/icons/keys/edited/00554.png"
-    map_icon: "/map/icons/shadows/keys/00554.png"
+      - id: '0_1'
+        data:
+          - Found in Oridys' Rise, on the plateau to the east side of the Weeping
+            Peninsula.
+        data_it:
+          - Nella Guglia di Oridys, sull'altopiano nella parte orientale della Penisola
+            del Pianto.
+        cords:
+          - 4403
+          - 8129
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_2'
+        data:
+          - Purchasable from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes.
+        data_it:
+          - Acquistabile dai Resti della Leggidita Gemelle alla Tavola Rotonda per
+            3.000 Rune.
+        cords:
+          - 463
+          - 8363
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_3'
+        data:
+          - Found in the Converted Tower, in the southwest of Liurnia of the Lakes.
+        data_it:
+          - Nella Torre convertita, a sud-ovest di Liurnia lacustre.
+        cords:
+          - 1584
+          - 5592
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_4'
+        data:
+          - Reward for defeating Red Wolf of Radagon in Raya Lucaria Academy.
+        data_it:
+          - Ricompensa per aver sconfitto il Lupo Rosso di Radagon nell'Accademia
+            di Raya Lucaria.
+        cords:
+          - 1938
+          - 5013
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_5'
+        data:
+          - Found in Testu's Rise, north of Raya Lucaria Academy.
+        data_it:
+          - Nella Guglia di Testu, a nord dell'Accademia di Raya Lucaria.
+        cords:
+          - 1825
+          - 4411
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_6'
+        data:
+          - Found in Seluvis's Rise behind Caria Manor in Liurnia of the Lakes.
+        data_it:
+          - Nella Guglia di Seluvis, dietro il Maniero Cariano a Liurnia lacustre.
+        cords:
+          - 1739
+          - 3808
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: '0_7'
+        data:
+          - Found in Lenne's Rise in eastern Caelid.
+        data_it:
+          - Nella Guglia di Lenne, nella zona est di Caelid.
+        cords:
+          - 6321
+          - 6033
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+      - id: 0_8
+        data:
+          - Reward for defeating Demi-Human Queen Maggie, northeast of Hermit Village
+            in Mt. Gelmir.
+        data_it:
+          - Ricompensa per aver sconfitto Maggie, la regina semiumana, a nord-est
+            del Villaggio dell'eremita sul Monte Gelmir.
+        cords:
+          - 2443
+          - 3031
+        map_title: Memory Stone
+        map_title_it: Pietra della memoria
+  - title: Talisman Pouches
+    title_it: Borse per talismano
+    icon: /img/icons/keys/edited/00554.png
+    map_icon: /map/icons/shadows/keys/00554.png
     items:
-      - id: "1_2"
-        data: ["Reward for defeating Margit, the Fell Omen in Stormveil Castle."]
-        cords: [3317, 6832]
-        map_title: "Talisman Pouch"
-      - id: "1_3"
-        data: ["Speak to Finger Reader Enia after acquiring two Great Runes. Will appear in Twin Maiden Husks' shop if you progress too far."]
-        cords: [610, 8617]
-        map_title: "Talisman Pouch"
-      - id: "1_4"
-        data: ["Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell, Royal Capital."]
-        cords: [4365, 3723]
-        map_title: "Talisman Pouch"
+      - id: '1_2'
+        data:
+          - Reward for defeating Margit, the Fell Omen in Stormveil Castle.
+        data_it:
+          - Ricompensa per aver sconfitto Margit, il Presagio Implacabile nel Castello
+            di Gran Tempesta.
+        cords:
+          - 3317
+          - 6832
+        map_title: Talisman Pouch
+        map_title_it: Borsa per talismano
+      - id: '1_3'
+        data:
+          - Speak to Finger Reader Enia after acquiring two Great Runes. Will appear
+            in Twin Maiden Husks' shop if you progress too far.
+        data_it:
+          - Parla con la Leggidita Enia dopo aver ottenuto due Rune Maggiori. Apparirà
+            nel negozio dei Resti della Leggidita Gemelle se avanzi troppo nel gioco.
+        cords:
+          - 610
+          - 8617
+        map_title: Talisman Pouch
+        map_title_it: Borsa per talismano
+      - id: '1_4'
+        data:
+          - Reward for defeating Godfrey, First Elden Lord (Golden Shade) in Leydell,
+            Royal Capital.
+        data_it:
+          - Ricompensa per aver sconfitto Godfrey, Primo Lord Ancestrale (Spettro
+            dorato) a Leyndell, Capitale Reale.
+        cords:
+          - 4365
+          - 3723
+        map_title: Talisman Pouch
+        map_title_it: Borsa per talismano
+title_it: Pietre della memoria e Borse per talismano

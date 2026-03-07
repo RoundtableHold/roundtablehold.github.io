@@ -135,6 +135,10 @@ div.hide_completed .completed {
   display: none !important;
 }
 
+.d-none-regex {
+  display: none !important;
+}
+
 li.completed label,
 input[type="checkbox"]:checked + .item_content {
   color: var(--bs-secondary-color, #6c757d);
@@ -217,4 +221,22 @@ textarea#profileText {
   max-width: 70px;
   height: auto;
   width: auto;
+}
+
+/* ── Cloud Sync indicator ─────────────────────────────────────────────────── */
+@keyframes sync-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.sync-spin {
+  display: inline-block;
+  animation: sync-spin 1s linear infinite;
+}
+.sync-nav-indicator {
+  font-size: 1rem;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.sync-nav-indicator:hover {
+  opacity: 1;
 }

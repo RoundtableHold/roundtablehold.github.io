@@ -1,126 +1,168 @@
 title: Sorceries
+title_it: "Stregonerie"
 id: sorceries
 table_widths: [4, 4, 4]
 sections:
   -
     title: "Limgrave"
+    title_it: "Sepolcride"
     id: 1
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "1_3"
         icon: "/img/icons/sorceries/06009.png"
         data: ["Crystal Barrage", "Fires a volley of glintstone crystal shards", "Sold by Sorceress Sellen (under the Waypoint Ruins, East of the lake)."]
+        data_it: ["Raffica di cristallo", "Lancia una raffica di schegge di cristallo di scintipietra", "Venduta dalla Strega Sellen (sotto le Rovine del Crocevia, a est del lago)."]
       - id: "1_4"
         icon: "/img/icons/sorceries/06014.png"
         data: ["Glintstone Arc", "Fires a horizontally-widening magic arc", "Sold by Sorceress Sellen"]
+        data_it: ["Arco di scintipietra", "Scaglia un arco magico che si allarga orizzontalmente", "Venduta dalla Strega Sellen"]
       - id: "1_5"
         icon: "/img/icons/sorceries/06000.png"
         data: ["Glintstone Pebble", "Fires magic projectiles from glintstone", "Sold by Sorceress Sellen"]
+        data_it: ["Sassolino di scintipietra", "Scaglia proiettili magici originati dalla scintipietra", "Venduta dalla Strega Sellen"]
       - id: "1_6"
         icon: "/img/icons/sorceries/06010.png"
         data: ["Glintstone Stars", "Fires three shooting stars that pursue foes", "Sold by Sorceress Sellen"]
+        data_it: ["Stelle di scintipietra", "Evoca tre stelle cadenti che inseguono i nemici", "Venduta dalla Strega Sellen"]
       - id: "1_7"
         icon: "/img/icons/sorceries/06100.png"
         data: ["Scholar's Armament", "Enchants right-hand armament with magic damage", "Sold by Sorceress Sellen"]
+        data_it: ["Armamento dello studioso", "Incanta l'armamento della mano destra conferendo danni magici", "Venduta dalla Strega Sellen"]
       - id: "1_8"
         icon: "/img/icons/sorceries/06101.png"
         data: ["Scholar's Shield", "Enhances left-hand shield damage negation", "Sold by Sorceress Sellen"]
+        data_it: ["Scudo dello studioso", "Aumenta la negazione dei danni dello scudo impugnato con la mano sinistra", "Venduta dalla Strega Sellen"]
       - id: "1_9"
         icon: "/img/icons/sorceries/06051.png"
         data: ["Carian Slicer", "Performs swift sweeping slash using magical sword", "Unlocked by Royal House Scroll (located on the ruin next to a mage, East of the Agheel Lake South Grace in South-East Limgrave)"]
+        data_it: ["Fendente cariano", "Fendente fulmineo eseguito con una spada magica", "Sbloccato dalla Pergamena consorte (sulle rovine vicino a un mago, a est del luogo di grazia Sud del Lago di Agheel nella parte sud-est di Sepolcride)"]
       - id: "1_10"
         icon: "/img/icons/sorceries/06005.png"
         data: ["Glintblade Phalanx", "Forms a defensive arch of magic glintblades", "Unlocked by Royal House Scroll"]
+        data_it: ["Falange di lame scintillanti", "Forma un arco difensivo di lame scintillanti magiche", "Sbloccato dalla Pergamena consorte"]
   -
     title: "Weeping Peninsula"
+    title_it: "Penisola del Pianto"
     id: 2
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "2_1"
         icon: "/img/icons/sorceries/06036.png"
         data: ["Ambush Shard", "Strikes from behind with projectile fired from distance", "Found under the Witchbane Ruins in North-West Weeping Peninsula"]
+        data_it: ["Scheggia dell'imboscata", "Colpisce alle spalle con un proiettile sparato da lontano", "Trovata sotto le Rovine di Rovina-streghe nel nord-ovest della Penisola del Pianto."]
       - id: "2_2"
         icon: "/img/icons/sorceries/06006.png"
         data: ["Crystal Burst", "Fires a burst of glintstone crystal shards", "Kill the Demi-Human Queen in the Demi-Human Forest Ruins in the forest in the Center of Weeping Peninsula."]
+        data_it: ["Esplosione di cristallo", "Provoca un'esplosione di schegge di cristallo", "Uccidi la Regina Semi-umana nelle Rovine della Foresta Semi-umana nel centro della Penisola del Pianto."]
   -
     title: "Stormveil"
+    title_it: "Castello di Gran Tempesta"
     id: 3
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "3_1"
         icon: "/img/icons/sorceries/06048.png"
         data: ["Rancorcall", "Summons vengeful spirits that chase down foes", "From the Liftside Chamber Grace, go outside and turn right. At the end of the path is a ledge. Hop down it, even if it's scary, then work your way down to the bottom. At the bottom, past some rats, is a scarab with the spell."]
+        data_it: ["Richiamo rancoroso", "Evoca spiriti vendicativi che inseguono i nemici", "Dal luogo di grazia Stanza del montacarichi, esci e gira a destra. Alla fine del percorso c'è una sporgenza. Scendi, anche se fa paura, e prosegui fino in fondo. Superati dei ratti, c'è uno scarabeo con la stregoneria."]
   -
     title: "Liurnia Lake Part 1"
+    title_it: "Liurnia lacustre Parte 1"
     id: 4
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "4_1"
         icon: "/img/icons/sorceries/06102.png"
         data: ["Starlight", "Creates star light to illuminate surroundings", "Sold by Thops in the Church of Irith near the Lake-Facing Cliffs Grace"]
+        data_it: ["Luce stellare", "Crea una luce stellare per illuminare l'ambiente circostante", "Venduta da Thops nella Chiesa di Irith vicino al luogo di grazia Scogliere sul lago"]
       - id: "4_18"
         icon: "/img/icons/sorceries/06015.png"
         data: ["Great Glintstone Shard", "Fires larger magic projectiles from glintstone", "Unlocked by Academy Scroll (found at the grave West of the Lake-Facing Cliffs Grace in South Liurnia Lake)."]
+        data_it: ["Grande scheggia di scintipietra", "Scaglia proiettili magici più grandi originati dalla scintipietra", "Sbloccato dalla Pergamena dell'Accademia (trovata presso la tomba a ovest del luogo di grazia Scogliere sul lago nella parte sud di Liurnia lacustre)."]
       - id: "4_19"
         icon: "/img/icons/sorceries/06001.png"
         data: ["Swift Glintstone Shard", "Swiftly fires magic projectiles from glintstone", "Unlocked by Academy Scroll"]
+        data_it: ["Scheggia di scintipietra rapida", "Scaglia rapidamente proiettili magici originati dalla scintipietra", "Sbloccato dalla Pergamena dell'Accademia"]
       - id: "4_20"
         icon: "/img/icons/sorceries/06050.png"
         data: ["Carian Greatsword", "Performs sweeping slash using magical greatsword", "Sold by Miriel, Pastor of Vows at the Church of Vows in East Liurnia Lake."]
+        data_it: ["Spadone cariano", "Fendente eseguito con uno spadone magico", "Venduta da Miriel, pastore dei voti alla Chiesa dei Voti nella parte est di Liurnia lacustre."]
       - id: "4_21"
         icon: "/img/icons/sorceries/06027.png"
         data: ["Magic Glintblade", "Creates sigil that forms a projectile glintblade after delay", "Sold by Miriel, Pastor of Vows"]
+        data_it: ["Lama scintillante magica", "Crea un sigillo da cui scaturisce una lama scintillante dopo un breve ritardo", "Venduta da Miriel, pastore dei voti"]
       - id: "4_4"
         icon: "/img/icons/sorceries/06049.png"
         data: ["Ancient Death Rancor", "Summons horde of vengeful spirits that chase down foes", "Kill the Death Rite Bird next to the Gate Town North Grace, East of Raya Lucaria Academy, at Night."]
+        data_it: ["Antico rancore mortale", "Evoca un'orda di spiriti vendicativi che inseguono i nemici", "Uccidi l'Uccello del rito della morte vicino al luogo di grazia Nord del Borgo della porta, a est dell'Accademia di Raya Lucaria, di notte."]
       - id: "4_5"
         icon: "/img/icons/sorceries/06046.png"
         data: ["Briars of Sin", "Summons thorns from a whorl of own blood", "North-West of the Artist's Shack, East of Academy Gate Town, there is a camp of fire guys. Outside the camp is lone enemy surrounded by fire slugs. Kill the lone enemy for the spell."]
+        data_it: ["Rovi del peccato", "Evoca rovi da un vortice del proprio sangue", "A nord-ovest della Capanna dell'artista, a est del Borgo della porta dell'Accademia, c'è un accampamento di nemici di fuoco. All'esterno dell'accampamento c'è un nemico solitario circondato da lumache di fuoco. Uccidilo per ottenere la stregoneria."]
       - id: "4_6"
         icon: "/img/icons/sorceries/06024.png"
         data: ["Greatblade Phalanx", "Forms a defensive arch of larger magic glintblades", "Kill the boss of Cuckoo's Evergaol in West Liurnia Lake."]
+        data_it: ["Falange di grandi lame", "Forma un arco difensivo di lame scintillanti magiche più grandi", "Uccidi il boss della Galera eterna del Cuculo nella parte ovest di Liurnia lacustre."]
       - id: "4_7"
         icon: "/img/icons/sorceries/06011.png"
         data: ["Magic Downpour", "Summon a magic mass that sprays projectiles over area", "Kill Preceptor Miriam in Carian Study Hall without using the Carian Inverted Statue on the altar."]
+        data_it: ["Acquazzone magico", "Evoca un ammasso magico che spruzza proiettili su un'area", "Uccidi la Precettrice Miriam nell'Aula di studio cariana senza usare la Statua invertita cariana sull'altare."]
       - id: "4_8"
         icon: "/img/icons/sorceries/06070.png"
         data: ["Meteorite", "Calls small meteorites down from the sky", "Kill Boss of the Royal Grave Evergaol in North Liurnia Lake"]
+        data_it: ["Meteorite", "Evoca piccoli meteoriti che cadono dal cielo", "Uccidi il boss della Galera eterna della tomba reale nella parte nord di Liurnia lacustre."]
       - id: "4_9"
         icon: "/img/icons/sorceries/06019.png"
         data: ["Shatter Earth", "Thrust staff into ground to emit a shockwave", "In Raya Lucaria Crystal Tunnel near the end."]
+        data_it: ["Frantuma-terra", "Infigge il bastone nel terreno emettendo un'onda d'urto", "Nel Tunnel di cristallo di Raya Lucaria vicino alla fine."]
       - id: "4_22"
         icon: "/img/icons/sorceries/06034.png"
         data: ["Crystal Release", "Scours area with violent rain of crystal shards", "Kill the boss of Academy Crystal Cave"]
+        data_it: ["Rilascio di cristallo", "Scaglia un violento scroscio di schegge di cristallo", "Uccidi il boss della Caverna di cristallo dell'Accademia"]
       - id: "4_23"
         icon: "/img/icons/sorceries/06103.png"
         data: ["Terra Magica", "Raises the magic strength of those within the sigil", "Take the lift behind the boss room of Academy Crystal Cave and open the chest"]
+        data_it: ["Terra Magica", "Aumenta la potenza magica di coloro che si trovano nel sigillo", "Prendi il montacarichi dietro la stanza del boss della Caverna di cristallo dell'Accademia e apri il forziere"]
       - id: "4_11"
         icon: "/img/icons/sorceries/06052.png"
         data: ["Carian Piercer", "Impales foes with magical greatsword", "Dropped by a scarab in Caria Manor. The beetle is found near the entrance to the manor on the East side."]
+        data_it: ["Perforatore cariano", "Infiocina i nemici con uno spadone magico", "Lasciato cadere da uno scarabeo nel Maniero Cariano. Il coleottero si trova vicino all'ingresso del maniero sul lato est."]
       - id: "4_12"
         icon: "/img/icons/sorceries/06013.png"
         data: ["Loretta's Greatbow", "Fires great arrow from a magic greatbow", "Kill the boss of Caria Manor"]
+        data_it: ["Arco maggiore di Loretta", "Scocca una grande freccia da un arco maggiore magico", "Uccidi il boss del Maniero Cariano"]
       - id: "4_13"
         icon: "/img/icons/sorceries/06507.png"
         data: ["Frozen Armament", "Enchants right-hand armament with frost", "Dropped by the scarab north of Caria Manor. Can only be accessed after finished Caria Manor."]
+        data_it: ["Armamento congelante", "Incanta l'armamento della mano destra conferendo congelamento", "Lasciato cadere dallo scarabeo a nord del Maniero Cariano. Accessibile solo dopo aver completato il Maniero Cariano."]
       - id: "4_24"
         icon: "/img/icons/sorceries/06023.png"
         data: ["Carian Phalanx", "Forms a defensive arch of numerous magic glintblades", "Sold by Seluvis (you must give someone the potion or dispose of it with Gideon before he opens his shop"]
+        data_it: ["Falange cariana", "Forma un arco difensivo di numerose lame scintillanti magiche", "Venduta da Seluvis (devi dare a qualcuno la pozione o sbarazzartene con Gideon prima che apra il suo negozio)"]
       - id: "4_25"
         icon: "/img/icons/sorceries/06040.png"
         data: ["Carian Retaliation", "Dispels enemy spells and retaliates with glintblades", "Sold by Seluvis"]
+        data_it: ["Rappresaglia cariana", "Dissipa le stregonerie nemiche e contrattacca con lame scintillanti", "Venduta da Seluvis"]
       - id: "4_26"
         icon: "/img/icons/sorceries/06030.png"
         data: ["Freezing Mist", "Releases cold mist before caster", "Sold by Seluvis"]
+        data_it: ["Nebbia congelante", "Rilascia una nebbia fredda di fronte all'incantatore", "Venduta da Seluvis"]
       - id: "4_27"
         icon: "/img/icons/sorceries/06028.png"
         data: ["Glintstone Icecrag", "Fires mass of cold magic from glintstone", "Sold by Seluvis"]
+        data_it: ["Guglia di ghiaccio di scintipietra", "Scaglia una massa di magia fredda dalla scintipietra", "Venduta da Seluvis"]
       - id: "4_28"
         icon: "/img/icons/sorceries/06017.png"
         data: ["Cannon of Haima", "Lobs an explosive magic projectile in an arc", "Chest at the top of the Converted Fringe Tower in North-East Liurnia Lake. To get to the tower, you have to go past the Frenzied Flame Village North-East of the Bellum Church, North of the East Raya Lucaria Gate. Once at the Tower, you have to solve a puzzle. For this you must get any Glintstone Crown and use the Erudition emote. Once you have both items, wear the crown and use the emote while standing on the message in the Converted Fringe Tower."]
+        data_it: ["Cannone di Haima", "Scaglia un proiettile magico esplosivo descrivendo un arco", "Forziere in cima alla Torre marginale convertita nel nord-est di Liurnia lacustre. Per arrivare alla torre, devi superare il Villaggio della Fiamma Frenetica a nord-est della Chiesa di Bellum, a nord del luogo di grazia Cancello est di Raya Lucaria. Una volta alla torre, devi risolvere un enigma. Per farlo devi ottenere una qualsiasi Corona di scintipietra e usare l'emote Erudizione. Una volta che hai entrambi gli oggetti, indossa la corona e usa l'emote stando sul messaggio nella Torre marginale convertita."]
       - id: "4_29"
         icon: "/img/icons/sorceries/06020.png"
         data: ["Gavel of Haima", "Attacks using a magic greathammer", "In the same chest as Cannon of Haima"]
+        data_it: ["Martello di Haima", "Attacca brandendo un martello magico", "Nello stesso forziere del Cannone di Haima"]
       - id: "4_16"
         icon: "/img/icons/sorceries/06039.png"
         data: ["Thops's Barrier", "Erect a magic forcefield to deflect spells", "After giving Thops the second Glintstone Key, you can find it on his body outside the room of the Schoolhouse Classroom Grace in Raya Lucaria."]
@@ -129,198 +171,269 @@ sections:
         data: ["Shard Spiral", "Fires twin spiraling projectiles", "Purchased from Sellen after her quest if you sided with her."]
   -
     title: "Liurnia Lake Part 2: After Ranni's Questline"
+    title_it: "Liurnia lacustre Parte 2: Dopo la missione di Ranni"
     id: 5
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "5_1"
         icon: "/img/icons/sorceries/06031.png"
         data: ["Adula's Moonblade", "Sweeping slash followed by cold blade projectile", "Kill Glintstone Dragon Adula in the area accessed after Ranni's Questline."]
+        data_it: ["Lama lunare di Adula", "Fendente seguito da una lama fredda come la luna", "Uccidi il Drago di scintipietra Adula nell'area accessibile dopo la missione di Ranni."]
       - id: "5_2"
         icon: "/img/icons/sorceries/06032.png"
         data: ["Lucidity", "Alleviates buildup of sleep and madness", "Kill Preceptor Miriam in Carian Study Hall after using the Carian Inverted Statue gotten from Ranni's Questline on the altar."]
+        data_it: ["Lucidità", "Allevia l'accumulo di sonno e follia", "Uccidi la Precettrice Miriam nell'Aula di studio cariana dopo aver usato la Statua invertita cariana ottenuta dalla missione di Ranni sull'altare."]
       - id: "5_3"
         icon: "/img/icons/sorceries/06025.png"
         data: ["Ranni's Dark Moon", "Incarnate a cold, dark moon and launch it at foes", "After finishing Ranni's Questline, go to the area where the questline ends at South Liurnia Lake. In the South-West corner of this area is Chelona's Rise. Solve the puzzle by killing the 3 giant turtles found on the side of the cliff nearby, below the cliffs in the East, and in the air above the Spiritjump to the North. At the top of the tower is the spell."]
+        data_it: ["Luna oscura di Ranni", "Incarna una luna oscura e fredda e la scaglia contro i nemici", "Dopo aver finito la missione di Ranni, vai nell'area dove la missione finisce nel sud di Liurnia lacustre. Nell'angolo sud-ovest di quest'area c'è la Guglia di Chelona. Risolvi l'enigma uccidendo le 3 tartarughe giganti che si trovano sul fianco del dirupo vicino, sotto la scogliera a est e nell'aria sopra la Sorgente spirituale a nord. In cima alla torre si trova la stregoneria."]
   -
     title: "Raya Lucaria"
+    title_it: "Raya Lucaria"
     id: 6
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "6_1"
         icon: "/img/icons/sorceries/06043.png"
         data: ["Gravity Well", "Pulls foes toward caster with gravity projectile", "Just past the rotating elevator in Raya Lucaria, next to the Schoolhouse Grace. So the quick/tricky method is from the Grace, time jumping down to the rising elevator then hop down to the path below. If you can't do this, then come from the Church of the Cuckoo Grace and run past all the enemies. Past the elevator is a bunch of graves where an enemy will spawn. Kill it for the spell."]
+        data_it: ["Pozzo gravitazionale", "Attira i nemici verso l'incantatore con un proiettile gravitazionale", "Subito dopo il montacarichi rotante a Raya Lucaria, vicino al luogo di grazia Aula scolastica. Quindi il metodo veloce/complesso è, dal luogo di grazia, saltare al momento giusto dal montacarichi in salita sul percorso sottostante. Altrimenti, parti dal luogo di grazia Chiesa del Cuculo e corri oltre tutti i nemici. Superato il montacarichi c'è un mucchio di tombe dove apparirà un nemico. Uccidilo per la stregoneria."]
       - id: "6_6"
         icon: "/img/icons/sorceries/06002.png"
         data: ["Glintstone Cometshard", "Fires a magic comet with a trailing tail", "Unlocked by Conspectus Scroll. Go to the room past the Schoolhouse Classroom Grace and turn left to find a room with the scroll inside."]
+        data_it: ["Frammento di cometa di scintipietra", "Scaglia una cometa magica con la coda", "Sbloccato dalla Pergamena consorte. Vai nella stanza oltre il luogo di grazia Aula scolastica e gira a sinistra per trovare una stanza con la pergamena."]
       - id: "6_7"
         icon: "/img/icons/sorceries/06016.png"
         data: ["Star Shower", "Fires six shooting stars that pursue foes", "Unlocked by Conspectus Scroll"]
+        data_it: ["Pioggia di stelle", "Scaglia sei stelle cadenti che inseguono i nemici", "Sbloccato dalla Pergamena consorte"]
       - id: "6_3"
         icon: "/img/icons/sorceries/06003.png"
         data: ["Comet", "Fires a great magic comet", "In Raya Lucaria. From the Debate Parlor Grace, go back to the area before the boss room. Roll into the bookshelf with no books to find an Illusory Wall where the spell can be found."]
+        data_it: ["Cometa", "Scaglia una grande cometa magica", "A Raya Lucaria. Dal luogo di grazia Salotto del dibattito, torna all'area prima della stanza del boss. Rotola verso la libreria senza libri per trovare un muro illusorio dove si trova la stregoneria."]
       - id: "6_4"
         icon: "/img/icons/sorceries/06033.png"
         data: ["Shattering Crystal", "Creates crystal mass that shatters in forward burst", "From the Debate Parlor Grace in Raya Lucaria, go outside and turn right. Hop down then climb the ladder to get to the roof. Make your way to the Church of the Cuckoo on the North-West side and it will there."]
+        data_it: ["Cristallo frantumante", "Crea una massa di cristallo che si frantuma in un lampo in avanti", "Dal luogo di grazia Salotto del dibattito a Raya Lucaria, esci e gira a destra. Scendi, poi arrampicati sulla scala a pioli per arrivare al tetto. Dirigiti alla Chiesa del Cuculo sul lato nord-ovest e la troverai lì."]
       - id: "6_5"
         icon: "/img/icons/sorceries/06007.png"
         data: ["Rennala's Full Moon", "Incarnate a full moon and launch it at foes", "Gotten from Rennala's Remembrance which is obtained by killing the boss of Raya Lucaria."]
+        data_it: ["Luna piena di Rennala", "Incarna una luna piena e la scaglia contro i nemici", "Ottenuto dalla Rimembranza della Regina del plenilunio che si ottiene uccidendo il boss di Raya Lucaria."]
   -
     title: "Siofra River Well Underground"
+    title_it: "Fiume Siofra"
     id: 7
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "7_1"
         icon: "/img/icons/sorceries/06607.png"
         data: ["Oracle Bubbles", "Launches several small magic bubbles", "Go into the underground area via the lift at Siofra River Well in Limgrave's forest. From the Grace there, go through the ruins nearby and then turn around at the end and hop on top of them. Work your way over to the other side to where the scarab is. Kill the beetle for the spell"]
+        data_it: ["Bolle oracolari", "Scaglia svariate piccole bolle magiche", "Entra nell'area sotterranea tramite il montacarichi al Pozzo sul Fiume Siofra nella foresta di Sepolcride. Dal luogo di grazia lì, attraversa le rovine vicine e poi voltati alla fine e saltaci sopra. Fatti strada fino all'altro lato verso lo scarabeo. Uccidi lo scarabeo per la stregoneria"]
       - id: "7_2"
         icon: "/img/icons/sorceries/06608.png"
         data: ["Great Oracular Bubble", "Launches a large magic bubble", "Go into the underground area via the lift at Siofra River Well in Limgrave's forest. Go through the area to the next lift then take it to the next area. In the North-East section of this area is the Worshipper's Woods Grace. Go South from the Grace and use Matrix skills to dodge Radahn's Archery Instructors. Find a fallen pillar and hop on top of it then climb to the top to find a Waygate. Enter the nearby room full of enemies for a scarab. Beat it to death for putting you through all that for the spell."]
+        data_it: ["Grande bolla oracolare", "Scaglia una grande bolla magica", "Entra nell'area sotterranea tramite il montacarichi al Pozzo sul Fiume Siofra nella foresta di Sepolcride. Attraversa l'area fino al montacarichi successivo, poi prendilo per la prossima area. Nella sezione nord-est di quest'area c'è il luogo di grazia Boschi dei seguaci. Vai a sud dal luogo di grazia e usa abilità da vero Matrix per schivare i cecchini di Radahn. Trova un pilastro caduto e saltaci sopra, poi arrampicati fino in cima per trovare un portale. Entra nella stanza vicina piena di nemici per trovare uno scarabeo. Massacralo senza pietà per averti fatto passare tutto questo e ottieni la stregoneria."]
   -
     title: "Caelid"
+    title_it: "Caelid"
     id: 8
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "8_1"
         icon: "/img/icons/sorceries/06071.png"
         data: ["Rock Sling", "Summons rocks from the earth and sends it flying", "Under the North section of Street of Sages Ruins in the West part of the swamp."]
+        data_it: ["Fionda meteorica", "Evoca rocce dalla terra e le scaglia lontano", "Sotto la sezione nord delle Rovine della Via dei saggi nella parte ovest della palude."]
       - id: "8_2"
         icon: "/img/icons/sorceries/06018.png"
         data: ["Rock Blaster", "Thrust staff into ground to emit a massive shockwave", "In a chest in the upper level of Sellia Crystal Tunnel located North of the swamp. Easily gotten to from the teleport chest under the ruins in the South part of the lake in Limgrave."]
+        data_it: ["Devastaroccia", "Infigge il bastone nel terreno emettendo una massiccia onda d'urto", "In un forziere nel livello superiore del Tunnel di cristallo di Sellia situato a nord della palude. Facilmente raggiungibile dal forziere teletrasportatore sotto le rovine nella parte sud del lago a Sepolcride."]
       - id: "8_3"
         icon: "/img/icons/sorceries/06038.png"
         data: ["Night Comet", "Fires semi-invisible magic comet", "One of the chests in Sellia that are available after unlocking the seals by lighting the towers."]
+        data_it: ["Cometa notturna", "Scaglia una cometa magica parzialmente invisibile", "In uno dei forzieri di Sellia, accessibili dopo aver sbloccato i sigilli accendendo le torri."]
       - id: "8_4"
         icon: "/img/icons/sorceries/06035.png"
         data: ["Crystal Torrent", "Creates crystal mass that fires stream of crystal shards", "Kill the Boss of Sellia Hideaway. To find the hideaway, go to Sellia in the North-East part of the swamp. Go past the seals by lighting the fires at the tops of the towers. Go up the path to the Church of Plague. Go North of the Church to find the mage enemy and a giant gravestone. Roll into the cliff behind the Grave to break the Illusion and find the Hideaway."]
+        data_it: ["Torrente di cristallo", "Crea una massa di cristallo che lancia un getto di schegge", "Uccidi il boss del Nascondiglio di Sellia. Per trovare il nascondiglio, vai a Sellia nella parte nord-est della palude. Oltrepassa i sigilli accendendo i fuochi in cima alle torri. Sali per il sentiero fino alla Chiesa della Pestilenza. A nord della chiesa, trova il mago nemico e una gigantesca lapide. Metti a segno un colpo sulla scogliera dietro la tomba per dissolvere l'illusione e trovare il Nascondiglio."]
       - id: "8_5"
         icon: "/img/icons/sorceries/06041.png"
         data: ["Eternal Darkness", "Creates dark space that draws in spells", "Go South from the Church of the Plague(explained just above) and cross the top of the gate nearby then go into the Swamp Lookout Tower to find the spell."]
+        data_it: ["Tenebra eterna", "Crea uno spazio oscuro che fa convergere le stregonerie", "Vai a sud dalla Chiesa della Pestilenza (spiegata sopra), attraversa la parte superiore del cancello vicino e poi entra nella Torre di guardia della palude per trovare la stregoneria."]
       - id: "8_9"
         icon: "/img/icons/sorceries/06253.png"
         data: ["Night Maiden's Mist", "Releases life-sapping silver mist before caster", "Sold by Gowry in Gowry's Shack south of Sellia after finishing his request."]
+        data_it: ["Nebbia della servente notturna", "Rilascia una nebbia argentata di fronte all'incantatore che sottrae Punti Vita", "Venduta da Gowry nella Capanna di Gowry a sud di Sellia dopo aver completato la sua richiesta."]
       - id: "8_10"
         icon: "/img/icons/sorceries/06037.png"
         data: ["Night Shard", "Swiftly fires semi-invisible magic projectile", "Sold by Gowry"]
+        data_it: ["Scheggia notturna", "Scaglia rapidamente un proiettile magico parzialmente invisibile", "Venduta da Gowry"]
       - id: "8_7"
         icon: "/img/icons/sorceries/06044.png"
         data: ["Collapsing Stars", "Pulls foes toward caster with gravity projectile volley", "In a chest in the War-Dead Catacombs. The catacombs can be accessed after killing Radahn and are located in the North-East corner of his boss arena. The chest is on the lower levels, below all the fighting enemies."]
+        data_it: ["Stelle collassanti", "Attira i nemici verso l'incantatore con una scarica di proiettili gravitazionali", "In un forziere nelle Catacombe dei caduti in guerra. Le catacombe sono accessibili dopo aver ucciso Radahn e si trovano nell'angolo nord-est della sua arena. Il forziere è nei livelli inferiori, sotto tutti i nemici che combattono."]
       - id: "8_8"
         icon: "/img/icons/sorceries/06022.png"
         data: ["Stars of Ruin", "Fires twelve dark shooting stars that pursue foes", "Requires you to have found the Comet Azur. After finding the Comet Azur, go to Sellen in the basement of Waypoint Ruins, East of where the game started. Talk to her about the Comet Azur and she will give you a key. After get the key, head to Sellian Hideaway in North Caelid past the seals in Sellia and North of the Church of the Plague Grace. It is hidden behind an Illusory wall behind a giant gravestone. Go through Sellia Hideaway and at the bottom you will find a seal guarded by a sorceror. Kill him and open the seal then talk to Master Lusat for the Sorcery."]
+        data_it: ["Stelle della rovina", "Scaglia dodici stelle cadenti oscure che inseguono i nemici", "Richiede di aver trovato la Cometa di Azur. Dopo aver trovato la stregoneria, vai da Sellen nel seminterrato delle Rovine del Crocevia, a est di dove è iniziato il gioco. Parlale della Cometa di Azur e ti darà una chiave. Dopo aver ottenuto la chiave, dirigiti al Nascondiglio di Sellia a nord di Caelid, oltre i sigilli di Sellia e a nord del luogo di grazia Chiesa della Pestilenza. È nascosto dietro un muro illusorio dietro una gigantesca lapide. Attraversa il Nascondiglio e in fondo troverai un sigillo sorvegliato da uno stregone. Uccidilo e apri il sigillo, poi parla col Maestro Lusat per la stregoneria."]
   -
     title: "Mt. Gelmir"
+    title_it: "Monte Gelmir"
     id: 9
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "9_1"
         icon: "/img/icons/sorceries/06205.png"
         data: ["Magma Shot", "Fires lump of magma that explodes on contact", "Reward from Volcano Manor's first request."]
+        data_it: ["Getto di magma", "Scaglia una massa di magma che esplode all'impatto", "Ricompensa dalla prima richiesta di Villa Vulcano."]
       - id: "9_2"
         icon: "/img/icons/sorceries/06099.png"
         data: ["Tibia's Summons", "Summons Those Lost in Death", "After killing the boss of the \"Coward's Path\" aka Ruin-Strewn Precipice, take the path going North and get to the Wyndham Ruins. Kill the Tibia Mariner for the spell."]
+        data_it: ["Evocazione del Tibiale", "Evoca Colui che si perse nella Morte", "Dopo aver ucciso il boss del \"Sentiero del Rifiuto\", alias Precipizio disseminato di rovine, prendi il sentiero verso nord e arriva alle Rovine di Wyndham. Uccidi il Marinaio Tibiale per la stregoneria."]
       - id: "9_3"
         icon: "/img/icons/sorceries/06213.png"
         data: ["Roiling Magma", "Fires lump of magma that explodes after delay", "In the Hermit's Shack South of Volcano Manor. Requires going around the North side of the zone to reach South of the Manor."]
+        data_it: ["Magma ribollente", "Scaglia una massa di magma che esplode dopo un breve ritardo", "Nella Capanna dell'eremita a sud di Villa Vulcano. Richiede di aggirare il lato nord della zona per raggiungere il sud di Villa Vulcano."]
       - id: "9_4"
         icon: "/img/icons/sorceries/06012.png"
         data: ["Comet Azur", "Fires a tremendous comet within a starry torrent", "Found on the Primeval Sorcery Azur located just North of Hermit Village, South-East of Volcano Manor. He will be lying on the ground and has a crystal head. Talk to him for the Sorcery. Note: This Sorcery is needed for Sorceress Sellen's Questline."]
+        data_it: ["Cometa di Azur", "Scaglia un'inarrestabile cometa in un fiume di stelle", "Trovato dallo Stregone primevo Azur situato appena a nord del Villaggio Eremita, a sud-est di Villa Vulcano. Sarà steso a terra o seduto con una testa di cristallo. Parlagli per la stregoneria. Nota: questa stregoneria è necessaria per la missione della Strega Sellen."]
       - id: "9_5"
         icon: "/img/icons/sorceries/06212.png"
         data: ["Gelmir's Fury", "Covers area with surge of magma from the earth", "Reward for helping Recusant Bernahl with his task in Volcano Manor. Requires being part of Volcano Manor, finishing at least one Volcano Manor request, and you cannot of killed Rykard or gotten to Crumbling Farum Azula yet."]
+        data_it: ["Furia di Gelmir", "Sommerge un'area in un fiotto di magma eruttato dalla terra", "Ricompensa per aver aiutato il Ricusante Bernahl con il suo incarico a Villa Vulcano. Richiede di far parte di Villa Vulcano, di aver completato almeno una richiesta della Villa, e di non aver ancora ucciso Rykard o aver raggiunto Farum Azula in frantumi."]
       - id: "9_6"
         icon: "/img/icons/sorceries/06045.png"
         data: ["Rykard's Rancor", "Releases searing spirits that repeatedly explode after delay", "Gotten from Rykard's Remembrance obtained after killing the Boss of Volcano Manor."]
+        data_it: ["Rancore di Rykard", "Libera spiriti ardenti a esplosione ritardata reiterata", "Ottenuto dalla Rimembranza del Blasfemo ottenuta dopo aver ucciso il boss di Villa Vulcano."]
   -
     title: "Altus Plateau"
+    title_it: "Altopiano di Altus"
     id: 10
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "10_2"
         icon: "/img/icons/sorceries/06702.png"
         data: ["Unseen Blade", "Makes right-hand armament completely invisible", "At the tower Mirage Rise located in North Altus Plateau, at the end of the path going West from the Minor Erdtree. To solve the puzzle, touch the three seals. One is South-West, One is East, and one is further East hidden by an Illusory Rock. The chest is at the top of the tower that appears."]
+        data_it: ["Lama invisibile", "Rende completamente invisibile l'armamento della mano destra", "Alla torre Guglia del Miraggio, situata a nord dell'Altopiano di Altus, in fondo al sentiero che va a ovest dal Piccolo Albero Madre. Per risolvere l'enigma, tocca i tre sigilli. Uno è a sud-ovest, uno a est e uno più a est nascosto da una roccia illusoria. Il forziere si trova in cima alla torre che compare."]
       - id: "10_3"
         icon: "/img/icons/sorceries/06704.png"
         data: ["Unseen Form", "Makes the caster semi-invisible", "In the same chest as Unseen Blade"]
+        data_it: ["Forma invisibile", "Rende l'incantatore in qualche modo invisibile", "Nello stesso forziere della Lama invisibile"]
   -
     title: "Deeproot Depths"
+    title_it: "Abisso tra le Radici"
     id: 11
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "11_1"
         icon: "/img/icons/sorceries/06054.png"
         data: ["Fia's Mist", "Releases a mist of death before caster", "Defeat the Boss located past the Across the Roots Grace. You can reach the Grace by going up the roots leading over the buildings."]
+        data_it: ["Nebbia di Fia", "Rilascia una nebbia mortale di fronte all'incantatore", "Sconfiggi il boss situato oltre il luogo di grazia Attraversando le radici. Puoi raggiungere la grazia salendo sulle radici che passano sopra gli edifici."]
   -
     title: "Mountaintops of the Giants"
+    title_it: "Vette dei Giganti"
     id: 12
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "12_1"
         icon: "/img/icons/sorceries/06029.png"
         data: ["Zamor Ice Storms", "Thrust staff into ground to create freezing tornado", "South part of Zamor Ruins."]
+        data_it: ["Tempeste di ghiaccio di Zamor", "Infigge il bastone nel terreno scatenando un tornado di ghiaccio", "Parte sud delle Rovine di Zamor."]
       - id: "12_2"
         icon: "/img/icons/sorceries/06047.png"
         data: ["Briars of Punishment", "Wounds caster to unleash trail of bloodthorns", "On the path North from the Zamor Ruins. Next to the fire guys."]
+        data_it: ["Rovi della punizione", "Ferisce l'incantatore per scatenare una scia di rovi insanguinati", "Lungo il sentiero a nord delle Rovine di Zamor. Vicino ai nemici di fuoco."]
       - id: "12_3"
         icon: "/img/icons/sorceries/06021.png"
         data: ["Founding Rain of Stars", "Releases a downpour of star rain for a while", "Freezing Lake Grace in the North-East. Go up the slope to the North and find the broken bridge on the Southern side of the cliff. The bridge is actually just invisible. Cross the bridge and near the end, on the left, you will see a small layer of mist, use the mist to go up and then into Heretical Rise. Inside you will find the spell."]
+        data_it: ["Prima pioggia di stelle", "Rilascia un acquazzone di stelle per un po' di tempo", "Luogo di grazia Lago ghiacciato a nord-est. Sali il pendio a nord e trova il ponte rotto sul lato sud della scogliera. Il ponte è in realtà solo invisibile. Attraversa il ponte e vicino alla fine, sulla sinistra, vedrai un piccolo strato di nebbia, usa la nebbia per salire e poi entra nella Guglia degli eretici. All'interno si trova la stregoneria."]
       - id: "12_4"
         icon: "/img/icons/sorceries/06053.png"
         data: ["Explosive Ghostflame", "Causes ghostflame explosion that burns wide area", "Kill the Death Rite Bird, South-East of the Apostate Derelict in the North-West section of the Consecrated Snowfield, at Night. Requires the Haligtree Medallion."]
+        data_it: ["Fiamma spettrale esplosiva", "Provoca un'esplosione di fiamma spettrale che brucia un'ampia area", "Uccidi l'Uccello del rito della morte, a sud-est del Relitto apostata nella sezione nord-ovest del Campo di Neve Consacrato, di notte. Richiede il Ciondolo del Sacro Albero."]
       - id: "12_5"
         icon: "/img/icons/sorceries/06042.png"
         data: ["Meteorite of Astel", "Calls a hail of small meteorites from the void", "Kill the Boss of Yelough Anix Tunnel in West Consecrated Snowfield. Requires Haligtree Medallion."]
+        data_it: ["Meteorite di Astel", "Evoca una grandinata di piccoli meteoriti dal vuoto", "Uccidi il boss della Galleria di Yelough Anix nella parte ovest del Campo di Neve Consacrato. Richiede il Ciondolo del Sacro Albero."]
   -
     title: "Miquella's Haligtree"
+    title_it: "Sacro Albero di Miquella"
     id: 13
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "13_1"
         icon: "/img/icons/sorceries/06026.png"
         data: ["Loretta's Mastery", "Fires four great arrows from magic greatbow at once", "Kill the first Boss of the Haligtree. Requires Haligtree Medallion."]
+        data_it: ["Maestria di Loretta", "Scocca quattro grandi frecce da un arco maggiore magico contemporaneamente", "Uccidi il primo boss del Sacro Albero. Richiede il Ciondolo del Sacro Albero."]
   -
     title: "Realm of Shadow"
+    title_it: "Regno delle Ombre"
+    dlc: true
     id: 20
     table: ["Name", "Effect", "How to get"]
+    table_it: ["Nome", "Effetto", "Come ottenerlo"]
     items:
       - id: "20_1"
         icon: "/img/icons/sorceries/06800.png"
         data: ["Miriam's Vanishing", "Conceals self in a glintstone haze", "Can be purchased from Count Ymir at the Cathedral of Manus Metyr for 10,000 Runes."]
+        data_it: ["Sparizione di Miriam", "Cela se stessi in una foschia di scintipietra", "Acquistabile dal Conte Ymir alla Cattedrale di Manus Metyr per 10.000 rune."]
       - id: "20_2"
         icon: "/img/icons/sorceries/06878.png"
         data: ["Glintblade Trio", "Creates sigil that forms three projectile glintblades after delay", "Found by looting it off a corpse inside Castle Ensis. After progressing through the chapel with the Lazuli Sorcerers, go through the iron gate and fall off a ledge directly to the left. Go around the cliff and climb up the ladders to the rooftop of the chapel. Head northwest and jump down onto a platform to access the corpse that has the spell."]
+        data_it: ["Trio di lame scintillanti", "Crea un sigillo da cui scaturiscono tre lame scintillanti dopo un breve ritardo", "Trovata saccheggiando un cadavere all'interno del Castello di Ensis. Dopo essere passato attraverso la cappella con gli Stregoni Lazuli, oltrepassa il cancello di ferro e cadi da una sporgenza subito a sinistra. Aggira il dirupo e sali le scale a pioli fino al tetto del tempio. Dirigiti a nord-ovest e salta giù su una piattaforma per accedere al cadavere con la stregoneria."]
       - id: "20_3"
         icon: "/img/icons/sorceries/06801.png"
         data: ["Rellana's Twin Moons", "Incarnate twin moons and repeatedly strike the ground", "Can be selected as one of the possible rewards when trading Remembrance of the Twin Moon Knight with Enia at the Roundtable Hold. "]
+        data_it: ["Lune gemelle di Rellana", "Incarna due lune e colpisce ripetutamente il suolo", "Può essere selezionata come una delle possibili ricompense cedendo la Rimembranza della Cavaliera delle lune gemelle a Enia alla Rocca della Tavola Rotonda."]
       - id: "20_4"
         icon: "/img/icons/sorceries/06803.png"
         data: ["Glintstone Nail", "Fires a shattering magic nail", "Can be bought from Count Ymir after completing the first step of his quest."]
+        data_it: ["Chiodo di scintipietra", "Scaglia un chiodo magico frantumante", "Acquistabile dal Conte Ymir dopo aver completato il primo passo della sua missione."]
       - id: "20_5"
         icon: "/img/icons/sorceries/06804.png"
         data: ["Glintstone Nails", "Fires multiple shattering magic nails", "Can be bought from Count Ymir after completing the first step of his quest."]
+        data_it: ["Chiodi di scintipietra", "Scaglia molteplici chiodi magici frantumanti", "Acquistabile dal Conte Ymir dopo aver completato il primo passo della sua missione."]
       - id: "20_6"
         icon: "/img/icons/sorceries/06805.png"
         data: ["Blades of Stone", "Pulls blade-like clumps of rock from the earth", "Can be selected as one of the possible rewards when trading Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold."]
+        data_it: ["Lame di pietra", "Estrae ammassi rocciosi taglienti dalla terra", "Può essere selezionata come una delle possibili ricompense cedendo la Rimembranza del Cavaliere dei cinghiali a Enia alla Rocca della Tavola Rotonda."]
       - id: "20_7"
         icon: "/img/icons/sorceries/06806.png"
         data: ["Gravitational Missile", "Fires a bolt of gravity that pulls in enemies before exploding", "Dropped by the Fallingstar Beast, who can be found in the crater in Fingerstone Hill."]
+        data_it: ["Missile gravitazionale", "Scaglia un dardo gravitazionale che attira i nemici prima di esplodere", "Lasciato cadere dalla Belva meteoritica, che si può trovare nel cratere vicino alla Collina delle dita di pietra."]
       - id: "20_8"
         icon: "/img/icons/sorceries/06807.png"
         data: ["Mantle of Thorns", "Covers self with the Scadutree's impenetrable thorns", "Shadow Keep: This item drops from the Lesser Ulcerated Tree Spirit enemy that emerges beneath the ground, near the large tree. Can only be accessed upon draining the water in the Church District."]
+        data_it: ["Manto di rovi", "Si ricopre degli impenetrabili rovi dell'Albero Scuro", "Roccaforte delle Ombre: l'oggetto viene lasciato dallo Spirito arboreo ulcerato minore che emerge da sotto terra, vicino al grande albero. Si può accedere solo dopo aver drenato l'acqua nel Quartiere della Chiesa."]
       - id: "20_9"
         icon: "/img/icons/sorceries/06808.png"
         data: ["Impenetrable Thorns", "Summons the Scadutree's impenetrable thorns from the earth", "Shadow Keep: Backtrack from the \"Dark Chamber Entrance\" Site of Grace, cross the bridge and down the steps on the right, and it will be directly below you next to the sitting bat enemy."]
+        data_it: ["Rovi impenetrabili", "Evoca gli impenetrabili rovi dell'Albero Scuro dalla terra", "Roccaforte delle Ombre: torna indietro dal luogo di grazia Ingresso della Camera oscura, incrocia il ponte e scendi le scale sulla destra, e la troverai direttamente sotto di te, vicino a un nemico incantatore."]
       - id: "20_10"
         icon: "/img/icons/sorceries/06809.png"
         data: ["Rings of Spectral Light", "Creates rings of spectral light that fire in unison", "Looted from the altar by the giant bird statue after defeating several birds in Charo's Hidden Grave"]
+        data_it: ["Anelli di luce spettrale", "Crea anelli di luce spettrale che partono all'unisono", "Raccolta dall'altare vicino alla gigantesca statua di un uccello dopo aver sconfitto diversi uccelli nella Tomba Nascosta di Charo."]
       - id: "20_11"
         icon: "/img/icons/sorceries/06810.png"
         data: ["Vortex of Putrescence", "Launches a whirl of putrescent jets", "Can be selected as one of the possible rewards when trading Remembrance of Putrescence with Enia at the Roundtable Hold."]
+        data_it: ["Vortice di putrescenza", "Lancia un vortice di getti putrescenti", "Può essere selezionata come una delle possibili ricompense cedendo la Rimembranza della Putrescenza a Enia alla Rocca della Tavola Rotonda."]
       - id: "20_12"
         icon: "/img/icons/sorceries/06811.png"
         data: ["Mass of Putrescence", "Flings a great mass of putrescence", "Stone Coffin Fissure: From the Fissure Waypoint site of grace, head northeast. Just after hopping over the little gap, drop down on the left (north) side and make your way north where you'll find the spell on a corpse. "]
+        data_it: ["Massa di putrescenza", "Lancia una grande massa di putrescenza", "Crepaccio della bara di pietra: Dal luogo di grazia Via del crepaccio, dirigiti a nord-est. Subito dopo aver saltato il piccolo vuoto, scendi a sinistra (nord) e fatti strada verso nord, dove troverai la magia su un cadavere."]
       - id: "20_13"
         icon: "/img/icons/sorceries/06812.png"
         data: ["Fleeting Microcosm", "Conjures a microcosm that pulses with a single wave, disappearing in a burst", "Purchased from Count Ymir after sounding the second bell."]
+        data_it: ["Microcosmo fugace", "Evoca un microcosmo che palpita con una singola onda e scompare esplodendo", "Acquistata dal Conte Ymir dopo aver suonato la seconda campana."]
       - id: "20_14"
         icon: "/img/icons/sorceries/06813.png"
         data: ["Cherishing Fingers", "Surrounds the caster with a mesh of hefty fingers", "Can be picked up in the graveyard to the west of the Cathedral of Manus Metyr after completing Count Ymir's questline in full."]
+        data_it: ["Dita protettrici", "Circonda l'incantatore con una gabbia di poderose dita", "Si trova nel cimitero a ovest della Cattedrale di Manus Metyr dopo aver completato completamente la missione del Conte Ymir."]
+

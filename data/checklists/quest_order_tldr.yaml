@@ -1,628 +1,929 @@
 title: " TL;DR All NPC Quest Steps in Order"
+title_it: " TL;DR Tutti i passaggi delle missioni NPC in ordine"
 id: quest_order_tldr
 description: "These Steps are a TL;DR Version and will not explain how to get anywhere, only where to go. They will also follow the order of \"Intended\" Route and as such, will complete every questline in that order. That said, if I were to completely go with what I believed was \"Intended\", several questlines wouldn't be completed at all. Therefore, I will instead complete every questline with the \"best\" ending, that is to say I will try for happy endings whenever possible. If you are looking for specific results to questlines, please try the NPC Questlines section instead."
+description_it: "Questi passaggi sono una versione TL;DR e non spiegheranno come arrivare in un luogo, ma solo dove andare. Seguiranno inoltre l'ordine del percorso \"previsto\" e, come tali, completeranno ogni missione in quell'ordine. Detto questo, se dovessi seguire completamente ciò che credo sia stato \"previsto\", diverse missioni non verrebbero completate affatto. Pertanto, completerò invece ogni missione con il finale \"migliore\", vale a dire che cercherò finali felici ogni volta che sarà possibile. Se cerchi risultati specifici per le missioni, consulta invece la sezione Missioni NPC."
 sections:
   -
     title: "Limgrave"
+    title_it: "Sepolcride"
     items:
       - id: "1"
         data: ["Talk to Varré at the start of the game"]
+        data_it: ["Parla con Varré all'inizio del gioco"]
       - id: "2"
         data: ["Talk to Kalé at the Church of Elleh"]
+        data_it: ["Parla con Kalé alla Chiesa di Elleh"]
       - id: "3"
         data: ["Rest at the Third Grace you grab and form accord with Melina"]
+        data_it: ["Riposa al terzo Sito di grazia che trovi e stringi un accordo con Melina"]
       - id: "4"
         data: ["Break the tree illusion and talk to Boc"]
+        data_it: ["Rompi l'illusione dell'albero e parla con Boc"]
       - id: "5"
         data: ["Free Alexander from his hole near Saintsbridge Grace"]
+        data_it: ["Libera Alexander dalla buca vicino al Sito di grazia Ponte dei santi"]
       - id: "6"
         data: ["Talk to D near the graveyard East of Saintsbridge Grace"]
+        data_it: ["Parla con D vicino al cimitero a est del Sito di grazia Ponte dei santi"]
       - id: "7"
         data: ["Kill Mariner in Summonwater Village then talk to D nearby"]
+        data_it: ["Uccidi il Marinaio presso il Villaggio di Idromale, poi parla con D lì vicino"]
       - id: "8"
         data: ["Talk to Kenneth Haight on top of the ruin to the South"]
+        data_it: ["Parla con Kenneth Haight sopra la rovina a sud"]
       - id: "9"
         data: ["Talk to Melina at the Third Church of Marika"]
+        data_it: ["Parla con Melina alla Terza chiesa di Marika"]
       - id: "11"
         data: ["Listen to Blaidd's howling at Mistwood Ruins"]
+        data_it: ["Ascolta l'ululato di Blaidd alle Rovine di Tetrobosco"]
       - id: "12"
         data: ["Kill the Knight at the top of Fort Haight and collect Dectus Medallion"]
+        data_it: ["Uccidi il cavaliere in cima a Forte Haight e raccogli il medaglione di Dectus"]
       - id: "14"
         data: ["Meet Renna at Church of Elleh at Night"]
+        data_it: ["Incontra Renna alla Chiesa di Elleh di notte"]
       - id: "13"
         data: ["Go back to Kalé at Church of Elleh for Fingersnap"]
+        data_it: ["Torna da Kalé alla Chiesa di Elleh per ricevere l'azione Schiocco di dita"]
       - id: "15"
         data: ["Talk to Boc at the entrance of the Coastal Cave"]
+        data_it: ["Parla con Boc all'ingresso della Grotta costiera"]
       - id: "16"
         data: ["Beat Coastal Cave (Summoning Old Knight Istvan)"]
+        data_it: ["Completa la Grotta costiera (evocando il Vecchio cavaliere Istvan)"]
       - id: "17"
         data: ["Back to Boc"]
+        data_it: ["Torna da Boc"]
       - id: "18"
         data: ["Meet Yura South of the Lake"]
+        data_it: ["Incontra Yura a sud del lago"]
       - id: "19"
         data: ["Fight the Flying Dragon Agheel and return to Yura without killing it for extra dialogue"]
+        data_it: ["Combatti contro il Drago volante Agheel e torna da Yura senza ucciderlo per dialoghi extra"]
       - id: "21"
         data: ["Meet Sellen under Waypoint Ruins"]
+        data_it: ["Incontra Sellen sotto le Rovine del punto di ristoro"]
       - id: "22"
         data: ["Go kill Nerijus outside Murkwater Cave"]
+        data_it: ["Uccidi Nerijus fuori dalla Caverna di Acquamorta"]
       - id: "23"
         data: ["Talk to Yura North of Murkwater Cave"]
+        data_it: ["Parla con Yura a nord della Caverna di Acquamorta"]
       - id: "24"
         data: ["Beat Patches in Murkwater Cave, but spare him. After sparing attack him lightly 3 times then let him attack you. Use emote he gives you when knocked to about 40% health."]
+        data_it: ["Sconfiggi Patches nella Caverna di Acquamorta, ma risparmialo. Dopo averlo risparmiato, attaccalo leggermente 3 volte e lascia che ti attacchi. Usa l'emote che ti dà quando arrivi a circa il 40% di salute."]
       - id: "25"
         data: ["Talk to him, reload talk again and buy things, reload talk again and open chest when he gives you permission"]
+        data_it: ["Pargli, ricarica l'area, parlagli di nuovo e compra degli oggetti, ricarica l'area, parlagli di nuovo e apri lo scrigno quando ti dà il permesso"]
       - id: "26"
         data: ["Talk to Kenneth at his previous location and accept his offer"]
+        data_it: ["Parla con Kenneth nella sua posizione precedente e accetta la sua offerta"]
       - id: "27"
         data: ["Use Fingersnap at Mistwood Ruins and talk to Blaidd"]
+        data_it: ["Usa lo Schiocco di dita alle Rovine di Tetrobosco e parla con Blaidd"]
       - id: "28"
         data: ["Talk to Kenneth at the top of Fort Haight"]
+        data_it: ["Parla con Kenneth in cima a Forte Haight"]
       - id: "29"
         data: ["Talk to Patches in Murkwater Cave again"]
+        data_it: ["Parla di nuovo con Patches nella Caverna di Acquamorta"]
       - id: "30"
         data: ["Complete Deathtouched Catacombs near Saintsbridge Grace for Deathroot"]
+        data_it: ["Completa le Catacombe mortifere vicino al Sito di grazia Ponte dei santi per ottenere una Radice mortale"]
       - id: "31"
         data: ["Meet Warmaster Bernahl at Warmaster's Shack"]
+        data_it: ["Incontra Bernahl il mestro d'armi alla Capanna del mastro d'armi"]
       - id: "32"
         data: ["Kill Recusant Henricus at the Coliseum"]
+        data_it: ["Uccidi il Recusante Henricus al Colosseo"]
       - id: "32_1"
         data: ["Talk to Melina at Stormhill Shack Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Capanna di Colle Tempesta"]
       - id: "33"
         data: ["Meet Roderika at Stormhill Shack"]
+        data_it: ["Incontra Roderika alla Capanna di Colle Tempesta"]
       - id: "34"
         data: ["Meet the Finger Reader on the bridge North of Stormhill Shack"]
+        data_it: ["Incontra la Leggitrice delle dita sul ponte a nord della Capanna di Colle Tempesta"]
       - id: "34_1"
         data: ["Talk to Melina at the Castleward Tunnel Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Tunnel verso il castello"]
       - id: "35"
         data: ["Defeat Bloodhound Knight Darriwil at Forlorn Hound Evergaol (Summoning Blaidd) then talk to Blaidd"]
+        data_it: ["Sconfiggi il Cavaliere limiere Darriwil alla Galera eterna del Limiere (evocando Blaidd), poi parla con Blaidd"]
       - id: "20"
         data: ["Kill the Flying Dragon Agheel (Summoning Yura) then back to Yura"]
+        data_it: ["Uccidi il Drago volante Agheel (evocando Yura), poi torna da Yura"]
       - id: "35_1"
         data: ["Limgrave is now safe to explore"]
+        data_it: ["Ora puoi esplorare liberamente Sepolcride"]
   -
     title: "Weeping Peninsula"
+    title_it: "Penisola del Pianto"
     items:
       - id: "36"
         data: ["Meet Irina near the Bridge of Sacrifice"]
+        data_it: ["Incontra Irina vicino al Ponte del sacrificio"]
       - id: "37"
         data: ["Talk to Melina at the Church of Pilgrimage"]
+        data_it: ["Parla con Melina alla Chiesa del pellegrinaggio"]
       - id: "38"
         data: ["Talk to Edgar in Castle Morne"]
+        data_it: ["Parla con Edgar al Castello di Morne"]
       - id: "39"
         data: ["Kill Leonine Misbegotten (Summoning Edgar), return to Edgar"]
+        data_it: ["Uccidi la Prole leonina (evocando Edgar), poi torna da lui"]
       - id: "40"
         data: ["Return to Irina"]
+        data_it: ["Torna da Irina"]
   -
     title: "Roundtable Hold"
+    title_it: "Rocca della Tavola rotonda"
     items:
       - id: "41"
         data: ["Kill Margit at the entrance of Stormveil (Summoning Rogier) then talk to Melina at the Grace"]
+        data_it: ["Uccidi Margit all'ingresso di Castello di Grantempesta (evocando Rogier), poi parla con Melina al Sito di grazia"]
       - id: "42"
         data: ["Talk to Corhyn, Gideon, D, Diallos, Hewg, Fia, and Ensha after entering Roundtable Hold"]
+        data_it: ["Parla con Corhyn, Gideon, D, Diallos, Hewg, Fia ed Ensha dopo essere entrato nella Rocca della Tavola rotonda"]
       - id: "43"
         data: ["Kill Mad Tongue Alberich in the area below the Balcony (this can be done anytime)"]
+        data_it: ["Uccidi Alberich la Lingua folle nell'area sotto il balcone (puoi farlo in qualsiasi momento)"]
   -
     title: "Stormveil"
+    title_it: "Castello di Grantempesta"
     items:
       - id: "44"
         data: ["Talk to Gostoc near the Main Gate of Stormveil, refuse for dialogue then accept him"]
+        data_it: ["Parla con Gostoc vicino al cancello principale di Castello di Grantempesta: rifiuta l'aiuto per sbloccare dialoghi extra, poi accettalo"]
       - id: "44_1"
         data: ["Catch Gostoc stalking you then talk to him at the gate to open his shop"]
+        data_it: ["Sorprendi Gostoc mentre ti segue, poi parlagli al cancello per aprire il suo negozio"]
       - id: "45"
         data: ["Talk to Rogier inside the church"]
+        data_it: ["Parla con Rogier all'interno della chiesa"]
       - id: "46"
         data: ["Grab Chrysalid Memento from the room with the Grafted Scion and return it to Roderika"]
+        data_it: ["Raccogli il Ricordo delle crisalidi nella stanza con il Rampollo innestato e portalo a Roderika"]
       - id: "47"
         data: ["Talk to Nepheli in a room near Secluded Cell Grace"]
+        data_it: ["Parla con Nepheli in una stanza vicino al Sito di grazia Cella isolata"]
       - id: "48"
         data: ["Kill Godric (Summoning Nepheli) and talk to Gostoc"]
+        data_it: ["Uccidi Godrick (evocando Nepheli) e parla con Gostoc"]
       - id: "49"
         data: ["Go to the bottom of the castle, kill the Lesser Ulcerated Tree Spirit and interract with the bloodstain"]
+        data_it: ["Vai nei sotterranei del castello, uccidi lo Spirito arboreo ulcerato minore e interagisci con la macchia di sangue"]
   -
     title: "Limgrave/Roundtable"
+    title_it: "Sepolcride/Rocca della Tavola rotonda"
     items:
       - id: "10"
         data: ["Use Waygate near the Third Church of Marika and talk to Gurranq"]
+        data_it: ["Usa il teletrasporto vicino alla Terza chiesa di Marika e parla con Gurranq"]
       - id: "50"
         data: ["Go back to Varré at the start of the game"]
+        data_it: ["Torna da Varré all'inizio del gioco"]
       - id: "51"
         data: ["Go to Roundtable Hold and talk to Enia, Two Fingers, Nepheli, and Gideon"]
+        data_it: ["Vai alla Rocca della Tavola rotonda e parla con Enia, le Due Dita, Nepheli e Gideon"]
       - id: "52"
         data: ["Talk to D and Rogier until Dialogue with both is exhausted"]
+        data_it: ["Parla con D e Rogier finché non hanno più nulla da dirti"]
       - id: "54"
         data: ["Talk to Roderika and Hewg until dialogue with both is exhausted"]
+        data_it: ["Parla con Roderika e Hewg finché non hanno più nulla da dirti"]
       - id: "53"
         data: ["Talk to Fia for Knifeprint Clue"]
+        data_it: ["Parla con Fia per ottenere l'indizio sulla Mappa del coltello"]
       - id: "55_1"
         data: ["Go read the message at Varré's location at the start of the game"]
+        data_it: ["Vai a leggere il messaggio nella posizione iniziale di Varré"]
   -
     title: "Liurnia Lake"
+    title_it: "Liurnia lacustre"
     items:
       - id: "55"
         data: ["Grab the Shabriri Grape under Stormveil Throne Room and give it to Hyetta at the Lake-Facing Cliffs Grace"]
+        data_it: ["Raccogli l'Uva di Shabriri sotto la sala del trono di Castello di Grantempesta e dalla a Hyetta al Sito di grazia Scogliera sul lago"]
       - id: "56"
         data: ["Talk to Boc"]
+        data_it: ["Parla con Boc"]
       - id: "57"
         data: ["Talk to Thops in the Church of Irith (Extra dialogues for giving any magic scroll, Sellen)"]
+        data_it: ["Parla con Thops alla Chiesa di Irith (dialoghi extra se gli dai una pergamena magica o parli di Sellen)"]
       - id: "58"
         data: ["Grab the Shabriri Grape from Purified Ruins and give to Hyetta near the shore"]
+        data_it: ["Raccogli l'Uva di Shabriri alle Rovine purificate e dalla a Hyetta vicino alla riva"]
       - id: "59"
         data: ["Talk to Patches at Scenic Isle"]
+        data_it: ["Parla con Patches all'Isolotto panoramico"]
       - id: "60"
         data: ["Talk to Rya at the pavilion near the telescope"]
+        data_it: ["Parla con Rya al padiglione vicino al telescopio"]
       - id: "61"
         data: ["Talk to Blackguard Big Boggart at Boilprawn Shack and buy necklace then buy some Boiled Prawn"]
+        data_it: ["Parla con Boggart il Maledetto alla Capanna del gambero bollito, compra la collana e poi dei gamberi bolliti"]
       - id: "62"
         data: ["Give the necklace to Rya"]
+        data_it: ["Consegna la collana a Rya"]
       - id: "63"
         data: ["Talk to Diallos Academy Gate Town"]
+        data_it: ["Parla con Diallos al Borgo della porta dell'Accademia"]
       - id: "64"
         data: ["Talk to Finger Reader nearby"]
+        data_it: ["Parla con la Leggitrice delle dita lì vicino"]
       - id: "65"
         data: ["Talk to Varré at the Rose Church, Invade other players 3 times (may be able to invade NPCs instead), talk to Varré"]
+        data_it: ["Parla con Varré alla Chiesa della Rosa, invadi altri giocatori 3 volte (puoi farlo anche tramite NPC specifici), poi riparla con lui"]
       - id: "66_2"
         data: ["Grab the Glintstone Key from behind the Glintstone Dragon"]
+        data_it: ["Raccogli la chiave di luccipietra dietro il Drago di luccipietra"]
       - id: "66"
         data: ["Defeat Edgar the Revenger at Revenger's Shack"]
+        data_it: ["Sconfiggi Edgar il Vendicatore alla Capanna del vendicatore"]
       - id: "67"
         data: ["Use the Anticipation Gateway at Belfries, grab the Stormhawk King Ashes and use the dead maidens blood for Lord of Blood's Favor"]
+        data_it: ["Usa il portale dell'attesa ai Quattro campanili, raccogli le Ceneri di re dei falchi della tempesta e usa il sangue della vergine morta per il Favore del Signore del Sangue"]
       - id: "89"
         data: ["Talk to Varre (you can now enter Mohgwyn's Palace early if you want, just don't kill the boss and nothing should break."]
+        data_it: ["Parla con Varré (ora puoi accedere in anticipo al Palazzo di Mohgwyn se vuoi, basta non uccidere il boss per non rompere le missioni)"]
       - id: "68"
         data: ["Talk to Nepheli near Village of the Albinaurics"]
+        data_it: ["Parla con Nepheli vicino al Villaggio degli Albinauri"]
       - id: "69"
         data: ["Talk to Albus in Village of the Albinaurics"]
+        data_it: ["Parla con Albus al Villaggio degli Albinauri"]
       - id: "70"
         data: ["Kill Omenkiller in Village of the Albinaurics (Summoning Nepheli)"]
+        data_it: ["Uccidi lo Stragepresagi al Villaggio degli Albinauri (evocando Nepheli)"]
       - id: "71"
         data: ["Defeat Lakeside Crystal Cave and talk to Latenna at Slumbering Wolf Shack"]
+        data_it: ["Completa la Caverna di cristallo del lago e parla con Latenna alla Capanna del lupo dormiente"]
       - id: "72"
         data: ["Talk to Hyetta at Gate Town Bridge"]
+        data_it: ["Parla con Hyetta al Ponte del borgo"]
       - id: "73"
         data: ["Kill Mariner on cliffs above Carian Study Hall (Summoning D) for Deathroot"]
+        data_it: ["Uccidi il Marinaio sulle scogliere sopra l'Aula di studio cariana (evocando D) per ottenere una Radice mortale"]
       - id: "74"
         data: ["Meet Jar Bairn in Jarburg. Repeatedly rest and talk to them until they are laying down."]
+        data_it: ["Incontra Jar Bairn a Vasoburgo. Riposa e parlagli ripetutamente finché non si sdraia."]
       - id: "77"
         data: ["Use Purified Ruins Waygate and enter Raya Lucaria"]
+        data_it: ["Usa il teletrasporto alle Rovine purificate ed entra a Raya Lucaria"]
       - id: "78"
         data: ["Invade alongside Yura near Main Academy Gate then talk to Yura"]
+        data_it: ["Invadi insieme a Yura vicino al cancello principale dell'Accademia, poi parlagli"]
       - id: "79"
         data: ["Defeat Raya Lucaria Academy, collect Second Glintstone Key above the Church of the Cuckoo and save it for later"]
+        data_it: ["Completa l'Accademia di Raya Lucaria, raccogli la seconda chiave di luccipietra sopra la Chiesa del cuculo e conservala per dopo"]
       - id: "75"
         data: ["Use Waygate down the lift from Raya Lucaria boss room to talk to Miriel, Pastor of Vows in the Church of Vows"]
+        data_it: ["Usa il teletrasporto giù dall'ascensore della stanza del boss di Raya Lucaria per parlare con Miriel, pastore dei voti alla Chiesa dei voti"]
       - id: "75_1"
         data: ["Grab Gold Sewing Needle and Gold Tailoring Tools at Church of Vows"]
+        data_it: ["Raccogli l'ago per cucire d'oro e gli strumenti di sartoria d'oro alla Chiesa dei voti"]
       - id: "76"
         data: ["Defeat Black Knife Catacombs (including the hidden area, Summoning D) where Knifeprint Clue leads for Deathroot and Black Knifeprint"]
+        data_it: ["Completa le Catacombe dei Neri Coltelli (inclusa la zona segreta, evocando D) dove porta l'indizio sulla Mappa del coltello per Radice mortale e Note del Nera Coltello"]
   -
     title: "Roundtable Hold"
+    title_it: "Rocca della Tavola rotonda"
     items:
       - id: "80"
         data: ["Go back to Roundtable Hold, kill Ensha then talk to Gideon and Nepheli until dialogue with both is exhausted"]
+        data_it: ["Torna alla Rocca della Tavola rotonda, uccidi Ensha, poi parla con Gideon e Nepheli finché non hanno più nulla da dirti"]
       - id: "81"
         data: ["Talk to Hewg and Roderika"]
+        data_it: ["Parla con Hewg e Roderika"]
       - id: "81_1"
         data: ["Talk to Corhyn"]
+        data_it: ["Parla con Corhyn"]
       - id: "82"
         data: ["Talk to Diallos"]
+        data_it: ["Parla con Diallos"]
       - id: "83"
         data: ["Talk to Enia"]
+        data_it: ["Parla con Enia"]
       - id: "84"
         data: ["Exhaust dialogue with Fia and Rogier, reload and talk to Rogier again"]
+        data_it: ["Esaurisci i dialoghi con Fia e Rogier, ricarica l'area e parla di nuovo con Rogier"]
   -
     title: "Liurnia Lake/Roundtable"
+    title_it: "Liurnia lacustre/Rocca della Tavola rotonda"
     items:
       - id: "90"
         data: ["Talk to Iji at the Road to the Manor Grace"]
+        data_it: ["Parla con Iji al Sito di grazia Strada per il maniero"]
       - id: "91"
         data: ["Defeat Caria Manor and discover the secret room under the ruins near Glintstone Dragon Adula"]
+        data_it: ["Completa il Maniero di Caria e scopri la stanza segreta sotto le rovine vicino al Drago di luccipietra Adula"]
       - id: "92"
         data: ["Confess to Ranni in Ranni's Rise, get rejected, go back to Rogier for advice"]
+        data_it: ["Confessati a Ranni alla Guglia di Ranni: verrai rifiutato, quindi torna da Rogier per un consiglio"]
       - id: "93"
         data: ["Try again and get accepted then meet her friends Iji, Blaidd, and Seluvis downstairs before talking to her again"]
+        data_it: ["Riprova e verrai accettato, poi incontra i suoi amici Iji, Blaidd e Seluvis al piano di sotto prima di riparle"]
       - id: "94"
         data: ["Talk to Seluvis in Seluvis' Rise then talk to Pidia nearby (Iji too if you want)"]
+        data_it: ["Parla con Seluvis alla Guglia di Seluvis, poi parla con Pidia lì vicino (anche con Iji se vuoi)"]
       - id: "95"
         data: ["Return to Rogier, reload and talk again"]
+        data_it: ["Torna da Rogier, ricarica l'area e parlagli di nuovo"]
   -
     title: "Caelid"
+    title_it: "Caelid"
     items:
       - id: "96"
         data: ["Talk to Alexander in cave on Limgrave's side of Gael Tunnel"]
+        data_it: ["Parla con Alexander nella caverna sul lato di Sepolcride del Tunnel di Gael"]
       - id: "97"
         data: ["Kill Anastasia at Smoldering Church"]
+        data_it: ["Uccidi Anastasia alla Chiesa ardente"]
       - id: "98"
         data: ["Complete Gael Tunnel and talk to Alexander at the end"]
+        data_it: ["Completa il Tunnel di Gael e parla con Alexander alla fine"]
       - id: "99"
         data: ["Talk to the Finger Reader near the Telescope"]
+        data_it: ["Parla con la Leggitrice delle dita vicino al telescopio"]
       - id: "99_1"
         data: ["Kill Millicent in the rot swamp if she invades"]
+        data_it: ["Uccidi Millicent nella palude della Marcescenza se ti invade"]
       - id: "100"
         data: ["Talk to Gowry at Gowry's Shack"]
+        data_it: ["Parla con Gowry alla Capanna di Gowry"]
       - id: "101"
         data: ["Kill Commander O'Neil in swamp nearby (Summoning Polyanna, Adopted Daughter), return to Gowry then reload and talk again"]
+        data_it: ["Uccidi il Comandante O'Neil nella palude vicina (evocando Polyanna, figliastra adottiva), torna da Gowry, ricarica l'area e parlagli di nuovo"]
       - id: "102"
         data: ["Talk to Millicent in Church of Plague, reload then talk to Millicent again"]
+        data_it: ["Parla con Millicent alla Chiesa della pestilenza, ricarica l'area e parlagli di nuovo"]
       - id: "103"
         data: ["Reload and talk to Gowry"]
+        data_it: ["Ricarica l'area e parla con Gowry"]
   -
     title: "Liurnia Lake/Roundtable"
+    title_it: "Liurnia lacustre/Rocca della Tavola rotonda"
     items:
       - id: "85"
         data: ["Talk to Boc, Finger Reader and Melina at East Raya Lucaria Gate Grace"]
+        data_it: ["Parla con Boc, la Leggitrice delle dita e Melina al Sito di grazia Cancello orientale di Raya Lucaria"]
       - id: "86"
         data: ["Kill Festering Fingerprint Vyke near Church of Inhibition and use the cloth on the dead maiden"]
+        data_it: ["Uccidi Vyke l'Impronta purulenta vicino alla Chiesa dell'inibizione e usa il panno sulla vergine morta"]
       - id: "87"
         data: ["Talk to Melina at Grand Lift of Dectus Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Grande Ascensore di Dectus"]
       - id: "88"
         data: ["Talk to Hyetta at Bellum Church, and reload then talk again"]
+        data_it: ["Parla con Hyetta alla Chiesa di Bellum, ricarica l'area e parlagli di nuovo"]
   -
     title: "Underground Siofra/Liurnia Lake/Castle Redmane"
+    title_it: "Siofra sotterraneo/Liurnia lacustre/Castello di Mantorosso"
     items:
       - id: "104"
         data: ["Talk to Blaidd under Mistwood in Siofra River Well"]
+        data_it: ["Parla con Blaidd sotto Tetrobosco nel Pozzo del fiume Siofra"]
       - id: "105"
         data: ["Go talk to Thops at Church of Irith (extra dialogue for Sellia) and give the Glintstone Key. Find his corpse in Raya Lucaria"]
+        data_it: ["Parla con Thops alla Chiesa di Irith (dialoghi extra per Sellia) e dagli la chiave di luccipietra. Trova il suo corpo a Raya Lucaria"]
       - id: "106"
         data: ["Talk to Seluvis at his location"]
+        data_it: ["Parla con Seluvis nella sua posizione"]
       - id: "107"
         data: ["Talk to Sellen in Waypoint Ruins"]
+        data_it: ["Parla con Sellen nelle Rovine del punto di ristoro"]
       - id: "108"
         data: ["Talk to Blaidd in Siofra River Well"]
+        data_it: ["Parla con Blaidd nel Pozzo del fiume Siofra"]
       - id: "109"
         data: ["Talk to Therolina, Alexander, Blaidd and Jerren at Castle Redmane"]
+        data_it: ["Parla con Therolina, Alexander, Blaidd e Jerren al Castello di Mantorosso"]
       - id: "110"
         data: ["Kill Radahn (Summoning as many as possible) then talk to Blaidd and Alexander"]
+        data_it: ["Uccidi Radahn (evocando più alleati possibile), poi parla con Blaidd e Alexander"]
       - id: "111"
         data: ["Talk to Jerren back in Castle Redmane"]
+        data_it: ["Parla con Jerren di nuovo al Castello di Mantorosso"]
   -
     title: "Underground Crater/Liurnia Lake"
+    title_it: "Cratere sotterraneo/Liurnia lacustre"
     items:
       - id: "112"
         data: ["Find the note at Mistwood Ruins"]
+        data_it: ["Trova la nota alle Rovine di Tetrobosco"]
       - id: "113"
         data: ["Free Blaidd from Forlorn Hound Evergaol"]
+        data_it: ["Libera Blaidd dalla Galera eterna del Limiere"]
       - id: "114"
         data: ["Talk to Iji at his spot"]
+        data_it: ["Parla con Iji nella sua posizione"]
       - id: "115"
         data: ["Free Alexander at the cliffs above Jarburg"]
+        data_it: ["Libera Alexander dalle scogliere sopra Vasoburgo"]
       - id: "116"
         data: ["Collect the Fingerslayer Blade in the crater at the end of the path South of the forest (For purposes of this guide DO NOT TALK TO RANNI YET as this will give her the blade.)"]
+        data_it: ["Raccogli la Lama d'argento ammazzadita nel cratere alla fine del sentiero a sud della foresta (NON PARLARE ANCORA A RANNI per non consegnarle la lama prematuramente)"]
       - id: "117"
         data: ["Talk to D's Brother in the crater at the end of the path North of the forest and kill the Gargoyles for easy Grace teleport for later"]
+        data_it: ["Parla con il fratello di D nel cratere alla fine del sentiero a nord della foresta e uccidi i Gargoyle per un comodo teletrasporto più avanti"]
   -
     title: "Mt. Gelmir"
+    title_it: "Monte Gelmir"
     items:
       - id: "118"
         data: ["Kill Magma Wyrm Makar in Ruin-Strewn Precipice (Summoning Great Horned Tragoth)"]
+        data_it: ["Uccidi il Vulcanodrago Makar al Dirupo ricolmo di rovine (evocando Tragoth il Corna-grande)"]
       - id: "119"
         data: ["Talk to Millicent near Lux Ruins"]
+        data_it: ["Parla con Millicent vicino alle Rovine di Lux"]
       - id: "120"
         data: ["Kill Mariner at Wyndham Ruins for Deathroot"]
+        data_it: ["Uccidi il Marinaio alle Rovine di Wyndham per ottenere una Radice mortale"]
       - id: "121"
         data: ["Talk to Rya near Lux Ruins to enter Volcano Manor (This will skip some dialogue with Patches but you can talk to him at Corpse-Stench Shack first if you want)"]
+        data_it: ["Parla con Rya vicino alle Rovine di Lux per entrare a Villa Vulcano (questo salterà alcuni dialoghi con Patches, ma puoi parlargli prima alla Capanna maleodorante se vuoi)"]
       - id: "122"
         data: ["Talk to Tanith and join the Manor"]
+        data_it: ["Parla con Tanith e unisciti alla Villa"]
       - id: "123"
         data: ["Talk to Diallos, Rya, Bernahl and Patches, grab your first task and kill Invader Ghiza upstairs"]
+        data_it: ["Parla con Diallos, Rya, Bernahl e Patches, accetta il primo incarico e uccidi l'invasore Ghiza al piano di sopra"]
       - id: "124"
         data: ["Kill the Magma Wyrm at Seethewater Terminus then talk to Alexander in the lava"]
+        data_it: ["Uccidi il Vulcanodrago al Capolinea di Acquaeterna, poi parla con Alexander nella lava"]
       - id: "125"
         data: ["Grab the Prattling Pate You're Beautiful at Hermit Village"]
+        data_it: ["Raccogli la Piaga chiacchiericcia 'Sei bellissimo' al Villaggio dell'eremita"]
       - id: "126"
         data: ["Talk to Primeval Sorceror Azur near Hermit Village"]
+        data_it: ["Parla con lo stregone primordiale Azur vicino al Villaggio dell'eremita"]
       - id: "127"
         data: ["Complete Gelmir Hero's Grave for Deathroot"]
+        data_it: ["Completa la Tomba dell'eroe di Gelmir per ottenere una Radice mortale"]
   -
     title: "Sellen/Volcano Manor Quests"
+    title_it: "Missioni di Sellen e Villa Vulcano"
     items:
       - id: "128"
         data: ["Kill Old Knight Istvan at Limgrave Coliseum"]
+        data_it: ["Uccidi il Vecchio cavaliere Istvan al Colosseo di Sepolcride"]
       - id: "129"
         data: ["Talk to Sellen in Waypoint Ruins and get the key"]
+        data_it: ["Parla con Sellen nelle Rovine del punto di ristoro e ottieni la chiave"]
       - id: "130"
         data: ["Talk to Master Lusat in Sellia Hideaway"]
+        data_it: ["Parla con il Maestro Lusat nel Rifugio di Sellia"]
       - id: "131"
         data: ["Talk to Sellen at Witchbane Ruins, reload and talk to Jerren (may require doing the next step for him to appear)"]
+        data_it: ["Parla con Sellen alle Rovine del crepaccio delle streghe, ricarica l'area e parla con Jerren (potrebbe essere necessario il passaggio successivo perché appaia)"]
       - id: "132"
         data: ["Talk to Sellen in the hidden room under the ruins of Ranni's Rise"]
+        data_it: ["Parla con Sellen nella stanza nascosta sotto le rovine della Guglia di Ranni"]
       - id: "133"
         data: ["Go to Raya Lucaria boss room and choose to Help either Sellen or Jerren (If Sellen then reload and talk again)"]
+        data_it: ["Vai nella stanza del boss di Raya Lucaria e scegli se aiutare Sellen o Jerren (se aiuti Sellen, ricarica e riparlagli)"]
       - id: "134"
         data: ["Talk to Tanith in Volcano Manor and grab second second request"]
+        data_it: ["Parla con Tanith a Villa Vulcano e accetta il secondo incarico"]
       - id: "135"
         data: ["Talk to Diallos"]
+        data_it: ["Parla con Diallos"]
       - id: "136"
         data: ["Talk to Patches for another request"]
+        data_it: ["Parla con Patches per un altro incarico"]
       - id: "137"
         data: ["Kill Great Horned Tragoth at Magma Wyrm Makar bossroom"]
+        data_it: ["Uccidi Tragoth il Corna-grande nella stanza del boss Vulcanodrago Makar"]
       - id: "138"
         data: ["Talk to Patches, reload and talk to Patches again."]
+        data_it: ["Parla con Patches, ricarica l'area e parlagli di nuovo"]
   -
     title: "Altus Plateau/Roundtable Hold"
+    title_it: "Altopiano di Altus/Rocca della Tavola rotonda"
     items:
       - id: "139"
         data: ["Talk to Boc and Melina at Altus Highway Junction Grace"]
+        data_it: ["Parla con Boc e Melina al Sito di grazia Crocevia della strada maestra di Altus"]
       - id: "140"
         data: ["Go to Roundtable Hold and talk to Brother Corhynn"]
+        data_it: ["Vai alla Rocca della Tavola rotonda e parla con Fratel Corhyn"]
       - id: "141"
         data: ["Talk to Fia then give the Weathered Dagger to D"]
+        data_it: ["Parla con Fia, poi consegna il Pugnale usurato a D"]
       - id: "142"
         data: ["Reload and talk to Fia and collect D's Armor"]
+        data_it: ["Ricarica l'area, parla con Fia e raccogli l'armatura di D"]
       - id: "143"
         data: ["Talk to Roderika, Hewg and Dung Eater"]
+        data_it: ["Parla con Roderika, Hewg e il Mangiungue"]
       - id: "144"
         data: ["Talk to Brother Corhyn near Altus Highway Junction"]
+        data_it: ["Parla con Fratel Corhyn vicino al Crocevia della strada maestra di Altus"]
       - id: "145"
         data: ["Talk to Yura and kill Eleonora, Violet Bloody Finger at Second Church of Marika"]
+        data_it: ["Parla con Yura e uccidi Eleonora, Dito sanguinante violetto alla Seconda chiesa di Marika"]
       - id: "146"
         data: ["Kill Rileigh the Idle on the way to Shaded Castle"]
+        data_it: ["Uccidi Rileigh l'Indolente sulla strada per il Castello in ombra"]
       - id: "147"
         data: ["Grab Valkyrie's Prosthesis from Shaded Castle and give it to Millicent near Lux Ruins"]
+        data_it: ["Raccogli la Protesi di Valchiria al Castello in ombra e dalla a Millicent vicino alle Rovine di Lux"]
       - id: "148"
         data: ["Talk to Finger Reader on South Side of Broken Bridge"]
+        data_it: ["Parla con la Leggitrice delle dita sul lato sud del ponte interrotto"]
       - id: "149"
         data: ["Talk to Goldmask on North Side of Broken Bridge"]
+        data_it: ["Parla con Maschera d'oro sul lato nord del ponte interrotto"]
       - id: "150"
         data: ["Return to Brother Corhyn and then return to Goldmask again and talk to both of them"]
+        data_it: ["Torna da Fratel Corhyn, poi torna da Maschera d'oro e parlagli di nuovo"]
       - id: "151"
         data: ["Kill Godskin Apostle at Windmill Village (Summoning Millicent) and talk to Millicent"]
+        data_it: ["Uccidi l'Apostolo dei Sacriderma al Villaggio dei mulini (evocando Millicent) e parlagli"]
       - id: "152"
         data: ["Talk to Finger Reader outside of Leyndell's Inner Wall"]
+        data_it: ["Parla con la Leggitrice delle dita fuori dalle mura interne di Leyndell"]
       - id: "153"
         data: ["Talk to Melina at Outer Wall Battleground Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Campo di battaglia delle mura esterne"]
       - id: "154"
         data: ["Talk to Melina at Minor Erdtree Church Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Chiesa dell'Albero Madre minore"]
   -
     title: "Leyndell Start/Dung Eater/Seluvis"
+    title_it: "Inizio a Leyndell/Mangiungue/Seluvis"
     items:
       - id: "155"
         data: ["Talk to Boc at East Capital Rampart Grace and when he asks for a larval tear, use Prattling Pate You're Beautiful on him."]
+        data_it: ["Parla con Boc al Sito di grazia Bastione orientale della capitale e, quando chiede una Lacrima di larva, usa su di lui la Piaga chiacchiericcia 'Sei bellissimo'."]
       - id: "156"
         data: ["Grab any Seedbed Curse (one is in upstairs of the building at the bottom of the lift leaving East Capital Rampart Grace)talk to Dung Eater in Roundtable Hold"]
+        data_it: ["Raccogli una Maledizione del vivaio (una si trova al piano superiore dell'edificio alla base dell'ascensore fuori dal Sito di grazia Bastione orientale della capitale) e parla con il Mangiungue alla Rocca della Tavola rotonda"]
       - id: "157"
         data: ["Go to Sewers beneath Leyndell and free the Dung Eater"]
+        data_it: ["Vai nelle fogne sotto Leyndell e libera il Mangiungue"]
       - id: "158"
         data: ["Read the note where Dung Eater was in Roundtable Hold"]
+        data_it: ["Leggi la nota nel luogo in cui si trovava il Mangiungue alla Rocca della Tavola rotonda"]
       - id: "159"
         data: ["Go to Moat North of Leyndell and talk to Blackguard Big Boggart"]
+        data_it: ["Vai nel fossato a nord di Leyndell e parla con Boggart il Maledetto"]
       - id: "160"
         data: ["Reload and talk to Blackguard Big Boggart again then get avenge him by killing Dung Eater"]
+        data_it: ["Ricarica l'area e parlagli di nuovo, poi vendicalo uccidendo il Mangiungue"]
       - id: "161"
         data: ["Return to Dung Eater in Roundtable Hold"]
+        data_it: ["Torna dal Mangiungue alla Rocca della Tavola rotonda"]
       - id: "162"
         data: ["Return to Dung Eater in the Sewers and use Seluvis' Potion on him"]
+        data_it: ["Torna dal Mangiungue nelle fogne e usa su di lui la pozione di Seluvis"]
       - id: "163"
         data: ["Return to Seluvis, buy all his spells and mention the hidden room to him (requires having at least 1 Starlight Shard) then buy 1 or more puppets"]
+        data_it: ["Torna da Seluvis, compra tutti i suoi incantesimi e menzionalgli la stanza nascosta (richiede almeno un Frammento di luce stellare), poi acquista uno o più fantocci"]
       - id: "164"
         data: ["Talk to him again and he'll ask for an Amber Starlight Shard"]
+        data_it: ["Pargli di nuovo e ti chiederà un Frammento di luce stellare ambrato"]
       - id: "165"
         data: ["Grab the Amber Starlight Shard from a statue near Altus Highway Junction and give it to Seluvis for a reward (For purposes of this guide DO NOT TALK TO HIM AFTER RELOADING)"]
+        data_it: ["Raccogli il Frammento di luce stellare ambrato da una statua vicino al Crocevia della strada maestra di Altus e dallo a Seluvis in cambio di una ricompensa (NON PARLARGLI DOPO AVER RICARICATO L'AREA perché morirebbe interrompendo altre missioni)"]
       - id: "166"
         data: ["You can now give Stormhawk Ashes to Nepheli in Roundtable Hold (might require talking to Roderika after upgrading Spirit Ashes)"]
+        data_it: ["Ora puoi dare le Ceneri di falco della tempesta a Nepheli alla Rocca della Tavola rotonda (potrebbe essere necessario parlare con Roderika dopo aver potenziato delle ceneri dello spirito)"]
   -
     title: "Liurnia Lake/Deeproot Depths"
+    title_it: "Liurnia lacustre/Abissi profondi"
     items:
       - id: "167"
         data: ["Give Fingerslayer Blade to Ranni"]
+        data_it: ["Consegna la Lama d'argento ammazzadita a Ranni"]
       - id: "168"
         data: ["Use Inverted Statue on desk in Carian Study Hall then grab Cursemark of Death from the top of the tower (Rogier's corpse will now be in Roundtable Hold)"]
+        data_it: ["Usa la statua invertita sul leggio nell'Aula di studio cariana, poi raccogli il Marchio della morte in cima alla torre (il cadavere di Rogier apparirà alla Rocca della Tavola rotonda)"]
       - id: "169"
         data: ["Give D's Armor to his brother outside the Gargoyle Boss Room and take the coffin inside the boss room"]
+        data_it: ["Consegna l'armatura di D a suo fratello fuori dalla stanza del boss Gargoyle e usa la bara all'interno della stanza"]
       - id: "170"
         data: ["Talk to Palm Reader nearby"]
+        data_it: ["Parla con la Leggitrice delle dita lì vicino"]
       - id: "171"
         data: ["Kill Fia's Champions past Across the Roots Grace and talk to Fia, reload then talk to Fia again"]
+        data_it: ["Uccidi i campioni di Fia oltre il Sito di grazia Radici profonde e parla con Fia, ricarica l'area e parlagli di nuovo"]
       - id: "172"
         data: ["Reload, talk to sleeping Fia, kill the Lichdragon, loot Fia for Mending Rune of the Death-Prince and talk to D's Brother (attack him for extra dialogue)"]
+        data_it: ["Ricarica l'area, parla con Fia mentre dorme, uccidi il Drago della licantropia, raccogli da Fia la Runa riparatrice del Principe della Morte e parla con il fratello di D (attaccalo per dialoghi extra)"]
       - id: "173"
         data: ["Reload for Fia's stuff"]
+        data_it: ["Ricarica l'area per raccogliere l'equipaggiamento di Fia"]
   -
     title: "Liurnia Lake/Ainsel River Main"
+    title_it: "Liurnia lacustre/Fiume Ainsel (corso principale)"
     items:
       - id: "174"
         data: ["Talk to Iji at his spot for dialogue"]
+        data_it: ["Parla con Iji nella sua posizione per nuovi dialoghi"]
       - id: "175"
         data: ["Go to Ranni's Rise and find Seluvis corpse, then go to Pidia for his corpse"]
+        data_it: ["Vai alla Guglia di Ranni e trova il cadavere di Seluvis, poi vai da Pidia per il suo cadavere"]
       - id: "176"
         data: ["Go through the Waygate in Renna's Rise and grab the doll from the coffin nearby"]
+        data_it: ["Attraversa il portale nella Guglia di Renna e raccogli la bambola dalla bara lì vicino"]
       - id: "177"
         data: ["Talk to the doll at the grace 3 times"]
+        data_it: ["Parla con la bambola al Sito di grazia 3 volte"]
       - id: "178"
         data: ["Kill Baleful Shadow just before the Rot Lake and go through to the other side"]
+        data_it: ["Uccidi l'Ombra funesta appena prima del Lago di Marcescenza e prosegui oltre"]
       - id: "179"
         data: ["Go to Raya Lucaria bossroom and open the chest"]
+        data_it: ["Vai nella stanza del boss di Raya Lucaria e apri lo scrigno"]
       - id: "180"
         data: ["Take the coffin on the cliff near the Grand Cloister Grace"]
+        data_it: ["Usa la bara sulla scogliera vicino al Sito di grazia Grande Chiostro"]
       - id: "181"
         data: ["Kill Astel and go up the lift"]
+        data_it: ["Uccidi Astel e sali con l'ascensore"]
       - id: "182"
         data: ["Talk to Ranni at Moonlight Altar"]
+        data_it: ["Parla con Ranni all'Altare della Luna"]
       - id: "183"
         data: ["Kill Blaidd at Ranni's Rise"]
+        data_it: ["Uccidi Blaidd alla Guglia di Ranni"]
       - id: "184"
         data: ["Talk to Iji, reload and loot him"]
+        data_it: ["Parla con Iji, ricarica l'area e raccogli i suoi oggetti"]
   -
     title: "Leyndell/Roundtable Hold"
+    title_it: "Leyndell/Rocca della Tavola rotonda"
     items:
       - id: "185"
         data: ["Talk to Tanith in Volcano Manor for reward and grab Third Request"]
+        data_it: ["Parla con Tanith a Villa Vulcano per la ricompensa e accetta il terzo incarico"]
       - id: "186"
         data: ["Talk to Bernahl for another request"]
+        data_it: ["Parla con Bernahl per un altro incarico"]
       - id: "187"
         data: ["Talk to Diallos if he's still here, if not don't worry about it"]
+        data_it: ["Parla con Diallos se è ancora qui, altrimenti non preoccuparti"]
       - id: "188"
         data: ["Kill Errant Sorceror Wilhelm and Vargram the Raging Wolf in Fortified Manor"]
+        data_it: ["Uccidi Wilhelm lo stregone errante e Vargram il lupo furente nel Maniero fortificato"]
       - id: "189"
         data: ["Kill Mohgwyn, The Omen at Forsaken Depths at the bottom of the Sewers"]
+        data_it: ["Uccidi Mohg il Presagio nei Sotterranei dei reietti alla base delle fogne"]
       - id: "190"
         data: ["Talk to Brother Corhyn and Goldmask at the coliseum"]
+        data_it: ["Parla con Fratel Corhyn e Maschera d'oro al Colosseo"]
       - id: "191"
         data: ["Kill Godfrey at the Erdtree Sanctuary and grab the Golden Order Principia from above the boss room"]
+        data_it: ["Uccidi Godfrey al Santuario dell'Albero Madre e raccogli i Principi dell'Ordine Aureo sopra la stanza del boss"]
       - id: "192"
         data: ["Go to Miriel, Pastor of Vows and talk to him, give him the Golden Order Principia and buy the Law of Regression"]
+        data_it: ["Vai da Miriel, pastore dei voti, parlagli, dagli i Principi dell'Ordine Aureo e acquista la Legge della regressione"]
       - id: "193"
         data: ["Return to Erdtree Sanctuary Grace, go down the lift nearby and read the message"]
+        data_it: ["Torna al Sito di grazia Santuario dell'Albero Madre, scendi con l'ascensore vicino e leggi il messaggio"]
       - id: "194"
         data: ["Use Law of Regression at the message and read the new message"]
+        data_it: ["Usa la Legge della regressione davanti al messaggio e leggi il nuovo messaggio"]
       - id: "195"
         data: ["Return to Goldmask and Brother Corhyn at Coliseum"]
+        data_it: ["Torna da Maschera d'oro e Fratel Corhyn al Colosseo"]
       - id: "196"
         data: ["Kill Morgott and talk to Melina"]
+        data_it: ["Uccidi Morgott e parla con Melina"]
       - id: "197"
         data: ["Talk to Melina at Queen's Bedchamber Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Camera da letto della regina"]
       - id: "198"
         data: ["Go to the Grand Lift of Rold and talk to the Finger Reader"]
+        data_it: ["Vai al Grande Ascensore di Rold e parla con la Leggitrice delle dita"]
   -
     title: "Roundtable Hold/Nepheli/Dragonbarrow/Volcano Manor"
+    title_it: "Rocca della Tavola rotonda/Nepheli/Colle del Drago/Villa Vulcano"
     items:
       - id: "199"
         data: ["Talk to Enia, Gideon and Hewg at the Roundtable"]
+        data_it: ["Parla con Enia, Gideon e Hewg alla Rocca"]
       - id: "200"
         data: ["Go to Stormveil and talk to Nepheli, Kenneth and Gostoc at the throne room"]
+        data_it: ["Vai a Castello di Grantempesta e parla con Nepheli, Kenneth e Gostoc nella sala del trono"]
       - id: "201"
         data: ["Go to Bestial Sanctum and feed Deathroot to Gurranq"]
+        data_it: ["Vai al Santuario bestiale e dai le Radici mortali a Gurranq"]
       - id: "202"
         data: ["Reload, beat up Gurranq but don't kill him and talk to him again"]
+        data_it: ["Ricarica l'area, colpisci Gurranq senza ucciderlo e parlagli di nuovo"]
       - id: "203"
         data: ["Go to the coliseum in Dragonbarrow and talk to the Great Jar"]
+        data_it: ["Vai al colosseo di Colle del Drago e parla con il Grande Vaso"]
       - id: "204"
         data: ["Kill the 3 Red Summons from the Summon Signs nearby and talk to the Great Jar again"]
+        data_it: ["Sconfiggi le 3 evocazioni rosse dai segni lì vicino e parla di nuovo con il Grande Vaso"]
       - id: "205"
         data: ["Go to Volcano Manor and get rewarded by Bernahl"]
+        data_it: ["Vai a Villa Vulcano e riscuoti la ricompensa di Bernahl"]
       - id: "206"
         data: ["Talk to Rya in snake form, reload and talk again"]
+        data_it: ["Parla con Rya in forma serpentina, ricarica l'area e parlagli di nuovo"]
       - id: "207"
         data: ["Talk to Tanith"]
+        data_it: ["Parla con Tanith"]
       - id: "208"
         data: ["Go through the Illusory Wall in the manor and progress to killing the Godskin Noble in Temple of Eiglay and grab the Serpent's Amnion"]
+        data_it: ["Attraversa il muro illusorio nella villa, uccidi il Nobile dei Sacriderma nel Tempio di Eiglay e raccogli l'Amnios del serpente"]
       - id: "209"
         data: ["Talk to Rya, reload and talk to Tanith"]
+        data_it: ["Parla con Rya, ricarica l'area e parla con Tanith"]
       - id: "210"
         data: ["Go past Temple of Eiglay and find Rya and talk to her (no potion if you have it already) then talk to Tanith"]
+        data_it: ["Oltre il Tempio di Eiglay, trova Rya e parlagli (non dargli la pozione se l'hai già), poi parla con Tanith"]
   -
     title: "Mountaintops of the Giants/Volcano Manor"
+    title_it: "Vette dei Giganti/Villa Vulcano"
     items:
       - id: "211"
         data: ["Talk to Melina at Zamor Ruins Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Rovine di Zamor"]
       - id: "212"
         data: ["Talk to Shabriri at Zamor Ruins then talk to Melina again (may require talking at Ancient Snow Valley Ruins Grace)"]
+        data_it: ["Parla con Shabriri alle Rovine di Zamor, poi riparla con Melina (potrebbe essere necessario parlarle al Sito di grazia Rovine dell'antica valle innevata)"]
       - id: "213"
         data: ["Defeat Giant's Mountaintop Catacombs for Deathroot"]
+        data_it: ["Completa le Catacombe delle Vette dei Giganti per ottenere una Radice mortale"]
       - id: "214"
         data: ["Talk to Millicent at Ancient Snow Valley Ruins Grace"]
+        data_it: ["Parla con Millicent al Sito di grazia Rovine dell'antica valle innevata"]
       - id: "215"
         data: ["Kill Juno Hoslow at Shack of the Lofty"]
+        data_it: ["Uccidi Juno Hoslow alla Capanna dell'eccelso"]
       - id: "216"
         data: ["Talk to Tanith in Volcano Manor"]
+        data_it: ["Parla con Tanith a Villa Vulcano"]
       - id: "217"
         data: ["Kill Rykard in Volcano Manor"]
+        data_it: ["Uccidi Rykard a Villa Vulcano"]
       - id: "218"
         data: ["Talk to Tanith, Bernahl and Patches"]
+        data_it: ["Parla con Tanith, Bernahl e Patches"]
       - id: "219"
         data: ["Talk to Rya again (no potion), reload and read her note"]
+        data_it: ["Parla di nuovo con Rya (non dargli la pozione), ricarica l'area e leggi la sua nota"]
       - id: "220"
         data: ["Talk to Patches at Shaded Castle"]
+        data_it: ["Parla con Patches al Castello in ombra"]
       - id: "221"
         data: ["Talk Tanith at Rykard's bossroom then kill her"]
+        data_it: ["Parla con Tanith nella stanza del boss di Rykard, poi uccidila"]
       - id: "222"
         data: ["Kill Tibia Mariner in graveyard on the way to Stargazer's Ruins"]
+        data_it: ["Uccidi il Marinaio tibiale nel cimitero sulla strada per le Rovine dell'astrologo"]
       - id: "221_2"
         data: ["Fight, defeat and talk to Patches in Murkwater Cave"]
+        data_it: ["Combatti, sconfiggi e parla con Patches nella Caverna di Acquamorta"]
       - id: "223"
         data: ["Summon Jellyfish at Stargazer's Ruins and talk to the spirit"]
+        data_it: ["Evoca la Medusa alle Rovine dell'astrologo e parla con lo spirito"]
       - id: "224"
         data: ["Talk to Brother Corhyn and Goldmask near Stargazer's Ruins (If you give him the Potion of Forgetfulness, he will be here after finishing Crumbling Farum Azula)"]
+        data_it: ["Parla con Fratel Corhyn e Maschera d'oro vicino alle Rovine dell'astrologo (se gli dài la Pozione dell'oblio, rimarrà qui dopo aver completato Farum Azula in frantumi)"]
       - id: "225"
         data: ["Get the other half of Haligtree Medallion from Castle Sol"]
+        data_it: ["Ottieni l'altra metà del medaglione segreto del Sacro Albero a Castel Sol"]
       - id: "226"
         data: ["Talk to Melina at the First Church of Marika"]
+        data_it: ["Parla con Melina alla Prima chiesa di Marika"]
       - id: "227"
         data: ["Talk to Melina at the Giant's Gravepost Grace"]
+        data_it: ["Parla con Melina al Sito di grazia Cippo dei giganti"]
       - id: "228"
         data: ["Kill the Fire Giant (Summoning Alexander) DO NOT PROCEED TO THE FORGE YET"]
+        data_it: ["Uccidi il Gigante di fuoco (evocando Alexander). NON PROSEGUIRE ANCORA VERSO LA FORGIA"]
   -
     title: "Consecrated Snowfield/Gurranq/Gowry"
+    title_it: "Terre del Sacro Albero/Gurranq/Gowry"
     items:
       - id: "229"
         data: ["Use the Haligtree Medallion at the Grand Lift of Rold"]
+        data_it: ["Usa il medaglione segreto del Sacro Albero al Grande Ascensore di Rold"]
       - id: "230"
         data: ["Kill the Mimic in the Hidden Path to the Haligtree for a Deathroot"]
+        data_it: ["Uccidi la Lacrima riflessa lungo il Cammino verso il Sacro Albero per ottenere una Radice mortale"]
       - id: "231"
         data: ["Summon Latenna at Apostate Derelict"]
+        data_it: ["Evoca Latenna al Rudere apostata"]
       - id: "232"
         data: ["Enter the Waygate to Mohgwyn's Palace"]
+        data_it: ["Attraversa il portale per il Palazzo di Mohgwyn"]
       - id: "233"
         data: ["Give the remaining Deathroot to Gurranq"]
+        data_it: ["Consegna le Radici mortali rimanenti a Gurranq"]
       - id: "234"
         data: ["Talk to Gowry and buy all his spells then talk again (may need reload)"]
+        data_it: ["Parla con Gowry, acquista tutti i suoi incantesimi e riparlagli (potrebbe servire un ricaricamento dell'area)"]
   -
     title: "Mohgwyn's Palace/Miquella's Haligtree"
+    title_it: "Palazzo di Mohgwyn/Sacro Albero di Miquella"
     items:
       - id: "235"
         data: ["Kill the 3 Invaders, Nameless White Masks spread throughout the Mohgwyn's Palace area"]
+        data_it: ["Uccidi i 3 invasori, le Maschere bianche senza nome sparse per l'area del Palazzo di Mohgwyn"]
       - id: "236"
         data: ["Invade and kill Varré near the Dynasty Mausoleum Midpoint Grace then speak to him"]
+        data_it: ["Invadi e uccidi Varré vicino al Sito di grazia Punto d'osservazione del mausoleo, poi parlagli"]
       - id: "237"
         data: ["Kill Mohgwyn, Lord of Blood"]
+        data_it: ["Uccidi Mohg, Signore del Sangue"]
       - id: "238"
         data: ["Light the fires in Ordina, Liturgical Town in Consecrated Snowfield"]
+        data_it: ["Accendi i bracieri a Ordina, città liturgica nelle Terre del Sacro Albero"]
       - id: "239"
         data: ["Talk to Millicent in the Prayer Room of the Haligtree"]
+        data_it: ["Parla con Millicent nella Sala della preghiera del Sacro Albero"]
       - id: "240"
         data: ["Kill the Ulcerated Tree Spirit near Drainage Channel Grace"]
+        data_it: ["Uccidi lo Spirito arboreo ulcerato vicino al Sito di grazia Canale di scolo"]
       - id: "241"
         data: ["Near where you killed the Ulcerated Tree Spirit, choose to Save or Kill Millicent (for purposes of the guide, we are saving her) and talk to her afterward"]
+        data_it: ["Vicino a dove hai ucciso lo Spirito arboreo ulcerato, scegli se salvare o uccidere Millicent (ai fini della guida, la salveremo) e parlagli dopo"]
       - id: "242"
         data: ["Kill Malenia"]
+        data_it: ["Uccidi Malenia"]
       - id: "243"
         data: ["Return to Gowry and talk him and reload (if he isn't dead, kill him)"]
+        data_it: ["Torna da Gowry, parlagli e ricarica l'area (se non è morto, uccidilo)"]
       - id: "244"
         data: ["Go to Gideon and talk to him about the Medallion, the Tree, the Palace, and the Lord of Blood"]
+        data_it: ["Vai da Gideon e parlagli del medaglione, dell'Albero, del Palazzo e del Signore del Sangue"]
       - id: "245"
         data: ["Talk to Hewg after upgrading any weapon to max"]
+        data_it: ["Parla con Hewg dopo aver potenziato un'arma al massimo"]
   -
     title: "WARNING!!! THIS PARTICULAR STEP IS OPTIONAL BUT WILL BE REQUIRED TO FINISH ALL QUESTLINES COMPLETELY"
+    title_it: "ATTENZIONE!!! QUESTO PASSAGGIO È FACOLTATIVO MA SARÀ NECESSARIO PER COMPLETARE TUTTE LE MISSIONI"
     items:
       - id: "246"
         data: ["Go to the Cathedral of the Forsaken Grace in the Sewers and talk to Melina"]
+        data_it: ["Vai al Sito di grazia Cattedrale dei dimenticati nelle fogne e parla con Melina"]
       - id: "247"
         data: ["Attack the altar then travel down to the bottom and talk to Hyetta before undressing in front of her"]
+        data_it: ["Attacca l'altare, scendi fino in fondo e parla con Hyetta prima di spogliarti davanti a lei"]
       - id: "248"
         data: ["Talk to Melina at the Frenzied Flame Proscription Grace (THIS IS YOUR FINAL CHANCE TO STOP)"]
+        data_it: ["Parla con Melina al Sito di grazia Prigione della Fiamma della Frenesia (QUESTA È L'ULTIMA OCCASIONE PER FERMARTI)"]
       - id: "249"
         data: ["Open up the doors and let the Fingers have their way with unclothed body"]
+        data_it: ["Apri le porte e lascia che le Dita marchino il tuo corpo nudo"]
       - id: "250"
         data: ["Talk Hyetta"]
+        data_it: ["Parla con Hyetta"]
       - id: "251"
         data: ["Talk to Melina"]
+        data_it: ["Parla con Melina"]
   -
     title: "Crumbling Farum Azula/Wrapping Up"
+    title_it: "Farum Azula in frantumi/Conclusione"
     items:
       - id: "252"
         data: ["Go to the Forge of Giants and rest at the Grace"]
+        data_it: ["Vai alla Forgia dei giganti e riposa al Sito di grazia"]
       - id: "253"
         data: ["Talk to Alexander, behind the Imp Statue near Dragon Temple Lift Grace, duel him and kill him"]
+        data_it: ["Parla con Alexander dietro la statua del gargoyle vicino al Sito di grazia Ascensore del tempio del drago, sfidalo a duello e uccidilo"]
       - id: "254"
         data: ["Kill Recusant Bernahl near Beside the Great Bridge Grace going on the path opposite the bossroom"]
+        data_it: ["Uccidi il Recusante Bernahl vicino al Sito di grazia Accanto al grande ponte, procedendo lungo il sentiero opposto alla stanza del boss"]
       - id: "255"
         data: ["Talk to Boc back at East Capital Rampart Grace"]
+        data_it: ["Torna a parlare con Boc al Sito di grazia Bastione orientale della capitale"]
       - id: "256"
         data: ["Talk to Jar Bairn and Diallos in Jargurg, reloading until all dialog is finished"]
+        data_it: ["Parla con Jar Bairn e Diallos a Vasoburgo, ricaricando l'area finché non terminano i dialoghi"]
       - id: "257"
         data: ["Pass time until morning and talk to each again"]
+        data_it: ["Fai passare il tempo fino al mattino e riparla con entrambi"]
       - id: "258"
         data: ["Reload and talk to Jar Bairn then reload and give him Alexander's Shard then reload again"]
+        data_it: ["Ricarica e parla con Jar Bairn, poi ricarica e dagli il Frammento di Alexander, quindi ricarica di nuovo"]
       - id: "259"
         data: ["Talk to Hewg, Roderika and Gideon in Roundtable Hold. Enia will be dead"]
+        data_it: ["Parla con Hewg, Roderika e Gideon alla Rocca della Tavola rotonda. Enia sarà morta"]
       - id: "260"
         data: ["Kill Malekith the Black Blade at the end of Crumbling Farrum Azula"]
+        data_it: ["Uccidi Maliketh la Lama Nera alla fine di Farum Azula in frantumi"]
   -
     title: "Capital of Ash"
+    title_it: "Capitale posacenere"
     items:
       - id: "261"
         data: ["Talk to Brother Corhyn, reload and grab his stuff"]
+        data_it: ["Parla con Fratel Corhyn, ricarica l'area e raccogli i suoi oggetti"]
       - id: "262"
         data: ["Find Goldmask's body beyond the giant plants and get the Mending Rune of Perfect Order then reload for his stuff"]
+        data_it: ["Trova il corpo di Maschera d'oro oltre le piante giganti, ottieni la Runa riparatrice dell'Ordine Perfetto e ricarica per i suoi oggetti"]
       - id: "263"
         data: ["Finish the game"]
+        data_it: ["Completa il gioco"]

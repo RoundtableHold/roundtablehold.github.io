@@ -16,7 +16,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_1",
           "link": "/checklists/bosses.html#item_2_1",
-          "title": "Soldier of Godrick (Tutorial)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Soldier of Godrick (Tutorial)</span><span class=\"lang-text lang-it d-none\">Soldato di Godrick</span></span>"
         },
         "type": "Feature"
       },
@@ -35,7 +35,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_14",
           "link": "/checklists/bosses.html#item_2_14",
-          "title": "Tree Sentinel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tree Sentinel</span><span class=\"lang-text lang-it d-none\">Sentinella dell'Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -54,7 +54,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_2",
           "link": "/checklists/bosses.html#item_2_2",
-          "title": "Demi-Human Chief (x2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Demi-Human Chief (x2)</span><span class=\"lang-text lang-it d-none\">Capo Semiumano (x2)</span></span>"
         },
         "type": "Feature"
       },
@@ -73,7 +73,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_3",
           "link": "/checklists/bosses.html#item_2_3",
-          "title": "Erdtree Burial Watchdog"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Burial Watchdog</span><span class=\"lang-text lang-it d-none\">Cane da guardia sepolcrale dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -92,7 +92,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_4",
           "link": "/checklists/bosses.html#item_2_4",
-          "title": "Beastman of Farum Azula"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Beastman of Farum Azula</span><span class=\"lang-text lang-it d-none\">Uomo bestia di Farum Azula</span></span>"
         },
         "type": "Feature"
       },
@@ -111,7 +111,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_5",
           "link": "/checklists/bosses.html#item_2_5",
-          "title": "Stonedigger Troll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonedigger Troll</span><span class=\"lang-text lang-it d-none\">Troll scavapietra</span></span>"
         },
         "type": "Feature"
       },
@@ -130,7 +130,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_13",
           "link": "/checklists/bosses.html#item_2_13",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -149,7 +149,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_12",
           "link": "/checklists/bosses.html#item_2_12",
-          "title": "Mad Pumpkin Head"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mad Pumpkin Head</span><span class=\"lang-text lang-it d-none\">Testa di Zucca impazzito</span></span>"
         },
         "type": "Feature"
       },
@@ -168,7 +168,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_18",
           "link": "/checklists/bosses.html#item_2_18",
-          "title": "Bloodhound Knight Darriwil"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bloodhound Knight Darriwil</span><span class=\"lang-text lang-it d-none\">Darriwil, Cavaliere Limiere</span></span>"
         },
         "type": "Feature"
       },
@@ -187,7 +187,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_7",
           "link": "/checklists/bosses.html#item_2_7",
-          "title": "Bloody Finger Nerijus (NPC Invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bloody Finger Nerijus (NPC Invader)</span><span class=\"lang-text lang-it d-none\">Dito Sanguinante Nerijus</span></span>"
         },
         "type": "Feature"
       },
@@ -206,7 +206,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_8",
           "link": "/checklists/bosses.html#item_2_8",
-          "title": "Patches"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Patches</span><span class=\"lang-text lang-it d-none\">Patches</span></span>"
         },
         "type": "Feature"
       },
@@ -225,7 +225,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_6",
           "link": "/checklists/bosses.html#item_2_6",
-          "title": "Grave Warden Duelist"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grave Warden Duelist</span><span class=\"lang-text lang-it d-none\">Duellante Guardiano delle tombe</span></span>"
         },
         "type": "Feature"
       },
@@ -244,7 +244,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_9",
           "link": "/checklists/bosses.html#item_2_9",
-          "title": "Guardian Golem"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Guardian Golem</span><span class=\"lang-text lang-it d-none\">Golem guardiano</span></span>"
         },
         "type": "Feature"
       },
@@ -263,7 +263,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_10",
           "link": "/checklists/bosses.html#item_2_10",
-          "title": "Black Knife Assassin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Knife Assassin</span><span class=\"lang-text lang-it d-none\">Assassina dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -282,7 +282,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_15",
           "link": "/checklists/bosses.html#item_2_15",
-          "title": "Flying Dragon Agheel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flying Dragon Agheel</span><span class=\"lang-text lang-it d-none\">Agheel, Drago volante</span></span>"
         },
         "type": "Feature"
       },
@@ -301,7 +301,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_16",
           "link": "/checklists/bosses.html#item_2_16",
-          "title": "Tibia Mariner"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tibia Mariner</span><span class=\"lang-text lang-it d-none\">Nochiero tibiale</span></span>"
         },
         "type": "Feature"
       },
@@ -320,7 +320,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_32",
           "link": "/checklists/bosses.html#item_2_32",
-          "title": "Godrick Knight (During Kenneth Haight Questline)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godrick Knight (During Kenneth Haight Questline)</span><span class=\"lang-text lang-it d-none\">Cavaliere di Godrick</span></span>"
         },
         "type": "Feature"
       },
@@ -339,7 +339,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_17",
           "link": "/checklists/bosses.html#item_2_17",
-          "title": "Anastasia, Tarnished-Eater (NPC Invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Anastasia, Tarnished-Eater (NPC Invader)</span><span class=\"lang-text lang-it d-none\">Anastasia, Divoratrice di Senzaluce</span></span>"
         },
         "type": "Feature"
       },
@@ -358,7 +358,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_19",
           "link": "/checklists/bosses.html#item_2_19",
-          "title": "Crucible Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crucible Knight</span><span class=\"lang-text lang-it d-none\">Cavaliere del Crogiolo</span></span>"
         },
         "type": "Feature"
       },
@@ -377,7 +377,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_20",
           "link": "/checklists/bosses.html#item_2_20",
-          "title": "Bell Bearing Hunter (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bell Bearing Hunter (Night only)</span><span class=\"lang-text lang-it d-none\">Cacciatore di Globi cinerei</span></span>"
         },
         "type": "Feature"
       },
@@ -396,7 +396,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_21",
           "link": "/checklists/bosses.html#item_2_21",
-          "title": "Deathbird (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathbird (Night only)</span><span class=\"lang-text lang-it d-none\">Uccello della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -415,7 +415,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_11",
           "link": "/checklists/bosses.html#item_2_11",
-          "title": "Recusant Henricus (NPC Invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Recusant Henricus (NPC Invader)</span><span class=\"lang-text lang-it d-none\">Riccusante Henricus</span></span>"
         },
         "type": "Feature"
       },
@@ -434,7 +434,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_30",
           "link": "/checklists/bosses.html#item_2_30",
-          "title": "Grafted Scion (x2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grafted Scion (x2)</span><span class=\"lang-text lang-it d-none\">Progenie innestata (x2)</span></span>"
         },
         "type": "Feature"
       },
@@ -453,7 +453,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_23",
           "link": "/checklists/bosses.html#item_2_23",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -472,7 +472,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_24",
           "link": "/checklists/bosses.html#item_2_24",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -491,7 +491,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_25",
           "link": "/checklists/bosses.html#item_2_25",
-          "title": "Crucible Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crucible Knight</span><span class=\"lang-text lang-it d-none\">Cavaliere del Crogiolo</span></span>"
         },
         "type": "Feature"
       },
@@ -510,7 +510,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_26",
           "link": "/checklists/bosses.html#item_2_26",
-          "title": "Grafted Scion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grafted Scion</span><span class=\"lang-text lang-it d-none\">Progenie innestata</span></span>"
         },
         "type": "Feature"
       },
@@ -529,7 +529,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_27",
           "link": "/checklists/bosses.html#item_2_27",
-          "title": "Lion Guardian"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lion Guardian</span><span class=\"lang-text lang-it d-none\">Leone guardiano</span></span>"
         },
         "type": "Feature"
       },
@@ -548,7 +548,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_28",
           "link": "/checklists/bosses.html#item_2_28",
-          "title": "Margit, the Fell Omen"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Margit, the Fell Omen</span><span class=\"lang-text lang-it d-none\">Margit, il Presagio Implacabile</span></span>"
         },
         "type": "Feature"
       },
@@ -567,7 +567,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_29",
           "link": "/checklists/bosses.html#item_2_29",
-          "title": "Godrick the Grafted"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godrick the Grafted</span><span class=\"lang-text lang-it d-none\">Godrick l'Innestato</span></span>"
         },
         "type": "Feature"
       },
@@ -586,7 +586,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_2_22",
           "link": "/checklists/bosses.html#item_2_22",
-          "title": "Old Knight Istvan (Volcano Manor Questline)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Old Knight Istvan (Volcano Manor Questline)</span><span class=\"lang-text lang-it d-none\">Vecchio Cavaliere Istvan</span></span>"
         },
         "type": "Feature"
       },
@@ -605,7 +605,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_2",
           "link": "/checklists/bosses.html#item_1_2",
-          "title": "Runebear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Runebear</span><span class=\"lang-text lang-it d-none\">Orso runico</span></span>"
         },
         "type": "Feature"
       },
@@ -624,7 +624,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_3",
           "link": "/checklists/bosses.html#item_1_3",
-          "title": "Demi-Human Queen"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Demi-Human Queen</span><span class=\"lang-text lang-it d-none\">Regina semiumana</span></span>"
         },
         "type": "Feature"
       },
@@ -643,7 +643,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_8",
           "link": "/checklists/bosses.html#item_1_8",
-          "title": "Scaly Misbegotten"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Scaly Misbegotten</span><span class=\"lang-text lang-it d-none\">Progenie scagliosa</span></span>"
         },
         "type": "Feature"
       },
@@ -662,7 +662,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_4",
           "link": "/checklists/bosses.html#item_1_4",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -681,7 +681,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_1",
           "link": "/checklists/bosses.html#item_1_1",
-          "title": "Erdtree Burial Watchdog"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Burial Watchdog</span><span class=\"lang-text lang-it d-none\">Cane da guardia sepolcrale dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -700,7 +700,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_7",
           "link": "/checklists/bosses.html#item_1_7",
-          "title": "Erdtree Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -719,7 +719,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_6",
           "link": "/checklists/bosses.html#item_1_6",
-          "title": "Cemetery Shade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cemetery Shade</span><span class=\"lang-text lang-it d-none\">Ombra cimiteriale</span></span>"
         },
         "type": "Feature"
       },
@@ -738,7 +738,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_9",
           "link": "/checklists/bosses.html#item_1_9",
-          "title": "Miranda, the Blighted Bloom"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Miranda, the Blighted Bloom</span><span class=\"lang-text lang-it d-none\">Miranda, la Rovina in fiore</span></span>"
         },
         "type": "Feature"
       },
@@ -757,7 +757,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_10",
           "link": "/checklists/bosses.html#item_1_10",
-          "title": "Ancient Hero of Zamor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Hero of Zamor</span><span class=\"lang-text lang-it d-none\">Antico Eroe di Zamor</span></span>"
         },
         "type": "Feature"
       },
@@ -776,7 +776,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_5",
           "link": "/checklists/bosses.html#item_1_5",
-          "title": "Deathbird (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathbird (Night only)</span><span class=\"lang-text lang-it d-none\">Uccello della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -795,7 +795,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_1_11",
           "link": "/checklists/bosses.html#item_1_11",
-          "title": "Leonine Misbegotten"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leonine Misbegotten</span><span class=\"lang-text lang-it d-none\">Progenie leonina</span></span>"
         },
         "type": "Feature"
       },
@@ -814,7 +814,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_1",
           "link": "/checklists/bosses.html#item_4_1",
-          "title": "Cleanrot Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cleanrot Knight</span><span class=\"lang-text lang-it d-none\">Cavaliere del Nobile marciume</span></span>"
         },
         "type": "Feature"
       },
@@ -833,7 +833,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_37",
           "link": "/checklists/bosses.html#item_4_37",
-          "title": "Bloodhound Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bloodhound Knight</span><span class=\"lang-text lang-it d-none\">Cavaliere Limiere</span></span>"
         },
         "type": "Feature"
       },
@@ -852,7 +852,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_2",
           "link": "/checklists/bosses.html#item_4_2",
-          "title": "Adan, Thief of Fire"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Adan, Thief of Fire</span><span class=\"lang-text lang-it d-none\">Adan, il ladro del fuoco</span></span>"
         },
         "type": "Feature"
       },
@@ -871,7 +871,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_3",
           "link": "/checklists/bosses.html#item_4_3",
-          "title": "Erdtree Burial Watchdog"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Burial Watchdog</span><span class=\"lang-text lang-it d-none\">Cane da guardia sepolcrale dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -890,7 +890,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_4",
           "link": "/checklists/bosses.html#item_4_4",
-          "title": "Tibia Mariner"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tibia Mariner</span><span class=\"lang-text lang-it d-none\">Nochiero tibiale</span></span>"
         },
         "type": "Feature"
       },
@@ -909,7 +909,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_6",
           "link": "/checklists/bosses.html#item_4_6",
-          "title": "Preceptor Miriam (NPC invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Preceptor Miriam (NPC invader)</span><span class=\"lang-text lang-it d-none\">Precettore Miriam</span></span>"
         },
         "type": "Feature"
       },
@@ -928,7 +928,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_39",
           "link": "/checklists/bosses.html#item_4_39",
-          "title": "Preceptor Miriam (NPC invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Preceptor Miriam (NPC invader)</span><span class=\"lang-text lang-it d-none\">Precettore Miriam</span></span>"
         },
         "type": "Feature"
       },
@@ -947,7 +947,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_7",
           "link": "/checklists/bosses.html#item_4_7",
-          "title": "Godskin Noble"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godskin Noble</span><span class=\"lang-text lang-it d-none\">Nobile Sacriderma</span></span>"
         },
         "type": "Feature"
       },
@@ -966,7 +966,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_5",
           "link": "/checklists/bosses.html#item_4_5",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -985,7 +985,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_8",
           "link": "/checklists/bosses.html#item_4_8",
-          "title": "Deathbird (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathbird (Night only)</span><span class=\"lang-text lang-it d-none\">Uccello della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -1004,7 +1004,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_9",
           "link": "/checklists/bosses.html#item_4_9",
-          "title": "Grafted Scion (Kill the Lobster first)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grafted Scion (Kill the Lobster first)</span><span class=\"lang-text lang-it d-none\">Progenie innestata</span></span>"
         },
         "type": "Feature"
       },
@@ -1023,7 +1023,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_10",
           "link": "/checklists/bosses.html#item_4_10",
-          "title": "Glintstone Dragon Smarag"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Dragon Smarag</span><span class=\"lang-text lang-it d-none\">Smarag, il Drago di scintipietra</span></span>"
         },
         "type": "Feature"
       },
@@ -1042,7 +1042,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_11",
           "link": "/checklists/bosses.html#item_4_11",
-          "title": "Crystalian (Spear) & Crystalian (Staff)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crystalian (Spear) & Crystalian (Staff)</span><span class=\"lang-text lang-it d-none\">Cristalliana (Lancia) & Cristalliana (Bastone)</span></span>"
         },
         "type": "Feature"
       },
@@ -1061,7 +1061,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_12",
           "link": "/checklists/bosses.html#item_4_12",
-          "title": "Death Rite Bird (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Death Rite Bird (Night only)</span><span class=\"lang-text lang-it d-none\">Uccello del rito della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -1080,7 +1080,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_13",
           "link": "/checklists/bosses.html#item_4_13",
-          "title": "Crystalian (Ringblade)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crystalian (Ringblade)</span><span class=\"lang-text lang-it d-none\">Cristalliana (Lama ad anello)</span></span>"
         },
         "type": "Feature"
       },
@@ -1099,7 +1099,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_14",
           "link": "/checklists/bosses.html#item_4_14",
-          "title": "Bell Bearing Hunter (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bell Bearing Hunter (Night only)</span><span class=\"lang-text lang-it d-none\">Cacciatore di Globi cinerei</span></span>"
         },
         "type": "Feature"
       },
@@ -1118,7 +1118,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_16",
           "link": "/checklists/bosses.html#item_4_16",
-          "title": "Cemetery Shade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cemetery Shade</span><span class=\"lang-text lang-it d-none\">Ombra cimiteriale</span></span>"
         },
         "type": "Feature"
       },
@@ -1137,7 +1137,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_17",
           "link": "/checklists/bosses.html#item_4_17",
-          "title": "Black Knife Assassin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Knife Assassin</span><span class=\"lang-text lang-it d-none\">Assassina dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -1156,7 +1156,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_18",
           "link": "/checklists/bosses.html#item_4_18",
-          "title": "Festering Fingerprint Vyke (NPC invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Festering Fingerprint Vyke (NPC invader)</span><span class=\"lang-text lang-it d-none\">Vyke, Dito della Putrefazione</span></span>"
         },
         "type": "Feature"
       },
@@ -1175,7 +1175,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_15",
           "link": "/checklists/bosses.html#item_4_15",
-          "title": "Erdtree Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -1194,7 +1194,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_19",
           "link": "/checklists/bosses.html#item_4_19",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -1213,7 +1213,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_26",
           "link": "/checklists/bosses.html#item_4_26",
-          "title": "Omenkiller (Underground, Village of the Albinaurics)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Omenkiller (Underground, Village of the Albinaurics)</span><span class=\"lang-text lang-it d-none\">Ammazzapresagi</span></span>"
         },
         "type": "Feature"
       },
@@ -1232,7 +1232,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_24",
           "link": "/checklists/bosses.html#item_4_24",
-          "title": "Erdtree Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -1251,7 +1251,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_25",
           "link": "/checklists/bosses.html#item_4_25",
-          "title": "Spirit-Caller Snail"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spirit-Caller Snail</span><span class=\"lang-text lang-it d-none\">Lumaca evocatrice di spiriti</span></span>"
         },
         "type": "Feature"
       },
@@ -1270,7 +1270,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_23",
           "link": "/checklists/bosses.html#item_4_23",
-          "title": "Edgar, the Revenger (NPC invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Edgar, the Revenger (NPC invader)</span><span class=\"lang-text lang-it d-none\">Edgar, il Vendicatore</span></span>"
         },
         "type": "Feature"
       },
@@ -1289,7 +1289,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_22",
           "link": "/checklists/bosses.html#item_4_22",
-          "title": "Bols, Carian Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bols, Carian Knight</span><span class=\"lang-text lang-it d-none\">Bols, il cavaliere cariano</span></span>"
         },
         "type": "Feature"
       },
@@ -1308,7 +1308,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_21",
           "link": "/checklists/bosses.html#item_4_21",
-          "title": "Grafted Scion (via The Four Belfries in Western Liurnia)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grafted Scion (via The Four Belfries in Western Liurnia)</span><span class=\"lang-text lang-it d-none\">Progenie innestata</span></span>"
         },
         "type": "Feature"
       },
@@ -1327,7 +1327,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_20",
           "link": "/checklists/bosses.html#item_4_20",
-          "title": "Royal Revenant"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Royal Revenant</span><span class=\"lang-text lang-it d-none\">Cavaliere redivivo (Revenant reale)</span></span>"
         },
         "type": "Feature"
       },
@@ -1346,7 +1346,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_27",
           "link": "/checklists/bosses.html#item_4_27",
-          "title": "Royal Knight Loretta"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Royal Knight Loretta</span><span class=\"lang-text lang-it d-none\">Loretta, Cavaliere reale</span></span>"
         },
         "type": "Feature"
       },
@@ -1365,7 +1365,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_28",
           "link": "/checklists/bosses.html#item_4_28",
-          "title": "Red Wolf"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Red Wolf</span><span class=\"lang-text lang-it d-none\">Lupo Rosso</span></span>"
         },
         "type": "Feature"
       },
@@ -1384,7 +1384,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_29",
           "link": "/checklists/bosses.html#item_4_29",
-          "title": "Alabaster Lord (Onyx Lord)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Alabaster Lord (Onyx Lord)</span><span class=\"lang-text lang-it d-none\">Signore della Pietra d'onice</span></span>"
         },
         "type": "Feature"
       },
@@ -1403,7 +1403,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_30",
           "link": "/checklists/bosses.html#item_4_30",
-          "title": "Glintstone Dragon Adula"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Dragon Adula</span><span class=\"lang-text lang-it d-none\">Adula, drago di scintipietra</span></span>"
         },
         "type": "Feature"
       },
@@ -1422,7 +1422,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_40",
           "link": "/checklists/bosses.html#item_4_40",
-          "title": "Glintstone Dragon Adula"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Dragon Adula</span><span class=\"lang-text lang-it d-none\">Adula, drago di scintipietra</span></span>"
         },
         "type": "Feature"
       },
@@ -1441,7 +1441,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_31",
           "link": "/checklists/bosses.html#item_4_31",
-          "title": "Red Wolf"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Red Wolf</span><span class=\"lang-text lang-it d-none\">Lupo Rosso</span></span>"
         },
         "type": "Feature"
       },
@@ -1460,7 +1460,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_32",
           "link": "/checklists/bosses.html#item_4_32",
-          "title": "Alecto, Black Knife Ringleader"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Alecto, Black Knife Ringleader</span><span class=\"lang-text lang-it d-none\">Alecto, Capo dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -1479,7 +1479,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_34",
           "link": "/checklists/bosses.html#item_4_34",
-          "title": "Bloody Finger Ravenmount Assassin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bloody Finger Ravenmount Assassin</span><span class=\"lang-text lang-it d-none\">Assassina dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -1498,7 +1498,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_35",
           "link": "/checklists/bosses.html#item_4_35",
-          "title": "Red Wolf of Radagon"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Red Wolf of Radagon</span><span class=\"lang-text lang-it d-none\">Lupo rosso di Radagon</span></span>"
         },
         "type": "Feature"
       },
@@ -1517,7 +1517,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_38",
           "link": "/checklists/bosses.html#item_4_38",
-          "title": "Moongrum, Carian Knight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Moongrum, Carian Knight</span><span class=\"lang-text lang-it d-none\">Moongrum, il cavaliere cariano</span></span>"
         },
         "type": "Feature"
       },
@@ -1536,7 +1536,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_36",
           "link": "/checklists/bosses.html#item_4_36",
-          "title": "Rennala, Queen of the Full Moon"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rennala, Queen of the Full Moon</span><span class=\"lang-text lang-it d-none\">Rennala, Regina del Plenilunio</span></span>"
         },
         "type": "Feature"
       },
@@ -1555,7 +1555,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_4_33",
           "link": "/checklists/bosses.html#item_4_33",
-          "title": "Magma Wyrm Makar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magma Wyrm Makar</span><span class=\"lang-text lang-it d-none\">Makar, Drago di magma</span></span>"
         },
         "type": "Feature"
       },
@@ -1574,7 +1574,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_1",
           "link": "/checklists/bosses.html#item_5_1",
-          "title": "Magma Wyrm"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magma Wyrm</span><span class=\"lang-text lang-it d-none\">Drago di magma</span></span>"
         },
         "type": "Feature"
       },
@@ -1593,7 +1593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_2",
           "link": "/checklists/bosses.html#item_5_2",
-          "title": "Putrid Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Putrid Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione putrida</span></span>"
         },
         "type": "Feature"
       },
@@ -1612,7 +1612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_3",
           "link": "/checklists/bosses.html#item_5_3",
-          "title": "Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)</span><span class=\"lang-text lang-it d-none\">Cane da guardia sepolcrale dell'Albero Madre (Spada e Bastone)</span></span>"
         },
         "type": "Feature"
       },
@@ -1631,7 +1631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_4",
           "link": "/checklists/bosses.html#item_5_4",
-          "title": "Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)</span><span class=\"lang-text lang-it d-none\">Testa di Zucca impazzito (Martello e Mazzafrusto)</span></span>"
         },
         "type": "Feature"
       },
@@ -1650,7 +1650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_5",
           "link": "/checklists/bosses.html#item_5_5",
-          "title": "Knight of the Great Jar (x3) (NPC Invaders)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Knight of the Great Jar (x3) (NPC Invaders)</span><span class=\"lang-text lang-it d-none\">Cavaliere del Grande Vaso (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -1669,7 +1669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_30",
           "link": "/checklists/bosses.html#item_5_30",
-          "title": "Lion Guardian"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lion Guardian</span><span class=\"lang-text lang-it d-none\">Leone guardiano</span></span>"
         },
         "type": "Feature"
       },
@@ -1688,7 +1688,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_6",
           "link": "/checklists/bosses.html#item_5_6",
-          "title": "Frenzied Duelist"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied Duelist</span><span class=\"lang-text lang-it d-none\">Duellante frenetico</span></span>"
         },
         "type": "Feature"
       },
@@ -1707,7 +1707,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_7",
           "link": "/checklists/bosses.html#item_5_7",
-          "title": "Decaying Ekzykes"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Decaying Ekzykes</span><span class=\"lang-text lang-it d-none\">Ekzykes il Decadente</span></span>"
         },
         "type": "Feature"
       },
@@ -1726,7 +1726,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_28",
           "link": "/checklists/bosses.html#item_5_28",
-          "title": "Cemetery Shade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cemetery Shade</span><span class=\"lang-text lang-it d-none\">Ombra cimiteriale</span></span>"
         },
         "type": "Feature"
       },
@@ -1745,7 +1745,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_8",
           "link": "/checklists/bosses.html#item_5_8",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -1764,7 +1764,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_31",
           "link": "/checklists/bosses.html#item_5_31",
-          "title": "Lion Guardian"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lion Guardian</span><span class=\"lang-text lang-it d-none\">Leone guardiano</span></span>"
         },
         "type": "Feature"
       },
@@ -1783,7 +1783,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_9",
           "link": "/checklists/bosses.html#item_5_9",
-          "title": "Death Rite Bird (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Death Rite Bird (Night only)</span><span class=\"lang-text lang-it d-none\">Uccello del rito della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -1802,7 +1802,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_10",
           "link": "/checklists/bosses.html#item_5_10",
-          "title": "Commander O'Neil"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Commander O'Neil</span><span class=\"lang-text lang-it d-none\">Comandante O'Neil</span></span>"
         },
         "type": "Feature"
       },
@@ -1821,7 +1821,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_11",
           "link": "/checklists/bosses.html#item_5_11",
-          "title": "Milicent (NPC Invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Milicent (NPC Invader)</span><span class=\"lang-text lang-it d-none\">Millicent</span></span>"
         },
         "type": "Feature"
       },
@@ -1840,7 +1840,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_12",
           "link": "/checklists/bosses.html#item_5_12",
-          "title": "Nox Priest & Nox Swordstress"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nox Priest & Nox Swordstress</span><span class=\"lang-text lang-it d-none\">Sacerdotessa di Nox & Spadaccina di Nox</span></span>"
         },
         "type": "Feature"
       },
@@ -1859,7 +1859,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_13",
           "link": "/checklists/bosses.html#item_5_13",
-          "title": "Fallingstar Beast"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fallingstar Beast</span><span class=\"lang-text lang-it d-none\">Belva meteoritica</span></span>"
         },
         "type": "Feature"
       },
@@ -1878,7 +1878,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_14",
           "link": "/checklists/bosses.html#item_5_14",
-          "title": "Cleanrot Knight (Sickle) & Cleanrot Knight (Spear)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cleanrot Knight (Sickle) & Cleanrot Knight (Spear)</span><span class=\"lang-text lang-it d-none\">Cavaliere del Nobile marciume (Falce e Lancia)</span></span>"
         },
         "type": "Feature"
       },
@@ -1897,7 +1897,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_15",
           "link": "/checklists/bosses.html#item_5_15",
-          "title": "Battlemage Hugues"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Battlemage Hugues</span><span class=\"lang-text lang-it d-none\">Hugues, il Mago della battaglia</span></span>"
         },
         "type": "Feature"
       },
@@ -1916,7 +1916,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_16",
           "link": "/checklists/bosses.html#item_5_16",
-          "title": "Elder Dragon Greyoll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elder Dragon Greyoll</span><span class=\"lang-text lang-it d-none\">Drago anziano Greyoll</span></span>"
         },
         "type": "Feature"
       },
@@ -1935,7 +1935,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_17",
           "link": "/checklists/bosses.html#item_5_17",
-          "title": "Putrid Crystalian (Spear, Ringblade & Staff)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Putrid Crystalian (Spear, Ringblade & Staff)</span><span class=\"lang-text lang-it d-none\">Cristalliana putrida (Lancia, Lama ad anello e Bastone)</span></span>"
         },
         "type": "Feature"
       },
@@ -1954,7 +1954,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_18",
           "link": "/checklists/bosses.html#item_5_18",
-          "title": "Godskin Apostle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godskin Apostle</span><span class=\"lang-text lang-it d-none\">Apostolo Sacriderma</span></span>"
         },
         "type": "Feature"
       },
@@ -1973,7 +1973,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_20",
           "link": "/checklists/bosses.html#item_5_20",
-          "title": "Putrid Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Putrid Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione putrida</span></span>"
         },
         "type": "Feature"
       },
@@ -1992,7 +1992,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_19",
           "link": "/checklists/bosses.html#item_5_19",
-          "title": "Bell Bearing Hunter (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bell Bearing Hunter (Night only)</span><span class=\"lang-text lang-it d-none\">Cacciatore di Globi cinerei</span></span>"
         },
         "type": "Feature"
       },
@@ -2011,7 +2011,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_21",
           "link": "/checklists/bosses.html#item_5_21",
-          "title": "Beastman of Farum Azula (Greatsword & Throwing Knife)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Beastman of Farum Azula (Greatsword & Throwing Knife)</span><span class=\"lang-text lang-it d-none\">Uomo bestia di Farum Azula (Spadone e Coltello da lancio)</span></span>"
         },
         "type": "Feature"
       },
@@ -2030,7 +2030,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_23",
           "link": "/checklists/bosses.html#item_5_23",
-          "title": "Flying Dragon Greyll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flying Dragon Greyll</span><span class=\"lang-text lang-it d-none\">Greyll, Drago volante</span></span>"
         },
         "type": "Feature"
       },
@@ -2049,7 +2049,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_24",
           "link": "/checklists/bosses.html#item_5_24",
-          "title": "Black Blade Kindred"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Blade Kindred</span><span class=\"lang-text lang-it d-none\">Stirpe della Lama Nera</span></span>"
         },
         "type": "Feature"
       },
@@ -2068,7 +2068,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_25",
           "link": "/checklists/bosses.html#item_5_25",
-          "title": "Gurranq, Beast Clergyman"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gurranq, Beast Clergyman</span><span class=\"lang-text lang-it d-none\">Chierico bestiale Gurranq</span></span>"
         },
         "type": "Feature"
       },
@@ -2087,7 +2087,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_5_22",
           "link": "/checklists/bosses.html#item_5_22",
-          "title": "Night's Cavalry (Night only)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Cavalry (Night only)</span><span class=\"lang-text lang-it d-none\">Cavaliere notturno</span></span>"
         },
         "type": "Feature"
       },
@@ -2163,7 +2163,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_6_4",
           "link": "/checklists/bosses.html#item_6_4",
-          "title": "Eleonora, Violet Bloody Finger (NPC invader)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Eleonora, Violet Bloody Finger (NPC invader)</span><span class=\"lang-text lang-it d-none\">Eleonora, Dito Sanguinante purpureo</span></span>"
         },
         "type": "Feature"
       },
@@ -2182,7 +2182,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_6_7",
           "link": "/checklists/bosses.html#item_6_7",
-          "title": "Wormface"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wormface</span><span class=\"lang-text lang-it d-none\">Testa di Verme</span></span>"
         },
         "type": "Feature"
       },
@@ -2201,7 +2201,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_6_13",
           "link": "/checklists/bosses.html#item_6_13",
-          "title": "Fallingstar Beast"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fallingstar Beast</span><span class=\"lang-text lang-it d-none\">Belva meteoritica</span></span>"
         },
         "type": "Feature"
       },
@@ -2220,7 +2220,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_3",
           "link": "/checklists/bosses.html#item_7_3",
-          "title": "Tibia Mariner"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tibia Mariner</span><span class=\"lang-text lang-it d-none\">Nochiero tibiale</span></span>"
         },
         "type": "Feature"
       },
@@ -2239,7 +2239,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_12",
           "link": "/checklists/bosses.html#item_7_12",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -2258,7 +2258,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_14",
           "link": "/checklists/bosses.html#item_7_14",
-          "title": "Red Wolf of the Champion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Red Wolf of the Champion</span><span class=\"lang-text lang-it d-none\">Lupo rosso del Campione</span></span>"
         },
         "type": "Feature"
       },
@@ -2277,7 +2277,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_18",
           "link": "/checklists/bosses.html#item_7_18",
-          "title": "Magma Wyrm"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magma Wyrm</span><span class=\"lang-text lang-it d-none\">Drago di magma</span></span>"
         },
         "type": "Feature"
       },
@@ -2296,7 +2296,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_22",
           "link": "/checklists/bosses.html#item_7_22",
-          "title": "Magma Wyrm"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magma Wyrm</span><span class=\"lang-text lang-it d-none\">Drago di magma</span></span>"
         },
         "type": "Feature"
       },
@@ -2315,7 +2315,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_7_26",
           "link": "/checklists/bosses.html#item_7_26",
-          "title": "Rykard, Lord of Blasphemy"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rykard, Lord of Blasphemy</span><span class=\"lang-text lang-it d-none\">Rykard, Signore della Blasfemia</span></span>"
         },
         "type": "Feature"
       },
@@ -2334,7 +2334,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_8_1",
           "link": "/checklists/bosses.html#item_8_1",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -2353,7 +2353,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_8_11",
           "link": "/checklists/bosses.html#item_8_11",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -2372,7 +2372,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_8_18",
           "link": "/checklists/bosses.html#item_8_18",
-          "title": "Morgott, the Omen King"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morgott, the Omen King</span><span class=\"lang-text lang-it d-none\">Morgott, il Re Presagio</span></span>"
         },
         "type": "Feature"
       },
@@ -2391,7 +2391,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_9_4",
           "link": "/checklists/bosses.html#item_9_4",
-          "title": "Ulcerated Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ulcerated Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo ulcerato</span></span>"
         },
         "type": "Feature"
       },
@@ -2410,7 +2410,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_9_5",
           "link": "/checklists/bosses.html#item_9_5",
-          "title": "Erdtree Avatar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Avatar</span><span class=\"lang-text lang-it d-none\">Incarnazione dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -2429,7 +2429,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_9_8",
           "link": "/checklists/bosses.html#item_9_8",
-          "title": "Tibia Mariner"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tibia Mariner</span><span class=\"lang-text lang-it d-none\">Nochiero tibiale</span></span>"
         },
         "type": "Feature"
       },
@@ -2448,7 +2448,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_9_11",
           "link": "/checklists/bosses.html#item_9_11",
-          "title": "Borealis, the Freezing Fog"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Borealis, the Freezing Fog</span><span class=\"lang-text lang-it d-none\">Borealis, la nebbia gelata</span></span>"
         },
         "type": "Feature"
       },
@@ -2467,7 +2467,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_9_15",
           "link": "/checklists/bosses.html#item_9_15",
-          "title": "Fire Giant"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fire Giant</span><span class=\"lang-text lang-it d-none\">Gigante di fuoco</span></span>"
         },
         "type": "Feature"
       },
@@ -2486,7 +2486,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_10_13",
           "link": "/checklists/bosses.html#item_10_13",
-          "title": "Stray Mimic Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stray Mimic Tear</span><span class=\"lang-text lang-it d-none\">Lacrima riflessa errante</span></span>"
         },
         "type": "Feature"
       },
@@ -2505,7 +2505,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_10_5",
           "link": "/checklists/bosses.html#item_10_5",
-          "title": "Great Wyrm Theodorix"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Great Wyrm Theodorix</span><span class=\"lang-text lang-it d-none\">Theodorix, il Grande Drago</span></span>"
         },
         "type": "Feature"
       },
@@ -2562,7 +2562,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_14_2",
           "link": "/checklists/bosses.html#item_14_2",
-          "title": "Regal Ancestor Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Regal Ancestor Spirit</span><span class=\"lang-text lang-it d-none\">Spirito ancestrale regale</span></span>"
         },
         "type": "Feature"
       },
@@ -2581,7 +2581,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_15_3",
           "link": "/checklists/bosses.html#item_15_3",
-          "title": "Mohg, Lord of Blood"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mohg, Lord of Blood</span><span class=\"lang-text lang-it d-none\">Mohg, Signore del Sangue</span></span>"
         },
         "type": "Feature"
       },
@@ -2600,7 +2600,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_17_3",
           "link": "/checklists/bosses.html#item_17_3",
-          "title": "Lesser Putrid Tree Spirit"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lesser Putrid Tree Spirit</span><span class=\"lang-text lang-it d-none\">Spirito arboreo putrido minore</span></span>"
         },
         "type": "Feature"
       },
@@ -2619,7 +2619,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_17_2",
           "link": "/checklists/bosses.html#item_17_2",
-          "title": "Astel, Naturalborn of the Void"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Astel, Naturalborn of the Void</span><span class=\"lang-text lang-it d-none\">Astel, Progenie del Vuoto</span></span>"
         },
         "type": "Feature"
       },
@@ -2638,7 +2638,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_18_3",
           "link": "/checklists/bosses.html#item_18_3",
-          "title": "Fia's Champions"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fia's Champions</span><span class=\"lang-text lang-it d-none\">Campioni di Fia</span></span>"
         },
         "type": "Feature"
       },
@@ -2657,7 +2657,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bosses_18_4",
           "link": "/checklists/bosses.html#item_18_4",
-          "title": "Lichdragon Fortissax"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lichdragon Fortissax</span><span class=\"lang-text lang-it d-none\">Fortissax, il Drago della Morte</span></span>"
         },
         "type": "Feature"
       }
@@ -2682,7 +2682,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_1",
           "link": "/checklists/landmarks_locations.html#item_1_1",
-          "title": "Stranded Graveyard"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stranded Graveyard</span><span class=\"lang-text lang-it d-none\">Cimitero abbandonato</span></span>"
         },
         "type": "Feature"
       },
@@ -2701,7 +2701,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_5",
           "link": "/checklists/landmarks_locations.html#item_1_5",
-          "title": "Groveside Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Groveside Cave</span><span class=\"lang-text lang-it d-none\">Grotta del bosco</span></span>"
         },
         "type": "Feature"
       },
@@ -2720,7 +2720,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_3",
           "link": "/checklists/landmarks_locations.html#item_1_3",
-          "title": "Coastal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Coastal Cave</span><span class=\"lang-text lang-it d-none\">Grotta costiera</span></span>"
         },
         "type": "Feature"
       },
@@ -2739,7 +2739,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_9",
           "link": "/checklists/landmarks_locations.html#item_1_9",
-          "title": "Murkwater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Murkwater Cave</span><span class=\"lang-text lang-it d-none\">Grotta di Acquaquieta</span></span>"
         },
         "type": "Feature"
       },
@@ -2758,7 +2758,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_6",
           "link": "/checklists/landmarks_locations.html#item_1_6",
-          "title": "Highroad Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Highroad Cave</span><span class=\"lang-text lang-it d-none\">Grotta della via maestra</span></span>"
         },
         "type": "Feature"
       },
@@ -2777,7 +2777,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_4",
           "link": "/checklists/landmarks_locations.html#item_1_4",
-          "title": "Deathtouched Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathtouched Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe tocca-morte</span></span>"
         },
         "type": "Feature"
       },
@@ -2796,7 +2796,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_10",
           "link": "/checklists/landmarks_locations.html#item_1_10",
-          "title": "Stormfoot Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormfoot Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Pi\u00e8 di Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -2815,7 +2815,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_8",
           "link": "/checklists/landmarks_locations.html#item_1_8",
-          "title": "Murkwater Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Murkwater Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Acquaquieta</span></span>"
         },
         "type": "Feature"
       },
@@ -2834,7 +2834,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_7",
           "link": "/checklists/landmarks_locations.html#item_1_7",
-          "title": "Limgrave Tunnels"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Limgrave Tunnels</span><span class=\"lang-text lang-it d-none\">Gallerie di Sepolcride</span></span>"
         },
         "type": "Feature"
       },
@@ -2853,7 +2853,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_1_2",
           "link": "/checklists/landmarks_locations.html#item_1_2",
-          "title": "Fringefolk Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fringefolk Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe dei confini</span></span>"
         },
         "type": "Feature"
       },
@@ -2872,7 +2872,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e1",
           "link": "/checklists/landmarks_locations.html#item_e1",
-          "title": "Forlorn Hound Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forlorn Hound Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del Limiere abbandonato</span></span>"
         },
         "type": "Feature"
       },
@@ -2891,7 +2891,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e2",
           "link": "/checklists/landmarks_locations.html#item_e2",
-          "title": "Stormhill Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormhill Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna di Colle Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -2910,7 +2910,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l1",
           "link": "/checklists/landmarks_locations.html#item_l1",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -2929,7 +2929,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l2",
           "link": "/checklists/landmarks_locations.html#item_l2",
-          "title": "Divine Tower of Limgrave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Limgrave</span><span class=\"lang-text lang-it d-none\">Torre divina di Sepolcride</span></span>"
         },
         "type": "Feature"
       },
@@ -2948,7 +2948,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l3",
           "link": "/checklists/landmarks_locations.html#item_l3",
-          "title": "Dragon-Burnt Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon-Burnt Ruins</span><span class=\"lang-text lang-it d-none\">Rovine bruciate dal drago</span></span>"
         },
         "type": "Feature"
       },
@@ -2967,7 +2967,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l4",
           "link": "/checklists/landmarks_locations.html#item_l4",
-          "title": "Gatefront Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gatefront Ruins</span><span class=\"lang-text lang-it d-none\">Rovine davanti al cancello</span></span>"
         },
         "type": "Feature"
       },
@@ -2986,7 +2986,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l5",
           "link": "/checklists/landmarks_locations.html#item_l5",
-          "title": "Mistwood Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mistwood Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Tetrobosco</span></span>"
         },
         "type": "Feature"
       },
@@ -3005,7 +3005,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l6",
           "link": "/checklists/landmarks_locations.html#item_l6",
-          "title": "Waypoint Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Waypoint Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del punto di sosta</span></span>"
         },
         "type": "Feature"
       },
@@ -3024,7 +3024,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l7",
           "link": "/checklists/landmarks_locations.html#item_l7",
-          "title": "Summonwater Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Summonwater Village</span><span class=\"lang-text lang-it d-none\">Villaggio di Idrochiama</span></span>"
         },
         "type": "Feature"
       },
@@ -3043,7 +3043,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l8",
           "link": "/checklists/landmarks_locations.html#item_l8",
-          "title": "Stormhill Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormhill Shack</span><span class=\"lang-text lang-it d-none\">Capanna di Colle Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -3062,7 +3062,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l9",
           "link": "/checklists/landmarks_locations.html#item_l9",
-          "title": "Warmaster's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Warmaster's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mastro guerriero</span></span>"
         },
         "type": "Feature"
       },
@@ -3081,7 +3081,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l10",
           "link": "/checklists/landmarks_locations.html#item_l10",
-          "title": "Artist's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Artist's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artista</span></span>"
         },
         "type": "Feature"
       },
@@ -3100,7 +3100,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l11",
           "link": "/checklists/landmarks_locations.html#item_l11",
-          "title": "Church of Elleh"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Elleh</span><span class=\"lang-text lang-it d-none\">Chiesa di Elleh</span></span>"
         },
         "type": "Feature"
       },
@@ -3119,7 +3119,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l12",
           "link": "/checklists/landmarks_locations.html#item_l12",
-          "title": "Church of Dragon Communion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Dragon Communion</span><span class=\"lang-text lang-it d-none\">Chiesa della Comunione draconica</span></span>"
         },
         "type": "Feature"
       },
@@ -3138,7 +3138,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l13",
           "link": "/checklists/landmarks_locations.html#item_l13",
-          "title": "Third Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Third Church of Marika</span><span class=\"lang-text lang-it d-none\">Terza chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -3157,7 +3157,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l14",
           "link": "/checklists/landmarks_locations.html#item_l14",
-          "title": "Stormgate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormgate</span><span class=\"lang-text lang-it d-none\">Cancello della tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -3176,7 +3176,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l15",
           "link": "/checklists/landmarks_locations.html#item_l15",
-          "title": "Siofra River Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Siofra River Well</span><span class=\"lang-text lang-it d-none\">Pozzo del fiume Siofra</span></span>"
         },
         "type": "Feature"
       },
@@ -3195,7 +3195,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l16",
           "link": "/checklists/landmarks_locations.html#item_l16",
-          "title": "Fort Haight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Haight</span><span class=\"lang-text lang-it d-none\">Forte Haight</span></span>"
         },
         "type": "Feature"
       },
@@ -3214,7 +3214,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld1",
           "link": "/checklists/landmarks_locations.html#item_ld1",
-          "title": "Stormveil Castle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormveil Castle</span><span class=\"lang-text lang-it d-none\">Castello di Grantempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -3233,7 +3233,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_0_1",
           "link": "/checklists/landmarks_locations.html#item_0_1",
-          "title": "Earthbore Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Earthbore Cave</span><span class=\"lang-text lang-it d-none\">Grotta dello scavo</span></span>"
         },
         "type": "Feature"
       },
@@ -3252,7 +3252,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_0_5",
           "link": "/checklists/landmarks_locations.html#item_0_5",
-          "title": "Tombsward Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Cave</span><span class=\"lang-text lang-it d-none\">Grotta del Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -3271,7 +3271,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_0_2",
           "link": "/checklists/landmarks_locations.html#item_0_2",
-          "title": "Impaler's Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Impaler's Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dell'Impalatore</span></span>"
         },
         "type": "Feature"
       },
@@ -3290,7 +3290,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_0_4",
           "link": "/checklists/landmarks_locations.html#item_0_4",
-          "title": "Tombsward Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe del Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -3309,7 +3309,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_0_3",
           "link": "/checklists/landmarks_locations.html#item_0_3",
-          "title": "Morne Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morne Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -3328,7 +3328,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e3",
           "link": "/checklists/landmarks_locations.html#item_e3",
-          "title": "Weeping Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Weeping Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del pianto</span></span>"
         },
         "type": "Feature"
       },
@@ -3347,7 +3347,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l17",
           "link": "/checklists/landmarks_locations.html#item_l17",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -3366,7 +3366,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l18",
           "link": "/checklists/landmarks_locations.html#item_l18",
-          "title": "Oridys's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Oridys's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Oridys</span></span>"
         },
         "type": "Feature"
       },
@@ -3385,7 +3385,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l19",
           "link": "/checklists/landmarks_locations.html#item_l19",
-          "title": "Demi-Human Forest Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Demi-Human Forest Ruins</span><span class=\"lang-text lang-it d-none\">Rovine dei semiumani nel bosco</span></span>"
         },
         "type": "Feature"
       },
@@ -3404,7 +3404,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l20",
           "link": "/checklists/landmarks_locations.html#item_l20",
-          "title": "Tombsward Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -3423,7 +3423,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l21",
           "link": "/checklists/landmarks_locations.html#item_l21",
-          "title": "Witchbane Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Witchbane Ruins</span><span class=\"lang-text lang-it d-none\">Rovine della rovina delle streghe</span></span>"
         },
         "type": "Feature"
       },
@@ -3442,7 +3442,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l22",
           "link": "/checklists/landmarks_locations.html#item_l22",
-          "title": "Isolated Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante isolato</span></span>"
         },
         "type": "Feature"
       },
@@ -3461,7 +3461,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l23",
           "link": "/checklists/landmarks_locations.html#item_l23",
-          "title": "Church of Pilgrimage"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Pilgrimage</span><span class=\"lang-text lang-it d-none\">Chiesa del pellegrinaggio</span></span>"
         },
         "type": "Feature"
       },
@@ -3480,7 +3480,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l24",
           "link": "/checklists/landmarks_locations.html#item_l24",
-          "title": "Callu Baptismal Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Callu Baptismal Church</span><span class=\"lang-text lang-it d-none\">Chiesa battesimale di Callu</span></span>"
         },
         "type": "Feature"
       },
@@ -3499,7 +3499,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l25",
           "link": "/checklists/landmarks_locations.html#item_l25",
-          "title": "Fourth Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fourth Church of Marika</span><span class=\"lang-text lang-it d-none\">Quarta chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -3518,7 +3518,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l26",
           "link": "/checklists/landmarks_locations.html#item_l26",
-          "title": "Bridge of Sacrifice"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bridge of Sacrifice</span><span class=\"lang-text lang-it d-none\">Ponte del Sacrificio</span></span>"
         },
         "type": "Feature"
       },
@@ -3537,7 +3537,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l27",
           "link": "/checklists/landmarks_locations.html#item_l27",
-          "title": "Ailing Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ailing Village</span><span class=\"lang-text lang-it d-none\">Villaggio malato</span></span>"
         },
         "type": "Feature"
       },
@@ -3556,7 +3556,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l28",
           "link": "/checklists/landmarks_locations.html#item_l28",
-          "title": "Forest Lookout Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forest Lookout Tower</span><span class=\"lang-text lang-it d-none\">Vedetta del bosco</span></span>"
         },
         "type": "Feature"
       },
@@ -3575,7 +3575,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l29",
           "link": "/checklists/landmarks_locations.html#item_l29",
-          "title": "Tower of Return"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tower of Return</span><span class=\"lang-text lang-it d-none\">Torre del ritorno</span></span>"
         },
         "type": "Feature"
       },
@@ -3594,7 +3594,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld2",
           "link": "/checklists/landmarks_locations.html#item_ld2",
-          "title": "Castle Morne"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Morne</span><span class=\"lang-text lang-it d-none\">Castello di Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -3613,7 +3613,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_1",
           "link": "/checklists/landmarks_locations.html#item_2_1",
-          "title": "Academy Crystal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Crystal Cave</span><span class=\"lang-text lang-it d-none\">Grotta di cristallo dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -3632,7 +3632,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_4",
           "link": "/checklists/landmarks_locations.html#item_2_4",
-          "title": "Lakeside Crystal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lakeside Crystal Cave</span><span class=\"lang-text lang-it d-none\">Grotta di cristallo sul lago</span></span>"
         },
         "type": "Feature"
       },
@@ -3651,7 +3651,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_8",
           "link": "/checklists/landmarks_locations.html#item_2_8",
-          "title": "Stillwater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stillwater Cave</span><span class=\"lang-text lang-it d-none\">Grotta d'Acquastagna</span></span>"
         },
         "type": "Feature"
       },
@@ -3670,7 +3670,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_2",
           "link": "/checklists/landmarks_locations.html#item_2_2",
-          "title": "Black Knife Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Knife Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -3689,7 +3689,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_3",
           "link": "/checklists/landmarks_locations.html#item_2_3",
-          "title": "Cliffbottom Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cliffbottom Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Pi\u00e8 di Scarpata</span></span>"
         },
         "type": "Feature"
       },
@@ -3708,7 +3708,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_6",
           "link": "/checklists/landmarks_locations.html#item_2_6",
-          "title": "Road's End Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Road's End Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe della fine della strada</span></span>"
         },
         "type": "Feature"
       },
@@ -3727,7 +3727,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_2_5",
           "link": "/checklists/landmarks_locations.html#item_2_5",
-          "title": "Raya Lucaria Crystal Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Raya Lucaria Crystal Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria cristallina di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -3746,7 +3746,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e4",
           "link": "/checklists/landmarks_locations.html#item_e4",
-          "title": "Malefactor's Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Malefactor's Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del malfattore</span></span>"
         },
         "type": "Feature"
       },
@@ -3765,7 +3765,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e5",
           "link": "/checklists/landmarks_locations.html#item_e5",
-          "title": "Cuckoo's Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cuckoo's Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del cuculo</span></span>"
         },
         "type": "Feature"
       },
@@ -3784,7 +3784,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e6",
           "link": "/checklists/landmarks_locations.html#item_e6",
-          "title": "Royal Grave Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Royal Grave Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna della tomba regale</span></span>"
         },
         "type": "Feature"
       },
@@ -3803,7 +3803,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e7",
           "link": "/checklists/landmarks_locations.html#item_e7",
-          "title": "Ringleader's Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ringleader's Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del capobanda</span></span>"
         },
         "type": "Feature"
       },
@@ -3822,7 +3822,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l30",
           "link": "/checklists/landmarks_locations.html#item_l30",
-          "title": "Minor Erdtree (southwest)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree (southwest)</span><span class=\"lang-text lang-it d-none\">Albero Madre minore (sud-ovest)</span></span>"
         },
         "type": "Feature"
       },
@@ -3841,7 +3841,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l31",
           "link": "/checklists/landmarks_locations.html#item_l31",
-          "title": "Minor Erdtree (northeast)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree (northeast)</span><span class=\"lang-text lang-it d-none\">Albero Madre minore (nord-est)</span></span>"
         },
         "type": "Feature"
       },
@@ -3860,7 +3860,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l32",
           "link": "/checklists/landmarks_locations.html#item_l32",
-          "title": "Divine Tower of Liurnia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Liurnia</span><span class=\"lang-text lang-it d-none\">Torre divina di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -3879,7 +3879,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l33",
           "link": "/checklists/landmarks_locations.html#item_l33",
-          "title": "Converted Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Converted Tower</span><span class=\"lang-text lang-it d-none\">Torre convertita</span></span>"
         },
         "type": "Feature"
       },
@@ -3898,7 +3898,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l34",
           "link": "/checklists/landmarks_locations.html#item_l34",
-          "title": "Testu's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Testu's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Testu</span></span>"
         },
         "type": "Feature"
       },
@@ -3917,7 +3917,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l35",
           "link": "/checklists/landmarks_locations.html#item_l35",
-          "title": "Converted Fringe Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Converted Fringe Tower</span><span class=\"lang-text lang-it d-none\">Torre convertita dei confini</span></span>"
         },
         "type": "Feature"
       },
@@ -3936,7 +3936,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l36",
           "link": "/checklists/landmarks_locations.html#item_l36",
-          "title": "Ranni's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ranni's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Ranni</span></span>"
         },
         "type": "Feature"
       },
@@ -3955,7 +3955,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l38",
           "link": "/checklists/landmarks_locations.html#item_l38",
-          "title": "Seluvis's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seluvis's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Seluvis</span></span>"
         },
         "type": "Feature"
       },
@@ -3974,7 +3974,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l39",
           "link": "/checklists/landmarks_locations.html#item_l39",
-          "title": "Renna's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Renna's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Renna</span></span>"
         },
         "type": "Feature"
       },
@@ -3993,7 +3993,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l50",
           "link": "/checklists/landmarks_locations.html#item_l50",
-          "title": "Chelona's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Chelona's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Chelona</span></span>"
         },
         "type": "Feature"
       },
@@ -4012,7 +4012,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l40",
           "link": "/checklists/landmarks_locations.html#item_l40",
-          "title": "Laskyar Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Laskyar Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Laskyar</span></span>"
         },
         "type": "Feature"
       },
@@ -4031,7 +4031,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l41",
           "link": "/checklists/landmarks_locations.html#item_l41",
-          "title": "Purified Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Purified Ruins</span><span class=\"lang-text lang-it d-none\">Rovine purificate</span></span>"
         },
         "type": "Feature"
       },
@@ -4050,7 +4050,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l42",
           "link": "/checklists/landmarks_locations.html#item_l42",
-          "title": "Kingsrealm Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Kingsrealm Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del dominio regale</span></span>"
         },
         "type": "Feature"
       },
@@ -4069,7 +4069,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l43",
           "link": "/checklists/landmarks_locations.html#item_l43",
-          "title": "Lunar Estate Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lunar Estate Ruins</span><span class=\"lang-text lang-it d-none\">Rovine della tenuta lunare</span></span>"
         },
         "type": "Feature"
       },
@@ -4088,7 +4088,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l44",
           "link": "/checklists/landmarks_locations.html#item_l44",
-          "title": "Moonfolk Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Moonfolk Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del popolo lunare</span></span>"
         },
         "type": "Feature"
       },
@@ -4107,7 +4107,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l45",
           "link": "/checklists/landmarks_locations.html#item_l45",
-          "title": "Slumbering Wolf's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Slumbering Wolf's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del lupo dormiente</span></span>"
         },
         "type": "Feature"
       },
@@ -4126,7 +4126,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l46",
           "link": "/checklists/landmarks_locations.html#item_l46",
-          "title": "Boilprawn Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Boilprawn Shack</span><span class=\"lang-text lang-it d-none\">Capanna del gambero bollito</span></span>"
         },
         "type": "Feature"
       },
@@ -4145,7 +4145,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l47",
           "link": "/checklists/landmarks_locations.html#item_l47",
-          "title": "Artist's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Artist's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artista</span></span>"
         },
         "type": "Feature"
       },
@@ -4164,7 +4164,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l48",
           "link": "/checklists/landmarks_locations.html#item_l48",
-          "title": "Revenger's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Revenger's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del vendicatore</span></span>"
         },
         "type": "Feature"
       },
@@ -4183,7 +4183,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l131",
           "link": "/checklists/landmarks_locations.html#item_l131",
-          "title": "Church of Irith"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Irith</span><span class=\"lang-text lang-it d-none\">Chiesa di Irith</span></span>"
         },
         "type": "Feature"
       },
@@ -4202,7 +4202,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l51",
           "link": "/checklists/landmarks_locations.html#item_l51",
-          "title": "Rose Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rose Church</span><span class=\"lang-text lang-it d-none\">Chiesa della rosa</span></span>"
         },
         "type": "Feature"
       },
@@ -4221,7 +4221,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l52",
           "link": "/checklists/landmarks_locations.html#item_l52",
-          "title": "Church of Vows"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Vows</span><span class=\"lang-text lang-it d-none\">Chiesa dei voti</span></span>"
         },
         "type": "Feature"
       },
@@ -4240,7 +4240,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l53",
           "link": "/checklists/landmarks_locations.html#item_l53",
-          "title": "Bellum Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bellum Church</span><span class=\"lang-text lang-it d-none\">Chiesa di Bellum</span></span>"
         },
         "type": "Feature"
       },
@@ -4259,7 +4259,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l54",
           "link": "/checklists/landmarks_locations.html#item_l54",
-          "title": "Church of Inhibition"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Inhibition</span><span class=\"lang-text lang-it d-none\">Chiesa dell'inibizione</span></span>"
         },
         "type": "Feature"
       },
@@ -4278,7 +4278,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l55",
           "link": "/checklists/landmarks_locations.html#item_l55",
-          "title": "Cathedral of Manus Celes"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cathedral of Manus Celes</span><span class=\"lang-text lang-it d-none\">Cattedrale di Manus Celes</span></span>"
         },
         "type": "Feature"
       },
@@ -4297,7 +4297,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l56",
           "link": "/checklists/landmarks_locations.html#item_l56",
-          "title": "Highway Lookout Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Highway Lookout Tower</span><span class=\"lang-text lang-it d-none\">Vedetta della via maestra</span></span>"
         },
         "type": "Feature"
       },
@@ -4316,7 +4316,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l57",
           "link": "/checklists/landmarks_locations.html#item_l57",
-          "title": "Carian Study Hall"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Carian Study Hall</span><span class=\"lang-text lang-it d-none\">Sala studio cariana</span></span>"
         },
         "type": "Feature"
       },
@@ -4335,7 +4335,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l58",
           "link": "/checklists/landmarks_locations.html#item_l58",
-          "title": "Jarburg"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Jarburg</span><span class=\"lang-text lang-it d-none\">Jarburg</span></span>"
         },
         "type": "Feature"
       },
@@ -4354,7 +4354,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l59",
           "link": "/checklists/landmarks_locations.html#item_l59",
-          "title": "Academy Gate Town"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Gate Town</span><span class=\"lang-text lang-it d-none\">Borgo dei cancelli dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -4373,7 +4373,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l60",
           "link": "/checklists/landmarks_locations.html#item_l60",
-          "title": "Temple Quarter"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Temple Quarter</span><span class=\"lang-text lang-it d-none\">Quartiere del tempio</span></span>"
         },
         "type": "Feature"
       },
@@ -4392,7 +4392,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l61",
           "link": "/checklists/landmarks_locations.html#item_l61",
-          "title": "Village of the Albinaurics"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Village of the Albinaurics</span><span class=\"lang-text lang-it d-none\">Villaggio degli Albinauri</span></span>"
         },
         "type": "Feature"
       },
@@ -4411,7 +4411,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l62",
           "link": "/checklists/landmarks_locations.html#item_l62",
-          "title": "The Four Belfries"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The Four Belfries</span><span class=\"lang-text lang-it d-none\">I quattro campanili</span></span>"
         },
         "type": "Feature"
       },
@@ -4430,7 +4430,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l63",
           "link": "/checklists/landmarks_locations.html#item_l63",
-          "title": "Frenzied Flame Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied Flame Village</span><span class=\"lang-text lang-it d-none\">Villaggio della Fiamma Frenetica</span></span>"
         },
         "type": "Feature"
       },
@@ -4449,7 +4449,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l64",
           "link": "/checklists/landmarks_locations.html#item_l64",
-          "title": "Frenzy-Flaming Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzy-Flaming Tower</span><span class=\"lang-text lang-it d-none\">Torre della Fiamma Frenetica</span></span>"
         },
         "type": "Feature"
       },
@@ -4468,7 +4468,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l65",
           "link": "/checklists/landmarks_locations.html#item_l65",
-          "title": "Ainsel River Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ainsel River Well</span><span class=\"lang-text lang-it d-none\">Pozzo del fiume Ainsel</span></span>"
         },
         "type": "Feature"
       },
@@ -4487,7 +4487,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l66",
           "link": "/checklists/landmarks_locations.html#item_l66",
-          "title": "Deep Ainsel Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deep Ainsel Well</span><span class=\"lang-text lang-it d-none\">Pozzo profondo dell'Ainsel</span></span>"
         },
         "type": "Feature"
       },
@@ -4506,7 +4506,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld3",
           "link": "/checklists/landmarks_locations.html#item_ld3",
-          "title": "Academy of Raya Lucaria"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy of Raya Lucaria</span><span class=\"lang-text lang-it d-none\">Accademia di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -4525,7 +4525,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld4",
           "link": "/checklists/landmarks_locations.html#item_ld4",
-          "title": "Caria Manor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caria Manor</span><span class=\"lang-text lang-it d-none\">Maniero cariano</span></span>"
         },
         "type": "Feature"
       },
@@ -4544,7 +4544,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_2_7",
           "link": "/checklists/landmarks_locations.html#item_2_7",
-          "title": "Ruin-Strewn Precipice"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruin-Strewn Precipice</span><span class=\"lang-text lang-it d-none\">Precipizio cosparso di rovine</span></span>"
         },
         "type": "Feature"
       },
@@ -4563,7 +4563,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_1",
           "link": "/checklists/landmarks_locations.html#item_3_1",
-          "title": "Abandoned Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Abandoned Cave</span><span class=\"lang-text lang-it d-none\">Grotta abbandonata</span></span>"
         },
         "type": "Feature"
       },
@@ -4582,7 +4582,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_4",
           "link": "/checklists/landmarks_locations.html#item_3_4",
-          "title": "Gaol Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gaol Cave</span><span class=\"lang-text lang-it d-none\">Grotta delle segrete</span></span>"
         },
         "type": "Feature"
       },
@@ -4601,7 +4601,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_7",
           "link": "/checklists/landmarks_locations.html#item_3_7",
-          "title": "Dragonbarrow Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonbarrow Cave</span><span class=\"lang-text lang-it d-none\">Grotta dei tumuli draconici</span></span>"
         },
         "type": "Feature"
       },
@@ -4620,7 +4620,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_9",
           "link": "/checklists/landmarks_locations.html#item_3_9",
-          "title": "Sellia Hideaway"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Hideaway</span><span class=\"lang-text lang-it d-none\">Rifugio di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -4639,7 +4639,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_2",
           "link": "/checklists/landmarks_locations.html#item_3_2",
-          "title": "Caelid Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelid Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Caelid</span></span>"
         },
         "type": "Feature"
       },
@@ -4658,7 +4658,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_5",
           "link": "/checklists/landmarks_locations.html#item_3_5",
-          "title": "Minor Erdtree Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dell'Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -4677,7 +4677,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_8",
           "link": "/checklists/landmarks_locations.html#item_3_8",
-          "title": "War-Dead Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">War-Dead Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dei caduti in guerra</span></span>"
         },
         "type": "Feature"
       },
@@ -4696,7 +4696,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_3",
           "link": "/checklists/landmarks_locations.html#item_3_3",
-          "title": "Gael Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gael Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Gael</span></span>"
         },
         "type": "Feature"
       },
@@ -4715,7 +4715,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_3_6",
           "link": "/checklists/landmarks_locations.html#item_3_6",
-          "title": "Sellia Crystal Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Crystal Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria cristallina di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -4734,7 +4734,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e8",
           "link": "/checklists/landmarks_locations.html#item_e8",
-          "title": "Sellia Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -4753,7 +4753,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l67",
           "link": "/checklists/landmarks_locations.html#item_l67",
-          "title": "Minor Erdtree (west)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree (west)</span><span class=\"lang-text lang-it d-none\">Albero Madre minore (ovest)</span></span>"
         },
         "type": "Feature"
       },
@@ -4772,7 +4772,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l68",
           "link": "/checklists/landmarks_locations.html#item_l68",
-          "title": "Minor Erdtree (east)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree (east)</span><span class=\"lang-text lang-it d-none\">Albero Madre minore (est)</span></span>"
         },
         "type": "Feature"
       },
@@ -4791,7 +4791,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l69",
           "link": "/checklists/landmarks_locations.html#item_l69",
-          "title": "Divine Tower of Caelid"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Caelid</span><span class=\"lang-text lang-it d-none\">Torre divina di Caelid</span></span>"
         },
         "type": "Feature"
       },
@@ -4810,7 +4810,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l70",
           "link": "/checklists/landmarks_locations.html#item_l70",
-          "title": "Isolated Divine Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Divine Tower</span><span class=\"lang-text lang-it d-none\">Torre divina isolata</span></span>"
         },
         "type": "Feature"
       },
@@ -4829,7 +4829,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l71",
           "link": "/checklists/landmarks_locations.html#item_l71",
-          "title": "Lenne's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lenne's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Lenne</span></span>"
         },
         "type": "Feature"
       },
@@ -4848,7 +4848,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l72",
           "link": "/checklists/landmarks_locations.html#item_l72",
-          "title": "Forsaken Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forsaken Ruins</span><span class=\"lang-text lang-it d-none\">Rovine abbandonate</span></span>"
         },
         "type": "Feature"
       },
@@ -4867,7 +4867,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l73",
           "link": "/checklists/landmarks_locations.html#item_l73",
-          "title": "Caelem Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelem Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Caelem</span></span>"
         },
         "type": "Feature"
       },
@@ -4886,7 +4886,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l74",
           "link": "/checklists/landmarks_locations.html#item_l74",
-          "title": "Caelid Waypoint Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelid Waypoint Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del punto di sosta di Caelid</span></span>"
         },
         "type": "Feature"
       },
@@ -4905,7 +4905,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l75",
           "link": "/checklists/landmarks_locations.html#item_l75",
-          "title": "Street of Sages Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Street of Sages Ruins</span><span class=\"lang-text lang-it d-none\">Rovine della via dei sapienti</span></span>"
         },
         "type": "Feature"
       },
@@ -4924,7 +4924,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l76",
           "link": "/checklists/landmarks_locations.html#item_l76",
-          "title": "Shack of the Rotting"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Shack of the Rotting</span><span class=\"lang-text lang-it d-none\">Capanna della putrefazione</span></span>"
         },
         "type": "Feature"
       },
@@ -4943,7 +4943,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l77",
           "link": "/checklists/landmarks_locations.html#item_l77",
-          "title": "Isolated Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante isolato</span></span>"
         },
         "type": "Feature"
       },
@@ -4962,7 +4962,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l78",
           "link": "/checklists/landmarks_locations.html#item_l78",
-          "title": "Gowry's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gowry's Shack</span><span class=\"lang-text lang-it d-none\">Capanna di Gowry</span></span>"
         },
         "type": "Feature"
       },
@@ -4981,7 +4981,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l79",
           "link": "/checklists/landmarks_locations.html#item_l79",
-          "title": "Smouldering Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Smouldering Church</span><span class=\"lang-text lang-it d-none\">Chiesa ardente</span></span>"
         },
         "type": "Feature"
       },
@@ -5000,7 +5000,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l80",
           "link": "/checklists/landmarks_locations.html#item_l80",
-          "title": "Cathedral of Dragon Communion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cathedral of Dragon Communion</span><span class=\"lang-text lang-it d-none\">Cattedrale della Comunione draconica</span></span>"
         },
         "type": "Feature"
       },
@@ -5019,7 +5019,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l81",
           "link": "/checklists/landmarks_locations.html#item_l81",
-          "title": "Church of the Plague"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of the Plague</span><span class=\"lang-text lang-it d-none\">Chiesa della piaga</span></span>"
         },
         "type": "Feature"
       },
@@ -5038,7 +5038,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l82",
           "link": "/checklists/landmarks_locations.html#item_l82",
-          "title": "Sellia, Town of Sorcery"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia, Town of Sorcery</span><span class=\"lang-text lang-it d-none\">Sellia, citt\u00e0 della stregoneria</span></span>"
         },
         "type": "Feature"
       },
@@ -5057,7 +5057,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l83",
           "link": "/checklists/landmarks_locations.html#item_l83",
-          "title": "Sellia Gateway"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Gateway</span><span class=\"lang-text lang-it d-none\">Portale di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -5076,7 +5076,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l84",
           "link": "/checklists/landmarks_locations.html#item_l84",
-          "title": "Bestial Sanctum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bestial Sanctum</span><span class=\"lang-text lang-it d-none\">Santuario bestiale</span></span>"
         },
         "type": "Feature"
       },
@@ -5095,7 +5095,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l85",
           "link": "/checklists/landmarks_locations.html#item_l85",
-          "title": "Deep Siofra Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deep Siofra Well</span><span class=\"lang-text lang-it d-none\">Pozzo profondo del Siofra</span></span>"
         },
         "type": "Feature"
       },
@@ -5114,7 +5114,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l86",
           "link": "/checklists/landmarks_locations.html#item_l86",
-          "title": "Fort Gael"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Gael</span><span class=\"lang-text lang-it d-none\">Forte Gael</span></span>"
         },
         "type": "Feature"
       },
@@ -5133,7 +5133,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l87",
           "link": "/checklists/landmarks_locations.html#item_l87",
-          "title": "Fort Faroth"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Faroth</span><span class=\"lang-text lang-it d-none\">Forte Faroth</span></span>"
         },
         "type": "Feature"
       },
@@ -5152,7 +5152,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l88",
           "link": "/checklists/landmarks_locations.html#item_l88",
-          "title": "Swamp Lookout Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Swamp Lookout Tower</span><span class=\"lang-text lang-it d-none\">Vedetta della palude</span></span>"
         },
         "type": "Feature"
       },
@@ -5171,7 +5171,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld5",
           "link": "/checklists/landmarks_locations.html#item_ld5",
-          "title": "Redmane Castle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Redmane Castle</span><span class=\"lang-text lang-it d-none\">Castello di Mantorosso</span></span>"
         },
         "type": "Feature"
       },
@@ -5190,7 +5190,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_4_3",
           "link": "/checklists/landmarks_locations.html#item_4_3",
-          "title": "Perfumer's Grotto"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Grotto</span><span class=\"lang-text lang-it d-none\">Grotta dei profumieri</span></span>"
         },
         "type": "Feature"
       },
@@ -5209,7 +5209,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_2",
           "link": "/checklists/landmarks_locations.html#item_5_2",
-          "title": "Sage's Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sage's Cave</span><span class=\"lang-text lang-it d-none\">Grotta del saggio</span></span>"
         },
         "type": "Feature"
       },
@@ -5228,7 +5228,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_4",
           "link": "/checklists/landmarks_locations.html#item_5_4",
-          "title": "Unsightly Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Unsightly Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe sgradevoli</span></span>"
         },
         "type": "Feature"
       },
@@ -5247,7 +5247,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_4_1",
           "link": "/checklists/landmarks_locations.html#item_4_1",
-          "title": "Old Altus Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Old Altus Tunnel</span><span class=\"lang-text lang-it d-none\">Vecchia galleria dell'Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -5266,7 +5266,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_4_2",
           "link": "/checklists/landmarks_locations.html#item_4_2",
-          "title": "Altus Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Altus Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria dell'Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -5285,7 +5285,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_4_4",
           "link": "/checklists/landmarks_locations.html#item_4_4",
-          "title": "Sainted Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sainted Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe santo</span></span>"
         },
         "type": "Feature"
       },
@@ -5304,7 +5304,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e9",
           "link": "/checklists/landmarks_locations.html#item_e9",
-          "title": "Golden Lineage Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Lineage Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del lignaggio dorato</span></span>"
         },
         "type": "Feature"
       },
@@ -5323,7 +5323,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l89",
           "link": "/checklists/landmarks_locations.html#item_l89",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -5342,7 +5342,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l90",
           "link": "/checklists/landmarks_locations.html#item_l90",
-          "title": "Mirage Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mirage Rise</span><span class=\"lang-text lang-it d-none\">Guglia miraggio</span></span>"
         },
         "type": "Feature"
       },
@@ -5361,7 +5361,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l91",
           "link": "/checklists/landmarks_locations.html#item_l91",
-          "title": "Perfumer's Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Ruins</span><span class=\"lang-text lang-it d-none\">Rovine dei profumieri</span></span>"
         },
         "type": "Feature"
       },
@@ -5380,7 +5380,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l92",
           "link": "/checklists/landmarks_locations.html#item_l92",
-          "title": "Lux Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lux Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Lux</span></span>"
         },
         "type": "Feature"
       },
@@ -5399,7 +5399,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l93",
           "link": "/checklists/landmarks_locations.html#item_l93",
-          "title": "Wyndham Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wyndham Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Wyndham</span></span>"
         },
         "type": "Feature"
       },
@@ -5418,7 +5418,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l94",
           "link": "/checklists/landmarks_locations.html#item_l94",
-          "title": "Writheblood Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Writheblood Ruins</span><span class=\"lang-text lang-it d-none\">Rovine dei rigurgiti di sangue</span></span>"
         },
         "type": "Feature"
       },
@@ -5437,7 +5437,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l95",
           "link": "/checklists/landmarks_locations.html#item_l95",
-          "title": "Woodfolk Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Woodfolk Ruins</span><span class=\"lang-text lang-it d-none\">Rovine del popolo dei boschi</span></span>"
         },
         "type": "Feature"
       },
@@ -5456,7 +5456,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l96",
           "link": "/checklists/landmarks_locations.html#item_l96",
-          "title": "Stormcaller Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormcaller Church</span><span class=\"lang-text lang-it d-none\">Chiesa del richiamo della tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -5475,7 +5475,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l97",
           "link": "/checklists/landmarks_locations.html#item_l97",
-          "title": "Second Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Second Church of Marika</span><span class=\"lang-text lang-it d-none\">Seconda chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -5494,7 +5494,7 @@ const feature_data = [
           "icon_size": 50,
           "id": "caves_l98",
           "link": "/checklists/landmarks_locations.html#item_l98",
-          "title": "Grand Lift of Dectus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grand Lift of Dectus</span><span class=\"lang-text lang-it d-none\">Grande montacarichi di Dectus</span></span>"
         },
         "type": "Feature"
       },
@@ -5513,7 +5513,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l99",
           "link": "/checklists/landmarks_locations.html#item_l99",
-          "title": "West Windmill Pasture"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">West Windmill Pasture</span><span class=\"lang-text lang-it d-none\">Pascolo del mulino a vento ovest</span></span>"
         },
         "type": "Feature"
       },
@@ -5532,7 +5532,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l100",
           "link": "/checklists/landmarks_locations.html#item_l100",
-          "title": "East Windmill Pasture"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">East Windmill Pasture</span><span class=\"lang-text lang-it d-none\">Pascolo del mulino a vento est</span></span>"
         },
         "type": "Feature"
       },
@@ -5551,7 +5551,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l101",
           "link": "/checklists/landmarks_locations.html#item_l101",
-          "title": "Village Windmill Pasture"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Village Windmill Pasture</span><span class=\"lang-text lang-it d-none\">Pascolo del mulino a vento del villaggio</span></span>"
         },
         "type": "Feature"
       },
@@ -5570,7 +5570,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l102",
           "link": "/checklists/landmarks_locations.html#item_l102",
-          "title": "Dominula, Windmill Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dominula, Windmill Village</span><span class=\"lang-text lang-it d-none\">Dominula, villaggio del mulino a vento</span></span>"
         },
         "type": "Feature"
       },
@@ -5589,7 +5589,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l103",
           "link": "/checklists/landmarks_locations.html#item_l103",
-          "title": "Highway Lookout Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Highway Lookout Tower</span><span class=\"lang-text lang-it d-none\">Vedetta della via maestra</span></span>"
         },
         "type": "Feature"
       },
@@ -5608,7 +5608,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld6",
           "link": "/checklists/landmarks_locations.html#item_ld6",
-          "title": "The Shaded Castle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The Shaded Castle</span><span class=\"lang-text lang-it d-none\">Castello d'Ombra</span></span>"
         },
         "type": "Feature"
       },
@@ -5627,7 +5627,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_3",
           "link": "/checklists/landmarks_locations.html#item_5_3",
-          "title": "Seethewater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seethewater Cave</span><span class=\"lang-text lang-it d-none\">Grotta dell'Acqua ribollente</span></span>"
         },
         "type": "Feature"
       },
@@ -5646,7 +5646,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_5",
           "link": "/checklists/landmarks_locations.html#item_5_5",
-          "title": "Volcano Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Cave</span><span class=\"lang-text lang-it d-none\">Grotta del vulcano</span></span>"
         },
         "type": "Feature"
       },
@@ -5665,7 +5665,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_6",
           "link": "/checklists/landmarks_locations.html#item_5_6",
-          "title": "Wyndham Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wyndham Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Wyndham</span></span>"
         },
         "type": "Feature"
       },
@@ -5684,7 +5684,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_5_1",
           "link": "/checklists/landmarks_locations.html#item_5_1",
-          "title": "Gelmir Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gelmir Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe di Gelmir</span></span>"
         },
         "type": "Feature"
       },
@@ -5703,7 +5703,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l104",
           "link": "/checklists/landmarks_locations.html#item_l104",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -5722,7 +5722,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l105",
           "link": "/checklists/landmarks_locations.html#item_l105",
-          "title": "Corpse-Stench Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Corpse-Stench Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'odore di cadavere</span></span>"
         },
         "type": "Feature"
       },
@@ -5741,7 +5741,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l106",
           "link": "/checklists/landmarks_locations.html#item_l106",
-          "title": "Craftsman's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Craftsman's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artigiano</span></span>"
         },
         "type": "Feature"
       },
@@ -5760,7 +5760,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l107",
           "link": "/checklists/landmarks_locations.html#item_l107",
-          "title": "Hermit's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'eremita</span></span>"
         },
         "type": "Feature"
       },
@@ -5779,7 +5779,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l108",
           "link": "/checklists/landmarks_locations.html#item_l108",
-          "title": "Hermit Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Village</span><span class=\"lang-text lang-it d-none\">Villaggio dell'eremita</span></span>"
         },
         "type": "Feature"
       },
@@ -5798,7 +5798,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l109",
           "link": "/checklists/landmarks_locations.html#item_l109",
-          "title": "Fort Laiedd"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Laiedd</span><span class=\"lang-text lang-it d-none\">Forte Laiedd</span></span>"
         },
         "type": "Feature"
       },
@@ -5817,7 +5817,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld7",
           "link": "/checklists/landmarks_locations.html#item_ld7",
-          "title": "Volcano Manor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Manor</span><span class=\"lang-text lang-it d-none\">Villa Vulcano</span></span>"
         },
         "type": "Feature"
       },
@@ -5836,7 +5836,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_6_4",
           "link": "/checklists/landmarks_locations.html#item_6_4",
-          "title": "Auriza Side Tomb"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Auriza Side Tomb</span><span class=\"lang-text lang-it d-none\">Tomba laterale di Auriza</span></span>"
         },
         "type": "Feature"
       },
@@ -5855,7 +5855,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_6_3",
           "link": "/checklists/landmarks_locations.html#item_6_3",
-          "title": "Leyndell Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leyndell Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Leyndell</span></span>"
         },
         "type": "Feature"
       },
@@ -5874,7 +5874,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_6_1",
           "link": "/checklists/landmarks_locations.html#item_6_1",
-          "title": "Sealed Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sealed Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria sigillata</span></span>"
         },
         "type": "Feature"
       },
@@ -5893,7 +5893,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_6_2",
           "link": "/checklists/landmarks_locations.html#item_6_2",
-          "title": "Auriza Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Auriza Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe di Auriza</span></span>"
         },
         "type": "Feature"
       },
@@ -5912,7 +5912,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l110",
           "link": "/checklists/landmarks_locations.html#item_l110",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -5931,7 +5931,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l111",
           "link": "/checklists/landmarks_locations.html#item_l111",
-          "title": "Divine Tower of West Altus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of West Altus</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus occidentale</span></span>"
         },
         "type": "Feature"
       },
@@ -5950,7 +5950,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l112",
           "link": "/checklists/landmarks_locations.html#item_l112",
-          "title": "Hermit Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante eremita</span></span>"
         },
         "type": "Feature"
       },
@@ -5969,7 +5969,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l113",
           "link": "/checklists/landmarks_locations.html#item_l113",
-          "title": "Minor Erdtree Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree Church</span><span class=\"lang-text lang-it d-none\">Chiesa dell'Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -5988,7 +5988,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld8",
           "link": "/checklists/landmarks_locations.html#item_ld8",
-          "title": "Leyndell, Royal Capital"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leyndell, Royal Capital</span><span class=\"lang-text lang-it d-none\">Leyndell, capitale reale</span></span>"
         },
         "type": "Feature"
       },
@@ -6007,7 +6007,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_ld9",
           "link": "/checklists/landmarks_locations.html#item_ld9",
-          "title": "Subterranean Shunning-Grounds"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Subterranean Shunning-Grounds</span><span class=\"lang-text lang-it d-none\">Sotterranei dei rinnegati</span></span>"
         },
         "type": "Feature"
       },
@@ -6026,7 +6026,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_7_3",
           "link": "/checklists/landmarks_locations.html#item_7_3",
-          "title": "Spiritcaller Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spiritcaller Cave</span><span class=\"lang-text lang-it d-none\">Grotta degli evocatori di spiriti</span></span>"
         },
         "type": "Feature"
       },
@@ -6045,7 +6045,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_7_2",
           "link": "/checklists/landmarks_locations.html#item_7_2",
-          "title": "Giants' Mountaintop Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giants' Mountaintop Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe delle Vette dei Giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -6064,7 +6064,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_7_1",
           "link": "/checklists/landmarks_locations.html#item_7_1",
-          "title": "Giant-Conquering Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giant-Conquering Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe conquistatore di giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -6083,7 +6083,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_e10",
           "link": "/checklists/landmarks_locations.html#item_e10",
-          "title": "Lord Contender's Evergaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lord Contender's Evergaol</span><span class=\"lang-text lang-it d-none\">Galera eterna del pretendente lord</span></span>"
         },
         "type": "Feature"
       },
@@ -6102,7 +6102,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l114",
           "link": "/checklists/landmarks_locations.html#item_l114",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -6121,7 +6121,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l115",
           "link": "/checklists/landmarks_locations.html#item_l115",
-          "title": "Divine Tower of East Altus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of East Altus</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus orientale</span></span>"
         },
         "type": "Feature"
       },
@@ -6140,7 +6140,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l116",
           "link": "/checklists/landmarks_locations.html#item_l116",
-          "title": "Heretical Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Heretical Rise</span><span class=\"lang-text lang-it d-none\">Guglia eretica</span></span>"
         },
         "type": "Feature"
       },
@@ -6159,7 +6159,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l117",
           "link": "/checklists/landmarks_locations.html#item_l117",
-          "title": "Zamor Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Zamor Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Zamor</span></span>"
         },
         "type": "Feature"
       },
@@ -6178,7 +6178,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l118",
           "link": "/checklists/landmarks_locations.html#item_l118",
-          "title": "Stargazer's Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stargazer's Ruins</span><span class=\"lang-text lang-it d-none\">Rovine degli astronomi</span></span>"
         },
         "type": "Feature"
       },
@@ -6197,7 +6197,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l119",
           "link": "/checklists/landmarks_locations.html#item_l119",
-          "title": "Shack of the Lofty"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Shack of the Lofty</span><span class=\"lang-text lang-it d-none\">Capanna dell'eccelso</span></span>"
         },
         "type": "Feature"
       },
@@ -6216,7 +6216,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l120",
           "link": "/checklists/landmarks_locations.html#item_l120",
-          "title": "First Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">First Church of Marika</span><span class=\"lang-text lang-it d-none\">Prima chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -6235,7 +6235,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l121",
           "link": "/checklists/landmarks_locations.html#item_l121",
-          "title": "Church of Repose"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Repose</span><span class=\"lang-text lang-it d-none\">Chiesa del riposo</span></span>"
         },
         "type": "Feature"
       },
@@ -6254,7 +6254,7 @@ const feature_data = [
           "icon_size": 50,
           "id": "caves_l122",
           "link": "/checklists/landmarks_locations.html#item_l122",
-          "title": "Grand Lift of Rold"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grand Lift of Rold</span><span class=\"lang-text lang-it d-none\">Grande montacarichi di Rold</span></span>"
         },
         "type": "Feature"
       },
@@ -6273,7 +6273,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l123",
           "link": "/checklists/landmarks_locations.html#item_l123",
-          "title": "Guardians' Garrison"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Guardians' Garrison</span><span class=\"lang-text lang-it d-none\">Guarnigione dei guardiani</span></span>"
         },
         "type": "Feature"
       },
@@ -6292,7 +6292,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l125",
           "link": "/checklists/landmarks_locations.html#item_l125",
-          "title": "Forge of the Giants"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forge of the Giants</span><span class=\"lang-text lang-it d-none\">Forgia dei giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -6311,7 +6311,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld10",
           "link": "/checklists/landmarks_locations.html#item_ld10",
-          "title": "Castle Sol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Sol</span><span class=\"lang-text lang-it d-none\">Castel Sol</span></span>"
         },
         "type": "Feature"
       },
@@ -6330,7 +6330,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_8_4",
           "link": "/checklists/landmarks_locations.html#item_8_4",
-          "title": "Cave of the Forlorn"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cave of the Forlorn</span><span class=\"lang-text lang-it d-none\">Grotta del reietto</span></span>"
         },
         "type": "Feature"
       },
@@ -6349,7 +6349,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_8_2",
           "link": "/checklists/landmarks_locations.html#item_8_2",
-          "title": "Hidden Path to the Haligtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hidden Path to the Haligtree</span><span class=\"lang-text lang-it d-none\">Cammino nascosto per il Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -6368,7 +6368,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_8_1",
           "link": "/checklists/landmarks_locations.html#item_8_1",
-          "title": "Consecrated Snowfield Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Consecrated Snowfield Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe delle Terre sacre</span></span>"
         },
         "type": "Feature"
       },
@@ -6387,7 +6387,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_8_3",
           "link": "/checklists/landmarks_locations.html#item_8_3",
-          "title": "Yelough Anix Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Yelough Anix Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Yelough Anix</span></span>"
         },
         "type": "Feature"
       },
@@ -6406,7 +6406,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l126",
           "link": "/checklists/landmarks_locations.html#item_l126",
-          "title": "Minor Erdtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree</span><span class=\"lang-text lang-it d-none\">Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -6425,7 +6425,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_l127",
           "link": "/checklists/landmarks_locations.html#item_l127",
-          "title": "Albinauric Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Albinauric Rise</span><span class=\"lang-text lang-it d-none\">Guglia degli Albinauri</span></span>"
         },
         "type": "Feature"
       },
@@ -6444,7 +6444,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "caves_l128",
           "link": "/checklists/landmarks_locations.html#item_l128",
-          "title": "Yelough Anix Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Yelough Anix Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Yelough Anix</span></span>"
         },
         "type": "Feature"
       },
@@ -6463,7 +6463,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l129",
           "link": "/checklists/landmarks_locations.html#item_l129",
-          "title": "Apostate Derelict"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Apostate Derelict</span><span class=\"lang-text lang-it d-none\">Ruderi del reietto</span></span>"
         },
         "type": "Feature"
       },
@@ -6482,7 +6482,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "caves_l130",
           "link": "/checklists/landmarks_locations.html#item_l130",
-          "title": "Ordina, Liturgical Town"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ordina, Liturgical Town</span><span class=\"lang-text lang-it d-none\">Ordina, citt\u00e0 liturgica</span></span>"
         },
         "type": "Feature"
       },
@@ -6501,7 +6501,7 @@ const feature_data = [
           "icon_size": 50,
           "id": "caves_ld11",
           "link": "/checklists/landmarks_locations.html#item_ld11",
-          "title": "Miquella's Haligtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Miquella's Haligtree</span><span class=\"lang-text lang-it d-none\">Sacro Albero di Miquella</span></span>"
         },
         "type": "Feature"
       },
@@ -6520,7 +6520,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "caves_ld12",
           "link": "/checklists/landmarks_locations.html#item_ld12",
-          "title": "Elphael, Brace of the Haligtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elphael, Brace of the Haligtree</span><span class=\"lang-text lang-it d-none\">Elphael, sostegno del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -6539,7 +6539,7 @@ const feature_data = [
           "icon_size": 50,
           "id": "caves_ld13",
           "link": "/checklists/landmarks_locations.html#item_ld13",
-          "title": "Crumbling Farum Azula"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crumbling Farum Azula</span><span class=\"lang-text lang-it d-none\">Farum Azula in frantumi</span></span>"
         },
         "type": "Feature"
       }
@@ -6564,7 +6564,7 @@ const feature_data = [
           "icon_size": 60,
           "id": "graces_313",
           "link": "/checklists/sitesof_grace.html#item_313",
-          "title": "Table of Lost Grace"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Table of Lost Grace</span><span class=\"lang-text lang-it d-none\">Tavolo della grazia perduta</span></span>"
         },
         "type": "Feature"
       },
@@ -6583,7 +6583,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_0",
           "link": "/checklists/sitesof_grace.html#item_0",
-          "title": "The First Step"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The First Step</span><span class=\"lang-text lang-it d-none\">Il primo passo</span></span>"
         },
         "type": "Feature"
       },
@@ -6602,7 +6602,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_1",
           "link": "/checklists/sitesof_grace.html#item_1",
-          "title": "Church of Elleh"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Elleh</span><span class=\"lang-text lang-it d-none\">Chiesa di Elleh</span></span>"
         },
         "type": "Feature"
       },
@@ -6621,7 +6621,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_2",
           "link": "/checklists/sitesof_grace.html#item_2",
-          "title": "Gatefront"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gatefront</span><span class=\"lang-text lang-it d-none\">Davanti al cancello</span></span>"
         },
         "type": "Feature"
       },
@@ -6640,7 +6640,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_3",
           "link": "/checklists/sitesof_grace.html#item_3",
-          "title": "Waypoint Ruins Cellar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Waypoint Ruins Cellar</span><span class=\"lang-text lang-it d-none\">Sotterranei delle rovine del punto di sosta</span></span>"
         },
         "type": "Feature"
       },
@@ -6659,7 +6659,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_4",
           "link": "/checklists/sitesof_grace.html#item_4",
-          "title": "Artist's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Artist's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artista</span></span>"
         },
         "type": "Feature"
       },
@@ -6678,7 +6678,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_5",
           "link": "/checklists/sitesof_grace.html#item_5",
-          "title": "Third Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Third Church of Marika</span><span class=\"lang-text lang-it d-none\">Terza chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -6697,7 +6697,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_6",
           "link": "/checklists/sitesof_grace.html#item_6",
-          "title": "Fort Haight West"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Haight West</span><span class=\"lang-text lang-it d-none\">Forte Haight ovest</span></span>"
         },
         "type": "Feature"
       },
@@ -6716,7 +6716,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_7",
           "link": "/checklists/sitesof_grace.html#item_7",
-          "title": "Agheel Lake South"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Agheel Lake South</span><span class=\"lang-text lang-it d-none\">Lago Agheel sud</span></span>"
         },
         "type": "Feature"
       },
@@ -6735,7 +6735,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_8",
           "link": "/checklists/sitesof_grace.html#item_8",
-          "title": "Agheel Lake North"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Agheel Lake North</span><span class=\"lang-text lang-it d-none\">Lago Agheel nord</span></span>"
         },
         "type": "Feature"
       },
@@ -6754,7 +6754,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_9",
           "link": "/checklists/sitesof_grace.html#item_9",
-          "title": "Church of Dragon Communion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Dragon Communion</span><span class=\"lang-text lang-it d-none\">Chiesa della Comunione draconica</span></span>"
         },
         "type": "Feature"
       },
@@ -6773,7 +6773,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_10",
           "link": "/checklists/sitesof_grace.html#item_10",
-          "title": "Seaside Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seaside Ruins</span><span class=\"lang-text lang-it d-none\">Rovine costiere</span></span>"
         },
         "type": "Feature"
       },
@@ -6792,7 +6792,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_11",
           "link": "/checklists/sitesof_grace.html#item_11",
-          "title": "Mistwood Outskirts"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mistwood Outskirts</span><span class=\"lang-text lang-it d-none\">Periferia di Tetrobosco</span></span>"
         },
         "type": "Feature"
       },
@@ -6811,7 +6811,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_12",
           "link": "/checklists/sitesof_grace.html#item_12",
-          "title": "Murkwater Coast"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Murkwater Coast</span><span class=\"lang-text lang-it d-none\">Costa di Acquaquieta</span></span>"
         },
         "type": "Feature"
       },
@@ -6830,7 +6830,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_13",
           "link": "/checklists/sitesof_grace.html#item_13",
-          "title": "Summonwater Village Outskirts"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Summonwater Village Outskirts</span><span class=\"lang-text lang-it d-none\">Periferia del villaggio di Idrochiama</span></span>"
         },
         "type": "Feature"
       },
@@ -6849,7 +6849,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_14",
           "link": "/checklists/sitesof_grace.html#item_14",
-          "title": "Stormfoot Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormfoot Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Pi\u00e8 di Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -6868,7 +6868,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_15",
           "link": "/checklists/sitesof_grace.html#item_15",
-          "title": "Murkwater Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Murkwater Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Acquaquieta</span></span>"
         },
         "type": "Feature"
       },
@@ -6887,7 +6887,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_16",
           "link": "/checklists/sitesof_grace.html#item_16",
-          "title": "Groveside Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Groveside Cave</span><span class=\"lang-text lang-it d-none\">Grotta del bosco</span></span>"
         },
         "type": "Feature"
       },
@@ -6906,7 +6906,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_17",
           "link": "/checklists/sitesof_grace.html#item_17",
-          "title": "Coastal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Coastal Cave</span><span class=\"lang-text lang-it d-none\">Grotta costiera</span></span>"
         },
         "type": "Feature"
       },
@@ -6925,7 +6925,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_18",
           "link": "/checklists/sitesof_grace.html#item_18",
-          "title": "Murkwater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Murkwater Cave</span><span class=\"lang-text lang-it d-none\">Grotta di Acquaquieta</span></span>"
         },
         "type": "Feature"
       },
@@ -6944,7 +6944,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_19",
           "link": "/checklists/sitesof_grace.html#item_19",
-          "title": "Highroad Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Highroad Cave</span><span class=\"lang-text lang-it d-none\">Grotta della via maestra</span></span>"
         },
         "type": "Feature"
       },
@@ -6963,7 +6963,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_20",
           "link": "/checklists/sitesof_grace.html#item_20",
-          "title": "Limgrave Tunnels"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Limgrave Tunnels</span><span class=\"lang-text lang-it d-none\">Gallerie di Sepolcride</span></span>"
         },
         "type": "Feature"
       },
@@ -6982,7 +6982,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_21",
           "link": "/checklists/sitesof_grace.html#item_21",
-          "title": "Cave of Knowledge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cave of Knowledge</span><span class=\"lang-text lang-it d-none\">Grotta della conoscenza</span></span>"
         },
         "type": "Feature"
       },
@@ -7001,7 +7001,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_22",
           "link": "/checklists/sitesof_grace.html#item_22",
-          "title": "Stranded Graveyard"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stranded Graveyard</span><span class=\"lang-text lang-it d-none\">Cimitero abbandonato</span></span>"
         },
         "type": "Feature"
       },
@@ -7020,7 +7020,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_23",
           "link": "/checklists/sitesof_grace.html#item_23",
-          "title": "Stormhill Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormhill Shack</span><span class=\"lang-text lang-it d-none\">Capanna di Colle Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -7039,7 +7039,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_24",
           "link": "/checklists/sitesof_grace.html#item_24",
-          "title": "Castleward Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castleward Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria del castello</span></span>"
         },
         "type": "Feature"
       },
@@ -7058,7 +7058,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_25",
           "link": "/checklists/sitesof_grace.html#item_25",
-          "title": "Margit, the Fell Omen"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Margit, the Fell Omen</span><span class=\"lang-text lang-it d-none\">Margit, l'Araldo nefasto</span></span>"
         },
         "type": "Feature"
       },
@@ -7077,7 +7077,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_26",
           "link": "/checklists/sitesof_grace.html#item_26",
-          "title": "Warmaster's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Warmaster's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mastro guerriero</span></span>"
         },
         "type": "Feature"
       },
@@ -7096,7 +7096,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_27",
           "link": "/checklists/sitesof_grace.html#item_27",
-          "title": "Saintsbridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Saintsbridge</span><span class=\"lang-text lang-it d-none\">Ponte dei santi</span></span>"
         },
         "type": "Feature"
       },
@@ -7115,7 +7115,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_28",
           "link": "/checklists/sitesof_grace.html#item_28",
-          "title": "Deathtouched Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathtouched Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe tocca-morte</span></span>"
         },
         "type": "Feature"
       },
@@ -7134,7 +7134,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_29",
           "link": "/checklists/sitesof_grace.html#item_29",
-          "title": "Limgrave Tower Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Limgrave Tower Bridge</span><span class=\"lang-text lang-it d-none\">Ponte della torre di Sepolcride</span></span>"
         },
         "type": "Feature"
       },
@@ -7153,7 +7153,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_30",
           "link": "/checklists/sitesof_grace.html#item_30",
-          "title": "Divine Tower of Limgrave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Limgrave</span><span class=\"lang-text lang-it d-none\">Torre divina di Sepolcride</span></span>"
         },
         "type": "Feature"
       },
@@ -7172,7 +7172,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_31",
           "link": "/checklists/sitesof_grace.html#item_31",
-          "title": "Church of Pilgrimage"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Pilgrimage</span><span class=\"lang-text lang-it d-none\">Chiesa del pellegrinaggio</span></span>"
         },
         "type": "Feature"
       },
@@ -7191,7 +7191,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_32",
           "link": "/checklists/sitesof_grace.html#item_32",
-          "title": "Castle Morne Rampart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Morne Rampart</span><span class=\"lang-text lang-it d-none\">Bastioni di Castel Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -7210,7 +7210,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_33",
           "link": "/checklists/sitesof_grace.html#item_33",
-          "title": "Tombsward"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward</span><span class=\"lang-text lang-it d-none\">Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -7229,7 +7229,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_34",
           "link": "/checklists/sitesof_grace.html#item_34",
-          "title": "South of the Lookout Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">South of the Lookout Tower</span><span class=\"lang-text lang-it d-none\">A sud della vedetta</span></span>"
         },
         "type": "Feature"
       },
@@ -7248,7 +7248,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_35",
           "link": "/checklists/sitesof_grace.html#item_35",
-          "title": "Ailing Village Outskirts"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ailing Village Outskirts</span><span class=\"lang-text lang-it d-none\">Periferia del villaggio malato</span></span>"
         },
         "type": "Feature"
       },
@@ -7267,7 +7267,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_36",
           "link": "/checklists/sitesof_grace.html#item_36",
-          "title": "Beside The Crater-Pocked Glade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Beside The Crater-Pocked Glade</span><span class=\"lang-text lang-it d-none\">Presso la radura dei crateri</span></span>"
         },
         "type": "Feature"
       },
@@ -7286,7 +7286,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_37",
           "link": "/checklists/sitesof_grace.html#item_37",
-          "title": "Isolated Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante isolato</span></span>"
         },
         "type": "Feature"
       },
@@ -7305,7 +7305,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_38",
           "link": "/checklists/sitesof_grace.html#item_38",
-          "title": "Fourth Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fourth Church of Marika</span><span class=\"lang-text lang-it d-none\">Quarta chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -7324,7 +7324,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_39",
           "link": "/checklists/sitesof_grace.html#item_39",
-          "title": "Bridge of Sacrifice"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bridge of Sacrifice</span><span class=\"lang-text lang-it d-none\">Ponte del Sacrificio</span></span>"
         },
         "type": "Feature"
       },
@@ -7343,7 +7343,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_40",
           "link": "/checklists/sitesof_grace.html#item_40",
-          "title": "Castle Morne Lift"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Morne Lift</span><span class=\"lang-text lang-it d-none\">Ascensore di Castel Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -7362,7 +7362,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_41",
           "link": "/checklists/sitesof_grace.html#item_41",
-          "title": "Behind The Castle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Behind The Castle</span><span class=\"lang-text lang-it d-none\">Dietro il castello</span></span>"
         },
         "type": "Feature"
       },
@@ -7381,7 +7381,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_42",
           "link": "/checklists/sitesof_grace.html#item_42",
-          "title": "Beside the Rampart Gaol"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Beside the Rampart Gaol</span><span class=\"lang-text lang-it d-none\">Presso la prigione del bastione</span></span>"
         },
         "type": "Feature"
       },
@@ -7400,7 +7400,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_43",
           "link": "/checklists/sitesof_grace.html#item_43",
-          "title": "Morne Moangrave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morne Moangrave</span><span class=\"lang-text lang-it d-none\">Sepolcro gemente di Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -7419,7 +7419,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_44",
           "link": "/checklists/sitesof_grace.html#item_44",
-          "title": "Impaler's Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Impaler's Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dell'Impalatore</span></span>"
         },
         "type": "Feature"
       },
@@ -7438,7 +7438,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_45",
           "link": "/checklists/sitesof_grace.html#item_45",
-          "title": "Tombsward Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe del Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -7457,7 +7457,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_46",
           "link": "/checklists/sitesof_grace.html#item_46",
-          "title": "Earthbore Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Earthbore Cave</span><span class=\"lang-text lang-it d-none\">Grotta dello scavo</span></span>"
         },
         "type": "Feature"
       },
@@ -7476,7 +7476,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_47",
           "link": "/checklists/sitesof_grace.html#item_47",
-          "title": "Tombsward Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Cave</span><span class=\"lang-text lang-it d-none\">Grotta del Sepolcreto</span></span>"
         },
         "type": "Feature"
       },
@@ -7495,7 +7495,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_48",
           "link": "/checklists/sitesof_grace.html#item_48",
-          "title": "Morne Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morne Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -7514,7 +7514,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_49",
           "link": "/checklists/sitesof_grace.html#item_49",
-          "title": "Stormveil Main Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormveil Main Gate</span><span class=\"lang-text lang-it d-none\">Portone principale di Grantempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -7533,7 +7533,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_50",
           "link": "/checklists/sitesof_grace.html#item_50",
-          "title": "Gateside Chamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gateside Chamber</span><span class=\"lang-text lang-it d-none\">Cella presso il cancello</span></span>"
         },
         "type": "Feature"
       },
@@ -7552,7 +7552,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_51",
           "link": "/checklists/sitesof_grace.html#item_51",
-          "title": "Stormveil Cliffside"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormveil Cliffside</span><span class=\"lang-text lang-it d-none\">Scogliera di Grantempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -7571,7 +7571,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_52",
           "link": "/checklists/sitesof_grace.html#item_52",
-          "title": "Rampart Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rampart Tower</span><span class=\"lang-text lang-it d-none\">Torre del bastione</span></span>"
         },
         "type": "Feature"
       },
@@ -7590,7 +7590,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_53",
           "link": "/checklists/sitesof_grace.html#item_53",
-          "title": "Liftside Chamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Liftside Chamber</span><span class=\"lang-text lang-it d-none\">Cella presso l'ascensore</span></span>"
         },
         "type": "Feature"
       },
@@ -7609,7 +7609,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_54",
           "link": "/checklists/sitesof_grace.html#item_54",
-          "title": "Secluded Cell"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Secluded Cell</span><span class=\"lang-text lang-it d-none\">Cella isolata</span></span>"
         },
         "type": "Feature"
       },
@@ -7628,7 +7628,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_55",
           "link": "/checklists/sitesof_grace.html#item_55",
-          "title": "Godrick the Grafted"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godrick the Grafted</span><span class=\"lang-text lang-it d-none\">Godrick l'Innestato</span></span>"
         },
         "type": "Feature"
       },
@@ -7647,7 +7647,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_56",
           "link": "/checklists/sitesof_grace.html#item_56",
-          "title": "Lake-Facing Cliffs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lake-Facing Cliffs</span><span class=\"lang-text lang-it d-none\">Scogliera sul lago</span></span>"
         },
         "type": "Feature"
       },
@@ -7666,7 +7666,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_57",
           "link": "/checklists/sitesof_grace.html#item_57",
-          "title": "Liurnia Lake Shore"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Liurnia Lake Shore</span><span class=\"lang-text lang-it d-none\">Riva del lago di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -7685,7 +7685,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_58",
           "link": "/checklists/sitesof_grace.html#item_58",
-          "title": "Laskyar Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Laskyar Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Laskyar</span></span>"
         },
         "type": "Feature"
       },
@@ -7704,7 +7704,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_59",
           "link": "/checklists/sitesof_grace.html#item_59",
-          "title": "Scenic Isle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Scenic Isle</span><span class=\"lang-text lang-it d-none\">Isola panoramica</span></span>"
         },
         "type": "Feature"
       },
@@ -7723,7 +7723,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_60",
           "link": "/checklists/sitesof_grace.html#item_60",
-          "title": "Academy Gate Town"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Gate Town</span><span class=\"lang-text lang-it d-none\">Borgo dei cancelli dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -7742,7 +7742,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_61",
           "link": "/checklists/sitesof_grace.html#item_61",
-          "title": "South Raya Lucaria Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">South Raya Lucaria Gate</span><span class=\"lang-text lang-it d-none\">Porta sud di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -7761,7 +7761,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_62",
           "link": "/checklists/sitesof_grace.html#item_62",
-          "title": "Main Academy Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Main Academy Gate</span><span class=\"lang-text lang-it d-none\">Porta principale dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -7780,7 +7780,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_63",
           "link": "/checklists/sitesof_grace.html#item_63",
-          "title": "Liurnia Highway South"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Liurnia Highway South</span><span class=\"lang-text lang-it d-none\">Via maestra di Liurnia sud</span></span>"
         },
         "type": "Feature"
       },
@@ -7799,7 +7799,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_64",
           "link": "/checklists/sitesof_grace.html#item_64",
-          "title": "Liurnia Highway North"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Liurnia Highway North</span><span class=\"lang-text lang-it d-none\">Via maestra di Liurnia nord</span></span>"
         },
         "type": "Feature"
       },
@@ -7818,7 +7818,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_65",
           "link": "/checklists/sitesof_grace.html#item_65",
-          "title": "Gate Town Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gate Town Bridge</span><span class=\"lang-text lang-it d-none\">Ponte del borgo dei cancelli</span></span>"
         },
         "type": "Feature"
       },
@@ -7837,7 +7837,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_66",
           "link": "/checklists/sitesof_grace.html#item_66",
-          "title": "Artist's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Artist's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artista</span></span>"
         },
         "type": "Feature"
       },
@@ -7856,7 +7856,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_67",
           "link": "/checklists/sitesof_grace.html#item_67",
-          "title": "Eastern Liurnia Lake Shore"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Eastern Liurnia Lake Shore</span><span class=\"lang-text lang-it d-none\">Riva est del lago di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -7875,7 +7875,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_68",
           "link": "/checklists/sitesof_grace.html#item_68",
-          "title": "Jarburg"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Jarburg</span><span class=\"lang-text lang-it d-none\">Jarburg</span></span>"
         },
         "type": "Feature"
       },
@@ -7894,7 +7894,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_69",
           "link": "/checklists/sitesof_grace.html#item_69",
-          "title": "Ranni's Chamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ranni's Chamber</span><span class=\"lang-text lang-it d-none\">Camera di Ranni</span></span>"
         },
         "type": "Feature"
       },
@@ -7913,7 +7913,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_70",
           "link": "/checklists/sitesof_grace.html#item_70",
-          "title": "Eastern Tableland"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Eastern Tableland</span><span class=\"lang-text lang-it d-none\">Altopiano orientale</span></span>"
         },
         "type": "Feature"
       },
@@ -7932,7 +7932,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_71",
           "link": "/checklists/sitesof_grace.html#item_71",
-          "title": "Church of Vows"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Vows</span><span class=\"lang-text lang-it d-none\">Chiesa dei voti</span></span>"
         },
         "type": "Feature"
       },
@@ -7951,7 +7951,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_72",
           "link": "/checklists/sitesof_grace.html#item_72",
-          "title": "Ruined Labyrinth"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruined Labyrinth</span><span class=\"lang-text lang-it d-none\">Labirinto in rovina</span></span>"
         },
         "type": "Feature"
       },
@@ -7970,7 +7970,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_73",
           "link": "/checklists/sitesof_grace.html#item_73",
-          "title": "Mausoleum Compound"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mausoleum Compound</span><span class=\"lang-text lang-it d-none\">Complesso del mausoleo</span></span>"
         },
         "type": "Feature"
       },
@@ -7989,7 +7989,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_74",
           "link": "/checklists/sitesof_grace.html#item_74",
-          "title": "Slumbering Wolf's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Slumbering Wolf's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del lupo dormiente</span></span>"
         },
         "type": "Feature"
       },
@@ -8008,7 +8008,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_75",
           "link": "/checklists/sitesof_grace.html#item_75",
-          "title": "Boilprawn Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Boilprawn Shack</span><span class=\"lang-text lang-it d-none\">Capanna del gambero bollito</span></span>"
         },
         "type": "Feature"
       },
@@ -8027,7 +8027,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_76",
           "link": "/checklists/sitesof_grace.html#item_76",
-          "title": "Fallen Ruins of the Lake"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fallen Ruins of the Lake</span><span class=\"lang-text lang-it d-none\">Rovine lacustri abbattute</span></span>"
         },
         "type": "Feature"
       },
@@ -8046,7 +8046,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_77",
           "link": "/checklists/sitesof_grace.html#item_77",
-          "title": "Folly on the Lake"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Folly on the Lake</span><span class=\"lang-text lang-it d-none\">Follia sul lago</span></span>"
         },
         "type": "Feature"
       },
@@ -8065,7 +8065,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_78",
           "link": "/checklists/sitesof_grace.html#item_78",
-          "title": "Village of the Albinaurics"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Village of the Albinaurics</span><span class=\"lang-text lang-it d-none\">Villaggio degli Albinauri</span></span>"
         },
         "type": "Feature"
       },
@@ -8084,7 +8084,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_79",
           "link": "/checklists/sitesof_grace.html#item_79",
-          "title": "Converted Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Converted Tower</span><span class=\"lang-text lang-it d-none\">Torre convertita</span></span>"
         },
         "type": "Feature"
       },
@@ -8103,7 +8103,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_80",
           "link": "/checklists/sitesof_grace.html#item_80",
-          "title": "Revenger's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Revenger's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del vendicatore</span></span>"
         },
         "type": "Feature"
       },
@@ -8122,7 +8122,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_81",
           "link": "/checklists/sitesof_grace.html#item_81",
-          "title": "Temple Quarter"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Temple Quarter</span><span class=\"lang-text lang-it d-none\">Quartiere del tempio</span></span>"
         },
         "type": "Feature"
       },
@@ -8141,7 +8141,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_82",
           "link": "/checklists/sitesof_grace.html#item_82",
-          "title": "Crystalline Woods"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crystalline Woods</span><span class=\"lang-text lang-it d-none\">Boschi cristallini</span></span>"
         },
         "type": "Feature"
       },
@@ -8160,7 +8160,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_83",
           "link": "/checklists/sitesof_grace.html#item_83",
-          "title": "Foot of the Four Belfries"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Foot of the Four Belfries</span><span class=\"lang-text lang-it d-none\">Ai piedi dei quattro campanili</span></span>"
         },
         "type": "Feature"
       },
@@ -8179,7 +8179,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_84",
           "link": "/checklists/sitesof_grace.html#item_84",
-          "title": "The Four Belfries"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The Four Belfries</span><span class=\"lang-text lang-it d-none\">I quattro campanili</span></span>"
         },
         "type": "Feature"
       },
@@ -8198,7 +8198,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_85",
           "link": "/checklists/sitesof_grace.html#item_85",
-          "title": "Sorcerer's Isle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sorcerer's Isle</span><span class=\"lang-text lang-it d-none\">Isola dello stregone</span></span>"
         },
         "type": "Feature"
       },
@@ -8217,7 +8217,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_86",
           "link": "/checklists/sitesof_grace.html#item_86",
-          "title": "East Gate Bridge Trestle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">East Gate Bridge Trestle</span><span class=\"lang-text lang-it d-none\">Sostegno del ponte della porta est</span></span>"
         },
         "type": "Feature"
       },
@@ -8236,7 +8236,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_87",
           "link": "/checklists/sitesof_grace.html#item_87",
-          "title": "Gate Town North"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gate Town North</span><span class=\"lang-text lang-it d-none\">Borgo dei cancelli nord</span></span>"
         },
         "type": "Feature"
       },
@@ -8255,7 +8255,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_88",
           "link": "/checklists/sitesof_grace.html#item_88",
-          "title": "Northern Liurnia Lake Shore"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Northern Liurnia Lake Shore</span><span class=\"lang-text lang-it d-none\">Riva nord del lago di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -8274,7 +8274,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_89",
           "link": "/checklists/sitesof_grace.html#item_89",
-          "title": "Road to the Manor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Road to the Manor</span><span class=\"lang-text lang-it d-none\">Strada per il maniero</span></span>"
         },
         "type": "Feature"
       },
@@ -8293,7 +8293,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_90",
           "link": "/checklists/sitesof_grace.html#item_90",
-          "title": "Main Caria Manor Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Main Caria Manor Gate</span><span class=\"lang-text lang-it d-none\">Portone principale del maniero cariano</span></span>"
         },
         "type": "Feature"
       },
@@ -8312,7 +8312,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_91",
           "link": "/checklists/sitesof_grace.html#item_91",
-          "title": "Manor Upper Level"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Manor Upper Level</span><span class=\"lang-text lang-it d-none\">Livello superiore del maniero</span></span>"
         },
         "type": "Feature"
       },
@@ -8331,7 +8331,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_92",
           "link": "/checklists/sitesof_grace.html#item_92",
-          "title": "Manor Lower Level"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Manor Lower Level</span><span class=\"lang-text lang-it d-none\">Livello inferiore del maniero</span></span>"
         },
         "type": "Feature"
       },
@@ -8350,7 +8350,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_93",
           "link": "/checklists/sitesof_grace.html#item_93",
-          "title": "Royal Moongazing Grounds"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Royal Moongazing Grounds</span><span class=\"lang-text lang-it d-none\">Terreni reali di contemplazione lunare</span></span>"
         },
         "type": "Feature"
       },
@@ -8369,7 +8369,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_94",
           "link": "/checklists/sitesof_grace.html#item_94",
-          "title": "Ranni's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ranni's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Ranni</span></span>"
         },
         "type": "Feature"
       },
@@ -8388,7 +8388,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_95",
           "link": "/checklists/sitesof_grace.html#item_95",
-          "title": "Behind Caria Manor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Behind Caria Manor</span><span class=\"lang-text lang-it d-none\">Dietro il maniero cariano</span></span>"
         },
         "type": "Feature"
       },
@@ -8407,7 +8407,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_96",
           "link": "/checklists/sitesof_grace.html#item_96",
-          "title": "The Ravine"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The Ravine</span><span class=\"lang-text lang-it d-none\">Il burrone</span></span>"
         },
         "type": "Feature"
       },
@@ -8426,7 +8426,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_97",
           "link": "/checklists/sitesof_grace.html#item_97",
-          "title": "Ravine-Veiled Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ravine-Veiled Village</span><span class=\"lang-text lang-it d-none\">Villaggio velato dal burrone</span></span>"
         },
         "type": "Feature"
       },
@@ -8445,7 +8445,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_98",
           "link": "/checklists/sitesof_grace.html#item_98",
-          "title": "Cliffbottom Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cliffbottom Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Pi\u00e8 di Scarpata</span></span>"
         },
         "type": "Feature"
       },
@@ -8464,7 +8464,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_99",
           "link": "/checklists/sitesof_grace.html#item_99",
-          "title": "Road's End Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Road's End Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe della fine della strada</span></span>"
         },
         "type": "Feature"
       },
@@ -8483,7 +8483,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_100",
           "link": "/checklists/sitesof_grace.html#item_100",
-          "title": "Black Knife Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Knife Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dei Neri Coltelli</span></span>"
         },
         "type": "Feature"
       },
@@ -8502,7 +8502,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_101",
           "link": "/checklists/sitesof_grace.html#item_101",
-          "title": "Stillwater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stillwater Cave</span><span class=\"lang-text lang-it d-none\">Grotta d'Acquastagna</span></span>"
         },
         "type": "Feature"
       },
@@ -8521,7 +8521,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_102",
           "link": "/checklists/sitesof_grace.html#item_102",
-          "title": "Lakeside Crystal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lakeside Crystal Cave</span><span class=\"lang-text lang-it d-none\">Grotta di cristallo sul lago</span></span>"
         },
         "type": "Feature"
       },
@@ -8540,7 +8540,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_103",
           "link": "/checklists/sitesof_grace.html#item_103",
-          "title": "Academy Crystal Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Crystal Cave</span><span class=\"lang-text lang-it d-none\">Grotta di cristallo dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -8559,7 +8559,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_104",
           "link": "/checklists/sitesof_grace.html#item_104",
-          "title": "Raya Lucaria Crystal Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Raya Lucaria Crystal Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria cristallina di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -8578,7 +8578,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_105",
           "link": "/checklists/sitesof_grace.html#item_105",
-          "title": "Study Hall Entrance"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Study Hall Entrance</span><span class=\"lang-text lang-it d-none\">Ingresso della sala studio</span></span>"
         },
         "type": "Feature"
       },
@@ -8597,7 +8597,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_106",
           "link": "/checklists/sitesof_grace.html#item_106",
-          "title": "Liurnia Tower Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Liurnia Tower Bridge</span><span class=\"lang-text lang-it d-none\">Ponte della torre di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -8616,7 +8616,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_107",
           "link": "/checklists/sitesof_grace.html#item_107",
-          "title": "Divine Tower of Liurnia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Liurnia</span><span class=\"lang-text lang-it d-none\">Torre divina di Liurnia</span></span>"
         },
         "type": "Feature"
       },
@@ -8635,7 +8635,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_108",
           "link": "/checklists/sitesof_grace.html#item_108",
-          "title": "East Raya Lucaria Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">East Raya Lucaria Gate</span><span class=\"lang-text lang-it d-none\">Porta est di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -8654,7 +8654,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_109",
           "link": "/checklists/sitesof_grace.html#item_109",
-          "title": "Bellum Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bellum Church</span><span class=\"lang-text lang-it d-none\">Chiesa di Bellum</span></span>"
         },
         "type": "Feature"
       },
@@ -8673,7 +8673,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_110",
           "link": "/checklists/sitesof_grace.html#item_110",
-          "title": "Grand Lift of Dectus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grand Lift of Dectus</span><span class=\"lang-text lang-it d-none\">Grande montacarichi di Dectus</span></span>"
         },
         "type": "Feature"
       },
@@ -8692,7 +8692,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_111",
           "link": "/checklists/sitesof_grace.html#item_111",
-          "title": "Frenzied Flame Village Outskirts"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied Flame Village Outskirts</span><span class=\"lang-text lang-it d-none\">Periferia del villaggio della Fiamma Frenetica</span></span>"
         },
         "type": "Feature"
       },
@@ -8711,7 +8711,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_112",
           "link": "/checklists/sitesof_grace.html#item_112",
-          "title": "Church of Inhibition"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Inhibition</span><span class=\"lang-text lang-it d-none\">Chiesa dell'inibizione</span></span>"
         },
         "type": "Feature"
       },
@@ -8730,7 +8730,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_113",
           "link": "/checklists/sitesof_grace.html#item_113",
-          "title": "Ruin-Strewn Precipice"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruin-Strewn Precipice</span><span class=\"lang-text lang-it d-none\">Precipizio cosparso di rovine</span></span>"
         },
         "type": "Feature"
       },
@@ -8749,7 +8749,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_114",
           "link": "/checklists/sitesof_grace.html#item_114",
-          "title": "Ruin-Strewn Precipice Overlook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruin-Strewn Precipice Overlook</span><span class=\"lang-text lang-it d-none\">Belvedere del precipizio cosparso di rovine</span></span>"
         },
         "type": "Feature"
       },
@@ -8768,7 +8768,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_115",
           "link": "/checklists/sitesof_grace.html#item_115",
-          "title": "Magma Wyrm Makar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magma Wyrm Makar</span><span class=\"lang-text lang-it d-none\">Makar, drago di magma</span></span>"
         },
         "type": "Feature"
       },
@@ -8787,7 +8787,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_116",
           "link": "/checklists/sitesof_grace.html#item_116",
-          "title": "Moonlight Altar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Moonlight Altar</span><span class=\"lang-text lang-it d-none\">Altare della Luna</span></span>"
         },
         "type": "Feature"
       },
@@ -8806,7 +8806,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_117",
           "link": "/checklists/sitesof_grace.html#item_117",
-          "title": "Cathedral of Manus Celes"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cathedral of Manus Celes</span><span class=\"lang-text lang-it d-none\">Cattedrale di Manus Celes</span></span>"
         },
         "type": "Feature"
       },
@@ -8825,7 +8825,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_118",
           "link": "/checklists/sitesof_grace.html#item_118",
-          "title": "Altar South"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Altar South</span><span class=\"lang-text lang-it d-none\">Altare sud</span></span>"
         },
         "type": "Feature"
       },
@@ -8844,7 +8844,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_119",
           "link": "/checklists/sitesof_grace.html#item_119",
-          "title": "Church of the Cuckoo"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of the Cuckoo</span><span class=\"lang-text lang-it d-none\">Chiesa del cuculo</span></span>"
         },
         "type": "Feature"
       },
@@ -8863,7 +8863,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_120",
           "link": "/checklists/sitesof_grace.html#item_120",
-          "title": "Schoolhouse Classroom"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Schoolhouse Classroom</span><span class=\"lang-text lang-it d-none\">Aula scolastica</span></span>"
         },
         "type": "Feature"
       },
@@ -8882,7 +8882,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_121",
           "link": "/checklists/sitesof_grace.html#item_121",
-          "title": "Debate Parlor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Debate Parlor</span><span class=\"lang-text lang-it d-none\">Aula del dibattito</span></span>"
         },
         "type": "Feature"
       },
@@ -8901,7 +8901,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_122",
           "link": "/checklists/sitesof_grace.html#item_122",
-          "title": "Raya Lucaria Grand Library"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Raya Lucaria Grand Library</span><span class=\"lang-text lang-it d-none\">Grande biblioteca di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -8920,7 +8920,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_123",
           "link": "/checklists/sitesof_grace.html#item_123",
-          "title": "Abandoned Coffin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Abandoned Coffin</span><span class=\"lang-text lang-it d-none\">Bara abbandonata</span></span>"
         },
         "type": "Feature"
       },
@@ -8939,7 +8939,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_124",
           "link": "/checklists/sitesof_grace.html#item_124",
-          "title": "Erdtree-Gazing Hill"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree-Gazing Hill</span><span class=\"lang-text lang-it d-none\">Colle dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -8958,7 +8958,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_125",
           "link": "/checklists/sitesof_grace.html#item_125",
-          "title": "Altus Plateau"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Altus Plateau</span><span class=\"lang-text lang-it d-none\">Altopiano di Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -8977,7 +8977,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_126",
           "link": "/checklists/sitesof_grace.html#item_126",
-          "title": "Altus Highway Junction"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Altus Highway Junction</span><span class=\"lang-text lang-it d-none\">Bivio della via maestra dell'Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -8996,7 +8996,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_127",
           "link": "/checklists/sitesof_grace.html#item_127",
-          "title": "Forest-Spanning Greatbridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forest-Spanning Greatbridge</span><span class=\"lang-text lang-it d-none\">Granponte della foresta</span></span>"
         },
         "type": "Feature"
       },
@@ -9015,7 +9015,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_128",
           "link": "/checklists/sitesof_grace.html#item_128",
-          "title": "Bower of Bounty"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bower of Bounty</span><span class=\"lang-text lang-it d-none\">Sottobosco dell'abbondanza</span></span>"
         },
         "type": "Feature"
       },
@@ -9034,7 +9034,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_129",
           "link": "/checklists/sitesof_grace.html#item_129",
-          "title": "Windmill Village"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Windmill Village</span><span class=\"lang-text lang-it d-none\">Villaggio del mulino a vento</span></span>"
         },
         "type": "Feature"
       },
@@ -9053,7 +9053,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_130",
           "link": "/checklists/sitesof_grace.html#item_130",
-          "title": "Windmill Heights"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Windmill Heights</span><span class=\"lang-text lang-it d-none\">Alture del mulino a vento</span></span>"
         },
         "type": "Feature"
       },
@@ -9072,7 +9072,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_131",
           "link": "/checklists/sitesof_grace.html#item_131",
-          "title": "Road of Iniquity Side Path"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Road of Iniquity Side Path</span><span class=\"lang-text lang-it d-none\">Sentiero della strada dell'iniquit\u00e0</span></span>"
         },
         "type": "Feature"
       },
@@ -9091,7 +9091,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_132",
           "link": "/checklists/sitesof_grace.html#item_132",
-          "title": "Rampartside Path"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rampartside Path</span><span class=\"lang-text lang-it d-none\">Sentiero del bastione</span></span>"
         },
         "type": "Feature"
       },
@@ -9110,7 +9110,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_133",
           "link": "/checklists/sitesof_grace.html#item_133",
-          "title": "Shaded Castle Ramparts"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Shaded Castle Ramparts</span><span class=\"lang-text lang-it d-none\">Bastioni del castello d'Ombra</span></span>"
         },
         "type": "Feature"
       },
@@ -9129,7 +9129,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_134",
           "link": "/checklists/sitesof_grace.html#item_134",
-          "title": "Shaded Castle Inner Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Shaded Castle Inner Gate</span><span class=\"lang-text lang-it d-none\">Porta interna del castello d'Ombra</span></span>"
         },
         "type": "Feature"
       },
@@ -9148,7 +9148,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_135",
           "link": "/checklists/sitesof_grace.html#item_135",
-          "title": "Castellan's Hall"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castellan's Hall</span><span class=\"lang-text lang-it d-none\">Sala del castellano</span></span>"
         },
         "type": "Feature"
       },
@@ -9167,7 +9167,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_136",
           "link": "/checklists/sitesof_grace.html#item_136",
-          "title": "Unsightly Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Unsightly Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe sgradevoli</span></span>"
         },
         "type": "Feature"
       },
@@ -9186,7 +9186,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_137",
           "link": "/checklists/sitesof_grace.html#item_137",
-          "title": "Sainted Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sainted Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe santo</span></span>"
         },
         "type": "Feature"
       },
@@ -9205,7 +9205,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_138",
           "link": "/checklists/sitesof_grace.html#item_138",
-          "title": "Sage's Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sage's Cave</span><span class=\"lang-text lang-it d-none\">Grotta del saggio</span></span>"
         },
         "type": "Feature"
       },
@@ -9224,7 +9224,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_139",
           "link": "/checklists/sitesof_grace.html#item_139",
-          "title": "Perfumer's Grotto"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Grotto</span><span class=\"lang-text lang-it d-none\">Grotta dei profumieri</span></span>"
         },
         "type": "Feature"
       },
@@ -9243,7 +9243,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_140",
           "link": "/checklists/sitesof_grace.html#item_140",
-          "title": "Old Altus Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Old Altus Tunnel</span><span class=\"lang-text lang-it d-none\">Vecchia galleria dell'Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -9262,7 +9262,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_141",
           "link": "/checklists/sitesof_grace.html#item_141",
-          "title": "Altus Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Altus Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria dell'Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -9281,7 +9281,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_142",
           "link": "/checklists/sitesof_grace.html#item_142",
-          "title": "Bridge of Iniquity"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bridge of Iniquity</span><span class=\"lang-text lang-it d-none\">Ponte dell'iniquit\u00e0</span></span>"
         },
         "type": "Feature"
       },
@@ -9300,7 +9300,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_143",
           "link": "/checklists/sitesof_grace.html#item_143",
-          "title": "First Mt. Gelmir Campsite"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">First Mt. Gelmir Campsite</span><span class=\"lang-text lang-it d-none\">Primo accampamento del monte Gelmir</span></span>"
         },
         "type": "Feature"
       },
@@ -9319,7 +9319,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_144",
           "link": "/checklists/sitesof_grace.html#item_144",
-          "title": "Ninth Mt. Gelmir Campsite"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ninth Mt. Gelmir Campsite</span><span class=\"lang-text lang-it d-none\">Nono accampamento del monte Gelmir</span></span>"
         },
         "type": "Feature"
       },
@@ -9338,7 +9338,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_145",
           "link": "/checklists/sitesof_grace.html#item_145",
-          "title": "Road of Iniquity"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Road of Iniquity</span><span class=\"lang-text lang-it d-none\">Strada dell'iniquit\u00e0</span></span>"
         },
         "type": "Feature"
       },
@@ -9357,7 +9357,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_146",
           "link": "/checklists/sitesof_grace.html#item_146",
-          "title": "Seethewater River"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seethewater River</span><span class=\"lang-text lang-it d-none\">Fiume dell'Acqua ribollente</span></span>"
         },
         "type": "Feature"
       },
@@ -9376,7 +9376,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_147",
           "link": "/checklists/sitesof_grace.html#item_147",
-          "title": "Seethewater Terminus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seethewater Terminus</span><span class=\"lang-text lang-it d-none\">Capolinea dell'Acqua ribollente</span></span>"
         },
         "type": "Feature"
       },
@@ -9395,7 +9395,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_148",
           "link": "/checklists/sitesof_grace.html#item_148",
-          "title": "Craftsman's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Craftsman's Shack</span><span class=\"lang-text lang-it d-none\">Capanna dell'artigiano</span></span>"
         },
         "type": "Feature"
       },
@@ -9414,7 +9414,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_149",
           "link": "/checklists/sitesof_grace.html#item_149",
-          "title": "Primeval Sorcerer Azur"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Primeval Sorcerer Azur</span><span class=\"lang-text lang-it d-none\">Stregone primordiale Azur</span></span>"
         },
         "type": "Feature"
       },
@@ -9433,7 +9433,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_150",
           "link": "/checklists/sitesof_grace.html#item_150",
-          "title": "Wyndham Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wyndham Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Wyndham</span></span>"
         },
         "type": "Feature"
       },
@@ -9452,7 +9452,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_151",
           "link": "/checklists/sitesof_grace.html#item_151",
-          "title": "Gelmir Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gelmir Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe di Gelmir</span></span>"
         },
         "type": "Feature"
       },
@@ -9471,7 +9471,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_152",
           "link": "/checklists/sitesof_grace.html#item_152",
-          "title": "Seethewater Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seethewater Cave</span><span class=\"lang-text lang-it d-none\">Grotta dell'Acqua ribollente</span></span>"
         },
         "type": "Feature"
       },
@@ -9490,7 +9490,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_153",
           "link": "/checklists/sitesof_grace.html#item_153",
-          "title": "Volcano Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Cave</span><span class=\"lang-text lang-it d-none\">Grotta del vulcano</span></span>"
         },
         "type": "Feature"
       },
@@ -9509,7 +9509,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_154",
           "link": "/checklists/sitesof_grace.html#item_154",
-          "title": "Outer Wall Phantom Tree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Outer Wall Phantom Tree</span><span class=\"lang-text lang-it d-none\">Albero spettrale delle mura esterne</span></span>"
         },
         "type": "Feature"
       },
@@ -9528,7 +9528,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_155",
           "link": "/checklists/sitesof_grace.html#item_155",
-          "title": "Minor Erdtree Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree Church</span><span class=\"lang-text lang-it d-none\">Chiesa dell'Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -9547,7 +9547,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_156",
           "link": "/checklists/sitesof_grace.html#item_156",
-          "title": "Outer Wall Battleground"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Outer Wall Battleground</span><span class=\"lang-text lang-it d-none\">Campo di battaglia delle mura esterne</span></span>"
         },
         "type": "Feature"
       },
@@ -9566,7 +9566,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_157",
           "link": "/checklists/sitesof_grace.html#item_157",
-          "title": "Hermit Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante eremita</span></span>"
         },
         "type": "Feature"
       },
@@ -9585,7 +9585,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_158",
           "link": "/checklists/sitesof_grace.html#item_158",
-          "title": "Capital Rampart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Capital Rampart</span><span class=\"lang-text lang-it d-none\">Bastioni della capitale</span></span>"
         },
         "type": "Feature"
       },
@@ -9604,7 +9604,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_159",
           "link": "/checklists/sitesof_grace.html#item_159",
-          "title": "Auriza Side Tomb"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Auriza Side Tomb</span><span class=\"lang-text lang-it d-none\">Tomba laterale di Auriza</span></span>"
         },
         "type": "Feature"
       },
@@ -9623,7 +9623,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_160",
           "link": "/checklists/sitesof_grace.html#item_160",
-          "title": "Auriza Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Auriza Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe di Auriza</span></span>"
         },
         "type": "Feature"
       },
@@ -9642,7 +9642,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_161",
           "link": "/checklists/sitesof_grace.html#item_161",
-          "title": "Sealed Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sealed Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria sigillata</span></span>"
         },
         "type": "Feature"
       },
@@ -9661,7 +9661,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_162",
           "link": "/checklists/sitesof_grace.html#item_162",
-          "title": "Divine Tower of West Altus: Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of West Altus: Gate</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus occidentale: porta</span></span>"
         },
         "type": "Feature"
       },
@@ -9680,7 +9680,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_163",
           "link": "/checklists/sitesof_grace.html#item_163",
-          "title": "Divine Tower of West Altus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of West Altus</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus occidentale</span></span>"
         },
         "type": "Feature"
       },
@@ -9699,7 +9699,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_164",
           "link": "/checklists/sitesof_grace.html#item_164",
-          "title": "Volcano Manor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Manor</span><span class=\"lang-text lang-it d-none\">Villa Vulcano</span></span>"
         },
         "type": "Feature"
       },
@@ -9718,7 +9718,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_165",
           "link": "/checklists/sitesof_grace.html#item_165",
-          "title": "Prison Town Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prison Town Church</span><span class=\"lang-text lang-it d-none\">Chiesa dell'insediamento carcerario</span></span>"
         },
         "type": "Feature"
       },
@@ -9737,7 +9737,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_166",
           "link": "/checklists/sitesof_grace.html#item_166",
-          "title": "Temple of Eiglay"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Temple of Eiglay</span><span class=\"lang-text lang-it d-none\">Tempio di Eiglay</span></span>"
         },
         "type": "Feature"
       },
@@ -9756,7 +9756,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_167",
           "link": "/checklists/sitesof_grace.html#item_167",
-          "title": "Guest Hall"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Guest Hall</span><span class=\"lang-text lang-it d-none\">Salone degli ospiti</span></span>"
         },
         "type": "Feature"
       },
@@ -9775,7 +9775,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_168",
           "link": "/checklists/sitesof_grace.html#item_168",
-          "title": "Audience Pathway"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Audience Pathway</span><span class=\"lang-text lang-it d-none\">Sentiero dell'udienza</span></span>"
         },
         "type": "Feature"
       },
@@ -9794,7 +9794,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_169",
           "link": "/checklists/sitesof_grace.html#item_169",
-          "title": "Abductor Virgin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Abductor Virgin</span><span class=\"lang-text lang-it d-none\">Vergine rapitrice</span></span>"
         },
         "type": "Feature"
       },
@@ -9813,7 +9813,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_170",
           "link": "/checklists/sitesof_grace.html#item_170",
-          "title": "Subterranean Inquisition Chamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Subterranean Inquisition Chamber</span><span class=\"lang-text lang-it d-none\">Inquisizione sotterranea</span></span>"
         },
         "type": "Feature"
       },
@@ -9832,7 +9832,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_171",
           "link": "/checklists/sitesof_grace.html#item_171",
-          "title": "Rykard, Lord of Blasphemy"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rykard, Lord of Blasphemy</span><span class=\"lang-text lang-it d-none\">Rykard, signore della blasfemia</span></span>"
         },
         "type": "Feature"
       },
@@ -9851,7 +9851,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_172",
           "link": "/checklists/sitesof_grace.html#item_172",
-          "title": "Erdtree Sanctuary"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Sanctuary</span><span class=\"lang-text lang-it d-none\">Santuario dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -9870,7 +9870,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_173",
           "link": "/checklists/sitesof_grace.html#item_173",
-          "title": "East Capital Rampart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">East Capital Rampart</span><span class=\"lang-text lang-it d-none\">Bastioni orientali della capitale</span></span>"
         },
         "type": "Feature"
       },
@@ -9889,7 +9889,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_174",
           "link": "/checklists/sitesof_grace.html#item_174",
-          "title": "Lower Capital Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lower Capital Church</span><span class=\"lang-text lang-it d-none\">Chiesa della capitale bassa</span></span>"
         },
         "type": "Feature"
       },
@@ -9908,7 +9908,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_175",
           "link": "/checklists/sitesof_grace.html#item_175",
-          "title": "Avenue Balcony"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Avenue Balcony</span><span class=\"lang-text lang-it d-none\">Balconata sulla strada</span></span>"
         },
         "type": "Feature"
       },
@@ -9927,7 +9927,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_176",
           "link": "/checklists/sitesof_grace.html#item_176",
-          "title": "West Capital Rampart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">West Capital Rampart</span><span class=\"lang-text lang-it d-none\">Bastioni occidentali della capitale</span></span>"
         },
         "type": "Feature"
       },
@@ -9946,7 +9946,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_177",
           "link": "/checklists/sitesof_grace.html#item_177",
-          "title": "Queen's Bedchamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Queen's Bedchamber</span><span class=\"lang-text lang-it d-none\">Camera da letto della regina</span></span>"
         },
         "type": "Feature"
       },
@@ -9965,7 +9965,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_178",
           "link": "/checklists/sitesof_grace.html#item_178",
-          "title": "Fortified Manor, First Floor"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fortified Manor, First Floor</span><span class=\"lang-text lang-it d-none\">Primo piano del maniero fortificato</span></span>"
         },
         "type": "Feature"
       },
@@ -9984,7 +9984,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_179",
           "link": "/checklists/sitesof_grace.html#item_179",
-          "title": "Divine Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Bridge</span><span class=\"lang-text lang-it d-none\">Ponte divino</span></span>"
         },
         "type": "Feature"
       },
@@ -10003,7 +10003,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_180",
           "link": "/checklists/sitesof_grace.html#item_180",
-          "title": "Elden Throne"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elden Throne</span><span class=\"lang-text lang-it d-none\">Trono ancestrale</span></span>"
         },
         "type": "Feature"
       },
@@ -10022,7 +10022,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_181",
           "link": "/checklists/sitesof_grace.html#item_181",
-          "title": "Underground Roadside"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Underground Roadside</span><span class=\"lang-text lang-it d-none\">Strada sotterranea</span></span>"
         },
         "type": "Feature"
       },
@@ -10041,7 +10041,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_182",
           "link": "/checklists/sitesof_grace.html#item_182",
-          "title": "Forsaken Depths"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forsaken Depths</span><span class=\"lang-text lang-it d-none\">Abissi dei rinnegati</span></span>"
         },
         "type": "Feature"
       },
@@ -10060,7 +10060,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_183",
           "link": "/checklists/sitesof_grace.html#item_183",
-          "title": "Leyndell Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leyndell Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Leyndell</span></span>"
         },
         "type": "Feature"
       },
@@ -10079,7 +10079,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_184",
           "link": "/checklists/sitesof_grace.html#item_184",
-          "title": "Frenzied Flame Proscription"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied Flame Proscription</span><span class=\"lang-text lang-it d-none\">Proscrizione della Fiamma Frenetica</span></span>"
         },
         "type": "Feature"
       },
@@ -10098,7 +10098,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_185",
           "link": "/checklists/sitesof_grace.html#item_185",
-          "title": "Cathedral of the Forsaken"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cathedral of the Forsaken</span><span class=\"lang-text lang-it d-none\">Cattedrale dei rinnegati</span></span>"
         },
         "type": "Feature"
       },
@@ -10117,7 +10117,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_186",
           "link": "/checklists/sitesof_grace.html#item_186",
-          "title": "East Capital Rampart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">East Capital Rampart</span><span class=\"lang-text lang-it d-none\">Bastioni orientali della capitale</span></span>"
         },
         "type": "Feature"
       },
@@ -10136,7 +10136,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_187",
           "link": "/checklists/sitesof_grace.html#item_187",
-          "title": "Leyndell, Capital of Ash"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leyndell, Capital of Ash</span><span class=\"lang-text lang-it d-none\">Leyndell, capitale delle ceneri</span></span>"
         },
         "type": "Feature"
       },
@@ -10155,7 +10155,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_188",
           "link": "/checklists/sitesof_grace.html#item_188",
-          "title": "Erdtree Sanctuary"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erdtree Sanctuary</span><span class=\"lang-text lang-it d-none\">Santuario dell'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -10174,7 +10174,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_189",
           "link": "/checklists/sitesof_grace.html#item_189",
-          "title": "Queen's Bedchamber"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Queen's Bedchamber</span><span class=\"lang-text lang-it d-none\">Camera da letto della regina</span></span>"
         },
         "type": "Feature"
       },
@@ -10193,7 +10193,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_190",
           "link": "/checklists/sitesof_grace.html#item_190",
-          "title": "Divine Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Bridge</span><span class=\"lang-text lang-it d-none\">Ponte divino</span></span>"
         },
         "type": "Feature"
       },
@@ -10212,7 +10212,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_191",
           "link": "/checklists/sitesof_grace.html#item_191",
-          "title": "Elden Throne"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elden Throne</span><span class=\"lang-text lang-it d-none\">Trono ancestrale</span></span>"
         },
         "type": "Feature"
       },
@@ -10231,7 +10231,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_192",
           "link": "/checklists/sitesof_grace.html#item_192",
-          "title": "Fractured Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fractured Marika</span><span class=\"lang-text lang-it d-none\">Marika frantumata</span></span>"
         },
         "type": "Feature"
       },
@@ -10250,7 +10250,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_193",
           "link": "/checklists/sitesof_grace.html#item_193",
-          "title": "Smoldering Church"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Smoldering Church</span><span class=\"lang-text lang-it d-none\">Chiesa ardente</span></span>"
         },
         "type": "Feature"
       },
@@ -10269,7 +10269,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_194",
           "link": "/checklists/sitesof_grace.html#item_194",
-          "title": "Rotview Balcony"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rotview Balcony</span><span class=\"lang-text lang-it d-none\">Balconata sulla putrefazione</span></span>"
         },
         "type": "Feature"
       },
@@ -10288,7 +10288,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_195",
           "link": "/checklists/sitesof_grace.html#item_195",
-          "title": "Caelem Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelem Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Caelem</span></span>"
         },
         "type": "Feature"
       },
@@ -10307,7 +10307,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_196",
           "link": "/checklists/sitesof_grace.html#item_196",
-          "title": "Fort Gael North"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Gael North</span><span class=\"lang-text lang-it d-none\">Forte Gael nord</span></span>"
         },
         "type": "Feature"
       },
@@ -10326,7 +10326,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_197",
           "link": "/checklists/sitesof_grace.html#item_197",
-          "title": "Smoldering Wall"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Smoldering Wall</span><span class=\"lang-text lang-it d-none\">Muro ardente</span></span>"
         },
         "type": "Feature"
       },
@@ -10345,7 +10345,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_198",
           "link": "/checklists/sitesof_grace.html#item_198",
-          "title": "Caelid Highway South"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelid Highway South</span><span class=\"lang-text lang-it d-none\">Via maestra di Caelid sud</span></span>"
         },
         "type": "Feature"
       },
@@ -10364,7 +10364,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_199",
           "link": "/checklists/sitesof_grace.html#item_199",
-          "title": "Cathedral of Dragon Communion"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cathedral of Dragon Communion</span><span class=\"lang-text lang-it d-none\">Cattedrale della Comunione draconica</span></span>"
         },
         "type": "Feature"
       },
@@ -10383,7 +10383,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_200",
           "link": "/checklists/sitesof_grace.html#item_200",
-          "title": "Southern Aeonia Swamp Bank"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Southern Aeonia Swamp Bank</span><span class=\"lang-text lang-it d-none\">Riva sud della palude di Aeonia</span></span>"
         },
         "type": "Feature"
       },
@@ -10402,7 +10402,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_201",
           "link": "/checklists/sitesof_grace.html#item_201",
-          "title": "Sellia Backstreets"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Backstreets</span><span class=\"lang-text lang-it d-none\">Vicolo di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -10421,7 +10421,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_202",
           "link": "/checklists/sitesof_grace.html#item_202",
-          "title": "Sellia Under-Stair"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Under-Stair</span><span class=\"lang-text lang-it d-none\">Sottoscala di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -10440,7 +10440,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_203",
           "link": "/checklists/sitesof_grace.html#item_203",
-          "title": "Chair-Crypt of Sellia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Chair-Crypt of Sellia</span><span class=\"lang-text lang-it d-none\">Cripta del seggio di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -10459,7 +10459,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_204",
           "link": "/checklists/sitesof_grace.html#item_204",
-          "title": "Church of the Plague"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of the Plague</span><span class=\"lang-text lang-it d-none\">Chiesa della piaga</span></span>"
         },
         "type": "Feature"
       },
@@ -10478,7 +10478,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_205",
           "link": "/checklists/sitesof_grace.html#item_205",
-          "title": "Deep Siofra Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deep Siofra Well</span><span class=\"lang-text lang-it d-none\">Pozzo profondo del Siofra</span></span>"
         },
         "type": "Feature"
       },
@@ -10497,7 +10497,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_206",
           "link": "/checklists/sitesof_grace.html#item_206",
-          "title": "Impassable Greatbridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Impassable Greatbridge</span><span class=\"lang-text lang-it d-none\">Granponte invalicabile</span></span>"
         },
         "type": "Feature"
       },
@@ -10516,7 +10516,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_207",
           "link": "/checklists/sitesof_grace.html#item_207",
-          "title": "Chamber Outside the Plaza"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Chamber Outside the Plaza</span><span class=\"lang-text lang-it d-none\">Cella fuori dal piazzale</span></span>"
         },
         "type": "Feature"
       },
@@ -10535,7 +10535,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_208",
           "link": "/checklists/sitesof_grace.html#item_208",
-          "title": "Redmane Castle Plaza"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Redmane Castle Plaza</span><span class=\"lang-text lang-it d-none\">Piazzale del castello di Mantorosso</span></span>"
         },
         "type": "Feature"
       },
@@ -10554,7 +10554,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_209",
           "link": "/checklists/sitesof_grace.html#item_209",
-          "title": "Starscourge Radahn"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Starscourge Radahn</span><span class=\"lang-text lang-it d-none\">Radahn, il Flagello celeste</span></span>"
         },
         "type": "Feature"
       },
@@ -10573,7 +10573,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_210",
           "link": "/checklists/sitesof_grace.html#item_210",
-          "title": "Minor Erdtree Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Minor Erdtree Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dell'Albero Madre minore</span></span>"
         },
         "type": "Feature"
       },
@@ -10592,7 +10592,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_211",
           "link": "/checklists/sitesof_grace.html#item_211",
-          "title": "Caelid Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Caelid Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe di Caelid</span></span>"
         },
         "type": "Feature"
       },
@@ -10611,7 +10611,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_212",
           "link": "/checklists/sitesof_grace.html#item_212",
-          "title": "War-Dead Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">War-Dead Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe dei caduti in guerra</span></span>"
         },
         "type": "Feature"
       },
@@ -10630,7 +10630,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_213",
           "link": "/checklists/sitesof_grace.html#item_213",
-          "title": "Abandoned Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Abandoned Cave</span><span class=\"lang-text lang-it d-none\">Grotta abbandonata</span></span>"
         },
         "type": "Feature"
       },
@@ -10649,7 +10649,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_214",
           "link": "/checklists/sitesof_grace.html#item_214",
-          "title": "Gaol Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gaol Cave</span><span class=\"lang-text lang-it d-none\">Grotta delle segrete</span></span>"
         },
         "type": "Feature"
       },
@@ -10668,7 +10668,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_215",
           "link": "/checklists/sitesof_grace.html#item_215",
-          "title": "Gael Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gael Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Gael</span></span>"
         },
         "type": "Feature"
       },
@@ -10687,7 +10687,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_216",
           "link": "/checklists/sitesof_grace.html#item_216",
-          "title": "Rear Gael Tunnel Entrance"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rear Gael Tunnel Entrance</span><span class=\"lang-text lang-it d-none\">Ingresso posteriore della galleria di Gael</span></span>"
         },
         "type": "Feature"
       },
@@ -10706,7 +10706,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_217",
           "link": "/checklists/sitesof_grace.html#item_217",
-          "title": "Sellia Crystal Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Crystal Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria cristallina di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -10725,7 +10725,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_218",
           "link": "/checklists/sitesof_grace.html#item_218",
-          "title": "Aeonia Swamp Shore"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Aeonia Swamp Shore</span><span class=\"lang-text lang-it d-none\">Riva della palude di Aeonia</span></span>"
         },
         "type": "Feature"
       },
@@ -10744,7 +10744,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_219",
           "link": "/checklists/sitesof_grace.html#item_219",
-          "title": "Astray from Caelid Highway North"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Astray from Caelid Highway North</span><span class=\"lang-text lang-it d-none\">Nord della via maestra di Caelid (fuori sentiero)</span></span>"
         },
         "type": "Feature"
       },
@@ -10763,7 +10763,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_220",
           "link": "/checklists/sitesof_grace.html#item_220",
-          "title": "Heart of Aeonia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Heart of Aeonia</span><span class=\"lang-text lang-it d-none\">Cuore di Aeonia</span></span>"
         },
         "type": "Feature"
       },
@@ -10782,7 +10782,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_221",
           "link": "/checklists/sitesof_grace.html#item_221",
-          "title": "Inner Aeonia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Inner Aeonia</span><span class=\"lang-text lang-it d-none\">Aeonia interna</span></span>"
         },
         "type": "Feature"
       },
@@ -10801,7 +10801,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_222",
           "link": "/checklists/sitesof_grace.html#item_222",
-          "title": "Dragonbarrow West"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonbarrow West</span><span class=\"lang-text lang-it d-none\">Tumuli draconici ovest</span></span>"
         },
         "type": "Feature"
       },
@@ -10820,7 +10820,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_223",
           "link": "/checklists/sitesof_grace.html#item_223",
-          "title": "Isolated Merchant's Shack"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant's Shack</span><span class=\"lang-text lang-it d-none\">Capanna del mercante isolato</span></span>"
         },
         "type": "Feature"
       },
@@ -10839,7 +10839,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_224",
           "link": "/checklists/sitesof_grace.html#item_224",
-          "title": "Fort Faroth"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fort Faroth</span><span class=\"lang-text lang-it d-none\">Forte Faroth</span></span>"
         },
         "type": "Feature"
       },
@@ -10858,7 +10858,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_225",
           "link": "/checklists/sitesof_grace.html#item_225",
-          "title": "Dragonbarrow Fork"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonbarrow Fork</span><span class=\"lang-text lang-it d-none\">Bivio dei tumuli draconici</span></span>"
         },
         "type": "Feature"
       },
@@ -10877,7 +10877,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_226",
           "link": "/checklists/sitesof_grace.html#item_226",
-          "title": "Lenne's Rise"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lenne's Rise</span><span class=\"lang-text lang-it d-none\">Guglia di Lenne</span></span>"
         },
         "type": "Feature"
       },
@@ -10896,7 +10896,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_227",
           "link": "/checklists/sitesof_grace.html#item_227",
-          "title": "Farum Greatbridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Farum Greatbridge</span><span class=\"lang-text lang-it d-none\">Granponte di Farum</span></span>"
         },
         "type": "Feature"
       },
@@ -10915,7 +10915,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_228",
           "link": "/checklists/sitesof_grace.html#item_228",
-          "title": "Bestial Sanctum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bestial Sanctum</span><span class=\"lang-text lang-it d-none\">Santuario bestiale</span></span>"
         },
         "type": "Feature"
       },
@@ -10934,7 +10934,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_229",
           "link": "/checklists/sitesof_grace.html#item_229",
-          "title": "Sellia Hideaway"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sellia Hideaway</span><span class=\"lang-text lang-it d-none\">Rifugio di Sellia</span></span>"
         },
         "type": "Feature"
       },
@@ -10953,7 +10953,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_230",
           "link": "/checklists/sitesof_grace.html#item_230",
-          "title": "Dragonbarrow Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonbarrow Cave</span><span class=\"lang-text lang-it d-none\">Grotta dei tumuli draconici</span></span>"
         },
         "type": "Feature"
       },
@@ -10972,7 +10972,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_231",
           "link": "/checklists/sitesof_grace.html#item_231",
-          "title": "Divine Tower of Caelid: Center"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Caelid: Center</span><span class=\"lang-text lang-it d-none\">Torre divina di Caelid: centro</span></span>"
         },
         "type": "Feature"
       },
@@ -10991,7 +10991,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_232",
           "link": "/checklists/sitesof_grace.html#item_232",
-          "title": "Divine Tower of Caelid: Basement"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of Caelid: Basement</span><span class=\"lang-text lang-it d-none\">Torre divina di Caelid: seminterrato</span></span>"
         },
         "type": "Feature"
       },
@@ -11010,7 +11010,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_233",
           "link": "/checklists/sitesof_grace.html#item_233",
-          "title": "Isolated Divine Tower"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Divine Tower</span><span class=\"lang-text lang-it d-none\">Torre divina isolata</span></span>"
         },
         "type": "Feature"
       },
@@ -11029,7 +11029,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_234",
           "link": "/checklists/sitesof_grace.html#item_234",
-          "title": "Forbidden Lands"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forbidden Lands</span><span class=\"lang-text lang-it d-none\">Terre proibite</span></span>"
         },
         "type": "Feature"
       },
@@ -11048,7 +11048,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_235",
           "link": "/checklists/sitesof_grace.html#item_235",
-          "title": "Grand Lift of Rold"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grand Lift of Rold</span><span class=\"lang-text lang-it d-none\">Grande montacarichi di Rold</span></span>"
         },
         "type": "Feature"
       },
@@ -11067,7 +11067,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_236",
           "link": "/checklists/sitesof_grace.html#item_236",
-          "title": "Hidden Path to the Haligtree"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hidden Path to the Haligtree</span><span class=\"lang-text lang-it d-none\">Cammino nascosto per il Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11086,7 +11086,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_237",
           "link": "/checklists/sitesof_grace.html#item_237",
-          "title": "Divine Tower of East Altus: Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of East Altus: Gate</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus orientale: porta</span></span>"
         },
         "type": "Feature"
       },
@@ -11105,7 +11105,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_238",
           "link": "/checklists/sitesof_grace.html#item_238",
-          "title": "Divine Tower of East Altus"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Divine Tower of East Altus</span><span class=\"lang-text lang-it d-none\">Torre divina dell'Altus orientale</span></span>"
         },
         "type": "Feature"
       },
@@ -11124,7 +11124,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_239",
           "link": "/checklists/sitesof_grace.html#item_239",
-          "title": "Zamor Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Zamor Ruins</span><span class=\"lang-text lang-it d-none\">Rovine di Zamor</span></span>"
         },
         "type": "Feature"
       },
@@ -11143,7 +11143,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_240",
           "link": "/checklists/sitesof_grace.html#item_240",
-          "title": "Ancient Snow Valley Ruins"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Snow Valley Ruins</span><span class=\"lang-text lang-it d-none\">Rovine dell'antica valle innevata</span></span>"
         },
         "type": "Feature"
       },
@@ -11162,7 +11162,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_241",
           "link": "/checklists/sitesof_grace.html#item_241",
-          "title": "Freezing Lake"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Freezing Lake</span><span class=\"lang-text lang-it d-none\">Lago gelato</span></span>"
         },
         "type": "Feature"
       },
@@ -11181,7 +11181,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_242",
           "link": "/checklists/sitesof_grace.html#item_242",
-          "title": "First Church of Marika"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">First Church of Marika</span><span class=\"lang-text lang-it d-none\">Prima chiesa di Marika</span></span>"
         },
         "type": "Feature"
       },
@@ -11200,7 +11200,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_243",
           "link": "/checklists/sitesof_grace.html#item_243",
-          "title": "Whiteridge Road"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Whiteridge Road</span><span class=\"lang-text lang-it d-none\">Strada della cresta bianca</span></span>"
         },
         "type": "Feature"
       },
@@ -11219,7 +11219,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_244",
           "link": "/checklists/sitesof_grace.html#item_244",
-          "title": "Snow Valley Ruins Overlook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Snow Valley Ruins Overlook</span><span class=\"lang-text lang-it d-none\">Belvedere delle rovine della valle innevata</span></span>"
         },
         "type": "Feature"
       },
@@ -11238,7 +11238,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_245",
           "link": "/checklists/sitesof_grace.html#item_245",
-          "title": "Castle Sol Main Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Sol Main Gate</span><span class=\"lang-text lang-it d-none\">Portone principale di Castel Sol</span></span>"
         },
         "type": "Feature"
       },
@@ -11257,7 +11257,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_246",
           "link": "/checklists/sitesof_grace.html#item_246",
-          "title": "Church of the Eclipse"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of the Eclipse</span><span class=\"lang-text lang-it d-none\">Chiesa dell'eclissi</span></span>"
         },
         "type": "Feature"
       },
@@ -11276,7 +11276,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_247",
           "link": "/checklists/sitesof_grace.html#item_247",
-          "title": "Castle Sol Rooftop"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Castle Sol Rooftop</span><span class=\"lang-text lang-it d-none\">Tetto di Castel Sol</span></span>"
         },
         "type": "Feature"
       },
@@ -11295,7 +11295,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_248",
           "link": "/checklists/sitesof_grace.html#item_248",
-          "title": "Spiritcaller Cave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spiritcaller Cave</span><span class=\"lang-text lang-it d-none\">Grotta degli evocatori di spiriti</span></span>"
         },
         "type": "Feature"
       },
@@ -11314,7 +11314,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_249",
           "link": "/checklists/sitesof_grace.html#item_249",
-          "title": "Giants' Gravepost"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giants' Gravepost</span><span class=\"lang-text lang-it d-none\">Pietra miliare dei giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -11333,7 +11333,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_250",
           "link": "/checklists/sitesof_grace.html#item_250",
-          "title": "Church of Repose"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Church of Repose</span><span class=\"lang-text lang-it d-none\">Chiesa del riposo</span></span>"
         },
         "type": "Feature"
       },
@@ -11352,7 +11352,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_251",
           "link": "/checklists/sitesof_grace.html#item_251",
-          "title": "Foot of the Forge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Foot of the Forge</span><span class=\"lang-text lang-it d-none\">Ai piedi della forgia</span></span>"
         },
         "type": "Feature"
       },
@@ -11371,7 +11371,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_252",
           "link": "/checklists/sitesof_grace.html#item_252",
-          "title": "Fire Giant"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fire Giant</span><span class=\"lang-text lang-it d-none\">Gigante di fuoco</span></span>"
         },
         "type": "Feature"
       },
@@ -11390,7 +11390,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_253",
           "link": "/checklists/sitesof_grace.html#item_253",
-          "title": "Forge of the Giants"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forge of the Giants</span><span class=\"lang-text lang-it d-none\">Forgia dei giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -11409,7 +11409,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_254",
           "link": "/checklists/sitesof_grace.html#item_254",
-          "title": "Giants' Mountaintop Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giants' Mountaintop Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe delle Vette dei Giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -11428,7 +11428,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_255",
           "link": "/checklists/sitesof_grace.html#item_255",
-          "title": "Giant-Conquering Hero's Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giant-Conquering Hero's Grave</span><span class=\"lang-text lang-it d-none\">Tomba dell'eroe conquistatore di giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -11447,7 +11447,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_256",
           "link": "/checklists/sitesof_grace.html#item_256",
-          "title": "Consecrated Snowfield"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Consecrated Snowfield</span><span class=\"lang-text lang-it d-none\">Terre sacre</span></span>"
         },
         "type": "Feature"
       },
@@ -11466,7 +11466,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_257",
           "link": "/checklists/sitesof_grace.html#item_257",
-          "title": "Inner Consecrated Snowfield"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Inner Consecrated Snowfield</span><span class=\"lang-text lang-it d-none\">Terre sacre interne</span></span>"
         },
         "type": "Feature"
       },
@@ -11485,7 +11485,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_258",
           "link": "/checklists/sitesof_grace.html#item_258",
-          "title": "Ordina, Liturgical Town"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ordina, Liturgical Town</span><span class=\"lang-text lang-it d-none\">Ordina, citt\u00e0 liturgica</span></span>"
         },
         "type": "Feature"
       },
@@ -11504,7 +11504,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_259",
           "link": "/checklists/sitesof_grace.html#item_259",
-          "title": "Apostate Derelict"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Apostate Derelict</span><span class=\"lang-text lang-it d-none\">Ruderi del reietto</span></span>"
         },
         "type": "Feature"
       },
@@ -11523,7 +11523,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_260",
           "link": "/checklists/sitesof_grace.html#item_260",
-          "title": "Consecrated Snowfield Catacombs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Consecrated Snowfield Catacombs</span><span class=\"lang-text lang-it d-none\">Catacombe delle Terre sacre</span></span>"
         },
         "type": "Feature"
       },
@@ -11542,7 +11542,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_261",
           "link": "/checklists/sitesof_grace.html#item_261",
-          "title": "Cave of the Forlorn"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cave of the Forlorn</span><span class=\"lang-text lang-it d-none\">Grotta del reietto</span></span>"
         },
         "type": "Feature"
       },
@@ -11561,7 +11561,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_262",
           "link": "/checklists/sitesof_grace.html#item_262",
-          "title": "Yelough Anix Tunnel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Yelough Anix Tunnel</span><span class=\"lang-text lang-it d-none\">Galleria di Yelough Anix</span></span>"
         },
         "type": "Feature"
       },
@@ -11580,7 +11580,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_263",
           "link": "/checklists/sitesof_grace.html#item_263",
-          "title": "Haligtree Canopy"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Haligtree Canopy</span><span class=\"lang-text lang-it d-none\">Chioma del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11599,7 +11599,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_264",
           "link": "/checklists/sitesof_grace.html#item_264",
-          "title": "Haligtree Town"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Haligtree Town</span><span class=\"lang-text lang-it d-none\">Citt\u00e0 del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11618,7 +11618,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_265",
           "link": "/checklists/sitesof_grace.html#item_265",
-          "title": "Haligtree Town Plaza"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Haligtree Town Plaza</span><span class=\"lang-text lang-it d-none\">Piazza della citt\u00e0 del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11637,7 +11637,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_266",
           "link": "/checklists/sitesof_grace.html#item_266",
-          "title": "Haligtree Promenade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Haligtree Promenade</span><span class=\"lang-text lang-it d-none\">Passeggiata del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11656,7 +11656,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_267",
           "link": "/checklists/sitesof_grace.html#item_267",
-          "title": "Prayer Room"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prayer Room</span><span class=\"lang-text lang-it d-none\">Stanza della preghiera</span></span>"
         },
         "type": "Feature"
       },
@@ -11675,7 +11675,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_268",
           "link": "/checklists/sitesof_grace.html#item_268",
-          "title": "Elphael Inner Wall"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elphael Inner Wall</span><span class=\"lang-text lang-it d-none\">Muro interno di Elphael</span></span>"
         },
         "type": "Feature"
       },
@@ -11694,7 +11694,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_269",
           "link": "/checklists/sitesof_grace.html#item_269",
-          "title": "Drainage Channel"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Drainage Channel</span><span class=\"lang-text lang-it d-none\">Canale di drenaggio</span></span>"
         },
         "type": "Feature"
       },
@@ -11713,7 +11713,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_270",
           "link": "/checklists/sitesof_grace.html#item_270",
-          "title": "Haligtree Roots"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Haligtree Roots</span><span class=\"lang-text lang-it d-none\">Radici del Sacro Albero</span></span>"
         },
         "type": "Feature"
       },
@@ -11732,7 +11732,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_271",
           "link": "/checklists/sitesof_grace.html#item_271",
-          "title": "Malenia, Goddess of Rot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Malenia, Goddess of Rot</span><span class=\"lang-text lang-it d-none\">Malenia, dea della marcescenza</span></span>"
         },
         "type": "Feature"
       },
@@ -11751,7 +11751,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_272",
           "link": "/checklists/sitesof_grace.html#item_272",
-          "title": "Ainsel River Well Depths"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ainsel River Well Depths</span><span class=\"lang-text lang-it d-none\">Pozzo del fiume Ainsel (profondit\u00e0)</span></span>"
         },
         "type": "Feature"
       },
@@ -11770,7 +11770,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_273",
           "link": "/checklists/sitesof_grace.html#item_273",
-          "title": "Ainsel River Sluice Gate"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ainsel River Sluice Gate</span><span class=\"lang-text lang-it d-none\">Chiusa del fiume Ainsel</span></span>"
         },
         "type": "Feature"
       },
@@ -11789,7 +11789,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_274",
           "link": "/checklists/sitesof_grace.html#item_274",
-          "title": "Ainsel River Downstream"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ainsel River Downstream</span><span class=\"lang-text lang-it d-none\">Corso inferiore del fiume Ainsel</span></span>"
         },
         "type": "Feature"
       },
@@ -11808,7 +11808,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_275",
           "link": "/checklists/sitesof_grace.html#item_275",
-          "title": "Dragonkin Soldier of Nokstella"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonkin Soldier of Nokstella</span><span class=\"lang-text lang-it d-none\">Soldato draconico di Nokstella</span></span>"
         },
         "type": "Feature"
       },
@@ -11827,7 +11827,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_276",
           "link": "/checklists/sitesof_grace.html#item_276",
-          "title": "Astel, Naturalborn of the Void"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Astel, Naturalborn of the Void</span><span class=\"lang-text lang-it d-none\">Astel, progenie del vuoto</span></span>"
         },
         "type": "Feature"
       },
@@ -11846,7 +11846,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_277",
           "link": "/checklists/sitesof_grace.html#item_277",
-          "title": "Ainsel River Main"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ainsel River Main</span><span class=\"lang-text lang-it d-none\">Corso principale del fiume Ainsel</span></span>"
         },
         "type": "Feature"
       },
@@ -11865,7 +11865,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_278",
           "link": "/checklists/sitesof_grace.html#item_278",
-          "title": "Nokstella, Eternal City"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nokstella, Eternal City</span><span class=\"lang-text lang-it d-none\">Nokstella, la Citt\u00e0 Eterna</span></span>"
         },
         "type": "Feature"
       },
@@ -11884,7 +11884,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_279",
           "link": "/checklists/sitesof_grace.html#item_279",
-          "title": "Nokstella Waterfall Basin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nokstella Waterfall Basin</span><span class=\"lang-text lang-it d-none\">Bacino della cascata di Nokstella</span></span>"
         },
         "type": "Feature"
       },
@@ -11903,7 +11903,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_280",
           "link": "/checklists/sitesof_grace.html#item_280",
-          "title": "Lake of Rot Shoreside"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lake of Rot Shoreside</span><span class=\"lang-text lang-it d-none\">Riva del lago di Marcescenza</span></span>"
         },
         "type": "Feature"
       },
@@ -11922,7 +11922,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_281",
           "link": "/checklists/sitesof_grace.html#item_281",
-          "title": "Grand Cloister"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grand Cloister</span><span class=\"lang-text lang-it d-none\">Gran Chiostro</span></span>"
         },
         "type": "Feature"
       },
@@ -11941,7 +11941,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_282",
           "link": "/checklists/sitesof_grace.html#item_282",
-          "title": "Nokron, Eternal City"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nokron, Eternal City</span><span class=\"lang-text lang-it d-none\">Nokron, la Citt\u00e0 Eterna</span></span>"
         },
         "type": "Feature"
       },
@@ -11960,7 +11960,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_283",
           "link": "/checklists/sitesof_grace.html#item_283",
-          "title": "Mimic Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mimic Tear</span><span class=\"lang-text lang-it d-none\">Lacrima riflessa</span></span>"
         },
         "type": "Feature"
       },
@@ -11979,7 +11979,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_284",
           "link": "/checklists/sitesof_grace.html#item_284",
-          "title": "Ancestral Woods"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancestral Woods</span><span class=\"lang-text lang-it d-none\">Boschi ancestrali</span></span>"
         },
         "type": "Feature"
       },
@@ -11998,7 +11998,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_285",
           "link": "/checklists/sitesof_grace.html#item_285",
-          "title": "Night's Sacred Ground"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Night's Sacred Ground</span><span class=\"lang-text lang-it d-none\">Suolo sacro della notte</span></span>"
         },
         "type": "Feature"
       },
@@ -12017,7 +12017,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_286",
           "link": "/checklists/sitesof_grace.html#item_286",
-          "title": "Aqueduct-Facing Cliffs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Aqueduct-Facing Cliffs</span><span class=\"lang-text lang-it d-none\">Scogliera sull'acquedotto</span></span>"
         },
         "type": "Feature"
       },
@@ -12036,7 +12036,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_287",
           "link": "/checklists/sitesof_grace.html#item_287",
-          "title": "Great Waterfall Basin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Great Waterfall Basin</span><span class=\"lang-text lang-it d-none\">Bacino della grande cascata</span></span>"
         },
         "type": "Feature"
       },
@@ -12055,7 +12055,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_288",
           "link": "/checklists/sitesof_grace.html#item_288",
-          "title": "Siofra River Well Depths"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Siofra River Well Depths</span><span class=\"lang-text lang-it d-none\">Pozzo del fiume Siofra (profondit\u00e0)</span></span>"
         },
         "type": "Feature"
       },
@@ -12074,7 +12074,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_289",
           "link": "/checklists/sitesof_grace.html#item_289",
-          "title": "Siofra River Bank"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Siofra River Bank</span><span class=\"lang-text lang-it d-none\">Riva del fiume Siofra</span></span>"
         },
         "type": "Feature"
       },
@@ -12093,7 +12093,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_290",
           "link": "/checklists/sitesof_grace.html#item_290",
-          "title": "Worshippers' Woods"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Worshippers' Woods</span><span class=\"lang-text lang-it d-none\">Boschi dei seguaci</span></span>"
         },
         "type": "Feature"
       },
@@ -12112,7 +12112,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_291",
           "link": "/checklists/sitesof_grace.html#item_291",
-          "title": "Below the Well"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Below the Well</span><span class=\"lang-text lang-it d-none\">Sotto il pozzo</span></span>"
         },
         "type": "Feature"
       },
@@ -12131,7 +12131,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_292",
           "link": "/checklists/sitesof_grace.html#item_292",
-          "title": "Palace Approach Ledge-Road"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Palace Approach Ledge-Road</span><span class=\"lang-text lang-it d-none\">Strada del cornicione del palazzo</span></span>"
         },
         "type": "Feature"
       },
@@ -12150,7 +12150,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_293",
           "link": "/checklists/sitesof_grace.html#item_293",
-          "title": "Dynasty Mausoleum Entrance"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dynasty Mausoleum Entrance</span><span class=\"lang-text lang-it d-none\">Ingresso del mausoleo della dinastia</span></span>"
         },
         "type": "Feature"
       },
@@ -12169,7 +12169,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_294",
           "link": "/checklists/sitesof_grace.html#item_294",
-          "title": "Dynasty Mausoleum Midpoint"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dynasty Mausoleum Midpoint</span><span class=\"lang-text lang-it d-none\">Punto intermedio del mausoleo della dinastia</span></span>"
         },
         "type": "Feature"
       },
@@ -12188,7 +12188,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_295",
           "link": "/checklists/sitesof_grace.html#item_295",
-          "title": "Cocoon of the Empyrean"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cocoon of the Empyrean</span><span class=\"lang-text lang-it d-none\">Bozzolo dell'Empireo</span></span>"
         },
         "type": "Feature"
       },
@@ -12207,7 +12207,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_296",
           "link": "/checklists/sitesof_grace.html#item_296",
-          "title": "Root-Facing Cliffs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Root-Facing Cliffs</span><span class=\"lang-text lang-it d-none\">Scogliera sulle radici</span></span>"
         },
         "type": "Feature"
       },
@@ -12226,7 +12226,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_297",
           "link": "/checklists/sitesof_grace.html#item_297",
-          "title": "Great Waterfall Crest"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Great Waterfall Crest</span><span class=\"lang-text lang-it d-none\">Cresta della grande cascata</span></span>"
         },
         "type": "Feature"
       },
@@ -12245,7 +12245,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_298",
           "link": "/checklists/sitesof_grace.html#item_298",
-          "title": "Deeproot Depths"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deeproot Depths</span><span class=\"lang-text lang-it d-none\">Abissi tra le radici</span></span>"
         },
         "type": "Feature"
       },
@@ -12264,7 +12264,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_299",
           "link": "/checklists/sitesof_grace.html#item_299",
-          "title": "The Nameless Eternal City"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">The Nameless Eternal City</span><span class=\"lang-text lang-it d-none\">Citt\u00e0 Eterna senza nome</span></span>"
         },
         "type": "Feature"
       },
@@ -12283,7 +12283,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_300",
           "link": "/checklists/sitesof_grace.html#item_300",
-          "title": "Across the Roots"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Across the Roots</span><span class=\"lang-text lang-it d-none\">Attraverso le radici</span></span>"
         },
         "type": "Feature"
       },
@@ -12302,7 +12302,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_301",
           "link": "/checklists/sitesof_grace.html#item_301",
-          "title": "Prince of Death's Throne"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prince of Death's Throne</span><span class=\"lang-text lang-it d-none\">Trono del Principe della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -12321,7 +12321,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_302",
           "link": "/checklists/sitesof_grace.html#item_302",
-          "title": "Crumbling Beast Grave"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crumbling Beast Grave</span><span class=\"lang-text lang-it d-none\">Tomba della bestia in frantumi</span></span>"
         },
         "type": "Feature"
       },
@@ -12340,7 +12340,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_303",
           "link": "/checklists/sitesof_grace.html#item_303",
-          "title": "Crumbling Beast Grave Depths"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crumbling Beast Grave Depths</span><span class=\"lang-text lang-it d-none\">Profondit\u00e0 della tomba della bestia</span></span>"
         },
         "type": "Feature"
       },
@@ -12359,7 +12359,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_304",
           "link": "/checklists/sitesof_grace.html#item_304",
-          "title": "Tempest-Facing Balcony"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tempest-Facing Balcony</span><span class=\"lang-text lang-it d-none\">Balconata sulla tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -12378,7 +12378,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_305",
           "link": "/checklists/sitesof_grace.html#item_305",
-          "title": "Dragon Temple"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Temple</span><span class=\"lang-text lang-it d-none\">Tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -12397,7 +12397,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_306",
           "link": "/checklists/sitesof_grace.html#item_306",
-          "title": "Dragon Temple Transept"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Temple Transept</span><span class=\"lang-text lang-it d-none\">Transetto del tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -12416,7 +12416,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_307",
           "link": "/checklists/sitesof_grace.html#item_307",
-          "title": "Dragon Temple Altar"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Temple Altar</span><span class=\"lang-text lang-it d-none\">Altare del tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -12435,7 +12435,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_308",
           "link": "/checklists/sitesof_grace.html#item_308",
-          "title": "Dragon Temple Lift"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Temple Lift</span><span class=\"lang-text lang-it d-none\">Ascensore del tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -12454,7 +12454,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_309",
           "link": "/checklists/sitesof_grace.html#item_309",
-          "title": "Dragon Temple Rooftop"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Temple Rooftop</span><span class=\"lang-text lang-it d-none\">Tetto del tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -12473,7 +12473,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_310",
           "link": "/checklists/sitesof_grace.html#item_310",
-          "title": "Beside the Great Bridge"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Beside the Great Bridge</span><span class=\"lang-text lang-it d-none\">Presso il gran ponte</span></span>"
         },
         "type": "Feature"
       },
@@ -12492,7 +12492,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_311",
           "link": "/checklists/sitesof_grace.html#item_311",
-          "title": "Dragonlord Placidusax"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragonlord Placidusax</span><span class=\"lang-text lang-it d-none\">Placidusax, signore dei draghi</span></span>"
         },
         "type": "Feature"
       },
@@ -12511,7 +12511,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "graces_312",
           "link": "/checklists/sitesof_grace.html#item_312",
-          "title": "Maliketh, the Black Blade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Maliketh, the Black Blade</span><span class=\"lang-text lang-it d-none\">Maliketh, la Lama Nera</span></span>"
         },
         "type": "Feature"
       }
@@ -12536,7 +12536,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_3",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_3",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato sul percorso per il Castello di Gran Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -12555,7 +12555,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_4",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_4",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Ricompensa per aver completato la missione di Roderika, altrimenti reperibile alla sua capanna</span></span>"
         },
         "type": "Feature"
       },
@@ -12574,7 +12574,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_5",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_5",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato di fronte a Forte Haight</span></span>"
         },
         "type": "Feature"
       },
@@ -12593,7 +12593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_6",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_6",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Lasciato cadere da Kenneth Haight se ucciso</span></span>"
         },
         "type": "Feature"
       },
@@ -12612,7 +12612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_7",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_7",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nella Tomba dell'eroe dei Margini</span></span>"
         },
         "type": "Feature"
       },
@@ -12631,7 +12631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_43",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_43",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato dentro Gran Tempesta, vicino al Luogo di Grazia Cella isolata</span></span>"
         },
         "type": "Feature"
       },
@@ -12650,7 +12650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_8",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_8",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nascosto nel Castello di Gran Tempesta</span></span>"
         },
         "type": "Feature"
       },
@@ -12669,7 +12669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_1",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_1",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato a sud del Luogo di Grazia Muro del Castello di Morne</span></span>"
         },
         "type": "Feature"
       },
@@ -12688,7 +12688,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_9",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_9",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato nel Borgo del cancello dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -12707,7 +12707,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_10",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_10",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato a nord del Luogo di Grazia Cancello p. dell'Accademia, alla fine del ponte</span></span>"
         },
         "type": "Feature"
       },
@@ -12726,7 +12726,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_11",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_11",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato nel lato ovest del cortile dell'Accademia di Raya Lucaria</span></span>"
         },
         "type": "Feature"
       },
@@ -12745,7 +12745,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_12",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_12",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato nel livello superiore del Maniero cariano.</span></span>"
         },
         "type": "Feature"
       },
@@ -12764,7 +12764,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_13",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_13",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">Sotto a un Albero dorato all'estremit\u00e0 nord del lago, vicino al Baratro disseminato di rovine</span></span>"
         },
         "type": "Feature"
       },
@@ -12783,7 +12783,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_14",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_14",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato vicino all'incrocio a tre vie che porta al Castello di Mantorosso</span></span>"
         },
         "type": "Feature"
       },
@@ -12802,7 +12802,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_15",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_15",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato nella zona superiore di Sellia, Citt\u00e0 della Stregoneria</span></span>"
         },
         "type": "Feature"
       },
@@ -12821,7 +12821,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_16",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_16",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a sud del Santuario ferino</span></span>"
         },
         "type": "Feature"
       },
@@ -12840,7 +12840,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_17",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_17",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">ricompensa per aver sconfitto lo Spirito arboreo putrido nelle Catacombe dei caduti in guerra (dopo Radahn)</span></span>"
         },
         "type": "Feature"
       },
@@ -12859,7 +12859,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_18",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_18",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato vicino al Luogo di Grazia Colle prospiciente l'Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -12878,7 +12878,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_19",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_19",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato a nord del Crocevia della strada di Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -12897,7 +12897,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_20",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_20",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato vicino all'Albero Madre Minore</span></span>"
         },
         "type": "Feature"
       },
@@ -12916,7 +12916,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_21",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_21",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a sud-est del Villaggio dei Mulini, vicino alla Torre di guardia della strada</span></span>"
         },
         "type": "Feature"
       },
@@ -12935,7 +12935,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_29",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_29",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato nel burrone, a sud della Caverna di Acquabollente</span></span>"
         },
         "type": "Feature"
       },
@@ -12954,7 +12954,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_30",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_30",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a nord-ovest del Percorso dell'iniquit\u00e0</span></span>"
         },
         "type": "Feature"
       },
@@ -12973,7 +12973,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_22",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_22",
-          "title": "Golden Seed x2"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed x2</span><span class=\"lang-text lang-it d-none\">sotto a un grande Albero dorato vicino al Luogo di Grazia Albero fantasma del muro esterno</span></span>"
         },
         "type": "Feature"
       },
@@ -12992,7 +12992,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_24",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_24",
-          "title": "Golden Seed x2"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed x2</span><span class=\"lang-text lang-it d-none\">sotto a un grande Albero dorato a nord del Luogo di Grazia Albero fantasma del muro esterno</span></span>"
         },
         "type": "Feature"
       },
@@ -13011,7 +13011,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_26",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_26",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">ricompensa per aver sconfitto lo Spirito arboreo ulcerato a sud del Luogo di Grazia Albero fantasma del muro esterno</span></span>"
         },
         "type": "Feature"
       },
@@ -13030,7 +13030,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_27",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_27",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato a sud del Luogo di Grazia Baluardo occid. della capitale</span></span>"
         },
         "type": "Feature"
       },
@@ -13049,7 +13049,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_28",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_28",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">ricompensa per aver sconfitto lo Spirito arboreo ulcerato a ovest del Luogo di Grazia Terrazza sul viale</span></span>"
         },
         "type": "Feature"
       },
@@ -13068,7 +13068,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_31",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_31",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato nelle Terre proibite</span></span>"
         },
         "type": "Feature"
       },
@@ -13087,7 +13087,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_32",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_32",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">ricompensa per aver sconfitto lo Spirito arboreo ulcerato nelle Catacombe delle Vette dei Giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -13106,7 +13106,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_33",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_33",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a nord-est del Luogo di Grazia Piedi della Forgia</span></span>"
         },
         "type": "Feature"
       },
@@ -13125,7 +13125,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_34",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_34",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, nel burrone tra l'Albero Madre Minore e la Guglia eretica, sorvegliato da un golem gigante</span></span>"
         },
         "type": "Feature"
       },
@@ -13144,7 +13144,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_35",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_35",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a sud del Luogo di Grazia Interno delle Terre del sacro Albero Madre</span></span>"
         },
         "type": "Feature"
       },
@@ -13163,7 +13163,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_36",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_36",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a ovest di Ordina, la citt\u00e0 liturgica</span></span>"
         },
         "type": "Feature"
       },
@@ -13182,7 +13182,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_37",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_37",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato in mezzo al Tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -13201,7 +13201,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_38",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_38",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato, a sud-est del Luogo di Grazia Tetto del Tempio del drago</span></span>"
         },
         "type": "Feature"
       },
@@ -13220,7 +13220,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_39",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_39",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato accessibile attraversando un ponte di pietra a sud-ovest del Luogo di Grazia Pozzo inferiore</span></span>"
         },
         "type": "Feature"
       },
@@ -13239,7 +13239,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_40",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_40",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato in mezzo al lago, circondato da uccelli giganti</span></span>"
         },
         "type": "Feature"
       },
@@ -13258,7 +13258,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_41",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_41",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">sotto a un Albero dorato nel nord-ovest di Nokstella; sali le scale fino alla cima della citt\u00e0, esci dall'edificio pi\u00f9 alto (quello con il talismano Luna di Nokstella) a sinistra, scendi l'ascensore l\u00ec vicino per trovare l'albero quando riemergerai in fondo</span></span>"
         },
         "type": "Feature"
       },
@@ -13277,7 +13277,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_1_42",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_1_42",
-          "title": "Golden Seed"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Seed</span><span class=\"lang-text lang-it d-none\">ricompensa per aver sconfitto lo Spirito arboreo putrido nel Lago putrescente</span></span>"
         },
         "type": "Feature"
       },
@@ -13296,7 +13296,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_4",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_4",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Terza chiesa di Marika, a Sepolcride orientale</span></span>"
         },
         "type": "Feature"
       },
@@ -13315,7 +13315,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_1",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_1",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa battesimale di Callu, nel mezzo della Penisola del Pianto</span></span>"
         },
         "type": "Feature"
       },
@@ -13334,7 +13334,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_2",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_2",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa del Pellegrinaggio, a nord della Penisola del Pianto</span></span>"
         },
         "type": "Feature"
       },
@@ -13353,7 +13353,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_3",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_3",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Quarta chiesa di Marika, a ovest della Penisola del Pianto</span></span>"
         },
         "type": "Feature"
       },
@@ -13372,7 +13372,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_5",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_5",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa di Irith, parte meridionale di Liurnia lacustre</span></span>"
         },
         "type": "Feature"
       },
@@ -13391,7 +13391,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_6",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_6",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa di Bellum, sulla strada per il Montacarichi di Dectus</span></span>"
         },
         "type": "Feature"
       },
@@ -13410,7 +13410,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_7",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_7",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa dell'Inibizione, a nord-est della Foresta della strada di Bellum</span></span>"
         },
         "type": "Feature"
       },
@@ -13429,7 +13429,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_8",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_8",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa della Pestilenza, accessibile attraverso Sellia, Citt\u00e0 della Stregoneria</span></span>"
         },
         "type": "Feature"
       },
@@ -13448,7 +13448,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_9",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_9",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Seconda chiesa di Marika, a nord del Luogo di Grazia Crocevia della strada di Altus</span></span>"
         },
         "type": "Feature"
       },
@@ -13467,7 +13467,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_10",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_10",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa dell'Evocastempeste, a ovest del Luogo di Grazia Sentiero del baluardo</span></span>"
         },
         "type": "Feature"
       },
@@ -13486,7 +13486,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_11",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_11",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Chiesa del Riposo, a est del Grande Montacarichi di Rold</span></span>"
         },
         "type": "Feature"
       },
@@ -13505,7 +13505,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "flasks_2_12",
           "link": "/checklists/golden_seeds_sacred_tears.html#item_2_12",
-          "title": "Sacred Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sacred Tear</span><span class=\"lang-text lang-it d-none\">Prima chiesa di Marika, nella parte pi\u00f9 a sud-est delle Vette dei Giganti</span></span>"
         },
         "type": "Feature"
       }
@@ -13530,7 +13530,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_1_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_1_1",
-          "title": "Strength-Knot Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Strength-Knot Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo annodata della Forza</span></span>"
         },
         "type": "Feature"
       },
@@ -13549,7 +13549,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_1_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_1_2",
-          "title": "Spiked Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spiked Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata spinata</span></span>"
         },
         "type": "Feature"
       },
@@ -13568,7 +13568,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_1_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_1_3",
-          "title": "Greenspill Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Greenspill Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo ramosa verde</span></span>"
         },
         "type": "Feature"
       },
@@ -13587,7 +13587,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_1_4",
           "link": "/checklists/flaskof_wondrous_physick.html#item_1_4",
-          "title": "Crimson Crystal Tear [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimson Crystal Tear [1]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo cremisi [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -13606,7 +13606,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_0_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_0_1",
-          "title": "Faith-Knot Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Faith-Knot Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo annodata della Fede</span></span>"
         },
         "type": "Feature"
       },
@@ -13625,7 +13625,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_0_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_0_2",
-          "title": "Crimsonburst Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimsonburst Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo cremischiocco</span></span>"
         },
         "type": "Feature"
       },
@@ -13644,7 +13644,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_0_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_0_3",
-          "title": "Opaline Bubbletear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Opaline Bubbletear</span><span class=\"lang-text lang-it d-none\">Lacrima di bolla opalina</span></span>"
         },
         "type": "Feature"
       },
@@ -13663,7 +13663,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_1",
-          "title": "Dexterity-Knot Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dexterity-Knot Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo annodata della Destrezza</span></span>"
         },
         "type": "Feature"
       },
@@ -13682,7 +13682,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_2",
-          "title": "Ruptured Crystal Tear [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruptured Crystal Tear [1]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo incrinata [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -13701,7 +13701,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_3",
-          "title": "Cerulean Crystal Tear [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cerulean Crystal Tear [1]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo cerulea [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -13720,7 +13720,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_4",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_4",
-          "title": "Lightning-Shrouding Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lightning-Shrouding Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata fulminante</span></span>"
         },
         "type": "Feature"
       },
@@ -13739,7 +13739,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_5",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_5",
-          "title": "Holy-Shrouding Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Holy-Shrouding Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata sacra</span></span>"
         },
         "type": "Feature"
       },
@@ -13758,7 +13758,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_6",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_6",
-          "title": "Magic-Shrouding Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Magic-Shrouding Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata magica</span></span>"
         },
         "type": "Feature"
       },
@@ -13777,7 +13777,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_2_7",
           "link": "/checklists/flaskof_wondrous_physick.html#item_2_7",
-          "title": "Intelligence-Knot Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Intelligence-Knot Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo annodata dell'Intelligenza</span></span>"
         },
         "type": "Feature"
       },
@@ -13796,7 +13796,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_3_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_3_1",
-          "title": "Flame-Shrouding Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flame-Shrouding Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata fiammeggiante</span></span>"
         },
         "type": "Feature"
       },
@@ -13815,7 +13815,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_3_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_3_2",
-          "title": "Greenburst Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Greenburst Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo verdeschiocco</span></span>"
         },
         "type": "Feature"
       },
@@ -13834,7 +13834,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_3_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_3_3",
-          "title": "Opaline Hardtear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Opaline Hardtear</span><span class=\"lang-text lang-it d-none\">Lacrima dura opalina</span></span>"
         },
         "type": "Feature"
       },
@@ -13853,7 +13853,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_3_4",
           "link": "/checklists/flaskof_wondrous_physick.html#item_3_4",
-          "title": "Stonebarb Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonebarb Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata di roccia uncinata</span></span>"
         },
         "type": "Feature"
       },
@@ -13872,7 +13872,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_3_5",
           "link": "/checklists/flaskof_wondrous_physick.html#item_3_5",
-          "title": "Windy Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Windy Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo aereale</span></span>"
         },
         "type": "Feature"
       },
@@ -13891,7 +13891,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_4_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_4_1",
-          "title": "Purifying Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Purifying Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo purificatrice</span></span>"
         },
         "type": "Feature"
       },
@@ -13910,7 +13910,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_4_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_4_2",
-          "title": "Speckled Hardtear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Speckled Hardtear</span><span class=\"lang-text lang-it d-none\">Lacrima dura a chiazze</span></span>"
         },
         "type": "Feature"
       },
@@ -13929,7 +13929,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_4_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_4_3",
-          "title": "Crimsonspill Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimsonspill Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo traboccante cremisi</span></span>"
         },
         "type": "Feature"
       },
@@ -13948,7 +13948,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_5_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_5_1",
-          "title": "Leaden Hardtear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Leaden Hardtear</span><span class=\"lang-text lang-it d-none\">Lacrima dura di piombo</span></span>"
         },
         "type": "Feature"
       },
@@ -13967,7 +13967,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_5_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_5_2",
-          "title": "Cerulean Hidden Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cerulean Hidden Tear</span><span class=\"lang-text lang-it d-none\">Lacrima celata cerulea</span></span>"
         },
         "type": "Feature"
       },
@@ -13986,7 +13986,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_6_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_6_1",
-          "title": "Winged Crystal Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Winged Crystal Tear</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo alata</span></span>"
         },
         "type": "Feature"
       },
@@ -14005,7 +14005,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_6_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_6_2",
-          "title": "Twiggy Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Twiggy Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata nodosa</span></span>"
         },
         "type": "Feature"
       },
@@ -14024,7 +14024,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_6_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_6_3",
-          "title": "Crimson Crystal Tear [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimson Crystal Tear [2]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo cremisi [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -14043,7 +14043,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_7_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_7_1",
-          "title": "Crimsonwhorl Bubbletear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimsonwhorl Bubbletear</span><span class=\"lang-text lang-it d-none\">Lacrima di bolla cremisi a spirale</span></span>"
         },
         "type": "Feature"
       },
@@ -14062,7 +14062,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_8_1",
           "link": "/checklists/flaskof_wondrous_physick.html#item_8_1",
-          "title": "Cerulean Crystal Tear [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cerulean Crystal Tear [2]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo cerulea [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -14081,7 +14081,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_8_2",
           "link": "/checklists/flaskof_wondrous_physick.html#item_8_2",
-          "title": "Crimson Bubbletear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crimson Bubbletear</span><span class=\"lang-text lang-it d-none\">Lacrima di bolla cremisi</span></span>"
         },
         "type": "Feature"
       },
@@ -14100,7 +14100,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_8_3",
           "link": "/checklists/flaskof_wondrous_physick.html#item_8_3",
-          "title": "Thorny Cracked Tear"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Thorny Cracked Tear</span><span class=\"lang-text lang-it d-none\">Lacrima incrinata spinosa</span></span>"
         },
         "type": "Feature"
       },
@@ -14119,7 +14119,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "crystal_tears_8_4",
           "link": "/checklists/flaskof_wondrous_physick.html#item_8_4",
-          "title": "Ruptured Crystal Tear [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ruptured Crystal Tear [2]</span><span class=\"lang-text lang-it d-none\">Lacrima di cristallo incrinata [2]</span></span>"
         },
         "type": "Feature"
       }
@@ -14144,7 +14144,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_1",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_1",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14163,7 +14163,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_2",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14182,7 +14182,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_3",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14201,7 +14201,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_4",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14220,7 +14220,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_5",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_5",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14239,7 +14239,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_6",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_6",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14258,7 +14258,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_7",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_7",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14277,7 +14277,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_0_8",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_0_8",
-          "title": "Memory Stone"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Memory Stone</span><span class=\"lang-text lang-it d-none\">Pietra della memoria</span></span>"
         },
         "type": "Feature"
       },
@@ -14296,7 +14296,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_2",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_2",
-          "title": "Talisman Pouch"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Talisman Pouch</span><span class=\"lang-text lang-it d-none\">Borsa per talismano</span></span>"
         },
         "type": "Feature"
       },
@@ -14315,7 +14315,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_3",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_3",
-          "title": "Talisman Pouch"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Talisman Pouch</span><span class=\"lang-text lang-it d-none\">Borsa per talismano</span></span>"
         },
         "type": "Feature"
       },
@@ -14334,7 +14334,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "memory_stones_talisman_pouches_1_4",
           "link": "/checklists/memory_stones_talisman_pouches.html#item_1_4",
-          "title": "Talisman Pouch"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Talisman Pouch</span><span class=\"lang-text lang-it d-none\">Borsa per talismano</span></span>"
         },
         "type": "Feature"
       }
@@ -14359,7 +14359,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_1",
-          "title": "Royal House Scroll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Royal House Scroll</span><span class=\"lang-text lang-it d-none\">Pergamena della Casa Reale</span></span>"
         },
         "type": "Feature"
       },
@@ -14378,7 +14378,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_2",
-          "title": "Academy Scroll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Scroll</span><span class=\"lang-text lang-it d-none\">Pergamena dell'Accademia</span></span>"
         },
         "type": "Feature"
       },
@@ -14397,7 +14397,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_0_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_0_3",
-          "title": "Conspectus Scroll"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Conspectus Scroll</span><span class=\"lang-text lang-it d-none\">Pergamena del Conspectus</span></span>"
         },
         "type": "Feature"
       },
@@ -14416,7 +14416,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_1",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_1",
-          "title": "Assassin's Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Assassin's Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere dell'assassino</span></span>"
         },
         "type": "Feature"
       },
@@ -14435,7 +14435,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_2",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_2",
-          "title": "Godskin Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godskin Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere dei Sacriderma</span></span>"
         },
         "type": "Feature"
       },
@@ -14454,7 +14454,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_3",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_3",
-          "title": "Fire Monks' Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fire Monks' Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere dei monaci del fuoco</span></span>"
         },
         "type": "Feature"
       },
@@ -14473,7 +14473,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_4",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_4",
-          "title": "Dragon Cult Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Cult Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere del Culto draconico</span></span>"
         },
         "type": "Feature"
       },
@@ -14492,7 +14492,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_5",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_5",
-          "title": "Two Fingers' Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Two Fingers' Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere delle Due Dita</span></span>"
         },
         "type": "Feature"
       },
@@ -14511,7 +14511,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_8",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_8",
-          "title": "Golden Order Principia"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Order Principia</span><span class=\"lang-text lang-it d-none\">Principi dell'Ordine Aureo</span></span>"
         },
         "type": "Feature"
       },
@@ -14530,7 +14530,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_6",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_6",
-          "title": "Giant's Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giant's Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere del gigante</span></span>"
         },
         "type": "Feature"
       },
@@ -14549,7 +14549,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "scrolls_prayerbooks_1_7",
           "link": "/checklists/scrollsand_prayerbooks.html#item_1_7",
-          "title": "Ancient Dragon Prayerbook"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Dragon Prayerbook</span><span class=\"lang-text lang-it d-none\">Libro di preghiere dei draghi antichi</span></span>"
         },
         "type": "Feature"
       }
@@ -14574,7 +14574,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_1",
           "link": "/checklists/whetstones.html#item_0_1",
-          "title": "Whetstone Knife"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Whetstone Knife</span><span class=\"lang-text lang-it d-none\">Coltello per affilatura</span></span>"
         },
         "type": "Feature"
       },
@@ -14593,7 +14593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_2",
           "link": "/checklists/whetstones.html#item_0_2",
-          "title": "Iron Whetblade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Iron Whetblade</span><span class=\"lang-text lang-it d-none\">Coltello da affilatura di ferro</span></span>"
         },
         "type": "Feature"
       },
@@ -14612,7 +14612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_3",
           "link": "/checklists/whetstones.html#item_0_3",
-          "title": "Glintstone Whetblade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Whetblade</span><span class=\"lang-text lang-it d-none\">Coltello da affilatura di scintipietra</span></span>"
         },
         "type": "Feature"
       },
@@ -14631,7 +14631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_4",
           "link": "/checklists/whetstones.html#item_0_4",
-          "title": "Red-Hot Whetblade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Red-Hot Whetblade</span><span class=\"lang-text lang-it d-none\">Coltello da affilatura rovente</span></span>"
         },
         "type": "Feature"
       },
@@ -14650,7 +14650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_5",
           "link": "/checklists/whetstones.html#item_0_5",
-          "title": "Black Whetblade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Whetblade</span><span class=\"lang-text lang-it d-none\">Coltello da affilatura nero</span></span>"
         },
         "type": "Feature"
       },
@@ -14669,7 +14669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "whetstones_0_6",
           "link": "/checklists/whetstones.html#item_0_6",
-          "title": "Sanctified Whetblade"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sanctified Whetblade</span><span class=\"lang-text lang-it d-none\">Coltello da affilatura consacrato</span></span>"
         },
         "type": "Feature"
       }
@@ -14694,7 +14694,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_1",
           "link": "/checklists/bell_bearings.html#item_7_1",
-          "title": "Kal\u00e9"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Kal\u00e9</span><span class=\"lang-text lang-it d-none\">Kal\u00e9</span></span>"
         },
         "type": "Feature"
       },
@@ -14713,7 +14713,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_2",
           "link": "/checklists/bell_bearings.html#item_7_2",
-          "title": "Nomadic Merchant (1)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (1)</span><span class=\"lang-text lang-it d-none\">Nomade [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -14732,7 +14732,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_3",
           "link": "/checklists/bell_bearings.html#item_7_3",
-          "title": "Nomadic Merchant (2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (2)</span><span class=\"lang-text lang-it d-none\">Nomade [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -14751,7 +14751,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_4",
           "link": "/checklists/bell_bearings.html#item_7_4",
-          "title": "Nomadic Merchant (3)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (3)</span><span class=\"lang-text lang-it d-none\">Nomade [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -14770,7 +14770,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_5",
           "link": "/checklists/bell_bearings.html#item_7_5",
-          "title": "Nomadic Merchant (4)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (4)</span><span class=\"lang-text lang-it d-none\">Nomade [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -14789,7 +14789,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_6",
           "link": "/checklists/bell_bearings.html#item_7_6",
-          "title": "Nomadic Merchant (5)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (5)</span><span class=\"lang-text lang-it d-none\">Nomade [5]</span></span>"
         },
         "type": "Feature"
       },
@@ -14808,7 +14808,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_7",
           "link": "/checklists/bell_bearings.html#item_7_7",
-          "title": "Nomadic Merchant (6)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (6)</span><span class=\"lang-text lang-it d-none\">Nomade [6]</span></span>"
         },
         "type": "Feature"
       },
@@ -14827,7 +14827,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_8",
           "link": "/checklists/bell_bearings.html#item_7_8",
-          "title": "Nomadic Merchant (7)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (7)</span><span class=\"lang-text lang-it d-none\">Nomade [7]</span></span>"
         },
         "type": "Feature"
       },
@@ -14846,7 +14846,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_9",
           "link": "/checklists/bell_bearings.html#item_7_9",
-          "title": "Nomadic Merchant (8)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (8)</span><span class=\"lang-text lang-it d-none\">Nomade [8]</span></span>"
         },
         "type": "Feature"
       },
@@ -14865,7 +14865,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_10",
           "link": "/checklists/bell_bearings.html#item_7_10",
-          "title": "Nomadic Merchant (9)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (9)</span><span class=\"lang-text lang-it d-none\">Nomade [9]</span></span>"
         },
         "type": "Feature"
       },
@@ -14884,7 +14884,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_11",
           "link": "/checklists/bell_bearings.html#item_7_11",
-          "title": "Nomadic Merchant (10)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Merchant (10)</span><span class=\"lang-text lang-it d-none\">Nomade [10]</span></span>"
         },
         "type": "Feature"
       },
@@ -14903,7 +14903,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_12",
           "link": "/checklists/bell_bearings.html#item_7_12",
-          "title": "Isolated Merchant (1)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant (1)</span><span class=\"lang-text lang-it d-none\">Eremita [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -14922,7 +14922,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_13",
           "link": "/checklists/bell_bearings.html#item_7_13",
-          "title": "Isolated Merchant (2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant (2)</span><span class=\"lang-text lang-it d-none\">Eremita [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -14941,7 +14941,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_14",
           "link": "/checklists/bell_bearings.html#item_7_14",
-          "title": "Isolated Merchant (3)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Isolated Merchant (3)</span><span class=\"lang-text lang-it d-none\">Eremita [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -14960,7 +14960,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_15",
           "link": "/checklists/bell_bearings.html#item_7_15",
-          "title": "Hermit Merchant (1)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Merchant (1)</span><span class=\"lang-text lang-it d-none\">Isolato [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -14979,7 +14979,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_16",
           "link": "/checklists/bell_bearings.html#item_7_16",
-          "title": "Hermit Merchant (2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Merchant (2)</span><span class=\"lang-text lang-it d-none\">Isolato [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -14998,7 +14998,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_17",
           "link": "/checklists/bell_bearings.html#item_7_17",
-          "title": "Hermit Merchant (3)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hermit Merchant (3)</span><span class=\"lang-text lang-it d-none\">Isolato [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15017,7 +15017,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_18",
           "link": "/checklists/bell_bearings.html#item_7_18",
-          "title": "Abandoned Merchant"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Abandoned Merchant</span><span class=\"lang-text lang-it d-none\">Abbandonato</span></span>"
         },
         "type": "Feature"
       },
@@ -15036,7 +15036,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "bell_bearings_7_19",
           "link": "/checklists/bell_bearings.html#item_7_19",
-          "title": "Imprisoned Merchant"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Imprisoned Merchant</span><span class=\"lang-text lang-it d-none\">Imprigionato</span></span>"
         },
         "type": "Feature"
       }
@@ -15061,7 +15061,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_1",
           "link": "/checklists/cookbooks.html#item_1_1",
-          "title": "Nomadic Warrior's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -15080,7 +15080,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_2",
           "link": "/checklists/cookbooks.html#item_1_2",
-          "title": "Nomadic Warrior's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -15099,7 +15099,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_3",
           "link": "/checklists/cookbooks.html#item_1_3",
-          "title": "Nomadic Warrior's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15118,7 +15118,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_4",
           "link": "/checklists/cookbooks.html#item_1_4",
-          "title": "Nomadic Warrior's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -15137,7 +15137,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_5",
           "link": "/checklists/cookbooks.html#item_1_5",
-          "title": "Nomadic Warrior's Cookbook [5]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [5]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [5]</span></span>"
         },
         "type": "Feature"
       },
@@ -15156,7 +15156,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_6",
           "link": "/checklists/cookbooks.html#item_1_6",
-          "title": "Nomadic Warrior's Cookbook [6]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [6]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [6]</span></span>"
         },
         "type": "Feature"
       },
@@ -15175,7 +15175,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_7",
           "link": "/checklists/cookbooks.html#item_1_7",
-          "title": "Nomadic Warrior's Cookbook [7]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [7]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [7]</span></span>"
         },
         "type": "Feature"
       },
@@ -15194,7 +15194,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_8",
           "link": "/checklists/cookbooks.html#item_1_8",
-          "title": "Nomadic Warrior's Cookbook [8]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [8]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [8]</span></span>"
         },
         "type": "Feature"
       },
@@ -15213,7 +15213,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_9",
           "link": "/checklists/cookbooks.html#item_1_9",
-          "title": "Nomadic Warrior's Cookbook [9]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [9]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [9]</span></span>"
         },
         "type": "Feature"
       },
@@ -15232,7 +15232,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_10",
           "link": "/checklists/cookbooks.html#item_1_10",
-          "title": "Nomadic Warrior's Cookbook [10]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [10]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [10]</span></span>"
         },
         "type": "Feature"
       },
@@ -15251,7 +15251,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_11",
           "link": "/checklists/cookbooks.html#item_1_11",
-          "title": "Nomadic Warrior's Cookbook [11]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [11]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [11]</span></span>"
         },
         "type": "Feature"
       },
@@ -15270,7 +15270,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_12",
           "link": "/checklists/cookbooks.html#item_1_12",
-          "title": "Nomadic Warrior's Cookbook [12]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [12]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [12]</span></span>"
         },
         "type": "Feature"
       },
@@ -15289,7 +15289,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_13",
           "link": "/checklists/cookbooks.html#item_1_13",
-          "title": "Nomadic Warrior's Cookbook [13]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [13]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [13]</span></span>"
         },
         "type": "Feature"
       },
@@ -15308,7 +15308,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_14",
           "link": "/checklists/cookbooks.html#item_1_14",
-          "title": "Nomadic Warrior's Cookbook [14]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [14]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [14]</span></span>"
         },
         "type": "Feature"
       },
@@ -15327,7 +15327,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_15",
           "link": "/checklists/cookbooks.html#item_1_15",
-          "title": "Nomadic Warrior's Cookbook [15]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [15]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [15]</span></span>"
         },
         "type": "Feature"
       },
@@ -15346,7 +15346,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_16",
           "link": "/checklists/cookbooks.html#item_1_16",
-          "title": "Nomadic Warrior's Cookbook [16]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [16]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [16]</span></span>"
         },
         "type": "Feature"
       },
@@ -15365,7 +15365,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_17",
           "link": "/checklists/cookbooks.html#item_1_17",
-          "title": "Nomadic Warrior's Cookbook [17]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [17]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [17]</span></span>"
         },
         "type": "Feature"
       },
@@ -15384,7 +15384,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_18",
           "link": "/checklists/cookbooks.html#item_1_18",
-          "title": "Nomadic Warrior's Cookbook [18]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [18]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [18]</span></span>"
         },
         "type": "Feature"
       },
@@ -15403,7 +15403,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_19",
           "link": "/checklists/cookbooks.html#item_1_19",
-          "title": "Nomadic Warrior's Cookbook [19]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [19]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [19]</span></span>"
         },
         "type": "Feature"
       },
@@ -15422,7 +15422,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_20",
           "link": "/checklists/cookbooks.html#item_1_20",
-          "title": "Nomadic Warrior's Cookbook [20]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [20]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [20]</span></span>"
         },
         "type": "Feature"
       },
@@ -15441,7 +15441,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_21",
           "link": "/checklists/cookbooks.html#item_1_21",
-          "title": "Nomadic Warrior's Cookbook [21]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [21]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [21]</span></span>"
         },
         "type": "Feature"
       },
@@ -15460,7 +15460,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_22",
           "link": "/checklists/cookbooks.html#item_1_22",
-          "title": "Nomadic Warrior's Cookbook [22]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [22]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [22]</span></span>"
         },
         "type": "Feature"
       },
@@ -15479,7 +15479,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_23",
           "link": "/checklists/cookbooks.html#item_1_23",
-          "title": "Nomadic Warrior's Cookbook [23]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [23]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [23]</span></span>"
         },
         "type": "Feature"
       },
@@ -15498,7 +15498,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_1_24",
           "link": "/checklists/cookbooks.html#item_1_24",
-          "title": "Nomadic Warrior's Cookbook [24]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nomadic Warrior's Cookbook [24]</span><span class=\"lang-text lang-it d-none\">Ricettario del guerriero nomade [24]</span></span>"
         },
         "type": "Feature"
       },
@@ -15517,7 +15517,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_1",
           "link": "/checklists/cookbooks.html#item_3_1",
-          "title": "Armorer's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -15536,7 +15536,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_2",
           "link": "/checklists/cookbooks.html#item_3_2",
-          "title": "Armorer's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -15555,7 +15555,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_3",
           "link": "/checklists/cookbooks.html#item_3_3",
-          "title": "Armorer's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15574,7 +15574,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_4",
           "link": "/checklists/cookbooks.html#item_3_4",
-          "title": "Armorer's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -15593,7 +15593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_5",
           "link": "/checklists/cookbooks.html#item_3_5",
-          "title": "Armorer's Cookbook [5]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [5]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [5]</span></span>"
         },
         "type": "Feature"
       },
@@ -15612,7 +15612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_6",
           "link": "/checklists/cookbooks.html#item_3_6",
-          "title": "Armorer's Cookbook [6]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [6]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [6]</span></span>"
         },
         "type": "Feature"
       },
@@ -15631,7 +15631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_3_7",
           "link": "/checklists/cookbooks.html#item_3_7",
-          "title": "Armorer's Cookbook [7]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Armorer's Cookbook [7]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'armaiolo [7]</span></span>"
         },
         "type": "Feature"
       },
@@ -15650,7 +15650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_1",
           "link": "/checklists/cookbooks.html#item_5_1",
-          "title": "Glintstone Craftsman's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -15669,7 +15669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_2",
           "link": "/checklists/cookbooks.html#item_5_2",
-          "title": "Glintstone Craftsman's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -15688,7 +15688,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_3",
           "link": "/checklists/cookbooks.html#item_5_3",
-          "title": "Glintstone Craftsman's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15707,7 +15707,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_4",
           "link": "/checklists/cookbooks.html#item_5_4",
-          "title": "Glintstone Craftsman's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -15726,7 +15726,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_5",
           "link": "/checklists/cookbooks.html#item_5_5",
-          "title": "Glintstone Craftsman's Cookbook [5]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [5]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [5]</span></span>"
         },
         "type": "Feature"
       },
@@ -15745,7 +15745,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_6",
           "link": "/checklists/cookbooks.html#item_5_6",
-          "title": "Glintstone Craftsman's Cookbook [6]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [6]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [6]</span></span>"
         },
         "type": "Feature"
       },
@@ -15764,7 +15764,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_7",
           "link": "/checklists/cookbooks.html#item_5_7",
-          "title": "Glintstone Craftsman's Cookbook [7]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [7]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [7]</span></span>"
         },
         "type": "Feature"
       },
@@ -15783,7 +15783,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_5_8",
           "link": "/checklists/cookbooks.html#item_5_8",
-          "title": "Glintstone Craftsman's Cookbook [8]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Glintstone Craftsman's Cookbook [8]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'artigiano di scintipietra [8]</span></span>"
         },
         "type": "Feature"
       },
@@ -15802,7 +15802,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_1",
           "link": "/checklists/cookbooks.html#item_2_1",
-          "title": "Missionary's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -15821,7 +15821,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_2",
           "link": "/checklists/cookbooks.html#item_2_2",
-          "title": "Missionary's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -15840,7 +15840,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_3",
           "link": "/checklists/cookbooks.html#item_2_3",
-          "title": "Missionary's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15859,7 +15859,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_4",
           "link": "/checklists/cookbooks.html#item_2_4",
-          "title": "Missionary's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -15878,7 +15878,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_5",
           "link": "/checklists/cookbooks.html#item_2_5",
-          "title": "Missionary's Cookbook [5]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [5]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [5]</span></span>"
         },
         "type": "Feature"
       },
@@ -15897,7 +15897,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_6",
           "link": "/checklists/cookbooks.html#item_2_6",
-          "title": "Missionary's Cookbook [6]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [6]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [6]</span></span>"
         },
         "type": "Feature"
       },
@@ -15916,7 +15916,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_2_7",
           "link": "/checklists/cookbooks.html#item_2_7",
-          "title": "Missionary's Cookbook [7]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Missionary's Cookbook [7]</span><span class=\"lang-text lang-it d-none\">Ricettario del missionario [7]</span></span>"
         },
         "type": "Feature"
       },
@@ -15935,7 +15935,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_8_1",
           "link": "/checklists/cookbooks.html#item_8_1",
-          "title": "Ancient Dragon Apostle's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Dragon Apostle's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'apostolo dei draghi antichi [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -15954,7 +15954,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_8_2",
           "link": "/checklists/cookbooks.html#item_8_2",
-          "title": "Ancient Dragon Apostle's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Dragon Apostle's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'apostolo dei draghi antichi [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -15973,7 +15973,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_8_3",
           "link": "/checklists/cookbooks.html#item_8_3",
-          "title": "Ancient Dragon Apostle's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Dragon Apostle's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'apostolo dei draghi antichi [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -15992,7 +15992,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_8_4",
           "link": "/checklists/cookbooks.html#item_8_4",
-          "title": "Ancient Dragon Apostle's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ancient Dragon Apostle's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario dell'apostolo dei draghi antichi [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -16011,7 +16011,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_7_1",
           "link": "/checklists/cookbooks.html#item_7_1",
-          "title": "Perfumer's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario del profumiere [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -16030,7 +16030,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_7_2",
           "link": "/checklists/cookbooks.html#item_7_2",
-          "title": "Perfumer's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario del profumiere [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -16049,7 +16049,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_7_3",
           "link": "/checklists/cookbooks.html#item_7_3",
-          "title": "Perfumer's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario del profumiere [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -16068,7 +16068,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_7_4",
           "link": "/checklists/cookbooks.html#item_7_4",
-          "title": "Perfumer's Cookbook [4]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfumer's Cookbook [4]</span><span class=\"lang-text lang-it d-none\">Ricettario del profumiere [4]</span></span>"
         },
         "type": "Feature"
       },
@@ -16087,7 +16087,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_4_1",
           "link": "/checklists/cookbooks.html#item_4_1",
-          "title": "Fevor's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fevor's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario di Fevor [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -16106,7 +16106,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_4_2",
           "link": "/checklists/cookbooks.html#item_4_2",
-          "title": "Fevor's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fevor's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario di Fevor [2]</span></span>"
         },
         "type": "Feature"
       },
@@ -16125,7 +16125,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_4_3",
           "link": "/checklists/cookbooks.html#item_4_3",
-          "title": "Fevor's Cookbook [3]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fevor's Cookbook [3]</span><span class=\"lang-text lang-it d-none\">Ricettario di Fevor [3]</span></span>"
         },
         "type": "Feature"
       },
@@ -16144,7 +16144,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_6_1",
           "link": "/checklists/cookbooks.html#item_6_1",
-          "title": "Frenzied's Cookbook [1]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied's Cookbook [1]</span><span class=\"lang-text lang-it d-none\">Ricettario della fiamma frenetica [1]</span></span>"
         },
         "type": "Feature"
       },
@@ -16163,7 +16163,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "cookbooks_6_2",
           "link": "/checklists/cookbooks.html#item_6_2",
-          "title": "Frenzied's Cookbook [2]"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Frenzied's Cookbook [2]</span><span class=\"lang-text lang-it d-none\">Ricettario della fiamma frenetica [2]</span></span>"
         },
         "type": "Feature"
       }
@@ -16188,7 +16188,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_1",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_1",
-          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman\">Gurranq, Beast Clergyman</a>, after feeding him 9 <a href=\"https://eldenring.wiki.fextralife.com/Deathroot\">Deathroot</a>. Alternatively, he will drop this stone when killed."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rewarded by Gurranq, Beast Clergyman, after feeding him 9 Deathroot. Alternatively, he will drop this stone when killed.</span><span class=\"lang-text lang-it d-none\">Ricompensa di Gurranq, chierico bestiale dopo avergli consegnato 9 Radici mortali. In alternativa, la lascia cadere se ucciso.</span></span>"
         },
         "type": "Feature"
       },
@@ -16207,7 +16207,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_2",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_2",
-          "title": "Found on a corpse inside the mouth of a giant skull, just south-east of <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Repose\">Church of Repose</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Found on a corpse inside the mouth of a giant skull, just south-east of Church of Repose.</span><span class=\"lang-text lang-it d-none\">Su un cadavere all'interno della bocca di un teschio gigante, poco a sud-est della Chiesa del riposo.</span></span>"
         },
         "type": "Feature"
       },
@@ -16226,7 +16226,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_3",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_3",
-          "title": "Dropped from the two <a href=\"https://eldenring.wiki.fextralife.com/Night's+Cavalry\">Night's Cavalry</a> (Only spawn at night) escorting a troll-drawn carriage just south-west of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4578&lat=-73.563&lng=141.781&zoom=8&code=mapA\">Inner Consecrated Snowfield</a> grace site."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dropped from the two Night's Cavalry (Only spawn at night) escorting a troll-drawn carriage just south-west of the Inner Consecrated Snowfield grace site.</span><span class=\"lang-text lang-it d-none\">Lasciata dai due Cavalieri notturni (appaiono solo di notte) che scortano il carro trainato dai troll a sud-ovest della grazia Terre sacre interne.</span></span>"
         },
         "type": "Feature"
       },
@@ -16245,7 +16245,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_4",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_4",
-          "title": "Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4656&lat=-69.554687&lng=150.321074&zoom=8&code=mapA\">Great Wyrm Theodorix</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Found at the east end of the frozen river on a ledge at bottom of the frozen waterfall, just past Great Wyrm Theodorix.</span><span class=\"lang-text lang-it d-none\">All'estremit\u00e0 orientale del fiume ghiacciato, su una sporgenza ai piedi della cascata ghiacciata, poco oltre Theodorix, il Grande Drago.</span></span>"
         },
         "type": "Feature"
       },
@@ -16264,7 +16264,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_5",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_5",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Yelough+Anix+Tunnel\">Yelough Anix Tunnel</a>: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss <a href=\"https://eldenring.wiki.fextralife.com/Alabaster+Lord\">Alabaster Lord</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Yelough Anix Tunnel: While making your way through the dungeon, you will find a corpse sitting on an iceshard bridge, go down the ladder just to the right; the smithing stone can be found on a corpse just past the non-boss Alabaster Lord.</span><span class=\"lang-text lang-it d-none\">Galleria di Yelough Anix: esplorando il dungeon troverai un cadavere seduto su un ponte di ghiaccio; scendi la scala a destra e troverai la pietra su un cadavere subito dopo il Signore d'alabastro (non boss).</span></span>"
         },
         "type": "Feature"
       },
@@ -16283,7 +16283,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_6",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_6",
-          "title": "Looted from a corpse just below a hugging statue, north of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4454&lat=-42.99&lng=147.24&zoom=8&code=mapA\">Haligtree Town Plaza</a> grace site. The stone is guarded by two winged and one red-maned <a href=\"https://eldenring.wiki.fextralife.com/Misbegotten\">Misbegotten</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Looted from a corpse just below a hugging statue, north of the Haligtree Town Plaza grace site. The stone is guarded by two winged and one red-maned Misbegotten.</span><span class=\"lang-text lang-it d-none\">Su un cadavere sotto una statua, a nord della grazia Piazza della citt\u00e0 del Sacro Albero. La pietra \u00e8 sorvegliata da due Creature scagliose alate e una dalla criniera rossa.</span></span>"
         },
         "type": "Feature"
       },
@@ -16302,7 +16302,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_7",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_7",
-          "title": "After defeating <a href=\"https://eldenring.wiki.fextralife.com/Loretta,+Knight+of+the+Haligtree\">Loretta</a>, make your way down a long ladder and past (not down) the lift to find this stone in a chest."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">After defeating Loretta, make your way down a long ladder and past (not down) the lift to find this stone in a chest.</span><span class=\"lang-text lang-it d-none\">Dopo aver sconfitto Loretta, scendi la lunga scala e prosegui oltre l'ascensore (senza prenderlo) per trovare la pietra in un forziere.</span></span>"
         },
         "type": "Feature"
       },
@@ -16321,7 +16321,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_8",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_8",
-          "title": "Dropped from the <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> that swoops down as you make your way along the curved platform, near the beginning of the area between the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave</a> and <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5855&lat=-129.96875&lng=218.876914&zoom=8&code=mapA\">Crumbling Beast Grave Depths</a> grace sites."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dropped from the Farum Azula Dragon that swoops down as you make your way along the curved platform, near the beginning of the area between the Crumbling Beast Grave and Crumbling Beast Grave Depths grace sites.</span><span class=\"lang-text lang-it d-none\">Lasciata dal Drago di Farum Azula che plana mentre percorri la piattaforma curva, vicino all'inizio dell'area tra le grazie Cimitero della bestia in frantumi e Profondit\u00e0 del cimitero della bestia.</span></span>"
         },
         "type": "Feature"
       },
@@ -16340,7 +16340,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_9",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_9",
-          "title": "Starting from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4501&lat=-123.840626&lng=216.455498&zoom=8&code=mapA\">Dragon Temple Altar</a> grace site, head north through the door way and make your way past the assorted <a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman\">Azula Beastman</a> and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Starting from the Dragon Temple Altar grace site, head north through the door way and make your way past the assorted Azula Beastman and dog enemies until you find yourself on a narrow platform lined with dragon statues. Head straight and near the end will be a spiral staircase you will climb up on your right. At the top of the staircase, turn left and jump across to the floating stone pillar. Carefully walk along the pillar and jump up to the platform. You can collect the stone near the ledge, guarded by a large beastman and dog.</span><span class=\"lang-text lang-it d-none\">Dalla grazia Altare del Tempio del drago, vai a nord e prosegui oltre gli Uomini bestia di Farum Azula e i cani fino a una stretta piattaforma fiancheggiata da statue di draghi. Prosegui dritto e sali la scala a chiocciola sulla destra. In cima, gira a sinistra e salta sul pilastro fluttuante. Percorrilo con cura e salta sulla piattaforma. La pietra \u00e8 vicino alla sporgenza, sorvegliata da un uomo bestia e un cane.</span></span>"
         },
         "type": "Feature"
       },
@@ -16359,7 +16359,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_10",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_10",
-          "title": "Dropped from the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dropped from the stationary Farum Azula Dragon sitting at the back of the plaza, south of the Dragon Temple Rooftop grace site. The dragon will constantly rain down red lightning while the path is riddled with Warhawks.</span><span class=\"lang-text lang-it d-none\">Lasciata dal Drago di Farum Azula stazionario in fondo alla piazza, a sud della grazia Tetti del Tempio del drago. Il drago evoca costantemente fulmini rossi mentre il percorso \u00e8 infestato da Falchi di guerra.</span></span>"
         },
         "type": "Feature"
       },
@@ -16378,7 +16378,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_11",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_11",
-          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Witch-Hunter+Jerren\">Witch-Hunter Jerren</a> for siding with him at the end of <a href=\"https://eldenring.wiki.fextralife.com/Sorceress+Sellen\">Sorceress Sellen's</a> questline just outside the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=5846&lat=-134&lng=55&zoom=8&code=mapA\">Raya Lucaria Grand Library</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rewarded by Witch-Hunter Jerren for siding with him at the end of Sorceress Sellen's questline just outside the Raya Lucaria Grand Library.</span><span class=\"lang-text lang-it d-none\">Ricompensa di Jerren il cacciatore di streghe per esserti schierato con lui alla fine della missione di Sellen, fuori dalla Grande biblioteca di Raya Lucaria.</span></span>"
         },
         "type": "Feature"
       },
@@ -16397,7 +16397,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_12",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_12",
-          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux\">Nepheli Loux</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rewarded by Nepheli Loux in Godrick's Throneroom (just past the Godrick the Grafted grace site) after completing Kenneth Haight's Lord of Limgrave questline. Unobtainable if Seluvis's Potion was given to Nepheli.</span><span class=\"lang-text lang-it d-none\">Ricompensa di Nepheli Loux nella sala del trono di Godrick (oltre la grazia Godrick l'Innestato) dopo aver completato la missione di Kenneth Haight. Non ottenibile se hai dato la pozione di Seluvis a Nepheli.</span></span>"
         },
         "type": "Feature"
       },
@@ -16416,7 +16416,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_13",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_13",
-          "title": "Purchased from <a href=\"https://eldenring.wiki.fextralife.com/Gatekeeper+Gostoc\">Gatekeeper Gostoc</a> in Godrick's Throneroom (just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=1129&lat=-173.910938&lng=85.500353&zoom=8&code=mapA\">Godrick the Grafted</a> grace site) after completing <a href=\"https://eldenring.wiki.fextralife.com/Kenneth+Haight\">Kenneth Haight's</a> Lord of Limgrave questline. Unobtainable if <a href=\"https://eldenring.wiki.fextralife.com/Seluvis's+Potion\">Seluvis's Potion</a> was given to Nepheli."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Purchased from Gatekeeper Gostoc in Godrick's Throneroom (just past the Godrick the Grafted grace site) after completing Kenneth Haight's Lord of Limgrave questline. Unobtainable if Seluvis's Potion was given to Nepheli.</span><span class=\"lang-text lang-it d-none\">Venduta da Gostoc il guardiano del cancello nella sala del trono di Godrick dopo aver completato la missione di Kenneth Haight. Non ottenibile se hai dato la pozione a Nepheli o se Gostoc \u00e8 morto.</span></span>"
         },
         "type": "Feature"
       },
@@ -16435,7 +16435,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_14",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_14",
-          "title": "Found in a chest just past the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4585&lat=-181.82&lng=148.195&zoom=8&code=mapB\">Dynasty Mausoleum Midpoint</a> grace site. The player should be careful as the chest is surrounded by a <a href=\"https://eldenring.wiki.fextralife.com/Sanguine+Noble\">Sanguine Noble</a> and seven 2nd generation <a href=\"https://eldenring.wiki.fextralife.com/Albinauric\">Albinaurics</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Found in a chest just past the Dynasty Mausoleum Midpoint grace site. The player should be careful as the chest is surrounded by a Sanguine Noble and seven 2nd generation Albinaurics.</span><span class=\"lang-text lang-it d-none\">In un baule poco oltre la grazia Punto centrale del mausoleo. Fai attenzione: il baule \u00e8 circondato da un Nobile sanguinario e sette Albinauri.</span></span>"
         },
         "type": "Feature"
       },
@@ -16454,7 +16454,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_15",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_15",
-          "title": "Dropped from the invading phantom <a href=\"https://eldenring.wiki.fextralife.com/Anastasia+Tarnished-Eater\">Anastasia, Tarnished-Eater</a>, on the frozen river near the scarab-chasing wolf pack, south of <a href=\"https://eldenring.wiki.fextralife.com/Ordina+Liturgical+Town\">Ordina, Liturgical Town</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dropped from the invading phantom Anastasia, Tarnished-Eater, on the frozen river near the scarab-chasing wolf pack, south of Ordina, Liturgical Town.</span><span class=\"lang-text lang-it d-none\">Lasciata dal fantasma invasore Anastasia, divoratrice di Senzaluce sul fiume ghiacciato vicino al branco di lupi, a sud di Ordina, citt\u00e0 liturgica.</span></span>"
         },
         "type": "Feature"
       },
@@ -16473,7 +16473,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_16",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_16",
-          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the <a href=\"https://eldenring.wiki.fextralife.com/Erdtree+Avatar\">Erdtree Avatar</a>. At the southern end of the path will be a corpse with the stone on it."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Start from the Prayer Room grace site and head north along the walkway. Cross the second stone pillar on your right, falling down to the lower ledge of the tower and finally jumping down to the long walkway with the Erdtree Avatar. At the southern end of the path will be a corpse with the stone on it.</span><span class=\"lang-text lang-it d-none\">Dalla grazia Stanza della preghiera, vai a nord. Attraversa il secondo pilastro a destra scendendo sulla sporgenza inferiore e poi sulla passerella dove si trova l' Incarnazione dell'Albero Madre. All'estremit\u00e0 sud troverai la pietra su un corpo.</span></span>"
         },
         "type": "Feature"
       },
@@ -16492,7 +16492,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_17",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_17",
-          "title": "Start from the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4456&lat=-39.76&lng=148.97&zoom=8&code=mapA\">Prayer Room</a> grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Start from the Prayer Room grace site and head north to the end of the walkway. Jump off the edge to your right, down to a stone beam that is adjacent to a platform with a gazebo and health scarab. Run past and go up another stone beam and at the top, there will be an opening with a chest; the stone can be found inside.</span><span class=\"lang-text lang-it d-none\">Dalla grazia Stanza della preghiera, vai a nord fino alla fine. Salta a destra su un pilastro vicino a un chiosco con uno scarabeo. Prosegui e sali su un altro pilastro: in cima troverai una stanza con un forziere contenente la pietra.</span></span>"
         },
         "type": "Feature"
       },
@@ -16511,7 +16511,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_18",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_18",
-          "title": "Found in a gazebo behind the stationary <a href=\"https://eldenring.wiki.fextralife.com/Farum+Azula+Dragon\">Farum Azula Dragon</a> sitting at the back of the plaza, south of the <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=4355&lat=-119.546875&lng=218.221505&zoom=8&code=mapA\">Dragon Temple Rooftop</a> grace site. The dragon will constantly rain down red lightning while the path is riddled with <a href=\"https://eldenring.wiki.fextralife.com/Warhawk\">Warhawks</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Found in a gazebo behind the stationary Farum Azula Dragon sitting at the back of the plaza, south of the Dragon Temple Rooftop grace site. The dragon will constantly rain down red lightning while the path is riddled with Warhawks.</span><span class=\"lang-text lang-it d-none\">In un chiosco dietro al Drago di Farum Azula stazionario in fondo alla piazza, a sud della grazia Tetti del Tempio del drago. Il drago evoca fulmini rossi mentre il percorso \u00e8 pieno di Falchi di guerra.</span></span>"
         },
         "type": "Feature"
       },
@@ -16530,7 +16530,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_19",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_19",
-          "title": "From the main <a href=\"https://eldenring.wiki.fextralife.com/Interactive+Map?id=7251&lat=-100.476562&lng=116.70626&zoom=8&code=mapC\">Leyndell, Capital of Ash</a> grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the main Leyndell, Capital of Ash grace site, head west and then up a sunken dragon wing. Jump to the crumbling wall where you will find a ladder to climb and then continue up the staircases. At the top of the rampart you will see a wandering gargoyle to your right, jump over the railing onto the soft sand below and you will find a corpse with the stone sitting in front of an eerily familiar building.</span><span class=\"lang-text lang-it d-none\">Dalla grazia Leyndell, capitale delle ceneri, vai a ovest e sali sull'al'ala del drago sepolto. Salta sul muro rotto, sali la scala e poi le scale di pietra. In cima al baluardo vedrai un gargoyle a destra: scavalca la ringhiera sulla sabbia e troverai la pietra su un corpo davanti a un edificio familiare.</span></span>"
         },
         "type": "Feature"
       },
@@ -16549,7 +16549,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_20",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_20",
-          "title": "Rewarded by <a href=\"https://eldenring.wiki.fextralife.com/Latenna\">Latenna</a> after completing her questline at the <a href=\"https://eldenring.wiki.fextralife.com/Apostate+Derelict\">Apostate Derelict</a> in the <a href=\"https://eldenring.wiki.fextralife.com/Consecrated+Snowfield\">Consecrated Snowfield</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rewarded by Latenna after completing her questline at the Apostate Derelict in the Consecrated Snowfield.</span><span class=\"lang-text lang-it d-none\">Donata da Latenna dopo aver completato la sua missione ai Ruderi del reietto nelle Terre sacre.</span></span>"
         },
         "type": "Feature"
       },
@@ -16568,7 +16568,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "ancient_dragon_smithing_stones_21",
           "link": "/checklists/ancient_dragon_smithing_stones.html#item_21",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Elphael+Brace+of+the+Haligtree\">Elphael, Brace of the Haligtree</a>: After completing <a href=\"https://eldenring.wiki.fextralife.com/Millicent\">Millicent's</a> questline and defeating <a href=\"https://eldenring.wiki.fextralife.com/Malenia+Blade+of+Miquella\">Malenia, Blade of Miquella</a>, insert the gold needle into Malenia's scarlet flower to receive the stone as well as <a href=\"https://eldenring.wiki.fextralife.com/Miquella's+Needle\">Miquella's Needle</a>."
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Elphael, Brace of the Haligtree: After completing Millicent's questline and defeating Malenia, Blade of Miquella, insert the gold needle into Malenia's scarlet flower to receive the stone as well as Miquella's Needle.</span><span class=\"lang-text lang-it d-none\">Elphael, sostegno del Sacro Albero: dopo aver completato la missione di Millicent e sconfitto Malenia, inserisci l'ago d'oro nel fiore scarlatto di Malenia per ricevere la pietra e l' Ago di Miquella.</span></span>"
         },
         "type": "Feature"
       }
@@ -16593,7 +16593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_1",
           "link": "/checklists/remembrances_mausoleums.html#item_2_1",
-          "title": "Wandering Mausoleum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante</span></span>"
         },
         "type": "Feature"
       },
@@ -16612,7 +16612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_2",
           "link": "/checklists/remembrances_mausoleums.html#item_2_2",
-          "title": "Wandering Mausoleum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante</span></span>"
         },
         "type": "Feature"
       },
@@ -16631,7 +16631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_3",
           "link": "/checklists/remembrances_mausoleums.html#item_2_3",
-          "title": "Wandering Mausoleum (no bell)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum (no bell)</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante (senza campana)</span></span>"
         },
         "type": "Feature"
       },
@@ -16650,7 +16650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_7",
           "link": "/checklists/remembrances_mausoleums.html#item_2_7",
-          "title": "Wandering Mausoleum (no bell)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum (no bell)</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante (senza campana)</span></span>"
         },
         "type": "Feature"
       },
@@ -16669,7 +16669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_4",
           "link": "/checklists/remembrances_mausoleums.html#item_2_4",
-          "title": "Wandering Mausoleum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante</span></span>"
         },
         "type": "Feature"
       },
@@ -16688,7 +16688,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_5",
           "link": "/checklists/remembrances_mausoleums.html#item_2_5",
-          "title": "Wandering Mausoleum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante</span></span>"
         },
         "type": "Feature"
       },
@@ -16707,7 +16707,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "remembrances_mausoleums_2_6",
           "link": "/checklists/remembrances_mausoleums.html#item_2_6",
-          "title": "Wandering Mausoleum"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wandering Mausoleum</span><span class=\"lang-text lang-it d-none\">Mausoleo Errante</span></span>"
         },
         "type": "Feature"
       }
@@ -16732,7 +16732,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_1",
           "link": "/checklists/great_runes.html#item_1_1",
-          "title": "Godrick's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godrick the Grafted</span><span class=\"lang-text lang-it d-none\">Grande Runa di Godrick (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16751,7 +16751,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "great_runes_1_2",
           "link": "/checklists/great_runes.html#item_1_2",
-          "title": "Great Rune of the Unborn"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rennala, Queen of the Full Moon</span><span class=\"lang-text lang-it d-none\">Grande Runa dei Mai Nati</span></span>"
         },
         "type": "Feature"
       },
@@ -16770,7 +16770,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_3",
           "link": "/checklists/great_runes.html#item_1_3",
-          "title": "Radahn's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Starscourge Radahn</span><span class=\"lang-text lang-it d-none\">Grande Runa di Radahn (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16789,7 +16789,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_4",
           "link": "/checklists/great_runes.html#item_1_4",
-          "title": "Morgott's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morgott, the Omen King</span><span class=\"lang-text lang-it d-none\">Grande Runa di Morgott (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16808,7 +16808,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_5",
           "link": "/checklists/great_runes.html#item_1_5",
-          "title": "Rykard's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rykard, Lord of Blasphemy</span><span class=\"lang-text lang-it d-none\">Grande Runa di Rykard (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16827,7 +16827,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_7",
           "link": "/checklists/great_runes.html#item_1_7",
-          "title": "Mohg's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mohg, Lord of Blood</span><span class=\"lang-text lang-it d-none\">Grande Runa di Mohg (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16846,7 +16846,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_6",
           "link": "/checklists/great_runes.html#item_1_6",
-          "title": "Malenia's Great Rune (unactivated)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Malenia, Blade of Miquella</span><span class=\"lang-text lang-it d-none\">Grande Runa di Malenia (non attivata)</span></span>"
         },
         "type": "Feature"
       },
@@ -16865,7 +16865,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_1r",
           "link": "/checklists/great_runes.html#item_1_1r",
-          "title": "Godrick's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godrick's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Godrick</span></span>"
         },
         "type": "Feature"
       },
@@ -16884,7 +16884,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_3r",
           "link": "/checklists/great_runes.html#item_1_3r",
-          "title": "Radahn's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Radahn's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Radahn</span></span>"
         },
         "type": "Feature"
       },
@@ -16903,7 +16903,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_5r",
           "link": "/checklists/great_runes.html#item_1_5r",
-          "title": "Rykard's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rykard's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Rykard</span></span>"
         },
         "type": "Feature"
       },
@@ -16922,7 +16922,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_6r",
           "link": "/checklists/great_runes.html#item_1_6r",
-          "title": "Malenia's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Malenia's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Malenia</span></span>"
         },
         "type": "Feature"
       },
@@ -16941,7 +16941,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_4r",
           "link": "/checklists/great_runes.html#item_1_4r",
-          "title": "Morgott's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Morgott's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Morgott</span></span>"
         },
         "type": "Feature"
       },
@@ -16960,7 +16960,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_1_7r",
           "link": "/checklists/great_runes.html#item_1_7r",
-          "title": "Mohg's Great Rune restoration"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mohg's</span><span class=\"lang-text lang-it d-none\">Grande Runa di Mohg</span></span>"
         },
         "type": "Feature"
       },
@@ -16979,7 +16979,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "great_runes_2_2",
           "link": "/checklists/great_runes.html#item_2_2",
-          "title": "Mending Rune of the Death-Prince"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mending Rune of the Death-Prince</span><span class=\"lang-text lang-it d-none\">Runa risolutiva del Principe della Morte</span></span>"
         },
         "type": "Feature"
       },
@@ -16998,7 +16998,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "great_runes_2_3",
           "link": "/checklists/great_runes.html#item_2_3",
-          "title": "Mending Rune of the Fell Curse"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mending Rune of the Fell Curse</span><span class=\"lang-text lang-it d-none\">Runa risolutiva della Maledizione funesta</span></span>"
         },
         "type": "Feature"
       }
@@ -17023,7 +17023,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k3",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k3",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In a tiny intact room in the center of Dragon-Burnt Ruins, on a body guarded by a single rat</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17042,7 +17042,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k4",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k4",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sold by Patches for 5000 runes in Murkwater Cave (and thereafter)</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17061,7 +17061,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k5",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k5",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the front of Stormhill Shack, on a body atop the little staircase of wooden platforms</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17080,7 +17080,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k6",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k6",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Fringefolk Hero's Grave, on the ledge from which you can shoot down the jars to destroy the chariot</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17099,7 +17099,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k7",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k7",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">In vendita dai Resti delle fanciulle gemelle per 4.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -17118,7 +17118,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k10",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k10",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the Bridge of Sacrifice on a body behind the ballista</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17137,7 +17137,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k11",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k11",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the northern tip of the high ledge in the northeast, on a body sitting in a chair</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17156,7 +17156,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k12",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k12",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sold by the Nomadic Merchant in the east for 2000 runes</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17175,7 +17175,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k13",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k13",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante isolato a ovest per 2.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -17194,7 +17194,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k16",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k16",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the Behind the Castle Site of Grace in Castle Morne, descend down a couple ledges to the first rooftop, then walk forward and drop off to a wooden platform halfway down with the key on a body</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17213,7 +17213,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k17",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k17",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Rampart Tower, follow the path up the central spiral staircase and to the rooftops; from the stack of sandbags, follow the ledge to the south tower, then turn east and hop to the next crumbling tower, and drop down inside it to find it on a body</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17232,7 +17232,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k18",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k18",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On a body on the wooden platform above the Grafted Scion (down the shortcut elevator from Rampart Tower)</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17251,7 +17251,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k19",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k19",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On a body in the pit with the Ulcerated Tree Spirit, just past the first big roots on the left</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17270,7 +17270,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k20",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k20",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Academy Crystal Cave, stick to the left past the rats and the Sages to find a small side room in the back, containing the key on a body in a cage</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17289,7 +17289,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k21",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k21",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the island directly east of the South Raya Lucaria Gate Site of Grace, accessible from Gate Town North; it's in a chest in a small tower sticking out of the water, requiring Torrent's double jump to reach</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17308,7 +17308,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k22",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k22",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Outside Raya Lucaria at the base of its northeastern corner, up an incline leading to an area with many Wraith Callers and a body sitting in a chair with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17327,7 +17327,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k23",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k23",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante isolato all'interno del Cancello meridionale di Raya Lucaria per 3.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -17346,7 +17346,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k26",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k26",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">As far north as it's possible to go from the Ainsel River Well before the cliff wall cuts off the path, on a body in a chair in a small patch of flowers</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17365,7 +17365,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k27",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k27",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Atop the western wall of Frenzied Flame Village</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17384,7 +17384,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k28",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k28",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Three Sisters above Caria Manor, follow the path along the rooftops, dropping down when necessary, all the way to the rampart overlooking the Main Gate, with a Giant Crab on top guarding a body with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17403,7 +17403,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k29",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k29",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Past the illusory bookshelf directly before the Debate Parlor (Red Wolf of Radagon), on the other side of the altar behind the chest</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17422,7 +17422,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k30",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k30",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In the courtyard directly after the Debate Parlor, on a body draped on the central fountain</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17441,7 +17441,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k31",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k31",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Gaol Cave, on a body in a cell</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17460,7 +17460,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k32",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k32",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sold by the Nomadic Merchant in the south for 4000 runes</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17479,7 +17479,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k33",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k33",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the Dragonbarrow West grace, head to the Divine Tower of Caelid and jump onto the high tree branch, then to the first ledge with a ladder and a sentry with a torch; don't climb the ladder but face southeast from it and follow the arch to find the key on a body on the next landing, guarded by a knight</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17498,7 +17498,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k34",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k34",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Sellia, Town of Sorcery, on a body slumped atop an archway connecting two buildings at the southern entrance of town; passing northward through the arch underneath, turn right to see rubble with a rotted tree through it, an easy way up on horseback</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17517,7 +17517,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k35",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k35",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Fort Faroth, face west and climb the hulking white rock in the distance; it's on one of the bodies on top, the one whose chair fell over</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17536,7 +17536,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k36",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k36",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">South of the Deep Siofra Well, past the large bear, on a body sitting on the cliff</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17555,7 +17555,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k37",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k37",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Early on the road northeast from the Grand Lift of Dectus, in the small encampment of Misbegottens on the right, on a body against a tent</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17574,7 +17574,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k38",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k38",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Sage's Cave, proceed down the linear path, through illusory walls when necessary, until a more open room with a bonfire, many stalactites, and a larger skeleton wielding the Executioner's Greataxe; on the left, being stared at by another skeleton, is an illusory wall hiding a nook with a chest with the key inside</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17593,7 +17593,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k39",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k39",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante nomade qui per 4.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -17612,7 +17612,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k42",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k42",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the eastern side of the raised plateau in the center of Altus with perpetual lightning storms, on a body slumped on a stone platform</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17631,7 +17631,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k43",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k43",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the Shaded Castle Ramparts grace, go back down the little stairs and turn left, following the rampart around to find a Perfumer near a ramp down to the swamp below. The wall of the rampart is broken near this ramp, providing a way up, so get on the wall and follow it back a bit the way you came (south) until you can hop to the right onto the large stone barrier. Carefully climb up the stones with a few precise jumps, until a ledge wraps slightly around to the right, from where you can see a lower landing ahead that you can jump to. Then turn left and hop over the rock in the way (it's a bit tricky to get over it) and drop down to the other side of it, onto a small ledge with a body holding the key, with three slugs looking up at you from below.</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17650,7 +17650,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k44",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k44",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Gelmir Hero's Grave, past the first chariot, a few Nobles and Pages, and a fire trap, you'll find a second chariot through an archway; instead of turning left to go down the incline and progress through the dungeon, turn right and run up into a dead end to find the key, though beware it's very difficult to get back on track without being killed by the chariot, as it will suddenly go all the way up the incline on its way back, so you may need to make a suicide run for it</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17669,7 +17669,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k45",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k45",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the broken bridge just west of Corpse-Stench Shack</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17688,7 +17688,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k46",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k46",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sold by the Nomadic Merchant here for 5000 runes</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17707,7 +17707,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k47",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k47",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">North of Fort Laiedd, in the corner with gravestones and jellyfish, on a body against a large tree</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17726,7 +17726,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k48",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k48",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the Prison Town Church grace, descend into the town square with an Omenkiller by a bonfire. Go through the doorway near the Omenkiller's initial position, proceed through another archway with a dog, and turn right. Go down the stairs to the broken gap. Instead of dropping all the way down (you can survive that fall), if you take a running jump, you can just barely reach the other end of the gap and land on the wooden platform, which has the key.</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17745,7 +17745,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k49",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k49",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Exit southeast from the room Rya moves to deep in Volcano Manor later in her questline, hop over the thin lava stream, and jump up the ledge through an open window to find the key on a body on a cot</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17764,7 +17764,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k50",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k50",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Sealed Tunnel, when you emerge into an open room navigable by tree branches and containing many Vulgar Militia and an Iron Maiden, use the branches to get to the platform on the right side, which has a short dead-end path with the key on a body</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17783,7 +17783,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k51",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k51",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Auriza Hero's Grave in the room with two chariots running opposite each other, on a body in an alcove in the center of their paths</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17802,7 +17802,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k52",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k52",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From East Capital Rampart, follow the rampart all the way south until just before the door into a building filled with plants, drop off the side of the rampart onto the rooftops, and hop between rooftops all the way back north, until you find the key on a body next to two Imps</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17821,7 +17821,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k53",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k53",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From West Capital Rampart, drop down to ground level and face northwest, then climb the petrified dragon foot and leap from its extended claw to the roof of a barn, and from there into the second floor of an adjacent building, with the key on a body draped over a windowsill</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17840,7 +17840,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k54",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k54",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Avenue Balcony, head down the stairs and hook around them to the right, then down the ladder into a room with many enemies throwing lightning pots, and open the little cell on the ground floor to find a chest with the key inside</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17859,7 +17859,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k55",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k55",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the previous, head out the door on the ground floor, and continue forward until you can hook around a little set of stairs up and right, to see two Skeletal Militiamen and a Putrid Corpse praying at a grave bearing a body with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17878,7 +17878,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k56",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k56",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Lower Capital Church, exit the church and wrap around the building to the right; climb the long ladder and the following ladder to emerge at a gazebo; hook right again before the gazebo, then turn left and follow the tight path until you can climb a large staircase on your left; finally, from the top of the staircase, face directly east and run and jump on top of the gazebo to loot the key from the body</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17897,7 +17897,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k57",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k57",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Subterranean Shunning-Grounds: From Underground Roadside, head northeast and drop through the gap in the floor grate, turn northwest and go into the tunnel in the right wall, drop into the first hole surrounded by Slugs, and follow the path from there into a room with three Wraith Callers and the key on a body</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17916,7 +17916,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k58",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k58",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante eremita qui per 5.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -17935,7 +17935,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k61",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k61",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Castle Sol, from the Church of the Eclipse, exit to the north, climb the ladder to the east, go all the way north, cross the wooden bridge, and climb the stairs on the right to find a body slumped over the wall on the left with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17954,7 +17954,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k62",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k62",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On a body right behind the Fire Prelate outside Guardians' Garrison</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17973,7 +17973,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k63",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k63",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Inner Consecrated Snowfield, look at your compass and travel exactly one notch north of West, to a hill guarded by two lightning balls; on top is a chair with a corpse with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -17992,7 +17992,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k64",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k64",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In the northwest of Yelough Anix Ruins, in a tiny crumbling room packed with four frenzied rats</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18011,7 +18011,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k65",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k65",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Directly south of Haligtree Canopy on a body at the tip of the same branch</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18030,7 +18030,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k66",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k66",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From Haligtree Canopy, head east, dropping down when necessary to reach the first Large Oracle Envoy; follow the branch from there east/northeast until you can reach a large central branch with Giant Ants patrolling; follow the large branch south until its first offshoot on the left, which you can follow around in a large ascending circle onto a wide branch above with a scarlot rot flavored Giant Miranda Sprout; face northwest and walk along this branch until its first offshoot at a sharp left angle, at the end of which is an Oracle Envoy and a body with the key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18049,7 +18049,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k67",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k67",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In the back of the Dragon Temple to the east, on a body near a ledge</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18068,7 +18068,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k68",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k68",
-          "title": "Stonesword Key x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x3</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante abbandonato per 2.000 rune (x3)</span></span>"
         },
         "type": "Feature"
       },
@@ -18087,7 +18087,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k71",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k71",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">At the end of the long bridge/wall protruding from the southwest of Siofra River, accessed via a spiritspring in front of it</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18106,7 +18106,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k72",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k72",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">From the Below the Well grace, travel southwest along the right cliffside until you find a bridge leading to the other side near a Golden Tree; turn left at the other side and hop onto the pillar there, then run down the attached beam to the next pillar, which hides a body with a key</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18125,7 +18125,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k73",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k73",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On a body just south of the Aqueduct-Facing Cliffs grace, right outside the cave, where you drop down from the ledge above with the jellyfish to reach it</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18144,7 +18144,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k74",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k74",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On a body in water surrounded by many frenzied Miranda Sprouts, near the waterfall just southwest of Uld Palace Ruins</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18163,7 +18163,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k75",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k75",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">In Nokstella, Eternal City, directly north of the elevator to Nokstella Waterfall Basin, on a cliff under a ledge</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18182,7 +18182,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k76",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k76",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Atop the very tall square building directly southeast of Crucible Knight Siluria, reached via the spiritspring next to the building</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18201,7 +18201,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k77",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k77",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">On the south end of the area with many Giant Crows, on a body on the ground in the open</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18220,7 +18220,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k78",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k78",
-          "title": "Stonesword Key"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Along the path up from Dynasty Mausoleum Entrance, just past the Giant Skeletal Slime, turn right for a dead end side path with many praying Putrid Corpses and a key on a body against a rock</span><span class=\"lang-text lang-it d-none\">Chiave della spada di pietra</span></span>"
         },
         "type": "Feature"
       },
@@ -18239,7 +18239,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_k79",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_k79",
-          "title": "Stonesword Key x5"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stonesword Key x5</span><span class=\"lang-text lang-it d-none\">Venduta dal mercante prigioniero per 5.000 rune (x5)</span></span>"
         },
         "type": "Feature"
       },
@@ -18258,7 +18258,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s1",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s1",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fringefolk Hero's Grave (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18270,52 +18270,14 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "stonesword_s2",
+        "id": "stonesword_s5",
         "properties": {
           "group": "stonesword",
           "icon": "/map/icons/shadows/imp.png",
           "icon_size": 35,
-          "id": "stonesword_s2",
-          "link": "/checklists/stonesword_keys_imp_seals.html#item_s2",
-          "title": "Imp Statue Seal (1 key)"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            631,
-            8321
-          ],
-          "type": "Point"
-        },
-        "id": "stonesword_s3",
-        "properties": {
-          "group": "stonesword",
-          "icon": "/map/icons/shadows/imp.png",
-          "icon_size": 35,
-          "id": "stonesword_s3",
-          "link": "/checklists/stonesword_keys_imp_seals.html#item_s3",
-          "title": "Imp Statue Seal (1 key)"
-        },
-        "type": "Feature"
-      },
-      {
-        "geometry": {
-          "coordinates": [
-            642,
-            8325
-          ],
-          "type": "Point"
-        },
-        "id": "stonesword_s4",
-        "properties": {
-          "group": "stonesword",
-          "icon": "/map/icons/shadows/imp.png",
-          "icon_size": 35,
-          "id": "stonesword_s4",
-          "link": "/checklists/stonesword_keys_imp_seals.html#item_s4",
-          "title": "Imp Statue Seal (2 keys)"
+          "id": "stonesword_s5",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s5",
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Summonwater Village (cellar)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18327,14 +18289,14 @@ const feature_data = [
           ],
           "type": "Point"
         },
-        "id": "stonesword_s5",
+        "id": "stonesword_s4",
         "properties": {
           "group": "stonesword",
           "icon": "/map/icons/shadows/imp.png",
           "icon_size": 35,
-          "id": "stonesword_s5",
-          "link": "/checklists/stonesword_keys_imp_seals.html#item_s5",
-          "title": "Imp Statue Seal (1 key)"
+          "id": "stonesword_s4",
+          "link": "/checklists/stonesword_keys_imp_seals.html#item_s4",
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Tombsward Catacombs</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18353,7 +18315,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s6",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s6",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Weeping Evergaol</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18372,7 +18334,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s7",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s7",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Godskin Prayerbook (cellar)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18391,7 +18353,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s8",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s8",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Stormveil Castle (near Grafted Scion)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18410,7 +18372,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s9",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s9",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cliffbottom Catacombs</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18429,7 +18391,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s10",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s10",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Academy Crystal Cave (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18448,7 +18410,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s11",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s11",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Black Knife Catacombs</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18467,7 +18429,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s12",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s12",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lunar Estate Ruins</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18486,7 +18448,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s13",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s13",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Gaol Cave (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18505,7 +18467,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s14",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s14",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Forsaken Ruins (cellar)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18524,7 +18486,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s15",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s15",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Lineage Evergaol</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18543,7 +18505,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s16",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s16",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Unsightly Catacombs (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18562,7 +18524,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s21",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s21",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wyndham Ruins (cellar)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18581,7 +18543,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s17",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s17",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sainted Hero's Grave (room 1)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18600,7 +18562,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s18",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s18",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sainted Hero's Grave (room 2)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18619,7 +18581,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s19",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s19",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Old Altus Tunnel (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18638,7 +18600,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s20",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s20",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Seethewater Cave (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18657,7 +18619,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s22",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s22",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Wyndham Catacombs</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18676,7 +18638,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s23",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s23",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Manor (cellar)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18695,7 +18657,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s24",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s24",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Volcano Manor (hall)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18714,7 +18676,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s25",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s25",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Auriza Hero's Grave</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18733,7 +18695,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s26",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s26",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spiritcaller Cave (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18752,7 +18714,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s27",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s27",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Giant-Conquering Hero's Grave</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18771,7 +18733,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s28",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s28",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cave of the Forlorn (entrance)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (2 chiavi)</span></span>"
         },
         "type": "Feature"
       },
@@ -18790,7 +18752,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s29",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s29",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prayer Room (upper)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18809,7 +18771,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s30",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s30",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prayer Room (lower)</span><span class=\"lang-text lang-it d-none\">Sigillo demoniaco (1 chiave)</span></span>"
         },
         "type": "Feature"
       },
@@ -18828,7 +18790,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s31",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s31",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Imp Statue Seal (2 keys)</span><span class=\"lang-text lang-it d-none\">Ascensore del tempio del drago (ingresso)</span></span>"
         },
         "type": "Feature"
       },
@@ -18847,7 +18809,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s32",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s32",
-          "title": "Imp Statue Seal (2 keys)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Imp Statue Seal (2 keys)</span><span class=\"lang-text lang-it d-none\">Pozzo profondo del Siofra (ascensore)</span></span>"
         },
         "type": "Feature"
       },
@@ -18866,7 +18828,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s33",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s33",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Imp Statue Seal (1 key)</span><span class=\"lang-text lang-it d-none\">Terra sacra della notte</span></span>"
         },
         "type": "Feature"
       },
@@ -18885,7 +18847,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "stonesword_s34",
           "link": "/checklists/stonesword_keys_imp_seals.html#item_s34",
-          "title": "Imp Statue Seal (1 key)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Imp Statue Seal (1 key)</span><span class=\"lang-text lang-it d-none\">Nokstella, Citt\u00e0 Eterna</span></span>"
         },
         "type": "Feature"
       }
@@ -18910,7 +18872,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_1",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_1",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -18929,7 +18891,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_3",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_3",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -18948,7 +18910,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_4",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_4",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -18967,7 +18929,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_5",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_5",
-          "title": "Dragon Heart x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart x3</span><span class=\"lang-text lang-it d-none\">Cuore di drago x3</span></span>"
         },
         "type": "Feature"
       },
@@ -18986,7 +18948,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_2",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_2",
-          "title": "Dragon Heart x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart x3</span><span class=\"lang-text lang-it d-none\">Cuore di drago x3</span></span>"
         },
         "type": "Feature"
       },
@@ -19005,7 +18967,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_6",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_6",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19024,7 +18986,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_7",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_7",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19043,7 +19005,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_8",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_8",
-          "title": "Dragon Heart x5"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart x5</span><span class=\"lang-text lang-it d-none\">Cuore di drago x5</span></span>"
         },
         "type": "Feature"
       },
@@ -19062,7 +19024,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_9",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_9",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19081,7 +19043,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_10",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_10",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19100,7 +19062,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_11",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_11",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19119,7 +19081,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_12",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_12",
-          "title": "Dragon Heart"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart</span><span class=\"lang-text lang-it d-none\">Cuore di drago</span></span>"
         },
         "type": "Feature"
       },
@@ -19138,7 +19100,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "dragon_hearts_death_roots_0_13",
           "link": "/checklists/dragon_hearts_deathroots.html#item_0_13",
-          "title": "Dragon Heart x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dragon Heart x3</span><span class=\"lang-text lang-it d-none\">Cuore di drago x3</span></span>"
         },
         "type": "Feature"
       },
@@ -19157,7 +19119,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_1",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_1",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19176,7 +19138,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_2",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_2",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19195,7 +19157,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_3",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_3",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19214,7 +19176,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_4",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_4",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19233,7 +19195,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_5",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_5",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19252,7 +19214,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_6",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_6",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19271,7 +19233,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_7",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_7",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19290,7 +19252,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_8",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_8",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       },
@@ -19309,7 +19271,7 @@ const feature_data = [
           "icon_size": 45,
           "id": "dragon_hearts_death_roots_1_9",
           "link": "/checklists/dragon_hearts_deathroots.html#item_1_9",
-          "title": "Deathroot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Deathroot</span><span class=\"lang-text lang-it d-none\">Radice mortale</span></span>"
         },
         "type": "Feature"
       }
@@ -19334,7 +19296,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_1_1",
           "link": "/checklists/paintings.html#item_1_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prophecy Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Profezia</span></span>"
         },
         "type": "Feature"
       },
@@ -19353,7 +19315,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_1_2",
           "link": "/checklists/paintings.html#item_1_2",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Homing Instinct Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Istinto di conservazione</span></span>"
         },
         "type": "Feature"
       },
@@ -19372,7 +19334,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_2_1",
           "link": "/checklists/paintings.html#item_2_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Resurrection Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Resurrezione</span></span>"
         },
         "type": "Feature"
       },
@@ -19391,7 +19353,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_3_1",
           "link": "/checklists/paintings.html#item_3_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Redmane Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Criniera rossa</span></span>"
         },
         "type": "Feature"
       },
@@ -19410,7 +19372,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_4_1",
           "link": "/checklists/paintings.html#item_4_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Champion's Song Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Canto del campione</span></span>"
         },
         "type": "Feature"
       },
@@ -19429,7 +19391,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_5_1",
           "link": "/checklists/paintings.html#item_5_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flightless Bird Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Uccello incapace di volare</span></span>"
         },
         "type": "Feature"
       },
@@ -19448,7 +19410,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_6_1",
           "link": "/checklists/paintings.html#item_6_1",
-          "title": "<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sorcerer Painting</span><span class=\"lang-text lang-it d-none\">Dipinto: Stregone</span></span>"
         },
         "type": "Feature"
       },
@@ -19467,7 +19429,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_1",
           "link": "/checklists/paintings.html#item_1",
-          "title": "Prophecy Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prophecy Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Profezia</span></span>"
         },
         "type": "Feature"
       },
@@ -19486,7 +19448,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_2",
           "link": "/checklists/paintings.html#item_2",
-          "title": "Homing Instinct Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Homing Instinct Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Istinto di conservazione</span></span>"
         },
         "type": "Feature"
       },
@@ -19505,7 +19467,7 @@ const feature_data = [
           "icon_size": 20,
           "id": "paintings_3",
           "link": "/checklists/paintings.html#item_3",
-          "title": "Resurrection Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Resurrection Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Resurrezione</span></span>"
         },
         "type": "Feature"
       },
@@ -19524,7 +19486,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_4",
           "link": "/checklists/paintings.html#item_4",
-          "title": "Redmane Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Redmane Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Criniera rossa</span></span>"
         },
         "type": "Feature"
       },
@@ -19543,7 +19505,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_5",
           "link": "/checklists/paintings.html#item_5",
-          "title": "Champion's Song Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Champion's Song Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Canto del campione</span></span>"
         },
         "type": "Feature"
       },
@@ -19562,7 +19524,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_6",
           "link": "/checklists/paintings.html#item_6",
-          "title": "Flightless Bird Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flightless Bird Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Uccello incapace di volare</span></span>"
         },
         "type": "Feature"
       },
@@ -19581,7 +19543,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "paintings_7",
           "link": "/checklists/paintings.html#item_7",
-          "title": "Sorcerer Painting solution"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sorcerer Painting solution</span><span class=\"lang-text lang-it d-none\">Dipinto: Stregone</span></span>"
         },
         "type": "Feature"
       }
@@ -19606,7 +19568,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_1",
           "link": "/checklists/pots_bottles.html#item_1_1",
-          "title": "Cracked Pot x3"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot x3</span><span class=\"lang-text lang-it d-none\">Vaso incrinato x3</span></span>"
         },
         "type": "Feature"
       },
@@ -19625,7 +19587,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_5",
           "link": "/checklists/pots_bottles.html#item_1_5",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19644,7 +19606,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_4",
           "link": "/checklists/pots_bottles.html#item_1_4",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19663,7 +19625,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_6",
           "link": "/checklists/pots_bottles.html#item_1_6",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19682,7 +19644,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_7",
           "link": "/checklists/pots_bottles.html#item_1_7",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19701,7 +19663,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_8",
           "link": "/checklists/pots_bottles.html#item_1_8",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19720,7 +19682,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_9",
           "link": "/checklists/pots_bottles.html#item_1_9",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19739,7 +19701,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_10",
           "link": "/checklists/pots_bottles.html#item_1_10",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19758,7 +19720,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_11",
           "link": "/checklists/pots_bottles.html#item_1_11",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19777,7 +19739,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_13",
           "link": "/checklists/pots_bottles.html#item_1_13",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19796,7 +19758,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_12",
           "link": "/checklists/pots_bottles.html#item_1_12",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19815,7 +19777,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_15",
           "link": "/checklists/pots_bottles.html#item_1_15",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19834,7 +19796,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_14",
           "link": "/checklists/pots_bottles.html#item_1_14",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19853,7 +19815,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_16",
           "link": "/checklists/pots_bottles.html#item_1_16",
-          "title": "Cracked Pot x4"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot x4</span><span class=\"lang-text lang-it d-none\">Vaso incrinato x4</span></span>"
         },
         "type": "Feature"
       },
@@ -19872,7 +19834,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_1_20",
           "link": "/checklists/pots_bottles.html#item_1_20",
-          "title": "Cracked Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Cracked Pot</span><span class=\"lang-text lang-it d-none\">Vaso incrinato</span></span>"
         },
         "type": "Feature"
       },
@@ -19891,7 +19853,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_1",
           "link": "/checklists/pots_bottles.html#item_2_1",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -19910,7 +19872,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_2",
           "link": "/checklists/pots_bottles.html#item_2_2",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -19929,7 +19891,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_3",
           "link": "/checklists/pots_bottles.html#item_2_3",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -19948,7 +19910,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_5",
           "link": "/checklists/pots_bottles.html#item_2_5",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -19967,7 +19929,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_4",
           "link": "/checklists/pots_bottles.html#item_2_4",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -19986,7 +19948,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_6",
           "link": "/checklists/pots_bottles.html#item_2_6",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -20005,7 +19967,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_7",
           "link": "/checklists/pots_bottles.html#item_2_7",
-          "title": "Ritual Pot x2"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot x2</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -20024,7 +19986,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_9",
           "link": "/checklists/pots_bottles.html#item_2_9",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -20043,7 +20005,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_2_10",
           "link": "/checklists/pots_bottles.html#item_2_10",
-          "title": "Ritual Pot"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Ritual Pot</span><span class=\"lang-text lang-it d-none\">Vaso rituale</span></span>"
         },
         "type": "Feature"
       },
@@ -20062,7 +20024,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_1",
           "link": "/checklists/pots_bottles.html#item_3_1",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20081,7 +20043,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_2",
           "link": "/checklists/pots_bottles.html#item_3_2",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20100,7 +20062,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_5",
           "link": "/checklists/pots_bottles.html#item_3_5",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20119,7 +20081,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_3",
           "link": "/checklists/pots_bottles.html#item_3_3",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20138,7 +20100,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_4",
           "link": "/checklists/pots_bottles.html#item_3_4",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20157,7 +20119,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_6",
           "link": "/checklists/pots_bottles.html#item_3_6",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20176,7 +20138,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_7",
           "link": "/checklists/pots_bottles.html#item_3_7",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20195,7 +20157,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_8",
           "link": "/checklists/pots_bottles.html#item_3_8",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20214,7 +20176,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_9",
           "link": "/checklists/pots_bottles.html#item_3_9",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Boccetta di profumo</span></span>"
         },
         "type": "Feature"
       },
@@ -20233,7 +20195,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "pots_bottles_3_10",
           "link": "/checklists/pots_bottles.html#item_3_10",
-          "title": "Perfume Bottle"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Perfume Bottle</span><span class=\"lang-text lang-it d-none\">Attraverso i grandi portoni doppi di Leyndell che portano alle Terre proibite, in fondo senza salire le scale, su un corpo sorvegliato da una Chimera minore.</span></span>"
         },
         "type": "Feature"
       }
@@ -20258,7 +20220,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "tools_1_2",
           "link": "/checklists/tools_multiplayer.html#item_1_2",
-          "title": "Telescope"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Telescope</span><span class=\"lang-text lang-it d-none\">Telescopio</span></span>"
         },
         "type": "Feature"
       },
@@ -20277,7 +20239,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "tools_1_7",
           "link": "/checklists/tools_multiplayer.html#item_1_7",
-          "title": "Flask of Wondrous Physick"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Flask of Wondrous Physick</span><span class=\"lang-text lang-it d-none\">Ampolla di balsamo portentoso</span></span>"
         },
         "type": "Feature"
       },
@@ -20296,7 +20258,7 @@ const feature_data = [
           "icon_size": 25,
           "id": "tools_1_4",
           "link": "/checklists/tools_multiplayer.html#item_1_4",
-          "title": "Mimic's Veil"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Mimic's Veil</span><span class=\"lang-text lang-it d-none\">Velo mimetico</span></span>"
         },
         "type": "Feature"
       },
@@ -20315,7 +20277,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "tools_1_5",
           "link": "/checklists/tools_multiplayer.html#item_1_5",
-          "title": "Lantern"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Lantern</span><span class=\"lang-text lang-it d-none\">Lanterna</span></span>"
         },
         "type": "Feature"
       },
@@ -20334,7 +20296,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "tools_1_6",
           "link": "/checklists/tools_multiplayer.html#item_1_6",
-          "title": "Pureblood Knight's Medal"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Pureblood Knight's Medal</span><span class=\"lang-text lang-it d-none\">Medaglia del cavaliere purosangue</span></span>"
         },
         "type": "Feature"
       }
@@ -20359,7 +20321,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_1",
           "link": "/checklists/gestures.html#item_1_1",
-          "title": "Strength!"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Strength!</span><span class=\"lang-text lang-it d-none\">Forza!</span></span>"
         },
         "type": "Feature"
       },
@@ -20378,7 +20340,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_3",
           "link": "/checklists/gestures.html#item_1_3",
-          "title": "Nod in Thought"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Nod in Thought</span><span class=\"lang-text lang-it d-none\">Cenno d'assenso</span></span>"
         },
         "type": "Feature"
       },
@@ -20397,7 +20359,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_1_4",
           "link": "/checklists/gestures.html#item_1_4",
-          "title": "Grovel for Mercy"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Grovel for Mercy</span><span class=\"lang-text lang-it d-none\">Implora piet\u00e0</span></span>"
         },
         "type": "Feature"
       },
@@ -20416,7 +20378,7 @@ const feature_data = [
           "icon_size": 30,
           "id": "gestures_1_5",
           "link": "/checklists/gestures.html#item_1_5",
-          "title": "Extreme Repentance"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Extreme Repentance</span><span class=\"lang-text lang-it d-none\">Pentimento profondo</span></span>"
         },
         "type": "Feature"
       },
@@ -20435,7 +20397,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_6",
           "link": "/checklists/gestures.html#item_1_6",
-          "title": "Calm Down!"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Calm Down!</span><span class=\"lang-text lang-it d-none\">Calma!</span></span>"
         },
         "type": "Feature"
       },
@@ -20454,7 +20416,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_7",
           "link": "/checklists/gestures.html#item_1_7",
-          "title": "Finger Snap"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Finger Snap</span><span class=\"lang-text lang-it d-none\">Schiocco di dita</span></span>"
         },
         "type": "Feature"
       },
@@ -20473,7 +20435,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_8",
           "link": "/checklists/gestures.html#item_1_8",
-          "title": "Triumphant Delight"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Triumphant Delight</span><span class=\"lang-text lang-it d-none\">Gioia trionfale</span></span>"
         },
         "type": "Feature"
       },
@@ -20492,7 +20454,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_1_9",
           "link": "/checklists/gestures.html#item_1_9",
-          "title": "Crossed Legs"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Crossed Legs</span><span class=\"lang-text lang-it d-none\">Gambe incrociate</span></span>"
         },
         "type": "Feature"
       },
@@ -20511,7 +20473,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_1_10",
           "link": "/checklists/gestures.html#item_1_10",
-          "title": "Sitting Sideways"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Sitting Sideways</span><span class=\"lang-text lang-it d-none\">Seduta di lato</span></span>"
         },
         "type": "Feature"
       },
@@ -20530,7 +20492,7 @@ const feature_data = [
           "icon_size": 30,
           "id": "gestures_1_11",
           "link": "/checklists/gestures.html#item_1_11",
-          "title": "Dozing Cross-Legged"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Dozing Cross-Legged</span><span class=\"lang-text lang-it d-none\">Sonnellino a gambe incrociate</span></span>"
         },
         "type": "Feature"
       },
@@ -20549,7 +20511,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_1_12",
           "link": "/checklists/gestures.html#item_1_12",
-          "title": "Bravo!"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Bravo!</span><span class=\"lang-text lang-it d-none\">Bravo!</span></span>"
         },
         "type": "Feature"
       },
@@ -20568,7 +20530,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_1_13",
           "link": "/checklists/gestures.html#item_1_13",
-          "title": "Patches' Crouch"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Patches' Crouch</span><span class=\"lang-text lang-it d-none\">Posizione accovacciata di Patches</span></span>"
         },
         "type": "Feature"
       },
@@ -20587,7 +20549,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_2_1",
           "link": "/checklists/gestures.html#item_2_1",
-          "title": "Prayer"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Prayer</span><span class=\"lang-text lang-it d-none\">Preghiera</span></span>"
         },
         "type": "Feature"
       },
@@ -20606,7 +20568,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_2_2",
           "link": "/checklists/gestures.html#item_2_2",
-          "title": "What Do You Want?"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">What Do You Want?</span><span class=\"lang-text lang-it d-none\">Cosa vuoi?</span></span>"
         },
         "type": "Feature"
       },
@@ -20625,7 +20587,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_2_3",
           "link": "/checklists/gestures.html#item_2_3",
-          "title": "Reverential Bow"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Reverential Bow</span><span class=\"lang-text lang-it d-none\">Inchino devoto</span></span>"
         },
         "type": "Feature"
       },
@@ -20644,7 +20606,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_2_4",
           "link": "/checklists/gestures.html#item_2_4",
-          "title": "Curtsy"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Curtsy</span><span class=\"lang-text lang-it d-none\">Riverenza</span></span>"
         },
         "type": "Feature"
       },
@@ -20663,7 +20625,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_2_5",
           "link": "/checklists/gestures.html#item_2_5",
-          "title": "Rapture"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Rapture</span><span class=\"lang-text lang-it d-none\">Estasi</span></span>"
         },
         "type": "Feature"
       },
@@ -20682,7 +20644,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_3_1",
           "link": "/checklists/gestures.html#item_3_1",
-          "title": "As You Wish"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">As You Wish</span><span class=\"lang-text lang-it d-none\">Come desideri</span></span>"
         },
         "type": "Feature"
       },
@@ -20701,7 +20663,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_3_2",
           "link": "/checklists/gestures.html#item_3_2",
-          "title": "Fire Spur Me"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fire Spur Me</span><span class=\"lang-text lang-it d-none\">Fuoco, dammi forza</span></span>"
         },
         "type": "Feature"
       },
@@ -20720,7 +20682,7 @@ const feature_data = [
           "icon_size": 25,
           "id": "gestures_3_3",
           "link": "/checklists/gestures.html#item_3_3",
-          "title": "Spread Out"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Spread Out</span><span class=\"lang-text lang-it d-none\">Rilassatezza</span></span>"
         },
         "type": "Feature"
       },
@@ -20739,7 +20701,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_3_4",
           "link": "/checklists/gestures.html#item_3_4",
-          "title": "Erudition"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Erudition</span><span class=\"lang-text lang-it d-none\">Erudizione</span></span>"
         },
         "type": "Feature"
       },
@@ -20758,7 +20720,7 @@ const feature_data = [
           "icon_size": 25,
           "id": "gestures_3_5",
           "link": "/checklists/gestures.html#item_3_5",
-          "title": "Balled Up"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Balled Up</span><span class=\"lang-text lang-it d-none\">Raggomitolamento</span></span>"
         },
         "type": "Feature"
       },
@@ -20777,7 +20739,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_3_6",
           "link": "/checklists/gestures.html#item_3_6",
-          "title": "Casual Greeting (option 1)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Casual Greeting (option 1)</span><span class=\"lang-text lang-it d-none\">Saluto informale</span></span>"
         },
         "type": "Feature"
       },
@@ -20796,7 +20758,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_4_1",
           "link": "/checklists/gestures.html#item_4_1",
-          "title": "Desperate Prayer"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Desperate Prayer</span><span class=\"lang-text lang-it d-none\">Preghiera disperata</span></span>"
         },
         "type": "Feature"
       },
@@ -20815,7 +20777,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_4_2",
           "link": "/checklists/gestures.html#item_4_2",
-          "title": "Heartening Cry"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Heartening Cry</span><span class=\"lang-text lang-it d-none\">Incoraggiamento</span></span>"
         },
         "type": "Feature"
       },
@@ -20834,7 +20796,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_4_3",
           "link": "/checklists/gestures.html#item_4_3",
-          "title": "Polite Bow"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Polite Bow</span><span class=\"lang-text lang-it d-none\">Inchino garbato</span></span>"
         },
         "type": "Feature"
       },
@@ -20853,7 +20815,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_4_4",
           "link": "/checklists/gestures.html#item_4_4",
-          "title": "Casual Greeting (option 2)"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Casual Greeting (option 2)</span><span class=\"lang-text lang-it d-none\">Saluto informale</span></span>"
         },
         "type": "Feature"
       },
@@ -20872,7 +20834,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_5_1",
           "link": "/checklists/gestures.html#item_5_1",
-          "title": "My Thanks"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">My Thanks</span><span class=\"lang-text lang-it d-none\">I miei ringraziamenti</span></span>"
         },
         "type": "Feature"
       },
@@ -20891,7 +20853,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_6_1",
           "link": "/checklists/gestures.html#item_6_1",
-          "title": "Outer Order"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Outer Order</span><span class=\"lang-text lang-it d-none\">Ordine esterno</span></span>"
         },
         "type": "Feature"
       },
@@ -20910,7 +20872,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_6_2",
           "link": "/checklists/gestures.html#item_6_2",
-          "title": "By My Sword"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">By My Sword</span><span class=\"lang-text lang-it d-none\">Sulla mia spada</span></span>"
         },
         "type": "Feature"
       },
@@ -20929,7 +20891,7 @@ const feature_data = [
           "icon_size": 35,
           "id": "gestures_6_3",
           "link": "/checklists/gestures.html#item_6_3",
-          "title": "My Lord"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">My Lord</span><span class=\"lang-text lang-it d-none\">Mio lord</span></span>"
         },
         "type": "Feature"
       },
@@ -20948,7 +20910,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_6_4",
           "link": "/checklists/gestures.html#item_6_4",
-          "title": "Golden Order Totality"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Golden Order Totality</span><span class=\"lang-text lang-it d-none\">Totalit\u00e0 dell'Ordine Aureo</span></span>"
         },
         "type": "Feature"
       },
@@ -20967,7 +20929,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_7_1",
           "link": "/checklists/gestures.html#item_7_1",
-          "title": "Fancy Spin"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Fancy Spin</span><span class=\"lang-text lang-it d-none\">Giro artistico</span></span>"
         },
         "type": "Feature"
       },
@@ -20986,7 +20948,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_7_2",
           "link": "/checklists/gestures.html#item_7_2",
-          "title": "Hoslow's Oath"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Hoslow's Oath</span><span class=\"lang-text lang-it d-none\">Giuramento di Hoslow</span></span>"
         },
         "type": "Feature"
       },
@@ -21005,7 +20967,7 @@ const feature_data = [
           "icon_size": 40,
           "id": "gestures_8_1",
           "link": "/checklists/gestures.html#item_8_1",
-          "title": "Inner Order"
+          "title": "<span class=\"lang-pair\"><span class=\"lang-text lang-en\">Inner Order</span><span class=\"lang-text lang-it d-none\">Ordine interno</span></span>"
         },
         "type": "Feature"
       }

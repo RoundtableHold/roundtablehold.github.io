@@ -1,70 +1,87 @@
 title: Paintings
+title_it: Dipinti
 id: paintings
 icon: "/img/icons/info/paintings/edited/03066.png"
 table_widths: [3, 2, 7]
 sections:
   -
     title: "Painting Locations"
+    title_it: "Posizione dei dipinti"
     table: ["Name", "Area", "Location"]
+    table_it: ["Nome", "Area", "Posizione"]
     items:
       - id: "1_1"
         icon: "/img/icons/info/paintings/edited/03210.png"
         map_icon: "/map/icons/shadows/info/paintings/03210.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "Limgrave", "Stormveil Castle, in a study room in the heavily guarded courtyard."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Dipinto: Profezia</a>", "Sepolcride", "Castello di Grantempesta, in uno studio nel cortile pesantemente sorvegliato."]
         cords: [3060, 6606]
       - id: "1_2"
         icon: "/img/icons/info/paintings/edited/03066.png"
         map_icon: "/map/icons/shadows/info/paintings/03066.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>", "Limgrave", "Artist's Shack, northwest of the Mistwood Outskirts Site of Grace, and east of the Murkwater Coast Site of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Dipinto: Istinto di conservazione</a>", "Sepolcride", "Capanna dell'artista, a nord-ovest del Luogo di grazia Periferia del Bosco nebbioso e a est del Luogo di grazia Costa di Acquanera."]
         cords: [4226, 6800]
       - id: "2_1"
         icon: "/img/icons/info/paintings/edited/03207.png"
         map_icon: "/map/icons/shadows/info/paintings/03207.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "Liurnia of the Lakes", "Artist's Shack, on the Plateau southeast of the Eastern Liurnia Lake Shore Site of Grace, and north of the Gate Town Bridge Site of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Dipinto: Resurrezione</a>", "Liurnia lacustre", "Capanna dell'artista, sull'altopiano a sud-est del Luogo di grazia Sponda orientale del lago di Liurnia e a nord del Luogo di grazia Ponte del borgo."]
         cords: [2782, 5092]
       - id: "3_1"
         icon: "/img/icons/info/paintings/edited/03212.png"
         map_icon: "/map/icons/shadows/info/paintings/03212.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "Caelid", "Sellia, Town of Sorcery east of the Inner Aeonia Site of Grace, and southwest of Fort Faroth."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Dipinto: Criniera rossa</a>", "Caelid", "Sellia, città della stregoneria, a est del Luogo di grazia Cuore di Aeonia e a sud-ovest di Forte Faroth."]
         cords: [5642, 6603]
       - id: "4_1"
         icon: "/img/icons/info/paintings/edited/03208.png"
         map_icon: "/map/icons/shadows/info/paintings/03208.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "Altus Plateau", "Shaded Castle, in a Wooden Shack next to the eastern outer wall of the Shaded Castle, along the wall of the Shaded Castle Ramparts Site of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Dipinto: Canto del campione</a>", "Altopiano di Altus", "Castellombroso, in una capanna di legno accanto al muro di cinta orientale, lungo il muro del Luogo di grazia Bastioni di Castellombroso."]
         cords: [2980, 2668]
       - id: "5_1"
         icon: "/img/icons/info/paintings/edited/03211.png"
         map_icon: "/map/icons/shadows/info/paintings/03211.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "Leyndell, Royal Capital", "Fortified Manor, right next to the Fortified Manor, First Floor Site of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Dipinto: Uccello incapace di volare</a>", "Leyndell, capitale reale", "Maniero fortificato, proprio accanto al Luogo di grazia Maniero fortificato, primo piano."]
         cords: [4188, 3582]
       - id: "6_1"
         icon: "/img/icons/info/paintings/edited/03209.png"
         map_icon: "/map/icons/shadows/info/paintings/03209.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "Mountaintop of the Giants", "Castle Sol, in a locked room accessed from descending a ladder from atop the Ramparts guarded by two ballistas."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Dipinto: Stregone</a>", "Vette dei Giganti", "Castel Sol, in una stanza chiusa accessibile scendendo una scala dai bastioni sorvegliati da due balliste."]
         cords: [6039, 1806]
       - id: "11_1"
         icon: "/img/icons/info/paintings/edited/03831.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Incursion Painting</a>", "Gravesite Plain", "Obtained from the Artist's Shack."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Dipinto: Incursione</a>", "Piana dei sepolcri", "Ottenuto dalla Capanna dell'artista."]
       - id: "11_2"
         icon: "/img/icons/info/paintings/edited/03834.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">The Sacred Tower Painting</a>", "Gravesite Plain", "Can be found in a small cave north-east from Scorched Ruins in"]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">Dipinto: La torre sacra</a>", "Piana dei sepolcri", "Si trova in una piccola grotta a nord-est delle Rovine arse."]
       - id: "11_3"
         icon: "/img/icons/info/paintings/edited/03835.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Domain of Dragons Painting</a>", "Shadow Keep", "Bottom part of keep, accessing by climbing down ladders from main plaza"]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Dipinto: Dominio dei draghi</a>", "Rocca d'Ombra", "Parte inferiore della rocca, accessibile scendendo le scale dal cortile principale."]
   -
     title: "Painting Rewards"
+    title_it: "Ricompense dei dipinti"
     table: ["Name", "Rewards","Destination"]
+    table_it: ["Nome", "Ricompensa", "Destinazione"]
     items:
       - id: "1"
         icon: "/img/icons/spirit_ashes/00456.png"
         map_icon: "/map/icons/shadows/spirit_ashes/00456.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Prophecy Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Weeping Peninsula, just north of Pilgrimage Church on the cliff edge you should see the spirit of the artist in a chair."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Prophecy+Painting\">Dipinto: Profezia</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Ceneri di falco guerriero</a>", "Penisola del Pianto, poco a nord della Chiesa del pellegrinaggio, sul ciglio del dirupo vedrai lo spirito dell'artista su una sedia."]
         cords: [3845, 7638]
         map_title: "Prophecy Painting solution"
       - id: "2"
         icon: "/img/icons/armor/15290.png"
         map_icon: "/map/icons/shadows/armor/15290.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Homing Instinct Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Incantation Scarab</a>", "Limgrave, A small grave west from Dragon-Burnt Ruins, and northwest from the Seaside Ruins Site of Grace, next to some gravestones you should see the spirit of the painter in a chair."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Homing+Instinct+Painting\">Dipinto: Istinto di conservazione</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Incantation+Scarab\">Scarabeo degli incantesimi</a>", "Sepolcride, una piccola tomba a ovest delle Rovine bruciate dal drago e a nord-ovest del Luogo di grazia Rovine costiere, accanto ad alcune lapidi vedrai lo spirito del pittore su una sedia."]
         cords: [3870, 7397]
         map_title: "Homing Instinct Painting solution"
       - id: "3"
@@ -72,38 +89,46 @@ sections:
         map_icon: "/map/icons/shadows/armor/14770.png"
         map_icon_size: 20
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Resurrection Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Cap\">Juvenile Scholar Cap</a>, <a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Robe\">Juvenile Scholar Robe</a> and <a href=\"https://eldenring.wiki.fextralife.com/Larval+Tear\">Larval Tear</a>", "Liurnia of the Lakes, start at the Behind Caria Manor Site of Grace and head slightly southeast until you arrive at a graveyard, behind a big rock you should see the spirit of the artist sitting in a chair."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Resurrection+Painting\">Dipinto: Resurrezione</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Cap\">Tocco da giovane erudito</a>, <a href=\"https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Robe\">Tunica da giovane erudito</a> e <a href=\"https://eldenring.wiki.fextralife.com/Larval+Tear\">Lacrima larvale</a>", "Liurnia lacustre, parti dal Luogo di grazia Area retrostante al Maniero di Caria e vai a sud-est fino a un cimitero, dietro una grande roccia vedrai lo spirito dell'artista su una sedia."]
         cords: [2135, 3783]
         map_title: "Resurrection Painting solution"
       - id: "4"
         icon: "/img/icons/ashes_of_war/08385.png"
         map_icon: "/map/icons/shadows/ashes_of_war/08385.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Redmane Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Ash of War: Rain of Arrows</a>", "Caelid, off a cliff edge south east of the Minor Erdtree in Dragonbarrow where a powerful Magic weilding Golem will be. Once you've made your way down the roots and stone pillars, walk to the edge and you'll briefly see the spirit of a painter."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Painting\">Dipinto: Criniera rossa</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Cenere di guerra: Pioggia di frecce</a>", "Caelid, dal ciglio di un dirupo a sud-est dell'Albero Madre minore nel Greppo del Drago dove si trova un potente Golem magico. Una volta sceso tra radici e pilastri, vai sul bordo per vedere lo spirito del pittore."]
         cords: [6063, 6323]
         map_title: "Redmane Painting solution"
       - id: "5"
         icon: "/img/icons/weapons/lightbows/11003.png"
         map_icon: "/map/icons/shadows/weapons/lightbows/11003.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Champion's Song Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Harp Bow</a>", "Altus Plateau, on the cliff just slightly southeast of the Rampartside Path Site of Grace, you should see the painter in a chair."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Champion's+Song+Painting\">Dipinto: Canto del campione</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Harp+Bow\">Arco arpa</a>", "Altopiano di Altus, sul dirupo poco a sud-est del Luogo di grazia Sentiero lungo i bastioni, vedrai il pittore su una sedia."]
         cords: [3493, 3203]
         map_title: "Champion's Song Painting solution"
       - id: "6"
         icon: "/img/icons/incantations/06060.png"
         map_icon: "/map/icons/shadows/incantations/06060.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Flightless Bird Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin\">Fire's Deadly Sin</a>", "Altus Plateau, From the Windmill Heights Site of Grace head southeast along the cliff edge, you will find the spirit of the painter on a cliff left of the shack at the end of the road."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Flightless+Bird+Painting\">Dipinto: Uccello incapace di volare</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin\">Peccato mortale del fuoco</a>", "Altopiano di Altus, dal Luogo di grazia Cima del villaggio dei mulini vai a sud-est lungo il dirupo, troverai lo spirito del pittore sul dirupo a sinistra della capanna in fondo alla strada."]
         cords: [3727, 2615]
         map_title: "Flightless Bird Painting solution"
       - id: "7"
         icon: "/img/icons/armor/15000.png"
         map_icon: "/map/icons/shadows/armor/15000.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Sorcerer Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Greathood</a>", "Moutaintops of the Giants, on the bridge Northwest of the Stargazers' Ruins, go on the small platform jutting out on the eastern side of the bridge to find the spirit of the artist."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Sorcerer+Painting\">Dipinto: Stregone</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Greathood\">Cappuccio abnorme</a>", "Vette dei Giganti, sul ponte a nord-ovest delle Rovine degli astrologi, vai sulla piccola sporgenza sul lato orientale del ponte per trovare lo spirito dell'artista."]
         cords: [5875, 2080]
         map_title: "Sorcerer Painting solution"
       - id: "11"
         icon: "/img/icons/weapons/dlc/12286.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Incursion Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield\">Serpent Crest Shield</a>", "Travel to the Greatbridge North Site of Grace, and head straight West until you can see the large bridge leading into Belurat Tower Settlement in the Distance."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Incursion+Painting\">Dipinto: Incursione</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield\">Scudo crestato del serpente</a>", "Viaggia verso il Luogo di grazia Granponte nord e vai dritto a ovest finché non vedi in lontananza il grande ponte che porta a Belurat, insediamento della torre."]
       - id: "12"
         icon: "/img/icons/weapons/dlc/12294.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">The Sacred Tower Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Spiraltree+Seal\">Spiraltree Seal</a>", "Found on the high ground above Temple Town Ruins. This area is accessed by a Spiritspring on the north side of the platform. Once up at the top, right past the Northern Nameless Mausoleum and down the western slope, explore until you find two jagged rocks. Look north-west while aligning the rocks to find the ghost."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/The+Sacred+Tower+Painting\">Dipinto: La torre sacra</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Spiraltree+Seal\">Sigillo dell'albero a spirale</a>", "Sulle alture sopra le Rovine della città del tempio. Area accessibile tramite una sorgente spiritica sul lato nord. Una volta in cima, oltre il Mausoleo senza nome settentrionale e giù per il pendio occidentale, esplora fino a trovare due rocce appuntite. Guarda a nord-ovest allineando le rocce per trovare il fantasma."]
       - id: "13"
         icon: "/img/icons/tools/edited/00788.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Domain of Dragons Painting</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Rock+Heart\">Rock Heart</a>", "Traveling to the Jagged Peak Mountainside site of grace and following a path south-west from the grace, across rugged terrain. Instead of proceeding South for the level, take the spiritspring to land slightly west and find a spot where the storm clears up."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Domain+of+Dragons+Painting\">Dipinto: Dominio dei draghi</a>", "<a href=\"https://eldenring.wiki.fextralife.com/Rock+Heart\">Cuore di roccia</a>", "Dal Luogo di grazia Versante del Picco fagliato, segui il sentiero a sud-ovest attraverso il terreno accidentato. Invece di proseguire a sud per il livello, usa la sorgente spiritica per atterrare poco a ovest e trovare un punto dove la tempesta si placa."]

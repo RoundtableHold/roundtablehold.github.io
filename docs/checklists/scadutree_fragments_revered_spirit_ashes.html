@@ -14,7 +14,83 @@
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <script>
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -24,168 +100,387 @@
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-auto ms-2" href="/index.html">Roundtable Guides</a>
-        <form class="d-none d-sm-flex order-2 order-xl-3">
-          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+        <a class="navbar-brand me-auto ms-2" href="/index.html">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Roundtable Guides</span>
+            <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+          </span>
+        </a>
+        <ul class="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="langDropdown">
+              <span id="lang-display"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end position-absolute" id="lang-menu">
+              <li>
+                <a class="dropdown-item lang-option" data-lang="en" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> EN</a>
+              </li>
+              <li>
+                <a class="dropdown-item lang-option" data-lang="it" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> IT</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action="/search.html" class="d-none d-sm-flex order-2 order-xl-3" method="get">
+          <input aria-label="search" class="form-control me-2" data-placeholder-it="Cerca" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit"><i class="bi bi-search"></i></button>
         </form>
         <div class="d-sm-none order-2">
-          <a class="nav-link me-0" href="/search.html">
-            <i class="bi bi-search sb-icon-search"></i>
-          </a>
+          <a class="nav-link me-0" href="/search.html"><i class="bi bi-search sb-icon-search"></i></a>
         </div>
         <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Guides</span>
+                  <span class="lang-text lang-it">Guide</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">DLC Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">DLC Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione DLC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                      <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">NPC Questlines</span>
+                      <span class="lang-text lang-it">Missioni NPC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Achievements</span>
+                      <span class="lang-text lang-it">Obiettivi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Legendaries</span>
+                      <span class="lang-text lang-it">Leggendari</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Locations</span>
+                  <span class="lang-text lang-it">Luoghi</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bosses</span>
+                      <span class="lang-text lang-it">Boss</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                      <span class="lang-text lang-it">Luoghi d'interesse</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sites of Grace</span>
+                      <span class="lang-text lang-it">Luoghi di grazia</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                      <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Equipment</span>
+                  <span class="lang-text lang-it">Equipaggiamento</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Weapons</span>
+                      <span class="lang-text lang-it">Armi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Armor</span>
+                      <span class="lang-text lang-it">Armatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Talismans</span>
+                      <span class="lang-text lang-it">Talismani</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sorceries</span>
+                      <span class="lang-text lang-it">Stregonerie</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Incantations</span>
+                      <span class="lang-text lang-it">Incantesimi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ashes of War</span>
+                      <span class="lang-text lang-it">Ceneri di Guerra</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Spirit Ashes</span>
+                      <span class="lang-text lang-it">Ceneri spiritiche</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Upgrades &amp; Unlocks</span>
+                  <span class="lang-text lang-it">Potenziamenti e Sbloccabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                      <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                      <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                      <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                      <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Whetstones</span>
+                      <span class="lang-text lang-it">Coltelli per affilatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bell Bearings</span>
+                      <span class="lang-text lang-it">Globi cinerei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Cookbooks</span>
+                      <span class="lang-text lang-it">Ricettari</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                      <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons active" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons active" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                      <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Collectables</span>
+                  <span class="lang-text lang-it">Collezionabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                      <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Great Runes</span>
+                      <span class="lang-text lang-it">Grandi Rune</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                      <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                      <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                      <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Paintings</span>
+                      <span class="lang-text lang-it">Dipinti</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                      <span class="lang-text lang-it">Vasi e boccette</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                      <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Gestures</span>
+                      <span class="lang-text lang-it">Gesti</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/map.html">
-                <i class="bi bi-map"></i> Map
+              <a class="nav-link hide-buttons" href="/map.html"><i class="bi bi-map"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Map</span>
+                  <span class="lang-text lang-it">Mappa</span>
+                </span>
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/options.html">
-                <i class="bi bi-gear-fill"></i> Options
+              <a class="nav-link hide-buttons" href="/options.html"><i class="bi bi-gear-fill"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Options</span>
+                  <span class="lang-text lang-it">Opzioni</span>
+                </span>
               </a>
             </li>
           </ul>
@@ -194,330 +489,614 @@
     </nav>
     <div class="container uncolor-links">
       <div class="row text-center">
-        <h1 class="mt-4">Scadutree Fragments &amp; Revered Spirit Ashes
-          <span class="d-print-none" id="scadutree_fragment_revered_spirit_ash_overall_total"></span>
+        <h1 class="mt-4">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+            <span class="lang-text lang-it d-none">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+          </span>
+          <span class="badge rounded-pill bg-success progress-val d-print-none ms-2" id="scadutree_fragment_revered_spirit_ash_overall_total"></span>
         </h1>
       </div>
       <div class="mb-3 d-print-none" id="btnHideCompleted">
         <div class="form-check form-switch">
           <input class="form-check-input" id="toggleHideCompleted" type="checkbox">
-          <label class="form-check-label" for="toggleHideCompleted">Hide Completed</label>
+          <label class="form-check-label" for="toggleHideCompleted">
+            <span class="lang-pair">
+              <span class="lang-text lang-en">Hide Completed</span>
+              <span class="lang-text lang-it">Nascondi Completati</span>
+            </span>
+          </label>
         </div>
       </div>
       <nav class="text-muted toc d-print-none">
         <strong class="d-block h5">
-          <a class="toc-button" data-bs-toggle="collapse" href="#toc_scadutree_fragment_revered_spirit_ash" role="button">
-            <i class="bi bi-plus-lg"></i>Table Of Contents
+          <a class="toc-button" data-bs-toggle="collapse" href="#toc_scadutree_fragment_revered_spirit_ash" role="button"><i class="bi bi-plus-lg"></i>
+            <span class="lang-pair">
+              <span class="lang-text lang-en"> Table Of Contents</span>
+              <span class="lang-text lang-it"> Indice</span>
+            </span>
           </a>
         </strong>
         <ul class="toc_page collapse" id="toc_scadutree_fragment_revered_spirit_ash">
           <li>
-            <a class="toc_link" href="#scadutree_fragment_revered_spirit_ash_section_0">Scadutree Fragments</a>
+            <a class="toc_link" href="#scadutree_fragment_revered_spirit_ash_section_0">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Scadutree Fragments</span>
+                <span class="lang-text lang-it d-none">Frammenti dell'Albero Ombra</span>
+              </span>
+            </a>
             <span id="scadutree_fragment_revered_spirit_ash_nav_totals_0"></span>
           </li>
           <li>
-            <a class="toc_link" href="#scadutree_fragment_revered_spirit_ash_section_1">Revered Spirit Ashes</a>
+            <a class="toc_link" href="#scadutree_fragment_revered_spirit_ash_section_1">
+              <span class="lang-pair">
+                <span class="lang-text lang-en">Revered Spirit Ashes</span>
+                <span class="lang-text lang-it d-none">Ceneri di spirito venerato</span>
+              </span>
+            </a>
             <span id="scadutree_fragment_revered_spirit_ash_nav_totals_1"></span>
           </li>
         </ul>
       </nav>
-      <div class="input-group d-print-none">
-        <input class="form-control my-3" id="scadutree_fragment_revered_spirit_ash_search" placeholder="Start typing to filter results..." type="search">
+      <div class="input-group my-3 d-print-none">
+        <input class="form-control" id="scadutree_fragment_revered_spirit_ash_search" placeholder="Start typing to filter results..." type="search">
+        <div class="input-group-text">
+          <input aria-label="Use Regex for Search" class="form-check-input mt-0 me-2" id="scadutree_fragment_revered_spirit_ash_regex" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Use Regex</span>
+            <span class="lang-text lang-it">Usa Regex</span>
+          </span>
+        </div>
+        <div class="input-group-text">
+          <input aria-label="Name Only Search" class="form-check-input mt-0 me-2" id="scadutree_fragment_revered_spirit_ash_name_only" type="checkbox">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Name Only</span>
+            <span class="lang-text lang-it">Solo nome</span>
+          </span>
+        </div>
       </div>
       <div id="scadutree_fragment_revered_spirit_ash_list">
         <div class="card shadow-sm mb-3" id="scadutree_fragment_revered_spirit_ash_section_0">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scadutree_fragment_revered_spirit_ash_0Col" data-bs-toggle="collapse" href="#scadutree_fragment_revered_spirit_ash_0Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scadutree_fragment_revered_spirit_ash_0Col" data-bs-toggle="collapse" href="#scadutree_fragment_revered_spirit_ash_0Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/bolstering/edited/03816.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Scadutree Fragments</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Scadutree Fragments</span>
+                  <span class="lang-text lang-it d-none">Frammenti dell'Albero Ombra</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="scadutree_fragment_revered_spirit_ash_totals_0"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="scadutree_fragment_revered_spirit_ash_0Col">
-              <h5>Gravesite Plain</h5>
-              <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_1" id="item_0_1">
+              <ul class="list-group-flush mb-0 ps-0 ps-md-4"></ul>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Gravesite Plain</span>
+                <span class="lang-text lang-it d-none">Piana dei sepolcri</span>
+              </h5>
+              <ul class="list-group-flush mb-0">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_1" data-name-jets="(x1) can be found by the miquella's cross of the three-path cross site of grace. (x1) si trova presso la croce di miquella della grazia del valico dei tre sentieri." id="item_0_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_1">(x1) Can be found by the Miquella's Cross of the Three-Path Cross Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found by the Miquella's Cross of the Three-Path Cross Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova presso la Croce di Miquella della grazia del Valico dei tre sentieri.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_2" id="item_0_2">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_2" data-name-jets="(x1) can be found next to the statue of marika, located at a messmer soldier encampment. (x1) si trova accanto alla statua di marika in un accampamento di soldati di messmer." id="item_0_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_2">(x1) Can be found next to the statue of Marika, located at a Messmer Soldier encampment.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found next to the statue of Marika, located at a Messmer Soldier encampment.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova accanto alla statua di Marika in un accampamento di soldati di Messmer.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_3" id="item_0_3">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_3" data-name-jets="(x2) can be found at the church of consolation's by the statue of marika. (x2) si trovano alla chiesa della consolazione, presso la statua di marika." id="item_0_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_3">(x2) Can be found at the Church of Consolation's by the statue of Marika.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) Can be found at the Church of Consolation's by the statue of Marika.</span>
+                        <span class="lang-text lang-it d-none">(x2) Si trovano alla Chiesa della Consolazione, presso la statua di Marika.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_4" id="item_0_4">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_4" data-name-jets="(x1) can be found by miquella's cross of the main gate cross site of grace near npcs sir ansbach and moore. (x1) si trova presso la croce di miquella della grazia dell'ingresso principale, vicino ai png sir ansbach e moore." id="item_0_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_4">(x1) Can be found by Miquella's Cross of the Main Gate Cross Site of Grace near NPCs Sir Ansbach and Moore.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found by Miquella's Cross of the Main Gate Cross Site of Grace near NPCs Sir Ansbach and Moore.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova presso la Croce di Miquella della grazia dell'Ingresso principale, vicino ai PNG Sir Ansbach e Moore.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_5" id="item_0_5">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_5" data-name-jets="(x1) dropped by a pot-bearing shadow enemy in a gravesite that sparkles and runs away. kill it quickly to get the drop. (x1) lasciato da un'ombra con vaso in un cimitero; brilla e scappa via. uccidila rapidamente per ottenere l'oggetto." id="item_0_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_5">(x1) Dropped by a pot-bearing Shadow enemy in a gravesite that sparkles and runs away. Kill it quickly to get the drop.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Dropped by a pot-bearing Shadow enemy in a gravesite that sparkles and runs away. Kill it quickly to get the drop.</span>
+                        <span class="lang-text lang-it d-none">(x1) Lasciato da un'ombra con vaso in un cimitero; brilla e scappa via. Uccidila rapidamente per ottenere l'oggetto.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_6" id="item_0_6">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_6" data-name-jets="(x1) item drops from a pot-bearing shadow enemy. grants 707 runes upon defeat. drops 1 scadutree fragment and 1 silver horn tender. in a gravesite area, southwest of cliffroad terminus site of grace. surrounded by other shadow enemies and a dog. (x1) lasciato da un'ombra con vaso. fornisce 707 rune. rilascia 1 frammento dell'albero ombra e 1 lingua di corno d'argento. in un'area cimiteriale, a sud-ovest della grazia fine della via sulla scarpata. circondata da altre ombre e un cane." id="item_0_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_6">(x1) Item drops from a pot-bearing Shadow enemy. Grants 707 Runes upon defeat. Drops 1 Scadutree Fragment and 1 Silver Horn Tender. In a gravesite area, southwest of Cliffroad Terminus Site of Grace. Surrounded by other shadow enemies and a dog.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Item drops from a pot-bearing Shadow enemy. Grants 707 Runes upon defeat. Drops 1 Scadutree Fragment and 1 Silver Horn Tender. In a gravesite area, southwest of Cliffroad Terminus Site of Grace. Surrounded by other shadow enemies and a dog.</span>
+                        <span class="lang-text lang-it d-none">(x1) Lasciato da un'ombra con vaso. Fornisce 707 rune. Rilascia 1 frammento dell'Albero Ombra e 1 lingua di corno d'argento. In un'area cimiteriale, a sud-ovest della grazia Fine della via sulla scarpata. Circondata da altre ombre e un cane.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_7" id="item_0_7">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_7" data-name-jets="(x1) can be found beside miquella's cross of the castle ensis checkpoint site of grace. (x1) si trova accanto alla croce di miquella della grazia del posto di blocco di castel ensis." id="item_0_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_7">(x1) Can be found beside Miquella's Cross of the Castle Ensis Checkpoint Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found beside Miquella's Cross of the Castle Ensis Checkpoint Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova accanto alla Croce di Miquella della grazia del Posto di blocco di Castel Ensis.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_8" id="item_0_8">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_8" data-name-jets="(x1) can be looted from the ground beside miquella's cross of the pillar path cross site of grace. (x1) si trova a terra accanto alla croce di miquella della grazia della croce della via dei pilastri." id="item_0_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_8">(x1) Can be looted from the ground beside Miquella's Cross of the Pillar Path Cross Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted from the ground beside Miquella's Cross of the Pillar Path Cross Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova a terra accanto alla Croce di Miquella della grazia della Croce della via dei pilastri.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Belurat, Tower Settlement</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Belurat, Tower Settlement</span>
+                <span class="lang-text lang-it d-none">Belurat, insediamento della torre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_9" id="item_0_9">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_9" data-name-jets="(x1) upon reaching a large room on the northwest side with the 2 large spider scorpions in it and the bone bow, jump over the rubble on the right side just before the doorway to this room. there's another doorway just behind the rubble, and following the path beyond will lead to a small room with the fragment, next to a miquella's cross. (x1) una volta raggiunta una grande stanza sul lato nord-ovest con 2 grandi scorpioni ragno e l'arco d'osso, salta le macerie sul lato destro subito prima dell'ingresso. c'è un'altra porta dietro le macerie; segui il sentiero per arrivare a una piccola stanza con il frammento, accanto a una croce di miquella." id="item_0_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_9">(x1) Upon reaching a large room on the northwest side with the 2 large Spider Scorpions in it and the Bone Bow, jump over the rubble on the right side just before the doorway to this room. There's another doorway just behind the rubble, and following the path beyond will lead to a small room with the fragment, next to a Miquella's Cross.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Upon reaching a large room on the northwest side with the 2 large Spider Scorpions in it and the Bone Bow, jump over the rubble on the right side just before the doorway to this room. There's another doorway just behind the rubble, and following the path beyond will lead to a small room with the fragment, next to a Miquella's Cross.</span>
+                        <span class="lang-text lang-it d-none">(x1) Una volta raggiunta una grande stanza sul lato nord-ovest con 2 grandi scorpioni ragno e l'Arco d'osso, salta le macerie sul lato destro subito prima dell'ingresso. C'è un'altra porta dietro le macerie; segui il sentiero per arrivare a una piccola stanza con il frammento, accanto a una Croce di Miquella.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Scadu Altus</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Scadu Altus</span>
+                <span class="lang-text lang-it d-none">Altus dell'Ombra</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_10" id="item_0_10">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_10" data-name-jets="(x1) can be found by miquella's cross of the highroad cross site of grace and npcs hornsent and needle knight leda. (x1) si trova presso la croce di miquella della grazia della croce della via maestra, vicino ai png cornuto e leda, cavaliere dell'ago." id="item_0_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_10">(x1) Can be found by Miquella's Cross of the Highroad Cross Site of Grace and NPCs Hornsent and Needle Knight Leda.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found by Miquella's Cross of the Highroad Cross Site of Grace and NPCs Hornsent and Needle Knight Leda.</span>
+                        <span class="lang-text lang-it d-none">(x1) Si trova presso la Croce di Miquella della grazia della Croce della via maestra, vicino ai PNG Cornuto e Leda, Cavaliere dell'Ago.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_11" id="item_0_11">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_11" data-name-jets="(x1) can be looted by the statue of marika located at the messmer soldiers encampment situated along the main entrance of the shadow keep. if you aggroed the furnace golem in this area, chances are the creature can destroy the statue. but you can still find the scadutree fragment there. (x1) presso la statua di marika nell'accampamento di soldati di messmer all'ingresso principale della rocca delle ombre. se hai attirato il golem della fornace in quest'area, potrebbe distruggere la statua, ma il frammento sarà comunque lì." id="item_0_11">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_11">(x1) Can be looted by the statue of Marika located at the Messmer Soldiers encampment situated along the main entrance of the Shadow Keep. If you aggroed the Furnace Golem in this area, chances are the creature can destroy the statue. But you can still find the Scadutree Fragment there.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_11">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted by the statue of Marika located at the Messmer Soldiers encampment situated along the main entrance of the Shadow Keep. If you aggroed the Furnace Golem in this area, chances are the creature can destroy the statue. But you can still find the Scadutree Fragment there.</span>
+                        <span class="lang-text lang-it d-none">(x1) Presso la statua di Marika nell'accampamento di soldati di Messmer all'ingresso principale della Rocca delle Ombre. Se hai attirato il Golem della fornace in quest'area, potrebbe distruggere la statua, ma il frammento sarà comunque lì.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_12" id="item_0_12">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_12" data-name-jets="(x1) northwest of the moorth ruins site of grace, there is a messmer soldiers encampment. 1 scadutree fragment can looted by the statue of marika. (x1) a nord-ovest della grazia rovine di moorth c'è un accampamento di soldati di messmer. si trova presso la statua di marika." id="item_0_12">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_12">(x1) Northwest of the Moorth Ruins Site of Grace, there is a Messmer Soldiers encampment. 1 Scadutree Fragment can looted by the statue of Marika.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_12">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Northwest of the Moorth Ruins Site of Grace, there is a Messmer Soldiers encampment. 1 Scadutree Fragment can looted by the statue of Marika.</span>
+                        <span class="lang-text lang-it d-none">(x1) A nord-ovest della grazia Rovine di Moorth c'è un accampamento di soldati di Messmer. Si trova presso la statua di Marika.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_13" id="item_0_13">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_13" data-name-jets="(x2) can looted off the ground. the item is found inside the church of the crusade, just by the foot of the statue of marika. (x2) a terra all'interno della chiesa della crociata, ai piedi della statua di marika." id="item_0_13">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_13" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_13">(x2) Can looted off the ground. The item is found inside the Church of the Crusade, just by the foot of the statue of Marika.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_13">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) Can looted off the ground. The item is found inside the Church of the Crusade, just by the foot of the statue of Marika.</span>
+                        <span class="lang-text lang-it d-none">(x2) A terra all'interno della Chiesa della Crociata, ai piedi della statua di Marika.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_14" id="item_0_14">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_14" data-name-jets="(x1) head north from moorth ruins to find an area with a pond and a cave entrance that leads to rauh ruins. cross the pond, and just before the entrance to the cave, you'll find 1 scadutree fragment that can be looted by the statue of marika. (x1) vai a nord dalle rovine di moorth fino a uno stagno e l'ingresso di una grotta che conduce alla base di rauh. attraversa lo stagno: troverai il frammento presso la statua di marika proprio prima dell'ingresso della grotta." id="item_0_14">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_14">(x1) Head north from Moorth Ruins to find an area with a pond and a cave entrance that leads to Rauh Ruins. Cross the pond, and just before the entrance to the cave, you'll find 1 Scadutree Fragment that can be looted by the statue of Marika.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_14">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Head north from Moorth Ruins to find an area with a pond and a cave entrance that leads to Rauh Ruins. Cross the pond, and just before the entrance to the cave, you'll find 1 Scadutree Fragment that can be looted by the statue of Marika.</span>
+                        <span class="lang-text lang-it d-none">(x1) Vai a nord dalle Rovine di Moorth fino a uno stagno e l'ingresso di una grotta che conduce alla Base di Rauh. Attraversa lo stagno: troverai il frammento presso la statua di Marika proprio prima dell'ingresso della grotta.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_15" id="item_0_15">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_15" data-name-jets="(x1) can be looted from the ground by miquella's cross of the moorth ruins site of grace. (x1) a terra presso la croce di miquella della grazia rovine di moorth." id="item_0_15">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_15" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_15">(x1) Can be looted from the ground by Miquella's Cross of the Moorth Ruins Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_15">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted from the ground by Miquella's Cross of the Moorth Ruins Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) A terra presso la Croce di Miquella della grazia Rovine di Moorth.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_16" id="item_0_16">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_16" data-name-jets="(x1) south of moorth ruins, you'll find a pot-bearing shadow towards the giant fissure at the center of the location. instead of dropping down, wrap around the south side of the fissure to find the enemy. kill the pot-bearing shadow enemy to acquire 1 scadutree fragment. (x1) a sud delle rovine di moorth troverai un'ombra con vaso verso la grande faglia al centro dell'area. invece di scendere, aggira il lato sud della faglia per trovare il nemico. uccidilo per ottenere il frammento." id="item_0_16">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_16" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_16">(x1) South of Moorth Ruins, you'll find a pot-bearing Shadow towards the giant fissure at the center of the location. Instead of dropping down, wrap around the south side of the fissure to find the enemy. Kill the pot-bearing Shadow enemy to acquire 1 Scadutree Fragment.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_16">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) South of Moorth Ruins, you'll find a pot-bearing Shadow towards the giant fissure at the center of the location. Instead of dropping down, wrap around the south side of the fissure to find the enemy. Kill the pot-bearing Shadow enemy to acquire 1 Scadutree Fragment.</span>
+                        <span class="lang-text lang-it d-none">(x1) A sud delle Rovine di Moorth troverai un'ombra con vaso verso la grande faglia al centro dell'area. Invece di scendere, aggira il lato sud della faglia per trovare il nemico. Uccidilo per ottenere il frammento.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_17" id="item_0_17">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_17" data-name-jets="(x1) found in a coffin at the bottom of the waterfall. to reach this area, you must follow the cliffs along the top and then find a place to drop by a graveyard with gravebirds, then explore upriver. (x1) in una bara ai piedi della cascata. per raggiungere quest'area segui le scogliere in alto, scendi presso un cimitero con uccelli sepolcrali e risali il fiume." id="item_0_17">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_17" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_17">(x1) Found in a coffin at the bottom of the waterfall. To reach this area, you must follow the cliffs along the top and then find a place to drop by a graveyard with gravebirds, then explore upriver.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_17">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Found in a coffin at the bottom of the waterfall. To reach this area, you must follow the cliffs along the top and then find a place to drop by a graveyard with gravebirds, then explore upriver.</span>
+                        <span class="lang-text lang-it d-none">(x1) In una bara ai piedi della cascata. Per raggiungere quest'area segui le scogliere in alto, scendi presso un cimitero con uccelli sepolcrali e risali il fiume.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_18" id="item_0_18">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_18" data-name-jets="(x2) there are two lesser lesser golden hippopotamus enemies found in this area, drop a scadutree fragment each. a scadutree fragment drops from the hippopotamus enemies in the area. this area can only be accessed by using the ladder in shadow keep to get down to a special teleport coffin. this will take you to ruins of unte and you must follow the cliffs downstream, and then carefully drop down to the bottom level to reach it. (x2) ci sono due ippopotami dorati minori in quest'area, ognuno rilascia un frammento. vi si accede tramite la scala nella rocca delle ombre che porta a una bara di teletrasporto. questa ti porterà alle rovine di unte; segui le scogliere a valle e scendi con attenzione al livello inferiore." id="item_0_18">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_18" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_18">(x2) There are two Lesser Lesser Golden Hippopotamus enemies found in this area, drop a Scadutree Fragment each. A Scadutree Fragment drops from the Hippopotamus enemies in the area. This area can only be accessed by using the ladder in Shadow Keep to get down to a special teleport coffin. This will take you to Ruins of Unte and you must follow the cliffs downstream, and then carefully drop down to the bottom level to reach it.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_18">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) There are two Lesser Lesser Golden Hippopotamus enemies found in this area, drop a Scadutree Fragment each. A Scadutree Fragment drops from the Hippopotamus enemies in the area. This area can only be accessed by using the ladder in Shadow Keep to get down to a special teleport coffin. This will take you to Ruins of Unte and you must follow the cliffs downstream, and then carefully drop down to the bottom level to reach it.</span>
+                        <span class="lang-text lang-it d-none">(x2) Ci sono due Ippopotami dorati minori in quest'area, ognuno rilascia un frammento. Vi si accede tramite la scala nella Rocca delle Ombre che porta a una bara di teletrasporto. Questa ti porterà alle Rovine di Unte; segui le scogliere a valle e scendi con attenzione al livello inferiore.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Ancient Ruins Base</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ancient Ruins Base</span>
+                <span class="lang-text lang-it d-none">Base delle antiche rovine</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_19" id="item_0_19">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_19" data-name-jets="(x1) from the entrance through the gap in the wall, take the stairs on the right and climb up until you reach the cloth-like part of the structure at the top. before heading down, check on the right side to see a small opening that will lead to the middle platform. fall there and defeat the two enemies, in the middle of the bridge you will find a body that has 1 scadutree fragment. (x1) dall'ingresso nella breccia del muro, prendi le scale a destra e sali fino alla parte in tessuto della struttura in cima. prima di scendere, controlla il lato destro per una piccola apertura che conduce alla piattaforma centrale. scendi lì, sconfiggi i due nemici e troverai il frammento su un corpo al centro del ponte." id="item_0_19">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_19" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_19">(x1) From the entrance through the gap in the wall, take the stairs on the right and climb up until you reach the cloth-like part of the structure at the top. Before heading down, check on the right side to see a small opening that will lead to the middle platform. Fall there and defeat the two enemies, In the middle of the bridge you will find a body that has 1 Scadutree Fragment.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_19">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the entrance through the gap in the wall, take the stairs on the right and climb up until you reach the cloth-like part of the structure at the top. Before heading down, check on the right side to see a small opening that will lead to the middle platform. Fall there and defeat the two enemies, In the middle of the bridge you will find a body that has 1 Scadutree Fragment.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dall'ingresso nella breccia del muro, prendi le scale a destra e sali fino alla parte in tessuto della struttura in cima. Prima di scendere, controlla il lato destro per una piccola apertura che conduce alla piattaforma centrale. Scendi lì, sconfiggi i due nemici e troverai il frammento su un corpo al centro del ponte.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Shadow Keep</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Shadow Keep</span>
+                <span class="lang-text lang-it d-none">Rocca delle Ombre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_20" id="item_0_20">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_20" data-name-jets="(x2) obtained after defeating the golden hippopotamus boss found at the main plaza of the shadow keep. (x2) ottenuti sconfiggendo il boss ippopotamo dorato nella piazza principale della rocca delle ombre." id="item_0_20">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_20" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_20">(x2) Obtained after defeating the Golden Hippopotamus boss found at the Main Plaza of the Shadow Keep.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_20">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) Obtained after defeating the Golden Hippopotamus boss found at the Main Plaza of the Shadow Keep.</span>
+                        <span class="lang-text lang-it d-none">(x2) Ottenuti sconfiggendo il boss Ippopotamo dorato nella piazza principale della Rocca delle Ombre.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_21" id="item_0_21">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_21" data-name-jets="(x1) can be looted by miquella's cross of the storehouse, fourth floor site of grace in the specimen storehouse section of the shadow keep. (x1) presso la croce di miquella della grazia magazzino, quarto piano nella sezione del magazzino dei campioni della rocca delle ombre." id="item_0_21">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_21" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_21">(x1) Can be looted by Miquella's Cross of the Storehouse, Fourth Floor Site of Grace in the Specimen Storehouse section of the Shadow Keep.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_21">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted by Miquella's Cross of the Storehouse, Fourth Floor Site of Grace in the Specimen Storehouse section of the Shadow Keep.</span>
+                        <span class="lang-text lang-it d-none">(x1) Presso la Croce di Miquella della grazia Magazzino, quarto piano nella sezione del Magazzino dei campioni della Rocca delle Ombre.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_22" id="item_0_22">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_22" data-name-jets="(x1) located at the church district of the shadow keep. 1 scadutree fragment can be looted on the hand of the statue of marika. time your jump to grab it. this is easily done after draining the water, or if you are feeling brave you can actually jump onto the hand before draining the water. and jump back. (x1) nel distretto della chiesa della rocca delle ombre. si trova sulla mano della statua di marika. calcola bene il salto per prenderlo (più facile dopo aver drenato l'acqua, ma possibile anche prima)." id="item_0_22">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_22" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_22">(x1) Located at the Church District of the Shadow Keep. 1 Scadutree Fragment can be looted on the hand of the statue of Marika. Time your jump to grab it. This is easily done after draining the water, or if you are feeling brave you can actually jump onto the hand before draining the water. and jump back.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_22">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Located at the Church District of the Shadow Keep. 1 Scadutree Fragment can be looted on the hand of the statue of Marika. Time your jump to grab it. This is easily done after draining the water, or if you are feeling brave you can actually jump onto the hand before draining the water. and jump back.</span>
+                        <span class="lang-text lang-it d-none">(x1) Nel Distretto della chiesa della Rocca delle Ombre. Si trova sulla mano della statua di Marika. Calcola bene il salto per prenderlo (più facile dopo aver drenato l'acqua, ma possibile anche prima).</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_23" id="item_0_23">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_23" data-name-jets="(x1) can be looted in front of a small statue of marika, located in the dark chamber entrance of the shadow keep's specimen storehouse. (x1) davanti a una piccola statua di marika, all'ingresso della camera oscura nel magazzino dei campioni della rocca delle ombre." id="item_0_23">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_23" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_23">(x1) Can be looted in front of a small statue of Marika, located in the Dark Chamber entrance of the Shadow Keep's Specimen Storehouse.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_23">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted in front of a small statue of Marika, located in the Dark Chamber entrance of the Shadow Keep's Specimen Storehouse.</span>
+                        <span class="lang-text lang-it d-none">(x1) Davanti a una piccola statua di Marika, all'ingresso della Camera oscura nel Magazzino dei campioni della Rocca delle Ombre.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_24" id="item_0_24">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_24" data-name-jets="(x1) from the back gate site of grace of the shadow keep, enter the room to your right to find 1 scadutree fragment that can be looted on the ground, by the foot of the statue of marika. (x1) dalla grazia ingresso posteriore della rocca delle ombre, entra nella stanza a destra: il frammento è a terra ai piedi della statua di marika." id="item_0_24">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_24" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_24">(x1) From the Back Gate Site of Grace of the Shadow Keep, enter the room to your right to find 1 Scadutree Fragment that can be looted on the ground, by the foot of the statue of Marika.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_24">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the Back Gate Site of Grace of the Shadow Keep, enter the room to your right to find 1 Scadutree Fragment that can be looted on the ground, by the foot of the statue of Marika.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dalla grazia Ingresso posteriore della Rocca delle Ombre, entra nella stanza a destra: il frammento è a terra ai piedi della statua di Marika.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Scaduview</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Scaduview</span>
+                <span class="lang-text lang-it d-none">Scaduview</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_25" id="item_0_25">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_25" data-name-jets="(x5) can be looted by the roots in front of the scadutree chalice. have to be grabbed one by one. (x5) presso le radici davanti al calice dell'albero ombra. vanno raccolti uno ad uno." id="item_0_25">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_25" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_25">(x5) Can be looted by the roots in front of the Scadutree chalice. Have to be grabbed one by one.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_25">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x5) Can be looted by the roots in front of the Scadutree chalice. Have to be grabbed one by one.</span>
+                        <span class="lang-text lang-it d-none">(x5) Presso le radici davanti al calice dell'Albero Ombra. Vanno raccolti uno ad uno.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_26" id="item_0_26">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_26" data-name-jets="(x1) can be looted from the ground by miquella's cross of the scaduview cross site of grace. (x1) a terra presso la croce di miquella della grazia della croce di scaduview." id="item_0_26">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_26" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_26">(x1) Can be looted from the ground by Miquella's Cross of the Scaduview Cross Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_26">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted from the ground by Miquella's Cross of the Scaduview Cross Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) A terra presso la Croce di Miquella della grazia della Croce di Scaduview.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Cerulean Coast</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Cerulean Coast</span>
+                <span class="lang-text lang-it d-none">Costa cerulea</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_27" id="item_0_27">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_27" data-name-jets="(x1) located in a cave guarded by a demi-human chief. 1 scadutree fragment is looted from a dead body inside the cave. (x1) in una grotta sorvegliata da un capo dei seminumani. su un cadavere all'interno della grotta." id="item_0_27">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_27" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_27">(x1) Located in a cave guarded by a Demi-Human Chief. 1 Scadutree Fragment is looted from a dead body inside the cave.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_27">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Located in a cave guarded by a Demi-Human Chief. 1 Scadutree Fragment is looted from a dead body inside the cave.</span>
+                        <span class="lang-text lang-it d-none">(x1) In una grotta sorvegliata da un Capo dei seminumani. Su un cadavere all'interno della grotta.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_28" id="item_0_28">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_28" data-name-jets="(x1) can be looted from the ground by miquella's cross of the cerulean coast cross site of grace. (x1) a terra presso la croce di miquella della grazia della croce della costa cerulea." id="item_0_28">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_28" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_28">(x1) Can be looted from the ground by Miquella's Cross of the Cerulean Coast Cross Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_28">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted from the ground by Miquella's Cross of the Cerulean Coast Cross Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) A terra presso la Croce di Miquella della grazia della Croce della costa cerulea.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Stone Coffin Fissure</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Stone Coffin Fissure</span>
+                <span class="lang-text lang-it d-none">Faglia con bara di pietra</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_29" id="item_0_29">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_29" data-name-jets="(x1) can looted from the ground by miquella's cross of the fissure cross site of grace. (x1) a terra presso la croce di miquella della grazia della croce della faglia." id="item_0_29">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_29" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_29">(x1) Can looted from the ground by Miquella's Cross of the Fissure Cross Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_29">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can looted from the ground by Miquella's Cross of the Fissure Cross Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) A terra presso la Croce di Miquella della grazia della Croce della faglia.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Jagged Peak</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Jagged Peak</span>
+                <span class="lang-text lang-it d-none">Picco dente di sega</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_30" id="item_0_30">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_30" data-name-jets="(x1) after getting past the two spiritsprings, take the path on your right, and be careful of falling boulders. you'll find 1 scadutree fragment on a dead body. (x1) dopo i due soffi spirituali prendi il sentiero a destra, facendo attenzione ai massi che cadono. su un cadavere." id="item_0_30">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_30" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_30">(x1) After getting past the two Spiritsprings, take the path on your right, and be careful of falling boulders. You'll find 1 Scadutree Fragment on a dead body.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_30">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) After getting past the two Spiritsprings, take the path on your right, and be careful of falling boulders. You'll find 1 Scadutree Fragment on a dead body.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dopo i due soffi spirituali prendi il sentiero a destra, facendo attenzione ai massi che cadono. Su un cadavere.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Charo's Hidden Grave</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Charo's Hidden Grave</span>
+                <span class="lang-text lang-it d-none">Tomba nascosta di Charo</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_31" id="item_0_31">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_31" data-name-jets="(x1) dropped by the lesser golden hippopotamus enemy found in this area of charo's hidden grave. (x1) lasciato dall'ippopotamo dorato minore nella tomba nascosta di charo." id="item_0_31">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_31" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_31">(x1) Dropped by the Lesser Golden Hippopotamus enemy found in this area of Charo's Hidden Grave.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_31">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Dropped by the Lesser Golden Hippopotamus enemy found in this area of Charo's Hidden Grave.</span>
+                        <span class="lang-text lang-it d-none">(x1) Lasciato dall'Ippopotamo dorato minore nella Tomba nascosta di Charo.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Abyssal Woods</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Abyssal Woods</span>
+                <span class="lang-text lang-it d-none">Boschi abissali</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_32" id="item_0_32">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_32" data-name-jets="(x2) can be looted in front of the altar inside the abandoned church located within the abyssal woods. (x2) davanti all'altare della chiesa abbandonata nei boschi abissali." id="item_0_32">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_32" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_32">(x2) Can be looted in front of the altar inside the Abandoned Church located within the Abyssal Woods.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_32">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) Can be looted in front of the altar inside the Abandoned Church located within the Abyssal Woods.</span>
+                        <span class="lang-text lang-it d-none">(x2) Davanti all'altare della Chiesa abbandonata nei Boschi abissali.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_33" id="item_0_33">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_33" data-name-jets="(x1) from the abyssal woods site of grace, head north and then west to find a corpse sitting against a tree. loot the dead body to obtain 1 scadutree fragment.. (x1) dalla grazia boschi abissali vai a nord e poi a ovest: troverai un cadavere appoggiato a un albero." id="item_0_33">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_33" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_33">(x1) From the Abyssal Woods Site of Grace, head north and then west to find a corpse sitting against a tree. Loot the dead body to obtain 1 Scadutree Fragment..</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_33">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the Abyssal Woods Site of Grace, head north and then west to find a corpse sitting against a tree. Loot the dead body to obtain 1 Scadutree Fragment..</span>
+                        <span class="lang-text lang-it d-none">(x1) Dalla grazia Boschi abissali vai a nord e poi a ovest: troverai un cadavere appoggiato a un albero.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Rauh Ancient Ruins</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Rauh Ancient Ruins</span>
+                <span class="lang-text lang-it d-none">Antiche rovine di Rauh</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_34" id="item_0_34">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_34" data-name-jets="(x1) from the rauh ancient ruins, west site of grace, head towards the building and climb up the stairs. beware of the enemies in this room. reach the end to find 1 scadutree fragment in front of the large altar. (x1) dalla grazia rovine di rauh ovest, vai verso l'edificio e sali le scale. attenzione ai nemici: troverai il frammento davanti al grande altare in fondo." id="item_0_34">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_34" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_34">(x1) From the Rauh Ancient Ruins, West Site of Grace, head towards the building and climb up the stairs. Beware of the enemies in this room. Reach the end to find 1 Scadutree Fragment in front of the large altar.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_34">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the Rauh Ancient Ruins, West Site of Grace, head towards the building and climb up the stairs. Beware of the enemies in this room. Reach the end to find 1 Scadutree Fragment in front of the large altar.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dalla grazia Rovine di Rauh ovest, vai verso l'edificio e sali le scale. Attenzione ai nemici: troverai il frammento davanti al grande altare in fondo.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_35" id="item_0_35">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_35" data-name-jets="(x1) can be looted by miquella's cross of the rauh ancient ruins, east site of grace. (x1) presso la croce di miquella della grazia rovine di rauh est." id="item_0_35">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_35" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_35">(x1) Can be looted by Miquella's Cross of the Rauh Ancient Ruins, East Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_35">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted by Miquella's Cross of the Rauh Ancient Ruins, East Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Presso la Croce di Miquella della grazia Rovine di Rauh est.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_36" id="item_0_36">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_36" data-name-jets="(x1) past the spider-scorpions after entering the tunnel, move forward, and turn right. locate the shadowpot enemy and kill it to obtain 1 scadutree fragment. (x1) dopo gli scorpioni ragno nel tunnel, prosegui e gira a destra. trova l'ombra con vaso e uccidila per ottenere il frammento." id="item_0_36">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_36" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_36">(x1) Past the Spider-Scorpions after entering the tunnel, move forward, and turn right. Locate the Shadowpot Enemy and kill it to obtain 1 Scadutree Fragment.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_36">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Past the Spider-Scorpions after entering the tunnel, move forward, and turn right. Locate the Shadowpot Enemy and kill it to obtain 1 Scadutree Fragment.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dopo gli scorpioni ragno nel tunnel, prosegui e gira a destra. Trova l'ombra con vaso e uccidila per ottenere il frammento.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_37" id="item_0_37">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_37" data-name-jets="(x1) defeat the lesser golden hippopotamus to obtain the fragment. the enemy drops 11960 runes and 1 scadutree fragment. (x1) sconfiggi l'ippopotamo dorato minore per ottenere il frammento." id="item_0_37">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_37" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_37">(x1) Defeat the Lesser Golden Hippopotamus to obtain the fragment. The enemy drops 11960 Runes and 1 Scadutree Fragment.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_37">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Defeat the Lesser Golden Hippopotamus to obtain the fragment. The enemy drops 11960 Runes and 1 Scadutree Fragment.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sconfiggi l'Ippopotamo dorato minore per ottenere il frammento.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Enir-Ilim</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Enir-Ilim</span>
+                <span class="lang-text lang-it d-none">Enir-Ilim</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_38" id="item_0_38">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_38" data-name-jets="(x1) from the first rise site of grace of enir-ilim, progress the area until you're about to reach the spiral rise site of grace. near the checkpoint, you'll find a stairway that leads down to a room where you can loot the inquisitor ashes. outside of this room, jump down onto a broken staircase that might look like a dead-end. check the east side of this staircase to drop onto the narrow edge of the wall. wrap along the side of it until you reach a platform that has a body holding 10 golem's great arrow. look south and do a running jump to jump across the pit and towards a window. drop down to formally arrive in a secret section of belurat tower settlement. continue forward from here until you find a covered statue where you'll find 1 scadutree fragment by the foot of the statue. (x1) dalla grazia primo piano di enir-ilim, prosegui fino alla grazia della salita a spirale. lì vicino scendi la scala fino alla stanza con le ceneri dell'inquisitore. esci e salta sulla scala spezzata che sembra un vicolo cieco. dal lato est scendi sul cornicione del muro e percorrilo fino a una piattaforma con un corpo (10 frecce grandi del golem). salta verso la finestra a sud per arrivare in una sezione segreta di belurat: troverai il frammento ai piedi di una statua coperta." id="item_0_38">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_38" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_38">(x1) From the First Rise Site of Grace of Enir-Ilim, progress the area until you're about to reach the Spiral Rise Site of Grace. Near the checkpoint, you'll find a stairway that leads down to a room where you can loot the Inquisitor Ashes. Outside of this room, jump down onto a broken staircase that might look like a dead-end. Check the east side of this staircase to drop onto the narrow edge of the wall. Wrap along the side of it until you reach a platform that has a body holding 10 Golem's Great Arrow. Look south and do a running jump to jump across the pit and towards a window. Drop down to formally arrive in a secret section of Belurat Tower Settlement. Continue forward from here until you find a covered statue where you'll find 1 Scadutree Fragment by the foot of the statue.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_38">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the First Rise Site of Grace of Enir-Ilim, progress the area until you're about to reach the Spiral Rise Site of Grace. Near the checkpoint, you'll find a stairway that leads down to a room where you can loot the Inquisitor Ashes. Outside of this room, jump down onto a broken staircase that might look like a dead-end. Check the east side of this staircase to drop onto the narrow edge of the wall. Wrap along the side of it until you reach a platform that has a body holding 10 Golem's Great Arrow. Look south and do a running jump to jump across the pit and towards a window. Drop down to formally arrive in a secret section of Belurat Tower Settlement. Continue forward from here until you find a covered statue where you'll find 1 Scadutree Fragment by the foot of the statue.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dalla grazia Primo piano di Enir-Ilim, prosegui fino alla grazia della Salita a spirale. Lì vicino scendi la scala fino alla stanza con le Ceneri dell'inquisitore. Esci e salta sulla scala spezzata che sembra un vicolo cieco. Dal lato est scendi sul cornicione del muro e percorrilo fino a una piattaforma con un corpo (10 Frecce grandi del golem). Salta verso la finestra a sud per arrivare in una sezione segreta di Belurat: troverai il frammento ai piedi di una statua coperta.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_39" id="item_0_39">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_39" data-name-jets="(x1) outer tower of enir-ilim. after picking up the previous revered spirit ash, continue heading up the stairs and you'll find a room with an altar where 1 scadutree fragment can be picked up. (x1) torre esterna di enir-ilim. dopo le ceneri di spirito venerato precedenti prosegui sulle scale fino a una stanza con un altare." id="item_0_39">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_39" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_39">(x1) Outer Tower of Enir-Ilim. After picking up the previous Revered Spirit Ash, continue heading up the stairs and you'll find a room with an altar where 1 Scadutree Fragment can be picked up.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_39">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Outer Tower of Enir-Ilim. After picking up the previous Revered Spirit Ash, continue heading up the stairs and you'll find a room with an altar where 1 Scadutree Fragment can be picked up.</span>
+                        <span class="lang-text lang-it d-none">(x1) Torre esterna di Enir-Ilim. Dopo le Ceneri di spirito venerato precedenti prosegui sulle scale fino a una stanza con un altare.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_40" id="item_0_40">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_40" data-name-jets="(x1) can be found on the altar near the cleansing chamber anteroom site of grace. (x1) sull'altare vicino alla grazia anticamera della sala della purificazione." id="item_0_40">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_40" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_40">(x1) Can be found on the altar near the Cleansing Chamber Anteroom Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_40">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found on the altar near the Cleansing Chamber Anteroom Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sull'altare vicino alla grazia Anticamera della sala della purificazione.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_41" id="item_0_41">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_0_41" data-name-jets="(x1) can be looted by miquella's cross of the spiral rise site of grace. (x1) presso la croce di miquella della grazia salita a spirale." id="item_0_41">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="0" id="scadutree_fragment_revered_spirit_ash_0_41" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_0_41">(x1) Can be looted by Miquella's Cross of the Spiral Rise Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_0_41">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted by Miquella's Cross of the Spiral Rise Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Presso la Croce di Miquella della grazia Salita a spirale.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
@@ -527,191 +1106,352 @@
         <div class="card shadow-sm mb-3" id="scadutree_fragment_revered_spirit_ash_section_1">
           <div class="card-body">
             <h4 class="mt-1">
-              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scadutree_fragment_revered_spirit_ash_1Col" data-bs-toggle="collapse" href="#scadutree_fragment_revered_spirit_ash_1Col" role="button">
-                <i class="bi bi-chevron-up d-print-none"></i>
-              </button>
+              <button class="btn btn-primary btn-sm me-2 collapse-button d-print-none" data-bs-target="#scadutree_fragment_revered_spirit_ash_1Col" data-bs-toggle="collapse" href="#scadutree_fragment_revered_spirit_ash_1Col" role="button"><i class="bi bi-chevron-up d-print-none"></i></button>
               <img class="me-1" data-src="/img/icons/bolstering/edited/03817.png" loading="lazy" style="height: 70px; width: 70px">
-              <span class="d-print-inline">Revered Spirit Ashes</span>
+              <span class="d-print-inline">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Revered Spirit Ashes</span>
+                  <span class="lang-text lang-it d-none">Ceneri di spirito venerato</span>
+                </span>
+              </span>
               <span class="mt-0 badge rounded-pill d-print-none" id="scadutree_fragment_revered_spirit_ash_totals_1"></span>
             </h4>
             <div aria-expanded="true" class="collapse show" id="scadutree_fragment_revered_spirit_ash_1Col">
-              <h5>Gravesite Plain</h5>
-              <ul class="list-group-flush mb-0 ps-0 ps-md-4">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_1" id="item_1_1">
+              <ul class="list-group-flush mb-0 ps-0 ps-md-4"></ul>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Gravesite Plain</span>
+                <span class="lang-text lang-it d-none">Piana dei sepolcri</span>
+              </h5>
+              <ul class="list-group-flush mb-0">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_1" data-name-jets="(x1) on a small altar. north-east of the gravesite plain site of grace. past the white tree filled with hanging bodies. (x1) su un piccolo altare a nord-est della grazia della piana dei sepolcri. oltre l'albero bianco con i corpi appesi." id="item_1_1">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_1" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_1">(x1) On a small altar. North-east of the Gravesite plain site of grace. Past the white tree filled with hanging bodies.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_1">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) On a small altar. North-east of the Gravesite plain site of grace. Past the white tree filled with hanging bodies.</span>
+                        <span class="lang-text lang-it d-none">(x1) Su un piccolo altare a nord-est della grazia della Piana dei sepolcri. Oltre l'albero bianco con i corpi appesi.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_2" id="item_1_2">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_2" data-name-jets="(x1) found at an altar located to the east of the cliffroad terminus site of grace. in the vicinity of the pond inhabited by small turtles. (x1) su un altare a est della grazia fine della via sulla scarpata, vicino allo stagno con le tartarughe." id="item_1_2">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_2" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_2">(x1) Found at an altar located to the east of the Cliffroad Terminus Site of Grace. In the vicinity of the pond inhabited by small turtles.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_2">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Found at an altar located to the east of the Cliffroad Terminus Site of Grace. In the vicinity of the pond inhabited by small turtles.</span>
+                        <span class="lang-text lang-it d-none">(x1) Su un altare a est della grazia Fine della via sulla scarpata, vicino allo stagno con le tartarughe.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Abandoned Ailing Village</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Abandoned Ailing Village</span>
+                <span class="lang-text lang-it d-none">Villaggio malato abbandonato</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_3" id="item_1_3">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_3" data-name-jets="(x1) can be looted on a broken revered statue at the abandoned ailing village. the statue is guarded by man-fly enemies. (x1) su una statua rotta nel villaggio malato abbandonato, sorvegliata da uomini-mosca." id="item_1_3">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_3" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_3">(x1) Can be looted on a broken Revered Statue at the Abandoned Ailing Village. The statue is guarded by Man-Fly enemies.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_3">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be looted on a broken Revered Statue at the Abandoned Ailing Village. The statue is guarded by Man-Fly enemies.</span>
+                        <span class="lang-text lang-it d-none">(x1) Su una statua rotta nel Villaggio malato abbandonato, sorvegliata da uomini-mosca.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Temple Town Ruins</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Temple Town Ruins</span>
+                <span class="lang-text lang-it d-none">Rovine della città del tempio</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_4" id="item_1_4">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_4" data-name-jets="(x1) south of temple town ruins, you will see the altar near the edge. (x1) a sud delle rovine della città del tempio, su un altare vicino al bordo." id="item_1_4">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_4" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_4">(x1) South of Temple Town Ruins, you will see the altar near the edge.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_4">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) South of Temple Town Ruins, you will see the altar near the edge.</span>
+                        <span class="lang-text lang-it d-none">(x1) A sud delle Rovine della città del tempio, su un altare vicino al bordo.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Belurat Tower Settlement</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Belurat Tower Settlement</span>
+                <span class="lang-text lang-it d-none">Belurat, insediamento della torre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_5" id="item_1_5">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_5" data-name-jets="(x2) can be found on the altar in the middle of the room infested by spider-scorpions. (x2) sull'altare al centro della stanza infestata dagli scorpioni ragno." id="item_1_5">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_5" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_5">(x2) Can be found on the altar in the middle of the room infested by Spider-Scorpions.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_5">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) Can be found on the altar in the middle of the room infested by Spider-Scorpions.</span>
+                        <span class="lang-text lang-it d-none">(x2) Sull'altare al centro della stanza infestata dagli scorpioni ragno.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_6" id="item_1_6">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_6" data-name-jets="(x1) after defeating the divine beast dancing lion, head to the right side of the arena to find a lift. take the lift up and proceed forward to open a large door. once through, you will find the altar nearby that has a revered spirit ash. (x1) dopo aver sconfitto la belva divina danzante, vai a destra nell'arena e prendi l'ascensore. prosegui e apri la grande porta: troverai l'altare lì vicino." id="item_1_6">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_6" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_6">(x1) After defeating the Divine Beast Dancing Lion, head to the right side of the arena to find a lift. Take the lift up and proceed forward to open a large door. Once through, you will find the altar nearby that has a Revered Spirit Ash.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_6">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) After defeating the Divine Beast Dancing Lion, head to the right side of the arena to find a lift. Take the lift up and proceed forward to open a large door. Once through, you will find the altar nearby that has a Revered Spirit Ash.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dopo aver sconfitto la Belva divina danzante, vai a destra nell'arena e prendi l'ascensore. Prosegui e apri la grande porta: troverai l'altare lì vicino.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_7" id="item_1_7">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_7" data-name-jets="(x1) climb up after defeating the two gravebirds and you will spot a shadow pothead enemy. grants 735 runes upon defeat. drops 1 revered spirit ash and 1 golden horn tender. (x1) sali dopo aver sconfitto i due uccelli sepolcrali per trovare un'ombra con vaso. rilascia 1 cenere di spirito venerato e 1 lingua di corno dorato." id="item_1_7">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_7" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_7">(x1) Climb up after defeating the two Gravebirds and you will spot a Shadow Pothead enemy. Grants 735 Runes upon defeat. Drops 1 Revered Spirit Ash and 1 Golden Horn Tender.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_7">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Climb up after defeating the two Gravebirds and you will spot a Shadow Pothead enemy. Grants 735 Runes upon defeat. Drops 1 Revered Spirit Ash and 1 Golden Horn Tender.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sali dopo aver sconfitto i due uccelli sepolcrali per trovare un'ombra con vaso. Rilascia 1 cenere di spirito venerato e 1 lingua di corno dorato.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_8" id="item_1_8">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_8" data-name-jets="(x1) after crossing the bridge with the horned warrior, turn left to enter an open area with a tree in the center and numerous enemies in prayer. you'll find the revered spirit ash on an altar across from the tree. (x1) dopo il ponte con il guerriero cornuto gira a sinistra in un'area aperta con un albero centrale e molti nemici in preghiera. la cenere è sull'altare di fronte all'albero." id="item_1_8">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_8" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_8">(x1) After crossing the bridge with the Horned Warrior, turn left to enter an open area with a tree in the center and numerous enemies in prayer. You'll find the Revered Spirit Ash on an altar across from the tree.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_8">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) After crossing the bridge with the Horned Warrior, turn left to enter an open area with a tree in the center and numerous enemies in prayer. You'll find the Revered Spirit Ash on an altar across from the tree.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dopo il ponte con il Guerriero cornuto gira a sinistra in un'area aperta con un albero centrale e molti nemici in preghiera. La cenere è sull'altare di fronte all'albero.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Bonny Village</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Bonny Village</span>
+                <span class="lang-text lang-it d-none">Villaggio di Bonny</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_9" id="item_1_9">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_9" data-name-jets="(x1) fall down from the broken bridge, and follow the path north, past the dog, you will find a statue containing the revered spirit ash at the end of the road. (x1) scendi dal ponte interrotto e vai a nord oltre il cane: troverai una statua in fondo alla strada." id="item_1_9">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_9" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_9">(x1) Fall down from the broken bridge, and follow the path north, past the dog, you will find a statue containing the revered spirit ash at the end of the road.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_9">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Fall down from the broken bridge, and follow the path north, past the dog, you will find a statue containing the revered spirit ash at the end of the road.</span>
+                        <span class="lang-text lang-it d-none">(x1) Scendi dal ponte interrotto e vai a nord oltre il cane: troverai una statua in fondo alla strada.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Moorth Ruins</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Moorth Ruins</span>
+                <span class="lang-text lang-it d-none">Rovine di Moorth</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_10" id="item_1_10">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_10" data-name-jets="(x1) go east of the ruins, and find a little shack, wherein the revered spirit ash resides. (x1) a est delle rovine, all'interno di una piccola capanna." id="item_1_10">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_10" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_10">(x1) Go east of the ruins, and find a little shack, wherein the revered spirit ash resides.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_10">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Go east of the ruins, and find a little shack, wherein the revered spirit ash resides.</span>
+                        <span class="lang-text lang-it d-none">(x1) A est delle rovine, all'interno di una piccola capanna.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Village of Flies</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Village of Flies</span>
+                <span class="lang-text lang-it d-none">Villaggio delle mosche</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_11" id="item_1_11">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_11" data-name-jets="(x1) once you enter the village of flies, continue down the path, it can be found on a body laid on a pedestal. (x1) una volta nel villaggio delle mosche prosegui lungo il sentiero: si trova su un corpo sopra un piedistallo." id="item_1_11">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_11" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_11">(x1) Once you enter the Village of Flies, continue down the path, it can be found on a body laid on a pedestal.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_11">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Once you enter the Village of Flies, continue down the path, it can be found on a body laid on a pedestal.</span>
+                        <span class="lang-text lang-it d-none">(x1) Una volta nel Villaggio delle mosche prosegui lungo il sentiero: si trova su un corpo sopra un piedistallo.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Ancient Ruins of Rauh, West</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ancient Ruins of Rauh, West</span>
+                <span class="lang-text lang-it d-none">Antiche rovine di Rauh ovest</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_12" id="item_1_12">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_12" data-name-jets="(x1) dropped by the shadow pothead in the area, along with 1 silver horn tender, 1 dewgem, and 1 rauh burrow. (x1) lasciata dall'ombra con vaso nell'area." id="item_1_12">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_12" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_12">(x1) Dropped by the Shadow Pothead in the area, along with 1 Silver Horn Tender, 1 Dewgem, and 1 Rauh Burrow.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_12">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Dropped by the Shadow Pothead in the area, along with 1 Silver Horn Tender, 1 Dewgem, and 1 Rauh Burrow.</span>
+                        <span class="lang-text lang-it d-none">(x1) Lasciata dall'ombra con vaso nell'area.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_13" id="item_1_13">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_13" data-name-jets="(x1) found on the statue in the middle. beware of enemies in the area. (x1) sulla statua al centro. attenzione ai nemici." id="item_1_13">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_13" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_13">(x1) Found on the statue in the middle. Beware of enemies in the area.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_13">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Found on the statue in the middle. Beware of enemies in the area.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sulla statua al centro. Attenzione ai nemici.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Enir-Ilim</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Enir-Ilim</span>
+                <span class="lang-text lang-it d-none">Enir-Ilim</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_14" id="item_1_14">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_14" data-name-jets="(x1) outside the first rise site of grace, take the stairs up and cross the bridge to a large enemy. defeat the enemy to acquire a revered spirit ash. (x1) fuori dalla grazia primo piano, sali le scale e attraversa il ponte fino a un nemico gigante. sconfiggilo per ottenere la cenere." id="item_1_14">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_14" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_14">(x1) Outside the First Rise Site of Grace, take the stairs up and cross the bridge to a large enemy. Defeat the enemy to acquire a Revered Spirit Ash.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_14">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Outside the First Rise Site of Grace, take the stairs up and cross the bridge to a large enemy. Defeat the enemy to acquire a Revered Spirit Ash.</span>
+                        <span class="lang-text lang-it d-none">(x1) Fuori dalla grazia Primo piano, sali le scale e attraversa il ponte fino a un nemico gigante. Sconfiggilo per ottenere la cenere.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_15" id="item_1_15">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_15" data-name-jets="(x2) at the base of the statue in an indoor altar like room with man-fly(s) praying to an idol sculpture. (x2) alla base della statua in una stanza con altare dove degli uomini-mosca pregano una scultura." id="item_1_15">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_15" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_15">(x2) At the base of the statue in an indoor Altar like room with Man-Fly(s) praying to an idol sculpture.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_15">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x2) At the base of the statue in an indoor Altar like room with Man-Fly(s) praying to an idol sculpture.</span>
+                        <span class="lang-text lang-it d-none">(x2) Alla base della statua in una stanza con altare dove degli uomini-mosca pregano una scultura.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_16" id="item_1_16">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_16" data-name-jets="(x1) can be found within a small room on an altar. be wary of gravebird enemies in the area. (x1) in una piccola stanza su un altare. attenzione agli uccelli sepolcrali." id="item_1_16">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_16" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_16">(x1) Can be found within a small room on an altar. Be wary of Gravebird enemies in the area.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_16">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found within a small room on an altar. Be wary of Gravebird enemies in the area.</span>
+                        <span class="lang-text lang-it d-none">(x1) In una piccola stanza su un altare. Attenzione agli uccelli sepolcrali.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Ruins of Unte</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ruins of Unte</span>
+                <span class="lang-text lang-it d-none">Rovine di Unte</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_17" id="item_1_17">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_17" data-name-jets="(x1) found on the altar by the stone wall southeast from ruins of unte. (x1) sull'altare presso il muro di pietra a sud-est delle rovine di unte." id="item_1_17">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_17" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_17">(x1) Found on the altar by the stone wall southeast from Ruins of Unte.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_17">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Found on the altar by the stone wall southeast from Ruins of Unte.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sull'altare presso il muro di pietra a sud-est delle Rovine di Unte.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Ellac River cave</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ellac River cave</span>
+                <span class="lang-text lang-it d-none">Grotta del fiume Ellac</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_18" id="item_1_18">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_18" data-name-jets="(x1) can be found on an altar in the ellac river cave near the site of grace. (x1) sull'altare nella grotta del fiume ellac, vicino alla grazia." id="item_1_18">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_18" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_18">(x1) Can be found on an altar in the Ellac River Cave near the Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_18">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found on an altar in the Ellac River Cave near the Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sull'altare nella Grotta del fiume Ellac, vicino alla grazia.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Midra's Manse</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Midra's Manse</span>
+                <span class="lang-text lang-it d-none">Villa di Midra</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_19" id="item_1_19">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_19" data-name-jets="(x1) when you reach the library, jump on the bookshelves and make your way to the other side where you see a large enemy. defeat it to acquire a revered spirit ash. (x1) una volta nella biblioteca salta sugli scaffali fino all'altro lato dove si trova un nemico gigante. sconfiggilo per ottenere la cenere." id="item_1_19">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_19" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_19">(x1) When you reach the Library, jump on the bookshelves and make your way to the other side where you see a large enemy. Defeat it to acquire a Revered Spirit Ash.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_19">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) When you reach the Library, jump on the bookshelves and make your way to the other side where you see a large enemy. Defeat it to acquire a Revered Spirit Ash.</span>
+                        <span class="lang-text lang-it d-none">(x1) Una volta nella biblioteca salta sugli scaffali fino all'altro lato dove si trova un nemico gigante. Sconfiggilo per ottenere la cenere.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_20" id="item_1_20">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_20" data-name-jets="(x1) can be found on a body hanging on the chandelier next to the site of grace. (x1) su un corpo appeso al lampadario accanto alla grazia." id="item_1_20">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_20" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_20">(x1) Can be found on a body hanging on the chandelier next to the Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_20">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Can be found on a body hanging on the chandelier next to the Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Su un corpo appeso al lampadario accanto alla grazia.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Shadow Keep</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Shadow Keep</span>
+                <span class="lang-text lang-it d-none">Rocca delle Ombre</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_21" id="item_1_21">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_21" data-name-jets="(x1) climb up the statue's feet and carefully drop down the beast statue below, where you'll find a revered spirit ash. (x1) sali sui piedi della statua e scendi con cura sulla statua della bestia sottostante per trovare la cenere." id="item_1_21">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_21" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_21">(x1) Climb up the statue's feet and carefully drop down the beast statue below, where you'll find a Revered Spirit Ash.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_21">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Climb up the statue's feet and carefully drop down the beast statue below, where you'll find a Revered Spirit Ash.</span>
+                        <span class="lang-text lang-it d-none">(x1) Sali sui piedi della statua e scendi con cura sulla statua della bestia sottostante per trovare la cenere.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_22" id="item_1_22">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_22" data-name-jets="(x1) from the seventh floor site of grace, head to the opposite side, and jump on the railings on the left side and you will find this item on the hanging statue. (x1) dalla grazia settimo piano vai sul lato opposto, salta sulla ringhiera a sinistra e troverai l'oggetto sulla statua appesa." id="item_1_22">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_22" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_22">(x1) From the Seventh Floor Site of Grace, head to the opposite side, and jump on the railings on the left side and you will find this item on the hanging statue.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_22">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) From the Seventh Floor Site of Grace, head to the opposite side, and jump on the railings on the left side and you will find this item on the hanging statue.</span>
+                        <span class="lang-text lang-it d-none">(x1) Dalla grazia Settimo piano vai sul lato opposto, salta sulla ringhiera a sinistra e troverai l'oggetto sulla statua appesa.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
-              <h5>Ancient Ruins of Rauh, East</h5>
+              <h5 class="lang-pair">
+                <span class="lang-text lang-en">Ancient Ruins of Rauh, East</span>
+                <span class="lang-text lang-it d-none">Antiche rovine di Rauh est</span>
+              </h5>
               <ul class="list-group-flush mb-0">
-                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_23" id="item_1_23">
+                <li class="list-group-item searchable ps-0" data-id="scadutree_fragment_revered_spirit_ash_1_23" data-name-jets="(x1) dropped by a shadowpot enemy west of the viaduct minor tower site of grace. (x1) lasciata da un'ombra con vaso a ovest della grazia torre minore del viadotto." id="item_1_23">
                   <div class="form-check checkbox d-flex align-items-center">
                     <input class="form-check-input" data-section-idx="1" id="scadutree_fragment_revered_spirit_ash_1_23" type="checkbox" value="">
-                    <label class="form-check-label item_content" for="scadutree_fragment_revered_spirit_ash_1_23">(x1) Dropped by a Shadowpot Enemy west of the Viaduct Minor Tower Site of Grace.</label>
+                    <label class="form-check-label item_content d-md-flex align-items-center w-100" for="scadutree_fragment_revered_spirit_ash_1_23">
+                      <span class="lang-pair item-name">
+                        <span class="lang-text lang-en">(x1) Dropped by a Shadowpot Enemy west of the Viaduct Minor Tower Site of Grace.</span>
+                        <span class="lang-text lang-it d-none">(x1) Lasciata da un'ombra con vaso a ovest della grazia Torre minore del viadotto.</span>
+                      </span>
+                    </label>
                   </div>
                 </li>
               </ul>
@@ -725,11 +1465,14 @@
     </a>
     <script>window.current_page_id = "scadutree_fragment_revered_spirit_ash";
 </script>
+    <script>window.DONE_HTML = '<span class="lang-pair"><span class="lang-text lang-en">DONE</span><span class="lang-text lang-it d-none">FATTO</span></span>';
+</script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jstorage.min.js"></script>
     <script src="/js/progress.js"></script>
     <script src="/js/item_links.js"></script>
-    <script src="/js/common.js"></script>
+    <script src="/js/common.js?v=1.1"></script>
+    <script src="/js/sync.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jets.min.js"></script>
     <script src="/js/jquery.highlight.js"></script>
@@ -750,29 +1493,212 @@
                     var jet = new Jets({
                         searchTag: "#scadutree_fragment_revered_spirit_ash_search",
                         contentTag: "#scadutree_fragment_revered_spirit_ash_list ul",
+                        searchSelector: '*and',
+                        manualContentHandling: function(node) {
+                            if ($('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked')) {
+                                return node.getAttribute('data-name-jets') || '';
+                            }
+                            var $clone = $(node).clone();
+                            $clone.find('.no-highlight').remove();
+                            return $clone.text();
+                        },
                         didSearch: function(search_phrase) {
-                            search_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
-                            $(".card").each(function(index, el) {
-                                if (!search_phrase) {
-                                    $(el).removeClass('d-none');
-                                    return;
+                            // Only handled by Jets if Regex off.
+                            if ($('#scadutree_fragment_revered_spirit_ash_regex').is(':checked')) return;
+                            
+                            // Un-hide all sections to accurately measure visibility
+                            $(".card").removeClass('d-none');
+                            $("#scadutree_fragment_revered_spirit_ash_list h5").removeClass('d-none');
+                            $("#scadutree_fragment_revered_spirit_ash_list h5").nextUntil('h5').removeClass('d-none');
+                            $(".toc_link").closest('li').removeClass('d-none');
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                                return;
+                            }
+                            
+                            var clean_phrase = search_phrase.trim().toLowerCase().replace(/\s\s+/g, ' ').replace(/\\/g, '\\\\');
+                            var words = clean_phrase.split(' ');
+                            var searchAtt = $('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked') ? 'data-name-jets' : 'data-jets';
+                            
+                            var filterFunc = function() {
+                                var text = ($(this).attr(searchAtt) || '').toLowerCase();
+                                for (var i = 0; i < words.length; i++) {
+                                    if (text.indexOf(words[i]) === -1) return false;
                                 }
-                                var hasResults = $(el).find('.searchable').filter('[data-jets *= "' + search_phrase + '"]').length;
-                                if (! hasResults ) {
+                                return true;
+                            };
+                            
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                var hasResults = $(el).find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
                                     $(el).addClass('d-none');
-                                } else {
-                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
                                 }
                             });
+                            
+                            $("#scadutree_fragment_revered_spirit_ash_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                var hasResults = $subsection.find('.searchable:not(.d-none)').filter(filterFunc).length;
+                                if (!hasResults) {
+                                    $h5.addClass('d-none');
+                                    $subsection.addClass('d-none');
+                                }
+                            });
+                        },
+                    });
+                    function updateSearch() {
+                        var search_phrase = $("#scadutree_fragment_revered_spirit_ash_search").val().trim();
+                        var isRegex = $('#scadutree_fragment_revered_spirit_ash_regex').is(':checked');
+
+                        if (isRegex) {
+                            var regex = null;
+                            if (search_phrase.length > 0) {
+                                try {
+                                    regex = new RegExp(search_phrase, 'i');
+                                } catch (e) {
+                                    return; // Invalid regex, ignore
+                                }
+                            }
+                            
+                            // Disable jets css injection manually
+                            if (jet.styleTag) {
+                                jet.styleTag.innerHTML = '';
+                            }
+                            
+                            $(".searchable").each(function() {
+                                var text = '';
+                                if ($('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked')) {
+                                    text = $(this).attr('data-name-jets') || '';
+                                } else {
+                                    var $clone = $(this).clone();
+                                    $clone.find('.no-highlight').remove();
+                                    text = $clone.attr('data-jets') || $clone.text() || '';
+                                }
+                                
+                                if (!search_phrase || search_phrase.length === 0) {
+                                    $(this).removeClass('d-none-regex');
+                                } else if (regex && text.match(regex)) {
+                                    $(this).removeClass('d-none-regex');
+                                } else {
+                                    $(this).addClass('d-none-regex');
+                                }
+                            });
+                            
+                            // Manage empty cards/sections like Jets did
+                            $(".card").each(function(index, el) {
+                                var sectionId = $(el).attr('id');
+                                var $tocLi = null;
+                                if (sectionId) {
+                                    $tocLi = $('a.toc_link[href="#' + sectionId + '"]').closest('li');
+                                }
+
+                                if (!search_phrase) {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $(el).find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                if (!hasResults) {
+                                    $(el).addClass('d-none');
+                                    if ($tocLi) $tocLi.addClass('d-none');
+                                } else {
+                                    $(el).removeClass('d-none');
+                                    if ($tocLi) $tocLi.removeClass('d-none');
+                                }
+                            });
+                            $("#scadutree_fragment_revered_spirit_ash_list h5").each(function() {
+                                var $h5 = $(this);
+                                var $subsection = $h5.nextUntil('h5');
+                                if (!search_phrase) {
+                                    $h5.removeClass('d-none');
+                                    $subsection.removeClass('d-none');
+                                    return;
+                                }
+                                var hasResults = $subsection.find('.searchable:not(.d-none):not(.d-none-regex)').length;
+                                $h5.toggleClass('d-none', !hasResults);
+                                $subsection.toggleClass('d-none', !hasResults);
+                            });
+                            
+                            if (!search_phrase) {
+                                var dlcFilter = $('#dlc_filter');
+                                if (dlcFilter.length) { dlcFilter.trigger('change'); }
+                            }
+                            
+                            // Highlighting for regex
+                            $("#scadutree_fragment_revered_spirit_ash_list").unhighlight();
+                            if (search_phrase.length > 0 && regex) {
+                                try {
+                                    if ($('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked')) {
+                                        $("#scadutree_fragment_revered_spirit_ash_list .item-name").highlight(regex);
+                                    } else {
+                                        $("#scadutree_fragment_revered_spirit_ash_list").highlight(regex);
+                                    }
+                                } catch(e) {}
+                            }
+                            
+                        } else {
+                            // Non-regex mode: Let Jets handle normal search filtering
+                            $(".searchable").removeClass('d-none-regex');
+                            if (jet._applyCSS) {
+                                jet._applyCSS();
+                            }
+                            jet.options.didSearch(search_phrase);
+                            
+                            // Highlighting for normal text
+                            $("#scadutree_fragment_revered_spirit_ash_list").unhighlight();
+                            if (search_phrase && search_phrase.length > 0) {
+                                if ($('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked')) {
+                                    $("#scadutree_fragment_revered_spirit_ash_list .item-name").highlight(search_phrase);
+                                } else {
+                                    $("#scadutree_fragment_revered_spirit_ash_list").highlight(search_phrase);
+                                }
+                            }
+                        }
+                    }
+
+                    $("#scadutree_fragment_revered_spirit_ash_search").keyup(function(e) {
+                        updateSearch();
+                    });
+                    
+                    $('#scadutree_fragment_revered_spirit_ash_regex').on('change', function() {
+                        updateSearch();
+                    });
+                    
+                    $('#scadutree_fragment_revered_spirit_ash_name_only').on('change', function() {
+                        if (jet.options) {
+                            jet.options.manualContentHandling = function(node) {
+                                if ($('#scadutree_fragment_revered_spirit_ash_name_only').is(':checked')) {
+                                    return node.getAttribute('data-name-jets') || '';
+                                }
+                                var $clone = $(node).clone();
+                                $clone.find('.no-highlight').remove();
+                                return $clone.text();
+                            };
+                        }
+                        if (jet._setJets) {
+                            jet._setJets('', true);
+                        }
+                        
+                        if ($('#scadutree_fragment_revered_spirit_ash_regex').is(':checked')) {
+                            updateSearch();
+                        } else {
+                            // Trigger Jets' internal search and our didSearch callback
+                            $('#scadutree_fragment_revered_spirit_ash_search').trigger('input');
                         }
                     });
-                    $("#scadutree_fragment_revered_spirit_ash_search").keyup(function() {
-                        $("#scadutree_fragment_revered_spirit_ash_list").unhighlight();
-                        $("#scadutree_fragment_revered_spirit_ash_list").highlight($(this).val());
-                    });
+                    updateSearch();
                 });
             })( jQuery );
             </script>
-    <script src="/js/checklists.js"></script>
+    <script src="/js/checklists.js?v=1.1"></script>
   </body>
 </html>

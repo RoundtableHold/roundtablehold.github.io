@@ -1,252 +1,330 @@
 title: Golden Seeds & Sacred Tears
+title_it: "Semi d'oro e Lacrime sacre"
 icon: "/img/icons/bolstering/edited/00383.png"
 id: flasks
 sections:
   -
     title: "Golden Seeds"
+    title_it: "Semi d'oro"
     icon: "/img/icons/bolstering/edited/00383.png"
     map_icon: "/map/icons/shadows/bolstering/00383.png"
     items:
-      - "Limgrave"
+      - name: "Limgrave"
+        name_it: "Sepolcride"
       - id: "1_2"
         data: ["Can choose one as a Keepsake"]
+        data_it: ["Puoi sceglierne uno come Rimembranza d'origine"]
       - id: "1_3"
         data: ["Under a Golden Tree on the path to Stormveil Castle"]
+        data_it: ["Sotto a un Albero dorato sul percorso per il Castello di Gran Tempesta"]
         cords: [3501, 6860]
         map_title: "Golden Seed"
       - id: "1_4"
         data: ["Reward for finishing Roderika's quest, can otherwise be found at her shack"]
+        data_it: ["Ricompensa per aver completato la missione di Roderika, altrimenti reperibile alla sua capanna"]
         cords: [724, 8465]
         map_title: "Golden Seed"
       - id: "1_5"
         data: ["Under Golden Tree in front of Fort Haight"]
+        data_it: ["Sotto a un Albero dorato di fronte a Forte Haight"]
         cords: [4674, 7344]
         map_title: "Golden Seed"
       - id: "1_6"
         data: ["Drops from Kenneth Haight if killed"]
+        data_it: ["Lasciato cadere da Kenneth Haight se ucciso"]
         cords: [4393, 6811]
         map_title: "Golden Seed"
       - id: "1_7"
         data: ["Reward for defeating Ulcerated Tree Spirit in Fringefolk Hero's Grave"]
+        data_it: ["Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nella Tomba dell'eroe dei Margini"]
         cords: [3789, 7318]
         map_title: "Golden Seed"
       - id: "1_43"
         data: ["Under a Golden Tree inside Stormveil, near the Secluded Cell Grace"]
+        data_it: ["Sotto a un Albero dorato dentro Gran Tempesta, vicino al Luogo di Grazia Cella isolata"]
         cords: [3175, 6585]
         map_title: "Golden Seed"
       - id: "1_8"
         data: ["Reward for defeating hidden Ulcerated Tree Spirit in Stormveil Castle"]
+        data_it: ["Ricompensa per aver sconfitto lo Spirito arboreo ulcerato nascosto nel Castello di Gran Tempesta"]
         cords: [3091, 6723]
         map_title: "Golden Seed"
-      - "Weeping Peninsula"
+      - name: "Weeping Peninsula"
+        name_it: "Penisola del Pianto"
       - id: "1_1"
         data: ["Under a Golden Tree south of Castle Morne Rampart Grace"]
+        data_it: ["Sotto a un Albero dorato a sud del Luogo di Grazia Muro del Castello di Morne"]
         cords: [4169, 8346]
         map_title: "Golden Seed"
-      - "Liurnia of the Lakes"
+      - name: "Liurnia of the Lakes"
+        name_it: "Liurnia lacustre"
       - id: "1_9"
         data: ["Under a Golden Tree in Academy Gate Town"]
+        data_it: ["Sotto a un Albero dorato nel Borgo del cancello dell'Accademia"]
         cords: [2192, 5235]
         map_title: "Golden Seed"
       - id: "1_10"
         data: ["Under a Golden Tree north of Main Academy Gate Grace, at the end of the bridge"]
+        data_it: ["Sotto a un Albero dorato a nord del Luogo di Grazia Cancello p. dell'Accademia, alla fine del ponte"]
         cords: [1932, 4612]
         map_title: "Golden Seed"
       - id: "1_11"
         data: ["Under a Golden Tree west side of Raya Lucaria Academy courtyard"]
+        data_it: ["Sotto a un Albero dorato nel lato ovest del cortile dell'Accademia di Raya Lucaria"]
         cords: [1906, 4905]
         map_title: "Golden Seed"
       - id: "1_12"
         data: ["Under a Golden Tree in Caria Manor's upper level."]
+        data_it: ["Sotto a un Albero dorato nel livello superiore del Maniero cariano."]
         cords: [1984, 3730]
         map_title: "Golden Seed"
       - id: "1_13"
         data: ["Under a Golden Tree at the north end of the lake, near the Ruin-Strewn Precipice"]
+        data_it: ["Sotto a un Albero dorato all'estremità nord del lago, vicino al Baratro disseminato di rovine"]
         cords: [2490, 3661]
         map_title: "Golden Seed"
-      - "Caelid"
+      - name: "Caelid"
+        name_it: "Caelid"
       - id: "1_14"
         data: ["under a Golden Tree near the three way crossroad leading to Castle Redmane"]
+        data_it: ["sotto a un Albero dorato vicino all'incrocio a tre vie che porta al Castello di Mantorosso"]
         cords: [5471, 7149]
         map_title: "Golden Seed"
       - id: "1_15"
         data: ["under a Golden Tree in the upper area of Sellia, Town of Sorcery"]
+        data_it: ["sotto a un Albero dorato nella zona superiore di Sellia, Città della Stregoneria"]
         cords: [5644, 6515]
         map_title: "Golden Seed"
       - id: "1_16"
         data: ["under a Golden Tree, south of Bestial Sanctum"]
+        data_it: ["sotto a un Albero dorato, a sud del Santuario ferino"]
         cords: [6088, 5594]
         map_title: "Golden Seed"
       - id: "1_17"
         data: ["reward for defeating Putrid Tree Spirit in War-Dead Catacombs (after Radahn)"]
+        data_it: ["ricompensa per aver sconfitto lo Spirito arboreo putrido nelle Catacombe dei caduti in guerra (dopo Radahn)"]
         cords: [6322, 6137]
         map_title: "Golden Seed"
-      - "Altus Plateau"
+      - name: "Altus Plateau"
+        name_it: "Altopiano di Altus"
       - id: "1_18"
         data: ["under a Golden Tree near Erdtree-Grazing Hill Grace"]
+        data_it: ["sotto a un Albero dorato vicino al Luogo di Grazia Colle prospiciente l'Albero Madre"]
         cords: [2697, 3377]
         map_title: "Golden Seed"
       - id: "1_19"
         data: ["under a Golden Tree north of Altus Highway Junction"]
+        data_it: ["sotto a un Albero dorato a nord del Crocevia della strada di Altus"]
         cords: [3037, 3372]
         map_title: "Golden Seed"
       - id: "1_20"
         data: ["under a Golden Tree near the Minor Erdtree"]
+        data_it: ["sotto a un Albero dorato vicino all'Albero Madre Minore"]
         cords: [3329, 2800]
         map_title: "Golden Seed"
       - id: "1_21"
         data: ["under a Golden Tree, southeast of Windmill Village, near Highway Lookout Tower"]
+        data_it: ["sotto a un Albero dorato, a sud-est del Villaggio dei Mulini, vicino alla Torre di guardia della strada"]
         cords: [3675, 2801]
         map_title: "Golden Seed"
-      - "Mt. Gelmir"
+      - name: "Mt. Gelmir"
+        name_it: "Monte Gelmir"
       - id: "1_29"
         data: ["under a Golden Tree in the ravine, south of Seethewater Cave"]
+        data_it: ["sotto a un Albero dorato nel burrone, a sud della Caverna di Acquabollente"]
         cords: [2458, 2953]
         map_title: "Golden Seed"
       - id: "1_30"
         data: ["under a Golden Tree, northwest of Road of Iniquity"]
+        data_it: ["sotto a un Albero dorato, a nord-ovest del Percorso dell'iniquità"]
         cords: [2059, 2650]
         map_title: "Golden Seed"
-      - "Capital Outskirts"
+      - name: "Capital Outskirts"
+        name_it: "Periferia della Capitale"
       - id: "1_22"
         data: ["under a large Golden Tree near the Outer Wall Phantom Tree Grace"]
+        data_it: ["sotto a un grande Albero dorato vicino al Luogo di Grazia Albero fantasma del muro esterno"]
         cords: [3670, 3491]
         map_title: "Golden Seed x2"
       - id: "1_23"
         data: ["under the same Golden Tree mentioned above"]
+        data_it: ["sotto lo stesso Albero dorato menzionato sopra"]
         map_link: [3670, 3491]
         map_title: "Golden Seed"
       - id: "1_24"
         data: ["under a large Golden Tree north of the Outer Wall Phantom Tree Grace"]
+        data_it: ["sotto a un grande Albero dorato a nord del Luogo di Grazia Albero fantasma del muro esterno"]
         cords: [3842, 3233]
         map_title: "Golden Seed x2"
       - id: "1_25"
         data: ["under the same Golden Tree mentioned above"]
+        data_it: ["sotto lo stesso Albero dorato menzionato sopra"]
         map_link: [3842, 3233]
         map_title: "Golden Seed"
       - id: "1_26"
         data: ["reward for defeating Ulcerated Tree Spirit south of Outer Wall Phantom Tree Grace"]
+        data_it: ["ricompensa per aver sconfitto lo Spirito arboreo ulcerato a sud del Luogo di Grazia Albero fantasma del muro esterno"]
         cords: [3664, 3661]
         map_title: "Golden Seed"
-      - "Leyndell, Royal Capital"
+      - name: "Leyndell, Royal Capital"
+        name_it: "Leyndell, Capitale Reale"
       - id: "1_27"
         data: ["under a Golden Tree south of the West Capital Rampart Grace"]
+        data_it: ["sotto a un Albero dorato a sud del Luogo di Grazia Baluardo occid. della capitale"]
         cords: [4293, 3645]
         map_title: "Golden Seed"
       - id: "1_28"
         data: ["reward for defeating Ulcerated Tree Spirit west of Avenue Balcony Grace"]
+        data_it: ["ricompensa per aver sconfitto lo Spirito arboreo ulcerato a ovest del Luogo di Grazia Terrazza sul viale"]
         cords: [4278, 3429]
         map_title: "Golden Seed"
-      - "Mountaintops of the Giants"
+      - name: "Mountaintops of the Giants"
+        name_it: "Vette dei Giganti"
       - id: "1_31"
         data: ["under a Golden Tree in the Forbidden Lands"]
+        data_it: ["sotto a un Albero dorato nelle Terre proibite"]
         cords: [5424, 3302]
         map_title: "Golden Seed"
       - id: "1_32"
         data: ["reward for defeating Ulcerated Tree Spirit in the Giants' Mountaintop Catacombs"]
+        data_it: ["ricompensa per aver sconfitto lo Spirito arboreo ulcerato nelle Catacombe delle Vette dei Giganti"]
         cords: [5773, 2833]
         map_title: "Golden Seed"
       - id: "1_33"
         data: ["under a Golden Tree, northeast of the Foot of the Forge Grace"]
+        data_it: ["sotto a un Albero dorato, a nord-est del Luogo di Grazia Piedi della Forgia"]
         cords: [6331, 2826]
         map_title: "Golden Seed"
       - id: "1_34"
         data: ["under a Golden Tree, in the ravine between the Minor Erdtree and Heretical Rise, guarded by a Giant Golem"]
+        data_it: ["sotto a un Albero dorato, nel burrone tra l'Albero Madre Minore e la Guglia eretica, sorvegliato da un golem gigante"]
         cords: [6310, 2042]
         map_title: "Golden Seed"
-      - "Consecrated Snowfield"
+      - name: "Consecrated Snowfield"
+        name_it: "Terre del sacro Albero Madre"
       - id: "1_35"
         data: ["under a Golden Tree, south of Inner Consecrated Snowfield Grace"]
+        data_it: ["sotto a un Albero dorato, a sud del Luogo di Grazia Interno delle Terre del sacro Albero Madre"]
         cords: [5498, 2519]
         map_title: "Golden Seed"
       - id: "1_36"
         data: ["under a Golden Tree, west of Ordina, Liturgical Town"]
+        data_it: ["sotto a un Albero dorato, a ovest di Ordina, la città liturgica"]
         cords: [5158, 1981]
         map_title: "Golden Seed"
-      - "Crumbling Farum Azula"
+      - name: "Crumbling Farum Azula"
+        name_it: "Farum Azula in frantumi"
       - id: "1_37"
         data: ["under a Golden Tree in the middle of the Dragon Temple"]
+        data_it: ["sotto a un Albero dorato in mezzo al Tempio del drago"]
         cords: [8469, 4420] #TODO: Verify
         map_title: "Golden Seed"
       - id: "1_38"
         data: ["under a Golden Tree, southeast of Dragon Temple Rooftop Grace"]
+        data_it: ["sotto a un Albero dorato, a sud-est del Luogo di Grazia Tetto del Tempio del drago"]
         cords: [8645, 4325] #TODO: Verify
         map_title: "Golden Seed"
-      - "Siofra River"
+      - name: "Siofra River"
+        name_it: "Fiume Siofra"
       - id: "1_39"
         data: ["under a Golden Tree accessible by crossing a stone bridge southwest of the Below the Well Site of Grace"]
+        data_it: ["sotto a un Albero dorato accessibile attraversando un ponte di pietra a sud-ovest del Luogo di Grazia Pozzo inferiore"]
         cords: [6423, 14011]
         map_title: "Golden Seed"
-      - "Mohgwyn Palace"
+      - name: "Mohgwyn Palace"
+        name_it: "Palazzo di Mohgwyn"
       - id: "1_40"
         data: ["under a Golden Tree in the middle of the lake, surrounded by giant birds"]
+        data_it: ["sotto a un Albero dorato in mezzo al lago, circondato da uccelli giganti"]
         cords: [7039, 14440]
         map_title: "Golden Seed"
-      - "Ainsel River"
+      - name: "Ainsel River"
+        name_it: "Fiume Ainsel"
       - id: "1_41"
         data: ["under a Golden Tree in the northwest of Nokstella; climb every staircase to the absolute top of the city, exit the topmost building (with the Moon of Nokstella talisman) to the left, and go down the elevator past it, to see the tree as you emerge back at the bottom"]
+        data_it: ["sotto a un Albero dorato nel nord-ovest di Nokstella; sali le scale fino alla cima della città, esci dall'edificio più alto (quello con il talismano Luna di Nokstella) a sinistra, scendi l'ascensore lì vicino per trovare l'albero quando riemergerai in fondo"]
         cords: [3344, 11892]
         map_title: "Golden Seed"
       - id: "1_42"
         data: ["reward for defeating Putrid Tree Spirit in Lake of Rot"]
+        data_it: ["ricompensa per aver sconfitto lo Spirito arboreo putrido nel Lago putrescente"]
         cords: [3155, 12592]
         map_title: "Golden Seed"
   -
     title: "Sacred Tears"
+    title_it: "Lacrime sacre"
     icon: "/img/icons/bolstering/edited/00384.png"
     map_icon: "/map/icons/shadows/bolstering/00384.png"
     items:
-      - "Limgrave"
+      - name: "Limgrave"
+        name_it: "Sepolcride"
       - id: "2_4"
         data: ["Third Church of Marika, in East Limgrave"]
+        data_it: ["Terza chiesa di Marika, a Sepolcride orientale"]
         cords: [4649, 6705]
         map_title: "Sacred Tear"
-      - "Weeping Peninsula"
+      - name: "Weeping Peninsula"
+        name_it: "Penisola del Pianto"
       - id: "2_1"
         data: ["Callu Baptismal Church, in the middle of the Weeping Peninsula"]
+        data_it: ["Chiesa battesimale di Callu, nel mezzo della Penisola del Pianto"]
         cords: [4146, 8131]
         map_title: "Sacred Tear"
       - id: "2_2"
         data: ["Church of Pilgrimage, north of Weeping Peninsula"]
+        data_it: ["Chiesa del Pellegrinaggio, a nord della Penisola del Pianto"]
         cords: [3848, 7689]
         map_title: "Sacred Tear"
       - id: "2_3"
         data: ["Fourth Church of Marika, west of Weeping Peninsula"]
+        data_it: ["Quarta chiesa di Marika, a ovest della Penisola del Pianto"]
         cords: [3524, 7990]
         map_title: "Sacred Tear"
-      - "Liurnia of the Lakes"
+      - name: "Liurnia of the Lakes"
+        name_it: "Liurnia lacustre"
       - id: "2_5"
         data: ["Church of Irith, southern part of Liurnia of the Lakes"]
+        data_it: ["Chiesa di Irith, parte meridionale di Liurnia lacustre"]
         cords: [2916, 6433]
         map_title: "Sacred Tear"
       - id: "2_6"
         data: ["Bellum Church, on the way to the Grand Lift of Dectus"]
+        data_it: ["Chiesa di Bellum, sulla strada per il Montacarichi di Dectus"]
         cords: [2187, 4037]
         map_title: "Sacred Tear"
       - id: "2_7"
         data: ["Church of Inhibition, northeast of Bellum Highway Forest"]
+        data_it: ["Chiesa dell'Inibizione, a nord-est della Foresta della strada di Bellum"]
         cords: [2511, 4014]
         map_title: "Sacred Tear"
-      - "Caelid"
+      - name: "Caelid"
+        name_it: "Caelid"
       - id: "2_8"
         data: ["Church of Plague, accessible through Sellia, Town of Sorcery"]
+        data_it: ["Chiesa della Pestilenza, accessibile attraverso Sellia, Città della Stregoneria"]
         cords: [5785, 6663]
         map_title: "Sacred Tear"
-      - "Altus Plateau"
+      - name: "Altus Plateau"
+        name_it: "Altopiano di Altus"
       - id: "2_9"
         data: ["Second Church of Marika, north of Altus Highway Junction Grace"]
+        data_it: ["Seconda chiesa di Marika, a nord del Luogo di Grazia Crocevia della strada di Altus"]
         cords: [2963, 3141]
         map_title: "Sacred Tear"
       - id: "2_10"
         data: ["Stormcaller Church, west of Rampartside Path Grace"]
+        data_it: ["Chiesa dell'Evocastempeste, a ovest del Luogo di Grazia Sentiero del baluardo"]
         cords: [3209, 3345]
         map_title: "Sacred Tear"
-      - "Mountaintops of the Giants"
+      - name: "Mountaintops of the Giants"
+        name_it: "Vette dei Giganti"
       - id: "2_11"
         data: ["Church of Repose, east of Grand Lift of Rold"]
+        data_it: ["Chiesa del Riposo, a est del Grande Montacarichi di Rold"]
         cords: [5969, 3006]
         map_title: "Sacred Tear"
       - id: "2_12"
         data: ["First Church of Marika, southeastern most part of Mountaintops of the Giants"]
+        data_it: ["Prima chiesa di Marika, nella parte più a sud-est delle Vette dei Giganti"]
         cords: [6754, 2354]
         map_title: "Sacred Tear"

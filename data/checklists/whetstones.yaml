@@ -1,39 +1,125 @@
-title: "Whetstones"
+title: Whetstones
 id: whetstones
-icon: "/img/icons/keys/edited/03090.png"
-table_widths: [3, 2, 7]
+icon: /img/icons/keys/edited/03090.png
+table_widths:
+  - 3
+  - 2
+  - 7
 sections:
-  -
-    title: "Whetstones"
-    table: ["Effect", "Location", "Notes"]
+  - title: Whetstones
+    title_it: Coltelli per affilatura
+    table:
+      - Effect
+      - Location
+      - Notes
+    table_it:
+      - Effetto
+      - Luogo
+      - Note
     items:
-      - id: "0_1"
-        icon: "/img/icons/keys/edited/03090.png"
-        map_icon: "/map/icons/shadows/keys/03090.png"
-        data: ["Whetstone Knife", "Limgrave", "Found in a treasure chest underground in the Gatefront Ruins", "Can add new battle arts and affinities to weapons"]
-        cords: [3786, 6989]
-      - id: "0_2"
-        icon: "/img/icons/keys/edited/03020.png"
-        map_icon: "/map/icons/shadows/keys/03020.png"
-        data: ["Iron Whetblade", "Limgrave", "In Stormveil Castle. Found on a corpse in an armory room accessible from the kitchen area. Requires a Stonesword key.", "Grants Quality, Keen, or Heavy affinity upgrade to weapon"]
-        cords: [3084, 6689]
-      - id: "0_3"
-        icon: "/img/icons/keys/edited/03023.png"
-        map_icon: "/map/icons/shadows/keys/03023.png"
-        data: ["Glintstone Whetblade", "Liurnia of the Lakes", "In Raya Lucaria Academy. Found on a corpse hanging over a balcony overlooking the courtyard near the Debate Parlor.", "Grants Magic or Cold affinity upgrade to weapon"]
-        cords: [1928, 4942]
-      - id: "0_4"
-        icon: "/img/icons/keys/edited/03021.png"
-        map_icon: "/map/icons/shadows/keys/03021.png"
-        data: ["Red-Hot Whetblade", "Caelid", "Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin. Unavailable during the festival.", "Grants Fire and Flame Art affinity upgrade to weapon"]
-        cords: [6024, 7307]
-      - id: "0_5"
-        icon: "/img/icons/keys/edited/03024.png"
-        map_icon: "/map/icons/shadows/keys/03024.png"
-        data: ["Black Whetblade", "Nokron", "Found on a corpse slumped in front of an altar in Night's Sacred Ground", "Grants Poison, Blood, or Occult affinity upgrade to weapon"]
-        cords: [6068, 14426]
-      - id: "0_6"
-        icon: "/img/icons/keys/edited/03022.png"
-        map_icon: "/map/icons/shadows/keys/03022.png"
-        data: ["Sanctified Whetblade", "Leyndell, Royal Capital", "Found in the Fortified Manor on the second floor next to an anvil, accessible from the Avenue Balcony Grace", "Grants Lightning or Sacred affinity upgrade to weapon"]
-        cords: [4220, 3646]
+      - id: '0_1'
+        icon: /img/icons/keys/edited/03090.png
+        map_icon: /map/icons/shadows/keys/03090.png
+        data:
+          - Whetstone Knife
+          - Limgrave
+          - Found in a treasure chest underground in the Gatefront Ruins
+          - Can add new battle arts and affinities to weapons
+        data_it:
+          - Coltello per affilatura
+          - Sepolcride
+          - In un forziere sotterraneo nelle Rovine del Cancello.
+          - Permette di aggiungere nuove abilità e affinità alle armi.
+        cords:
+          - 3786
+          - 6989
+      - id: '0_2'
+        icon: /img/icons/keys/edited/03020.png
+        map_icon: /map/icons/shadows/keys/03020.png
+        data:
+          - Iron Whetblade
+          - Limgrave
+          - In Stormveil Castle. Found on a corpse in an armory room accessible from
+            the kitchen area. Requires a Stonesword key.
+          - Grants Quality, Keen, or Heavy affinity upgrade to weapon
+        data_it:
+          - Coltello da affilatura di ferro
+          - Sepolcride
+          - Nel Castello di Gran Tempesta. Su un cadavere in un'armeria accessibile
+            dalla zona cucina. Richiede una Chiave della Spada di Pietra.
+          - Conferisce l'affinità Qualità, Acuminata o Pesante all'arma.
+        cords:
+          - 3084
+          - 6689
+      - id: '0_3'
+        icon: /img/icons/keys/edited/03023.png
+        map_icon: /map/icons/shadows/keys/03023.png
+        data:
+          - Glintstone Whetblade
+          - Liurnia of the Lakes
+          - In Raya Lucaria Academy. Found on a corpse hanging over a balcony overlooking
+            the courtyard near the Debate Parlor.
+          - Grants Magic or Cold affinity upgrade to weapon
+        data_it:
+          - Coltello da affilatura di scintipietra
+          - Liurnia lacustre
+          - Nell'Accademia di Raya Lucaria. Su un cadavere che pende da un balcone
+            con vista sul cortile, vicino al Salone del dibattito.
+          - Conferisce l'affinità Magica o Fredda all'arma.
+        cords:
+          - 1928
+          - 4942
+      - id: '0_4'
+        icon: /img/icons/keys/edited/03021.png
+        map_icon: /map/icons/shadows/keys/03021.png
+        data:
+          - Red-Hot Whetblade
+          - Caelid
+          - Found on a corpse in the northwest of Redmane Castle, near an Iron Virgin.
+            Unavailable during the festival.
+          - Grants Fire and Flame Art affinity upgrade to weapon
+        data_it:
+          - Coltello da affilatura rovente
+          - Caelid
+          - Su un cadavere nella zona nord-ovest del Castello di Mantorosso, vicino
+            a una Vergine di Ferro. Non disponibile durante il festival.
+          - Conferisce l'affinità Fuoco e Arte della Fiamma all'arma.
+        cords:
+          - 6024
+          - 7307
+      - id: '0_5'
+        icon: /img/icons/keys/edited/03024.png
+        map_icon: /map/icons/shadows/keys/03024.png
+        data:
+          - Black Whetblade
+          - Nokron
+          - Found on a corpse slumped in front of an altar in Night's Sacred Ground
+          - Grants Poison, Blood, or Occult affinity upgrade to weapon
+        data_it:
+          - Coltello da affilatura nero
+          - Nokron
+          - Su un cadavere accasciato davanti a un altare a Terreno Consacrato alla
+            Notte.
+          - Conferisce l'affinità Veleno, Sangue o Occulta all'arma.
+        cords:
+          - 6068
+          - 14426
+      - id: '0_6'
+        icon: /img/icons/keys/edited/03022.png
+        map_icon: /map/icons/shadows/keys/03022.png
+        data:
+          - Sanctified Whetblade
+          - Leyndell, Royal Capital
+          - Found in the Fortified Manor on the second floor next to an anvil, accessible
+            from the Avenue Balcony Grace
+          - Grants Lightning or Sacred affinity upgrade to weapon
+        data_it:
+          - Coltello da affilatura consacrato
+          - Leyndell, Capitale Reale
+          - Nel Maniero fortificato, al secondo piano accanto a un'incudine. Accessibile
+            dalla Grazia Terrazza sul viale.
+          - Conferisce l'affinità Fulmine o Sacra all'arma.
+        cords:
+          - 4220
+          - 3646
+title_it: Coltelli per affilatura

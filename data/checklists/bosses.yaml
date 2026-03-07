@@ -1,402 +1,528 @@
 title: Bosses
+title_it: Boss 
 id: bosses
 table_widths: [2, 2, 4, 4]
 map_icon: '/map/icons/MENU_MAP_memo_20.png'
 sections:
   -
     title: "Limgrave"
+    title_it: "Sepolcride"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "2_1"
         data: ["Soldier of Godrick", "Stranded Graveyard", "400 runes", "Tutorial boss."]
+        data_it: ["Soldato di Godrick", "Tomba dell'Eroe della Frangia", "400 rune", "Boss del tutorial."]
         cords: [3781, 7390]
         map_title: "Soldier of Godrick (Tutorial)"
       - id: "2_14"
         data: ["Tree Sentinel", "Church of Elleh Road", "3200 runes, Golden Halberd", "Is one annoying bastard."]
+        data_it: ["Sentinella dell'Albero", "Strada per la Chiesa di Elleh", "3200 rune, Alabarda d'Oro", "È un bastardo fastidioso."]
         cords: [3704, 7253]
       - id: "2_2"
         data: ["Demi-Human Chief (x2)", "Coastal Cave", "900 runes, Tailoring Tools (Key Item), Sewing Needle (Key Item)", "Required for Boc the Seamster's quest. Boss arena also has multiple Demi-Humans."]
+        data_it: ["Capo Semiumano (x2)", "Caverna Costiera", "900 rune, Strumenti da sarto, Ago da cucito", "Necessario per la missione di Boc il Sarto. L'arena del boss contiene anche molti Semiumani."]
         cords: [3521, 7326]
       - id: "2_3"
         data: ["Erdtree Burial Watchdog", "Stormfoot Catacombs", "1300 runes, Noble Sorcerer Ashes", ""]
+        data_it: ["Cane da guardia sepolcrale dell'Albero Madre", "Catacombe di Passo Tempesta", "1300 rune, Ceneri di stregone nobile", ""]
         cords: [3521, 7040]
       - id: "2_4"
         data: ["Beastman of Farum Azula", "Groveside Cave", "1000 runes, Flamedrake Talisman", ""]
+        data_it: ["Uomo bestia di Farum Azula", "Caverna di Boscoscuro", "1000 rune, Talismano del drago di fuoco", ""]
         cords: [3653, 7037]
       - id: "2_5"
         data: ["Stonedigger Troll", "Limgrave Tunnels", "1800 runes, Roar Medallion", ""]
+        data_it: ["Troll scavapietra", "Gallerie di Sepolcride", "1800 rune, Medaglione del ruggito", ""]
         cords: [3864, 7049]
       - id: "2_13"
         data: ["Night's Cavalry", "Highway Bridge", "2400 runes, Ash of War: Repeating Thrust", "Nighttime only."]
+        data_it: ["Cavaliere notturno", "Ponte della Strada Maestra", "2400 rune, Cenere di Guerra: Affondo ripetuto", "Solo di notte."]
         cords: [4058, 7137]
         map_title: "Night's Cavalry (Night only)"
       - id: "2_12"
         data: ["Mad Pumpkin Head", "Waypoint Ruins", "1100 runes", ""]
+        data_it: ["Testa di Zucca impazzito", "Rovine del Punto di Morte", "1100 rune", ""]
         cords: [4239, 7237]
       - id: "2_18"
         data: ["Bloodhound Knight Darriwil", "Forlorn Hound Evergaol", "1900 runes, Bloodhound's Fang", "Related to Blaidd's initial quest, but you can kill him first and still progress quest normally."]
+        data_it: ["Darriwil, Cavaliere Limiere", "Galera eterna del Limiere reietto", "1900 rune, Zanna del Limiere", "Legato alla missione iniziale di Blaidd, ma puoi ucciderlo prima di incontrarlo senza interrompere la missione."]
         cords: [4227, 7671]
       - id: "2_7"
         data: ["Bloody Finger Nerijus", "Agheel River", "316 runes, Furlcalling Finger Remedy, Reduvia", "NPC invader, not a real boss."]
+        data_it: ["Dito Sanguinante Nerijus", "Fiume Agheel", "316 rune, Rimedio del Dito invocatore, Reduvia", "NPC invasore, non un vero boss."]
         cords: [4075, 6933]
         map_title: "Bloody Finger Nerijus (NPC Invader)"
       - id: "2_8"
         data: ["Patches", "Murkwater Cave", "If not killed: Golden Rune [1] (x2), Grovel for Mercy gesture. If killed: Golden Rune [1] (x2), Spear +7, Leather Armor, Leather Gloves, Leather Boots, Patches' Bell Bearing.", "Only half a boss fight, unless you really wanna kill Patches."]
+        data_it: ["Patches", "Caverna di Acquacupa", "Se non ucciso: Runa aurea [1] (x2), Gesto Implorazione di pietà. Se ucciso: Runa aurea [1] (x2), Lancia +7, Armatura di cuoio, Guanti di cuoio, Stivali di cuoio, Globo cinereo di Patches.", "Lo scontro termina a metà se lo perdoni, a meno che tu non voglia ucciderlo per davvero."]
         cords: [4026, 6962]
       - id: "2_6"
         data: ["Grave Warden Duelist", "Murkwater Catacombs", "1700 runes, Banished Knight Engvall Ashes", ""]
+        data_it: ["Duellante Guardiano delle tombe", "Catacombe di Acquacupa", "1700 rune, Ceneri di Engvall, cavaliere esiliato", ""]
         cords: [4057, 6735]
       - id: "2_9"
         data: ["Guardian Golem", "Highroad Cave", "1700 runes, Blue Dancer Charm", ""]
+        data_it: ["Golem guardiano", "Caverna della Strada Maestra", "1700 rune, Amuleto della danzatrice blu", ""]
         cords: [4032, 6403]
       - id: "2_10"
         data: ["Black Knife Assassin", "Deathtouched Catacombs", "1600 runes, Assassin's Crimson Dagger, Deathroot", ""]
+        data_it: ["Assassina dei Neri Coltelli", "Catacombe Toccate dalla Morte", "1600 rune, Pugnale cremisi dell'assassino, Radice mortale", ""]
         cords: [3911, 6494]
       - id: "2_15"
         data: ["Flying Dragon Agheel", "Agheel Lake", "5000 runes, Dragon Heart", "Field boss."]
+        data_it: ["Agheel, Drago volante", "Lago di Agheel", "5000 rune, Cuore di drago", "Boss nell'overworld."]
         cords: [3880,7216]
       - id: "2_16"
         data: ["Tibia Mariner", "Summonwater Village", "2400 runes, Deathroot, Skeletal Militiaman Ashes", "Field boss."]
+        data_it: ["Nochiero tibiale", "Villaggio Idrocanto", "2400 rune, Radice mortale, Ceneri di miliziano scheletrico", "Boss nell'overworld."]
         cords: [4452, 6518]
       - id: "2_32"
         data: ["Godrick Knight", "Fort Haight (During Kenneth Haight Questline)", "Ash of War: Bloody Slash", ""] #TODO: ADD RUNES, AND CO
+        data_it: ["Cavaliere di Godrick", "Forte Haight (Durante la missione di Kenneth Haight)", "Cenere di Guerra: Fendente sanguinario", ""]
         cords: [4727, 7292]
         map_title: "Godrick Knight (During Kenneth Haight Questline)"
       - id: "2_17"
         data: ["Anastasia, Tarnished-Eater", "Smoldering Village", "Furlcalling Finger Remedy, Sacred Scorpion Charm", ""]
+        data_it: ["Anastasia, Divoratrice di Senzaluce", "Villaggio in Fiamme", "Rimedio del Dito invocatore, Amuleto dello scorpione sacro", ""]
         cords: [4669, 6279]
         map_title: "Anastasia, Tarnished-Eater (NPC Invader)"
       - id: "2_19"
         data: ["Crucible Knight", "Stormhill Evergaol", "2100 runes, Aspects of the Crucible: Tail", ""]
+        data_it: ["Cavaliere del Crogiolo", "Galera eterna di Colle Tempesta", "2100 rune, Aspetto del Crogiolo: Coda", ""]
         cords: [3631, 6984]
       - id: "2_20"
         data: ["Bell Bearing Hunter", "Warmaster's Shack", "2700 runes, Bone Peddler's Bell Bearing", "Field boss. Night. Buy something from Bernhal. Pass time, then rest once to summon."]
+        data_it: ["Cacciatore di Globi cinerei", "Capanna del Maestro d'armi", "2700 rune, Globo cinereo del mercante d'ossa", "Boss nell'overworld. Solo di notte. Compra qualcosa da Bernhal. Fai passare il tempo, poi riposa una volta per evocarlo."]
         cords: [3735, 6684]
         map_title: "Bell Bearing Hunter (Night only)"        
       - id: "2_21"
         data: ["Deathbird", "Warmaster's Shack East", "2800 runes, Blue-Feathered Branchsword", "Field boss. Night only."]
+        data_it: ["Uccello della Morte", "A est della Capanna del Maestro d'armi", "2800 rune, Spada-ramoscello dalle piume blu", "Boss nell'overworld. Solo di notte."]
         cords: [3842, 6729]
         map_title: "Deathbird (Night only)"
       - id: "2_11"
         data: ["Recusant Henricus", "Colosseum Road", "Furlcalling Finger Remedy, Hammer Talisman", "Another NPC invader."]
+        data_it: ["Riccusante Henricus", "Strada per l'Arena", "Rimedio del Dito invocatore, Talismano del martello", "NPC invasore."]
         cords: [3650, 6420]
         map_title: "Recusant Henricus (NPC Invader)"
       - id: "2_30"
         data: ["Grafted Scion (x2)", "Fringefolk Hero's Grave", "583 runes", "Will drop from above once you grab the Erdtree's Favor Talisman."]
+        data_it: ["Progenie innestata (x2)", "Tomba dell'Eroe della Frangia", "583 rune", "Cadrà dall'alto una volta ottenuto il Talismano del Favore dell'Albero Madre."]
         cords: [3772, 7304]       
       - id: "2_23"
         data: ["Ulcerated Tree Spirit", "Fringefolk Hero's Grave", "15,000 runes, Banished Knight Oleg Ashes, Golden Seed", ""]
+        data_it: ["Spirito arboreo ulcerato", "Tomba dell'Eroe della Frangia", "15.000 rune, Ceneri di Oleg, cavaliere esiliato, Seme d'oro", ""]
         cords: [3775, 7327]
       - id: "2_24"
         data: ["Ulcerated Tree Spirit", "Stormveil Castle", "Golden Seed (and guards the Prince of Death's Pustule Talisman).", "Boss enemy, but not \"real boss\". Easily accessible by dropping off side near Rampart Grace."] #TODO: ADD RUNES
+        data_it: ["Spirito arboreo ulcerato", "Castello di Grantempesta", "Seme d'oro (e fa la guardia al Talismano pustola del Principe della Morte).", "Nemico tipo boss, ma non un 'vero boss'. Facilmente raggiungibile saltando di sotto vicino alla Grazia del Baluardo."]
         cords: [3088, 6708]
       - id: "2_25"
         data: ["Crucible Knight", "Stormveil Castle", "1500 runes, Aspects of the Crucible: Horns", "Boss enemy, but not \"real boss\". Easily accessible by dropping off rampart near hidden knifebird."]
+        data_it: ["Cavaliere del Crogiolo", "Castello di Grantempesta", "1500 rune, Aspetto del Crogiolo: Corna", "Nemico tipo boss, ma non un 'vero boss'. Facilmente raggiungibile cadendo dal baluardo vicino all'aquila nascosta."]
         cords: [3058, 6680]
       - id: "2_26"
         data: ["Grafted Scion", "Stormveil Castle", "1176 runes", "Boss enemy, but not real boss."]
+        data_it: ["Progenie innestata", "Castello di Grantempesta", "1176 rune", "Nemico tipo boss, ma non un vero boss."]
         cords: [3118, 6698]
       - id: "2_27"
         data: ["Lion Guardian", "Stormveil Castle", "1138 runes, Somber Smithing Stone [1], Beast Blood, Old Fang (x2)", "Sort of a field boss. Near Divine Tower of Limgrave entrance."]
+        data_it: ["Leone guardiano", "Castello di Grantempesta", "1138 rune, Pietra da forgiatura funerea [1], Sangue di bestia, Vecchia zanna (x2)", "Una sorta di boss sul campo. Vicino all'entrata della Torre Divina di Sepolcride."]
         cords: [3218, 6713]
       - id: "2_28"
         data: ["Margit, the Fell Omen", "Stormveil Castle", "12,000 runes, Talisman Pouch", "Main boss. Required to get to Godrick the Grafted. Grants Achievement/Trophy: Margit, the Fell Omen."]
+        data_it: ["Margit, il Presagio Implacabile", "Castello di Grantempesta", "12.000 rune, Borsa per talismani", "Boss principale. Necessario per raggiungere Godrick l'Innestato. Conferisce Obiettivo/Trofeo: Margit, il Presagio Implacabile."]
         cords: [3277, 6826]
       - id: "2_29"
         map_icon: "/map/icons/shadows/tools/remembrances/00163.png"
         data: ["Godrick the Grafted", "Stormveil Castle", "20,000 runes, Godrick's Great Rune, Remembrance of the Grafted", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Godrick."]
+        data_it: ["Godrick l'Innestato", "Castello di Grantempesta", "20.000 rune, Runa maggiore di Godrick, Rimembranza dell'Innestato", "Boss principale. Semi-obbligatorio per la progressione. Conferisce Obiettivo/Trofeo: Portatore del frammento Godrick."]
         cords: [3087, 6447]
       - id: "2_22"
         data: ["Old Knight Istvan", "Colosseum Road", "1828 Runes, Rune Arc, Furlcalling Finger Remedy, Scaled Helm, Scaled Armor, Scaled Gauntlets, Scaled Greaves", "NPC. You can invade his world. Related to Volcano Manor quest."]
+        data_it: ["Vecchio Cavaliere Istvan", "Strada per l'Arena", "1828 rune, Arco Runico, Rimedio del Dito invocatore, Elmo a scaglie, Armatura a scaglie, Guanti d'arme a scaglie, Schinieri a scaglie", "NPC. Puoi invadere il suo mondo. Legato alla missione di Villa Vulcano."]
         cords: [3625, 6473]
         map_title: "Old Knight Istvan (Volcano Manor Questline)"
   -
     title: "Weeping Peninsula"
+    title_it: "Penisola del Pianto"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
 
       - id: "1_2"
         data: ["Runebear", "Earthbore Cave", "2600 runes, Spelldrake Talisman", ""]
+        data_it: ["Orso runico", "Caverna della Sonda terrestre", "2600 rune, Talismano del drago magico", ""]
         cords: [4113, 7834]      
       - id: "1_3"
         data: ["Demi-Human Queen", "Demi-Human Forest Ruins", "Demi-Human Queen's Staff, Crystal Burst Sorcery", "Field boss. Surrounded by Demi-Humans."]
+        data_it: ["Regina semiumana", "Rovine della foresta dei Semiumani", "Bastone della regina semiumana, Stregoneria Esplosione di cristalli", "Boss nell'overworld. Circondata da Semiumani."]
         cords: [3995, 7830]
       - id: "1_8"
         data: ["Scaly Misbegotten", "Morne Tunnel", "2000 runes, Rusted Anchor Greataxe", ""]
+        data_it: ["Progenie scagliosa", "Gallerie di Morne", "2000 rune, Ancora arrugginita", ""]
         cords: [4011, 8123]
       - id: "1_4"
         data: ["Night's Cavalry", "Castle Morne Rampart", "3400 runes, Ash of War: Barricade Shield, Nightrider Flail", "Field boss. Night only."]
+        data_it: ["Cavaliere notturno", "Baluardo del Castello di Morne", "3400 rune, Cenere di Guerra: Scudo a barricata, Mazzafrusto del Cavaliere notturno", "Boss nell'overworld. Solo di notte."]
         cords: [4257, 8152]
         map_title: "Night's Cavalry (Night only)"        
       - id: "1_1"
         data: ["Erdtree Burial Watchdog", "Impaler's Catacomb", "2400 runes, Demi-Human Ashes", "Has Imps (x4) with it."]
+        data_it: ["Cane da guardia sepolcrale dell'Albero Madre", "Catacombe dell'impalatore", "2400 rune, Ceneri di semiumano", "L'arena contiene anche 4 Diavoletti."]
         cords: [4449, 7845]
       - id: "1_7"
         data: ["Erdtree Avatar", "Minor Erdtree", "3600 runes, Opaline Bubbletear, Crimsonburst Crystal Tear", "Field boss."]
+        data_it: ["Incarnazione dell'Albero Madre", "Albero Madre Minore", "3600 rune, Lacrima a bolla opalina, Lacrima di cristallo cremisi dirompente", "Boss nell'overworld."]
         cords: [3909, 8082]
       - id: "1_6"
         data: ["Cemetery Shade", "Tombsward Catacombs", "2200 runes, Lhutel the Headless Ashes (Legendary)", ""]
+        data_it: ["Ombra cimiteriale", "Catacombe di Guardiatomba", "2200 rune, Ceneri di Lhutel l'Acèfala (Leggendarie)", ""]
         cords: [3865, 7942]
       - id: "1_9"
         data: ["Miranda, the Blighted Bloom", "Tombsward Cave", "2100 runes, Viridian Amber Medallion", ""]
+        data_it: ["Miranda, la Rovina in fiore", "Caverna di Guardiatomba", "2100 rune, Medaglione d'ambra viridiana", ""]
         cords: [3583, 8020]
       - id: "1_10"
         data: ["Ancient Hero of Zamor", "Weeping Evergaol", "5400 runes, Radagon's Scarseal", ""]
+        data_it: ["Antico Eroe di Zamor", "Galera eterna del lamento", "5400 rune, Piaga di Radagon", ""]
         cords: [3606, 7942]
       - id: "1_5"
         data: ["Deathbird", "Castle Morne Outskirts", "3900 runes, Sacrificial Axe", "Field boss. Night only."]
+        data_it: ["Uccello della Morte", "Periferia del Castello di Morne", "3900 rune, Ascia sacrificale", "Boss nell'overworld. Solo di notte."]
         cords: [4150, 8320]
         map_title: "Deathbird (Night only)"
       - id: "1_11"
         data: ["Leonine Misbegotten", "Castle Morne (South)", "3800 runes, Grafted Blade Greatsword (Legendary)", "Grants Achievement/Trophy: Leonine Misbegotten."]
+        data_it: ["Progenie leonina", "Castello di Morne (Sud)", "3800 rune, Spadone della lama innestata (Leggendario)", "Conferisce Obiettivo/Trofeo: Progenie leonina."]
         cords: [3940, 8834]
   -
     title: "Roundtable Hold"
+    title_it: "Rocca della Tavola Rotonda"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "3_1"
         data: ["Mad Tongue Alberich", "Roundtable Hold", "1562 runes, Taunter's Tongue, Furlcalling Finger Remedy", "NPC invader. Jump off the balcony to area below and go near the large set of doors to trigger."]
+        data_it: ["Alberich Lingua Pura", "Rocca della Tavola Rotonda", "1562 rune, Lingua del provocatore, Rimedio del Dito invocatore", "NPC invasore. Salta giù dal balcone e avvicinati alle larghe doppie porte per attivarlo."]
         #TODO
       - id: "3_2"
         data: ["Ensha of the Royal Remains", "Roundtable Hold", "Clinging Bone Fist, Royal Remains Set", "Edgelord. Attacks you as an NPC invader after you get one half of the Haligree Secret Medallion."]
+        data_it: ["Ensha delle Ossa reali", "Rocca della Tavola Rotonda", "Osso aggrappante, Set delle Ossa reali", "Ti attacca come NPC invasore quando ritorni alla Rocca dopo aver trovato una metà del Ciondolo segreto del Sacro Albero."]
         #TODO
   -
     title: "Liurnia of the Lakes"
+    title_it: "Liurnia lacustre"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "4_1"
         data: ["Cleanrot Knight", "Stillwater Cave", "3300 Runes, Winged Sword Insignia, Cleanrot Knight's Sword", ""]
+        data_it: ["Cavaliere del Nobile marciume", "Caverna di Acquafèrma", "3300 rune, Stemma con spada alata, Spada del Nobile marciume", ""]
         cords: [2960, 6299]
       - id: "4_37"
         data: ["Bloodhound Knight", "Lakeside Crystal Cave", "3600 runes, Cerulean Amber Medallion", "Required to meet Latenna."]
+        data_it: ["Cavaliere Limiere", "Caverna di cristallo di Vista lago", "3600 rune, Medaglione d'ambra cerulea", "Necessario per incontrare Latenna."]
         cords: [2307, 6007]
       - id: "4_2"
         data: ["Adan, Thief of Fire", "Malefactor's Evergaol", "3800 runes, Flame of the Fell God Incantation (Legendary)", ""]
+        data_it: ["Adan, il ladro del fuoco", "Galera eterna del malfattore", "3800 rune, Fiamma del Dio Caduto (Leggendario)", ""]
         cords: [2678, 6108]
       - id: "4_3"
         data: ["Erdtree Burial Watchdog", "Cliffbottom Catacombs", "3200 runes, Kaiden Sellsword Ashes", ""]
+        data_it: ["Cane da guardia sepolcrale dell'Albero Madre", "Catacombe in fondo al dirupo", "3200 rune, Ceneri di mercenario di Kaiden", ""]
         cords: [3014, 5936]
       - id: "4_4"
         data: ["Tibia Mariner", "East Liurnia", "4700 runes, Deathroot, Skeletal Bandit Ashes", "Field boss."]
+        data_it: ["Nochiero tibiale", "Liurnia orientale", "4700 rune, Radice mortale, Ceneri di bandito scheletrico", "Boss nell'overworld."]
         cords: [2874, 5272]
       - id: "4_6"
         data: ["Preceptor Miriam", "Carian Study Hall", "5000 runes, Magic Downpour Sorcery", "NPC invader. 1st invasion."]
+        data_it: ["Precettore Miriam", "Sala di studio cariana", "5000 rune, Pioggia magica", "NPC invasore. Prima invasione."]
         cords: [2927, 5193]
         map_title: "Preceptor Miriam (NPC invader)"
       - id: "4_39"
         data: ["Preceptor Miriam", "Carian Study Hall (Inverted)", "5000 runes, Lucidity Sorcery", "NPC invader. 2nd invasion."]
+        data_it: ["Precettore Miriam", "Sala di studio cariana (Rovesciata)", "5000 rune, Lucidità", "NPC invasore. Seconda invasione."]
         cords: [2934, 5220]
         map_title: "Preceptor Miriam (NPC invader)"
       - id: "4_7"
         data: ["Godskin Noble", "Carian Study Hall (Inverted)/Divine Tower of Liurnia Bridge", "4810 runes, Godskin Noble Set", ""]
+        data_it: ["Nobile Sacriderma", "Sala di studio cariana (Rovesciata)/Ponte della Torre Divina di Liurnia", "4810 rune, Set del Nobile Sacriderma", ""]
         cords: [3120, 5172]
       - id: "4_5"
         data: ["Night's Cavalry", "Gate Town Bridge", "5600 runes, Ash of War: Ice Spear", "Night only."]
+        data_it: ["Cavaliere notturno", "Ponte per Borgo del cancello", "5600 rune, Cenere di Guerra: Lancia di ghiaccio", "Solo di notte."]
         cords: [2842, 5530]
         map_title: "Night's Cavalry (Night only)"
       - id: "4_8"
         data: ["Deathbird", "Scenic Isle", "Red-Feathered Branchsword Talisman", "Night only."]
+        data_it: ["Uccello della Morte", "Isola panoramica", "Talismano Spada-ramoscello dalle piume rosse", "Solo di notte."]
         cords: [2385, 5645]
         map_title: "Deathbird (Night only)"
       - id: "4_9"
         data: ["Grafted Scion", "Fallen Ruins of the Lake", "1283 runes, Larval Tear", "Field boss. Disguised as a lobster. Kill the lobster in the area and it will turn into a Grafted Scion."]
+        data_it: ["Progenie innestata", "Rovine immerse del lago", "1283 rune, Lacrima di larva", "Boss nell'overworld. Travestita da astice. Uccidi l'astice in zona e si trasformerà in una Progenie innestata."]
         cords: [1992, 5432]
         map_title: "Grafted Scion (Kill the Lobster first)"
       - id: "4_10"
         data: ["Glintstone Dragon Smarag", "Temple Quarter", "14,000 runes, Dragon Heart", "Field boss. Usually sleeping. Guarding the Academy Glintstone Key."]
+        data_it: ["Smarag, il Drago di scintipietra", "Quartiere del tempio", "14.000 rune, Cuore di drago", "Boss nell'overworld. Spesso addormentato. Fa la guardia alla Chiave di scintipietra dell'Accademia."]
         cords: [1620, 4953]
       - id: "4_11"
         data: ["Crystalian (Spear) & Crystalian (Staff)", "Academy Crystal Cave", "3300 runes, Crystal Release Sorcery", "Take the lift behind the boss room, open the chest for Terra Magica Sorcery."]
+        data_it: ["Cristalliana (Lancia) & Cristalliana (Bastone)", "Caverna di cristallo dell'Accademia", "3300 rune, Prigionia di cristallo", "Prendi il montacarichi dietro la stanza del boss, apri la cassa per la Stregoneria Terra Magica."]
         cords: [1678, 4835]
       - id: "4_12"
         data: ["Death Rite Bird", "Gate Town North", "7800 runes, Ancient Death Rancor Sorcery", "Field boss. Night only."]
+        data_it: ["Uccello del rito della Morte", "Nord di Borgo del cancello", "7800 rune, Antico rancore mortale", "Boss nell'overworld. Solo di notte."]
         cords: [2144, 4941]
         map_title: "Death Rite Bird (Night only)"
       - id: "4_13"
         data: ["Crystalian (Ringblade)", "Raya Lucaria Crystal Tunnel", "3000 runes, Smithing-Stone Miner's Bell Bearing [1]", "Unlocks Smithing Stones 1 & 2 for purchase from Twin Maiden Husks."]
+        data_it: ["Cristalliana (Lama ad anello)", "Galleria di cristallo di Raya Lucaria", "3000 rune, Globo cinereo del minatore forgiatore [1]", "Sblocca le Pietre da forgiatura 1 e 2 per l'acquisto dai Resti della Leggidita gemelle."]
         cords: [2316, 4453]
       - id: "4_14"
         data: ["Bell Bearing Hunter", "Church of Vows", "6000 runes, Meat Peddler's Bell Bearing", "Field boss. Night only. Buy something from Miriel. Pass time, then rest once to summon."]
+        data_it: ["Cacciatore di Globi cinerei", "Chiesa dei Voti", "6000 rune, Globo cinereo del mercante di carne", "Boss nell'overworld. Solo di notte. Compra qualcosa da Miriel. Fai passare il tempo, poi riposa una volta per evocarlo."]
         cords: [2388, 4724]
         map_title: "Bell Bearing Hunter (Night only)"
       - id: "4_16"
         data: ["Cemetery Shade", "Black Knife Catacombs", "3500 runes, Twinsage Sorcerer Ashes, Deathroot", "Main boss of the dungeon."]
+        data_it: ["Ombra cimiteriale", "Catacombe dei Neri Coltelli", "3500 rune, Ceneri di stregone Bicefalo, Radice mortale", "Boss principale del dungeon."]
         cords: [2867, 4090]
       - id: "4_17"
         data: ["Black Knife Assassin", "Black Knife Catacombs", "1600 runes, Assassin's Cerulean Dagger Talisman, Black Knifeprint (Key Item)", "Secret boss, hidden behind illusory wall. Related to Rogier and Fia's questlines."]
+        data_it: ["Assassina dei Neri Coltelli", "Catacombe dei Neri Coltelli", "1600 rune, Pugnale ceruleo dell'assassino, Impronta di Nero Coltello", "Boss segreto, nascosto dietro a un muro illusorio. Legato alle missioni di Rogier e Fia."]
         cords: [2883, 4091]
       - id: "4_18"
         data: ["Festering Fingerprint Vyke", "Church of Inhibition", "Vyke's War Spear, Fingerprint Grape (Key Item), Furlcalling Finger Remedy", "NPC invader."]
+        data_it: ["Vyke, Dito della Putrefazione", "Chiesa dell'Inibizione", "Lancia da guerra di Vyke, Uva di impronta digitale, Rimedio del Dito invocatore", "NPC invasore."]
         cords: [2492, 4028]
         map_title: "Festering Fingerprint Vyke (NPC invader)"
       - id: "4_15"
         data: ["Erdtree Avatar", "Minor Erdtree (East)", "5800 runes, Holy-Shrouding Cracked Tear, Lightning-Shrouding Cracked Tear, Magic-Shrouding Cracked Tear", "Field boss."]
+        data_it: ["Incarnazione dell'Albero Madre", "Albero Madre Minore (Est)", "5800 rune, Lacrima incrinata ammantata di sacro, Lacrima incrinata ammantata di fulmine, Lacrima incrinata ammantata di magia", "Boss nell'overworld."]
         cords: [2699, 4316]
       - id: "4_19"
         data: ["Night's Cavalry", "Bellum Highway Forest", "5600 runes, Ash of War: Giant Hunt, Nightrider Glaive", "Field boss. Night only."]
+        data_it: ["Cavaliere notturno", "Foresta della Strada Maestra di Bellum", "5600 rune, Cenere di Guerra: Caccia ai giganti, Falso dardo del Cavaliere notturno", "Boss nell'overworld. Solo di notte."]
         cords: [2173, 4230]
         map_title: "Night's Cavalry (Night only)"
       - id: "4_26"
         data: ["Omenkiller", "Village of the Albinaurics", "4900 runes, Crucible Knot Talisman", "Watch out for dogs."]
+        data_it: ["Ammazzapresagi", "Villaggio degli Albinauri", "4900 rune, Talismano del nodo crogiolare", "Attento ai cani."]
         cords: [1869, 5764]
         map_title: "Omenkiller (Underground, Village of the Albinaurics)"
       - id: "4_24"
         data: ["Erdtree Avatar", "Minor Erdtree (West)", "5800 runes, Cerulean Crystal Tear, Ruptured Crystal Tear", "Field boss."]
+        data_it: ["Incarnazione dell'Albero Madre", "Albero Madre Minore (Ovest)", "5800 rune, Lacrima di cristallo cerulea, Lacrima di cristallo rotta", "Boss nell'overworld."]
         cords: [1438, 5454]
       - id: "4_25"
         data: ["Spirit-Caller Snail", "Road's End Catacombs", "3000 runes, Glintstone Sorcerer Ashes", "Avoid the spectral summon enemies and kill the invisible Snail."]
+        data_it: ["Lumaca evocatrice di spiriti", "Catacombe Fine della Strada", "3000 rune, Ceneri di stregone di scintipietra", "Evita i nemici spettrali evocati e uccidi la lumaca invisibile."]
         cords: [1402, 5518]
       - id: "4_23"
         data: ["Edgar, the Revenger", "Revenger's Shack", "316 runes, Furlcalling Finger Remedy, Shabriri Grape, Banished Knight's Halberd (+8), Raw Meat Dumpling (x5)", "NPC invader after interacting with the Revenger's Shack Site of Grace. Note: There's a glitch if you rest at the Grace and leave before he invades, he may never invade when you come back."]
+        data_it: ["Edgar, il Vendicatore", "Capanna del Vendicatore", "316 rune, Rimedio del Dito invocatore, Uva di Shabriri, Alabarda del Cavaliere esiliato (+8), Raviolo di carne cruda (x5)", "NPC invasore dopo aver interagito con la Grazia. Nota: C'è un bug in cui se riposi alla grazia e te ne vai prima che invada, potrebbe non invaderti mai più."]
         cords: [1433, 5227]
         map_title: "Edgar, the Revenger (NPC invader)"
       - id: "4_22"
         data: ["Bols, Carian Knight", "Cuckoo's Evergaol", "4600 runes, Greatblade Phalanx", ""]
+        data_it: ["Bols, il cavaliere cariano", "Galera eterna del cuculo", "4600 rune, Falange dello spadone", ""]
         cords: [1380, 5022]
       - id: "4_21"
         data: ["Grafted Scion", "Chapel of Anticipation", "3200 runes, Ornamental Straight Sword, Golden Beast Crest Shield", "Not really in Liurnia, closer to Stormveil. But you can only access via The Four Belfries in Liurnia."]
+        data_it: ["Progenie innestata", "Cappella dell'Attesa", "3200 rune, Spada dritta ornamentale, Scudo dorato del blasone bestiale", "Più vicino a Grantempesta che a Liurnia. Ma vi si accede solo dai Quattro Campanili in Liurnia."]
         cords: [2776, 6652]
         map_title: "Grafted Scion (via The Four Belfries in Western Liurnia)"
       - id: "4_20"
         data: ["Royal Revenant", "Kingsrealm Ruins Underground", "3100 Runes", "Extremely weak to the Heal spell."]
+        data_it: ["Cavaliere redivivo (Revenant reale)", "Sotterranei delle Rovine dei re", "3100 rune", "Estremamente debole all'incantesimo Guarigione."]
         cords: [1706, 4136]      
       - id: "4_27"
         data: ["Royal Knight Loretta", "Caria Manor", "10,000 runes, Loretta's Greatbow, Ash of War: Loretta's Slash", "Grants Achievement/Trophy: #Royal Knight Loretta."]
+        data_it: ["Loretta, Cavaliere reale", "Maniero Cariano", "10.000 rune, Arco maggiore di Loretta, Cenere di Guerra: Fendente di Loretta", "Conferisce Obiettivo/Trofeo: Loretta, Guardia reale."]
         cords: [1892, 3606]
       - id: "4_28"
         data: ["Red Wolf", "Behind Caria Manor", "4158 runes", "Field boss. Boss enemy, but not real boss."]
+        data_it: ["Lupo Rosso", "Dietro al Maniero Cariano", "4158 rune", "Boss nell'overworld. Nemico tipo boss, ma non un 'vero boss'."]
         cords: [2235, 3795]
       - id: "4_29"
         data: ["Alabaster Lord (Onyx Lord)", "Royal Grave Evergaol", "3600 runes, Meteorite Sorcery", ""]
+        data_it: ["Signore della Pietra d'onice", "Galera eterna del cimitero reale", "3600 rune, Meteorite", ""]
         cords: [2288, 3688]
       - id: "4_30"
         data: ["Glintstone Dragon Adula", "Three Sisters", "0 runes", "Field boss. Disappears from Three Sisters mid-fight, then reappears at Moonlight Altar."]
+        data_it: ["Adula, drago di scintipietra", "Tre Sorelle", "0 rune", "Boss nell'overworld. Scompare da Tre Sorelle a metà scontro, per poi riapparire all'Altare del Chiaro di Luna."]
         cords: [1725, 3649]
       - id: "4_40"
         data: ["Glintstone Dragon Adula", "Cathedral of Manus Celes (North of Moonlight Altar)", "120,000 runes, Adula's Moonblade Sorcery, Dragon Heart (x3)", "Field boss. ONLY accessible via Ranni's questline."]
+        data_it: ["Adula, drago di scintipietra", "Cattedrale di Manus Celes (Nord dell'Altare del Chiaro di Luna)", "120.000 rune, Lama lunare di Adula, Cuore di drago (x3)", "Boss nell'overworld. Accessibile SOLO tramite la missione di Ranni."]
         cords: [1792, 5791]
       - id: "4_31"
         data: ["Red Wolf", "Moonlight Altar (West of Deep Ainsel Well)", "4158 runes", "Field boss. ONLY accessible via Ranni's questline."]
+        data_it: ["Lupo Rosso", "Altare del Chiaro di Luna (Ovest del Pozzo profondo dell'Ainsel)", "4158 rune", "Boss nell'overworld. Accessibile SOLO tramite la missione di Ranni."]
         cords: [1439, 6006]
       - id: "4_32"
         data: ["Alecto, Black Knife Ringleader", "Ringleader's Evergaol", "80,000 runes, Black Knife Tiche Ashes (Legendary)", "ONLY accessible via Ranni's questline."]
+        data_it: ["Alecto, Capo dei Neri Coltelli", "Galera eterna del capo", "80.000 rune, Tiche dei Neri Coltelli (Leggendarie)", "Accessibile SOLO tramite la missione di Ranni."]
         cords: [1384, 5686]
       - id: "4_34"
         data: ["Bloody Finger Ravenmount Assassin", "Raya Lucaria Academy", "Winning the fight: Rune Arc, Furlcalling Finger Remedy. Upon returning to your own world: Ash of War: Raptor of the Mists. Speak to Yura: Smithing Stone [5].", "Invade his world, part of Yura's questline. To find the Red Summon Sign: Go Nrth from Main Academy Gate Site of Grace."]
+        data_it: ["Assassina dei Neri Coltelli", "Accademia di Raya Lucaria", "Vincendo lo scontro: Arco Runico, Rimedio del Dito invocatore. Tornando nel tuo mondo: Cenere di Guerra: Rapace delle nebbie. Parlando con Yura: Pietra da forgiatura [5].", "Invadi il suo mondo, parte della missione di Yura. Per il Segno d'Evocazione rosso: Vai a Nord dalla Grazia del Cancello dell'Accademia."]
         cords: [1873, 4696]
       - id: "4_35"
         data: ["Red Wolf of Radagon", "Raya Lucaria Academy", "14,000 runes, Memory Stone", "Main boss. Required to get to Rennala, Queen of the Full Moon. Grants Achievement/Trophy: Red Wolf of Radagon."]
+        data_it: ["Lupo rosso di Radagon", "Accademia di Raya Lucaria", "14.000 rune, Pietra della memoria", "Boss principale. Necessario per raggiungere Rennala. Conferisce Obiettivo/Trofeo: Lupo rosso di Radagon."]
         cords: [1953, 5019]
       - id: "4_38"
         data: ["Moongrum, Carian Knight", "Raya Lucaria Academy", "3000 runes, Carian Knight's Shield", "Will use 1 healing flask."]
+        data_it: ["Moongrum, il cavaliere cariano", "Accademia di Raya Lucaria", "3000 rune, Scudo del cavaliere cariano", "Userà 1 ampolla curativa."]
         cords: [1928, 4853]
       - id: "4_36"
         map_icon: "/map/icons/shadows/tools/remembrances/00172.png"
         data: ["Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "40,000 runes, Great Rune of the Unborn, Remembrance of the Full Moon Queen", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Rennala, Queen of the Full Moon."]
+        data_it: ["Rennala, Regina del Plenilunio", "Accademia di Raya Lucaria", "40.000 rune, Runa maggiore del Nonnato, Rimembranza della Regina del Plenilunio", "Boss principale. Semi-obbligatorio per la progressione. Conferisce Obiettivo/Trofeo: Rennala, Regina del Plenilunio."]
         cords: [1856, 4823]
       - id: "4_33"
         data: ["Magma Wyrm Makar", "Ruin-Strewn Precipice", "24,000 runes, Magma Wyrm's Scalesword, Dragon Heart", "Required if you want to bypass Grand Lift of Dectus to get to Altus Plataeu. Grants Achievement/Trophy: Magma Wyrm Makar."]
+        data_it: ["Makar, Drago di magma", "Precipizio disseminato di rovine", "24.000 rune, Spadaccione scaglioso del drago di magma, Cuore di drago", "Obbligatorio se vuoi evitare il Grande Montacarichi per raggiungere l'Altopiano di Altus. Conferisce Obiettivo/Trofeo: Makar, Drago di magma."]
         cords: [2448, 3607]
   -
     title: "Caelid"
+    title_it: "Caelid"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "5_1"
         data: ["Magma Wyrm", "Gael Tunnel", "7500 runes, Moonveil, Dragon Heart", ""]
+        data_it: ["Drago di magma", "Galleria di Gael", "7500 rune, Velo Lunare, Cuore di drago", ""]
         cords: [4812, 6462]
       - id: "5_2"
         data: ["Putrid Avatar", "Minor Erdtree (West)", "9600 runes, Greenburst Crystal Tear, Flame-Shrouding Cracked Tear", ""]
+        data_it: ["Incarnazione putrida", "Albero Madre Minore (Ovest)", "9600 rune, Lacrima di cristallo verde dirompente, Lacrima incrinata ammantata di fiamma", ""]
         cords: [4904, 6126]
       - id: "5_3"
         data: ["Erdtree Burial Watchdog (Sword) & Erdtree Burial Watchdog (Staff)", "Minor Erdtree Catacombs", "7400 runes, Mad Pumpkin Head Ashes", ""]
+        data_it: ["Cane da guardia sepolcrale dell'Albero Madre (Spada e Bastone)", "Catacombe dell'Albero Madre Minore", "7400 rune, Ceneri del Testa di Zucca impazzito", ""]
         cords: [4983, 6171]
       - id: "5_4"
         data: ["Mad Pumpkin Head (Hammer) & Mad Pumpkin Head (Flail)", "Caelem Ruins Underground", "6300 runes, Visage Shield (chest in the next room)", ""]
+        data_it: ["Testa di Zucca impazzito (Martello e Mazzafrusto)", "Sotterranei delle Rovine di Caelem", "6300 rune, Scudo Viso (cassa nella stanza successiva)", ""]
         cords: [5135, 6420]
       - id: "5_5"
         data: ["Knight of the Great Jar (x3)", "Caelid Colosseum", "Great-Jar's Arsenal Charm Talisman", "NPC invaders. Defeat all 3 in one life to get a reward from the Great Jar."]
+        data_it: ["Cavaliere del Grande Vaso (x3)", "Arena di Caelid", "Talismano Arsenale del Grande Vaso", "NPC invasori. Sconfiggili tutti e 3 per ottenere la ricompensa del Grande Vaso."]
         cords: [4985, 5898]
         map_title: "Knight of the Great Jar (x3) (NPC Invaders)"
       - id: "5_30"
         data: ["Lion Guardian", "Fort Gael", "Ash of War: Lion's Claw", "Go around the side, find the ladder to get inside the Fort."] #TODO: ADD RUNES
+        data_it: ["Leone guardiano", "Forte Gael", "Cenere di Guerra: Artiglio del leone", "Gira intorno al lato, trova la scala per entrare nel forte."]
         cords: [4872, 6806]
       - id: "5_6"
         data: ["Frenzied Duelist", "Gaol Cave", "6700 runes, Putrid Corpse Ashes", "After the fight, don't take the warp back to the beginning. Instead go through the cave exit to find a cliffside with Regalia of Eochaid (straight sword) on a corpse."]
+        data_it: ["Duellante frenetico", "Caverna della galera", "6700 rune, Ceneri di cadavere putrido", "Dopo lo scontro non usare il teletrasporto, ma esci dalla grotta fino a un dirupo dove si trova la Regalia di Eochaid su un cadavere."]
         cords: [4942, 6746]
       - id: "5_7"
         data: ["Decaying Ekzykes", "Caelid Highway South", "38,000 runes, Dragon Heart", "Pale white dragon with patches blighted by scarlet rot."]
+        data_it: ["Ekzykes il Decadente", "Strada Maestra di Caelid meridionale", "38.000 rune, Cuore di drago", "Drago pallido flagellato dalla marcescenza scarlatta."]
         cords: [5193, 7042]
       - id: "5_28"
         data: ["Cemetery Shade", "Caelid Catacombs", "Kindred of Rot Ashes", ""]
+        data_it: ["Ombra cimiteriale", "Catacombe di Caelid", "Ceneri della Progenie della putrefazione", ""]
         cords: [5347, 7178]
       - id: "5_8"
         data: ["Night's Cavalry", "Caelid Highway South", "8500 runes, Ash of War: Poison Moth Flight", "Field boss. Night only."]
+        data_it: ["Cavaliere notturno", "Strada Maestra di Caelid meridionale", "8500 rune, Cenere di Guerra: Volo della falena velenosa", "Boss nell'overworld. Solo di notte."]
         cords: [5372, 7018]
         map_title: "Night's Cavalry (Night only)"
       - id: "5_31"
         data: ["Lion Guardian", "Southeast of the Southern Aeonia Swamp Bank", "Somber Smithing Stone [4], Beast Blood, Old Fang (x2)", "Hiding in a small dead end between 2 mounds."] #TODO: ADD RUNES
+        data_it: ["Leone guardiano", "Sudest della Riva meridionale della palude di Aeonia", "Pietra da forgiatura funerea [4], Sangue di bestia, Vecchia zanna (x2)", "Nascosto in un vicolo cieco tra 2 alture."]
         cords: [5574, 7091]
       - id: "5_9"
         data: ["Death Rite Bird", "Southern Aeonia Swamp Bank", "15,000 runes, Death's Poker Greatsword", "Field boss. Night only."]
+        data_it: ["Uccello del rito della Morte", "Riva meridionale della palude di Aeonia", "15.000 rune, Attizzatoio della Morte", "Boss nell'overworld. Solo di notte."]
         cords: [5604, 7001]
         map_title: "Death Rite Bird (Night only)"
       - id: "5_10"
         data: ["Commander O'Neil", "Aeonia Swamp", "12,000 runes, Commander's Standard Halberd, Unalloyed Gold Needle (Key Item)", ""]
+        data_it: ["Comandante O'Neil", "Palude di Aeonia", "12.000 rune, Stendardo del comandante, Ago d'oro puro", ""]
         cords: [5476, 6724]
       - id: "5_11"
         data: ["Milicent", "Aeonia Swamp", "316 runes, Sacramental Bud (x5), Golden Rune [3], Golden Rune [5], Golden Rune [10]", "NPC invader."]
+        data_it: ["Millicent", "Palude di Aeonia", "316 rune, Germoglio sacramentale (x5), Runa aurea [3], Runa aurea [5], Runa aurea [10]", "NPC invasore."]
         cords: [5393, 6753]
         map_title: "Milicent (NPC Invader)"
       - id: "5_12"
         data: ["Nox Priest & Nox Swordstress", "Chair-Crypt of Sellia", "6400 runes, Nox Flowing Sword", "Guarding a chest with Lusat's Glintstone Staff. Their chamber is initially sealed with a barrier that requires you to light a brazier in the Northwest section of the map by jumping across the rooftops."]
+        data_it: ["Sacerdotessa di Nox & Spadaccina di Nox", "Cripta del Seggio di Sellia", "6400 rune, Spada fluida di Nox", "A guardia della cassa per il Bastone di scintipietra di Lusat. La loro stanza è sigillata finché non accendi il braciere a Nordovest della mappa saltando sui tetti."]
         cords: [5598, 6450]
       - id: "5_32"
         data: ["Bloodhound Knight", "Swamp Lookout Tower", "", "Guarding a chest with Eternal Darkness Sorcery. You'll need to light all the braziers in Sellia to get access to the uphill road, then cross the Sellia Gateway Bridge."] #TODO: ADD RUNES, DROPS
+        data_it: ["Cavaliere Limiere", "Torre di guardia della palude", "", "A guardia di una cassa con la Stregoneria Tenebra eterna. Devi accendere tutti i bracieri di Sellia per accedere alla strada segreta in salita."]
       - id: "5_33"
         data: ["Pot Throwing Troll", "Above the Sellia Gateway", "", "You'll need to light all the braziers in Sellia to get access to the uphill road that leads to the Troll."] #TODO: ADD RUNES, DROPS
+        data_it: ["Troll lanciatore di vasi", "Sopra l'Entrata per Sellia", "", "Devi accendere tutti i bracieri di Sellia per accedere alla strada segreta in salita che porta al Troll."]
       - id: "5_13"
         data: ["Fallingstar Beast", "Sellia Crystal Tunnel", "7600 runes, Somberstone Miner's Bell Bearing [1], Smithing Stone [7] (x5), Somber Smithing Stone [6], Gravity Stone Chunk (x4)", ""]
+        data_it: ["Belva meteoritica", "Galleria di cristallo di Sellia", "7600 rune, Globo cinereo del minatore funereo [1], Pietra da forgiatura [7] (x5), Pietra da forgiatura funerea [6], Frammento di pietra gravitazionale (x4)", ""]
         cords: [5533, 6382]
       - id: "5_14"
         data: ["Cleanrot Knight (Sickle) & Cleanrot Knight (Spear)", "Abandoned Cave", "7000 Runes, Gold Scarab Talisman", ""]
+        data_it: ["Cavaliere del Nobile marciume (Falce e Lancia)", "Caverna abbandonata", "7000 rune, Talismano Scarabeo d'oro", ""]
         cords: [5416, 6444]
       - id: "5_15"
         data: ["Battlemage Hugues", "Sellia Evergaol", "7800 runes, Battlemage Hugues Ashes", ""]
+        data_it: ["Hugues, il Mago della battaglia", "Galera eterna di Sellia", "7800 rune, Ceneri di Hugues, Mago della battaglia", ""]
         cords: [5429, 6490]
       - id: "5_16"
         data: ["Elder Dragon Greyoll", "Fort Faroth (Outside)", "50,000 runes, Dragon Heart, Unlocks Elder Dragon Greyoll's Roar (Dragon Communion Incantation)", "5423 Runes (for each smaller Dragon around it)"]
+        data_it: ["Drago anziano Greyoll", "Forte Faroth (Esterno)", "50.000 rune, Cuore di drago, Sblocca Ruggito di Greyoll (Incantesimo draconico)", "5423 Rune (per ogni drago piccolo intorno a lei)."]
         cords: [5834, 6368]
       - id: "5_17"
         data: ["Putrid Crystalian (Spear), Putrid Crystalian (Ringblade) & Putrid Crystalian (Staff)", "Sellia Hideaway", "7000 runes, Crystal Torrent Sorcery", "Annoying as all hell."]
+        data_it: ["Cristalliana putrida (Lancia, Lama ad anello e Bastone)", "Nascondiglio di Sellia", "7000 rune, Torrente di cristallo", "Molto fastidiose."]
         cords: [5896, 6451]
         map_title: "Putrid Crystalian (Spear, Ringblade & Staff)"
       - id: "5_18"
         data: ["Godskin Apostle", "Divine Tower of Caelid (Basement)", "94,000 runes, Godskin Apostle Set", "Guarding a chest with Godslayer's Greatsword."]
+        data_it: ["Apostolo Sacriderma", "Torre Divina di Caelid (Seminterrato)", "94.000 rune, Set dell'Apostolo Sacriderma", "Protegge la cassa con lo Spadone deicida."]
         cords: [5601, 6031]
       - id: "5_20"
         data: ["Putrid Avatar", "Minor Erdtree (East)", "91,000 runes, Opaline Hardtear, Stonebarb Cracked Tear", "Field boss."]
+        data_it: ["Incarnazione putrida", "Albero Madre Minore (Est)", "91.000 rune, Lacrima di cristallo dura opalina, Lacrima incrinata spinata", "Boss nell'overworld."]
         cords: [6040, 6184]
       - id: "5_19"
         data: ["Bell Bearing Hunter", "Isolated Merchant's Shack", "50,000 runes, Gravity Stone Peddler's Bell Bearing", "Field boss. Night only. Buy something from merchant. Pass time, then rest once to summon."]
+        data_it: ["Cacciatore di Globi cinerei", "Capanna del mercante isolato", "50.000 rune, Globo cinereo del mercante di pietre granitiche", "Boss nell'overworld. Solo di notte. Compra qualcosa. Fai passare il tempo, poi riposa una volta per evocarlo."]
         cords: [5130, 6117]
         map_title: "Bell Bearing Hunter (Night only)"        
       - id: "5_21"
         data: ["Beastman of Farum Azula (Greatsword) & Beastman of Farum Azula (Throwing Knife)", "Dragonbarrow Cave", "65,000 runes, Flamedrake Talisman [+2]", ""]
+        data_it: ["Uomo bestia di Farum Azula (Spadone e Coltello da lancio)", "Caverna del Tumulodrago", "65.000 rune, Talismano del drago di fuoco [+2]", ""]
         cords: [5993, 6121]
         map_title: "Beastman of Farum Azula (Greatsword & Throwing Knife)"
       - id: "5_35"
         data: ["Mage Golem", "Hidden Lower Area Below Eastern Minor Erdtree", "", "From the Erdtree, drop down from the cliffside onto a series of branches. Guardian the \"Redmane Painting Ghost\" that gives Ash of War: Rain of Arrows."] #TODO: ADD RUNES, DROPS
+        data_it: ["Mago Golem", "Area Nascosta Sotto l'Albero Madre Minore Orientale", "", "Dall'Albero, scendi dalla rupe su una serie di rami. Protegge il 'Fantasma del quadro criniera rossa' che dà Cenere di Guerra: Pioggia di frecce."]
       - id: "5_23"
         data: ["Flying Dragon Greyll", "Farum Greatbridge", "80,000 runes, Dragon Heart", ""]
+        data_it: ["Greyll, Drago volante", "Granponte di Farum", "80.000 rune, Cuore di drago", ""]
         cords: [6155, 5839]
       - id: "5_24"
         data: ["Black Blade Kindred", "Bestial Sanctum (Outside)", "88,000 runes, Gargoyle's Blackblade, Gargoyle's Black Halberd", ""]
+        data_it: ["Stirpe della Lama Nera", "Santuario ferino (Esterno)", "88.000 rune, Lama Nera del Gargoyle, Alabarda Nera del Gargoyle", ""]
         cords: [6002, 5519]
       - id: "5_25"
         data: ["Gurranq, Beast Clergyman", "Bestial Sanctum (Inside)", "Ancient Dragon Smithing Stone", "Only triggers after you give him 4 Deathroots."]
+        data_it: ["Chierico bestiale Gurranq", "Santuario ferino (Interno)", "Pietra da forgiatura del drago antico", "Si attiva solo dopo avergli consegnato 4 Radici mortali."]
         cords: [5931, 5462]
       - id: "5_22"
         data: ["Night's Cavalry", "Lenne's Rise Bridge/Dragonbarrow", "42,000 runes, Ash of War: Bloodhound's Step", "Field boss. Night only."]
+        data_it: ["Cavaliere notturno", "Ponte della Guglia di Lenne/Tumulodrago", "42.000 rune, Cenere di Guerra: Passo del Limiere", "Boss nell'overworld. Solo di notte."]
         cords: [6276, 5894]
         map_title: "Night's Cavalry (Night only)"
       - id: "5_34"
@@ -413,216 +539,311 @@ sections:
         cords: [6307, 6133]
   -
     title: "Altus Plateau"
+    title_it: "Altopiano di Altus"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "6_1"
         data: ["Godefroy the Grafted", "Golden Lineage Evergaol", "26,000 runes, Godfrey Icon Talisman (Legendary)", ""]
+        data_it: ["Godefroy l'Innestato", "Galera eterna della Stirpe aurea", "26.000 rune, Icona di Godfrey (Leggendaria)", ""]
       - id: "7_4"
         data: ["Necromancer Garris", "Sage's Cave", "0 runes, Family Heads Flail", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Necromante Garris", "Caverna del Saggio", "0 rune, Teste di famiglia", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "6_17"
         data: ["Black Knife Assassin", "Sage's Cave", "9000 runes, Concealing Veil Talisman", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Assassina dei Neri Coltelli", "Caverna del Saggio", "9000 rune, Velo d'occultamento", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "7_6"
         data: ["Stonedigger Troll", "Old Altus Tunnel", "9600 runes, Great Club", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Troll scavapietra", "Vecchia galleria di Altus", "9600 rune, Randello maggiore", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "6_2"
         data: ["Night's Cavalry", "Altus Highway", "10,500 runes, Ash of War: Shared Order", "Field boss. Nighttime only."]
+        data_it: ["Cavaliere notturno", "Strada Maestra di Altus", "10.500 rune, Cenere di Guerra: Ordine condiviso", "Boss nell'overworld. Solo di notte."]
       - id: "6_3"
         data: ["Demi-Human Queen Gilika", "Lux Ruins", "8500 runes, Ritual Sword Talisman (chest in the next room)", "Field boss."]
+        data_it: ["Gilika, Regina semiumana", "Rovine di Lux", "8500 rune, Talismano della spada rituale (cassa nella stanza successiva)", "Boss nell'overworld."]
       - id: "6_4"
         data: ["Eleonora, Violet Bloody Finger", "Second Church of Marika", "3116 runes, Purifying Crystal Tear, Eleonora's Poleblade, Furlcalling Finger Remedy", "NPC invader. Part of Bloody Finger Hunter Yura's quest."]
+        data_it: ["Eleonora, Dito Sanguinante purpureo", "Seconda Chiesa di Marika", "3116 rune, Lacrima di cristallo purificatrice, Lama gemella di Eleonora, Rimedio del Dito invocatore", "NPC invasore. Parte della missione di Yura, cacciatore di Dita Sanguinanti."]
         cords: [2973, 3151]
         map_title: "Eleonora, Violet Bloody Finger (NPC invader)"
       - id: "6_5"
         data: ["Rileigh the Idle", "Bridge of Iniquity", "1828 runes, Rune Arc, Crepus's Vial Talisman, Black-Key Bolt (x20), Furlcalling Finger Remedy", "NPC. You can invade his world. Related to Volcano Manor quest."]
+        data_it: ["Rileigh l'Inoperoso", "Ponte dell'iniquità", "1828 rune, Arco Runico, Fiala di Crepus, Dardo della Chiave Nera (x20), Rimedio del Dito invocatore", "NPC. Puoi invadere il suo mondo. Legato alla missione di Villa Vulcano."]
       - id: "6_6"
         data: ["Sanguine Noble", "Writheblood Ruins", "8800 runes, Bloodrose", "Guarding a chest with Bloody Helice Heavy Thrusting Sword."]
+        data_it: ["Nobile sanguinario", "Rovine di Sanguesudicio", "8800 rune, Rosa di sangue", "A guardia di una cassa con la Spada da stocco pesante Elica sanguinaria."]
       - id: "6_7"
         data: ["Wormface", "Minor Erdtree", "10,000 runes, Speckled Hardtear, Crimsonspill Crystal Tear", "Field boss."]
+        data_it: ["Testa di Verme", "Albero Madre Minore", "10.000 rune, Lacrima dura chiazzata, Lacrima di cristallo versacremisi", "Boss nell'overworld."]
         cords: [3385, 2901]
       - id: "6_8"
         data: ["Godskin Apostle", "Dominula Windmill Village", "14,000 runes, Godskin Peeler Twinblade, Scouring Black Flame Incantation", ""]
+        data_it: ["Apostolo Sacriderma", "Dominula, il villaggio dei mulini", "14.000 rune, Scorticatore Sacriderma, Fiamma nera purificatrice", ""]
       - id: "6_19"
         data: ["Lion Guardian", "South of Windmill Village", "Larval Tear", "Field boss. Disguised as a Wandering Noble. Kill the enemy in the ruins area."] #TODO: ADD RUNES
+        data_it: ["Leone guardiano", "Sud del villaggio dei mulini", "Lacrima di larva", "Boss nell'overworld. Travestito da Nobile errante. Uccidi il nemico nell'area delle rovine."]
       - id: "6_9"
         data: ["Crystalian (Spear) & Crystalian (Ringblade)", "Altus Tunnel", "1800 runes, Somberstone Miner's Bell Bearing [2]", ""]
+        data_it: ["Cristalliana (Lancia) & Cristalliana (Lama ad anello)", "Galleria di Altus", "1800 rune, Globo cinereo del minatore funereo [2]", ""]
       - id: "6_10"
         data: ["Black Knife Assassin", "Sainted Hero's Grave (Entrance)", "10,800 runes, Black Knife Dagger", ""]
+        data_it: ["Assassina dei Neri Coltelli", "Tomba dell'Eroe devoto (Ingresso)", "10.800 rune, Daga del Nero Coltello", ""]
       - id: "6_20"
         data: ["Duelist (Shadow)", "Sainted Hero's Grave", "", "In the room with Prattling Pate. Must be defeated to unlock the boss door."] #TODO: ADD RUNES
+        data_it: ["Duellante (Ombra)", "Tomba dell'Eroe devoto", "", "Nella stanza col Vasellame chiacchierone. Deve essere sconfitto per sbloccare la porta del boss."]
       - id: "6_11"
         data: ["Ancient Hero of Zamor", "Sainted Hero's Grave", "24,000 runes, Ancient Dragon Knight Kristoff Ashes (Legendary)", ""]
+        data_it: ["Antico Eroe di Zamor", "Tomba dell'Eroe devoto", "24.000 rune, Ceneri di Kristoff, cavaliere del drago antico (Leggendarie)", ""]
       - id: "6_18"
         data: ["Malformed Star", "Perfumer's Grotto", "3844 Runes", "The enemy is in Perfumer's Grotto, but also visible/accessible midway through Altus Tunnel."]
+        data_it: ["Stella malformata", "Grotta del profumiere", "3844 rune", "Il nemico è nella Grotta del profumiere, ma è visibile/raggiungibile anche a metà della Galleria di Altus."]
       - id: "6_12"
         data: ["Omenkiller & Miranda, the Blighted Bloom", "Perfumer's Grotto", "8500 runes, Great Omenkiller Cleaver", ""]
+        data_it: ["Ammazzapresagi & Miranda, la Rovina in fiore", "Grotta del profumiere", "8500 rune, Mannaia da Ammazzapresagi", ""]
       - id: "6_13"
         data: ["Fallingstar Beast", "South Altus Plateau Crater", "11,000 runes, Somber Smithing Stone [5], Smithing Stone [6] (x5), Gravity Stone Fan, Gravity Stone Chunk", ""]
+        data_it: ["Belva meteoritica", "Cratere a sud dell'Altopiano di Altus", "11.000 rune, Pietra da forgiatura funerea [5], Pietra da forgiatura [6] (x5), Ventaglio di pietra gravitazionale, Frammento di pietra gravitazionale", ""]
         cords: [3497, 3608]
       - id: "6_14"
         data: ["Ancient Dragon Lansseax (Part 2)", "Rampartside (Southeast)", "60,000 runes, Lansseax's Glaive Incantation", "Part 1 of this encounter takes place in Mt. Gelmir."]
+        data_it: ["Lansseax, Drago antico (Parte 2)", "Baluardo (Sudest)", "60.000 rune, Fendente di Lansseax", "La prima parte di questo scontro ha luogo sul Monte Gelmir."]
       - id: "6_15"
         data: ["Tree Sentinel (x2)", "Leyndell Entrance", "20,000 runes, Erdtree Greatshield, Hero's Rune [1]", "Is one annoying bastard (x2)."]
+        data_it: ["Sentinella dell'Albero (x2)", "Ingresso di Leyndell", "20.000 rune, Scudo grande dell'Albero Madre, Runa dell'eroe [1]", "Maledetti bastardi fastidiosi (x2)."]
       - id: "6_16"
         data: ["Bell Bearing Hunter", "Hermit Merchant's Shack", "20,000 runes, Medicine Peddler's Bell Bearing", "Field boss. Nighttime only. Buy something from merchant. Pass time, then rest once to summon."]
+        data_it: ["Cacciatore di Globi cinerei", "Capanna del mercante eremita", "20.000 rune, Globo cinereo del mercante di medicine", "Boss nell'overworld. Solo di notte. Compra qualcosa dal mercante. Fai passare il tempo, poi riposa una volta per evocarlo."]
   -
     title: "Mt. Gelmir"
+    title_it: "Monte Gelmir"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "7_1"
         data: ["Ancient Dragon Lansseax (Part 1)", "Abandoned Coffin (Northwest)", "0 runes", "Part 2 of this encounter takes place in Altus Plateau. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Lansseax, Drago antico (Parte 1)", "Bara abbandonata (Nordovest)", "0 rune", "La seconda parte di questo scontro ha luogo nell'Altopiano di Altus. Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "7_2"
         data: ["Perfumer Tricia & Misbegotten Warrior", "Unsightly Catacombs", "9400 runes, Perfumer Tricia Ashes", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Profumiera Tricia & Guerriero scaglioso", "Catacombe dell'antiestetico", "9400 rune, Ceneri della profumiera Tricia", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "7_3"
         data: ["Tibia Mariner", "Wyndham Ruins", "14,000 runes, Deathroot, Tibia's Summons Sorcery", "Field boss. Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Nochiero tibiale", "Rovine di Wyndham", "14.000 rune, Radice mortale, Evocazione di Tibia", "Boss nell'overworld. Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
         cords: [2647, 3224]
       - id: "7_5"
         data: ["Erdtree Burial Watchdog", "Wyndham Catacombs", "12,000 runes, Glovewort Picker's Bell Bearing [1]", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Cane da guardia sepolcrale dell'Albero Madre", "Catacombe di Wyndham", "12.000 rune, Globo cinereo del raccoglitore di convallaria [1]", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "7_7"
         data: ["Maleigh Marais, Shaded Castle Castellan", "The Shaded Castle (West)", "4800 runes, Antspur Rapier, Marais Mask, Marais Robe", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map."]
+        data_it: ["Maleigh Marais, castellano del Castellombroso", "Castellombroso (Ovest)", "4800 rune, Stocco formicoso, Maschera di Marais, Veste di Marais", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa."]
       - id: "7_8"
         data: ["Elemer of the Briar", "The Shaded Castle", "24,000 runes, Marais Executioner's Sword (Legendary), Briar Greatshield", "Technically not in Mt. Gelmir, but part of Mt. Gelmir map. Grants Achievement/Trophy: Elemer of the Briar."]
+        data_it: ["Elemer del Rovo", "Castellombroso", "24.000 rune, Spada da carnefice di Marais (Leggendaria), Scudo grande di rovi", "Tecnicamente non sul Monte Gelmir, ma fa parte della sua mappa. Conferisce Obiettivo/Trofeo: Elemer del Rovo."]
       - id: "7_10"
         data: ["Grafted Scion", "Mt. Gelmir (North)", "2313 runes", "Field boss."]
+        data_it: ["Progenie innestata", "Monte Gelmir (Nord)", "2313 rune", "Boss nell'overworld."]
       - id: "7_11"
         data: ["Demi-Human Queen Margot", "Volcano Cave", "11,000 runes, Jar Cannon Balista", "Field boss."]
+        data_it: ["Margot, Regina semiumana", "Caverna del vulcano", "11.000 rune, Cannone a vaso", "Boss nell'overworld."]
       - id: "7_12"
         data: ["Ulcerated Tree Spirit", "Minor Erdtree", "18,000 runes, Leaden Hardtear, Cerulean Hidden Tear", "Field boss."]
+        data_it: ["Spirito arboreo ulcerato", "Albero Madre Minore", "18.000 rune, Lacrima dura plumbea, Lacrima cerulea nascosta", "Boss nell'overworld."]
         cords: [2405, 2730]
       - id: "7_13"
         data: ["Kindred of Rot (x2)", "Seethewater Cave", "10,000 runes, Kindred of Rot's Exultation Talisman", ""]
+        data_it: ["Progenie della putrefazione (x2)", "Caverna di Acquabollente", "10.000 rune, Esultanza della Progenie della putrefazione", ""]
       - id: "7_14"
         data: ["Red Wolf of the Champion", "Gelmir Hero's Grave", "21,000 runes, Bloodhound Knight Floh Ashes", ""]
+        data_it: ["Lupo rosso del Campione", "Tomba dell'Eroe di Gelmir", "21.000 rune, Ceneri di Floh, Cavaliere Limiere", ""]
         cords: [2505, 2918]
       - id: "7_15"
         data: ["Full-Grown Fallingstar Beast", "Ninth Mt. Gelmir Campsite", "21,000 runes, Fallingstar Beast Jaw Colossal Weapon, Somber Smithing Stone, Smithing Stone [6] (x5)", "Field boss."]
+        data_it: ["Belva meteoritica adulta", "Nono Campo del Monte Gelmir", "21.000 rune, Mascella di Belva meteoritica, Pietra da forgiatura funerea [6], Pietra da forgiatura [6] (x5)", "Boss nell'overworld."]
       - id: "7_17"
         data: ["Fire Prelate", "Fort Laiedd", "1309 runes, Prelate's Inferno Crozier", "Field boss. Chance to drop Fire Prelate Set."]
+        data_it: ["Prelato del fuoco", "Forte Laiedd", "1309 rune, Pastorale infernale del prelato", "Boss nell'overworld. Probabilità di ottenere il Set del prelato del fuoco."]
       - id: "7_18"
         data: ["Magma Wyrm", "Fort Laiedd (South)", "19,000 runes, Dragon Heart, Unlocks Magma Breath (Dragon Communion Incantation)", ""]
+        data_it: ["Drago di magma", "Forte Laiedd (Sud)", "19.000 rune, Cuore di drago, Sblocca Soffio di magma", ""]
         cords: [1925, 3007]
       - id: "7_19"
         data: ["Demi-Human Queen Maggie", "Hermit Village", "13,000 runes, Memory Stone, Golden Rune [1]", ""]
+        data_it: ["Maggie, Regina semiumana", "Villaggio degli eremiti", "13.000 rune, Pietra della memoria, Runa aurea [1]", ""]
       - id: "7_27"
         data: ["Anastasia, Tarnished-Eater", "Corpse-Stench Shack", "Butchering Knife Greataxe, Furlcalling Finger Remedy", "NPC. 2nd invasion."]
+        data_it: ["Anastasia, Divoratrice di Senzaluce", "Capanna del fetore di morte", "Coltello da macellaio, Rimedio del Dito invocatore", "NPC. Seconda invasione."]
       - id: "7_28"
         data: ["Omenkiller", "Volcano Manor (Southwest)", "Great Omenkiller Cleaver Greataxe", ""]
+        data_it: ["Ammazzapresagi", "Villa Vulcano (Sudovest)", "Mannaia da Ammazzapresagi", ""]
       - id: "7_20"
         data: ["Abductor Virgins (x2)", "Volcano Manor/Subterranean Inquistion Chamber", "10,000 runes, Inquisitor's Girandole Spear", "Accessible from Raya Lucaria Academy, by dying to the Abductor Virgin's grab attack."]
+        data_it: ["Vergini rapitrici (x2)", "Villa Vulcano/Stanza sotterranea dell'inquisizione", "10.000 rune, Girandola dell'inquisitore", "Raggiungibile dall'Accademia di Raya Lucaria, facendosi uccidere dalla presa della Vergine rapitrice."]
       - id: "7_21"
         data: ["Inquisitor Ghiza", "Volcano Manor (Upper Floor)", "6858 runes, Ghiza's Wheel Colossal Weapon, Furlcalling Finger Remedy", ""]
+        data_it: ["Inquisitore Ghiza", "Villa Vulcano (Piano superiore)", "6858 rune, Ruota di Ghiza, Rimedio del Dito invocatore", ""]
       - id: "7_22"
         data: ["Magma Wyrm", "Volcano Manor", "Dragon Heart", ""]
+        data_it: ["Drago di magma", "Villa Vulcano", "Cuore di drago", ""]
         cords: [2214, 3035]
       - id: "7_23"
         data: ["Godskin Noble", "Volcano Manor/Temple of Eiglay", "50,000 runes, Serpent's Amnion (Key Item), Godskin Stitcher Heavy Thrusting Sword", "Grants Achievement/Trophy: Godskin Noble."]
+        data_it: ["Nobile Sacriderma", "Villa Vulcano/Tempio di Eiglay", "50.000 rune, Amnio di serpente, Cucitrice Sacriderma", "Conferisce Obiettivo/Trofeo: Nobile Sacriderma."]
       - id: "7_25"
         data: ["God-Devouring Serpent", "Volcano Manor", "", "First phase of Rykard, Lord of Blasphemy."]
+        data_it: ["Serpente divoratore di dèi", "Villa Vulcano", "", "Prima fase di Rykard, Signore della Blasfemia."]
       - id: "7_26"
         map_icon: "/map/icons/shadows/tools/remembrances/00166.png"
         data: ["Rykard, Lord of Blasphemy", "Volcano Manor", "100,000, Rykard's Great Rune, Remembrance of the Blasphemous", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Rykard."]
+        data_it: ["Rykard, Signore della Blasfemia", "Villa Vulcano", "100.000 rune, Runa maggiore di Rykard, Rimembranza di una blasfemia", "Boss principale. Semi-obbligatorio per la progressione. Conferisce Obiettivo/Trofeo: Portatore del frammento Rykard."]
         cords: [2292, 2960]
       - id: "7_24"
         data: ["Tanith's Knight", "Volcano Manor/Rykard's boss area", "Aspect of the Crucible: Breath", "Kill Tanith as she sits eating Rykard's Corpse, and her Knight will invade you."]
+        data_it: ["Cavaliere di Tanith", "Villa Vulcano/Stanza di Rykard", "Aspetto del Crogiolo: Soffio", "Uccidi Tanith mentre divora il cadavere di Rykard e il suo Cavaliere ti invaderà."]
   -
     title: "Leyndell, Royal Capital"
+    title_it: "Leyndell, Capitale Reale"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "8_1"
         data: ["Ulcerated Tree Spirit", "Capital Outskirts (Southwest)", "Golden Seed", "Field boss."]
+        data_it: ["Spirito arboreo ulcerato", "Sobborghi della Capitale (Sudovest)", "Seme d'oro", "Boss nell'overworld."]
         cords: [3677, 3653]
       - id: "8_2"
         data: ["Valiant Gargoyle", "Leyndell Entrance", "30,000 runes", ""]
+        data_it: ["Gargoyle valoroso", "Ingresso di Leyndell", "30.000 rune", ""]
       - id: "8_3"
         data: ["Margit, the Fell Omen", "Capital Outskirts (Northwest)", "", "Tries to put your foolish ambitions to rest again."]
+        data_it: ["Margit, il Presagio Implacabile", "Sobborghi della Capitale (Nordovest)", "", "Cerca di nuovo di far riposare in pace le tue folli ambizioni."]
       - id: "8_4"
         data: ["Deathbird", "Capital Outskirts (North)", "29,000 runes, Twinbird Kite Shield", "Field boss. Nighttime only."]
+        data_it: ["Uccello della Morte", "Sobborghi della Capitale (Nord)", "29.000 rune, Scudo ad aquilone degli uccelli gemelli", "Boss nell'overworld. Solo di notte."]
       - id: "8_5"
         data: ["Onyx Lord", "Sealed Tunnel", "16,000 runes, Onyx Lord's Greatsword", ""]
+        data_it: ["Signore della Pietra d'onice", "Galleria sigillata", "16.000 rune, Spadone del Signore d'onice", ""]
       - id: "8_6"
         data: ["The Loathsome Dung Eater", "Capital Outskirts", "For killing him: Omen Set, Sword of Milos", "Can instead gain the full Omen Set, Sword of Milos and also the Mending Rune of the Fell Curse (Great Rune) if you don't kill him and complete the Dung Eater's questline."]
+        data_it: ["Il Mangiasterco", "Sobborghi della Capitale", "Se lo uccidi: Set del Presagio, Spadone della Morte di Milos", "In alternativa puoi ottenere le stesse cose e in più la Runa restauratrice della maledizione disperata se non lo uccidi e completi la sua missione."]
       - id: "8_7"
         data: ["Draconic Tree Sentinel", "Capital Outskirts/Inner Leyndell Entrance", "50,000 runes, Dragon Greatclaw Colossal Weapon, Dragonclaw Shield", "Required to get inside Leyndell proper."]
+        data_it: ["Sentinella dell'Albero draconica", "Sobborghi della Capitale/Ingresso interno di Leyndell", "50.000 rune, Artiglio grande del drago, Scudo artigliato di drago", "Necessario per entrare a Leyndell."]
       - id: "8_8"
         data: ["Grave Warden Duelist", "Auriza Side Tomb", "Soldjars of Fortune Ashes", ""]
+        data_it: ["Duellante guardiano delle tombe", "Tomba laterale di Auriza", "Ceneri della milizia di mercenari", ""]
       - id: "8_9"
         data: ["Crucible Knight Ordovis & Crucible Knight", "Auriza's Hero Grave", "28,000 runes, Ordovis's Greatsword, Crucible Axe Set", ""]
+        data_it: ["Cavaliere del Crogiolo Ordovis & Cavaliere del Crogiolo", "Tomba dell'Eroe di Auriza", "28.000 rune, Spadone di Ordovis, Set dell'Ascia del Crogiolo", ""]
       - id: "8_10"
         data: ["Erdtree Avatar", "Leyndell Main Road", "Lord's Rune", ""]
+        data_it: ["Incarnazione dell'Albero Madre", "Strada principale di Leyndell", "Runa del Lord", ""]
       - id: "8_11"
         data: ["Ulcerated Tree Spirit", "Lower Capital Church", "9828 runes, Golden Seed", "Field miniboss."]
+        data_it: ["Spirito arboreo ulcerato", "Chiesa della Capitale inferiore", "9828 rune, Seme d'oro", "Mini-boss nell'overworld."]
         cords: [4288, 3439]
       - id: "8_12"
         data: ["Valiant Gargoyle", "West Capital Rampart", "30,000 runes", ""]
+        data_it: ["Gargoyle valoroso", "Baluardo occidentale della Capitale", "30.000 rune", ""]
       - id: "8_13"
         data: ["Vargram the Raging Wolf & Errant Sorcerer Wilhelm", "Fortified Manor", "Raging Wolf Set", "NPCs. You can invade their world. Related to Volcano Manor quest. His invasion sign can be found close to the Fortified Manor, First Floor Site of Grace. Make sure to invade him before defeating Maliketh, the boss of Crumbling Farum Azula, or Rykard, Lord of Blasphemy, else his sign will be inaccessible!"]
+        data_it: ["Vargram, il Lupo Sanguinario & Errant Sorcerer Wilhelm", "Maniero fortificato", "Set del Lupo Sanguinario", "NPC. Puoi invadere il loro mondo. Legato alla missione di Villa Vulcano. Il segno d'invasione è vicino alla Grazia Primo piano del maniero fortificato. Invadilo prima di sconfiggere Maliketh (a Farum Azula) o Rykard, altrimenti il segno sparirà!"]
       - id: "8_14"
         data: ["Black Knife Assassin", "Queen's Bedchamber", "", ""]
+        data_it: ["Assassina dei Neri Coltelli", "Stanza da letto della regina", "", ""]
       - id: "8_15"
         data: ["Fell Twins (x2)", "Divine Tower of East Altus Bridge", "29,000 runes, Omenkiller Rollo Ashes", "Return to the bridge after you have already gone to the Forbidden Lands to trigger the fight."]
+        data_it: ["Gemelli Implacabili (x2)", "Ponte della Torre Divina di Altus Orientale", "29.000 rune, Ceneri di Rollo, Ammazzapresagi", "Torna al ponte dopo essere già stato alle Terre vietate per attivare lo scontro."]
       - id: "8_19"
         data: ["Esgar, Priest of Blood", "Leyndell Catacombs/Subterranean Shunning-Grounds", "30,000 runes, Lord of Blood's Exultation Talisman", ""]
+        data_it: ["Esgar, Sacerdote del Sangue", "Catacombe di Leyndell/Abisso dei Reietti", "30.000 rune, Esultanza del Signore del Sangue", ""]
       - id: "8_16"
         data: ["Mohg, the Omen", "Subterranean Shunning-Grounds/Cathedral of the Forsaken", "75,000 runes, Bloodflame Talons Incantation", "Grants Achievement/Trophy: Mohg, the Omen."]
+        data_it: ["Mohg, il Presagio", "Abisso dei Reietti/Cattedrale dei Reietti", "75.000 rune, Artigli di fiamma sanguinaria", "Conferisce Obiettivo/Trofeo: Mohg, il Presagio."]
       - id: "8_17"
         data: ["Godfrey, First Elden Lord (Golden Shade)", "Erdtree Sanctuary", "80,000 runes, Talisman Pouch", "Golden Shade. Required to get to Morgott, the Omen King. Grants Achievement/Trophy: Godfrey, the First Lord."]
+        data_it: ["Godfrey, Primo Lord Ancestrale", "Santuario dell'Albero Madre", "80.000 rune, Borsa per talismani", "Ombra dorata. Necessario per raggiungere Morgott, il Re Presagio. Conferisce Obiettivo/Trofeo: Godfrey, primo lord ancestrale."]
       - id: "8_18"
         map_icon: "/map/icons/shadows/tools/remembrances/00165.png"
         data: ["Morgott, the Omen King", "The Elden Throne", "120,000 runes, Morgott's Great Rune, Remembrance of the Omen King", "Main boss. Semi-required for story progression. Grants Achievement/Trophy: Shardbearer Morgott."]
+        data_it: ["Morgott, il Re Presagio", "Trono Ancestrale", "120.000 rune, Runa maggiore di Morgott, Rimembranza del Re Presagio", "Boss principale. Semi-obbligatorio per la progressione. Conferisce Obiettivo/Trofeo: Portatore del frammento Morgott."]
         cords: [4521, 3727]
   -
     title: "Mountaintops of the Giants"
+    title_it: "Vette dei Giganti"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "9_1"
         data: ["Night's Cavalry", "Forbidden Lands", "36,000 runes, Ash of War: Phantom Slash", "Field boss. Nighttime only."]
+        data_it: ["Cavaliere notturno", "Terre vietate", "36.000 rune, Cenere di Guerra: Fendente fantasma", "Boss nell'overworld. Solo di notte."]
       - id: "9_2"
         data: ["Black Blade Kindred", "Grand Lift of Rold", "60,000 runes, Gargoyle's Black Axe, Gargoyle's Black Blades", ""]
+        data_it: ["Stirpe della Lama Nera", "Grande Montacarichi di Rold", "60.000 rune, Ascia Nera del Gargoyle, Lame Nere del Gargoyle", ""]
       - id: "9_3"
         data: ["Ancient Hero of Zamor", "Giant-Conquering Hero's Grave", "83,000 runes, Zamor Curved Sword, Zamor Set", ""]
+        data_it: ["Antico Eroe di Zamor", "Tomba dell'Eroe sterminatore di giganti", "83.000 rune, Spada curva di Zamor, Set di Zamor", ""]
       - id: "9_4"
         data: ["Ulcerated Tree Spirit", "Giants' Mountaintop Catacombs", "48,000 runes, Golden Seed, Glovewort Picker's Bell Bearing [2] (and guarding chest containing Deathroot).", ""]
+        data_it: ["Spirito arboreo ulcerato", "Catacombe in Vetta ai Giganti", "48.000 rune, Seme d'oro, Globo cinereo del raccoglitore di convallaria [2] (e a guardia di una cassa con Radice mortale).", ""]
         cords: [5769, 2818]
       - id: "9_5"
         data: ["Erdtree Avatar", "Minor Erdtree", "70,000 runes, Cerulean Crystal Tear, Crimson Bubbletear", "Field boss."]
+        data_it: ["Incarnazione dell'Albero Madre", "Albero Madre Minore", "70.000 rune, Lacrima di cristallo cerulea, Lacrima a bolla cremisi", "Boss nell'overworld."]
         cords: [6228, 2138]
       - id: "9_6"
         data: ["Juno Hoslow, Knight of Blood", "Shack of the Lofty", "158 runes, Hoslow's Petal Whip, Hoslow's Set (Helm, Armor, Gauntlets, Greaves), Rune Arc, Furlcalling Finger Remedy", ""]
+        data_it: ["Juno Hoslow, Cavaliere del sangue", "Capanna dell'eminenza", "158 rune, Frusta a petali di Hoslow, Set di Hoslow, Arco Runico, Rimedio del Dito invocatore", ""]
       - id: "9_7"
         data: ["Death Rite Bird", "North Mountaintops", "77,000 runes, Death Ritual Spear", "Field boss. Nighttime only."]
+        data_it: ["Uccello del rito della Morte", "Vette dei Giganti nord", "77.000 rune, Lancia del rito della Morte", "Boss nell'overworld. Solo di notte."]
       - id: "9_8"
         data: ["Tibia Mariner", "North Mountaintops", "Deathroot, Helphen's Steeple Greatsword", "Field boss."]
+        data_it: ["Nochiero tibiale", "Vette dei Giganti nord", "Radice mortale, Spadone di Helphen", "Boss nell'overworld."]
         cords: [6016, 1922]
       - id: "9_9"
         data: ["Commander Niall", "Castle Sol", "90,000 runes, Veteran's Prosthesis", "Grants Achievement/Trophy: Commander Niall."]
+        data_it: ["Comandante Niall", "Castel Sol", "90.000 rune, Protesi da veterano", "Conferisce Obiettivo/Trofeo: Comandante Niall."]
       - id: "9_10"
         data: ["Vyke, Knight of the Roundtable", "Lord Contender's Evergaol", "Fingerprint Set, Vyke's Dragonbolt Incantation", ""]
+        data_it: ["Vyke, Cavaliere della Tavola Rotonda", "Galera eterna del Lord pretendente", "Set delle impronte digitali, Dardo del drago di Vyke", ""]
       - id: "9_11"
         data: ["Borealis, the Freezing Fog", "Frozen Lake", "100,000 runes, Dragon Heart", ""]
+        data_it: ["Borealis, la nebbia gelata", "Lago ghiacciato", "100.000 rune, Cuore di drago", ""]
         cords: [6648, 2032]
       - id: "9_12"
         data: ["Bloody Finger Okina", "Church of Repose", "734 runes, Rivers of Blood Katana, Okina Mask, Furlcalling Finger Remedy", "NPC invader."]
+        data_it: ["Okina, Dito Sanguinante", "Chiesa del riposo", "734 rune, Fiumi di sangue, Maschera di Okina, Rimedio del Dito invocatore", "NPC invasore."]
       - id: "9_13"
         data: ["Godskin Apostle and Godskin Noble (Spectral Duo)", "Spiritcaller's Cave", "70,000 runes, Godskin Swaddling Cloth Talisman, Black Flame Ritual Incantation", "Avoid the spectral summon enemies and kill the invisible Snail."]
+        data_it: ["Apostolo Sacriderma e Nobile Sacriderma (Spettrali)", "Caverna dell'evocanda spiriti", "70.000 rune, Fasce da Sacriderma, Rituale della fiamma nera", "Evita le evocazioni spettrali e uccidi la lumaca invisibile."]
       - id: "9_15"
         map_icon: "/map/icons/shadows/tools/remembrances/00174.png"
         data: ["Fire Giant", "Flame Peak", "180,000 runes, Remembrance of the Fire Giant", "Main boss. Required to proceed to Forge of the Giants. Grants Achievement/Trophy: Fire Giant."]
+        data_it: ["Gigante di fuoco", "Picco della fiamma", "180.000 rune, Rimembranza del Gigante di fuoco", "Boss principale. Necessario per procedere alla Forgia dei Giganti. Conferisce Obiettivo/Trofeo: Gigante di fuoco."]
         cords: [6355, 3160]
   -
     title: "Consecrated Snowfield"
+    title_it: "Terre dei sacri alberi o Oltre il nevaio (Terre sacre)"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "10_13"
         data: ["Stray Mimic Tear", "Hidden Path to the Haligtree", "50,000 runes, Blackflame Monk Amon Ashes", "Using the Grand Lift of Rold and the Haligtree Medallion."]
+        data_it: ["Lacrima riflessa errante", "Sentiero segreto del Sacro Albero", "50.000 rune, Ceneri di Amon, monaco della fiamma nera", "Usando il Grande Montacarichi di Rold e il Medaglione segreto del Sacro Albero."]
         cords: [5419, 2884]
       - id: "10_1"
         data: ["Putrid Grave Warden Duelist", "Consecrated Snowfield Catacombs", "8,000 runes, Rotten Gravekeeper Cloak, Great Grave Glovewort", ""]
+        data_it: ["Duellante putrido guardiano delle tombe", "Catacombe delle Terre sacre", "8.000 rune, Mantello marcescente del guardiano delle tombe, Convallaria sepolcrale gigante", ""]
       - id: "10_2"
         data: ["Night's Cavalry (x2)", "Snowfields Wagon", "84,000 runes, Night's Cavalry Set, Ancient Dragon Smithing Stone", "Field boss. Nighttime only."]
+        data_it: ["Cavaliere notturno (x2)", "Carro delle Terre sacre", "84.000 rune, Set del Cavaliere notturno, Pietra da forgiatura del drago antico", "Boss nell'overworld. Solo di notte."]
       - id: "10_3"
         data: ["Astel, Stars of Darkness", "Yelough Anix Tunnel", "120,000 runes, Meteorite of Astel Sorcery", ""]
+        data_it: ["Astel, Stelle delle Tenebre", "Galleria di Yelough Anix", "120.000 rune, Meteorite di Astel", ""]
       - id: "10_4"
         data: ["Sanguine Noble", "Consecrated Snowfield (West)", "8800 runes, Bloodrose", ""]
+        data_it: ["Nobile sanguinario", "Terre sacre (Ovest)", "8800 rune, Rosa di sangue", ""]
       - id: "10_5"
         data: ["Great Wyrm Theodorix", "Consecrated Snowfield (East)", "180,000 runes, Dragon Heart (x3)", ""]
+        data_it: ["Theodorix, il Grande Drago", "Terre sacre (Est)", "180.000 rune, Cuore di drago (x3)", ""]
         cords: [5752, 2178]
       - id: "10_6"
         data: ["Misbegotten Crusader", "Cave of the Forlorn", "93,000 runes, Golden Order Greatsword (Legendary)", ""]
@@ -643,109 +864,223 @@ sections:
         cords: [5574, 885]
   -
     title: "Crumbling Farum Azula"
+    title_it: "Farum Azula in frantumi"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "11_1"
         data: ["Wormface", "Crumbling Farum Azula (Southwest)", "10,000 runes, Gold-Tinged Excrement", "Field boss."]
+        data_it: ["Testa di Verme", "Farum Azula in frantumi (Sudovest)", "10.000 rune, Escremento dorato", "Boss nell'overworld."]
       - id: "11_2"
         data: ["Godskin Duo (Godskin Noble & Godskin Apostle)", "Dragon Temple (Altar)", "170,000 runes, Ash of War: Black Flame Tornado, Smithing-Stone Miner's Bell Bearing [4]", "Grants Achievement/Trophy: Godskin Duo."]
+        data_it: ["Duo Sacriderma (Nobile Sacriderma e Apostolo Sacriderma)", "Tempio del drago (Altare)", "170.000 rune, Cenere di Guerra: Tornado della fiamma nera, Globo cinereo del minatore forgiatore [4]", "Conferisce Obiettivo/Trofeo: Duo Sacriderma."]
       - id: "11_3"
         data: ["Recusant Bernahl", "Dragon Temple (Rooftop)", "Blasphemous Claw (Tool), Devourer's Scepter Great Hammer (Legendary), Beast Champion Set with Armor (Altered).", "Location: after passing the Beside the Great Bridge Site of Grace. You get Bernahl's Bell Bearing if killed while still at his initial location at the Warmaster's Shack in Limgrave."]
+        data_it: ["Bernahl il Ricusante", "Tempio del drago (Tetto)", "Artiglio blasfemo, Scettro del Divoratore (Leggendario), Set del Campione delle bestie (Modificato).", "Posizione: dopo la Grazia in prossimità del granponte. Ottieni il Globo cinereo di Bernahl se lo uccidi nella sua posizione iniziale (Capanna del maestro d'armi) a Sepolcride."]
       - id: "11_4"
         data: ["Draconic Tree Sentinel", "Dragon Temple", "50,000 runes, Malformed Dragon Set", "One annoying bastard, but more annoying."]
+        data_it: ["Sentinella dell'Albero draconica", "Tempio del drago", "50.000 rune, Set del Drago malformato", "Un maledetto bastardo, ma ancora più fastidioso."]
       - id: "11_5"
         map_icon: "/map/icons/shadows/tools/remembrances/00171.png"
         data: ["Dragonlord Placidusax", "Dragon Temple", "280,000 runes, Remembrance of the Dragonlord", "Grants Achievement/Trophy: Dragonlord Placidusax."]
+        data_it: ["Lord draconico Placidusax", "Tempio del drago", "280.000 rune, Rimembranza del Lord draconico", "Conferisce Obiettivo/Trofeo: Lord draconico Placidusax."]
       - id: "11_6"
         map_icon: "/map/icons/shadows/tools/remembrances/00169.png"
         data: ["Maliketh, the Black Blade", "Crumbling Farum Azula", "220,000 runes, Remembrance of the Black Blade", "Required to get to Leyndell, Ashen Capital. Grants Achievement/Trophy: Malekith, the Black Blade."]
+        data_it: ["Maliketh, la Lama Nera", "Farum Azula in frantumi", "220.000 rune, Rimembranza della Lama Nera", "Necessario per raggiungere Leyndell, Capitale delle Ceneri. Conferisce Obiettivo/Trofeo: Maliketh, la Lama Nera."]
   -
     title: "Leyndell, Ashen Capital"
+    title_it: "Leyndell, Capitale delle Ceneri"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "12_1"
         data: ["Sir Gideon Ofnir, The All-Knowing", "Erdtree Sanctuary", "180,000 runes, Scepter of the All-Knowing, All-Knowing Set", "Required."]
+        data_it: ["Sir Gideon Ofnir l'Onniscente", "Santuario dell'Albero Madre", "180.000 rune, Scettro dell'Onniscente, Set dell'Onniscente", "Obbligatorio."]
       - id: "12_2"
         map_icon: "/map/icons/shadows/tools/remembrances/00170.png"
         data: ["Godfrey, First Elden Lord (Hoarah Loux)", "Elden Throne", "300,000 runes, Remembrance of Hoarah Loux", "Required. Grants Achievement/Trophy: Hoarah Loux, the Warrior."]
+        data_it: ["Godfrey, Primo Lord Ancestrale (Hoarah Loux)", "Trono Ancestrale", "300.000 rune, Rimembranza di Hoarah Loux", "Obbligatorio. Conferisce Obiettivo/Trofeo: Hoarah Loux, il Guerriero."]
       - id: "12_3"
         data: ["Radagon of the Golden Order", "Fractured Marika", "0 runes", "Required."]
+        data_it: ["Radagon dell'Ordine Aureo", "Marika infranta", "0 rune", "Obbligatorio."]
       - id: "12_4"
         map_icon: "/map/icons/shadows/tools/remembrances/00176.png"
         data: ["Elden Beast", "Fractured Marika", "500,000 runes, Elden Remembrance", "Required."]
+        data_it: ["Belva ancestrale", "Marika infranta", "500.000 rune, Rimembranza ancestrale", "Obbligatorio."]
   -
     title: "Siofra River"
+    title_it: "Fiume Siofra"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "13_1"
         data: ["Dragonkin Soldier", "Siofra River (Cliffs)", "16,000 runes, Dragon Halberd", "Field boss. Is accessible by taking a waygate in the eastern part of Siofra River."]
+        data_it: ["Soldato draconico", "Fiume Siofra (Rupi)", "16.000 rune, Alabarda del drago", "Boss nell'overworld. Accessibile tramite un portale nella parte est del fiume Siofra."]
       - id: "13_2"
         data: ["Ancestor Spirit", "Hallowhorn Grounds", "13,000 runes, Ancestral Follower Ashes", "You need to light eight braziers around Siofra River to activate him. Grants Achievement/Trophy: Ancestor Spirit."]
+        data_it: ["Spirito ancestrale", "Terre di Sacrocornuto", "13.000 rune, Ceneri del seguace ancestrale", "Devi accendere 8 bracieri lungo il fiume Siofra per attivarlo. Conferisce Obiettivo/Trofeo: Spirito ancestrale."]
   -
     title: "Nokron, Eternal City"
+    title_it: "Nokron, Città Eterna"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "14_1"
         data: ["Mimic Tear", "Nokron, Eternal City", "10,000 runes, Silver Tear Mask, Larval Tear (x2)", "Grants Achievement/Trophy: Mimic Tear."]
+        data_it: ["Lacrima riflessa", "Nokron, Città Eterna", "10.000 rune, Maschera della Lacrima d'argento, Lacrima di larva (x2)", "Conferisce Obiettivo/Trofeo: Lacrima riflessa."]
       - id: "14_4"
         data: ["Lesser Red Wolf Of Radagon", "Ancestral Woods", "", "Surrounded by wolves."] #TODO: ADD RUNES, DROPS
+        data_it: ["Lupo Rosso di Radagon minore", "Boschi ancestrali", "", "Circondato dai lupi."]
       - id: "14_2"
         map_icon: "/map/icons/shadows/tools/remembrances/00175.png"
         data: ["Regal Ancestor Spirit", "Hallowhorn Grounds", "24,000 runes, Remembrance of the Regal Ancestor", "You need to light six braziers around Nokron, Eternal City to activate him. Grants Achievement/Trophy: Regal Ancestor Spirit."]
+        data_it: ["Spirito ancestrale regale", "Terre di Sacrocornuto", "24.000 rune, Rimembranza dell'ancestrale regale", "Devi accendere 6 bracieri a Nokron per attivarlo. Conferisce Obiettivo/Trofeo: Spirito ancestrale regale."]
         cords: [6224, 14147]
       - id: "14_5"
         data: ["Lesser Crucible Knight", "Siofra Aqueduct", "Crucible Hornshield", ""] #TODO: ADD RUNES
+        data_it: ["Cavaliere del Crogiolo minore", "Acquedotto di Siofra", "Scudo cornuto del Crogiolo", ""]
       - id: "14_6"
         data: ["Crucible Tree Knight", "Siofra Aqueduct", "3080 runes, Somber Smithing Stone [6]", ""]
+        data_it: ["Cavaliere arboreo del Crogiolo", "Acquedotto di Siofra", "3080 rune, Pietra da forgiatura funerea [6]", ""]
       - id: "14_3"
         data: ["Valiant Gargoyle & Valiant Gargoyle (Twinblade)", "Siofra Aqueduct", "32,000 runes, Gargoyle's Greatsword, Gargoyle's Twinblade", "After defeating it, the Great Waterfall Basin Site of Grace is accessible. Grants Achievement/Trophy: Valiant Gargoyle."]
+        data_it: ["Gargoyle valoroso & Gargoyle valoroso (Lama gemella)", "Acquedotto di Siofra", "32.000 rune, Spadone del Gargoyle, Lama gemella del Gargoyle", "Dopo lo scontro potrai accedere alla Grazia Bacino della Grande Cascata. Conferisce Obiettivo/Trofeo: Gargoyle valoroso."]
   -
     title: "Mohgwyn Palace"
+    title_it: "Palazzo di Mohgwyn"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "15_1"
         data: ["Nameless White Mask (x3)", "Mohgwyn Palace (Lake of Blood)", "War Surgeon Set, Furlcalling Finger Remedy", "One of the three Nameless White Masks drops the full War Surgeon set"]
+        data_it: ["Maschera bianca senza nome (x3)", "Palazzo di Mohgwyn (Lago di sangue)", "Set del chirurgo di guerra, Rimedio del Dito invocatore", "Una delle 3 Maschere bianche lascia cadere l'intero Set."]
       - id: "15_2"
         data: ["White-Faced Varré", "Mohgwyn Dynasty Mausoleum", "Rune Arc, Festering Bloody Fingers (x6), Furcalling Finger Remedy. And Varré's Bouquet Hammer (return to invasion sign after returning to your world). If you kill Varré before Mohgwyn: 500 runes, Festering Bloody Finger (x6).", "Use the Invasion sign near Mausoleum Dynasty Midpoint Grace to invade his world"]
+        data_it: ["Varré dalla Maschera bianca", "Mausoleo della dinastia di Mohgwyn", "Arco Runico, Dito Sanguinante putrescente (x6), Rimedio del Dito invocatore. Inoltre Bouquet di Varré (seleziona il segno d'invasione una volta tornato nel tuo mondo). Se ucciso prima di Mohgwyn: 500 rune, Dito Sanguinante putrescente (x6).", "Usa il segno d'invasione vicino alla Grazia Punto centrale del mausoleo della dinastia per invaderlo."]
       - id: "15_3"
         map_icon: "/map/icons/shadows/tools/remembrances/00168.png"
         data: ["Mohg, Lord of Blood", "Mohgwyn Dynasty Mausoleum", "315,000 runes, Mohg's Great Rune, Remembrance of the Blood Lord", "Accessible through Varré's quest, or by waygate in Consecrated Snowfield. Grants Achievement/Trophy: Shardbearer Mohg."]
+        data_it: ["Mohg, Signore del Sangue", "Mausoleo della dinastia di Mohgwyn", "315.000 rune, Runa maggiore di Mohg, Rimembranza del Signore del Sangue", "Raggiungibile con la missione di Varré o tramite un portale dalle Terre sacre. Conferisce Obiettivo/Trofeo: Portatore del frammento Mohg."]
         cords: [6796, 14396]
   -
     title: "Ainsel River"
+    title_it: "Fiume Ainsel"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "16_3"
         data: ["Malformed Star", "Ainsel River Downstream", "3844 Runes", ""]
+        data_it: ["Stella malformata", "Fiume Ainsel, a valle", "3844 rune", ""]
       - id: "16_1"
         data: ["Dragonkin Soldier of Nokstella", "Ainsel River (West)", "12,000 runes, Frozen Lightning Spear Incantation", "Grants Achievement/Trophy: Dragonkin Soldier of Nokstella."]
+        data_it: ["Soldato draconico di Nokstella", "Fiume Ainsel (Ovest)", "12.000 rune, Lancia di fulmini gelati", "Conferisce Obiettivo/Trofeo: Soldato draconico di Nokstella."]
       - id: "16_2"
         data: ["Baleful Shadow", "Ainsel River", "8561 runes", "NPC invader. Part of Ranni's questline."]
+        data_it: ["Ombra funesta", "Fiume Ainsel", "8561 rune", "NPC invasore. Parte della missione di Ranni."]
   -
     title: "Lake of Rot"
+    title_it: "Lago putrefatto"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "17_1"
         data: ["Dragonkin Soldier", "Lake of Rot (South East)", "58,000 runes, Dragonscale Blade", "Field boss. Raise four platforms around him (use pressure plate east of him) to avoid Scarlet Rot."]
+        data_it: ["Soldato draconico", "Lago putrefatto (Sudest)", "58.000 rune, Lama di scaglie di drago", "Boss nell'overworld. Fai rialzare le 4 piattaforme attorno a lui (usa la piastra a pressione a est) per evitare la Marcescenza scarlatta."]
       - id: "17_3"
         data: ["Lesser Putrid Tree Spirit", "Grand Cloister", "11,193 runes, Golden Seed", "Miniboss. Hiding at the bottom of the rot waterfall beneath the Grand Cloister Site of Grace."]
+        data_it: ["Spirito arboreo putrido minore", "Grande chiostro", "11.193 rune, Seme d'oro", "Mini-boss. Si nasconde in fondo alla cascata putrefatta, sotto la Grazia del Grande chiostro."]
         cords: [3156, 12607]
       - id: "17_2"
         map_icon: "/map/icons/shadows/tools/remembrances/00177.png"
         data: ["Astel, Naturalborn of the Void", "Grand Cloister", "80,000 runes, Remembrance of the Naturalborn", "Accessible via a coffin in Grand Cloister. Required for Ranni's questline. Grants Achievement/Trophy: Astel, Naturalborn of the Void."]
+        data_it: ["Astel, Progenie del Vuoto", "Grande chiostro", "80.000 rune, Rimembranza dell'Astel progenie", "Raggiungibile tramite la bara nel Grande chiostro. Necessario per la missione di Ranni. Conferisce Obiettivo/Trofeo: Astel, Progenie del Vuoto."]
         cords: [2765, 13744]
   -
     title: "Deeproot Depths"
+    title_it: "Abisso fra le radici"
     table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
     items:
       - id: "18_1"
         data: ["Erdtree Avatar", "Deeproot Depths", "10,000 runes, Staff of the Avatar", "Field boss."]
+        data_it: ["Incarnazione dell'Albero Madre", "Abisso fra le radici", "10.000 rune, Bastone dell'incarnazione", "Boss nell'overworld."]
       - id: "18_2"
         data: ["Crucible Knight Siluria", "Great Erdtree", "25,000 runes, Siluria's Tree Great Spear", "Field boss."]
+        data_it: ["Cavaliere del Crogiolo Siluria", "Radici del Grande Albero", "25.000 rune, Albero di Siluria", "Boss nell'overworld."]
       - id: "18_3"
         data: ["Fia's Champions", "Deeproot Depths", "40,000 runes, Fia's Mist Sorcery", "NPC invaders. Two solo fights, then a group of three. Part of Fia's questline."]
+        data_it: ["Campioni di Fia", "Abisso fra le radici", "40.000 rune, Nebbia di Fia", "NPC invasori. Due scontri individuali e infine un gruppo di tre. Parte della missione di Fia."]
         cords: [5586, 10782]
       - id: "18_4"
         map_icon: "/map/icons/shadows/tools/remembrances/00173.png"
         data: ["Lichdragon Fortissax", "Deeproot Depths", "90,000 runes, Remembrance of the Lichdragon", "Part of Fia's questline. Grants Achievement/Trophy: Lichdragon Fortissax."]
+        data_it: ["Fortissax, il Drago della Morte", "Abisso fra le radici", "90.000 rune, Rimembranza del Drago della Morte", "Parte della missione di Fia. Conferisce Obiettivo/Trofeo: Fortissax drago della morte."]
         cords: [5656, 10740]
+  -
+    title: "Realm of Shadow"
+    title_it: "Regno Dell'Ombra"
+    dlc: true
+    table: ["Name", "Location", "Drops", "Notes"]
+    table_it: ["Nome", "Luogo", "Ricompense", "Note"]
+    items:
+      - id: "1001"
+        data: ["Blackgaol Knight", "Western Nameless Mausoleum", "Greatsword of Solitude, Solitude Set", ""]
+        data_it: ["Cavaliere della Galera Solitaria", "Mausoleo senza nome occidentale", "Spadone della solitudine, Set della solitudine", ""]
+      - id: "1002"
+        data: ["Divine Beast Dancing Lion", "Belurat, Tower Settlement", "Remembrance of the Dancing Lion, Divine Beast Head", ""]
+        data_it: ["Leone danzante Belva Divina", "Belurat, insediamento della torre", "Rimembranza della belva danzante, Testa di belva divina", ""]
+      - id: "1003"
+        data: ["Rellana, Twin Moon Knight", "Castle Ensis", "Remembrance of the Twin Moon Knight", ""]
+        data_it: ["Rellana, Cavaliera della Luna Gemella", "Castello di Ensis", "Rimembranza della cavaliera della luna gemella", ""]
+      - id: "1004"
+        data: ["Golden Hippopotamus", "Shadow Keep", "Aspects of the Crucible: Thorns, 2x Scadutree Fragment", ""]
+        data_it: ["Ippopotamo d'oro", "Rocca delle Ombre", "Aspetto del Crogiolo: Spine, 2x Frammento di Albero Ombra", ""]
+      - id: "1005"
+        data: ["Messmer the Impaler", "Shadow Keep", "Remembrance of the Impaler, Messmer's Kindling", ""]
+        data_it: ["Messmer l'Impalatore", "Rocca delle Ombre", "Rimembranza dell'Impalatore, Esca di Messmer", ""]
+      - id: "1006"
+        data: ["Commander Gaius", "Shadow Keep (Back Gate)", "Remembrance of the Wild Boar Rider", ""]
+        data_it: ["Comandante Gaius", "Rocca delle Ombre (Ingresso posteriore)", "Rimembranza del cavaliere di cinghiale", ""]
+      - id: "1007"
+        data: ["Putrescent Knight", "Stone Coffin Fissure", "Remembrance of Putrescence", ""]
+        data_it: ["Cavaliere Putrescente", "Fenditura dei sarcofagi di pietra", "Rimembranza della putrescenza", ""]
+      - id: "1008"
+        data: ["Scadutree Avatar", "Scadutree Base", "Remembrance of the Shadow Sunflower, Miquella's Great Rune", ""]
+        data_it: ["Avatar dell'Albero Ombra", "Base dell'Albero Ombra", "Rimembranza del girasole d'ombra, Grande Runa di Miquella", ""]
+      - id: "1009"
+        data: ["Metyr, Mother of Fingers", "Cathedral of Manus Metyr (Underground)", "Remembrance of the Mother of Fingers", ""]
+        data_it: ["Metyr, Madre delle Dita", "Cattedrale di Manus Metyr (Sotterraneo)", "Rimembranza della Madre delle Dita", ""]
+      - id: "1010"
+        data: ["Midra, Lord of Frenzied Flame", "Midra's Manse", "Remembrance of the Lord of Frenzied Flame", ""]
+        data_it: ["Midra, Signore della Fiamma Frenetica", "Maniero di Midra", "Rimembranza del Signore della Fiamma Frenetica", ""]
+      - id: "1011"
+        data: ["Romina, Saint of the Bud", "Church of the Bud", "Remembrance of the Saint of the Bud", ""]
+        data_it: ["Romina, Santa del Germoglio", "Chiesa del Germoglio", "Rimembranza della Santa del Germoglio", ""]
+      - id: "1012"
+        data: ["Ancient Dragon-Man", "Dragon's Pit", "Dragon-Hunter's Great Katana", ""]
+        data_it: ["Uomo-drago antico", "Fossa del drago", "Gran katana del cacciatore di draghi", ""]
+      - id: "1013"
+        data: ["Ancient Dragon Senessax", "Jagged Peak", "Ancient Dragon Smithing Stone, Somber Ancient Dragon Smithing Stone", ""]
+        data_it: ["Drago Antico Senessax", "Picco Frastagliato", "Pietra da forgiatura del drago antico, Pietra da forgiatura funerea del drago antico", ""]
+      - id: "1014"
+        data: ["Bayle the Dread", "Jagged Peak (Summit)", "Heart of Bayle", ""]
+        data_it: ["Bayle il Terribile", "Picco Frastagliato (Vetta)", "Cuore di Bayle", ""]
+      - id: "1015"
+        data: ["Needle Knight Leda & Allies", "Enir-Ilim", "Leda's Sword, etc.", ""]
+        data_it: ["Cavaliere Agugliato Leda e alleati", "Enir-Ilim", "Spada di Leda, ecc.", ""]
+      - id: "1016"
+        data: ["Promised Consort Radahn", "Enir-Ilim (Final)", "Remembrance of a God and a Lord", ""]
+        data_it: ["Radahn, Consorte di Miquella", "Enir-Ilim", "Rimembranza di un dio e di un lord", ""]
+      - id: "1017"
+        data: ["Furnace Golem", "Gravesite Plain / Various", "Crystal Tears / Furnace Visage", ""]
+        data_it: ["Golem della Fornace", "Pianura delle Tombe / Vari", "Lacrime di cristallo / Volto della fornace", ""]
+      - id: "1018"
+        data: ["Ghostflame Dragon", "Gravesite Plain / Various", "Dragon Heart, Somber Ancient Dragon Smithing Stone", ""]
+        data_it: ["Drago della fiamma spettrale", "Pianura delle Tombe / Vari", "Cuore di drago, Pietra da forgiatura funerea del drago antico", ""]
+      - id: "1019"
+        data: ["Jori, Elder Inquisitor", "Darklight Catacombs", "Barbed Staff-Spear", ""]
+        data_it: ["Jori, inquisitore anziano", "Catacombe della luce oscura", "Lancia-bastone spinata", ""]
+      - id: "1020"
+        data: ["Death Knight", "Fog Rift Catacombs / Various", "Death Knight Set / Weapons", ""]
+        data_it: ["Cavaliere della morte", "Catacombe della faglia di nebbia / Vari", "Set del cavaliere della morte / Armi", ""]

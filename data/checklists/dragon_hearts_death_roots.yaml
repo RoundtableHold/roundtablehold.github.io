@@ -1,85 +1,120 @@
 title: "Dragon Hearts & Deathroots"
+title_it: "Cuori di drago e Radici mortali"
 id: dragon_hearts_death_roots
 map_icon: "/img/icons/keys/edited/03230.png"
 sections:
   -
     title: "Dragon Hearts"
+    title_it: "Cuori di drago"
     icon: "/img/icons/keys/edited/03230.png"
     map_icon: "/map/icons/shadows/keys/03230.png"
     items:
       - "Limgrave"
       - id: "0_1"
         data: ["Defeat Flying Dragon Agheel in Agheel Lake (x1)"]
+        data_it: ["Sconfiggi Agheel, il drago volante nel Lago Agheel (x1)"]
         cords: [3891, 7227]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - "Liurnia of the Lakes"
       - id: "0_3"
         data: ["Defeat Glintstone Dragon Smarag, west of Raya Lucaria Academy (x1)"]
+        data_it: ["Sconfiggi Smarag, il drago di pietralucente, a ovest dell'Accademia di Raya Lucaria (x1)"]
         cords: [1613, 4973]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - id: "0_4"
         data: ["Defeat Magma Wyrm Makar in Ruin-Strewn Precipice (x1)"]
+        data_it: ["Sconfiggi Makar, la Chimera di magma nel Dirupo profanato (x1)"]
         cords: [2426, 3602]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - id: "0_5"
         data: ["Defeat the three dragons in Moonlight Altar (x3)"]
+        data_it: ["Sconfiggi i tre draghi presso l'Altare lunare (x3)"]
         cords: [1529, 5943]
         map_title: "Dragon Heart x3"
+        map_title_it: "Cuore di drago x3"
       - id: "0_2"
         data: ["Defeat Glintstone Dragon Adula in front of the Cathedral of Manus Celes (x3)"]
+        data_it: ["Sconfiggi Adula, il drago di pietralucente davanti alla Cattedrale di Manus Celes (x3)"]
         cords: [1778, 5793]
         map_title: "Dragon Heart x3"
+        map_title_it: "Cuore di drago x3"
       - "Caelid"
       - id: "0_6"
         data: ["Defeat Decaying Ekzykes, northwest of the Cathedral of Dragon Communion (x1)"]
+        data_it: ["Sconfiggi Ekzykes il fatiscente, a nord-ovest della Cattedrale della Comunione dragonica (x1)"]
         cords: [5179, 7029]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - id: "0_7"
         data: ["Defeat Flying Dragon Greyll in the northeast of Caelid on the Farum Greatbridge (x1)"]
+        data_it: ["Sconfiggi Greyll, il drago volante nel nord-est di Caelid sul Granponte di Farum (x1)"]
         cords: [6156, 5856]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - id: "0_8"
         data: ["Defeat Elder Dragon Greyoll in front of Fort Faroth (x5)"]
+        data_it: ["Sconfiggi Greyoll, il drago anziano davanti a Forte Faroth (x5)"]
         cords: [5846, 6377]
         map_title: "Dragon Heart x5"
+        map_title_it: "Cuore di drago x5"
       - id: "0_9"
         data: ["Defeat the Magma Wyrm in Gael Tunnel bordering Limgrave (x1)"]
+        data_it: ["Sconfiggi la Chimera di magma nel Tunnel di Gael al confine con Sepolcride (x1)"]
         cords: [4828, 6464]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - "Mt. Gelmir"
       - id: "0_10"
         data: ["Defeat the Magma Wyrm in Volcano Manor (x1)"]
+        data_it: ["Sconfiggi la Chimera di magma a Villa Vulcano (x1)"]
         cords: [2205, 3041]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - id: "0_11"
         data: ["Defeat the Magma Wyrm near Seethwater Terminus to the west of Mt. Gelmir (x1)"]
+        data_it: ["Sconfiggi la Chimera di magma vicino al Capolinea di Acquaebollente a ovest del Monte Gelmir (x1)"]
         cords: [1936, 3004]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - "Mountaintops of the Giants"
       - id: "0_12"
         data: ["Defeat Borealis, the Freezing Fog in the frozen lake in the northeast (x1)"]
+        data_it: ["Sconfiggi Borealis la nebbia gelida nel lago ghiacciato a nord-est (x1)"]
         cords: [6661, 2034]
         map_title: "Dragon Heart"
+        map_title_it: "Cuore di drago"
       - "Consecrated Snowfield"
       - id: "0_13"
         data: ["Defeat Great Wyrm Theodorix, north of Albinauric Rise (x3)"]
+        data_it: ["Sconfiggi Theodorix, la grande Chimera, a nord della Guglia degli Albinauri (x3)"]
         cords: [5739, 2171]
         map_title: "Dragon Heart x3"
+        map_title_it: "Cuore di drago x3"
       - "Realm of Shadow"
       - id: "0_21"
         data: ["Defeat Ghostflame Dragon, found North from Fort Reprimand."]
+        data_it: ["Sconfiggi il drago della fiamma spettrale, a nord del Forte del rimprovero."]
       - id: "0_22"
         data: ["Defeat Ghostflame Dragon, found South of the Cerulean Coast Site of Grace."]
+        data_it: ["Sconfiggi il drago della fiamma spettrale, a sud del luogo di grazia Costa cerulea."]
       - id: "0_23"
         data: ["Defeat Ghostflame Dragon, found west of the Greatbridge, North Site of Grace."]
+        data_it: ["Sconfiggi il drago della fiamma spettrale, a ovest del luogo di grazia Granponte nord."]
       - id: "0_24"
         data: ["Defeat Jagged Peak Drake, found past the Dragon’s Pit Terminus Site of Grace."]
+        data_it: ["Sconfiggi il drago del Picco fagliato, oltre il luogo di grazia Capolinea dell'Antro del drago."]
       - id: "0_25"
         data: ["Defeat Jagged Peak Drake, found past the Foot of the Jagged Peak Site of Grace."]
+        data_it: ["Sconfiggi il drago del Picco fagliato, oltre il luogo di grazia Piedi del Picco fagliato."]
       - id: "0_26"
         data: ["Dragon's Pit: Dropped by the Magma Wyrm mini boss in the area."]
+        data_it: ["Antro del drago: Lasciato dal mini-boss Chimera di magma nell'area."]
   -
     title: "Deathroots"
+    title_it: "Radici mortali"
     icon: "/img/icons/keys/edited/00557.png"
     map_icon: "/map/icons/shadows/keys/00557.png"
     map_icon_size: 45
@@ -87,41 +122,59 @@ sections:
       - "Limgrave"
       - id: "1_1"
         data: ["Defeat the Tibia Mariner in northeast Limgrave in Summonwater Village"]
+        data_it: ["Sconfiggi il Marinaio tibiale nel nord-est di Sepolcride presso il Villaggio di Acqua Evocata"]
         cords: [4440, 6524]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - id: "1_2"
         data: ["In a chest in the boss room of the Deathtouched Catacombs"]
+        data_it: ["In un forziere nella stanza del boss delle Catacombe sfiorate dalla morte"]
         cords: [3898, 6485]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - "Liurnia of the Lakes"
       - id: "1_3"
         data: ["In a chest in the main boss room of the Black Knife Catacombs"]
+        data_it: ["In un forziere nella stanza principale del boss delle Catacombe dei Neri Coltelli"]
         cords: [2851, 4095]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - id: "1_4"
         data: ["Defeat the Tibia Mariner southwest of Carian Study Hall in east Liurnia of the Lakes"]
+        data_it: ["Sconfiggi il Marinaio tibiale a sud-ovest della Sala studio cariana nel settore orientale di Liurnia lacustre"]
         cords: [2861, 5271]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - "Mt. Gelmir"
       - id: "1_5"
         data: ["Defeat the Tibia Mariner in the Wyndham Ruins"]
+        data_it: ["Sconfiggi il Marinaio tibiale presso le Rovine di Wyndham"]
         cords: [2658, 3232]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - id: "1_6"
         data: ["In a chest in the boss room of the Gelmir Hero's Grave"]
+        data_it: ["In un forziere nella stanza del boss della Tomba dell'eroe di Gelmir"]
         cords: [2505, 2934]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - "Mountaintops of the Giants"
       - id: "1_7"
         data: ["In a chest in the boss room of the Giants' Mountaintop Catacombs"]
+        data_it: ["In un forziere nella stanza del boss delle Catacombe dei giganti"]
         cords: [5772, 2802]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - id: "1_8"
         data: ["Defeat the Tibia Mariner south of Castle Sol, on a cliff edge"]
+        data_it: ["Sconfiggi il Marinaio tibiale a sud di Castel Sol, sul ciglio di un dirupo"]
         cords: [6028, 1921]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"
       - "Consecrated Snowfield"
       - id: "1_9"
         data: ["In a chest in the boss room at the bottom of the Hidden Path to the Haligtree"]
+        data_it: ["In un forziere nella stanza del boss in fondo al Cammino nascosto per l'Albero Sacro"]
         cords: [5436, 2882]
         map_title: "Deathroot"
+        map_title_it: "Radice mortale"

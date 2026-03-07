@@ -14,7 +14,83 @@
     <meta content="Cheat sheet for Elden Ring. Checklist of things to do, items to get etc." name="description">
     <meta content="Ben Lambeth" name="author">
     <meta content="yes" name="mobile-web-app-capable">
-    <link href="/css/bootstrap.min.css" id="bootstrap" rel="stylesheet">
+    <script>
+(function() {
+    var style = "Standard";
+    try {
+        var jStorageStr = localStorage.getItem('jStorage');
+        if (jStorageStr) {
+            var jStorage = JSON.parse(jStorageStr);
+            var profiles = jStorage['darksouls3_profiles'];
+            if (typeof profiles === 'string') {
+                profiles = JSON.parse(profiles);
+            }
+            if (profiles) {
+                var current = profiles['current'] || 'Default Profile';
+                if (profiles['darksouls3_profiles'] && profiles['darksouls3_profiles'][current] && profiles['darksouls3_profiles'][current]['style']) {
+                    style = profiles['darksouls3_profiles'][current]['style'];
+                }
+            }
+        }
+    } catch (e) {}
+    
+    var themes = {
+        "Standard": "/css/bootstrap.min.css",
+        "LightMode": "/css/themes/lightmode/bootstrap.min.css",
+        "Ceruleon": "/css/themes/cerulean/bootstrap.min.css",
+        "Cosmo": "/css/themes/cosmo/bootstrap.min.css",
+        "Cyborg": "/css/themes/cyborg/bootstrap.min.css",
+        "Darkly": "/css/themes/darkly/bootstrap.min.css",
+        "Flatly": "/css/themes/flatly/bootstrap.min.css",
+        "Journal": "/css/themes/journal/bootstrap.min.css",
+        "Litera": "/css/themes/litera/bootstrap.min.css",
+        "Lumen": "/css/themes/lumen/bootstrap.min.css",
+        "Lux": "/css/themes/lux/bootstrap.min.css",
+        "Materia": "/css/themes/materia/bootstrap.min.css",
+        "Minty": "/css/themes/minty/bootstrap.min.css",
+        "Morph": "/css/themes/Morph/bootstrap.min.css",
+        "Pulse": "/css/themes/pulse/bootstrap.min.css",
+        "Quartz": "/css/themes/quartz/bootstrap.min.css",
+        "Regent": "/css/themes/regent/bootstrap.min.css",
+        "Sandstone": "/css/themes/sandstone/bootstrap.min.css",
+        "Simplex": "/css/themes/simplex/bootstrap.min.css",
+        "Sketchy": "/css/themes/sketchy/bootstrap.min.css",
+        "Slate": "/css/themes/slate/bootstrap.min.css",
+        "Solar": "/css/themes/solar/bootstrap.min.css",
+        "Spacelab": "/css/themes/spacelab/bootstrap.min.css",
+        "Superhero": "/css/themes/superhero/bootstrap.min.css",
+        "United": "/css/themes/united/bootstrap.min.css",
+        "Vapor": "/css/themes/vapor/bootstrap.min.css",
+        "Yeti": "/css/themes/yeti/bootstrap.min.css",
+        "Zephyr": "/css/themes/zephyr/bootstrap.min.css"
+    };
+
+    var themeUrl = themes[style] ? themes[style] : "/css/bootstrap.min.css";
+    document.write('<link href="' + themeUrl + '" rel="stylesheet" id="bootstrap">');
+
+    var lang = localStorage.getItem('selectedLanguage') || 'en';
+    document.write('<style id="language-fouc-fix">.lang-text { display: none !important; } .lang-text.lang-' + lang + ' { display: inline !important; } .lang-pair:not(:has(.lang-' + lang + ')) .lang-text.lang-en { display: inline !important; } .d-none-regex { display: none !important; }</style>');
+    
+    // Localize placeholders
+    window.addEventListener('DOMContentLoaded', function() {
+        var updatePlaceholders = function(l) {
+            document.querySelectorAll('input[placeholder]').forEach(function(input) {
+                var localized = input.getAttribute('data-placeholder-' + l);
+                if (localized) {
+                    input.placeholder = localized;
+                } else if (l === 'en') {
+                    // Restore original if available? For now just handle it or it stays as is
+                }
+            });
+        };
+        updatePlaceholders(lang);
+        
+        window.addEventListener('languageChanged', function(e) {
+            updatePlaceholders(e.detail.lang);
+        });
+    });
+})();
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
   </head>
@@ -24,168 +100,387 @@
         <button aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-collapse" data-bs-toggle="collapse" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand me-auto ms-2 active" href="/index.html">Roundtable Guides</a>
-        <form class="d-none d-sm-flex order-2 order-xl-3">
-          <input aria-label="search" class="form-control me-2" name="search" placeholder="Search" type="search">
-          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
+        <a class="navbar-brand me-auto ms-2 active" href="/index.html">
+          <span class="lang-pair">
+            <span class="lang-text lang-en">Roundtable Guides</span>
+            <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+          </span>
+        </a>
+        <ul class="navbar-nav flex-row order-2 order-xl-3 align-items-center me-2">
+          <li class="nav-item dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="langDropdown">
+              <span id="lang-display"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end position-absolute" id="lang-menu">
+              <li>
+                <a class="dropdown-item lang-option" data-lang="en" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15 h30 v15 z v-15 h-30 z h-30 v-15 z v15 h30 z'/%3E%3C/clipPath%3E%3Cpath d='M0,0 v30 h60 v-30 z' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0 v30 M0,15 h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> EN</a>
+              </li>
+              <li>
+                <a class="dropdown-item lang-option" data-lang="it" href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23009246'/%3E%3Crect width='1' height='2' x='1' fill='%23fff'/%3E%3Crect width='1' height='2' x='2' fill='%23ce2b37'/%3E%3C/svg%3E" style="height: 1.1em; border-radius: 2px; margin-bottom: 2px; border: 1px solid rgba(128, 128, 128, 0.3);"> IT</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action="/search.html" class="d-none d-sm-flex order-2 order-xl-3" method="get">
+          <input aria-label="search" class="form-control me-2" data-placeholder-it="Cerca" name="search" placeholder="Search" type="search">
+          <button class="btn" formaction="/search.html" formmethod="get" formnovalidate="true" type="submit"><i class="bi bi-search"></i></button>
         </form>
         <div class="d-sm-none order-2">
-          <a class="nav-link me-0" href="/search.html">
-            <i class="bi bi-search sb-icon-search"></i>
-          </a>
+          <a class="nav-link me-0" href="/search.html"><i class="bi bi-search sb-icon-search"></i></a>
         </div>
         <div class="collapse navbar-collapse order-3 order-xl-2 ms-xl-2" id="nav-collapse">
           <ul class="nav navbar-nav navbar-nav-scroll mr-auto">
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Guides
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Guides</span>
+                  <span class="lang-text lang-it">Guide</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">DLC Walkthrough</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dlc_walkthrough.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">DLC Walkthrough</span>
+                      <span class="lang-text lang-it">Soluzione DLC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                      <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">NPC Questlines</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/npc_questlines.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">NPC Questlines</span>
+                      <span class="lang-text lang-it">Missioni NPC</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">Achievements</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/achievements.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Achievements</span>
+                      <span class="lang-text lang-it">Obiettivi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">Legendaries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/legendaries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Legendaries</span>
+                      <span class="lang-text lang-it">Leggendari</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Locations
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Locations</span>
+                  <span class="lang-text lang-it">Luoghi</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">Bosses</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bosses.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bosses</span>
+                      <span class="lang-text lang-it">Boss</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">Landmarks &amp; Locations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/landmarks_locations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                      <span class="lang-text lang-it">Luoghi d'interesse</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">Sites of Grace</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sitesof_grace.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sites of Grace</span>
+                      <span class="lang-text lang-it">Luoghi di grazia</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/illusory_walls_invisible_paths.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                      <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Equipment
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Equipment</span>
+                  <span class="lang-text lang-it">Equipaggiamento</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">Weapons</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/weapons.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Weapons</span>
+                      <span class="lang-text lang-it">Armi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">Armor</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/armor.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Armor</span>
+                      <span class="lang-text lang-it">Armatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">Talismans</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/talismans.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Talismans</span>
+                      <span class="lang-text lang-it">Talismani</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">Sorceries</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/sorceries.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Sorceries</span>
+                      <span class="lang-text lang-it">Stregonerie</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">Incantations</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/incantations.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Incantations</span>
+                      <span class="lang-text lang-it">Incantesimi</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">Ashes of War</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ashesof_war.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ashes of War</span>
+                      <span class="lang-text lang-it">Ceneri di Guerra</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Spirit Ashes</span>
+                      <span class="lang-text lang-it">Ceneri spiritiche</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Upgrades &amp; Unlocks
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Upgrades &amp; Unlocks</span>
+                  <span class="lang-text lang-it">Potenziamenti e Sbloccabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/golden_seeds_sacred_tears.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                      <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/flaskof_wondrous_physick.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                      <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/memory_stones_talisman_pouches.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                      <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scrollsand_prayerbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                      <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">Whetstones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/whetstones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Whetstones</span>
+                      <span class="lang-text lang-it">Coltelli per affilatura</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">Bell Bearings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/bell_bearings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Bell Bearings</span>
+                      <span class="lang-text lang-it">Globi cinerei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">Cookbooks</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/cookbooks.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Cookbooks</span>
+                      <span class="lang-text lang-it">Ricettari</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/ancient_dragon_smithing_stones.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                      <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                      <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collectables
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Collectables</span>
+                  <span class="lang-text lang-it">Collezionabili</span>
+                </span>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/remembrances_mausoleums.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                      <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">Great Runes</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/great_runes.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Great Runes</span>
+                      <span class="lang-text lang-it">Grandi Rune</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/stonesword_keys_imp_seals.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                      <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/dragon_hearts_deathroots.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                      <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/larval_tears_celestial_dews.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                      <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">Paintings</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/paintings.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Paintings</span>
+                      <span class="lang-text lang-it">Dipinti</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">Pots &amp; Bottles</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/pots_bottles.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                      <span class="lang-text lang-it">Vasi e boccette</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/tools_multiplayer.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                      <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                    </span>
+                  </a>
                 </li>
                 <li class="tab-li">
-                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">Gestures</a>
+                  <a class="dropdown-item show-buttons" href="/checklists/gestures.html">
+                    <span class="lang-pair">
+                      <span class="lang-text lang-en">Gestures</span>
+                      <span class="lang-text lang-it">Gesti</span>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/map.html">
-                <i class="bi bi-map"></i> Map
+              <a class="nav-link hide-buttons" href="/map.html"><i class="bi bi-map"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Map</span>
+                  <span class="lang-text lang-it">Mappa</span>
+                </span>
               </a>
             </li>
             <li class="nav-item tab-li">
-              <a class="nav-link hide-buttons" href="/options.html">
-                <i class="bi bi-gear-fill"></i> Options
+              <a class="nav-link hide-buttons" href="/options.html"><i class="bi bi-gear-fill"></i>
+                <span> </span>
+                <span class="lang-pair">
+                  <span class="lang-text lang-en">Options</span>
+                  <span class="lang-text lang-it">Opzioni</span>
+                </span>
               </a>
             </li>
           </ul>
@@ -195,7 +490,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="mt-4">Roundtable Guides</h1>
+          <h1 class="mt-4">
+            <span class="lang-pair">
+              <span class="lang-text lang-en">Roundtable Guides</span>
+              <span class="lang-text lang-it">Guide della Tavola Rotonda</span>
+            </span>
+          </h1>
         </div>
         <div class="row gy-3">
           <div class="col-md-8 col-12">
@@ -203,15 +503,30 @@
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Welcome to Roundtable Guides</h5>
-                    <p class="card-text">Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.</p>
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Welcome to Roundtable Guides</span>
+                        <span class="lang-text lang-it">Benvenuti nelle Guide della Tavola Rotonda</span>
+                      </span>
+                    </h5>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Guides, Walkthroughs, and Progress Tracking for Elden Ring. Written and maintained by the players. This site is still a work in-progress. We are working on it every day.</span>
+                        <span class="lang-text lang-it">Guide, Soluzioni e monitoraggio dei progressi per Elden Ring. Scritto e mantenuto dai giocatori. Questo sito è ancora in fase di sviluppo. Ci lavoriamo ogni giorno.</span>
+                      </span>
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Get the Apps!</h5>
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Get the Apps!</span>
+                        <span class="lang-text lang-it">Scarica le App!</span>
+                      </span>
+                    </h5>
                     <div class="badge" style="width: 180px;">
                       <a href="https://apps.apple.com/us/app/elden-ring-guides/id1620436088?itsct=apps_box_badge&amp;amp;itscg=30200">
                         <img alt="Download on the App Store" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1650585600&amp;h=3eb10370b9c49cf5b5dde5ca0352f23a" style="margin: 6%; width: 88%;">
@@ -228,15 +543,42 @@
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Our other resources</h5>
-                    <p class="card-text">Join the Roundtable Hold 
-                      <a href="https://discord.gg/BzJzFeBjHr">Discord community</a>
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Our other resources</span>
+                        <span class="lang-text lang-it">Altre risorse</span>
+                      </span>
+                    </h5>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Join the Roundtable Hold </span>
+                        <span class="lang-text lang-it">Unisciti alla comunità della </span>
+                        <a href="https://discord.gg/BzJzFeBjHr">
+                          <span class="lang-pair">
+                            <span class="lang-text lang-en">Discord community</span>
+                            <span class="lang-text lang-it">Tavola Rotonda su Discord</span>
+                          </span>
+                        </a>
+                      </span>
                     </p>
-                    <p class="card-text">More guides are over on 
-                      <a href="https://www.reddit.com/r/Roundtable_Guides/">/r/Roundtable_Guides</a>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">More guides are over on </span>
+                        <span class="lang-text lang-it">Altre guide sono disponibili su </span>
+                        <a href="https://www.reddit.com/r/Roundtable_Guides/">/r/Roundtable_Guides</a>
+                      </span>
                     </p>
-                    <p class="card-text">Video guides on the 
-                      <a href="https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA">YouTube channel</a>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Video guides on the </span>
+                        <span class="lang-text lang-it">Video guide sul </span>
+                        <a href="https://www.youtube.com/channel/UCE-I15Z8HQBNCFHq2V0bbsA">
+                          <span class="lang-pair">
+                            <span class="lang-text lang-en">YouTube channel</span>
+                            <span class="lang-text lang-it">canale YouTube</span>
+                          </span>
+                        </a>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -244,10 +586,37 @@
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">I have feedback, how can I contribute?</h5>
-                    <p class="card-text">Contributing is easy! And does not require you to know how to code. You can find instructions on the
-                      <a href="https://github.com/RoundtableHold/roundtablehold.github.io">Github repository</a> You can also simply 
-                      <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">report issues</a> and we'll fix them.
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">I have feedback, how can I contribute?</span>
+                        <span class="lang-text lang-it">Ho un feedback, come posso contribuire?</span>
+                      </span>
+                    </h5>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Contributing is easy! And does not require you to know how to code. You can find instructions on the</span>
+                        <span class="lang-text lang-it">Contribuire è facile! E non richiede di saper programmare. Puoi trovare istruzioni sulla</span>
+                      </span>
+                      <a href="https://github.com/RoundtableHold/roundtablehold.github.io">
+                        <span class="lang-pair">
+                          <span class="lang-text lang-en">Github repository</span>
+                          <span class="lang-text lang-it">repository GitHub</span>
+                        </span>
+                      </a>
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en"> You can also simply </span>
+                        <span class="lang-text lang-it"> Puoi anche semplicemente </span>
+                      </span>
+                      <a href="https://github.com/RoundtableHold/roundtablehold.github.io/issues">
+                        <span class="lang-pair">
+                          <span class="lang-text lang-en">report issues</span>
+                          <span class="lang-text lang-it">segnalare problemi</span>
+                        </span>
+                      </a>
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en"> and we'll fix them.</span>
+                        <span class="lang-text lang-it"> e noi li risolveremo.</span>
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -255,16 +624,36 @@
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Can I use this for multiple characters?</h5>
-                    <p class="card-text">Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</p>
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Can I use this for multiple characters?</span>
+                        <span class="lang-text lang-it">Posso usarlo per più personaggi?</span>
+                      </span>
+                    </h5>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Yes! Use the profile selector and buttons in the options tab at the top of the page to setup multiple profiles.</span>
+                        <span class="lang-text lang-it">Sì! Usa il selettore di profili e i pulsanti nella scheda delle opzioni nella parte superiore della pagina per impostare più profili.</span>
+                      </span>
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card shadow h-100">
                   <div class="card-body">
-                    <h5 class="card-title text-center">How does the checklist status get saved?</h5>
-                    <p class="card-text">The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</p>
+                    <h5 class="card-title text-center">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">How does the checklist status get saved?</span>
+                        <span class="lang-text lang-it">Come viene salvato lo stato della checklist?</span>
+                      </span>
+                    </h5>
+                    <p class="card-text">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">The checklists are saved to your browser's local storage. Be careful when clearing your browser's cache as it will also destroy your saved progress.</span>
+                        <span class="lang-text lang-it">Le checklist vengono salvate nella memoria locale del browser. Fai attenzione quando svuoti la cache del browser poiché distruggerà anche i tuoi progressi salvati.</span>
+                      </span>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -273,185 +662,330 @@
           <div class="col-md-4 col-12">
             <div class="card shadow">
               <div class="card-body uncolor-links">
-                <h5 class="card-title text-center">Progress</h5>
+                <h5 class="card-title text-center">
+                  <span class="lang-pair">
+                    <span class="lang-text lang-en">Progress</span>
+                    <span class="lang-text lang-it">Progressi</span>
+                  </span>
+                </h5>
                 <ul class="nav flex-column" id="progress_list">
                   <hr>
                   <li class="tab-li">
-                    <a href="/checklists/walkthrough.html">Walkthrough
+                    <a href="/checklists/walkthrough.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Walkthrough</span>
+                        <span class="lang-text lang-it">Soluzione</span>
+                      </span>
                       <span class="d-print-none" id="playthrough_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/dlc_walkthrough.html">DLC Walkthrough
+                    <a href="/checklists/dlc_walkthrough.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">DLC Walkthrough</span>
+                        <span class="lang-text lang-it">Soluzione DLC</span>
+                      </span>
                       <span class="d-print-none" id="dlc_playthrough_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/tldr_all_npc_quest_stepsin_order.html"> TL;DR All NPC Quest Steps in Order
+                    <a href="/checklists/tldr_all_npc_quest_stepsin_order.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en"> TL;DR All NPC Quest Steps in Order</span>
+                        <span class="lang-text lang-it"> TL;DR Tutti i passaggi delle missioni NPC in ordine</span>
+                      </span>
                       <span class="d-print-none" id="quest_order_tldr_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/npc_questlines.html">NPC Questlines
+                    <a href="/checklists/npc_questlines.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">NPC Questlines</span>
+                        <span class="lang-text lang-it">Missioni NPC</span>
+                      </span>
                       <span class="d-print-none" id="npc_quests_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/achievements.html">Achievements
+                    <a href="/checklists/achievements.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Achievements</span>
+                        <span class="lang-text lang-it">Obiettivi</span>
+                      </span>
                       <span class="d-print-none" id="achievements_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/legendaries.html">Legendaries
+                    <a href="/checklists/legendaries.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Legendaries</span>
+                        <span class="lang-text lang-it">Leggendari</span>
+                      </span>
                       <span class="d-print-none" id="legendaries_progress_total"></span>
                     </a>
                   </li>
                   <hr>
                   <li class="tab-li">
-                    <a href="/checklists/bosses.html">Bosses
+                    <a href="/checklists/bosses.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Bosses</span>
+                        <span class="lang-text lang-it">Boss</span>
+                      </span>
                       <span class="d-print-none" id="bosses_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/landmarks_locations.html">Landmarks &amp; Locations
+                    <a href="/checklists/landmarks_locations.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Landmarks &amp; Locations</span>
+                        <span class="lang-text lang-it">Luoghi d'interesse</span>
+                      </span>
                       <span class="d-print-none" id="caves_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/sitesof_grace.html">Sites of Grace
+                    <a href="/checklists/sitesof_grace.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Sites of Grace</span>
+                        <span class="lang-text lang-it">Luoghi di grazia</span>
+                      </span>
                       <span class="d-print-none" id="graces_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/illusory_walls_invisible_paths.html">Illusory Walls &amp; Invisible Paths
+                    <a href="/checklists/illusory_walls_invisible_paths.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Illusory Walls &amp; Invisible Paths</span>
+                        <span class="lang-text lang-it">Muri illusori e sentieri invisibili</span>
+                      </span>
                       <span class="d-print-none" id="illusory_walls_progress_total"></span>
                     </a>
                   </li>
                   <hr>
                   <li class="tab-li">
-                    <a href="/checklists/weapons.html">Weapons
+                    <a href="/checklists/weapons.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Weapons</span>
+                        <span class="lang-text lang-it">Armi</span>
+                      </span>
                       <span class="d-print-none" id="weapons_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/armor.html">Armor
+                    <a href="/checklists/armor.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Armor</span>
+                        <span class="lang-text lang-it">Armatura</span>
+                      </span>
                       <span class="d-print-none" id="armor_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/talismans.html">Talismans
+                    <a href="/checklists/talismans.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Talismans</span>
+                        <span class="lang-text lang-it">Talismani</span>
+                      </span>
                       <span class="d-print-none" id="talismans_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/sorceries.html">Sorceries
+                    <a href="/checklists/sorceries.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Sorceries</span>
+                        <span class="lang-text lang-it">Stregonerie</span>
+                      </span>
                       <span class="d-print-none" id="sorceries_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/incantations.html">Incantations
+                    <a href="/checklists/incantations.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Incantations</span>
+                        <span class="lang-text lang-it">Incantesimi</span>
+                      </span>
                       <span class="d-print-none" id="incantations_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/ashesof_war.html">Ashes of War
+                    <a href="/checklists/ashesof_war.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Ashes of War</span>
+                        <span class="lang-text lang-it">Ceneri di Guerra</span>
+                      </span>
                       <span class="d-print-none" id="ashesofwar_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/spirit_ashes.html">Spirit Ashes
+                    <a href="/checklists/spirit_ashes.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Spirit Ashes</span>
+                        <span class="lang-text lang-it">Ceneri spiritiche</span>
+                      </span>
                       <span class="d-print-none" id="spirit_ashes_progress_total"></span>
                     </a>
                   </li>
                   <hr>
                   <li class="tab-li">
-                    <a href="/checklists/golden_seeds_sacred_tears.html">Golden Seeds &amp; Sacred Tears
+                    <a href="/checklists/golden_seeds_sacred_tears.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Golden Seeds &amp; Sacred Tears</span>
+                        <span class="lang-text lang-it">Semi d'oro e Lacrime sacre</span>
+                      </span>
                       <span class="d-print-none" id="flasks_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/flaskof_wondrous_physick.html">Flask of Wondrous Physick
+                    <a href="/checklists/flaskof_wondrous_physick.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Flask of Wondrous Physick</span>
+                        <span class="lang-text lang-it">Ampolla di balsamo portentoso</span>
+                      </span>
                       <span class="d-print-none" id="crystal_tears_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/memory_stones_talisman_pouches.html">Memory Stones &amp; Talisman Pouches
+                    <a href="/checklists/memory_stones_talisman_pouches.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Memory Stones &amp; Talisman Pouches</span>
+                        <span class="lang-text lang-it">Pietre della memoria e Borse per talismano</span>
+                      </span>
                       <span class="d-print-none" id="memory_stones_talisman_pouches_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/scrollsand_prayerbooks.html">Scrolls and Prayerbooks
+                    <a href="/checklists/scrollsand_prayerbooks.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Scrolls and Prayerbooks</span>
+                        <span class="lang-text lang-it">Pergamene e Libri di preghiere</span>
+                      </span>
                       <span class="d-print-none" id="scrolls_prayerbooks_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/whetstones.html">Whetstones
+                    <a href="/checklists/whetstones.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Whetstones</span>
+                        <span class="lang-text lang-it">Coltelli per affilatura</span>
+                      </span>
                       <span class="d-print-none" id="whetstones_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/bell_bearings.html">Bell Bearings
+                    <a href="/checklists/bell_bearings.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Bell Bearings</span>
+                        <span class="lang-text lang-it">Globi cinerei</span>
+                      </span>
                       <span class="d-print-none" id="bell_bearings_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/cookbooks.html">Cookbooks
+                    <a href="/checklists/cookbooks.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Cookbooks</span>
+                        <span class="lang-text lang-it">Ricettari</span>
+                      </span>
                       <span class="d-print-none" id="cookbooks_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/ancient_dragon_smithing_stones.html">Ancient Dragon Smithing Stones
+                    <a href="/checklists/ancient_dragon_smithing_stones.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Ancient Dragon Smithing Stones</span>
+                        <span class="lang-text lang-it">Pietre da forgiatura del drago antico</span>
+                      </span>
                       <span class="d-print-none" id="ancient_dragon_smithing_stones_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/scadutree_fragments_revered_spirit_ashes.html">Scadutree Fragments &amp; Revered Spirit Ashes
+                    <a href="/checklists/scadutree_fragments_revered_spirit_ashes.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Scadutree Fragments &amp; Revered Spirit Ashes</span>
+                        <span class="lang-text lang-it">Frammenti dell'Albero Ombra &amp; Ceneri di spirito venerato</span>
+                      </span>
                       <span class="d-print-none" id="scadutree_fragment_revered_spirit_ash_progress_total"></span>
                     </a>
                   </li>
                   <hr>
                   <li class="tab-li">
-                    <a href="/checklists/remembrances_mausoleums.html">Remembrances &amp; Mausoleums
+                    <a href="/checklists/remembrances_mausoleums.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Remembrances &amp; Mausoleums</span>
+                        <span class="lang-text lang-it">Rimembranze e Mausolei</span>
+                      </span>
                       <span class="d-print-none" id="remembrances_mausoleums_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/great_runes.html">Great Runes
+                    <a href="/checklists/great_runes.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Great Runes</span>
+                        <span class="lang-text lang-it">Grandi Rune</span>
+                      </span>
                       <span class="d-print-none" id="great_runes_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/stonesword_keys_imp_seals.html">Stonesword Keys &amp; Imp Seals
+                    <a href="/checklists/stonesword_keys_imp_seals.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Stonesword Keys &amp; Imp Seals</span>
+                        <span class="lang-text lang-it">Chiavi della spada di pietra e Sigilli demoniaci</span>
+                      </span>
                       <span class="d-print-none" id="stonesword_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/dragon_hearts_deathroots.html">Dragon Hearts &amp; Deathroots
+                    <a href="/checklists/dragon_hearts_deathroots.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Dragon Hearts &amp; Deathroots</span>
+                        <span class="lang-text lang-it">Cuori di drago e Radici mortali</span>
+                      </span>
                       <span class="d-print-none" id="dragon_hearts_death_roots_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/larval_tears_celestial_dews.html">Larval Tears &amp; Celestial Dews
+                    <a href="/checklists/larval_tears_celestial_dews.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Larval Tears &amp; Celestial Dews</span>
+                        <span class="lang-text lang-it">Lacrime larvali e Rugiada celeste</span>
+                      </span>
                       <span class="d-print-none" id="tears_dews_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/paintings.html">Paintings
+                    <a href="/checklists/paintings.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Paintings</span>
+                        <span class="lang-text lang-it">Dipinti</span>
+                      </span>
                       <span class="d-print-none" id="paintings_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/pots_bottles.html">Pots &amp; Bottles
+                    <a href="/checklists/pots_bottles.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Pots &amp; Bottles</span>
+                        <span class="lang-text lang-it">Vasi e boccette</span>
+                      </span>
                       <span class="d-print-none" id="pots_bottles_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/tools_multiplayer.html">Tools &amp; Multiplayer
+                    <a href="/checklists/tools_multiplayer.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Tools &amp; Multiplayer</span>
+                        <span class="lang-text lang-it">Strumenti e multigiocatore</span>
+                      </span>
                       <span class="d-print-none" id="tools_progress_total"></span>
                     </a>
                   </li>
                   <li class="tab-li">
-                    <a href="/checklists/gestures.html">Gestures
+                    <a href="/checklists/gestures.html">
+                      <span class="lang-pair">
+                        <span class="lang-text lang-en">Gestures</span>
+                        <span class="lang-text lang-it">Gesti</span>
+                      </span>
                       <span class="d-print-none" id="gestures_progress_total"></span>
                     </a>
                   </li>
@@ -466,7 +1000,8 @@
       <script src="/js/jstorage.min.js"></script>
       <script src="/js/progress.js"></script>
       <script src="/js/item_links.js"></script>
-      <script src="/js/common.js"></script>
+      <script src="/js/common.js?v=1.1"></script>
+      <script src="/js/sync.js"></script>
       <script src="/js/bootstrap.bundle.min.js"></script>
       <script src="/js/jets.min.js"></script>
       <script src="/js/jquery.highlight.js"></script>
@@ -480,7 +1015,7 @@
     gtag('config', 'G-B7FMWDCTF5');
     </script>
     
-      <script src="/js/index.js"></script>
+      <script src="/js/index.js?v=1.1"></script>
     </div>
   </body>
 </html>

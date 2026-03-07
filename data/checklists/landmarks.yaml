@@ -1,1069 +1,3610 @@
 title: Landmarks & Locations
 id: caves
-icon: '/map/icons/MENU_MAP_30.png'
-table_widths: [4, 2, 3, 3]
+icon: /map/icons/MENU_MAP_30.png
+table_widths:
+- 4
+- 2
+- 3
+- 3
 sections:
-  -
-    title: "Limgrave"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "1_1"
-        data: ["Stranded Graveyard", "Cave", "Soldier of Godrick", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [3766, 7373]
-      - id: "1_5"
-        data: ["Groveside Cave", "Cave", "Beastman of Farum Azula", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [3664, 7065]
-      - id: "1_3"
-        data: ["Coastal Cave", "Cave", "Demi-Human Chief (x2)", "Related to Boc's questline."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [3497, 7347]
-      - id: "1_9"
-        data: ["Murkwater Cave", "Cave", "Patches", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [4060, 6975]
-      - id: "1_6"
-        data: ["Highroad Cave", "Cave", "Guardian Golem", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [4048, 6437]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "1_4"
-        data: ["Deathtouched Catacombs", "Catacomb", "Black Knife Assassin", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [3897, 6502]
-      - id: "1_10"
-        data: ["Stormfoot Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [3509, 7060]
-      - id: "1_8"
-        data: ["Murkwater Catacombs", "Catacomb", "Grave Warden Duelist", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [4067, 6704]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "1_7"
-        data: ["Limgrave Tunnels", "Tunnel", "Stonedigger Troll", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [3839, 7051]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-      - id: "1_2"
-        data: ["Fringefolk Hero's Grave", "Hero's grave", "Ulcerated Tree Sprit<br>Grafted Scion (x2)", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_16.png'
-        map_icon: '/map/icons/edited/MENU_MAP_16.png'
-        cords: [3755, 7319]
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e1"
-        data: ["Forlorn Hound Evergaol", "Evergaol", "Bloodhound Knight Darriwil", "Bloodhound's Fang (Armament)"]
-        cords: [4207, 7666]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e2"
-        data: ["Stormhill Evergaol", "Evergaol", "Crucible Knight", "Aspects of the Crucible: Tail (Incantation)"]
-        cords: [3646, 6998]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l1"
-        data: ["Minor Erdtree", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [4561, 7088]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-      - id: "l2"
-        data: ["Divine Tower of Limgrave", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [4239, 6218]
-        map_icon_size: 45
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l3"
-        data: ["Dragon-Burnt Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3965, 7373]
-      - id: "l4"
-        data: ["Gatefront Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3785, 6961]
-      - id: "l5"
-        data: ["Mistwood Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [4419, 7152]
-      - id: "l6"
-        data: ["Waypoint Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [4234, 7222]
-      - id: "l7"
-        data: ["Summonwater Village", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [4462, 6491]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l8"
-        data: ["Stormhill Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [3491, 6775]
-      - id: "l9"
-        data: ["Warmaster's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [3720, 6696]
-      - id: "l10"
-        data: ["Artist's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [4214, 6789]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l11"
-        data: ["Church of Elleh", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3659, 7225]
-        map_icon_size: 40
-      - id: "l12"
-        data: ["Church of Dragon Communion", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3382, 7601]
-        map_icon_size: 40
-      - id: "l13"
-        data: ["Third Church of Marika", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [4624, 6710]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l14"
-        data: ["Stormgate", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_10.png'
-        cords: [3677, 6915]
-      - id: "l15"
-        data: ["Siofra River Well", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Ungro.png'
-        cords: [4581, 7032]
-      - id: "l16"
-        data: ["Fort Haight", "Landmark", "", "Related to Kenneth Haight's questline."]
-        icon: '/map/icons/MENU_MAP_18.png'
-        cords: [4707, 7314]
-        map_icon_size: 40
-        #LEGACY
-      - id: "ld1"
-        data: ["Stormveil Castle", "Legacy dungeon (major)", "Margit, the Fell Omen<br>Godrick the Grafted", "Semi-required for progression."]
-        icon: '/map/icons/MENU_MAP_50.png'
-        cords: [3216, 6775]
-        map_icon_size: 45
-  -
-    title: "Weeping Peninsula"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "0_1"
-        data: ["Earthbore Cave", "Cave", "Runebear", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [4136, 7836]
-      - id: "0_5"
-        data: ["Tombsward Cave", "Cave", "Miranda, the Blighted Bloom", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [3616, 8023]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "0_2"
-        data: ["Impaler's Catacombs", "Catacomb", "Erdtree Burial Watchdog", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [4472, 7848]
-      - id: "0_4"
-        data: ["Tombsward Catacombs", "Catacomb", "Cemetary Shade", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [3851, 7951]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "0_3"
-        data: ["Morne Tunnel", "Tunnel", "Scaly Misbegotten", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [4005, 8113]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e3"
-        data: ["Weeping Evergaol", "Evergaol", "Ancient Hero of Zamor", "Radgon's Scarseal (Talisman)"]
-        cords: [3599, 7958]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l17"
-        data: ["Minor Erdtree", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [3912, 8109]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l18"
-        data: ["Oridys's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [4415, 8121]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l19"
-        data: ["Demi-Human Forest Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3994, 7867]
-      - id: "l20"
-        data: ["Tombsward Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3704, 7918]
-      - id: "l21"
-        data: ["Witchbane Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3510, 8063]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l22"
-        data: ["Isolated Merchant's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [3468, 8225]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l23"
-        data: ["Church of Pilgrimage", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3858, 7679]
-        map_icon_size: 40
-      - id: "l24"
-        data: ["Callu Baptismal Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [4137, 8122]
-        map_icon_size: 40
-      - id: "l25"
-        data: ["Fourth Church of Marika", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3538, 7993]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l26"
-        data: ["Bridge of Sacrifice", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_11.png'
-        cords: [4350, 7771]
-      - id: "l27"
-        data: ["Ailing Village", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_37.png'
-        cords: [4119, 8090]
-      - id: "l28"
-        data: ["Forest Lookout Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [4227, 7868]
-      - id: "l29"
-        data: ["Tower of Return", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [3659, 8364]
-        #LEGACY
-      - id: "ld2"
-        data: ["Castle Morne", "Legacy dungeon (minor)", "Leonine Misbegotten", "Related to Irina's questline."]
-        icon: '/map/icons/MENU_MAP_25.png'
-        cords: [4097, 8554]
-        map_icon_size: 45
-  -
-    title: "Liurnia of the Lakes"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "2_1"
-        data: ["Academy Crystal Cave", "Cave", "Crystalian (x2)", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [1724, 4870]
-      - id: "2_4"
-        data: ["Lakeside Crystal Cave", "Cave", "Bloodhound Knight", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2335, 5968]
-      - id: "2_8"
-        data: ["Stillwater Cave", "Cave", "Cleanrot Knight", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2940, 6303]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "2_2"
-        data: ["Black Knife Catacombs", "Catacomb", "Black Knife Assassin<br>Cemetery Shade", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [2870, 4122]
-      - id: "2_3"
-        data: ["Cliffbottom Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [3037, 5944]
-      - id: "2_6"
-        data: ["Road's End Catacombs", "Catacomb", "Spirit-Caller Snail", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [1381, 5526]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "2_5"
-        data: ["Raya Lucaria Crystal Tunnel", "Tunnel", "Crystalian (Ringblade)", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [2304, 4457]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e4"
-        data: ["Malefactor's Evergaol", "Evergaol", "Adan, Thief of Fire", "Flame of the Fell God (Incantation)"]
-        cords: [2684, 6120]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e5"
-        data: ["Cuckoo's Evergaol", "Evergaol", "Bols, Carian Knight", "Greatblade Phalanx (Sorcery)"]
-        cords: [1377, 5030]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e6"
-        data: ["Royal Grave Evergaol", "Evergaol", "Alabaster Lord", "Meteorite (Sorcery)"]
-        cords: [2276, 3697]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e7"
-        data: ["Ringleader's Evergaol", "Evergaol", "Alecto, Black Knife Ringleader", "Black Knife Tiche (Ashen Remains)"]
-        cords: [1377, 5693]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l30"
-        data: ["Minor Erdtree (southwest)", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [1440, 5437]
-        map_icon_size: 45
-      - id: "l31"
-        data: ["Minor Erdtree (northeast)", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [2673, 4345]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-      - id: "l32"
-        data: ["Divine Tower of Liurnia", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [3345, 5135]
-        map_icon_size: 45
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l33"
-        data: ["Converted Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1577, 5578]
-        map_icon_size: 45
-      - id: "l34"
-        data: ["Testu's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1833, 4405]
-        map_icon_size: 45
-      - id: "l35"
-        data: ["Converted Fringe Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [2919, 4172]
-        map_icon_size: 45
-      - id: "l36"
-        data: ["Ranni's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1596, 3690]
-        map_icon_size: 45
-      - id: "l38"
-        data: ["Seluvis's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1732, 3803]
-        map_icon_size: 45
-      - id: "l39"
-        data: ["Renna's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1755, 3517]
-        map_icon_size: 45
-      - id: "l50"
-        data: ["Chelona's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [1406, 6245]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l40"
-        data: ["Laskyar Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [2543, 5875]
-      - id: "l41"
-        data: ["Purified Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [2861, 5927]
-      - id: "l42"
-        data: ["Kingsrealm Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [1722, 4123]
-      - id: "l43"
-        data: ["Lunar Estate Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [1950, 5937]
-      - id: "l44"
-        data: ["Moonfolk Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [1675, 5781]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l45"
-        data: ["Slumbering Wolf's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2302, 6064]
-      - id: "l46"
-        data: ["Boilprawn Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2277, 5562]
-      - id: "l47"
-        data: ["Artist's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2768, 5102]
-      - id: "l48"
-        data: ["Revenger's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [1430, 5208]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l131"
-        data: ["Church of Irith", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [2911, 6414]
-        map_icon_size: 40
-      - id: "l51"
-        data: ["Rose Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [1829, 5363]
-        map_icon_size: 40
-      - id: "l52"
-        data: ["Church of Vows", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [2405, 4720]
-        map_icon_size: 40
-      - id: "l53"
-        data: ["Bellum Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [2180, 4048]
-        map_icon_size: 40
-      - id: "l54"
-        data: ["Church of Inhibition", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [2499, 4013]
-        map_icon_size: 40
-      - id: "l55"
-        data: ["Cathedral of Manus Celes", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_20.png'
-        cords: [1883, 5784]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l56"
-        data: ["Highway Lookout Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [2793, 5638]
-      - id: "l57"
-        data: ["Carian Study Hall", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_66.png'
-        cords: [2917, 5209]
-        map_icon_size: 45
-      - id: "l58"
-        data: ["Jarburg", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_38.png'
-        cords: [2993, 5259]
-      - id: "l59"
-        data: ["Academy Gate Town", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_32.png'
-        cords: [2345, 5207]
-      - id: "l60"
-        data: ["Temple Quarter", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_32.png'
-        cords: [1714, 5178]
-      - id: "l61"
-        data: ["Village of the Albinaurics", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_39.png'
-        cords: [1727, 5852]
-      - id: "l62"
-        data: ["The Four Belfries", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_52.png'
-        cords: [1475, 4565]
-        map_icon_size: 40
-      - id: "l63"
-        data: ["Frenzied Flame Village", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_35.png'
-        cords: [2650, 4245]
-      - id: "l64"
-        data: ["Frenzy-Flaming Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [2679, 4054]
-      - id: "l65"
-        data: ["Ainsel River Well", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Ungro.png'
-        cords: [2777, 4661]
-      - id: "l66"
-        data: ["Deep Ainsel Well", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Ungro.png'
-        cords: [1643, 5990]
-        #LEGACY
-      - id: "ld3"
-        data: ["Academy of Raya Lucaria", "Legacy dungeon (major)", "Red Wolf of Radagon<br>Rennala, Queen of the Full Moon", "Semi-required for progression, needs Academy Key to enter."]
-        icon: '/map/icons/MENU_MAP_51.png'
-        cords: [1800, 4807]
-        map_icon_size: 45
-      - id: "ld4"
-        data: ["Caria Manor", "Legacy dungeon (minor)", "Royal Knight Loretta", "Related to Ranni's questline."]
-        icon: '/map/icons/MENU_MAP_26.png'
-        cords: [1927, 3730]
-        map_icon_size: 45
-      - id: "2_7" #This legacy dungeon has a Cave-style ID instead of a Legacy Dungeon-style ID because it was listed on both original pages, and keeping the ID it had on the Caves page means it preserves its progress.
-        data: ["Ruin-Strewn Precipice", "Legacy dungeon (minor)", "Magma Wyrm Makar", "Not required, unless you want alternate entry to Altus Plateau."]
-        icon: '/map/icons/MENU_MAP_53.png'
-        cords: [2580, 3625]
-        map_icon_size: 45
-  -
-    title: "Caelid"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "3_1"
-        data: ["Abandoned Cave", "Cave", "Cleanrot Knight (x2)", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [5363, 6479]
-      - id: "3_4"
-        data: ["Gaol Cave", "Cave", "Frenzied Duelist", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [4936, 6771]
-      - id: "3_7"
-        data: ["Dragonbarrow Cave", "Cave", "Beastman of Farum Azula (x2)", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [6011, 6173]
-      - id: "3_9"
-        data: ["Sellia Hideaway", "Cave", "Crystalian (x3)", "Part of Sellen's questline. Located behind an illusory cliffside."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [5873, 6481]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "3_2"
-        data: ["Caelid Catacombs", "Catacomb", "Cemetery Shade", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [5362, 7238]
-      - id: "3_5"
-        data: ["Minor Erdtree Catacombs", "Catacomb", "Erdtree Burial Watchdog (x2)", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [4930, 6172]
-      - id: "3_8"
-        data: ["War-Dead Catacombs", "Catacomb", "Putrid Tree Spirit", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [6310, 6173]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "3_3"
-        data: ["Gael Tunnel", "Tunnel", "Magma Wyrm", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [4796, 6512]
-      - id: "3_6"
-        data: ["Sellia Crystal Tunnel", "Tunnel", "Fallingstar Beast", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [5520, 6433]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e8"
-        data: ["Sellia Evergaol", "Evergaol", "Battlemage Hugues", "Battlemage Hugues (Ashen Remains)"]
-        cords: [5413, 6515]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l67"
-        data: ["Minor Erdtree (west)", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [4911, 6164]
-        map_icon_size: 45
-      - id: "l68"
-        data: ["Minor Erdtree (east)", "Landmark", "Putrid Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [6037, 6244]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-      - id: "l69"
-        data: ["Divine Tower of Caelid", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [5581, 6055]
-        map_icon_size: 45
-      - id: "l70"
-        data: ["Isolated Divine Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [5990, 4819]
-        map_icon_size: 45
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l71"
-        data: ["Lenne's Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [6338, 6042]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l72"
-        data: ["Forsaken Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [4894, 6375]
-      - id: "l73"
-        data: ["Caelem Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5114, 6372]
-      - id: "l74"
-        data: ["Caelid Waypoint Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5043, 6879]
-      - id: "l75"
-        data: ["Street of Sages Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5286, 6664]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l76"
-        data: ["Shack of the Rotting", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [4819, 6362]
-      - id: "l77"
-        data: ["Isolated Merchant's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [5171, 6098]
-      - id: "l78"
-        data: ["Gowry's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [5672, 6738]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l79"
-        data: ["Smouldering Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [4668, 6258]
-        map_icon_size: 40
-      - id: "l80"
-        data: ["Cathedral of Dragon Communion", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [5267, 7189]
-        map_icon_size: 40
-      - id: "l81"
-        data: ["Church of the Plague", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [5773, 6662]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l82"
-        data: ["Sellia, Town of Sorcery", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_33.png'
-        cords: [5638, 6579]
-        map_icon_size: 40
-      - id: "l83"
-        data: ["Sellia Gateway", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_10.png'
-        cords: [5629, 6836]
-      - id: "l84"
-        data: ["Bestial Sanctum", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_54.png'
-        cords: [5983, 5504]
-        map_icon_size: 40
-      - id: "l85"
-        data: ["Deep Siofra Well", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Ungro.png'
-        cords: [5390, 6283]
-      - id: "l86"
-        data: ["Fort Gael", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_18.png'
-        cords: [4885, 6793]
-        map_icon_size: 40
-      - id: "l87"
-        data: ["Fort Faroth", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_18.png'
-        cords: [5957, 6429]
-        map_icon_size: 40
-      - id: "l88"
-        data: ["Swamp Lookout Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [5558, 6732]
-        #LEGACY
-      - id: "ld5"
-        data: ["Redmane Castle", "Legacy dungeon (minor)", "Misbegotten Warrior & Crucible Knight<br>Starscourge Radahn", "Semi-required for progression."]
-        icon: '/map/icons/MENU_MAP_28.png'
-        cords: [6060, 7357]
-        map_icon_size: 45
-  -
-    title: "Altus Plateau"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "4_3"
-        data: ["Perfumer's Grotto", "Cave", "Omenkiller & Miranda, the Blighted Bloom", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [3506, 3448]
-      - id: "5_2"
-        data: ["Sage's Cave", "Cave", "Necromancer Garris<br>Black Knife Assassin", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2511, 3264]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "5_4"
-        data: ["Unsightly Catacombs", "Catacomb", "Perfumer Tricia & Misbegotten Warrior", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [2126, 3369]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "4_1"
-        data: ["Old Altus Tunnel", "Tunnel", "Stonedigger Troll", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [2794, 3058]
-      - id: "4_2"
-        data: ["Altus Tunnel", "Tunnel", "Crystalian (x2)", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [3408, 3137]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-      - id: "4_4"
-        data: ["Sainted Hero's Grave", "Hero's grave", "Ancient Hero of Zamor<br>Black Knife Assassin", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/MENU_MAP_16.png'
-        map_icon: '/map/icons/edited/MENU_MAP_16.png'
-        cords: [3225, 3190]
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e9"
-        data: ["Golden Lineage Evergaol", "Evergaol", "Godefroy the Grafted", "Godfrey Icon (Talisman)"]
-        cords: [2880, 3791]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l89"
-        data: ["Minor Erdtree", "Landmark", "Wormface", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [3384, 2925]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l90"
-        data: ["Mirage Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [3035, 3019]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l91"
-        data: ["Perfumer's Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [2165, 3317]
-      - id: "l92"
-        data: ["Lux Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [2663, 3448]
-      - id: "l93"
-        data: ["Wyndham Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [2637, 3187]
-      - id: "l94"
-        data: ["Writheblood Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3140, 2866]
-      - id: "l95"
-        data: ["Woodfolk Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [3481, 2918]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l96"
-        data: ["Stormcaller Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3227, 3351]
-        map_icon_size: 40
-      - id: "l97"
-        data: ["Second Church of Marika", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [2989, 3151]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l98"
-        data: ["Grand Lift of Dectus", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_21.png'
-        cords: [2745, 3733]
-        map_icon_size: 50
-      - id: "l99"
-        data: ["West Windmill Pasture", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_19.png'
-        cords: [3126, 2512]
-      - id: "l100"
-        data: ["East Windmill Pasture", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_19.png'
-        cords: [3348, 2391]
-      - id: "l101"
-        data: ["Village Windmill Pasture", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_19.png'
-        cords: [3504, 2528]
-      - id: "l102"
-        data: ["Dominula, Windmill Village", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_36.png'
-        cords: [3633, 2586]
-        map_icon_size: 40
-      - id: "l103"
-        data: ["Highway Lookout Tower", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_08.png'
-        cords: [3739, 2723]
-        #LEGACY
-      - id: "ld6"
-        data: ["The Shaded Castle", "Legacy dungeon (minor)", "Elemer of the Briar", "Related to Millicent's questline."]
-        icon: '/map/icons/MENU_MAP_27.png'
-        cords: [2921, 2682]
-        map_icon_size: 45
-  -
-    title: "Mt. Gelmir"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "5_3"
-        data: ["Seethewater Cave", "Cave", "Kindred of Rot", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2433, 2813]
-      - id: "5_5"
-        data: ["Volcano Cave", "Cave", "Demi-Human Queen Margot", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [2378, 2485]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "5_6"
-        data: ["Wyndham Catacombs", "Catacomb", "Erdtree Burial Watchdog", "Has 1 Imp Statue inside."]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [2560, 3090]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-      - id: "5_1"
-        data: ["Gelmir Hero's Grave", "Hero's grave", "Red Wolf of the Champion", ""]
-        icon: '/map/icons/MENU_MAP_16.png'
-        map_icon: '/map/icons/edited/MENU_MAP_16.png'
-        cords: [2521, 2928]
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l104"
-        data: ["Minor Erdtree", "Landmark", "Ulcerated Tree Spirit", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [2427, 2772]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-        #RUINS '/map/icons/MENU_MAP_05.png'
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l105"
-        data: ["Corpse-Stench Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2587, 2688]
-      - id: "l106"
-        data: ["Craftsman's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2265, 3214]
-      - id: "l107"
-        data: ["Hermit's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [2057, 3173]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-        #UNIQUE
-      - id: "l108"
-        data: ["Hermit Village", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_40.png'
-        cords: [2435, 3108]
-      - id: "l109"
-        data: ["Fort Laiedd", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_18.png'
-        cords: [1908, 2820]
-        map_icon_size: 40
-        #LEGACY
-      - id: "ld7"
-        data: ["Volcano Manor", "Legacy dungeon (major)", "God-Devouring Serpent / Rykard, Lord of Blasphemy", "Semi-required for progression."]
-        icon: '/map/icons/MENU_MAP_58.png'
-        cords: [2190, 2837]
-        map_icon_size: 45
-  -
-    title: "Leyndell, Royal Capital"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "6_4"
-        data: ["Auriza Side Tomb", "Catacomb", "Grave Warden Duelist", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [4591, 3186]
-      - id: "6_3"
-        data: ["Leyndell Catacombs", "Catacomb", "Esgar, Priest of Blood", "Doesn't have a map icon in-game for some reason!"]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [4381, 3571]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "6_1"
-        data: ["Sealed Tunnel", "Tunnel", "Onyx Lord", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [3909, 3653]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-      - id: "6_2"
-        data: ["Auriza Hero's Grave", "Hero's grave", "Crucible Knight & Crucible Knight Ordovis", "Requires 1 Stonesword Key."]
-        icon: '/map/icons/MENU_MAP_16.png'
-        map_icon: '/map/icons/edited/MENU_MAP_16.png'
-        cords: [4542, 3302]
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l110"
-        data: ["Minor Erdtree", "Landmark", "Erdtree Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [4286, 2869]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-      - id: "l111"
-        data: ["Divine Tower of West Altus", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [3919, 4009]
-        map_icon_size: 45
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-        #RUINS '/map/icons/MENU_MAP_05.png'
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l112"
-        data: ["Hermit Merchant's Shack", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [3946, 2944]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l113"
-        data: ["Minor Erdtree Church", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [3849, 3752]
-        map_icon_size: 40
-        #UNIQUE
-        #LEGACY
-      - id: "ld8"
-        data: ["Leyndell, Royal Capital", "Legacy dungeon (major)", "Morgott, the Omen King<br>Godfrey, First Elden Lord (Golden Shade)", "Required."]
-        icon: '/map/icons/MENU_MAP_60.png'
-        cords: [4271, 3531]
-        map_icon_size: 45
-      - id: "ld9"
-        data: ["Subterranean Shunning-Grounds", "Legacy dungeon (minor)", "Mohg, the Omen", "Related to the Dung Eater's questline."]
-        icon: '/map/icons/MENU_MAP_61.png'
-        cords: [4338, 3513]
-  -
-    title: "Mountaintops of the Giants"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "7_3"
-        data: ["Spiritcaller Cave", "Cave", "Spirit-Caller Snail", "Requires 2 Stonesword Keys."]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [6494, 2050]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "7_2"
-        data: ["Giants' Mountaintop Catacombs", "Catacomb", "Ulcerated Tree Sprit", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [5786, 2808]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-      - id: "7_1"
-        data: ["Giant-Conquering Hero's Grave", "Hero's grave", "Ancient Hero of Zamor", ""]
-        icon: '/map/icons/MENU_MAP_16.png'
-        map_icon: '/map/icons/edited/MENU_MAP_16.png'
-        cords: [5686, 2823]
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-      - id: "e10"
-        data: ["Lord Contender's Evergaol", "Evergaol", "Roundtable Knight Vyke", "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)"]
-        cords: [6478, 2280]
-        icon: '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l114"
-        data: ["Minor Erdtree", "Landmark", "Erdtree Avatar (x2)", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [6229, 2108]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-      - id: "l115"
-        data: ["Divine Tower of East Altus", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_23.png'
-        cords: [5144, 3854]
-        map_icon_size: 45
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l116"
-        data: ["Heretical Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [6382, 1985]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l117"
-        data: ["Zamor Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5605, 3005]
-      - id: "l118"
-        data: ["Stargazer's Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5967, 2141]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-      - id: "l119"
-        data: ["Shack of the Lofty", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_06.png'
-        cords: [5796, 2094]
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l120"
-        data: ["First Church of Marika", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [6754, 2338]
-        map_icon_size: 40
-      - id: "l121"
-        data: ["Church of Repose", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [5981, 2999]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l122"
-        data: ["Grand Lift of Rold", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_21.png'
-        cords: [5483, 2972]
-        map_icon_size: 50
-      - id: "l123"
-        data: ["Guardians' Garrison", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_18.png'
-        cords: [6220, 2352]
-        map_icon_size: 40
-      #l124 was Flame Peak (not a landmark)
-      - id: "l125"
-        data: ["Forge of the Giants", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_57.png'
-        cords: [6700, 2983]
-        map_icon_size: 45
-        #LEGACY
-      - id: "ld10"
-        data: ["Castle Sol", "Legacy dungeon (minor)", "Commander Niall", "Related to Latenna's questline."]
-        icon: '/map/icons/MENU_MAP_29.png'
-        cords: [6030, 1849]
-        map_icon_size: 45
-  -
-    title: "Consecrated Snowfield"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-        #CAVES '/map/icons/edited/MENU_MAP_13.png'
-      - id: "8_4"
-        data: ["Cave of the Forlorn", "Cave", "Misbegotten Crusader", ""]
-        icon: '/map/icons/edited/MENU_MAP_13.png'
-        cords: [5692, 2146]
-        #CATACOMBS '/map/icons/edited/MENU_MAP_04.png'
-      - id: "8_2"
-        data: ["Hidden Path to the Haligtree", "Catacomb", "Stray Mimic Tear", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [5427, 2869]
-      - id: "8_1"
-        data: ["Consecrated Snowfield Catacombs", "Catacomb", "Putrid Grave Warden Duelist", ""]
-        icon: '/map/icons/edited/MENU_MAP_04.png'
-        cords: [5666, 2509]
-        #TUNNELS '/map/icons/MENU_MAP_14.png'
-      - id: "8_3"
-        data: ["Yelough Anix Tunnel", "Tunnel", "Astel, Stars of Darkness", ""]
-        icon: '/map/icons/MENU_MAP_14.png'
-        cords: [5044, 2512]
-        #HERO'S GRAVES '/map/icons/edited/MENU_MAP_16.png'
-        #EVERGAOLS '/map/icons/edited/MENU_MAP_09.png'
-        #MINOR ERDTREES '/map/icons/MENU_MAP_30.png'
-      - id: "l126"
-        data: ["Minor Erdtree", "Landmark", "Putrid Avatar", ""]
-        icon: '/map/icons/MENU_MAP_30.png'
-        cords: [5633, 2054]
-        map_icon_size: 45
-        #DIVINE TOWERS '/map/icons/MENU_MAP_23.png'
-        #TOWERS '/map/icons/MENU_MAP_08.png'
-      - id: "l127"
-        data: ["Albinauric Rise", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_17.png'
-        cords: [5648, 2262]
-        map_icon_size: 45
-        #RUINS '/map/icons/MENU_MAP_05.png'
-      - id: "l128"
-        data: ["Yelough Anix Ruins", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_05.png'
-        cords: [5061, 2411]
-        #SHACKS '/map/icons/MENU_MAP_06.png'
-        #CHURCHES '/map/icons/MENU_MAP_Church.png'
-      - id: "l129"
-        data: ["Apostate Derelict", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_Church.png'
-        cords: [5056, 1707]
-        map_icon_size: 40
-        #UNIQUE
-      - id: "l130"
-        data: ["Ordina, Liturgical Town", "Landmark", "", ""]
-        icon: '/map/icons/MENU_MAP_34.png'
-        cords: [5312, 1923]
-        map_icon_size: 40
-        #LEGACY
-      - id: "ld11"
-        data: ["Miquella's Haligtree", "Legacy dungeon (minor)", "N/A", "Required to get to Elphael, Brace of the Haligtree."]
-        icon: '/map/icons/MENU_MAP_55.png'
-        cords: [5664, 1200]
-        map_icon_size: 50
-      - id: "ld12"
-        data: ["Elphael, Brace of the Haligtree", "Legacy dungeon (major)", "Malenia, Blade of Miquella", ":')"]
-        icon: '/map/icons/MENU_MAP_56.png'
-        cords: [5610, 876]
-        map_icon_size: 45
-  -
-    title: "Crumbling Farum Azula"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-      - id: "ld13"
-        data: ["Crumbling Farum Azula", "Legacy dungeon (major)", "Godskin Duo<br>Maliketh, the Black Blade", "Required."]
-        icon: '/map/icons/MENU_MAP_59.png'
-        cords: [8570, 4553]
-        map_icon_size: 50
-  -
-    title: "Leyndell, Ashen Capital"
-    table: ["Name", "Type", "Bosses", "Notes"]
-    items:
-      - id: "ld14"
-        data: ["Leyndell, Ashen Capital", "Legacy dungeon (major)", "Sir Gideon Ofnir, The All-Knowing<br>Godfrey, First Elden Lord (Hoarah Loux)<br>Radagon of the Golden Order / Elden Beast", "Required. Replaces Leyndell, Royal Capital."]
-        icon: '/map/icons/MENU_MAP_62.png'
-        map_link: [4271, 3531]
+- title: Limgrave
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '1_1'
+    data:
+    - Stranded Graveyard
+    - Cave
+    - Soldier of Godrick
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 3766
+    - 7373
+    data_it:
+    - Cimitero abbandonato
+    - Grotta
+    - Soldato di Godrick
+    - ''
+  - id: '1_5'
+    data:
+    - Groveside Cave
+    - Cave
+    - Beastman of Farum Azula
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 3664
+    - 7065
+    data_it:
+    - Grotta del bosco
+    - Grotta
+    - Uomo bestia di Farum Azula
+    - ''
+  - id: '1_3'
+    data:
+    - Coastal Cave
+    - Cave
+    - Demi-Human Chief (x2)
+    - Related to Boc's questline.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 3497
+    - 7347
+    data_it:
+    - Grotta costiera
+    - Grotta
+    - Capo dei seminumani (x2)
+    - Legata alla missione di Boc.
+  - id: '1_9'
+    data:
+    - Murkwater Cave
+    - Cave
+    - Patches
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 4060
+    - 6975
+    data_it:
+    - Grotta di Acquaquieta
+    - Grotta
+    - Patches
+    - ''
+  - id: '1_6'
+    data:
+    - Highroad Cave
+    - Cave
+    - Guardian Golem
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 4048
+    - 6437
+    data_it:
+    - Grotta della via maestra
+    - Grotta
+    - Golem guardiano
+    - ''
+  - id: '1_4'
+    data:
+    - Deathtouched Catacombs
+    - Catacomb
+    - Black Knife Assassin
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 3897
+    - 6502
+    data_it:
+    - Catacombe tocca-morte
+    - Catacomba
+    - Assassino dei Neri Coltelli
+    - ''
+  - id: '1_10'
+    data:
+    - Stormfoot Catacombs
+    - Catacomb
+    - Erdtree Burial Watchdog
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 3509
+    - 7060
+    data_it:
+    - Catacombe di Piè di Tempesta
+    - Catacomba
+    - Sentinella dell'Albero Madre
+    - ''
+  - id: '1_8'
+    data:
+    - Murkwater Catacombs
+    - Catacomb
+    - Grave Warden Duelist
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 4067
+    - 6704
+    data_it:
+    - Catacombe di Acquaquieta
+    - Catacomba
+    - Duellante guardiano delle tombe
+    - ''
+  - id: '1_7'
+    data:
+    - Limgrave Tunnels
+    - Tunnel
+    - Stonedigger Troll
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 3839
+    - 7051
+    data_it:
+    - Gallerie di Sepolcride
+    - Galleria
+    - Troll scavapietre
+    - ''
+  - id: '1_2'
+    data:
+    - Fringefolk Hero's Grave
+    - Hero's grave
+    - Ulcerated Tree Sprit<br>Grafted Scion (x2)
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/MENU_MAP_16.png
+    map_icon: /map/icons/edited/MENU_MAP_16.png
+    cords:
+    - 3755
+    - 7319
+    data_it:
+    - Tomba dell'eroe dei confini
+    - Tomba dell'eroe
+    - Ulcerated Tree Sprit<br>Rampollo innestato (x2)
+    - Richiede 2 chiavi della spada di pietra.
+  - id: e1
+    data:
+    - Forlorn Hound Evergaol
+    - Evergaol
+    - Bloodhound Knight Darriwil
+    - Bloodhound's Fang (Armament)
+    cords:
+    - 4207
+    - 7666
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del Limiere abbandonato
+    - Galera eterna
+    - Darriwil, Cavaliere del Limiere
+    - Zanna del Limiere (Armamento)
+  - id: e2
+    data:
+    - Stormhill Evergaol
+    - Evergaol
+    - Crucible Knight
+    - 'Aspects of the Crucible: Tail (Incantation)'
+    cords:
+    - 3646
+    - 6998
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna di Colle Tempesta
+    - Galera eterna
+    - Cavaliere del crogiolo
+    - 'Aspetti del Crogiolo: Coda (Incantesimo)'
+  - id: l1
+    data:
+    - Minor Erdtree
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 4561
+    - 7088
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l2
+    data:
+    - Divine Tower of Limgrave
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 4239
+    - 6218
+    map_icon_size: 45
+    data_it:
+    - Torre divina di Sepolcride
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l3
+    data:
+    - Dragon-Burnt Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3965
+    - 7373
+    data_it:
+    - Rovine bruciate dal drago
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l4
+    data:
+    - Gatefront Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3785
+    - 6961
+    data_it:
+    - Rovine davanti al cancello
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l5
+    data:
+    - Mistwood Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 4419
+    - 7152
+    data_it:
+    - Rovine di Tetrobosco
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l6
+    data:
+    - Waypoint Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 4234
+    - 7222
+    data_it:
+    - Rovine del punto di sosta
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l7
+    data:
+    - Summonwater Village
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 4462
+    - 6491
+    data_it:
+    - Villaggio di Idrochiama
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l8
+    data:
+    - Stormhill Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 3491
+    - 6775
+    data_it:
+    - Capanna di Colle Tempesta
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l9
+    data:
+    - Warmaster's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 3720
+    - 6696
+    data_it:
+    - Capanna del mastro guerriero
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l10
+    data:
+    - Artist's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 4214
+    - 6789
+    data_it:
+    - Capanna dell'artista
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l11
+    data:
+    - Church of Elleh
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3659
+    - 7225
+    map_icon_size: 40
+    data_it:
+    - Chiesa di Elleh
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l12
+    data:
+    - Church of Dragon Communion
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3382
+    - 7601
+    map_icon_size: 40
+    data_it:
+    - Chiesa della Comunione draconica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l13
+    data:
+    - Third Church of Marika
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 4624
+    - 6710
+    map_icon_size: 40
+    data_it:
+    - Terza chiesa di Marika
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l14
+    data:
+    - Stormgate
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_10.png
+    cords:
+    - 3677
+    - 6915
+    data_it:
+    - Cancello della tempesta
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l15
+    data:
+    - Siofra River Well
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Ungro.png
+    cords:
+    - 4581
+    - 7032
+    data_it:
+    - Pozzo del fiume Siofra
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l16
+    data:
+    - Fort Haight
+    - Landmark
+    - ''
+    - Related to Kenneth Haight's questline.
+    icon: /map/icons/MENU_MAP_18.png
+    cords:
+    - 4707
+    - 7314
+    map_icon_size: 40
+    data_it:
+    - Forte Haight
+    - Luogo d'interesse
+    - ''
+    - Legata alla missione di Kenneth Haight.
+  - id: ld1
+    data:
+    - Stormveil Castle
+    - Legacy dungeon (major)
+    - Margit, the Fell Omen<br>Godrick the Grafted
+    - Semi-required for progression.
+    icon: /map/icons/MENU_MAP_50.png
+    cords:
+    - 3216
+    - 6775
+    map_icon_size: 45
+    data_it:
+    - Castello di Grantempesta
+    - Legacy dungeon (maggiore)
+    - Margit, l'Araldo nefasto<br>Godrick l'Innestato
+    - Semi-necessario per progredire.
+  title_it: Sepolcride
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Weeping Peninsula
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '0_1'
+    data:
+    - Earthbore Cave
+    - Cave
+    - Runebear
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 4136
+    - 7836
+    data_it:
+    - Grotta dello scavo
+    - Grotta
+    - Orso runico
+    - ''
+  - id: '0_5'
+    data:
+    - Tombsward Cave
+    - Cave
+    - Miranda, the Blighted Bloom
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 3616
+    - 8023
+    data_it:
+    - Grotta del Sepolcreto
+    - Grotta
+    - Miranda, fiore della rovina
+    - ''
+  - id: '0_2'
+    data:
+    - Impaler's Catacombs
+    - Catacomb
+    - Erdtree Burial Watchdog
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 4472
+    - 7848
+    data_it:
+    - Catacombe dell'Impalatore
+    - Catacomba
+    - Sentinella dell'Albero Madre
+    - ''
+  - id: '0_4'
+    data:
+    - Tombsward Catacombs
+    - Catacomb
+    - Cemetary Shade
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 3851
+    - 7951
+    data_it:
+    - Catacombe del Sepolcreto
+    - Catacomba
+    - Ombra cimiteriale
+    - ''
+  - id: '0_3'
+    data:
+    - Morne Tunnel
+    - Tunnel
+    - Scaly Misbegotten
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 4005
+    - 8113
+    data_it:
+    - Galleria di Morne
+    - Galleria
+    - Creatura scagliosa
+    - ''
+  - id: e3
+    data:
+    - Weeping Evergaol
+    - Evergaol
+    - Ancient Hero of Zamor
+    - Radgon's Scarseal (Talisman)
+    cords:
+    - 3599
+    - 7958
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del pianto
+    - Galera eterna
+    - Eroe antico di Zamor
+    - Marchio di Radagon (Talismano)
+  - id: l17
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 3912
+    - 8109
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l18
+    data:
+    - Oridys's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 4415
+    - 8121
+    map_icon_size: 45
+    data_it:
+    - Guglia di Oridys
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l19
+    data:
+    - Demi-Human Forest Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3994
+    - 7867
+    data_it:
+    - Rovine dei semiumani nel bosco
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l20
+    data:
+    - Tombsward Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3704
+    - 7918
+    data_it:
+    - Rovine del Sepolcreto
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l21
+    data:
+    - Witchbane Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3510
+    - 8063
+    data_it:
+    - Rovine della rovina delle streghe
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l22
+    data:
+    - Isolated Merchant's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 3468
+    - 8225
+    data_it:
+    - Capanna del mercante isolato
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l23
+    data:
+    - Church of Pilgrimage
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3858
+    - 7679
+    map_icon_size: 40
+    data_it:
+    - Chiesa del pellegrinaggio
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l24
+    data:
+    - Callu Baptismal Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 4137
+    - 8122
+    map_icon_size: 40
+    data_it:
+    - Chiesa battesimale di Callu
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l25
+    data:
+    - Fourth Church of Marika
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3538
+    - 7993
+    map_icon_size: 40
+    data_it:
+    - Quarta chiesa di Marika
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l26
+    data:
+    - Bridge of Sacrifice
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_11.png
+    cords:
+    - 4350
+    - 7771
+    data_it:
+    - Ponte del Sacrificio
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l27
+    data:
+    - Ailing Village
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_37.png
+    cords:
+    - 4119
+    - 8090
+    data_it:
+    - Villaggio malato
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l28
+    data:
+    - Forest Lookout Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 4227
+    - 7868
+    data_it:
+    - Vedetta del bosco
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l29
+    data:
+    - Tower of Return
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 3659
+    - 8364
+    data_it:
+    - Torre del ritorno
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld2
+    data:
+    - Castle Morne
+    - Legacy dungeon (minor)
+    - Leonine Misbegotten
+    - Related to Irina's questline.
+    icon: /map/icons/MENU_MAP_25.png
+    cords:
+    - 4097
+    - 8554
+    map_icon_size: 45
+    data_it:
+    - Castello di Morne
+    - Legacy dungeon (minore)
+    - Prole leonina
+    - Legata alla missione di Irina.
+  title_it: Penisola del pianto
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Liurnia of the Lakes
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '2_1'
+    data:
+    - Academy Crystal Cave
+    - Cave
+    - Crystalian (x2)
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 1724
+    - 4870
+    data_it:
+    - Grotta di cristallo dell'Accademia
+    - Grotta
+    - Cristallino (x2)
+    - Richiede 2 chiavi della spada di pietra.
+  - id: '2_4'
+    data:
+    - Lakeside Crystal Cave
+    - Cave
+    - Bloodhound Knight
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 2335
+    - 5968
+    data_it:
+    - Grotta di cristallo sul lago
+    - Grotta
+    - Bloodhound Knight
+    - ''
+  - id: '2_8'
+    data:
+    - Stillwater Cave
+    - Cave
+    - Cleanrot Knight
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 2940
+    - 6303
+    data_it:
+    - Grotta d'Acquastagna
+    - Grotta
+    - Cavaliere di Marcescenza
+    - ''
+  - id: '2_2'
+    data:
+    - Black Knife Catacombs
+    - Catacomb
+    - Black Knife Assassin<br>Cemetery Shade
+    - Has 1 Imp Statue inside.
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 2870
+    - 4122
+    data_it:
+    - Catacombe dei Neri Coltelli
+    - Catacomba
+    - Assassino dei Neri Coltelli<br>Ombra cimiteriale
+    - Contiene 1 statua demoniaca.
+  - id: '2_3'
+    data:
+    - Cliffbottom Catacombs
+    - Catacomb
+    - Erdtree Burial Watchdog
+    - Has 1 Imp Statue inside.
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 3037
+    - 5944
+    data_it:
+    - Catacombe di Piè di Scarpata
+    - Catacomba
+    - Sentinella dell'Albero Madre
+    - Contiene 1 statua demoniaca.
+  - id: '2_6'
+    data:
+    - Road's End Catacombs
+    - Catacomb
+    - Spirit-Caller Snail
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 1381
+    - 5526
+    data_it:
+    - Catacombe della fine della strada
+    - Catacomba
+    - Lumaca evocatrice di spiriti
+    - ''
+  - id: '2_5'
+    data:
+    - Raya Lucaria Crystal Tunnel
+    - Tunnel
+    - Crystalian (Ringblade)
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 2304
+    - 4457
+    data_it:
+    - Galleria cristallina di Raya Lucaria
+    - Galleria
+    - Cristallino (lama circolare)
+    - ''
+  - id: e4
+    data:
+    - Malefactor's Evergaol
+    - Evergaol
+    - Adan, Thief of Fire
+    - Flame of the Fell God (Incantation)
+    cords:
+    - 2684
+    - 6120
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del malfattore
+    - Galera eterna
+    - Adan, ladro del fuoco
+    - Fiamma del dio caduto (Incantesimo)
+  - id: e5
+    data:
+    - Cuckoo's Evergaol
+    - Evergaol
+    - Bols, Carian Knight
+    - Greatblade Phalanx (Sorcery)
+    cords:
+    - 1377
+    - 5030
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del cuculo
+    - Galera eterna
+    - Bols, cavaliere cariano
+    - Falange di spadoni (Stregoneria)
+  - id: e6
+    data:
+    - Royal Grave Evergaol
+    - Evergaol
+    - Alabaster Lord
+    - Meteorite (Sorcery)
+    cords:
+    - 2276
+    - 3697
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna della tomba regale
+    - Galera eterna
+    - Signore d'alabastro
+    - Meteorite (Stregoneria)
+  - id: e7
+    data:
+    - Ringleader's Evergaol
+    - Evergaol
+    - Alecto, Black Knife Ringleader
+    - Black Knife Tiche (Ashen Remains)
+    cords:
+    - 1377
+    - 5693
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del capobanda
+    - Galera eterna
+    - Alecto, capobanda dei Neri Coltelli
+    - Tiche dei Neri Coltelli (Ceneri spiritiche)
+  - id: l30
+    data:
+    - Minor Erdtree (southwest)
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 1440
+    - 5437
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore (sud-ovest)
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l31
+    data:
+    - Minor Erdtree (northeast)
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 2673
+    - 4345
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore (nord-est)
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l32
+    data:
+    - Divine Tower of Liurnia
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 3345
+    - 5135
+    map_icon_size: 45
+    data_it:
+    - Torre divina di Liurnia
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l33
+    data:
+    - Converted Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1577
+    - 5578
+    map_icon_size: 45
+    data_it:
+    - Torre convertita
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l34
+    data:
+    - Testu's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1833
+    - 4405
+    map_icon_size: 45
+    data_it:
+    - Guglia di Testu
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l35
+    data:
+    - Converted Fringe Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 2919
+    - 4172
+    map_icon_size: 45
+    data_it:
+    - Torre convertita dei confini
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l36
+    data:
+    - Ranni's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1596
+    - 3690
+    map_icon_size: 45
+    data_it:
+    - Guglia di Ranni
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l38
+    data:
+    - Seluvis's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1732
+    - 3803
+    map_icon_size: 45
+    data_it:
+    - Guglia di Seluvis
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l39
+    data:
+    - Renna's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1755
+    - 3517
+    map_icon_size: 45
+    data_it:
+    - Guglia di Renna
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l50
+    data:
+    - Chelona's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 1406
+    - 6245
+    map_icon_size: 45
+    data_it:
+    - Guglia di Chelona
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l40
+    data:
+    - Laskyar Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 2543
+    - 5875
+    data_it:
+    - Rovine di Laskyar
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l41
+    data:
+    - Purified Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 2861
+    - 5927
+    data_it:
+    - Rovine purificate
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l42
+    data:
+    - Kingsrealm Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 1722
+    - 4123
+    data_it:
+    - Rovine del dominio regale
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l43
+    data:
+    - Lunar Estate Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 1950
+    - 5937
+    data_it:
+    - Rovine della tenuta lunare
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l44
+    data:
+    - Moonfolk Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 1675
+    - 5781
+    data_it:
+    - Rovine del popolo lunare
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l45
+    data:
+    - Slumbering Wolf's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2302
+    - 6064
+    data_it:
+    - Capanna del lupo dormiente
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l46
+    data:
+    - Boilprawn Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2277
+    - 5562
+    data_it:
+    - Capanna del gambero bollito
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l47
+    data:
+    - Artist's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2768
+    - 5102
+    data_it:
+    - Capanna dell'artista
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l48
+    data:
+    - Revenger's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 1430
+    - 5208
+    data_it:
+    - Capanna del vendicatore
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l131
+    data:
+    - Church of Irith
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 2911
+    - 6414
+    map_icon_size: 40
+    data_it:
+    - Chiesa di Irith
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l51
+    data:
+    - Rose Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 1829
+    - 5363
+    map_icon_size: 40
+    data_it:
+    - Chiesa della rosa
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l52
+    data:
+    - Church of Vows
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 2405
+    - 4720
+    map_icon_size: 40
+    data_it:
+    - Chiesa dei voti
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l53
+    data:
+    - Bellum Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 2180
+    - 4048
+    map_icon_size: 40
+    data_it:
+    - Chiesa di Bellum
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l54
+    data:
+    - Church of Inhibition
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 2499
+    - 4013
+    map_icon_size: 40
+    data_it:
+    - Chiesa dell'inibizione
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l55
+    data:
+    - Cathedral of Manus Celes
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_20.png
+    cords:
+    - 1883
+    - 5784
+    map_icon_size: 40
+    data_it:
+    - Cattedrale di Manus Celes
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l56
+    data:
+    - Highway Lookout Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 2793
+    - 5638
+    data_it:
+    - Vedetta della via maestra
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l57
+    data:
+    - Carian Study Hall
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_66.png
+    cords:
+    - 2917
+    - 5209
+    map_icon_size: 45
+    data_it:
+    - Sala studio cariana
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l58
+    data:
+    - Jarburg
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_38.png
+    cords:
+    - 2993
+    - 5259
+    data_it:
+    - Jarburg
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l59
+    data:
+    - Academy Gate Town
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_32.png
+    cords:
+    - 2345
+    - 5207
+    data_it:
+    - Borgo dei cancelli dell'Accademia
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l60
+    data:
+    - Temple Quarter
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_32.png
+    cords:
+    - 1714
+    - 5178
+    data_it:
+    - Quartiere del tempio
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l61
+    data:
+    - Village of the Albinaurics
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_39.png
+    cords:
+    - 1727
+    - 5852
+    data_it:
+    - Villaggio degli Albinauri
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l62
+    data:
+    - The Four Belfries
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_52.png
+    cords:
+    - 1475
+    - 4565
+    map_icon_size: 40
+    data_it:
+    - I quattro campanili
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l63
+    data:
+    - Frenzied Flame Village
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_35.png
+    cords:
+    - 2650
+    - 4245
+    data_it:
+    - Villaggio della Fiamma Frenetica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l64
+    data:
+    - Frenzy-Flaming Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 2679
+    - 4054
+    data_it:
+    - Torre della Fiamma Frenetica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l65
+    data:
+    - Ainsel River Well
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Ungro.png
+    cords:
+    - 2777
+    - 4661
+    data_it:
+    - Pozzo del fiume Ainsel
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l66
+    data:
+    - Deep Ainsel Well
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Ungro.png
+    cords:
+    - 1643
+    - 5990
+    data_it:
+    - Pozzo profondo dell'Ainsel
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld3
+    data:
+    - Academy of Raya Lucaria
+    - Legacy dungeon (major)
+    - Red Wolf of Radagon<br>Rennala, Queen of the Full Moon
+    - Semi-required for progression, needs Academy Key to enter.
+    icon: /map/icons/MENU_MAP_51.png
+    cords:
+    - 1800
+    - 4807
+    map_icon_size: 45
+    data_it:
+    - Accademia di Raya Lucaria
+    - Legacy dungeon (maggiore)
+    - Lupo rosso di Radagon<br>Rennala, Regina del Plenilunio
+    - Semi-necessario per progredire, richiede la chiave dell'Accademia.
+  - id: ld4
+    data:
+    - Caria Manor
+    - Legacy dungeon (minor)
+    - Royal Knight Loretta
+    - Related to Ranni's questline.
+    icon: /map/icons/MENU_MAP_26.png
+    cords:
+    - 1927
+    - 3730
+    map_icon_size: 45
+    data_it:
+    - Maniero cariano
+    - Legacy dungeon (minore)
+    - Loretta, cavaliere reale
+    - Related to Ranni's questline.
+  - id: '2_7'
+    data:
+    - Ruin-Strewn Precipice
+    - Legacy dungeon (minor)
+    - Magma Wyrm Makar
+    - Not required, unless you want alternate entry to Altus Plateau.
+    icon: /map/icons/MENU_MAP_53.png
+    cords:
+    - 2580
+    - 3625
+    map_icon_size: 45
+    data_it:
+    - Precipizio cosparso di rovine
+    - Legacy dungeon (minore)
+    - Makar, drago di magma
+    - Non necessario, a meno che non si voglia un accesso alternativo all'Altopiano di Altus.
+  title_it: Liurnia lacustre
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Caelid
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '3_1'
+    data:
+    - Abandoned Cave
+    - Cave
+    - Cleanrot Knight (x2)
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 5363
+    - 6479
+    data_it:
+    - Grotta abbandonata
+    - Grotta
+    - Cavaliere di Marcescenza (x2)
+    - ''
+  - id: '3_4'
+    data:
+    - Gaol Cave
+    - Cave
+    - Frenzied Duelist
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 4936
+    - 6771
+    data_it:
+    - Grotta delle segrete
+    - Grotta
+    - Duellante frenetico
+    - Richiede 2 chiavi della spada di pietra.
+  - id: '3_7'
+    data:
+    - Dragonbarrow Cave
+    - Cave
+    - Beastman of Farum Azula (x2)
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 6011
+    - 6173
+    data_it:
+    - Grotta dei tumuli draconici
+    - Grotta
+    - Uomo bestia di Farum Azula (x2)
+    - ''
+  - id: '3_9'
+    data:
+    - Sellia Hideaway
+    - Cave
+    - Crystalian (x3)
+    - Part of Sellen's questline. Located behind an illusory cliffside.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 5873
+    - 6481
+    data_it:
+    - Rifugio di Sellia
+    - Grotta
+    - Cristallino (x3)
+    - Parte della missione di Sellen. Dietro una parete illusoria.
+  - id: '3_2'
+    data:
+    - Caelid Catacombs
+    - Catacomb
+    - Cemetery Shade
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 5362
+    - 7238
+    data_it:
+    - Catacombe di Caelid
+    - Catacomba
+    - Ombra cimiteriale
+    - ''
+  - id: '3_5'
+    data:
+    - Minor Erdtree Catacombs
+    - Catacomb
+    - Erdtree Burial Watchdog (x2)
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 4930
+    - 6172
+    data_it:
+    - Catacombe dell'Albero Madre minore
+    - Catacomba
+    - Sentinella dell'Albero Madre (x2)
+    - ''
+  - id: '3_8'
+    data:
+    - War-Dead Catacombs
+    - Catacomb
+    - Putrid Tree Spirit
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 6310
+    - 6173
+    data_it:
+    - Catacombe dei caduti in guerra
+    - Catacomba
+    - Spirito dell'Albero putrido
+    - ''
+  - id: '3_3'
+    data:
+    - Gael Tunnel
+    - Tunnel
+    - Magma Wyrm
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 4796
+    - 6512
+    data_it:
+    - Galleria di Gael
+    - Galleria
+    - Drago di magma
+    - ''
+  - id: '3_6'
+    data:
+    - Sellia Crystal Tunnel
+    - Tunnel
+    - Fallingstar Beast
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 5520
+    - 6433
+    data_it:
+    - Galleria cristallina di Sellia
+    - Galleria
+    - Bestia della stella cadente
+    - ''
+  - id: e8
+    data:
+    - Sellia Evergaol
+    - Evergaol
+    - Battlemage Hugues
+    - Battlemage Hugues (Ashen Remains)
+    cords:
+    - 5413
+    - 6515
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna di Sellia
+    - Galera eterna
+    - Hugues, mago guerriero
+    - Hugues, mago guerriero (Ceneri spiritiche)
+  - id: l67
+    data:
+    - Minor Erdtree (west)
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 4911
+    - 6164
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore (ovest)
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l68
+    data:
+    - Minor Erdtree (east)
+    - Landmark
+    - Putrid Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 6037
+    - 6244
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore (est)
+    - Luogo d'interesse
+    - Avatar putrido
+    - ''
+  - id: l69
+    data:
+    - Divine Tower of Caelid
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 5581
+    - 6055
+    map_icon_size: 45
+    data_it:
+    - Torre divina di Caelid
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l70
+    data:
+    - Isolated Divine Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 5990
+    - 4819
+    map_icon_size: 45
+    data_it:
+    - Torre divina isolata
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l71
+    data:
+    - Lenne's Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 6338
+    - 6042
+    map_icon_size: 45
+    data_it:
+    - Guglia di Lenne
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l72
+    data:
+    - Forsaken Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 4894
+    - 6375
+    data_it:
+    - Rovine abbandonate
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l73
+    data:
+    - Caelem Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5114
+    - 6372
+    data_it:
+    - Rovine di Caelem
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l74
+    data:
+    - Caelid Waypoint Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5043
+    - 6879
+    data_it:
+    - Rovine del punto di sosta di Caelid
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l75
+    data:
+    - Street of Sages Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5286
+    - 6664
+    data_it:
+    - Rovine della via dei sapienti
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l76
+    data:
+    - Shack of the Rotting
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 4819
+    - 6362
+    data_it:
+    - Capanna della putrefazione
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l77
+    data:
+    - Isolated Merchant's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 5171
+    - 6098
+    data_it:
+    - Capanna del mercante isolato
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l78
+    data:
+    - Gowry's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 5672
+    - 6738
+    data_it:
+    - Capanna di Gowry
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l79
+    data:
+    - Smouldering Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 4668
+    - 6258
+    map_icon_size: 40
+    data_it:
+    - Chiesa ardente
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l80
+    data:
+    - Cathedral of Dragon Communion
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 5267
+    - 7189
+    map_icon_size: 40
+    data_it:
+    - Cattedrale della Comunione draconica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l81
+    data:
+    - Church of the Plague
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 5773
+    - 6662
+    map_icon_size: 40
+    data_it:
+    - Chiesa della piaga
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l82
+    data:
+    - Sellia, Town of Sorcery
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_33.png
+    cords:
+    - 5638
+    - 6579
+    map_icon_size: 40
+    data_it:
+    - Sellia, città della stregoneria
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l83
+    data:
+    - Sellia Gateway
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_10.png
+    cords:
+    - 5629
+    - 6836
+    data_it:
+    - Portale di Sellia
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l84
+    data:
+    - Bestial Sanctum
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_54.png
+    cords:
+    - 5983
+    - 5504
+    map_icon_size: 40
+    data_it:
+    - Santuario bestiale
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l85
+    data:
+    - Deep Siofra Well
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Ungro.png
+    cords:
+    - 5390
+    - 6283
+    data_it:
+    - Pozzo profondo del Siofra
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l86
+    data:
+    - Fort Gael
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_18.png
+    cords:
+    - 4885
+    - 6793
+    map_icon_size: 40
+    data_it:
+    - Forte Gael
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l87
+    data:
+    - Fort Faroth
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_18.png
+    cords:
+    - 5957
+    - 6429
+    map_icon_size: 40
+    data_it:
+    - Forte Faroth
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l88
+    data:
+    - Swamp Lookout Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 5558
+    - 6732
+    data_it:
+    - Vedetta della palude
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld5
+    data:
+    - Redmane Castle
+    - Legacy dungeon (minor)
+    - Misbegotten Warrior & Crucible Knight<br>Starscourge Radahn
+    - Semi-required for progression.
+    icon: /map/icons/MENU_MAP_28.png
+    cords:
+    - 6060
+    - 7357
+    map_icon_size: 45
+    data_it:
+    - Castello di Mantorosso
+    - Legacy dungeon (minore)
+    - Guerriero seminumano e Cavaliere del crogiolo<br>Radahn, il Flagello celeste
+    - Semi-necessario per progredire.
+  title_it: Caelid
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Altus Plateau
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '4_3'
+    data:
+    - Perfumer's Grotto
+    - Cave
+    - Omenkiller & Miranda, the Blighted Bloom
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 3506
+    - 3448
+    data_it:
+    - Grotta dei profumieri
+    - Grotta
+    - Assassino dei presagi e Miranda, fiore della rovina
+    - ''
+  - id: '5_2'
+    data:
+    - Sage's Cave
+    - Cave
+    - Necromancer Garris<br>Black Knife Assassin
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 2511
+    - 3264
+    data_it:
+    - Grotta del saggio
+    - Grotta
+    - Garris, negromante<br>Assassino dei Neri Coltelli
+    - ''
+  - id: '5_4'
+    data:
+    - Unsightly Catacombs
+    - Catacomb
+    - Perfumer Tricia & Misbegotten Warrior
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 2126
+    - 3369
+    data_it:
+    - Catacombe sgradevoli
+    - Catacomba
+    - Tricia, profumiera e Guerriero seminumano
+    - Richiede 2 chiavi della spada di pietra.
+  - id: '4_1'
+    data:
+    - Old Altus Tunnel
+    - Tunnel
+    - Stonedigger Troll
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 2794
+    - 3058
+    data_it:
+    - Vecchia galleria dell'Altus
+    - Galleria
+    - Troll scavapietre
+    - ''
+  - id: '4_2'
+    data:
+    - Altus Tunnel
+    - Tunnel
+    - Crystalian (x2)
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 3408
+    - 3137
+    data_it:
+    - Galleria dell'Altus
+    - Galleria
+    - Cristallino (x2)
+    - ''
+  - id: '4_4'
+    data:
+    - Sainted Hero's Grave
+    - Hero's grave
+    - Ancient Hero of Zamor<br>Black Knife Assassin
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/MENU_MAP_16.png
+    map_icon: /map/icons/edited/MENU_MAP_16.png
+    cords:
+    - 3225
+    - 3190
+    data_it:
+    - Tomba dell'eroe santo
+    - Tomba dell'eroe
+    - Eroe antico di Zamor<br>Assassino dei Neri Coltelli
+    - Richiede 2 chiavi della spada di pietra.
+  - id: e9
+    data:
+    - Golden Lineage Evergaol
+    - Evergaol
+    - Godefroy the Grafted
+    - Godfrey Icon (Talisman)
+    cords:
+    - 2880
+    - 3791
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del lignaggio dorato
+    - Galera eterna
+    - Godefroy l'Innestato
+    - Icona di Godfrey (Talismano)
+  - id: l89
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Wormface
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 3384
+    - 2925
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Facciale vermiforme
+    - ''
+  - id: l90
+    data:
+    - Mirage Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 3035
+    - 3019
+    map_icon_size: 45
+    data_it:
+    - Guglia miraggio
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l91
+    data:
+    - Perfumer's Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 2165
+    - 3317
+    data_it:
+    - Rovine dei profumieri
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l92
+    data:
+    - Lux Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 2663
+    - 3448
+    data_it:
+    - Rovine di Lux
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l93
+    data:
+    - Wyndham Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 2637
+    - 3187
+    data_it:
+    - Rovine di Wyndham
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l94
+    data:
+    - Writheblood Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3140
+    - 2866
+    data_it:
+    - Rovine dei rigurgiti di sangue
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l95
+    data:
+    - Woodfolk Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 3481
+    - 2918
+    data_it:
+    - Rovine del popolo dei boschi
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l96
+    data:
+    - Stormcaller Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3227
+    - 3351
+    map_icon_size: 40
+    data_it:
+    - Chiesa del richiamo della tempesta
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l97
+    data:
+    - Second Church of Marika
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 2989
+    - 3151
+    map_icon_size: 40
+    data_it:
+    - Seconda chiesa di Marika
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l98
+    data:
+    - Grand Lift of Dectus
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_21.png
+    cords:
+    - 2745
+    - 3733
+    map_icon_size: 50
+    data_it:
+    - Grande montacarichi di Dectus
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l99
+    data:
+    - West Windmill Pasture
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_19.png
+    cords:
+    - 3126
+    - 2512
+    data_it:
+    - Pascolo del mulino a vento ovest
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l100
+    data:
+    - East Windmill Pasture
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_19.png
+    cords:
+    - 3348
+    - 2391
+    data_it:
+    - Pascolo del mulino a vento est
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l101
+    data:
+    - Village Windmill Pasture
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_19.png
+    cords:
+    - 3504
+    - 2528
+    data_it:
+    - Pascolo del mulino a vento del villaggio
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l102
+    data:
+    - Dominula, Windmill Village
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_36.png
+    cords:
+    - 3633
+    - 2586
+    map_icon_size: 40
+    data_it:
+    - Dominula, villaggio del mulino a vento
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l103
+    data:
+    - Highway Lookout Tower
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_08.png
+    cords:
+    - 3739
+    - 2723
+    data_it:
+    - Vedetta della via maestra
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld6
+    data:
+    - The Shaded Castle
+    - Legacy dungeon (minor)
+    - Elemer of the Briar
+    - Related to Millicent's questline.
+    icon: /map/icons/MENU_MAP_27.png
+    cords:
+    - 2921
+    - 2682
+    map_icon_size: 45
+    data_it:
+    - Castello d'Ombra
+    - Legacy dungeon (minore)
+    - Elemer of the Briar
+    - Legata alla missione di Millicent.
+  title_it: Altopiano di Altus
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Mt. Gelmir
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '5_3'
+    data:
+    - Seethewater Cave
+    - Cave
+    - Kindred of Rot
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 2433
+    - 2813
+    data_it:
+    - Grotta dell'Acqua ribollente
+    - Grotta
+    - Kindred of Rot
+    - Richiede 2 chiavi della spada di pietra.
+  - id: '5_5'
+    data:
+    - Volcano Cave
+    - Cave
+    - Demi-Human Queen Margot
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 2378
+    - 2485
+    data_it:
+    - Grotta del vulcano
+    - Grotta
+    - Margot, regina dei semiumani
+    - ''
+  - id: '5_6'
+    data:
+    - Wyndham Catacombs
+    - Catacomb
+    - Erdtree Burial Watchdog
+    - Has 1 Imp Statue inside.
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 2560
+    - 3090
+    data_it:
+    - Catacombe di Wyndham
+    - Catacomba
+    - Sentinella dell'Albero Madre
+    - Contiene 1 statua demoniaca.
+  - id: '5_1'
+    data:
+    - Gelmir Hero's Grave
+    - Hero's grave
+    - Red Wolf of the Champion
+    - ''
+    icon: /map/icons/MENU_MAP_16.png
+    map_icon: /map/icons/edited/MENU_MAP_16.png
+    cords:
+    - 2521
+    - 2928
+    data_it:
+    - Tomba dell'eroe di Gelmir
+    - Tomba dell'eroe
+    - Lupo rosso del campione
+    - ''
+  - id: l104
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Ulcerated Tree Spirit
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 2427
+    - 2772
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Spirito dell'Albero ulcerato
+    - ''
+  - id: l105
+    data:
+    - Corpse-Stench Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2587
+    - 2688
+    data_it:
+    - Capanna dell'odore di cadavere
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l106
+    data:
+    - Craftsman's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2265
+    - 3214
+    data_it:
+    - Capanna dell'artigiano
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l107
+    data:
+    - Hermit's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 2057
+    - 3173
+    data_it:
+    - Capanna dell'eremita
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l108
+    data:
+    - Hermit Village
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_40.png
+    cords:
+    - 2435
+    - 3108
+    data_it:
+    - Villaggio dell'eremita
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l109
+    data:
+    - Fort Laiedd
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_18.png
+    cords:
+    - 1908
+    - 2820
+    map_icon_size: 40
+    data_it:
+    - Forte Laiedd
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld7
+    data:
+    - Volcano Manor
+    - Legacy dungeon (major)
+    - God-Devouring Serpent / Rykard, Lord of Blasphemy
+    - Semi-required for progression.
+    icon: /map/icons/MENU_MAP_58.png
+    cords:
+    - 2190
+    - 2837
+    map_icon_size: 45
+    data_it:
+    - Villa Vulcano
+    - Legacy dungeon (maggiore)
+    - Serpente divoratore di dèi / Rykard, signore della blasfemia
+    - Semi-necessario per progredire.
+  title_it: Monte Gelmir
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Leyndell, Royal Capital
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '6_4'
+    data:
+    - Auriza Side Tomb
+    - Catacomb
+    - Grave Warden Duelist
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 4591
+    - 3186
+    data_it:
+    - Tomba laterale di Auriza
+    - Catacomba
+    - Duellante guardiano delle tombe
+    - ''
+  - id: '6_3'
+    data:
+    - Leyndell Catacombs
+    - Catacomb
+    - Esgar, Priest of Blood
+    - Doesn't have a map icon in-game for some reason!
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 4381
+    - 3571
+    data_it:
+    - Catacombe di Leyndell
+    - Catacomba
+    - Esgar, sacerdote del sangue
+    - Non ha un'icona sulla mappa nel gioco per qualche motivo!
+  - id: '6_1'
+    data:
+    - Sealed Tunnel
+    - Tunnel
+    - Onyx Lord
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 3909
+    - 3653
+    data_it:
+    - Galleria sigillata
+    - Galleria
+    - Signore d'onice
+    - ''
+  - id: '6_2'
+    data:
+    - Auriza Hero's Grave
+    - Hero's grave
+    - Crucible Knight & Crucible Knight Ordovis
+    - Requires 1 Stonesword Key.
+    icon: /map/icons/MENU_MAP_16.png
+    map_icon: /map/icons/edited/MENU_MAP_16.png
+    cords:
+    - 4542
+    - 3302
+    data_it:
+    - Tomba dell'eroe di Auriza
+    - Tomba dell'eroe
+    - Crucible Knight & Crucible Knight Ordovis
+    - Richiede 1 chiave della spada di pietra.
+  - id: l110
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Erdtree Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 4286
+    - 2869
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre
+    - ''
+  - id: l111
+    data:
+    - Divine Tower of West Altus
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 3919
+    - 4009
+    map_icon_size: 45
+    data_it:
+    - Torre divina dell'Altus occidentale
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l112
+    data:
+    - Hermit Merchant's Shack
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 3946
+    - 2944
+    data_it:
+    - Capanna del mercante eremita
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l113
+    data:
+    - Minor Erdtree Church
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 3849
+    - 3752
+    map_icon_size: 40
+    data_it:
+    - Chiesa dell'Albero Madre minore
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld8
+    data:
+    - Leyndell, Royal Capital
+    - Legacy dungeon (major)
+    - Morgott, the Omen King<br>Godfrey, First Elden Lord (Golden Shade)
+    - Required.
+    icon: /map/icons/MENU_MAP_60.png
+    cords:
+    - 4271
+    - 3531
+    map_icon_size: 45
+    data_it:
+    - Leyndell, capitale reale
+    - Legacy dungeon (maggiore)
+    - Morgott, re dei presagi<br>Godfrey, primo lord ancestrale (Ombra dorata)
+    - Necessario.
+  - id: ld9
+    data:
+    - Subterranean Shunning-Grounds
+    - Legacy dungeon (minor)
+    - Mohg, the Omen
+    - Related to the Dung Eater's questline.
+    icon: /map/icons/MENU_MAP_61.png
+    cords:
+    - 4338
+    - 3513
+    data_it:
+    - Sotterranei dei rinnegati
+    - Legacy dungeon (minore)
+    - Mohg, il Presagio
+    - Legata alla missione del Mangiasterco.
+  title_it: Leyndell, capitale reale
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Mountaintops of the Giants
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '7_3'
+    data:
+    - Spiritcaller Cave
+    - Cave
+    - Spirit-Caller Snail
+    - Requires 2 Stonesword Keys.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 6494
+    - 2050
+    data_it:
+    - Grotta degli evocatori di spiriti
+    - Grotta
+    - Lumaca evocatrice di spiriti
+    - Richiede 2 chiavi della spada di pietra.
+  - id: '7_2'
+    data:
+    - Giants' Mountaintop Catacombs
+    - Catacomb
+    - Ulcerated Tree Sprit
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 5786
+    - 2808
+    data_it:
+    - Catacombe delle Vette dei Giganti
+    - Catacomba
+    - Ulcerated Tree Sprit
+    - ''
+  - id: '7_1'
+    data:
+    - Giant-Conquering Hero's Grave
+    - Hero's grave
+    - Ancient Hero of Zamor
+    - ''
+    icon: /map/icons/MENU_MAP_16.png
+    map_icon: /map/icons/edited/MENU_MAP_16.png
+    cords:
+    - 5686
+    - 2823
+    data_it:
+    - Tomba dell'eroe conquistatore di giganti
+    - Tomba dell'eroe
+    - Eroe antico di Zamor
+    - ''
+  - id: e10
+    data:
+    - Lord Contender's Evergaol
+    - Evergaol
+    - Roundtable Knight Vyke
+    - Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)
+    cords:
+    - 6478
+    - 2280
+    icon: /map/icons/edited/MENU_MAP_09.png
+    data_it:
+    - Galera eterna del pretendente lord
+    - Galera eterna
+    - Vyke, cavaliere della Tavola rotonda
+    - Set impronta digitale (Armatura) e Folgore draconica di Vyke (Incantesimo)
+  - id: l114
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Erdtree Avatar (x2)
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 6229
+    - 2108
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Avatar dell'Albero Madre (x2)
+    - ''
+  - id: l115
+    data:
+    - Divine Tower of East Altus
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_23.png
+    cords:
+    - 5144
+    - 3854
+    map_icon_size: 45
+    data_it:
+    - Torre divina dell'Altus orientale
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l116
+    data:
+    - Heretical Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 6382
+    - 1985
+    map_icon_size: 45
+    data_it:
+    - Guglia eretica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l117
+    data:
+    - Zamor Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5605
+    - 3005
+    data_it:
+    - Rovine di Zamor
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l118
+    data:
+    - Stargazer's Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5967
+    - 2141
+    data_it:
+    - Rovine degli astronomi
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l119
+    data:
+    - Shack of the Lofty
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_06.png
+    cords:
+    - 5796
+    - 2094
+    data_it:
+    - Capanna dell'eccelso
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l120
+    data:
+    - First Church of Marika
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 6754
+    - 2338
+    map_icon_size: 40
+    data_it:
+    - Prima chiesa di Marika
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l121
+    data:
+    - Church of Repose
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 5981
+    - 2999
+    map_icon_size: 40
+    data_it:
+    - Chiesa del riposo
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l122
+    data:
+    - Grand Lift of Rold
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_21.png
+    cords:
+    - 5483
+    - 2972
+    map_icon_size: 50
+    data_it:
+    - Grande montacarichi di Rold
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l123
+    data:
+    - Guardians' Garrison
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_18.png
+    cords:
+    - 6220
+    - 2352
+    map_icon_size: 40
+    data_it:
+    - Guarnigione dei guardiani
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l125
+    data:
+    - Forge of the Giants
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_57.png
+    cords:
+    - 6700
+    - 2983
+    map_icon_size: 45
+    data_it:
+    - Forgia dei giganti
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld10
+    data:
+    - Castle Sol
+    - Legacy dungeon (minor)
+    - Commander Niall
+    - Related to Latenna's questline.
+    icon: /map/icons/MENU_MAP_29.png
+    cords:
+    - 6030
+    - 1849
+    map_icon_size: 45
+    data_it:
+    - Castel Sol
+    - Legacy dungeon (minore)
+    - Comandante Niall
+    - Legata alla missione di Latenna.
+  title_it: Vette dei Giganti
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Consecrated Snowfield
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: '8_4'
+    data:
+    - Cave of the Forlorn
+    - Cave
+    - Misbegotten Crusader
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    cords:
+    - 5692
+    - 2146
+    data_it:
+    - Grotta del reietto
+    - Grotta
+    - Prole crociata
+    - ''
+  - id: '8_2'
+    data:
+    - Hidden Path to the Haligtree
+    - Catacomb
+    - Stray Mimic Tear
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 5427
+    - 2869
+    data_it:
+    - Cammino nascosto per il Sacro Albero
+    - Catacomba
+    - Lacrima riflessa randagia
+    - ''
+  - id: '8_1'
+    data:
+    - Consecrated Snowfield Catacombs
+    - Catacomb
+    - Putrid Grave Warden Duelist
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    cords:
+    - 5666
+    - 2509
+    data_it:
+    - Catacombe delle Terre sacre
+    - Catacomba
+    - Duellante guardiano delle tombe putrido
+    - ''
+  - id: '8_3'
+    data:
+    - Yelough Anix Tunnel
+    - Tunnel
+    - Astel, Stars of Darkness
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    cords:
+    - 5044
+    - 2512
+    data_it:
+    - Galleria di Yelough Anix
+    - Galleria
+    - Astel, Stelle dell'Oscurità
+    - ''
+  - id: l126
+    data:
+    - Minor Erdtree
+    - Landmark
+    - Putrid Avatar
+    - ''
+    icon: /map/icons/MENU_MAP_30.png
+    cords:
+    - 5633
+    - 2054
+    map_icon_size: 45
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - Avatar putrido
+    - ''
+  - id: l127
+    data:
+    - Albinauric Rise
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_17.png
+    cords:
+    - 5648
+    - 2262
+    map_icon_size: 45
+    data_it:
+    - Guglia degli Albinauri
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l128
+    data:
+    - Yelough Anix Ruins
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_05.png
+    cords:
+    - 5061
+    - 2411
+    data_it:
+    - Rovine di Yelough Anix
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l129
+    data:
+    - Apostate Derelict
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    cords:
+    - 5056
+    - 1707
+    map_icon_size: 40
+    data_it:
+    - Ruderi del reietto
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: l130
+    data:
+    - Ordina, Liturgical Town
+    - Landmark
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_34.png
+    cords:
+    - 5312
+    - 1923
+    map_icon_size: 40
+    data_it:
+    - Ordina, città liturgica
+    - Luogo d'interesse
+    - ''
+    - ''
+  - id: ld11
+    data:
+    - Miquella's Haligtree
+    - Legacy dungeon (minor)
+    - N/A
+    - Required to get to Elphael, Brace of the Haligtree.
+    icon: /map/icons/MENU_MAP_55.png
+    cords:
+    - 5664
+    - 1200
+    map_icon_size: 50
+    data_it:
+    - Sacro Albero di Miquella
+    - Legacy dungeon (minore)
+    - N/A
+    - Necessario per raggiungere Elphael, sostegno del Sacro Albero.
+  - id: ld12
+    data:
+    - Elphael, Brace of the Haligtree
+    - Legacy dungeon (major)
+    - Malenia, Blade of Miquella
+    - :')
+    icon: /map/icons/MENU_MAP_56.png
+    cords:
+    - 5610
+    - 876
+    map_icon_size: 45
+    data_it:
+    - Elphael, sostegno del Sacro Albero
+    - Legacy dungeon (maggiore)
+    - Malenia, Lama di Miquella
+    - :')
+  title_it: Terre sacre
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Crumbling Farum Azula
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: ld13
+    data:
+    - Crumbling Farum Azula
+    - Legacy dungeon (major)
+    - Godskin Duo<br>Maliketh, the Black Blade
+    - Required.
+    icon: /map/icons/MENU_MAP_59.png
+    cords:
+    - 8570
+    - 4553
+    map_icon_size: 50
+    data_it:
+    - Farum Azula in frantumi
+    - Legacy dungeon (maggiore)
+    - Duo di Pelliccia divina<br>Maliketh, la Lama Nera
+    - Necessario.
+  title_it: Farum Azula in frantumi
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Leyndell, Ashen Capital
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  items:
+  - id: ld14
+    data:
+    - Leyndell, Ashen Capital
+    - Legacy dungeon (major)
+    - Sir Gideon Ofnir, The All-Knowing<br>Godfrey, First Elden Lord (Hoarah Loux)<br>Radagon of the Golden Order / Elden Beast
+    - Required. Replaces Leyndell, Royal Capital.
+    icon: /map/icons/MENU_MAP_62.png
+    map_link:
+    - 4271
+    - 3531
+    data_it:
+    - Leyndell, capitale delle ceneri
+    - Legacy dungeon (maggiore)
+    - Sir Gideon Ofnir, l'Onnisciente<br>Godfrey, primo lord ancestrale (Hoarah Loux)<br>Radagon dell'Ordine Aureo / Bestia ancestrale
+    - Necessario. Sostituisce Leyndell, capitale reale.
+  title_it: Leyndell, capitale delle ceneri
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+- title: Realm of Shadow
+  title_it: Regno dell'Ombra
+  dlc: true
+  table:
+  - Name
+  - Type
+  - Bosses
+  - Notes
+  table_it:
+  - Nome
+  - Tipologia
+  - Boss
+  - Note
+  items:
+  - id: '100_1'
+    data:
+    - Belurat, Tower Settlement
+    - Legacy dungeon (major)
+    - Divine Beast Dancing Lion
+    - ''
+    icon: /map/icons/MENU_MAP_50.png
+    dlc: true
+    data_it:
+    - Belurat, insediamento della torre
+    - Legacy dungeon (maggiore)
+    - Leone danzante Belva Divina
+    - ''
+  - id: '100_2'
+    data:
+    - Castle Ensis
+    - Legacy dungeon (minor)
+    - Rellana, Twin Moon Knight
+    - ''
+    icon: /map/icons/MENU_MAP_25.png
+    dlc: true
+    data_it:
+    - Castello di Ensis
+    - Legacy dungeon (minore)
+    - Rellana, Cavaliera della Luna Gemella
+    - ''
+  - id: '100_3'
+    data:
+    - Shadow Keep
+    - Legacy dungeon (major)
+    - Golden Hippopotamus<br>Messmer the Impaler<br>Commander Gaius
+    - ''
+    icon: /map/icons/MENU_MAP_50.png
+    dlc: true
+    data_it:
+    - Rocca delle Ombre
+    - Legacy dungeon (maggiore)
+    - Ippopotamo d'oro<br>Messmer l'Impalatore<br>Comandante Gaius
+    - ''
+  - id: '100_5'
+    data:
+    - Enir-Ilim
+    - Legacy dungeon (major)
+    - Needle Knight Leda & Allies<br>Promised Consort Radahn
+    - Final dungeon of the DLC.
+    icon: /map/icons/MENU_MAP_50.png
+    dlc: true
+    data_it:
+    - Enir-Ilim
+    - Legacy dungeon (maggiore)
+    - Cavaliere Agugliato Leda e alleati<br>Radahn, Consorte di Miquella
+    - Dungeon finale del DLC.
+  - id: '100_6'
+    data:
+    - Stone Coffin Fissure
+    - Legacy dungeon (minor)
+    - Putrescent Knight
+    - Found at the southernmost tip of the Cerulean Coast.
+    icon: /map/icons/edited/MENU_MAP_13.png
+    dlc: true
+    data_it:
+    - Fenditura dei sarcofagi di pietra
+    - Legacy dungeon (minore)
+    - Cavaliere Putrescente
+    - Si trova all'estremità meridionale della Costa azzurra.
+  - id: '100_4'
+    data:
+    - Maniero di Midra
+    - Legacy dungeon (minor)
+    - Midra, Lord of Frenzied Flame
+    - Located in the Abyssal Woods.
+    icon: /map/icons/MENU_MAP_25.png
+    dlc: true
+    data_it:
+    - Maniero di Midra
+    - Legacy dungeon (minore)
+    - Midra, Signore della Fiamma Frenetica
+    - Situato nell'Abisso.
+  - id: '100_7'
+    data:
+    - Fog Rift Catacombs
+    - Catacomb
+    - Death Knight
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    dlc: true
+    data_it:
+    - Catacombe della faglia di nebbia
+    - Catacomba
+    - Cavaliere della morte
+    - ''
+  - id: '100_8'
+    data:
+    - Darklight Catacombs
+    - Catacomb
+    - Jori, Elder Inquisitor
+    - Leads to the Abyssal Woods.
+    icon: /map/icons/edited/MENU_MAP_04.png
+    dlc: true
+    data_it:
+    - Catacombe della luce oscura
+    - Catacomba
+    - Jori, inquisitore anziano
+    - Conduce all'Abisso.
+  - id: '100_9'
+    data:
+    - Scorpion River Catacombs
+    - Catacomb
+    - Death Knight
+    - ''
+    icon: /map/icons/edited/MENU_MAP_04.png
+    dlc: true
+    data_it:
+    - Catacombe del Fiume dello Scorpione
+    - Catacomba
+    - Cavaliere della morte
+    - ''
+  - id: '100_10'
+    data:
+    - Dragon's Pit
+    - Cave/Tunnel
+    - Ancient Dragon-Man
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    dlc: true
+    data_it:
+    - Fossa del drago
+    - Grotta/Galleria
+    - Uomo-drago antico
+    - ''
+  - id: '100_11'
+    data:
+    - Ruined Forge Intake
+    - Forge/Tunnel
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    dlc: true
+    data_it:
+    - Punto d'ingresso della fucina in rovina
+    - Fucina/Galleria
+    - ''
+    - ''
+  - id: '100_12'
+    data:
+    - Ruined Forge of Starfall Past
+    - Forge/Tunnel
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    dlc: true
+    data_it:
+    - Fucina in rovina di Starfall Past
+    - Fucina/Galleria
+    - ''
+    - ''
+  - id: '100_13'
+    data:
+    - Belurat Gaol
+    - Gaol
+    - Onze, Demi-Human Swordmaster
+    - ''
+    icon: /map/icons/edited/MENU_MAP_09.png
+    dlc: true
+    data_it:
+    - Galera di Belurat
+    - Galera
+    - Onze, spadaccino semiumano
+    - ''
+  - id: '100_14'
+    data:
+    - Bonny Gaol
+    - Gaol
+    - Curseblade Labirith
+    - ''
+    icon: /map/icons/edited/MENU_MAP_09.png
+    dlc: true
+    data_it:
+    - Galera di Bonny
+    - Galera
+    - Labirith, lama della maledizione
+    - ''
+  - id: '100_15'
+    data:
+    - Cathedral of Manus Metyr
+    - Landmark (Church)
+    - Metyr, Mother of Fingers
+    - Related to Count Ymir's questline.
+    icon: /map/icons/MENU_MAP_Church.png
+    dlc: true
+    data_it:
+    - Cattedrale di Manus Metyr
+    - Luogo d'interesse (Chiesa)
+    - Metyr, Madre delle Dita
+    - Legata alla missione del Conte Ymir.
+  - id: '100_16'
+    data:
+    - Minor Erdtree
+    - Landmark
+    - ''
+    - Located in the Gravesite Plain.
+    icon: /map/icons/MENU_MAP_30.png
+    dlc: true
+    data_it:
+    - Albero Madre minore
+    - Luogo d'interesse
+    - ''
+    - Situato nella Pianura delle Tombe.
+  - id: '100_17'
+    data:
+    - Bonny Village
+    - Landmark (Village)
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_37.png
+    dlc: true
+    data_it:
+    - Villaggio di Bonny
+    - Luogo d'interesse (Villaggio)
+    - ''
+    - ''
+  - id: '100_18'
+    data:
+    - Church of the Bud
+    - Landmark (Church)
+    - Romina, Saint of the Bud
+    - ''
+    icon: /map/icons/MENU_MAP_Church.png
+    dlc: true
+    data_it:
+    - Chiesa del Germoglio
+    - Luogo d'interesse (Chiesa)
+    - Romina, Santa del Germoglio
+    - ''
+  - id: '100_19'
+    data:
+    - Jagged Peak
+    - Landmark
+    - Ancient Dragon Senessax<br>Bayle the Dread
+    - ''
+    icon: /map/icons/MENU_MAP_21.png
+    dlc: true
+    data_it:
+    - Picco Frastagliato
+    - Luogo d'interesse
+    - Drago Antico Senessax<br>Bayle il Terribile
+    - ''
+  - id: '100_20'
+    data:
+    - Ruined Forge Massal
+    - Forge/Tunnel
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    dlc: true
+    data_it:
+    - Fucina in rovina di Massal
+    - Fucina/Galleria
+    - ''
+    - ''
+  - id: '100_21'
+    data:
+    - Ruined Forge of Taylew
+    - Forge/Tunnel
+    - ''
+    - ''
+    icon: /map/icons/MENU_MAP_14.png
+    dlc: true
+    data_it:
+    - Fucina in rovina di Taylew
+    - Fucina/Galleria
+    - ''
+    - ''
+  - id: '100_22'
+    data:
+    - Rivermouth Cave
+    - Cave
+    - Chief Bloodfiend
+    - ''
+    icon: /map/icons/edited/MENU_MAP_13.png
+    dlc: true
+    data_it:
+    - Grotta dell'imboccatura del fiume
+    - Grotta
+    - Capo dei vili sanguinari
+    - ''
+title_it: Luoghi d'interesse

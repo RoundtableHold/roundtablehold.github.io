@@ -1,436 +1,587 @@
 title: Ashes of War
+title_it: Ceneri di Guerra
 id: ashesofwar
 table_widths: [3, 4, 5]
 sections:
   -
     title: "Heavy"
+    title_it: "Pesante"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "5_11"
         icon: "/img/icons/ashes_of_war/08305.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Upward+Cut)\">Stamp (Upward Cut)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for an upward strike.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Upward+Cut)\">Pestone (montante)</a>", "Impugna l'arma e assumi una postura bassa che previene il rinculo dalla maggior parte degli attacchi nemici. Seguito da un attacco forte per un colpo verso l'alto.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "5_10"
         icon: "/img/icons/ashes_of_war/08306.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Sweep)\">Stamp (Sweep)</a>", "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for a sweeping strike.", "Dropped by an invisible scarab on the beach east of Stormfoot Catacombs, in west Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Sweep)\">Pestone (spazzata)</a>", "Impugna l'arma e assumi una postura bassa che previene il rinculo dalla maggior parte degli attacchi nemici. Seguito da un attacco forte per un colpo a spazzata.", "Lasciato cadere da uno scarabeo invisibile sulla spiaggia est delle Catacombe Piede della Tempesta, nell'ovest di Limgrave."]
       - id: "5_14"
         icon: "/img/icons/ashes_of_war/08309.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes\">Wild Strikes</a>", "Swing armaments with wild abandon. Hold to continue swinging. Can be followed up with a normal or strong attack.", "Dropped by a scarab on the path north of the Castleward Tunnel site of grace, in northwest Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes\">Furia cieca</a>", "Colpisci con l'arma con foga sfrenata. Tieni premuto per continuare a colpire. Può essere seguito da un attacco normale o forte.", "Lasciato cadere da uno scarabeo sul sentiero a nord del sito di grazia Tunnel di Castleward, nel nordovest di Limgrave."]
       - id: "5_9"
         icon: "/img/icons/ashes_of_war/08300.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lion's+Claw\">Lion's Claw</a>", "Skill of the Redmanes, who fought alongside General Radahn. Somersault forwards, striking foes with armament.", "Dropped by the Lion Guardian in Fort Gael, in east Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lion's+Claw\">Artiglio del leone</a>", "Abilità dei Criniere Rosse, che combatterono al fianco del Generale Radahn. Rotola in avanti, colpendo i nemici con l'arma.", "Lasciato cadere dal Guardiano Leone a Fort Gael, nell'est di Caelid."]
       - id: "5_3"
         icon: "/img/icons/ashes_of_war/08427.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Cragblade\">Cragblade</a>", "Reinforce weapon with earth.", "Dropped by a scarab west of the Impassable Greatbridge site of grace, in south Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Cragblade\">Lama rocciosa</a>", "Potenzia l'arma con la terra.", "Lasciato cadere da uno scarabeo a ovest del sito di grazia Impassable Greatbridge, nel sud di Caelid."]
       - id: "5_8"
         icon: "/img/icons/ashes_of_war/08402.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Kick\">Kick</a>", "Push an enemy back with a high kick. Effective against enemies who are guarding, and can break a foe's stance. Sometimes a simple tool is the most effective.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Kick\">Calcio</a>", "Respingi un nemico con un calcio alto. Efficace contro i nemici in guardia e può rompere la postura del nemico. A volte uno strumento semplice è il più efficace.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "5_5"
         icon: "/img/icons/ashes_of_war/08460.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Endure\">Endure</a>", "Assume an anchored stance to brace for incoming attacks, briefly boosting poise. Damage taken while using this skill is reduced.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Endure\">Perseveranza</a>", "Assumi una postura ancorata per resistere agli attacchi in arrivo, aumentando brevemente la poise. Il danno ricevuto durante questa abilità è ridotto.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "5_6"
         icon: "/img/icons/ashes_of_war/08405.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ground+Slam\">Ground Slam</a>", "Jump up high into the air and crash down on the ground ahead. The resulting pratfall sends a powerful shockwave in all directions.", "Dropped by a scarab on a small hill, southwest of the Minor Erdtree in the Mistwood, in east Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ground+Slam\">Schianto a terra</a>", "Salta in alto nell'aria e abbattiti sul terreno davanti a te. Il violento impatto invia un'onda d'urto in tutte le direzioni.", "Lasciato cadere da uno scarabeo su una piccola collina, a sudovest del Piccolo Albero Eterno nel Bosco Nebbia, nell'est di Limgrave."]
       - id: "5_4"
         icon: "/img/icons/ashes_of_war/08340.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Earthshaker\">Earthshaker</a>", "Thrust armament into the ground, then gather strength to unleash an earth-shaking shockwave. Follow up with a strong attack to swing the armament in a sweeping strike.", "Dropped by a stationary invisible scarab, at the road junction southwest of the Altus Highway Junction site of grace in south Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Earthshaker\">Scuotiterra</a>", "Conficca l'arma nel terreno, poi raccoglie le forze per scatenare un'onda d'urto che scuote la terra. Seguito da un attacco forte per colpire in una spazzata.", "Lasciato cadere da uno scarabeo invisibile fermo, all'incrocio stradale a sudovest del sito di grazia Altus Highway Junction nel sud dell'Altopiano di Altus."]
       - id: "5_7"
         icon: "/img/icons/ashes_of_war/08408.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarah+Loux's+Earthshaker\">Hoarah Loux's Earthshaker</a>", "Slam both hands onto the ground to violently shake the earth and unleash a shockwave. Follow up with an additional input to slam the ground again.", "Exchanged for the Remembrance of Hoarah Loux at the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarah+Loux's+Earthshaker\">Scuotiterra di Hoarah Loux</a>", "Sbatte entrambe le mani sul terreno per scuoterlo violentemente e scatenare un'onda d'urto. Un ulteriore input permette di sbattere di nuovo sul terreno.", "Ottenuto in cambio della Remembrance di Hoarah Loux alla Tavola Rotonda."]
       - id: "5_13"
         icon: "/img/icons/ashes_of_war/08441.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+War+Cry\">War Cry</a>", "Give a war cry to rally the spirit and increase attack power. While active, strong attacks change to charging attacks.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+War+Cry\">Grido di guerra</a>", "Lancia un grido di guerra per rinvigorire lo spirito e aumentare il potere d'attacco. Mentre è attiva, gli attacchi forti si trasformano in attacchi carichi.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "5_1"
         icon: "/img/icons/ashes_of_war/08440.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar\">Barbaric Roar</a>", "Increase attack power. Strong attacks turn into savage combo attacks.", "Dropped by a scarab in the Ravine-Veiled Village in north Liurnia."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar\">Ruggito barbarico</a>", "Aumenta il potere d'attacco. Gli attacchi forti si trasformano in combo selvagge.", "Lasciato cadere da uno scarabeo nel Villaggio Nascosto nella Gola, nel nord di Liurnia."]
       - id: "5_2"
         icon: "/img/icons/ashes_of_war/08444.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Braggart's+Roar\">Braggart's Roar</a>", "Declare your presence with a boastful roar. Raises attack power, defense, and stamina recovery speed.", "Dropped by Blackguard Big Boggart, removable from his weapon Iron Ball."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Braggart's+Roar\">Ruggito spaccone</a>", "Proclama la tua presenza con un ruggito spaccone. Aumenta il potere d'attacco, la difesa e la velocità di recupero della resistenza.", "Lasciato cadere da Blackguard Big Boggart, rimovibile dalla sua arma Palla di Ferro."]
       - id: "5_12"
         icon: "/img/icons/ashes_of_war/08443.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Troll's+Roar\">Troll's Roar</a>", "Generate powerful shock wave then slam weapon down", "Found on top of the large rock south of the Church of Repose site of grace, in south Mountaintops of the Giants."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Troll's+Roar\">Ruggito del troll</a>", "Genera una potente onda d'urto poi abbatte l'arma.", "Trovato sopra la grande roccia a sud del sito di grazia Chiesa del Riposo, nel sud delle Vette dei Giganti."]
       - id: "20_3"
         dlc: true
         icon: "/img/icons/ashes_of_war/08503.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Spinning+Gravity+Thrust\">Spinning Gravity Thrust</a>", "A gravity skill honed by the disciples of an Alabaster Lord. Uses gravitational power to hang in the air before rotating the body and charging forward. An additional input allows for a follow-up attack.", "Comes equipped to the Sword Lance, one of the possible rewards when trading Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Spinning+Gravity+Thrust\">Stoccata gravitazionale rotante</a>", "Un'abilità gravitazionale affinata dai discepoli di un Signore Alabastro. Usa il potere gravitazionale per sospendersi in aria prima di ruotare il corpo e caricare in avanti. Un ulteriore input permette un attacco di follow-up.", "In dotazione alla Sword Lance, uno dei possibili premi scambiando la Remembrance del Cinghiale Selvaggio con Enia alla Tavola Rotonda."]
       - id: "20_17"
         dlc: true
         icon: "/img/icons/ashes_of_war/08517.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Lion's+Claw\">Savage Lion's Claw</a>", "Skill of the particularly brave, even among the Redmanes. Somersault forwards, striking foes with armament. An additional strike may be performed with an additional input.", "From the Three-Path Cross site of grace in Gravesite Plain, stick to the wall on the left side, and follow the path north. You will eventually come across a small camp where you can find the Ash of War."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Lion's+Claw\">Artiglio del leone selvaggio</a>", "Abilità dei particolarmente coraggiosi, anche tra i Criniere Rosse. Rotola in avanti, colpendo i nemici con l'arma. Un colpo aggiuntivo può essere eseguito con un ulteriore input.", "Dal sito di grazia Three-Path Cross in Gravesite Plain, segui il muro sul lato sinistro e prosegui verso nord. Troverai un piccolo accampamento con la Cenere di Guerra."]
   -
     title: "Keen"
+    title_it: "Affilata"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "6_9"
         icon: "/img/icons/ashes_of_war/08303.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Spinning Slash</a>", "Skill favored by dexterous warriors. Slash foes as your body spins. Additional input allows for a follow-up attack.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash\">Fendente rotante</a>", "Abilità preferita dai guerrieri abili. Colpisci i nemici mentre il corpo ruota. Un input aggiuntivo permette un attacco di follow-up.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "6_4"
         icon: "/img/icons/ashes_of_war/08301.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust\">Impaling Thrust</a>", "Skill that lets piercing armaments overcome enemy shields. Build power, then lunge forward for a strong thrust that pierces an enemy's guard.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust\">Stoccata impalatrice</a>", "Abilità che consente alle armi perforanti di superare gli scudi nemici. Accumula potenza, poi lancia in avanti una poderosa stoccata che perfora la guardia del nemico.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "6_5"
         icon: "/img/icons/ashes_of_war/08302.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang\">Piercing Fang</a>", "Skill used by Yura, the Bloody Finger Hunter. Starting with the blade held horizontally, make a powerful thrust that cannot be blocked", "Dropped by Yura on death or during his quest, removable from his weapon Nagakiba."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang\">Zanna perforante</a>", "Abilità usata da Yura, il Cacciatore di Dita Insanguinate. Partendo con la lama tenuta orizzontalmente, esegui una poderosa stoccata che non può essere bloccata.", "Lasciato cadere da Yura alla morte o durante la sua missione, rimovibile dalla sua arma Nagakiba."]
       - id: "6_8"
         icon: "/img/icons/ashes_of_war/08308.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust\">Repeating Thrust</a>", "Twist to build power, then unleash a flurry of thrusts. This Skill takes some time to build up, but it is very powerful.", "Dropped by the Night's Cavalry on the road southeast of Agheel Lake North, in Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust\">Stoccate ripetute</a>", "Ruota per accumulare potenza, poi scatena una raffica di stoccate. Questa abilità richiede un po' di tempo per caricarsi, ma è molto potente.", "Lasciato cadere dalla Cavalleria Notturna sulla strada a sudest di Agheel Lake North, in Limgrave."]
       - id: "6_3"
         icon: "/img/icons/ashes_of_war/08311.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash\">Double Slash</a>", "Skill of superior swordsmen. Perform a crossing slash attack from a low stance. Repeated inputs allow for up to two follow-up attacks.", "Dropped by a scarab on the rooftops of east Sellia, just southwest of the Sellia Under-stair site of grace, in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash\">Doppio fendente</a>", "Abilità dei spadaccini superiori. Esegui un attacco a taglio incrociato da una postura bassa. Input ripetuti consentono fino a due attacchi di follow-up.", "Lasciato cadere da uno scarabeo sui tetti est di Sellia, appena a sudovest del sito di grazia Sellia Under-stair, in Caelid."]
       - id: "6_10"
         icon: "/img/icons/ashes_of_war/08321.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sword+Dance\">Sword Dance</a>", "Quickly close in to perform a series of spinning upward slashes. Follow up with an additional input to finish with a downward slash.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sword+Dance\">Danza della spada</a>", "Avvicinati rapidamente per eseguire una serie di tagli ascendenti rotanti. Segui con un input aggiuntivo per concludere con un taglio discendente.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "6_11"
         icon: "/img/icons/ashes_of_war/08313.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe\">Unsheathe</a>", "Skill of swordsmen from the Land of Reeds. Sheathe blade, holding it at the hip in a composed stance. Follow up with a normal or strong attack to perform a swift slash attack.", "Dopped by a scarab on the edge of Agheel Lake by giant crabs, northwest of Agheel Lake South site of grace, in Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe\">Sfoderamento</a>", "Abilità degli spadaccini della Terra delle Canne. Rinfodera la lama, tenendola all'anca in una postura composta. Segui con un attacco normale o forte per eseguire un veloce attacco a taglio.", "Lasciato cadere da uno scarabeo sul bordo del Lago Agheel vicino ai granchi giganti, a nordovest del sito di grazia Agheel Lake South, in Limgrave."]
       - id: "6_6"
         icon: "/img/icons/ashes_of_war/08480.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Quickstep\">Quickstep</a>", "Skill prized by the crafty and fleet of foot. Perform a quickstep maneuver that allows for circling around lock-on targets.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Quickstep\">Passo rapido</a>", "Abilità apprezzata dagli astuti e dai veloci. Esegui una manovra di passo rapido che consente di girare attorno ai bersagli agganciati.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "6_2"
         icon: "/img/icons/ashes_of_war/08481.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step\">Bloodhound's Step</a>", "Skill that allows the user to become temporarily invisible while dodging at high speed. Moves faster and travels farther than a regular quickstep. This skill can be used to circle around lock-on targets.", "Dropped by the Night's Cavalry on the bridge north of Lenne's Rise, in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step\">Passo del limiere</a>", "Abilità che permette all'utente di diventare temporaneamente invisibile mentre schiva ad alta velocità. Si muove più velocemente e copre una distanza maggiore rispetto a un passo rapido normale. Può essere usata per girare attorno ai bersagli agganciati.", "Lasciato cadere dalla Cavalleria Notturna sul ponte a nord di Lenne's Rise, in Caelid."]
       - id: "6_7"
         icon: "/img/icons/ashes_of_war/08482.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Raptor+of+the+Mists\">Raptor of the Mist</a>", "Duck into a low stance, momentarily vanishing. If an enemy attack connects, avian wings will allow for a quick escape into the air.", "Gained during Yura's quest, when defeating his target at the Main Academy Gate site of grace in Liurnia."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Raptor+of+the+Mists\">Rapace delle nebbie</a>", "Abbassati in una postura bassa, scomparendo momentaneamente. Se un attacco nemico va a segno, ali d'uccello permetteranno una rapida fuga in aria.", "Ottenuto durante la missione di Yura, sconfiggendo il suo bersaglio al sito di grazia Main Academy Gate in Liurnia."]
       - id: "6_1"
         icon: "/img/icons/ashes_of_war/08442.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar\">Beast's Roar</a>", "Unleash a beastly roar, rending the air as a forward-travelling projectile.", "Reward from Gurranq after 4 deathroots, at Bestial Sanctum in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar\">Ruggito bestiale</a>", "Scatena un ruggito bestiale che fende l'aria come un proiettile in avanzamento.", "Ricompensa da Gurranq dopo 4 radici della morte, al Bestial Sanctum in Caelid."]
       - id: "20_5"
         dlc: true
         icon: "/img/icons/ashes_of_war/08505.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Piercing+Throw\">Piercing Throw</a>", "Throw armament with a powerful spin, causing it to bore through foes. When using this skill, the armament can be thrown further than normal and also pierce through enemies.", "Found on a scarab juust east of the Ruined Forge of Starfall Past Site of Grace. You'll find it guarded by a small group of Demi-Humans between a crumbled column."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Piercing+Throw\">Lancio perforante</a>", "Lancia l'arma con una potente rotazione, facendola trapassare i nemici. Con questa abilità, l'arma può essere lanciata più lontano del normale e perforare i nemici.", "Trovato su uno scarabeo appena a est del sito di grazia Ruined Forge of Starfall Past. Lo troverai sorvegliato da un piccolo gruppo di Semiumani tra una colonna diroccata."]
       - id: "20_6"
         dlc: true
         icon: "/img/icons/ashes_of_war/08506.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Scattershot+Throw\">Scattershot Throw</a>", "Employ smithing arts to conjure multiple copies of the armament in both hands and throw them all at once. Follow up with an additional input to throw again.", "Can be found by killing a scarab. Just south of Taylew's Ruined Forge entrance, near a bridge. It's hanging high on a pillar with some mobs underneath it."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Scattershot+Throw\">Lancio a raffica</a>", "Impiega l'arte della forgiatura per evocare più copie dell'arma in entrambe le mani e lanciarle tutte insieme. Un input aggiuntivo permette di lanciare di nuovo.", "Si trova uccidendo uno scarabeo. Appena a sud dell'ingresso della Taylew's Ruined Forge, vicino a un ponte. È in alto su un pilastro con alcuni nemici sotto."]
       - id: "20_9"
         dlc: true
         icon: "/img/icons/ashes_of_war/08509.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Raging+Beast\">Raging Beast</a>", "Step with the swiftness of a beast, leap high, and slash foe from above. Initial step can be taken forward, backward, left, or right. Strong attack allows for a follow-up attack.", "From the Bridge Leading to the Village Grace follow the path heading North.  Once you get to the trees, keep looking east for a teleporting Teardrop Scarab that will have the Ash of War."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Raging+Beast\">Bestia infuriata</a>", "Muoviti con la rapidità di una bestia, salta in alto e colpisci il nemico dall'alto. Il passo iniziale può essere effettuato in avanti, indietro, a sinistra o a destra. Un attacco forte permette un attacco di follow-up.", "Dal sito di grazia Bridge Leading to the Village seguire il percorso verso nord. Una volta arrivati agli alberi, cercare a est uno Scarabeo Lacrima teletrasportante con la Cenere di Guerra."]
       - id: "20_10"
         dlc: true
         icon: "/img/icons/ashes_of_war/08510.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Claws\">Savage Claws</a>", "Pounce like a beast to viciously slash into foe with left and right claws.", "Found on the Beast Claw (Weapon), which drops upon defeating Logur, the Beast Claw."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Claws\">Artigli selvaggi</a>", "Balza come una bestia per tagliare ferocemente il nemico con gli artigli sinistro e destro.", "Trovato sull'arma Beast Claw, che cade sconfiggendo Logur, la Bestia Artiglio."]
       - id: "20_11"
         dlc: true
         icon: "/img/icons/ashes_of_war/08511.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Blind+Spot\">Blind Spot</a>", "Leap into close quarters to take advantage of the enemy's blind spot and gore them from the side. Inputs determine which side you strike from. This attack slips below the opponent's guard.", "Comes equipped to the Backhand blade found besides a coffin, in the Inquisitor enemies area of Gravesite Plain, not far from the first site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Blind+Spot\">Punto cieco</a>", "Balza a distanza ravvicinata per sfruttare il punto cieco del nemico e colpirlo di lato. Gli input determinano da quale lato colpire. Questo attacco scivola sotto la guardia dell'avversario.", "In dotazione alla Backhand Blade trovata accanto a una bara, nell'area dei nemici Inquisitori della Gravesite Plain, vicino al primo sito di grazia."]
       - id: "20_12"
         dlc: true
         icon: "/img/icons/ashes_of_war/08512.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Swift+Slash\">Swift Slash</a>", "A skill passed down amongst hornsent swordsmen. Take a swift forward step to slice through foes. This sharp strike also fires off a shearing vacuum. Can be charged to increase the skill's power and the distance of the forward step.", "Reward for siding with Hornsent during his fight with Leda at Shadowkeep."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Swift+Slash\">Fendente fulmineo</a>", "Abilità tramandata tra i spadaccini degli Incornati. Esegui un rapido passo in avanti per affettare i nemici. Questo colpo tagliente scatena anche un vuoto lacerante. Può essere caricata per aumentare la potenza e la distanza del passo.", "Ricompensa per aver sostenuto l'Incornato durante il suo combattimento con Leda a Shadowkeep."]
       - id: "20_13"
         dlc: true
         icon: "/img/icons/ashes_of_war/08513.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Overhead+Stance\">Overhead Stance</a>", "A skill that starts with the blade held high in a ready stance. Execute a normal attack from this stance to step forward and slash downwards, or a strong attack to deliver a series of downward slashes.", "Comes equipped to the Great Katana found next to the sleeping Ghostflame Dragon on the lake, west of the Greatbridge, North site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Overhead+Stance\">Guardia alta</a>", "Un'abilità che inizia con la lama tenuta alta in una postura di attesa. Esegui un attacco normale da questa postura per avanzare e tagliare verso il basso, oppure un attacco forte per una serie di tagli discendenti.", "In dotazione al Grande Katana trovato accanto al Drago Fiamma Fantasma addormentato sul lago, a ovest del sito di grazia Greatbridge, North."]
   -
     title: "Quality"
+    title_it: "Qualità"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "11_7"
         icon: "/img/icons/ashes_of_war/08314.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Square+Off\">Square Off</a>", "This skill starts with the sword held level. Follow up with a normal attack to slash upwards through enemy's guard, or a strong attack to perform a running thrust.", "Dropped by a scarab on the west cliff, north of Worshippers' Woods site of Grace in Siofra River."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Square+Off\">Guardia</a>", "Questa abilità inizia con la spada tenuta orizzontale. Segui con un attacco normale per tagliare verso l'alto attraverso la guardia del nemico, o un attacco forte per eseguire una carica con stoccata.", "Lasciato cadere da uno scarabeo sulla scogliera ovest, a nord del sito di grazia Worshippers' Woods nel Fiume Siofra."]
       - id: "11_1"
         icon: "/img/icons/ashes_of_war/08304.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth\">Charge Forth</a>", "Quickly charge forward with the armament at the hip, carrying the momentum into a thrust. Hold to cover a greater distance.", "Dropped by a scarab attached to the underside of the bridge north of the Fallen Ruins of the Lakes site of grace, in the middle of Liurnia. You will need to manually aim."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth\">Charge Forth</a>", "Carica rapidamente in avanti con l'arma all'anca, portando lo slancio in una stoccata. Tieni premuto per coprire una distanza maggiore.", "Lasciato cadere da uno scarabeo attaccato alla faccia inferiore del ponte a nord del sito di grazia Fallen Ruins of the Lakes, nella zona centrale di Liurnia. Sarà necessario mirare manualmente."]
       - id: "11_6"
         icon: "/img/icons/ashes_of_war/08310.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Strikes\">Spinning Strikes</a>", "Polearm skill that performs continuous spinning attacks. Hold to continue the attack. Can be followed up with a normal or strong attack. Nullifies projectiles such as arrows while spinning.", "Dropped by Edgar at the Revenger's Shack, removable from his weapon Banished Knight's Halberd +8."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Strikes\">Spinning Strikes</a>", "Abilità per armi ad asta che esegue attacchi rotanti continui. Tieni premuto per continuare l'attacco. Può essere seguito da un attacco normale o forte. Annulla proiettili come frecce durante la rotazione.", "Lasciato cadere da Edgar alla Revenger's Shack, rimovibile dalla sua arma Banished Knight's Halberd +8."]
       - id: "11_3"
         icon: "/img/icons/ashes_of_war/08315.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt\">Giant Hunt</a>", "Skill developed for confronting gigantic foes. Step forward from a low stance, carrying the momentum into a sudden upward thrust.", "Dropped by the Night's Cavalry on the road south of Bellum Church site of grace, in North Liurnia."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt\">Caccia al gigante</a>", "Abilità sviluppata per affrontare nemici giganteschi. Avanza da una postura bassa, portando lo slancio in un'improvvisa stoccata ascendente.", "Lasciato cadere dalla Cavalleria Notturna sulla strada a sud del sito di grazia Bellum Church, nel nord di Liurnia."]
       - id: "11_9"
         icon: "/img/icons/ashes_of_war/08339.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Blade\">Storm Blade</a>", "Your armament is wrapped in a stormy blade that can be fired in rapid succession.", "Dropped by the Grave Warden in Murkwater Catacombs in Limgrave, also sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Blade\">Lama tempestosa</a>", "L'arma viene avvolta in una lama tempestosa che può essere lanciata in rapida successione.", "Lasciato cadere dal Custode della Tomba nelle Catacombe Murkwater in Limgrave, venduto anche da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "11_8"
         icon: "/img/icons/ashes_of_war/08319.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Assault\">Storm Assault</a>", "One of the skills that channel the tempests of Stormveil. Leap forward through surrounding storm winds and thrust armament downward. The attack will produce more storm winds at the point of impact.", "Dropped by a scarab underneath Stormveil Castle, just before dropping down to the Ulcerated Tree Spirit boss fight."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Assault\">Assalto tempestoso</a>", "Una delle abilità che incanalano le tempeste di Stormveil. Balza in avanti attraverso i venti di tempesta circostanti e conficca l'arma verso il basso. L'attacco produrrà ulteriori venti di tempesta al punto di impatto.", "Lasciato cadere da uno scarabeo sotto Stormveil Castle, appena prima di scendere verso il boss Ulcerated Tree Spirit."]
       - id: "11_11"
         icon: "/img/icons/ashes_of_war/08320.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stormcaller\">Stormcaller</a>", "One of the skills that channel the tempests of Stormveil. Spin armament to create surrounding storm winds. Repeated inputs allow for up to two follow-up attacks.", "Dropped by a scarab on the path opposite the Secluded Cell site of grace in Stormveil Castle, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Stormcaller\">Richiamo della tempesta</a>", "Una delle abilità che incanalano le tempeste di Stormveil. Fai ruotare l'arma per creare venti di tempesta circostanti. Input ripetuti consentono fino a due attacchi di follow-up.", "Lasciato cadere da uno scarabeo sul sentiero di fronte al sito di grazia Secluded Cell in Stormveil Castle, Limgrave."]
       - id: "11_10"
         icon: "/img/icons/ashes_of_war/08401.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Stomp\">Storm Stomp</a>", "One of the skills that channel the tempests of Stormveil. Stomp hard on the ground to kick up a momentary storm.", "Found in a chest in the small underground room of the Gatefront Ruins, southeast of the Gatefront Ruins site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Stomp\">Pestone tempestoso</a>", "Una delle abilità che incanalano le tempeste di Stormveil. Calpesta forte il terreno per sollevare una tempesta momentanea.", "Trovato in un forziere nella piccola stanza sotterranea delle Gatefront Ruins, a sudest del sito di grazia Gatefront Ruins."]
       - id: "11_12"
         icon: "/img/icons/ashes_of_war/08347.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice\">Vacuum Slice</a>", "Lost skill of ancient heroes. Hold the armament aloft to surround it with a shearing vacuum, then launch it forwards as a blade-like projectile.", "Found inside the ruined temple on the ground beneath the waterfalls by the Across the Roots site of grace, in Deeproot Depths."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice\">Taglio in aria</a>", "Abilità perduta degli antichi eroi. Tieni l'arma in alto per circondarla con un vuoto lacerante, poi lanciala in avanti come un proiettile a lama.", "Trovato all'interno del tempio in rovina sul terreno sotto le cascate vicino al sito di grazia Across the Roots, nelle Deeproot Depths."]
       - id: "11_4"
         icon: "/img/icons/ashes_of_war/08351.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Phantom+Slash\">Phantom Slash</a>", "Skill inspired by the fond remembrances of the Night's Cavalry. Creates an apparition of the knights' former instructor who guides a joint lunging upward swing. Additional input allows for a follow-up attack.", "Dropped by the Night's Cavalry on the path northeast of Forbidden Lands site of grace, in Mountaintops of the Giants."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Phantom+Slash\">Phantom Slash</a>", "Abilità ispirata ai cari ricordi della Cavalleria Notturna. Crea un'apparizione dell'ex istruttore dei cavalieri che guida un'oscillazione ascendente congiunta in avanzamento. Un input aggiuntivo permette un attacco di follow-up.", "Lasciato cadere dalla Cavalleria Notturna sul sentiero a nordest del sito di grazia Forbidden Lands, nelle Vette dei Giganti."]
       - id: "11_2"
         icon: "/img/icons/ashes_of_war/08420.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Determination\">Determination</a>", "Hold the flat of the armament to your face and pledge your resolve, powering up your next attack.", "Dropped by a scarab on the road southeast of the Agheel Lake North site of grace, in Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Determination\">Determinazione</a>", "Tieni il piatto dell'arma sul viso e giura la tua risolutezza, potenziando il tuo prossimo attacco.", "Lasciato cadere da uno scarabeo sulla strada a sudest del sito di grazia Agheel Lake North, in Limgrave."]
       - id: "11_5"
         icon: "/img/icons/ashes_of_war/08421.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Royal+Knight's+Resolve\">Royal Knight's Resolve</a>", "Skill of the knights who once served the Elden Lord. Hold the flat of the armament to your face and pledge your resolve, greatly powering up your next attack.", "Found at the bottom of the cage room behind the imp statue in Volcano Manor. After making your way through the Manor to the portal to the boss of Volcano Manor, you should find the imp statue nearby."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Royal+Knight's+Resolve\">Risoluzione del Cavaliere Reale</a>", "Abilità dei cavalieri che servivano un tempo il Signore degli Eletti. Tieni il piatto dell'arma sul viso e giura la tua risolutezza, potenziando enormemente il tuo prossimo attacco.", "Trovato in fondo alla stanza con le gabbie dietro la statua demoniaca a Villa Vulcano. Dopo aver attraversato la Villa verso il portale del boss, troverai la statua demoniaca nelle vicinanze."]
       - id: "20_14"
         dlc: true
         icon: "/img/icons/ashes_of_war/08514.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Wing+Stance\">Wing Stance</a>", "Calmly assume a right-sided stance. Normal attack triggers a rapid three-slash combination. Strong attack triggers a leaping thrust.", "Castle Ensis: Inside a chest in the tower that you can reach by jumping over the edge just outside Castle Lord's Chamber Site of Grace, and following the cliffside down to the tower before climbing up two ladders to reach it."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Wing+Stance\">Wing Stance</a>", "Assumi con calma una postura sul lato destro. L'attacco normale attiva una rapida combinazione di tre tagli. L'attacco forte attiva una stoccata con balzo.", "Castle Ensis: All'interno di un forziere nella torre raggiungibile saltando oltre il bordo appena fuori dal sito di grazia Castle Lord's Chamber e seguendo la scogliera verso il basso fino alla torre, poi salendo due scale a pioli."]
   -
     title: "Magic"
+    title_it: "Magica"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "8_5"
         icon: "/img/icons/ashes_of_war/08333.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintstone+Pebble\">Glintstone Pebble</a>", "Skill that employs the glintstone sorcery of the same name. Follow up with a strong attack to chain this skill into a lunging thrust, performed while the armament is still imbued with glintstone.", "Sold by Rogier in Stormveil Castle or in the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintstone+Pebble\">Scintilla di pietralucente</a>", "Abilità che impiega la stregoneria della pietra lucente omonima. Segui con un attacco forte per concatenare questa abilità in una stoccata in avanzamento, eseguita mentre l'arma è ancora impregnata di pietra lucente.", "Venduto da Rogier in Stormveil Castle o alla Tavola Rotonda."]
       - id: "8_4"
         icon: "/img/icons/ashes_of_war/08330.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintblade+Phalanx\">Glintblade Phalanx</a>", "Skill that creats glitnstone blades over your head and attack enemies automatically when they get close enough", "Given to you by Rogier after defeating Godrick, speak to him in the Roundtable Hold. Removable from his weapon Rogier's Rapier."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintblade+Phalanx\">Glintblade Phalanx</a>", "Abilità che crea lame di pietra lucente sopra la testa e attacca i nemici automaticamente quando si avvicinano abbastanza.", "Donato da Rogier dopo aver sconfitto Godrick, parlagli alla Tavola Rotonda. Rimovibile dalla sua arma Rogier's Rapier."]
       - id: "8_2"
         icon: "/img/icons/ashes_of_war/08346.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Greatsword\">Carian Greatsword</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power.", "Sold by Rogier in Stormveil Castle or in the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Greatsword\">Spadone cariano</a>", "Il prestigio reale di Caria incarnato in un'abilità. Trasforma la lama in una grande spada magica e abbattila. Può essere caricata per aumentarne la potenza.", "Venduto da Rogier in Stormveil Castle o alla Tavola Rotonda."]
       - id: "8_1"
         icon: "/img/icons/ashes_of_war/08345.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur\">Carian Grandeur</a>", "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power by up to two levels.", "Found on a corpse on top of an arch in Caria Manor, in Liurnia. Accessed by going up the stairs past the giant and turning left, through the door drop down until the second clifftop with a big jar. The stone arch and body should be visible from here."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur\">Maestà cariana</a>", "Il prestigio reale di Caria incarnato in un'abilità. Trasforma la lama in una grande spada magica e abbattila. Può essere caricata fino a due livelli per aumentarne la potenza.", "Trovato su un cadavere in cima a un arco nella Caria Manor, in Liurnia. Accessibile salendo le scale oltre il gigante e girando a sinistra, attraverso la porta scendi fino al secondo bordo di scogliera con un grande vaso."]
       - id: "8_8"
         icon: "/img/icons/ashes_of_war/08318.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Weapon\">Spinning Weapon</a>", "Defensive skill employed by Carian princesses. Lifts armament into mid-air, then makes it spin violently. Those it touches will suffer successive attacks.", "Sold by Rogier in Stormveil Castle or in the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Weapon\">Arma rotante</a>", "Abilità difensiva delle principesse di Caria. Solleva l'arma in mezz'aria, poi la fa ruotare violentemente. Chi viene toccato subirà attacchi successivi.", "Venduto da Rogier in Stormveil Castle o alla Tavola Rotonda."]
       - id: "8_7"
         icon: "/img/icons/ashes_of_war/08316.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Loretta's+Slash\">Loretta's Slash</a>", "Skill of Loretta the Royal Knight. Leap forward, imbuing the blade with glintstone, then descend, accelerating into a sweeping slash.", "Dropped by Royal Knight Loretta in Caria Manor, Liurnia."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Loretta's+Slash\">Fendente di Loretta</a>", "Abilità di Loretta, la Cavaliere Reale. Balza in avanti, impregnando la lama di pietra lucente, poi scendi accelerando in un taglio a spazzata.", "Lasciato cadere dalla Cavaliere Reale Loretta nella Caria Manor, Liurnia."]
       - id: "8_10"
         icon: "/img/icons/ashes_of_war/08407.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Waves+of+Darkness\">Waves of Darkness</a>", "Plunge armament into the ground to release three waves of darkness.", "Exchanged for the Remembrance of the Naturalborn at the Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Waves+of+Darkness\">Ondate di oscurità</a>", "Conficca l'arma nel terreno per rilasciare tre onde di oscurità.", "Ottenuto in cambio della Remembrance del Naturalnato alla Tavola Rotonda."]
       - id: "8_6"
         icon: "/img/icons/ashes_of_war/08338.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Gravitas\">Gravitas</a>", "Pierce the ground with your armament to damage foes as a surge of gravity draws them in", "Dropped by a Slender Wayfarer on the beach west of the Seaside Ruins site of grace, in south Limgrave. Be careful dropping down the cliffs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Gravitas\">Gravitas</a>", "Perfora il terreno con l'arma per danneggiare i nemici mentre un'ondata di gravità li attira.", "Lasciato cadere da un Viandante Esile sulla spiaggia a ovest del sito di grazia Seaside Ruins, nel sud di Limgrave. Fare attenzione a scendere dalle scogliere."]
       - id: "20_20"
         dlc: true
         icon: "/img/icons/ashes_of_war/08520.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Carian+Sovereignty\">Carian Sovereignty</a>", "Skill passed down the Carian royal family. Transform blade into a magical greatsword and bring it down. Additional input follows up with a horizontal sweep. Charge either attack to enhance potency.", "Acquired from a teardrop scarab inside a cave south west from Cathedral of Manus Metyr filled with glintslab fireflies. The scarab is located on the ceiling of the cave. To find this cave go to the Church District Highroad Site of Grace. Head directly west until you reach the cliffline and then continue south. The cave is embedded in the east cliff wall at the end of this path."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Carian+Sovereignty\">Sovranità cariana</a>", "Abilità tramandata nella famiglia reale di Caria. Trasforma la lama in una grande spada magica e abbattila. Un input aggiuntivo segue con un colpo orizzontale. Carica uno dei due attacchi per aumentarne la potenza.", "Acquisita da uno scarabeo lacrima all'interno di una caverna a sudovest della Cathedral of Manus Metyr, piena di lucciole di pietra lucente. Lo scarabeo si trova sul soffitto della caverna."]
   -
     title: "Fire"
+    title_it: "Fuoco"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "3_3"
         icon: "/img/icons/ashes_of_war/08342.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike\">Flaming Strike</a>", "Skill that emits flame in a wide frontward arc. Follow up with a strong attack to perform a lunging, sweeping strike. This will also coat the armament in fire.", "Dropped by a scarab outside the south wall of Redmane Castle in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike\">Fendente fiammeggiante</a>", "Abilità che emette fiamme in un ampio arco frontale. Segui con un attacco forte per eseguire una stoccata con avanzamento e spazzata. Questo rivestirà anche l'arma di fuoco.", "Lasciato cadere da uno scarabeo fuori dal muro sud del Redmane Castle in Caelid."]
       - id: "3_2"
         icon: "/img/icons/ashes_of_war/08404.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes\">Flame of the Redmanes</a>", "Skill of the Redmanes, who fought alongside General Radahn. Produce a powerful burst of flames in a wide frontward arc.", "Dropped by an invisible scarab near Fort Gael North site of grace, in west Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes\">Fiamma dei Criniere Rosse</a>", "Abilità dei Criniere Rosse, che combatterono al fianco del Generale Radahn. Produce una potente esplosione di fiamme in un ampio arco frontale.", "Lasciato cadere da uno scarabeo invisibile vicino al sito di grazia Fort Gael North, nell'ovest di Caelid."]
       - id: "3_1"
         icon: "/img/icons/ashes_of_war/08336.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption\">Eruption</a>", "Slamming the armament into the ground will spawn roiling lava which also spouts up upon release.", "Sold by Bernahl in Volcano Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption\">Eruzione</a>", "Conficcando l'arma nel terreno si genererà lava ribollente che fuoriesce anche al rilascio.", "Venduto da Bernahl nel Volcano Manor."]
   -
     title: "Flame"
+    title_it: "Fiamma"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "4_2"
         icon: "/img/icons/ashes_of_war/08312.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge\">Prelate's Charge</a>", "Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge.", "Dropped by a scarab hanging on a tree in the camp, south of Whiteridge Road site of grace, in Mountaintops of the Giants."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge\">Carica del prelato</a>", "Sbatte l'arma nel terreno per creare un'ondata di fiamme, poi carica. Tieni premuto per continuare la carica.", "Lasciato cadere da uno scarabeo appeso a un albero nell'accampamento, a sud del sito di grazia Whiteridge Road, nelle Vette dei Giganti."]
       - id: "4_1"
         icon: "/img/icons/ashes_of_war/08348.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado\">Black Flame Tornado</a>", "Spin armament overhead and then plunge it into the ground to summon a raging vortex of black flames. Hold to create an initial flame tornado while spinning the armament.", "Dropped by the Godskin Duo in Crumbling Farum Azula."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado\">Tornado della fiamma nera</a>", "Fai roteare l'arma sopra la testa e poi conficcarla nel terreno per evocare un vortice infuriante di fiamme nere. Tieni premuto per creare un tornado di fiamma iniziale mentre si fa roteare l'arma.", "Lasciato cadere dal Duo Godskin nel Crumbling Farum Azula."]
       - id: "20_16"
         dlc: true
         icon: "/img/icons/ashes_of_war/08516.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Skewer\">Flame Skewer</a>", "Skill of Queelign of the Fire Knights. Enwreathe armament in flame and assume a low stance before skewering the enemy in a single motion. Strong attack unleashes a follow-up flame attack.", "Acquired as a drop upon defeating the NPC Invader Fire Knight Queelign a second time."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Skewer\">Spiedino di fiamme</a>", "Abilità di Queelign dei Cavalieri del Fuoco. Avvolgi l'arma nelle fiamme e assumi una postura bassa prima di infilzare il nemico in un unico movimento. L'attacco forte scatena un attacco di follow-up infuocato.", "Acquisita come ricompensa sconfiggendo l'invasore NPC Fire Knight Queelign una seconda volta."]
       - id: "20_19"
         dlc: true
         icon: "/img/icons/ashes_of_war/08519.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Spear\">Flame Spear</a>", "Skill of Kood, captain of the Fire Knights. Ready weapon for a thrusting attack and unleash a spear of flame straight ahead. Charge the attack to increase damage dealt and distance travelled.", "Shadow Keep, Sixth Floor: Climb the statues once you've used the lever to move them. Head outside, turn right and head up the stairs, turn left to find a Fire Knight at the end of the bridge. Drops this item and Winged Serpent Helm."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Spear\">Lancia di fiamme</a>", "Abilità di Kood, capitano dei Cavalieri del Fuoco. Prepara l'arma per un attacco con stoccata e scatena una lancia di fiamme dritta davanti a sé. Carica l'attacco per aumentare i danni e la distanza percorsa.", "Shadow Keep, Sesto Piano: Arrampicati sulle statue dopo aver usato la leva per spostarle. Esci, gira a destra e sali le scale, gira a sinistra per trovare un Cavaliere del Fuoco alla fine del ponte."]
   -
     title: "Lightning"
+    title_it: "Fulmine"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "7_3"
         icon: "/img/icons/ashes_of_war/08343.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt\">Thunderbolt</a>", "Raise armament aloft to call down a bolt of lightning. Can be fired in rapid succession.", "Dropped by a scarab somewhere in Leyndell, Royal Capital. Starting at the Avenue Balcony site of grace, go down the stairs and through the door in front of them. Immediately turn left and hug the railing until you see the scarab on the other side of the railing below you."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt\">Fulmine</a>", "Alza l'arma in alto per far scendere un fulmine. Può essere sparato in rapida successione.", "Lasciato cadere da uno scarabeo da qualche parte in Leyndell, Capitale Reale. Partendo dal sito di grazia Avenue Balcony, scendi le scale e attraversa la porta davanti. Gira immediatamente a sinistra e segui il parapetto finché non vedi lo scarabeo dall'altro lato sotto."]
       - id: "7_2"
         icon: "/img/icons/ashes_of_war/08344.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Lightning Slash</a>", "Call down a bolt of lightning into armament, then swing it down to create an explosive shock. The armament retains the lightning enchantment for a while.", "Dropped by a scarab in the small camp outside the walls, northwest of the Hermit Merchant's Shack site of grace, in Altus Plateau"]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash\">Taglio fulminante</a>", "Fa scendere un fulmine nell'arma, poi abbattila per creare un'esplosiva scarica. L'arma mantiene l'incantesimo del fulmine per un po'.", "Lasciato cadere da uno scarabeo nel piccolo accampamento fuori dalle mura, a nordovest del sito di grazia Hermit Merchant's Shack, nell'Altopiano di Altus."]
       - id: "7_1"
         icon: "/img/icons/ashes_of_war/08403.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Ram\">Lightning Ram</a>", "Skill inspired by tumbling rams. Let out a bleat, then tumble forwards, clad in lightning. Tumbles can be repeated in rapid succession.", "Dropped by a scarab east of the Stormcaller Church and southeast of the Sainted Hero's Grave, in Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Ram\">Ariete fulminante</a>", "Abilità ispirata agli arieti che ruzzolano. Emetti un belato, poi rotola in avanti avvolto nel fulmine. I rotolamenti possono essere ripetuti in rapida successione.", "Lasciato cadere da uno scarabeo a est della Stormcaller Church e a sudest della Sainted Hero's Grave, nell'Altopiano di Altus."]
       - id: "20_15"
         dlc: true
         icon: "/img/icons/ashes_of_war/08515.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Blinkbolt\">Blinkbolt</a>", "Skill used by the golden knights who served Godwyn. From a low stance, the body is transformed into a bolt of lightning and charges straight ahead at fulgurous speed.", "Found in a chest within the Fog Rift Catacombs. The room of the third spike dropper with a sorcerer sniping from the back, stand where the sorcerer you defeated was and bait the spike trap down to jump into a notch. Ride the notch up to a room with a chest that holds the ash of war."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Blinkbolt\">Dardo lampeggiante</a>", "Abilità usata dai cavalieri dorati al servizio di Godwyn. Da una postura bassa, il corpo si trasforma in un fulmine e carica dritto avanti a velocità folgorante.", "Trovato in un forziere nelle Fog Rift Catacombs. Nella stanza della terza trappola a punte con un mago che spara dalla parte posteriore, attira la trappola verso il basso per saltare in un incavo. Sali fino a una stanza con un forziere."]
   -
     title: "Sacred"
+    title_it: "Sacra"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "12_7"
         icon: "/img/icons/ashes_of_war/08331.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Blade\">Sacred Blade</a>", "Grants armament's attacks holy essence and fires off a golden blade projectile. The armament retains its holy essence for awhile.", "Dropped by a scarab north of the Third Church of Marika site of grace in Limgrave. Found near the Spiritspring jump."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Blade\">Lama sacra</a>", "Conferisce agli attacchi dell'arma essenza sacra e spara un proiettile a lama dorata. L'arma mantiene la sua essenza sacra per un po'.", "Lasciato cadere da uno scarabeo a nord del sito di grazia Third Church of Marika in Limgrave. Trovato vicino al balzo dello Spirito."]
       - id: "12_6"
         icon: "/img/icons/ashes_of_war/08337.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prayerful+Strike\">Prayerful Strike</a>", "Raise armament aloft in prayer, then slam it into the ground. This inspired blow restores HP to the self and nearby allies if it successfully hits.", "Dropped by an invisible scarab in the western moat section of the Capital Outskirts. There is an arch full of slugs in the middle of the two pools, the scarab will run back and forth through here."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Prayerful+Strike\">Colpo orante</a>", "Alza l'arma in preghiera, poi abbattila sul terreno. Questo colpo ispirato ripristina HP a sé e agli alleati vicini se va a segno.", "Lasciato cadere da uno scarabeo invisibile nella sezione ovest del fossato del Capital Outskirts. C'è un arco pieno di lumache in mezzo alle due vasche, lo scarabeo corre avanti e indietro."]
       - id: "12_9"
         icon: "/img/icons/ashes_of_war/08349.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Ring+of+Light\">Sacred Ring of Light</a>", "The armament gathers a sacred ring of light and then fires it forward, the skill can be fired in rapid succession.", "Dropped by a scarab on the eastern edge of the Aeonian Swamp in Caelid. East of the Heart of Aeonia site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Ring+of+Light\">Anello di luce sacro</a>", "L'arma raccoglie un anello sacro di luce e lo spara in avanti, l'abilità può essere sparata in rapida successione.", "Lasciato cadere da uno scarabeo sul bordo orientale della Aeonian Swamp in Caelid. A est del sito di grazia Heart of Aeonia."]
       - id: "12_8"
         icon: "/img/icons/ashes_of_war/08424.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Order\">Sacred Order</a>", "Skill of the Golden Order fundamentalist knights. Perform a salute and grant the armament holy essence.", "Dropped by a scarab northwest of the Abandoned Coffin site of grace in south Altus Plateau. On the path west of the water."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Order\">Ordine sacro</a>", "Abilità dei cavalieri fondamentalisti dell'Ordine Dorato. Esegui un saluto e conferisci all'arma essenza sacra.", "Lasciato cadere da uno scarabeo a nordovest del sito di grazia Abandoned Coffin nel sud dell'Altopiano di Altus. Sul sentiero a ovest dell'acqua."]
       - id: "12_10"
         icon: "/img/icons/ashes_of_war/08425.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shared+Order\">Shared Order</a>", "Skill of the Golden Order fundamentalist knights. Grant the armament and those of nearby allies holy essence.", "Dropped by the Night's Cavalry on the road southwest of the Altus Highway Junction site of grace, in Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shared+Order\">Ordine condiviso</a>", "Abilità dei cavalieri fondamentalisti dell'Ordine Dorato. Conferisce all'arma e a quelle degli alleati vicini essenza sacra.", "Lasciato cadere dalla Cavalleria Notturna sulla strada a sudovest del sito di grazia Altus Highway Junction, nell'Altopiano di Altus."]
       - id: "12_1"
         icon: "/img/icons/ashes_of_war/08341.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land\">Golden Land</a>", "Thrust armament into the ground, then gather strength to unleash a blast of sacred energy that coalesces into golden darts. Follow up with a strong attack to swing the armament in a sweeping strike", "Dropped by a scarab south of the Great Waterfall Crest site of grace in Deeproot Depths. Behind the Erdtree Avatar."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land\">Terra dorata</a>", "Conficca l'arma nel terreno, poi raccoglie le forze per scatenare un'esplosione di energia sacra che si coagula in dardi dorati. Segui con un attacco forte per colpire in una spazzata.", "Lasciato cadere da uno scarabeo a sud del sito di grazia Great Waterfall Crest nelle Deeproot Depths. Dietro l'Avatar dell'Albero Eterno."]
       - id: "12_3"
         icon: "/img/icons/ashes_of_war/08406.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Slam\">Golden Slam</a>", "Jump and slam on ground", "Dropped by a scarab northeast of the Minor Erdtree, in the northwest section of the Woodfolk Ruins in Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Slam\">Schianto dorato</a>", "Salta e abbattiti sul terreno.", "Lasciato cadere da uno scarabeo a nordest del Piccolo Albero Eterno, nella sezione nordovest delle Woodfolk Ruins nell'Altopiano di Altus."]
       - id: "12_4"
         icon: "/img/icons/ashes_of_war/08423.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Vow\">Golden Vow</a>", "Skill passed down from antiquity among the knights of the capital. Raise armament aloft and pledge to honor the Erdtree in battle, granting self and nearby allies increased attack power and defense.", "Dropped by a mounted Godrick Knight on the cliff above the Deathtouched Catacombs in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Vow\">Voto aureo</a>", "Abilità tramandata dall'antichità tra i cavalieri della capitale. Alza l'arma in alto e giura di onorare l'Albero Eterno in battaglia, conferendo a sé e agli alleati vicini aumento del potere d'attacco e della difesa.", "Lasciato cadere da un Cavaliere di Godrick a cavallo sulla scogliera sopra le Deathtouched Catacombs a Stormhill, Limgrave."]
       - id: "12_11"
         icon: "/img/icons/ashes_of_war/08461.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable\">Vow of the Indomitable</a>", "Skill of the ancient warriors of the Erdtree. Hold shield aloft to imbue yourself with golden power, granting momentary invincibility.", "Dropped by a scarab in the poisonous swamp area in the south of Liurnia lake. South of the Folly on the Lake site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable\">Voto dell'indomabile</a>", "Abilità degli antichi guerrieri dell'Albero Eterno. Alza lo scudo in alto per imbuirti di potere dorato, concedendo momentanea invincibilità.", "Lasciato cadere da uno scarabeo nella zona della palude velenosa nel sud del lago di Liurnia. A sud del sito di grazia Folly on the Lake."]
       - id: "12_5"
         icon: "/img/icons/ashes_of_war/08462.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Holy+Ground\">Holy Ground</a>", "Raise shield to create an Erdtree-consecrated area that continuously restores HP and boosts defense for self and allies inside it", "Found when the chariots are destroyed in Auriza Hero's Grave in the Capital Outskirts."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Holy+Ground\">Terreno sacro</a>", "Alza lo scudo per creare un'area consacrata dall'Albero Eterno che ripristina continuamente HP e aumenta la difesa per sé e gli alleati al suo interno.", "Trovato quando i carri vengono distrutti nell'Auriza Hero's Grave nel Capital Outskirts."]
       - id: "20_2"
         dlc: true
         icon: "/img/icons/ashes_of_war/08501.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Aspects+of+the+Crucible:+Wings\">Aspects of the Crucible: Wings</a>", "This skill originates from the lifeforms of the Crucible. Grow a golden pair of wings and take to the air before diving down at the foe, weapon first. A spinning attack is performed when wielding a twinblade.", "Fort of Reprimand: Black Knight Edredd drops this Ash of War upon defeat."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Aspects+of+the+Crucible:+Wings\">Aspetti del Crogiolo: Ali</a>", "Questa abilità ha origine dalle forme di vita del Crogiolo. Fai crescere un paio di ali dorate e prendere il volo prima di tuffarti sul nemico con l'arma puntata. Un attacco rotante viene eseguito quando si impugna un'arma gemella.", "Fort of Reprimand: il Cavaliere Nero Edredd lascia questa Cenere di Guerra alla sconfitta."]
   -
     title: "Poison"
+    title_it: "Veleno"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "10_2"
         icon: "/img/icons/ashes_of_war/08354.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist\">Poisonous Mist</a>", "Coats the selected armament in poison, slashing spreads the toxic mist forward. The armament retain its poison for a while.", "Dropped by a scarab in south Swamp of Aeonia, southeast of the Aeonia Swamp Shore site of grace, in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist\">Nebbia velenosa</a>", "Ricopre l'arma selezionata di veleno; il taglio diffonde la nebbia tossica in avanti. L'arma mantiene il veleno per un po'.", "Lasciato cadere da uno scarabeo nel sud della Swamp of Aeonia, a sudest del sito di grazia Aeonia Swamp Shore, in Caelid."]
       - id: "10_1"
         icon: "/img/icons/ashes_of_war/08317.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight\">Poison Moth Flight</a>", "Slash with a poison-infused blade. If the follow-up strike lands on a poisoned foe, it will deal significant damage.", "Dropped by the Night's Cavalry on the road between the Caelid Highway South and Southern Aeonia Swamp Bank sites of grace, in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight\">Volo della falena velenosa</a>", "Taglia con una lama intrisa di veleno. Se il colpo di follow-up colpisce un nemico avvelenato, causerà danni significativi.", "Lasciato cadere dalla Cavalleria Notturna sulla strada tra i siti di grazia Caelid Highway South e Southern Aeonia Swamp Bank, in Caelid."]
       - id: "20_23"
         dlc: true
         icon: "/img/icons/ashes_of_war/08522.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+The+Poison+Flower+Blooms+Twice\">The Poison Flower Blooms Twice</a>", "Conjures stingers of scarlet rot from below to stab the enemy. Landing a follow-up attack on a foe already inflicted with poison or rot deals massive damage in one fell swoop.", "Dropped by a Teardrop Scarab. From Ravine North Site of Grace in Rauh Base, head south to cross river and find it near a small pool of rot near some ruins."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+The+Poison+Flower+Blooms+Twice\">Il fiore velenoso sboccia due volte</a>", "Evoca pungiglioni di marciume scarlatto dal basso per pugnalare il nemico. Colpire con un attacco di follow-up un nemico già afflitto da veleno o marciume infligge danni massivi in un solo colpo.", "Lasciato cadere da uno Scarabeo Lacrima. Dal sito di grazia Ravine North nella Rauh Base, dirigiti a sud per attraversare il fiume e trovarlo vicino a una piccola pozza di marciume vicino ad alcune rovine."]
   -
     title: "Blood"
+    title_it: "Sangue"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "1_1"
         icon: "/img/icons/ashes_of_war/08350.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade\">Blood Blade</a>", "Wound self to coat the armament with blood, then unleash an airborne blood blade that causes hemorrhaging. Can be fired in rapid succession.", "Dropped by a scarab flying above water, northeast of Erdtree-Gazing Hill site of grace in Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade\">Lama sanguinaria</a>", "Ferisciti per ricoprire l'arma di sangue, poi scatena una lama di sangue aerea che provoca emorragia. Può essere sparata in rapida successione.", "Lasciato cadere da uno scarabeo in volo sopra l'acqua, a nordest del sito di grazia Erdtree-Gazing Hill nell'Altopiano di Altus."]
       - id: "1_3"
         icon: "/img/icons/ashes_of_war/08334.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloody+Slash\">Bloody Slash</a>", "Blood Oath skill granted by the Lord of Blood. From a low stance, coat the blade in your own blood to unleash a rending blood slash in a wide arc.", "Dropped by the knight at the top of Fort Haight."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloody+Slash\">Fendente sanguinario</a>", "Abilità del Giuramento del Sangue concessa dal Signore del Sangue. Da una postura bassa, ricopri la lama con il tuo stesso sangue per scatenare un taglio di sangue lacerant in un ampio arco.", "Lasciato cadere dal cavaliere in cima a Fort Haight."]
       - id: "1_2"
         icon: "/img/icons/ashes_of_war/08307.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Tax\">Blood Tax</a>", "Blood Oath skill granted by Lord of Blood. Twist to build power, then unleash a flurry of thrusts that rob the target of both their blood and their HP.", "Dropped by a scarab in a small cave on the east side of Mohgwyn Palace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Tax\">Tributo di sangue</a>", "Abilità del Giuramento del Sangue concessa dal Signore del Sangue. Ruota per accumulare potenza, poi scatena una raffica di stoccate che priva il bersaglio sia del sangue che degli HP.", "Lasciato cadere da uno scarabeo in una piccola grotta sul lato est del Palazzo Mohgwyn."]
       - id: "1_4"
         icon: "/img/icons/ashes_of_war/08426.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku\">Seppuku</a>", "Plunge the blade into your stomach to stain it with blood. Increases attack power and improves ability to inflict blood loss.", "Dropped by an invisible scarab east of the Freezing Lake site of grace in Mountaintops of the Giants."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku\">Seppuku</a>", "Conficca la lama nel tuo stomaco per macchiarla di sangue. Aumenta il potere d'attacco e migliora la capacità di infliggere perdita di sangue.", "Lasciato cadere da uno scarabeo invisibile a est del sito di grazia Freezing Lake nelle Vette dei Giganti."]
   -
     title: "Cold"
+    title_it: "Gelo"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "2_3"
         icon: "/img/icons/ashes_of_war/08332.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear\">Ice Spear</a>", "Skill of the warriors who served Lunar Princess Ranni. Spin armament to release cold magic, then channel it into a piercing spear of ice.", "Dropped by the Night's Cavalry southeast of Gate Town Bridge site of grace, in east Liurnia."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear\">Lancia di ghiaccio</a>", "Abilità dei guerrieri al servizio della Principessa Lunare Ranni. Fai ruotare l'arma per rilasciare magia del freddo, poi canalizzala in una lancia di ghiaccio perforante.", "Lasciato cadere dalla Cavalleria Notturna a sudest del sito di grazia Gate Town Bridge, nell'est di Liurnia."]
       - id: "2_1"
         icon: "/img/icons/ashes_of_war/08353.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist\">Chilling Mist</a>", "Coat armament in frost, and then slash, spreading frigid mist forwards. The armament retains its frost for a while.", "Dropped by a scarab in the ruins to the south of Renna's Rise."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist\">Nebbia gelida</a>", "Ricopri l'arma di gelo, poi taglia diffondendo nebbia gelida in avanti. L'arma mantiene il suo gelo per un po'.", "Lasciato cadere da uno scarabeo nelle rovine a sud di Renna's Rise."]
       - id: "2_2"
         icon: "/img/icons/ashes_of_war/08400.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarfrost+Stomp\">Hoarfrost Stomp</a>", "Stomp hard to spread a trail of freezing mist on the ground. The mist applies the frost status effect.", "Dropped by an invisible scarab in the water southeast of Caria Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarfrost+Stomp\">Pestone brinoso</a>", "Calpesta forte per diffondere una scia di nebbia gelante sul terreno. La nebbia applica l'effetto di stato gelo.", "Lasciato cadere da uno scarabeo invisibile nell'acqua a sudest della Caria Manor."]
       - id: "20_18"
         dlc: true
         icon: "/img/icons/ashes_of_war/08518.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Divine+Beast+Frost+Stomp\">Divine Beast Frost Stomp</a>", "A skill which imitates the wrath of the divine beast's dance. Lift a leg up high and stamp it down with great force. Sends a powerful wave of frost straight out along the ground. Can be charged to increase power and range.", "Obtained by trading Remembrance of the Dancing Lion with Enia at Roundtable Hold."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Divine+Beast+Frost+Stomp\">Pestone gelido della bestia divina</a>", "Un'abilità che imita la furia della danza della bestia divina. Alza una gamba in alto e abbattila con grande forza. Invia una potente ondata di gelo lungo il terreno. Può essere caricata per aumentare potenza e portata.", "Ottenuta scambiando la Remembrance del Leone Danzante con Enia alla Tavola Rotonda."]
       - id: "20_22"
         dlc: true
         icon: "/img/icons/ashes_of_war/08525.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Ghostflame+Call\">Ghostflame Call</a>", "Thrust out armament to summon ghostflame. Follow up with a normal attack to set the ground ablaze with ghostflame, or a strong attack to trigger a massive explosion.", "Charo's Hidden Grave: Dropped by the Death Rite Bird."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Ghostflame+Call\">Richiamo della fiamma fantasma</a>", "Protendi l'arma per evocare fiamma fantasma. Segui con un attacco normale per incendiare il terreno con fiamma fantasma, o un attacco forte per scatenare una massiccia esplosione.", "Charo's Hidden Grave: Lasciato cadere dall'Uccello del Rito della Morte."]
   -
     title: "Occult"
+    title_it: "Occulta"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "9_3"
         icon: "/img/icons/ashes_of_war/08352.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spectral+Lance\">Spectral Lance</a>", "Skill of the headless Mausoleum Knights. Hurl a phantasmic spear at foes.", "Dropped by a scarab in Raya Lucaria Academy. From the Church of the Cuckoo site of grace, head forwards through the area until you reach the stone walls guarded by many dogs. From the door of the wall, head north down a slope between gravestones and a tree, at the bottom will be the scarab."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Spectral+Lance\">Lancia spettrale</a>", "Abilità dei Cavalieri Mausoleo senza testa. Lancia una lancia fantasmagorica sui nemici.", "Lasciato cadere da uno scarabeo nella Raya Lucaria Academy. Dal sito di grazia Church of the Cuckoo, procedi fino ai muri di pietra sorvegliati da molti cani. Dalla porta del muro, dirigiti a nord lungo un pendio tra lapidi e un albero; in fondo ci sarà lo scarabeo."]
       - id: "9_2"
         icon: "/img/icons/ashes_of_war/08335.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Lifesteal Fist</a>", "Skill that demonstrates mastery of the art of controlling vital energies.", "Dropped by a scarab on the road just west of the Astray from Caelid Highway North site of grace in Caelid."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist\">Pugno rubavita</a>", "Abilità che dimostra la padronanza dell'arte di controllare le energie vitali.", "Lasciato cadere da uno scarabeo sulla strada appena a ovest del sito di grazia Astray from Caelid Highway North in Caelid."]
       - id: "9_4"
         icon: "/img/icons/ashes_of_war/08490.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure\">White Shadow's Lure</a>", "Hold armament in a brief, silent prayer to create a white shadow. The apparition lures in foes of human build who are not in combat, drawing their aggression.", "Dropped by an invisible scarab near the river northeast of the Inner Consecrated Snowfield site of grace, in Consecrated Snowfield. The scarab is being chased by a group of wolves."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure\">Richiamo dell'ombra bianca</a>", "Tieni l'arma in una breve preghiera silenziosa per creare un'ombra bianca. L'apparizione attira i nemici di corporatura umana che non sono in combattimento, attirando la loro aggressività.", "Lasciato cadere da uno scarabeo invisibile vicino al fiume a nordest del sito di grazia Inner Consecrated Snowfield, nel Campo Innevato Consacrato. Lo scarabeo viene inseguito da un gruppo di lupi."]
       - id: "9_1"
         icon: "/img/icons/ashes_of_war/08422.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit\">Assassin's Gambit</a>", "A skill where it masks the player's presence at the cost of a self-inflicted wound. The ablilty grants near-invisibility and silenced footsteps.", "Sold by Bernahl at the Volcano Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit\">Azzardo dell'assassino</a>", "Un'abilità che maschera la presenza del giocatore al costo di una ferita autoinflitta. L'abilità concede quasi-invisibilità e passi silenziosi.", "Venduto da Bernahl al Volcano Manor."]
       - id: "20_21"
         dlc: true
         icon: "/img/icons/ashes_of_war/08521.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Shriek+of+Sorrow\">Shriek of Sorrow</a>", "Skill utilized by the downtrodden. Scream, causing nearby enemies to flinch, while also recalling deep-seated resentment, boosting attack power based on the amount of HP remaining. The lower the HP, the greater the effect.", "Can be found at Belurat Tower Settlement, in the main Plaza where Fire Knight Queelign invades you, behind the great tree located in the middle."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Shriek+of+Sorrow\">Urido di disperazione</a>", "Abilità utilizzata dai diseredati. Urla, facendo vacillare i nemici vicini, e al contempo richiama rancore profondo, aumentando il potere d'attacco in base agli HP rimasti. Più bassi sono gli HP, maggiore è l'effetto.", "Si trova nel Belurat Tower Settlement, nella piazza principale dove il Cavaliere del Fuoco Queelign ti invade, dietro il grande albero al centro."]
   -
     title: "Standard"
+    title_it: "Standard"
     table: ["Name", "Description", "Location"]
+    table_it: ["Nome", "Descrizione", "Luogo"]
     items:
       - id: "13_4"
         icon: "/img/icons/ashes_of_war/08382.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Mighty+Shot\">Mighty Shot</a>", "Archery skill performed from an oblique stance. Ready the bow, then pull the bowstring to its limit to enhance the power of the shot, penetrating the enemy's guard.", "Dropped by a scarab on the road near the junction, north of the Castle Morne Rampart site of grace in the Weeping Peninsular."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Mighty+Shot\">Tiro possente</a>", "Abilità di tiro con l'arco eseguita da una postura obliqua. Prepara l'arco, poi tira la corda fino al limite per aumentare la potenza del colpo, penetrando la guardia del nemico.", "Lasciato cadere da uno scarabeo sulla strada vicino all'incrocio, a nord del sito di grazia Castle Morne Rampart nella Weeping Peninsula."]
       - id: "13_12"
         icon: "/img/icons/ashes_of_war/08380.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through\">Through and Through</a>", "Powerful archery skill using a greatbow held in an oblique stance. Ready the greatbow, then twist the bowstring to fire a mighty greatarrow that can penetrate through enemies.", "Dropped by an invisible scarab northwest of the Road of Iniquity site of grace in Mt. Gelmir, also northwest of the Volcano Manor entrance."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through\">Da parte a parte</a>", "Potente abilità di tiro con l'arco usando un grande arco in postura obliqua. Prepara il grande arco, poi torci la corda per sparare un potente dardo che può perforare i nemici.", "Lasciato cadere da uno scarabeo invisibile a nordovest del sito di grazia Road of Iniquity nel Mt. Gelmir, anche a nordovest dell'ingresso del Volcano Manor."]
       - id: "13_1"
         icon: "/img/icons/ashes_of_war/08381.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage\">Barrage</a>", "Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see.", "Dropped by a scarab just north of Seethewater River site of grace in east Mt. Gelmir."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage\">Raffica</a>", "Abilità di tiro con l'arco usando un arco tenuto orizzontalmente. Prepara l'arco, poi spara una rapida successione di frecce più veloci dell'occhio.", "Lasciato cadere da uno scarabeo appena a nord del sito di grazia Seethewater River nell'est del Mt. Gelmir."]
       - id: "13_10"
         icon: "/img/icons/ashes_of_war/08384.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot\">Sky Shot</a>", "Archery skill performed from a low stance. Ready the bow, then fire an arrow high up into the air, arcing so as to strike the enemy from abose when it comes down.", "Dropped by a scarab along the cliffs northwest of the Isolated Merchant's Shack site of grace in west Dragonbarrow."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot\">Tiro puntato in alto</a>", "Abilità di tiro con l'arco eseguita da una postura bassa. Prepara l'arco, poi spara una freccia in alto nell'aria che si arcua per colpire il nemico dall'alto quando scende.", "Lasciato cadere da uno scarabeo lungo le scogliere a nordovest del sito di grazia Isolated Merchant's Shack nel Dragonbarrow occidentale."]
       - id: "13_3"
         icon: "/img/icons/ashes_of_war/08383.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Enchanted+Shot\">Enchanted Shot</a>", "A skill where a spiritual essence is gathered within the arrow, allowing it to fly faster than a regular shot arrow. It also changes its trajectory to follow the target.", "Dropped by a scarab behind a rock near a brazier, across the grassland north of the Ancestral Woods site of grace in Nokron, Eternal City."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Enchanted+Shot\">Tiro incantato</a>", "Un'abilità in cui un'essenza spirituale viene raccolta all'interno della freccia, permettendole di volare più velocemente di una freccia normale. Cambia anche traiettoria per seguire il bersaglio.", "Lasciato cadere da uno scarabeo dietro una roccia vicino a un braciere, attraverso il prato a nord del sito di grazia Ancestral Woods in Nokron, Città Eterna."]
       - id: "13_7"
         icon: "/img/icons/ashes_of_war/08385.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Rain of Arrows</a>", "Archery skill performed from a low stance. Ready the bow, then fire a burst of arrows into the sky to shower the enemy with projectiles", "Reward for solving the 'Redmane' Painting found in Sellia, Town of Sorcery. After looking at the painting in your inventory, it can be found on the cliffs east of the Minor Erdtree in east Dragonbarrow."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows\">Pioggia di frecce</a>", "Abilità di tiro con l'arco eseguita da una postura bassa. Prepara l'arco, poi spara una raffica di frecce in cielo per fare piovere proiettili sul nemico.", "Ricompensa risolvendo il dipinto 'Redmane' trovato in Sellia, Città della Stregoneria. Dopo aver guardato il dipinto, si trova sulle scogliere a est del Piccolo Albero Eterno nell'est del Dragonbarrow."]
       - id: "13_6"
         icon: "/img/icons/ashes_of_war/08362.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry\">Parry</a>", "Use this skill in time with a foe's melee attack to deflect it and break that foe's stance. This provides an opening to perform a critical hit.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry\">Deviazione</a>", "Usa questa abilità in sincronia con un attacco in mischia del nemico per deviarlo e rompere la sua postura. Questo fornisce un'apertura per eseguire un colpo critico.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "12_2" #TODO: Sacred?
         icon: "/img/icons/ashes_of_war/08365.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Parry\">Golden Parry</a>", "Perform an Erdtree incantation and swing the shield to deflect enemy attacks and break their stance. Effective even at a slight distance.", "Dropped by a disappearing scarab on the left side of the stairs south of the Outer Wall Battleground site of grace, in the Capital Outskirts, Altus Plateau. Be careful approaching this scarab as it will disappear immediately, recommended to drop on it from above or range it."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Parry\">Deviazione dorata</a>", "Esegui un'incantazione dell'Albero Eterno e oscilla lo scudo per deviare gli attacchi nemici e rompere la loro postura. Efficace anche a una certa distanza.", "Lasciato cadere da uno scarabeo che scompare sul lato sinistro delle scale a sud del sito di grazia Outer Wall Battleground nel Capital Outskirts, Altus Plateau. Fare attenzione nell'avvicinarsi poiché scomparirà immediatamente; si consiglia di cadergli sopra dall'alto o colpirlo a distanza."]
       - id: "13_11"
         icon: "/img/icons/ashes_of_war/08364.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Wall\">Storm Wall</a>", "Swing the shield to create a wall of storm winds in front of you, deflecting arrows and other such physical projectiles. Can also be used in the same way as a regular parry.", "Dropped by a scarab in the small area after dropping off the bridge that bypasses Stormveil Castle. Follow the path north from the Stormhill Shack site of grace, without turning left up to the castle."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Wall\">Muro tempestoso</a>", "Oscilla lo scudo per creare un muro di venti di tempesta davanti a sé, deviando frecce e altri proiettili fisici. Può essere usata anche come una normale parata.", "Lasciato cadere da uno scarabeo nella piccola area dopo essere scesi dal ponte che aggira Stormveil Castle. Segui il percorso a nord dal sito di grazia Stormhill Shack senza girare a sinistra verso il castello."]
       - id: "13_8"
         icon: "/img/icons/ashes_of_war/08360.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Bash\">Shield Bash</a>", "Brace behind shield before using bodyweight to ram foes while maintaining guarding stance. Weaker enemies will be shoved backwards, and can even be staggered.", "Dropped by a teleporting scarab just northeast of the East Gate Bridge Trestle site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Bash\">Colpo di scudo</a>", "Riparati dietro lo scudo prima di usare il peso corporeo per speronare i nemici mantenendo la postura di guardia. I nemici più deboli verranno respinti e possono persino essere storditi.", "Lasciato cadere da uno scarabeo teletrasportante appena a nordest del sito di grazia East Gate Bridge Trestle."]
       - id: "13_9"
         icon: "/img/icons/ashes_of_war/08366.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Crash\">Shield Crash</a>", "Two-hand the shield and charge forwards while maintaining guard. Weaker enemies will be shoved backwards and can even be staggered. Hold to extend the duration of the charge forwards.", "Dropped by a disappearing scarab in the Lux Ruins, on the cliff above the Erdtree-Gazing Hill site of grace in east Altus Plateau."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Crash\">Schianto di scudo</a>", "Impugna lo scudo con entrambe le mani e carica in avanti mantenendo la guardia. I nemici più deboli verranno respinti e possono persino essere storditi. Tieni premuto per estendere la carica.", "Lasciato cadere da uno scarabeo che scompare nelle Lux Ruins, sulla scogliera sopra il sito di grazia Erdtree-Gazing Hill nell'est dell'Altopiano di Altus."]
       - id: "13_2"
         icon: "/img/icons/ashes_of_war/08361.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barricade+Shield\">Barricade Shield</a>", "Focus your energy into the shield, temporarily hardening it to deflect greater blows.", "Dropped by the Night's Cavalry on the road west of the Castle Morne Rampart site of grace in the Weeping Peninsular."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Barricade+Shield\">Scudo a barricata</a>", "Concentra la tua energia nello scudo, indurendolo temporaneamente per deviare colpi più potenti.", "Lasciato cadere dalla Cavalleria Notturna sulla strada a ovest del sito di grazia Castle Morne Rampart nella Weeping Peninsula."]
       - id: "8_9" #TODO: Magic?
         icon: "/img/icons/ashes_of_war/08368.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thops's+Barrier\">Thops's Barrier</a>", "Erect a magical forcefield while swinging the shield to deflect sorceries and incantations. Can also be used in the same way as a regular parry.", "Dropped by a scarab in the Church of Irith, only spawns after Thops leaves for the academy."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Thops's+Barrier\">Barriera di Thops</a>", "Erigi un campo di forza magico mentre oscilli lo scudo per deviare stregonerie e incantazioni. Può essere usata anche come una normale parata.", "Lasciato cadere da uno scarabeo nella Church of Irith, appare solo dopo che Thops se n'è andato per l'accademia."]
       - id: "8_3"
         icon: "/img/icons/ashes_of_war/08363.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Retaliation\">Carian Retaliation</a>", "Swing the shield to dispel incoming sorceries and incantations, transforming the magic into retaliatory glintblades. Can also be used in the same way as a regular parry.", "Sold by Pidia in Caria Manor, in Liurnia. Pidia can be found by dropping down a set of cliffs on the southeast side of Three Sisters."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Retaliation\">Rappresaglia cariana</a>", "Oscilla lo scudo per dissipare le stregonerie e le incantazioni in arrivo, trasformando la magia in lame di pietra lucente di ritorsione. Può essere usata anche come una normale parata.", "Venduto da Pidia nella Caria Manor, in Liurnia. Pidia si trova scendendo una serie di scogliere sul lato sudest delle Tre Sorelle."]
       - id: "13_5"
         icon: "/img/icons/ashes_of_war/08367.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+No+Skill\">No Skill</a>", "This armament has no skill. If the armament in the other hand has a skill, that skill will be used instead.", "Sold by Bernahl in the Warmaster's Shack in Stormhill, Limgrave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+No+Skill\">Senza abilità</a>", "Questa arma non ha abilità. Se l'arma nell'altra mano ha un'abilità, verrà usata quella.", "Venduto da Bernahl nella Baracca del Maestro di Guerra a Stormhill, Limgrave."]
       - id: "20_1"
         dlc: true
         icon: "/img/icons/ashes_of_war/08500.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Dryleaf+Whirlwind\">Dryleaf Whirlwind</a>", "This skill represents the pinnacle of Dane's footwork-based martial artistry. Rise into the air with a series of spinning kicks before crashing down with one final strike. Imbues kicking attacks with energy, increasing their range.", "From the Rauh Ancient Ruins, East site of grace, head northeast and you'll find it on an edge, besides a column and near a waterfall."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War:+Dryleaf+Whirlwind\">Vortice di Fogliaasciutta</a>", "Questa abilità rappresenta il culmine dell'arte marziale di Dane basata sul gioco di gambe. Alzati in aria con una serie di calci rotanti prima di abbattersi con un colpo finale. Imbuisce gli attacchi con i piedi di energia, aumentandone la portata.", "Dal sito di grazia Rauh Ancient Ruins, East, procedi verso nordest e troverai la Cenere su un bordo, accanto a una colonna e vicino a una cascata."]
       - id: "20_4"
         dlc: true
         icon: "/img/icons/ashes_of_war/08504.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Palm+Blast\">Palm Blast</a>", "Skill of the spiritual seekers known as the Dryleaf Sect. Imbues hand with energy before using a palm strike to unleash an explosive blast. The already formidable power and impact can be bolstered by charging the attack.", "At the Moorth Ruins Site of Grace, use the \"May The Best Win\" emote in front of the DryLeaf Dane Monk, you will then begin a battle and winning will grant you the weapon and it's Ash of War. "]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Palm+Blast\">Esplosione del palmo</a>", "Abilità dei cercatori spirituali noti come la Setta Fogliaasciutta. Imbui la mano di energia prima di usare un colpo di palmo per scatenare un'esplosione. La già notevole potenza e l'impatto possono essere potenziati caricando l'attacco.", "Al sito di grazia Moorth Ruins, usa l'emote 'May The Best Win' davanti al Monaco Dryleaf Dane; inizierà una battaglia e vincendo si otterrà l'arma e la sua Cenere di Guerra."]
       - id: "20_7"
         dlc: true
         icon: "/img/icons/ashes_of_war/08507.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Wall+of+Sparks\">Wall of Sparks</a>", "Scatter perfumed powder in vicinity, producing intense sparks after a brief delay. Can be charged to increase power and range. The properties of the sparks are determined by the perfume bottle used.", "Shadow Keep: Take the left lift down from the Storehouse, first-floor site of grace. take the first exit to the right, and then the first one to the left. You will find this item on a corpse sitting on the rails."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Wall+of+Sparks\">Muro di scintille</a>", "Sparge polvere profumata nelle vicinanze, producendo intense scintille dopo un breve ritardo. Può essere caricata per aumentare potenza e portata. Le proprietà delle scintille sono determinate dalla bottiglia di profumo usata.", "Shadow Keep: Prendi il montacarichi a sinistra scendendo dal sito di grazia Storehouse, first-floor. Prendi la prima uscita a destra, poi la prima a sinistra. Troverai questo oggetto su un cadavere seduto sui binari."]
       - id: "20_8"
         dlc: true
         icon: "/img/icons/ashes_of_war/08508.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Rolling+Sparks\">Rolling Sparks</a>", "Scatter perfumed powder before you, triggering rolling explosions of deadly sparks. The properties of the sparks are determined by the perfume bottle used.", "This can be looted from a flying scarab on the eastern side of the large camp south of Shadow Keep. Ascend the hill past some perfumers and you'll find it at the top in the air above."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Rolling+Sparks\">Scintille rotolanti</a>", "Sparge polvere profumata davanti a sé, scatenando esplosioni di scintille letali. Le proprietà delle scintille sono determinate dalla bottiglia di profumo usata.", "Può essere saccheggiato da uno scarabeo volante sul lato orientale del grande accampamento a sud di Shadow Keep. Sali la collina oltre alcuni profumieri e lo troverai in cima nell'aria."]
       - id: "20_24"
         dlc: true
         icon: "/img/icons/ashes_of_war/08523.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Igon's+Drake+Hunt\">Igon's Drake Hunt</a>", "Skill of Igon, drake warrior. Ready the bow before unleashing a twisted shot with a great bellow that considerably enhances its power.", "Can be found by summoning Igon and then defeating Bayle The Dread, this will cause Igon to die at his previous location, just south-east of Foot of the Jagged Peak [Map Link] his body will have both Igon's Greatbow and Igon's set."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Igon's+Drake+Hunt\">Caccia al drago di Igon</a>", "Abilità di Igon, guerriero dei draghi. Prepara l'arco prima di scatenare un tiro contorto con un gran ruggito che ne aumenta considerevolmente la potenza.", "Si trova evocando Igon e poi sconfiggendo Bayle il Terribile; questo causerà la morte di Igon nella sua posizione precedente, appena a sudest del Foot of the Jagged Peak; il suo corpo avrà sia l'Igon's Greatbow che il suo set."]
       - id: "20_25"
         dlc: true
         icon: "/img/icons/ashes_of_war/08524.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Shield+Strike\">Shield Strike</a>", "A skill that uses the shield to attack. Repeated inputs allow for up to three follow-up attacks.", "Found pre-equipped on Dueling Shield looted from a corpse in Shadow Keep."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ash+of+War+Shield+Strike\">Coup da scudo</a>", "Un'abilità che usa lo scudo per attaccare. Input ripetuti consentono fino a tre attacchi di follow-up.", "Trovato pre-equipaggiato sullo Dueling Shield saccheggiato da un cadavere in Shadow Keep."]
   -
     title: "Misc."
+    title_it: "Varie"
     table: ["Name", "Description"]
+    table_it: ["Nome", "Descrizione"]
     items:
       - id: "14_1"
         icon: "/img/icons/keys/03223.png"
         data: ["Lost Ashes of War", "Ashes of war, devoid of any memories of battle. Unable to apply any kind of affinity in their current state, but can be used by Smithing Master Hewg of the Roundtable Hold to recreate other ashes."]
+        data_it: ["Ceneri di guerra perdute", "Ceneri di guerra prive di qualsiasi ricordo di battaglia. Non è possibile applicare alcun tipo di affinità nel loro stato attuale, ma possono essere usate da Hewg, Maestro Fabbro della Tavola Rotonda, per ricreare altre ceneri."]
+      - id: "14_2"
+        dlc: true
+        icon: "/img/icons/keys/03223.png"
+        data: ["Lost ashes of war of the shattering divines", "Resti divini frantumati, che custodiscono ricordi del passato. Privi di proprietà in questo stato, ma possono essere offerti al Maestro Fabbro Hewg della Tavola Rotonda per ricreare la forma che avevano un tempo."]
+        data_it: ["Ceneri di guerra perdute delle divinità in sfacelo", "Resti divini frantumati, che custodiscono ricordi del passato. Privi di proprietà in questo stato, ma possono essere offerti al Maestro Fabbro Hewg della Tavola Rotonda per ricreare la forma che avevano un tempo."]

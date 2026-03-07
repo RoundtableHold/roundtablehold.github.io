@@ -1,76 +1,177 @@
 title: Scrolls and Prayerbooks
 id: scrolls_prayerbooks
-icon: "/img/icons/keys/edited/00318.png"
+icon: /img/icons/keys/edited/00318.png
 sections:
-  -
-    title: Scrolls
+  - title: Scrolls
+    title_it: Pergamene
     items:
-      - id: "0_1"
-        icon: "/img/icons/keys/edited/00311.png"
-        map_icon: "/map/icons/shadows/keys/00311.png"
-        data: ["Royal House Scroll - East of the Agheel Lake South Site of Grace, on a ruin, next to a mage enemy."]
-        cords: [4311, 7517]
-        map_title: "Royal House Scroll"
-      - id: "0_2"
-        icon: "/img/icons/keys/edited/00310.png"
-        map_icon: "/map/icons/shadows/keys/00310.png"
-        data: ["Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard."]
-        cords: [2836, 6351]
-        map_title: "Academy Scroll"
-      - id: "0_3"
-        icon: "/img/icons/keys/edited/00310.png"
-        map_icon: "/map/icons/shadows/keys/00310.png"
-        data: ["Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya Lucaria; turn left as you leave the grace room headed into the building."]
-        cords: [1969, 4997]
-        map_title: "Conspectus Scroll"
-  -
-    title: Prayerbooks
+      - id: '0_1'
+        icon: /img/icons/keys/edited/00311.png
+        map_icon: /map/icons/shadows/keys/00311.png
+        data:
+          - Royal House Scroll - East of the Agheel Lake South Site of Grace, on a
+            ruin, next to a mage enemy.
+        data_it:
+          - Pergamena della Casa reale - A est del Luogo di Grazia Sud del lago di
+            Agheel, su una rovina, accanto a un nemico mago.
+        cords:
+          - 4311
+          - 7517
+        map_title: Royal House Scroll
+        map_title_it: Pergamena della Casa Reale
+      - id: '0_2'
+        icon: /img/icons/keys/edited/00310.png
+        map_icon: /map/icons/shadows/keys/00310.png
+        data:
+          - Academy Scroll - West of the Lake-Facing Cliffs Site of Grace, in a graveyard.
+        data_it:
+          - Pergamena dell'Accademia - A ovest del Luogo di Grazia Dirupo sul lago,
+            in un cimitero.
+        cords:
+          - 2836
+          - 6351
+        map_title: Academy Scroll
+        map_title_it: Pergamena dell'Accademia
+      - id: '0_3'
+        icon: /img/icons/keys/edited/00310.png
+        map_icon: /map/icons/shadows/keys/00310.png
+        data:
+          - Conspectus Scroll - Near the Schoolhouse Classroom Site of Grace in Raya
+            Lucaria; turn left as you leave the grace room headed into the building.
+        data_it:
+          - Pergamena del Conspectus - Vicino al Luogo di Grazia Aula scolastica di
+            Raya Lucaria; girati a sinistra appena uscito dalla stanza per entrare
+            nell'edificio.
+        cords:
+          - 1969
+          - 4997
+        map_title: Conspectus Scroll
+        map_title_it: Pergamena del Conspectus
+  - title: Prayerbooks
+    title_it: Libri di preghiere
     items:
-      - id: "1_1"
-        icon: "/img/icons/keys/edited/00319.png"
-        map_icon: "/map/icons/shadows/keys/00319.png"
-        data: ["Assassin's Prayerbook - Behind an Imp Statue door that's behind another Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total."]
-        cords: [710, 8415]
-        map_title: "Assassin's Prayerbook"
-      - id: "1_2"
-        icon: "/img/icons/keys/edited/00317.png"
-        map_icon: "/map/icons/shadows/keys/00317.png"
-        data: ["Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From the Liftside Chamber Site of Grace, exit into the courtyard and hug the right wall until you find a set of stairs going down on the wall on the other side."]
-        cords: [3126, 6731]
-        map_title: "Godskin Prayerbook"
-      - id: "1_3"
-        icon: "/img/icons/keys/edited/00315.png"
-        map_icon: "/map/icons/shadows/keys/00315.png"
-        data: ["Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia, near the Fire Spur Me gesture."]
-        cords: [2229, 5961]
-        map_title: "Fire Monks' Prayerbook"
-      - id: "1_4"
-        icon: "/img/icons/keys/edited/00324.png"
-        map_icon: "/map/icons/shadows/keys/00324.png"
-        data: ["Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of the Artist's Shack Site of Grace in Liurnia."]
-        cords: [2797, 5200]
-        map_title: "Dragon Cult Prayerbook"
-      - id: "1_5"
-        icon: "/img/icons/keys/edited/00318.png"
-        map_icon: "/map/icons/shadows/keys/00318.png"
-        data: ["Two Fingers' Prayerbook - In Leyndell, near the Fortified Manor, First Floor Site of Grace, in a room to the south, by a fireplace. Same room as the By My Sword gesture."]
-        cords: [4228, 3627]
-        map_title: "Two Fingers' Prayerbook"
-      - id: "1_8"
-        icon: "/img/icons/keys/edited/00322.png"
-        map_icon: "/map/icons/shadows/keys/00322.png"
-        data: ["Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site of Grace, exit east and climb up to the second floor. Go through the door, jump down to the roof on the left, and go through the broken window. Climb a root to the chair hanging from the ceiling."]
-        cords: [4365, 3698]
-        map_title: "Golden Order Principia"
-      - id: "1_6"
-        icon: "/img/icons/keys/edited/00316.png"
-        map_icon: "/map/icons/shadows/keys/00316.png"
-        data: ["Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's Garrison, up a ladder behind Chief Guardian Arghanthy."]
-        cords: [6209, 2420]
-        map_title: "Giant's Prayerbook"
-      - id: "1_7"
-        icon: "/img/icons/keys/edited/00325.png"
-        map_icon: "/map/icons/shadows/keys/00325.png"
-        data: ["Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace in Crumbling Farum Azula, in the middle of the main hall."]
-        cords: [8363, 4583]
-        map_title: "Ancient Dragon Prayerbook"
+      - id: '1_1'
+        icon: /img/icons/keys/edited/00319.png
+        map_icon: /map/icons/shadows/keys/00319.png
+        data:
+          - Assassin's Prayerbook - Behind an Imp Statue door that's behind another
+            Imp Statue door in Roundtable Hold. Requires 3 Stonesword Keys total.
+        data_it:
+          - Libro di preghiere dell'assassino - Dietro una porta della Statua del
+            Folletto che si trova dietro ad un'altra porta della stessa statua nella
+            Tavola Rotonda. Richiede 3 Chiavi della Spada di Pietra in totale.
+        cords:
+          - 710
+          - 8415
+        map_title: Assassin's Prayerbook
+        map_title_it: Libro di preghiere dell'assassino
+      - id: '1_2'
+        icon: /img/icons/keys/edited/00317.png
+        map_icon: /map/icons/shadows/keys/00317.png
+        data:
+          - Godskin Prayerbook - Behind an Imp Statue door in Stormveil Castle. From
+            the Liftside Chamber Site of Grace, exit into the courtyard and hug the
+            right wall until you find a set of stairs going down on the wall on the
+            other side.
+        data_it:
+          - Libro di preghiere dei Sacriderma - Dietro una porta della Statua del
+            Folletto nel Castello di Gran Tempesta. Dal Luogo di Grazia Stanza del
+            montacarichi, esci nel cortile e prosegui accostato al muro destro finché
+            non trovi delle scale che scendono dall'altra parte del muro.
+        cords:
+          - 3126
+          - 6731
+        map_title: Godskin Prayerbook
+        map_title_it: Libro di preghiere dei Sacriderma
+      - id: '1_3'
+        icon: /img/icons/keys/edited/00315.png
+        map_icon: /map/icons/shadows/keys/00315.png
+        data:
+          - Fire Monks' Prayerbook - In a Fire Monk camp in the southern edge of Liurnia,
+            near the Fire Spur Me gesture.
+        data_it:
+          - Libro di preghiere dei monaci del fuoco - In un accampamento di monaci
+            del fuoco al limite sud di Liurnia, vicino al Gesto 'Incitami, o fiamma!'.
+        cords:
+          - 2229
+          - 5961
+        map_title: Fire Monks' Prayerbook
+        map_title_it: Libro di preghiere dei monaci del fuoco
+      - id: '1_4'
+        icon: /img/icons/keys/edited/00324.png
+        map_icon: /map/icons/shadows/keys/00324.png
+        data:
+          - Dragon Cult Prayerbook - Kill the Leyndell Knight patrolling south of
+            the Artist's Shack Site of Grace in Liurnia.
+        data_it:
+          - Libro di preghiere del Culto draconico - Uccidi il Cavaliere di Leyndell
+            di pattuglia a sud del Luogo di Grazia Capanna dell'artista a Liurnia.
+        cords:
+          - 2797
+          - 5200
+        map_title: Dragon Cult Prayerbook
+        map_title_it: Libro di preghiere del Culto draconico
+      - id: '1_5'
+        icon: /img/icons/keys/edited/00318.png
+        map_icon: /map/icons/shadows/keys/00318.png
+        data:
+          - Two Fingers' Prayerbook - In Leyndell, near the Fortified Manor, First
+            Floor Site of Grace, in a room to the south, by a fireplace. Same room
+            as the By My Sword gesture.
+        data_it:
+          - Libro di preghiere delle Due Dita - A Leyndell, vicino al Luogo di Grazia
+            Maniero fortificato - primo piano, in una stanza a sud, presso a un caminetto.
+            Nella stessa stanza del Gesto 'Per la mia spada'.
+        cords:
+          - 4228
+          - 3627
+        map_title: Two Fingers' Prayerbook
+        map_title_it: Libro di preghiere delle Due Dita
+      - id: '1_8'
+        icon: /img/icons/keys/edited/00322.png
+        map_icon: /map/icons/shadows/keys/00322.png
+        data:
+          - Golden Order Principia - In Leyndell, from the Erdtree Sanctuary Site
+            of Grace, exit east and climb up to the second floor. Go through the door,
+            jump down to the roof on the left, and go through the broken window. Climb
+            a root to the chair hanging from the ceiling.
+        data_it:
+          - Principi dell'Ordine Aureo - A Leyndell, dal Luogo di Grazia Santuario
+            dell'Albero Madre, esci ad est e sali al secondo piano. Passa dalla porta,
+            salta giù sul tetto a sinistra e passa dalla finestra rotta. Arrampicati
+            su una radice fino alla sedia sospesa in aria al centro della stanza.
+        cords:
+          - 4365
+          - 3698
+        map_title: Golden Order Principia
+        map_title_it: Principi dell'Ordine Aureo
+      - id: '1_6'
+        icon: /img/icons/keys/edited/00316.png
+        map_icon: /map/icons/shadows/keys/00316.png
+        data:
+          - Giant's Prayerbook - In Mountaintops of the Giants, at the top of Guardian's
+            Garrison, up a ladder behind Chief Guardian Arghanthy.
+        data_it:
+          - Libro di preghiere del gigante - Sulle Vette dei Giganti, in cima alla
+            Guarnigione dei Guardiani, su una scala a pioli dietro al Capo dei Guardiani
+            Arghanthy.
+        cords:
+          - 6209
+          - 2420
+        map_title: Giant's Prayerbook
+        map_title_it: Libro di preghiere del gigante
+      - id: '1_7'
+        icon: /img/icons/keys/edited/00325.png
+        map_icon: /map/icons/shadows/keys/00325.png
+        data:
+          - Ancient Dragon Prayerbook - Northwest of the Crumbling Beast Site of Grace
+            in Crumbling Farum Azula, in the middle of the main hall.
+        data_it:
+          - Libro di preghiere dei draghi antichi - A ovest dal Luogo di Grazia Tomba
+            della belva in rovina di Farum Azula in rovina, al centro del salone principale.
+        cords:
+          - 8363
+          - 4583
+        map_title: Ancient Dragon Prayerbook
+        map_title_it: Libro di preghiere dei draghi antichi
+title_it: Pergamene e Libri di preghiere

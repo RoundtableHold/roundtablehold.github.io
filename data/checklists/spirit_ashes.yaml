@@ -1,320 +1,439 @@
 title: Spirit Ashes
+title_it: "Ceneri spiritiche"
 id: spirit_ashes
 table_widths: [4, 8]
 sections:
   -
     title: "Limgrave"
+    title_it: "Sepolcride"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "2_1"
         icon: "/img/icons/spirit_ashes/00472.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes\">Banished Knight Engvall Ashes</a>", "Dropped by the Grave Warden Duelist boss in Murkwater Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes\">Ceneri del cavaliere esiliato Engvall</a>", "Lasciate cadere dal boss Duellante guardiano delle tombe nelle Catacombe di Acquacupa."]
       - id: "2_2"
         icon: "/img/icons/spirit_ashes/00471.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Oleg+Ashes\">Banished Knight Oleg Ashes</a>", "Dropped by the Ulcerated Tree Spirit boss in Fringefolk Hero's Grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Banished+Knight+Oleg+Ashes\">Ceneri del cavaliere esiliato Oleg</a>", "Lasciate cadere dal boss Spirito arboreo ulcerato nella Tomba dell'eroe di Fringefolk."]
       - id: "2_3"
         icon: "/img/icons/spirit_ashes/00457.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Ashes\">Godrick Soldier Ashes</a>", "Found in a cemetery filled with Spirit Jellyfish at the west end of Stormhill."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Godrick+Soldier+Ashes\">Ceneri di soldato di Godrick</a>", "Trovate in un cimitero pieno di Meduse spiritiche all'estremità ovest di Colle Tempesta."]
       - id: "2_4"
         icon: "/img/icons/spirit_ashes/00104.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lone+Wolf+Ashes\">Lone Wolf Ashes</a>", "Given by Renna at the Church of Elleh after aquiring Torrent from Melina."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Lone+Wolf+Ashes\">Ceneri di lupo solitario</a>", "Consegnate da Renna alla Chiesa di Elleh dopo aver ottenuto Torrente da Melina."]
       - id: "2_5"
         icon: "/img/icons/spirit_ashes/00107.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble+Sorcerer+Ashes\">Noble Sorcerer Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Stormfoot Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Noble+Sorcerer+Ashes\">Ceneri di nobile stregone</a>", "Lasciate cadere dal boss Cerbero sepolcrale dell'Albero Madre nelle Catacombe di Passo Tempesta."]
       - id: "2_6"
         icon: "/img/icons/spirit_ashes/00102.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Militiaman+Ashes\">Skeletal Militiaman Ashes</a>", "Dropped by the Tibia Mariner field boss at Summonwater Village."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Militiaman+Ashes\">Ceneri di miliziano scheletrico</a>", "Lasciate cadere dal boss sul campo Marinaio Tibiale al Villaggio Idrocanto."]
       - id: "2_7"
         icon: "/img/icons/spirit_ashes/00111.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Jellyfish+Ashes\">Spirit Jellyfish Ashes</a>", "Given by Roderika in Stormhill Shack after talking to her several times."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Spirit+Jellyfish+Ashes\">Ceneri di medusa spiritica</a>", "Consegnate da Roderika alla Capanna di Colle Tempesta dopo averle parlato diverse volte."]
       - id: "2_8"
         icon: "/img/icons/spirit_ashes/00470.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Deenh\">Stormhawk Deenh</a>", "Found in a chest above the main hall of the Chapel of Anticipation, after returning there via The Four Belfries."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Stormhawk+Deenh\">Deenh il Falco tempesta</a>", "Trovato in un forziere sopra il salone principale della Cappella dell'Attesa, dopo esserci tornati tramite I Quattro Campanili."]
       - id: "2_9"
         icon: "/img/icons/spirit_ashes/00106.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Wandering+Noble+Ashes\">Wandering Noble Ashes</a>", "Found on a corpse resting against a coffin, up a ladder and guarded by some Jade Goblins in the Stormfoot Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Wandering+Noble+Ashes\">Ceneri di nobili erranti</a>", "Trovate su un cadavere appoggiato a una bara, su per una scala a pioli e sorvegliato da alcuni Goblin di giada nelle Catacombe di Passo Tempesta."]
   -
     title: "Weeping Peninsula"
+    title_it: "Penisola del Pianto"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "1_1"
         icon: "/img/icons/spirit_ashes/00454.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Demi-Human Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Ashes\">Ceneri di semiumano</a>", "Lasciate cadere dal boss Cerbero sepolcrale dell'Albero Madre nelle Catacombe dell'Impalatore."]
       - id: "1_2"
         icon: "/img/icons/spirit_ashes/00475.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Lhutel+the+Headless\">Lhutel the Headless</a>", "Dropped by the Cemetery Shade boss in the Tombsward Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Lhutel+the+Headless\">Lhutel la Senzatesta</a>", "Lasciata cadere dal boss Ombra cimiteriale nelle Catacombe di Palude Tonba."]
       - id: "1_3"
         icon: "/img/icons/spirit_ashes/00456.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Warhawk Ashes</a>", "Dropped by the spirit artist at the northern tip of Weeping Peninsula, north of the Church of Pilgrimage. Requires the Prophecy Painting found in Stormveil Castle."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Warhawk+Ashes\">Ceneri di falco da guerra</a>", "Lasciate cadere dallo spirito pittore sulla punta settentrionale della Penisola del Pianto, a nord della Chiesa del Pellegrinaggio. Richiede il dipinto \"Profezia\" trovato nel Castello di Gran Tempesta."]
   -
     title: Liurnia of the Lakes
+    title_it: "Liurnia lacustre"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "3_1"
         icon: "/img/icons/spirit_ashes/00121.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Ashes\">Albinauric Ashes</a>", "Found on a corpse in the graveyard area east of Caria Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Albinauric+Ashes\">Ceneri di Albinaurico</a>", "Trovate su un cadavere nell'area del cimitero a est del Maniero Cariano."]
       - id: "3_2"
         icon: "/img/icons/spirit_ashes/00134.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Avionette+Soldier+Ashes\">Avionette Soldier Ashes</a>", "Found on a corpse in Raya Lucaria Academy, down the rotating lift on the ledge before reaching the bottom."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Avionette+Soldier+Ashes\">Ceneri di soldato avio</a>", "Trovate su un cadavere nell'Accademia di Raya Lucaria, scendendo col montacarichi rotante sulla sporgenza prima di raggiungere il fondo."]
       - id: "3_3"
         icon: "/img/icons/spirit_ashes/00113.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Tiche+Ashes\">Black Knife Tiche Ashes</a>", "Dropped by Alecto, Black Knife Ringleader in the Ringleader's Evergaol."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knife+Tiche+Ashes\">Tiche dei Neri Coltelli</a>", "Lasciate cadere da Alecto, capobanda dei Neri Coltelli nella Galera eterna del capobanda."]
       - id: "3_4"
         icon: "/img/icons/spirit_ashes/00484.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dolores+the+Sleeping+Arrow+Puppet\">Dolores the Sleeping Arrow Puppet</a>", "First sold by Preceptor Seluvis in Seluvis's Rise, then later can be found on the body of Pidia in Caria Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Dolores+the+Sleeping+Arrow+Puppet\">Marionetta di Dolores, freccia soporifera</a>", "Inizialmente venduta dal Precettore Seluvis nella Guglia di Seluvis, in seguito si trova sul corpo di Pidia nel Maniero Cariano."]
       - id: "3_5"
         icon: "/img/icons/spirit_ashes/00482.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Dung+Eater+Puppet\">Dung Eater Puppet</a>", "Sold by Preceptor Seluvis in Seluvis's Rise after using Seluvis's Potion on the Dung Eater."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Dung+Eater+Puppet\">Marionetta del Mangiasterco</a>", "Venduta dal Precettore Seluvis nella Guglia di Seluvis dopo aver usato la Pozione di Seluvis sul Mangiasterco."]
       - id: "3_6"
         icon: "/img/icons/spirit_ashes/00476.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fanged+Imp+Ashes\">Fanged Imp Ashes</a>", "Can be selected as a Keepsake; otherwise, sold by the Isolated Merchant east of the Main Academy Gate site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Fanged+Imp+Ashes\">Ceneri di demone zannuto</a>", "Selezionabili come Rimembranza; in alternativa, vendute dal Mercante solitario a est del luogo di grazia Cancello principale dell'Accademia."]
       - id: "3_7"
         icon: "/img/icons/spirit_ashes/00483.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Therolina+Puppet\">Finger Maiden Therolina Puppet</a>", "Sold by Preceptor Seluvis's body in Seluvis's Rise after completing Ranni's questline."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Finger+Maiden+Therolina+Puppet\">Marionetta della Vergine delle Dita Therolina</a>", "Venduta dal corpo del Precettore Seluvis nella Guglia di Seluvis dopo aver completato la missione di Ranni."]
       - id: "3_8"
         icon: "/img/icons/spirit_ashes/00126.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Sorcerer+Ashes\">Glintstone Sorcerer Ashes</a>", "Dropped by the Spirit-Caller Snail boss in the Road's End Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Glintstone+Sorcerer+Ashes\">Ceneri di stregone di scintipietra</a>", "Lasciate cadere dal boss Lumaca evocatrice di spiriti nelle Catacombe di Fine della Strada."]
       - id: "3_9"
         icon: "/img/icons/spirit_ashes/00485.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jarwight+Puppet\">Jarwight Puppet</a>", "Sold by Preceptor Seluvis's body in Seluvis's Rise after completing Ranni's questline."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Jarwight+Puppet\">Marionetta di vaso vivente</a>", "Venduta dal corpo del Precettore Seluvis nella Guglia di Seluvis dopo aver completato la missione di Ranni."]
       - id: "3_10"
         icon: "/img/icons/spirit_ashes/00452.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Sellsword+Ashes\">Kaiden Sellsword Ashes</a>", "Dropped by the Erdtree Burial Watchdog boss in the Impaler's Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Kaiden+Sellsword+Ashes\">Ceneri di mercenario di Kaiden</a>", "Lasciate cadere dal boss Cerbero sepolcrale dell'Albero Madre nelle Catacombe dell'Impalatore."]
       - id: "3_11"
         icon: "/img/icons/spirit_ashes/00477.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+Squirt+Ashes\">Land Squirt Ashes</a>", "Found at a grave surrounded by land squirts on the east shore of the lake, north of the Gate Town Bridge site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Land+Squirt+Ashes\">Ceneri di spruzzaterra</a>", "Trovate presso una tomba circondata da spruzzaterra sulla riva est del lago, a nord del luogo di grazia Ponte del borgo della porta."]
       - id: "3_12"
         icon: "/img/icons/spirit_ashes/00115.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Latenna+the+Albinauric\">Latenna the Albinauric</a>", "Found at the Slumbering Wolf's Shack, out the end of Lakeside Crystal Cave. You must possess the Haligtree Secret Medallion (Right) for her to join you."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Latenna+the+Albinauric\">Latenna l'Albinaurica</a>", "Si trova nella Capanna del lupo dormiente, alla fine della Caverna di cristallo sul lago. Devi possedere il Ciondolo segreto del Sacro Albero (destro) affinché si unisca a te."]
       - id: "3_13"
         icon: "/img/icons/spirit_ashes/00133.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Ashes\">Marionette Soldier Ashes</a>", "Found on a corpse hanging off the edge of the lower path past the bridge in the graveyard in Raya Lucaria Academy."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Marionette+Soldier+Ashes\">Ceneri di soldato marionetta</a>", "Trovate su un cadavere che pende dal bordo del sentiero inferiore dopo il ponte nel cimitero dell'Accademia di Raya Lucaria."]
       - id: "3_14"
         icon: "/img/icons/spirit_ashes/00481.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux+Puppet\">Nepheli Loux Puppet</a>", "First sold by Preceptor Seluvis in Seluvis's Rise after using Seluvis's Potion on Nepheli Loux, then later can be found on the body of Pidia in Caria Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Nepheli+Loux+Puppet\">Marionetta di Nepheli Loux</a>", "Inizialmente venduta dal Precettore Seluvis nella Guglia di Seluvis dopo aver usato la Pozione di Seluvis su Nepheli Loux, in seguito si trova sul corpo di Pidia nel Maniero Cariano."]
       - id: "3_15"
         icon: "/img/icons/spirit_ashes/00128.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Ashes\">Page Ashes</a>", "Found on a tomb being watched over by an Ogre in the final room of the Cliffbottom Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Page+Ashes\">Ceneri di paggio</a>", "Trovate su una tomba sorvegliata da un Ogre nella stanza finale delle Catacombe in fondo al dirupo."]
       - id: "3_16"
         icon: "/img/icons/spirit_ashes/00458.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucaria+Soldier+Ashes\">Raya Lucaria Soldier Ashes</a>", "Found behind an illusory wall at the end of the Road's End Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Raya+Lucaria+Soldier+Ashes\">Ceneri di soldato di Raya Lucaria</a>", "Trovate dietro un muro illusorio alla fine delle Catacombe di Fine della Strada."]
       - id: "3_17"
         icon: "/img/icons/spirit_ashes/00103.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Bandit+Ashes\">Skeletal Bandit Ashes</a>", "Dropped by the Tibia Mariner field boss, south of the Carian Study Hall."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Skeletal+Bandit+Ashes\">Ceneri di bandito scheletrico</a>", "Lasciate cadere dal boss sul campo Marinaio Tibiale, a sud dell'Aula di studio cariana."]
       - id: "3_18"
         icon: "/img/icons/spirit_ashes/00127.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Sorcerer+Ashes\">Twinsage Sorcerer Ashes</a>", "Dropped by the Cemetery Shade boss in the Black Knife Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Twinsage+Sorcerer+Ashes\">Ceneri di stregone Biceps</a>", "Lasciate cadere dal boss Ombra cimiteriale nelle Catacombe dei Neri Coltelli."]
   -
     title: Caelid
+    title_it: "Caelid"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "4_1"
         icon: "/img/icons/spirit_ashes/00129.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Hugues+Ashes\">Battlemage Hugues Ashes</a>", "Dropped by Battlemage Hugues in the Sellia Evergaol."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Battlemage+Hugues+Ashes\">Ceneri del mago della battaglia Hugues</a>", "Lasciate cadere dal Mago della battaglia Hugues nella Galera eterna di Sellia."]
       - id: "4_2"
         icon: "/img/icons/spirit_ashes/00118.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystalian+Ashes\">Crystalian Ashes</a>", "Found in a chest found by climbing the purple crystals in the Sellia Hideaway, guarded by Glintstone Sorcerers."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Crystalian+Ashes\">Ceneri di Cristalliano</a>", "Trovate in un forziere a cui si accede arrampicandosi sui cristalli viola nel Nascondiglio di Sellia, sorvegliate da Stregoni di scintipietra."]
       - id: "4_3"
         icon: "/img/icons/spirit_ashes/00132.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Kindred+of+Rot+Ashes\">Kindred of Rot Ashes</a>", "Dropped by the Cemetery Shade boss in the Caelid Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Kindred+of+Rot+Ashes\">Ceneri di Seme della marcescenza</a>", "Lasciate cadere dal boss Ombra cimiteriale nelle Catacombe di Caelid."]
       - id: "4_4"
         icon: "/img/icons/spirit_ashes/00463.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head+Ashes\">Mad Pumpkin Head Ashes</a>", "Dropped by the Erdtree Burial Watchdog (Duo) bosses in the Minor Erdtree Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head+Ashes\">Ceneri di testa di zucca impazzita</a>", "Lasciate cadere dai boss Cerbero sepolcrale dell'Albero Madre (Duo) nelle Catacombe del Piccolo Albero Madre."]
       - id: "4_5"
         icon: "/img/icons/spirit_ashes/00464.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Miranda+Sprout+Ashes\">Miranda Sprout Ashes</a>", "Found behind an illusory wall beneath the stairs in the first open room of the Caelid Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Miranda+Sprout+Ashes\">Ceneri di germoglio di Miranda</a>", "Trovate dietro un muro illusorio sotto le scale nella prima stanza aperta delle Catacombe di Caelid."]
       - id: "4_6"
         icon: "/img/icons/spirit_ashes/00123.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Putrid+Corpse+Ashes\">Putrid Corpse Ashes</a>", "Dropped by the Frenzied Duelist boss in Gaol Cave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Putrid+Corpse+Ashes\">Ceneri di cadavere putrescente</a>", "Lasciate cadere dal boss Duellante frenetico nella Caverna della galera."]
       - id: "4_7"
         icon: "/img/icons/spirit_ashes/00459.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Ashes\">Radahn Soldier Ashes</a>", "Found at the end of the halls through the upper right of the first room and out a window of the War-Dead Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Radahn+Soldier+Ashes\">Ceneri di soldato di Radahn</a>", "Trovate alla fine dei corridoi attraversando la parte in alto a destra della prima stanza e uscendo da una finestra delle Catacombe dei caduti in guerra."]
       - id: "4_8"
         icon: "/img/icons/spirit_ashes/00473.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha+Ashes\">Redmane Knight Ogha Ashes</a>", "Dropped by the Putrid Tree Spirit boss in the War-Dead Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha+Ashes\">Ceneri del cavaliere Criniera Rossa Ogha</a>", "Lasciate cadere dal boss Spirito arboreo putrescente nelle Catacombe dei caduti in guerra."]
       - id: "4_9"
         icon: "/img/icons/spirit_ashes/00455.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Stray+Ashes\">Rotten Stray Ashes</a>", "Found inside the broken ruins of a building near the swamp's edge, west of the town of Sellia and north of the Sellia Under-Stair site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Rotten+Stray+Ashes\">Ceneri di randagio putrescente</a>", "Trovate all'interno delle rovine spezzate di un edificio vicino al bordo della palude, a ovest della città di Sellia e a nord del luogo di grazia Sottoscala di Sellia."]
   -
     title: Altus Plateau
+    title_it: "Altopiano di Altus"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "5_1"
         icon: "/img/icons/spirit_ashes/00453.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant+Rat+Ashes\">Giant Rat Ashes</a>", "Found in the middle of a stable filled with rats in West Windmill Pasture."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Giant+Rat+Ashes\">Ceneri di ratto gigante</a>", "Trovate al centro di una stalla piena di ratti nel Pascolo del mulino occidentale."]
       - id: "5_2"
         icon: "/img/icons/spirit_ashes/00460.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Ashes\">Leyndell Soldier Ashes</a>", "Found on a corpse by making your way back up after the floor collapses in Sainted Hero's Grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Ashes\">Ceneri di soldato di Leyndell</a>", "Trovate su un cadavere risalendo dopo il crollo del pavimento nella Tomba dell'eroe santificato."]
       - id: "5_3"
         icon: "/img/icons/spirit_ashes/00120.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Winged+Misbegotten+Ashes\">Winged Misbegotten Ashes</a>", "Found on a corpse in a pit surrounded by Misbegotten, near the end of the Unsightly Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Winged+Misbegotten+Ashes\">Ceneri di Progenie alata</a>", "Trovate su un cadavere in una fossa circondata da Progenie, vicino alla fine delle Catacombe sgradevoli."]
       - id: "7_1"
         icon: "/img/icons/spirit_ashes/00474.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes\">Ancient Dragon Knight Kristoff Ashes</a>", "Dropped by the Ancient Hero of Zamor boss in Sainted Hero's Grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes\">Ceneri del cavaliere del drago antico Kristoff</a>", "Lasciate cadere dal boss Antico Eroe di Zamor nella Tomba dell'eroe santificato."]
   -
     title: Mt. Gelmir
+    title_it: "Monte Gelmir"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "6_1"
         icon: "/img/icons/spirit_ashes/00112.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Floh\">Bloodhound Knight Floh</a>", "Found in the chest after the boss in Gelmir Hero's Grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Floh\">Floh, cavaliere limiere</a>", "Trovato nel forziere dopo il boss nella Tomba dell'eroe di Gelmir."]
       - id: "6_2"
         icon: "/img/icons/spirit_ashes/00124.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Carmaan+Ashes\">Depraved Perfumer Carmaan Ashes</a>", "Found on a corpse through the halls behind the illusory wall in Volcano Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Carmaan+Ashes\">Ceneri del profumiere depravato Carmaan</a>", "Trovate su un cadavere attraversando i corridoi dietro il muro illusorio a Villa Vulcano."]
       - id: "6_3"
         icon: "/img/icons/spirit_ashes/00137.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Serpent+Ashes\">Man-Serpent Ashes</a>", "Found on an altar surrounded by enemies in a multi-level room toward the end of Volcano Manor."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Serpent+Ashes\">Ceneri di uomo serpente</a>", "Trovate su un altare circondato da nemici in una stanza a più livelli verso la fine di Villa Vulcano."]
       - id: "6_4"
         icon: "/img/icons/spirit_ashes/00125.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Tricia+Ashes\">Perfumer Tricia Ashes</a>", "Dropped by the Perfumer Tricia and Misbegotten Warrior bosses in the Unsightly Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Perfumer+Tricia+Ashes\">Ceneri della profumiera Tricia</a>", "Lasciate cadere dai boss Profumiera Tricia e Guerriero scaglioso nelle Catacombe sgradevoli."]
   -
     title: Leyndell, Eternal City
+    title_it: "Leyndell, Capitale Reale"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "7_2"
         icon: "/img/icons/spirit_ashes/00116.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nomad+Ashes\">Nomad Ashes</a>", "Found on a corpse hanging off a ledge deep in the Subterranean Shunning-Grounds."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Nomad+Ashes\">Ceneri di nomade</a>", "Trovate su un cadavere che pende da una sporgenza nelle profondità dei Sotterranei dei Reietti."]
       - id: "7_3"
         icon: "/img/icons/spirit_ashes/00466.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Rollo\">Omenkiller Rollo</a>", "Dropped by the Fell Twins bosses on the bridge to the Divine Tower of Altus, east of the city."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Omenkiller+Rollo\">Rollo, l'ammazzapresagi</a>", "Lasciato cadere dai boss Gemelli caduti sul ponte verso la Torre divina di Altus, a est della città."]
       - id: "7_4"
         icon: "/img/icons/spirit_ashes/00465.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Soldjars+of+Fortune+Ashes\">Soldjars of Fortune Ashes</a>", "Dropped by the Grave Warden Duelist boss in Auriza Side Tomb."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Soldjars+of+Fortune+Ashes\">Ceneri di vasoidati di ventura</a>", "Lasciate cadere dal boss Duellante guardiano delle tombe nella Tomba laterale di Auriza."]
       - id: "7_5"
         icon: "/img/icons/spirit_ashes/00462.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Ashes\">Vulgar Militia Ashes</a>", "Found on a corpse at the bottom of the section with the wooden beams, guarded by a group of basilisks in Auriza Hero's Grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Vulgar+Militia+Ashes\">Ceneri di milizia volgare</a>", "Trovate su un cadavere in fondo alla sezione con le travi di legno, sorvegliato da un gruppo di basilischi nella Tomba dell'eroe di Auriza."]
   -
     title: Mountaintops of the Giants
+    title_it: "Vette dei Giganti"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "8_1"
         icon: "/img/icons/spirit_ashes/00135.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Ashes\">Fire Monk Ashes</a>", "Found in a chest below the first lift and past the second frost trap in the Giants' Mountaintop Catacombs."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Monk+Ashes\">Ceneri di monaco del fuoco</a>", "Trovate in un forziere sotto il primo montacarichi e oltre la seconda trappola di ghiaccio nelle Catacombe delle Vette dei Giganti."]
   -
     title: Consecrated Snowfield
+    title_it: "Campo di Neve Consacrato"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "9_1"
         icon: "/img/icons/spirit_ashes/00136.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Amon+Ashes\">Blackflame Monk Amon Ashes</a>", "Dropped by the Stray Mimic Tear boss in the Hidden Path to the Haligtree."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Blackflame+Monk+Amon+Ashes\">Ceneri del monaco della Fiamma nera Amon</a>", "Lasciate cadere dal boss Lacrima imitante randagia nel Sentiero segreto del Sacro Albero."]
       - id: "9_2"
         icon: "/img/icons/spirit_ashes/00131.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes\">Cleanrot Knight Finlay Ashes</a>", "Found down the stairs and across a buttress in a room next a gazebo in Elphael, Brace of the Haligtree."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes\">Ceneri del cavaliere di Nobilesangue Finlay</a>", "Trovate scendendo le scale e attraversando un contrafforte in una stanza vicino a un gazebo a Elphael, sostegno del Sacro Albero."]
       - id: "9_3"
         icon: "/img/icons/spirit_ashes/00469.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Ashes\">Haligtree Soldier Ashes</a>", "Found under a large, decorative chalice at the northern edge of Elphael, Brace of the Haligtree."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Ashes\">Ceneri di soldato del Sacro Albero</a>", "Trovate sotto un grande calice decorativo al margine settentrionale di Elphael, sostegno del Sacro Albero."]
       - id: "9_4"
         icon: "/img/icons/spirit_ashes/00122.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Oracle+Envoy+Ashes\">Oracle Envoy Ashes</a>", "Found on a branch out to the right, past a big Oracle Envoy that shoots down at you, near the start of Miquella's Haligtree."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Oracle+Envoy+Ashes\">Ceneri di Inviato dell'Oracolo</a>", "Trovate su un ramo a destra, oltrepassando un grande Inviato dell'Oracolo che spara verso il basso, vicino all'inizio del Sacro Albero di Miquella."]
   -
     title: Crumbling Farum Azula
+    title_it: "Farum Azula in frantumi"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "10_1"
         icon: "/img/icons/spirit_ashes/00451.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes\">Azula Beastman Ashes</a>", "Found on a corpse laying on top of a stone coffin below the Dragon Temple site of grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes\">Ceneri di uomo bestia di Azula</a>", "Trovate su un cadavere steso sopra una bara di pietra sotto il luogo di grazia Tempio del drago."]
   -
     title: Siofra River
+    title_it: "Fiume Siofra"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "11_1"
         icon: "/img/icons/spirit_ashes/00119.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancestral+Follower+Ashes\">Ancestral Follower Ashes</a>", "Dropped by the Ancestor Spirit boss in Hallowhorn Grounds."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancestral+Follower+Ashes\">Ceneri di seguace ancestrale</a>", "Lasciate cadere dal boss Spirito ancestrale nei Terreni del Sacro Corno."]
   -
     title: Nokron, Eternal City
+    title_it: "Nokron, Città Eterna"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "12_1"
         icon: "/img/icons/spirit_ashes/00467.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatshield+Soldier+Ashes\">Greatshield Soldier Ashes</a>", "Found on a corpse in a graveyard guarded by a Fallen Hawks Soldier."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Greatshield+Soldier+Ashes\">Ceneri di soldato con scudo grande</a>", "Trovate su un cadavere in un cimitero sorvegliato da un Soldato dei Falchi Caduti."]
       - id: "12_2"
         icon: "/img/icons/spirit_ashes/00117.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes\">Mimic Tear Ashes</a>", "Found in a chest locked behind an imp statue door in Night's Sacred Ground."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes\">Ceneri di Lacrima imitante</a>", "Trovate in un forziere chiuso dietro una porta con statua di demone nel Sacro suolo della Notte."]
   -
     title: Ainsel River
+    title_it: "Fiume Ainsel"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "13_1"
         icon: "/img/icons/spirit_ashes/00130.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Clayman+Ashes\">Clayman Ashes</a>", "Found on a corpse south of the Uhl Palace Ruins, somewhat near where the sending gate in Renna's Rise puts you."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Clayman+Ashes\">Ceneri di uomo d'argilla</a>", "Trovate su un cadavere a sud delle Rovine del palazzo di Uhl, in prossimità di dove vieni teletrasportato dal portale nella Guglia di Renna."]
   -
     title: Nokstella, Eternal City
+    title_it: "Nokstella, Città Eterna"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "14_1"
         icon: "/img/icons/spirit_ashes/00468.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Archer+Ashes\">Archer Ashes</a>", "Found on a corpse tucked behind a building, to the left after going up the stairs with the exploding Silver Tears."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Archer+Ashes\">Ceneri di arciere</a>", "Trovate su un cadavere nascosto dietro un edificio, a sinistra dopo aver salito le scale con le Lacrime d'argento esplosive."]
       - id: "14_2"
         icon: "/img/icons/spirit_ashes/00478.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets\">Nightmaiden & Swordstress Puppets</a>", "Found in a chest locked behind an imp statue door, protected by two Swordstresses."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets\">Marionette di Ancella notturna e Spadaccina</a>", "Trovate in un forziere chiuso dietro una porta con statua di demone, protette da due Spadaccine."]
   -
     title: Deeproot Depths
+    title_it: "Abissi fra le radici"
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "15_1"
         icon: "/img/icons/spirit_ashes/00461.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Ashes\">Mausoleum Soldier Ashes</a>", "Found at the base of a small dead tree at the very edge of the cliff to the north of the Walking Mausoleum."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Ashes\">Ceneri di soldato del mausoleo</a>", "Trovate alla base di un piccolo albero morto proprio sul bordo del dirupo a nord del Mausoleo errante."]
   -
     title: Realm of Shadow
+    title_it: "Regno dell'Ombra"
+    dlc: true
     table: ["Name", "Location"]
+    table_it: ["Nome", "Posizione"]
     items:
       - id: "20_1"
         icon: "/img/icons/spirit_ashes/00900.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Curseblade+Meera\">Curseblade Meera</a>", "Dropped by Curseblade Labirith at the end of Bonny Gaol."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Curseblade+Meera\">Meera, lama maledetta</a>", "Lasciata cadere dal boss Labirith, lama maledetta alla fine della Galera di Bonny."]
       - id: "20_2"
         icon: "/img/icons/spirit_ashes/00901.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodfiend+Hexer's+Ashes\">Bloodfiend Hexer's Ashes</a>", "Dropped by the Chief Bloodfiend Boss. Chief Bloodfiend can be found inside Rivermouth Cave. You can get to Rivermouth Cave by heading South from Temple Town Ruins  site of grace and jumping down the coffin steps, or by heading northwest from Ellac River Cave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Bloodfiend+Hexer's+Ashes\">Ceneri dello Stregone dei sanguisangue</a>", "Lasciate cadere dal boss Capo dei sanguisangue. Il Capo dei sanguisangue può essere trovato all'interno della Caverna della foce. Puoi arrivarci dirigendoti a sud dal luogo di grazia Rovine della Città del tempio e saltando giù per i gradini della bara, o dirigendoti a nordovest dalla Caverna del fiume Ellac."]
       - id: "20_3"
         icon: "/img/icons/spirit_ashes/00902.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Gravebird+Ashes\">Gravebird Ashes</a>", "Charo's Hidden Grave: Use the spiritspring to reach the area, you'll find this item surrounded by gravestones."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Gravebird+Ashes\">Ceneri di Uccello tombale</a>", "Tomba nascosta di Charo: Usa la sorgente spiritica per raggiungere l'area, troverai questo oggetto circondato da lapidi."]
       - id: "20_4"
         icon: "/img/icons/spirit_ashes/00903.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight+Hilde\">Fire Knight Hilde</a>", "Shadow Keep: From the gear in which you found Wrath from Afar, jump towards the next platform and head to the ladder on the left. Climb it up. Once at the top, take the wooden beam on your left and turn right towards the lift. Activate the lift but quickly return to the platform. Another lift will appear do the same, and jump on the first lift Roof. Stay there until it stops. Jump across the platform to reach the corpse on the other side and loot the Spirit Ash."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight+Hilde\">Hilde, Cavaliere di fuoco</a>", "Roccaforte delle ombre: Dall'ingranaggio in cui hai trovato Collera da lontano, salta verso la piattaforma successiva e dirigiti verso la scala a sinistra. Arrampicati. Arrivato in cima, prendi la trave di legno a sinistra e gira a destra verso il montacarichi. Attivalo ma torna velocemente alla piattaforma. Un altro montacarichi apparirà, fai lo stesso, e salta sul tetto del primo montacarichi. Resta lì finché non si ferma. Salta attraverso la piattaforma per raggiungere il cadavere dall'altra parte e raccogli la cenere."]
       - id: "20_5"
         icon: "/img/icons/spirit_ashes/00904.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Spider+Scorpion+Ashes\">Spider Scorpion Ashes</a>", "Ancient Ruins of Rauh: In the area where the spider-scorpion hangs from a ceiling and there are a bunch of items on the ground. One of them is this."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Spider+Scorpion+Ashes\">Ceneri dello Scorpione ragno</a>", "Antiche rovine di Rauh: Nell'area in cui lo scorpione ragno pende da un soffitto e ci sono un mucchio di oggetti a terra. Uno di questi è questo."]
       - id: "20_6"
         icon: "/img/icons/spirit_ashes/00905.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Inquisitor+Ashes\">Inquisitor Ashes</a>", "found on a corpse in Enir-Ilim, beneath the second to last enemy before reaching the Spiral Rise site of grace (coming from First Rise site of grace)."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Inquisitor+Ashes\">Ceneri dell'Inquisitore</a>", "Trovate su un cadavere in Enir-Ilim, sotto il penultimo nemico prima di raggiungere il luogo di grazia Ascesa a spirale (provenendo dal luogo di grazia Prima ascesa)."]
       - id: "20_7"
         icon: "/img/icons/spirit_ashes/00906.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Swordsman+Yosh\">Demi-Human Swordsman Yosh</a>", "Dropped by the Demi-Human Swordmaster Onze boss. Demi-Human Swordmaster Onze can be found at the bottom of the Belurat Gaol. Players will find the entrance to this area by going to the lake west of the Belurat Tower Settlement. The entrance to the dungeon is littered with cages, making it easier to spot."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Swordsman+Yosh\">Yosh, spadaccino semiumano</a>", "Lasciate cadere dal boss Onze, maestro di spada semiumano. Onze può essere trovato in fondo alla Galera di Belurat. Il dungeon si trova andando al lago a ovest dell'Insediamento della torre, l'ingresso è disseminato di gabbie."]
       - id: "20_8"
         icon: "/img/icons/spirit_ashes/00907.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Messmer+Soldier+Ashes\">Messmer Soldier Ashes</a>", "Fort of Reprimand: From the main courtyard where you fight the Omenkiller, turn due North while facing the gallows. A chute will be visible. It will lead outside where you will find the spirit ashes near a grave."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Messmer+Soldier+Ashes\">Ceneri del Soldato di Messmer</a>", "Forte del Monito: Nel cortile principale in cui combatti l'Ammazzapresagi, volgi lo sguardo a nord, guardando verso il patibolo. Vi sarà un buco nel pavimento. Ti porterà all'esterno, troverai le ceneri vicino a una tomba."]
       - id: "20_9"
         icon: "/img/icons/spirit_ashes/00908.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knight+Commander+Andreas\">Black Knight Commander Andreas</a>", "It's located by following the Fog Rift Catacombs past a black knight guarded by x3 Messmer Soldiers and then jumping onto the top of the spike trap the falls from the ceiling and then crossing it into a corridor. The Spirit Ashes is lying in a coffin."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knight+Commander+Andreas\">Andreas, Comandante dei Cavalieri Neri</a>", "Si trovano seguendo le Catacombe della Fenditura Nebbiosa oltre un cavaliere nero sorvegliato da 3 soldati di Messmer e poi saltando in cima alla trappola con spuntoni che cade dal soffitto e attraversandola in un corridoio. Le ceneri giacciono in una bara."]
       - id: "20_10"
         icon: "/img/icons/spirit_ashes/00909.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knight+Captain+Huw\">Black Knight Captain Huw</a>", "Scorpion River Catacombs: Found at the end of the L-shaped corridor with crushing spike traps.  Past the first ceiling with the falling spikes, reach the Yellow Fulgurbloom and turn right, you will see x2 Messmer Soldiers and a Black Knight. Between both of you, there is another ceiling with spikes, be mindful when engaging in combat. Once those enemies are defeated, head to the coffin at the end to find the Spirit Ashes."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Black+Knight+Captain+Huw\">Huw, Capitano dei Cavalieri Neri</a>", "Catacombe del fiume dello Scorpione: Trovate alla fine del corridoio a forma di L con le trappole a spuntoni schiaccianti. Oltre il primo soffitto con spuntoni cadenti, raggiungi il Fulgifiore giallo e gira a destra, vedrai 2 soldati e un Cavaliere Nero. In mezzo, un'altra trappola a caduta. Una volta sconfitti, dirigiti verso la bara in fondo."]
       - id: "20_11"
         icon: "/img/icons/spirit_ashes/00910.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Bigmouth+Imp+Ashes\">Bigmouth Imp Ashes</a>", "Darklight Catacombs: After descending to a lower level for a second time, you will find yourself in a hall with a giant Bigmouth Imp shooting fireballs at you."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Bigmouth+Imp+Ashes\">Ceneri del demone Boccagrande</a>", "Catacombe di penombra: Dopo essere sceso di livello per la seconda volta, ti ritroverai in una sala con un gigantesco demone Boccagrande che ti spara palle di fuoco."]
       - id: "20_12"
         icon: "/img/icons/spirit_ashes/00911.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Fly+Ashes\">Man-Fly Ashes</a>", "Spirit Ashes looted from a grub corpse in Village of the Flies. Can only be accessed by going down the river from Shadow Keep and unlocking the Recluses River Downstream site of grace area. The Ashes are found on the top part of the village, guarded by two shadow casters and several man-fly enemies."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Man-Fly+Ashes\">Ceneri di mosca umana</a>", "Trovate su un cadavere di larva nel Villaggio delle mosche. Accessibile scendendo il fiume dalla Roccaforte delle ombre e sboccando nell'area Fiume Eremita - corso inferiore. Le ceneri si trovano nella parte alta del villaggio, pattugliate da incantatori e mosche umane."]
       - id: "20_13"
         icon: "/img/icons/spirit_ashes/00912.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith\">Taylew the Golem Smith</a>", "Taylew's Ruined Forge: Return to the platform in the middle that you have moved with the lever, and head up. Jump to the left once you are near the top. Take the stairs up in the area, and interact with the furnace to receive the Spirit Ashes along with an Ancient Dragon Smithing Stone."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith\">Taylew, il Golem fabbro</a>", "Fucina in rovina di Taylew: Ritorna alla piattaforma mobile al centro che hai mosso con la leva e vai su. Salta a sinistra una volta vicino alla cima. Prendi le scale in su e interagisci con la fornace. Riceverai anche una Pietra da forgiatura del drago antico."]
       - id: "20_14"
         icon: "/img/icons/spirit_ashes/00913.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis\">Divine Bird Warrior Ornis</a>", "Temple Town Ruins Site of Grace: Head north past the purple stones and Kindreds of Rot. Go Uphill and activate the spiritspring and use it to jump on ruins above."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis\">Ornis, guerriero uccello divino</a>", "Luogo di grazia Rovine della Città del tempio: Vai a nord oltre le pietre viola e i Semi della marcescenza. Vai in salita, attiva la sorgente spiritica e usala per saltare sulle rovine in alto."]
       - id: "20_15"
         icon: "/img/icons/spirit_ashes/00914.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Horned+Warrior+Ashes\">Horned Warrior Ashes</a>", "Can be found in Enir-Ilim after the Spiral Rise site of grace. You'll climb the spiral stairs, kill 4 birds and then jump off the stairs case onto another staircase below. The ashes will be on one of 3 items of the 3 corpses."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Horned+Warrior+Ashes\">Ceneri dei guerrieri cornuti</a>", "In Enir-Ilim dopo il luogo di grazia Ascesa a spirale. Sali le scale a chiocciola, uccidi i 4 uccelli e poi salta giù dalla scalinata verso un'altra rampa di scale sottostante. Le ceneri saranno su uno dei 3 cadaveri."]
       - id: "20_16"
         icon: "/img/icons/spirit_ashes/00916.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax\">Ancient Dragon Florissax</a>", "Give Thiollier's Concoction item to the dragon priestess (near Grand Altar of Dragon Communion) at night, this will put her to sleep. Wait for a few rounds and she will have woken up, exhaust her dialogue. Kill Bayle the Dread. Remember to summon Igon (his sign is within the arena, to the left after you enter the mist). Go to the Altar and talk to her, confess to putting her to sleep and accept to become her lord. collect her ash."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax\">Drago antico Florissax</a>", "Dona la Mistura di Thiollier alla Sacerdotessa draconica (vicino al Grande Altare della Comunione Draconica) di notte per farle prendere sonno. Aspetta qualche round affinché si svegli ed esaurisci i dialoghi. Uccidi Bayle il Terribile. Vai all'Altare e parlagli, confessa di averle dato la pozione e accetta di diventare il suo lord. Raccogli le ceneri."]
       - id: "20_17"
         icon: "/img/icons/spirit_ashes/00915.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingercreeper+Ashes\">Fingercreeper Ashes</a>", "Finger Ruins of Dheo: From Fingerstone Hill Site of Grace, head southeast down the path (avoiding/handling the hordes of fingercreepers) until you come to two large finger statues protruding from the ground on your left, somewhat overhanging the road. Turn immediately left, just before the large fingercreeper lying in wait, and head east between the two finger statues. After a short drop down, keep to the left of the large fallen finger statue. Just ahead will be a rock wall with a hole just in front of it, as well as a goodly amount of Lesser Fingercreepers in front of, inside it and behind you on the wall. Drop down into the hole. A Colossal Fingercreeper will emerge and block your way, but you can run across to the safety of the exit tunnel if you are quick and mounted. The Ashes can be looted from the corpse in the middle of the arena."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Fingercreeper+Ashes\">Ceneri dello Strisciadita</a>", "Rovine di Dita di Dheo: Dal luogo di grazia Colle Pietradita, segui il percorso tenendo la sinistra fino a vedere un nemico enorme davanti a un buco gigantesco nel terreno. Saltaci dentro, raccogli le ceneri al centro e scappa verso l'uscita da un'apertura (uno Strisciadita mastodontico uscirà dal soffitto della caverna non appena ti avvicini al cadavere con l'oggetto)."]
       - id: "20_18"
         icon: "/img/icons/spirit_ashes/00918.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign\">Fire Knight Queelign</a>", "Give Fire Knight Queelign the Iris of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign\">Cavaliere di fuoco Queelign</a>", "Dona al Cavaliere di fuoco Queelign l'Iride della grazia."]
       - id: "20_19"
         icon: "/img/icons/spirit_ashes/00919.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jolán\">Swordhand of Night Jolán</a>", "Can be obtained after completing Count Ymir's questline. After defeating Count Ymir, rest at the Cathedral of Manus Metyr - Site of Grace and return to Jolan's location to see her slumped over the pillar instead of standing and leaning against it. Speak to her and give her the Iris of Grace."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jolán\">Jolán, Spadaccina della Notte</a>", "Ottienibile dopo aver completato la missione del Conte Ymir. Dopo averlo sconfitto, riposa alla Cattedrale di Manus Metyr e torna dove si trovava Jolán per vederla accasciata alla colonna. Parlale e donale l'Iride della grazia."]
       - id: "20_20"
         icon: "/img/icons/spirit_ashes/00920.png"
         data: ["<a href=\"https://eldenring.wiki.fextralife.com/Jolán+and+Anna\">Jolán and Anna</a>", "Get Swordhand of Night Jolán first. From the side of Scaduview (closest grace would be the Hinterland site of grace), head to the Shaman Village, from there you will find a pathway at the back of the village, travelling down the cliffside, leading to a secret top part of Rabbath's Rise. Here you will find her puppet body, where you will be asked to combine the spirits together, claiming this spirit summon."]
+        data_it: ["<a href=\"https://eldenring.wiki.fextralife.com/Jolán+and+Anna\">Jolán e Anna</a>", "Ottieni prima Jolán, Spadaccina della Notte. Dalla Scaduview (il luogo di grazia più vicino sarebbe Entroterra), dirigiti al Villaggio degli Sciamani, da lì troverai un sentiero sul retro che scende lungo il pendio del dirupo e porta a una parte segreta superiore dell'Ascesa di Rabbath. Qui troverai il suo corpo da marionetta, dove ti verrà chiesto di unire gli spiriti assieme, ottenendo questa evocazione."]
+

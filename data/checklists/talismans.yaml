@@ -1,566 +1,769 @@
 title: Talismans
+title_it: Talismani
 id: talismans
 table_widths: [4, 4, 4]
 sections:
   -
     title: "Limgrave"
+    title_it: "Limgrave"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "2_1"
         icon: "/img/icons/talismans/18000.png"
         data: ["Crimson Amber Medallion", "Can choose one as a Keepsake", "Raises maximum HP by ~6%"]
+        data_it: ["Medaglione d'Ambra Cremisi", "Può essere scelto come Cimelio", "Aumenta i PV massimi di circa il 6%"]
       - id: "2_2"
         icon: "/img/icons/talismans/18810.png"
         data: ["Roar Medallion", "Dropped by the Stonedigger Troll, located in the Limgrave Tunnels", "Enhances roars and breath attacks"]
+        data_it: ["Medaglione del Ruggito", "Rilasciato dal Troll Scavatore di Pietre, nelle Gallerie di Limgrave", "Potenzia ruggiti e attacchi con il fiato"]
       - id: "2_3"
         icon: "/img/icons/talismans/18510.png"
         data: ["Flamedrake Talisman", "Dropped by the Beastman of Farum Azula in Groveside Cave in Limgrave", "Boosts fire damage negation by 13%"]
+        data_it: ["Talismano Dracofiamma", "Rilasciato dalla Belva di Farum Azula nella Grotta Boschiva di Limgrave", "Aumenta la negazione del danno da fuoco del 13%"]
       - id: "2_4"
         icon: "/img/icons/talismans/18530.png"
         data: ["Haligdrake Talisman", "Found on a corpse in the Stranded Graveyard, but only accessible via the beach below the Seaside Ruins Grace", "Boosts holy damage negation by 13%"]
+        data_it: ["Talismano Dracosanto", "Trovato su un cadavere nello Stradale del Naufragio, accessibile dalla spiaggia sotto la Grazia delle Rovine Costiere", "Aumenta la negazione del danno sacro del 13%"]
       - id: "2_5"
         icon: "/img/icons/talismans/18370.png"
         data: ["Axe Talisman", "Found in a cellar underneath the Mistwood Ruins", "Enhances charge attacks by 10%"]
+        data_it: ["Talismano dell'Ascia", "Trovato in una cantina sotto le Rovine del Bosco Nebbioso", "Potenzia gli attacchi caricati del 10%"]
       - id: "2_6"
         icon: "/img/icons/talismans/18200.png"
         data: ["Prince of Death's Pustule", "Found in the Stormveil Castle Crypts, most easily accessible via the Rampart Tower Grace", "Raises Vitality by 90."]
+        data_it: ["Pustola del Principe della Morte", "Trovata nelle Cripte di Castel Tempesta, più facilmente accessibile dalla Grazia della Torre dei Bastioni", "Aumenta la Vitalità di 90"]
       - id: "2_7"
         icon: "/img/icons/talismans/18800.png"
         data: ["Claw Talisman", "Found on a corpse situated in a watchtower accessible from the Rampart Tower Grace", "Enhances jump attacks by 15%"]
+        data_it: ["Talismano dell'Artiglio", "Trovato su un cadavere in una torre di guardia accessibile dalla Grazia della Torre dei Bastioni", "Potenzia gli attacchi con salto del 15%"]
       - id: "2_8"
         icon: "/img/icons/talismans/18820.png"
         data: ["Curved Sword Talisman", "Found in a treasure chest inside the room where you fight the Banished Knight in Stormveil Castle", "Enhances guard counters by 20%"]
+        data_it: ["Talismano della Spada Ricurva", "Trovato in un forziere nella stanza dove si combatte il Cavaliere Esiliato a Castel Tempesta", "Potenzia i contrattacchi in guardia del 20%"]
       - id: "2_9"
         icon: "/img/icons/talismans/18520.png"
         data: ["Boltdrake Talisman", "Found on a corpse on the way to the Divine Tower of Limgrave", "Boosts lightning damage negation by 13%"]
+        data_it: ["Talismano Dracofolgore", "Trovato su un cadavere lungo la via per la Torre Divina di Limgrave", "Aumenta la negazione del danno da fulmine del 13%"]
       - id: "2_10"
         icon: "/img/icons/talismans/18160.png"
         data: ["Green Turtle Talisman", "Found in the underground area on the outskirts of Summonwater Village", "Raises stamina recovery speed by 8 points per second (+17.7%)"]
+        data_it: ["Talismano della Tartaruga Verde", "Trovato nell'area sotterranea ai margini del Villaggio dell'Acqua Sommessa", "Aumenta la velocità di recupero della stamina di 8 punti al secondo (+17,7%)"]
       - id: "2_11"
         icon: "/img/icons/talismans/18300.png"
         data: ["Hammer Talisman", "Dropped by Recusant Henricus northeast of Stormhill Shack", "Enhances stamina-reducing attacks against blockers by 20%"]
+        data_it: ["Talismano del Martello", "Rilasciato da Henricus il Recusante a nordest della Capanna di Stormhill", "Potenzia gli attacchi che riducono la stamina contro chi blocca del 20%"]
       - id: "2_12"
         icon: "/img/icons/talismans/18330.png"
         data: ["Arrow's Reach Talisman", "Found in a treasure chest inside the Stormgate Towers", "Increases bow effective range"]
+        data_it: ["Talismano della Portata dell'Arco", "Trovato in un forziere nelle Torri del Varco della Tempesta", "Aumenta la gittata effettiva degli archi"]
       - id: "2_13"
         icon: "/img/icons/talismans/18350.png"
         data: ["Blue Dancer Charm", "Dropped by the Guardian Golem in Highroad Cave", "Raises attack power with lower equipment load"]
+        data_it: ["Amuleto della Danzatrice Blu", "Rilasciato dal Golem Guardiano nella Grotta della Via Maestra", "Aumenta la potenza d'attacco con un carico d'equipaggiamento basso"]
       - id: "2_14"
         icon: "/img/icons/talismans/18380.png"
         data: ["Lance Talisman", "Found in the Northeast Stormhill", "Enhances attacks on horseback by 15%"]
+        data_it: ["Talismano della Lancia", "Trovato nel Nordest di Stormhill", "Potenzia gli attacchi a cavallo del 15%"]
       - id: "2_15"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig", "Can be purchased from Patches at Murkwater Cave after he sets up shop for 5,000 runes", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale", "Può essere acquistato da Patches alla Grotta Murkwater dopo che apre il negozio, per 5.000 rune", "Verrà perso alla morte al posto delle rune"]
       - id: "2_20"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig", "Found in a cemetary, to the west of where you first meet Blaidd, near some Miranda flowers", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale", "Trovato in un cimitero, a ovest del primo incontro con Blaidd, vicino ad alcuni fiori di Miranda", "Verrà perso alla morte al posto delle rune"]
       - id: "2_16"
         icon: "/img/icons/talismans/18040.png"
         data: ["Erdtree's Favor", "Found in the Fringefolk Hero's Grave, guarded by two Grafted Scions in a secret area", "Raises maximum HP (3%), Stamina (6.75%) and Equip Load (5%)"]
+        data_it: ["Favore dell'Erdtree", "Trovato nella Cripta dell'Eroe al Margine del Mondo, custodito da due Scionie Innestato in un'area segreta", "Aumenta i PV massimi (3%), la Stamina (6,75%) e il Carico d'Equip (5%)"]
       - id: "2_17"
         icon: "/img/icons/talismans/18570.png"
         data: ["Blue-Feathered Branchsword", "Dropped by the Deathbird east of the Warmaster's Shack", "Raises defense when HP is low (Activates under 20% health, raises damage negation by: current damage negation / 2 + 50)"]
+        data_it: ["Spada-Ramo Blu Piumata", "Rilasciato dall'Uccello della Morte a est della Capanna del Maestro di Guerra", "Aumenta la difesa quando i PV sono bassi (si attiva sotto il 20% dei PV, aumenta la negazione del danno di: negazione attuale / 2 + 50)"]
       - id: "2_18"
         icon: "/img/icons/talismans/18660.png"
         data: ["Assassin's Crimson Dagger", "Dropped by the Black Knife Assassin in the Deathtouched Catacombs", "Critical hits restore HP (Heals 10% of max HP + 85 HP)"]
+        data_it: ["Pugnale Cremisi dell'Assassino", "Rilasciato dall'Assassino della Lama Nera nei Catacombi del Tatto Mortale", "I colpi critici ripristinano i PV (recupera il 10% dei PV massimi + 85 PV)"]
       - id: "2_19"
         icon: "/img/icons/talismans/18260.png"
         data: ["Sacred Scorpion Charm", "Dropped by Anastasia, Tarnished-Eater", "Raises holy attack, but lowers damage negation. (Holy damage is increased by 12% in PvE and 8% in PvP. Increases physical damage taken by 10% in PvE and 15% in PvP.)"]
+        data_it: ["Amuleto dello Scorpione Sacro", "Rilasciato da Anastasia, Divoratrice di Segnati", "Aumenta l'attacco sacro ma riduce la negazione del danno (il danno sacro aumenta del 12% in PvE e dell'8% in PvP; aumenta il danno fisico subito del 10% in PvE e del 15% in PvP)"]
   -
     title: "Weeping Peninsula"
+    title_it: "Penisola del Pianto"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "1_1"
         icon: "/img/icons/talismans/18000.png"
         data: ["Crimson Amber Medallion", "Can be purchased from the Nomadic Merchant at the eastern side of Weeping Peninsula for 1,500 runes", "Raises maximum HP by ~6%"]
+        data_it: ["Medaglione d'Ambra Cremisi", "Può essere acquistato dal Mercante Nomade sul lato est della Penisola del Pianto per 1.500 rune", "Aumenta i PV massimi di circa il 6%"]
       - id: "1_2"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig (x3)", "Can be purchased from the Isolated Merchant at the western side of Weeping Peninsula for 3,000 runes", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale (x3)", "Può essere acquistato dal Mercante Isolato sul lato ovest della Penisola del Pianto per 3.000 rune", "Verrà perso alla morte al posto delle rune"]
       - id: "1_3"
         icon: "/img/icons/talismans/18020.png"
         data: ["Viridian Amber Medallion", "Reward for defeating Miranda, the Blighted Bloom in the Tombsward Cave", "Raises maximum stamina by 11%"]
+        data_it: ["Medaglione d'Ambra Verdeggiante", "Premio per aver sconfitto Miranda, il Fiore Contaminato nella Grotta di Tombsward", "Aumenta la stamina massima dell'11%"]
       - id: "1_4"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig", "Given by Edgar when spoken to for the first time at Castle Morne", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale", "Donato da Edgar alla prima conversazione a Castel Morne", "Verrà perso alla morte al posto delle rune"]
       - id: "1_5"
         icon: "/img/icons/talismans/18500.png"
         data: ["Spelldrake Talisman", "Reward for defeating Runebear at the end of the Earthbore Cave in the Weeping Peninsula", "Boosts magical damage negation (PvE: 13%; PVP: 4%)"]
+        data_it: ["Talismano Dracostregone", "Premio per aver sconfitto l'Orso del Mondo nella Grotta Terrosa della Penisola del Pianto", "Aumenta la negazione del danno magico (PvE: 13%; PvP: 4%)"]
       - id: "1_6"
         icon: "/img/icons/talismans/18050.png"
         data: ["Radagon's Scarseal", "Dropped by the Ancient Hero of Zamor in Weeping Evergaol", "Raises physical attributes by 3, increases damage taken by ~5%"]
+        data_it: ["Sigillo delle Cicatrici di Radagon", "Rilasciato dall'Antico Eroe di Zamor nell'Evergaol del Pianto", "Aumenta gli attributi fisici di 3, aumenta il danno subito di circa il 5%"]
       - id: "1_7"
         icon: "/img/icons/talismans/18360.png"
         data: ["Twinblade Talisman", "Found at the top of a tower accessible by dropping down from the Back of the Castle Grace, to the west", "Enhances final hit of chain attacks by 20%"]
+        data_it: ["Talismano della Doppia Lama", "Trovato in cima a una torre accessibile cadendo dalla Grazia Retro del Castello, a ovest", "Potenzia l'ultimo colpo delle sequenze d'attacco del 20%"]
   -
     title: "Roundtable Hold"
+    title_it: "Tavola Rotonda"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "3_1"
         icon: "/img/icons/talismans/18030.png"
         data: ["Arsenal Charm", "Obtained by talking to Nepheli Loux after beating Godrick the Grafted in Stormveil Castle", "Raises maximum equipment weight by 15%"]
+        data_it: ["Amuleto dell'Arsenale", "Ottenuto parlando con Nepheli Loux dopo aver sconfitto Godrick il Greffe a Castel Tempesta", "Aumenta il peso massimo d'equipaggiamento del 15%"]
       - id: "3_2"
         icon: "/img/icons/talismans/18760.png"
         data: ["Furled Finger's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a Host of Fingers"]
+        data_it: ["Specchio-Trucco del Dito Arricciato", "Può essere acquistato dalle Gemelle Custodi alla Tavola Rotonda per 5.000 rune", "Assume l'aspetto di un Ospite delle Dita"]
       - id: "3_3"
         icon: "/img/icons/talismans/18770.png"
         data: ["Host's Trick-Mirror", "Can be purchased from Twin Maiden Husks at the Roundtable Hold for 5,000 Runes", "Take on appearance of a cooperator"]
+        data_it: ["Specchio-Trucco dell'Ospite", "Può essere acquistato dalle Gemelle Custodi alla Tavola Rotonda per 5.000 rune", "Assume l'aspetto di un cooperatore"]
       - id: "3_4"
         icon: "/img/icons/talismans/18880.png"
         data: ["Ancestral Spirit's Horn", "Unlocked via the Remembrance of the Regal Ancestor", "Restores FP upon defeating enemies (3 FP per kill)"]
+        data_it: ["Corno dello Spirito Ancestrale", "Ottenuto tramite la Rimembranza dell'Antenato Regale", "Ripristina il PM all'eliminazione dei nemici (3 PM per uccisione)"]
   -
     title: "Liurnia of the Lakes"
+    title_it: "Liurnia dei Laghi"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "4_1"
         icon: "/img/icons/talismans/18670.png"
         data: ["Assassin's Cerulean Dagger", "Dropped by the Black Knife Assassin in Black Knife Catacombs", "Critical hits restores 15 FP"]
+        data_it: ["Pugnale Ceruleo dell'Assassino", "Rilasciato dall'Assassino della Lama Nera nei Catacombi della Lama Nera", "I colpi critici ripristinano 15 PM"]
       - id: "4_2"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig", "Found on a corpse in Southern Liurnia of the Lakes, only accessible from the top, east of Malefactor's Evergaol", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale", "Trovato su un cadavere nella Liurnia meridionale, accessibile solo dall'alto, a est dell'Evergaol del Malfattore", "Verrà perso alla morte al posto delle rune"]
       - id: "4_3"
         icon: "/img/icons/talismans/18410.png"
         data: ["Graven-School Talisman", "Found in a room filled with Potboys behind a illusory wall and a ladder in Raya Lucaria Academy, near the Debate Parlor Grace", "Raises potency of sorceries by 8%."]
+        data_it: ["Talismano della Scuola di Graven", "Trovato in una stanza piena di Botboys dietro un muro illusorio e una scala nell'Accademia Raya Lucaria, vicino alla Grazia del Parlatorio delle Dispute", "Aumenta la potenza delle magie dell'8%"]
       - id: "4_4"
         icon: "/img/icons/talismans/18470.png"
         data: ["Radagon Icon", "Found in the second floor of the Debate Parlor, Can be reached by jumping a fence in the courtyard", "Shortens spell casting time. (Gives 30 virtual dexterity towards exclusively spellcasting (both sorceries and incantations). Casting speed is capped at 70 dexterity.)"]
+        data_it: ["Icona di Radagon", "Trovata al secondo piano del Parlatorio delle Dispute, raggiungibile saltando una recinzione nel cortile", "Riduce il tempo di lancio degli incantesimi (concede 30 destrezza virtuale esclusivamente per il lancio degli incantesimi; la velocità di lancio è limitata a 70 di destrezza)"]
       - id: "4_5"
         icon: "/img/icons/talismans/18720.png"
         data: ["Longtail Cat Talisman", "Found on a corpse at the bottom of the spinning wheel in Raya Lucaria Academy", "Renders the wearer immune to fall damage(not)"]
+        data_it: ["Talismano del Gatto a Coda Lunga", "Trovato su un cadavere in fondo alla ruota girevole nell'Accademia Raya Lucaria", "Rende il portatore immune al danno da caduta"]
       - id: "4_6"
         icon: "/img/icons/talismans/18010.png"
         data: ["Cerulean Amber Medallion", "Dropped by the Bloodhound Knight in Lakeside Crystal Cave", "Raises maximum FP by 7%."]
+        data_it: ["Medaglione d'Ambra Cerulea", "Rilasciato dal Cavaliere Segugio nel Grotta del Cristallo Lacustre", "Aumenta il PM massimo del 7%"]
       - id: "4_7"
         icon: "/img/icons/talismans/18012.png"
         data: ["Cerulean Amber Medallion +2", "Found in a treasure chest in an underground room northwest of Lunar Estate ruins", "Raises maximum FP by 11%."]
+        data_it: ["Medaglione d'Ambra Cerulea +2", "Trovato in un forziere in una stanza sotterranea a nordovest delle rovine della Tenuta Lunare", "Aumenta il PM massimo dell'11%"]
       - id: "4_8"
         icon: "/img/icons/talismans/18090.png"
         data: ["Stargazer Heirloom", "Found on a corpse lying at the top of the Divine Tower of Liurnia", "Raises intelligence by 5."]
+        data_it: ["Retaggio dello Stargazer", "Trovato su un cadavere in cima alla Torre Divina di Liurnia", "Aumenta l'intelligenza di 5"]
       - id: "4_9"
         icon: "/img/icons/talismans/18100.png"
         data: ["Two Fingers Heirloom", "Found on the lower level of the Purified Ruins", "Raises faith by 5."]
+        data_it: ["Retaggio delle Due Dita", "Trovato al livello inferiore delle Rovine Purified", "Aumenta la fede di 5"]
       - id: "4_10"
         icon: "/img/icons/talismans/18310.png"
         data: ["Winged Sword Insignia", "Dropped by the Cleanrot Knight in Stillwater Cave", "Raises attack power with successive attacks"]
+        data_it: ["Insegna della Spada Alata", "Rilasciata dal Cavaliere Cleanrot nella Grotta dell'Acqua Ferma", "Aumenta la potenza d'attacco con attacchi successivi"]
       - id: "4_11"
         icon: "/img/icons/talismans/18170.png"
         data: ["Stalwart Horn Charm", "Found on a corpse in Eastern Liurnia, on the cliffs the west from the Mausoleum Compound Grace", "Greatly raises robustness (+90)"]
+        data_it: ["Amuleto del Corno Saldo", "Trovato su un cadavere nella Liurnia orientale, sulle scogliere a ovest dalla Grazia del Compound dei Mausolei", "Aumenta notevolmente la robustezza (+90)"]
       - id: "4_12"
         icon: "/img/icons/talismans/18230.png"
         data: ["Magic Scorpion Charm", "Obtained by talking Preceptor Seluvis after obtaining the Fingerslayer Blade but before giving it to Ranni the Witch", "Raises magic attack (12%), but lowers damage negation (10%)"]
+        data_it: ["Amuleto dello Scorpione Magico", "Ottenuto parlando con il Precettore Seluvis dopo aver ottenuto la Lama Tagliadita ma prima di consegnarla a Ranni la Strega", "Aumenta l'attacco magico (12%), ma riduce la negazione del danno (10%)"]
       - id: "4_13"
         icon: "/img/icons/talismans/18270.png"
         data: ["Red-Feathered Branchsword", "Dropped by the Deathbird northeast of Scenic Isle Grace", "Raises attack power by 20% when HP is low (below 20%)."]
+        data_it: ["Spada-Ramo Rossa Piumata", "Rilasciata dall'Uccello della Morte a nordest dalla Grazia dell'Isola Scenica", "Aumenta la potenza d'attacco del 20% quando i PV sono bassi (sotto il 20%)"]
       - id: "4_14"
         icon: "/img/icons/talismans/18290.png"
         data: ["Spear Talisman", "Found in a treasure chest inside Lakeside Crystal Cave near a demi-human campfire", "Enhances counterattacks unique to thrusting weapons (13%)"]
+        data_it: ["Talismano della Lancia", "Trovato in un forziere nella Grotta del Cristallo Lacustre vicino a un accampamento dei Semi-umani", "Potenzia i contrattacchi tipici delle armi da punta (13%)"]
       - id: "4_15"
         icon: "/img/icons/talismans/18540.png"
         data: ["Pearldrake Talisman", "Found behind the first waygate of The Four Belfries", "Boosts non-physical damage negation (5%)"]
+        data_it: ["Talismano Dracoperlaceo", "Trovato dietro il primo portale dei Quattro Campanili", "Aumenta la negazione del danno non fisico (5%)"]
       - id: "4_16"
         icon: "/img/icons/talismans/18620.png"
         data: ["Cerulean Seed Talisman", "Found in the rafters of Carian Study Hall, accessible from the roofs", "Boosts FP restoration from Flask of Cerulean Tears.(20%)"]
+        data_it: ["Talismano del Seme Ceruleo", "Trovato nelle travi del Carian Study Hall, accessibile dai tetti", "Potenzia il ripristino di PM dalla Fiaschetta delle Lacrime Cerulee (20%)"]
       - id: "4_17"
         icon: "/img/icons/talismans/18600.png"
         data: ["Crucible Knot Talisman", "Dropped by the Omenkiller, located in the Village of the Albinaurics", "Reduces damage and impact of headshots taken."]
+        data_it: ["Talismano del Nodo del Crogiolo", "Rilasciato dall'Omininkiller nel Villaggio degli Albinauric", "Riduce il danno e l'impatto dei colpi alla testa subiti"]
       - id: "4_18"
         icon: "/img/icons/talismans/18700.png"
         data: ["Carian Filigreed Crest", "Can be purchased from War Counselor Iji if you defeat Bloodhound Knight Darriwil without Blaidd's help, for 1,000 runes", "Lowers FP consumed by skills by 25%."]
+        data_it: ["Cresta Filigranata Carian", "Può essere acquistata dal Consigliere di Guerra Iji se si sconfigge il Cavaliere Segugio Darriwil senza l'aiuto di Blaidd, per 1.000 rune", "Riduce il PM consumato dalle abilità del 25%"]
       - id: "4_19"
         icon: "/img/icons/talismans/18730.png"
         data: ["Shabriri's Woe", "Found on a corpse at the edge of the Frenzied Flame Village", "Constantly attracts enemies' aggression."]
+        data_it: ["Afflizione di Shabriri", "Trovata su un cadavere al margine del Villaggio della Fiamma Frenetica", "Attira costantemente l'aggressività dei nemici"]
       - id: "4_20"
         icon: "/img/icons/talismans/18830.png"
         data: ["Companion Jar", "Received from Jar Bairn after completing his quest", "Raises potency of throwing pots (20% damage up)"]
+        data_it: ["Vaso Compagno", "Ricevuto da Jar Bairn dopo aver completato la sua missione", "Aumenta la potenza dei vasi da lancio (danno aumentato del 20%)"]
   -
     title: "Caelid"
+    title_it: "Caelid"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "5_1"
         icon: "/img/icons/talismans/18340.png"
         data: ["Arrow's Sting Talisman", "Found in a treasure chest on the top of the tower directly above Impassable Greatbridge Grace", "Raises attack power of arrows and bolts (10%)."]
+        data_it: ["Talismano del Pungiglione della Freccia", "Trovato in un forziere in cima alla torre direttamente sopra la Grazia del Grande Ponte Impraticabile", "Aumenta la potenza d'attacco di frecce e dardi del 10%"]
       - id: "5_2"
         icon: "/img/icons/talismans/18120.png"
         data: ["Gold Scarab", "Dropped by Cleanrot Knight (Sickle) & Cleanrot Knight (Spear) in the Abandoned Cave", "Increases runes Obtained from defeated enemies by ~20%."]
+        data_it: ["Scarabeo d'Oro", "Rilasciato dal Cavaliere Cleanrot (Falce) e dal Cavaliere Cleanrot (Lancia) nella Grotta Abbandonata", "Aumenta le rune ottenute dagli nemici sconfitti di circa il 20%"]
       - id: "5_3"
         icon: "/img/icons/talismans/18032.png"
         data: ["Great-Jar's Arsenal", "Reward for defeating the Knights of the Great Jar in Caelid, near the colosseum", "Vastly raises maximum equip load. (16-19% based on Endurance)"]
+        data_it: ["Arsenale del Grande Vaso", "Premio per aver sconfitto i Cavalieri del Grande Vaso a Caelid, vicino al colosseo", "Aumenta notevolmente il carico massimo d'equipaggiamento (16-19% in base alla Resistenza)"]
       - id: "5_4"
         icon: "/img/icons/talismans/18080.png"
         data: ["Prosthesis-Wearer Heirloom", "Obtained by finishing the sidequest given by Gowry in Caelid, then returning to Millicent to receive the Talisman", "Raises Dexterity by 5."]
+        data_it: ["Retaggio della Portatrice di Protesi", "Ottenuto completando la missione secondaria di Gowry a Caelid, poi tornando da Millicent per ricevere il Talismano", "Aumenta la Destrezza di 5"]
       - id: "5_5"
         icon: "/img/icons/talismans/18051.png"
         data: ["Radagon's Soreseal", "Found in a corpse in Fort Faroth", "Raises physical attributes by 5, increases damage taken by ~15%"]
+        data_it: ["Sigillo delle Piaghe di Radagon", "Trovato su un cadavere a Fort Faroth", "Aumenta gli attributi fisici di 5, aumenta il danno subito di circa il 15%"]
       - id: "5_6"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig (x3)", "Can be purchased from the Isolated Merchant in Dragonbarrow for 3,000 runes", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale (x3)", "Può essere acquistato dal Mercante Isolato nel Dragonbarrow per 3.000 rune", "Verrà perso alla morte al posto delle rune"]
       - id: "5_7"
         icon: "/img/icons/talismans/18512.png"
         data: ["Flamedrake Talisman +2", "Dropped by the Beastman of Farum Azula (x2) in Dragonbarrow Cave", "Boosts fire damage negation by 20%."]
+        data_it: ["Talismano Dracofiamma +2", "Rilasciato dalla Belva di Farum Azula (x2) nella Grotta del Dragonbarrow", "Aumenta la negazione del danno da fuoco del 20%"]
       - id: "5_8"
         icon: "/img/icons/talismans/18220.png"
         data: ["Bull-Goat's Talisman", "Found in the back in of Dragonbarrow Cave", "Raises Poise by ~33.3% rounded to the nearest integer."]
+        data_it: ["Talismano del Toro-Capra", "Trovato nel retro della Grotta del Dragonbarrow", "Aumenta la Poise di circa il 33,3% arrotondato all'intero più vicino"]
       - id: "5_9"
         icon: "/img/icons/talismans/18070.png"
         data: ["Starscourge Heirloom", "Found in Fort Gael", "Raises Strength by 5"]
+        data_it: ["Retaggio di Starscourge", "Trovato a Fort Gael", "Aumenta la Forza di 5"]
       - id: "5_10"
         icon: "/img/icons/talismans/18440.png"
         data: ["Faithful's Canvas Talisman", "Found on a corpse in Sellia Crystal Tunnel", "Raises potency of Incantations by 4%."]
+        data_it: ["Talismano della Tela del Fedele", "Trovato su un cadavere nel Tunnel del Cristallo di Sellia", "Aumenta la potenza delle Incantazioni del 4%"]
       - id: "5_11"
         icon: "/img/icons/talismans/18450.png"
         data: ["Flock's Canvas Talisman", "Dropped by Gowry after completing the Millicent questline if you kill him", "Greatly raises the potency of Incantations by 8%."]
+        data_it: ["Talismano della Tela del Gregge", "Rilasciato da Gowry dopo aver completato la missione di Millicent se lo uccidi", "Aumenta notevolmente la potenza delle Incantazioni dell'8%"]
       - id: "5_12"
         icon: "/img/icons/talismans/18501.png"
         data: ["Spelldrake Talisman +1", "Found in a small room in the northwest section of town, right under the balcony containing the Staff of Loss", "Boosts magical damage negation. (PvE: 17%; PVP: 5%)"]
+        data_it: ["Talismano Dracostregone +1", "Trovato in una piccola stanza nella sezione nordovest della città, sotto il balcone contenente il Bastone del Tiro Mancino", "Aumenta la negazione del danno magico (PvE: 17%; PvP: 5%)"]
       - id: "5_13"
         icon: "/img/icons/talismans/18490.png"
         data: ["Dragoncrest Shield Talisman", "Found on one of the edges of Bestial Sanctum", "Massively boosts physical damage negation by 10%."]
+        data_it: ["Talismano dello Scudo Draconico", "Trovato su uno degli orli del Santuario Bestiale", "Aumenta notevolmente la negazione del danno fisico del 10%"]
   -
     title: "Altus Plateau"
+    title_it: "Altopiano di Altus"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "6_1"
         icon: "/img/icons/talismans/18031.png"
         data: ["Arsenal Charm +1", "Found on a corpse in the Altus Tunnel", "Raises maximum equipment load by 17%."]
+        data_it: ["Amuleto dell'Arsenale +1", "Trovato su un cadavere nel Tunnel dell'Altus", "Aumenta il carico massimo d'equipaggiamento del 17%"]
       - id: "6_2"
         icon: "/img/icons/talismans/18240.png"
         data: ["Lightning Scorpion Charm", "Found in the Wyndham Catacombs in a room sealed by an Imp Statue", "Raises lightning attack (12%), but lowers damage negation (10%)"]
+        data_it: ["Amuleto dello Scorpione del Fulmine", "Trovato nei Catacombi di Wyndham in una stanza sigillata da una Statua Imp", "Aumenta l'attacco da fulmine (12%), ma riduce la negazione del danno (10%)"]
       - id: "6_3"
         icon: "/img/icons/talismans/18280.png"
         data: ["Ritual Sword Talisman", "Found in a treasure chest in Lux Ruins", "Raises attack power by 10% when HP is at maximum"]
+        data_it: ["Talismano della Spada Rituale", "Trovato in un forziere alle Rovine Lux", "Aumenta la potenza d'attacco del 10% quando i PV sono al massimo"]
       - id: "6_4"
         icon: "/img/icons/talismans/18840.png"
         data: ["Perfumer's Talisman", "Found in a treasure in Perfumer's Ruins", "Raises potency of perfume items"]
+        data_it: ["Talismano del Profumiere", "Trovato in un forziere alle Rovine del Profumiere", "Aumenta la potenza degli oggetti profumieri"]
       - id: "6_5"
         icon: "/img/icons/talismans/18860.png"
         data: ["Godfrey Icon", "Dropped by Godefroy the Grafted in the Golden Lineage Evergaol", "Enhances charged spells and skills by 15%."]
+        data_it: ["Icona di Godfrey", "Rilasciata da Godefroy il Greffe nell'Evergaol della Stirpe d'Oro", "Potenzia gli incantesimi caricati e le abilità del 15%"]
       - id: "6_6"
         icon: "/img/icons/talismans/18491.png"
         data: ["Dragoncrest Shield Talisman +1", "Found in the Sainted Hero's Grave behind an Imp Statue", "Boosts physical damage negation by 13%."]
+        data_it: ["Talismano dello Scudo Draconico +1", "Trovato nella Cripta dell'Eroe Santificato dietro una Statua Imp", "Aumenta la negazione del danno fisico del 13%"]
       - id: "6_7"
         icon: "/img/icons/talismans/18521.png"
         data: ["Boltdrake Talisman +1", "Found in the Old Altus Tunnel", "Boosts lightning damage negation by 17%."]
+        data_it: ["Talismano Dracofolgore +1", "Trovato nel Vecchio Tunnel dell'Altus", "Aumenta la negazione del danno da fulmine del 17%"]
       - id: "6_8"
         icon: "/img/icons/talismans/18590.png"
         data: ["Greatshield Talisman", "Found in a chest on a Wagon East Erdtree-Gazing Hill Grace", "Boosts guarding ability. (Multiplies your Guard Boost rating by 1.1, reducing the amount of stamina that is lost when you block attacks.)"]
+        data_it: ["Talismano del Grande Scudo", "Trovato in un forziere su un Carro a est della Grazia della Collina con Vista sull'Erdtree", "Potenzia la capacità di guardia (moltiplica il rating della Protezione Guardia per 1,1, riducendo la stamina persa bloccando gli attacchi)"]
       - id: "6_9"
         icon: "/img/icons/talismans/18610.png"
         data: ["Crimson Seed Talisman", "Found in the Sainted Hero's Grave", "Boosts HP regeneration from Flask of Crimson Tears by 20%"]
+        data_it: ["Talismano del Seme Cremisi", "Trovato nella Cripta dell'Eroe Santificato", "Potenzia il ripristino di PV dalla Fiaschetta delle Lacrime Cremisi del 20%"]
       - id: "6_10"
         icon: "/img/icons/talismans/18690.png"
         data: ["Concealing Veil", "Dropped by the Black Knife Assassin in Sage's Cave", "Conceals wearer while crouching away from foes."]
+        data_it: ["Velo Nascondente", "Rilasciato dall'Assassino della Lama Nera nella Grotta del Saggio", "Nasconde il portatore mentre si accovaccia lontano dai nemici"]
       - id: "6_11"
         icon: "/img/icons/talismans/18750.png"
         data: ["Sacrificial Twig", "Found inside a chest at an enemy camp north of Altus Highway Junction Grace", "Will be lost on death in place of runes"]
+        data_it: ["Ramoscello Sacrificale", "Trovato in un forziere in un accampamento nemico a nord della Grazia del Bivio della Via dell'Altus", "Verrà perso alla morte al posto delle rune"]
       - id: "7_8"
         icon: "/img/icons/talismans/18680.png"
         data: ["Crepus's Vial", "Reward for defeating Rileigh the Idle as part of the Volcano Manor questline", "Eliminates all sound made by the wearer during movement"]
+        data_it: ["Fiala di Crepus", "Premio per aver sconfitto Rileigh il Pigro nell'ambito della missione del Maniero del Vulcano", "Elimina tutti i suoni emessi dal portatore durante il movimento"]
   -
     title: "Mt. Gelmir"
+    title_it: "Monte Gelmir"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "7_1"
         icon: "/img/icons/talismans/18001.png"
         data: ["Crimson Amber Medallion +1", "Found on a corpse in Volcano Manor, behind a Imp Statue, accessible from the Prison Town Church Grace", "Raises maximum HP by 7%."]
+        data_it: ["Medaglione d'Ambra Cremisi +1", "Trovato su un cadavere nel Maniero del Vulcano, dietro una Statua Imp, accessibile dalla Grazia della Chiesa della Città Prigione", "Aumenta i PV massimi del 7%"]
       - id: "7_2"
         icon: "/img/icons/talismans/18250.png"
         data: ["Fire Scorpion Charm", "Found up the ramparts on a wooden platform to the west in Fort Laiedd within Mt. Gelmir", "Raises fire attack (12%), but lowers damage negations (10%)."]
+        data_it: ["Amuleto dello Scorpione del Fuoco", "Trovato sulle mura in una piattaforma di legno a ovest in Fort Laiedd nel Monte Gelmir", "Aumenta l'attacco da fuoco (12%), ma riduce le negazioni del danno (10%)"]
       - id: "7_4"
         icon: "/img/icons/talismans/18320.png"
         data: ["Dagger Talisman", "Found behind an Imp Statue, in Volcano Manor in the room before Rykard's portal", "Enhances critical hits by 17%."]
+        data_it: ["Talismano del Pugnale", "Trovato dietro una Statua Imp nel Maniero del Vulcano nella stanza prima del portale di Rykard", "Potenzia i colpi critici del 17%"]
       - id: "7_5"
         icon: "/img/icons/talismans/18400.png"
         data: ["Kindred of Rot's Exultation", "Dropped by the Kindred of Rot in Seethewater Cave", "Poisoning or rot in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a player or enemy nearby is inflicted with Poison or Scarlet Rot.)"]
+        data_it: ["Esultazione del Consanguineo della Putrefazione", "Rilasciata dal Consanguineo della Putrefazione nella Grotta dell'Acqua Bollente", "L'avvelenamento o la putrefazione nelle vicinanze aumenta la potenza d'attacco (aumenta del 20% per 20 secondi quando un giocatore o nemico nelle vicinanze è colpito da Veleno o Putrefazione Scarlatta)"]
       - id: "7_6"
         icon: "/img/icons/talismans/18541.png"
         data: ["Pearldrake Talisman +1", "Found in a treasure chest behind an Imp Statue in Wyndham Ruins", "Boosts non-physical damage negation by 7%."]
+        data_it: ["Talismano Dracoperlaceo +1", "Trovato in un forziere dietro una Statua Imp nelle Rovine di Wyndham", "Aumenta la negazione del danno non fisico del 7%"]
       - id: "7_7"
         icon: "/img/icons/talismans/18640.png"
         data: ["Taker's Cameo", "Reward from Tanith at Volcano Manor for doing the third part of the questline", "Restores HP upon defeating enemies. (3% of max HP + 30 HP)"]
+        data_it: ["Cameo del Prenditori", "Premio da Tanith al Maniero del Vulcano per aver completato la terza parte della missione", "Ripristina i PV all'eliminazione dei nemici (3% dei PV massimi + 30 PV)"]
       - id: "7_9"
         icon: "/img/icons/talismans/18740.png"
         data: ["Daedicar's Woe", "Obtained at the end of Rya's questline after the Volcano Manor questline", "Increases damage taken by 100%."]
+        data_it: ["Afflizione di Daedicar", "Ottenuta alla fine della missione di Rya dopo la missione del Maniero del Vulcano", "Aumenta il danno subito del 100%"]
   -
     title: "Leyndell, Royal City"
+    title_it: "Leyndell, Capitale Reale"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "8_1"
         icon: "/img/icons/talismans/18021.png"
         data: ["Viridian Amber Medallion +1", "Dropped by Margit, the Fell Omen in Capital Outskirts", "Raises maximum stamina by 13%."]
+        data_it: ["Medaglione d'Ambra Verdeggiante +1", "Rilasciato da Margit, l'Omen Caduto nei Dintorni della Capitale", "Aumenta la stamina massima del 13%"]
       - id: "8_2"
         icon: "/img/icons/talismans/18041.png"
         data: ["Erdtree's Favor +1", "Found in the boss room after beating Mohg, the Omen", "Raises maximum HP (3.5%), stamina (8.25%) and equip load (6.5%)"]
+        data_it: ["Favore dell'Erdtree +1", "Trovato nella stanza del boss dopo aver sconfitto Mohg l'Omen", "Aumenta i PV massimi (3,5%), la stamina (8,25%) e il carico d'equip (6,5%)"]
       - id: "8_3"
         icon: "/img/icons/talismans/18511.png"
         data: ["Flamedrake Talisman +1", "Found on the ground against a column on the bridge with the Fell Twins", "Boosts fire damage negation by 17%."]
+        data_it: ["Talismano Dracofiamma +1", "Trovato a terra contro una colonna sul ponte con i Gemelli Caduti", "Aumenta la negazione del danno da fuoco del 17%"]
       - id: "8_4"
         icon: "/img/icons/talismans/18531.png"
         data: ["Haligdrake Talisman +1", "Found on a corpse near the Leyndell Catacombs Grace behind two illusory walls", "Boosts holy damage negation by 17%."]
+        data_it: ["Talismano Dracosanto +1", "Trovato su un cadavere vicino alla Grazia dei Catacombi di Leyndell dietro due muri illusori", "Aumenta la negazione del danno sacro del 17%"]
       - id: "8_5"
         icon: "/img/icons/talismans/18550.png"
         data: ["Crucible Scale Talisman", "Found on a corpse in the Leyndell Catacombs, accessible by riding up the trap column", "Reduces damage taken from critical hits"]
+        data_it: ["Talismano della Scaglia del Crogiolo", "Trovato su un cadavere nei Catacombi di Leyndell, accessibile salendo la colonna trappola", "Riduce il danno subito dai colpi critici"]
       - id: "8_6"
         icon: "/img/icons/talismans/18560.png"
         data: ["Crucible Feather Talisman", "Found in a secret area within the Auriza Hero's Grave", "Improves dodge rolling but increases damage taken by 30%."]
+        data_it: ["Talismano della Piuma del Crogiolo", "Trovato in un'area segreta nella Cripta dell'Eroe di Auriza", "Migliora la schivata rotolante ma aumenta il danno subito del 30%"]
       - id: "8_7"
         icon: "/img/icons/talismans/18580.png"
         data: ["Ritual Shield Talisman", "Found in front of the doors of the Leyndell Colosseum", "Raises defense by 30% when HP is at maximum"]
+        data_it: ["Talismano dello Scudo Rituale", "Trovato davanti alle porte del Colosseo di Leyndell", "Aumenta la difesa del 30% quando i PV sono al massimo"]
       - id: "8_8"
         icon: "/img/icons/talismans/18630.png"
         data: ["Blessed Dew Talisman", "Found in a treasure chest on the Divine Bridge, guarded by a Golem", "Slowly restores HP (2 HP/sec)."]
+        data_it: ["Talismano della Rugiada Benedetta", "Trovato in un forziere sul Ponte Divino, sorvegliato da un Golem", "Ripristina lentamente i PV (2 PV/sec)"]
   -
     title: "Mountaintops of the Giants"
+    title_it: "Vette dei Giganti"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "9_1"
         icon: "/img/icons/talismans/18011.png"
         data: ["Cerulean Amber Medallion +1", "Found on a corpse hanging by a wooden ledge above the southern walls of Castle Sol", "Raises maximum FP by 9%."]
+        data_it: ["Medaglione d'Ambra Cerulea +1", "Trovato su un cadavere appeso a un bordo di legno sopra le mura meridionali di Castel Sol", "Aumenta il PM massimo del 9%"]
       - id: "9_2"
         icon: "/img/icons/talismans/18390.png"
         data: ["Lord of Blood's Exultation", "Dropped by Esgar, Priest of Blood in Leyndell Catacombs", "Blood loss in vicinity increases attack power. (Increases attack power by 20% for 20 seconds when a nearby player or enemy is inflicted with blood loss.)"]
+        data_it: ["Esultazione del Signore del Sangue", "Rilasciata da Esgar, Sacerdote del Sangue nei Catacombi di Leyndell", "La perdita di sangue nelle vicinanze aumenta la potenza d'attacco (aumenta del 20% per 20 secondi quando un giocatore o nemico nelle vicinanze subisce la perdita di sangue)"]
       - id: "9_3"
         icon: "/img/icons/talismans/18480.png"
         data: ["Primal Glintstone Blade", "Found in a treasure chest in the underground area of the Stargazer Ruins", "Spells consume less FP (25%), but maximum HP is reduced (15%)."]
+        data_it: ["Lama di Splendopietra Primordiale", "Trovata in un forziere nell'area sotterranea delle Rovine dello Stargazer", "Gli incantesimi consumano meno PM (25%), ma i PV massimi sono ridotti (15%)"]
       - id: "9_4"
         icon: "/img/icons/talismans/18542.png"
         data: ["Pearldrake Talisman +2", "Found on a corpse above the Haligtree Town Grace", "Boosts non-physical damage negation by 9%."]
+        data_it: ["Talismano Dracoperlaceo +2", "Trovato su un cadavere sopra la Grazia della Città dell'Haligtree", "Aumenta la negazione del danno non fisico del 9%"]
       - id: "9_5"
         icon: "/img/icons/talismans/18650.png"
         data: ["Godskin Swaddling Cloth", "Dropped by Godskin Apostle & Godskin Noble in the Spiritcaller's Cave", "Successive attacks restore HP (3% of max HP + 30 HP, timer resets at ~10 seconds)"]
+        data_it: ["Panno Avvolgente della Pelle dei Dio", "Rilasciato dall'Apostolo della Pelle del Dio e dal Nobile della Pelle del Dio nella Grotta dello Spirito Chiamante", "Gli attacchi successivi ripristinano i PV (3% dei PV massimi + 30 PV, il timer si azzera dopo circa 10 secondi)"]
   -
     title: "Consecrated Snowfield"
+    title_it: "Campo Innevato Consacrato"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "10_1"
         icon: "/img/icons/talismans/18022.png"
         data: ["Viridian Amber Medallion +2", "Found in a treasure chest accessible from the roof with the Summoning Snail near the Haligtree Town Plaza Grace", "Raises maximum stamina by 15%."]
+        data_it: ["Medaglione d'Ambra Verdeggiante +2", "Trovato in un forziere accessibile dal tetto con la Chiocciola Evocatrice vicino alla Grazia della Piazza della Città dell'Haligtree", "Aumenta la stamina massima del 15%"]
       - id: "10_2"
         icon: "/img/icons/talismans/18110.png"
         data: ["Silver Scarab", "Found in a treasure chest past an illusory wall in the Hidden Path to the Haligtree", "Raises item discovery by 75."]
+        data_it: ["Scarabeo d'Argento", "Trovato in un forziere oltre un muro illusorio nel Sentiero Nascosto verso l'Haligtree", "Aumenta il tasso di scoperta degli oggetti di 75"]
       - id: "10_3"
         icon: "/img/icons/talismans/18171.png"
         data: ["Stalwart Horn Charm +1", "Found on the west of Consecrated Snowfield, on the way to Yelough Anix Tunnel entrance", "Greatly raises robustness by 140."]
+        data_it: ["Amuleto del Corno Saldo +1", "Trovato a ovest del Campo Innevato Consacrato, sulla strada per l'ingresso del Tunnel Yelough Anix", "Aumenta notevolmente la robustezza di 140"]
       - id: "10_4"
         icon: "/img/icons/talismans/18061.png"
         data: ["Marika's Soreseal", "Found on an altar in a room requiring a Stonesword Key in Elphael, Brace of the Haligtree", "Greatly raises magical attributes by 5, but also increases damage taken by 15%."]
+        data_it: ["Sigillo delle Piaghe di Marika", "Trovato su un altare in una stanza che richiede una Chiave della Spada di Pietra nell'Elphael, Abbraccio dell'Haligtree", "Aumenta notevolmente gli attributi magici di 5, ma aumenta anche il danno subito del 15%"]
       - id: "10_5"
         icon: "/img/icons/talismans/18890.png"
         data: ["Millicent's Prosthesis", "Obtained by killing Millicent at the end of her questline", "Boosts dexterity by 5, raises attack power with successive attacks"]
+        data_it: ["Protesi di Millicent", "Ottenuta uccidendo Millicent alla fine della sua missione", "Aumenta la destrezza di 5, aumenta la potenza d'attacco con attacchi successivi"]
       - id: "10_6"
         icon: "/img/icons/talismans/18311.png"
         data: ["Rotten Winged Sword Insignia", "Reward for choosing to assist Millicent and successfully defeating her sisters", "Greatly raises attack power with successive attacks. (Base increase is 6%, increases in increments of 4%)"]
+        data_it: ["Insegna della Spada Alata Corrosa", "Premio per aver scelto di assistere Millicent e aver sconfitto con successo le sue sorelle", "Aumenta notevolmente la potenza d'attacco con attacchi successivi (aumento base del 6%, incrementa in passi del 4%)"]
       - id: "10_7"
         icon: "/img/icons/talismans/18411.png"
         data: ["Graven-Mass Talisman", "Found at the top of Albinauric Rise within the eastern Consecrated Snowfield", "Greatly raises potency of sorceries by 8%."]
+        data_it: ["Talismano della Massa di Graven", "Trovato in cima alla Torre di Albinauric nella parte orientale del Campo Innevato Consacrato", "Aumenta notevolmente la potenza delle magie dell'8%"]
       - id: "10_8"
         icon: "/img/icons/talismans/18493.png"
         data: ["Dragoncrest Greatshield Talisman", "Found in a treasure chest on an elevated platform inside the large building in the northeast of Elphael, Brace of the Haligtree", "Enormously boosts physical damage negation by 20%."]
+        data_it: ["Talismano del Grande Scudo Draconico", "Trovato in un forziere su una piattaforma sopraelevata all'interno del grande edificio nel nordest dell'Elphael, Abbraccio dell'Haligtree", "Aumenta enormemente la negazione del danno fisico del 20%"]
       - id: "10_9"
         icon: "/img/icons/talismans/18502.png"
         data: ["Spelldrake Talisman +2", "Found on a corpse in the secret catacombs underneath the Hidden Path to the Haligtree, to the right before the Stray Mimic Tear", "Boosts magical damage negation. (PvE: 20%; PVP: 6%)"]
+        data_it: ["Talismano Dracostregone +2", "Trovato su un cadavere nei catacombi segreti sotto il Sentiero Nascosto verso l'Haligtree, a destra prima del Mimo Vagabondo Lacrimoso", "Aumenta la negazione del danno magico (PvE: 20%; PvP: 6%)"]
   -
     title: "Crumbling Farum Azula"
+    title_it: "Farum Azula in Rovina"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "11_1"
         icon: "/img/icons/talismans/18870.png"
         data: ["Warrior Jar Shard", "Obtained by completing Iron Fist Alexander's questline", "Boosts the attack power of skills by 10%."]
+        data_it: ["Frammento del Vaso Guerriero", "Ottenuto completando la missione di Alessandro, Pugno di Ferro", "Aumenta la potenza d'attacco delle abilità del 10%"]
       - id: "11_2"
         icon: "/img/icons/talismans/18871.png"
         data: ["Shard of Alexander", "Obtained by completing Iron Fist Alexander's questline", "Greatly boosts the attack power of skills by 15%."]
+        data_it: ["Frammento di Alessandro", "Ottenuto completando la missione di Alessandro, Pugno di Ferro", "Aumenta notevolmente la potenza d'attacco delle abilità del 15%"]
       - id: "11_3"
         icon: "/img/icons/talismans/18460.png"
         data: ["Old Lord's Talisman", "Found in a treasure chest to the east of the Dragon Temple Rooftops Grace", "Extends spell (and incantation) effect duration by 30%."]
+        data_it: ["Talismano del Vecchio Signore", "Trovato in un forziere a est della Grazia dei Tetti del Tempio del Drago", "Estende la durata degli effetti degli incantesimi del 30%"]
       - id: "11_4"
         icon: "/img/icons/talismans/18492.png"
         data: ["Dragoncrest Shield Talisman +2", "Found on a corpse in a floating platform between Dragon Temple Lift and Dragon Temple Rooftop", "Boosts physical damage negation by 17%."]
+        data_it: ["Talismano dello Scudo Draconico +2", "Trovato su un cadavere su una piattaforma galleggiante tra l'Ascensore del Tempio del Drago e il Tetto del Tempio del Drago", "Aumenta la negazione del danno fisico del 17%"]
       - id: "11_5"
         icon: "/img/icons/talismans/18522.png"
         data: ["Boltdrake Talisman +2", "Found on a corpse accessible by dropping off a cliff to the east of where there is/was an Ancient Dragon", "Boosts lightning damage negation by 20%."]
+        data_it: ["Talismano Dracofolgore +2", "Trovato su un cadavere accessibile cadendo da una scogliera a est di dove si trova/trovava un Drago Antico", "Aumenta la negazione del danno da fulmine del 20%"]
   -
     title: "Leyndell, Capital of Ash"
+    title_it: "Leyndell, Capitale di Cenere"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "12_1"
         icon: "/img/icons/talismans/18002.png"
         data: ["Crimson Amber Medallion +2", "Found in Leyndell, Capital of Ash, just before entering the Subterranean Shunning-Grounds", "Raises max HP by 7.5%."]
+        data_it: ["Medaglione d'Ambra Cremisi +2", "Trovato a Leyndell, Capitale di Cenere, appena prima di entrare nelle Grotte Sotterranee Sigillate", "Aumenta i PV massimi del 7,5%"]
       - id: "12_2"
         icon: "/img/icons/talismans/18042.png"
         data: ["Erdtree's Favor +2", "Found on top of a branch jutting out of the ground in a large courtyard in the endgame", "Raises maximum HP (4%), stamina (9.6%) and equip load (8%)."]
+        data_it: ["Favore dell'Erdtree +2", "Trovato in cima a un ramo che emerge dal terreno in un grande cortile nel gioco finale", "Aumenta i PV massimi (4%), la stamina (9,6%) e il carico d'equip (8%)"]
   -
     title: "Siofra River"
+    title_it: "Fiume Siofra"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "13_1"
         icon: "/img/icons/talismans/18190.png"
         data: ["Clarifying Horn Charm", "Found on a corpse lying on the stairs leading to the lift going up to the Deep Siofra Well.", "Raises Focus by 90."]
+        data_it: ["Amuleto del Corno Chiarificatore", "Trovato su un cadavere sui gradini che portano all'ascensore del Pozzo Profondo del Siofra", "Aumenta la Messa a Fuoco di 90"]
       - id: "13_2"
         icon: "/img/icons/talismans/18060.png"
         data: ["Marika's Scarseal", "Found on a corpse at the base of the waterfall Found at the highest level of Siofra River", "Raises magical attributes by 3, but also increases damage taken by 10%."]
+        data_it: ["Sigillo delle Cicatrici di Marika", "Trovato su un cadavere alla base della cascata al livello più alto del Fiume Siofra", "Aumenta gli attributi magici di 3, ma aumenta anche il danno subito del 10%"]
   -
     title: "Nokron, Eternal City"
+    title_it: "Nokron, Città Eterna"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "14_1"
         icon: "/img/icons/talismans/18191.png"
         data: ["Clarifying Horn Charm +1", "Found on a corpse in the middle and at the lowest floor of a ruin in Nokron, Eternal City", "Raises Focus by 140."]
+        data_it: ["Amuleto del Corno Chiarificatore +1", "Trovato su un cadavere nel mezzo e al piano più basso di una rovina a Nokron, Città Eterna", "Aumenta la Messa a Fuoco di 140"]
       - id: "14_2"
         icon: "/img/icons/talismans/18210.png"
         data: ["Mottled Necklace", "Found on a corpse at very edge of the ruined bridge leading to Nokron, Eternal City, accessible via waygate at The Four Belfries", "Raises Robustness, Immunity, and Focus by 40."]
+        data_it: ["Collana Variegata", "Trovata su un cadavere al bordo del ponte in rovina che porta a Nokron, Città Eterna, accessibile tramite portale ai Quattro Campanili", "Aumenta la Robustezza, l'Immunità e la Messa a Fuoco di 40"]
       - id: "14_3"
         icon: "/img/icons/talismans/18211.png"
         data: ["Mottled Necklace +1", "Found on a corpse on top of some ruined arches in Nokron, Eternal City", "Raises Robustness, Immunity, and Focus by 60."]
+        data_it: ["Collana Variegata +1", "Trovata su un cadavere in cima ad alcune arcate in rovina a Nokron, Città Eterna", "Aumenta la Robustezza, l'Immunità e la Messa a Fuoco di 60"]
   -
     title: "Mohgwyn Palace"
+    title_it: "Palazzo Mohgwyn"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "15_1"
         icon: "/img/icons/talismans/18532.png"
         data: ["Haligdrake Talisman +2", "Found on a corpse in Mohgwyn Palace, in a small cluster of graves near a watchful Giant Crow perched up high", "Boosts holy damage negation by 20%."]
+        data_it: ["Talismano Dracosanto +2", "Trovato su un cadavere nel Palazzo Mohgwyn, in un piccolo gruppo di tombe vicino a un Grande Corvo in agguato su un'altura", "Aumenta la negazione del danno sacro del 20%"]
   -
     title: "Ainsel River"
+    title_it: "Fiume Ainsel"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "16_1"
         icon: "/img/icons/talismans/18180.png"
         data: ["Immunizing Horn Charm", "Found on a corpse in an ant nest in Ainsel River", "Raises Immunity by 90."]
+        data_it: ["Amuleto del Corno Immunizzante", "Trovato su un cadavere in un nido di formiche nel Fiume Ainsel", "Aumenta l'Immunità di 90"]
   -
     title: "Nokstella, Eternal City"
+    title_it: "Nokstella, Città Eterna"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "17_1"
         icon: "/img/icons/talismans/18150.png"
         data: ["Moon of Nokstella", "Found in a chest underneath a massive throne in Nokstella, Eternal City", "Increases memory slots by 2."]
+        data_it: ["Luna di Nokstella", "Trovata in un forziere sotto un massiccio trono a Nokstella, Città Eterna", "Aumenta le slot di memoria di 2"]
   -
     title: "Lake of Rot"
+    title_it: "Lago della Putrefazione"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "18_1"
         icon: "/img/icons/talismans/18181.png"
         data: ["Immunizing Horn Charm +1", "Reward for defeating an Ancestral Follower South East of the Lake of Rot Shoreside Site of Grace ", "Raises Immunity by 140."]
+        data_it: ["Amuleto del Corno Immunizzante +1", "Premio per aver sconfitto un Seguace Ancestrale a sudest della Grazia della Riva del Lago della Putrefazione", "Aumenta l'Immunità di 140"]
   -  
     title: "Deeproot Depths"
+    title_it: "Profondità delle Radici"
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: "19_1"
         icon: "/img/icons/talismans/18201.png"
         data: ["Prince of Death's Cyst", "Dropped by a large runebear in a cave behind a waterfall northeast of the Deeproot Depths Site of Grace", "Greatly raises vitality by 140."]
+        data_it: ["Cisti del Principe della Morte", "Rilasciata da un grande orso del mondo in una grotta dietro una cascata a nordest del Sito di Grazia delle Profondità delle Radici", "Aumenta notevolmente la vitalità di 140"]
   - title: "Realm of Shadow"
+    title_it: "Regno dell'Ombra"
+    dlc: true
     table: ["Name", "Location", "Effect(s)"]
+    table_it: ["Nome", "Luogo", "Effetti"]
     items:
       - id: '50_1'
         icon: '/img/icons/talismans/18900.png'
         data: ['Crimson Amber Medallion +3', 'Drops as a reward upon defeating the Death Knight boss located at the Fog Rift Catacombs.', 'Boosts maximum HP by 10%.']
+        data_it: ["Medaglione d'Ambra Cremisi +3", "Rilasciato come premio sconfiggendo il boss Cavaliere della Morte nei Catacombi della Fenditura della Nebbia", "Aumenta i PV massimi del 10%"]
       - id: '50_2'
         icon: '/img/icons/talismans/18901.png'
         data: ['Cerulean Amber Medallion +3', 'Drops as a reward upon defeating the Death Knight boss located at the Scorpion River Catacombs.', 'Boosts maximum FP by 12.5%.']
+        data_it: ["Medaglione d'Ambra Cerulea +3", "Rilasciato come premio sconfiggendo il boss Cavaliere della Morte nei Catacombi del Fiume dello Scorpione", "Aumenta il PM massimo del 12,5%"]
       - id: '50_3'
         icon: '/img/icons/talismans/18902.png'
         data: ['Viridian Amber Medallion +3', 'Darklight Catacombs, right after the first canon imp. Jump over on the ledge to the right and then drop down to that small archway under it.', 'Boosts maximum stamina by 17%.']
+        data_it: ["Medaglione d'Ambra Verdeggiante +3", "Catacombi della Luce Oscura, subito dopo il primo imp canonico. Salta sul bordo a destra poi scendi nell'arco sotto di esso", "Aumenta la stamina massima del 17%"]
       - id: '50_4'
         icon: '/img/icons/talismans/18903.png'
         data: ['Two-Headed Turtle Talisman', 'Inside a cave beneath a waterfall guarded by enemies Just east of Rivermouth Cave.', 'Greatly raises stamina recovery speed by 22.2%.']
+        data_it: ["Talismano della Tartaruga a Due Teste", "All'interno di una grotta sotto una cascata sorvegliata da nemici, appena a est della Grotta della Foce del Fiume", "Aumenta notevolmente la velocità di recupero della stamina del 22,2%"]
       - id: '50_5'
         icon: '/img/icons/talismans/18904.png'
         data: ['Stalwart Horn Charm +2', 'Bonny Gaol: After you jump down the hole, head east past the rats and climb up the ladder. Defeat the Inner Jar monster, you will find the talisman in the room.', 'Vastly raises robustness by 180.']
+        data_it: ["Amuleto del Corno Saldo +2", "Prigione di Bonny: Dopo essere caduti nel buco, vai a est oltre i ratti e sali la scala. Sconfiggi il mostro del Vaso Interno e troverai il talismano nella stanza", "Aumenta vastamente la robustezza di 180"]
       - id: '50_6'
         icon: '/img/icons/talismans/18905.png'
         data: ['Immunizing Horn Charm +2', 'Drops upon defeating the Lesser Ulcerated Tree Spirit in the sewers section of Belurat Tower Settlement.', 'Vastly raises immunity by 180.']
+        data_it: ["Amuleto del Corno Immunizzante +2", "Rilasciato sconfiggendo il Minore Spirito dell'Albero Ulcerato nelle fogne dell'Insediamento della Torre di Belurat", "Aumenta vastamente l'immunità di 180"]
       - id: '50_7'
         icon: '/img/icons/talismans/18906.png'
         data: ['Clarifying Horn Charm +2', 'Lamenter''s Gaol: After dropping down the small cave infested with rats, continue following the path and go straight. You''ll find this talisman on a corpse on the right side once you enter the area.', 'Vastly raises focus by 230.']
+        data_it: ["Amuleto del Corno Chiarificatore +2", "Prigione del Lamentatore: Dopo essere caduti nella piccola grotta infestata di ratti, continua lungo il percorso e vai dritto. Troverai questo talismano su un cadavere sul lato destro appena entri nell'area", "Aumenta vastamente la messa a fuoco di 230"]
       - id: '50_8'
         icon: '/img/icons/talismans/18908.png'
         data: ['Mottled Necklace +2', 'In the Rauh Ancient ruins just after getting past the forge giant across the bridge. You must make your way through the ruin it was in front of, and once at the top proceed past the large stone structure all the way to the end of the area and unblock the spirit spring. Then jump down onto the spring and jump back up to the opposite side. The necklace will be at the top of the stairs.', 'Vastly raises immunity, robustness, and focus by 100.']
+        data_it: ["Collana Variegata +2", "Nelle antiche rovine di Rauh, subito dopo aver superato il gigante della fucina sul ponte. Devi farti strada attraverso la rovina davanti a te e, arrivato in cima, prosegui oltre la grande struttura in pietra fino alla fine dell'area e sblocca la sorgente di spirito. Poi salta giù sulla sorgente e risali sul lato opposto. La collana sarà in cima alle scale", "Aumenta vastamente l'immunità, la robustezza e la messa a fuoco di 100"]
       - id: '50_9'
         icon: '/img/icons/talismans/18909.png'
         data: ['Spelldrake Talisman +3', 'Can be looted from a corpse near the Castle Front site of Grace near Castle Ensis. From the Castle Front site of Grace, If you go directly north you can drop off of the cliffside and then follow the path east which will lead you to the storeroom where the talisman is located.', 'Boosts magic damage negation by 22%.']
+        data_it: ["Talismano Dracostregone +3", "Si trova su un cadavere vicino al sito di grazia del Fronte del Castello, vicino a Castel Ensis. Dal sito di grazia del Fronte del Castello, se vai direttamente a nord puoi cadere dal lato della scogliera e poi seguire il percorso a est che ti porterà al magazzino dove si trova il talismano", "Aumenta la negazione del danno magico del 22%"]
       - id: '50_10'
         icon: '/img/icons/talismans/18910.png'
         data: ['Flamedrake Talisman +3', 'Can be found at the Fort of Reprimand inside a chest. Entering through the front gate, go down the staircase in the back right corner. Continue through the doorway on the left side of the hallway and follow this path until you see two soldiers standing in front of a body. Climb over the cages to their left and it will lead you to the chest that contains the talisman.', 'Boosts fire damage negation by 22%.']
+        data_it: ["Talismano Dracofiamma +3", "Si trova a Fort Reprimanda all'interno di un forziere. Entrando dalla porta principale, scendi la scala nell'angolo a destra sul retro. Continua attraverso l'ingresso sul lato sinistro del corridoio e segui questo percorso finché non vedi due soldati in piedi davanti a un corpo. Scavalca le gabbie alla loro sinistra e ti porterà al forziere", "Aumenta la negazione del danno da fuoco del 22%"]
       - id: '50_11'
         icon: '/img/icons/talismans/18911.png'
         data: ['Boltdrake Talisman +3', 'Can be found at Shadow Keep. From the Storehouse: First Floor site of grace, take the stairs up to the second floor and find a dead-end with several shade protectors. Jump over the railing to reach a room with the talisman, then use the lever to move the bookcase and re-emerge near the site of grace.', 'Boosts lightning damage negation by 22%.']
+        data_it: ["Talismano Dracofolgore +3", "Si trova a Shadow Keep. Dalla grazia del Magazzino: Primo Piano, sali le scale al secondo piano e trova un vicolo cieco con vari protettori d'ombra. Salta oltre il parapetto per raggiungere una stanza con il talismano, poi usa la leva per spostare la libreria e riemergi vicino al sito di grazia", "Aumenta la negazione del danno da fulmine del 22%"]
       - id: '50_12'
         icon: '/img/icons/talismans/18912.png'
         data: ['Golden Braid', 'Shaman Village, Scaduview: The talisman is looted in front of a statue at the top of the hill found inside the trunk of a large decayed tree (the only dead tree there) in the Shaman Village of the Scaduview region. Closest graces are Hinterland and Hinterland Bridge.', 'Boosts holy damage negation by 22%.']
+        data_it: ["Treccia d'Oro", "Villaggio degli Sciamani, Scaduview: Il talismano si trova davanti a una statua in cima alla collina all'interno del tronco di un grande albero morto (l'unico morto lì) nel Villaggio degli Sciamani della regione dello Scaduview. Le grazie più vicine sono Hinterland e Ponte Hinterland", "Aumenta la negazione del danno sacro del 22%"]
       - id: '50_13'
         icon: '/img/icons/talismans/18913.png'
         data: ['Pearldrake Talisman +3', 'Can be found within Shadow Keep, Specimen Storehouse. You must progress until the seventh floor to pull the lever that moves the statues. Once you do this, return to the third floor and find the head of the statue to pull this item from its beard. One way to do this is to visit the Storehouse, Fourth Floor site of grace, turn around and go East to the railing, then do a big jump from the railing to the feet of the statue below. After landing, run across the statue''s back until you can drop down and loot the talisman.', 'Boosts non-physical damage negation by 11%.']
+        data_it: ["Talismano Dracoperlaceo +3", "Si trova all'interno di Shadow Keep, Deposito dei Campioni. Devi progredire fino al settimo piano per azionare la leva che sposta le statue. Una volta fatto, torna al terzo piano e trova la testa della statua per estrarre questo oggetto dalla sua barba. Un modo è visitare la grazia del Deposito, Quarto Piano, girarsi e andare a est verso il parapetto, poi fare un grande salto dal parapetto ai piedi della statua sottostante. Dopo l'atterraggio, corri lungo la schiena della statua finché puoi scendere e saccheggiare il talismano", "Aumenta la negazione del danno non fisico dell'11%"]
       - id: '50_14'
         icon: '/img/icons/talismans/18914.png'
         data: ['Crimson Seed Talisman +1', 'In the centre of the Finger Ruins of Rhia. Go to the large ring of fingers (as shown by the Ruins Map given by Count Ymir), and then sound the hanging bell from one of the fingers that''s pointing down. The Hole-Laden Necklace given by Ymir is required to sound it.', 'Greatly boosts HP restoration from the Flask of Crimson Tears by 30%.']
+        data_it: ["Talismano del Seme Cremisi +1", "Al centro delle Rovine delle Dita di Rhia. Vai al grande anello di dita (come mostrato dalla Mappa delle Rovine data dal Conte Ymir), poi suona la campana appesa da uno dei dita che punta verso il basso. È necessaria la Collana con Buchi data da Ymir per suonarla", "Potenzia notevolmente il ripristino di PV dalla Fiaschetta delle Lacrime Cremisi del 30%"]
       - id: '50_15'
         icon: '/img/icons/talismans/18915.png'
         data: ['Cerulean Seed Talisman +1', 'Sound the Hanging Bell in Finger Ruins of Dheo.', 'Greatly boosts FP restoration from the Flask of Cerulean Tears by 30%.']
+        data_it: ["Talismano del Seme Ceruleo +1", "Suona la Campana Appesa nelle Rovine delle Dita di Dheo", "Potenzia notevolmente il ripristino di PM dalla Fiaschetta delle Lacrime Cerulee del 30%"]
       - id: '50_16'
         icon: '/img/icons/talismans/18916.png'
         data: ['Blessed Blue Dew Talisman', 'Church of Benediction. Head inside the church and investigate the statue of Marika to find the Blessed Blue Dew Talisman.', 'Gradually restores FP (0.5 FP per second).']
+        data_it: ["Talismano della Rugiada Blu Benedetta", "Chiesa della Benedizione. Entra nella chiesa ed esamina la statua di Marika per trovare il Talismano della Rugiada Blu Benedetta", "Ripristina gradualmente il PM (0,5 PM al secondo)"]
       - id: '50_17'
         icon: '/img/icons/talismans/18917.png'
         data: ['Fine Crucible Feather Talisman', 'Ancient Ruins of Rauh: From the Rauh Ancient Ruins, East site of grace, travel to the north west through the cave until you reach a room with two branches, then climb up the branch and jump to the other branch on the left.', 'Improves backsteps but increases damage taken by 15%.']
+        data_it: ["Talismano della Piuma Fine del Crogiolo", "Antiche Rovine di Rauh: Dalla grazia delle Antiche Rovine di Rauh, Est, viaggia a nordovest attraverso la grotta finché non raggiungi una stanza con due rami, poi sali il ramo e salta sull'altro ramo a sinistra", "Migliora i passi indietro ma aumenta il danno subito del 15%"]
       - id: '50_18'
         icon: '/img/icons/talismans/18918.png'
         data: ['Outer God Heirloom', 'Found inside a chest inside a small building at the top of Prospect Town.', 'Raises arcane by 5.']
+        data_it: ["Retaggio del Dio Esterno", "Trovato in un forziere all'interno di un piccolo edificio in cima alla Città di Prospect", "Aumenta l'arcano di 5"]
       - id: '50_19'
         icon: '/img/icons/talismans/18924.png'
         data: ['Shattered Stone Talisman', 'Moorth Ruins. From Moorth Ruins Site of Grace head South-East through the big stony archway. You''ll directly head towards a house ruin. You can go through the house''s doorway, exit on the small roof, turn left and around the corner you''ll find the talisman lying there on a corpse.', 'Raises potency of kicking and stomping skills by 10%.']
+        data_it: ["Talismano della Pietra Frantumata", "Rovine di Moorth. Dalla Grazia del Sito delle Rovine di Moorth vai a sudest attraverso il grande arco di pietra. Ti dirigerai direttamente verso un edificio in rovina. Puoi passare dall'ingresso della casa, uscire sul piccolo tetto, girare a sinistra e intorno all'angolo troverai il talismano su un cadavere", "Aumenta la potenza delle abilità di calci e calpestio del 10%"]
       - id: '50_20'
         icon: '/img/icons/talismans/18919.png'
         data: ['Two-Handed Sword Talisman', 'Temple Town Ruins: Found inside the highest structure. After the fight with the Horned Warrior, just continue up the stairs into the next room to find a chest with this item inside.', 'Enhances attacks with two-handed weapons by 15%.']
+        data_it: ["Talismano della Spada a Due Mani", "Rovine del Tempio: Trovato all'interno della struttura più alta. Dopo la lotta con il Guerriero Cornuto, continua semplicemente su per le scale nella stanza successiva per trovare un forziere con questo oggetto", "Potenzia gli attacchi con armi a due mani del 15%"]
       - id: '50_21'
         icon: '/img/icons/talismans/18920.png'
         data: ['Crusade Insignia', 'Belurat Tower Settlement: The Crusade Insignia Talisman is acquired upon defeating the Fire Knight Queelign NPC Invader.', 'Raises attack power by 15% for 20 seconds after defeating an enemy.']
+        data_it: ["Insegna della Crociata", "Insediamento della Torre di Belurat: L'Insegna della Crociata si ottiene sconfiggendo il PNJ invasore Cavaliere del Fuoco Queelign", "Aumenta la potenza d'attacco del 15% per 20 secondi dopo aver sconfitto un nemico"]
       - id: '50_22'
         icon: '/img/icons/talismans/18921.png'
         data: ['Aged One''s Exultation', 'Abyssal Woods: Dropped by the Aging Untouchable found nearest to the Abandoned Church. After the enemy''s grab attack is parried, the Aging Untouchable enters a vulnerable state in which it can be damaged.', 'Raises attack power by 20% when madness is triggered in the vicinity.']
+        data_it: ["Esultazione del Vecchio", "Boschi Abissali: Rilasciato dall'Intoccabile Invecchiante vicino alla Chiesa Abbandonata. Dopo che l'attacco con presa del nemico viene parato, l'Intoccabile Invecchiante entra in uno stato vulnerabile in cui può essere danneggiato", "Aumenta la potenza d'attacco del 20% quando la follia viene scatenata nelle vicinanze"]
       - id: '50_23'
         icon: '/img/icons/talismans/18922.png'
         data: ['Arrow''s Soaring Sting Talisman', 'Found on top of a tower at Fog Rift Fort. From within the door of the tower where Black Knight Garrew was, go through a gap between the tower and the rock wall to the east of the doorway. Hop down onto the wooden pathway and follow it until you see a ladder on your right. Take it up, after which you''ll see another ladder on your left. Take it to the uppermost level of the tower. Here you can find the treasure chest containing the Talisman.', 'Increases the effective range of bows by 50% and raises attack power of arrows and bolts by 8%.']
+        data_it: ["Talismano del Pungiglione Volante della Freccia", "Trovato in cima a una torre a Fort della Fenditura della Nebbia. Dall'interno della porta della torre dove si trovava il Cavaliere Nero Garrew, passa attraverso un varco tra la torre e la parete rocciosa a est dell'ingresso. Scendi sul percorso di legno e seguilo finché non vedi una scala sulla tua destra. Sali, e dopo vedrai un'altra scala alla tua sinistra. Prendila fino al livello più alto della torre. Qui trovi il forziere con il Talismano", "Aumenta la gittata effettiva degli archi del 50% e aumenta la potenza d'attacco di frecce e dardi dell'8%"]
       - id: '50_24'
         icon: '/img/icons/talismans/18925.png'
         data: ['Pearl Shield Talisman', 'Found inside a chest in a small camp of Messmer soldiers in the woods. Southwestern of Taylew''s Ruined Forge Site of Grace.', 'Boosts all non-physical damage negation by 20% while guarding.']
+        data_it: ["Talismano dello Scudo Perlaceo", "Trovato in un forziere in un piccolo accampamento di soldati di Messmer nei boschi, a sudovest della Grazia della Forgia in Rovina di Taylew", "Aumenta la negazione di tutto il danno non fisico del 20% mentre si blocca"]
       - id: '50_25'
         icon: '/img/icons/talismans/18923.png'
         data: ['Dried Bouquet', 'Found in a small room hidden behind debris in the area you fight several Man-Fly enemies. From where you got the Bone Bow, as you exit the doorway, make a hard left and you''ll see a pile of rubble that you can jump on and you''ll see there''s a secret room tucked behind it. Go inside a large storeroom.', 'Raises attack power by 15% for 20 seconds when a spirit you have summoned dies.']
+        data_it: ["Bouquet Essiccato", "Trovato in una piccola stanza nascosta dietro i detriti nell'area dove si combattono diversi nemici Mosca-Uomo. Da dove si ottiene l'Arco d'Osso, uscendo dall'ingresso, gira a sinistra e vedrai un mucchio di macerie su cui puoi saltare e vedrai una stanza segreta nascosta dietro. Entra in un grande magazzino", "Aumenta la potenza d'attacco del 15% per 20 secondi quando uno spirito evocato muore"]
       - id: '50_26'
         icon: '/img/icons/talismans/18934.png'
         data: ['Smithing Talisman', 'Ruined Forge Starfall Past: Looted from a corpse. The body is inside a room filled with Fire Blob enemies, on the upper-most level of the Ruined Forge of Starfall Past.', 'Enhances weapon-throwing attacks by 10%.']
+        data_it: ["Talismano della Forgiatura", "Forgia in Rovina Caduta delle Stelle: Saccheggiato da un cadavere. Il corpo si trova all'interno di una stanza piena di nemici Blob di Fuoco, al livello più alto della Forgia in Rovina Caduta delle Stelle", "Potenzia gli attacchi con lancio di armi del 10%"]
       - id: '50_27'
         icon: '/img/icons/talismans/18926.png'
         data: ['Ailment Talisman', 'Can be looted from a corpse. The body can be found lying at the edge of an unfinished wooden bridge of the Abandoned Ailing Village. ', 'When certain ailments are triggered, this talisman grants resistance by roughly 350 to the same ailment.']
+        data_it: ["Talismano del Malanno", "Può essere saccheggiato da un cadavere. Il corpo si trova al bordo di un ponte di legno incompiuto del Villaggio degli Afflitti Abbandonato", "Quando certi malanni vengono scatenati, questo talismano concede resistenza di circa 350 allo stesso malanno"]
       - id: '50_28'
         icon: '/img/icons/talismans/18937.png'
         data: ['Retaliatory Crossed-Tree', 'You need to follow Leda''s questline, and invade Ansbach. Then return to the grace where You talk to Leda and say your farewells. She will give you this talisman before her dialogue ends.', 'Enhances attacks executed after rolling or backstepping by 17%.']
+        data_it: ["Croce Incrociata di Rappresaglia", "Devi seguire la missione di Leda e invadere Ansbach. Poi torna alla grazia dove parli con Leda e dai i tuoi addii. Ti darà questo talismano prima che il dialogo finisca", "Potenzia gli attacchi eseguiti dopo una schivata rotolante o un passo indietro del 17%"]
       - id: '50_29'
         icon: '/img/icons/talismans/18938.png'
         data: ['Lacerating Crossed-Tree', 'You get it from aiding Needle Knight Leda in invading and defeating Hornsent after she chooses him as a target, you have to go back to the Highroad Cross site of grace and talk to her after doing so and she will give the talisman to you. If you begin the Mesmer fight in the Shadow Keep, you are unable to aquire this item, as the Hornset invasion / assist signs are removed.', 'Enhances dash attacks 15% in PvE and 7.5% in PVP.']
+        data_it: ["Croce Incrociata Lacerante", "Si ottiene aiutando Needle Knight Leda nell'invadere e sconfiggere Hornsent dopo che lei lo sceglie come bersaglio, devi tornare alla grazia del Bivio dell'Alta Via e parlarle dopo e lei ti darà il talismano. Se inizi il combattimento con Messmer a Shadow Keep, non puoi ottenere questo oggetto, poiché i segni di invasione/assistenza di Hornsent vengono rimossi", "Potenzia gli attacchi in corsa del 15% in PvE e del 7,5% in PvP"]
       - id: '50_30'
         icon: '/img/icons/talismans/18927.png'
         data: ['Sharpshot Talisman', 'Found inside Albinauric''s Shack in Scaduview.', 'Boosts attack power of precision-aimed shots by 12%.']
+        data_it: ["Talismano del Tiro Preciso", "Trovato nell'Abitazione degli Albinauric nello Scaduview", "Aumenta la potenza d'attacco dei tiri di precisione del 12%"]
       - id: '50_31'
         icon: '/img/icons/talismans/18928.png'
         data: ['St. Trina''s Smile', 'Obtained as a drop upon defeating a hostile NPC, Thiollier. Thiollier only becomes hostile if you pursue St. Trina and Thiollier''s quest.', 'Raises attack power by 20% for 30 seconds when sleep is triggered in the vicinity.']
+        data_it: ["Sorriso di Santa Trina", "Ottenuto come bottino sconfiggendo il PNJ ostile Thiollier. Thiollier diventa ostile solo se si persegue la missione di Santa Trina e Thiollier", "Aumenta la potenza d'attacco del 20% per 30 secondi quando il sonno viene scatenato nelle vicinanze"]
       - id: '50_32'
         icon: '/img/icons/talismans/18929.png'
         data: ['Talisman of the Dread', 'Elder''s Hovel: Can be found on a corpse inside Elder''s Hovel.', 'Raises potency of magma by 14%.']
+        data_it: ["Talismano del Timore", "Abitazione degli Anziani: Si trova su un cadavere all'interno dell'Abitazione degli Anziani", "Aumenta la potenza del magma del 14%"]
       - id: '50_33'
         icon: '/img/icons/talismans/18930.png'
         data: ['Enraged Divine Beast', 'Can be selected as one of the possible rewards when trading Remembrance of the Dancing Lion with Enia at the Roundtable Hold.', 'Raises potency of storms by 10%.']
+        data_it: ["Bestia Divina Infuriata", "Può essere selezionata come uno dei possibili premi scambiando la Rimembranza del Leone Danzante con Enia alla Tavola Rotonda", "Aumenta la potenza delle tempeste del 10%"]
       - id: '50_34'
         icon: '/img/icons/talismans/18931.png'
         data: ['Beloved Stardust', 'Given by Count Ymir after completing the first part of his quest line.', 'Shortens casting speed +99 for sorcery and incantations by the utmost, but increases damage taken by 30%.']
+        data_it: ["Polvere di Stelle Amata", "Data dal Conte Ymir dopo aver completato la prima parte della sua missione", "Riduce al minimo il tempo di lancio degli incantesimi magici e delle incantazioni, ma aumenta il danno subito del 30%"]
       - id: '50_35'
         icon: '/img/icons/talismans/18932.png'
         data: ['Talisman of Lord''s Bestowal', 'Shadow Keep: Can be found beside the big golden tree.', 'Increases poise by 54% after using a flask of tears.']
+        data_it: ["Talismano della Concessione del Signore", "Shadow Keep: Si trova accanto al grande albero dorato", "Aumenta la poise del 54% dopo aver usato una fiaschetta delle lacrime"]
       - id: '50_36'
         icon: '/img/icons/talismans/18933.png'
         data: ['Verdigris Discus', 'Due west of the Highroad Cross site of grace is a waygate that can be unlocked with an Imbued Sword Key. Once through the waygate, walk uphill to see two waterfalls flowing in front of a set of stone arches. Through the middle of the two waterfalls, and past a Divine Bird Warrior, is a statue with this talisman at its base.', 'Raises defense with higher equipment load.']
+        data_it: ["Disco Verderame", "A ovest della grazia del Bivio dell'Alta Via c'è un portale che può essere sbloccato con una Chiave della Spada Intarsiata. Attraversato il portale, sali la collina per vedere due cascate che scorrono davanti a una serie di archi di pietra. Attraverso il mezzo delle due cascate, e oltre un Guerriero Uccello Divino, c'è una statua con questo talismano alla sua base", "Aumenta la difesa con un carico d'equipaggiamento più alto"]
       - id: '50_37'
         icon: '/img/icons/talismans/18935.png'
         data: ['Rellana''s Cameo', 'Located in Castle Ensis just behind hostile NPC Moonrithyll, lying on an altar.', 'Enhances attacks executed by 15% after maintaining the same stance for 2 seconds.']
+        data_it: ["Cameo di Rellana", "Situato a Castel Ensis dietro il PNJ ostile Moonrithyll, posato su un altare", "Potenzia gli attacchi del 15% dopo aver mantenuto la stessa posizione per 2 secondi"]
       - id: '50_38'
         icon: '/img/icons/talismans/18936.png'
         data: ['Blade of Mercy', 'From the Scorched Ruins Site of Grace, go south down the path. Just a bit after passing under the bridge above, there will be 2 small trees to your left. Turn west and you will see a small stairway. Go up the four steps, then head south up a slight slope to find a stairway to the west. Follow this path around, up some more stairs, north up a small clothed rooftop and some more stairs up, and then east across the cloth draped roof of the bridge. Go up the stairs to the north and open the door. Inside is a chest, open it to find the item.', 'Raises attack power by 20% for 20 seconds after each critical hit.']
+        data_it: ["Lama della Misericordia", "Dalla Grazia del Sito delle Rovine Bruciate, vai a sud lungo il percorso. Poco dopo aver passato sotto il ponte sopra, ci saranno 2 piccoli alberi alla tua sinistra. Gira a ovest e vedrai una piccola scalinata. Sali i quattro gradini, poi vai a sud su una leggera pendenza per trovare una scalinata a ovest. Segui questo percorso, su altre scale, a nord su un piccolo tetto di tessuto e altre scale, poi a est attraverso il tetto di tessuto del ponte. Sali le scale a nord e apri la porta. All'interno c'è un forziere, aprilo per trovare l'oggetto", "Aumenta la potenza d'attacco del 20% per 20 secondi dopo ogni colpo critico"]
       - id: '50_39'
         icon: '/img/icons/talismans/18939.png'
         data: ['Talisman of All Crucibles', 'Start at the Ancient Ruins, Grand Starway Site of Grace, head southwest to the elevator. At bottom of the elavator looking south west, there is 2 paths of floating platforms, go to the left one, following it around and it loops to chest with this talisman.', 'Reduces damage taken from critical hits and head shots and improves the effectiveness of rolling and backstepping, but also increases damage taken by 45%.']
+        data_it: ["Talismano di Tutti i Crogioli", "Parti dalla grazia del Grande Corridoio delle Antiche Rovine, vai a sudovest verso l'ascensore. In fondo all'ascensore guardando a sudovest, ci sono 2 percorsi di piattaforme galleggianti, vai su quello di sinistra, segui il giro e porta a un forziere con questo talismano", "Riduce il danno subito dai colpi critici e dai colpi alla testa e migliora l'efficacia delle schivate rotolanti e dei passi indietro, ma aumenta anche il danno subito del 45%"]

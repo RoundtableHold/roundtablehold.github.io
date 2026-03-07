@@ -1,0 +1,403 @@
+import yaml
+import os
+import re
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+DATA_DIR = os.path.join(REPO_ROOT, 'data', 'checklists')
+
+# Official Italian Nomenclature Mapping
+mapping = {
+    # Sections
+    "Limgrave": "Sepolcride",
+    "Weeping Peninsula": "Penisola del pianto",
+    "Liurnia of the Lakes": "Liurnia lacustre",
+    "Caelid": "Caelid",
+    "Altus Plateau": "Altopiano di Altus",
+    "Mt. Gelmir": "Monte Gelmir",
+    "Leyndell, Royal Capital": "Leyndell, capitale reale",
+    "Mountaintops of the Giants": "Vette dei Giganti",
+    "Consecrated Snowfield": "Terre sacre",
+    "Crumbling Farum Azula": "Farum Azula in frantumi",
+    "Leyndell, Ashen Capital": "Leyndell, capitale delle ceneri",
+
+    # Dungeon Types
+    "Catacomb": "Catacomba",
+    "Cave": "Grotta",
+    "Evergaol": "Galera eterna",
+    "Hero's grave": "Tomba dell'eroe",
+    "Landmark": "Luogo d'interesse",
+    "Legacy dungeon (major)": "Legacy dungeon (maggiore)",
+    "Legacy dungeon (minor)": "Legacy dungeon (minore)",
+    "Tunnel": "Galleria",
+
+    # Location Names
+    "Stranded Graveyard": "Cimitero abbandonato",
+    "Groveside Cave": "Grotta del bosco",
+    "Coastal Cave": "Grotta costiera",
+    "Murkwater Cave": "Grotta di Acquaquieta",
+    "Highroad Cave": "Grotta della via maestra",
+    "Deathtouched Catacombs": "Catacombe tocca-morte",
+    "Stormfoot Catacombs": "Catacombe di Piè di Tempesta",
+    "Murkwater Catacombs": "Catacombe di Acquaquieta",
+    "Limgrave Tunnels": "Gallerie di Sepolcride",
+    "Fringefolk Hero's Grave": "Tomba dell'eroe dei confini",
+    "Forlorn Hound Evergaol": "Galera eterna del Limiere abbandonato",
+    "Stormhill Evergaol": "Galera eterna di Colle Tempesta",
+    "Minor Erdtree": "Albero Madre minore",
+    "Minor Erdtree (southwest)": "Albero Madre minore (sud-ovest)",
+    "Minor Erdtree (northeast)": "Albero Madre minore (nord-est)",
+    "Minor Erdtree (west)": "Albero Madre minore (ovest)",
+    "Minor Erdtree (east)": "Albero Madre minore (est)",
+    "Divine Tower of Limgrave": "Torre divina di Sepolcride",
+    "Dragon-Burnt Ruins": "Rovine bruciate dal drago",
+    "Gatefront Ruins": "Rovine davanti al cancello",
+    "Mistwood Ruins": "Rovine di Tetrobosco",
+    "Waypoint Ruins": "Rovine del punto di sosta",
+    "Summonwater Village": "Villaggio di Idrochiama",
+    "Stormhill Shack": "Capanna di Colle Tempesta",
+    "Warmaster's Shack": "Capanna del mastro guerriero",
+    "Artist's Shack": "Capanna dell'artista",
+    "Church of Elleh": "Chiesa di Elleh",
+    "Church of Dragon Communion": "Chiesa della Comunione draconica",
+    "Third Church of Marika": "Terza chiesa di Marika",
+    "Stormgate": "Cancello della tempesta",
+    "Siofra River Well": "Pozzo del fiume Siofra",
+    "Fort Haight": "Forte Haight",
+    "Stormveil Castle": "Castello di Grantempesta",
+    "Earthbore Cave": "Grotta dello scavo",
+    "Tombsward Cave": "Grotta del Sepolcreto",
+    "Impaler's Catacombs": "Catacombe dell'Impalatore",
+    "Tombsward Catacombs": "Catacombe del Sepolcreto",
+    "Morne Tunnel": "Galleria di Morne",
+    "Weeping Evergaol": "Galera eterna del pianto",
+    "Oridys's Rise": "Guglia di Oridys",
+    "Demi-Human Forest Ruins": "Rovine dei semiumani nel bosco",
+    "Tombsward Ruins": "Rovine del Sepolcreto",
+    "Witchbane Ruins": "Rovine della rovina delle streghe",
+    "Isolated Merchant's Shack": "Capanna del mercante isolato",
+    "Church of Pilgrimage": "Chiesa del pellegrinaggio",
+    "Callu Baptismal Church": "Chiesa battesimale di Callu",
+    "Fourth Church of Marika": "Quarta chiesa di Marika",
+    "Bridge of Sacrifice": "Ponte del Sacrificio",
+    "Ailing Village": "Villaggio malato",
+    "Forest Lookout Tower": "Vedetta del bosco",
+    "Tower of Return": "Torre del ritorno",
+    "Castle Morne": "Castello di Morne",
+    "Academy Crystal Cave": "Grotta di cristallo dell'Accademia",
+    "Lakeside Crystal Cave": "Grotta di cristallo sul lago",
+    "Stillwater Cave": "Grotta d'Acquastagna",
+    "Black Knife Catacombs": "Catacombe dei Neri Coltelli",
+    "Cliffbottom Catacombs": "Catacombe di Piè di Scarpata",
+    "Road's End Catacombs": "Catacombe della fine della strada",
+    "Raya Lucaria Crystal Tunnel": "Galleria cristallina di Raya Lucaria",
+    "Malefactor's Evergaol": "Galera eterna del malfattore",
+    "Cuckoo's Evergaol": "Galera eterna del cuculo",
+    "Royal Grave Evergaol": "Galera eterna della tomba regale",
+    "Ringleader's Evergaol": "Galera eterna del capobanda",
+    "Divine Tower of Liurnia": "Torre divina di Liurnia",
+    "Converted Tower": "Torre convertita",
+    "Testu's Rise": "Guglia di Testu",
+    "Converted Fringe Tower": "Torre convertita dei confini",
+    "Ranni's Rise": "Guglia di Ranni",
+    "Seluvis's Rise": "Guglia di Seluvis",
+    "Renna's Rise": "Guglia di Renna",
+    "Chelona's Rise": "Guglia di Chelona",
+    "Laskyar Ruins": "Rovine di Laskyar",
+    "Purified Ruins": "Rovine purificate",
+    "Kingsrealm Ruins": "Rovine del dominio regale",
+    "Lunar Estate Ruins": "Rovine della tenuta lunare",
+    "Moonfolk Ruins": "Rovine del popolo lunare",
+    "Slumbering Wolf's Shack": "Capanna del lupo dormiente",
+    "Boilprawn Shack": "Capanna del gambero bollito",
+    "Revenger's Shack": "Capanna del vendicatore",
+    "Church of Irith": "Chiesa di Irith",
+    "Rose Church": "Chiesa della rosa",
+    "Church of Vows": "Chiesa dei voti",
+    "Bellum Church": "Chiesa di Bellum",
+    "Church of Inhibition": "Chiesa dell'inibizione",
+    "Cathedral of Manus Celes": "Cattedrale di Manus Celes",
+    "Highway Lookout Tower": "Vedetta della via maestra",
+    "Carian Study Hall": "Sala studio cariana",
+    "Jarburg": "Jarburg",
+    "Academy Gate Town": "Borgo dei cancelli dell'Accademia",
+    "Temple Quarter": "Quartiere del tempio",
+    "Village of the Albinaurics": "Villaggio degli Albinauri",
+    "The Four Belfries": "I quattro campanili",
+    "Frenzied Flame Village": "Villaggio della Fiamma Frenetica",
+    "Frenzy-Flaming Tower": "Torre della Fiamma Frenetica",
+    "Ainsel River Well": "Pozzo del fiume Ainsel",
+    "Deep Ainsel Well": "Pozzo profondo dell'Ainsel",
+    "Academy of Raya Lucaria": "Accademia di Raya Lucaria",
+    "Caria Manor": "Maniero cariano",
+    "Ruin-Strewn Precipice": "Precipizio cosparso di rovine",
+    "Abandoned Cave": "Grotta abbandonata",
+    "Gaol Cave": "Grotta delle segrete",
+    "Dragonbarrow Cave": "Grotta dei tumuli draconici",
+    "Sellia Hideaway": "Rifugio di Sellia",
+    "Caelid Catacombs": "Catacombe di Caelid",
+    "Minor Erdtree Catacombs": "Catacombe dell'Albero Madre minore",
+    "War-Dead Catacombs": "Catacombe dei caduti in guerra",
+    "Gael Tunnel": "Galleria di Gael",
+    "Sellia Crystal Tunnel": "Galleria cristallina di Sellia",
+    "Sellia Evergaol": "Galera eterna di Sellia",
+    "Divine Tower of Caelid": "Torre divina di Caelid",
+    "Isolated Divine Tower": "Torre divina isolata",
+    "Lenne's Rise": "Guglia di Lenne",
+    "Forsaken Ruins": "Rovine abbandonate",
+    "Caelem Ruins": "Rovine di Caelem",
+    "Caelid Waypoint Ruins": "Rovine del punto di sosta di Caelid",
+    "Street of Sages Ruins": "Rovine della via dei sapienti",
+    "Shack of the Rotting": "Capanna della putrefazione",
+    "Isolated Merchant's Shack": "Capanna del mercante isolato",
+    "Gowry's Shack": "Capanna di Gowry",
+    "Smouldering Church": "Chiesa ardente",
+    "Cathedral of Dragon Communion": "Cattedrale della Comunione draconica",
+    "Church of the Plague": "Chiesa della piaga",
+    "Sellia, Town of Sorcery": "Sellia, città della stregoneria",
+    "Sellia Gateway": "Portale di Sellia",
+    "Bestial Sanctum": "Santuario bestiale",
+    "Deep Siofra Well": "Pozzo profondo del Siofra",
+    "Fort Gael": "Forte Gael",
+    "Fort Haight": "Forte Haight",
+    "Fort Faroth": "Forte Faroth",
+    "Swamp Lookout Tower": "Vedetta della palude",
+    "Redmane Castle": "Castello di Mantorosso",
+    "Perfumer's Grotto": "Grotta dei profumieri",
+    "Sage's Cave": "Grotta del saggio",
+    "Unsightly Catacombs": "Catacombe sgradevoli",
+    "Old Altus Tunnel": "Vecchia galleria dell'Altus",
+    "Altus Tunnel": "Galleria dell'Altus",
+    "Sainted Hero's Grave": "Tomba dell'eroe santo",
+    "Golden Lineage Evergaol": "Galera eterna del lignaggio dorato",
+    "Mirage Rise": "Guglia miraggio",
+    "Perfumer's Ruins": "Rovine dei profumieri",
+    "Lux Ruins": "Rovine di Lux",
+    "Wyndham Ruins": "Rovine di Wyndham",
+    "Writheblood Ruins": "Rovine dei rigurgiti di sangue",
+    "Woodfolk Ruins": "Rovine del popolo dei boschi",
+    "Stormcaller Church": "Chiesa del richiamo della tempesta",
+    "Second Church of Marika": "Seconda chiesa di Marika",
+    "Grand Lift of Dectus": "Grande montacarichi di Dectus",
+    "West Windmill Pasture": "Pascolo del mulino a vento ovest",
+    "East Windmill Pasture": "Pascolo del mulino a vento est",
+    "Village Windmill Pasture": "Pascolo del mulino a vento del villaggio",
+    "Dominula, Windmill Village": "Dominula, villaggio del mulino a vento",
+    "The Shaded Castle": "Castello d'Ombra",
+    "Seethewater Cave": "Grotta dell'Acqua ribollente",
+    "Volcano Cave": "Grotta del vulcano",
+    "Wyndham Catacombs": "Catacombe di Wyndham",
+    "Gelmir Hero's Grave": "Tomba dell'eroe di Gelmir",
+    "Corpse-Stench Shack": "Capanna dell'odore di cadavere",
+    "Craftsman's Shack": "Capanna dell'artigiano",
+    "Hermit's Shack": "Capanna dell'eremita",
+    "Hermit Village": "Villaggio dell'eremita",
+    "Fort Laiedd": "Forte Laiedd",
+    "Volcano Manor": "Villa Vulcano",
+    "Auriza Side Tomb": "Tomba laterale di Auriza",
+    "Leyndell Catacombs": "Catacombe di Leyndell",
+    "Sealed Tunnel": "Galleria sigillata",
+    "Auriza Hero's Grave": "Tomba dell'eroe di Auriza",
+    "Divine Tower of West Altus": "Torre divina dell'Altus occidentale",
+    "Hermit Merchant's Shack": "Capanna del mercante eremita",
+    "Minor Erdtree Church": "Chiesa dell'Albero Madre minore",
+    "Leyndell, Royal Capital": "Leyndell, capitale reale",
+    "Subterranean Shunning-Grounds": "Sotterranei dei rinnegati",
+    "Spiritcaller Cave": "Grotta degli evocatori di spiriti",
+    "Giants' Mountaintop Catacombs": "Catacombe delle Vette dei Giganti",
+    "Giant-Conquering Hero's Grave": "Tomba dell'eroe conquistatore di giganti",
+    "Lord Contender's Evergaol": "Galera eterna del pretendente lord",
+    "Divine Tower of East Altus": "Torre divina dell'Altus orientale",
+    "Heretical Rise": "Guglia eretica",
+    "Zamor Ruins": "Rovine di Zamor",
+    "Stargazer's Ruins": "Rovine degli astronomi",
+    "Shack of the Lofty": "Capanna dell'eccelso",
+    "First Church of Marika": "Prima chiesa di Marika",
+    "Church of Repose": "Chiesa del riposo",
+    "Grand Lift of Rold": "Grande montacarichi di Rold",
+    "Guardians' Garrison": "Guarnigione dei guardiani",
+    "Forge of the Giants": "Forgia dei giganti",
+    "Castle Sol": "Castel Sol",
+    "Cave of the Forlorn": "Grotta del reietto",
+    "Hidden Path to the Haligtree": "Cammino nascosto per il Sacro Albero",
+    "Consecrated Snowfield Catacombs": "Catacombe delle Terre sacre",
+    "Yelough Anix Tunnel": "Galleria di Yelough Anix",
+    "Albinauric Rise": "Guglia degli Albinauri",
+    "Yelough Anix Ruins": "Rovine di Yelough Anix",
+    "Apostate Derelict": "Ruderi del reietto",
+    "Ordina, Liturgical Town": "Ordina, città liturgica",
+    "Miquella's Haligtree": "Sacro Albero di Miquella",
+    "Elphael, Brace of the Haligtree": "Elphael, sostegno del Sacro Albero",
+    "Crumbling Farum Azula": "Farum Azula in frantumi",
+    "Leyndell, Ashen Capital": "Leyndell, capitale delle ceneri",
+    "Divine Tower of Liurnia": "Torre divina di Liurnia",
+    "Divine Tower of Caelid": "Torre divina di Caelid",
+
+    # Bosses
+    "Soldier of Godrick": "Soldato di Godrick",
+    "Beastman of Farum Azula": "Uomo bestia di Farum Azula",
+    "Beastman of Farum Azula (x2)": "Uomo bestia di Farum Azula (x2)",
+    "Demi-Human Chief (x2)": "Capo dei seminumani (x2)",
+    "Patches": "Patches",
+    "Guardian Golem": "Golem guardiano",
+    "Black Knife Assassin": "Assassino dei Neri Coltelli",
+    "Erdtree Burial Watchdog": "Sentinella dell'Albero Madre",
+    "Erdtree Burial Watchdog (x2)": "Sentinella dell'Albero Madre (x2)",
+    "Grave Warden Duelist": "Duellante guardiano delle tombe",
+    "Stonedigger Troll": "Troll scavapietre",
+    "Ulcerated Tree Spirit": "Spirito dell'Albero ulcerato",
+    "Grafted Scion": "Rampollo innestato",
+    "Grafted Scion (x2)": "Rampollo innestato (x2)",
+    "Bloodhound Knight Darriwil": "Darriwil, Cavaliere del Limiere",
+    "Crucible Knight": "Cavaliere del crogiolo",
+    "Erdtree Avatar": "Avatar dell'Albero Madre",
+    "Erdtree Avatar (x2)": "Avatar dell'Albero Madre (x2)",
+    "Leonine Misbegotten": "Prole leonina",
+    "Runebear": "Orso runico",
+    "Miranda, the Blighted Bloom": "Miranda, fiore della rovina",
+    "Cemetary Shade": "Ombra cimiteriale",
+    "Cemetery Shade": "Ombra cimiteriale",
+    "Scaly Misbegotten": "Creatura scagliosa",
+    "Ancient Hero of Zamor": "Eroe antico di Zamor",
+    "Crystalian (x2)": "Cristallino (x2)",
+    "Crystalian (x3)": "Cristallino (x3)",
+    "Cleanrot Knight": "Cavaliere di Marcescenza",
+    "Cleanrot Knight (x2)": "Cavaliere di Marcescenza (x2)",
+    "Spirit-Caller Snail": "Lumaca evocatrice di spiriti",
+    "Crystalian (Ringblade)": "Cristallino (lama circolare)",
+    "Adan, Thief of Fire": "Adan, ladro del fuoco",
+    "Bols, Carian Knight": "Bols, cavaliere cariano",
+    "Alabaster Lord": "Signore d'alabastro",
+    "Alecto, Black Knife Ringleader": "Alecto, capobanda dei Neri Coltelli",
+    "Red Wolf of Radagon": "Lupo rosso di Radagon",
+    "Rennala, Queen of the Full Moon": "Rennala, Regina del Plenilunio",
+    "Royal Knight Loretta": "Loretta, cavaliere reale",
+    "Magma Wyrm Makar": "Makar, drago di magma",
+    "Frenzied Duelist": "Duellante frenetico",
+    "Putrid Tree Spirit": "Spirito dell'Albero putrido",
+    "Magma Wyrm": "Drago di magma",
+    "Fallingstar Beast": "Bestia della stella cadente",
+    "Battlemage Hugues": "Hugues, mago guerriero",
+    "Putrid Avatar": "Avatar putrido",
+    "Omenkiller & Miranda, the Blighted Bloom": "Assassino dei presagi e Miranda, fiore della rovina",
+    "Necromancer Garris": "Garris, negromante",
+    "Perfumer Tricia & Misbegotten Warrior": "Tricia, profumiera e Guerriero seminumano",
+    "Godefroy the Grafted": "Godefroy l'Innestato",
+    "Wormface": "Facciale vermiforme",
+    "Demi-Human Queen Margot": "Margot, regina dei semiumani",
+    "Red Wolf of the Champion": "Lupo rosso del campione",
+    "God-Devouring Serpent / Rykard, Lord of Blasphemy": "Serpente divoratore di dèi / Rykard, signore della blasfemia",
+    "Esgar, Priest of Blood": "Esgar, sacerdote del sangue",
+    "Onyx Lord": "Signore d'onice",
+    "Morgott, the Omen King": "Morgott, re dei presagi",
+    "Godfrey, First Elden Lord (Golden Shade)": "Godfrey, primo lord ancestrale (Ombra dorata)",
+    "Mohg, the Omen": "Mohg, il Presagio",
+    "Roundtable Knight Vyke": "Vyke, cavaliere della Tavola rotonda",
+    "Commander Niall": "Comandante Niall",
+    "Misbegotten Crusader": "Prole crociata",
+    "Stray Mimic Tear": "Lacrima riflessa randagia",
+    "Putrid Grave Warden Duelist": "Duellante guardiano delle tombe putrido",
+    "Astel, Stars of Darkness": "Astel, Stelle dell'Oscurità",
+    "Malenia, Blade of Miquella": "Malenia, Lama di Miquella",
+    "Godskin Duo": "Duo di Pelliccia divina",
+    "Maliketh, the Black Blade": "Maliketh, la Lama Nera",
+    "Sir Gideon Ofnir, The All-Knowing": "Sir Gideon Ofnir, l'Onnisciente",
+    "Godfrey, First Elden Lord (Hoarah Loux)": "Godfrey, primo lord ancestrale (Hoarah Loux)",
+    "Radagon of the Golden Order / Elden Beast": "Radagon dell'Ordine Aureo / Bestia ancestrale",
+    "Misbegotten Warrior & Crucible Knight": "Guerriero seminumano e Cavaliere del crogiolo",
+    "Starscourge Radahn": "Radahn, il Flagello celeste",
+    "Margit, the Fell Omen": "Margit, l'Araldo nefasto",
+    "Godrick the Grafted": "Godrick l'Innestato",
+
+    # Notes
+    "Related to Boc's questline.": "Legata alla missione di Boc.",
+    "Requires 2 Stonesword Keys.": "Richiede 2 chiavi della spada di pietra.",
+    "Bloodhound's Fang (Armament)": "Zanna del Limiere (Armamento)",
+    "Aspects of the Crucible: Tail (Incantation)": "Aspetti del Crogiolo: Coda (Incantesimo)",
+    "Semi-required for progression.": "Semi-necessario per progredire.",
+    "Requires 1 Stonesword Key.": "Richiede 1 chiave della spada di pietra.",
+    "Related to Irina's questline.": "Legata alla missione di Irina.",
+    "Related to Kenneth Haight's questline.": "Legata alla missione di Kenneth Haight.",
+    "Related to Kenneth Haight’s questline.": "Legata alla missione di Kenneth Haight.",
+    "Related to Kenneth Haight’s questline.": "Legata alla missione di Kenneth Haight.",
+    "Has 1 Imp Statue inside.": "Contiene 1 statua di gargoyle.",
+    "Flame of the Fell God (Incantation)": "Fiamma del dio caduto (Incantesimo)",
+    "Greatblade Phalanx (Sorcery)": "Falange di spadoni (Stregoneria)",
+    "Meteorite (Sorcery)": "Meteorite (Stregoneria)",
+    "Black Knife Tiche (Ashen Remains)": "Tiche dei Neri Coltelli (Ceneri spiritiche)",
+    "Not required, unless you want alternate entry to Altus Plateau.": "Non necessario, a meno che non si voglia un accesso alternativo all'Altopiano di Altus.",
+    "Needs Academy Key to enter.": "Necessita della chiave dell'Accademia per entrare.",
+    "Semi-required for progression, needs Academy Key to enter.": "Semi-necessario per progredire, richiede la chiave dell'Accademia.",
+    "Part of Sellen's questline. Located behind an illusory cliffside.": "Parte della missione di Sellen. Dietro una parete illusoria.",
+    "Battlemage Hugues (Ashen Remains)": "Hugues, mago guerriero (Ceneri spiritiche)",
+    "Related to Millicent's questline.": "Legata alla missione di Millicent.",
+    "Doesn't have a map icon in-game for some reason!": "Non ha un'icona sulla mappa nel gioco per qualche motivo!",
+    "Related to the Dung Eater's questline.": "Legata alla missione del Mangiasterco.",
+    "Fingerprint Set (Armor) & Vyke's Dragonbolt (Incantation)": "Set impronta digitale (Armatura) e Folgore draconica di Vyke (Incantesimo)",
+    "Related to Latenna's questline.": "Legata alla missione di Latenna.",
+    "Required to get to Elphael, Brace of the Haligtree.": "Necessario per raggiungere Elphael, sostegno del Sacro Albero.",
+    "Required.": "Necessario.",
+    "Required. Replaces Leyndell, Royal Capital.": "Necessario. Sostituisce Leyndell, capitale reale.",
+    "Aspects of the Crucible: Tail (Incantation)": "Aspetti del Crogiolo: Coda (Incantesimo)",
+    "Godfrey Icon (Talisman)": "Icona di Godfrey (Talismano)",
+    "Radgon's Scarseal (Talisman)": "Marchio di Radagon (Talismano)",
+}
+
+def translate_boss_line(line):
+    # Split by <br> to handle multiple bosses
+    parts = line.split('<br>')
+    translated_parts = []
+    for part in parts:
+        p = part.strip()
+        translated_parts.append(mapping.get(p, p))
+    return '<br>'.join(translated_parts)
+
+def load_yaml(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return yaml.safe_load(f)
+
+def save_yaml(data, filepath):
+    with open(filepath, 'w', encoding='utf-8') as f:
+        yaml.dump(data, f, allow_unicode=True, width=1000, sort_keys=False)
+
+def translate_landmarks():
+    filepath = os.path.join(DATA_DIR, 'landmarks.yaml')
+    data = load_yaml(filepath)
+    
+    data['title_it'] = "Luoghi d'interesse"
+    
+    for section in data.get('sections', []):
+        if 'title' in section:
+            section['title_it'] = mapping.get(section['title'], section['title'])
+        
+        if 'table' in section:
+            section['table_it'] = ["Nome", "Tipologia", "Boss", "Note"]
+            
+        for item in section.get('items', []):
+            if isinstance(item, dict) and 'data' in item:
+                d = item['data']
+                translated_data = []
+                
+                # Name
+                if len(d) > 0:
+                    translated_data.append(mapping.get(d[0], d[0]))
+                
+                # Type
+                if len(d) > 1:
+                    translated_data.append(mapping.get(d[1], d[1]))
+                
+                # Bosses
+                if len(d) > 2:
+                    translated_data.append(translate_boss_line(d[2]))
+                
+                # Notes
+                if len(d) > 3:
+                    translated_data.append(mapping.get(d[3], d[3]))
+                
+                item['data_it'] = translated_data
+
+    save_yaml(data, filepath)
+    print("Landmarks & Locations translation applied.")
+
+if __name__ == '__main__':
+    translate_landmarks()
